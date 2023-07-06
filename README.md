@@ -1,2 +1,1 @@
-# funbgcex-data
-Data Sources for FunBGCeX
+# Data Sources for FunBGCeX
