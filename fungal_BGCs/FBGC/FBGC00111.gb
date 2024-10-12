@@ -1,31 +1,31 @@
-LOCUS       FBGC00111       20836 bp DNA     linear   UNA 19-JAN-2023
+LOCUS       FBGC00111              20836 bp    DNA     linear   UNA 19-JAN-2023
 DEFINITION  swainsonine.
 ACCESSION   FBGC00111
-VERSION     .
+VERSION     FBGC00111
 KEYWORDS    .
-SOURCE      Chaetothyriaceae sp.
+SOURCE      Chaetothyriaceae sp
   ORGANISM  Chaetothyriaceae sp.
+            .
 REFERENCE   1  (bases 1 to 20836)
   AUTHORS   Cook D, Donzelli BGG, Creamer R, Baucom DL, Gardner DR, Pan J, Moore
             N, Krasnoff SB, Jaromczyk JW, Schardl CL.
-  TITLE     Swainsonine Biosynthesis Genes in Diverse Symbiotic and Pathogenic 
+  TITLE     Swainsonine Biosynthesis Genes in Diverse Symbiotic and Pathogenic
             Fungi.
   JOURNAL   G3 (Bethesda) 2017;7:1791-1797
-  PUBMED    28381497
+   PUBMED   28381497
 REFERENCE   2  (bases 1 to 20836)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Jan 19, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1534/g3.117.041384"; journalName: "G3 (Bethesda)"; date: "2017";
-            volume: "7"; pages: "1791-1797"
+  JOURNAL   Exported Jan 19, 2023 from SnapGene 6.2.1 https://www.snapgene.com
 COMMENT     ##Assembly-Data-START##
             Assembly Method       :: Newbler v. 2.8
             Assembly Name         :: Ipomoea carnea endophyte
             Coverage              :: 30x
             Sequencing Technology :: 454
             ##Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1534/g3.117.041384"; journalName: "G3 (Bethesda)"; date: "2017";
+            volume: "7"; pages: "1791-1797"
 FEATURES             Location/Qualifiers
      source          1..20836
                      /host="Ipomoea carnea"
@@ -36,7 +36,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="swnA"
                      /product="aminotransferase SwnA"
-                     /label=swnA
+                     /label="swnA"
                      /protein_id="AQV04223.1"
                      /translation="MGRMSISDVKALRSASHSSFAAALSYKQYDAYKSARSLAKPASKI
                      SQCHLSKESRQFSGASLKKMATPNPGSVIIPLGTGRPNAEFFPWESLVIQNEKFADPQP
@@ -47,12 +47,13 @@ FEATURES             Location/Qualifiers
                      FLSYHEVSTAFVNGPSQLMLYKLLEESWGHLGFLNWLADLSARYRQRREIMVQACQTHL
                      PRTLCTWSVPPHGLFLWIHVNITKHHEFGSSRAVENGGLHRSIEERIMASAYEKGVQVT
                      NGSMFQVSHHLDNEIGFRFTFATADESELDTGVRFFAEAVKDVFSVTH"
+                     /Pfam="Aminotran_1_2"
      CDS             complement(join(2467..2756,2834..3464))
                      /codon_start=1
                      /gene="swnH1"
                      /product="2OG-Fe(II)-dependent dioxygenase SwnH1"
                      /function="acting on 1-hydroxyindolizidine"
-                     /label=swnH1
+                     /label="swnH1"
                      /note="2-oxoglutarate and Fe(II) dependent dioxygenase"
                      /protein_id="AQV04219.1"
                      /translation="MAAFPPPIDPSYVPSVSFTKIPATAPIEDIIAVLERDGALILTDL
@@ -61,11 +62,12 @@ FEATURES             Location/Qualifiers
                      SLSNETMLGFMIAGSRTTRANGATMAIPGSHKWDHTRVPRTDEVCFAEMDPGSALVFLG
                      TVYHGAGNNTVPDQVRKLYGLFFIPGTLRPEENQFFAIPRSKVLGMSDTMLSLLGYKKP
                      ETWLGIVNNADPAENLPEVFAMANA"
+                     /Pfam="PhyH"
      CDS             join(5604..5975,6147..6908)
                      /codon_start=1
                      /gene="swnT"
                      /product="amino-acid permease SwnT"
-                     /label=swnT
+                     /label="swnT"
                      /note="SwnT; similar to choline transporter"
                      /translation="MPYGGSPQVFWGFLIQAVVALATATTLAELISAMPHPGGQYIWVH
                      KLAPERYRRGLSFTTAMIAWIAAIAAGSSGNLSVPVNAFGIVTLLNPNFAYQRWMGFVV
@@ -75,11 +77,12 @@ FEATURES             Location/Qualifiers
                      LLQYVSYSIPTVLVLWQGRANFRHGPFWYPRLGLLANVVMISWTVVAFVFYCFPAYSQV
                      VASEMNYVSGVFVVIALLVASLWFLYARGNYEVIERL"
                      /pseudogene="unitary"
+                     /Pfam="AA_permease_2"
      CDS             complement(join(7072..7364,7430..8096))
                      /codon_start=1
                      /gene="swnH2"
                      /product="2OG-Fe(II)-dependent dioxygenase SwnH2"
-                     /label=swnH2
+                     /label="swnH2"
                      /note="putative 2-oxoglutarate and Fe(II) dependent
                      dioxygenase"
                      /protein_id="AQV04220.1"
@@ -89,14 +92,15 @@ FEATURES             Location/Qualifiers
                      DMVFASKHHPNMKINEVDGFSCFLAGTKITRENGGTMIILGSHKWEHDRRGKPEEVSFL
                      EMDRGDAFIFLSTVAHGAGYNTIPGEIRKIMNLVFCRGTLRTEENQFLCNPRSKVLKMS
                      PKMQSLLGFKKPATNWLGMVENEDPTKDLAAIYEKVLA"
+                     /Pfam="PhyH"
      CDS             10086..17588
                      /codon_start=1
                      /gene="swnK"
-                     /product="nonribosomal peptide synthetase-polyketide 
+                     /product="nonribosomal peptide synthetase-polyketide
                      synthase SwnK"
-                     /label=swnK
+                     /label="swnK"
                      /note="multifunctional enzyme including amino acid
-                     adenylylation and ketide synthase domains; involved in 
+                     adenylylation and ketide synthase domains; involved in
                      swainsonine biosynthesis"
                      /protein_id="AQV04224.1"
                      /translation="MAYQIKSNDISDQDYQALVNDFNATDDTSLLGNRLDQLFEEVVDR
@@ -142,11 +146,13 @@ FEATURES             Location/Qualifiers
                      LITGSLDLGAFPSLDADLSTVLPVDYLCNTIAAIMTEDQQRIGEDYDFINSQAPTFNHF
                      FKIMGAASGGIDTVPFNEWYRRALKYAGAHPKSSLARITTIIDGYTDETAGALVKGNPV
                      GKHVFGVDDYPAPAIDEEYVRKYLDCINAAKAITCA"
+                     /Pfam="AA-adenyl-dom, ACP_PCP, PKS_KS, PKS_AT, fPKS_KR,
+                     NAD_binding_4"
      CDS             complement(17909..18835)
                      /codon_start=1
                      /gene="swnR"
                      /product="short-chain dehydrogenase/reductase SwnR"
-                     /label=swnR
+                     /label="swnR"
                      /note="putative NADB Rossmann-fold reductase"
                      /protein_id="AQV04222.1"
                      /translation="MRVAIAGYGDLTRYICEEFTQAGHDLVILTRNHKPQLETQGITQA
@@ -155,11 +161,12 @@ FEATURES             Location/Qualifiers
                      WGGSDKIVVPGTGAEPVDFTWARDVVRGLASLVKAPRGSWEPYTFMSGERSCWNDTAEL
                      FRRKYRPDTPIEHVSLRTVAEMIRTAKADDEDTLTLADYYLLSISQACGNPPDKVRRHR
                      EKYFPDIRFRTVQEGLAQFDEYPDSIL"
+                     /Pfam="NAD_binding_10"
      CDS             join(19699..19803,19863..20101,20157..20512,20568..20836)
                      /codon_start=1
                      /gene="swnN"
                      /product="short-chain dehydrogenase/reductase SwnN"
-                     /label=swnN
+                     /label="swnN"
                      /note="similar to NmrA family reductase"
                      /protein_id="AQV04221.1"
                      /translation="MVVVAIAGGTGGVGRTVLDAIAKSGQHRAVVLSRTAAAATATKGP
@@ -168,6 +175,7 @@ FEATURES             Location/Qualifiers
                      PYWVFVDIDHEQCVLPGDGSYPLVFTHSTDLAAYIERLVGLPAKDWPRESLVASNKLQV
                      GDLATLIKKVTGKEFKVTYDSAGAIHEGRITPLPSNQAVFDDPAKGEMFHEVEQQVMLS
                      MLSKAHDLPGKNLAELFPDVEPTNIEDFFRAGWALKQSTTS"
+                     /Pfam="NmrA"
 ORIGIN
         1 ctaatgcgtc acactgaaca catctttgac cgcttcagca aagaatcgaa caccagtgtc
        61 caactccgat tcatccgcgg tggcgaatgt gaaccggaaa cctatctcgt tgtccagatg

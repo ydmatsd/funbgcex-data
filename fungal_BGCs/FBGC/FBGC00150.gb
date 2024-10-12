@@ -1,31 +1,31 @@
-LOCUS       FBGC00150       19021 bp DNA     linear   UNA 21-JAN-2023
+LOCUS       FBGC00150              19021 bp    DNA     linear   UNA 21-JAN-2023
 DEFINITION  nanangenines.
 ACCESSION   FBGC00150
-VERSION     .
+VERSION     FBGC00150
 KEYWORDS    .
 SOURCE      Aspergillus nanangensis MST-FP2251
   ORGANISM  Aspergillus nanangensis MST-FP2251
+            .
 REFERENCE   1  (bases 1 to 19021)
-  AUTHORS   Lacey HJ, Gilchrist CLM, Crombie A, Kalaitzis JA, Vuong D, Rutledge 
+  AUTHORS   Lacey HJ, Gilchrist CLM, Crombie A, Kalaitzis JA, Vuong D, Rutledge
             PJ, Turner P, Pitt JI, Lacey E, Chooi YH, Piggott AM.
-  TITLE     Nanangenines: drimane sesquiterpenoids as the dominant metabolite 
+  TITLE     Nanangenines: drimane sesquiterpenoids as the dominant metabolite
             cohort of a novel Australian fungus, Aspergillus nanangensis.
   JOURNAL   Beilstein J Org Chem 2019;15:2631-2643
-  PUBMED    31807198
+   PUBMED   31807198
 REFERENCE   2  (bases 1 to 19021)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Jan 21, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.3762/bjoc.15.256"; journalName: "Beilstein J Org Chem"; date: 
-            "2019"; volume: "15"; pages: "2631-2643"
+  JOURNAL   Exported Jan 21, 2023 from SnapGene 6.2.1 https://www.snapgene.com
 COMMENT     ##Assembly-Data-START##
             Assembly Method       :: SPAdes v. 3.13.0
             Assembly Name         :: A. nanangensis assembly
             Coverage              :: 132x
             Sequencing Technology :: Illumina
             ##Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.3762/bjoc.15.256"; journalName: "Beilstein J Org Chem"; date:
+            "2019"; volume: "15"; pages: "2631-2643"
 FEATURES             Location/Qualifiers
      source          1..19021
                      /isolate="MST-FP2251"
@@ -42,7 +42,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="FE257_006541"
                      /product="polyketide synthase FE257_006541"
-                     /label=FE257_006541
+                     /label="FE257_006541"
                      /protein_id="QGW49095.1"
                      /translation="MATNGNGPQGGAPPIAVVSFACRLPGQNNDPETLWRYLEQGRRAA
                      TKVPENRFSLRTHYDGSKRAPTMKGSGGMFLEDVDLARFDAPFFNISAAEARSMDPQQR
@@ -85,11 +85,12 @@ FEATURES             Location/Qualifiers
                      QQQQQQQSSAQLIMALSYPLPSTSDLLQEDIRLTPLSRAGTASQQPGSSSNAATEESHA
                      LAKFLHLHSSGGADPTSLTAAAVELFESQLMRMLRLDSPIKANKPLSAYGMDSLSAVKF
                      RNWVERSFHVTFAVFEVLGAVGLQALCAKLVTRLDGVV"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_DH, fPKS_ER, fPKS_KR, ACP_PCP"
      CDS             join(8888..9606,9673..9868,9945..10661)
                      /codon_start=1
                      /locus_tag="FE257_006542"
                      /product="HAD-like terpene cyclase FE257_006542"
-                     /label=FE257_006542
+                     /label="FE257_006542"
                      /protein_id="QGW49093.1"
                      /translation="MVRALVLDLGDVLFNWEAPKSTPVSRKALGNILSSDIWGDYERGH
                      YTESACYEALSARYGFETSAIAETFVLARESLKIDTTFKVFLHNLKAKSNGNLRVYAMS
@@ -101,12 +102,13 @@ FEATURES             Location/Qualifiers
                      PVDSLALAMRVLSCQALGIECAADVGRLSEMQCADGGWPPCVIYKYGSGGLGITNRGVS
                      TAFAVRAIAQFATTSSASAGMARVDGEGKGEVGRSSPSHGGSRSGTLSAQAKALSPKWG
                      LQSLLIRILPALFGVAGVAVVLVFRV"
+                     /Pfam="AstC"
      CDS             complement(join(11103..12035,12098..12159,12228..12660,
                      12750..12881))
                      /codon_start=1
                      /locus_tag="FE257_006543"
                      /product="FAD-dependent monooxygenase FE257_006543"
-                     /label=FE257_006543
+                     /label="FE257_006543"
                      /protein_id="QGW49096.1"
                      /translation="MRLAKSILPTAAILLADLTGLAASASSTPPPDNGQCGAQSQQKCC
                      EALRSSAVGDRVFVTGDSEYVWSRSTYYSIANNLNPTCIVLPESAEDVSTVVKTLTKKN
@@ -118,11 +120,12 @@ FEATURES             Location/Qualifiers
                      FPRAFGRNGLRTGGNLLGLDKKEDDLIVLLFEVFWQHTADDKLFHGLADQLIEDLNEYA
                      VSVGSDSDWLYLNYAAKHQDPIRGYGKENVDFLKKAAKRYDPTGVFQTQMPGGFKVSKV
                      DL"
+                     /Pfam="FAD_binding_4"
      CDS             13862..15442
                      /codon_start=1
                      /locus_tag="FE257_006544"
                      /product="cytochrome P450 monooxygenase FE257_006544"
-                     /label=FE257_006544
+                     /label="FE257_006544"
                      /protein_id="QGW49097.1"
                      /translation="MANLSPPQYYFAAAGVLAFIYIVYRIRQSPRLPPGPRKLPLIGNL
                      HQLGDKPMHVTCQEWHRQYGPLIHLQLGLDRIIVVGNAQVARDLLDKKGAIYSSRPRFT
@@ -134,11 +137,12 @@ FEATURES             Location/Qualifiers
                      RPERYLENPNLPVSAFGFGRRACVGRHFAMDSLFISVSRLLWGFRISKIKEGKDGAAAV
                      PVWSFEADGALLRPAPFKALFSVRDVERHRIIVKDWADVEKDAEVYYNNIDAKFDDSVD
                      DAALLQEKV"
+                     /Pfam="p450"
      CDS             join(17020..17145,17211..18023)
                      /codon_start=1
                      /locus_tag="FE257_006545"
                      /product="acyltransferase FE257_006545"
-                     /label=FE257_006545
+                     /label="FE257_006545"
                      /protein_id="QGW49098.1"
                      /translation="MAFAFNRAEFEEVEFQTLDHLTLKARLYPAAKRGPAIIMNPGFNC
                      TKEISAPSAAAYFQQAGITAFLFDPRNCGQSEGTPRREIDPHKQVDDYMDAMTFVSELP
@@ -146,11 +150,12 @@ FEATURES             Location/Qualifiers
                      RESQSLGNEPFYTPMLDGEGRNPINIGVDWGEEVRAAVNDFTELSADGFVPTVTLQSYF
                      KLFTFSPYVALPYLGETPMMLVCPEQDTICPVEEQMRLYEAVKGPKDVFHAKGKRHLNM
                      LAEDATFEPMMRAQVEFLRRALKGMNGVNGH"
+                     /Pfam="Abhydrolase_6"
      CDS             complement(18098..19021)
                      /codon_start=1
                      /locus_tag="FE257_006546"
                      /product="short-chain dehydrogenase/reductase FE257_006546"
-                     /label=FE257_006546
+                     /label="FE257_006546"
                      /protein_id="QGW49099.1"
                      /translation="MSPSSSLSGKTYLITGANTGIGLSTAQALSTRGARVYIGSRSVEK
                      ATTAIATIRAKTPDADVHILQMDLLDLASVVKAAKEFKSKETKLHGLINNAGIMATPFA
@@ -158,6 +163,7 @@ FEATURES             Location/Qualifiers
                      GIDFDDLAMEKSGGIWSRYGQSKLANILHAKQLKKLYGGETEEAPIWTAAVHPGSIDTN
                      LNKQTALPRFLHTVIKALGVYSPPSQGAENSVFAVASSDFKASDSGQYFVPGQKRETPS
                      KPAQDMALAEKLWEWTKGEMGKRDLL"
+                     /Pfam="adh_short"
 ORIGIN
         1 tcaaaccacc ccatccaacc tcgtcaccaa cttcgcacaa agcgcctgca agcccaccgc
        61 ccccaacacc tcaaacaccg caaacgtcac atgaaacgac cgctccaccc aattccgaaa

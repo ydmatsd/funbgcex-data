@@ -1,24 +1,24 @@
-LOCUS       FBGC00116       19662 bp DNA     linear   UNA 19-JAN-2023
-DEFINITION  okaramine.
+LOCUS       FBGC00116              19662 bp    DNA     linear   UNA 20-MAR-2024
+DEFINITION  okaramine B.
 ACCESSION   FBGC00116
-VERSION     .
+VERSION     FBGC00116
 KEYWORDS    .
 SOURCE      Penicillium simplicissimum AK-40
   ORGANISM  Penicillium simplicissimum AK-40
+            .
 REFERENCE   1  (bases 1 to 19662)
-  AUTHORS   Kato N, Furutani S, Otaka J, Noguchi A, Kinugasa K, Kai K, Hayashi 
+  AUTHORS   Kato N, Furutani S, Otaka J, Noguchi A, Kinugasa K, Kai K, Hayashi
             H, Ihara M, Takahashi S, Matsuda K, Osada H.
-  TITLE     Biosynthesis and Structure-Activity Relationship Studies of 
+  TITLE     Biosynthesis and Structure-Activity Relationship Studies of
             Okaramines That Target Insect Glutamate-Gated Chloride Channels.
   JOURNAL   ACS Chem Biol 2018;13:561-566
-  PUBMED    29384650
+   PUBMED   29384650
 REFERENCE   2  (bases 1 to 19662)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Jan 19, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1021/acschembio.7b00878"; journalName: "ACS Chem Biol"; date: 
+  JOURNAL   Exported Mar 20, 2024 from SnapGene 7.1.2 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1021/acschembio.7b00878"; journalName: "ACS Chem Biol"; date:
             "2018"; volume: "13"; pages: "561-566"
 FEATURES             Location/Qualifiers
      source          1..19662
@@ -30,7 +30,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="okaA"
                      /product="nonribosomal peptide synthetase OkaA"
-                     /label=okaA
+                     /label="okaA"
                      /protein_id="BBB04327.1"
                      /translation="MVNLDFEVEPCLFPSLSTRSVNQSHGKAMAYQHGFEWEVTISEDS
                      VFQGIVLSWNILLAKYTDSTTITFGVISGSEGNKCHDDTTVDEYCTSFHPESCLPTVLP
@@ -66,11 +66,12 @@ FEATURES             Location/Qualifiers
                      KEQTGIEDICFGALVSGRDVPVDHVGNIVGSLFNVLACRIQMPATDSISSVLLENQQMM
                      RERASHQFCSLQEVTRLVLKARPEASSLFNTCLSVEQPLSDEAETGKGFRALETVEETE
                      YDLIVAATVFPDRIQASIMYWSYFCDPARAATIAETFAQSIERIILCA"
+                     /Pfam="AA-adenyl-dom, ACP_PCP, NRPS_C, NRPS_CT"
      CDS             join(6981..7134,7219..7817,7882..8219,8301..8562)
                      /codon_start=1
                      /gene="okaB"
                      /product="FAD-dependent monooxygenase OkaB"
-                     /label=okaB
+                     /label="okaB"
                      /protein_id="BBB04328.1"
                      /translation="MTVHSAESNGSNRIVIIIVGLGIAGLSAAIECHGKGHQVMVFEKY
                      SDLKRTEGDGISIGSNGARVSAKWGDGTFHELIRPLEYQTNKAKVSDYTGYSYGTFELH
@@ -80,11 +81,12 @@ FEATURES             Location/Qualifiers
                      TVMRKAKKGRFVSETLAIRTPLATWLSPKRRMIVIGDAAHAALPSSGQGGTQAIEDAAT
                      LAICLELAGKKDVALALSVTEKLRHQRAQIVQQGGLAVLQFVMNHVDFEALRTDPTMVK
                      PPHPAWILDHDCQEYAYREFVKAAEAIQDGEEYVPHNIPRDGKYSMEYNSQ"
+                     /Pfam="DAO, FAD_binding_3"
      CDS             complement(join(8961..9111,9177..10315))
                      /codon_start=1
                      /gene="okaC"
                      /product="DMATS-type prenyltransferase OkaC"
-                     /label=okaC
+                     /label="okaC"
                      /protein_id="BBB04329.1"
                      /translation="MTVTKEAPEVMPFEGLTEEINLMSDNERVWWQKTGSMLSRVLSSA
                      DYTWKEQHKHLKFYAQVLLPHLGPYPQSFRSSITRSGLPFELSINYQQNGNPLVVRIGF
@@ -94,11 +96,12 @@ FEATURES             Location/Qualifiers
                      NPTVARGLEYLRQLFDLIKLSDGQRNIVVAFDDRQDSSKETPLLWNYEMRAGDPTPLTK
                      IYFPVHGENDLQVINGVAEFLCQIGLSHGKTYVEKVKSYYPGIDLSTTERFTSWVSFAY
                      TEKTGVYLSTYYHSSTDNPWKMTTEEDSQL"
+                     /Pfam="Trp_DMAT"
      CDS             10816..12405
                      /codon_start=1
                      /gene="okaD"
                      /product="cytochrome P450 monooxygenase OkaD"
-                     /label=okaD
+                     /label="okaD"
                      /protein_id="BBB04330.1"
                      /translation="MASEIYRRLPMELPAQHLLASLALVGALLSVGYLLLRPAKYQLPL
                      PPGPRGLPIIGNLHQAPKEKAWEVYKQWSDRYGPIMSVNNGGMITIIVSSHEVVKNFLE
@@ -110,11 +113,12 @@ FEATURES             Location/Qualifiers
                      DHDENVYDNPFTFRPQRWIDNPDLPHVIFGFGLRGCPGQHLARDHLFINTARLFWAFNF
                      GNAYENGKKVELDLDELMQPRGGGSAFNQVPSFKASVIIRSSERRQIVENEWDAVEKDE
                      QKILAEAMPLPE"
+                     /Pfam="p450"
      CDS             13483..14385
                      /codon_start=1
                      /gene="okaE"
                      /product="2OG-Fe(II)-dependent dioxygenase OkaE"
-                     /label=okaE
+                     /label="okaE"
                      /protein_id="BBB04331.1"
                      /translation="MTLTENVMKPQIQRFTRDHDPKVLWQVVEEDGAVIIEGFLPHEVI
                      QKFDCELDVRSKATKGGEMNQEFYQMPVPTTTKWMNDLTATCPTFRHEILNNDILHSLC
@@ -122,13 +126,14 @@ FEATURES             Location/Qualifiers
                      FTESNGATRVILGSHRWPQGQKAKDDQAVRAALQPGDALVMHRSTKHGGAAHDADNQDH
                      RRLLLTCMGTCQLAPYETNVTVPRPIVESMTPLAQKMIGWRSTRPVISNVTGLNTVRMK
                      HLENQIELKSNVPLNVGGC"
+                     /Pfam="PhyH"
      gap             15554..15745
                      /estimated_length=192
      CDS             join(15979..16119,16214..16334,16416..16539,16595..17357)
                      /codon_start=1
                      /gene="okaF"
                      /product="methyltransferase OkaF"
-                     /label=okaF
+                     /label="okaF"
                      /protein_id="BBB04332.1"
                      /translation="MEAIAQEIQKLHANTDEAGRGKINHDLSVLLASFDTDWEKILKLA
                      AGPLRLALVKVGVDQGIFHALNERSHTLPELIEKTGVAPYLLERILRGQASFGMIKEEG
@@ -137,12 +142,13 @@ FEATURES             Location/Qualifiers
                      VGGGTGAQSVAFRKKLPHVKGRVIVQEIAETLIHVGAKAPAGIEFMEYDCFTPQPIRGA
                      KFYYLRYVMHLWQDERCVEALKVIITAMGPESRLIIDEAVIPDRDVPWQAACQSILMTA
                      ALAGAERTLTEWHNLLDAAGLKILNIFPYDLNMQSVIIAVPK"
+                     /Pfam="Methyltransf_2"
      CDS             complement(join(17776..18243,18350..18682,18738..18973,
                      19022..19403,19465..19662))
                      /codon_start=1
                      /gene="okaG"
                      /product="cytochrome P450 monooxygenase OkaG"
-                     /label=okaG
+                     /label="okaG"
                      /protein_id="BBB04333.1"
                      /translation="MSLISPLAAVLSAMAIVLGLLFFPNMTPQPTLHPRVGWRKEKAST
                      LRAALRSCYKLNDWALEGYNAYAKLNIPYVLPSFDRGPITIIPARLMRRLYTLPDTDLD
@@ -154,6 +160,7 @@ FEATURES             Location/Qualifiers
                      PHGTVIASPIESIHYDDDIYPHANDYNAFRFADPEAVRAILDKLSSEPNSNISTGGPRD
                      RESKSAASTANIDEAFLAFGIGKHICPGRFFVMVEMKLILAIILVHYDVKPVKFKPKLV
                      DCLWLKVPWNSGTLVVRRRSN"
+                     /Pfam="p450"
 ORIGIN
         1 ctacgcacat aaaatgatgc gttcaatcga ctgggcaaat gtctccgcaa ttgtagcagc
        61 acgggctgga tcgcaaaagt aagaccaata catgatgctg gcctggatcc tgtccgggaa

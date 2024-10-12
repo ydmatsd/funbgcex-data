@@ -1,29 +1,29 @@
-LOCUS       FBGC00136        7810 bp DNA     linear   UNA 21-JAN-2023
+LOCUS       FBGC00136               7810 bp    DNA     linear   UNA 21-JAN-2023
 DEFINITION  asperterpenoid A.
 ACCESSION   FBGC00136
-VERSION     .
+VERSION     FBGC00136
 KEYWORDS    .
 SOURCE      Talaromyces wortmannii ATCC 26942
   ORGANISM  Talaromyces wortmannii ATCC 26942
+            .
 REFERENCE   1  (bases 1 to 7810)
-  AUTHORS   Huang JH, Lv JM, Wang QZ, Zou J, Lu YJ, Wang QL, Chen DN, Yao XS, 
+  AUTHORS   Huang JH, Lv JM, Wang QZ, Zou J, Lu YJ, Wang QL, Chen DN, Yao XS,
             Gao H, Hu D.
-  TITLE     Biosynthesis of an anti-tuberculosis sesterterpenoid asperterpenoid 
+  TITLE     Biosynthesis of an anti-tuberculosis sesterterpenoid asperterpenoid
             A.
   JOURNAL   Org Biomol Chem 2019;17:248-251
-  PUBMED    30548032
+   PUBMED   30548032
 REFERENCE   2  (bases 1 to 7810)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Jan 21, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1039/c8ob02832j"; journalName: "Org Biomol Chem"; date: "2019"; 
-            volume: "17"; pages: "248-251"
+  JOURNAL   Exported Jan 21, 2023 from SnapGene 6.2.1 https://www.snapgene.com
 COMMENT     ##Assembly-Data-START##
             Assembly Method       :: SOAPdenovo v. 2.4
             Sequencing Technology :: Illumina
             ##Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1039/c8ob02832j"; journalName: "Org Biomol Chem"; date: "2019";
+            volume: "17"; pages: "248-251"
 FEATURES             Location/Qualifiers
      source          1..7810
                      /strain="ATCC 26942"
@@ -34,7 +34,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="aspA"
                      /product="cytochrome P450 monooxygenase AspA"
-                     /label=aspA
+                     /label="aspA"
                      /protein_id="AZQ56742.1"
                      /translation="MEQREIILLGLAALAVTYQVIVWIYNAWFHPLSGYPGPKLFGASY
                      LPGLYHRIRGDYVLVHTALHERFGEVIRVSPNELSYINPQAWKDITGQGSGRQDMEKDP
@@ -45,12 +45,13 @@ FEATURES             Location/Qualifiers
                      LKYMLAVLDEALRVYPPAPGNFHRLVPKEGSVICEKFVPGETQVSVCHYAAYHSPCNFH
                      QPDEFIPERFLGESKFENDRRDVLQPFGTGSRACLGRNLAYFEMRLILTHVLWNFDLEL
                      MPQSKYWANQKVFAIWDKPELYVKLKPRAGLEVRA"
-     CDS             complement(join(2185..3003,3065..3144,3270..3323,3384..3781,
-                     3844..3989))
+                     /Pfam="p450"
+     CDS             complement(join(2185..3003,3065..3144,3270..3323,
+                     3384..3781,3844..3989))
                      /codon_start=1
                      /gene="aspB"
                      /product="cytochrome P450 monooxygenase AspB"
-                     /label=aspB
+                     /label="aspB"
                      /protein_id="AZQ56743.1"
                      /translation="MIDSLSFTTMPVVLLVGLVLYQLLAFTYRLFFSPLAKFPGQKIAG
                      MTHWYEFYHDVIRRGQYTFHIRDMHKKYGPILRINPYELHISDPSFYNEIYAVQNRRRD
@@ -61,12 +62,14 @@ FEATURES             Location/Qualifiers
                      CLRLGNGTTTRLQRIAPDETLIYTDPNTGKVWDIPPGTPVSLSSLHIHHDETIFADPES
                      FRPERWIENPDLERYLLTFSKGSRQCLGIHLAYAEMYIVLARVFRLYGRKEEGPSKGPS
                      DKLGNLELFETELRDTLCVADLVVPAVWEGSQGIRIKVTE"
-     CDS             join(5043..5490,5555..5583,5641..5900,5956..6592,6646..6800,
-                     6848..7011,7069..7170,7224..7290,7348..7432,7493..7810)
+                     /Pfam="p450"
+     CDS             join(5043..5490,5555..5583,5641..5900,5956..6592,
+                     6646..6800,6848..7011,7069..7170,7224..7290,7348..7432,
+                     7493..7810)
                      /codon_start=1
                      /gene="aspC"
                      /product="terpene synthase AspC"
-                     /label=aspC
+                     /label="aspC"
                      /protein_id="AZQ56744.1"
                      /translation="MASLEVFVLYLRIFFISFMSRARSLFSFVTSPAITAEHGKVQKLQ
                      AKPGSDRAPDSWIQYRHSKLVDPSTYNDLGLCGGLPLRVHKHAHLADKGARRAQEDWKR
@@ -82,6 +85,7 @@ FEATURES             Location/Qualifiers
                      FQIRDDYQNLMSKEYTDQKGFCEDLDEGKFSLPLIHCLTTSPNIRLQSILHQRKTMGKM
                      SFETKKLVLDHLEETKSLEYTKEMLDCLHVRLHKELDVLEKQTGVNNFLLRLLLKRLHV
                      K"
+                     /Pfam="Terpene_syn_C_2, GGPS"
 ORIGIN
         1 ttaagcacga acctctaacc cggcccttgg cttgagcttc acatacaact caggcttgtc
        61 ccagatagca aagacttttt gattggccca atatttactc tgtggcatga gttccaggtc

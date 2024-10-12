@@ -1,24 +1,24 @@
-LOCUS       FBGC00120       18940 bp DNA     linear   UNA 19-JAN-2023
+LOCUS       FBGC00120              18940 bp    DNA     linear   UNA 19-JAN-2023
 DEFINITION  gibberellin.
 ACCESSION   FBGC00120
-VERSION     .
+VERSION     FBGC00120
 KEYWORDS    .
 SOURCE      Fusarium fujikuroi Gfc0801001
   ORGANISM  Fusarium fujikuroi Gfc0801001
+            .
 REFERENCE   1  (bases 1 to 18940)
-  AUTHORS   W. Bao, T. Nagasaka, S. Inagaki, S. Tatebayashi, I. Imazaki, S.-i. 
+  AUTHORS   W. Bao, T. Nagasaka, S. Inagaki, S. Tatebayashi, I. Imazaki, S.-i.
             Fuji, T. Tsuge, M. Shimizu, K. Kageyama, H. Suga
-  TITLE     A single gene transfer of gibberellin biosynthesis gene cluster 
+  TITLE     A single gene transfer of gibberellin biosynthesis gene cluster
             increases gibberellin production in a Fusarium fujikuroi strain with
             gibberellin low producibility
   JOURNAL   Plant Pathol 2020;69:901-910
 REFERENCE   2  (bases 1 to 18940)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Jan 19, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "doi.org/10.1111/ppa.13176"; journalName: "Plant Pathol"; date: 
+  JOURNAL   Exported Jan 19, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
+            "doi.org/10.1111/ppa.13176"; journalName: "Plant Pathol"; date:
             "2020"; volume: "69"; pages: "901-910"
 FEATURES             Location/Qualifiers
      source          1..18940
@@ -30,7 +30,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="DES"
                      /product="2OG-Fe(II)-dependent dioxygenase DES"
-                     /label=DES
+                     /label="DES"
                      /protein_id="BBF17091.1"
                      /translation="MPHKDNLLESPVGKSVTATIAYHSGPALPTSPIAGVTTLQDCTQQ
                      AVAVTDIRPSVSSFTLDGNGFQVVKHTSAVGSPPYDHSSWTDPVVRKEVYDPEIIELAK
@@ -39,12 +39,13 @@ FEATURES             Location/Qualifiers
                      RWALYTTWRPLKTVKRDPMAYVDYWTADEEDGVSFWRNPPGVHGTFESDVLLTKANPKH
                      KWYWISDQTPDEVLLMKIMDTESEKDGSEIAGGVHHCSFHLPGTEKEEVRESIETKFIA
                      FW"
+                     /Pfam="NvfI"
      CDS             complement(join(2067..2500,2552..3133,3186..3471,
                      3521..3796))
                      /codon_start=1
                      /gene="P450-4"
                      /product="cytochrome P450 monooxygenase P450-4"
-                     /label=P450-4
+                     /label="P450-4"
                      /protein_id="BBF17092.1"
                      /translation="MSKSNSMNSTSHETLFQQLVLGLDRMPLMDVHWLIYVAFGAWLCS
                      YVIHVLSSSSTVKVPVVGYRSVFEPTWLLRLRFVWEGGSIIGQGYNKFKDSIFQVRKLG
@@ -56,11 +57,12 @@ FEATURES             Location/Qualifiers
                      IPSGTRIAVPSHAMLQDSAHVPGPTPPTEFDGFRYSKIRSDSNYAQKYLFSMTDSSNMA
                      FGYGKYACPGRFYASNEMKLTLAILLLQFEFKLPDGKGRPRNITIDSDMIPDPRARLCV
                      RKRSLRDE"
+                     /Pfam="p450"
      CDS             join(4732..5112,5163..5334,5386..5991,6047..6468)
                      /codon_start=1
                      /gene="P450-1"
                      /product="cytochrome P450 monooxygenase P450-1"
-                     /label=P450-1
+                     /label="P450-1"
                      /protein_id="BBF17093.1"
                      /translation="MANHSSSYYHEFYKDHSHTVLTLMSEKPVILPSLILGTCAVLLCI
                      QWLKPQPLIMVNGRKFGELSNVRAKRDFTFGARQLLEKGLKMSPDKPFRIMGDVGELHI
@@ -72,12 +74,13 @@ FEATURES             Location/Qualifiers
                      SDGVILPKNKLTLVSAHQHWDPEYYKDPLKFDGYRFFNMRREPGKESKAQLVSATPDHM
                      GFGYGLHACPGRFFASEEIKIALSHILLKYDFKPVEGSSMEPRKYGLNMNANPTAKLSV
                      RRRKEEIAI"
-     CDS             join(7980..8162,8215..8302,8327..8385,8448..8550,8766..9344,
-                     9395..9445,9500..9882)
+                     /Pfam="p450"
+     CDS             join(7980..8162,8215..8302,8327..8385,8448..8550,
+                     8766..9344,9395..9445,9500..9882)
                      /codon_start=1
                      /gene="P450-2"
                      /product="cytochrome P450 monooxygenase P450-2"
-                     /label=P450-2
+                     /label="P450-2"
                      /protein_id="BBF17094.1"
                      /translation="MSIFNMITSYAGSQLLPFYIAIFVFTLVPWAIRFSWLELRKGSVV
                      PLANPPDSLFGTGKTRRSFVKLSREILAKARSLFPNEPFRLITDWDFADEIRNDPRLSF
@@ -88,12 +91,13 @@ FEATURES             Location/Qualifiers
                      RRYVTEDITLSSGLTLKKGTRLNVDNRRLDDPKIYDNPEVYNPYRFYDMRSEAGKDHGA
                      QLVSTGSNHMGFGHGQHSCPGRFFAANEIKVALCHILVKYDWKLCPDTETKPDTRGMIA
                      KSSPVTDILIKRRESVELDLEAI"
+                     /Pfam="p450"
      CDS             complement(join(11186..11506,11619..11776,11831..12096,
                      12144..12298,12349..12630))
                      /codon_start=1
                      /gene="GGS2"
                      /product="geranylgeranyl pyrophosphate synthase GGPPS"
-                     /label=GGS2
+                     /label="GGS2"
                      /protein_id="BBF17095.1"
                      /translation="MAEQQISNLLSMFDASHASQKLEITVQMMDTYHYRETPPDSSSSE
                      GGSLSRYDERRVSLPLSHNAASPDIVSQLCFSTAMSSELNHRWKSQRLKVADSPYNYIL
@@ -102,12 +106,13 @@ FEATURES             Location/Qualifiers
                      PSIQEYLLMVNDKTGALFRLSLELLALNSEASISDSALESLSSAVSLLGQYFQIRDDYM
                      NLIDNKYTDQKGFCEDLDEGKYSLTLIHALQTDSSDLLTNILSMRRVQGKLTAQQKMLV
                      LEVMKTNGSLDWTSKLLGMLHTRVVAEIESLEVSTKRDNHALRALVERLKLET"
+                     /Pfam="GGPS"
      CDS             join(13438..13442,13492..14332,14382..14502,14555..14838,
                      14886..16493)
                      /codon_start=1
                      /gene="CPS/KS"
                      /product="terpene synthase CPS/KS"
-                     /label=CPS/KS
+                     /label="CPS/KS"
                      /note="ent-copalyl diphosphate synthase/ent-kaurene
                      synthase"
                      /protein_id="BBF17096.1"
@@ -128,12 +133,13 @@ FEATURES             Location/Qualifiers
                      MSANLLQGKDAFPSGTQKYLISSVMRHATNMCRMYNDFGSIARDNAERNVNSIHFPEFT
                      LCNGTSQNLDERKERLLKIATYEQGYLDRALEALERQSRDDAGDRAGSKDMRKLKIVKL
                      FCDVTDLYDQLYVIKDLSSSMK"
+                     /Pfam="PbcA"
      CDS             join(17147..17368,17414..18131,18190..18387,18443..18539,
                      18592..18940)
                      /codon_start=1
                      /gene="P450-3"
                      /product="cytochrome P450 monooxygenase P450-3"
-                     /label=P450-3
+                     /label="P450-3"
                      /protein_id="BBF17097.1"
                      /translation="MSNFVTLIEPLELTGSRVLRIAVAFAALCGATGLLAFSWWIYKQS
                      SSKPTLPYPVVGDTHAQSLEKNLIKGMQQYRDSPFFLAGSRPPLLILPMSVFHEIHNMP
@@ -145,6 +151,7 @@ FEATURES             Location/Qualifiers
                      RGTSIAFPAHAIHMSEETPTFSPDFSSDFENPSPRIFDGFRYLNLRSIKGQGSQHQAAT
                      TGPDYLIFNHGKHACPGRFFAISEIKMILIELLAKYDFRLEDGKPGPELMRVGTETRLD
                      TKAGLEMRRR"
+                     /Pfam="p450"
 ORIGIN
         1 ctaccagaat gcaatgaact tggtctcaat gctctctctc acttcctcct tctcagttcc
        61 cggcagatga aatgaacagt ggtgaacccc tcccgctatt tcactcccgt ccttctcact

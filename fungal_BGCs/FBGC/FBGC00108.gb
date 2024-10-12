@@ -1,28 +1,28 @@
-LOCUS       FBGC00108       34622 bp DNA     linear   UNA 19-JAN-2023
-DEFINITION  Iso-A82775C.
+LOCUS       FBGC00108              34622 bp    DNA     linear   UNA 26-MAR-2024
+DEFINITION  iso-A82775C.
 ACCESSION   FBGC00108
-VERSION     .
+VERSION     FBGC00108
 KEYWORDS    .
 SOURCE      Pestalotiopsis fici
   ORGANISM  Pestalotiopsis fici
+            .
 REFERENCE   1  (bases 1 to 34622)
   AUTHORS   Pan Y, Liu L, Guan F, Li E, Jin J, Li J, Che Y, Liu G.
   TITLE     Characterization of a Prenyltransferase for Iso-A82775C Biosynthesis
             and Generation of New Congeners of Chloropestolides.
   JOURNAL   ACS Chem Biol 2018;13:703-711
-  PUBMED    29384350
+   PUBMED   29384350
 REFERENCE   2  (bases 1 to 34622)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Jan 19, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1021/acschembio.7b01059"; journalName: "ACS Chem Biol"; date: 
-            "2018"; volume: "13"; pages: "703-711"
+  JOURNAL   Exported Mar 26, 2024 from SnapGene 7.2.0 https://www.snapgene.com
 COMMENT     ##Assembly-Data-START##
             Assembly Method       :: Lasergene v. 7.0
             Sequencing Technology :: 454
             ##Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1021/acschembio.7b01059"; journalName: "ACS Chem Biol"; date:
+            "2018"; volume: "13"; pages: "703-711"
 FEATURES             Location/Qualifiers
      source          1..34622
                      /mol_type="genomic DNA"
@@ -32,7 +32,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="iacB"
                      /product="hypothetical protein IacB"
-                     /label=iacB
+                     /label="iacB"
                      /protein_id="APC93981.1"
                      /translation="MASTWFTNIEALSYSVVEFIPYVGTVYSFKRAQLAYQERDWPRHW
                      QSVANFLESAIRDVILFAGVEEVAGVVILHTIAESFTDKLVELYYEHNKDEADRVRQPR
@@ -44,27 +44,29 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="iacC"
                      /product="short-chain dehydrogenase/reductase IacC"
-                     /label=iacC
+                     /label="iacC"
                      /protein_id="APC57595.1"
                      /translation="MSVYVITGASKGIGFGFVKSISEDPANLVVGLVRDKAATEKKVAE
                      ELGGRTNIHILHGDLTSYESLKQAAADTAKIVGERGVDYLVANGAYPSQFDAYVPIGAL
                      GDQVEELEEVSAKLFKTNVVGNIHLFNLFIPLVKQSKAKKVIAISSGHGDLDWINNNDI
                      EISSLYGASKAALNVVVAKFSVQYKPEGVLFFSLSPGAVEVGHYDNVSPEQVQGLMGFM
                      GKIQAYAPHFKGAVPVEDAVRTIRATWERASIETGYAGAFVSQHGNKQWL"
+                     /Pfam="adh_short"
      CDS             complement(join(6149..6415,6474..6623))
                      /codon_start=1
                      /gene="iacD"
                      /product="EthD domain-containing protein IacD"
-                     /label=iacD
+                     /label="iacD"
                      /protein_id="APC57596.1"
                      /translation="MAQQKVIKYTVEHNRKDGVSEEDFIEWFTNTLIPQMVPVMQKNNI
                      LKYAVHKTDHQISTAFQSQVDKVRPGWVVSKCDLILEHWVNDLGDIMKLSQDPEWAAAL
                      KDQDVWMDNSKSNIHIGYDTIYIEDGTITNVPRK"
+                     /Pfam="EthD"
      CDS             join(8937..10129,10193..10319)
                      /codon_start=1
                      /gene="iacE"
                      /product="DMATS-type prenyltransferase IacE"
-                     /label=iacE
+                     /label="iacE"
                      /protein_id="APC57597.1"
                      /translation="MAISTPSNGVSHVAKPLPNLKEVNKGIETDSEDRAFWWGALSEPL
                      ASLLEANHYTKEVQLHYLRWFYQWILPALGPRPLDGKPYYGSWITHDLSPFEYSLNWKE
@@ -74,33 +76,36 @@ FEATURES             Location/Qualifiers
                      TLAKAKDMYNLGGRLKGPKMDASLKGISDFWYHLFGLDSSDPASDDKVCIGNHKCIFVY
                      EMRSSQGSEPDIDVKFHIPMWQLGKTDGQISELLASWFESHGHPDLASRYKSDLGTAFP
                      KHNITGKSVGTHTYISITHTPKTGLYMTMYLSPKLPEFYY"
+                     /Pfam="Trp_DMAT"
      CDS             join(12029..12225,12287..12412,12495..12786)
                      /codon_start=1
                      /gene="iacF"
                      /product="cupin domain-containing protein IacF"
-                     /label=iacF
+                     /label="iacF"
                      /protein_id="APC57598.1"
                      /translation="MVWAWQQWLSPRPQKRTKNTSQVAFYTSENAALYEPLSKPDGNWY
                      VRETHFRENPNVRAGLTGPPLHLHLQQDEYFKVEQGVLGAVKDGVEVAITKNDPVLHIP
                      RGTRHRFWPHPSSTEDLVFTAWADPCKDHDHILDLNFLRNLAGYLADCDSEGLQPSPFQ
                      LILFFHEASSILCPPFLNWMPLWLLIWVHNGLAWIAREFLG"
+                     /Pfam="PatJ"
      CDS             complement(join(14105..14502,14556..14645,14699..14957))
                      /codon_start=1
                      /gene="iacG"
                      /product="short-chain dehydrogenase/reductase IacG"
-                     /label=iacG
+                     /label="iacG"
                      /protein_id="APC57599.1"
                      /translation="MTETVLVIGATGHIGVSAVIGALRTKRNVLAVVRNAAAVDKLFRL
                      AGTRDGITTVEADITSEHGLQSVVDKVKNGELPAFQHVYSAVGGVKTTTPLKDLSIEDF
                      RANMSINFDTNFFAYRATIGYLLSQSNPTTYTVITGAIGDVGIWPGPAMSQGALYSLGI
                      SAELENRDTNVRFNEMYLAFPVMVDEEAVKEEAAKMGVVKASDFARSYENLLAKDEIKG
                      SRIFIFTPGDIDTLRWESKAFKGPPS"
+                     /Pfam="adh_short"
      CDS             complement(join(16463..16733,16812..17574,17628..17841,
                      17907..18197))
                      /codon_start=1
                      /gene="iacH"
                      /product="FAD-linked oxidoreductase IacH"
-                     /label=iacH
+                     /label="iacH"
                      /protein_id="APC93982.1"
                      /translation="MVSLKACVVAYGFTLLPALVSGSPLVPRYFQKHLVSRCNISAITV
                      QSELGPQLSNTSLIFGPDNVLFPNATERWNTLDTPDVQLVVQPAAESDISKIVKYCNDN
@@ -111,11 +116,12 @@ FEATURES             Location/Qualifiers
                      PTIAGTTSETCGSAKRAISSAMTLDYNITTERALYDHFVAKVAEYPDLAATAYLWHEGY
                      STEGYQIIPEDSTAYPHREENHLMVFFTEVPEDSDLLEPALDWAKEAMDLWNGGQPDRL
                      PSTYVNYAQGADYETLESVYGYESWRLERLRSLKAEYDPENRFRYFVPIISDEA"
+                     /Pfam="FAD_binding_4"
      CDS             complement(join(19904..20464,20527..21044,21137..21212))
                      /codon_start=1
                      /gene="iacI"
                      /product="transcription factor IacI"
-                     /label=iacI
+                     /label="iacI"
                      /protein_id="APC57600.1"
                      /translation="MSLLDLPTLWNASGVEALDSDLFEYFCCVASGSLPTFGHDATALR
                      NILVRTALEGETASAAAVLQALLAFSSLHRYGLQPQALELKITALGSLAKGSFTPGLGT
@@ -124,11 +130,12 @@ FEATURES             Location/Qualifiers
                      AIPTGTSDEVDNYKGFLKVLDWRIRSLPIKGDNDGEMLLMKLYQLALLLFLNRSFEGLI
                      DQPIRMQQQIGQAFAILPRLSSCRQQFPIYVIGCEARTDEQRAAVLDLITKTEKMSTSR
                      SFNHCRTLLQAVWTQDDLAEWDDISYRAKLTLVISRCAVAPIFV"
+                     /Pfam="Fungal_trans_2"
      CDS             join(23307..23427,23484..24337)
                      /codon_start=1
                      /gene="iacJ"
                      /product="short-chain dehydrogenase/reductase IacJ"
-                     /label=iacJ
+                     /label="iacJ"
                      /protein_id="APC57601.1"
                      /translation="MSSLYTLWQQFYPPAPTFTEKDVGAGSQVGKVFIITGANSGIGYA
                      LVKLLYPTGATIYVAGRSPQKIQTAINEITSVSPSPSTPATLKPLHLDLDDLTSIKAAA
@@ -136,11 +143,12 @@ FEATURES             Location/Qualifiers
                      APKDSVRVVWTGSAQIQLNAPQGGVDFARVEKPTTHDMQDYGAAKAGNWFLAVEGARRW
                      GKDGIVSVCQNPGNLSTPIYDIFGWFMLALIRGLFLYDAKYGAYTMLFSGFSPEVNKGT
                      NGAYIWPFGRIKPPPRADVLQAGSEGKAKEFWEWCERSWKKHV"
+                     /Pfam="adh_short"
      CDS             join(32388..32660,32781..33710,33760..34040,34094..34622)
                      /codon_start=1
                      /gene="iacK"
                      /product="transcription factor IacK"
-                     /label=iacK
+                     /label="iacK"
                      /protein_id="APC57602.1"
                      /translation="MNTSPDYAQPGPNQFHHGAPSIYSSSSSNGVGGEVPITAQLLRGP
                      PPPPPPPPTATATAATAAATTTTAAPSATGEPKQSGPTVPAACLACRSKHLKCDGGNPC
@@ -154,6 +162,7 @@ FEATURES             Location/Qualifiers
                      CAPYQMVRSGDTFNTHTRHIVTAAAEISKMVTYAVPITCHTHFFTCVLTLSSIVHLSKW
                      ALWFVQNDDDLRQQIRLNIGALNKLSTVWSAASRASGQVKGVAQEIFRSKKAAQQNNAS
                      FWVGFTQEEIISSMAADETIMSEINTMLEPVTTSG"
+                     /Pfam="EqxR, Zn_clus, Fungal_trans"
 ORIGIN
         1 atggcttcaa cggtatcaaa gcccaactcc aacgctaaac aggctttaca tagctaacgc
        61 tgatgttttt catagtggtt cacaaatatt gaagcacttt cctactctgt tgtagagttt

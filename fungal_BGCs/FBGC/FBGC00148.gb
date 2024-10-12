@@ -1,26 +1,26 @@
-LOCUS       FBGC00148       52559 bp DNA     linear   UNA 21-JAN-2023
+LOCUS       FBGC00148              52559 bp    DNA     linear   UNA 21-JAN-2023
 DEFINITION  Monascus pigment.
 ACCESSION   FBGC00148
-VERSION     .
+VERSION     FBGC00148
 KEYWORDS    .
 SOURCE      Monascus purpureus CGMCC 3.19586
   ORGANISM  Monascus purpureus CGMCC 3.19586
+            .
 REFERENCE   1  (bases 1 to 52559)
   AUTHORS   X. Guo, Y. Li, R. Zhang, J. Yu, X. Ma, M. Chen, Y. Wang
-  TITLE     Transcriptional regulation contributes more to Monascus pigments 
+  TITLE     Transcriptional regulation contributes more to Monascus pigments
             diversity in different strains than to DNA sequence variation.
   JOURNAL   World J Microbiol Biotechnol 2019;35:138
 REFERENCE   2  (bases 1 to 52559)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Jan 21, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1007/s11274-019-2711-0"; journalName: "World J Microbiol 
-            Biotechnol"; date: "2019"; volume: "35"; pages: "138"
+  JOURNAL   Exported Jan 21, 2023 from SnapGene 6.2.1 https://www.snapgene.com
 COMMENT     ##Assembly-Data-START##
-            Sequencing Technology :: Sanger dideoxy sequencing 
+            Sequencing Technology :: Sanger dideoxy sequencing
             ##Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1007/s11274-019-2711-0"; journalName: "World J Microbiol
+            Biotechnol"; date: "2019"; volume: "35"; pages: "138"
 FEATURES             Location/Qualifiers
      source          1..52559
                      /strain="CGMCC 3.19586"
@@ -32,7 +32,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="MPsGeQ"
                      /product="major facilitator superfamily transporter MPsGeQ"
-                     /label=MPsGeQ
+                     /label="MPsGeQ"
                      /protein_id="QGA67221.1"
                      /translation="MASTSNTDRVIDAGMIKKAHPEQTPPDVSHEGDVATEKGDSDGVE
                      QAAPTGPTDGTPWVTGIKLVMIMSGITLVCFLMLLDTSIISTATPRITSQFHSLPDVGW
@@ -44,11 +44,12 @@ FEATURES             Location/Qualifiers
                      LAGGIVSSVGNGLLTTFTPSTSVGKWIGYQILLGAGRGAGLQMPIIAAQNNLPPPLIPV
                      AMALIMFCQSFFGSTFLSYADVIFTNSLRNKLKEYAPEVPPESIIVAGATAFRKAVPAD
                      QLPGVLKAYSKSVDYVFYLAVGAAVATFVFSCGMGWKDIRGNEPPQPSGDEKV"
+                     /Pfam="MFS_1"
      CDS             3826..5205
                      /codon_start=1
                      /gene="MPsGeP"
                      /product="acetyltransferase MPsGeP"
-                     /label=MPsGeP
+                     /label="MPsGeP"
                      /protein_id="QGA67222.1"
                      /translation="MPWSEVSPGHFQRPLGANEKFIKSIGDRAHPLGREHWSVTAQARF
                      KTSDALQGGQERVPELHKAWKTMRFAHPSIASIANAETLDYYVPSPDGLEDWMQQTFFV
@@ -59,11 +60,12 @@ FEATURES             Location/Qualifiers
                      FLRARREYALNVQELLKKNIAMDGPPPSEVDISSIDDAELLVRPVYHGKSGDVEILDVS
                      IGVETLTRQLYCFVWTFRGQLGFNLVYNEAYYNLTTATVLLDTLKNVLLTELGIRDDRA
                      I"
+                     /Pfam="LolU"
      CDS             join(6152..6676,6750..7523)
                      /codon_start=1
                      /gene="MPsGeO"
                      /product="FAD-dependent monooxygenase MPsGeNO"
-                     /label=MPsGeNO
+                     /label="MPsGeNO"
                      /note="revised sequence"
                      /protein_id="QGA67223.1"
                      /translation="MPGVTKEEPQLDLAIIGGGITGLSLAAGLLSRNIHVTIYERARQF
@@ -74,11 +76,12 @@ FEATURES             Location/Qualifiers
                      LPDTLDRWAVFDTYDHPASTYVRGRMCIAGDAAHASSPHHGAGAGTGIEDAAVLAAVLA
                      AASETASSLAKTKAEALRAALATYDAIRLERSQWVVQSSRILGELYEWQYEPTGRDAAK
                      CGAEVYWRSHQIWDYDVDDMLRRTAEDYRRRLE"
+                     /Pfam="ElcH"
      CDS             8264..9628
                      /codon_start=1
                      /gene="MPsGeM"
                      /product="acyltransferase MPsGeM"
-                     /label=MPsGeM
+                     /label="MPsGeM"
                      /protein_id="QGA67225.1"
                      /translation="MTWRQTEPGIFVKDFDRAEKVYYKIFTSFKPLNREHWGIYAICTV
                      NFGPSLNTDRVAILRSAWKALRITFPGLSLVPINVAKLYKVSDAQSVEEWAGQTFFVDA
@@ -88,11 +91,12 @@ FEATURES             Location/Qualifiers
                      MAVNLRPYLQPPYNSRDHACQTYVGSITPQVLRSKNFLERTASLMESYQGWYDGKLIKA
                      LRPIFKYHADALFAQRAPPPNPPSGVTLNSLGVIEKYFRSDYENGLKVERFHFGVTMMT
                      RQTMLYAWTFRGQLTLSLNFNEAYYDGDVAKKILLHIKRVLEKELSVELDPVGIQ"
+                     /Pfam="LolU"
      CDS             complement(13058..14338)
                      /codon_start=1
                      /gene="MPsGeL"
                      /product="hypothetical protein MPsGeL"
-                     /label=MPsGeL
+                     /label="MPsGeL"
                      /protein_id="QGA67226.1"
                      /translation="MAELSIASGIVGLLSLGIQVTQSLISFYSAYKDQDGDLAKITQNF
                      EDLQGIFQSLESAVQDRQSQGDMDEVLKEVDKAMQGCHEIIEELQKECQKLHTDLGLSL
@@ -102,12 +106,13 @@ FEATURES             Location/Qualifiers
                      VQLQDGEKDLEQLHRLYKLGTPPVGALLDSLRSVLCRFHEAFILLDALDESPQDCGREG
                      VLEAIETIRKWDLPGLHLLVTSRDLLDISQSLNPSHGQAISMKNPGVNRDIAIFVSDQL
                      KEDQQLQRWKARHSDIQEQLTQHAQGV"
+                     /Pfam="Helo_like_N, NACHT"
      CDS             complement(join(15849..16277,16344..16459,16525..17013,
                      17065..22114))
                      /codon_start=1
                      /gene="MPsGeK"
                      /product="fatty acid synthase subunit beta MPsGeK"
-                     /label=MPsGeK
+                     /label="MPsGeK"
                      /protein_id="QGA67227.1"
                      /translation="MEASDQSQAKLTLSFGGIQHAFSVPIEDLSALQDQKDAFLRSRSQ
                      ASLSETREPCSPAELMLDYLEFLSCRNLPPPLTKPVLLAFSRNFLHNTEIHSLLAKPEY
@@ -144,12 +149,14 @@ FEATURES             Location/Qualifiers
                      IENEQYVCAGTLHNLHVLGQLLDHLSQDTETQLLLEEMSTTEDRTTTKLYKLILKSIPA
                      TKKLPMPIRLQRGRCTIPIPGIDVPFHSSYLRSTVSSYRKILQQYISEEDVHLERLVGR
                      WIPNVTAKPFMADEGYVREVFNITQSPILKEMLEL"
+                     /Pfam="FAS_N, SAT2, DUF1729, FAS_meander, MaoC_dehydrat_N,
+                     MaoC_dehydratas, Acyl_transf_1"
      CDS             join(22722..22837,22903..22929,22991..23505,23559..28309,
                      28373..28495)
                      /codon_start=1
                      /gene="MPsGeJ"
                      /product="fatty acid synthase subunit alpha MPsGeJ"
-                     /label=MPsGeJ
+                     /label="MPsGeJ"
                      /protein_id="QGA67228.1"
                      /translation="MAVRKLVPETAPVVDDAPASTSVDHKRSLAHKLLIELLSYQLALP
                      VRWIETQNELLQWPETIQRYVEVGPRTTLVTMAKKTAARRASSQIVSASKLSTLKFLCT
@@ -183,12 +190,13 @@ FEATURES             Location/Qualifiers
                      QSTSLTASIQALLASQSTTRPTSTSIGVDVEAISSIPMGNAVFLERNFTRSERDHCFSS
                      PTPQASFAGRWSAKEAVFKSLQTPSVGAGAAMAEIEIVSDGGVPKVQLHGRAKEVALAK
                      GIRNIQASITHSGETVTAVALAESSPMC"
+                     /Pfam="Fas_alpha_ACP, FAS_I_H, adh_short, ACPS"
      CDS             complement(join(28619..28687,28745..28911,28973..30206,
                      30254..30285,30350..30874,31032..31221,31293..31565))
                      /codon_start=1
                      /gene="MPsGeI"
                      /product="transcription factor MPsGeI"
-                     /label=MPsGeI
+                     /label="MPsGeI"
                      /protein_id="QGA67229.1"
                      /translation="MGIRAGGGRGKPGAAVKEIENGQHWPARRRRAHHGWTRIPPDGAR
                      FRAGCNGAMQPRRESGGLIARFAPDIRLKSAVACLFNRASLVLARRQPPGQSPPRKAPA
@@ -205,11 +213,12 @@ FEATURES             Location/Qualifiers
                      TGLRQQVIQALHNSYTVWLQASDSSREARLAADVSGLLLTRAQRKWRPAEMRQVGNMAM
                      SSESPFMGVSIPPQSATMASAAPVEQPLSMPQLLQFNTAAHIDYSDLGAEPLGLSQGVD
                      DMLAMSMTFPRMFNVPV"
+                     /Pfam="CghF"
      CDS             31599..32708
                      /codon_start=1
                      /gene="MPsGeH"
                      /product="dehydrogenase MPsGeH"
-                     /label=MPsGeH
+                     /label="MPsGeH"
                      /protein_id="QGA67230.1"
                      /translation="MPTNRAAWQPAKKAPLLEVKAAPYPPPKANRIVVKNGAVAVNPID
                      WLIQSKGDIMFTWLKYPFVLGSDVAGEVVEVGKNVTRFQVGDRVLGFARGTDEKVNDSS
@@ -218,22 +227,24 @@ FEATURES             Location/Qualifiers
                      DIIRAFKGRTSAGALAIGQGGAEACMEVLDHVQGRKFIALASYPVPQEEPKRLVMLRTI
                      IFFVSWIISFKFKGLLKGIKSNFIFATSVNHNGIGKALFVDFLPDALRAGEFVPAPDAQ
                      VAGKGLESIQTAFEQQKQGVSAKKIVVSL"
+                     /Pfam="fPKS_ER"
      CDS             complement(32808..33629)
                      /codon_start=1
                      /gene="MPsGeG"
                      /product="esterase MPsGeG"
-                     /label=MPsGeG
+                     /label="MPsGeG"
                      /protein_id="QGA67231.1"
                      /translation="MPANRSSDDSTLHLPRILCLHGGGTNARIFRAQCRILTRYLSTAF
                      RLCFAEAPFLSQPGPDVTSVYKEFGPFKRWLRSSARDHPEIDPALATEAIDASLRDAMD
                      EDDRRGATGEWAGLLGFSQGAKMCASLLLRQQVRDATRTSPSARDGPNWRFAVLLAGRG
                      PLVSLDPACLTSPAVVDAGGIAMTAFPDERLLAAGTAHVLRLPTVHVHGMLDPGLEEHR
                      KLLAQYCEEGTARVMEWEGNHRVPIKTKDVVALVGHVLEVATETGVLQRRI"
+                     /Pfam="FSH1"
      CDS             complement(33925..35322)
                      /codon_start=1
                      /gene="MPsGeF"
                      /product="FAD-linked oxidoreductase MPsGeF"
-                     /label=MPsGeF
+                     /label="MPsGeF"
                      /protein_id="QGA67232.1"
                      /translation="MMLLTLLILSSVGLAAAADPSLFSENDYSPDNIVNRDVLIVGGGA
                      AGTHAAVRLKDLGKSFTLVEKSSVLGGHTHTYIDPTTGTPVEFGVHSFGNTSDTRDFFA
@@ -244,11 +255,12 @@ FEATURES             Location/Qualifiers
                      VPLLPKTYNIQSTVLPGVFWWLYGSETALTEAAVKTAVTSQIATVRRALNVPAPAGSPQ
                      FLAFGNHTPTHVTVPAEAIASGFYRDLYGLQGYRNTWYTGAQFIDSASGIWNLTNAVVL
                      PGLLTGL"
+                     /Pfam="NAD_binding_8, Amino_oxidase"
      CDS             35796..36824
                      /codon_start=1
                      /gene="MPsGeE"
                      /product="aldo-keto reductase MPsGeE"
-                     /label=MPsGeE
+                     /label="MPsGeE"
                      /protein_id="QGA67233.1"
                      /translation="MGSISPKTRFPIVLGAGLIGSPGLFEGATVTTVKDVEALLDTFQA
                      HGHTDVDVARIYGSGSAETLLAAADWKGRGLVVRDKLYPTKRRPMAHLGTAYTLEPADV
@@ -257,11 +269,12 @@ FEATURES             Location/Qualifiers
                      RRDMPESEHKPGSRFDPQTFHGRHHRHRYWNDAYFDVLDTIRETGRKYNLTEVQCALRW
                      LSHHSLLRPECGDAILVCGSDPAQLEEDLLALEEPPLPEEVVQVLDEGYAKVKAVVGPY
                      YH"
+                     /Pfam="Aldo_ket_red"
      CDS             complement(36963..38330)
                      /codon_start=1
                      /gene="MPsGeD"
                      /product="acetyltransferase MPsGeD"
-                     /label=MPsGeD
+                     /label="MPsGeD"
                      /protein_id="QGA67234.1"
                      /translation="MEDPARTQDILGQLPILKAYNHILLGFALSEDISRESVVQALNAA
                      ALQLATSVPWIGGKVVNVGSGPGNTGLFRSVPCELFAPPNSILRVKDVTADYPSYEEIV
@@ -271,11 +284,12 @@ FEATURES             Location/Qualifiers
                      RLRRRQTPDDLCKMTRAVDIRRTLQVPSEYMGVMVYNVSGRLPLGQLATASLARAASEL
                      RKALNSIDEYAVRSFATFVARQPDKSTLAYAGKFNPDVDMGVSSMASVPLYRADFGPLG
                      APGLVRRPNFAPVLSTIYVMPQTVEGDVDVLICLTREDIGALRADPEWTAYAEYIG"
+                     /Pfam="Transferase"
      CDS             join(38939..38981,39043..39738,39811..39983)
                      /codon_start=1
                      /gene="MPsGeC"
                      /product="short-chain dehydrogenase/reductase MPsGeC"
-                     /label=MPsGeC
+                     /label="MPsGeC"
                      /protein_id="QGA67235.1"
                      /translation="MPPPRGTPNILEGPGDYDVTSTIHNDTYPAIDPLKADLSGKAVFI
                      TGGSKGLGRAMVLSFAKAGASYIAAGARSDMTELAKDVAAAAATAKRSPPKFLPIQLDV
@@ -283,12 +297,13 @@ FEATURES             Location/Qualifiers
                      RAFLPLLLESELKALVHVTSVAAHLLNPTLSAYQTSKMALLKFSQLVHAEFGSKGLVTF
                      AVHPGNCPTDIMGGPDGLSEHEKLIFVETPEISADTIVYLTSEKRDWLGGRYINVTWDM
                      PELIAMKDEIVQGDKLKVKFIY"
+                     /Pfam="adh_short"
      CDS             complement(join(40135..40353,40418..40909,40977..41499,
                      41567..41834,41896..42115))
                      /codon_start=1
                      /gene="MPsGeB"
                      /product="transcription factor MPsGeB"
-                     /label=MPsGeB
+                     /label="MPsGeB"
                      /protein_id="QGA67236.1"
                      /translation="MFTSSSPEQRKPRQSRQLPGAACEECRRKKLRCDRQQPQCGGCRD
                      SGIVCRVTTEHPPRGPKSGHLKALQTRIASLERRLEQQMQTALLPGDDILNMLDEPAFT
@@ -300,11 +315,12 @@ FEATURES             Location/Qualifiers
                      VYGDVSPDFWQRHQWLDAIVKKRIEILSLRCASATEVVDPLLLFTYMMAQTTVLYLCKL
                      VKSVTWETDKSNPIVQEYEQRSLAAAQEIVNLTHTLKQFNFLKVHPFMPLPLYLCAEFL
                      SMYRSLDASFDAQLQEVQNALRNLQAVNNLARTYLNLLQVKEREGSLRSSSEEIDL"
+                     /Pfam="Zn_clus, Fungal_trans"
      CDS             join(44413..45051,45126..52559)
                      /codon_start=1
                      /gene="MPsGeA"
                      /product="polyketide synthase MPsGeA"
-                     /label=MPsGeA
+                     /label="MPsGeA"
                      /protein_id="QGA67237.1"
                      /translation="MVSRILRPVTGSTVLLFGPQALSFTKEDFDQIRTTVLETQGFSWI
                      VDAVAGLPEHWKALAERIPKLQSILGEQLLENLKDWFTTGQVNEADFHLPNILLSPLVV
@@ -352,6 +368,8 @@ FEATURES             Location/Qualifiers
                      KTSGYWNPMEHLSFLVKSSQTLKALPDFEGELSWTPVNDVAGTLADLLLADNTPYPIYH
                      IDNPVRQPWREMIPILADGLDIPKGNVIPFPEWVQRVRRFPGSVELDNPAAKLIDFLDD
                      NFLRMSCGGLLLDTTKSREHSPTLADVGPVSAEVVRKYIQAWKEMGFLH"
+                     /Pfam="SAT2, PKS_KS, PKS_AT, fPKS_PT, ACP_PCP, HTH_51,
+                     PKS_NRPS_MT, fPKS_R"
 ORIGIN
         1 atggcatcga cttccaacac ggacagggtg atagatgcag gtatgatcaa gaaggcgcat
        61 cccgagcaga cgccgccaga cgtgagccat gagggcgacg tggccacgga gaaaggagac

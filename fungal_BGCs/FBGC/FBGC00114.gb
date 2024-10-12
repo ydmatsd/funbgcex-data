@@ -1,30 +1,30 @@
-LOCUS       FBGC00114       44791 bp DNA     linear   UNA 14-APR-2023
-DEFINITION  curvupallides.
+LOCUS       FBGC00114              44791 bp    DNA     linear   UNA 20-MAR-2024
+DEFINITION  curvupallide B.
 ACCESSION   FBGC00114
-VERSION     .
+VERSION     FBGC00114
 KEYWORDS    .
 SOURCE      Curvularia pallescens DSM 62482
   ORGANISM  Curvularia pallescens DSM 62482
+            .
 REFERENCE   1  (bases 1 to 44791)
-  AUTHORS   Yokoyama M, Hirayama Y, Yamamoto T, Kishimoto S, Tsunematsu Y, 
+  AUTHORS   Yokoyama M, Hirayama Y, Yamamoto T, Kishimoto S, Tsunematsu Y,
             Watanabe K.
-  TITLE     Integration of Chemical, Genetic, and Bioinformatic Approaches 
+  TITLE     Integration of Chemical, Genetic, and Bioinformatic Approaches
             Delineates Fungal Polyketide-Peptide Hybrid Biosynthesis.
   JOURNAL   Org Lett 2017;19:2002-2005
-  PUBMED    28361537
+   PUBMED   28361537
 REFERENCE   2  (bases 1 to 44791)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Apr 14, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1021/acs.orglett.7b00559"; journalName: "Org Lett"; date: 
+  JOURNAL   Exported Mar 20, 2024 from SnapGene 7.1.2 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1021/acs.orglett.7b00559"; journalName: "Org Lett"; date:
             "2017"; volume: "19"; pages: "2002-2005"
 FEATURES             Location/Qualifiers
      source          1..44791
                      /strain="DSM 62482"
                      /mol_type="genomic DNA"
-                     /label=anamorph: Curvularia pallescens
+                     /label="anamorph: Curvularia pallescens"
                      /note="anamorph: Curvularia pallescens"
                      /db_xref="taxon:318706"
                      /culture_collection="DSM:62482"
@@ -33,7 +33,7 @@ FEATURES             Location/Qualifiers
                      1361..1402,1461..1889,1991..2155))
                      /codon_start=1
                      /product="major facilitator superfamily transporter CpaN1"
-                     /label=cpaN1
+                     /label="cpaN1"
                      /protein_id="BAZ95819.1"
                      /translation="MAYENSLPSQKELDGEKQIGAAGSSNHIPPGELVDRSYGNAIAGN
                      HSSRDIHGWKWATVYSAMLSTTFLFALDNTIVASIQPAIINDLGHLELLSWIGTGFALG
@@ -46,10 +46,11 @@ FEATURES             Location/Qualifiers
                      IMQSLVPVQEISNAVSAMTISQDLGMVLFLAVSGSLFHNEAVDKVGKVLPDVSQTEIEN
                      LVAGSSSKAFQALSEMEKILVIPEIDSAISTVWAFLLSAAALSVVCSLPLLKVKVDRGE
                      ELAAATVA"
+                     /Pfam="MFS_1"
      CDS             complement(join(3115..3840,3898..4178,4236..5007))
                      /codon_start=1
                      /product="transcription factor CpaN2"
-                     /label=cpaN2
+                     /label="cpaN2"
                      /protein_id="BAZ95820.1"
                      /translation="MSRRCARLNQPCSYNHSHQRRTRDAQLQQLRERLAKTEAQLALNT
                      SAPPPLVQPQLRSEGIQPATSTGWIGTPRSVTADSYSRRSSQYQPVASQSHGPSVLGTT
@@ -65,7 +66,7 @@ FEATURES             Location/Qualifiers
      CDS             complement(join(6048..6998,7053..7191,7247..7389))
                      /codon_start=1
                      /product="FAD-dependent monooxygenase CpaO"
-                     /label=cpaO
+                     /label="cpaO"
                      /protein_id="BAZ95821.1"
                      /translation="MHVLIVGAGVGGLSLAQTLRKQNISFEIFERDPDAEARFQGWAIA
                      MHSIVDDLLSIFPDDLPDLKESTNHLVPLDLSAQLSMYMPGRDDRWGFQDSPDFPFIRA
@@ -75,10 +76,11 @@ FEATURES             Location/Qualifiers
                      QIQHETRVWRDLELDPNMVPECRVILMGDAAHAMVPFRGEGGYHTLVDTIVLSKVLGEM
                      ARSGDYKDITRVRSRVGDFTRSMLKRAGQAVRDSRNLHADAQRFGPDGKPLTLKIVPLP
                      DTEIKLGAVAP"
+                     /Pfam="FAD_binding_3"
      CDS             join(7875..8186,8257..8913)
                      /codon_start=1
                      /product="2OG-Fe(II)-dependent dioxygenase CpaP"
-                     /label=cpaP
+                     /label="cpaP"
                      /note="revised sequence"
                      /protein_id="BAZ95822.1"
                      /translation="MAIGKLELPLIDISGYIAPKSPEDKQRVIEQVSQAARRFGFFQIK
@@ -87,11 +89,12 @@ FEATURES             Location/Qualifiers
                      PETVEKFSKRPIVPMKMIRYPPAAKVQKGQYGIGAHTDFGGVTILFQQPGKDGLEVWVD
                      EQQAWIDVPALEDVYVINCGDMVQRWSGGVYKSAKHRVINKVENGERMSCATFWHGDVR
                      ATNPLNPLDENKETVGMLLAKRLGGQYSFSDELLAAIGAAA"
+                     /Pfam="DIOX_N, 2OG-FeII_Oxy"
      CDS             complement(join(9665..19980,20034..20924,20997..21405))
                      /codon_start=1
-                     /product="polyketide synthase-nonribosomal peptide 
+                     /product="polyketide synthase-nonribosomal peptide
                      synthetase CpaA"
-                     /label=cpaA
+                     /label="cpaA"
                      /protein_id="BAZ95823.1"
                      /translation="MNTNNQNTSTSPEPIAIVGSGYRFPGGANSPSSLWKLLKTTPDLC
                      REIPADRFSTTGFYHPDGQRHGTTNVRHSYFLDEDIRLFDAAFFNINAHEAESIDPQQR
@@ -159,10 +162,12 @@ FEATURES             Location/Qualifiers
                      WVSERILERSAMSPDVSVPSFIYRLLPSPSTTTPAQKNTVLDEFERCMELAGAVPDTTG
                      WQGRMDLIPGEDVATWLCDSIIASMVSTTETPASTKFLHYECPITISVEDLTERAEHFK
                      AGRPQEEAPVSSMPLLKWMGKIKALGFTYVLASQDATVRRGTGETESTKR"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_DH, PKS_NRPS_MT, fPKS_KR,
+                     ACP_PCP, Condensation, AA-adenyl-dom, fPKS_R"
      CDS             complement(join(21985..23413,23467..23714))
                      /codon_start=1
                      /product="FAD-linked oxidoreductase CpaB"
-                     /label=cpaB
+                     /label="cpaB"
                      /protein_id="BAZ95824.1"
                      /translation="MKVSTITLPLLSSLVNGLVKPETCRCFPGDVCWPSDEQWAALNTT
                      VGGRLIKTVPLGQPCHGSDYDEAECKALASLWKKPTVHINSSSSIQAPIFANASCDPFT
@@ -174,11 +179,12 @@ FEATURES             Location/Qualifiers
                      GGDLIGGRFLVRDALEAVGPAINDSLLSKGGMFIGQSMNVTRFESSTRAVHPQWRRAVV
                      MSSYSLPYSFEVPFVDMQAQQDRITQEIMPAIEAVTPDAGAYINEADFQQVGWQNVFYG
                      SNYGRLKQVKEKYDPKGLFWNSIAVGSEGWKVASDGRLCKA"
+                     /Pfam="FAD_binding_4, BBE"
      CDS             join(24253..24339,24398..24591,24642..25263,25328..25547,
                      25605..25669,25749..25856,25917..26144)
                      /codon_start=1
                      /product="cytochrome P450 monooxygenase CpaC"
-                     /label=cpaC
+                     /label="cpaC"
                      /protein_id="BAZ95825.1"
                      /translation="MFTPMSAVLLLSFASFCCLLHFRGKQILETVLSLVLPRVNSGVYR
                      AGKQISGPKWQYPNGSVIERFINGGEVSEQWQKKYGPVYRVWSGTHPEIVITTPEDLKH
@@ -189,10 +195,11 @@ FEATURES             Location/Qualifiers
                      EIAANKDTLHEYIASTSTHLHRCFIESMRIRPFGVFTIGESSATTKNFHGVLVKPNTQI
                      LVDVLAINVRNPFWGKNSEAFDPSRLKNIKQSDLRYNLHSFGIGSRKCMGQFVAGHIVK
                      SLVAHLFDSFEVEPVEEKGKEGASGGADMGNWTPKSDALLRLTSRESVL"
+                     /Pfam="p450"
      CDS             complement(26273..27733)
                      /codon_start=1
                      /product="transcription factor CpaD"
-                     /label=cpaD
+                     /label="cpaD"
                      /note="revised sequence"
                      /protein_id="BAZ95826.1"
                      /translation="MGSGPTMSVLPPTRQSCDRCHKQKLRCKRPEKSDTDACERCLRKG
@@ -204,10 +211,11 @@ FEATURES             Location/Qualifiers
                      STSNASTDTLSESSQHPYCTIRYLVAVCMTLLLNTYIGIVISLQNSADALKTYQWASEQ
                      TQSRQSTDSSICTWNTTECIKLQFVGMVQMCSSFMRRQIEVSKLLMPSRLSSSELPGGN
                      SCWEAVEKLKIELEQRLKQLHKSLDMAD"
+                     /Pfam="EqxR"
      CDS             join(28978..29035,29101..30101,30157..30272,30329..30719)
                      /codon_start=1
                      /product="transcription factor CpaE"
-                     /label=cpaE
+                     /label="cpaE"
                      /protein_id="BAZ95827.1"
                      /translation="MAEQVPVLWCGQCNKPFTKQSALKRHGYYCRSNTRASVSRRRSCA
                      ACAQAKTGCNNAQPACSRCAQKGIACHYPSKSAAKRRDAVETRRAVSTDLDNLHHNQAN
@@ -219,10 +227,11 @@ FEATURES             Location/Qualifiers
                      LNKLIFFSPAAMCDMPSEFVIAPLPAKRQLWEAKNAEEWKLQSQKEIREQVSYALAVDG
                      KIVRLNQRRLSCRDAWLPYTPSNEETASRDQEVGNSSSATWWAEWCSGMDSMGGLIMLA
                      ASMA"
+                     /Pfam="CpaE"
      CDS             join(31345..31443,31506..31937,31988..33259)
                      /codon_start=1
                      /product="FAD-linked oxidoreductase CpaF"
-                     /label=cpaF
+                     /label="cpaF"
                      /note="revised sequence"
                      /protein_id="BAZ95828.1"
                      /translation="MYKLLTLLSGLSALVAGHGRFDKRLNSNVTCKAVPGDPGWPSEDT
@@ -236,10 +245,11 @@ FEATURES             Location/Qualifiers
                      TISDAPGQDNSNCILFAGGKKVASDGNDPFAGYHPAWRKASYGIVTIRVIPHNITDAER
                      TVVEKDMLSKTSAMEAFAPGTGAYMNEADRLDPNYIENFYGANYGDHLRTKKKYDPENL
                      FYCGTCVGAEEWVERKDGPLCKKA"
+                     /Pfam="FAD_binding_4, BBE"
      CDS             join(33592..33695,33746..33879,33950..34935)
                      /codon_start=1
                      /product="dehydrogenase CpaG"
-                     /label=cpaG
+                     /label="cpaG"
                      /protein_id="BAZ95829.1"
                      /translation="MFTLLNRVFTSFSPPKAEKKDGAIRFGVFGASKIAPMALITPAVS
                      HPEVIVQAIAARDRSRAEEFAKKHGIPDVKDTYEDILADPNIDAVFIPLPNGLHYEWSV
@@ -249,20 +259,22 @@ FEATURES             Location/Qualifiers
                      DYEHEKVRTRVATLHGCMHAVLWHRIDVQDEYKVRVKKTGEVLRSWKEQKSYKAYTYKE
                      AGGDQAVGQGEDWWMSYRYQLEAFVDRVKGRKTQYWVTGEDSIKQMKMIDMAYEKSGLG
                      LRPTSEFR"
+                     /Pfam="GFO_IDH_MocA"
      CDS             complement(join(35605..35643,35702..36172))
                      /codon_start=1
                      /product="DUF3237 protein CpaH"
-                     /label=cpaH
+                     /label="cpaH"
                      /protein_id="BAZ95830.1"
                      /translation="MKFFSNSIFALATAACSVAAQTPASPEMNWILSANVTPGDPIVVG
                      PVPGGTRTILPIAGGTFWGPYFNGTLAPVGIDAGIVTPDNKFYPGGTAVLQSEDGANII
                      FKDNGFQTGDTIYGAVTFETGAEGYEWLNKLILVSSAKFASDTGSAVTLNIFAAGAIPE
                      EAKKGR"
+                     /Pfam="DUF3237"
      CDS             complement(join(36803..37137,37192..37931,37990..38393,
                      38449..38643))
                      /codon_start=1
                      /product="major facilitator superfamily transporter CpaI"
-                     /label=cpaI
+                     /label="cpaI"
                      /protein_id="BAZ95831.1"
                      /translation="MATIDSEHSVKEAPESSRSSQPSLSGAEDAADSHSEKSVSYPTGF
                      RMWLLSGASIFGVFLISLDQTILGTAVPKITADFGGLNDVSWYSAAYFMTFGGLEASWG
@@ -274,10 +286,11 @@ FEATURES             Location/Qualifiers
                      VDTPAPKWIGYQILVGSAIAFSVQNGLNIAQSSVDPEDLPAVTANLYFFQTVGGAFTVS
                      SAQAAFINQALDNLRTTAPEIDSSKLITTGASELRKVFTEAEVPIVIEAYMHGLKAAFA
                      VSIAFCGLAFISTLFVPWEQLATHRPAKPTDTEKQDNAAE"
+                     /Pfam="MFS_1"
      CDS             join(39171..39882,39938..40119)
                      /codon_start=1
                      /product="short-chain dehydrogenase/reductase CpaJ"
-                     /label=cpaJ
+                     /label="cpaJ"
                      /protein_id="BAZ95832.1"
                      /translation="MSDAPPFPSPVKRWHDKSQPAGDPSLPALSQKGKSILITGGGNTG
                      IGGETARYFARAGAARIGLLGRREGPLLENKAAIEKECPGTKVFIQSCDVTDEASVNSA
@@ -285,11 +298,12 @@ FEATURES             Location/Qualifiers
                      AHVVAINSWGSHLSLNDAFASYCVAKMAVYRLWDTVLLANPNLSVFHTQPGVVLTEMNL
                      KVGGADSFKNVKTDDVTLPASFNLWLSTPEARFLKGKFLWCNWDIDDLKSRAKELESGR
                      LLNLDLNGWPFAAAAN"
+                     /Pfam="adh_short"
      CDS             complement(join(40786..41111,41171..41622,41684..41807,
                      41876..41999,42064..42246))
                      /codon_start=1
                      /product="methyltransferase CpaK"
-                     /label=cpaK
+                     /label="cpaK"
                      /protein_id="BAZ95833.1"
                      /translation="MGSISEKGFNPTAIAEAEALLQSLKNHSGGPEDQAKAVRQLEKLR
                      CAIHTGFDALLFQAQPLQILPAINVLIEHGVFDAVPPEGGMSIQDVASKVKLDDTILKR
@@ -299,10 +313,11 @@ FEATURES             Location/Qualifiers
                      TMPHNFYDPQPVKNAHVYYLRNVLHNHYDDRSQVILRNIVNAMGSDSRVLIGEMILPST
                      VTAGSDPMPYFMDINMFMEGGIERTEEQWVALLDSVGLKIEKIWRLASNPVQATIEARL
                      KSR"
+                     /Pfam="MdpA, Methyltransf_2"
      CDS             join(42897..43189,43243..43443,43510..44791)
                      /codon_start=1
                      /product="FAD-linked oxidoreductase CpaL"
-                     /label=cpaL
+                     /label="cpaL"
                      /note="revised sequence"
                      /protein_id="BAZ95834.1"
                      /translation="MALKSALLSILLALLDLANGGTVGRQYPPKPNCRYIPTDKGWPSQ
@@ -316,6 +331,7 @@ FEATURES             Location/Qualifiers
                      SIFNVDDDPDSSPRRPPHPPNSVLPAWRKAIAYCNPQTHTPYPFTDPELAGALRKKLVE
                      DIFPRLEAATPGGGILNEIDPTYKGDWKEGFFGANYEKLLKIKNKYDPEGLLYGPFAVG
                      SDKSRIDGEGRLCRV"
+                     /Pfam="FAD_binding_4, BBE"
 ORIGIN
         1 ctacgccaca gtggcagctg ccaactcctc cccacgatca accttcactt tctagctcgc
        61 gcattagcac agtgagtcgc atgaaagaca acagaaatcg tgtatatcac tcaccaatag

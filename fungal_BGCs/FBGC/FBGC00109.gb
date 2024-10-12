@@ -1,28 +1,28 @@
-LOCUS       FBGC00109       53195 bp DNA     linear   UNA 19-FEB-2023
+LOCUS       FBGC00109              53195 bp    DNA     linear   UNA 28-AUG-2024
 DEFINITION  penigequinolone.
 ACCESSION   FBGC00109
-VERSION     .
+VERSION     FBGC00109
 KEYWORDS    .
 SOURCE      Penicillium thymicola IBT5891
   ORGANISM  Penicillium thymicola IBT5891
+            .
 REFERENCE   1  (bases 1 to 53195)
   AUTHORS   Zou Y, Zhan Z, Li D, Tang M, Cacho RA, Watanabe K, Tang Y.
-  TITLE     Tandem prenyltransferases catalyze isoprenoid elongation and 
+  TITLE     Tandem prenyltransferases catalyze isoprenoid elongation and
             complexity generation in biosynthesis of quinolone alkaloids.
   JOURNAL   J Am Chem Soc 2015;137:4980-3
-  PUBMED    25859931
+   PUBMED   25859931
 REFERENCE   2  (bases 1 to 53195)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Feb 19, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1021/jacs.5b03022"; journalName: "J Am Chem Soc"; date: "2015"; 
-            volume: "137"; pages: "4980-3"
+  JOURNAL   Exported Aug 28, 2024 from SnapGene 7.2.1 https://www.snapgene.com
 COMMENT     ##Assembly-Data-START##
             Assembly Method       :: fungal genome sequence v. 2014
             Sequencing Technology :: 454
             ##Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1021/jacs.5b03022"; journalName: "J Am Chem Soc"; date: "2015";
+            volume: "137"; pages: "4980-3"
 FEATURES             Location/Qualifiers
      source          1..53195
                      /mol_type="genomic DNA"
@@ -31,7 +31,7 @@ FEATURES             Location/Qualifiers
      CDS             1..1299
                      /codon_start=1
                      /product="FAD-dependent monooxygenase PenA"
-                     /label=penA
+                     /label="penA"
                      /note="FAD dependent monooxygenase"
                      /protein_id="ANY57879.1"
                      /translation="MTRTSEFKIAIIGAGPAGLTLASLLTASPHPFNFTVFELRQRPHP
@@ -42,11 +42,12 @@ FEATURES             Location/Qualifiers
                      DLRELLLTNDDYFASWSDDIKHLLMVTLKEQPADAEIVAHPMHMLPLAPYPHTHMRGIV
                      MVGDAAHLMTPFAGKGVNVAMADSLSLAEQLEYLAVGRSSTMSFQDALDEALVGYEEVA
                      HPRAKKAMKLTWHNLLLSYSDNGAEQIGNVLES"
+                     /Pfam="FAD_binding_3"
      CDS             complement(join(2014..2358,2426..2869,2931..3463,
                      3511..3781))
                      /codon_start=1
                      /product="cytochrome P450 monooxygenase PenB"
-                     /label=penB
+                     /label="penB"
                      /note="cytochrome P450"
                      /protein_id="ANY57880.1"
                      /translation="MNSTYPKRGLEAYLVWPDSRLNWDPPYTHLLTAAVLGMILCMIFT
@@ -59,11 +60,12 @@ FEATURES             Location/Qualifiers
                      TVPDDGVMIHGHFLPDGTILTHSLYLIHHNPNFFTNPKSFQPERWLGSSAKDLEQYYVP
                      FSKGSRSCIGMTLAYHEIYTYLAIVFSRFDMELFNTTDRDMEWRDHFFVKRKGVLKVRI
                      VRDRWSGEEFTSP"
-     CDS             complement(join(5246..5562,5627..6072,6153..6276,6329..6452,
-                     6498..6683))
+                     /Pfam="p450"
+     CDS             complement(join(5246..5562,5627..6072,6153..6276,
+                     6329..6452,6498..6683))
                      /codon_start=1
                      /product="methyltransferase PenC"
-                     /label=penC
+                     /label="penC"
                      /note="O-methyltransferase"
                      /protein_id="ANY57881.1"
                      /translation="MTVGSQVVHDEPTILIAKLHALEPRLKDKNDHQARKECLRISKAL
@@ -73,10 +75,11 @@ FEATURES             Location/Qualifiers
                      KILDGADPEKALIVDVGGGRGHDLIAFHKQFPNAGRLVVEDLPAVLEPLGEFSAFIEQV
                      EHDFLSGEQPVKGARAYLCHHIMHDWPDSYCLRILEGIALAMTPGYSKLLLHEIIVPEQ
                      GACDFQAQSDITAMVCNGGMERTKQQFHTLLKAAGLSVVQIWESADEGGDGIVEAMKV"
+                     /Pfam="Methyltransf_2"
      CDS             complement(7457..8290)
                      /codon_start=1
                      /product="short-chain dehydrogenase/reductase PenD"
-                     /label=penD
+                     /label="penD"
                      /note="short-chain dehydrogenase/reductase"
                      /protein_id="ANY57882.1"
                      /translation="MPLSSKVSQAPWSLTGKTAVVTGGSRGIGRAIAIHLARKGVRKLA
@@ -84,10 +87,11 @@ FEATURES             Location/Qualifiers
                      NAALLDPINTPSVEDVTLENFQELMQANCFAPVSIINACMPHLPPSGGRVINISSVASK
                      TPNPGTIVTYGASKAALDSYTRSMAGLFAKDKTATFNTVCVGPTVTDSFRAVSQLYPGE
                      FIKEVAKSFTAADRVGVPEDIAYIVGFLASEEGRWMNGACVSANGGLREALPALS"
+                     /Pfam="adh_short_C2"
      CDS             join(9831..10123,10184..10455,10522..10892,10962..11453)
                      /codon_start=1
                      /product="FAD-dependent monooxygenase PenE"
-                     /label=penE
+                     /label="penE"
                      /note="FAD dependent monooxygenase"
                      /protein_id="ANY57883.1"
                      /translation="MEKPEFKVIIVGGSIAGLTLAHCLAQANIDHVVLEKRSAIAPQEG
@@ -99,10 +103,11 @@ FEATURES             Location/Qualifiers
                      SGSASHTSDSDINNLLRVFQSLRYDRVKRTYQQSCSGARLQTRDDFLKILVGRYVFPYV
                      GDYISHSMCKDISGGHVIDFLPLPKRSKAGWAKYSRSNRSRATQLQWGSIWLSPVILCL
                      FCMLFLWPWSSSLPISS"
+                     /Pfam="FAD_binding_3"
      CDS             join(12643..12653,12708..12866,12921..13254,13309..13893)
                      /codon_start=1
                      /product="quinolone epoxide rearrangement protein PenF"
-                     /label=penF
+                     /label="penF"
                      /note="CrtC superfamily protein"
                      /protein_id="ANY57884.1"
                      /translation="MFDGARLAQGLPYYISQVVFYPFEIYNSMSIVDVISRQDELDSPK
@@ -112,10 +117,11 @@ FEATURES             Location/Qualifiers
                      KNWGTAALEASVKAWYWGHGRVGPYSLVWFDGVTPGGKEYFASLITENGKIVSQSCEPN
                      SVVVRPWGENDEFPPVRGAAAPAGYTLRYALGHGMAFVANFTREVSQVEADTYKRMIGS
                      FSGGMEGGEQYEGRALCDQFQF"
+                     /Pfam="PenF"
      CDS             join(15527..16686,16745..16889)
                      /codon_start=1
                      /product="DMATS-type prenyltransferase PenG"
-                     /label=penG
+                     /label="penG"
                      /note="prenyltransferase"
                      /protein_id="ANY57885.1"
                      /translation="MTQDVVTVSSQTAGTIKESGTHSNPDNKTTSPSTWKSLSKYACFD
@@ -126,10 +132,11 @@ FEATURES             Location/Qualifiers
                      AWQWSWAKVEEVCTLGGKLQGPATDRSIGLLRKLWGILKLDEFTPSMAFTWNYEILPGQ
                      THPNVRIYFAICDRSDEEVAQAVSQWFNLLGWHETARSYPETLRYLQPNRDLKKTNTAH
                      TWLSITVTEKGVYTSLYYHPLGNGPDDHNIRKTWF"
+                     /Pfam="Trp_DMAT"
      CDS             complement(join(17164..18090,18140..18660,18716..18992))
                      /codon_start=1
                      /product="FAD-linked oxidoreductase PenH"
-                     /label=penH
+                     /label="penH"
                      /note="FAD dependent dehydrogenase"
                      /protein_id="ANY57886.1"
                      /translation="MLPRALTLSALLALLLAIYLALAPARLSCRCRSWEQCWPSLEAWS
@@ -142,10 +149,11 @@ FEATURES             Location/Qualifiers
                      LSSDVEADAPTINELFGSTLVSNGLFQSESGPKLIAERMSQIGLNDGEWILTSNLGGQV
                      NDNKRANTPLHPAWQSSAQLVSLVVNVDTAPGARDRAMRRLTNELMPRLYALDPSQRVS
                      YRNMGDPNEPHFKEVYWGATNYDRLVQIKRDWDPKDLFISRVGIGSERWDFEGFCKV"
+                     /Pfam="FAD_binding_4, BBE"
      CDS             join(20428..20697,20763..21872)
                      /codon_start=1
                      /product="DMATS-type prenyltransferase PenI"
-                     /label=penI
+                     /label="penI"
                      /note="prenyltransferase"
                      /protein_id="ANY57887.1"
                      /translation="MASLIGGSAIQHLAQDIDTNKINHKAKANGPNLAPKSRALDMVSK
@@ -157,21 +165,23 @@ FEATURES             Location/Qualifiers
                      PQSLSSASDPVTSDIVKERTSLLAGYQYYFDIAPGADLPDIRFYAPIRKELINDRGVAA
                      AVTDWMKAQGRGKFCDNYVRMLEGMAGERGLSKCHGLHSFIGCLIRRDGELDVTSYLLP
                      G"
+                     /Pfam="Trp_DMAT"
      CDS             34122..34721
                      /codon_start=1
                      /product="epoxide hydrolase PenJ"
-                     /label=penJ
+                     /label="penJ"
                      /note="hydrolase"
                      /protein_id="ANY57888.1"
                      /translation="MSSTAQSFREIVGIPRSSASTQDSTLIIIDAQNEYATGALKVENV
                      TETRKSIAKLLERYRQAGNGKNIVHVVHKVPEGAAVFTPNTPLAQEFEELTPNTGEKVV
                      TKNFPSSFAKTDLHTYLQGLGDVGKKVVLVGYMAHVCVSTTTRAAAELGYDVLVVGDAV
                      GDRDIPGVKVETLVSVVLSELADGFATVVSEEDIRA"
+                     /Pfam="Isochorismatase"
      CDS             complement(join(35523..35845,35904..36337,36387..36510,
                      36583..36685,36746..37024))
                      /codon_start=1
                      /product="methyltransferase PenK"
-                     /label=penK
+                     /label="penK"
                      /note="O-methyltransferase"
                      /protein_id="ANY57889.1"
                      /translation="MGSIDDSFSLPAPSDEHGFEALGTQLVEAMSTYAKCLKAENLPPP
@@ -182,10 +192,11 @@ FEATURES             Location/Qualifiers
                      IVQDGYVTNGSTAGPAAVEMHRHDFFEAQPIKGAAAYFFRHIFHDWPDNACVTILKQTA
                      RAMDKHRSRILICDQVLDDNSPAEASLLYDIDMMSLFGGKERSLAEWKSLIYSAGENLE
                      IVNVLRSPESEAAILDVRLKL"
+                     /Pfam="Methyltransf_2"
      CDS             complement(39457..41619)
                      /codon_start=1
                      /product="cyclopenase PenL"
-                     /label=penL
+                     /label="penL"
                      /note="protein of unknown function"
                      /protein_id="ANY57890.1"
                      /translation="MFALPVRKFHEPYYERKPSHAKKINGVYQTLTTAGMEVEDGIRKA
@@ -201,10 +212,11 @@ FEATURES             Location/Qualifiers
                      VQDVMDNAGKASIRQIISDAQTYPFMTTTTFRIFRATKMFQDSILNPYIPPASVTWFNT
                      IKDYFLESDKTCMLYAYGYDLGNYDHVRLHSGAILDATSSKRMPLQMSPWSQENPDPNH
                      PLWTPEMCDTFRAWMLNGCPKGTDSA"
+                     /Pfam="Hemocyanin_M, Hemocyanin_C"
      CDS             42474..43412
                      /codon_start=1
                      /product="2OG-Fe(II)-dependent dioxygenase PenM"
-                     /label=penM
+                     /label="penM"
                      /note="a-Ketoglutarate-dependent dioxygenase"
                      /protein_id="ANY57891.1"
                      /translation="MTIQDHTKRKIPRLSATRDCHEIWPTVQEHGAVIIKNLLPLEVVQ
@@ -213,10 +225,11 @@ FEATURES             Location/Qualifiers
                      PFTVENGATHVILGSHKWPDLSGATMEQTVRAVMEPGDAVLITDNTVHCGGADMTGTET
                      RRLLSLTMGISQITPLESNFTVPRPIIESLTPLAQRLVGWRSQRSSVPRDIGLLTIRGK
                      SIENTLGLKSEQPLPDGMEKGSMQETDIGGQ"
+                     /Pfam="PhyH"
      CDS             join(44739..45176,45240..53195)
                      /codon_start=1
                      /product="nonribosomal peptide synthetase PenN"
-                     /label=PenN
+                     /label="penN"
                      /note="NRPS"
                      /protein_id="ANY57892.1"
                      /translation="MYHQLESHGVFPTLGDDAAKLVRTTHVQEIAFTPISEIQRFCEAQ
@@ -267,6 +280,8 @@ FEATURES             Location/Qualifiers
                      DSVQGPCVNRTLIRVQLSPDSTALGFCRGLRKNQARVSAENHLELGDVLENCTSWSSSD
                      RLAPWITHLPADKATSTLALPGACITYRSTDVRINPRNQILVRSVITDQQQACIQVQVS
                      STVMDGSYAFSLASKILNTAQALSMSAERTLSSIDVHE"
+                     /Pfam="NRPS_C, AA-adenyl-dom, ACP_PCP, PKS_NRPS_MT,
+                     NRPS_CT"
 ORIGIN
         1 atgactcgca cctctgaatt caaaatcgcc attatcggtg ccggcccagc cggacttaca
        61 ctagcctcgc tgcttacagc aagcccgcat cccttcaact tcaccgtctt tgagctgcga

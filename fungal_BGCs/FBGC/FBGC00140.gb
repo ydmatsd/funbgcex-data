@@ -1,28 +1,28 @@
-LOCUS       FBGC00140       35774 bp DNA     linear   UNA 21-JAN-2023
+LOCUS       FBGC00140              35774 bp    DNA     linear   UNA 21-JAN-2023
 DEFINITION  eupenifeldin.
 ACCESSION   FBGC00140
-VERSION     .
+VERSION     FBGC00140
 KEYWORDS    .
 SOURCE      Phoma sp. CGMCC XZ068
   ORGANISM  Phoma sp. CGMCC XZ068
+            .
 REFERENCE   1  (bases 1 to 35774)
   AUTHORS   Zhai Y, Li Y, Zhang J, Zhang Y, Ren F, Zhang X, Liu G, Liu X, Che Y.
-  TITLE     Identification of the gene cluster for bistropolone-humulene 
+  TITLE     Identification of the gene cluster for bistropolone-humulene
             meroterpenoid biosynthesis in Phoma sp.
   JOURNAL   Fungal Genet Biol 2019;129:7-15
-  PUBMED    30980906
+   PUBMED   30980906
 REFERENCE   2  (bases 1 to 35774)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Jan 21, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1016/j.fgb.2019.04.004"; journalName: "Fungal Genet Biol"; date:
-            "2019"; volume: "129"; pages: "7-15"
+  JOURNAL   Exported Jan 21, 2023 from SnapGene 6.2.1 https://www.snapgene.com
 COMMENT     ##Assembly-Data-START##
-            Assembly Method       :: Celera Assembler v. V8.3; Falcon v. v0.3.0 
+            Assembly Method       :: Celera Assembler v. V8.3; Falcon v. v0.3.0
             Sequencing Technology :: PacBio
             ##Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1016/j.fgb.2019.04.004"; journalName: "Fungal Genet Biol"; date:
+            "2019"; volume: "129"; pages: "7-15"
 FEATURES             Location/Qualifiers
      source          1..35774
                      /strain="CGMCC XZ068"
@@ -33,7 +33,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="eupC"
                      /product="2OG-Fe(II)-dependent dioxygenase EupC"
-                     /label=eupC
+                     /label="eupC"
                      /note="EupC"
                      /protein_id="QCO93106.1"
                      /translation="MEIANTQAAIPTIDISALLSPTASEQSRQTVINNMSDACHAYGFF
@@ -42,22 +42,24 @@ FEATURES             Location/Qualifiers
                      CLALGLPKSWNCTSHVFKPLLNKPSIPMRFLHYGPVEIHDDRQFGVADHTDFGFVSILL
                      QEAGTSGLEVFYPPTKSWVPVPVFEQGFVINMGDMMQKHRHSVAFFLNGDLKLNAKALD
                      GSGHETIVGEQIQQRLIETMGMTGNLLRRELV"
+                     /Pfam="DIOX_N, 2OG-FeII_Oxy"
      CDS             complement(join(1682..2220,2277..2516,2575..2632))
                      /codon_start=1
                      /gene="eupG"
                      /product="short-chain dehydrogenase/reductase EupG"
-                     /label=eupG
+                     /label="eupG"
                      /protein_id="QCO93107.1"
                      /translation="MNSAGPKCVTLITGANTGLGFETAKALFARPEPYHILVGCRGQIS
                      RAEDAIEELQHLFPGTASTAQPLLIDISSDKSIALAFAEVQEEFGYLDIVVNNAGADLD
                      TAVSSGRLTKREAWNQTWDVNVTGTQLFTETFAPLLLASKTQLPRLIFITSGLSSITEH
                      ANGSSPRYALAPAGWPKPDTLFLAYRSSKSGLNMIAAEWARVLRNDGVKVFNISPGFLD
                      TGLGDDRASAERREKRALGAIDASVGGEFCANVVEGKLDEQSWPSKALRKNTVQPW"
+                     /Pfam="adh_short"
      CDS             complement(4335..5801)
                      /codon_start=1
                      /gene="eupM"
                      /product="major facilitator superfamily transporter EupM"
-                     /label=eupM
+                     /label="eupM"
                      /protein_id="QCO93108.1"
                      /translation="MSNQHSSTAAPSSYILDSANQPTSFDGNEQGDVNPKPLDHIRPVC
                      NLETQMSNLPTDSVYASQPDGGLVAWLQVLGAWVLFFNTWGAMNSFGVFQTYYESGVLF
@@ -68,12 +70,13 @@ FEATURES             Location/Qualifiers
                      FGRIAPNYLSDRIGSFNVITPCAFITGILLICLQSLRAGQVGAIVILTILLGFFSGVFV
                      AIPGTCFPYLTRDKSMLGTRVGMAFSVIGFGMLIGGPGAGRVLDSSTSSNKSLNFMGLW
                      MFGGIATMVSGLLYVMVRFLLVGCKLLVRA"
+                     /Pfam="MFS_1"
      CDS             complement(join(6724..7071,7139..7635,7700..8032,
                      8180..8363))
                      /codon_start=1
                      /gene="eupB"
                      /product="FAD-dependent monooxygenase EupB"
-                     /label=eupB
+                     /label="eupB"
                      /protein_id="QCO93109.1"
                      /translation="MTIYTFTSSEPHIAIVGGGIVGVILTLGLLRQNVSVRLYEQSAGF
                      REIGAGIAFTASARRCMELMDPAIIDALRRCGAVSVSDKVADEDDHLRWIDGYNQHSKA
@@ -83,11 +86,12 @@ FEATURES             Location/Qualifiers
                      HPTVLGIVNLLPDELSKWALFDQGEFPLPHYSKGRICLAGDAAHASSPHHGAGACLGVE
                      DALCLSTLLSQVRTTLTQADEGSKDKSESSMGQLLEAAFETFNLVRRTRTQWLVNSSRR
                      VCDLYHQQEWADPIRCPKAETCFEEIRDRSYKIWHFDVDGMLEQTRSEFTSRKM"
+                     /Pfam="FAD_binding_3"
      CDS             join(8876..9556,9622..15635,15837..17190)
                      /codon_start=1
                      /gene="eupA"
                      /product="polyketide synthase EupA"
-                     /label=eupA
+                     /label="eupA"
                      /protein_id="QCO93110.1"
                      /translation="MQTEEWKMANQDNNKPQRDSERCVFLFGSLSLSFDASAFAQVRKA
                      IANDERNSWLVNAARQLPQDLETILSGLPSLNNSNTRARKQLADLHNAIIGGRPLDTPF
@@ -135,11 +139,13 @@ FEATURES             Location/Qualifiers
                      KSSQTLRALPNLPGSLGWTPADAIADSLLDICTQPGDVALHPLYHIDNPVRQNWDEMLA
                      VLADVLNISQGASGIVPFDEWLRRVRDWPHTEDNASDGKNPAYVLVDFLEDHFVRMSCG
                      GLLLGTRKAREHSETLACVGPVDAQAIKLYVRSWKDMGFLD"
+                     /Pfam="SAT2, PKS_KS, PKS_AT, fPKS_PT, ACP_PCP, HTH_51,
+                     PKS_NRPS_MT, fPKS_R"
      CDS             complement(17962..19017)
                      /codon_start=1
                      /gene="eupF"
                      /product="Diels-Alderase EupF"
-                     /label=eupF
+                     /label="eupF"
                      /protein_id="QCO93111.1"
                      /translation="MRYHLSALVLVFTAFRETLTAPTPGNNTIPLPNRLLHQWPNGTWV
                      ENISVRPNGNLLVTTSTPDGSVWQVKEPWKENPEVERVFNFDEWVDRLIGIGETQDDKY
@@ -148,11 +154,12 @@ FEATURES             Location/Qualifiers
                      DGIKIRDHDLFWVNQDDSGIYRVKIDDAGVPVAPVKPQLVASYNTMWDDMAFDPFNENV
                      IWATGLNAVFAATLDGQIVPVDGVGTSDNLTLPGPTACAFGRTEKDKSILYVTGNLLTV
                      PESLLDVKLGGW"
+                     /Pfam="AsR5"
      CDS             22000..23139
                      /codon_start=1
                      /gene="eupE"
                      /product="terpene synthase EupE"
-                     /label=eupE
+                     /label="eupE"
                      /protein_id="QCO93112.1"
                      /translation="MKEIWETLKQYFGDGFVPGSAPLRYEMHFCDMKEPLNKKQSMRYG
                      VEIPEDAMPLFSVLGDTCAPPCSCQDISGVIEHIDRYLENAPIRHADDYTITSGKDDED
@@ -161,11 +168,12 @@ FEATURES             Location/Qualifiers
                      MTANTLGCAVLLLASEGVIVGDLDDGALEMASIAQCLSMDMAKEALGVLEGEKTETVAG
                      DRRQLKRELRWLYVRCMKYLDAQPHAEFLRRFASSGLHYVPMMDRYLERVRGHIRFPIR
                      ESVARILEPFIKREPTPNKSGREADHIAQVVNEPITVAL"
+                     /Pfam="AsR6"
      CDS             complement(join(23636..25531,25584..25673))
                      /codon_start=1
                      /gene="eupR"
                      /product="transcription factor EupR"
-                     /label=eupR
+                     /label="eupR"
                      /protein_id="QCO93113.1"
                      /translation="MVRVEALIEQLANQVVNRESEKVVGTNDSESDLATSCSPQDTQTL
                      KHLLPQKVNSPSTCIEYAPVSAALHAALPPHEDINLIIKAGLDVSLHRLMTTSLATLSR
@@ -179,11 +187,12 @@ FEATURES             Location/Qualifiers
                      GHLLQLDIPCFGTIGISSEGEVVFLFTTQSHDVHRTHGHERDSAQVTERTLGCMEMGPP
                      TPPHIPSVSSPTIPPPELAMHPSPESQYPATVHDAFNEQFQSSNLISNTDEWTLQGTDT
                      DFFGNLMRSSRVENPLDTGSAWADQH"
+                     /Pfam="GsfR1"
      CDS             26530..27822
                      /codon_start=1
                      /gene="eupH"
                      /product="FAD-dependent monooxygenase EupH"
-                     /label=eupH
+                     /label="eupH"
                      /protein_id="QCO93114.1"
                      /translation="MTSLKVLIAGAGIGGPAAAFWLSRIGCEVTVVERSPRLRATGQQV
                      DLSGQGIVVTRMMGIEDDLRAVRCPERGMRFVDHQGVTKAFFPVDYSGKAVYSPTQEVE
@@ -193,12 +202,13 @@ FEATURES             Location/Qualifiers
                      YCQRMSQIRLPKGAWSKGRAVLLGDAAFCPGAIGGGVGTTAALIGAYVLAGEIEKEWEG
                      CGRKTEEFNAQNATKEYERIVRPFITSRSDMSTWMVRLWLPESNFGVKTIQTIAGFAAG
                      SQMSKYRGNSKPADETQKLEYPDYFGLGPKP"
+                     /Pfam="FAD_binding_3"
      CDS             join(28405..28742,28816..29093,29152..29308,29378..29701,
                      29758..29787,29844..30390)
                      /codon_start=1
                      /gene="eupD"
                      /product="cytochrome P450 monooxygenase EupD"
-                     /label=eupD
+                     /label="eupD"
                      /protein_id="QCO93115.1"
                      /translation="MAILFLSLGTSWISTANSSALLGVLLHQAIRNLEVDSQGWEMSFT
                      YLGALVLLFAGLVTTSGLSIMHALLHTWLAGSAFLFGLYGSILLYRAFFHRLCHFPGPF
@@ -210,12 +220,13 @@ FEATURES             Location/Qualifiers
                      QGYSSWTYNKAKGVPYIDYIIHETLRLRPAVPMGFLRQTPPQGLQIDEIFIPGDVIVNV
                      PTYTIHRDSRYFYDAAKFIPERWEELSPDTAAYLAFQRGPFTCSGKNLATMQLRMLISC
                      LALRYRIHFAPGEDGVAFATQEKETLTMWIPPLQMVFRPR"
+                     /Pfam="p450"
      CDS             complement(join(30992..32241,32347..32737,32839..33381,
                      33436..33718,33773..34723,34789..34956,35068..35774))
                      /codon_start=1
                      /gene="eupT"
                      /product="ABC transporter EupT"
-                     /label=eupT
+                     /label="eupT"
                      /protein_id="QCO93116.1"
                      /translation="MAPAIDSTVNDLQPNTPNPEKALSSQAQAFVRAYSEDGDSGGQSV
                      LGAEDPLSPLNPRGERFNARAWAKNLAAVTRERGEGFRQVGISFQNVNVFGYGTPTDFQ
@@ -242,6 +253,8 @@ FEATURES             Location/Qualifiers
                      LFVLAFFFCGVLASPSQMPRFWIFLYRASPLSYWVSAVLSTGFANVQVTCTDKEYTAFD
                      PPKGSTCGEYMAEYISRAGGYVKDPQATESCGYCTIKDTNVFLAAVSSDYDTRWRNFGI
                      LWVYIGFNIAAALALYWIARMPKGKKRL"
+                     /Pfam="ABC_trans_N, ABC_tran, ABC2_membrane_7,
+                     ABC2_membrane, PDR_CDR"
 ORIGIN
         1 ttacactaat tctcgtctaa gtaagttccc ggtcatgccc atggtctcaa tcagccgctg
        61 ctggatctgc tcgcccacta tcgtttcatg gccggatcca tccagtgctt ttgcattcaa

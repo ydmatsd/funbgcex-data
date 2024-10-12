@@ -1,29 +1,29 @@
-LOCUS       FBGC00110       29321 bp DNA     linear   UNA 19-JAN-2023
+LOCUS       FBGC00110              29321 bp    DNA     linear   UNA 19-JAN-2023
 DEFINITION  andrastin A.
 ACCESSION   FBGC00110
-VERSION     .
+VERSION     FBGC00110
 KEYWORDS    .
 SOURCE      Penicillium roqueforti CECT 2905
   ORGANISM  Penicillium roqueforti CECT 2905
+            .
 REFERENCE   1  (bases 1 to 29321)
-  AUTHORS   Rojas-Aedo JF, Gil-Duran C, Del-Cid A, Valdes N, Alamos P, Vaca I, 
+  AUTHORS   Rojas-Aedo JF, Gil-Duran C, Del-Cid A, Valdes N, Alamos P, Vaca I,
             Garcia-Rico RO, Levican G, Tello M, Chavez R.
-  TITLE     The Biosynthetic Gene Cluster for Andrastin A in Penicillium 
+  TITLE     The Biosynthetic Gene Cluster for Andrastin A in Penicillium
             roqueforti.
   JOURNAL   Front Microbiol 2017;8:813
-  PUBMED    28529508
+   PUBMED   28529508
 REFERENCE   2  (bases 1 to 29321)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Jan 19, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.3389/fmicb.2017.00813"; journalName: "Front Microbiol"; date: 
-            "2017"; volume: "8"; pages: "813"
+  JOURNAL   Exported Jan 19, 2023 from SnapGene 6.2.1 https://www.snapgene.com
 COMMENT     ##Assembly-Data-START##
             Assembly Method       :: BWA v. 0.7.12
             Sequencing Technology :: Illumina
             ##Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.3389/fmicb.2017.00813"; journalName: "Front Microbiol"; date:
+            "2017"; volume: "8"; pages: "813"
 FEATURES             Location/Qualifiers
      source          1..29321
                      /strain="CECT 2905"
@@ -37,7 +37,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="adrA"
                      /product="cytochrome P450 monooxygenase AdrA"
-                     /label=adrA
+                     /label="adrA"
                      /note="putative cytochrome P450 protein"
                      /protein_id="ART41207.1"
                      /translation="MAVDKLPLLAKLEPVSLIGLVLLSGLFFLLTATRKSDLPLVNGKR
@@ -49,12 +49,13 @@ FEATURES             Location/Qualifiers
                      WDKTTMYKLKLMDSVIKESQRVKPMAIAKMARCAEEDVKLSDGTIIPRGEIILVSCSKM
                      WDANVYPDPNTFDPHRFLKLRQQGSDQESFAQLVSPSPEHMGFGFGKHACPGRFFAAAE
                      LKVALCHIIMKYDFKVAEGCNPQVLKSGMRLAADPFARIAIRRRQEEISF"
-     CDS             complement(join(2965..3730,3786..4186,4241..4888,4953..6666,
-                     6720..7549))
+                     /Pfam="p450"
+     CDS             complement(join(2965..3730,3786..4186,4241..4888,
+                     4953..6666,6720..7549))
                      /codon_start=1
                      /gene="adrC"
                      /product="ABC transporter AdrC"
-                     /label=adrC
+                     /label="adrC"
                      /note="putative ABC transporter"
                      /protein_id="ART41208.1"
                      /translation="MAPEEGDQAMSHEDKAACSSLNTTSSTELFDGAPSSENERLRIRQ
@@ -82,12 +83,14 @@ FEATURES             Location/Qualifiers
                      AAVPSVVLGSMLATFTFLLCLLFNGTMQPPSALPRFWIFMNRVSPLTYYVGGISATALH
                      GRPIHCSNRELRVFDPPQGQNCGQYLAEYLKTAQGTLSNPLSTDQCQYCPLRVADQYLA
                      ARDISWDDRWRNFGIFWVYIIFNVIGAVLLYYLFRVLPYIRRNRTQKSRN"
+                     /Pfam="ABC_trans_N, ABC_tran, ABC2_membrane_7,
+                     ABC2_membrane, PDR_CDR"
      CDS             join(8892..9485,9684..10778,10871..11246,11301..12055,
                      12123..15861,15936..16864)
                      /codon_start=1
                      /gene="adrD"
                      /product="polyketide synthase AdrD"
-                     /label=adrD
+                     /label="adrD"
                      /note="polyketide synthase"
                      /protein_id="ART41209.1"
                      /translation="MAEPPKTPGRPVCVVFGPQSSEIDETLFYISRNIDENPSLGFLKD
@@ -133,12 +136,14 @@ FEATURES             Location/Qualifiers
                      VDQKALGGWMSPADPRSRIALHMNWKGQSLPMLLHGGRFWSDHKDGDCGEELPVPTLEE
                      IQAVSPLAQIRNGHYKTPTFIIHGTLDDLIPVEQAQRTSQELVTKGVEVQLRVVDKAVH
                      LFDIYPGFEKDQAASRAVEDGYEFLRDHVRY"
+                     /Pfam="SAT2, PKS_KS, PKS_AT, fPKS_PT, ACP_PCP, HTH_51,
+                     PKS_NRPS_MT, Abhydrolase_3, Peptidase_S9"
      CDS             complement(join(17563..17864,17920..18019,18091..18245,
                      18297..18480,18542..18811))
                      /codon_start=1
                      /gene="adrE"
                      /product="ketoreductase AdrE"
-                     /label=adrE
+                     /label="adrE"
                      /note="ketoreductase"
                      /protein_id="ART41210.1"
                      /translation="MTQAQNYVIPPGSKVLVTGANGYIASHIVKALLDLGYLVRGTVRT
@@ -147,11 +152,12 @@ FEATURES             Location/Qualifiers
                      DGTTVPIYRACKIEGERQAWKWVEKNQPHFELNSVLPWLTLGKILHPNIGGSTMGYVSG
                      LLRGDTTPFKFLPLPWFVDVEDTARLHAIALLNPSVRSERLFATAAPFTWGDVIEILKR
                      IQPNNARIPAAPIQEEPTLGDVVPAARAEKLLRETFGQLGWTPLEVSLESGIARE"
+                     /Pfam="Epimerase"
      CDS             join(19528..19548,19608..20046,20106..20192,20256..20479)
                      /codon_start=1
                      /gene="adrF"
                      /product="short-chain dehydrogenase/reductase AdrF"
-                     /label=adrF
+                     /label="adrF"
                      /note="putative short chain dehydrogenase"
                      /protein_id="ART41211.1"
                      /translation="MSLLQDIVVIITGSASGIGLATATAALSQGARILGVDVSSAPVSL
@@ -159,11 +165,12 @@ FEATURES             Location/Qualifiers
                      RCIAVNLTAPVKLMREVIPIMRQQQSGSIVNVGSKAATSGASSGVAYTASKHGLMGATK
                      NVAWRYKQEGIRCNAVCPGGVPTGIVQASDPSTWDKDALGTMSLIHQAHAADRQKGLGV
                      EAEDIADCLLFLISSQSKRINGAIIPIDNAWSVI"
+                     /Pfam="adh_short"
      CDS             complement(21135..22085)
                      /codon_start=1
                      /gene="adrG"
                      /product="UbiA-like prenyltransferase AdrG"
-                     /label=adrG
+                     /label="adrG"
                      /note="prenyltransferase"
                      /protein_id="ART41212.1"
                      /translation="MTRGNEKEEAPPQAKILGSFPTGIAPYAELMRVHRLLGFYLNTSP
@@ -172,12 +179,13 @@ FEATURES             Location/Qualifiers
                      QITLVNIGWAIPMAMHSLGLDPLSQMKPTVCMFLFIGLVIIMIDVIYSRQDTEEDLKVG
                      VKSMAVRFRESIELLSYSLLYASTGFLAMAGFFTGLGLSFFVVSVGGHFCGFWVLLKAT
                      RVGNSYGVESYAKSAFFLATLFWLFGFVIEYCLRN"
+                     /Pfam="UbiA_PT"
      CDS             complement(join(22771..23253,23322..23692,23767..24038,
                      24099..24403))
                      /codon_start=1
                      /gene="adrH"
                      /product="FAD-dependent monooxygenase AdrH"
-                     /label=adrH
+                     /label="adrH"
                      /note="FAD-dependent monooxygenase"
                      /protein_id="ART41213.1"
                      /translation="MEEGMEAPKFKVIIVGGSIAGLTLAHSLSQANIDHVVLEKRASIA
@@ -189,11 +197,12 @@ FEATURES             Location/Qualifiers
                      RVVHADALHKPSESCIETMLQKYKTLRYERAKSTYERSRFGARFHTRDNWLKALVGRYV
                      FQYVGGLIENRTSKTLAGGNVIDFLPRPHRLETGCVTRLPKGQGRPQQQWTLLWVSSLV
                      LFLFLPWLRSYLPSATFW"
+                     /Pfam="FAD_binding_3"
      CDS             complement(join(24879..25095,25148..25668))
                      /codon_start=1
                      /gene="adrI"
                      /product="terpene cyclase AdrI"
-                     /label=adrI
+                     /label="adrI"
                      /note="terpene cyclase"
                      /protein_id="ART41214.1"
                      /translation="MEESSLLSAILDHRDALASVAEFLRILAGICWTLNYFSMLRTSRK
@@ -201,11 +210,12 @@ FEATURES             Location/Qualifiers
                      HFPLIQRNLYFLYGVVTIGFAIGQYSFAREVGPDLGFFYGGVLCQTLASLGPIAQILSR
                      NSTRGASLLTWLLRAIATFGGFIKLTIYYLTGNAAGPWFESPMCKFYIGLTLVLDFTYP
                      ICYYVIQRQELANAQKEKKEKSK"
+                     /Pfam="Pyr4"
      CDS             complement(join(26272..27537,27601..27825))
                      /codon_start=1
                      /gene="adrJ"
                      /product="acetyltransferase AdrJ"
-                     /label=adrJ
+                     /label="adrJ"
                      /note="acetyltransferase"
                      /protein_id="ART41215.1"
                      /translation="MGFFSSTQPPRPATVPSDEIIPLHFWNTALCMRGTVLDISLKFDD
@@ -217,12 +227,13 @@ FEATURES             Location/Qualifiers
                      ALCMSPTFLRGHQVADEPLGQIALRIRESVTEQRTPEQVEAMTALQMQTMEQTGYLALV
                      GDPRMMLLSCSNWHKARLFDIDFSSAVLQSSGPSSLQNPQHTGKPCYVNGVQHSANSFR
                      NVLSVIGKDAGGNWWLTGVLRTDAWTHIEKQLHKLGSS"
+                     /Pfam="CalD"
      CDS             complement(join(28272..28778,28872..29018,29087..29107,
                      29160..29321))
                      /codon_start=1
                      /gene="adrK"
                      /product="methyltransferase AdrK"
-                     /label=adrK
+                     /label="adrK"
                      /note="methyltransferase"
                      /protein_id="ART41216.1"
                      /translation="MHPDSQLETAVKNGFDPKSLYSTELTKVNEPARTILEQYSKIPAE
@@ -230,6 +241,7 @@ FEATURES             Location/Qualifiers
                      QELRQLIYDGAPSQNLYGTDLRPEFLELGLDLFLDRSFIKSHFIDADVLDDKSALVTQL
                      TGELNIVYISLFLHVFDFETQIKVAKRVLDLLAPKAGSLIVCRVVACRDQAIGNATNAR
                      LPYYYHDLASWNRLWERVQEETGLKLKVDNWEQDDALAKKHPLEGIYMLGSSIRRE"
+                     /Pfam="Trt5"
 ORIGIN
         1 tcagaaagag atctcttctt gccttcttct aatagcaatt ctggcaaatg ggtccgccgc
        61 aagtctcata ccagatttca acacctgtgg gttacatccc tctgccacct taaagtcgta

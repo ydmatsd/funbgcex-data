@@ -1,29 +1,29 @@
-LOCUS       FBGC00137       27207 bp DNA     linear   UNA 21-JAN-2023
+LOCUS       FBGC00137              27207 bp    DNA     linear   UNA 21-JAN-2023
 DEFINITION  clavatol.
 ACCESSION   FBGC00137
-VERSION     .
+VERSION     FBGC00137
 KEYWORDS    .
 SOURCE      Penicillium crustosum PRB-2
   ORGANISM  Penicillium crustosum PRB-2
+            .
 REFERENCE   1  (bases 1 to 27207)
   AUTHORS   Fan J, Liao G, Kindinger F, Ludwig-Radtke L, Yin WB, Li SM.
-  TITLE     Peniphenone and Penilactone Formation in Penicillium crustosum via 
-            1,4-Michael Additions of ortho-Quinone Methide from Hydroxyclavatol 
+  TITLE     Peniphenone and Penilactone Formation in Penicillium crustosum via
+            1,4-Michael Additions of ortho-Quinone Methide from Hydroxyclavatol
             to gamma-Butyrolactones from Crustosic Acid.
   JOURNAL   J Am Chem Soc 2019;141:4225-4229
-  PUBMED    30811183
+   PUBMED   30811183
 REFERENCE   2  (bases 1 to 27207)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Jan 21, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1021/jacs.9b00110"; journalName: "J Am Chem Soc"; date: "2019"; 
-            volume: "141"; pages: "4225-4229"
+  JOURNAL   Exported Jan 21, 2023 from SnapGene 6.2.1 https://www.snapgene.com
 COMMENT     ##Assembly-Data-START##
             Assembly Method       :: Newbler software v. 2.3
             Sequencing Technology :: Illumina
             ##Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1021/jacs.9b00110"; journalName: "J Am Chem Soc"; date: "2019";
+            volume: "141"; pages: "4225-4229"
 FEATURES             Location/Qualifiers
      source          1..27207
                      /strain="PRB-2"
@@ -33,7 +33,7 @@ FEATURES             Location/Qualifiers
      CDS             complement(1..1017)
                      /codon_start=1
                      /product="2OG-Fe(II)-dependent dioxygenase ClaD"
-                     /label=claD
+                     /label="claD"
                      /protein_id="QBK15042.1"
                      /translation="MPVLSNPSFYLPLVDITPFLENPHGAAAQDVIESVRTACKSTGFF
                      QIKGHQVPLRLQKSVFEASARFFALPLKNKLELDSRKTVGFRGYDVMETQSYELEFGAV
@@ -41,20 +41,22 @@ FEATURES             Location/Qualifiers
                      MQRLSHVVLSLLAATLPYGPHVFDELETCDPMSLLRLLHYPRGLEKQDGKKLQLGAGEH
                      TDFGTFTLLLQDEHPGLEVQDSVTGEWHGVPPQEDVYIVNVADILSTMTEGDYKSSVHR
                      VWNIKSNDRYSVVFFYDGNLDYKVKPLRSSGQDENEEIDAPTIEEHVRSRLTASYAI"
+                     /Pfam="DIOX_N, 2OG-FeII_Oxy"
      CDS             1634..2431
                      /codon_start=1
                      /product="esterase ClaE"
-                     /label=claE
+                     /label="claE"
                      /protein_id="QBK15043.1"
                      /translation="MNTTRTLDNSTIHLPRILCLHGGGTNARIFRAQCRGLIAGLKSEY
                      RLVFAQAPFASQAGSDVLSVYSQWGPFRRWLRWRPEHPVIPPEDAVQEIDTWLEKAMHQ
                      DDLAGATGEWIALLGFSQGAKVSASLLYRQQSWQELFGTRPAGINFRFGILLAGQAPFI
                      SMDSDLTLDPPLPDASQITDLKHSERELFYGKGHVLRIPTLHVHGLRDKGLDHHRKLFE
                      DFCAPQSRRLIEWDGDHRVPLKLKDVSLVIHQIRELAKETGVY"
+                     /Pfam="FSH1"
      CDS             join(3244..3876,3933..11063)
                      /codon_start=1
                      /product="polyketide synthase ClaF"
-                     /label=claF
+                     /label="claF"
                      /note="Polyketide synthase"
                      /protein_id="QBK15044.1"
                      /translation="MPSESYPRVNPKVFLFGPQALAFDAKLFTTLQSHLYDSWALDALS
@@ -102,12 +104,14 @@ FEATURES             Location/Qualifiers
                      GELLLSQSTTDLIYHIDNPSRQTWREMIAILARALDLGQKSIVPFGQWVNRVRGFRGSI
                      ADNPALQLIDFFEHYFVPMSCGGLVLDTTKSSQHSKTLQNQGPIDEDLMMKYIARWKES
                      GFLNP"
+                     /Pfam="SAT2, PKS_KS, PKS_AT, fPKS_PT, ACP_PCP, HTH_51,
+                     PKS_NRPS_MT, fPKS_R"
      CDS             complement(join(11656..11709,11820..11897,11961..12127,
                      12181..12366,12420..12464,12518..13413,13466..13550,
                      13613..14333))
                      /codon_start=1
                      /product="ABC transporter ClaG"
-                     /label=claG
+                     /label="claG"
                      /protein_id="QBK15045.1"
                      /translation="MSSNSSCLVTNQGGALPLTATCLEGFYCPNNSLENPPEICPPTPQ
                      CRLTRLQEYHNICDHAQGTYEPIVCQPGFYCPSGGKRQIPCPKGHFCPLGTVEPFKCFG
@@ -122,10 +126,11 @@ FEATURES             Location/Qualifiers
                      KTFGEEKLVFLRESCSGYSEGAYFLGKALSTLIRIFLSALHFTSFYLILTTPIVSFPNQ
                      LIVNLLYFYCIYGAASMISAITSPKNGPLITMLTSVLFCALSGCAPRLASVKSWNLAWL
                      WYICPAVWIAEANFNQYTDPLAYLYDIKPAAEDAIRAWDRLSLHSLFIV"
+                     /Pfam="ABC_tran, ABC2_membrane_7"
      CDS             complement(join(14942..15748,15811..15930))
                      /codon_start=1
                      /product="hydrolase ClaH"
-                     /label=claH
+                     /label="claH"
                      /protein_id="QBK15046.1"
                      /translation="MPNYEKVEFQTLDGLTLRGRLFRAEGAGGNRTAAVVITPPYVIVQ
                      DVMVSDIAVYFSQQGITALTYDTRSFGESDGQPRCELDLSKQVDDYSDAFTFLASLPSV
@@ -133,13 +138,14 @@ FEATURES             Location/Qualifiers
                      DRESQLRGNTPFYVESTCEDGSNPTGFGPELGIEAYELVQRIAASGIAPNFSTQLTLQS
                      FAKILRWHPMQDIKWLGETPMMLMIPGDDTVSLPEEQMRLFDMITGPKRVEVAAGKSHF
                      NVLASEGFEGLMDMQVEFIKQTLGLSS"
+                     /Pfam="Hydrolase_4"
      CDS             complement(join(17266..18126,18177..18657,18707..19044,
                      19090..19164,19215..19499,19550..22824,22879..23496,
                      23554..23677,23726..23809,23861..24112,24230..24250,
                      24323..24540,24605..25013))
                      /codon_start=1
                      /product="polyketide synthase ClaI"
-                     /label=claI
+                     /label="claI"
                      /protein_id="QBK15047.1"
                      /translation="MGDAPIQPQTPAIAVVGMACRLPGSNNSIHAFWNFLKQARQASNT
                      VPESRFNVGAHADGSGKPKTMTSVPGMFLEDIDIGAFDAGFFNISPAEAMAMDPQQRQL
@@ -182,11 +188,12 @@ FEATURES             Location/Qualifiers
                      GHQPVSPSKDTSSKELYEFRLLVKAMKAKSQLVEKAVTLCGLQLSRLLYLKNQVIDANK
                      SLAAYGLDSLIAIEFRNWLKKELAVEMSTFEVIGASCLHALAEKMVSKVEAGVPVVEVV
                      "
+                     /Pfam="PKS_KS, PKS_AT, fPKS_DH, fPKS_ER, fPKS_KR, ACP_PCP"
      CDS             complement(join(25730..25901,25951..26117,26174..26284,
                      26341..27207))
                      /codon_start=1
                      /product="cytochrome P450 monooxygenase ClaJ"
-                     /label=claJ
+                     /label="claJ"
                      /protein_id="QBK15048.1"
                      /translation="MKGPIVRITPNELHIKDASFYDEIYAGSGRIRNKDERFVKTFSAP
                      HAMVSITDHAYHRVRRGLLGEFFSQRSVIKMEPIINGAIEKLSQRLHEACQTGAVINMD
@@ -196,6 +203,7 @@ FEATURES             Location/Qualifiers
                      EAQKLPYLTAVINECLRLSHGLSTRLPRTAPKESLQYKQWHIPAATPVSQTAYFVHMDP
                      SIFPDPERFEPERWIRASKEGLHLERYIVSFSKGSRQCLGINMAYAEIFLALTHIMRNF
                      EFQLHDTSVDDVRLFRDRFFGAAQDGSVGVRVLVNEVKY"
+                     /Pfam="p450"
 ORIGIN
         1 ttaaatggca taactcgccg tcaggcgcga tcgcacatgt tcctcaatgg taggcgcatc
        61 gatttcctca ttttcgtcct gcccagagct cctgagaggt ttcactttat agtccaggtt

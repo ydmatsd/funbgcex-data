@@ -1,25 +1,25 @@
-LOCUS       FBGC00124       31388 bp DNA     linear   UNA 06-APR-2023
+LOCUS       FBGC00124              31388 bp    DNA     linear   UNA 06-APR-2023
 DEFINITION  zopfiellin.
 ACCESSION   FBGC00124
-VERSION     .
+VERSION     FBGC00124
 KEYWORDS    .
 SOURCE      Diffractella curvata No. 37-3
   ORGANISM  Diffractella curvata No. 37-3
+            .
 REFERENCE   1  (bases 1 to 31388)
-  AUTHORS   Shiina T, Ozaki T, Matsu Y, Nagamine S, Liu C, Hashimoto M, Minami 
+  AUTHORS   Shiina T, Ozaki T, Matsu Y, Nagamine S, Liu C, Hashimoto M, Minami
             A, Oikawa H.
-  TITLE     Oxidative Ring Contraction by a Multifunctional Dioxygenase 
-            Generates the Core Cycloocatadiene in the Biosynthesis of Fungal 
+  TITLE     Oxidative Ring Contraction by a Multifunctional Dioxygenase
+            Generates the Core Cycloocatadiene in the Biosynthesis of Fungal
             Dimeric Anhydride Zopfiellin.
   JOURNAL   Org Lett 2020;22:1997-2001
-  PUBMED    32065755
+   PUBMED   32065755
 REFERENCE   2  (bases 1 to 31388)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Apr 6, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1021/acs.orglett.0c00340"; journalName: "Org Lett"; date: 
+  JOURNAL   Exported Apr 6, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1021/acs.orglett.0c00340"; journalName: "Org Lett"; date:
             "2020"; volume: "22"; pages: "1997-2001"
 FEATURES             Location/Qualifiers
      source          1..31388
@@ -32,7 +32,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="zopK"
                      /product="2OG-Fe(II)-dependent dioxygenase ZopK"
-                     /label=zopK
+                     /label="zopK"
                      /protein_id="BBU42017.1"
                      /translation="MATATVTTAPTVVRTTADYYDAPPVLKIHTYTRESYEEQFGNKSV
                      IHHPINLKDIRAANINLQNNGFQLIKLQSKLTNPDDYLDEETVKRVYIPELAEAVKKLT
@@ -40,22 +40,24 @@ FEATURES             Location/Qualifiers
                      SIAGRWRLINAWKPTRPVERDPLAVCDRVPDEDLVPLQRVVPGKALMEQRYHLKTGKKD
                      HDWYYASNQQPDEVLLFTQYSDFPNRNTADRVPHVSVKLPGQEDKPRRTSVDARCLVVW
                      "
+                     /Pfam="NvfI"
      CDS             complement(2527..3324)
                      /codon_start=1
                      /gene="zopP"
                      /product="hypothetical protein ZopP"
-                     /label=zopP
+                     /label="zopP"
                      /protein_id="BBU42018.1"
                      /translation="MSAPSRIPSSSSNRLILASEPPLENLHSVRTPTLHLVPEVFPKVI
                      LPILAIRSACNTPSSVYLNPRANPYLQGPGTPASCVHINPLVSLSHTIQSNPTFHFSSV
                      INLFARLATTWAAVTSCPHCRYDRHALLLMPALAEQILGVYEAAGVAYGVISFTFPSVD
                      DDASAWIDIGTTGKEVAAAITCEKSGMRLGELELEDEETKLLARAVLRRGVMKLGKLLE
                      ELRDAIGELSGEGWAQRTGTLKAVEHRVEGVMERLVGLLGMLR"
+                     /Pfam="BfL8"
      CDS             4785..6203
                      /codon_start=1
                      /gene="zopO"
                      /product="transcription factor ZopO"
-                     /label=zopO
+                     /label="zopO"
                      /protein_id="BBU42019.1"
                      /translation="MEMSSQSPPPSAPKDTNGSKQPKLRSTCDACQDAKVRCSHDNPRC
                      RRCQAHKIKCVYSLSRRMGRPRRLQTNGNEPKQQKNKSSNVLNGSSGSMELEVTPPLIA
@@ -66,11 +68,12 @@ FEATURES             Location/Qualifiers
                      GAKTIPPQRKSSSDRNGNNSKDDNSNDIPLSPRMAMKTSSESRRGESPGGLTTAWNCKL
                      LVGEQEIVGPDKVEFMKLLVQGRLSRLCSTLRRLKRDMQDNPQDSNSKAGNIMVIEIHR
                      RLQSVIGRLELWDG"
+                     /Pfam="EqxR"
      CDS             complement(join(6730..8034,8095..8337))
                      /codon_start=1
                      /gene="zopD"
                      /product="major facilitator superfamily transporter ZopD"
-                     /label=zopD
+                     /label="zopD"
                      /protein_id="BBU42020.1"
                      /translation="MVADKLEVLDGSTGPPMAGNTEEEPYSTFTVGQKRWIIGMVSFAG
                      FFSPLSSSIYFPALPTIAKDLSVTSAQINLTVTTYLIIQGVAPMVVASFSDVAGRRPAY
@@ -81,11 +84,12 @@ FEATURES             Location/Qualifiers
                      KRLGLSVNRNKSQDMADFPLERARLELSIPIFILLSVLVIVYGWIMTQHVNISGPIIIL
                      FILGYAMIAVYQILSVLLVDIHPGQAATASAANNLIRCELGAAFAAFIAPMIDGIGTGW
                      SYTILALAVMATVPGLLVTMRCGILWRKQKAARETEKQGEKDGQSARVTTQSDENTA"
+                     /Pfam="MFS_1"
      CDS             join(9215..9551,9614..10755)
                      /codon_start=1
                      /gene="zopI"
                      /product="2-methylcitrate dehydratase ZopI"
-                     /label=zopI
+                     /label="zopI"
                      /protein_id="BBU42021.1"
                      /translation="MPLPPFDSVIVGIAAYVYHYPVSPTSHPKAWQYARIALMDAMGCA
                      IEAISKSEDCRAMFGPVVPGTVTPNGFKLPGTSHQLDPLKGAFDMGTAIRFLDHNDAIA
@@ -96,22 +100,24 @@ FEATURES             Location/Qualifiers
                      SNAADRDHCMQYIVALVLLKGDIPAAQDFQDNSPWATSPELAALRKKIDIRPDEQLTRD
                      YMDLEKRSLAAGITIYLNDGSSLNEVLIEFPVGHVQSPKTLASLEQKYKRNMGLMFSEA
                      EMARARKAVENNGDMPVSDFLDMFTRETPILVKL"
+                     /Pfam="MmgE_PrpD, MmgE_PrpD_C"
      CDS             complement(join(11396..11715,11781..12252))
                      /codon_start=1
                      /gene="zopC"
                      /product="ketosteroid isomerase-like protein ZopC"
-                     /label=zopC
+                     /label="zopC"
                      /protein_id="BBU42022.1"
                      /translation="MVAIRYLLVALPVLVVGKPLNFNHDTHQRPLSHNPVGWVHPDIEE
                      AERDGFYFENPEMDCKYVSQPFVYKAFKTLEKDMGSLFTLINKDVHFTIVGNHPGAGVY
                      HDLMHFYVNALRRVALVGSDHPENFRIIPKAIHGGCDQEWSVQEMNFQGISNSGTLFDI
                      INVWVTRWSSDRKQMIEVRTYIDSMKVSQLLHENENWWNSTRHIHHYEWMPGPNGMPNL
                      SELYALMPEQDRPKGRAPGEGLEGRVLGYMPAEWEGGPGNE"
+                     /Pfam="BfL6"
      CDS             12913..14418
                      /codon_start=1
                      /gene="zopL"
                      /product="major facilitator superfamily transporter ZopL"
-                     /label=zopL
+                     /label="zopL"
                      /protein_id="BBU42023.1"
                      /translation="MESPSAARVSPTRPKTPSETTPLLNAATGGDPERYSAFGESQKKF
                      IILTAALASTFSPFSSNIYYPAINSIADDLQVSIPMVNMTITAYMIFQGLAPTFMGNLS
@@ -122,32 +128,35 @@ FEATURES             Location/Qualifiers
                      DWNFRRIARQEGLPILKGKKQDVSNFPIERARLQIALPMLFSAAALIVAYGWLLDMQLP
                      IFAPLVLLFLIGSSITACYNVFNVLIVDLNYSTPATATAANNLVRCMLGAASTAVVAPI
                      LERFGRGWTYTFVAGAWLAATPAALLVYRYGFAWRRRDRCEES"
+                     /Pfam="MFS_1"
      CDS             complement(14661..15221)
                      /codon_start=1
                      /gene="zopQ"
                      /product="isochorismatase-family protein ZopQ"
-                     /label=zopQ
+                     /label="zopQ"
                      /protein_id="BBU42024.1"
                      /translation="MAKTALLVMDVQGAFVPRLAQSSDYLPRLAKTIAAARPSVVKVIY
                      TRVAFRPGHPEISPSNPTFSAAVKSKSFVEGSPETLIDPSIAPQEGDVLVDKKRVSAFS
                      GSGLDIILSSLGIETVVLAGMSTGGVVLSTVLEASDKDFGVVVLKDLCVDADETLHNTL
                      MDKIFTKRGQVVEAEKWLETLKA"
+                     /Pfam="Isochorismatase"
      CDS             join(16216..16375,16427..16884)
                      /codon_start=1
                      /gene="zopN"
-                     /product="phosphatidylethanolamine-binding protein-like 
+                     /product="phosphatidylethanolamine-binding protein-like
                      protein ZopN"
-                     /label=zopN
+                     /label="zopN"
                      /protein_id="BBU42025.1"
                      /translation="MYASTRLVLSIFLLGLSIAQTPPGFTPSCDQNLGVTYPNKASIII
                      PGSRLLASDTAIQPRLSAASDVLKEDGKYLLVMLDPDVQFPKQPTTTILHWMEPGFQYN
                      KTSLALTPVSDPEAESVASYAGPHPPIGQIHRYILLLFWQPEDYRLPKEFKSFIPADIP
                      HRIDFDVVRFVEAAELGKPIAASYFIAEGLRSNMKDELRRVV"
+                     /Pfam="PBP"
      CDS             complement(join(17550..18380,18443..24722,24775..25526))
                      /codon_start=1
                      /gene="zopA"
                      /product="polyketide synthase ZopA"
-                     /label=zopA
+                     /label="zopA"
                      /protein_id="BBU42026.1"
                      /translation="MAPYLNGHHDEVLSLPSGSPTSNPALTISEDRSMPIAVVGMGMRG
                      PADATNVEGLWKLVSEAREGWSKIPKERWNNDAFYHPDSNRNGTTNVTAGHFMTQDLAC
@@ -194,21 +203,24 @@ FEATURES             Location/Qualifiers
                      AIADPRREDLLSHVVTGLGTWQEGKSLAIYDLPVFSHFRRQALKKDSGAADGKARVRDV
                      LKAATTLEEATEQICNALVDKISDRSNIPADNISRDNPMTDYGIDSLVAVEMRNWIVRE
                      MDSTMPILELLANQSLQQLSAKIAQRSGLVSLKVVEKE"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_DH, PKS_NRPS_MT, fPKS_ER,
+                     fPKS_KR, ACP_PCP"
      CDS             complement(join(26796..27410,27476..27526))
                      /codon_start=1
                      /gene="zopM"
                      /product="alpha/beta hydrolase ZopM"
-                     /label=zopM
+                     /label="zopM"
                      /protein_id="BBU42027.1"
                      /translation="MPTLKFLCLHGAGTNAQILGSQLGPLMRELGKDNSAIFHLVEGDV
                      GSPPGPGIEGFYEGPFFSYYKWPRTFNDNDESIMEAYDMLYEVIEEEGPFDGILGFSHG
                      GTLATGFLAHHATLNPYDPPLFRCAVFFSSLAPFRMNDDETPVFEEGLEGKIKIPTLHV
                      MGTKDFIYSYSLHLFNLCDVKSSAILVHDRGHEIPSDGKTLARMAAAFRDLGTRSMFL"
+                     /Pfam="FSH1"
      CDS             join(29856..30061,30118..30318,30378..31133,31229..31388)
                      /codon_start=1
                      /gene="zopJ"
                      /product="citrate synthase-like protein ZopJ"
-                     /label=zopJ
+                     /label="zopJ"
                      /protein_id="BBU42028.1"
                      /translation="MAHPTNGTLFVRDSRTKQEYEIPIVDNAVLAVDFKNIRGYSDGSK
                      MRGLLLYDPGLQNTAIKRSQISSSDARGLPMIRGYSVEQLYSLQSDFEDLFHLMVLGKY
@@ -218,6 +230,7 @@ FEATURES             Location/Qualifiers
                      LHYGAQEATWNNLIEIETKENVPAFLEQVKRRERRLFGYGHRVHKTEDPRLAIIKGLLK
                      ELNVSPATIPLMEIAYEIDRLAALDQYFTSRGLSANADFYFGFLIHAFGFDPDMITLAN
                      LAMRILGLMAHWREAMDQEIKLFRPLHIYTGPKQRITAARL"
+                     /Pfam="Citrate_synt"
 ORIGIN
         1 ttaccacacg acaaggcacc tagcatcaac gcttgttcgc ctgggcttat cctcttgccc
        61 tggaagcttc acgcttacgt gagggacccg gtcggcggtg ttacgatttg gaaagtcgga

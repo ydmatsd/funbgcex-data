@@ -1,24 +1,24 @@
-LOCUS       FBGC00123       16418 bp DNA     linear   UNA 19-JAN-2023
+LOCUS       FBGC00123              16418 bp    DNA     linear   UNA 19-JAN-2023
 DEFINITION  1233A.
 ACCESSION   FBGC00123
-VERSION     .
+VERSION     FBGC00123
 KEYWORDS    .
 SOURCE      Fusarium sp. RK97-94
   ORGANISM  Fusarium sp. RK97-94
+            .
 REFERENCE   1  (bases 1 to 16418)
   AUTHORS   Kato S, Motoyama T, Uramoto M, Nogawa T, Kamakura T, Osada H.
-  TITLE     Induction of secondary metabolite production by hygromycin B and 
-            identification of the 1233A biosynthetic gene cluster with a 
+  TITLE     Induction of secondary metabolite production by hygromycin B and
+            identification of the 1233A biosynthetic gene cluster with a
             self-resistance gene.
   JOURNAL   J Antibiot (Tokyo) 2020;73:475-479
-  PUBMED    32139880
+   PUBMED   32139880
 REFERENCE   2  (bases 1 to 16418)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Jan 19, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1038/s41429-020-0295-4"; journalName: "J Antibiot (Tokyo)"; 
+  JOURNAL   Exported Jan 19, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1038/s41429-020-0295-4"; journalName: "J Antibiot (Tokyo)";
             date: "2020"; volume: "73"; pages: "475-479"
 FEATURES             Location/Qualifiers
      source          1..16418
@@ -31,7 +31,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="g430"
                      /product="cytochrome P450 monooxygenase g430"
-                     /label=g430
+                     /label="g430"
                      /protein_id="BBU37365.1"
                      /translation="MQISSAFGALIWVVTSYILYAIISNFIISRRHAAKARELKCEEPP
                      FEKNRWPLGIDNLLRALAADKAQQFPVDIIKRFEDLGAHTYRYQILGARNIRTADPKNI
@@ -43,12 +43,13 @@ FEATURES             Location/Qualifiers
                      ANKDTTLPRGGGKDGNSPIFIPKGSSTDFSVHVMHRRKDIWGPDADEFKPERWEGRKVG
                      WEYLPFNGGPRICIGQQFALIEASYVTVRLLQRFDRMESLDKDAVVGHNLTLINCIANG
                      VKTRSSIEFDGQTSQNDDQLRTIVEKPLVQKRSRCPLPAEAKLPKSRKPIGTAS"
+                     /Pfam="p450"
      CDS             join(2522..2578,2647..2749,2803..3740,3799..3930,
                      3985..4125)
                      /codon_start=1
                      /gene="g431"
                      /product="HMG-CoA synthase g431"
-                     /label=g431
+                     /label="g431"
                      /protein_id="BBU37366.1"
                      /translation="MTYPQNVGIKAMEIYVPPQCLDQTLFEKHQGVSAGKYTIGLGLQY
                      MNFCTDREDVCSLALTAVSSLLRKFDIDPKSIGRLEVGTESPIDKAKSVKSVLTTLFEP
@@ -58,11 +59,12 @@ FEATURES             Location/Qualifiers
                      NAADWEGIPDELRNLSYKDSLKDKTLERALVAATKTEFKMRVEPCIAAPSLCGNMYTAS
                      LYCSLISLISNIDLASAEGKTIGLFSYGSGAASTLFGMRVTGDLTNMVQKIDLMRRLKQ
                      RNIQTPEDYEKACALRLKAYGNKSYKPLGDVSSLTPGTYYLKSIDEAYRRTYAIKGQ"
+                     /Pfam="HMG_CoA_synt_N, HMG_CoA_synt_C"
      CDS             join(5839..5908,5970..6194,6248..6416,6477..7161)
                      /codon_start=1
                      /gene="g432"
                      /product="transcription factor g432"
-                     /label=g432
+                     /label="g432"
                      /protein_id="BBU37367.1"
                      /translation="MPRSPRRWTPEEDRVLLDKVKQLFSDGAKNDTTISWATVANALPD
                      RNNKDCRKRWSKITGAKKGSWSLSEDEQLLEGVQKYGRQWAMVAKGVETRSADQCAKRW
@@ -71,14 +73,15 @@ FEATURES             Location/Qualifiers
                      DDILGGSSSSPSAADTMTTASPDPYQYLLDWAVPSHADLVQAATSYYPSLDGFLGSTYD
                      HNAKIDSSLGRDANGGNFIPGFPTQTPSQFESIDVSQISDGIVSGEPSRQGASRECRAA
                      SNVSSGPQMTLTIDNPDPQTMTGILEVLAKANSKVTISMNRE"
-     CDS             join(8087..8751,8799..9247,9322..9386,9443..9566,9614..9726,
-                     9774..10218,10272..10721,10770..12928,12977..13073,
-                     13129..13154,13218..14081,14130..14420,14475..14537,
-                     14597..14937,14987..15464,15516..16418)
+                     /Pfam="Myb_DNA-bind_6, Myb_DNA-binding"
+     CDS             join(8087..8751,8799..9247,9322..9386,9443..9566,
+                     9614..9726,9774..10218,10272..10721,10770..12928,
+                     12977..13073,13129..13154,13218..14081,14130..14420,
+                     14475..14537,14597..14937,14987..15464,15516..16418)
                      /codon_start=1
                      /gene="g433"
                      /product="polyketide synthase g433"
-                     /label=g433
+                     /label="g433"
                      /protein_id="BBU37368.1"
                      /translation="MAPGRTDVTVAENGNGLHTAHNGVSNGTSNGTNGTSHTSNGTNSS
                      AKTTSNGVHSHEDIPIAIVGMGLRLPGGIGTEEDLWDTLINKKDQRQRVPADRWNVDAF
@@ -123,6 +126,8 @@ FEATURES             Location/Qualifiers
                      DGYMNASQIGLGMRMTMPIAADANRCIWKRDIRMGLYRNLENSGVDDAGTGNEGLREFL
                      TGVTTNPESLKEPSSVSFLANEIGSTLFSFLMRPIEELDVKQPLSAVGLDSLVAIELRN
                      WSRQRLGVELSVLEILGAASIEKLGEAAAEGLLVKLGGATTNGDAQ"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_DH, PKS_NRPS_MT, fPKS_ER,
+                     fPKS_KR, ACP_PCP"
 ORIGIN
         1 ctaactggca gtcccgattg gttttcggct cttcggcagc ttcgcttctg cgggcagggg
        61 gcaacgactc ctcttctgca caagaggctt ctccacgatt gtcctgagtt ggtcgtcatt

@@ -1,23 +1,23 @@
-LOCUS       FBGC00149       42614 bp DNA     linear   UNA 21-JAN-2023
-DEFINITION  pyrichalasin H5.
+LOCUS       FBGC00149              42614 bp    DNA     linear   UNA 20-MAR-2024
+DEFINITION  pyrichalasin H.
 ACCESSION   FBGC00149
-VERSION     .
+VERSION     FBGC00149
 KEYWORDS    .
 SOURCE      Pyricularia grisea NI980
   ORGANISM  Pyricularia grisea NI980
+            .
 REFERENCE   1  (bases 1 to 42614)
   AUTHORS   Wang C, Hantke V, Cox RJ, Skellam E.
-  TITLE     Targeted Gene Inactivations Expose Silent Cytochalasans in 
+  TITLE     Targeted Gene Inactivations Expose Silent Cytochalasans in
             Magnaporthe grisea NI980.
   JOURNAL   Org Lett 2019;21:4163-4167
-  PUBMED    31099577
+   PUBMED   31099577
 REFERENCE   2  (bases 1 to 42614)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Jan 21, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1021/acs.orglett.9b01344"; journalName: "Org Lett"; date: 
+  JOURNAL   Exported Mar 20, 2024 from SnapGene 7.1.2 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1021/acs.orglett.9b01344"; journalName: "Org Lett"; date:
             "2019"; volume: "21"; pages: "4163-4167"
 FEATURES             Location/Qualifiers
      source          1..42614
@@ -29,7 +29,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="pyiA"
                      /product="methyltransferase PyiA"
-                     /label=pyiA
+                     /label="pyiA"
                      /note="O-methyl transferase"
                      /protein_id="QCS37511.1"
                      /translation="MASQDGTTELLSQSVNSTCIPGSTYHVDRGRASSASTPPTSPPLS
@@ -40,13 +40,14 @@ FEATURES             Location/Qualifiers
                      VLESNRKLGVELQRHDFFDKQPVTGASIYFFRHIFHDWPDRACVKILKQIVQAMGRDSR
                      LLICDQVVDDEPSIPATLYDIDMWTLFGGKERNRSEWEALFRAADERLYIKKVWTTTEA
                      PTTILEVCLW"
+                     /Pfam="Methyltransf_2"
      gap             2271..3110
                      /estimated_length=840
      CDS             join(3328..4146,4372..4944)
                      /codon_start=1
                      /gene="pyiE"
                      /product="alpha/beta hydrolase PyiE"
-                     /label=pyiE
+                     /label="pyiE"
                      /note="alpha-beta hydrolase fold protein"
                      /protein_id="QCS37512.1"
                      /translation="MHKFFPRSGFFDFETVRILGTACYGGADVAEVLEAVGEIKSDDAA
@@ -58,11 +59,12 @@ FEATURES             Location/Qualifiers
                      NMKNYTLSGKSDGSRANGKKSHSPTDGGGVESDSFLSEVRCPVFLSGAGKSLYLDVDSH
                      TRRCYDGLTGVAAKDKELWVPESEGQGSLQAKMGALALCNQKTFQFLDKVLGVQRVPLD
                      VSAHI"
+                     /Pfam="Abhydrolase_6"
      CDS             complement(join(5531..6849,6950..7160,7261..7539))
                      /codon_start=1
                      /gene="pyiT"
                      /product="major facilitator superfamily transporter PyiT"
-                     /label=pyiT
+                     /label="pyiT"
                      /note="major facilitator superfamily transporter"
                      /protein_id="QCS37513.1"
                      /translation="MEKAKDSLPTTGDPVPSQGTINPVDETGGSASDEKKAKKGCDFWF
@@ -76,11 +78,12 @@ FEATURES             Location/Qualifiers
                      GTIWGVSIPAAIFNNRFDQLLPELSDPTAVRALQRGGAYQQATSEFVDSFPSDVRDVII
                      SIYERSLERVWQIGIVFAGVGFLVIFLERDLKLGTQKKTEDIEINDIPQTAADNSASRP
                      NTINDTASQAPILKQRRSTNQERETV"
+                     /Pfam="MFS_1"
      CDS             complement(join(9332..9738,9829..10509,10580..11006))
                      /codon_start=1
                      /gene="pyiG"
                      /product="cytochrome P450 monooxygenase PyiG"
-                     /label=pyiG
+                     /label="pyiG"
                      /note="cytochrome P450"
                      /protein_id="QCS37514.1"
                      /translation="MLNSAACIVLAITAVLGRMIYTHFYSNTCAAMKRALAHIPELHFE
@@ -92,11 +95,12 @@ FEATURES             Location/Qualifiers
                      GKWTQQEVNEMKKLDSFMKESTRVNPVGCMTVQRYAQRTHTFSDGFVLPAGTIFQFPSD
                      AVHHDPKLFPDPEKFDGHRFLRLREKDANAYHYGYVSDTTLNWGAGTHACPGRFLATYV
                      LKFAFIALITQYDLSFPEGTGKPGYFYFDNSVRIDPTAKLDIKKSS"
+                     /Pfam="p450"
      CDS             complement(join(11429..11984,12070..12623))
                      /codon_start=1
                      /gene="pyiC"
                      /product="trans-acting enoylreductase PyiC"
-                     /label=pyiC
+                     /label="pyiC"
                      /note="trans-acting enoyl reductase"
                      /protein_id="QCS37515.1"
                      /translation="MQTSNYGSLPTSRSAVVLGNDERLRIERHLPLPALRPNEVLVQVK
@@ -106,11 +110,12 @@ FEATURES             Location/Qualifiers
                      KAYTKNTLSYILDPFTDAKSVDLCYKAMGRAGGRYCCLEMYPEYVLQRKSIKVGFVMGP
                      LLLGHRLALSQGYERDEDPEMRAFGVEWYKDVQKMLDRGLLKRHPIKLLGDSFEALIEG
                      VEMLQRKEVSGEKLVVALDSEQSKPVLTK"
+                     /Pfam="fPKS_ER"
      CDS             join(12944..13740,13825..14299)
                      /codon_start=1
                      /gene="pyiF"
                      /product="Diels-Alderase PyiF"
-                     /label=pyiF
+                     /label="pyiF"
                      /protein_id="QCS37516.1"
                      /translation="MLPSFIFVYSLLATATATSPDWPEPWPSHWREPGSDLFPNQQVHL
                      AVEEAGTGSGCRISNITSNEMAKGRTIVDFPLYAVGSLEEPKLQPLNSSGGEQWEFDGV
@@ -120,11 +125,12 @@ FEATURES             Location/Qualifiers
                      GPYVLSYFSFTSNLIPDLTHQSVVLFHDGAVVFRSTLGTPSETEDYATVTKTYGGATTG
                      TLKDKVTGFQLELVSPSKMRHYTFFVEHLNVGFEYILGEGVGGSGFSSQSRGGHVGLDQ
                      HEGVALTEALTFPKNSPLFRSNYV"
+                     /Pfam="Fsa2"
      CDS             join(16543..16836,16924..17821,17962..18377)
                      /codon_start=1
                      /gene="pyiD"
                      /product="cytochrome P450 monooxygenase PyiD"
-                     /label=pyiD
+                     /label="pyiD"
                      /note="cytochrome P450"
                      /protein_id="QCS37517.1"
                      /translation="MFLSIKRKIIEPYLVIRQSLAPLKLSRWQLTKIMARTAFDGLPSG
@@ -137,11 +143,12 @@ FEATURES             Location/Qualifiers
                      LQRRVEQPVQLSVGPLLPPGTLMAVDGQAIDGSSELWPNPEKFDVYRFYNLRQKLGNEN
                      QYHFATTSPDSPGWGDGTQACPGRFFAVNTLKIAMAHFLRNYDIEIKPECLPLKTKPMP
                      SGFFSPDDRAIARIRART"
+                     /Pfam="p450"
      CDS             complement(19353..21188)
                      /codon_start=1
                      /gene="pyiR"
                      /product="transcription factor PyiR"
-                     /label=pyiR
+                     /label="pyiR"
                      /note="Zn(2)C6 transcriptional regulator"
                      /protein_id="QCS37518.1"
                      /translation="MHRFNPRRSACDRCRGHKLRCIRLDPGPNDTGALLPCKRCVKAGA
@@ -155,11 +162,12 @@ FEATURES             Location/Qualifiers
                      LASQDRHQGLQTLPTIVQGVGIGGFKLEDHPDMQIEIVIHVGWQLLQRIEGLLGVRVVS
                      DEGRGGLGGSSRDESSTEGGDGGGAGSSASDERRILDPRAAAAVLDSWFTTTTRGGSGG
                      SGPGEGTGDSNGGRTVEIKGTIANIRKYLRSYGRN"
+                     /Pfam="EqxR"
      CDS             join(22413..22658,22786..24054)
                      /codon_start=1
                      /gene="pyiB"
                      /product="acetyltransferase PyiB"
-                     /label=pyiB
+                     /label="pyiB"
                      /note="O-acetyltransferase"
                      /protein_id="QCS37519.1"
                      /translation="MGFLSAGGLWASLFRARISPIVETDEVLPLTLIDNIAAARNAILS
@@ -171,12 +179,13 @@ FEATURES             Location/Qualifiers
                      LQNTGCCTWTPVQPETLLRSPLGELAYVIRRSIQELATDDQLRAQLRIFRSLGHTKMLP
                      LFGNPNSRVISFSNWTKFNLFEVTNLGPAVISTSPSTRSDASTSPIGRPVYMHCEAAGD
                      SRMLRNCFNVTGKDWDGSYWITAHLYPEDWTKLEEYMRQTQQHISD"
+                     /Pfam="CalD"
      CDS             join(25953..25996,26095..26403,26492..26582,26708..26938,
                      27290..27352)
                      /codon_start=1
                      /gene="pyiH"
                      /product="short-chain dehydrogenase/reductase PyiH"
-                     /label=pyiH
+                     /label="pyiH"
                      /note="oxidoreductase"
                      /protein_id="QCS37520.1"
                      /translation="MPNLQGRVAFVTGGNAGIGYHTVVFLAKAGAKVYFGARSASRAEA
@@ -184,14 +193,15 @@ FEATURES             Location/Qualifiers
                      NMADSGVQITMQTNHLAVFAMTQELQPMLRTAAAEKDSDVRIVNVSSNAPSLTHSDEWR
                      PDFSDPHGGDIRYPAGQADGFLAAMKRYSVSKMAMNLLTAELQARYDREGVPIMVISVC
                      PGAVYFKPQVDTENVEEMMRQPT"
+                     /Pfam="adh_short"
      gap             28604..28754
                      /estimated_length=151
      CDS             join(29991..30543,30834..37544,37607..39625,39700..42614)
                      /codon_start=1
                      /gene="pyiS"
-                     /product="polyketide synthase-nonribosomal peptide 
+                     /product="polyketide synthase-nonribosomal peptide
                      synthetase PyiS"
-                     /label=pyiS
+                     /label="pyiS"
                      /note="polyketide synthase; nonribosomal peptide
                      synthetase"
                      /protein_id="QCS37521.1"
@@ -265,6 +275,8 @@ FEATURES             Location/Qualifiers
                      NDLMANVVEFSRSTAATLNTNSWSGWLDFISVDEAALQIVDEVYEDYSWPGHVKYLYES
                      GERVVALEDMKNVLEREVGSVFEVVDVEEWISRAEKQGFNPLLGEYLKRVANAPLVFPK
                      LIRHEGFF"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_DH, PKS_NRPS_MT, fPKS_KR,
+                     ACP_PCP, Condensation, AA-adenyl-dom, fPKS_R"
 ORIGIN
         1 ttaccaaaga caaacttcca aaatggtcgt tggggcctcg gtagttgtcc acaccttttt
        61 tatgtacagc ctttcgtctg cagcccggaa taaggcttcc cattcagacc gattcctttc

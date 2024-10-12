@@ -1,28 +1,28 @@
-LOCUS       FBGC00130       43539 bp DNA     linear   UNA 21-JAN-2023
-DEFINITION  xenovulene.
+LOCUS       FBGC00130              43539 bp    DNA     linear   UNA 19-MAR-2024
+DEFINITION  xenovulene A.
 ACCESSION   FBGC00130
-VERSION     .
+VERSION     FBGC00130
 KEYWORDS    .
 SOURCE      Sarocladium sp. 'schorii'
   ORGANISM  Sarocladium sp. 'schorii'
+            .
 REFERENCE   1  (bases 1 to 43539)
   AUTHORS   Schor R, Schotte C, Wibberg D, Kalinowski J, Cox RJ.
-  TITLE     Three previously unrecognised classes of biosynthetic enzymes 
+  TITLE     Three previously unrecognised classes of biosynthetic enzymes
             revealed during the production of xenovulene A.
   JOURNAL   Nat Commun 2018;9:1963
-  PUBMED    29773797
+   PUBMED   29773797
 REFERENCE   2  (bases 1 to 43539)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Jan 21, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1038/s41467-018-04364-9"; journalName: "Nat Commun"; date: 
-            "2018"; volume: "9"; pages: "1963"
+  JOURNAL   Exported Mar 19, 2024 from SnapGene 7.1.2 https://www.snapgene.com
 COMMENT     ##Assembly-Data-START##
             Assembly Method       :: Newbler v. 2.8
             Sequencing Technology :: Illumina
             ##Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1038/s41467-018-04364-9"; journalName: "Nat Commun"; date:
+            "2018"; volume: "9"; pages: "1963"
 FEATURES             Location/Qualifiers
      source          1..43539
                      /mol_type="genomic DNA"
@@ -33,7 +33,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="asl7"
                      /product="ABC transporter AsL7"
-                     /label=asL7
+                     /label="asL7"
                      /note="AsL7"
                      /protein_id="AWM95783.1"
                      /translation="MFDTTKLQSSTQDGSTSSVTGEPIFGANDPNSELNPSSSHFNVRA
@@ -61,11 +61,13 @@ FEATURES             Location/Qualifiers
                      NFMYVLVNFFCGALITPNQMPRFWIFLYRASPLSYLVSSMLSAGIANVEVTCAANEYTI
                      IDPPMGQTCYEYLRNEINTIGGYLLDNNATENCKFCKLKYSNVFLSEIEIEYGTRWRNF
                      GIIWVYVIFNISAAITLYWVARMPKGHRKV"
+                     /Pfam="ABC_trans_N, ABC_tran, ABC2_membrane_7,
+                     ABC2_membrane, PDR_CDR"
      CDS             complement(5276..6547)
                      /codon_start=1
                      /gene="asl6"
                      /product="FAD-dependent monooxygenase AsL6"
-                     /label=asL6
+                     /label="asL6"
                      /note="AsL6"
                      /protein_id="AWM95784.1"
                      /translation="MTVKILVSGAGVAGTALVNFLCRSKHEYDITVVERAPALRAAGSQ
@@ -76,11 +78,12 @@ FEATURES             Location/Qualifiers
                      ELRKSDDFYMTPVAQVKVDRWSKGRVVLVGDAGYCPSVMTGRGTTVSLVGAYVLAGELA
                      KHGDNIDAALESYEKVLRPFITTAQEIPSMGMGMFQSKFGVGVFYVLLAIISKLKIDRL
                      LQALMKEEKETWELPEYPELEFEA"
+                     /Pfam="FAD_binding_3"
      CDS             complement(7129..7878)
                      /codon_start=1
                      /gene="asl5"
                      /product="short-chain dehydrogenase/reductase AsL5"
-                     /label=asL5
+                     /label="asL5"
                      /note="AsL5"
                      /protein_id="AWM95785.1"
                      /translation="MSAIQRLTGKTAVITGGATGIGFAAAKRFIEEGAFVFIFGRRQEK
@@ -88,11 +91,12 @@ FEATURES             Location/Qualifiers
                      EQCDIVFGTNLKGTIFTIQGALPLMAQAGGGSIILTGSSSGTTGAPPLSVYGASKAAIR
                      NLARSWAGTLRDEGIRINVLSPASIATEIAKEALGEQGMKMFAQQNPLKRMGQPEEVGA
                      VAAFLASSDSSFMTASEVSVDGGLAQI"
+                     /Pfam="adh_short_C2"
      CDS             complement(9993..11285)
                      /codon_start=1
                      /gene="asl4"
                      /product="FAD-dependent monooxygenase AsL4"
-                     /label=asL4
+                     /label="asL4"
                      /note="AsL4"
                      /protein_id="AWM95786.1"
                      /translation="MPQLKVLINGGGIAGNAIAFWLTKLGHDVTVLERFPALRTTGLQL
@@ -103,11 +107,12 @@ FEATURES             Location/Qualifiers
                      LGMVKLDSWHRGRVALVGEAAWCSSVLTGMGTTSCLVGAYCLAGEIAKHCGRGDQGEAK
                      DDPMMVQKNLANALAGYEEKFMPFMHQVQDGLSAKTGTRTYMPSSQWGVTILNWVIKII
                      ALLRLNMAGDWVIREAVRNWKLPDYPELLKE"
+                     /Pfam="FAD_binding_3"
      CDS             complement(join(12036..12427,12498..12801,12864..13190))
                      /codon_start=1
                      /gene="asl3"
                      /product="2OG-Fe(II)-dependent dioxygenase AsL3"
-                     /label=asL3
+                     /label="asL3"
                      /note="AsL3"
                      /protein_id="AWM95787.1"
                      /translation="MGSLTDNAAIPTVDISAFLDPNASQEARQDVVNAMSNACHVYGFF
@@ -117,22 +122,24 @@ FEATURES             Location/Qualifiers
                      LLQEPGTSGLEVYYPPSDSWIPVPVIDDGFVINMGDMMQRYTGGYYRSARHRVLTNREK
                      HRHSVAFFLNGNLGLKAKALDGSETETVVGDWIRGRLIDTMGQTGKLLQRESPKPVVLP
                      "
+                     /Pfam="DIOX_N, 2OG-FeII_Oxy"
      CDS             13527..13874
                      /codon_start=1
                      /gene="asl2"
                      /product="hypothetical protein AsL2"
-                     /label=asL2
+                     /label="asL2"
                      /note="AsL2"
                      /protein_id="AWM95788.1"
                      /translation="MAAPSLESNWLVQIPNQSGSHVAQARKDSFAEHMSYNKTHIEAGR
                      MVLAGPLVEALPQDGQPPVITGSIMVWKATAGEREMLDKWLSDNPFATSGVWDLTKMEC
                      TPFLCGVRKGL"
+                     /Pfam="YCII"
      CDS             complement(join(14474..14881,14957..15453,15532..15864,
                      15964..16168))
                      /codon_start=1
                      /gene="asl1"
                      /product="FAD-dependent monooxygenase AsL1"
-                     /label=asL1
+                     /label="asL1"
                      /note="AsL1"
                      /protein_id="AWM95796.1"
                      /translation="MDSPEVYEVVDASPEKPMEIAIVGGGIVGVILAIGLTRQNIKVRV
@@ -144,11 +151,12 @@ FEATURES             Location/Qualifiers
                      SACLGVEDCLCLNVLLAQVRETVAANQDPAKNRLALSRAIETAFKTFDTVRHKRTQWLV
                      NSSRRVCDLYHQPEWADPTRWAKAETCFEEIRDRSYKIWYFDVDGMVKQTRDEYELRQH
                      GEKLGNGTNGVFSDERHGGYTL"
+                     /Pfam="FAD_binding_3"
      CDS             join(17402..18031,18100..24284,24361..25735)
                      /codon_start=1
                      /gene="aspks1"
                      /product="polyketide synthase AsPKS1"
-                     /label=aspks1
+                     /label="aspks1"
                      /note="AsPKS1"
                      /protein_id="AWM95789.1"
                      /translation="MAAHGQTSKRGNNTLLLFGALVQSHDVSTLRSMRESIVVQHGEHS
@@ -198,11 +206,13 @@ FEATURES             Location/Qualifiers
                      PALPGPMGWTPADYVARGLVEIATQPDNIELYPIYHIENPVRQPWDEALAVLADEMGIS
                      SEALPFQEWVQTVRDWPRQGDNTAAGANPAYLLVDFLEDHFLRMSCGGLLLGTAKAREH
                      SPSLAGMGPVSDELLRLFVRSWKEVGFLL"
+                     /Pfam="SAT2, PKS_KS, PKS_AT, fPKS_PT, ACP_PCP, HTH_51,
+                     PKS_NRPS_MT, fPKS_R"
      CDS             join(27371..27543,27609..28196,28261..28414)
                      /codon_start=1
                      /gene="asr1"
                      /product="major facilitator superfamily transporter AsR1"
-                     /label=asR1
+                     /label="asR1"
                      /note="AsR1"
                      /protein_id="AWM95790.1"
                      /translation="MEATAVSETRPLLESSEYPEDRRNHAETELMPEEGLRGWLSVLGA
@@ -211,12 +221,13 @@ FEATURES             Location/Qualifiers
                      RGLAAGVAATGSSLGGAVFSIFLDRMKDLVGFRVAIRCAAALIGVCLMLALLVVRARLP
                      RAKWVAKLKWFDATIFKDRQFALYSTGAFLAMWGLWGPLAFIPGMVQNVGFPRSFSLEL
                      LSILKYTTPHSPCISGSPCINID"
+                     /Pfam="MFS_1"
      CDS             join(29731..30036,30119..30484,30585..30817,30904..31357,
                      31449..31538,31619..31720)
                      /codon_start=1
                      /gene="asr2"
                      /product="cytochrome P450 monooxygenase AsR2"
-                     /label=asR2
+                     /label="asR2"
                      /note="AsR2"
                      /protein_id="AWM95791.1"
                      /translation="MALAQQFQLNSITFSLLVFLGFVGVSQLIRIYWRLRYIPGPFWAK
@@ -228,11 +239,12 @@ FEATURES             Location/Qualifiers
                      MDELIQAQKTNKNMKETPFPSWRDICDLPYLDACILEGIRLHPPFCLPFERVVPKGGIM
                      IGKTYIPEDTLIGMSPWVINHHKPTFGEDAEDWNPNRWMGPEEEKQKREAAILTFGAGK
                      RICLGKQIAMLELKKIVATLLLTYEFEILDPERYEVENWWFFRQHGIDVRVRRRSDKE"
+                     /Pfam="p450"
      CDS             complement(32047..34611)
                      /codon_start=1
                      /gene="asr3"
                      /product="transcription factor AsR3"
-                     /label=asR3
+                     /label="asR3"
                      /note="AsR3"
                      /protein_id="AWM95792.1"
                      /translation="MDKQQSPPPRRRRRPMLSCWECRRRKIKCDRNDPCAHCIRHETQC
@@ -250,11 +262,12 @@ FEATURES             Location/Qualifiers
                      FREGFRTALTTISLALLVHAKTQQVSGTLHRAPQHRESLKAAVRDLVALAERRVRNGDT
                      NIRAYMFLNMVLAQVEAMEAGARAGDGAFEMALVSGAVKSLRFCRDVIKTRAETRAPVD
                      WEEMDFDADGMASFLPGDMDADAFGLDWDWESLLTTMDMAEG"
+                     /Pfam="CghF"
      CDS             join(37356..38102,38168..39319)
                      /codon_start=1
                      /gene="asr4"
                      /product="transcription factor AsR4"
-                     /label=asR4
+                     /label="asR4"
                      /note="AsR4"
                      /protein_id="AWM95793.1"
                      /translation="MPASLPGQDGGGTRTTRPRSQLRAACDSCNKSKTKCPGGNPCPLC
@@ -268,11 +281,12 @@ FEATURES             Location/Qualifiers
                      YAMSIRIILSSIHKYRIALSMTGQQQRQHNFGDSPEDLDDAASVLVSVGGVQLAGETKS
                      EMIKIAVRLALKQTTAALMRLLECRNRSSSAPSSATMQVAEYSVGHGRFESTAMVRDHP
                      LPHSMSYSSLKTLAGPHTNMITGQDQLEKRENVAGMLSILQYTTKDLIDGANFDWR"
+                     /Pfam="EqxR"
      CDS             complement(40160..41365)
                      /codon_start=1
                      /gene="asr5"
                      /product="hetero-Diels Alderase AsR5"
-                     /label=asR5
+                     /label="asR5"
                      /note="AsR5"
                      /protein_id="AWM95794.1"
                      /translation="MRRSFLISAALGLSMSTPALAASIQSVLGYLRPTSHHHAPCADDV
@@ -283,11 +297,12 @@ FEATURES             Location/Qualifiers
                      PTPLNAVPETLGVAEDALWDDFAMHGTRIGEESDDTTMFATSIVNLMAISPENGTIVPL
                      AGVGTSEPMGFPGPTSAQFGRTEKDSHILYVTGKLFNVPPSIRDVVIQGWVRAIDTTGF
                      HF"
+                     /Pfam="AsR5"
      CDS             42247..43539
                      /codon_start=1
                      /gene="asr6"
                      /product="terpene synthase AsR6"
-                     /label=asR6
+                     /label="asR6"
                      /note="AsR6"
                      /protein_id="AWM95795.1"
                      /translation="MPVTTPTKMATLTTKQMWQTIKDYFGDGFVTGSAPISYNVHTCDM
@@ -298,6 +313,7 @@ FEATURES             Location/Qualifiers
                      CVTLDMAKEAMGILQGERTEVVAGDRAQRKRELRWIYVRCMQILESQPHAHMLRRYGSA
                      GLHYVPMMDRYLERVSGHTRFPIRDGAARILERFINRAELPKESEDINPNGRSLKVSAK
                      MNGNGQLHHEVNGNAKLHLEAERPDVTTAVG"
+                     /Pfam="AsR6"
 ORIGIN
         1 atgttcgaca ccaccaagtt acagtcctcg acccaagatg gcagtacgag cagtgtcact
        61 ggcgagccca ttttcggggc gaacgacccg aactccgaac tgaacccttc aagcagccac

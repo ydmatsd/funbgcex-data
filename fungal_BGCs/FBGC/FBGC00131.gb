@@ -1,23 +1,23 @@
-LOCUS       FBGC00131       22811 bp DNA     linear   UNA 12-FEB-2023
-DEFINITION  macrophorin.
+LOCUS       FBGC00131              22811 bp    DNA     linear   UNA 19-MAR-2024
+DEFINITION  4'-oxomacrophorin D.
 ACCESSION   FBGC00131
-VERSION     .
+VERSION     FBGC00131
 KEYWORDS    .
 SOURCE      Penicillium terrestre LM2
   ORGANISM  Penicillium terrestre LM2
+            .
 REFERENCE   1  (bases 1 to 22811)
   AUTHORS   Tang MC, Cui X, He X, Ding Z, Zhu T, Tang Y, Li D.
-  TITLE     Late-Stage Terpene Cyclization by an Integral Membrane Cyclase in 
+  TITLE     Late-Stage Terpene Cyclization by an Integral Membrane Cyclase in
             the Biosynthesis of Isoprenoid Epoxycyclohexenone Natural Products
   JOURNAL   Org. Lett. 2017;19(19):5376-5379
-  PUBMED    28926261
+   PUBMED   28926261
 REFERENCE   2  (bases 1 to 22811)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Feb 12, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1021/acs.orglett.7b02653"; journalName: "Org. Lett."; date: 
+  JOURNAL   Exported Mar 19, 2024 from SnapGene 7.1.2 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1021/acs.orglett.7b02653"; journalName: "Org. Lett."; date:
             "2017"; volume: "19"; issue: "19"; pages: "5376-5379"
 FEATURES             Location/Qualifiers
      source          1..22811
@@ -28,7 +28,7 @@ FEATURES             Location/Qualifiers
      CDS             join(1..588,691..1880,2054..2837)
                      /codon_start=1
                      /product="transcription factor MacR"
-                     /label=macR
+                     /label="macR"
                      /note="transcription factor"
                      /protein_id="QBC75452.1"
                      /translation="MPLSEPRQIKKPRLSLSCIVCRRRKVRCGREQPECANCVRMKENC
@@ -46,10 +46,11 @@ FEATURES             Location/Qualifiers
                      VLVDLHERLDSSLGPEDRAPPLDLIECQARFSMSHLATKASDLRATSDQPSSDVSSTTR
                      THHNCETPPITTGAPPVAAGNKPVPPNSVFVAGSDSGLDMDFLATISDLEAWSSSLILE
                      SDNLLARPDDMTPDHAVITRLGSQSTASGRRGLPDGLDFPG"
+                     /Pfam="Zn_clus, Fungal_trans"
      CDS             complement(join(3336..4782,4836..4899,4961..5060))
                      /codon_start=1
                      /product="cytochrome P450 monooxygenase MacC"
-                     /label=macC
+                     /label="macC"
                      /note="cytochrome P450"
                      /protein_id="QBC75451.1"
                      /translation="MALLYITTAALALLLLFLRAVFKSWRIQRKLPPGPPGLPLIGNIH
@@ -62,10 +63,11 @@ FEATURES             Location/Qualifiers
                      HHDESIFPNPERFDPSHYEGRHNLASDYAASPDYMQRDHFIYGAGRRLCPGIHLSERSM
                      FIGAAKLLWCFQFEPEMDESGRPVAIDTDPITGYTEGFLVCPQAYKCKVSPRSTARAET
                      IMREFAQAESEVLCQYATP"
+                     /Pfam="p450"
      CDS             complement(join(5460..6424,6480..6531))
                      /codon_start=1
                      /product="decarboxylase MacB"
-                     /label=macB
+                     /label="macB"
                      /note="metallo dependent hydrolase"
                      /protein_id="QBC75450.1"
                      /translation="MNRIDVHHHFIPPAYVKAFNSTPGDPSGWHLPKWTPESTLSLMAS
@@ -74,10 +76,11 @@ FEATURES             Location/Qualifiers
                      ASDAQNKPEMVNPKLPQPIIDYPHETCRTAVDLITSGTISKNPDVKIILSHGGGTLPIL
                      ATRAANLLYDAGLTEITPETFLEQARSFYLDLALSGNVGNLELLVGKNGFAKPGHVLYG
                      SDFPYAPVETINKYVGMMEEFFAQGGDKEEVARGAAAELFPRFRIEDNKEMIPQNRL"
+                     /Pfam="Amidohydro_2"
      CDS             complement(join(6813..7542,7596..7825))
                      /codon_start=1
                      /product="UbiA-like prenyltransferase MacG"
-                     /label=macG
+                     /label="macG"
                      /note="prenyltransferase"
                      /protein_id="QBC75449.1"
                      /translation="MTVSTTPKSQRNVARGVWELARLHTREAWLCWYPAIWGACVAAGM
@@ -86,10 +89,11 @@ FEATURES             Location/Qualifiers
                      AVFPGWVGITGDLKDLDQALPLFFATASWVVYFDVFYATQDRPDDEKIGVKSLAVLLGK
                      NVQILLAVLGALQVLLFAVTALRADMSLIFWVLGLGVWMVNVPWHILSLDLKDRHSGGR
                      IFKSNIKLGLYLTGVSLLELFVVRVYDISLANMKMELH"
+                     /Pfam="UbiA_PT"
      CDS             8291..13642
                      /codon_start=1
                      /product="polyketide synthase MacA"
-                     /label=macA
+                     /label="macA"
                      /note="polyketide synthase"
                      /protein_id="QBC75448.1"
                      /translation="MITSTSSTEVLTPANGSDDSKGTTTPATSSGDPEMHDDLLRNDTH
@@ -123,11 +127,12 @@ FEATURES             Location/Qualifiers
                      EAFLAWSSISGTEGADHGVVLRARPLESGEPLPHAILRDIAPRKEKAVGEGNGENEEQR
                      KKLSGKELAEYVLVVVKKCVSTTLSIPEDEVDETVALPEMGMDSVMTVNFRMSLQQTLT
                      VSVGPTLVWKYPTVHHLVEYFCQVLDE"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_TH, fPKS_KR, ACP_PCP"
      CDS             complement(join(13846..14005,14057..14337,14422..14742,
                      14802..15010,15082..15494,15547..15695))
                      /codon_start=1
                      /product="cytochrome P450 monooxygenase MacH"
-                     /label=macH
+                     /label="macH"
                      /note="cytochrome P450"
                      /protein_id="QBC75447.1"
                      /translation="MALLSVLPVSLWLIAAGTFAVYHAIRAVYLIFFSPLAVFPGSPWA
@@ -139,10 +144,11 @@ FEATURES             Location/Qualifiers
                      ELKTVMPTPNSHVSYLQLEALPYLTAVIKEGLRYSSPAASRTPRLVPPGGVRLPDGRFI
                      PAGTRVGMAIYHIHYNETLFESPRVFDPERWLQGPEVTAERAKFLVPFSRGSRSCLGIN
                      LAYMEMYMAIAYIVRRFDLDLVGTTEEDMKWDDMVVPQFHGEFMALTKRRED"
+                     /Pfam="p450"
      CDS             15903..17198
                      /codon_start=1
                      /product="acyltransferase MacI"
-                     /label=macI
+                     /label="macI"
                      /note="membrane bound O-acyltransferase"
                      /protein_id="QBC75446.1"
                      /translation="MAEMDVSSWKPTKLETKPFSLDSGHYTALAFVLAVCVPQAPHGTA
@@ -153,10 +159,11 @@ FEATURES             Location/Qualifiers
                      PDSVMTSKRTAVKLARRYSLLMMSFVISGLIHACGTYQVTRALGLPLSDGGEMKYFALQ
                      GMAIIAEDFGCWVLGIDDRGTQPGVMRRWMGYAITLSWYIWSRVQLKGVPVALAMGIED
                      ERGDLFAALELVRVSAVAVPGNFVAMAWELIW"
+                     /Pfam="MBOAT_2"
      CDS             complement(join(17380..17491,17558..18438))
                      /codon_start=1
                      /product="short-chain dehydrogenase/reductase MacD"
-                     /label=macD
+                     /label="macD"
                      /note="short chain dehydrogenase"
                      /protein_id="QBC75445.1"
                      /translation="MVNIIQPKVDPLPTGIGLTGKTVVITGASAGMGLEATKQLLRLRA
@@ -165,10 +172,11 @@ FEATURES             Location/Qualifiers
                      SWVGSRAHEVTSLEKKAPIKPGEGVLAHMDKEEAFVPFQRYGDSKLLCVMFMYNLAPRL
                      DPKKVIINMMCPGMVNTNMSDVLPMHLRLIVNVVKSFRARPVEVGGWIILNSALVVGPE
                      SHGKFLNDKTISDKSAFIKSPAGQEIQKKLWEETINEIGTLTTLPAELK"
+                     /Pfam="adh_short"
      CDS             join(18884..19378,19431..19718)
                      /codon_start=1
                      /product="cupin domain-containing protein MacE"
-                     /label=macE
+                     /label="macE"
                      /note="cupin fold family protein"
                      /protein_id="QBC75444.1"
                      /translation="MAPCKPRTFTAGQDPLTKFDGAISVRNLPRPPDRLFLFHGIMRPS
@@ -176,10 +184,11 @@ FEATURES             Location/Qualifiers
                      VIYGTPGTEMNEVEFVVSASDPAAEEQGATVMDQPFFENWYGYQEDVFQRGEKLDFIQV
                      LSMFDAGGTYLSPPWWVPFRSWVGLFLGIVVGRWIGGLLGYAPFYPEWTTDWEAACETM
                      QQSWFQRRFADPQAQERAREKFRGQLEQEASAKGGKSE"
+                     /Pfam="PatJ"
      CDS             complement(join(19916..20138,20195..20748))
                      /codon_start=1
                      /product="terpene cyclase MacJ"
-                     /label=macJ
+                     /label="macJ"
                      /note="terpene cyclase"
                      /protein_id="QBC75443.1"
                      /translation="MCFFALEEWAAANRDYENTPAPYWHVKSVPDGFTAISGILWSISY
@@ -187,10 +196,11 @@ FEATURES             Location/Qualifiers
                      RSAPYAWKQSPLVAQHLAGIIVVGCVICLWLHLAIAATFIPSIGRQVVFMTAWPMQVLI
                      NFSSIAQLLSRGNTLGHSWGIWWTRMLGTIAAACCFFWRIHYWPERFGYAWTPYGKFLL
                      LGSIGSDMVYAAVYVYVQRIEKQLDSLVNTKAQKAR"
+                     /Pfam="Pyr4"
      CDS             join(21091..21679,21728..21886,21939..22472,22534..22811)
                      /codon_start=1
                      /product="FAD-linked oxidoreductase MacF"
-                     /label=macF
+                     /label="macF"
                      /note="flavin dependent dehydrogenase"
                      /protein_id="QBC75442.1"
                      /translation="MTKMTSIIGILMGVLTTATAASIPTGSSAAAAAALGSLGVSPPSG
@@ -203,6 +213,7 @@ FEATURES             Location/Qualifiers
                      QGVIPNLVTQGKSQNGGNLLGLDATPQVWANIFVQFPATLSQSEVAGSVDSLLANLISS
                      AKSEDLFLPYIFVNDAGAKQKPLQSFGEKNIKYIDTVAKRYDPKRIMQRLQNQAYFVLE
                      EL"
+                     /Pfam="FAD_binding_4"
 ORIGIN
         1 atgcctttat ccgagccccg acaaatcaag aaaccccggc tatcgctcag ttgcatcgtc
        61 tgccgacgac gcaaggttcg ctgcggtcgc gagcagccag aatgcgccaa ctgtgtgcgc

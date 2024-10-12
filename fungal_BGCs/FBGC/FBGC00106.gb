@@ -1,29 +1,29 @@
-LOCUS       FBGC00106       28289 bp DNA     linear   UNA 06-APR-2023
+LOCUS       FBGC00106              28289 bp    DNA     linear   UNA 06-APR-2023
 DEFINITION  byssochlamic acid and agnestadrides.
 ACCESSION   FBGC00106
-VERSION     .
+VERSION     FBGC00106
 KEYWORDS    .
 SOURCE      Paecilomyces fulvus IMI 40021
   ORGANISM  Paecilomyces fulvus IMI 40021
+            .
 REFERENCE   1  (bases 1 to 28289)
   AUTHORS   Williams K, Szwalbe AJ, Mulholland NP, Vincent JL, Bailey AM, Willis
             CL, Simpson TJ, Cox RJ.
-  TITLE     Heterologous Production of Fungal Maleidrides Reveals the Cryptic 
+  TITLE     Heterologous Production of Fungal Maleidrides Reveals the Cryptic
             Cyclization Involved in their Biosynthesis.
   JOURNAL   Angew Chem Int Ed Engl 2016;55:6784-8
-  PUBMED    27099957
+   PUBMED   27099957
 REFERENCE   2  (bases 1 to 28289)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Apr 6, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1002/anie.201511882"; journalName: "Angew Chem Int Ed Engl"; 
-            date: "2016"; volume: "55"; pages: "6784-8"
+  JOURNAL   Exported Apr 6, 2023 from SnapGene 6.2.1 https://www.snapgene.com
 COMMENT     ##Assembly-Data-START##
             Assembly Method       :: CLC Workbench v. 2014
             Sequencing Technology :: Illumina
             ##Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1002/anie.201511882"; journalName: "Angew Chem Int Ed Engl";
+            date: "2016"; volume: "55"; pages: "6784-8"
 FEATURES             Location/Qualifiers
      source          1..28289
                      /strain="IMI40021"
@@ -34,7 +34,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="bfL10"
                      /product="ketosteroid isomerase-like protein BfL10"
-                     /label=bfL10
+                     /label="bfL10"
                      /note="KI2"
                      /protein_id="ANF07278.1"
                      /translation="MVAMFITNFLFLALVVGAQCAISLARNLDQSLLSSLARRGPRGYS
@@ -42,33 +42,36 @@ FEATURES             Location/Qualifiers
                      PLAGHYHDLKHFYINALYRLNNVIRGSYPEEYKITLQYIHGGCDQRWSVQEVFFEGRAN
                      NGELWHMVNVWITRWEEGKMNEIRTYVDANDVRRLLFANEEWTNSTTRTEHLDFLPGPE
                      GMPPDID"
+                     /Pfam="BfL6"
      CDS             1570..2202
                      /codon_start=1
                      /gene="bfL9"
-                     /product="phosphatidylethanolamine-binding protein-like 
+                     /product="phosphatidylethanolamine-binding protein-like
                      protein BfL9"
-                     /label=bfL9
+                     /label="bfL9"
                      /note="PEBP2"
                      /protein_id="ANF07279.1"
                      /translation="MSILAYVQYGLGKAFSPIRGHDSKAITKTPAFKDIPQPNMTLEAP
                      ECGPSGSKLLDHHTCLAKDGKGDFPELRWSAPGLGDVKEYVLICEDLDLPIPGLVMHHG
                      IFYGIPPSTTSATNADVQHNGKDAKDYVTTAGWKYIPNMMGSPYLGPAPPLGHGSHRYV
                      FYIVALKEPLDPEQPEKLNRQTLAEAMTGKVIGWGQWIGTWERPWPR"
+                     /Pfam="PBP"
      CDS             complement(join(2897..2901,2969..3566))
                      /codon_start=1
                      /gene="bfL8"
                      /product="putative regulatory protein BfL8"
-                     /label=bfL8
+                     /label="bfL8"
                      /protein_id="ANF07280.1"
                      /translation="MSSLISSNPSSQEGVCGCSFDTLQIMTDLRNTQTVVDFGVVLDLG
                      YRLYEQGLKVVNCKYCRRSQQSSISTLPVLAKQCLTLFEAACSAYNISRRDRLFDPIAA
                      PLNEPLSEFICIKAKVTLGEVELEGEEAEMLAKMLLNRNLLRLAELLESLKEVLSISLK
                      DDCPPQRTLTLRSCQSSVDTTIHRLAVLVEQIGVESC"
+                     /Pfam="BfL8"
      CDS             complement(join(5498..6210,6268..6540,6621..7041))
                      /codon_start=1
                      /gene="bfL7"
                      /product="transcription factor BfL7"
-                     /label=bfL7
+                     /label="bfL7"
                      /protein_id="ANF07281.1"
                      /translation="MSAETARYRGKIEKHEGLGKSLKVRSTCNACQQAKIRCSHDKPSC
                      RRCLKQNITCVYSISRRLGRPSRKVPKKANEEDTSHIPNQHQDELDAQSPRLLRPDHKN
@@ -79,11 +82,12 @@ FEATURES             Location/Qualifiers
                      VSIDSLISMFETTLSSKSQASHDYAAADLHSSSKSWNAGALGFKSFLAQIEACPLLVGN
                      YRVRVEEKTSFLKQLLHSRLCTLSSTIRRVRMQVQQHHHASSSKARLIMITESDRRLQM
                      TIMKVKLWSS"
+                     /Pfam="EqxR"
      CDS             complement(join(8386..8615,8670..9168))
                      /codon_start=1
                      /gene="bfL6"
                      /product="ketosteroid isomerase-like protein BfL6"
-                     /label=bfL6
+                     /label="bfL6"
                      /note="KI1"
                      /protein_id="ANF07282.1"
                      /translation="MVSSKVLIRALALYFLSTYGTSRSILPEWNAQQIPMDSVDINSIP
@@ -91,24 +95,26 @@ FEATURES             Location/Qualifiers
                      HHPVSGHYRDLKHVWINAFWRLTNCFLAVYPEEFDVTLLYIHGGCDQQWSVQEVLFHGR
                      ANNGRTFDMINVWVTKWVDGKMAEVRTYIDGPETTRILFENELWTNSSTETDHLDFIPG
                      PKGMPDMVALSEVMAKYGHY"
+                     /Pfam="BfL6"
      CDS             complement(join(10040..10530,10579..10732))
                      /codon_start=1
                      /gene="bfL5"
-                     /product="phosphatidylethanolamine-binding protein-like 
+                     /product="phosphatidylethanolamine-binding protein-like
                      protein BfL5"
-                     /label=bfL5
+                     /label="bfL5"
                      /note="PEBP1"
                      /protein_id="ANF07283.1"
                      /translation="MIGYIVQFSILLTIHVLAQTPPGYEPSSNHELYLEYPGEISVFPG
                      ISLELSDTKCIPTLSTLGLSRIQTYIVFLIDIDVILEPNATTILHWYQPDLKAQDLGSH
                      LVNTTNNGAAYLGPHPPAGNTHRYVFLLFQQPQGYTLPSCFSTIFPETVEARAGFNIDE
                      FIEVAGLGDVVAANYVNVTNPATPSTTLTATTTSLSTAPCPITMAKFLSST"
+                     /Pfam="PBP"
      CDS             complement(join(11975..12180,12292..12340,12466..13365,
                      13436..13699))
                      /codon_start=1
                      /gene="bfL4"
                      /product="major facilitator superfamily transporter BfL4"
-                     /label=bfL4
+                     /label="bfL4"
                      /protein_id="ANF07284.1"
                      /translation="METQVGVTAEARTPEVTTEATPLLEARRSSPPYSIFTSRQKRLII
                      LAAAIASTFSPFSANIYYPALNSIAADLGVNNAQVNLTITTYMICQGLAPTFMGSFADT
@@ -119,11 +125,12 @@ FEATURES             Location/Qualifiers
                      TLLNGSLVDWNYRRLKAAAGTPVVEGQKQDNTDFPIEKARLQIALPMMFLGAVVITIYG
                      WVMAEATAMAANNLVRCLLGAAATAIVHPMINVLGRGWTYTYVGATVISIAPVLLLVLV
                      RGLGWRKEREARGL"
+                     /Pfam="MFS_1"
      CDS             complement(join(14275..15413,15464..15791))
                      /codon_start=1
                      /gene="bfL3"
                      /product="2-methylcitrate dehydratase BfL3"
-                     /label=bfL3
+                     /label="bfL3"
                      /protein_id="ANF07285.1"
                      /translation="MSTEKYDSVIVDITEYVFRYRIESEKAWENARIALSDAVGCAIET
                      VWKSESCRKLIGPAIPRTFTFDGFRLPGTAYQTDPIKGAFDMATIIRYLDHNDAIAGAD
@@ -134,12 +141,13 @@ FEATURES             Location/Qualifiers
                      ADRDHCMQYLVALAFLKGEVPEPEDFLDNSPWANDSVLNILRDRILIRTDDQLTHDYMD
                      LGKKSLACGVTVHLINGEVIDEVLVEFPVGHVANPHTAAAVKRKFLRNMSLMFTMEEIE
                      NITSSLQLDHMKVSHFVDLLVRENIPTLAL"
+                     /Pfam="MmgE_PrpD, MmgE_PrpD_C"
      CDS             complement(join(16530..16612,16669..16751,16831..17580,
                      17652..17849,17946..18157))
                      /codon_start=1
                      /gene="bfL2"
                      /product="citrate synthase-like protein BfL2"
-                     /label=bfL2
+                     /label="bfL2"
                      /protein_id="ANF07286.1"
                      /translation="MSSGTLFVKDSRTSLNYEIPIHRNAIAATAFKKIKAPVSGSDPAD
                      KVDGGLRVHDPGLQNTTVVETDISFSNSDSGLLLFRGYSLDQLWDSDFEELFHLLVWGK
@@ -149,23 +157,25 @@ FEATURES             Location/Qualifiers
                      PLHFGATEAAHRALQEIGSVERVPDFLEQVKRGERKLFGYGHRTYKGTDPRVIPIKKLL
                      EDSNATSNPLIEIAKSIEIHASTDDYFKSRGLSANADFYGNFVFSAIGFDPDFIPVAML
                      AQRIIGIMAHWREYMLKRGKLFRPSHIYTGNTEPLCNFSPKL"
+                     /Pfam="Citrate_synt"
      CDS             complement(join(18710..19305,19359..19377,19445..19495))
                      /codon_start=1
                      /gene="bfL1"
                      /product="alpha/beta hydrolase BfL1"
-                     /label=bfL1
+                     /label="bfL1"
                      /protein_id="ANF07287.1"
                      /translation="MPQVKLLCLHGAGTSIQILQSQLAPLIRELQKDSTASFHFIEGEV
                      ECGPGPGIEGIFEGPYFSFYKWPRTLEDDDESLYDAYGYLSDVIEEEGPFDGVIGFSHG
                      GTLAFGYLAHLAKTRPNDALPFRCAVFMNAPPPFRMDTYGNLIVEEGLQDLVRIPTLHV
                      VGKKDFIYNFSLKLHELCDSANSTLVLHEKGHEIPSDTKNVNRITKALRELCQVSAFL"
+                     /Pfam="FSH1"
      CDS             join(20015..20272,20329..20415,20462..20519,20576..20915,
                      20972..21497,21555..22281,22331..27033,27082..27402,
                      27453..28289)
                      /codon_start=1
                      /gene="bfpks1"
                      /product="polyketide synthase BfPKS1"
-                     /label=bfpks1
+                     /label="bfpks1"
                      /protein_id="ANF07288.1"
                      /translation="MTCKDKKMEDCLENSGRMTHGVADAMGDKTMPIAIVGMSFRGPGD
                      ATNVENLWKMISEARESRSPIPQERWNNDAFYHPDHKHHGTHNVKAGHFFKEDLSRFDA
@@ -212,6 +222,8 @@ FEATURES             Location/Qualifiers
                      ESRRDGAQFQTITGLGKWKKGNSLPAFDSPIFSRFRRLSLDAETSSSEGDRANAFRDSL
                      ALARTIEEASELVCAALVTKLAARSGISPENVDPSKTVSEYGVDSLVAVELRNWITHEM
                      DSTVPILELLANNPMNSLSVKIASRSKLVHLDAEKE"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_DH, PKS_NRPS_MT, fPKS_ER,
+                     fPKS_KR, ACP_PCP"
 ORIGIN
         1 atggtggcaa tgtttattac aaacttcttg tttttagctc tggttgtagg ggcacaatgc
        61 gcaatttctc tcgcaagaaa cctggatcaa agtttgttgt catccctagc gaggaggggc

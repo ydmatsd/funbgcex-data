@@ -1,27 +1,27 @@
-LOCUS       FBGC00132       14033 bp DNA     linear   UNA 12-MAY-2023
+LOCUS       FBGC00132              14033 bp    DNA     linear   UNA 27-MAR-2024
 DEFINITION  aspergillic acid.
 ACCESSION   FBGC00132
-VERSION     .
+VERSION     FBGC00132
 KEYWORDS    .
 SOURCE      Aspergillus minisclerotigenes SRRC 0535
   ORGANISM  Aspergillus minisclerotigenes SRRC 0535
+            .
 REFERENCE   1  (bases 1 to 14033)
   AUTHORS   Lebar MD, Carter-Wientjes CH, Mack BM, Gilbert MK.
-  TITLE     The aspergillic acid biosynthetic gene cluster predicts 
+  TITLE     The aspergillic acid biosynthetic gene cluster predicts
             neoaspergillic acid production in Aspergillus section Circumdati
   JOURNAL   World Mycotoxin J 2019;12:213-222
 REFERENCE   2  (bases 1 to 14033)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported May 12, 2023 from SnapGene 6.2.2
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "doi.org/10.3920/WMJ2018.2397"; journalName: "World Mycotoxin J"; 
-            date: "2019"; volume: "12"; pages: "213-222"
+  JOURNAL   Exported Mar 27, 2024 from SnapGene 7.2.0 https://www.snapgene.com
 COMMENT     ##Assembly-Data-START##
             Assembly Method       :: Spades v. 3.11.1
             Sequencing Technology :: Illumina
             ##Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.3920/WMJ2018.2397"; journalName: "World Mycotoxin J"; date:
+            "2019"; volume: "12"; pages: "213-222"
 FEATURES             Location/Qualifiers
      source          1..14033
                      /mol_type="genomic DNA"
@@ -31,7 +31,7 @@ FEATURES             Location/Qualifiers
      CDS             complement(join(1..941,994..1069))
                      /codon_start=1
                      /product="transcription coregulator AsaA"
-                     /label=asaA
+                     /label="asaA"
                      /note="12_g"
                      /protein_id="AZL87936.1"
                      /translation="MGAPHEEIQALKRRREQNRLAQRRRRDNVRRRLRDLGLDTGSPAS
@@ -40,10 +40,11 @@ FEATURES             Location/Qualifiers
                      CGEAEIPTRQDSNFPRTPNLKSLMSGGNDPSAHQPWILTSSTVGEQMSSQALPHSPGPQ
                      HCSTPLPAETRPRWTTALHMAVSQGNFSVMRLLLSYGADPNAVNSEGATALHVGVMNGN
                      YTMVAELLQRGADPTLTNAAGWLPLHQAVHAGDEGCVRVLLEADQSVDYPISDLDYT"
+                     /Pfam="Ank_4"
      CDS             join(2738..3015,3115..3733)
                      /codon_start=1
                      /product="2OG-Fe(II)-dependent dioxygenase AsaB"
-                     /label=asaB
+                     /label="asaB"
                      /note="13_g"
                      /protein_id="AZL87937.1"
                      /translation="MRFRQQVETSLNYWPAEGPVQREIILGTVGAYRRPIDSRPVLIQD
@@ -52,10 +53,11 @@ FEATURES             Location/Qualifiers
                      KTRWAIVNIWRPLKPVPRDPLAVSDARSFHDEDLLEIYGRVPGKQVKKDYDAATKGSGF
                      GMLYGKYSPGQKWFYMSDMKPDEALLIKCYDSRDDGRTARRTPHTAFVDPRTRDVKVAR
                      ESLELRCLVFFEDQPLA"
+                     /Pfam="NvfI"
      CDS             complement(4273..7338)
                      /codon_start=1
                      /product="NRPS-like enzyme AsaC"
-                     /label=asaC
+                     /label="asaC"
                      /note="14_g"
                      /protein_id="AZL87938.1"
                      /translation="MSIFSSISSLGLEACYRHHVRTSPNATAVVDGDQSMTYRELDTRV
@@ -76,10 +78,11 @@ FEATURES             Location/Qualifiers
                      LPNQSKIMIPVDFITTALLHITSNPYNFGRTFHLVPQTPEEDTDIETSWNMLKELGYDL
                      KAVEYKDWLEILSKDKDLLTNPLLPMLPVLQEPVRKHLTRWELYEDMATYDVTNTRRSL
                      ADRGKLKSGIGLEDLRRHVEDWVARGLVPSRN"
+                     /Pfam="AA-adenyl-dom, ACP_PCP, NAD_binding_4"
      CDS             join(7934..8104,8162..8349,8408..9608)
                      /codon_start=1
                      /product="cytochrome P450 monooxygenase AsaD"
-                     /label=asaD
+                     /label="asaD"
                      /note="15_g"
                      /protein_id="AZL87939.1"
                      /translation="MPSVPNMGFSIQHGLTKPEILYPFLFGIFAVAGLCIATLLFPASF
@@ -92,10 +95,11 @@ FEATURES             Location/Qualifiers
                      QSAPTERVVDGYRIPAGTNYVVDTWGLNVRDEFWAPDNSTYRPERFLNSSNTDLRYHFW
                      RFGFGPRQCIGRYTADVVIRAILLHLVKHYELQMLEEGDFTQDPECWITHPDLQVKCVR
                      RT"
+                     /Pfam="p450"
      CDS             join(9977..10795,10848..11933)
                      /codon_start=1
                      /product="transcription factor AsaR"
-                     /label=asaR
+                     /label="asaR"
                      /note="16_g"
                      /protein_id="AZL87940.1"
                      /translation="MERSCTQCHQRKVRCSKTLPCSACVRLGATCRFPTTDANAHRPRR
@@ -109,10 +113,11 @@ FEATURES             Location/Qualifiers
                      QSQEAVSSAAERTLISACACLEQSMELQTDDLLRGFRWLFASYNQFHCLMYVLWHLCAQ
                      PTGPHVVRVWNIVDLVFNVTENDPTRPDPGPTWKVLQHLREKAAQRRGNVAMSSPTQAH
                      GPSGEHVPESRTAEQHSGQDLEGTGDGFGDLLAPPLDPSSLTEWINLSENLGMYRFEP"
+                     /Pfam="EqxR, Zn_clus, Fungal_trans"
      CDS             join(12534..12738,12800..12906,12967..13141,13192..14033)
                      /codon_start=1
                      /product="major facilitator superfamily transporter AsaE"
-                     /label=asaE
+                     /label="asaE"
                      /note="17_g"
                      /protein_id="AZL87941.1"
                      /translation="MDRSRTSSQDRDVVPPRGDEGRISPSLDKEKSPGPEDQPDAPPDG
@@ -123,6 +128,7 @@ FEATURES             Location/Qualifiers
                      SGMNADLASYLVPMLNGASLFGRLGAGFMSDRYGRYNIFIVMCIVAGVLVLALWIPATS
                      NAPIIVFATLFGFASGAYVSLSPALIAQISPLKEVGYRTGLLFLFASVGGLTTSPIAGA
                      ILQNAGGDYTHMKIFSGVMLLGGTAFIITARIVGTGLKLVVKY"
+                     /Pfam="MFS_1"
 ORIGIN
         1 tcaagtataa tctaaatcag atataggata atcaacagac tgatcggcct caagcaacac
        61 tcgtacacac ccctcatcac ccgcatgaac ggcctgatgc agtggaagcc agcccgccgc

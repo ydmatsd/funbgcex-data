@@ -1,24 +1,24 @@
-LOCUS       FBGC00119       70967 bp DNA     linear   UNA 08-MAY-2023
+LOCUS       FBGC00119              70967 bp    DNA     linear   UNA 08-MAY-2023
 DEFINITION  KK-1.
 ACCESSION   FBGC00119
-VERSION     .
+VERSION     FBGC00119
 KEYWORDS    .
 SOURCE      Curvularia clavata BAUA-2787
   ORGANISM  Curvularia clavata BAUA-2787
+            .
 REFERENCE   1  (bases 1 to 70967)
-  AUTHORS   Yoshimi A, Yamaguchi S, Fujioka T, Kawai K, Gomi K, Machida M, Abe 
+  AUTHORS   Yoshimi A, Yamaguchi S, Fujioka T, Kawai K, Gomi K, Machida M, Abe
             K.
   TITLE     Heterologous Production of a Novel Cyclic Peptide Compound, KK-1, in
             Aspergillus oryzae.
   JOURNAL   Front Microbiol 2018;9:690
-  PUBMED    29686660
+   PUBMED   29686660
 REFERENCE   2  (bases 1 to 70967)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported May 8, 2023 from SnapGene 6.2.2
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.3389/fmicb.2018.00690"; journalName: "Front Microbiol"; date: 
+  JOURNAL   Exported May 8, 2023 from SnapGene 6.2.2 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
+            "10.3389/fmicb.2018.00690"; journalName: "Front Microbiol"; date:
             "2018"; volume: "9"; pages: "690"
 FEATURES             Location/Qualifiers
      source          1..70967
@@ -31,7 +31,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="TRAF135002"
                      /product="methyltransferase OMT"
-                     /label=OMT
+                     /label="OMT"
                      /protein_id="BBC83956.1"
                      /translation="MDPRQSRITELAIAIKKQTETLQSLLDSLKVATPSFSVNANQELP
                      RNAAVQLAQSSILDSCTELQDLVEGPLAHVGRIMSPRVHISSALQAIVHFNIAEKIAKH
@@ -41,11 +41,12 @@ FEATURES             Location/Qualifiers
                      LSKAVVPKDLKGRLEFVSHSMFKEQPIKADVYLLRSILHDWLDGYALQIIRNLIPALEV
                      GSKVIINEICLPEPNAISAYEAQLIRGYDLSMKQQFNSKERDVHEWETLFRLADRRFKL
                      NRIVNPPGSFLAVLEFEWQPTTP"
+                     /Pfam="Methyltransf_2"
      CDS             complement(4746..43871)
                      /codon_start=1
                      /gene="TRAF135001"
                      /product="nonribosomal peptide synthetase NRPS"
-                     /label=NRPS
+                     /label="NRPS"
                      /protein_id="BBC83957.1"
                      /translation="MASDINTHPEGATKFWQQHFDGLNASVFPALSSHLTVPRPNAQTA
                      HRISYSTLAKQKWDNTSLCRAALAILLARYSNASEALFGVLVEQFLPSNGEQASTEESP
@@ -269,12 +270,14 @@ FEATURES             Location/Qualifiers
                      QYIDSLPFETLGFDDIKENCTKWPASTTNYGCCSTFQNFEMQPQSQVQDERVRLAGLTN
                      FKDAELLNGATATNKRVLDDVPMHEIDMIGIPEPDGLHVRVVLTASRQIFEEEVVDRMH
                      EEFCDIILGLNKILQK"
+                     /Pfam="NRPS_C, AA-adenyl-dom, ACP_PCP, PKS_NRPS_MT,
+                     NRPS_CT"
      CDS             join(45394..45788,45840..45865,45930..46497,46585..47087,
                      47141..47265)
                      /codon_start=1
                      /gene="TRAF068002"
                      /product="amidase TR02"
-                     /label=TR02
+                     /label="TR02"
                      /protein_id="BBC83958.1"
                      /translation="MTEPTWKTVASEKQQQRESKIPSEWQIPKSSHPAPEVTFVQDFPA
                      KSGMFTNRELQLTAATASDVTAKISTGEWTAVEVTTAVCKRAAVAQQLLNCVTEICFDQ
@@ -286,11 +289,12 @@ FEATURES             Location/Qualifiers
                      TWKNQHKKALLAQKFLEKWQATKGRTGTSRPIDGLIMPSTPFPASRHGSGWPWHFGDLS
                      ALLDLTTGVFPVTRVNLEKDAVPPSWTPMSVKDKEAMDYYEKPENHENALVGLQLIGRR
                      LEEEKVTAMLTLIRNVLEVDY"
+                     /Pfam="Amidase"
      CDS             48867..51857
                      /codon_start=1
                      /gene="TRAF068003"
                      /product="hypothetical protein TR03"
-                     /label=TR03
+                     /label="TR03"
                      /protein_id="BBC83959.1"
                      /translation="MALQERRAAVTSSDILSAHAISSPALAAAAINFAASFHRDARTCC
                      SAHERSQLQKVYRDKILANDKFTANIAAAFLSVLGPNAGRNDAGAERERWGDFDRLAQR
@@ -314,7 +318,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="TRAF068005"
                      /product="transcription factor TR05"
-                     /label=TR05
+                     /label="TR05"
                      /protein_id="BBC83961.1"
                      /translation="MTFVETVAVPDNEERPSAGHNRPVADSTKCPNAREMKVQNRVAQR
                      THHRRLKTKLEVLRERLKEPEKQVGEPARVQTSTSTLVSDAATSLADSMCLVPAVQNDQ
@@ -323,12 +327,13 @@ FEATURES             Location/Qualifiers
                      APLQDRVRYMRDQAVAMGFGSLDDVVEAHYTQKLECTSPSFQEQRLSRNRRLSRLLSTL
                      HNAAKDWSEWERRGLQEQVTQGAEDILVSELNSYITQRSMNSTDDKIITGGLLDEQSRL
                      RQDVEERRRLQDSLPNLGALLTTLLSRSNAPNQDARRDTVLAMIKTMCFDQDENMSIS"
+                     /Pfam="TqaK"
      CDS             join(61478..61669,61721..61826,61875..62017,62070..62954,
                      63018..65681,65735..65761)
                      /codon_start=1
                      /gene="TRAF068006"
                      /product="ABC transporter TR06"
-                     /label=TR06
+                     /label="TR06"
                      /protein_id="BBC83962.1"
                      /translation="MSAIELPPLRSRSEEAARAEHNAQTLAHENANIAGYDESPAVQQV
                      ETDAPETKGAPQASFKNYFRVFSYGTKLDYFLISLCCFTSIGAGTAMPLMNIVFGKLVG
@@ -353,11 +358,12 @@ FEATURES             Location/Qualifiers
                      AEYRKQMSLVSQEPTLYQGSIRENISLSVESASDDDIKQACRDAQIHDFITSLPEGYET
                      RLGPKGMSLSGGQRQRISLARALLRKPKILLLDEATSSLDSESEKYVQEAIERAASEGD
                      RTVIIVAHRLATIQKADVIFVLGSGKVLEKGDHQALLRKKGVYWQMCQAQALNR"
+                     /Pfam="ABC_membrane, ABC_tran"
      CDS             complement(66348..67394)
                      /codon_start=1
                      /gene="TRAF068007"
                      /product="dehydrogenase TR07"
-                     /label=TR07
+                     /label="TR07"
                      /protein_id="BBC83963.1"
                      /translation="MKLTVFSAKPYDIEYLGGIATNQNSSPAIEINFLHVPLSSETAAF
                      ANGADAVCVFVHDVLDANVLRELYAAGVRAILFRCSGYNNIDLREAERLGFFVANVPSY
@@ -366,12 +372,13 @@ FEATURES             Location/Qualifiers
                      VSKMKRGAMLVNTSRGGLIDTQSVMKALKSKRLGGLALDVYEGERALFYKDHSGDIIHD
                      DLLMRLTTFHNVVVSGHQAYFTEEALTEIAECTLRNLDDWAKGVPTANALVQGRNSNGR
                      RERGLARL"
+                     /Pfam="2-Hacid_dh_C"
      CDS             complement(68169..69104)
                      /codon_start=1
                      /gene="TRAF068008"
-                     /product="pyrroline-5-carboxylate reductase-like protein 
+                     /product="pyrroline-5-carboxylate reductase-like protein
                      TR08"
-                     /label=TR08
+                     /label="TR08"
                      /protein_id="BBC83964.1"
                      /translation="MTKRESNTLAVLGCGMVFLVSLLDLANRLLGALGTAILSGILASM
                      ADQTADDSGRLFTNFTACVRRKETGAAVSDKISSHANANKVEILNKENLRGVKQADAVL
@@ -379,11 +386,12 @@ FEATURES             Location/Qualifiers
                      FVRDSATVIEKPQRTFPEALLHVTDTVFKAVGNVFYIQPSAYDICTALCGSSPAFLAVF
                      IDSMVDGAVAMGLSHKDAVDMAACTMRGAASLVLESGNPWTIRHQVASPGGSTMQGLLA
                      LEQGNVRSTISNALMVAAKEAKKLGSKENA"
+                     /Pfam="F420_oxidored, P5CR_dimer"
      CDS             join(69822..70086,70148..70731,70893..70967)
                      /codon_start=1
                      /gene="TRAF068009"
                      /product="hydrolase TR09"
-                     /label=TR09
+                     /label="TR09"
                      /protein_id="BBC83965.1"
                      /translation="MESEDNPLRIQTGSLCSFQRPTPLVLIHDSSGTTFSYFRLGSLNR
                      DVWAIHDPHFDKSTPWKGGFGEIAEHYIKLIETAGIRGSILLGGWSLGGYLALTIAHKL
@@ -391,6 +399,7 @@ FEATURES             Location/Qualifiers
                      PPWTAPALEGKTIRCSAGGKTFTVANGRILYKPLGKGWEDVKMQSFEHGTSTLERYIEL
                      PPAALIRCAQAIPTDTDSKMPCFVDRFRHETLLGWDSNFPSFIKAAVDTNTHHFNIFES
                      QNLKRLTIQLNECLEVLDSCCPMGYC"
+                     /Pfam="Thioesterase"
 ORIGIN
         1 atggacccga gacagtcacg gatcacggag ctggcaatag ccatcaaaaa gcagacggaa
        61 acactgcagt cactattgga cagtctcaaa gttgcgacgc cttctttttc tgtaaacgcc

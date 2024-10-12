@@ -1,28 +1,28 @@
-LOCUS       FBGC00142       16844 bp DNA     linear   UNA 21-JAN-2023
+LOCUS       FBGC00142              16844 bp    DNA     linear   UNA 21-JAN-2023
 DEFINITION  dimeric naphthopyrones.
 ACCESSION   FBGC00142
-VERSION     .
+VERSION     FBGC00142
 KEYWORDS    .
 SOURCE      Aschersonia paraphysata BCC 11964
   ORGANISM  Aschersonia paraphysata BCC 11964
+            .
 REFERENCE   1  (bases 1 to 16844)
   AUTHORS   Obermaier S, Thiele W, Furtges L, Muller M.
-  TITLE     Enantioselective Phenol Coupling by Laccases in the Biosynthesis of 
+  TITLE     Enantioselective Phenol Coupling by Laccases in the Biosynthesis of
             Fungal Dimeric Naphthopyrones.
   JOURNAL   Angew Chem Int Ed Engl 2019;58:9125-9128
-  PUBMED    31050129
+   PUBMED   31050129
 REFERENCE   2  (bases 1 to 16844)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Jan 21, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1002/anie.201903759"; journalName: "Angew Chem Int Ed Engl"; 
-            date: "2019"; volume: "58"; pages: "9125-9128"
+  JOURNAL   Exported Jan 21, 2023 from SnapGene 6.2.1 https://www.snapgene.com
 COMMENT     ##Assembly-Data-START##
             Assembly Method       :: SPades v. 3.10
             Sequencing Technology :: Illumina
             ##Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1002/anie.201903759"; journalName: "Angew Chem Int Ed Engl";
+            date: "2019"; volume: "58"; pages: "9125-9128"
 FEATURES             Location/Qualifiers
      source          1..16844
                      /strain="BCC11964"
@@ -34,7 +34,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="ashL"
                      /product="laccase AshL"
-                     /label=ashL
+                     /label="ashL"
                      /protein_id="QDK64758.1"
                      /translation="MARITCFAVLLCLFTEQSFAAMVQRTLRVTWRLGSPNGQSREMIL
                      TNGQFPGPELTFDEDDDVEITVHNDMKFNTTIQQEGTPWSDGVLGLSQKPILPGESFVY
@@ -48,11 +48,12 @@ FEATURES             Location/Qualifiers
                      GSVAEAMQAEPESFNLKNPGYRDSWLTTFSPVPTGGYWSVFRYHATNPGPWLFHCHFEV
                      HAMGGMSIAILDGVDAWPDVPQEFAAQNARVSDGRHVLSPLTSSKPLYAKIWDFAQRVL
                      GLRPSEDLGELRR"
+                     /Pfam="Cu-oxidase_3, Cu-oxidase, Cu-oxidase_2"
      CDS             join(5227..5418,5562..7016)
                      /codon_start=1
                      /gene="ashT"
                      /product="major facilitator superfamily transporter AshT"
-                     /label=ashT
+                     /label="ashT"
                      /protein_id="QDK64761.1"
                      /translation="MPQDSPQSDPAVPSDGKEGKDGVDGLNQAEAGASGGDSEASYPGR
                      GAMAVTMIAISMGVFLVSLDRTIVSTAAPTITDQFHSPTDIGWYASAYTLTGSALQLPL
@@ -64,20 +65,22 @@ FEATURES             Location/Qualifiers
                      EVDTGSGKWIGYQVLLGLGFGLGTQQASLAVQTVLKPEDVPTAISIVFFGLQLGGSIFI
                      CVGQNVFNQLFQKLLRQAAIPGLDLDLVLKTGATEIRRLVPDGADLQKLLTAYNTSVTS
                      TFYVAAATGVAAFLSALFVQWKSVKNVDPVH"
+                     /Pfam="MFS_1"
      CDS             complement(join(7349..7624,7744..7893))
                      /codon_start=1
                      /gene="ashZ"
                      /product="dehydratase AshZ"
-                     /label=ashZ
+                     /label="ashZ"
                      /protein_id="QDK64759.1"
                      /translation="MESQQPLCLNILSYKKDGITSEEYKHYMVNEHGPLVAGLMEKYGF
                      LQWTMSHVSDQSPQLMSQLYDAQFGNIAPYDCCVQIVFPNIEAFVKMKADPYFKQTVGP
                      DHEKFADTKKSQMMIGYFSPLVKDGKALDSNERNGKS"
+                     /Pfam="EthD"
      CDS             join(10305..10594,10659..15850,15994..16844)
                      /codon_start=1
                      /gene="ashP"
                      /product="polyketide synthase AshP"
-                     /label=ashP
+                     /label="ashP"
                      /protein_id="QDK64760.1"
                      /translation="MADNFQVVTFGDLSTPYFAELQKLVFHKTDFVLTSLFDDTYRALR
                      AELSRLPPSQKASLPQSSNLLELLAGSDASSTRNCALTGALACLYQIASLVSYIGKTKV
@@ -116,6 +119,8 @@ FEATURES             Location/Qualifiers
                      RPPPWLLTHFALFSAILDTFKPRPWRAATPLRAWAIWAQHGVDEAGSIAISPDDPDNVA
                      WLLKRRVQESLVANGWDQLVGSDNVTPFIVEGAHHFNMLKQPAVKQVCDYMQRIMKSLD
                      "
+                     /Pfam="SAT2, PKS_KS, PKS_AT, fPKS_PT, ACP_PCP,
+                     Thioesterase"
 ORIGIN
         1 tcaacgccgt agctcgccga gatcttcgct cggccgcagt cccaacaccc gctgcgcaaa
        61 gtcccagatc ttggcataca gtggcttgga actggtcaaa gggctcagaa cgtggcgtcc

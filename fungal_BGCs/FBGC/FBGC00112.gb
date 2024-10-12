@@ -1,31 +1,31 @@
-LOCUS       FBGC00112       15021 bp DNA     linear   UNA 19-JAN-2023
+LOCUS       FBGC00112              15021 bp    DNA     linear   UNA 19-JAN-2023
 DEFINITION  swainsonine.
 ACCESSION   FBGC00112
-VERSION     .
+VERSION     FBGC00112
 KEYWORDS    .
 SOURCE      Alternaria oxytropis
   ORGANISM  Alternaria oxytropis
+            .
 REFERENCE   1  (bases 1 to 15021)
   AUTHORS   Cook D, Donzelli BGG, Creamer R, Baucom DL, Gardner DR, Pan J, Moore
             N, Krasnoff SB, Jaromczyk JW, Schardl CL.
-  TITLE     Swainsonine Biosynthesis Genes in Diverse Symbiotic and Pathogenic 
+  TITLE     Swainsonine Biosynthesis Genes in Diverse Symbiotic and Pathogenic
             Fungi.
   JOURNAL   G3 (Bethesda) 2017;7:1791-1797
-  PUBMED    28381497
+   PUBMED   28381497
 REFERENCE   2  (bases 1 to 15021)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Jan 19, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1534/g3.117.041384"; journalName: "G3 (Bethesda)"; date: "2017";
-            volume: "7"; pages: "1791-1797"
+  JOURNAL   Exported Jan 19, 2023 from SnapGene 6.2.1 https://www.snapgene.com
 COMMENT     ##Assembly-Data-START##
             Assembly Method       :: CLC Genomics Workbench v. 8.0.2
             Assembly Name         :: Alternaria oxytropis Raft River
             Coverage              :: 78x
             Sequencing Technology :: Illumina
             ##Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1534/g3.117.041384"; journalName: "G3 (Bethesda)"; date: "2017";
+            volume: "7"; pages: "1791-1797"
 FEATURES             Location/Qualifiers
      source          1..15021
                      /host="Oxytropis sericea"
@@ -36,7 +36,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="swnR"
                      /product="short-chain dehydrogenase/reductase SwnR"
-                     /label=swnR
+                     /label="swnR"
                      /note="putative NADB Rossmann-fold reductase"
                      /protein_id="AQV04226.1"
                      /translation="MRVAIAGYGDLTHYICEEFIKVGYELVILTRNPKVRVKEEGIVQA
@@ -45,12 +45,13 @@ FEATURES             Location/Qualifiers
                      WAGNRIVVPGTGDEPVDFTWARDVARGLSALLKAPSGSWEPYTFMSGDRSCWNTMVELS
                      KKINHMDIPIEHRSLHSIVEMIKKTKDNDTLVLADYYLLSISQACANPPELTEAHRRKY
                      FQSINFRTLRDGFSQYDQYPNSII"
+                     /Pfam="NAD_binding_10"
      CDS             complement(join(1194..1489,1545..1900,1957..2195,
                      2253..2357))
                      /codon_start=1
                      /gene="swnN"
                      /product="short-chain dehydrogenase/reductase SwnN"
-                     /label=swnN
+                     /label="swnN"
                      /note="similar to NmrA family reductase"
                      /protein_id="AQV04227.1"
                      /translation="MVVVAVAGGTGGVGRSVLDAIAESGKHRAIVLSRTAAATTATNKT
@@ -59,11 +60,12 @@ FEATURES             Location/Qualifiers
                      PFWVFVDIDHEKCVFPGDGSQPLVLTHSTDLAACIERLIGLPAQEWPRESLVASNKLRV
                      KDLASIIEKVTGKEFQIVYDSVEAIHGGLITPLPSNQAVFSDPKKGELLHQVELQVMLS
                      MLSHAHDLPGQDLTELFPDVKKTKIEQFLKEGWAIKRANDQSDLDHRELV"
+                     /Pfam="NmrA"
      CDS             join(4365..4995,5062..5351)
                      /codon_start=1
                      /gene="swnH1"
                      /product="2OG-Fe(II)-dependent dioxygenase SwnH1"
-                     /label=swnH1
+                     /label="swnH1"
                      /note="2-oxoglutarate and Fe(II) dependent dioxygenase;
                      acting on 1-hydroxyindolizidine"
                      /protein_id="AQV04228.1"
@@ -73,11 +75,12 @@ FEATURES             Location/Qualifiers
                      SLSNETMLGFMIAGSRTTRENGATMAIPGSHKWNHSRIPRANEVCFAEMEPGDAFVFLG
                      TVYHGAGHNAAVDQVRKLYGLFFISGTLRPEENQFLAVPRSKVLGMSEKMLSLLGYKTP
                      GTWLGIVNNGDPADDLVEVLRYANE"
+                     /Pfam="PhyH"
      CDS             complement(join(5397..5689,5749..6412))
                      /codon_start=1
                      /gene="swnH2"
                      /product="2OG-Fe(II)-dependent dioxygenase SwnH2"
-                     /label=swnH2
+                     /label="swnH2"
                      /note="putative 2-oxoglutarate and Fe(II) dependent
                      dioxygenase"
                      /protein_id="AQV04229.1"
@@ -87,14 +90,15 @@ FEATURES             Location/Qualifiers
                      MIFSSSHHADMKINEVDGFSCFLAGTRINRENGGTMIILGSHKWEHERRGRPDEVSFLE
                      MERGSAFIFLSNLAHGAGYNTIPGEIRKIINLVFCRGTLRQEENQFLCNPRSKVLKMSP
                      KLQTLLGFKKPARNWLGMVENEDPTKDLAAVYEKMLA"
+                     /Pfam="PhyH"
      CDS             7507..15021
                      /codon_start=1
                      /gene="swnK"
-                     /product="nonribosomal peptide synthetase-polyketide 
+                     /product="nonribosomal peptide synthetase-polyketide
                      synthase SwnK"
-                     /label=swnK
+                     /label="swnK"
                      /note="multifunctional enzyme including amino acid
-                     adenylylation and ketide synthase domains; involved in 
+                     adenylylation and ketide synthase domains; involved in
                      swainsonine biosynthesis"
                      /protein_id="AQV04230.1"
                      /translation="MLTPAVSLKNLTKPKMKAISDHDYQTLVNDFNAKNDIALLGCRLD
@@ -140,6 +144,8 @@ FEATURES             Location/Qualifiers
                      GDFLNNLVSGSLDLGAFPSINTDLSAVLPVDYLCNTIATVMTEDQQHIGEDYDFVNPRA
                      PTFDHFFNMMGALTGCKELLSFGEWHHRALEYAAAHPESSLARITTILDGYTDKNAGEM
                      MKSLPVSNRVFGLDLYPAPLFDENYVRQYLDCLLAAKAQA"
+                     /Pfam="AA-adenyl-dom, ACP_PCP, PKS_KS, PKS_AT, fPKS_KR,
+                     NAD_binding_4"
 ORIGIN
         1 tcagattatt gaattgggat attgatcgta ctgagaaaaa ccatcacgca acgttcggaa
        61 attgatgctt tgaaagtatt tccgccgatg tgcctcagtc aactctgggg gatttgcgca

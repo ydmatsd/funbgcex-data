@@ -1,35 +1,35 @@
-LOCUS       FBGC00139       19875 bp DNA     linear   UNA 21-JAN-2023
+LOCUS       FBGC00139              19875 bp    DNA     linear   UNA 21-JAN-2023
 DEFINITION  varicidins.
 ACCESSION   FBGC00139
-VERSION     .
+VERSION     FBGC00139
 KEYWORDS    .
 SOURCE      Talaromyces variabilis HXQ-H-1
   ORGANISM  Talaromyces variabilis HXQ-H-1
+            .
 REFERENCE   1  (bases 1 to 19875)
   AUTHORS   Tan D, Jamieson CS, Ohashi M, Tang MC, Houk KN, Tang Y.
-  TITLE     Genome-Mined Diels-Alderase Catalyzes Formation of the 
+  TITLE     Genome-Mined Diels-Alderase Catalyzes Formation of the
             cis-Octahydrodecalins of Varicidin A and B.
   JOURNAL   J Am Chem Soc 2019;141:769-773
-  PUBMED    30609896
+   PUBMED   30609896
 REFERENCE   2  (bases 1 to 19875)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Jan 21, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1021/jacs.8b12010"; journalName: "J Am Chem Soc"; date: "2019"; 
-            volume: "141"; pages: "769-773"
+  JOURNAL   Exported Jan 21, 2023 from SnapGene 6.2.1 https://www.snapgene.com
 COMMENT     ##Assembly-Data-START##
             Assembly Method       :: SOAP de novo v1.04 v. 08/2017
             Sequencing Technology :: Illumina
             ##Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1021/jacs.8b12010"; journalName: "J Am Chem Soc"; date: "2019";
+            volume: "141"; pages: "769-773"
 FEATURES             Location/Qualifiers
      source          1..19875
                      /strain="HXQ-H-1"
                      /mol_type="genomic DNA"
                      /country="China: coast of Fujian Province"
                      /isolation_source="mangrove rhizosphere soil"
-                     /label=anamorph: Penicillium variabile
+                     /label="anamorph: Penicillium variabile"
                      /note="anamorph: Penicillium variabile"
                      /db_xref="taxon:28576"
                      /organism="Talaromyces variabilis"
@@ -37,7 +37,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="pvhE"
                      /product="cytochrome P450 monooxygenase PvhE"
-                     /label=pvhE
+                     /label="pvhE"
                      /note="cytochrome P450"
                      /protein_id="AZZ09610.1"
                      /translation="MSVLNIAVSRCSPTVAFCSLVILCILFKVLTRVREDRKIRSLGKY
@@ -50,11 +50,12 @@ FEATURES             Location/Qualifiers
                      TLPHGGGPDGSEPIAVLKNTKIAYSTLILHRRRDLYPATSEKFADPAIFSPDRWLHWHP
                      SAHDYIPFSAGPRLCTGQQFALMEMSYVLCRLFQRFERVESHMQHIDGGNPTLKADIIL
                      SPGDGVWVSFHEPKQIDSNQLL"
+                     /Pfam="p450"
      CDS             complement(join(2223..2527,2586..3363))
                      /codon_start=1
                      /gene="pvhD"
                      /product="methyltransferase PvhD"
-                     /label=pvhD
+                     /label="pvhD"
                      /note="N-methyltransferase"
                      /protein_id="AZZ09611.1"
                      /translation="MPPSLPCRCQEAPTPVFGYLYQIVELGVMRLFVEKRVFNEIPDEG
@@ -64,11 +65,12 @@ FEATURES             Location/Qualifiers
                      CVLEDQEKVIEEAKLATGPLETVKKVPIDLFGEQPVKGALVYYIRRVLNDWSDAEVVQI
                      LRSIRDACAPDSKVLISENLLPDEPPLKLAAIDVWMLNFGGKRRNKGNFGALARRAGFE
                      LSSIAEDDKTKSAVLELVVA"
+                     /Pfam="Methyltransf_2"
      CDS             complement(3806..4882)
                      /codon_start=1
                      /gene="pvhC"
                      /product="trans-acting enoylreductase PvhC"
-                     /label=pvhC
+                     /label="pvhC"
                      /note="a trans-acting enoylreductase; trans-ER"
                      /protein_id="AZZ09612.1"
                      /translation="MPSRTQNIQSAWIGTTDGGSRLAHDAPIPAIARERVLIKTKAVSV
@@ -78,11 +80,12 @@ FEATURES             Location/Qualifiers
                      TKNGLRYALDCISTTSSMQFCYKVIGRAGGKYTSLEPFSAAVAQTRKVVSPDWVMGPSL
                      LGQEVAWPEPHYRKQDDDLAQFGAEWTATLNQLLKKELIKPHPMQIRDGGLENIQQGLE
                      DLRAKKVSGAKIVYPLGS"
+                     /Pfam="fPKS_ER"
      CDS             complement(5312..6427)
                      /codon_start=1
                      /gene="pvhB"
                      /product="Diels-Alderase PvhB"
-                     /label=pvhB
+                     /label="pvhB"
                      /note="cis-decalin forming Diels-Alderase"
                      /protein_id="AZZ09615.1"
                      /translation="MGNKMTKRISHFNIENAIIPGEVSASAHVPGENNIFPKYSSNIND
@@ -92,13 +95,14 @@ FEATURES             Location/Qualifiers
                      QSESYFMRAFLGPYVIQIIRLVSTEELGKQQWPIARLFHQGKLVCAPQRCGSPDEQGIS
                      QDTLVMSKVHDSDTGALSAEFHDKSTGYDLTFVEAGNARRRWTFTVRHQTKIWSLPIGP
                      KGGNSGFVEHVCGGLAGETCEGLGVSGQIVY"
+                     /Pfam="Fsa2"
      CDS             join(7560..8199,8259..11700,11763..14902,14963..15537,
                      15601..19875)
                      /codon_start=1
                      /gene="pvhA"
-                     /product="polyketide synthase-nonribosomal peptide 
+                     /product="polyketide synthase-nonribosomal peptide
                      synthetase PvhA"
-                     /label=pvhA
+                     /label="pvhA"
                      /note="polyketide synthase-nonribosomal peptide synthetase;
                      PKS-NRPS; KS_AT_DH_MT_KR_ACP_C_A_T_R"
                      /protein_id="AZZ09613.1"
@@ -171,6 +175,8 @@ FEATURES             Location/Qualifiers
                      SSVDGDALGSPQEREAVTDQLMGIVNSMEIQPEFGGVDGTLDIAPVDDMAQSLAELVLK
                      SITEAAETDGSEKNLIQEFKHKAALQVYARDFAARLESEGQHAQFPKMPILEWFGQAKA
                      AGFSYIIAAQELVMTSGLDAITTRR"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_DH, PKS_NRPS_MT, fPKS_KR,
+                     ACP_PCP, Condensation, AA-adenyl-dom, fPKS_R"
 ORIGIN
         1 tcagagaagt tgattcgagt caatttgttt gggctcatgg aaagacaccc aaaccccatc
        61 tcctggtgat agaataatat ctgcttttag agtggggtta ccaccatcta tgtgctgcat

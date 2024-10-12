@@ -1,29 +1,29 @@
-LOCUS       FBGC00107       52669 bp DNA     linear   UNA 28-MAR-2023
+LOCUS       FBGC00107              52669 bp    DNA     linear   UNA 28-MAR-2023
 DEFINITION  squalestatin S1.
 ACCESSION   FBGC00107
-VERSION     .
+VERSION     FBGC00107
 KEYWORDS    .
 SOURCE      Phoma sp. MF5453
   ORGANISM  Phoma sp. MF5453
+            .
 REFERENCE   1  (bases 1 to 52669)
   AUTHORS   Bonsch B, Belt V, Bartel C, Duensing N, Koziol M, Lazarus CM, Bailey
             AM, Simpson TJ, Cox RJ.
   TITLE     Identification of genes encoding squalestatin S1 biosynthesis and in
             vitro production of new squalestatin analogues.
   JOURNAL   Chem Commun (Camb) 2016;52:6777-80
-  PUBMED    27056201
+   PUBMED   27056201
 REFERENCE   2  (bases 1 to 52669)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Mar 28, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1039/c6cc02130a"; journalName: "Chem Commun (Camb)"; date: 
-            "2016"; volume: "52"; pages: "6777-80"
+  JOURNAL   Exported Mar 28, 2023 from SnapGene 6.2.1 https://www.snapgene.com
 COMMENT     ##Assembly-Data-START##
             Assembly Method       :: CLC workbench v. 2013
             Sequencing Technology :: Illumina
             ##Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1039/c6cc02130a"; journalName: "Chem Commun (Camb)"; date:
+            "2016"; volume: "52"; pages: "6777-80"
 FEATURES             Location/Qualifiers
      source          1..52669
                      /mol_type="genomic DNA"
@@ -35,7 +35,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="mfpks1"
                      /product="polyketide synthase SQTKS"
-                     /label=mfpks1
+                     /label="mfpks1"
                      /protein_id="AMY15057.1"
                      /translation="MVPHYQQASSCESNTMTAMDEYQHHEDATIPIAIIGMSCRFPGNA
                      TSPEKLWELCAEGRSAWSKIPKSRFRQEGFYNPNAERVGTSHVVGGHFLEEDPSLFDAS
@@ -82,11 +82,13 @@ FEATURES             Location/Qualifiers
                      GRHWTESSWLQDARFATLRERARDVKEQSNAQGGGQDKQIGAGQELSMATSLVEAIDVV
                      GRAITAKLATMFLIAAESIIASKSLSEYGVDSLVAVELRNWLAAQLSSDVSVFDVTQSQ
                      SLTALATTVATKSSRIDKSLLVA"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_DH, PKS_NRPS_MT, fPKS_ER,
+                     fPKS_KR, ACP_PCP"
      CDS             join(8825..9237,9290..10037)
                      /codon_start=1
                      /gene="mfM1"
                      /product="copper dependent oxygenase MfM1"
-                     /label=mfM1
+                     /label="mfM1"
                      /protein_id="AMY15058.1"
                      /translation="MLRMKKICTAFLTIALCTHVLAHDDTEMKDPNRVSQEQRERKVEY
                      GTYTVPPRNQDNGMFRLKRDVDPPCTNCVITVMSANLEYSNGTTADAENGMWLHHILFY
@@ -95,11 +97,12 @@ FEATURES             Location/Qualifiers
                      GQLAYLSNHVHDGAYLHEVKKNGKIICSVNPQYSSDDGADGIVHLSHVPPCSNAGPVAP
                      GDEVSLTASYDTTKYAPMINEDGTLEPVMGVTLAYIVKGTAPVASDSGGRFYFVVPIAA
                      IAFIALTIGAGYVFYSARQKKEWPKWLSRRQKYQSVGTEDEAFLAR"
+                     /Pfam="Clz3"
      CDS             join(10857..11374,11430..11740,11791..12653)
                      /codon_start=1
                      /gene="mfM2"
                      /product="major facilitator superfamily transporter MfM2"
-                     /label=mfM2
+                     /label="mfM2"
                      /protein_id="AMY15059.1"
                      /translation="MAHTNTSTALHEQENFLPKNRLLLVILTLGTVLFVINIDHNGLST
                      LLPTIAEDLGAQKSITWAGSSQLIATTVFSVLYGRLSDIFGRKALFVSALGVFSIAELG
@@ -111,11 +114,12 @@ FEATURES             Location/Qualifiers
                      AMQAHTKKSERAVVTSSRNFFRFLGSACGVAMSAAILQSTLRASLPVAYKHLAESPYAL
                      AGLSPQERDVIAPSYERAIRHVFIASAGASVLCSLGLFVWKDDGYESRPNEDNDNDQHA
                      STRETDEEDEQSTLIDNREPSAVSYGTVEAGERDRYKAPDRLRRGL"
+                     /Pfam="MFS_1"
      CDS             complement(join(13152..13318,13373..14225))
                      /codon_start=1
                      /gene="mfM3"
                      /product="short-chain dehydrogenase/reductase MfM3"
-                     /label=mfM3
+                     /label="mfM3"
                      /protein_id="AMY15060.1"
                      /translation="MAATNDPELTRRKQRQEDFLRGTSKINFDDHIDHCVLSGKTAIVT
                      GGASGIGHGIAQALSSNGCKVAVLDLSGPLEAGTDESNIDSPKLFECDVSSWESLLAAF
@@ -123,11 +127,12 @@ FEATURES             Location/Qualifiers
                      YLALWYFTNLEAKRDEAEFNWKPQLLFIGSLASYVEQPLSADYCASKHGVRGLWKSVRS
                      HSALFGDCQTNLLAPTFIDNRQGSTKSRGDGALISLTNDVKLGEVSDVVAGALRCLCDR
                      NIEGRALCCVKGEQSSPGSNNFDLCDNLIDFNAGKSVLDSFRNGVVGRLGTQNTTGPQ"
+                     /Pfam="adh_short"
      CDS             15065..16555
                      /codon_start=1
                      /gene="mfM4"
                      /product="acyltransferase MfM4"
-                     /label=mfM4
+                     /label="mfM4"
                      /protein_id="AMY15061.1"
                      /translation="MPSILTDFNVRPYEDVPAQIIELSVPDAAAPKHCPIQLLYWPVEG
                      KSNFIRGYENLKDGLSRLLADVPVLVGRLERGSKGDPRYLAVTISSDASVELEYEDISA
@@ -138,11 +143,12 @@ FEATURES             Location/Qualifiers
                      LAYVGNVFSPVDAICPLDELESDSLGLKAAAQSMRQANKGWTQPRWEAWLNKIMSLPLD
                      QTLDTSQEFRLQKHNMYFNDYSAFQLNTASWGAPFGQPARTRCLRSGLAGGAAGVWVCP
                      KFPDGSLEVWLTSTAAIQKSLFEDATFNRYAEFVCQYT"
+                     /Pfam="Transferase"
      CDS             complement(join(19375..19939,19997..20118))
                      /codon_start=1
                      /gene="mfM5"
                      /product="transcription factor MfM5"
-                     /label=mfM5
+                     /label="mfM5"
                      /note="revised sequence"
                      /protein_id="AMY15062.1"
                      /translation="MEKTSKFAEAMDAASQPETVLRVSSGNQQQGHLDSFDMPVVETWR
@@ -150,12 +156,13 @@ FEATURES             Location/Qualifiers
                      IENWDTIDQLMADSAQPDFEDWGDLGDLMPDVLPESNGSSSGTATDNDNRCWDHGCNGK
                      KFLNHSNLVRHRRENGSARPRFTCPMCGAYFSRSTARNQHLEKKSCNRVRRYSNGRERP
                      RPRVKD"
+                     /Pfam="Clz7"
      CDS             join(22091..22465,22543..22830,22891..23274,23345..23453,
                      23525..24012)
                      /codon_start=1
                      /gene="mfM6"
                      /product="major facilitator superfamily transporter MfM6"
-                     /label=mfM6
+                     /label="mfM6"
                      /protein_id="AMY15063.1"
                      /translation="MHRRRRDNLMTPAEMVASMKPPQSLSTEDDDGSRRDSESSADVLK
                      SNEEFQARMIPEDDDANSVTAQPTWTVLSDTEIKSVLVVASFAAAISPFSTSTYYPAVF
@@ -167,11 +174,12 @@ FEATURES             Location/Qualifiers
                      FDLEKARLGFVFPMILVCSVLLVAYGWQMHYHAPLAPILVTMFLIAIILTGVMNAIAAL
                      LTDVNRENAAAVGAAMNLTRLLLGAGAVAVVGPLNKSAGIGWTATVTAGLWVLMMPTLR
                      MVYRDGFVWRAGENERVHASNVELAALVRS"
+                     /Pfam="MFS_1"
      CDS             join(24987..25114,25168..25271,25322..27279)
                      /codon_start=1
                      /gene="mfM7"
                      /product="phenylalanine ammonia-lyase MfM7"
-                     /label=mfM7
+                     /label="mfM7"
                      /protein_id="AMY15064.1"
                      /translation="MSSRPLLKLALSLHDRLDELCSRGQIALVGYGLDVAAVAAVARHE
                      CFPIVDDEEVIARLNESTEILERSCRGSTMIYGVHTGFGGSADTRPDDSSGLGRGLMQL
@@ -186,11 +194,12 @@ FEATURES             Location/Qualifiers
                      AFVQVLCDPSKYHTDTHKEDICLDLTAKEMRQLQDDVRLHLSKAYHKHHSAFLEKPTTE
                      EYIGKGSKALYLWTRQDLGIPMNRGLIDHPSPENLKEPGSVGKRTIGSYVSMIYQGIQD
                      GRLFKRFATASREVGLGDGGVNGTRKRAYADYETP"
+                     /Pfam="Lyase_aromatic"
      CDS             complement(join(27433..27600,27654..28239,28296..28504))
                      /codon_start=1
                      /gene="mfM8"
                      /product="esterase MfM8"
-                     /label=mfM8
+                     /label="mfM8"
                      /protein_id="AMY15065.1"
                      /translation="MDFPGNSRFASFVRADFEYSRVEDHPLIASVLSPRKAEESAQRQS
                      PVLVFWHGGGFVVGGRLYEPWWSEWLIEYALSQDAIIVAPDYRLLPEATGADIFDDVEA
@@ -198,11 +207,12 @@ FEATURES             Location/Qualifiers
                      PLYHNVPNLTVPRPRRILGTMPPPPRKAEGLIRSYIKQSKGSVRTGGDPLDMWELLLCL
                      LQQGRLISLMNLKPDSRLDTPSLLRQVGKLPPLWLIHGEDDSVIPFKCSEMFLDELRVI
                      APSTSVLVSARTGEHNFDTSLTMKEDWIRNGCDFLSTHW"
+                     /Pfam="Abhydrolase_3, Peptidase_S9"
      CDS             complement(join(28986..30410,30470..30592,30647..30724))
                      /codon_start=1
                      /gene="mfM9"
                      /product="CoA ligase MfM9"
-                     /label=mfM9
+                     /label="mfM9"
                      /protein_id="AMY15066.1"
                      /translation="MADSPLEQGWNVVTWALSGSYDEDRPVLIDADQPNRSLSKKQAID
                      LVARLSGSFQPGSTVCVHLYNDIIYPVLVLAILASHCEWTGTNPAYTSAELSHHFAQSE
@@ -214,11 +224,12 @@ FEATURES             Location/Qualifiers
                      DATKQAFNDGWLRTGDIGYCANGKVYIIDRAKDIIKVNGWTISPAELEAVLHQMPVIVD
                      AAALSYGTGTKEHVAMFVVAKEPSMLIADIKHHLLQQVARFKVATCEIHLVDSLPRNSS
                      GKILRGVLRHQLQAHYGNGDHGID"
+                     /Pfam="AA-adenyl-dom"
      CDS             join(31103..31598,31653..31787,31855..32110,32163..33063)
                      /codon_start=1
                      /gene="mfM10"
                      /product="hydrolase MfM10"
-                     /label=mfM10
+                     /label="mfM10"
                      /protein_id="AMY15067.1"
                      /translation="MRFTSTILLRVAVLLSLGGGSQTTSCTPGQPFPIPAYSKTSLQQT
                      FEQIFETVSRSFDNESFHSTNVAIEVTSSQETLWSFYHAAKNQSSQDGSTVIGPDTVFR
@@ -231,13 +242,14 @@ FEATURES             Location/Qualifiers
                      SSILPVMERLASSKSGGGSNWIFQAVPTFLETKRRRTPHDRVVVNEEWRWTYVLDKPPG
                      EGWNDWCLSSFDPVTYAGEPLTKMVFQKDAKSGRVLSVALSGYNITLPKGVQEAGIFAQ
                      LEGTSLDLHAQAGQEVLAG"
+                     /Pfam="Beta-lactamase"
      CDS             join(33727..35110,35162..35271,35338..35668,35724..35846,
                      35900..36047,36106..36413,36472..38615,38662..38758,
                      38807..38846,38901..41901)
                      /codon_start=1
                      /gene="mfpks2"
                      /product="polyketide synthase SQHKS"
-                     /label=mfpks2
+                     /label="mfpks2"
                      /protein_id="AMY15068.1"
                      /translation="MDVSKEEGQRANGFTNGNINETTNGHTNGYTNGHTNGHTNGTTNA
                      TTNGTTNGTMNGTTNGTTNRTTNGTTNITPEFEGKLPQVPVAICGIGVRLPGGVRSDSD
@@ -283,12 +295,14 @@ FEATURES             Location/Qualifiers
                      VMHNKMIPPLSDPRNTTPWKSDARMAIYRNTEEAPQSANSQSKERLGLFLVSLSTDPDQ
                      LDEPETPVLFAQEIAKRVAAFLMKGDKDDDALDTSLTLSQMGADSLVAIEIRNWWKQTF
                      GMEISTLELNSPGQTFDSLGRLATKRLKEAYLLKNSGS"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_DH, PKS_NRPS_MT, fPKS_ER,
+                     fPKS_KR, ACP_PCP"
      CDS             complement(join(42505..42639,42704..42900,42953..43349,
                      43417..43499,43549..43630))
                      /codon_start=1
                      /gene="mfR1"
                      /product="2OG-Fe(II)-dependent dioxygenase MfR1"
-                     /label=mfR1
+                     /label="mfR1"
                      /protein_id="AMY15069.1"
                      /translation="MATAILPSTSGVIGLWDGTTDGKEGFMDYANGDTNVKQPKEYEIQ
                      VHDIRKLDPQPTLLKNGYELVDIPTVVTDEQFIESGKSDEGNAYIKDVYFAECKRIIEE
@@ -296,11 +310,12 @@ FEATURES             Location/Qualifiers
                      GKEKAQELLSKHKRWAQVNVWRPIGNPATMWPLCFLNHDRIPTWNYDTHVGHVWSLNDP
                      RVSDRGQKTYDCVVKHDDRYDYHYVSDLRPEECLVFCSFDSIPKYAMPHSAFWDNNVPA
                      DAPNRRSIEVRSLVFF"
+                     /Pfam="NvfI"
      CDS             44033..44914
                      /codon_start=1
                      /gene="mfR2"
                      /product="2OG-Fe(II)-dependent dioxygenase MfR2"
-                     /label=mfR2
+                     /label="mfR2"
                      /protein_id="AMY15070.1"
                      /translation="MATATTTLHSTTGTVYVADGTTDGKVGYYNHTDDSTNVIRKPIPI
                      EVEDARTLSKSPTTKAEGYQLVNFHTKIPEEHFLNSKLPENKELIEEVYFDECRRLVQE
@@ -308,12 +323,13 @@ FEATURES             Location/Qualifiers
                      DMLLSKYKSYGSINVWRPVKNMVQKWPLMLVDHKSIEDWDYSTHMFTLHSSNDERVATR
                      GAKEHETILTHDKRYRYIYASDMTPEEAWLFFAFHSDPALGIPHGAFWDDSTKEEALTR
                      CSIEVRIWVFFD"
+                     /Pfam="NvfI"
      CDS             complement(join(45192..45238,45296..45378,45432..46175,
                      46229..46426,46482..46807))
                      /codon_start=1
                      /gene="mfR3"
                      /product="citrate synthase MfR3"
-                     /label=mfR3
+                     /label="mfR3"
                      /protein_id="AMY15071.1"
                      /translation="MAIVNGAVGKPQHISDMVDSTKMNGNQSQDTAGRADTPVSNGGQD
                      YLHVFDSRTCNIHHIPVSDGFVRGSDLSTIAAPLKGSSGRMQKLAVLDPGFQHTACKES
@@ -324,11 +340,12 @@ FEATURES             Location/Qualifiers
                      YIAAVKAKKFRLFGYGHRVYKIQDPRAALTKELMEEHREAIDANPLLQIAVEIDRQANT
                      DPYFVERKLKLNADFYGCFIYIALGIPRDMIPGLLTISRMGGLMAHWREAMNNPIKIWR
                      PMQKFKL"
+                     /Pfam="Citrate_synt"
      CDS             47421..48827
                      /codon_start=1
                      /gene="mfR4"
                      /product="acyltransferase MfR4"
-                     /label=mfR4
+                     /label="mfR4"
                      /protein_id="AMY15072.1"
                      /translation="MIHKPLPRPPSSTAYIDGLRGILSIIIFNAHLTPIIILGYDNLSP
                      PQPSPSPRNVLDIPLVASCVNNWELFTIPIVKLVYSASPAVCLFFAISGYVMSLKWVRY
@@ -339,12 +356,13 @@ FEATURES             Location/Qualifiers
                      TIVPDVVVPPRTWHSIGAILILYSLRDVPLARRVCESSIAQFLGTHSFAVYLVHFCLVI
                      SFGPGLFSWAWGVSGYEDLRSFAIGFGIAYAVLFIGVLLAAAMFHQFVEKPANKCVERL
                      YRLSSVEQDV"
+                     /Pfam="Acyl_transf_3"
      CDS             complement(join(49179..49672,49734..50220,50279..50566,
                      50625..50927))
                      /codon_start=1
                      /gene="mfR5"
                      /product="major facilitator superfamily transporter MfR5"
-                     /label=mfR5
+                     /label="mfR5"
                      /protein_id="AMY15073.1"
                      /translation="MNAATSITQAPVADVELKQLNEATAQRESATNNPNDSSSIDERPI
                      HSALSESQRSALLAVASFAAAISPASTTTYYPAITTLARDLDVSITQINLSISVYQIFQ
@@ -356,11 +374,12 @@ FEATURES             Location/Qualifiers
                      WLMQYNTHVASVLVIVFLIANVFTGVLIANSALLNDLNPGNGAALGAAMNLTRCLMGAG
                      GVAAVTPLINKIGIGYTATATAGVWLAVLPALYVVYSKGYTWRKAALRSSAQGRGEGSR
                      VASPSP"
+                     /Pfam="MFS_1"
      CDS             join(51357..52601,52655..52669)
                      /codon_start=1
                      /gene="mfR6"
                      /product="squalene synthase MfR6"
-                     /label=mfR6
+                     /label="mfR6"
                      /protein_id="AMY15074.1"
                      /translation="MVSARGILYYLSHPQELRPMIQWKVFHGLAHQRDEKNESPDVQAC
                      YYYLALTSRSFVAVCQQLDPELLMPICIFYLVLRGLDTIEDDMTLSTEVKEPLLRNFHT
@@ -370,6 +389,7 @@ FEATURES             Location/Qualifiers
                      DCLNYISGVREQSVFNFVAIPQSMAIATLELCFQNPAIFDKNIKITKGTACQLMMDSTQ
                      DMQHVCQAFRRHARRIQKKNNPKDPHFHDINAACNKIERFIDGRYPNLQDEQAKADTMY
                      LVVLLLGILGVAAAVLMAKR"
+                     /Pfam="SQS_PSY"
 ORIGIN
         1 tcatgcgacc agcaggcttt tgtcgatccg actgctcttc gttgcaacgg ttgtcgcaag
        61 agccgtgagc gactgggact gcgtgacgtc gaacacagac acatcggagc tcaattgtgc

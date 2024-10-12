@@ -1,29 +1,29 @@
-LOCUS       FBGC00126       21662 bp DNA     linear   UNA 21-JAN-2023
+LOCUS       FBGC00126              21662 bp    DNA     linear   UNA 21-JAN-2023
 DEFINITION  ochratoxin A.
 ACCESSION   FBGC00126
-VERSION     .
+VERSION     FBGC00126
 KEYWORDS    .
 SOURCE      Aspergillus niger CBS 513.88
   ORGANISM  Aspergillus niger CBS 513.88
+            .
 REFERENCE   1  (bases 1 to 21662)
   AUTHORS   Gil-Serna J, Garcia-Diaz M, Gonzalez-Jaen MT, Vazquez C, Patino B.
-  TITLE     Description of an orthologous cluster of ochratoxin A biosynthetic 
-            genes in Aspergillus and Penicillium species. A comparative 
+  TITLE     Description of an orthologous cluster of ochratoxin A biosynthetic
+            genes in Aspergillus and Penicillium species. A comparative
             analysis.
   JOURNAL   Int J Food Microbiol 2018;268:35-43
-  PUBMED    29324288
+   PUBMED   29324288
 REFERENCE   2  (bases 1 to 21662)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Jan 21, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1016/j.ijfoodmicro.2017.12.028"; journalName: "Int J Food 
-            Microbiol"; date: "2018"; volume: "268"; pages: "35-43"
+  JOURNAL   Exported Jan 21, 2023 from SnapGene 6.2.1 https://www.snapgene.com
 COMMENT     ##Assembly-Data-START##
             Assembly Method       :: Staden v. 1
-            Sequencing Technology :: Sanger dideoxy sequencing 
+            Sequencing Technology :: Sanger dideoxy sequencing
             ##Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1016/j.ijfoodmicro.2017.12.028"; journalName: "Int J Food
+            Microbiol"; date: "2018"; volume: "268"; pages: "35-43"
 FEATURES             Location/Qualifiers
      source          1..21662
                      /mol_type="genomic DNA"
@@ -34,7 +34,7 @@ FEATURES             Location/Qualifiers
                      1486..1582,1638..1762))
                      /codon_start=1
                      /product="FAD-dependent halogenase OtaD"
-                     /label=otaD
+                     /label="otaD"
                      /protein_id="AUS29486.1"
                      /translation="MEIPHKATVLVIGGGPGGSYTASALAREGIDIVLLEADVFPRYHI
                      GESLVASMRPFLRFIDLDETFVNYGFVRKNGAAFKLNNQKEAYTDFILQPGADTFAWNV
@@ -45,20 +45,22 @@ FEATURES             Location/Qualifiers
                      IAASIRGDCPEHTAWQWHSQGVANRYGRFLLVVLGATKQIRARDSPVLNSEGQDGFDDA
                      FAVIRPVIQGTADVQGKVSAREVLDAVTFSTNAVRPSAGGQNVVLEESSRSLRSQVEQE
                      MGDVANSLAKAYKDTDVYEGLMARLERGSLGLKAVGVMG"
+                     /Pfam="Trp_halogenase"
      CDS             complement(join(2444..2448,2607..3154,3208..3320))
                      /codon_start=1
                      /product="transcription factor OtaR1"
-                     /label=otaR1
+                     /label="otaR1"
                      /protein_id="AUS29487.1"
                      /translation="MDGFEIASELLQASHHLPVLGTGSPSGSDIISGNYMLGYSADDAN
                      LSQFEQLEGLLGSPTVANHVDFGKETADLAFLDDSGGILSSVELAGMVSPPLDAVVPMP
                      GITRASRSRPAFSTPASRPGLSSAKSPSLGATSPGSMDRSEEVKQLRKKYHEKYKERNR
                      LAAGRSRQKQADLINLLQAEQQEEERRRKALELEIANMQKELVDMKQELQHHIRISNC"
-     CDS             join(4342..4549,4616..5484,5545..5570,5618..5702,5751..5914,
-                     5973..6150)
+                     /Pfam="OtaR1"
+     CDS             join(4342..4549,4616..5484,5545..5570,5618..5702,
+                     5751..5914,5973..6150)
                      /codon_start=1
                      /product="cytochrome P450 monooxygenase OtaC"
-                     /label=otaC
+                     /label="otaC"
                      /protein_id="AUS29488.1"
                      /translation="MSIDTLLYTSLAVGAVYLASVALYELYWSPLAHIPGPKLAACTRL
                      YEFFYDVVCGGQYTFKIADLHKQYGPIIRISPREIHIHDPNYYETLYATNSPRNKDPWF
@@ -69,10 +71,11 @@ FEATURES             Location/Qualifiers
                      RFHSNADMDLQTLEQLPYLTGIIYEGLRLSYGLSHRLQRISPIDPLKYKDIAIPPNTPV
                      GMSSALMHHDESIFPQSHEFIPERWTDPNDRRRLNKYMVSFSKGSRQCIGMNLAFAELY
                      LGIATLFRRYDMKLHDTTLDDVQLHGDKMLPRAKNGSKGVRVTLRRAQSVG"
+                     /Pfam="p450"
      CDS             join(6691..7050,7100..12382)
                      /codon_start=1
                      /product="nonribosomal peptide synthetase OtaB"
-                     /label=otaB
+                     /label="otaB"
                      /protein_id="AUS29489.1"
                      /translation="MDLRTGYMFPCLTDGQFVEDDTLHSVALGIDSPISLSNGPDGEWA
                      RELSIAWAILLFTYNEQEAVEFACLRNQHWFCVDAKMNRDLSWKDIEIHEGGTSDGRQV
@@ -107,19 +110,21 @@ FEATURES             Location/Qualifiers
                      SSSQKTDRRSLQSLAGDLSAEQYQTYILASSSEATPGLTHSHLKEVPLNENELVLQDLV
                      RQVFTGEDGSLSVASIPMDGLFTDIGGDSLGALALTSLAKQHGFHFTAGDVLGSSLGEL
                      ASLRHT"
+                     /Pfam="NRPS_C, AA-adenyl-dom, ACP_PCP"
      CDS             complement(12799..13158)
                      /codon_start=1
                      /product="probable cyclase OtaY"
-                     /label=otaY
+                     /label="otaY"
                      /translation="MDLKSRAETFLTTIVNRRETASIEHYLHPDAQFKHNDLPSMSTAE
                      LLAFWPQVLDESPDFRVQILATIAEGLRVWVYSRVEGRLGKGVMDDVHMLEFDGNGLLI
                      RSRGIQREVVEEMEK"
+                     /Pfam="SnoaL_2"
      CDS             join(13503..13842,13909..14177,14265..15501,15562..16691,
                      16745..18352,18418..18479,18534..20352,20430..20738,
                      20797..21467,21551..21662)
                      /codon_start=1
                      /product="polyketide synthase OtaA"
-                     /label=otaA
+                     /label="otaA"
                      /protein_id="AUS29490.1"
                      /translation="MSSAPIPQSEPLAIIGLACKYANGIDSPEALYEQVMAARCMHGAM
                      PSNRMDASFYYHPTSEATGTSYSKGGYFLNCDLNAFDSPFFQLSEIDVMAMDPQQKMLL
@@ -164,6 +169,8 @@ FEATURES             Location/Qualifiers
                      SVGWVAENQHKLRIAFAFGALSEDLLLSILEYHMDPAWGAAQSIQTCHTVVGVRSARDF
                      QRQSIPLPGFMAHPLFSPLLAIAGRSQTAEQAAEAPVSQGLREASSMEAAVEVVTRAIV
                      HKLARIMALSVQEIDPQRIGGAVGGDGHDPVGPAGGRCVAILAGGAPGKTKKKY"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_DH, PKS_NRPS_MT, fPKS_ER,
+                     fPKS_KR"
 ORIGIN
         1 tcatcccatc acaccgacag ccttcagacc caaactgccg cgttccagtc gtgccatcag
        61 tccctcatac acgtccgtgt ctttgtaagc tttagccagg ctgttggcga catcacccat

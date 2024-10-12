@@ -1,23 +1,23 @@
-LOCUS       FBGC00115       13900 bp DNA     linear   UNA 05-MAR-2023
-DEFINITION  betaestacins.
+LOCUS       FBGC00115              13900 bp    DNA     linear   UNA 21-MAR-2024
+DEFINITION  betaestacin II.
 ACCESSION   FBGC00115
-VERSION     .
+VERSION     FBGC00115
 KEYWORDS    .
 SOURCE      Neocamarosporium betae PS-13
   ORGANISM  Neocamarosporium betae PS-13
+            .
 REFERENCE   1  (bases 1 to 13900)
-  AUTHORS   Gao, L., Narita, K., Ozaki, T., Kumakura, N., Gan, P., Minami, A., 
+  AUTHORS   Gao, L., Narita, K., Ozaki, T., Kumakura, N., Gan, P., Minami, A.,
             Liu, C., Lei, X., Shirasu, K., Oikawa, H.
-  TITLE     Identification of novel sesterterpenes by genome mining of 
+  TITLE     Identification of novel sesterterpenes by genome mining of
             phytopathogenic fungi Phoma and Colletotrichum sp.
   JOURNAL   Tetrahedron Lett 2018;59:1136-1139
 REFERENCE   2  (bases 1 to 13900)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Mar 5, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1016/j.tetlet.2018.02.022"; journalName: "Tetrahedron Lett"; 
+  JOURNAL   Exported Mar 21, 2024 from SnapGene 7.1.2 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1016/j.tetlet.2018.02.022"; journalName: "Tetrahedron Lett";
             date: "2018"; volume: "59"; pages: "1136-1139"
 FEATURES             Location/Qualifiers
      source          1..13900
@@ -29,7 +29,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="btcD"
                      /product="2OG-Fe(II)-dependent dioxygenase BtcD"
-                     /label=btcD
+                     /label="btcD"
                      /protein_id="BBE36499.1"
                      /translation="MALIKEPLKPTGALDEFRSFDVTPIIGTEFPDASLKAWLEDPKAD
                      DLLRELAITVSRRGVVFFRRQDGLTEEMQKAIVQKLGVLSGKPATSSLHRHAHQPDPNA
@@ -37,12 +37,13 @@ FEATURES             Location/Qualifiers
                      VVADLPAIDTLWASGYEVFDRISRPIQKFLETLTATFGELRERDGSDPKFQVPRGSPAN
                      VGTNLRPTHPVIRTNPVTGWKSVYAVGLHVQTINGLASDESDGLKKWFTKLIVENHDLQ
                      VRFRWNNANDVAIWDNRCTYHTATYDHEGYGIREGYRACGVGEKPYLDPNSTGRREAR"
-     CDS             complement(join(6190..6558,6622..7529,7593..7702,7759..7871,
-                     7920..7952))
+                     /Pfam="TauD"
+     CDS             complement(join(6190..6558,6622..7529,7593..7702,
+                     7759..7871,7920..7952))
                      /codon_start=1
                      /gene="btcC"
                      /product="cytochrome P450 monooxygenase BtcC"
-                     /label=btcC
+                     /label="btcC"
                      /protein_id="BBE36500.1"
                      /translation="MSFPGVIFVVSFFPLLMGIAVYRLLWHPLASFKGPKLAAVTDWWF
                      CKKWLNGRYHQTLEKLQLQYGDVIRIAPNELVFATPEAARDIYTRCNPDQDLQFIKQPP
@@ -53,12 +54,13 @@ FEATURES             Location/Qualifiers
                      EIDIESTKQLKYLQAVIDESLRIFPPVGFGLPRVCPGAMIGGVYVPKGTVVQAPDILMV
                      RNSRYFVRPYEFLPERWLPKDHEFYDEQFSGDRKEASKPFSLGPRQCIGMSLAYAEWRI
                      VLAKLVLKFDWEIIGETQDLMDVARLKLLWEMPPILVSFKPVGGLAAASPGA"
+                     /Pfam="p450"
      CDS             complement(join(8735..9455,9513..9684,9743..10147,
                      10211..10361,10415..10552))
                      /codon_start=1
                      /gene="btcB"
                      /product="cytochrome P450 monooxygenase BtcB"
-                     /label=btcB
+                     /label="btcB"
                      /protein_id="BBE36501.1"
                      /translation="MDAMNGSDVQSDGLPNGNTLQLAYHVMPRLVQDMGPSLLLIFGPL
                      VLVSSCIYYLFFHPLSKIPGPKLAAISPVWMMKSLYGKKLNRDIKALHDRYGDVVRVGP
@@ -70,11 +72,12 @@ FEATURES             Location/Qualifiers
                      HRLSNGGFVEGIYLPAGITVAVDQYTIQRSPKYWRDPETYRPERWASVGEPESEFENDV
                      HSAYRPFLLGPRACLGRELALQIVRLVLARLVFSYDLRMVNRDFVWERDCDSSYLWLGH
                      KVVVKVQKRES"
+                     /Pfam="p450"
      CDS             join(11513..11813,11880..12174,12319..13900)
                      /codon_start=1
                      /gene="btcA"
                      /product="terpene synthase BtcA"
-                     /label=btcA
+                     /label="btcA"
                      /protein_id="BBE36502.1"
                      /translation="MANPPVTEWKQSEAIPAHVAQETGCFTTLPIRIHKNNSIADQATL
                      ESINDWKQHLDDGWESRSGSAISKVGNWCSFIFSEALPERLPCITYLANIGNIHDDATE
@@ -89,6 +92,7 @@ FEATURES             Location/Qualifiers
                      LLLMSSKSRHVKDHSFTSFIRTFGRYFQVRDDYMNLTSGEYTAGKGWCEDLDEGKLSYP
                      LIECQKMAPASFTQIMGIFRAKQADTAQLSDETKKYVIELFRKSGVLDSTLDWIMEMER
                      QLLMEVKRLEGVMGDSNPMLYVLLQTLSLNQ"
+                     /Pfam="Terpene_syn_C_2, GGPS"
 ORIGIN
         1 ttaccgcgct tccctccgac cagtactatt aggatctaga tacggctttt ctccaactcc
        61 acacgcacga tagccttccc gaatcccgta tccctcatgg tcgtacgtgg cggtatgata

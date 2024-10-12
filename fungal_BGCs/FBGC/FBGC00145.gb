@@ -1,52 +1,53 @@
-LOCUS       FBGC00145       22286 bp DNA     linear   UNA 29-MAR-2023
+LOCUS       FBGC00145              22286 bp    DNA     linear   UNA 29-MAR-2023
 DEFINITION  dimeric naphthopyrones.
 ACCESSION   FBGC00145
-VERSION     .
+VERSION     FBGC00145
 KEYWORDS    .
 SOURCE      Thermothelomyces thermophilus ATCC 42464
   ORGANISM  Thermothelomyces thermophilus ATCC 42464
+            .
 REFERENCE   1  (bases 1 to 22286)
   AUTHORS   Obermaier S, Thiele W, Furtges L, Muller M.
-  TITLE     Enantioselective Phenol Coupling by Laccases in the Biosynthesis of 
+  TITLE     Enantioselective Phenol Coupling by Laccases in the Biosynthesis of
             Fungal Dimeric Naphthopyrones.
   JOURNAL   Angew Chem Int Ed Engl 2019;58:9125-9128
-  PUBMED    31050129
+   PUBMED   31050129
 REFERENCE   2  (bases 1 to 22286)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Mar 29, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1002/anie.201903759"; journalName: "Angew Chem Int Ed Engl"; 
-            date: "2019"; volume: "58"; pages: "9125-9128"
-COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final 
-            NCBI review. The reference sequence is identical to CP003007.
-            URL -- http://www.jgi.doe.gov/fungi
-            JGI Project ID: 4043098
-            The DNA was provided by Adrian Tsang (tsang@gene.concordia.ca)
-            The strain is available from the American Type Culture Collection 
-            under ATCC 42464
-            Contacts: Adrian Tsang (tsang@gene.concordia.ca)
-                      Igor Grigoriev (ivgrigoriev@lbl.gov)
-            Assembly and annotation done by JGI.
-            The JGI and collaborators endorse the principles for the 
-            distribution and use of large scale sequencing data adopted by the 
-            larger genome sequencing community and urge users of this data to 
-            follow them. It is our intention to publish the work of this project
-            in a timely fashion and we welcome collaborative interaction on the 
-            project and analysis. 
-            (http://www.genome.gov/page.cfm?pageID=10506376).##Metadata-START##
+  JOURNAL   Exported Mar 29, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     ##Metadata-START##
             Organism Display Name :: Myceliophthora thermophila ATCC 42464
             GOLD Stamp ID         :: Gi01755
             Assembly Method       :: Arachne v.20071016
             Assembly Name         :: Myceliophthora thermophila V2.0
             Sequencing Technology :: Sanger
             Sequencing Depth      :: 7.66x
-            ##Metadata-END####Genome-Annotation-Data-START##
-            Annotation Provider :: INSDC submitter
-            Annotation Status   :: Full annotation
-            Annotation Pipeline :: Eukaryotic Annotation Propagation Pipeline 
+            ##Metadata-END##
+            ##Genome-Annotation-Data-START##
+            Annotation Provider   :: INSDC submitter
+            Annotation Status     :: Full annotation
+            Annotation Pipeline   :: Eukaryotic Annotation Propagation Pipeline
             ##Genome-Annotation-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1002/anie.201903759"; journalName: "Angew Chem Int Ed Engl";
+            date: "2019"; volume: "58"; pages: "9125-9128"
+            PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to CP003007.
+            URL -- http://www.jgi.doe.gov/fungi
+            JGI Project ID: 4043098
+            The DNA was provided by Adrian Tsang (tsang@gene.concordia.ca)
+            The strain is available from the American Type Culture Collection
+            under ATCC 42464
+            Contacts: Adrian Tsang (tsang@gene.concordia.ca)
+            Igor Grigoriev (ivgrigoriev@lbl.gov)
+            Assembly and annotation done by JGI.
+            The JGI and collaborators endorse the principles for the
+            distribution and use of large scale sequencing data adopted by the
+            larger genome sequencing community and urge users of this data to
+            follow them. It is our intention to publish the work of this project
+            in a timely fashion and we welcome collaborative interaction on the
+            project and analysis.
             COMPLETENESS: full length.
 FEATURES             Location/Qualifiers
      source          1..22286
@@ -60,7 +61,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="MYCTH_61442"
                      /product="trans-acting methyltransferase MytM"
-                     /label=mytM
+                     /label="mytM"
                      /db_xref="GeneID:11506229"
                      /db_xref="InterPro:IPR013217"
                      /db_xref="JGIDB:Spoth2_61442"
@@ -74,12 +75,13 @@ FEATURES             Location/Qualifiers
                      YKDLHPGSIEYLVLDIEKEPPGHLQDRFDAVISTNCIHATKDLIVSCTNARRLVRPGGF
                      FALVEFTTRLYWLDLVFGLLDGWWLFTDDRTHCTTNEAVWKAKLAASGFSDVLWVEGEG
                      GRKPNPQLIIGCTE"
-     CDS             join(2805..2996,3077..3132,3220..3390,3465..3635,3730..3858,
-                     3928..5128)
+                     /Pfam="HTH_51, PKS_NRPS_MT"
+     CDS             join(2805..2996,3077..3132,3220..3390,3465..3635,
+                     3730..3858,3928..5128)
                      /codon_start=1
                      /locus_tag="MYCTH_75296"
                      /product="laccase MytL"
-                     /label=mytL
+                     /label="mytL"
                      /db_xref="GeneID:11506230"
                      /db_xref="InterPro:IPR001117"
                      /db_xref="InterPro:IPR011706"
@@ -98,11 +100,12 @@ FEATURES             Location/Qualifiers
                      VGPWKYSSVAEAIDAEPESFNLVNPGYRDTWMTVFATEPTGGYWTVYRYQVTDPGPWLF
                      HCHFELHMMGGMSMAILDGVDAWPEVPPEYRLTKPSSNNPWKNILEWLRDLLDRLKGGR
                      HSKA"
+                     /Pfam="Cu-oxidase_3, Cu-oxidase, Cu-oxidase_2"
      CDS             complement(join(6347..6412,6499..7278))
                      /codon_start=1
                      /locus_tag="MYCTH_113600"
                      /product="methyltransferase MytE"
-                     /label=mytE
+                     /label="mytE"
                      /db_xref="GeneID:11506231"
                      /db_xref="InterPro:IPR001171"
                      /db_xref="JGIDB:Spoth2_113600"
@@ -113,11 +116,12 @@ FEATURES             Location/Qualifiers
                      PYLLAGFSLFVLGIGLECACEIDRKRFKTDKRNKGKPYTGGLFAVVRHPNYAAFTIWRA
                      GLAVATSGITAGLLIATFFTWDFSNRAVPALDEYCSKRYGQMWADYKKKTRFTLIPYVL
                      "
+                     /Pfam="DUF1295"
      CDS             join(8861..9151,9482..10942)
                      /codon_start=1
                      /locus_tag="MYCTH_2311112"
                      /product="major facilitator superfamily transporter MytT"
-                     /label=mytT
+                     /label="mytT"
                      /db_xref="GeneID:11506232"
                      /db_xref="InterPro:IPR011701"
                      /db_xref="JGIDB:Spoth2_2311112"
@@ -133,11 +137,12 @@ FEATURES             Location/Qualifiers
                      SLAVQTVLADEDIPSGISLIFFGMQLGGSVFVCIAQNLFNQRFVRLLTRAAIPAVDDPS
                      ALLSASGATRITDVVENEADRARLLDVYNEALTSTFYVSVAAAGAAFIGASLVQWKSVR
                      GYKPRMH"
+                     /Pfam="MFS_1"
      CDS             complement(join(11487..11738,11951..12106))
                      /codon_start=1
                      /locus_tag="MYCTH_2069815"
                      /product="dehydratase MytZ"
-                     /label=mytZ
+                     /label="mytZ"
                      /db_xref="GeneID:11506233"
                      /db_xref="InterPro:IPR009799"
                      /db_xref="JGIDB:Spoth2_2069815"
@@ -145,11 +150,12 @@ FEATURES             Location/Qualifiers
                      /translation="MASSDQKLLCLNILGYKKPGISSEEYRNYMVNVHAPLVAGLMKKY
                      GFLQWSMFANVAPYDCCVQIVFPSIECFVRMKADPYFKQTIGPDHEKFADTRRSQMMIG
                      WFTPLMKDGQLVGPTAGADIVVANGGEEAKG"
+                     /Pfam="EthD"
      CDS             join(14948..15240,15308..21188,21390..22286)
                      /codon_start=1
                      /locus_tag="MYCTH_105482"
                      /product="polyketide synthase MytP"
-                     /label=mytP
+                     /label="mytP"
                      /db_xref="GeneID:11506234"
                      /db_xref="InterPro:IPR001031"
                      /db_xref="InterPro:IPR006163"
@@ -199,6 +205,8 @@ FEATURES             Location/Qualifiers
                      APGRKPPPAWLLSHFTGFSSMLDTVDLLPWGGGGGGGGPRRRSLPTWIVWGANGVDEEE
                      TIEIRPDDPANMAWLLRRRRPEQLGANGWDALVGGDRIRIEVVQGANHFSLMRKPAVMQ
                      LGSFLKKVVS"
+                     /Pfam="SAT2, PKS_KS, PKS_AT, fPKS_PT, ACP_PCP,
+                     Thioesterase"
 ORIGIN
         1 ttattccgta caaccgatta tgagctgggg gttgggtttt cggccccctt cgccctccac
        61 ccacagaacg tcagagaatc cggatgcggc cagcttcgcc ttccacacgg cctcattcgt

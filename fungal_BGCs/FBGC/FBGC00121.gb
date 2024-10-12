@@ -1,24 +1,24 @@
-LOCUS       FBGC00121       32615 bp DNA     linear   UNA 26-MAR-2023
+LOCUS       FBGC00121              32615 bp    DNA     linear   UNA 26-MAR-2023
 DEFINITION  cyclohelminthol.
 ACCESSION   FBGC00121
-VERSION     .
+VERSION     FBGC00121
 KEYWORDS    .
 SOURCE      Helminthosporium velutinum yone96
   ORGANISM  Helminthosporium velutinum yone96
+            .
 REFERENCE   1  (bases 1 to 32615)
-  AUTHORS   Ugai T, Minami A, Tanaka S, Ozaki T, Liu C, Shigemori H, Hashimoto 
+  AUTHORS   Ugai T, Minami A, Tanaka S, Ozaki T, Liu C, Shigemori H, Hashimoto
             M, Oikawa H.
-  TITLE     Biosynthetic Machinery of 6-Hydroxymellein Derivatives Leading to 
+  TITLE     Biosynthetic Machinery of 6-Hydroxymellein Derivatives Leading to
             Cyclohelminthols and Palmaenones.
   JOURNAL   Chembiochem 2020;21:360-367
-  PUBMED    31298454
+   PUBMED   31298454
 REFERENCE   2  (bases 1 to 32615)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Mar 26, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1002/cbic.201900404"; journalName: "Chembiochem"; date: "2020"; 
+  JOURNAL   Exported Mar 26, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1002/cbic.201900404"; journalName: "Chembiochem"; date: "2020";
             volume: "21"; pages: "360-367"
 FEATURES             Location/Qualifiers
      source          1..32615
@@ -31,7 +31,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="chmN"
                      /product="FAD-dependent halogenase ChmN"
-                     /label=chmN
+                     /label="chmN"
                      /protein_id="BBL33407.1"
                      /translation="MESEPPEKCTVLVIGGGPAGSYAAAALAREGVDTVLLEAEKFPRY
                      HVGESMLPSIRPLLRFIDCDKKFDSHGFYIKKGATFKLNSKAPGSTDFVAAGGPENYAY
@@ -43,11 +43,12 @@ FEATURES             Location/Qualifiers
                      FDEGDFDRAFQHFKPVIQGAVDVNTKFHQSEVLRTLNFCMGALANTNNSESKEELMKNM
                      RALATGEKGEATSAEYKLAIEKAESILSKEQLEYLNHVRKHDNGLVKFDVLNLDGGSGF
                      DVLDGYSTNLVTGQLGLKMIK"
+                     /Pfam="Trp_halogenase"
      CDS             join(3004..3417,3477..4013)
                      /codon_start=1
                      /gene="chmM"
                      /product="probable enoyl-CoA hydratase ChmM"
-                     /label=chmM
+                     /label="chmM"
                      /protein_id="BBL33408.1"
                      /translation="MYLLLWVWSAFAAHFQFTQAANGKSFGSIATSTFGPNNSVLRTSI
                      SNPPINLADQQFIEDFIGFLESLNNTLDNNGDPSVKVVIIASALPTYFIDTFDIRLFQA
@@ -55,11 +56,12 @@ FEATURES             Location/Qualifiers
                      IMGAPESVCGVLHVGGIQHLTSLIGPGYANQYMISALPITGPRAAEIGWVNEYYDSSEE
                      LTSNVNSFATRIASFPWTAITSNKDAIRLSGPTKEDIDAGKKVFFSLVTLPIVQECVTK
                      WLAAAGGNDTYVSDTAFQRNLLTELPKIWAANATS"
+                     /Pfam="ECH_1"
      CDS             complement(join(6306..6866,6912..7563,7655..7770))
                      /codon_start=1
                      /gene="chmL"
                      /product="FAD-linked oxidoreductase ChmL"
-                     /label=chmL
+                     /label="chmL"
                      /protein_id="BBL33409.1"
                      /translation="MPYTVVTTLSSVPFGGGGKEIGFIGNEELPLDLYINITGLDTNTP
                      PATSVSQSEYSMATVFAAGQVCHQGSVPPYYIDVRNVSDIQAGLNFANATGTPLTIKNT
@@ -69,12 +71,13 @@ FEATURES             Location/Qualifiers
                      SKWATEGWSGHFFGGASYDAASGFTFATPLLSLAEATASMQPVFDELSASLGSSVSLKA
                      TVSNYGSFYEFYEKLLVPGGQLIGVATAFGGRLVPTSQFEGAENKAALRDALVSFKATV
                      TYPTRNTTDPNVVKYGAPFVVQLVSPNNYPVSAANNTSSITPV"
+                     /Pfam="FAD_binding_4"
      CDS             join(8953..9112,9169..9200,9252..10210,10273..10294,
                      10925..11326)
                      /codon_start=1
                      /gene="chmR"
                      /product="transcription factor ChmR"
-                     /label=chmR
+                     /label="chmR"
                      /protein_id="BBL33410.1"
                      /translation="MELEIVPQPAPVQTNPKTSDSKALSSNSVPVALTRWKSRRRGACG
                      MCKLKKVRCDGGTPCMNCRRNNQECEYTLAKKHQASKKSVGSAPRIIAPRFWKKANGTS
@@ -86,11 +89,12 @@ FEATURES             Location/Qualifiers
                      IASSDTTQQSLDRDWIDFAPPRASTDTDWFRIQCLYASVIGSAASLLYSQRGLRQSAAE
                      REHKLDLSFKLLEDWRSHLPPALRQIHKADIQGIMADYHVHHIALCMFRQYHEAIFLIR
                      IYFHRAR"
+                     /Pfam="EqxR, Zn_clus"
      CDS             complement(join(11669..12238,12288..14065,14141..14390))
                      /codon_start=1
                      /gene="chmB"
                      /product="polyketide synthase-like enzyme ChmB"
-                     /label=chmB
+                     /label="chmB"
                      /protein_id="BBL33411.1"
                      /translation="MGSDFLSWDACPSVPSTIKRWNDDEFLTWDKPLSVEKRQDDTENI
                      SKANVKGREASPPKSAATRKSKAVGSNENAGRNSHDLKDINPAHELLGSRVASDHSTGT
@@ -107,12 +111,13 @@ FEATURES             Location/Qualifiers
                      KVKGTWNLHNALSTSSLDFFLLFSSICGITGQWGQANYNSANSFLDAFVKHRHGQNLAA
                      SVIDIGFMGGVGMATENAALVKNLKKSGYYFLSEPDLIDALAISIMHSRPGDKKSHFAL
                      GITTTKPITASSCRPAWKKDARMSAAHQFTPPQAPTAKEVEALLNHALGNVSN"
+                     /Pfam="fPKS_DH, fPKS_KR"
      CDS             join(17530..17819,17876..18173,18223..19252,19412..19840,
                      19996..20006,20056..21987,22034..24439,24496..24540)
                      /codon_start=1
                      /gene="chmA"
                      /product="polyketide synthase ChmA"
-                     /label=chmA
+                     /label="chmA"
                      /protein_id="BBL33412.1"
                      /translation="MDSTFDVFVFGDETSDFREPLDKLCERRRGLVSRHFIQRLHETLR
                      EEIHKQPRHVQKQIPPFTDIPDLVKRYRESSSRNPILESTLTCICQLASVMSYFDDHPS
@@ -151,12 +156,14 @@ FEATURES             Location/Qualifiers
                      LVLIDSPCPGNIEPLPSKLLHFIESKGLLVSQSNSANPPPWLIPHFEASVRNLATYKPV
                      PMDPKKAPKTFIIWARESLYQNPNDDGRRFPRSQDEASSIAFLLDDRNDFGSNGWGELL
                      GDDNITSVSTEGNHFTMIREPAVKKMSSLLKRGLGV"
+                     /Pfam="SAT2, PKS_KS, PKS_AT, fPKS_PT, ACP_PCP,
+                     Thioesterase"
      CDS             join(26256..26380,26521..26617,26667..26709,26764..27195,
                      27252..27794,27846..28273)
                      /codon_start=1
                      /gene="chmK"
                      /product="FAD-dependent halogenase ChmK"
-                     /label=chmK
+                     /label="chmK"
                      /protein_id="BBL33413.1"
                      /translation="MSIPEKATVLVIGGGPAGSYTASALAREGLDVVLLDSDKFPRYHV
                      GESMLASIRHFLKFVDLDKKFDSYGFQKKVGAAFKLNHSKREGWTDFLAAGGPNAYSWN
@@ -168,12 +175,13 @@ FEATURES             Location/Qualifiers
                      SEDGFDVAFDAFRPIIQGTADADVGGKLTQSEVTNTVNFCLNAFDQTAPEDADRVMKKL
                      ESLEGDAKVNLEKFDAEELKILNHIRARQMLRIEDQFHVDNFAKDAIAGYVPNLKRGSL
                      GLRPQGEIKDKLSAPIVDLLRLVDEHEAVGNTVPAIGA"
+                     /Pfam="Trp_halogenase"
      CDS             complement(join(28716..28769,28822..29415,29468..30025,
                      30076..30081))
                      /codon_start=1
                      /gene="chmC"
                      /product="FAD-dependent monooxygenase ChmC"
-                     /label=chmC
+                     /label="chmC"
                      /protein_id="BBL33414.1"
                      /translation="MHVVVVGAGPAGMVLSMVLARAGIKVTLLEKESTTDERPRAAHLT
                      PPTMRLLGRAGIADDVRRKGWTPNNFAWRKVDGTLITSIEDFAQSKNPESLVVLPLGPL
@@ -183,12 +191,13 @@ FEATURES             Location/Qualifiers
                      LLAADAAHLCNPWGGMGLTGGFADVTGLAECFEGIHTGKADESILDKYDEVRREIFHKV
                      ISPISTANYLRVASDPDKVNVLETDPFLKTVHAAKSDPTIKQKLDDGVYAVLHDFTQYY
                      NVKT"
+                     /Pfam="FAD_binding_3"
      CDS             join(30878..31304,31385..31511,31575..31891,31945..32215,
                      32288..32615)
                      /codon_start=1
                      /gene="chmP"
                      /product="methyltransferase ChmP"
-                     /label=chmP
+                     /label="chmP"
                      /protein_id="BBL33415.1"
                      /translation="MERFPRTSAEADQLIQMGKLLNEAIQTVTEEWKNEKFSKTQTNGT
                      NGVNGARGDGTANTADILPSWPLYQAQRTILSLTGALTELVAEPSHRLTELMAEYWESR
@@ -199,6 +208,7 @@ FEATURES             Location/Qualifiers
                      EVWPQQAPDLLQSGKVKFLAHDFFKPNPIEGADVYFLRGVLHDWSDKYCVQILTGICNA
                      MSDKSRLLLCEQVMSSPYGCDELAPAPYPLPANYGYFSRFQAARDLSLMACINGIERTP
                      AQFKDLIEKAGLKLVKIHELRSIYCMIEIMK"
+                     /Pfam="Dimerisation2, Methyltransf_2"
 ORIGIN
         1 tcacttgatc attttcaacc caagttgtcc agttaccaga ttcgtcgaat atccatccag
        61 cacgtcgaat ccggagcctc catccaagtt caaaacatcg aatttcacga ggccattgtc

@@ -1,29 +1,29 @@
-LOCUS       FBGC00135       17577 bp DNA     linear   UNA 21-JAN-2023
+LOCUS       FBGC00135              17577 bp    DNA     linear   UNA 21-JAN-2023
 DEFINITION  fusidic acid.
 ACCESSION   FBGC00135
-VERSION     .
+VERSION     FBGC00135
 KEYWORDS    .
 SOURCE      Acremonium fusidioides ATCC 14700
   ORGANISM  Acremonium fusidioides ATCC 14700
+            .
 REFERENCE   1  (bases 1 to 17577)
   AUTHORS   Cao Z, Li S, Lv J, Gao H, Chen G, Awakawa T, Abe I, Yao X, Hu D.
-  TITLE     Biosynthesis of clinically used antibiotic fusidic acid and 
-            identification of two short-chain dehydrogenase/reductases with 
+  TITLE     Biosynthesis of clinically used antibiotic fusidic acid and
+            identification of two short-chain dehydrogenase/reductases with
             converse stereoselectivity.
   JOURNAL   Acta Pharm Sin B 2019;9:433-442
-  PUBMED    30972287
+   PUBMED   30972287
 REFERENCE   2  (bases 1 to 17577)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Jan 21, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1016/j.apsb.2018.10.007"; journalName: "Acta Pharm Sin B"; date:
-            "2019"; volume: "9"; pages: "433-442"
+  JOURNAL   Exported Jan 21, 2023 from SnapGene 6.2.1 https://www.snapgene.com
 COMMENT     ##Assembly-Data-START##
             Assembly Method       :: SOAPdenovo v. 2.4
             Sequencing Technology :: Illumina
             ##Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1016/j.apsb.2018.10.007"; journalName: "Acta Pharm Sin B"; date:
+            "2019"; volume: "9"; pages: "433-442"
 FEATURES             Location/Qualifiers
      source          1..17577
                      /strain="ATCC 14700"
@@ -35,7 +35,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="fusC1"
                      /product="short-chain dehydrogenase/reductase FusC1"
-                     /label=fusC1
+                     /label="fusC1"
                      /protein_id="QBB00667.1"
                      /translation="MVQVLLTGGTGFIASHIIEKLLAKGHSVVTTVRSQEKGQKILDAH
                      QDAGNRLQVVIVPDMASVGAFDEAVRVPGTEVVMHVASPCTLTYTDAQKDIIEPALTGT
@@ -43,12 +43,13 @@ FEATURES             Location/Qualifiers
                      AKTLTERAAWDYVRVEKPPFDLVTVNPPLVLGPLMRHLATADSISLSNAALADAIRGQW
                      KEEIPPAGPVNLWVDVRDVAAAHLAAMERGDASGKRLFTVGGRFSNAEIARILRDGAYS
                      FHERLPGQEVKGDEGVKGISYSSEETDKLLAIDWIPLEKTIADFVKSIQDVDLK"
-     CDS             complement(join(1398..1807,1915..2092,2147..2163,2230..2926,
-                     3044..3214))
+                     /Pfam="Epimerase"
+     CDS             complement(join(1398..1807,1915..2092,2147..2163,
+                     2230..2926,3044..3214))
                      /codon_start=1
                      /gene="fusB1"
                      /product="cytochrome P450 monooxygenase FusB1"
-                     /label=fusB1
+                     /label="fusB1"
                      /protein_id="QBB00666.2"
                      /translation="MLSPFTVASIGILFLAVAFSGVRYFIFPRGPKLPFPIVAVEDGGM
                      DYRTAVEHGYATYPDQPFLLQSKTKSLVLLPPKYFHEIRSIPESQWSARLSARNLFQSR
@@ -59,22 +60,24 @@ FEATURES             Location/Qualifiers
                      SFIKESQRLSPPGLVAMQRITVSDITLSDGSVLPKGAAVAVPSWSVTRDEKLWTNPTTF
                      DGFRFEKLREEPGAEHKYQFATTGPDSLSFGYGPQACPGRFFASNEIKVLLAHILLNYD
                      CKLEGGKRPDNITRDLTILPNMGVKILFKKRG"
+                     /Pfam="p450"
      CDS             4770..5579
                      /codon_start=1
                      /gene="fusC2"
                      /product="short-chain dehydrogenase/reductase FusC2"
-                     /label=fusC2
+                     /label="fusC2"
                      /protein_id="QBB00668.1"
                      /translation="MSLKEVAIVTGGAAGVGLAAAKILAKRGYIVVVSDVAVEQGHEAV
                      AAINQEFGQGTAIFIACDLGKTEEIDQLLASVVAQFSRFSVLVNNAGYLRAPFLAISAE
                      QVEQTIAVNLTAPIYATQQAIKIWNDDNQGGNGDGEGAKGNVVNITSSSSFKTHASIAA
                      YGAAKAGAAQFTFACRSFGPSIRVNAVAPTAIATAFDKNASFRVPTDKTGPGYTPEEDM
                      RNMGLARLQPEQVAEAAFECIDDETRFGTVAWLDATEGQKIHTSFAG"
+                     /Pfam="adh_short"
      CDS             complement(5757..7313)
                      /codon_start=1
                      /gene="fusB2"
                      /product="cytochrome P450 monooxygenase FusB2"
-                     /label=fusB2
+                     /label="fusB2"
                      /protein_id="QBB00669.1"
                      /translation="MKGLTDQAGTIILVLIGIYILWQCIQGFVLSPLRDIPGPSLARVT
                      TLRAIRNRLPRRVVQAALADFASYGDMYVSRPDTITISHPRDVRAVLGAKDSWKIDVYH
@@ -86,11 +89,12 @@ FEATURES             Location/Qualifiers
                      LALNNRKDIWDDPEQFIPDRFMGNEERKRNVFAFSYGPRSCIGRNLAWMEIMTILANML
                      LRYDLELPEDSVYGPKNVDDKGIPRLMESQCHIVFAPVHPERDCRLRLSKRNEMNIGVA
                      R"
+                     /Pfam="p450"
      CDS             8269..9759
                      /codon_start=1
                      /gene="fusD"
                      /product="acetyltransferase FusD"
-                     /label=fusD
+                     /label="fusD"
                      /protein_id="QBB00670.1"
                      /translation="MDGDAKDGFVSTLPRVTYPLSPLDIVVSHLYISNCFFFEGPELGF
                      DSGCQYDNDHDDGTSFAVEQLLQSGLYRALEKFPILVGELRPSGLNTMEIAVEPERPNM
@@ -101,11 +105,12 @@ FEATURES             Location/Qualifiers
                      RHRLDIPETFSGNCAVGLFVTASSDQLLQPIEHATLIQVASVCRKTVDSADRGVIEQLI
                      RRAMESIKWLGPKARVLYSLMVCQAFSNQSRLGFYSSDFGFGPPVLAVPLAYPQTLAVV
                      VPSPPESDDVYVWLSLKREQMVQLMGNRCFHSLVRVVY"
+                     /Pfam="Transferase"
      CDS             10778..13015
                      /codon_start=1
                      /gene="fusA"
                      /product="oxidosqualene cyclase FusA"
-                     /label=fusA
+                     /label="fusA"
                      /protein_id="QBB00671.1"
                      /translation="MPSADVLMVRGSSYHVDTKAASAYRTDPSKWRLKVHEGRHMWEYH
                      SGEEETEKGDHDKSSALPPHSFAEAYWLGHGDYELPSMNKPTCAKEALDNGWEFFKRLQ
@@ -120,11 +125,12 @@ FEATURES             Location/Qualifiers
                      CVGRCVRYLMDAQLPCGGWIASWGVCFTYATMFALEGLATAGLRQSNSPVCRDACLFLL
                      RHQNPDGGWGEDLESLREKRYVQDPAGSQVTCTAYALAGLIAAHCADREAVARGVGWLV
                      GQQQETGEWLPGSLEGIFAAPGGMRYPNYKFHFTLATLGKYVERYGEKKGW"
+                     /Pfam="SQHop_cyclase_N, SQHop_cyclase_C"
      CDS             13615..15231
                      /codon_start=1
                      /gene="fusB3"
                      /product="cytochrome P450 monooxygenase FusB3"
-                     /label=fusB3
+                     /label="fusB3"
                      /protein_id="QBB00672.1"
                      /translation="MLASTLHHFQDLLGTVSRYEYVSAACVCIVLMLSYRLIYQLFFSP
                      LRNIPGSAWSRLFASHSVLKRVLADGAKSVQKDYEAYGDVYVLKPNGVCISDPKDIKTV
@@ -136,11 +142,12 @@ FEATURES             Location/Qualifiers
                      FMPRVNRSKGITVQGHYIPPGTEIAVNMIGAHANKKVWDKPHLYDPTRFLDNEDAKRNV
                      LAFSYGHRNCIGRNLAWVEMMVILANILKDYDISLPAGSVCGPHNTDELGRPRIMPTKS
                      TLFTTPKYPERDCLIIVRRRA"
+                     /Pfam="p450"
      CDS             16045..17577
                      /codon_start=1
                      /gene="fusB4"
                      /product="cytochrome P450 monooxygenase FusB4"
-                     /label=fusB4
+                     /label="fusB4"
                      /protein_id="QBB00673.1"
                      /translation="MSNGVKSSTYVSILAAGLATVLVYRLLHATLFSPLRRVPGPLIAR
                      LTSKRGHVNNFSGQVDSRVQKDRQKYGDVYVFKPNAVCVNDPADVRAILGSQDFRKADF
@@ -151,6 +158,7 @@ FEATURES             Location/Qualifiers
                      DHLILHREVLSRLPFIEACVYEALRVSPTTAGVTPRISYTRGIELQGHYIPPGTEIFVN
                      LRSPNMSPETWETPDKFHPERFVGDEAKKNLFTFSYGPRNCIGRNLAWVEMLTIVANVL
                      NNYDIALAPGTPFGPGKLGANGEPEMLPARCFIASFPANAERDCRMRITRRK"
+                     /Pfam="p450"
 ORIGIN
         1 atggtccaag tacttctgac gggaggcacc ggcttcattg cctgtaagta gaactcatct
        61 ccattgcaca actagcatca ttgctatttg caccagcatt tcacgcacac aagtacttaa

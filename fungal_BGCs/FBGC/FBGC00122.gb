@@ -1,24 +1,24 @@
-LOCUS       FBGC00122       25743 bp DNA     linear   UNA 19-JAN-2023
+LOCUS       FBGC00122              25743 bp    DNA     linear   UNA 19-JAN-2023
 DEFINITION  lucilactaene.
 ACCESSION   FBGC00122
-VERSION     .
+VERSION     FBGC00122
 KEYWORDS    .
 SOURCE      Fusarium sp. RK97-94
   ORGANISM  Fusarium sp. RK97-94
+            .
 REFERENCE   1  (bases 1 to 25743)
-  AUTHORS   Kato S, Motoyama T, Futamura Y, Uramoto M, Nogawa T, Hayashi T, 
+  AUTHORS   Kato S, Motoyama T, Futamura Y, Uramoto M, Nogawa T, Hayashi T,
             Hirota H, Tanaka A, Takahashi-Ando N, Kamakura T, Osada H.
-  TITLE     Biosynthetic gene cluster identification and biological activity of 
+  TITLE     Biosynthetic gene cluster identification and biological activity of
             lucilactaene from Fusarium sp. RK97-94.
   JOURNAL   Biosci Biotechnol Biochem 2020;84:1303-1307
-  PUBMED    32043422
+   PUBMED   32043422
 REFERENCE   2  (bases 1 to 25743)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Jan 19, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1080/09168451.2020.1725419"; journalName: "Biosci Biotechnol 
+  JOURNAL   Exported Jan 19, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1080/09168451.2020.1725419"; journalName: "Biosci Biotechnol
             Biochem"; date: "2020"; volume: "84"; pages: "1303-1307"
 FEATURES             Location/Qualifiers
      source          1..25743
@@ -30,7 +30,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="luc8"
                      /product="protease Luc8"
-                     /label=luc8
+                     /label="luc8"
                      /protein_id="BBQ09584.1"
                      /translation="MMHAFHHLAVLLIGSLPASASTLPHPDGYRHVNGSCSKSVAVPAV
                      WNGFGYLFNITVGTPPQELTMLSDWTWMSLFVRSGRCLNQYDPSLCLGTSGQTWFDERA
@@ -40,21 +40,23 @@ FEATURES             Location/Qualifiers
                      AVPFSGSNGSNVTPLAVLDEGSEGLGAPLSLNAYNWLVDQVRGTLASNDTIEEIHAQGS
                      SGFNTAEQNWYTVSCDDIDSYPELVYELNGHTNYTVPPQDYVTKLSDSSTCYLNINLWK
                      YGRTEDGNAKVALLGLAFLKRLYVVLDFETQSFGLAPLSM"
+                     /Pfam="Asp"
      CDS             complement(join(1835..2440,2487..2540))
                      /codon_start=1
                      /gene="luc7"
                      /product="eEF-1B gamma subunit Luc7"
-                     /label=luc7
+                     /label="luc7"
                      /protein_id="BBQ09585.1"
                      /translation="MAPFGRLYSFMPNGRVFKILAAATLNGLEIEITPYQHMVDNKTPE
                      FRAKFPAGKVPAFEGADGLLLPESDAIAQYLAQSGPYSEQLLGRDAATSAKIRQWISFF
                      DGEVYPHMLDLVIWRVGIAPFDQSTETKALARLEFALDVLEKHLDGRKWLVGDELTLAD
                      LTGASSLLWAFMHIIDASERKRFPSVVAWYLRTIETEEVKEVFGPPNLIDVKRVHE"
+                     /Pfam="GST_N, GST_C"
      CDS             complement(3065..4324)
                      /codon_start=1
                      /gene="luc6"
                      /product="esterase Luc6"
-                     /label=luc6
+                     /label="luc6"
                      /protein_id="BBQ09586.1"
                      /translation="MHQIFPSTFFNFEFLRLLGTAPYLGAETGECLATAARIKDGDPES
                      WYQAWYEQAQKALALADEAKAVGDGPGAAWGYIRASNYFRASEFLLHCTPEDPRILSSA
@@ -64,12 +66,13 @@ FEATURES             Location/Qualifiers
                      LSGWLSDGFFNWVIDRLASVNFQLAWEFGHSKWVYGVKTPADVMRTMQKFSLKDGYLSK
                      IKCPTLITGAADSFYFTPQQNAHPIFDSLSALGPAEKHLWIGKDVEGGGLQAKIGALAL
                      MHHKMFAWLDETFGIRRDEL"
+                     /Pfam="FrsA-like"
      CDS             join(4900..5737,5791..12350,12404..16786)
                      /codon_start=1
                      /gene="luc5"
-                     /product="polyketide synthase-nonribosomal peptide 
+                     /product="polyketide synthase-nonribosomal peptide
                      synthetase Luc5"
-                     /label=luc5
+                     /label="luc5"
                      /protein_id="BBQ09587.1"
                      /translation="MGAPNSTREPIAIVGTACRFPGGANTPSKLWDLLCEKRDVQTRIP
                      PERFNPDAFYHRNGEKSGCTDVKKAYLLTEDIRAFDASFFKINPREAEAMDPQQRLLLE
@@ -138,11 +141,13 @@ FEATURES             Location/Qualifiers
                      TEGYAASKWASEVILESHAERAHLPVWIHRPANVTGAAAPATDLMGSILQYSTTMQSLP
                      EISNWKGSFDFVPVEQVADEIAASIHESRSSEPVYRHHCGDQKISVSELSAHLEAGIGA
                      KMEIIGVDDWLARARSTGIDETTALLVEKMLSGENGGTVPWLRKGE"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_DH, PKS_NRPS_MT, fPKS_KR,
+                     ACP_PCP, Condensation, AA-adenyl-dom, fPKS_R"
      CDS             18363..20057
                      /codon_start=1
                      /gene="luc4"
                      /product="major facilitator superfamily transporter Luc4"
-                     /label=luc4
+                     /label="luc4"
                      /protein_id="BBQ09589.1"
                      /translation="MGQSQDNTQLTTASPQAEKDLSSNDNPPESEPAAPKKGARFWLVF
                      IAIALTTFLAALDTSIISTALPTITSDLGSNSLYVWIVDSYLLASTATIPIFAQAANIY
@@ -154,12 +159,13 @@ FEATURES             Location/Qualifiers
                      VGFQLLFGFGTGFVFTSCLPPILASLPDSDVATATGAWTFLRNFGSIWGIAIPAAAFNT
                      RVNSSLDKVSSGTVRDMLVNGGAYEHATKTFIQAFNNTPRLKAEIVQVYMDGLKLVWQV
                      SIAFSVLGFVLAFLVKSLTLRDELNTEYGLEEKDTSKEKSSEEGNAS"
+                     /Pfam="MFS_1"
      CDS             join(20493..20774,20826..20880,20948..21049,21165..21222,
                      21272..21487,21539..21927,21986..22269)
                      /codon_start=1
                      /gene="luc3"
                      /product="aldehyde dehydrogenase Luc3"
-                     /label=luc3
+                     /label="luc3"
                      /protein_id="BBQ09590.1"
                      /translation="MDFTTFHNIIGGKPRGSDNSHSGVDPLTRTTLWPVPTASPQDVDD
                      AVEAAQRALPAWSQASYDERTGLLEKFADLYLSRAGDFCQLLASECGRTVENAAIEVYW
@@ -170,11 +176,12 @@ FEATURES             Location/Qualifiers
                      ETGGFFLRPTIIKDASPESSIVSGEHFGPIVTCVRFSDADEAVHLANAGESGLAASIWT
                      TNLTAAKALASRLDVGSVYINGPPQPDPRVPFGGHKQSGLGVEYGLQGLLSFCQTKAVY
                      LYK"
+                     /Pfam="Aldedh"
      CDS             join(22639..22782,22837..22937,22989..24273)
                      /codon_start=1
                      /gene="luc2"
                      /product="cytochrome P450 monooxygenase Luc2"
-                     /label=luc2
+                     /label="luc2"
                      /protein_id="BBQ09591.1"
                      /translation="MVAQPSPIVGRLKLPESMPSLVSLEELTATKVLVTFLTIVIIAPR
                      VFTVIKNAFSPISSIPGPLLNKLSPWPLTIATIKGTSHHFARSLHEKYGPIVVLAPGMV
@@ -185,11 +192,12 @@ FEATURES             Location/Qualifiers
                      KKLVDEVDQWYPPSEPDRQTDCGYSQAGMVYLQACIDETMRLVPGQATGSPRETSKDDV
                      VLGYRIPAGTTVFPNTQEGHTQDAHWEEPQKFVPERWLEAQATNVPYWPFSAGSRVCIG
                      KHFAFQEMHLTLVTLLRKFKFEYVDGQDESTVFRVAQQLKAESYRMKVSRR"
+                     /Pfam="p450"
      CDS             join(24600..24799,24858..25743)
                      /codon_start=1
                      /gene="luc1"
                      /product="methyltransferase Luc1"
-                     /label=luc1
+                     /label="luc1"
                      /protein_id="BBQ09592.1"
                      /translation="MADTAHINDVPMQGKGLYSSHAALQHEAMLKALPLLQQATNTVVT
                      NVNRNLRPLTVVEYGSAHGNNSIQPMVTILDSTPPGDIQLVFSDRPENDFNTLSTTVTT
@@ -198,6 +206,7 @@ FEATURES             Location/Qualifiers
                      GTLPGAVAGSFYVPTYNRTLQDVQKVIEEVIPTWIAHEVFEQDCLHPAKKDLELQKSSD
                      DYDSDEASRRYADVVVDWLMAVCAGYFLKAVKVGSDNTFTGEDAEKFLADWVKRTKHFF
                      YKDHRDEDVVCSFIFVRLERV"
+                     /Pfam="Methyltransf_7"
 ORIGIN
         1 atgatgcatg cgtttcacca tctcgccgtg ctgctgatcg gcagcctgcc tgcatccgct
        61 tctaccctcc cacatcccga cggttaccgt catgtcaatg gcagctgcag caagagtgtt

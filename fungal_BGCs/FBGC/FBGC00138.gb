@@ -1,29 +1,29 @@
-LOCUS       FBGC00138       26795 bp DNA     linear   UNA 21-JAN-2023
+LOCUS       FBGC00138              26795 bp    DNA     linear   UNA 21-JAN-2023
 DEFINITION  terrestric acid.
 ACCESSION   FBGC00138
-VERSION     .
+VERSION     FBGC00138
 KEYWORDS    .
 SOURCE      Penicillium crustosum PRB-2
   ORGANISM  Penicillium crustosum PRB-2
+            .
 REFERENCE   1  (bases 1 to 26795)
   AUTHORS   Fan J, Liao G, Kindinger F, Ludwig-Radtke L, Yin WB, Li SM.
-  TITLE     Peniphenone and Penilactone Formation in Penicillium crustosum via 
-            1,4-Michael Additions of ortho-Quinone Methide from Hydroxyclavatol 
+  TITLE     Peniphenone and Penilactone Formation in Penicillium crustosum via
+            1,4-Michael Additions of ortho-Quinone Methide from Hydroxyclavatol
             to gamma-Butyrolactones from Crustosic Acid.
   JOURNAL   J Am Chem Soc 2019;141:4225-4229
-  PUBMED    30811183
+   PUBMED   30811183
 REFERENCE   2  (bases 1 to 26795)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Jan 21, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1021/jacs.9b00110"; journalName: "J Am Chem Soc"; date: "2019"; 
-            volume: "141"; pages: "4225-4229"
+  JOURNAL   Exported Jan 21, 2023 from SnapGene 6.2.1 https://www.snapgene.com
 COMMENT     ##Assembly-Data-START##
             Assembly Method       :: Newbler software v. 2.3
             Sequencing Technology :: Illumina
             ##Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1021/jacs.9b00110"; journalName: "J Am Chem Soc"; date: "2019";
+            volume: "141"; pages: "4225-4229"
 FEATURES             Location/Qualifiers
      source          1..26795
                      /strain="PRB-2"
@@ -33,9 +33,9 @@ FEATURES             Location/Qualifiers
      CDS             complement(join(1..2897,2954..4807,4872..5575,5629..7816,
                      7874..10525,10595..11233,11311..11667,11774..12053))
                      /codon_start=1
-                     /product="polyketide synthase-nonribosomal peptide 
+                     /product="polyketide synthase-nonribosomal peptide
                      synthetase TraA"
-                     /label=traA
+                     /label="traA"
                      /protein_id="QBK15049.1"
                      /translation="MVLPQPEPIAIVGSGCRFPGSSSSPSSLWDLLEKPRDVSKEPTNE
                      RFELRGYYHPNGAHHGTMNVQRAYMLDEDVGTFDATFFNISPNEAESIDPQQRLLMEVV
@@ -103,12 +103,14 @@ FEATURES             Location/Qualifiers
                      EHAVSALDVPVSIHRFVPAKEPANQTVVVDALQHFVSFVDELSIMPDFSGTTGHFEMTP
                      IHSAASQLAENLVKTPTQQSSLLEFVHHDCPIRIDIAEMVAFLEEQRGGKGLEKVPGLK
                      FVGDMKRAGLAYFVTSQTLLMGGTNGTSVVLESRR"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_DH, PKS_NRPS_MT, fPKS_KR,
+                     ACP_PCP, Condensation, AA-adenyl-dom, fPKS_R"
      CDS             join(13177..13239,13307..13541,13593..13636,13692..13767,
                      13835..13991,14047..14081,14145..14317,14374..14881,
                      14938..15176)
                      /codon_start=1
                      /product="cytochrome P450 monooxygenase TraB"
-                     /label=traB
+                     /label="traB"
                      /protein_id="QBK15050.1"
                      /translation="MEDFKVKLVELVSITGGLIVLFIAYTGFRTVYNASFNRLRHIPGP
                      WINSVSMIPYARHMLAGTTVENSVRLHEKYGDVVRISPNEVSFISGETAFPDIYGFRTG
@@ -119,10 +121,11 @@ FEATURES             Location/Qualifiers
                      IREKFASYEEIQLPTLNTMTYLHAVLLEALRYFPPAPVGFGRVVNRGGEFISGHFLPEG
                      CIVSVSQYAAYHSSRNFKDPDAFVPERWHVPREKEYADDKRSAAQPFSYGPRGCLGRNL
                      AHAELRIILAKMVWSFDLELEERSQDWLSRCKVMRLWVKPELAVKLKKVIR"
+                     /Pfam="p450"
      CDS             complement(join(15704..16442,16511..17025))
                      /codon_start=1
                      /product="transcription factor TraC"
-                     /label=traC
+                     /label="traC"
                      /protein_id="QBK15051.1"
                      /translation="MNFSEQFTGRSEPGRKANRTSNNNTNSTTNVATVTTDDSNRPACD
                      RCKGQKLRCIWENGSNTCRRCTRARAVCQQPRPRPFGRPRCSTKSKHHVAQNQANTKIW
@@ -132,29 +135,32 @@ FEATURES             Location/Qualifiers
                      LSSLQIGRLLHMTSRLGRLTEEIDSADHVQPKNDGSAESDSFGGIKLAINDRSTLFVVL
                      SCYVRLEETFAQALATVVEIRRRGPLSDDTYQLMPRLTVDGWSLECCQTMQIDFVIYIC
                      EQTLVRIRRSITSLHADM"
+                     /Pfam="EqxR"
      CDS             complement(join(18185..18794,18933..19126))
                      /codon_start=1
                      /product="dehydrogenase TraD"
-                     /label=traD
+                     /label="traD"
                      /protein_id="QBK15052.1"
                      /translation="MKVLIIFAHPEPQSLNGALHRVAVEELEEQGHHVQVSDLYKMKWK
                      SEVDREDFPNFPKDQRLDLWTASAEAYAENSLTQDVLDEQAKLRWADFVIFHFPLWWFT
                      MPAILKGWVDRVYTYGFGHGLGEHSDKRWGDRYGEGTLTGKRAMLIVTLGGWKEHYSAR
                      GISGPIEDVLFPINHGILFYPGFEVLPPFVAFRVHKTSFDEMASTLRKRMREIEFTKPI
                      PYRNQNDGEYSIPTLTLHESHGGDLASGFGLHTRTEVETTDVKEA"
+                     /Pfam="Flavodoxin_2"
      CDS             19820..20290
                      /codon_start=1
                      /product="SnoaL-like domain-containing protein TraE"
-                     /label=traE
+                     /label="traE"
                      /protein_id="QBK15053.1"
                      /translation="MAAPALPVSLTPALSDRDAIADALYRGVIAFDTADEVLFKSALTE
                      DAVLVLNGTVMEGYDAIYSGCYVNIAKMDTNHFLTNMRVNITEESKAQVSCSALSQHYR
                      GGEGMKPGSDFLLAGGLYAVELVKDAGDGLWKIKHWTLKTTWGQGDWAVFGK"
+                     /Pfam="SnoaL_4"
      CDS             complement(join(20779..20910,20966..21079,21144..21229,
                      21289..21819,21874..21976,22037..22399,22454..22573))
                      /codon_start=1
                      /product="major facilitator superfamily transporter TraF"
-                     /label=traF
+                     /label="traF"
                      /protein_id="QBK15054.1"
                      /translation="MTSGTEQATLNTEENGSDSDHLSKEPIAMPALDWDGPTDSNNPRN
                      FSTPKKVFITACLASLVCISTFGSSVMSPASGQLIHEFGISKELSILATALYVLGFAVG
@@ -165,10 +171,11 @@ FEATURES             Location/Qualifiers
                      RKLETVGDAPEERLVPMMIGSILMPAGIFWFAWTSNTSLPWAPQVVSGVFIGCGILLIF
                      LQGMNYIIDVYKVMANSAISINAMFRGLLGAGFPLFASYMFDNLGVPWAMSLLGFLCVA
                      LVPVPFLFFIYGERIRKWSKFTAH"
+                     /Pfam="MFS_1"
      CDS             join(23362..23927,24005..24533)
                      /codon_start=1
                      /product="trans-acting enoylreductase TraG"
-                     /label=traG
+                     /label="traG"
                      /protein_id="QBK15055.1"
                      /translation="MPSATPILPRQQTAIVAEAAGKLRIQHNVTVPSPGPMVAIVKTAA
                      VAINPVDAKMLDYSPVPGAVHGYDFAGTIVSMGPNTPAHLRIGDRVAGWVHGMNAVEPN
@@ -177,10 +184,11 @@ FEATURES             Location/Qualifiers
                      AAEIRRYTGGTLAYALDCVAMADTTQLCYNAMGRAGGRYVTLEPFRSAIAETRPLTIEP
                      SWLLALTVFGRKVDIDGEYSRDARPDDHKFAVELTVSVQALLDQGKFDTHPIKVMNGGW
                      DGVKEGVDTIRTQAMSGQKLVYPV"
+                     /Pfam="fPKS_ER"
      CDS             join(25708..26052,26105..26322,26375..26795)
                      /codon_start=1
                      /product="2OG-Fe(II)-dependent dioxygenase TraH"
-                     /label=traH
+                     /label="traH"
                      /protein_id="QBK15056.1"
                      /translation="MSVDAAVVKNEDKYIPTIDLRDYFDAYSEEKRAKVIEQVRKACLE
                      HGFFQVEGHGVPVESQRRMFAACKALFDLPLEKKRRISLYKYSWRRGYEGPGEQQANDP
@@ -188,6 +196,7 @@ FEATURES             Location/Qualifiers
                      VMELLAVSLGHPPSILKDFTTDAAMFLKLLRYPAHTWTDTRKFGSGQHTDYGGITILLQ
                      DPGQDGLEVWHEATQQWVELPALEDKFVINLGDMVQRWTGGKYKSTLHRVINKTGGERY
                      AVPAFWHGDLDAKNPLDPNDTSDETVLEFIKKKFYKGYGLTDDTSL"
+                     /Pfam="DIOX_N, 2OG-FeII_Oxy"
 ORIGIN
         1 ttatcgccta gactccaata ctacgcttgt cccatttgtt ccgcccatga gaagtgtctg
        61 cgatgtcaca aaataggcca atcccgctcg cttcatgtct cccacgaact tgagtcccgg

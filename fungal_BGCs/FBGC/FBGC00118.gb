@@ -1,44 +1,44 @@
-LOCUS       FBGC00118       24326 bp DNA     linear   UNA 19-JAN-2023
+LOCUS       FBGC00118              24326 bp    DNA     linear   UNA 19-JAN-2023
 DEFINITION  phomasetin.
 ACCESSION   FBGC00118
-VERSION     .
+VERSION     FBGC00118
 KEYWORDS    .
 SOURCE      Pyrenochaetopsis sp. RK10-F058
   ORGANISM  Pyrenochaetopsis sp. RK10-F058
+            .
 REFERENCE   1  (bases 1 to 24326)
-  AUTHORS   Kato N, Nogawa T, Takita R, Kinugasa K, Kanai M, Uchiyama M, Osada 
+  AUTHORS   Kato N, Nogawa T, Takita R, Kinugasa K, Kanai M, Uchiyama M, Osada
             H, Takahashi S.
-  TITLE     Control of the Stereochemical Course of [4+2] Cycloaddition during 
+  TITLE     Control of the Stereochemical Course of [4+2] Cycloaddition during
             trans-Decalin Formation by Fsa2-Family Enzymes.
   JOURNAL   Angew Chem Int Ed Engl 2018;57:9754-9758
-  PUBMED    29972614
+   PUBMED   29972614
 REFERENCE   2  (bases 1 to 24326)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Jan 19, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1002/anie.201805050"; journalName: "Angew Chem Int Ed Engl"; 
-            date: "2018"; volume: "57"; pages: "9754-9758"
+  JOURNAL   Exported Jan 19, 2023 from SnapGene 6.2.1 https://www.snapgene.com
 COMMENT     ##Assembly-Data-START##
             Assembly Method       :: CLC Genomics Workbench v. 7.0.4
             Sequencing Technology :: Illumina HiSeq2500
             ##Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1002/anie.201805050"; journalName: "Angew Chem Int Ed Engl";
+            date: "2018"; volume: "57"; pages: "9754-9758"
 FEATURES             Location/Qualifiers
      source          1..24326
                      /strain="RK10-F058"
                      /mol_type="genomic DNA"
                      /country="Japan: Saitama, Wako"
-                     /collection_date=2010
+                     /collection_date="2010"
                      /db_xref="taxon:1756125"
                      /organism="Pyrenochaetopsis sp."
      CDS             complement(join(1..2882,2939..4765,4836..5530,5584..10156,
                      10222..10860,10922..11134,11188..11616,11673..12300))
                      /codon_start=1
                      /gene="phm1"
-                     /product="polyketide synthase-nonribosomal peptide 
+                     /product="polyketide synthase-nonribosomal peptide
                      synthetase Phm1"
-                     /label=phm1
+                     /label="phm1"
                      /protein_id="BBC43184.1"
                      /translation="MTSSEPIAIIGSACRFPGGADTPSKLWELLKEPRDLLQKVPEKRR
                      WHSEAFYHKDPEHHGTSNVSSSYFLDDDPASFDNTFFNIQPSECEAIDPQQRMLMETVY
@@ -108,12 +108,14 @@ FEATURES             Location/Qualifiers
                      SEKVSSLSQEDLKRVQDELPRLIAQIGQRPEFSAIHGHIDVRPVSDVATTLVEDMLVSS
                      VQESGNEATVKNHAAHLRLQIKTFAEQIDADEELSKLPTMDALQWFGAAKRAGFGWLIG
                      AMEMHIEGDDQSGTTTQVLVQR"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_DH, PKS_NRPS_MT, fPKS_KR,
+                     ACP_PCP, Condensation, AA-adenyl-dom, fPKS_R"
      CDS             complement(join(12985..13048,13152..13287,13341..14628,
                      14685..14716,14789..15396,15453..15559))
                      /codon_start=1
                      /gene="phm2"
                      /product="transcription factor Phm2"
-                     /label=phm2
+                     /label="phm2"
                      /protein_id="BBC43185.1"
                      /translation="MSDTASTATGHRKRDKPQLSCNACRKRKYEILPTLSNCASRGLGS
                      TCTFAAISSPTNMPPSHGHSIPVQHRVESARPGPTNSMQTRINQLENLVIELMNQNNTP
@@ -128,11 +130,12 @@ FEATURES             Location/Qualifiers
                      SAFSNDFLLATSILCYCLQNRPEGTISNFDESVSVGLDQIRALLETSKSIWSRQCAESK
                      EAHKAVAALRYVLGHSGADVDSGYTVAERQPLPMPTAALSYFPDLTSDYNFAGFDFGSS
                      DTTRWTAFASDELGEENWSRGAGFQQMDMSLKLEAFDRVVPNSIPSRCLS"
+                     /Pfam="CghF"
      CDS             join(15947..16579,16633..16889,16937..17504)
                      /codon_start=1
                      /gene="phm3"
                      /product="major facilitator superfamily transporter Phm3"
-                     /label=phm3
+                     /label="phm3"
                      /protein_id="BBC43186.1"
                      /translation="MSLQDPTKEHNNTSPSPKDEKTDYVVDWDGAEDAANPRNWTTRTK
                      TAHVLCVSGFTLYSNLAAVMFAPGAPLLVADFHITSTIVASLTVSIYILGFVFGPFLLA
@@ -143,11 +146,12 @@ FEATURES             Location/Qualifiers
                      LLHQPRGGTLARPELRLVLMVWSSPLVPIGFFWYGWSAQSTTHWIVPIIGTAVIGIGAF
                      LILMPAQLYLVDAFGTEGAASALAVNTGLRSLFGAVLPLAGPPLYSKLDLGWGNSVLAF
                      IGLAFVPVPFVLYKYGETLRKRFPIDR"
+                     /Pfam="MFS_1"
      CDS             complement(18097..19185)
                      /codon_start=1
                      /gene="phm4"
                      /product="trans-acting enoylreductase Phm4"
-                     /label=phm4
+                     /label="phm4"
                      /protein_id="BBC43187.1"
                      /translation="MPGIIDSSSKQSAIVGNSYGSTELSHNVPIPHAEGDNVVVRTRAV
                      SVNPVDAKMMGPYVTAGAIAGCDFAGEIEAIGPEALSWGFKIGDRVCASIMGMNPLEPD
@@ -156,11 +160,12 @@ FEATURES             Location/Qualifiers
                      AFTKNGLRYALDCITNRSSMQICYGSLGRVGGRYTALDPYPEDIAATRKIVKAAWVVGP
                      IMLGHDIGWPAPHGRKADPDLFKFGMEWKKLVEGLMAKGVIKPHPLDVRKGGMERVIEC
                      MEAIRAKEVNGKKLVVSLRENH"
+                     /Pfam="fPKS_ER"
      CDS             19591..20691
                      /codon_start=1
                      /gene="phm5"
                      /product="methyltransferase Phm5"
-                     /label=phm5
+                     /label="phm5"
                      /protein_id="BBC43188.1"
                      /translation="MAVKSSTVDVRAALQSAGAHYMNLIEFGILKVFIDHQIFDHIPAE
                      GSISVTDLATRTKAEVSLLQRFSDYLVASEVLASPAPHELAHTTRSLSYRSEEIAAGFV
@@ -169,11 +174,12 @@ FEATURES             Location/Qualifiers
                      SKRCAVLDFPQTVEQAQQNLDEDLRDIHFIGGSMLEPLPVALHAAGIYQFRRVLSDFVD
                      KDIILALEQVRRVCAPYSRVLIIEELVKASRDKFAIAQDISVLNFGGKRRSEADWHQLA
                      SQAGLQVRHVFEQTETAFAVVELGLA"
+                     /Pfam="Methyltransf_2"
      CDS             21386..22771
                      /codon_start=1
                      /gene="phm6"
                      /product="transcription factor Phm6"
-                     /label=phm6
+                     /label="phm6"
                      /protein_id="BBC43189.1"
                      /translation="MASEQNSPDALLSIRSSCNRCRNHKLKCVVTEAPNGTACCQRCIR
                      AMVPCKFGRRERKKRGSSPRVVPQSPWMHSPWETTSTSMQSIYPNTEAMDVGRADALVV
@@ -184,11 +190,12 @@ FEATURES             Location/Qualifiers
                      AHPKTRARTLSMSAAQSSIVSLGDLDPQQQTHDRIHTAIYVLLNSLEEVEEALCLPPRV
                      RLAITLQASPRSDGSTSEQEKAMSAAFYGGLSAATEGIDDILTEFGRRVNDTKGMLRQH
                      MDL"
+                     /Pfam="EqxR"
      CDS             complement(23166..24326)
                      /codon_start=1
                      /gene="phm7"
                      /product="Diels-Alderase Phm7"
-                     /label=phm7
+                     /label="phm7"
                      /protein_id="BBC43190.1"
                      /translation="MSEPTSSSSLDITSNCIIETPLQPSDFLPKSANLFPKFPERISVD
                      SWELWEFDTFDTNGSVAFGCSLYRDARGVEQGGFHAEVNALWPDGTHWGETLYFAVSEV
@@ -197,6 +204,7 @@ FEATURES             Location/Qualifiers
                      WPTFMNDAYYVVAQVGPYMLQILRTLGSVFVQHKPFAVARLYLDGSLVSAANTVVGDEL
                      TAHADDVKGDAVRLTKVQPDEKSQGLSGKFRDGNVGYVLEFAKKDSEHGWTFQISHKRA
                      VWSEPTSAPGPDGTGKSGWIEAISGGAKGENYEGHGFGGQLQIPVP"
+                     /Pfam="Fsa2"
 ORIGIN
         1 tcatcgctgc accaaaactt gtgtcgtggt gccactctgg tcatctccct caatgtgcat
        61 ctccattgct ccgatcagcc atccgaatcc agctctcttt gcagcaccaa accactgcag

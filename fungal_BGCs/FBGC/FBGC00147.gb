@@ -1,23 +1,23 @@
-LOCUS       FBGC00147       14827 bp DNA     linear   UNA 21-JAN-2023
+LOCUS       FBGC00147              14827 bp    DNA     linear   UNA 21-JAN-2023
 DEFINITION  penifulvin A.
 ACCESSION   FBGC00147
-VERSION     .
+VERSION     FBGC00147
 KEYWORDS    .
 SOURCE      Penicillium griseofulvum NRRL 35584
   ORGANISM  Penicillium griseofulvum NRRL 35584
+            .
 REFERENCE   1  (bases 1 to 14827)
   AUTHORS   Zeng H, Yin G, Wei Q, Li D, Wang Y, Hu Y, Hu C, Zou Y.
-  TITLE     Unprecedented [5.5.5.6]Dioxafenestrane Ring Construction in Fungal 
+  TITLE     Unprecedented [5.5.5.6]Dioxafenestrane Ring Construction in Fungal
             Insecticidal Sesquiterpene Biosynthesis.
   JOURNAL   Angew Chem Int Ed Engl 2019;58:6569-6573
-  PUBMED    30908782
+   PUBMED   30908782
 REFERENCE   2  (bases 1 to 14827)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Jan 21, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1002/anie.201813722"; journalName: "Angew Chem Int Ed Engl"; 
+  JOURNAL   Exported Jan 21, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1002/anie.201813722"; journalName: "Angew Chem Int Ed Engl";
             date: "2019"; volume: "58"; pages: "6569-6573"
 FEATURES             Location/Qualifiers
      source          1..14827
@@ -30,7 +30,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="peniA"
                      /product="terpene synthase PeniA"
-                     /label=peniA
+                     /label="peniA"
                      /protein_id="QDO73502.1"
                      /translation="MEVIQPTTQIFADNEKTVSQVAEEISSNELRETTVYLPDLFVSFC
                      SRAPKTNPYYAEVKAESDAWFAKLYSLSTEKELSRLTKADFALFAAWWTADAGKSEFRT
@@ -39,11 +39,12 @@ FEATURES             Location/Qualifiers
                      VVPCIVFAEYYHDLRLPDEFFEHPSVKTIMDLAAEITVLHNDVLSYHKEYEMGAIHNIV
                      IILRERGMTQQEAYNETDKLIQKRLREWHLAVNQLPFYGEALDLQVQKFVQACQEVAVG
                      NLHWSFATERYFGNQNNLIRKTRQVELIDLKA"
+                     /Pfam="Terpene_syn_C_2"
      CDS             complement(3160..4755)
                      /codon_start=1
                      /gene="peniB"
                      /product="cytochrome P450 monooxygenase PeniB"
-                     /label=peniB
+                     /label="peniB"
                      /protein_id="QDO73503.1"
                      /translation="MDTVQSLINITLPQPEIEAPAKLEYDRTRILSIAAVVFLGYLLLR
                      PLFDKRLPLPPAPTRLPLLGNLHQFPASNLWGTYKKWHNQYGPIMGLKYGQRTVISLGS
@@ -55,11 +56,12 @@ FEATURES             Location/Qualifiers
                      SVVLANHWAMDSDHKVFENADDFVPERWLEDSKLPFLAFGYGKRVCPGQHIAKRSLFII
                      ISRTLWAYNITHAYEKGKKVEIDPHAIVQNILAGPVPFKGTFTPRDADRYRILEEEFSN
                      IGQDEANIWDVCKP"
+                     /Pfam="p450"
      CDS             join(6296..6638,6707..8208)
                      /codon_start=1
                      /gene="peniC"
                      /product="FAD-dependent monooxygenase PeniC"
-                     /label=peniC
+                     /label="peniC"
                      /protein_id="QDO73504.1"
                      /translation="MGSISPLPLTPDASCCPREVILEKYQQERKKRQLNCVPDNEATEL
                      HHKYAPVQGVDQPSYTRSPIITDSKVVIIGGGLAGLVTAVKLKTQGINDFVILEKGAEC
@@ -72,11 +74,12 @@ FEATURES             Location/Qualifiers
                      FYQRTRIHVFGSHGQTLDDAWADQGPSTLFGIHIRDFPNLLYIGPCQAGVTFNFTHTIY
                      EAADHISHVIGDCLKDGASFQAIQPSIEAQSDWVKQTEEGSEMRLQYAQSCPPGYFNGH
                      GRPEKIPARWGYYPKGIKAWANAMRECRAEGMKGLERW"
+                     /Pfam="Pyr_redox_3"
      CDS             complement(join(8595..8768,8825..9559))
                      /codon_start=1
                      /gene="peniD"
                      /product="2OG-Fe(II)-dependent dioxygenase PeniD"
-                     /label=peniD
+                     /label="peniD"
                      /protein_id="QDO73505.1"
                      /translation="MTVTAQPEFGLHSVDATAPVEEITKVMKHHGGVIVRGLVSEEVLQ
                      QVGREIKPFFKRGNHEGPFCERTRTVCSIPRKSRTFVEKIFGNPVYTAVCDELLTAHHE
@@ -84,11 +87,12 @@ FEATURES             Location/Qualifiers
                      VTLFVADSRTTKQNGATRWIPGSHLQHHLGKPDLSKEVHIELERGDAFIMLASCYHAAS
                      ENLSDTDERIVYSAFTINSTYRQSENVFLSLPLECLREFSPWMQKRLGFSASSPLCGWI
                      DLTDPREVLNLPEPSDLERYH"
+                     /Pfam="PhyH"
      CDS             join(11252..11416,11485..12765)
                      /codon_start=1
                      /gene="peniE"
                      /product="acetyltransferase PeniE"
-                     /label=peniE
+                     /label="peniE"
                      /protein_id="QDO73506.1"
                      /translation="MSAEYTCRSTNPWADSSTIYAGLVVNAVLDLDILHEKQKELISLW
                      PILGGTVVQSTKPWSFTCGSNVDFESRTLDETVSTHFPNNWGNMTGPSASTTLDPAIVD
@@ -99,11 +103,12 @@ FEATURES             Location/Qualifiers
                      AYQLQNDSISSIAWRIRRATLHYKQPSSIKKYVRFVEKNNSNLLVVDIRASNPFSMVGL
                      SSWTTYNYMALDFSGAIGDRKAPQDGVRVTFVNPLALSPISGLTLYTLKDGKGGYVIRT
                      ANTKTQWKQLEKSSSMENLFPVL"
+                     /Pfam="CalD"
      CDS             join(13820..14572,14654..14827)
                      /codon_start=1
                      /gene="peniF"
                      /product="2OG-Fe(II)-dependent dioxygenase PeniF"
-                     /label=peniF
+                     /label="peniF"
                      /protein_id="QDO73507.1"
                      /translation="MTVSQQPLEPTPFGLHRVQAKTTSLEGILPLLTYHGGLIVEGLVS
                      QDILQDIEKELRPHFQQGWNTDPMFSQKTRVVCGLPGKSPTLINECFGHPLFTEVCDAL
@@ -111,6 +116,7 @@ FEATURES             Location/Qualifiers
                      AGRDCVVTLLVAGTRTTKENGATRFIPGSHLQETLHIPDESQAVYIEMQPGDAFILLGS
                      TFHAGSGNVTDEEERILYSVAGVKSILRQTENIYYTLPLEKVREYSPWMQKRLGFSASS
                      PLGGHIDLKDPREVLGLPEPSDIQWFY"
+                     /Pfam="PhyH"
 ORIGIN
         1 ctaggccttc aggtcaatga gttcaacctg tcgggtcttt ctgatgaggt tgttttggtt
        61 tccaaagtac cgttcggtgg caaagctgcg gacaccgtta gtacctgact tttttgtaga

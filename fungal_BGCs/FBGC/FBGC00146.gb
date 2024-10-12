@@ -1,30 +1,30 @@
-LOCUS       FBGC00146       29803 bp DNA     linear   UNA 07-JUN-2023
+LOCUS       FBGC00146              29803 bp    DNA     linear   UNA 07-JUN-2023
 DEFINITION  chlorinated chromones and xanthones.
 ACCESSION   FBGC00146
-VERSION     .
+VERSION     FBGC00146
 KEYWORDS    .
 SOURCE      Bipolaris sorokiniana 11134
   ORGANISM  Bipolaris sorokiniana 11134
+            .
 REFERENCE   1  (bases 1 to 29803)
-  AUTHORS   Han J, Zhang J, Song Z, Liu M, Hu J, Hou C, Zhu G, Jiang L, Xia X, 
+  AUTHORS   Han J, Zhang J, Song Z, Liu M, Hu J, Hou C, Zhu G, Jiang L, Xia X,
             Quinn RJ, Feng Y, Zhang L, Hsiang T, Liu X.
-  TITLE     Genome- and MS-based mining of antibacterial chlorinated chromones 
-            and xanthones from the phytopathogenic fungus Bipolaris sorokiniana 
+  TITLE     Genome- and MS-based mining of antibacterial chlorinated chromones
+            and xanthones from the phytopathogenic fungus Bipolaris sorokiniana
             strain 11134.
   JOURNAL   Appl Microbiol Biotechnol 2019;103:5167-5181
-  PUBMED    31001746
+   PUBMED   31001746
 REFERENCE   2  (bases 1 to 29803)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Jun 7, 2023 from SnapGene 6.2.2
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1007/s00253-019-09821-z"; journalName: "Appl Microbiol 
-            Biotechnol"; date: "2019"; volume: "103"; pages: "5167-5181"
+  JOURNAL   Exported Jun 7, 2023 from SnapGene 6.2.2 https://www.snapgene.com
 COMMENT     ##Assembly-Data-START##
             Assembly Method       :: velvet v. 1.2
             Sequencing Technology :: Illumina
             ##Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1007/s00253-019-09821-z"; journalName: "Appl Microbiol
+            Biotechnol"; date: "2019"; volume: "103"; pages: "5167-5181"
 FEATURES             Location/Qualifiers
      source          1..29803
                      /host="Poa pratensis"
@@ -35,7 +35,7 @@ FEATURES             Location/Qualifiers
      CDS             complement(join(1..1316,1391..1634))
                      /codon_start=1
                      /product="FAD-dependent monooxygenase CcxH"
-                     /label=ccxH
+                     /label="ccxH"
                      /note="FAD-dependent monooxygenase"
                      /protein_id="QCF41199.1"
                      /translation="MGSLAEVMKGQSFLRNGDRNDYDPERWQASPGDLPERLPVTGLKV
@@ -48,11 +48,12 @@ FEATURES             Location/Qualifiers
                      YKSGPLGARVYNLLRYERASCVQKMAFVNSQLMGATNWENIRKDPKQIRLKFPKWVFRH
                      DVETYVDDKFSQARAHVLEGKSFQNTNIPAGHVFESWTIEEIHKDIAEGKVIADLLDGD
                      WS"
-     CDS             complement(join(2571..3517,3570..3697,3758..4058,4124..4163,
-                     4220..4316,4380..4514,4593..4688,4726..4889))
+                     /Pfam="FAD_binding_3"
+     CDS             complement(join(2571..3517,3570..3697,3758..4058,
+                     4124..4163,4220..4316,4380..4514,4593..4688,4726..4889))
                      /codon_start=1
                      /product="FAD-dependent halogenase CcxI"
-                     /label=ccxI
+                     /label="ccxI"
                      /note="flavin-dependent halogenase"
                      /protein_id="QCF41200.1"
                      /translation="MSASMMSEDRDGCRCEHTQPGGRVIIQVGFPVSHGYAKSGKSVTK
@@ -67,11 +68,12 @@ FEATURES             Location/Qualifiers
                      TAKSINFGLESMNVSSAAEDAVVKKIREAENRPEMLEKLTTEEVSILDRITKRTFAHEK
                      DELNLTHFTGEVIDGFSARLVRGDLGFVNHATQSASADQPAVSAAVDMSGLDRNIKQAA
                      "
+                     /Pfam="Trp_halogenase"
      CDS             complement(join(5528..6790,6847..8850,8915..9277,
                      9331..10741,10797..11164))
                      /codon_start=1
                      /product="polyketide synthase CcxJ"
-                     /label=ccxJ
+                     /label="ccxJ"
                      /note="polyketide synthase"
                      /protein_id="QCF41201.1"
                      /translation="MSWLDPPRQNLTPTTDSSMEESSNLRIVCFGNELPHDDLQHLVRQ
@@ -105,12 +107,12 @@ FEATURES             Location/Qualifiers
                      IKFKRYPRVLLDRFFSAPEVAGDRSHTDISNKVAVPLAERTSNKPTPATPTSIPTVVKQ
                      SVNAAPVSVTKVSDHKEPPTKAQAVAINADSVTSKAIALLAAEAQLDESDLSDDARFEN
                      LGVDSLMSLVIAEKLRKQLGVTVNGSLFLEYPTLGDLRAWLNEYYS"
+                     /Pfam="SAT2, PKS_KS, PKS_AT, fPKS_PT, ACP_PCP"
      CDS             join(11557..11718,11772..12136,12288..12698,12896..13043)
                      /codon_start=1
                      /product="metallo-beta-lactamase-like thioesterase CcxK1"
-                     /label=ccxK1
-                     /note="lactamase-like protein
-                     revised sequence"
+                     /label="ccxK1"
+                     /note="lactamase-like protein revised sequence"
                      /protein_id="QCF41202.1"
                      /translation="MAPGEGGYRQINKALNICAFEDYLHGQQRGLPKLEDVEQLTPRVL
                      RILGQNPGKFTLQGTNTFIIGTGKERLIIDTGQGIPDWANLIASTLNSLGIKLIGVLLT
@@ -119,20 +121,21 @@ FEATURES             Location/Qualifiers
                      HAKISLELRQKDRREKQILQTLGHFRSTAGLAEGRSKGSVTVQQLVTAMHGADVDNEVR
                      TLALEPFAEEALRKLAEDRRVAFERRGGVKRWLRPSGPKAHIVSPQSGGILLPVQAWRA
                      PQQFEMMLIQGCHDPFEYTSQ"
+                     /Pfam="Lactamase_B"
      CDS             join(13794..13964,14021..14217,14272..14341)
                      /codon_start=1
                      /product="decarboxylase CcxK2"
-                     /label=ccxK2
-                     /note="lactamase-like protein
-                     revised sequence"
+                     /label="ccxK2"
+                     /note="lactamase-like protein revised sequence"
                      /protein_id="QCF41202.1"
                      /translation="MSGLPSEPQQSRYLCLTICGYRKPGMNEEDYRDHMINVSAPLTKD
                      LMVKYGIRRWTQIHNQSATRALMSQLFDPQMVHLADFDCFSQVVFKSVDDYVRMKQDPW
                      YKEHLVGDHEKFADTKKSMMTIGWIEEFIDDGKVVEANKEF"
+                     /Pfam="EthD"
      CDS             complement(14639..16009)
                      /codon_start=1
                      /product="dioxygenase CcxL"
-                     /label=ccxL
+                     /label="ccxL"
                      /note="oxidoreductase"
                      /protein_id="QCF41203.1"
                      /translation="MGSITNDNVTSADAHNPIISLNDKHLDAGIARIGPNPPGCIEILN
@@ -143,31 +146,32 @@ FEATURES             Location/Qualifiers
                      MLSGAAYGAGAAQRKGKASKIDFFSMHNVTSSVFVALLVDQPWIDHENKLRLIEWKGRM
                      DLVWYASGSAPALDAGFISQYEPTLSKGMDWSSLYAAVNDSHDDGHVAKFVRALKAGEE
                      LEQRTTGAESRLLLVRGDMWLRLAQMAYDTTHGLPDMQKWIMGAGYDPLWAKVPDVA"
+                     /Pfam="Questin_oxidase"
      CDS             complement(16435..16914)
                      /codon_start=1
                      /product="dehydratase CcxM"
-                     /label=ccxM
+                     /label="ccxM"
                      /note="scytalone dehydratase"
                      /protein_id="QCF41204.1"
                      /translation="MGRKLRLERLEEVEGMPCPDIGGKSHTQPESNGMKTDHRAHQVDY
                      SAFIDKKWDALPADEFVGMVSSTHFLGNPLIRTQHLIGLGTWDKTSADTIVAHLQLRVA
                      HQKYTDETLGDVRLTANDHGTGVLTLKCIQGEWRFAGLIPRSRWSAGDVAKVFGP"
+                     /Pfam="Scytalone_dh"
      CDS             complement(join(17411..17677,17747..17953))
                      /codon_start=1
                      /product="isomerase CcxN1"
-                     /label=ccxN1
-                     /note="O-methyltransferase
-                     revised sequence"
+                     /label="ccxN1"
+                     /note="O-methyltransferase revised sequence"
                      /protein_id="QCF41205.1"
                      /translation="MTAPTFLQTITLQTFLEAWKTWDYKRYLAILSDDVTQVMLPTSMG
                      VPARGRAEVEHVLPILMSAVTNYKLTIHNVLHDAEKNQAAIYSTAKGDAPFGEWDVESV
                      IFLTFSAAGDRVAKIEEMMDSAKMQELMPKVSKYIQAQSSAGVSGHGIEPGTE"
+                     /Pfam="Trt14"
      CDS             complement(join(18284..18844,18899..19411,19485..19529))
                      /codon_start=1
                      /product="transcriptional coactivator CcxN2"
-                     /label=ccxN2
-                     /note="O-methyltransferase
-                     revised sequence"
+                     /label="ccxN2"
+                     /note="O-methyltransferase revised sequence"
                      /protein_id="QCF41205.1"
                      /translation="MNHEGATFVHHLARQAQLLSCLHWLSTFQVLACIPLTQSVPIQDV
                      ADLAGVPLSHLLRIVRATATVGFLHEPEPEFVAHTALSSQFVTKPSLIDAVLFICHTAM
@@ -176,10 +180,11 @@ FEATURES             Location/Qualifiers
                      RSKFGNIMVQQRMRGAPQLVQDASVYIIHSPHLSVHHTTNDLRTQFIVEIKAHLRLLQG
                      KPNAQLILVAQVIPEPGTADAEVEAASRFYDLSLLQMANDQALGFEQLVDMVNDIRDNT
                      GRLIVTNKLCSRDHSVAALQVKVVSFLDDQGS"
+                     /Pfam="MdpA"
      CDS             20225..21178
                      /codon_start=1
                      /product="methyltransferase CcxO"
-                     /label=ccxO
+                     /label="ccxO"
                      /note="methyltransferase"
                      /protein_id="QCF41206.1"
                      /translation="MSPALVNDNGNNSTTNIFNKDKSFWNNYNKGRPQPPKSLTDRIFK
@@ -188,10 +193,11 @@ FEATURES             Location/Qualifiers
                      LQALWERISEQGGQELLDKAGAGEQAKTIAVMARTEGTYNTAPLDTSLFQPGAQRVHLN
                      MHRGGLTGMLPASKTHLNTEPNHTGPDDVDVFEEEAGWEFEMDRAGVREHALSFPFISD
                      QSPAMARLFDELDSMLAPGTSARGRWPAKIILATRR"
+                     /Pfam="Methyltransf_11"
      CDS             complement(21533..22315)
                      /codon_start=1
                      /product="short-chain dehydrogenase/reductase CcxP"
-                     /label=ccxP
+                     /label="ccxP"
                      /note="monooxygenase ptaF-like protein"
                      /protein_id="QCF41207.1"
                      /translation="MPCYAVLGATGRTGQALLSALLSRPQAQIHAFCRNKRKLADAFPD
@@ -199,41 +205,43 @@ FEATURES             Location/Qualifiers
                      QKKQGSGVPPRLVLLSSCTVDEHLSRHTPWLLRQILLLSASQVYHDLMEAEKLLRAQES
                      WLTTIYMKPGALALDKARGYALSFTDEDSPVTYEDLAGAMIEAAEDQGGVYDGRNVSVV
                      NTNGKPVFPKGTPLCIVVGLMRHFFPVLHPYLPTGLGP"
+                     /Pfam="NAD_binding_10"
      CDS             join(22693..22753,22819..23234)
                      /codon_start=1
                      /product="anthrone oxygenase CcxQ1"
-                     /label=ccxQ1
-                     /note="short chain dehydrogenase
-                     revised sequence"
+                     /label="ccxQ1"
+                     /note="short chain dehydrogenase revised sequence"
                      /protein_id="QCF41208.1"
                      /translation="MAHHQSTLSKFAIVLGTFLSGTMLSLSAIAIPVYLDTLGTPAQLY
                      SSWARTYHYGHLGLPAMSITTCLLYGIVAQKHKSANRQWRRYVLAALVTVTMVPFTWVF
                      MTSTNNTLFGLHAESEAVGGSFSDARELVVHWSRLHLLRSLFPLAGAVIGIGGL"
+                     /Pfam="Anthrone_oxy"
      CDS             join(23698..24054,24123..24449,24507..24641)
                      /codon_start=1
                      /product="short-chain dehydrogenase/reductase CcxQ2"
-                     /label=ccxQ2
-                     /note="short chain dehydrogenase
-                     revised sequence"
+                     /label="ccxQ2"
+                     /note="short chain dehydrogenase revised sequence"
                      /protein_id="QCF41208.1"
                      /translation="MATNGTNGAHSPHLPYRLDGKVALVTGSGRGIGAAMALQLATCGA
                      KIIVNYAKSAASAAKVVQDIKNLGSDAVAIQADVSKVPEIVRLLDEAKSAFGRLDIVCS
                      NAGVVSFGHLEDVDEAEFDRVFSTNTRGQFFVAREAYKHLGAGGRIILMSSNTADSFTV
                      PKHSLYSASKAAINAFVRCLAKDCGAKRITINAVAPGGILTDMLFETAKDYIPNSQDLS
                      EEQILKIVASVSPLNRCGLPVDIARVVCFLASDEAEWINGKVMGIDGGAA"
+                     /Pfam="adh_short_C2"
      CDS             complement(join(25208..25482,25540..25726))
                      /codon_start=1
                      /product="hypothetical protein CcxR"
-                     /label=ccxR
+                     /label="ccxR"
                      /note="DUF4267 domain-containing protein"
                      /protein_id="QCF41209.1"
                      /translation="MYAPMLCLAKGYIDLHSAPSTPTMPPLSFKRLYSYFLTAITMAMG
                      TALLYSGVVGTFIDTLGWAKGFGMPTATEETAVLFASATGRNLGAGFFVWTQILRGDKR
                      MLGMFMICWAWAGVADCMILWRHPDGQNVTKHMVNTVLAPTFGILLIRS"
+                     /Pfam="DUF4267"
      CDS             26067..27470
                      /codon_start=1
                      /product="FAD-dependent monooxygenase CcxS"
-                     /label=ccxS
+                     /label="ccxS"
                      /note="6-methylsalicylic acid decarboxylase atA-like"
                      /protein_id="QCF41210.1"
                      /translation="MAETVQRKLDKLDLTTEPLNVAIVGGGFAGFALLIGLQKYPHLNP
@@ -245,10 +253,11 @@ FEATURES             Location/Qualifiers
                      QAIEDALVMHRLLGHCFDPARQSESPFTKQETVRAVLQACDTTRRFRSQKVVVTSSEVG
                      RLLSGNEPGITMEAAPMFEALKDKMHWIWDADVEQQVKDARLLFEEAEFAVKRQAATRH
                      TNFKAPGRE"
+                     /Pfam="ElcH"
      CDS             complement(27611..29803)
                      /codon_start=1
                      /product="transcription factor CcxT"
-                     /label=ccxT
+                     /label="ccxT"
                      /note="dehydrocurvularin biosynthesis regulator"
                      /protein_id="QCF41211.1"
                      /translation="MASVSTDDVDGPGNPKRRKLRKGTHSCWACKRRKEKCVPCADDST
@@ -264,6 +273,7 @@ FEATURES             Location/Qualifiers
                      ASQMHIPYFGLIKFALEGIAARATSYPNRSIGHSDMQSQAPISHSAARLNMSYASASSS
                      QRGLDDSGTTLDTQTSDERESLMLATPYYSTGIVSPAVMVSQQSGHASVHEDVWNPKFS
                      EGGFFDALLPGLTGNGEWSLEGIDMDYFERLMAGST"
+                     /Pfam="GsfR1"
 ORIGIN
         1 ttatgaccag tcgccgtcta gcaaatccgc gataaccttg ccttctgcaa tgtccttgtg
        61 aatctcttca attgtccaag actcaaagac atgaccggcc gggatgttag tattctggaa

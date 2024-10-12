@@ -1,24 +1,24 @@
-LOCUS       FBGC00117       37394 bp DNA     linear   UNA 19-JAN-2023
+LOCUS       FBGC00117              37394 bp    DNA     linear   UNA 19-JAN-2023
 DEFINITION  himeic acid A.
 ACCESSION   FBGC00117
-VERSION     .
+VERSION     FBGC00117
 KEYWORDS    .
 SOURCE      Aspergillus japonicus MF275
   ORGANISM  Aspergillus japonicus MF275
+            .
 REFERENCE   1  (bases 1 to 37394)
   AUTHORS   Hashimoto M, Kato H, Katsuki A, Tsukamoto S, Fujii I.
   TITLE     Identification of the Biosynthetic Gene Cluster for Himeic Acid A: A
-            Ubiquitin-Activating Enzyme (E1) Inhibitor in Aspergillus japonicus 
+            Ubiquitin-Activating Enzyme (E1) Inhibitor in Aspergillus japonicus
             MF275.
   JOURNAL   ChemBioChem 2018;19:535-539
-  PUBMED    29314577
+   PUBMED   29314577
 REFERENCE   2  (bases 1 to 37394)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Jan 19, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1002/cbic.201700584"; journalName: "ChemBioChem"; date: "2018"; 
+  JOURNAL   Exported Jan 19, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1002/cbic.201700584"; journalName: "ChemBioChem"; date: "2018";
             volume: "19"; pages: "535-539"
 FEATURES             Location/Qualifiers
      source          1..37394
@@ -30,7 +30,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="himH"
                      /product="trans-acting enoylreductase HimH"
-                     /label=himH
+                     /label="himH"
                      /protein_id="BBA91552.1"
                      /translation="MASLINQAAWQPKARTRSLQVGPGPTPSPNEHEIVIKVAYAAVNP
                      TDWKMQDTPYFELEYPFIWGTDVAGTIVQLGSEVTQFKVGQRVIGHCDSLLTRKVTNAG
@@ -39,11 +39,12 @@ FEATURES             Location/Qualifiers
                      QPGDYVVDCIGSPDTQAKCGELVGRIGGGTLPVMLWPQGGLPQNVRAVFVNGLDPGMVN
                      LDVGNAVWRKFIPEALAAGKFQAKPDPRIVPGGLEKVQEGIDMLRQGVSAQKIVIEISR
                      SE"
+                     /Pfam="fPKS_ER"
      CDS             complement(join(8352..8555,8610..9374))
                      /codon_start=1
                      /gene="himG"
                      /product="2OG-Fe(II)-dependent dioxygenase HimG"
-                     /label=himG
+                     /label="himG"
                      /protein_id="BBA91553.1"
                      /translation="MAPALTQSLNGATPQVKAALHHLDANTVSIDDIIHYLKHHGGVVV
                      QNLISEEILQEVGADIKPYFDALVEPGFFSSKTRIVTRLPNKSIAFVEKIFGNQVFQDI
@@ -51,12 +52,13 @@ FEATURES             Location/Qualifiers
                      EDYPIGRDTVLGMFVADTRTTRENGATRFIPGSHLQSTLDPPDESQTVPVEMNRGDVFL
                      MLGSCYHGASANVSQAEERILYSTFMTQSTRRQLTTCLFLVQEENIYLSVPVDRVRVFS
                      PRMQKRLGFSASDPLFGWVDVKDPRKVFNLPGLSEGQHIDV"
+                     /Pfam="PhyH"
      CDS             join(9859..9889,9951..10162,10218..10368,10443..10772,
                      10855..11126)
                      /codon_start=1
                      /gene="himF"
                      /product="short-chain dehydrogenase/reductase HimF"
-                     /label=himF
+                     /label="himF"
                      /protein_id="BBA91554.1"
                      /translation="MQIITIFGATGNQGSSVARSLLRNRSFEVRCITRNAESKKAQLLK
                      AQGAVIVEADGYDTSQIQQAFSGSWGAFVNTNGDDPSLASENRTDRDLGLSIIRGAAAA
@@ -64,11 +66,12 @@ FEATURES             Location/Qualifiers
                      QMAAIFGGFPVTPDEEGWLTCRAPLWGGREHVPFLSVDNDFGDIVHGVFLNPVRWNLRP
                      IQAISDFLSFADFVNTYVSLTGKKARFVALSSPMEMETMGHPLLESIRGFFIFSQLRDG
                      EYFGTGPTEKETATALKQAAHRAQANDRKGEQAALTSARDFLQARFGNSK"
+                     /Pfam="NmrA"
      CDS             complement(join(14142..14440,14500..14894,14963..15234))
                      /codon_start=1
                      /gene="himE"
                      /product="transporter HimE"
-                     /label=himE
+                     /label="himE"
                      /protein_id="BBA91555.1"
                      /translation="MSNSTDPSDYCTFEICPITEAYVYYVPSLAGNAFYLALFAVLLAA
                      QLVLAVRYRTWGYLAGLSGGLILEIIGYIGRIQLHSNPFRFGPYLEYLICLTIGPAILS
@@ -76,12 +79,13 @@ FEATURES             Location/Qualifiers
                      QDGINIMIAGLASQVASLALFMALCLDYAWRVYKSPHNLSPETRMRDLRHSLRWKAFLA
                      GLALATVAIFMRSVFRVAELKGGFHSSLANDQVLFMTLEGAMIAIAVIALTVLHPGLCF
                      DGLWDQTKWSFRRSRDSEMQLIEVSAGHEAKAQRADLGMS"
+                     /Pfam="RTA1"
      CDS             complement(join(16872..17563,17622..17896,17964..18167,
                      18220..18729,18787..18902))
                      /codon_start=1
                      /gene="himD"
                      /product="transcription factor HimD"
-                     /label=himD
+                     /label="himD"
                      /protein_id="BBA91556.1"
                      /translation="MSDRTRTTRYANGSLRTCQNCARAKIRCIRSVPTGSCDRCERLRK
                      TCQFQPGRRANAGPSLSESKDRRIDALEAKLDRLLAQSTSATVSEASIDDKSPTTTPTT
@@ -94,13 +98,14 @@ FEATURES             Location/Qualifiers
                      HIHPHMADLTRALDLSTMLSRCILRIQALVTSQMDARGDRDVFYHYEKRLKRAQWWFES
                      RSLSRSQQQRNEPLPVAGAGEASSPRNARIAEIPAEEEFQVGYAAVSGDGFDFQWPGLF
                      PDPTFDDMFGDWMAQGSSGFDD"
+                     /Pfam="HimD"
      CDS             complement(join(19926..22126,22213..25297,25438..25792,
                      25858..32129))
                      /codon_start=1
                      /gene="himA"
-                     /product="polyketide synthase-nonribosomal peptide 
+                     /product="polyketide synthase-nonribosomal peptide
                      synthetase HimA"
-                     /label=himA
+                     /label="himA"
                      /protein_id="BBA91557.1"
                      /translation="MAYIPSSSEPIAIIGSACRFPGHSTSPSRLWELLRNPYDLTKQVP
                      EGRFNVDGFHHPDGEHHGTTNAPNGYWLEEDPRRFDSTFFNITPKEAEAIDPQGKVLLE
@@ -170,11 +175,13 @@ FEATURES             Location/Qualifiers
                      TGADAPALDVMHNVLNLSRRMRALPDLGTWTGYFDFIRVETVAEEIAAGVTASPTPTAT
                      TPTPSGVEFIHLSGEKLIPVAEARKHLERETGYAFRTLEMAEWCREAAGYGLPALVAGY
                      LESLEGQALSFPRLRSRIAEWGGGGREVVAV"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_DH, PKS_NRPS_MT, fPKS_KR,
+                     ACP_PCP, Condensation, AA-adenyl-dom, fPKS_R"
      CDS             join(32592..34058,34132..34329)
                      /codon_start=1
                      /gene="himC"
                      /product="cytochrome P450 monooxygenase HimC"
-                     /label=himC
+                     /label="himC"
                      /protein_id="BBA91558.1"
                      /translation="MEDIVNRLYAFDWRSLSLGSVPAPTPAPAPQSSVVHHLIAWWDQS
                      KDSMQQYSVASVAIAGFTALVVSVALYRALFSQRQRHDPLNQGCQPLRMYPHKDRIFGL
@@ -186,11 +193,12 @@ FEATURES             Location/Qualifiers
                      YEQLRNLQYTRHCINETLRLYPPVPNNTKMAVCDTILPRGGGPKGDAPVFVPKGCTMIY
                      TVYAMHRRTDLFGPDAEEFRPERWATQRFSWEFLPFNGGPRICLGQQYALTEAMYVLVR
                      FAQTFQTIEAQDPAPWTEQLTLTLASNNGVKVRLKGA"
+                     /Pfam="p450"
      CDS             35847..37394
                      /codon_start=1
                      /gene="himB"
                      /product="transcription factor HimB"
-                     /label=himB
+                     /label="himB"
                      /protein_id="BBA91559.1"
                      /translation="MPRHERGGSGTSSSDLRLRKACDRCHAQKLGCQREAIGAKCVRCE
                      KADKPCTWSISLRNRRASTRKEQLPVHAQQQQQQQQQHQHQPQHATMARNENNEEQAQE
@@ -201,6 +209,7 @@ FEATURES             Location/Qualifiers
                      GHRPPTTPKPRARAEDLDPDHSGLDPGSLLIVLSSYFRILEIFTMLSHALEATAAATGS
                      TTHYHTPRATPPILRLPAIVVGSLDLASNTSLSTVLFLEVIEDLLTTLATLVLSIAQWP
                      SHPHHATSRREPGWQGSDLHAGSDRLGLQIQGKEDEIRRVIRAIRARLGRKGDKAGV"
+                     /Pfam="EqxR"
 ORIGIN
         1 atggcatcct taatcaacca agctgcatgg caacccaagg cccgaacaag atccctccag
        61 gtcggcccgg gaccaactcc cagccctaat gagcatgaga ttgtcatcaa agtagcctat
