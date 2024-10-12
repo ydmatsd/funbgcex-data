@@ -1,28 +1,25 @@
-LOCUS       FBGC00243       15277 bp DNA     linear   UNA 27-JAN-2023
+LOCUS       FBGC00243              15277 bp    DNA     linear   UNA 27-JAN-2023
 DEFINITION  aflavarin.
 ACCESSION   FBGC00243
-VERSION     .
+VERSION     FBGC00243
 KEYWORDS    .
 SOURCE      Aspergillus flavus NRRL3357
   ORGANISM  Aspergillus flavus NRRL3357
+            .
 REFERENCE   1  (bases 1 to 15277)
-  AUTHORS   Cary JW, Han Z, Yin Y, Lohmar JM, Shantappa S, Harris-Coward PY, 
-            Mack B, Ehrlich KC, Wei Q, Arroyo-Manzanares N, Uka V, Vanhaecke L, 
-            Bhatnagar D, Yu J, Nierman WC, Johns MA, Sorensen D, Shen H, De 
+  AUTHORS   Cary JW, Han Z, Yin Y, Lohmar JM, Shantappa S, Harris-Coward PY,
+            Mack B, Ehrlich KC, Wei Q, Arroyo-Manzanares N, Uka V, Vanhaecke L,
+            Bhatnagar D, Yu J, Nierman WC, Johns MA, Sorensen D, Shen H, De
             Saeger S, Diana Di Mavungu J, Calvo AM.
-  TITLE     Transcriptome Analysis of Aspergillus flavus Reveals veA-Dependent 
-            Regulation of Secondary Metabolite Gene Clusters, Including the 
+  TITLE     Transcriptome Analysis of Aspergillus flavus Reveals veA-Dependent
+            Regulation of Secondary Metabolite Gene Clusters, Including the
             Novel Aflavarin Cluster.
   JOURNAL   Eukaryot Cell 2015;14:983-97
-  PUBMED    26209694
+   PUBMED   26209694
 REFERENCE   2  (bases 1 to 15277)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Jan 27, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1128/EC.00092-15"; journalName: "Eukaryot Cell"; date: "2015"; 
-            volume: "14"; pages: "983-97"
+  JOURNAL   Exported Jan 27, 2023 from SnapGene 6.2.1 https://www.snapgene.com
 COMMENT     ##Genome-Assembly-Data-START##
             Assembly Date          :: 05-SEP-2019
             Assembly Method        :: MECAT v. SEPT-2019
@@ -30,8 +27,11 @@ COMMENT     ##Genome-Assembly-Data-START##
             Genome Representation  :: Full
             Expected Final Version :: Yes
             Genome Coverage        :: 70.0x
-            Sequencing Technology  :: PacBio RSII; Bionano Saphyr 
+            Sequencing Technology  :: PacBio RSII; Bionano Saphyr
             ##Genome-Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1128/EC.00092-15"; journalName: "Eukaryot Cell"; date: "2015";
+            volume: "14"; pages: "983-97"
 FEATURES             Location/Qualifiers
      source          1..15277
                      /chromosome="3"
@@ -41,14 +41,14 @@ FEATURES             Location/Qualifiers
                      /country="USA: Dawson, Georgia"
                      /lat_lon="31.76 N 84.43 W"
                      /isolation_source="Moldy Peanuts"
-                     /collection_date=8-Sep-1982
+                     /collection_date="8-Sep-1982"
                      /db_xref="taxon:332952"
                      /organism="Aspergillus flavus NRRL3357"
      CDS             complement(1..1242)
                      /codon_start=1
                      /locus_tag="G4B84_004582"
                      /product="dehydrogenase AfvA"
-                     /label=afvA
+                     /label="afvA"
                      /protein_id="QMW29247.1"
                      /translation="MTQDIIDNIAAEGISYYTPAQVPPAGTQVEGSTKLFSPLTIRGVT
                      FPNRLFLAPLCQYSAKDGYANDWHLTHIGGIVQRGPGLAIMEATAVQKVGRITPQDLGL
@@ -58,12 +58,13 @@ FEATURES             Location/Qualifiers
                      PESWTVAQSIRLALLLADRGVDLVDVSSGGIHAKSAIAIRSGPGYQVHFAQEIKKAVGE
                      KLLISAVGGIKTGALAEEVVQSGIDAVQAGRWFQQNPGLVRAFANELGVKVRMATQIDW
                      SFEGRGKKAKKSSL"
+                     /Pfam="Oxidored_FMN"
      CDS             complement(join(2602..3846,3910..7335,7384..7684,
                      7752..8047))
                      /codon_start=1
                      /locus_tag="G4B84_004583"
                      /product="polyketide synthase AfvB"
-                     /label=afvB
+                     /label="afvB"
                      /protein_id="QMW29248.1"
                      /translation="MRIFHFSNKFPPDDLADLFRRLRLHSKCPNHVILARVLEEVTDVV
                      REEIAELPAELRSLLPPFQSILDLAESFNWHQGPLSGTFECVFLVLMPVCLFVGHYESR
@@ -95,12 +96,13 @@ FEATURES             Location/Qualifiers
                      DVYILHGNRVIGRVREMTLRPLPRILMSRFFDPPDSQYGQMAQQEPSTALPSTPQHTSS
                      AKTTESTPSQQDESDNTSLATPENENKAPISGSWPNANSQLVRDAIALIASETGVEPDA
                      LTDETEFSAVGVDSLLSLVLVEKFALELNIDLQGSFFLETPNVCDLKAYLEGNQMTLR"
+                     /Pfam="SAT2, PKS_KS, PKS_AT, fPKS_PT, ACP_PCP"
      CDS             join(9598..9828,9887..10013,10068..10182,10242..10690,
                      10755..11065)
                      /codon_start=1
                      /locus_tag="G4B84_004584"
                      /product="methyltransferase AfvC"
-                     /label=afvC
+                     /label="afvC"
                      /protein_id="QMW29249.1"
                      /translation="MEVSEERDLYLHSITAALERLNSAASECQSRLLSEHDGSIEDHSA
                      NQTAHDNLVQEAYKFLQIAQGPIDTVATCFERTAHVACARSLLEMGAFEGLPIGGESRS
@@ -110,12 +112,13 @@ FEATURES             Location/Qualifiers
                      VIQSADPRGNGIEKMAYDFFEEQPIRGALTYLIRRCLHNWPQESIIQILKNVAAAMQPE
                      KSRLLIEEIIVPDMNAGIEEGWMDMIMMNLGAKQRTLKEWEEVLALAGFEVRKIYQIPG
                      NCHGLLEVWLK"
+                     /Pfam="Methyltransf_2"
      CDS             complement(join(11649..12034,12105..12161,12225..12263,
                      12330..12723))
                      /codon_start=1
                      /locus_tag="G4B84_004585"
                      /product="methyltransferase AfvD"
-                     /label=afvD
+                     /label="afvD"
                      /protein_id="QMW29250.1"
                      /translation="MQESLTSGSSASLNIHDKRFAALYELGGKITELFAKELISQSGLP
                      WSSQEPLVVLDNACGTGAVSSVLHHTIGNDKKANWHLTCGDKSEDMLHYTRQKMLQEEW
@@ -123,12 +126,13 @@ FEATURES             Location/Qualifiers
                      TIWVCTLSAAITNLSGDLPAPSEKEIHGVYNVGWDEEASVRAKFEQAGFNDIKVRKVIK
                      EYLVPVNQFVESCTILIPTIVNIFWTQDQRDQYESELPMAVHRYVEGKYGRDGMASMEA
                      EAIIATGHKH"
+                     /Pfam="Methyltransf_25"
      CDS             complement(join(13335..13789,13845..14492,14543..14617,
                      14685..14769,14825..14959,15023..15277))
                      /codon_start=1
                      /locus_tag="G4B84_004586"
                      /product="cytochrome P450 monooxygenase AfvE"
-                     /label=afvE
+                     /label="afvE"
                      /protein_id="QMW29251.1"
                      /translation="MMAIQSTLEMCHLAESGVYLILVTFGVGLLFGLIVLTSDYLDGWL
                      RRRALGDIPFVDEGSNMSACLRWWSRKFDCEKEYAEAYKQYSKTGKPYATRLKNNDHGI
@@ -140,6 +144,7 @@ FEATURES             Location/Qualifiers
                      STDQVPTLSLVTSFRRVMKPIHLESINLSLKPGTIIMAPGRDVHLDPDYYDNPTTFNGY
                      RFYDASRGTCTPHISTTSPTFLTFSHGISACPARVLATQITRTIFIMFLLKFDVELAHE
                      EMPAYGFANGPAYLPNPSVMMRVRPCQKDVLGV"
+                     /Pfam="p450"
 ORIGIN
         1 ttataacgag cttttctttg ccttctttcc ccgaccctca aagctccagt cgatctgtgt
        61 agccatccgc accttcacac ctagctcgtt agcgaacgcg cgaaccaggc caggattttg

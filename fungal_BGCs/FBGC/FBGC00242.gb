@@ -1,28 +1,28 @@
-LOCUS       FBGC00242       12205 bp DNA     linear   UNA 27-JAN-2023
-DEFINITION  kotanin/isocotanin A.
+LOCUS       FBGC00242              12205 bp    DNA     linear   UNA 19-MAR-2024
+DEFINITION  kotanin/isokotanin A.
 ACCESSION   FBGC00242
-VERSION     .
+VERSION     FBGC00242
 KEYWORDS    .
 SOURCE      Aspergillus alliaceus DSM 813
   ORGANISM  Aspergillus alliaceus DSM 813
+            .
 REFERENCE   1  (bases 1 to 12205)
   AUTHORS   Mazzaferro LS, Huttel W, Fries A, Muller M.
   TITLE     Cytochrome P450-catalyzed regio- and stereoselective phenol coupling
             of fungal natural products.
   JOURNAL   J Am Chem Soc 2015;137:12289-95
-  PUBMED    26389790
+   PUBMED   26389790
 REFERENCE   2  (bases 1 to 12205)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Jan 27, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1021/jacs.5b06776"; journalName: "J Am Chem Soc"; date: "2015"; 
-            volume: "137"; pages: "12289-95"
+  JOURNAL   Exported Mar 19, 2024 from SnapGene 7.1.2 https://www.snapgene.com
 COMMENT     ##Assembly-Data-START##
             Assembly Method       :: CLC Genomics Workbench v. 7.0.4
             Sequencing Technology :: Illumina
             ##Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1021/jacs.5b06776"; journalName: "J Am Chem Soc"; date: "2015";
+            volume: "137"; pages: "12289-95"
 FEATURES             Location/Qualifiers
      source          1..12205
                      /strain="DSM 813"
@@ -35,7 +35,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="ASA_0001"
                      /product="cytochrome P450 monooxygenase BicC"
-                     /label=bicC
+                     /label="bicC"
                      /protein_id="ALG03239.1"
                      /translation="MTVMLIFYTSQLLGWGVTAVPVTFAVVLVFCLTVVTTDYIDGWRK
                      RRAFGDIPIVDEGSNMSVRLRWNKPEFVAEREYAKAYKQYSKTGKPYVTRVQSNDYGIV
@@ -47,11 +47,12 @@ FEATURES             Location/Qualifiers
                      LTSFRRVMKPVHLKSISMFLKPGTLVLSPCRDVHLDPDHYDNPTIFDGYRFYDAIRESC
                      NPHMTTTSLTFLSFSHGSTACPARVIASQMSRTLFMKILLKYDMELTHEKMPAYGFTHG
                      PVYVPNLSIMMRVKPRSNDA"
+                     /Pfam="p450"
      CDS             join(2601..2982,3058..3096,3165..3221,3295..3677)
                      /codon_start=1
                      /locus_tag="ASA_0002"
                      /product="methyltransferase BicA"
-                     /label=bicA
+                     /label="bicA"
                      /protein_id="ALG03240.1"
                      /translation="MSKTQPAPYQLHDKNFADMYERSGKITDLFAQDLIAQSGIVQSSE
                      LDLIIFDNACGTGAVSSVLHSALPTGRRSTWQLTCGDVSEDMLEYTRRRMNKEGWHNAE
@@ -59,12 +60,13 @@ FEATURES             Location/Qualifiers
                      DTIVAGIAALSGNIPIISQEQLYGLYNTGWDDESHVRSELEKSGFTDIKVKIVQRRYLV
                      PLNVFVKECTILIPTVVNTFWTQEQRDQYEQELLLAILRYSEAKYGNEAPVEAEAIIAT
                      GRKPW"
-     CDS             complement(join(3926..4236,4319..4767,4824..4947,5004..5130,
-                     5190..5420))
+                     /Pfam="Methyltransf_25"
+     CDS             complement(join(3926..4236,4319..4767,4824..4947,
+                     5004..5130,5190..5420))
                      /codon_start=1
                      /locus_tag="ASA_0003"
                      /product="methyltransferase BicB"
-                     /label=bicB
+                     /label="bicB"
                      /protein_id="ALG03241.1"
                      /translation="MTLTEDRDQYVRSIELALESLNATVSQCRSTLLASNDDTIESRST
                      DKTARDNLVLEALKFLQKAQGPIEVATTCYERTAHVASVRALLEMGVFERIPAGGASRT
@@ -74,11 +76,12 @@ FEATURES             Location/Qualifiers
                      QAHVVQSAGTLDEGVEKMAYDFFTEQPLRGALTYLVRRCLHNWPQGSVIQILSNVAAAM
                      EPKKSRLLIEEIIVPEEKPGIEEGWMDLIMMNLGAKQRTLKEWETVVDMAGLKLQKVYQ
                      IPGNCHGLLEAVLK"
+                     /Pfam="Methyltransf_2"
      CDS             join(6793..7088,7156..7456,7505..10927,10982..12205)
                      /codon_start=1
                      /locus_tag="ASA_0004"
                      /product="polyketide synthase BicS"
-                     /label=bicS
+                     /label="bicS"
                      /protein_id="ALG03242.1"
                      /translation="MKTFYFSNKFPSDDLSDLFRRLRLQSKSPKHVILGRVVEEATALV
                      RDEITRLPAELRSLLPPFQSILDLAENFNWHQGPLSGTFECVFLVLVPLCLFVGHYESQ
@@ -110,6 +113,7 @@ FEATURES             Location/Qualifiers
                      YVLQGDCVVAKVRDMTLRSLPRILMSRFFDPPDGLYGQGAQQESSSTVASGSGRISATT
                      NTESTPSQQGDSESALLISPDSEVKPPEILPEAKGKSNLVRDAVTLIASETGVELDSLT
                      DETEFSALGIDSLLSLVLAEKFGIELNFEIQGSFFLECQKIGDLKAYLMA"
+                     /Pfam="SAT2, PKS_KS, PKS_AT, fPKS_PT, ACP_PCP"
 ORIGIN
         1 atgacagtta tgttgatatt ctatacgagc caactcctag gctggggcgt cactgctgtc
        61 cctgttactt ttgcagttgt tcttgtgttc tgtctaacag tcgtgactac tgactatatc

@@ -1,26 +1,23 @@
-LOCUS       FBGC00248       17060 bp DNA     linear   UNA 28-JAN-2023
-DEFINITION  asparasone.
+LOCUS       FBGC00248              17060 bp    DNA     linear   UNA 21-MAR-2024
+DEFINITION  asparasone A.
 ACCESSION   FBGC00248
-VERSION     .
+VERSION     FBGC00248
 KEYWORDS    .
 SOURCE      Aspergillus flavus NRRL3357
   ORGANISM  Aspergillus flavus NRRL3357
+            .
 REFERENCE   1  (bases 1 to 17060)
-  AUTHORS   Cary JW, Harris-Coward PY, Ehrlich KC, Di Mavungu JD, Malysheva SV, 
+  AUTHORS   Cary JW, Harris-Coward PY, Ehrlich KC, Di Mavungu JD, Malysheva SV,
             De Saeger S, Dowd PF, Shantappa S, Martens SL, Calvo AM.
-  TITLE     Functional characterization of a veA-dependent polyketide synthase 
-            gene in Aspergillus flavus necessary for the synthesis of 
+  TITLE     Functional characterization of a veA-dependent polyketide synthase
+            gene in Aspergillus flavus necessary for the synthesis of
             asparasone, a sclerotium-specific pigment.
   JOURNAL   Fungal Genet Biol 2014;64:25-35
-  PUBMED    24412484
+   PUBMED   24412484
 REFERENCE   2  (bases 1 to 17060)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Jan 28, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1016/j.fgb.2014.01.001"; journalName: "Fungal Genet Biol"; date:
-            "2014"; volume: "64"; pages: "25-35"
+  JOURNAL   Exported Mar 21, 2024 from SnapGene 7.1.2 https://www.snapgene.com
 COMMENT     ##Genome-Assembly-Data-START##
             Assembly Date          :: 05-SEP-2019
             Assembly Method        :: MECAT v. SEPT-2019
@@ -28,8 +25,11 @@ COMMENT     ##Genome-Assembly-Data-START##
             Genome Representation  :: Full
             Expected Final Version :: Yes
             Genome Coverage        :: 70.0x
-            Sequencing Technology  :: PacBio RSII; Bionano Saphyr 
+            Sequencing Technology  :: PacBio RSII; Bionano Saphyr
             ##Genome-Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1016/j.fgb.2014.01.001"; journalName: "Fungal Genet Biol"; date:
+            "2014"; volume: "64"; pages: "25-35"
 FEATURES             Location/Qualifiers
      source          1..17060
                      /chromosome="1"
@@ -39,14 +39,14 @@ FEATURES             Location/Qualifiers
                      /country="USA: Dawson, Georgia"
                      /lat_lon="31.76 N 84.43 W"
                      /isolation_source="Moldy Peanuts"
-                     /collection_date=8-Sep-1982
+                     /collection_date="8-Sep-1982"
                      /db_xref="taxon:332952"
                      /organism="Aspergillus flavus NRRL3357"
      CDS             join(1..264,320..1591)
                      /codon_start=1
                      /locus_tag="G4B84_001191"
                      /product="major facilitator superfamily transporter MFS2"
-                     /label=mfs2
+                     /label="mfs2"
                      /protein_id="QMW25946.1"
                      /translation="MDTKRKQADEEGRNIEEADMDNVGNGTHVATRDLEKVSGSAEAVW
                      DEAFLVTFDQNEAQNPLNWTKKRKWGVTAAISGTGFVRIMVSTMMAPSIDTMAEELDTS
@@ -57,12 +57,13 @@ FEATURES             Location/Qualifiers
                      GLHYIVICIGTVSGSQLCGPLMDYAYQRLSSNTGETQVPELRIPLLLPGALITPIGFLL
                      YGWAAQYHLIWVVVDVGAALLSLGMQIFDTTLHAYVMDSYPEHVSSASAATQVLRSLLA
                      FAFPLFSNSLYDSLGYGLGNSLLAFLSIGIALPATGILWRWGATLRGRQQSSY"
-     CDS             join(3050..3098,3156..3194,3245..3306,3359..3486,3542..3731,
-                     3785..4181,4265..4743,4806..5051)
+                     /Pfam="MFS_1"
+     CDS             join(3050..3098,3156..3194,3245..3306,3359..3486,
+                     3542..3731,3785..4181,4265..4743,4806..5051)
                      /codon_start=1
                      /locus_tag="G4B84_001192"
                      /product="major facilitator superfamily transporter MFS1"
-                     /label=mfs1
+                     /label="mfs1"
                      /protein_id="QMW25947.1"
                      /translation="MKKIYNVYFLCGFATLGGGLFGFDISSMSGVLGTAAYTNYFQVGS
                      GQYKQGSITCAMPFGSLVGALCSSFIADRYSRVRAIQFSSILWIIGSIFMCASNGIPLL
@@ -74,12 +75,13 @@ FEATURES             Location/Qualifiers
                      WTYPAEIYPAKVRAKAVSLATASNWIWNCLLALFVPPLLWSINWKMYMIFAAFNTAAFI
                      HMFLTAPETKGYTLEEMDDVFDSGLPAWRKLERKSRMEELEKEIIEGNLKITPAHEATG
                      VSATHVTPEKQV"
+                     /Pfam="Sugar_tr"
      CDS             complement(join(5587..9438,9490..9695,9750..10073,
                      10125..10318,10455..11428,11485..11776,11836..12131))
                      /codon_start=1
                      /locus_tag="G4B84_001193"
                      /product="polyketide synthase Pks27"
-                     /label=pks27
+                     /label="pks27"
                      /protein_id="QMW25948.1"
                      /translation="MVVEERKQTIVFGDLTCDSVAGLRTLVTVKDNPLLISFFERVTTG
                      LREEIGLLPFSQRQRFIRFTTFEELLARVQRSTCPHPALEKALACTYQLACFIRQYTSP
@@ -116,11 +118,13 @@ FEATURES             Location/Qualifiers
                      YHIAQQLAAQGEQVSELILIDCPVPKGLDHLPRRYYEYCDTIGLLGDVNGVKRDPPPWL
                      ISHFEACVNSLHTYHATPFRPNNAPRTQIIWACDAIDKHCEPKFDRRPDDPEGLKFLTS
                      TRTDFGPCGWETLLPEEDMTLDRMTGANHFSMMKGEFAKRLSEMIEGFLMIGN"
+                     /Pfam="SAT2, PKS_KS, PKS_AT, fPKS_PT, ACP_PCP,
+                     Thioesterase"
      CDS             15867..17060
                      /codon_start=1
                      /locus_tag="G4B84_001194"
                      /product="transcription factor Znf27"
-                     /label=znf27
+                     /label="znf27"
                      /note="revised sequence"
                      /protein_id="QMW25949.1"
                      /translation="MEMSSKGPIPPQYTEKPQAPRRLRSTCDRCTVLKVRCDKKKPRCE
@@ -130,6 +134,7 @@ FEATURES             Location/Qualifiers
                      RAEATCRLERGSGLPSNDHILKINRTAAQNLDLFLSRDCTDCLEDTNIPLLIVTTMSKA
                      ISWYRAVFDRIDQYSPTKSTVNLMEPLPVTPIYFGDFELDIVAEHRITAQVLLCELGYY
                      SKVLSLIRESALGRTRDGREPIGAFLGTVSHFLSTTLNDLTSKVDDFCTSKPSFTVC"
+                     /Pfam="EqxR"
 ORIGIN
         1 atggacacga agagaaaaca ggcagacgaa gaaggtcgaa acatcgagga agccgacatg
        61 gataatgtcg gaaatggcac gcatgtggca acacgcgatc tggagaaagt ctctggtagt

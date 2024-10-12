@@ -1,27 +1,27 @@
-LOCUS       FBGC00238       17086 bp DNA     linear   UNA 27-JAN-2023
+LOCUS       FBGC00238              17086 bp    DNA     linear   UNA 27-JAN-2023
 DEFINITION  bikaverin.
 ACCESSION   FBGC00238
-VERSION     .
+VERSION     FBGC00238
 KEYWORDS    .
 SOURCE      Fusarium fujikuroi IMI 58289
   ORGANISM  Fusarium fujikuroi IMI 58289
+            .
 REFERENCE   1  (bases 1 to 17086)
-  AUTHORS   Wiemann P, Willmann A, Straeten M, Kleigrewe K, Beyer M, Humpf HU, 
+  AUTHORS   Wiemann P, Willmann A, Straeten M, Kleigrewe K, Beyer M, Humpf HU,
             Tudzynski B.
-  TITLE     Biosynthesis of the red pigment bikaverin in Fusarium fujikuroi: 
+  TITLE     Biosynthesis of the red pigment bikaverin in Fusarium fujikuroi:
             genes, their function and regulation.
   JOURNAL   Mol Microbiol 2009;72:931-46
-  PUBMED    19400779
+   PUBMED   19400779
 REFERENCE   2  (bases 1 to 17086)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Jan 27, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1111/j.1365-2958.2009.06695.x"; journalName: "Mol Microbiol"; 
+  JOURNAL   Exported Jan 27, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1111/j.1365-2958.2009.06695.x"; journalName: "Mol Microbiol";
             date: "2009"; volume: "72"; pages: "931-46"
-COMMENT     Sequencing was performed by Eurofins MWG Operon, Germany Guldener 
-            U., Wiemann P., Sieber C., Munsterkotter M., Tudzynski B. 
+            Sequencing was performed by Eurofins MWG Operon, Germany Guldener
+            U., Wiemann P., Sieber C., Munsterkotter M., Tudzynski B.
             Westfaelische Wilhelms-Universitaet Muenster
             Institut fuer Biologie und Biotechnologie der Pflanzen, Schlossplatz
             8, 48143 Muenster, Germany
@@ -37,7 +37,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="FFUJ_06742"
                      /product="polyketide synthase Bik1"
-                     /label=bik1
+                     /label="bik1"
                      /db_xref="EnsemblGenomes-Gn:FFUJ_06742"
                      /db_xref="EnsemblGenomes-Tr:CCT67991"
                      /db_xref="GOA:S0DZM7"
@@ -94,11 +94,13 @@ FEATURES             Location/Qualifiers
                      EVVESLILIDSPNPVGLGKLPKRMYDFLEKSGIFGAFEMGEEAQAPPDWLFQHFCVFIE
                      ALDRYVPEPFEHGMAPKTTIIWAADGVCKNPDDPRPEAQPDDPRGMNWLLNNREDFGPN
                      GWDEFIGAGNISTMAIENANHFTMMREPIASALCAKIRETMGVN"
+                     /Pfam="SAT2, PKS_KS, PKS_AT, fPKS_PT, ACP_PCP,
+                     Thioesterase"
      CDS             complement(join(7004..7917,7970..8223,8280..8581))
                      /codon_start=1
                      /locus_tag="FFUJ_06743"
                      /product="FAD-dependent monooxygenase Bik2"
-                     /label=bik2
+                     /label="bik2"
                      /db_xref="EnsemblGenomes-Gn:FFUJ_06743"
                      /db_xref="EnsemblGenomes-Tr:CCT67992"
                      /db_xref="GOA:S0E2X6"
@@ -115,11 +117,12 @@ FEATURES             Location/Qualifiers
                      SGDKLSSDVVKSVLASYAQERAQPATTALERSQMVGKALLCTPGPATTLVKDMLKLSNE
                      DWLLRAFMALSAAPYLEDVELTARGHLYNKAVEEARAEMARRQRVAKEVKEAEEKESKQ
                      AASIKESEQRNEFVGLRNPVQAATGVVEVGS"
+                     /Pfam="FAD_binding_3"
      CDS             join(8983..9309,9360..9872,9925..10446)
                      /codon_start=1
                      /locus_tag="FFUJ_06744"
                      /product="methyltransferase Bik3"
-                     /label=bik3
+                     /label="bik3"
                      /db_xref="EnsemblGenomes-Gn:FFUJ_06744"
                      /db_xref="EnsemblGenomes-Tr:CCT67993"
                      /db_xref="GOA:S0E608"
@@ -137,11 +140,12 @@ FEATURES             Location/Qualifiers
                      GGNIGHSCVKLAEAFPDLNFIIQDIPHVVEEGAKVIKENNEASIANRIQFQEYDFFQKQ
                      PVVGADIYLLRQIFHNWDFENSVKILKNTVESMGQNSHVLIMDFVVPEPGTVSSVNERV
                      LRSRDVGMMQLFNSLERDLEGWKAILEAVDSRLKINAVNTPYGSFMSVIDVVLG"
+                     /Pfam="MdpA"
      CDS             11218..12198
                      /codon_start=1
                      /locus_tag="FFUJ_06745"
                      /product="short-chain dehydrogenase/reductase Bik4"
-                     /label=bik4
+                     /label="bik4"
                      /db_xref="EnsemblGenomes-Gn:FFUJ_06745"
                      /db_xref="EnsemblGenomes-Tr:CCT67994"
                      /db_xref="InterPro:IPR008030"
@@ -154,11 +158,12 @@ FEATURES             Location/Qualifiers
                      NPLRIYLDRSSEPKQVNLLAPEVPHDPIDPKDIGRAAAAVLVNPRLYASGYQGEPKKDV
                      VYLSGPALLSQTEQWEIINRELVAAGKPEVKVNHITVEQYLENLAKLHVPDVVAKSLAK
                      SMVETRALYAPEDYEKSRGNVELLTGRKATAFDEFVKREIPRYFD"
+                     /Pfam="NmrA"
      CDS             complement(join(12388..14232,14307..14428,14487..14751))
                      /codon_start=1
                      /locus_tag="FFUJ_06746"
                      /product="transcription factor Bik5"
-                     /label=bik5
+                     /label="bik5"
                      /db_xref="EnsemblGenomes-Gn:FFUJ_06746"
                      /db_xref="EnsemblGenomes-Tr:CCT67995"
                      /db_xref="GOA:S0E028"
@@ -179,12 +184,13 @@ FEATURES             Location/Qualifiers
                      AQCDQAWDCVTTVYEGWKVDESKQDETRLALWRPIKRLMAKARYVKEMQQTTPGRSSNA
                      GRKVQRRDPVLYSPSPGLFSQYPTPAYSNNWYGPLQQTPPSIPGSEASLPGMATVPLDS
                      SGQSDALQRVLGTETLGPFMDMIPEWPWVDAEHGASSLAGFDLGLPRFN"
+                     /Pfam="Zn_clus, Fungal_trans"
      CDS             join(15261..15599,15661..16062,16163..16280,16382..16636,
                      16743..17086)
                      /codon_start=1
                      /locus_tag="FFUJ_06747"
                      /product="major facilitator superfamily transporter Bik6"
-                     /label=bik6
+                     /label="bik6"
                      /db_xref="EnsemblGenomes-Gn:FFUJ_06747"
                      /db_xref="EnsemblGenomes-Tr:CCT67996"
                      /db_xref="GOA:S0DZN4"
@@ -201,6 +207,7 @@ FEATURES             Location/Qualifiers
                      VANNFKPVPEARLPPMMVGGFAFSAGLFLFGWTSVEHVSSPWPSIIGVFLTGVGFTTIF
                      QSSLQYLVDTFTRYSASAIAANTFVRSMAAGAFPLFVWPMYEKIGIDWGSTIFACISVL
                      LLPAPFLFFKWGYRIRARGEFSKLSTY"
+                     /Pfam="MFS_1"
 ORIGIN
         1 tcaatttacg cccattgtct cccggatctt cgcacagaga gccgacgcaa ttggctccct
        61 catcatagta aagtggttgg cattctcaat cgccattgtg ctgatgtttc ccgcgccaat

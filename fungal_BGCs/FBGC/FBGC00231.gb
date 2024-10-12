@@ -1,23 +1,23 @@
-LOCUS       FBGC00231       28860 bp DNA     linear   UNA 09-MAY-2023
+LOCUS       FBGC00231              28860 bp    DNA     linear   UNA 09-MAY-2023
 DEFINITION  radicicol.
 ACCESSION   FBGC00231
-VERSION     .
+VERSION     FBGC00231
 KEYWORDS    .
 SOURCE      Pochonia chlamydosporia ATCC 16683
   ORGANISM  Pochonia chlamydosporia ATCC 16683
+            .
 REFERENCE   1  (bases 1 to 28860)
   AUTHORS   Reeves CD, Hu Z, Reid R, Kealey JT.
-  TITLE     Genes for the biosynthesis of the fungal polyketides hypothemycin 
-            from Hypomyces subiculosus and radicicol from Pochonia 
+  TITLE     Genes for the biosynthesis of the fungal polyketides hypothemycin
+            from Hypomyces subiculosus and radicicol from Pochonia
             chlamydosporia.
   JOURNAL   Appl Environ Microbiol 2008;74:5121-9
-  PUBMED    18567690
+   PUBMED   18567690
 REFERENCE   2  (bases 1 to 28860)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported May 9, 2023 from SnapGene 6.2.2
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
+  JOURNAL   Exported May 9, 2023 from SnapGene 6.2.2 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
             "10.1128/AEM.00478-08"; journalName: "Appl Environ Microbiol"; date:
             "2008"; volume: "74"; pages: "5121-9"
 FEATURES             Location/Qualifiers
@@ -31,7 +31,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="Rdc1"
                      /product="polyketide synthase Rdc1"
-                     /label=rdc1
+                     /label="rdc1"
                      /protein_id="ACD39770.1"
                      /translation="MKSHTSAAKVVFLVGDQVDSWHNGLQHVIKAAGATPWLQSYLDDL
                      SNAIKAEIAEAALDNALHASLGTFSSLLELGERYRHRSDDLGMAQCLLLHAVRSSLFLQ
@@ -69,12 +69,14 @@ FEATURES             Location/Qualifiers
                      LAMFDAISGNDDSGVWESSDKTHQHLKALFASVSAYNPPPLAKGESPPAKRVALIWAQK
                      GMIDRCANSPRFRQILADRGLVTESYPGFMEDPKLGPVAWSLIHKTESDLGPNGWDKFV
                      GRDELLCMAVEADHLELPTPEFVHLLGEKMDMAFEHFGR"
-     CDS             join(7521..7645,7723..7819,7889..7928,8015..8422,8491..9033,
-                     9111..9457)
+                     /Pfam="SAT2, PKS_KS, PKS_AT, fPKS_PT, ACP_PCP,
+                     Thioesterase"
+     CDS             join(7521..7645,7723..7819,7889..7928,8015..8422,
+                     8491..9033,9111..9457)
                      /codon_start=1
                      /gene="Rdc2"
                      /product="FAD-dependent halogenase Rdc2"
-                     /label=rdc2
+                     /label="rdc2"
                      /protein_id="ACD39771.1"
                      /translation="MSVPKSCTILVAGGGPAGSYAAAALAREGNDVVLLEADQHPRYHI
                      GESMLPSLRPLLRFIDLEDKFDAHGFQKKLGAAFKLTSKREGSHGPRGYSWNVVRSESD
@@ -86,11 +88,12 @@ FEATURES             Location/Qualifiers
                      QFLRPEAVKKFTKEDVAQTIDFAVHALNNMAELDMDIPEHMINGDKEGENGVTNGNNGA
                      AKTAGLASNMEKLTNDEEKVLNGLRILGKAAPGGTLADFEGTAIDGLMPRLEHGKLGLN
                      KV"
+                     /Pfam="Trp_halogenase"
      CDS             join(10967..11238,11357..11530,11595..12768)
                      /codon_start=1
                      /gene="Rdc3"
                      /product="major facilitator superfamily transporter Rdc3"
-                     /label=rdc3
+                     /label="rdc3"
                      /protein_id="ACD39772.1"
                      /translation="MAPSQDLGERDQQQPPAPYPADLENGRYGRIPNGHGSTTGTEGSG
                      TLQLNEKDDATLRPNGSHDVKEEGQETSTNVVDWDGPDDPANPQNWTLSKKWLNISVVG
@@ -102,12 +105,13 @@ FEATURES             Location/Qualifiers
                      NGGDHKPEYRFPPMFMAGGLLPAGLFMYGWAVQHHVQWAVPLLGTLIAGIGICIISICI
                      NTYLVDTFTMYAASALAASAVLRSVFAAVLPLFALQMYNKLGLGWGNSLLAFVGLGMWP
                      ITFLFFVHGEKLRKNPKFQIKF"
+                     /Pfam="MFS_1"
      CDS             complement(join(17940..18102,18160..18358,18422..19520,
                      19587..19703))
                      /codon_start=1
                      /gene="Rdc4"
                      /product="cytochrome P450 monooxygenase Rdc4"
-                     /label=rdc4
+                     /label="rdc4"
                      /note="revised sequence"
                      /protein_id="ACD39773.1"
                      /translation="MGFLATTSTTGYRGSLPSGLLAKAEEHPVAFTVSIAISILLGYVV
@@ -120,11 +124,12 @@ FEATURES             Location/Qualifiers
                      PGTTLDGSASNMHIQSVVFYSQYASYHSPSHFARPHEFIPERWSQNPPAEFANDRLEAV
                      QAFSAGPRDCIGKNLAYHEARMLLAKFVFTYDIELCKESSDWIKQKVYIVGAKSPLWVK
                      LVKHERAD"
+                     /Pfam="p450"
      CDS             join(21651..25556,25615..28860)
                      /codon_start=1
                      /gene="Rdc5"
                      /product="polyketide synthase Rdc5"
-                     /label=rdc5
+                     /label="rdc5"
                      /protein_id="ACD39774.1"
                      /translation="MPSATAQDARAPIAIIGMSCRFPGDAEDPLKFWDLLKEGREAYSE
                      KTHRYNEEAFYHPGGQFNNKRQNVLPVKGGYMLKQDPYVFDAAFFNITAAEAISFDPKQ
@@ -167,6 +172,7 @@ FEATURES             Location/Qualifiers
                      AKCPVQVTVGLGTGDILARNKIREPDYFRDPRFGALAVCSSTSTAAASSGENGVSIASQ
                      LAGLSNEADPEEAAGPIITKALVSKLAKILQVPPSEIDSSRPMYRYGVDSLVAIEVRNW
                      ITKEMSANMSLMDILGAMPMEQFAVQIAKKSKLVGGS"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_DH, fPKS_ER, fPKS_KR, ACP_PCP"
 ORIGIN
         1 tcatcgtcca aagtgctcaa acgccatgtc catcttctca ccaagcaaat gcacaaactc
        61 aggcgtaggc aactccaaat gatccgcctc aactgccata cacaacaact catcgcgtcc

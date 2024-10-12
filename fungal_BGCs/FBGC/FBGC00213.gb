@@ -1,24 +1,24 @@
-LOCUS       FBGC00213       32090 bp DNA     linear   UNA 25-JAN-2023
+LOCUS       FBGC00213              32090 bp    DNA     linear   UNA 25-JAN-2023
 DEFINITION  ascochitine.
 ACCESSION   FBGC00213
-VERSION     .
+VERSION     FBGC00213
 KEYWORDS    .
 SOURCE      Ascochyta fabae 247/15
   ORGANISM  Ascochyta fabae 247/15
+            .
 REFERENCE   1  (bases 1 to 32090)
   AUTHORS   Kim W, Lichtenzveig J, Syme RA, Williams AH, Peever TL, Chen W.
-  TITLE     Identification of a Polyketide Synthase Gene Responsible for 
-            Ascochitine Biosynthesis in Ascochyta fabae and Its Abrogation in 
+  TITLE     Identification of a Polyketide Synthase Gene Responsible for
+            Ascochitine Biosynthesis in Ascochyta fabae and Its Abrogation in
             Sister Taxa.
   JOURNAL   mSphere 2019;4:e00622-19
-  PUBMED    31554725
+   PUBMED   31554725
 REFERENCE   2  (bases 1 to 32090)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Jan 26, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1128/mSphere.00622-19"; journalName: "mSphere"; date: "2019"; 
+  JOURNAL   Exported Jan 26, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1128/mSphere.00622-19"; journalName: "mSphere"; date: "2019";
             volume: "4"; pages: "e00622-19"
 FEATURES             Location/Qualifiers
      source          1..32090
@@ -29,7 +29,7 @@ FEATURES             Location/Qualifiers
      CDS             complement(1..1485)
                      /codon_start=1
                      /product="aldehyde dehydrogenase Orf1"
-                     /label=orf1
+                     /label="orf1"
                      /protein_id="QEN17969.1"
                      /translation="MSASKHIICEYSSEDPSKDFEVHNPATGAVIAIVRAGDATTLDKA
                      VQVAHKAFLEWKKVPLTRRSQLMFKCAEEVEKHAEELAELLTTENGKLLSDGRMVDVNF
@@ -40,19 +40,21 @@ FEATURES             Location/Qualifiers
                      GATIAAQGRLPDDAEEKDGFFVAPTLFTNVKHSMRIAQEEIFGPVVTACKFDSEEEAVS
                      IINGARWGLTCAIYSGNQELALRMCRQVDVGMTFINNYFRNTLGIPFGGVKETGYGREH
                      CIDTLKDWSTSKVIQMPSGLAPVPSWPPVNELLPWQ"
+                     /Pfam="Aldedh"
      CDS             join(1975..2199,2264..2599)
                      /codon_start=1
                      /product="cupin domain-containing protein Orf2"
-                     /label=orf2
+                     /label="orf2"
                      /protein_id="QEN17970.1"
                      /translation="MSAQKPITHFGLRDITRYTTTVDSNGNGVFSRADQGDFEATMGDG
                      RVARFDLFQAGQVPLNINDGADIKWSGENQPGLHVPNGVAFRMMDFAPEGGSDWHRAAL
                      FAFVIIVEGELELSLDGGETKVLLPGDTTLVRGPSHKVRNPSTAKPCRTLWVLLDITPT
                      HINGKLLKHEMGHHTGEYQEGSK"
+                     /Pfam="SrdD"
      CDS             complement(3329..4324)
                      /codon_start=1
                      /product="2OG-Fe(II)-dependent dioxygenase Orf3"
-                     /label=orf3
+                     /label="orf3"
                      /protein_id="QEN17971.1"
                      /translation="MPAATTSIFYLPDINIAPWLESPTSPSGQQVVDQVRKACTSTGFF
                      QLTGHGLSQDVVEDIFAASAKFFALPKDVKQGLNFTKNLGFRGYELIGAQVYESDVLPD
@@ -60,20 +62,22 @@ FEATURES             Location/Qualifiers
                      MDLVAATLPYGPDVFDEWKSHEPACPLRLLHYPPTPAHVAGKTRQLGSSAHTDFGALTL
                      LLQDSHEGLEVLNHDTGDWVLVPPKPGAFVVNIADMMTMVTVGEYKSSKHRVINRNETE
                      DRYSVVFFMDGNVDYKLRRLDKIGQPIGDDEDLLTVEDYMLGKRNSTYVK"
+                     /Pfam="DIOX_N, 2OG-FeII_Oxy"
      CDS             5053..5865
                      /codon_start=1
                      /product="hydrolase Orf4"
-                     /label=orf4
+                     /label="orf4"
                      /protein_id="QEN17972.1"
                      /translation="MPSSEASPAAGLSEDSTRHLPRILCLHGGGTNARIFKAQCRQLSA
                      QLKRDFRFIYAEAPWISIAGPDVLAVYGQWGPFKRWLRWSPEQPDITTQETVKELDQCL
                      ARAVEADNACGTTGEVVAILGFSQGAKVAASVLYWQQRSGQSLGLRASNSGYRFGVLLA
                      GSSPLVDLSTCEGDSNGLSENAWPGDDMIGPRALDCDTHKLIIPTLHVHGLQDRGLRLH
                      RALMEDFCAPESTTLIEWDGVHRVPLNRAEVSRVAGQIRKLAGLTSNS"
+                     /Pfam="FSH1"
      CDS             join(6823..7467,7527..14819)
                      /codon_start=1
                      /product="polyketide synthase PksAC"
-                     /label=pksAC
+                     /label="pksAC"
                      /note="NR-PKS"
                      /protein_id="QEN17973.1"
                      /translation="MPHRLPSHGASLGLIFGPQAMNFDSNTFTTLRAKLVKDRHSQWAI
@@ -122,10 +126,12 @@ FEATURES             Location/Qualifiers
                      LDNANSVASAHPIYHIENPSRQSYSEMIRVLADSLFIDHANIIPFYDWVQRVRDFEGPV
                      TENPAKQVVDFFDEHFLRMSCGDLVLDTVKSREISATLRARGVITSDLVNKYVEAWRRA
                      GVLR"
+                     /Pfam="SAT2, PKS_KS, PKS_AT, fPKS_PT, ACP_PCP, HTH_51,
+                     PKS_NRPS_MT, fPKS_R"
      CDS             complement(join(15270..15626,15685..16515,16579..16944))
                      /codon_start=1
                      /product="major facilitator superfamily transporter Orf6"
-                     /label=orf6
+                     /label="orf6"
                      /protein_id="QEN17974.1"
                      /translation="MSPDSRDPEAQRDVGLTKNTSSVNIPLESVKTDKTSNASPIMGPG
                      EGPKIDDTLVSWSGPDDSQNPQNMPQWKKWVITWLLSFLNVWVTFSSTIFASAVRTTSL
@@ -137,11 +143,12 @@ FEATURES             Location/Qualifiers
                      IGLFWFGWTSSRSVHWFAQTAAGFPIGIGLALIWVQGLSFLIDVYLMFANSALAGNTLI
                      RSAVGAAFPLFGAPMYHKLGVNWASSLLGFLSVAMIPIPVAFYYYGPKIRAMSKFSPKL
                      "
+                     /Pfam="MFS_1"
      CDS             complement(join(17899..19957,20010..22360,22411..22599,
                      22648..22758,22809..23635,23688..23811))
                      /codon_start=1
                      /product="polyketide synthase Orf7"
-                     /label=orf7
+                     /label="orf7"
                      /note="HR-PKS"
                      /protein_id="QEN17975.1"
                      /translation="MPSTDSSTKGTQDVAIVGLSCRFSGSATSANKFWDMLCNGESGHS
@@ -177,11 +184,12 @@ FEATURES             Location/Qualifiers
                      FSLLHTTIVEAQQDTATQQQPAATPPDLVAKHTTGDLLRQATSTEDVTDLVLEILIVKV
                      AKHLEQNVANIDPEEPLYTYGVDSLVAIEFRNWIMKEFAADIALLDITAEEPMFDLVDK
                      IVAKSKFLSVPS"
+                     /Pfam="PKS_KS, fPKS_DH, fPKS_ER, fPKS_KR, ACP_PCP"
      CDS             join(24597..24907,24955..25237,25294..25839)
                      /codon_start=1
-                     /product="standalone starter-unit acyltransferase domain 
+                     /product="standalone starter-unit acyltransferase domain
                      Orf8"
-                     /label=orf8
+                     /label="orf8"
                      /protein_id="QEN17976.1"
                      /translation="MVLQKLGDAQRILVFGDSTIENKLPVIRALWEASESHPLLKAFLQ
                      QAVEIIQEETQKLASHEGSLFLHCIDVLEVAEVYAEADEPDELIASVLALVARFGALVL
@@ -190,11 +198,12 @@ FEATURES             Location/Qualifiers
                      SVILHIARQCPILSQISQVPTTAAMAVHASHLSRPDVNWILGSLPGLETPVLPDRLIVS
                      TSTGKPFLAKTLRELIQSIIADISMNILDIDGTIHGICSGLDMTKPVVISAMGPSPNIP
                      ALTRRLASGGVQLKTFAVIAGDRPRRVVPRRPSSSGYSS"
+                     /Pfam="SAT2"
      CDS             complement(join(26212..27840,27897..28133))
                      /codon_start=1
-                     /product="glucose-methanol-choline family oxidoreductase 
+                     /product="glucose-methanol-choline family oxidoreductase
                      Orf9"
-                     /label=orf9
+                     /label="orf9"
                      /protein_id="QEN17977.1"
                      /translation="MPYTTIDDLVNSALDYVIIGGGTAGLVLAARLSEKDSVNVGVIEA
                      GLSRLGDPKVDMPTGAALMLGNEDYDWNFKSVPQAASKDRVYHIPRGKMLGGSSAINFM
@@ -207,19 +216,21 @@ FEATURES             Location/Qualifiers
                      PGSPAGYNACYSLVVSQMYPLSRGSVHSTSSNPLDAPEIDPGFLSHPADVDVIAAGIQF
                      ADRVLSSEALRGKVGRRVVPPPSLDLQDRDQVRDFVREHIVTYHHSLGTCAMGQVVDER
                      LRVKGVRSLRVVDASVMPMQVSTAILATVYAVAEKAADMILADHP"
+                     /Pfam="GMC_oxred_N, GMC_oxred_C"
      CDS             join(29254..29311,29376..29575,29637..29765)
                      /codon_start=1
                      /product="glyoxalase-like protein Orf10"
-                     /label=orf10
+                     /label="orf10"
                      /protein_id="QEN17978.1"
                      /translation="MVLHGQISGIEIPATDVERAAKFYSDTFGWKFQAPANGTIPASKM
                      QTFTAPGDIFPDEGVVSKVEEIPKSGAKFYINVDDLKATIEAVTKNGGKQLSDVISLGP
                      HVPPFQFFHDTEGNTHAICTRPGK"
+                     /Pfam="Glyoxalase_6"
      CDS             complement(join(30188..31006,31063..31570,31633..32002,
                      32066..32090))
                      /codon_start=1
                      /product="transcription factor Orf11"
-                     /label=orf11
+                     /label="orf11"
                      /protein_id="QEN17979.1"
                      /translation="MAALRKRIAELEGRLASQEPAEREEHEEVTHNILDFPGDDHLPDW
                      NDFNNMSLPTSNNTSVGDTETSFSNFIASTTAQSMPMTMASLTSTPVTTASLTTAALMP
@@ -231,6 +242,7 @@ FEATURES             Location/Qualifiers
                      ASGPMMHFVSTMAQCSIIYSCTGADMMLRVDEGNAAMQTEYALRAATAAEHVIRLAQML
                      TRCFVFKVLSFSPPSFTTQHRHTSEKKYTLTRRQQIHPLASIPLMLCAEFLFKNQNVSE
                      KFATLLERLLKEFEQIRDIEDPAQSYIDVMKRWQCSAKNSDRQQRQPSVDSAALSA"
+                     /Pfam="Fungal_trans"
 ORIGIN
         1 ctactgccat ggcagcaact cattgactgg aggccatgat ggtactggag ctagaccaga
        61 cggcatttgg atcacctttg acgtcgacca gtctttcagc gtatcgatgc agtgctccct

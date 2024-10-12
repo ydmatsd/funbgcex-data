@@ -1,22 +1,22 @@
-LOCUS       FBGC00240        9238 bp DNA     linear   UNA 27-JAN-2023
+LOCUS       FBGC00240               9238 bp    DNA     linear   UNA 27-JAN-2023
 DEFINITION  endocrocin.
 ACCESSION   FBGC00240
-VERSION     .
+VERSION     FBGC00240
 KEYWORDS    .
 SOURCE      Aspergillus fumigatus Af293
   ORGANISM  Aspergillus fumigatus Af293
+            .
 REFERENCE   1  (bases 1 to 9238)
   AUTHORS   Lim FY, Hou Y, Chen Y, Oh JH, Lee I, Bugni TS, Keller NP.
-  TITLE     Genome-based cluster deletion reveals an endocrocin biosynthetic 
+  TITLE     Genome-based cluster deletion reveals an endocrocin biosynthetic
             pathway in Aspergillus fumigatus.
   JOURNAL   Appl Environ Microbiol 2012;78:4117-25
-  PUBMED    22492455
+   PUBMED   22492455
 REFERENCE   2  (bases 1 to 9238)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Jan 27, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
+  JOURNAL   Exported Jan 27, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
             "10.1128/AEM.07710-11"; journalName: "Appl Environ Microbiol"; date:
             "2012"; volume: "78"; pages: "4117-25"
 FEATURES             Location/Qualifiers
@@ -31,14 +31,13 @@ FEATURES             Location/Qualifiers
                      /locus_tag="AFUA_4G00210"
                      /old_locus_tag="Afu4g00210"
                      /product="polyketide synthase EncA"
-                     /label=encA
-                     /note="encoded by transcript AFUA_4G00210A;
-                     similar to polyketide synthase (GI:19979593) [Aspergillus 
-                     terreus];
-                     GO_function: GO:0004315 - 3-oxoacyl-[acyl-carrier-protein] 
-                     synthase activity;
-                     GO_function: GO:0016218 - polyketide synthase activity; 
-                     GO_process: GO:0019748 - secondary metabolic process"
+                     /label="encA"
+                     /note="encoded by transcript AFUA_4G00210A; similar to
+                     polyketide synthase (GI:19979593) [Aspergillus terreus];
+                     GO_function: GO:0004315 - 3-oxoacyl-[acyl-carrier-protein]
+                     synthase activity; GO_function: GO:0016218 - polyketide
+                     synthase activity; GO_process: GO:0019748 - secondary
+                     metabolic process"
                      /protein_id="EAL84397.1"
                      /translation="MQGPSQLALFYFANGLPPDDIQDLFQRLRSQSKTESGWTLRAFVV
                      QATNALREEIRQLPHHLRNPLTPLDNALDLAVVPDWRRGPLAGALEGVLLCLIEIGSLI
@@ -71,15 +70,16 @@ FEATURES             Location/Qualifiers
                      SVHQPACSERTLPVGPARQDSAARETLCQGHGLSRTVMDSSDSSPATTLTPPTLPSVAA
                      STESPIVHRAMALIAAETAIELTELSDETAFSSIGVDSLLSLVLAEKFTAEFHLDFRSS
                      LFLDCPTIGDLKAWLIDYC"
+                     /Pfam="SAT2, PKS_KS, PKS_AT, fPKS_PT, ACP_PCP"
      CDS             complement(join(5863..6678,6738..6869))
                      /codon_start=1
                      /locus_tag="AFUA_4G00220"
                      /old_locus_tag="Afu4g00220"
                      /product="metallo-beta-lactamase-like thioesterase EncB"
-                     /label=encB
-                     /note="encoded by transcript AFUA_4G00220A;
-                     GO_function: GO:0003824 - catalytic activity;
-                     GO_process: GO:0008152 - metabolic process"
+                     /label="encB"
+                     /note="encoded by transcript AFUA_4G00220A; GO_function:
+                     GO:0003824 - catalytic activity; GO_process: GO:0008152 -
+                     metabolic process"
                      /protein_id="EAL84396.1"
                      /translation="MDQYSNLFAFEDYLGAQARSIPDLPEVDVLSPRVVRVLGGNPGQM
                      QLQGTNTYILGTGAERLLIDSGQGRARWEQLMASLAAEHKFRISTVLLTHWHLDHTGGV
@@ -87,29 +87,30 @@ FEATURES             Location/Qualifiers
                      EEEAIFTGDTVLGHGTTGVEDLEEYMQSLRKIQSLGCRIGYPGHGAVIENMQQKVQQEI
                      DRKQRRERQVLLALQNIQREKRTVGDANGAATQAELIEAIFGRLPADVADRFFAPYMKD
                      ILMKMARDKQVGFRFKGGQKHWFANVSQENPVCR"
+                     /Pfam="Lactamase_B"
      CDS             join(7182..7242,7324..7808)
                      /codon_start=1
                      /locus_tag="AFUA_4G00225"
                      /product="anthrone oxygenase EncC"
-                     /label=encC
+                     /label="encC"
                      /note="encoded by transcript AFUA_4G00225A"
                      /protein_id="EBA27176.1"
                      /translation="MASVQGLIKIVAITGGVWLSGKITAHSLVSVPALLQTRSADGLSP
                      CTILRVWRRIYEQGHRHSPQIAACTSTAFAYLAWCASDRTPRLLYGTAACSVMGIVPYT
                      LLFMGPTNSRLLERSAAEEEKVPGATRGEDMVNVPSEMTTEELLSHWRFLAGIRGLLPL
                      AGGILGLFAALYSNEGAR"
+                     /Pfam="Anthrone_oxy"
      CDS             complement(8114..9238)
                      /codon_start=1
                      /locus_tag="AFUA_4G00230"
                      /old_locus_tag="Afu4g00230"
                      /product="2OG-Fe(II)-dependent dioxygenase EncD"
-                     /label=encD
-                     /note="encoded by transcript AFUA_4G00230A;
-                     similar to GB:AAO54300.1: oxidoreductase, 2OG-Fe(II) 
-                     oxygenase family [Pseudomonas syringae pv. tomato]; 
-                     GO_function: GO:0016491 - oxidoreductase activity; 
-                     GO_process: GO:0008152 - metabolic process
-                     revised sequence"
+                     /label="encD"
+                     /note="encoded by transcript AFUA_4G00230A; similar to
+                     GB:AAO54300.1: oxidoreductase, 2OG-Fe(II) oxygenase family
+                     [Pseudomonas syringae pv. tomato]; GO_function: GO:0016491
+                     - oxidoreductase activity; GO_process: GO:0008152 -
+                     metabolic process revised sequence"
                      /protein_id="EAL84395.2"
                      /translation="MTKPQPPPILDFSVFYGHDSQAKAQLVQRVRECCLNNGFFQITGH
                      KVSPELQRRTFDCAKRFFDLPLIEKKKIERSKNYPWYPADKQLTLAGPDAFNRGYEAFQ
@@ -118,6 +119,7 @@ FEATURES             Location/Qualifiers
                      DYSCITLLLQDGTGGLQVLDEPTGQWLDVRCSLSNGNLVQCVAYSCNLQVKPVPGAYIV
                      NLANVFARMTNGHYKSALHRVVNKSGMERYSIPFFFTGNPDYVCECLSRFRKEGEPVRH
                      PPATVHEVVAEAVRGTVERANRYNAERQGIHAAQ"
+                     /Pfam="DIOX_N, 2OG-FeII_Oxy"
 ORIGIN
         1 tcaacaataa tcaatcaacc aggctttgag atcaccaatg gtgggacagt cgaggaacaa
        61 ggagctccga aaatccagat gaaattcagc tgtgaacttc tccgccagca cgagtgataa

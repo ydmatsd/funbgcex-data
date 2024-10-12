@@ -1,40 +1,28 @@
-LOCUS       FBGC00206       40517 bp DNA     linear   UNA 09-MAY-2023
+LOCUS       FBGC00206              40517 bp    DNA     linear   UNA 09-MAY-2023
 DEFINITION  azanigerone A.
 ACCESSION   FBGC00206
-VERSION     .
+VERSION     FBGC00206
 KEYWORDS    .
 SOURCE      Aspergillus niger ATCC 1015
   ORGANISM  Aspergillus niger ATCC 1015
+            .
 REFERENCE   1  (bases 1 to 40517)
   AUTHORS   Zabala AO, Xu W, Chooi YH, Tang Y.
-  TITLE     Characterization of a silent azaphilone gene cluster from 
-            Aspergillus niger ATCC 1015 reveals a hydroxylation-mediated 
+  TITLE     Characterization of a silent azaphilone gene cluster from
+            Aspergillus niger ATCC 1015 reveals a hydroxylation-mediated
             pyran-ring formation.
   JOURNAL   Chem Biol 2012;19:1049-59
-  PUBMED    22921072
+   PUBMED   22921072
 REFERENCE   2  (bases 1 to 40517)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported May 9, 2023 from SnapGene 6.2.2
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1016/j.chembiol.2012.07.004"; journalName: "Chem Biol"; date: 
-            "2012"; volume: "19"; pages: "1049-59"
-COMMENT     URL -- http://www.jgi.doe.gov/aspergillus
-            JGI Project ID: 4000237
-            Source DNA is available from Ziyu Dai (ziyu.dai@pnl.gov)
-            Culture Source: ATCC: ATCC 1015, FGSC A1144 (Kevin McCluskey 
-            (mccluskeyk@umkc.edu)
-            Contacts: Scott Baker (scott.baker@pnl.gov)
-                      Igor Grigoriev (ivgrigoriev@lbl.gov)
-            Annotation done by the JGI and the Aspergillus niger Consortium. 
-            This project consists of 24 contigs. We have associated 21 Contigs 
-            with chromosomes 1-8. Three contigs could not be placed on any of 
-            the chromosomes.##Genome-Assembly-Data-START##
+  JOURNAL   Exported May 9, 2023 from SnapGene 6.2.2 https://www.snapgene.com
+COMMENT     ##Genome-Assembly-Data-START##
             Assembly Method       :: JAZZ v. 2.7
             Genome Coverage       :: 8.9x
             Sequencing Technology :: Sanger
-            ##Genome-Assembly-Data-END####Metadata-START##
+            ##Genome-Assembly-Data-END##
+            ##Metadata-START##
             Organism Display Name :: Aspergillus niger ATCC 1015
             GOLD Stamp ID         :: Gi00977
             Cell Shape            :: Filament-shaped
@@ -44,6 +32,19 @@ COMMENT     URL -- http://www.jgi.doe.gov/aspergillus
             Sequencing Technology :: Sanger
             Sequencing Depth      :: 8.9x
             ##Metadata-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1016/j.chembiol.2012.07.004"; journalName: "Chem Biol"; date:
+            "2012"; volume: "19"; pages: "1049-59"
+            URL -- http://www.jgi.doe.gov/aspergillus
+            JGI Project ID: 4000237
+            Source DNA is available from Ziyu Dai (ziyu.dai@pnl.gov)
+            Culture Source: ATCC: ATCC 1015, FGSC A1144 (Kevin McCluskey
+            (mccluskeyk@umkc.edu)
+            Contacts: Scott Baker (scott.baker@pnl.gov)
+            Igor Grigoriev (ivgrigoriev@lbl.gov)
+            Annotation done by the JGI and the Aspergillus niger Consortium.
+            This project consists of 24 contigs. We have associated 21 Contigs
+            with chromosomes 1-8. Three contigs could not be placed on any of
 FEATURES             Location/Qualifiers
      source          1..40517
                      /strain="ATCC 1015"
@@ -56,11 +57,11 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="ASPNIDRAFT_50208"
                      /product="esterase AzaC"
-                     /label=azaC
+                     /label="azaC"
                      /note="hypothetical protein with
-                     esterase/lipase/thioesterase and signal peptide motifs; 
-                     GO_component: GO:5576 - extracellular region;
-                     GO_function: GO:3824 - catalytic activity"
+                     esterase/lipase/thioesterase and signal peptide motifs;
+                     GO_component: GO:5576 - extracellular region; GO_function:
+                     GO:3824 - catalytic activity"
                      /db_xref="JGIDB:Aspni5_50208"
                      /protein_id="EHA28230.1"
                      /translation="MPAKLPDDTTLRLPRILCLHGGGTNARIFRAQCRVLSTLLSPHFR
@@ -68,11 +69,12 @@ FEATURES             Location/Qualifiers
                      RSGADGEWVAVLGFSQGARLAASLLFQEQNGGSGMVGVYGGVNFRFAVLLAGRGPMIPL
                      DMDAMASVSSAVLSLPTIHVHGLQDPGLEHHRELLERYCNRETASLIEWEGNHRVPIKM
                      KDARVVVEEILKIAQKTGCLVPPTIQGGGTSNCGALLLDR"
+                     /Pfam="FSH1"
      CDS             complement(1120..2502)
                      /codon_start=1
                      /locus_tag="ASPNIDRAFT_189181"
                      /product="acyltransferase AzaD"
-                     /label=azaD
+                     /label="azaD"
                      /db_xref="InterPro:IPR003480"
                      /db_xref="JGIDB:Aspni5_189181"
                      /protein_id="EHA28231.1"
@@ -85,12 +87,13 @@ FEATURES             Location/Qualifiers
                      ARHMRRELNRANTAYHVRSFATFIAQEPDKSTIAYGGRFNPDTDVGSSSVLRVDLFPVF
                      GKLGRPDFIRRPNFPGIPFPSLLYFFPQNPQGECDSLTCLTDADMEALNQDSEWTSMVE
                      YIG"
+                     /Pfam="Transferase"
      CDS             join(2911..2944,3010..3061,3110..3242,3308..3598,
                      3660..4166)
                      /codon_start=1
                      /locus_tag="ASPNIDRAFT_212676"
                      /product="short-chain dehydrogenase/reductase AzaE"
-                     /label=azaE
+                     /label="azaE"
                      /db_xref="JGIDB:Aspni5_212676"
                      /protein_id="EHA28232.1"
                      /translation="MGSLAKKVLLTGGTGFIASHILTELLDAGYQVVVTVRTHDKGRQL
@@ -99,12 +102,13 @@ FEATURES             Location/Qualifiers
                      VTYRASKIFAERAAFDFIENDKPNFDLVTINPPLVFGPKPRHVTDLKALNTSNHIIRDT
                      MLGKWKDGGAPIAIPFTWVDVRDVAFAHRQALELPEVSGQRFFTVAGHFSNKRIAEAIR
                      ATHPELADRLPPSDVPDDLPEGIYGFDNSKSRKVLGMTFRDLNTCVGDAVTSMLEQA"
+                     /Pfam="Epimerase"
      CDS             complement(join(4402..5322,5374..5814,5877..6014,
                      6074..6166))
                      /codon_start=1
                      /locus_tag="ASPNIDRAFT_188806"
                      /product="CoA ligase azaF"
-                     /label=azaF
+                     /label="azaF"
                      /note="GO_function: GO:3824 - catalytic activity;
                      GO_process: GO:8152 - metabolic process"
                      /db_xref="InterPro:IPR000873"
@@ -120,12 +124,13 @@ FEATURES             Location/Qualifiers
                      PSANESAFDKDGFYRTGDLGYCDGKTRKWYLLDRKKDIIKVRGFQVAPAEVEGVLRNHP
                      RIQDVAVVGVYDAEAKTEYPRAYVVRQDQSLREEEVKEFVALRLAKYKRLDGGVRFIDA
                      IPRNASGKILKRLL"
+                     /Pfam="AA-adenyl-dom"
      CDS             complement(join(6559..6748,6804..7186,7237..7839,
                      7896..8123))
                      /codon_start=1
                      /locus_tag="ASPNIDRAFT_189194"
                      /product="FAD-linked oxidoreductase AzaG"
-                     /label=azaG
+                     /label="azaG"
                      /note="GO_component: GO:5576 - extracellular region"
                      /db_xref="InterPro:IPR006094"
                      /db_xref="JGIDB:Aspni5_189194"
@@ -139,12 +144,13 @@ FEATURES             Location/Qualifiers
                      NIYSIGLNHTDVPAWESYMEQLLQFYRQNPTYDGRFLVQRYPTQGALSTLDSNTAYPHR
                      QIKMHINLEGWYTDPYLEDPVNAFLKQSRRHFQQSSGFDNLAVYVNYAHGDEGPDVWYT
                      AEKLENLTRL"
+                     /Pfam="FAD_binding_4"
      CDS             8675..10006
                      /codon_start=1
                      /locus_tag="ASPNIDRAFT_188800"
                      /product="FAD-dependent monooxygenase AzaH"
-                     /label=azaH
-                     /note="GO_function: GO:4497 - monooxygenase activity; 
+                     /label="azaH"
+                     /note="GO_function: GO:4497 - monooxygenase activity;
                      GO_process: GO:6725 - aromatic compound metabolic process
                      revised sequence"
                      /db_xref="InterPro:IPR000733"
@@ -158,15 +164,15 @@ FEATURES             Location/Qualifiers
                      IDLLPDPIDQWAVFDTYDHPPNTYSRGAVCIAGDAAHAAAPHHGAGAGCGVEDAAVLCA
                      VLHMAAKKVNTAKTGSEGKAALITAAFETYDSVCRERAQWLVESSRVIGNLYEWQDKEV
                      GSDASRCHDEVYWRSHRIWDYDIDAMMRETAEVFEAQVAGVARN"
+                     /Pfam="ElcH"
      CDS             complement(join(10193..10368,10438..10514,10560..11191,
                      11250..11635,11704..11845,11902..12012))
                      /codon_start=1
                      /locus_tag="ASPNIDRAFT_43449"
                      /product="cytochrome P450 monooxygenase AzaI"
                      /EC_number="1.14.14.1"
-                     /label=azaI
-                     /note=". hypothetical protein.
-                     revised sequence"
+                     /label="azaI"
+                     /note=". hypothetical protein. revised sequence"
                      /db_xref="InterPro:IPR001128"
                      /db_xref="JGIDB:Aspni5_43449"
                      /protein_id="EHA28236.1"
@@ -179,16 +185,16 @@ FEATURES             Location/Qualifiers
                      IRTLPENFRHDELRHLPYLNQVITETLRKYAVVSSALPRVVPAGGATLAGYYLPGGTTV
                      STQAYTLHRNEAIFPNPEKYKPNPKFDPSRWESPTQEMKDAYMPFGGASRMCIGNSLAL
                      MEIRLTTTLFLRRFPEVQMSRQNGMRDEDLAQEQYLIMAPRGHRLLVEA"
+                     /Pfam="p450"
      CDS             join(12708..13322,13384..20622)
                      /codon_start=1
                      /locus_tag="ASPNIDRAFT_56946"
                      /product="polyketide synthase AzaA"
-                     /label=azaA
-                     /note="GO_function: GO:3824; cofactor binding - catalytic 
-                     activity [Evidence 16740] [PMID 48037];
-                     GO_process: GO:6633; metabolic process - fatty acid 
-                     biosynthetic process [PMID 8152]
-                     revised sequence"
+                     /label="azaA"
+                     /note="GO_function: GO:3824; cofactor binding - catalytic
+                     activity [Evidence 16740] [PMID 48037]; GO_process:
+                     GO:6633; metabolic process - fatty acid biosynthetic
+                     process [PMID 8152] revised sequence"
                      /db_xref="InterPro:IPR000794"
                      /db_xref="InterPro:IPR001227"
                      /db_xref="InterPro:IPR006163"
@@ -239,16 +245,18 @@ FEATURES             Location/Qualifiers
                      TLQVFPDFTGDLCWTPVNDVAATLSDLLLRSTHSNSTTDQPIYHIDNPVRQSWSEMVPV
                      LIDALGIPAQNVIPFADWVCRVRAFPGQVEWDNPSALLIDFLDDHFLRMSCGGLLLDTK
                      RACEHSPTLAAVGPVTAELARKYIQSWKEMGFLNP"
+                     /Pfam="SAT2, PKS_KS, PKS_AT, fPKS_PT, ACP_PCP, HTH_51,
+                     PKS_NRPS_MT, fPKS_R"
      CDS             complement(join(21123..22308,22366..22522,22586..22814))
                      /codon_start=1
                      /locus_tag="ASPNIDRAFT_132962"
                      /product="transcription factor AzaR"
-                     /label=azaR
-                     /note="GO_component: GO:5634 - nucleus;
-                     GO_function: GO:3700; zinc ion binding - transcription 
-                     factor activity [Evidence 3677] [PMID 8270];
-                     GO_process: GO:6355; transcription - regulation of 
-                     transcription, DNA-dependent [PMID 6350]"
+                     /label="azaR"
+                     /note="GO_component: GO:5634 - nucleus; GO_function:
+                     GO:3700; zinc ion binding - transcription factor activity
+                     [Evidence 3677] [PMID 8270]; GO_process: GO:6355;
+                     transcription - regulation of transcription, DNA-dependent
+                     [PMID 6350]"
                      /db_xref="InterPro:IPR001138"
                      /db_xref="InterPro:IPR007219"
                      /db_xref="JGIDB:Aspni5_132962"
@@ -263,12 +271,13 @@ FEATURES             Location/Qualifiers
                      ESSDPMLLFAKMIGQAGVLSLYDILQSTPWEPETVSLLPDYEACALQAARETVVLARNL
                      RHFSCFKVHPFTPILLGLCAEVLQHPVAHNDTPKLLGEVQDALKYLMTVNRLARQEAAA
                      QDIRRS"
+                     /Pfam="EqxR, Fungal_trans"
      CDS             complement(23986..25026)
                      /codon_start=1
                      /locus_tag="ASPNIDRAFT_43447"
                      /product="dehydrogenase AzaJ"
-                     /label=azaJ
-                     /note="GO_function: GO:4024; zinc ion binding - alcohol 
+                     /label="azaJ"
+                     /note="GO_function: GO:4024; zinc ion binding - alcohol
                      dehydrogenase activity, zinc-dependent [PMID 8270]"
                      /db_xref="InterPro:IPR002085"
                      /db_xref="JGIDB:Aspni5_43447"
@@ -280,11 +289,12 @@ FEATURES             Location/Qualifiers
                      AFRGKTCAGALAIAGVVPQTRNEAAEACLNLVAESEGDKFVALSMPAPPNVPDGVSCKF
                      IFASTVKDNEVSHQLYGYLGEALAHGSFIAAPEAEVVGTGLEAVQGALNALKQGVSAKK
                      LVVTLP"
+                     /Pfam="fPKS_ER"
      CDS             join(25304..25676,25702..25727)
                      /codon_start=1
                      /locus_tag="ASPNIDRAFT_43446"
                      /product="hypothetical protein ASPNIDRAFT_43446"
-                     /label=ASPNIDRAFT_43446
+                     /label="ASPNIDRAFT_43446"
                      /db_xref="JGIDB:Aspni5_43446"
                      /protein_id="EHA28240.1"
                      /translation="MFLRGVPNSPSGFNAGGVSVIDGHECVGLFVSPEWRAMKYIFLFR
@@ -294,7 +304,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="ASPNIDRAFT_43445"
                      /product="hypothetical protein ASPNIDRAFT_43445"
-                     /label=ASPNIDRAFT_43445
+                     /label="ASPNIDRAFT_43445"
                      /db_xref="InterPro:IPR010371"
                      /db_xref="JGIDB:Aspni5_43445"
                      /protein_id="EHA28241.1"
@@ -302,12 +312,13 @@ FEATURES             Location/Qualifiers
                      ILALPAHKRRPAVISICLSGSSAPQLVFHCATEPGTRVDHVLWLKRKTKTVLRWQVSTW
                      YLHCRLKPTRANESVCVGPSVMEGIEVLAEQFALSPVERYEYALQAGGFPIRVEGVEGV
                      VGVIAVSGLQEEAADHEVIVAAIREFLDGKKEDSGANAS"
+                     /Pfam="HbpS-like"
      CDS             join(27002..27262,27318..27514,27571..27680,27742..27860,
                      27922..28063,28124..28426,28494..28768)
                      /codon_start=1
                      /locus_tag="ASPNIDRAFT_188912"
                      /product="major facilitator superfamily transporter AzaK"
-                     /label=azaK
+                     /label="azaK"
                      /db_xref="JGIDB:Aspni5_188912"
                      /protein_id="EHA28242.1"
                      /translation="MTVHPPAVADETSPLLPSQDGPGHNGIVPAATKPKELQSSMSQVA
@@ -319,12 +330,13 @@ FEATURES             Location/Qualifiers
                      LAATVGASVLHRHCEMVAFWILAPLALVLGSSVAMQLTAMQLALDSVSPSPAALGTLNA
                      MSLAIISFLRAVAPAMFTSMYASTLKLSSPGFYTFWLVLGGLVLVLAFTLRWLPEQVEK
                      APRKLGRSSA"
+                     /Pfam="MFS_1"
      CDS             complement(join(29921..30176,30231..30610,30671..31059,
                      31128..31344,31414..31641))
                      /codon_start=1
                      /locus_tag="ASPNIDRAFT_132654"
                      /product="FAD-linked oxidoreductase AzaL"
-                     /label=azaL
+                     /label="azaL"
                      /db_xref="InterPro:IPR006094"
                      /db_xref="JGIDB:Aspni5_132654"
                      /protein_id="EHA28243.1"
@@ -337,18 +349,19 @@ FEATURES             Location/Qualifiers
                      WGLGLAETNIDTYTTFFNELQAFSQAHPDYSGIFVVDRYSSAAAAAVPANSTSYGYGYR
                      NINSHLLFENSYPSDNSTLDNAVNSFMRSIRSQFQRTSGFSEMEIYLNYAHGDEGADVW
                      YSPQHLPKLSQLKSKWDPDELFSFNYPVPLP"
+                     /Pfam="FAD_binding_4, BBE"
      CDS             join(32270..32458,32519..32605,32674..32731,32789..33122,
                      33180..33705,33765..33879,33955..34440,34493..37414,
                      37483..39257,39335..39637,39711..40517)
                      /codon_start=1
                      /locus_tag="ASPNIDRAFT_188817"
                      /product="polyketide synthase AzaB"
-                     /label=azaB
-                     /note="GO_function: GO:4024; zinc ion binding - alcohol 
-                     dehydrogenase activity, zinc-dependent [Evidence 3824; 
-                     transferase activity] [PMID 8270];
-                     GO_process: GO:6633; metabolic process - fatty acid 
-                     biosynthetic process [PMID 8152]"
+                     /label="azaB"
+                     /note="GO_function: GO:4024; zinc ion binding - alcohol
+                     dehydrogenase activity, zinc-dependent [Evidence 3824;
+                     transferase activity] [PMID 8270]; GO_process: GO:6633;
+                     metabolic process - fatty acid biosynthetic process [PMID
+                     8152]"
                      /db_xref="InterPro:IPR000794"
                      /db_xref="InterPro:IPR001227"
                      /db_xref="InterPro:IPR002085"
@@ -398,6 +411,8 @@ FEATURES             Location/Qualifiers
                      WDEASWIQDPRFAALRYRDSTQAGSSRATTGTAKQGKIRDQLAEIASPVDAAALICQEL
                      MQKLASMFGLVVEEMSATQDLSSYGVDSLVAVELRNWLVAQVGAEVSIFDLMQSPSLED
                      LSLRVATKRT"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_DH, PKS_NRPS_MT, fPKS_ER,
+                     fPKS_KR, ACP_PCP"
 ORIGIN
         1 ctaacgatcc agaagaaggg cgccgcagtt agaagtccct ccaccttgta tcgtcggagg
        61 taccaagcaa cccgtcttct gtgcaatctt caagatctcc tccaccacca cccgagcatc

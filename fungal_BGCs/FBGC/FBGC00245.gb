@@ -1,29 +1,29 @@
-LOCUS       FBGC00245       16795 bp DNA     linear   UNA 27-JAN-2023
+LOCUS       FBGC00245              16795 bp    DNA     linear   UNA 27-JAN-2023
 DEFINITION  fusarubin.
 ACCESSION   FBGC00245
-VERSION     .
+VERSION     FBGC00245
 KEYWORDS    .
 SOURCE      Fusarium fujikuroi IMI 58289
   ORGANISM  Fusarium fujikuroi IMI 58289
+            .
 REFERENCE   1  (bases 1 to 16795)
   AUTHORS   Studt L, Wiemann P, Kleigrewe K, Humpf HU, Tudzynski B.
-  TITLE     Biosynthesis of fusarubins accounts for pigmentation of Fusarium 
+  TITLE     Biosynthesis of fusarubins accounts for pigmentation of Fusarium
             fujikuroi perithecia.
   JOURNAL   Appl Environ Microbiol 2012;78:4468-80
-  PUBMED    22492438
+   PUBMED   22492438
 REFERENCE   2  (bases 1 to 16795)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Jan 27, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
+  JOURNAL   Exported Jan 27, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
             "10.1128/AEM.00823-12"; journalName: "Appl Environ Microbiol"; date:
             "2012"; volume: "78"; pages: "4468-80"
 FEATURES             Location/Qualifiers
      source          1..16795
                      /strain="IMI58289"
                      /mol_type="genomic DNA"
-                     /label=teleomorph: Gibberella fujikuroi
+                     /label="teleomorph: Gibberella fujikuroi"
                      /note="teleomorph: Gibberella fujikuroi"
                      /db_xref="taxon:5127"
                      /organism="Fusarium fujikuroi"
@@ -32,7 +32,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="fsr1"
                      /product="polyketide synthase Fsr1"
-                     /label=fsr1
+                     /label="fsr1"
                      /db_xref="GOA:G8C419"
                      /db_xref="InterPro:IPR000794"
                      /db_xref="InterPro:IPR001227"
@@ -91,11 +91,12 @@ FEATURES             Location/Qualifiers
                      PMEHFGFLIKSSQTLNALPDVDGNLNWTPVNDIADTLTDLILSDRTPYPIYHIDNPIGQ
                      QWRDVNNILSDTLRIPNKVPFKEWLDMVRKAPQQDNPAALLADFLEDTYLRMACGGLVL
                      DVKHSLEHSKSLSAVGPVSETVVRKYIHIWKEIGFLKTTAEDKAGFEAERLRLWGPRV"
+                     /Pfam="SAT2, PKS_KS, PKS_AT, fPKS_PT, ACP_PCP, fPKS_R"
      CDS             join(7610..8227,8276..8821)
                      /codon_start=1
                      /gene="fsr2"
                      /product="methyltransferase Fsr2"
-                     /label=fsr2
+                     /label="fsr2"
                      /db_xref="GOA:G8C420"
                      /db_xref="InterPro:IPR001077"
                      /db_xref="InterPro:IPR016461"
@@ -108,11 +109,12 @@ FEATURES             Location/Qualifiers
                      PLLNLVIEDLPEPIENAKARLSELPSDIKSRIEIMAYDFFTPQPVKNADVYLLRTILHD
                      WPDADAIKIIQGIVAAMGPSSRLLIMDMVLPKPGSGSVTFEAALRQKDLTMIQCFNAQE
                      REVEEWKALLTKADPRLKIQAIERPAGSELSVIEAMLDESPEQAAWF"
+                     /Pfam="MdpA"
      CDS             complement(join(9224..9895,9944..10007,10054..10886))
                      /codon_start=1
                      /gene="fsr3"
                      /product="FAD-dependent monooxygenase Fsr3"
-                     /label=fsr3
+                     /label="fsr3"
                      /db_xref="GOA:G8C421"
                      /db_xref="InterPro:IPR002938"
                      /db_xref="InterPro:IPR003042"
@@ -128,11 +130,12 @@ FEATURES             Location/Qualifiers
                      GKAQAANATKVYNKLRFQRVSCGQKMGFVNQQLKQHTDWDAIMKNPALIRSRYPKWVWS
                      HDPEAYAYEKFAEALTHVVSGGRVPLVNTNFPKGHKYRHWTMKEVQEQIKAGQKLEDLQ
                      DGDWS"
+                     /Pfam="FAD_binding_3"
      CDS             complement(join(11785..12383,12442..12659,12705..12904))
                      /codon_start=1
                      /gene="fsr4"
                      /product="dehydrogenase Fsr4"
-                     /label=fsr4
+                     /label="fsr4"
                      /db_xref="GOA:G8C422"
                      /db_xref="InterPro:IPR002085"
                      /db_xref="InterPro:IPR011032"
@@ -146,11 +149,12 @@ FEATURES             Location/Qualifiers
                      PRHPVSDDQKIPLVIWGASSAVGSYAVQLAKKSNIHPLICIAGRAQEHVERMIDGSKGD
                      IVIDYRKGHEAVAQKIKANLSGQKLEYAFDAVSEMGSYQTICDVLDQEIGKITLIIPAQ
                      SYSDIPKTIKKSVTTVASVHEDLKEFARGFSTYFGRGLQDGWLKAHPQEVVPGDWRG"
+                     /Pfam="fPKS_ER"
      CDS             complement(join(13522..14064,14091..14318))
                      /codon_start=1
                      /gene="fsr5"
                      /product="short-chain dehydrogenase/reductase Fsr5"
-                     /label=fsr5
+                     /label="fsr5"
                      /db_xref="GOA:G8C423"
                      /db_xref="InterPro:IPR002347"
                      /db_xref="InterPro:IPR016040"
@@ -161,11 +165,12 @@ FEATURES             Location/Qualifiers
                      KLEDFTLDAIRQAGTVRFFAPLVVAQQLRKHLDESGSSSFTVATGGATEHVSKDWSIMY
                      SYLSGLRGMIRGLAVDLAPIRVNAVAQGPTDTEIWSYVKEMGYWDNVTGHLKGRMTTGE
                      IGKVEDVVEAYLYLMKNKNTSGSVVETTGGTLLS"
+                     /Pfam="adh_short_C2"
      CDS             complement(15779..16795)
                      /codon_start=1
                      /gene="fsr6"
                      /product="transcription factor Fsr6"
-                     /label=fsr6
+                     /label="fsr6"
                      /db_xref="GOA:G8C424"
                      /db_xref="InterPro:IPR001138"
                      /db_xref="InterPro:IPR013700"
@@ -177,6 +182,7 @@ FEATURES             Location/Qualifiers
                      EALALKVLRSLQCNTNTDQSICKSSPIPQKQTFSTPSIDTVLSVNKAALTNLIPLLKCH
                      CARNPHIAMLHSAILSKVIFWYRVAVTARYHADGVELRPMKIQLGMLDLDDEDQATLQR
                      TVVLRELRKAEKVMETFDSFAGGDDGGLNWHVVAVRNMREELQGIIQKIKKCQGELM"
+                     /Pfam="EqxR, AflR"
 ORIGIN
         1 ctacacccta ggtccccaaa gtctcaacct ctccgcctca aacccagcct tgtcctctgc
        61 cgtagtcttc aagaacccaa tctccttcca gatatggata tacttcctaa ccacggtctc

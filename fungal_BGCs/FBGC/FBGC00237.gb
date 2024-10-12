@@ -1,32 +1,32 @@
-LOCUS       FBGC00237       35883 bp DNA     linear   UNA 09-MAY-2023
+LOCUS       FBGC00237              35883 bp    DNA     linear   UNA 09-MAY-2023
 DEFINITION  scytalone.
 ACCESSION   FBGC00237
-VERSION     .
+VERSION     FBGC00237
 KEYWORDS    .
 SOURCE      Pestalotiopsis fici W106-1
   ORGANISM  Pestalotiopsis fici W106-1
+            .
 REFERENCE   1  (bases 1 to 35883)
-  AUTHORS   Zhang P, Wang X, Fan A, Zheng Y, Liu X, Wang S, Zou H, Oakley BR, 
+  AUTHORS   Zhang P, Wang X, Fan A, Zheng Y, Liu X, Wang S, Zou H, Oakley BR,
             Keller NP, Yin WB.
-  TITLE     A cryptic pigment biosynthetic pathway uncovered by heterologous 
-            expression is essential for conidial development in Pestalotiopsis 
+  TITLE     A cryptic pigment biosynthetic pathway uncovered by heterologous
+            expression is essential for conidial development in Pestalotiopsis
             fici.
   JOURNAL   Mol Microbiol 2017;105:469-483
-  PUBMED    28517364
+   PUBMED   28517364
 REFERENCE   2  (bases 1 to 35883)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported May 9, 2023 from SnapGene 6.2.2
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: "10.1111/mmi.13711";
-            journalName: "Mol Microbiol"; date: "2017"; volume: "105"; pages: 
-            "469-483"
+  JOURNAL   Exported May 9, 2023 from SnapGene 6.2.2 https://www.snapgene.com
 COMMENT     ##Genome-Assembly-Data-START##
             Assembly Method       :: Newbler v. 2.6
             Assembly Name         :: PFICI
             Genome Coverage       :: 80.0x
-            Sequencing Technology :: Illumina HiSeq; 454 
+            Sequencing Technology :: Illumina HiSeq; 454
             ##Genome-Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi: "10.1111/mmi.13711";
+            journalName: "Mol Microbiol"; date: "2017"; volume: "105"; pages:
+            "469-483"
 FEATURES             Location/Qualifiers
      source          1..35883
                      /chromosome="Unknown"
@@ -35,7 +35,7 @@ FEATURES             Location/Qualifiers
                      /mol_type="genomic DNA"
                      /country="China"
                      /isolation_source="plant branch"
-                     /collection_date=Apr-2005
+                     /collection_date="Apr-2005"
                      /db_xref="taxon:1229662"
                      /organism="Pestalotiopsis fici W106-1"
                      /submitter_seqid="PFICI_Scf_4"
@@ -43,7 +43,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="PFICI_07100"
                      /product="laccase PfmaD"
-                     /label=PfmaD
+                     /label="PfmaD"
                      /protein_id="ETS82098.1"
                      /translation="MWTARLSSIAVLTQVVGTWADTITLNWEITWVNAAPDGFHRPVIG
                      VNGKWPCPPIHATVGDTVVINMKNSLGNQTTGLHFHGINQLDTNYMDGASMVNSCPVVP
@@ -56,11 +56,12 @@ FEATURES             Location/Qualifiers
                      LRITADNPGVFLFHCHIEWHVEMGLTATLIEAPEMLDGYDIPQAMIDSCKAQGYPVAGN
                      AAGDTINVWDDSGYLTDPPSTYSGSQWPVPKGGNSQKSRPRRKPSGQSSQTRQISNMSG
                      EFQHRITW"
+                     /Pfam="Cu-oxidase_3, Cu-oxidase, Cu-oxidase_2"
      CDS             join(6955..7247,7323..7614,7671..13553)
                      /codon_start=1
                      /locus_tag="PFICI_07101"
                      /product="polyketide synthase PfmaE"
-                     /label=PfmaE
+                     /label="PfmaE"
                      /protein_id="ETS82099.1"
                      /translation="MAEQMSYLLFGDQSLDTHGFLADFYRQGNPSILAKTFLQRAGDSL
                      RDEIDRLPRCQRDRIPQFRTLQQLNERYHQQTIKFPGIDSALLCITQLAHYIDRSEKEH
@@ -99,13 +100,15 @@ FEATURES             Location/Qualifiers
                      QLTKANEEVSNLLIIDAPCPITIEPLPAGLHAWFASIGLLGEGDDAEAKKIPEWLLPHF
                      AASVTALSNYDAEPIPADKCPKVTVIWCEDGVCKLPTDPRPDPYPTGHALFLLDNRSDF
                      GPNRWDEYLDSKKMTFHHMPGNHFSMMHGPLAKQLGGFMRDGMKS"
+                     /Pfam="SAT2, PKS_KS, PKS_AT, fPKS_PT, ACP_PCP,
+                     Thioesterase"
      gap             22383..22482
                      /estimated_length=100
      CDS             join(23384..24042,24099..24810)
                      /codon_start=1
                      /locus_tag="PFICI_07102"
                      /product="transcription factor PfmaF"
-                     /label=PfmaF
+                     /label="PfmaF"
                      /protein_id="ETS82100.1"
                      /translation="MSPPHSEHSNVPSDVAAGGGPKKSPPAGTQKLRAPRMRASCDGCF
                      LAKVKCSKGKPMCQRCMTTGLACKYSPSSRSGKPKASDNGNILNGAPRHAKREGLQFSS
@@ -115,24 +118,26 @@ FEATURES             Location/Qualifiers
                      HARHHSDPAIGTGHVLSCNFDCTHQSLQRLNFMLATSSWPSDMLMTANENLCDAWRVIM
                      RCPNCMGSGARRYMALAFLATSMQIQSRRLQAFLDTVKPNHDGVFPTVSNPAEKLNRLG
                      TAITQIDQAYALLLRSFNNEMIEHPGVAQALANGVHKSLDAAVSLLLRKRTELAGTN"
+                     /Pfam="EqxR"
      CDS             complement(join(28056..28072,28146..28962))
                      /codon_start=1
                      /locus_tag="PFICI_07103"
                      /product="short-chain dehydrogenase/reductase PfmaG"
-                     /label=PfmaG
+                     /label="PfmaG"
                      /protein_id="ETS82101.1"
                      /translation="MSPSAIHNITSDLPSSQQHRPFAGKVALITGSGRGIGRGIALELG
                      KRGASCIINYAKSAGAANEVVAELAKLGSKSIALQADISKPADVAALFEKALKHYGHID
                      FAISNSGMEVWCEETEVTPELFDQVFNLNTRGQFFVAQNALKHCSEGGRIILTSSIAAQ
                      MTGIPNHALYAGSKAAVEGFARSFAVDCGRKRITCNALAPGGIQTDMFDENSWHYVPGG
                      YQGMNIDTIKDGLAKMCPLNRVGTPADIGKIVCMLVSDEGEWINGQVLRCSGGGV"
+                     /Pfam="adh_short_C2"
      gap             29894..29993
                      /estimated_length=100
      CDS             complement(join(32898..33918,33972..34087,34144..35883))
                      /codon_start=1
                      /locus_tag="PFICI_07104"
                      /product="transcription factor PfmaH"
-                     /label=PfmaH
+                     /label="PfmaH"
                      /protein_id="ETS82102.1"
                      /translation="MLMISNCSRDLLQRHFSNYHDPSASEAPVAGAGPSVAGKTPIACL
                      NCSQAKTGCNKEVPCQRCQDKGLHCVQRYARRTSKLAARSQAAATAAAAQASRVAQVTP
@@ -151,6 +156,7 @@ FEATURES             Location/Qualifiers
                      GSYWGSRHQRCIYNRQQAVHDCGQVFSILRNLPTDRLPTWWSAAIYRATMILWADSALQ
                      SQSQAHASLSPPEATEGQYAMNAPQDFNHTLDYNVIPYVTRSDGTPFHLDRHSEVLDYA
                      ICAIDQGASSRLGEGIKRKLIALGNNWH"
+                     /Pfam="CpaE"
 ORIGIN
         1 atgtggacag ccaggctcag ctctatagcg gtgttgacac aggttgttgg cacatgggcc
        61 gatacgatca ccctcaactg ggaaataacc tgggtcaatg ccgctccaga tggctttcac

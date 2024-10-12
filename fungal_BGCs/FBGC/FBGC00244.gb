@@ -1,25 +1,25 @@
-LOCUS       FBGC00244       12775 bp DNA     linear   UNA 08-MAY-2023
+LOCUS       FBGC00244              12775 bp    DNA     linear   UNA 08-MAY-2023
 DEFINITION  TAN-1612.
 ACCESSION   FBGC00244
-VERSION     .
+VERSION     FBGC00244
 KEYWORDS    .
 SOURCE      Aspergillus niger ATCC 1015
   ORGANISM  Aspergillus niger ATCC 1015
+            .
 REFERENCE   1  (bases 1 to 12775)
   AUTHORS   Li Y, Chooi YH, Sheng Y, Valentine JS, Tang Y.
-  TITLE     Comparative characterization of fungal anthracenone and 
-            naphthacenedione biosynthetic pathways reveals an 
-            alpha-hydroxylation-dependent Claisen-like cyclization catalyzed by 
+  TITLE     Comparative characterization of fungal anthracenone and
+            naphthacenedione biosynthetic pathways reveals an
+            alpha-hydroxylation-dependent Claisen-like cyclization catalyzed by
             a dimanganese thioesterase.
   JOURNAL   J Am Chem Soc 2011;133:15773-85
-  PUBMED    21866960
+   PUBMED   21866960
 REFERENCE   2  (bases 1 to 12775)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported May 8, 2023 from SnapGene 6.2.2
-            https://www.snapgene.com
+  JOURNAL   Exported May 8, 2023 from SnapGene 6.2.2 https://www.snapgene.com
 COMMENT     SGRef: number: 1; type: "Journal Article"; doi: "10.1021/ja206906d";
-            journalName: "J Am Chem Soc"; date: "2011"; volume: "133"; pages: 
+            journalName: "J Am Chem Soc"; date: "2011"; volume: "133"; pages:
             "15773-85"
 FEATURES             Location/Qualifiers
      source          1..12775
@@ -32,7 +32,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="adaR"
                      /product="transcription factor AdaR"
-                     /label=adaR
+                     /label="adaR"
                      /note="fungal pathway specific transcriptional regulator"
                      /protein_id="AEN83885.1"
                      /translation="MEQRSSPARSLPPRKTTTTPQLSCELCRKRKVKCDKLTPCTNCAA
@@ -49,11 +49,12 @@ FEATURES             Location/Qualifiers
                      GPFGQLMRRMKEKLAAPAALPPSSLPSTNWSPATPPTFPGVPRPQSSHDDRHAPGCSWP
                      VPTGSTPPADLGVPSLLPVSTWEALSPPSLDNPSLFGVPPTTTAVADGMDPGADIMWEE
                      LFSGIPFNEIAGPDTFFFDMNWGS"
+                     /Pfam="EqxR, Zn_clus, Fungal_trans"
      CDS             complement(2912..3661)
                      /codon_start=1
                      /gene="adaD"
                      /product="methyltransferase AdaD"
-                     /label=adaD
+                     /label="adaD"
                      /note="O-methyltransferase"
                      /protein_id="AEN83886.1"
                      /translation="MSSVTLTTTTTTTSTPPKPTPKDEPQEQIYTPWRLFIYDIWVLGI
@@ -61,11 +62,12 @@ FEATURES             Location/Qualifiers
                      VALARCKHPVTQTHGIVTDILQPSPFPETYLTNNDQKFDSVSMYYLLHCLPVPVASKCK
                      IFTHLKKYMTEDGVVHGANVLGKGVRKDNWFARIIRRGCLNHGVFHNEEDNAYEFERAL
                      RENFWEVETWVVGSVFVFRAKRPILDA"
+                     /Pfam="VrtF"
      CDS             4137..5381
                      /codon_start=1
                      /gene="adaC"
                      /product="FAD-dependent monooxygenase AdaC"
-                     /label=adaC
+                     /label="adaC"
                      /note="FAD-dependent monooxygenase"
                      /protein_id="AEN83887.1"
                      /translation="MTPPILIIGAGLSGLTISRILTNASIPNIVFEASTPDRSQGYAIS
@@ -76,11 +78,12 @@ FEATURES             Location/Qualifiers
                      PWSQLLNAEALPTHRVFNWVSRCVSVTREDVNAAQKQGVVFIGDSWHAMPIFGGEGGNH
                      ALVDAVELAEALTGKEGNLDAAVTGYYDRAWRRCQEAVRRSRQRFFQLHRPMREWMEIA
                      EKKKMMAAMKGVEAH"
+                     /Pfam="FAD_binding_3"
      CDS             complement(join(5756..6499,6551..6760))
                      /codon_start=1
                      /gene="adaB"
                      /product="metallo-beta-lactamase-like thioesterase AdaB"
-                     /label=adaB
+                     /label="adaB"
                      /note="metallo-beta-lactamase-like thioesterase"
                      /protein_id="AEN83888.1"
                      /translation="MAFRIPFAQSFWQEYLSGQEANLPRLPEVEQVTETVMRILGGNPG
@@ -89,11 +92,12 @@ FEATURES             Location/Qualifiers
                      EENALFTGDNVLGHGYSVVEDLGTYMTSLTRMADLNCALGYPAHGTRIEDLPAKMKEYI
                      QHKESRMRQVLAALERSRARMTATGGGRRAGALTFPELINSMYGGIPDEIEQALTPFLS
                      QVLWKLAEDRKVGFEGEPSQRRWFAVGPPAATAVRL"
+                     /Pfam="Lactamase_B"
      CDS             7394..12775
                      /codon_start=1
                      /gene="adaA"
                      /product="polyketide synthase AdaA"
-                     /label=adaA
+                     /label="adaA"
                      /note="polyketide synthase"
                      /protein_id="AEN83889.1"
                      /translation="MSAPTKLVFFGNEFPNDDLKALFRGLHRHGKDRRFRQLATFLEES
@@ -127,6 +131,7 @@ FEATURES             Location/Qualifiers
                      AAHAAPAPAPAAVPAVKKQPPTETIQPQAPKTEQKQDQLQLPNLASAAPSTASSSSSPS
                      SSGVATPTTEQEAPGADASAVTGVAGKCLELIANETGLGVAELTADATFVQLGVDSLMS
                      LVLSEKLRSEMGLEIKSSLFLECPTVGDLTGWLEQYC"
+                     /Pfam="SAT2, PKS_KS, PKS_AT, fPKS_PT, ACP_PCP"
 ORIGIN
         1 atggaacaac gcagttcccc cgccagatcg ctgcccccgc gaaaaaccac cacgactccc
        61 cagctcagtt gcgaactctg ccgcaagcgc aaggtcaagt gcgacaagct caccccctgt

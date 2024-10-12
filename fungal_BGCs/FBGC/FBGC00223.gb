@@ -1,37 +1,37 @@
-LOCUS       FBGC00223       35779 bp DNA     linear   UNA 26-JAN-2023
+LOCUS       FBGC00223              35779 bp    DNA     linear   UNA 26-JAN-2023
 DEFINITION  2,4-dihydroxy-6-[(3E,5E,7E)-2-oxonona-3,5,7-trienyl]benzaldehyde.
 ACCESSION   FBGC00223
-VERSION     .
+VERSION     FBGC00223
 KEYWORDS    .
 SOURCE      Aspergillus nidulans FGSC A4
   ORGANISM  Aspergillus nidulans FGSC A4
+            .
 REFERENCE   1  (bases 1 to 35779)
-  AUTHORS   Ahuja M, Chiang YM, Chang SL, Praseuth MB, Entwistle R, Sanchez JF, 
+  AUTHORS   Ahuja M, Chiang YM, Chang SL, Praseuth MB, Entwistle R, Sanchez JF,
             Lo HC, Yeh HH, Oakley BR, Wang CC.
-  TITLE     Illuminating the diversity of aromatic polyketide synthases in 
+  TITLE     Illuminating the diversity of aromatic polyketide synthases in
             Aspergillus nidulans.
   JOURNAL   J Am Chem Soc 2012;134:8212-21
-  PUBMED    22510154
+   PUBMED   22510154
 REFERENCE   2  (bases 1 to 35779)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Jan 26, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: "10.1021/ja3016395";
-            journalName: "J Am Chem Soc"; date: "2012"; volume: "134"; pages: 
+  JOURNAL   Exported Jan 26, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     ##Genome-Annotation-Data-START##
+            Annotation Provider :: INSDC submitter
+            Annotation Status   :: Full annotation
+            Annotation Pipeline :: Eukaryotic Annotation Propagation Pipeline
+            ##Genome-Annotation-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi: "10.1021/ja3016395";
+            journalName: "J Am Chem Soc"; date: "2012"; volume: "134"; pages:
             "8212-21"
-COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final 
-            NCBI review. The reference sequence is identical to BN001307. 
+            PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to BN001307.
             Aspergillus nidulans FGSC A4 CADRE,
             updated by Eurofungbase with contributions from
             CADRE (http://www.cadre-genomes.org.uk),
             AspGD (http://www.aspergillusgenome.org) and
-              Ensembl Genomes 
-            (http://www.ensemblgenomes.org).##Genome-Annotation-Data-START##
-            Annotation Provider :: INSDC submitter
-            Annotation Status   :: Full annotation
-            Annotation Pipeline :: Eukaryotic Annotation Propagation Pipeline 
-            ##Genome-Annotation-Data-END##
+            Ensembl Genomes
 FEATURES             Location/Qualifiers
      source          1..35779
                      /chromosome="VII"
@@ -40,15 +40,15 @@ FEATURES             Location/Qualifiers
                      /db_xref="taxon:227321"
                      /organism="Aspergillus nidulans FGSC A4"
      misc_feature    1..35779
-                     /label=FBGC00223
-                     /note="Putative tailoring enzyme genes have been manually 
+                     /label="FBGC00223"
+                     /note="Putative tailoring enzyme genes have been manually
                      added."
      CDS             complement(join(1..321,371..676))
                      /codon_start=1
                      /locus_tag="ANIA_02030"
                      /old_locus_tag="AN2030.2; AN2030.4"
                      /product="nitroreductase ANIA_02030"
-                     /label=ANIA_02030
+                     /label="ANIA_02030"
                      /note="transcript_id=CADANIAT00008698"
                      /db_xref="EnsemblGenomes-Gn:CADANIAG00008698"
                      /db_xref="EnsemblGenomes-Tr:CADANIAT00008698"
@@ -62,12 +62,13 @@ FEATURES             Location/Qualifiers
                      SSYNTQPVRISLAFGKKHKELWSIILREAEPILKSINPDLWQKLGPLYEGHKAAYGSVL
                      FWERGGTTKEAAETHKATEHMFGEWGEHTQGIHQILVWTALELEGVGANLQHMNAIPPI
                      EMAIKKFAGVPDDYKLKAHLNYGDEQGSRPESPPKLPITETLTIL"
+                     /Pfam="Nitroreductase"
      CDS             complement(1167..2009)
                      /codon_start=1
                      /locus_tag="ANIA_02031"
                      /old_locus_tag="AN2031.2; AN2031.4"
                      /product="esterase ANIA_02031"
-                     /label=ANIA_02031
+                     /label="ANIA_02031"
                      /note="transcript_id=CADANIAT00008699"
                      /db_xref="EnsemblGenomes-Gn:CADANIAG00008699"
                      /db_xref="EnsemblGenomes-Tr:CADANIAT00008699"
@@ -82,12 +83,13 @@ FEATURES             Location/Qualifiers
                      GATGDWVGLLGFSQGAKVAASILYRQQRCGITHFRFAILFAGRGPLVWLMPDLPLPHGL
                      VDAATPFTHPSSSSITIGSDEHMLRLPTVHVHGLNDPGLEHHQDMLRKYCDPLQATLLE
                      WAGDHRMPIKSRDVETVVQQIRLVAKETETPSVMMAGGGFHGRSVENSFSLQTLSMYI"
+                     /Pfam="FSH1"
      CDS             complement(join(2512..6546,6633..9263))
                      /codon_start=1
                      /locus_tag="ANIA_02032"
                      /old_locus_tag="AN2032.2; AN2032.4"
                      /product="polyketide synthase PkhA"
-                     /label=pkhA
+                     /label="pkhA"
                      /note="transcript_id=CADANIAT00008700"
                      /db_xref="EnsemblGenomes-Gn:CADANIAG00008700"
                      /db_xref="EnsemblGenomes-Tr:CADANIAT00008700"
@@ -147,12 +149,13 @@ FEATURES             Location/Qualifiers
                      SGFWNPVEHFPFVVKSAHALKVFPDLQGVLHWLPVDKAASIMVDLLSISGSKGSGEVYP
                      VYHVDNPVGQLWKEMVTVLAASLDIPPHGIVPFREWIQRVRQSSLPPAQNPASMGLGFL
                      ESHFERMACGGIVLDTQHSREHSETMAAQGPVSAEVVRSYVSSWKAMGLLRH"
+                     /Pfam="SAT2, PKS_KS, PKS_AT, fPKS_PT, ACP_PCP, fPKS_R"
      CDS             9845..11152
                      /codon_start=1
                      /locus_tag="ANIA_02033"
                      /old_locus_tag="AN2033.2; AN2033.4"
                      /product="FAD-dependent monooxygenase ANIA_02033"
-                     /label=ANIA_02033
+                     /label="ANIA_02033"
                      /note="transcript_id=CADANIAT00008701"
                      /db_xref="EnsemblGenomes-Gn:CADANIAG00008701"
                      /db_xref="EnsemblGenomes-Tr:CADANIAT00008701"
@@ -170,12 +173,13 @@ FEATURES             Location/Qualifiers
                      LYPEKVVKWGIFDLEDNPPSTYARGRACVVGDAAHASTPYMGVGACTGVEDALVICTLL
                      ESVQQKALAGEKLKEALVEALQTYTGARLERGRWIHHHSRQMGQMYHWRYGPTGRDPQR
                      MKQKLEENWGNVVTYDVLAPLQPELRELARSHQKSL"
+                     /Pfam="ElcH"
      CDS             complement(11535..12023)
                      /codon_start=1
                      /locus_tag="ANIA_02034"
                      /old_locus_tag="AN2034.2; AN2034.4"
                      /product="SnoaL-like domain-containing protein ANIA_02034"
-                     /label=ANIA_02034
+                     /label="ANIA_02034"
                      /note="transcript_id=CADANIAT00008702"
                      /db_xref="EnsemblGenomes-Gn:CADANIAG00008702"
                      /db_xref="EnsemblGenomes-Tr:CADANIAT00008702"
@@ -186,12 +190,13 @@ FEATURES             Location/Qualifiers
                      /translation="MVRNGTPLPAKLAGPPLSDREAIADACYRAFASIDHASEELLESS
                      ATPDIYTDIAFKECDGYEELRNKVWINVAEHVDTVHYISNVRVSIDTETTARVTFNAQA
                      VHCIVGKGYEPDSTKFTTGAFYACDAVKVDDLWKLKTMRSTHIWSTGDRSIMKPPSSE"
+                     /Pfam="SnoaL_4"
      CDS             join(12565..12759,12811..12955,13007..14377,14426..20349)
                      /codon_start=1
                      /locus_tag="ANIA_02035"
                      /old_locus_tag="AN2035.2; AN2035.4"
                      /product="polyketide synthase PkhB"
-                     /label=pkhB
+                     /label="pkhB"
                      /note="transcript_id=CADANIAT00008703"
                      /db_xref="EnsemblGenomes-Gn:CADANIAG00008703"
                      /db_xref="EnsemblGenomes-Tr:CADANIAT00008703"
@@ -263,13 +268,15 @@ FEATURES             Location/Qualifiers
                      LTSSPGPHWDPNGRSQLGRDARYATLRPHTKVSARQDGESTSASLATQLADTNDPQEGA
                      RLIGAAIAEKLADIFMTPIAEIDLSKPPAHYGVDSLIAVELRNMLALQAAADISIFNIL
                      QTASLAALAGLVAEKSRHFQA"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_DH, PKS_NRPS_MT, fPKS_ER,
+                     fPKS_KR, ACP_PCP"
      CDS             complement(join(21041..21238,21290..21781,21835..22375,
                      22419..22876,22941..22976))
                      /codon_start=1
                      /locus_tag="ANIA_02036"
                      /old_locus_tag="AN2036.2; AN2036.4"
                      /product="transcription factor ANIA_02036"
-                     /label=ANIA_02036
+                     /label="ANIA_02036"
                      /note="transcript_id=CADANIAT00008704"
                      /db_xref="EnsemblGenomes-Gn:CADANIAG00008704"
                      /db_xref="EnsemblGenomes-Tr:CADANIAT00008704"
@@ -289,12 +296,13 @@ FEATURES             Location/Qualifiers
                      VLQHKQNAPTRPCEEFCSRHRTLNALLAQRIKMLRIHASLEYPDPIIAFVALAAQIDVL
                      MLYDLIETKPLGTGVEGTQLVQALHAEHQQQALDAVTDISLLVAVLGQHFKMHPLTPIL
                      LLLGARFSQSHPELNDAYIKLMPSILTTLQASTGLNKLAQNFLQLLKPQGDTWCGFT"
+                     /Pfam="EqxR, Zn_clus, Fungal_trans"
      CDS             complement(join(23744..23857,23930..23974))
                      /codon_start=1
                      /locus_tag="ANIA_11323"
                      /old_locus_tag="AN11323.4"
                      /product="hypothetical protein ANIA_11323"
-                     /label=ANIA_11323
+                     /label="ANIA_11323"
                      /note="transcript_id=CADANIAT00008705"
                      /db_xref="EnsemblGenomes-Gn:CADANIAG00008705"
                      /db_xref="EnsemblGenomes-Tr:CADANIAT00008705"
@@ -308,7 +316,7 @@ FEATURES             Location/Qualifiers
                      /locus_tag="ANIA_02037"
                      /old_locus_tag="AN2037.2; AN2037.4"
                      /product="short-chain dehydrogenase/reductase ANIA_02037"
-                     /label=ANIA_02037
+                     /label="ANIA_02037"
                      /note="transcript_id=CADANIAT00008706"
                      /db_xref="EnsemblGenomes-Gn:CADANIAG00008706"
                      /db_xref="EnsemblGenomes-Tr:CADANIAT00008706"
@@ -324,12 +332,13 @@ FEATURES             Location/Qualifiers
                      RPARFGFDFDKKELTIYGDGNTKTSVSTLAQVGRAVATVLSLKVLPDGENDKSLTLSSW
                      FNKPVYLQSFVISQNEMFESVKRVTGTADANWTITKEDVHERYADGLKMVKTGNMAGFA
                      KLLYARAFFPEDAGNHSDKAQNKLLGLPEENLDEATQVGIGMVKALQSRAERMAS"
+                     /Pfam="NmrA"
      CDS             complement(28925..30316)
                      /codon_start=1
                      /locus_tag="ANIA_02038"
                      /old_locus_tag="AN2038.2; AN2038.4"
                      /product="FAD-linked oxidoreductase ANIA_02038"
-                     /label=ANIA_02038
+                     /label="ANIA_02038"
                      /note="transcript_id=CADANIAT00008707"
                      /db_xref="EnsemblGenomes-Gn:CADANIAG00008707"
                      /db_xref="EnsemblGenomes-Tr:CADANIAT00008707"
@@ -346,12 +355,13 @@ FEATURES             Location/Qualifiers
                      ASLPGVVEIAGSASPGYFFYWYNSVDPQTQAEIEEATRCTIKWLQSESGTEAVEPTFQD
                      FADYSPFHLSPSTSDVADGWYGKMKGLQGHRNTWYISSLFVVGSTQVWNNTRNILPEII
                      DAARS"
+                     /Pfam="NAD_binding_8, Amino_oxidase"
      CDS             join(32401..32708,32790..32897,32968..33124,33185..33367)
                      /codon_start=1
                      /locus_tag="ANIA_02039"
                      /old_locus_tag="AN2039.2; AN2039.4"
                      /product="short-chain dehydrogenase/reductase ANIA_02039"
-                     /label=ANIA_02039
+                     /label="ANIA_02039"
                      /note="transcript_id=CADANIAT00008708"
                      /db_xref="EnsemblGenomes-Gn:CADANIAG00008708"
                      /db_xref="EnsemblGenomes-Tr:CADANIAT00008708"
@@ -367,13 +377,14 @@ FEATURES             Location/Qualifiers
                      NLEQIFSVNVLGVHWVTRAFIPLLQKGVQKKVVNISTTLASITLARASHGLPTPAYKVS
                      KAAMNALTVQYALDYEKEGFTIFALSPGWLKTELGGGDAADLTADEGARLSLDIILGPS
                      RGLNGQFTRIHLPGWENSRHQYDGSNAPW"
+                     /Pfam="adh_short"
      CDS             join(33885..34110,34176..34299,34367..34729,34785..34836,
                      34894..35546,35617..35779)
                      /codon_start=1
                      /locus_tag="ANIA_02040"
                      /old_locus_tag="AN2040.2; AN2040.4"
                      /product="cytochrome P450 monooxygenase ANIA_02040"
-                     /label=ANIA_02040
+                     /label="ANIA_02040"
                      /note="transcript_id=CADANIAT00008709"
                      /db_xref="EnsemblGenomes-Gn:CADANIAG00008709"
                      /db_xref="EnsemblGenomes-Tr:CADANIAT00008709"
@@ -394,6 +405,7 @@ FEATURES             Location/Qualifiers
                      YRGEWAHREVQYIIPRGSAIGMSAVLAHHDEAVFPDSHLFLPERWLDEKNQRLKELDRA
                      LLAFSKGSRGCLGINLAYCELYLLLALLVVRVFPRMRLYGTTEADVAYDHDFFNPFPVW
                      ESKGVRVVV"
+                     /Pfam="p450"
 ORIGIN
         1 tcatagaatt gtgagcgtct cggtaattgg cagtttcggc gggctctcgg gacgagaacc
        61 ctgctcatcg ccatagttca agtgggcctt tagtttgtaa tcatcaggga cccccgcgaa

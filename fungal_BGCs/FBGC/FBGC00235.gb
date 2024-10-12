@@ -1,47 +1,48 @@
-LOCUS       FBGC00235       32633 bp DNA     linear   UNA 08-MAY-2023
+LOCUS       FBGC00235              32633 bp    DNA     linear   UNA 08-MAY-2023
 DEFINITION  viriditoxin.
 ACCESSION   FBGC00235
-VERSION     .
+VERSION     FBGC00235
 KEYWORDS    .
 SOURCE      Paecilomyces variotii CBS 101075
   ORGANISM  Paecilomyces variotii CBS 101075
+            .
 REFERENCE   1  (bases 1 to 32633)
   AUTHORS   Urquhart AS, Hu J, Chooi YH, Idnurm A.
-  TITLE     The fungal gene cluster for biosynthesis of the antibacterial agent 
+  TITLE     The fungal gene cluster for biosynthesis of the antibacterial agent
             viriditoxin.
   JOURNAL   Fungal Biol Biotechnol 2019;6:2
-  PUBMED    31304040
+   PUBMED   31304040
 REFERENCE   2  (bases 1 to 32633)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported May 8, 2023 from SnapGene 6.2.2
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1186/s40694-019-0072-y"; journalName: "Fungal Biol Biotechnol"; 
-            date: "2019"; volume: "6"; pages: "2"
-COMMENT     URL -- http://genome.jgi.doe.gov/Paevar1
-            JGI Project ID: 1120421
-            The DNA was provided by Alex Idnurm (Alex Idnurm)
-            The strain is available from Westerdijk Fungal Biodiversity 
-            Institute
-            Contacts: Alex Idnurm (alexander.idnurm@unimelb.edu.au)
-            Kerrie W. Barry (kwbarry@lbl.gov)
-            Assembly and annotation done by JGI.
-            The JGI and collaborators endorse the principles for the 
-            distribution and use of large scale sequencing data adopted by the 
-            larger genome sequencing community and urge users of this data to 
-            follow them. It is our intention to publish the work of this project
-            in a timely fashion and we welcome collaborative interaction on the 
-            project and analysis. 
-            (http://www.genome.gov/page.cfm?pageID=10506376).##Metadata-START##
+  JOURNAL   Exported May 8, 2023 from SnapGene 6.2.2 https://www.snapgene.com
+COMMENT     ##Metadata-START##
             Organism Display Name :: Paecilomyces variotii No. 5
             GOLD Stamp ID         :: Gp0070862
-            ##Metadata-END####Genome-Assembly-Data-START##
+            ##Metadata-END##
+            ##Genome-Assembly-Data-START##
             Assembly Method       :: Falcon v. 1.8.8
             Assembly Name         :: Paevar1
             Genome Coverage       :: 127.61x
             Sequencing Technology :: PacBio
             ##Genome-Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1186/s40694-019-0072-y"; journalName: "Fungal Biol Biotechnol";
+            date: "2019"; volume: "6"; pages: "2"
+            URL -- http://genome.jgi.doe.gov/Paevar1
+            JGI Project ID: 1120421
+            The DNA was provided by Alex Idnurm (Alex Idnurm)
+            The strain is available from Westerdijk Fungal Biodiversity
+            Institute
+            Contacts: Alex Idnurm (alexander.idnurm@unimelb.edu.au)
+            Kerrie W. Barry (kwbarry@lbl.gov)
+            Assembly and annotation done by JGI.
+            The JGI and collaborators endorse the principles for the
+            distribution and use of large scale sequencing data adopted by the
+            larger genome sequencing community and urge users of this data to
+            follow them. It is our intention to publish the work of this project
+            in a timely fashion and we welcome collaborative interaction on the
+            project and analysis.
 FEATURES             Location/Qualifiers
      source          1..32633
                      /strain="CBS 101075"
@@ -57,10 +58,10 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="C8Q69DRAFT_480050"
                      /product="laccase VdtB"
-                     /label=vdtB
-                     /note="GO_function: GO:16491; copper ion binding - 
-                     oxidoreductase activity [PMID 5507];
-                     GO_process: GO:55114 - oxidation reduction"
+                     /label="vdtB"
+                     /note="GO_function: GO:16491; copper ion binding -
+                     oxidoreductase activity [PMID 5507]; GO_process: GO:55114 -
+                     oxidation reduction"
                      /db_xref="InterPro:IPR001117"
                      /db_xref="InterPro:IPR011706"
                      /db_xref="InterPro:IPR011707"
@@ -78,13 +79,13 @@ FEATURES             Location/Qualifiers
                      YSSVEEAMADQPESFNMVNPPYRDTFLTEFTGAMWVVLRYQVTSPGAWLLHCHFEMHLD
                      NGMAMAILDGVDKWPHVPPEYTQGFHGFREHELPGPAGFWGLVSKILRPESLVWAGGAA
                      VVLLSLFIGGLWRLWQRRMQGTYYVLSQEDERDRFSMDKEAWKSEETKRM"
+                     /Pfam="Cu-oxidase_3, Cu-oxidase, Cu-oxidase_2"
      CDS             join(2634..2897,2947..3459,3519..4043)
                      /codon_start=1
                      /locus_tag="C8Q69DRAFT_488617"
                      /product="methyltransferase VdtC"
-                     /label=vdtC
-                     /note="GO_function: GO:8171 - O-methyltransferase
-                     activity"
+                     /label="vdtC"
+                     /note="GO_function: GO:8171 - O-methyltransferase activity"
                      /db_xref="InterPro:IPR001077"
                      /db_xref="JGIDB:Paevar1_488617"
                      /protein_id="RWQ92168.1"
@@ -96,11 +97,12 @@ FEATURES             Location/Qualifiers
                      VQDLPMVTSTSKDNREKTPLPETVASRISFESHDFFKPQPVQNADVYLLRMILHDWSFK
                      EAGEILANLVPSVKQGARILIMDTVLPRHGTVPVTEEALLRVRDMTMMETFNSHEREID
                      EWKDLIQGVHTGLRVQQVIQPAGSSMAIIEVVRG"
+                     /Pfam="MdpA"
      CDS             join(4331..4748,4815..4931,4982..5420,5476..6253)
                      /codon_start=1
                      /locus_tag="C8Q69DRAFT_510289"
                      /product="hydrolase-like dirigent protein VdtD"
-                     /label=vdtD
+                     /label="vdtD"
                      /db_xref="InterPro:IPR002018"
                      /db_xref="JGIDB:Paevar1_510289"
                      /protein_id="RWQ92169.1"
@@ -115,11 +117,12 @@ FEATURES             Location/Qualifiers
                      RQSPFATALNNSGVGYLGIVHFSDVPYVFNELERTYYITDPEENKLAQRMSASWTAFAS
                      GAFPLCERSERSLGRWEEAYGGDRVCRDRMPEHVRVKGIGDNGDQDDGDEIGKLMARCG
                      FINRLEY"
+                     /Pfam="COesterase"
      CDS             join(7033..7103,7162..8643,8696..8858)
                      /codon_start=1
                      /locus_tag="C8Q69DRAFT_480056"
                      /product="FAD-dependent monooxygenase VdtE"
-                     /label=vdtE
+                     /label="vdtE"
                      /db_xref="JGIDB:Paevar1_480056"
                      /protein_id="RWQ92170.1"
                      /translation="MASMQEVDALVVGAGFGGLWMTNRLKEAGLNVLCVEKAPQAGGVW
@@ -132,12 +135,13 @@ FEATURES             Location/Qualifiers
                      HIQDTDGILLKDRWSYDGVMTTFGMSTSKFPNMFFFYGPQAPTAFSNGPSCIELQGEFV
                      EELILDMIGKGVTRVDTTSEAEKRWKESTLSLWNQFVFSSTKGFYTGENIPGKKAEPLN
                      WFGGFPRYRKALTECRDGGYKEYSLRSLPKVPDPEHRGLIDKVAVVTSAQPVGA"
+                     /Pfam="FMO-like"
      CDS             complement(join(9129..9334,9387..9918,9980..10159))
                      /codon_start=1
                      /locus_tag="C8Q69DRAFT_480057"
                      /product="short-chain dehydrogenase/reductase VdtF"
-                     /label=vdtF
-                     /note="GO_function: GO:16491 - oxidoreductase activity; 
+                     /label="vdtF"
+                     /note="GO_function: GO:16491 - oxidoreductase activity;
                      GO_process: GO:8152 - metabolic process"
                      /db_xref="InterPro:IPR002198"
                      /db_xref="JGIDB:Paevar1_480057"
@@ -148,12 +152,13 @@ FEATURES             Location/Qualifiers
                      EEEAKASQARNGAGKARIEYVRSQVVTLSSVGGFGRDNSAFIYGASKAAATHMMKNLAT
                      YLAPWKIRVNVIAPGYFNTDMMGNFYKATGGRLPASLAPEERFGDAQEIGGTIVYLASK
                      AGAYCNGMVLLVDGGYVSNKPSSY"
+                     /Pfam="adh_short, adh_short_C2"
      CDS             join(10889..11137,11195..12263,12333..12781)
                      /codon_start=1
                      /locus_tag="C8Q69DRAFT_488624"
                      /product="major facilitator superfamily transporter VdtG"
-                     /label=vdtG
-                     /note="GO_component: GO:16021 - integral to membrane; 
+                     /label="vdtG"
+                     /note="GO_component: GO:16021 - integral to membrane;
                      GO_process: GO:55085 - transmembrane transport"
                      /db_xref="InterPro:IPR011701"
                      /db_xref="JGIDB:Paevar1_488624"
@@ -169,15 +174,15 @@ FEATURES             Location/Qualifiers
                      IGISLIFFSQSLGGSVFLAVDDSIYSNRLAAKLGSIPNLPQSALTNTGATNIRNLVAPQ
                      YLGRLLGGYNDALMDVFRVAVASSCACVVAAAFMEWKNVRAAKAAGPGGPGGPGGPGGP
                      GGPEGLRGGNKV"
+                     /Pfam="MFS_1"
      CDS             14256..15566
                      /codon_start=1
                      /locus_tag="C8Q69DRAFT_105452"
                      /product="transcription factor VdtR"
-                     /label=vdrR
-                     /note="GO_component: GO:5634 - nucleus;
-                     GO_function: GO:8270; DNA binding - zinc ion binding [PMID 
-                     3677];
-                     GO_process: GO:6355; aflatoxin biosynthetic process - 
+                     /label="vdrR"
+                     /note="GO_component: GO:5634 - nucleus; GO_function:
+                     GO:8270; DNA binding - zinc ion binding [PMID 3677];
+                     GO_process: GO:6355; aflatoxin biosynthetic process -
                      regulation of transcription, DNA-dependent [PMID 45122]"
                      /db_xref="InterPro:IPR001138"
                      /db_xref="InterPro:IPR013700"
@@ -191,15 +196,16 @@ FEATURES             Location/Qualifiers
                      KANSDAMKDAADLLACPCAKDFCFPIILGITACRVLAWYQVVIDMYDPEIPMATMPTAR
                      EDIKHCPIAFGAYQLDEEVSQAMTSQFVLRNLRAMTRFVKTYVENFCSDINKNRPGSCS
                      LIYRSLGTFMQTRLGNTIEQLEDRLAAFDGEYTKNIG"
+                     /Pfam="EqxR, AflR"
      CDS             join(16827..18775,18838..22042,22088..22372,22422..22837,
                      22906..24277)
                      /codon_start=1
                      /locus_tag="C8Q69DRAFT_515060"
                      /product="polyketide synthase VdtX"
-                     /label=vdtX
-                     /note="GO_function: GO:8270; oxidoreductase activity -
-                     zinc ion binding [PMID 16491];
-                     GO_process: GO:55114 - oxidation reduction"
+                     /label="vdtX"
+                     /note="GO_function: GO:8270; oxidoreductase activity - zinc
+                     ion binding [PMID 16491]; GO_process: GO:55114 - oxidation
+                     reduction"
                      /db_xref="InterPro:IPR009081"
                      /db_xref="InterPro:IPR013149"
                      /db_xref="InterPro:IPR013968"
@@ -250,15 +256,16 @@ FEATURES             Location/Qualifiers
                      TAPTETKTSANKLNNFVSSAATDSAILSEPSATQFVSLEIARWVFDLLMKPVDDDSEID
                      LSRSLVDVGLDSLAAVEMRSWLKSSLGLDISVLEIMASPSLAAMGEHVIRELVRKFGGD
                      NKN"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_DH, PKS_NRPS_MT, fPKS_ER,
+                     fPKS_KR, ACP_PCP"
      CDS             join(25423..25706,25827..26118,26186..29647,29705..29917,
                      29972..30526,30609..32633)
                      /codon_start=1
                      /locus_tag="C8Q69DRAFT_480069"
                      /product="polyketide synthase VdtA"
-                     /label=vdtA
+                     /label="vdtA"
                      /note="GO_function: GO:16788 - hydrolase activity, acting
-                     on ester bonds;
-                     GO_process: GO:9058 - biosynthetic process"
+                     on ester bonds; GO_process: GO:9058 - biosynthetic process"
                      /db_xref="InterPro:IPR001031"
                      /db_xref="InterPro:IPR009081"
                      /db_xref="InterPro:IPR014030"
@@ -305,6 +312,8 @@ FEATURES             Location/Qualifiers
                      GGILAYRAAQILQKAAANPQKPVVESLLLLDSPPPTGLGKLPKHFFDYCDQIGIFGQGT
                      AKAPEWLITHFQGTNSVLHEYHATPFSFGTAPRTGIIWASQTVFETRAVAPPPVRPDDT
                      EDMKFLTERRTDFSAGSWGHMFPGTEVLIETAYGADHFSLLVSLLFRD"
+                     /Pfam="SAT2, PKS_KS, PKS_AT, fPKS_PT, ACP_PCP,
+                     Thioesterase"
 ORIGIN
         1 ttacatccgc ttagtctcct cggacttcca tgcttccttg tccattgaga aacgatccct
        61 ctcatcttct tgggacaaaa cataatatgt tccttgcatc cttcgttgcc acagacgcca

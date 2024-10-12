@@ -1,30 +1,30 @@
-LOCUS       FBGC00220       18306 bp DNA     linear   UNA 09-MAY-2023
+LOCUS       FBGC00220              18306 bp    DNA     linear   UNA 09-MAY-2023
 DEFINITION  aspernidine A.
 ACCESSION   FBGC00220
-VERSION     .
+VERSION     FBGC00220
 KEYWORDS    .
 SOURCE      Aspergillus nidulans FGSC A4
   ORGANISM  Aspergillus nidulans FGSC A4
+            .
 REFERENCE   1  (bases 1 to 18306)
-  AUTHORS   Yaegashi J, Praseuth MB, Tyan SW, Sanchez JF, Entwistle R, Chiang 
+  AUTHORS   Yaegashi J, Praseuth MB, Tyan SW, Sanchez JF, Entwistle R, Chiang
             YM, Oakley BR, Wang CC.
-  TITLE     Molecular genetic characterization of the biosynthesis cluster of a 
-            prenylated isoindolinone alkaloid aspernidine A in Aspergillus 
+  TITLE     Molecular genetic characterization of the biosynthesis cluster of a
+            prenylated isoindolinone alkaloid aspernidine A in Aspergillus
             nidulans.
   JOURNAL   Org Lett 2013;15:2862-5
-  PUBMED    23706169
+   PUBMED   23706169
 REFERENCE   2  (bases 1 to 18306)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported May 9, 2023 from SnapGene 6.2.2
-            https://www.snapgene.com
+  JOURNAL   Exported May 9, 2023 from SnapGene 6.2.2 https://www.snapgene.com
 COMMENT     SGRef: number: 1; type: "Journal Article"; doi: "10.1021/ol401187b";
             journalName: "Org Lett"; date: "2013"; volume: "15"; pages: "2862-5"
-COMMENT     Aspergillus nidulans FGSC A4 CADRE,
+            Aspergillus nidulans FGSC A4 CADRE,
             updated by Eurofungbase with contributions from
             CADRE (http://www.cadre-genomes.org.uk),
             AspGD (http://www.aspergillusgenome.org) and
-              Ensembl Genomes (http://www.ensemblgenomes.org).
+            Ensembl Genomes (http://www.ensemblgenomes.org).
 FEATURES             Location/Qualifiers
      source          1..18306
                      /chromosome="VI"
@@ -37,7 +37,7 @@ FEATURES             Location/Qualifiers
                      /locus_tag="ANIA_03230"
                      /old_locus_tag="AN3230.4"
                      /product="polyketide synthase PkfA"
-                     /label=pkfA
+                     /label="pkfA"
                      /note="transcript_id=CADANIAT00009832"
                      /db_xref="EnsemblGenomes-Gn:CADANIAG00009832"
                      /db_xref="EnsemblGenomes-Tr:CADANIAT00009832"
@@ -95,13 +95,14 @@ FEATURES             Location/Qualifiers
                      WVPVDTVAQTMVDLLLPGIESDSNQTGTTLNKSEPDAYPVYHIDNPVGQPWKEMTPIIT
                      SALNIPSDRVIPYQEFLNLLRSSPLDRDREIPAAKIMDFFTRDFEHMACGGLVLDTTLS
                      QEHSATLAAQGPVTEEEVRRYIERWREMGFLTSNP"
+                     /Pfam="SAT2, PKS_KS, PKS_AT, fPKS_PT, ACP_PCP, fPKS_R"
      CDS             join(7568..7912,7964..8046,8099..9506)
                      /codon_start=1
                      /locus_tag="ANIA_03229"
                      /old_locus_tag="AN3229.4"
-                     /product="glucose-methanol-choline family oxidoreductase 
+                     /product="glucose-methanol-choline family oxidoreductase
                      PkfF"
-                     /label=pkfF
+                     /label="pkfF"
                      /note="transcript_id=CADANIAT00009833"
                      /db_xref="EnsemblGenomes-Gn:CADANIAG00009833"
                      /db_xref="EnsemblGenomes-Tr:CADANIAT00009833"
@@ -122,12 +123,13 @@ FEATURES             Location/Qualifiers
                      IAVALVAPLSRGNVTISSSDMDDPPVFDLGFLTHPADREIAVAAMRRIRQAFAAISEIT
                      IGDEVVPGADVSTDEELLDFIRESIVPVYHVAGTCAMGREDDPEAVVDPQARVIGVNNL
                      RVVDASIFPTLPPGHPQSTCYMVAEKIADLIKKGN"
+                     /Pfam="GMC_oxred_N, GMC_oxred_C"
      CDS             10247..11176
                      /codon_start=1
                      /locus_tag="ANIA_03228"
                      /old_locus_tag="AN3228.4"
                      /product="UbiA-like prenyltransferase PkfE"
-                     /label=pkfE
+                     /label="pkfE"
                      /note="transcript_id=CADANIAT00009834"
                      /db_xref="EnsemblGenomes-Gn:CADANIAG00009834"
                      /db_xref="EnsemblGenomes-Tr:CADANIAT00009834"
@@ -141,12 +143,13 @@ FEATURES             Location/Qualifiers
                      ATGLNASRTIGYDILSAPDHLLTSNLLLAAAVFIANVSVETIYMHADLEDDIKSGIGSL
                      AVKIQGYSKPVLFLAAVAYGSLVLASGLAAEFGKWYFTGAITSALTLFTLVARVDLKNG
                      KMCEQFFFMGNAVLMSLLAAGLYGECIA"
+                     /Pfam="UbiA_PT"
      CDS             join(12127..12817,12904..13727)
                      /codon_start=1
                      /locus_tag="ANIA_03227"
                      /old_locus_tag="AN3227.4"
                      /product="FAD-dependent monooxygenase PkfD"
-                     /label=pkfD
+                     /label="pkfD"
                      /note="transcript_id=CADANIAT00009835"
                      /db_xref="EnsemblGenomes-Gn:CADANIAG00009835"
                      /db_xref="EnsemblGenomes-Tr:CADANIAT00009835"
@@ -164,12 +167,13 @@ FEATURES             Location/Qualifiers
                      PEIQRLVDLLPENPNKWAIFDTSDNPVPSYVSASGRVCIAGDAAHASTPFLASGAAMGV
                      EDAAVLATVLNTALKEQSYNKTTVVKRKAITAAFQAYSGIRMQRSQRVVKDSRTVGEVC
                      MWQDAETARDPEKCFQAIWQRYTQIWEFDVEEMVERARSECVRLFS"
+                     /Pfam="ElcH"
      CDS             join(14334..14396,14481..15356)
                      /codon_start=1
                      /locus_tag="ANIA_03226"
                      /old_locus_tag="AN3226.4"
                      /product="short-chain dehydrogenase/reductase PkfC"
-                     /label=pkfC
+                     /label="pkfC"
                      /note="transcript_id=CADANIAT00009836"
                      /db_xref="EnsemblGenomes-Gn:CADANIAG00009836"
                      /db_xref="EnsemblGenomes-Tr:CADANIAT00009836"
@@ -185,13 +189,14 @@ FEATURES             Location/Qualifiers
                      SSDAASWAPKPAIDFNNLDYRRNESDRSKYGRSKAGTVMQAVELARRARKDGSGIVSIA
                      LDPGIANTGLQRDMGRLMSTMVKLIANKPEIGAYTQLFAGLSPEITAEVAEKEWVVPPG
                      KIGCPRRDLFTDTETSRKWWEWNEEQVKAYL"
+                     /Pfam="adh_short"
      CDS             join(16479..17150,17228..17442,17516..17954,18035..18124,
                      18196..18306)
                      /codon_start=1
                      /locus_tag="ANIA_03225"
                      /old_locus_tag="AN3225.4"
                      /product="cytochrome P450 monooxygenase PkfB"
-                     /label=pkfB
+                     /label="pkfB"
                      /note="transcript_id=CADANIAT00009837"
                      /db_xref="EnsemblGenomes-Gn:CADANIAG00009837"
                      /db_xref="EnsemblGenomes-Tr:CADANIAT00009837"
@@ -210,6 +215,7 @@ FEATURES             Location/Qualifiers
                      AGPLTQPYPSWKDVCNLPYLDACILEALRLHPPFCLPFERIVPQGGMVLGDTYFPEGTV
                      VGMSPWVVNRHKPTFGEDSDVWNPERWMVSKELKSKREAAVLTFGAGRRVCLGRHIAIL
                      ELKKIVPALVLRYDFELIDPERFTTENFWFFRQRGMDVRVKKRMQAEAGI"
+                     /Pfam="p450"
 ORIGIN
         1 tcacgggtta ctagtgagga aacccatctc ccgccacctc tctatatagc gcctcacctc
        61 ttcctcggtg acaggccctt gagcagccaa cgtggccgaa tgctcctgag aaagcgttgt

@@ -1,48 +1,49 @@
-LOCUS       FBGC00211       32217 bp DNA     linear   UNA 25-JAN-2023
+LOCUS       FBGC00211              32217 bp    DNA     linear   UNA 25-JAN-2023
 DEFINITION  sorbicillinol.
 ACCESSION   FBGC00211
-VERSION     .
+VERSION     FBGC00211
 KEYWORDS    .
 SOURCE      Trichoderma reesei QM6a
   ORGANISM  Trichoderma reesei QM6a
+            .
 REFERENCE   1  (bases 1 to 32217)
   AUTHORS   Druzhinina IS, Kubicek EM, Kubicek CP.
-  TITLE     Several steps of lateral gene transfer followed by events of 
-            'birth-and-death' evolution shaped a fungal sorbicillinoid 
+  TITLE     Several steps of lateral gene transfer followed by events of
+            'birth-and-death' evolution shaped a fungal sorbicillinoid
             biosynthetic gene cluster.
   JOURNAL   BMC Evol Biol 2016;16:269
-  PUBMED    28010735
+   PUBMED   28010735
 REFERENCE   2  (bases 1 to 32217)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Jan 25, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1186/s12862-016-0834-6"; journalName: "BMC Evol Biol"; date: 
-            "2016"; volume: "16"; pages: "269"
-COMMENT     URL -- http://www.jgi.doe.gov/Treesei
-            JGI Project ID: 3435777
-            DNA was provided by Daniel Cullen (dcullen@facstaff.wisc.edui) Stock
-            culture and extracted DNA are available at ATCC: ATCC 13631 
-            (http://www.atcc.org)
-            Contacts: Diego Martinez (admar@unm.edu)
-                      Igor V. Grigoriev (ivgrigoriev@lbl.gov)
-            This assembly contains additional finishing reads since the original
-            submission.
-            Assembly and annotation done by JGI.
-            Finishing done by JGI-Los Alomos National Laboratory
-            Manual curation done by the Trichoderma reesei User Community 
-            Originally misnamed as strain QM9414.##Genome-Assembly-Data-START##
+  JOURNAL   Exported Jan 25, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     ##Genome-Assembly-Data-START##
             Assembly Method       :: Jazz
             Assembly Name         :: v2.0
             Genome Coverage       :: 9x
             Sequencing Technology :: Sanger
-            ##Genome-Assembly-Data-END####Metadata-START##
+            ##Genome-Assembly-Data-END##
+            ##Metadata-START##
             Organism Display Name :: Trichoderma reesei QM6a
             Culture Collection ID :: ATCC 13631
             GOLD Stamp ID         :: Gc00961
             Diseases              :: None
             ##Metadata-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1186/s12862-016-0834-6"; journalName: "BMC Evol Biol"; date:
+            "2016"; volume: "16"; pages: "269"
+            URL -- http://www.jgi.doe.gov/Treesei
+            JGI Project ID: 3435777
+            DNA was provided by Daniel Cullen (dcullen@facstaff.wisc.edui) Stock
+            culture and extracted DNA are available at ATCC: ATCC 13631
+            (http://www.atcc.org)
+            Contacts: Diego Martinez (admar@unm.edu)
+            Igor V. Grigoriev (ivgrigoriev@lbl.gov)
+            This assembly contains additional finishing reads since the original
+            submission.
+            Assembly and annotation done by JGI.
+            Finishing done by JGI-Los Alomos National Laboratory
+            Manual curation done by the Trichoderma reesei User Community
 FEATURES             Location/Qualifiers
      source          1..32217
                      /chromosome="Unknown"
@@ -56,10 +57,9 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="TRIREDRAFT_102492"
                      /product="short-chain dehydrogenase/reductase Sor7"
-                     /label=sor7
-                     /note="GO_function: GO:16491 - oxidoreductase activity; 
-                     GO_process: GO:8152 - metabolism
-                     revised sequence"
+                     /label="sor7"
+                     /note="GO_function: GO:16491 - oxidoreductase activity;
+                     GO_process: GO:8152 - metabolism revised sequence"
                      /db_xref="InterPro:IPR002198"
                      /db_xref="JGIDB:Trire2_102492"
                      /protein_id="EGR52689.1"
@@ -69,17 +69,17 @@ FEATURES             Location/Qualifiers
                      RITFTGSATQIMQNTLSKQPISSESTVLGHFDDEANFNKLYRYADSKTVVNAYVRRLAA
                      LAPSEVIVNNACPGLVQTGIDKNLPFYLKLPMGLLRKSTGRTVEEGARTLIYVAVVAGT
                      ETNGKFLQHNQVDPGAEFLNTAEGEDFISKLWKESVQDVAATDPALGSYA"
-     CDS             complement(join(1625..2485,2561..8714,8790..9123,9191..9248,
-                     9317..9403,9457..9666))
+                     /Pfam="adh_short"
+     CDS             complement(join(1625..2485,2561..8714,8790..9123,
+                     9191..9248,9317..9403,9457..9666))
                      /codon_start=1
                      /locus_tag="TRIREDRAFT_73618"
                      /product="polyketide synthase Sor1"
-                     /label=sor1
-                     /note="GO_function: GO:4024; zinc ion binding - alcohol 
-                     dehydrogenase activity, zinc-dependent [Evidence 3824; 
-                     transferase activity] [PMID 8270];
-                     GO_process: GO:6633; metabolism - fatty acid biosynthesis 
-                     [PMID 8152]"
+                     /label="sor1"
+                     /note="GO_function: GO:4024; zinc ion binding - alcohol
+                     dehydrogenase activity, zinc-dependent [Evidence 3824;
+                     transferase activity] [PMID 8270]; GO_process: GO:6633;
+                     metabolism - fatty acid biosynthesis [PMID 8152]"
                      /db_xref="InterPro:IPR000794"
                      /db_xref="InterPro:IPR001227"
                      /db_xref="InterPro:IPR002085"
@@ -129,16 +129,17 @@ FEATURES             Location/Qualifiers
                      LAIVSPYDPQFILGGINSGPGPHWDVDGDLGRDMRLLALKYRQPAAADGHDDEDSKAAN
                      GGDSLSAKIASASSRDEAISVVGSAVAAMLADMFLVSVEEVDLNDSPSQQGIDSLVAVE
                      VRNMLFSQAGAELSIFNIMQSPSLAQLVANVVDRSTFAKFAKSS"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_DH, PKS_NRPS_MT, fPKS_ER,
+                     fPKS_KR, ACP_PCP"
      CDS             join(10434..11072,11137..15365,15439..18472)
                      /codon_start=1
                      /locus_tag="TRIREDRAFT_73621"
                      /product="polyketide synthase Sor2"
-                     /label=sor2
-                     /note="candidate polyketide synthase;
-                     GO_function: GO:16740; catalytic activity - transferase 
-                     activity [Evidence 48037] [PMID 3824];
-                     GO_process: GO:6633; metabolism - fatty acid biosynthesis 
-                     [PMID 8152]"
+                     /label="sor2"
+                     /note="candidate polyketide synthase; GO_function:
+                     GO:16740; catalytic activity - transferase activity
+                     [Evidence 48037] [PMID 3824]; GO_process: GO:6633;
+                     metabolism - fatty acid biosynthesis [PMID 8152]"
                      /db_xref="InterPro:IPR000794"
                      /db_xref="InterPro:IPR001227"
                      /db_xref="InterPro:IPR006163"
@@ -189,12 +190,14 @@ FEATURES             Location/Qualifiers
                      SMKTGYWNHMEMLSFLFKSAQTLRALPDVDGDVSWLHLEDASASLADLLLRDAPTCHAV
                      YHLDNPRPRDWKDVIPVLADALDIPSSHIVPFEEWLRRVRAYPGEDPWDNPSAKAMDFF
                      EHKFKHMSCGGVTMATDHALEHSETLRAVQPVSDELVRKYIQAWKDSGFLR"
+                     /Pfam="SAT2, PKS_KS, PKS_AT, fPKS_PT, ACP_PCP, HTH_51,
+                     PKS_NRPS_MT, fPKS_R"
      CDS             join(19295..19594,19628..19826,19918..20789)
                      /codon_start=1
                      /locus_tag="TRIREDRAFT_73623"
                      /product="FAD-dependent monooxygenase Sor5"
-                     /label=sor5
-                     /note="GO_function: GO:4497 - monooxygenase activity; 
+                     /label="sor5"
+                     /note="GO_function: GO:4497 - monooxygenase activity;
                      GO_process: GO:6725 - aromatic compound metabolism"
                      /db_xref="InterPro:IPR000733"
                      /db_xref="JGIDB:Trire2_73623"
@@ -207,11 +210,12 @@ FEATURES             Location/Qualifiers
                      EAEKAFTEFNPTVRSLISLLPEELGKWAIFDMLDSPAPSYALGRMCLAGDAAHASTPNQ
                      GGGAGAGMEDSLVLAEILAALADRAKSGARVGSWEISEGLKIYSDARYERAQWLVQSSR
                      RVAQLFTRKKGAGQGGEEEEPISREILERSHQLWDYDVDAAVEEALGKLRAKVLEKH"
+                     /Pfam="FAD_binding_3"
      CDS             complement(join(21209..22053,22127..22507,22605..22983))
                      /codon_start=1
                      /locus_tag="TRIREDRAFT_43701"
                      /product="major facilitator superfamily transporter Sor6"
-                     /label=sor6
+                     /label="sor6"
                      /db_xref="JGIDB:Trire2_43701"
                      /protein_id="EGR52691.1"
                      /translation="MSKEASQDSRSITPVEAVEPLEVVDAEKNVTTSPYNGSGTVEDPF
@@ -224,16 +228,16 @@ FEATURES             Location/Qualifiers
                      AGAVALPIGMFAFAWTNYPSIHWAVSIVLSAPFGFGVVLVILPIVNYLIDSYTVYAASV
                      LAAAAVFRSIMGAVFPLFTSQMYHNLGIHWATSIPAFLTLVCMPFPFFMYRYGAVVREK
                      CKYAAEAAQIMKKMQGR"
+                     /Pfam="MFS_1"
      CDS             join(23528..23693,23801..24773,24889..25176,25288..25855)
                      /codon_start=1
                      /locus_tag="TRIREDRAFT_102497"
                      /product="transcription factor Sor3"
-                     /label=sor3
-                     /note="GO_component: GO:5634 - nucleus;
-                     GO_function: GO:3700; zinc ion binding - transcription 
-                     factor activity [PMID 8270];
-                     GO_process: GO:6355 - regulation of transcription, 
-                     DNA-dependent"
+                     /label="sor3"
+                     /note="GO_component: GO:5634 - nucleus; GO_function:
+                     GO:3700; zinc ion binding - transcription factor activity
+                     [PMID 8270]; GO_process: GO:6355 - regulation of
+                     transcription, DNA-dependent"
                      /db_xref="InterPro:IPR001138"
                      /db_xref="JGIDB:Trire2_102497"
                      /protein_id="EGR52184.1"
@@ -249,11 +253,12 @@ FEATURES             Location/Qualifiers
                      ECARMCLEAAQKLTSLIAEIHDPNEPIGILPWWYRVYYLHIAGIHFLAAMFASDLFTPS
                      VERAWYQVLAALRAHEHLSLYVQQCARTFETLAARILNARCLSVNGNGIMALDDGAPGL
                      FLDDMFQDVNFDLDEFLFSVDDTGRRTNY"
+                     /Pfam="EqxR, Zn_clus, Fungal_trans"
      CDS             complement(join(26042..26330,26413..26686,26764..27925))
                      /codon_start=1
                      /locus_tag="TRIREDRAFT_73631"
                      /product="FAD-linked oxidoreductase Sor8"
-                     /label=sor8
+                     /label="sor8"
                      /note="GO_process: GO:6118 - electron transport"
                      /db_xref="InterPro:IPR006094"
                      /db_xref="JGIDB:Trire2_73631"
@@ -268,17 +273,17 @@ FEATURES             Location/Qualifiers
                      SNAAYDPPVVSNGLQIGGRLVKRSDFTGNPDGFIQAIRGIADQGGLVTGASYQLSSSLQ
                      HPPNSVNPELRKSLISFQIGVPWINTDWATDLHNQDLITNSFVPALAALLPSGGSAYLN
                      QADFREPGWQQVFYGENYEKLLELKDVYDPNGVFWGRTTVGSERWAETEDKRLCRVS"
+                     /Pfam="FAD_binding_4, BBE"
      CDS             complement(join(29881..30153,30225..31403,31513..31928,
                      32001..32217))
                      /codon_start=1
                      /locus_tag="TRIREDRAFT_102499"
                      /product="transcription factor Sor4"
-                     /label=sor4
-                     /note="GO_component: GO:5634 - nucleus;
-                     GO_function: GO:3700; zinc ion binding - transcription 
-                     factor activity [PMID 8270];
-                     GO_process: GO:6355 - regulation of transcription, 
-                     DNA-dependent"
+                     /label="sor4"
+                     /note="GO_component: GO:5634 - nucleus; GO_function:
+                     GO:3700; zinc ion binding - transcription factor activity
+                     [PMID 8270]; GO_process: GO:6355 - regulation of
+                     transcription, DNA-dependent"
                      /db_xref="InterPro:IPR001138"
                      /db_xref="JGIDB:Trire2_102499"
                      /protein_id="EGR52693.1"
@@ -295,6 +300,7 @@ FEATURES             Location/Qualifiers
                      MACKPAAHQAASEVVRIIKTAPRIAFFKMHPFFPNAIALVTSFLNADVPYLPSTRGGNA
                      MDAIQERQDAVNELLAALRRSSQVNNLAAELLCKLELDIGQAASDGSVSQFDQGDGSWS
                      "
+                     /Pfam="Zn_clus, Fungal_trans"
 ORIGIN
         1 tcaagcataa gagccaagag ccggatcagt agcagcaacg tcttgaaccg actctttcca
        61 gagcttgcta ataaagtctt ctccttccgc agtgttgaga aactcggcac ccctgtcaaa

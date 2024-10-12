@@ -1,38 +1,38 @@
-LOCUS       FBGC00203       21564 bp DNA     linear   UNA 24-JAN-2023
+LOCUS       FBGC00203              21564 bp    DNA     linear   UNA 24-JAN-2023
 DEFINITION  subglutinol A.
 ACCESSION   FBGC00203
-VERSION     .
+VERSION     FBGC00203
 KEYWORDS    .
 SOURCE      Metarhizium anisopliae E6
   ORGANISM  Metarhizium anisopliae E6
+            .
 REFERENCE   1  (bases 1 to 21564)
-  AUTHORS   Tsukada K, Shinki S, Kaneko A, Murakami K, Irie K, Murai M, Miyoshi 
-            H, Dan S, Kawaji K, Hayashi H, Kodama EN, Hori A, Salim E, Kuraishi 
+  AUTHORS   Tsukada K, Shinki S, Kaneko A, Murakami K, Irie K, Murai M, Miyoshi
+            H, Dan S, Kawaji K, Hayashi H, Kodama EN, Hori A, Salim E, Kuraishi
             T, Hirata N, Kanda Y, Asai T.
-  TITLE     Synthetic biology based construction of biological activity-related 
+  TITLE     Synthetic biology based construction of biological activity-related
             library of fungal decalin-containing diterpenoid pyrones.
   JOURNAL   Nat Commun 2020;11:1830
-  PUBMED    32286350
+   PUBMED   32286350
 REFERENCE   2  (bases 1 to 21564)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Jan 24, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1038/s41467-020-15664-4"; journalName: "Nat Commun"; date: 
-            "2020"; volume: "11"; pages: "1830"
+  JOURNAL   Exported Jan 24, 2023 from SnapGene 6.2.1 https://www.snapgene.com
 COMMENT     ##Genome-Assembly-Data-START##
             Assembly Method       :: Newbler v. 2.8
             Assembly Name         :: Metarhizium anisopliae
             Genome Coverage       :: 19.0x
             Sequencing Technology :: 454
             ##Genome-Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1038/s41467-020-15664-4"; journalName: "Nat Commun"; date:
+            "2020"; volume: "11"; pages: "1830"
 FEATURES             Location/Qualifiers
      source          1..21564
                      /strain="E6"
                      /mol_type="genomic DNA"
                      /country="Brazil: Espirito Santo state"
-                     /collection_date=1978
+                     /collection_date="1978"
                      /db_xref="taxon:5530"
                      /organism="Metarhizium anisopliae"
                      /submitter_seqid="contig00128"
@@ -40,7 +40,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="MANI_006343"
                      /product="FAD-linked oxidoreductase DpmaF"
-                     /label=dpmaF
+                     /label="dpmaF"
                      /note="identified by sequence similarity"
                      /protein_id="KFG81918.1"
                      /translation="MTRLSLQLIAGLAGQAWLVNSDTPSHEAFASCLSDASVPIATKGT
@@ -52,11 +52,12 @@ FEATURES             Location/Qualifiers
                      YTTGALTPSLSANQFKSFADYIAKDAIKRGNSWSIQMFIHGGQNSAISGPKITDTAYAH
                      RDKFLIFQFTDFVWPSQEYPEDGLALGREFRDIITNSFTNDQWGMYANVPDSQLSSGEA
                      QKLYWGKNLERLETIKAKYDPSNLFRNPQSVKAAARCATHPLLLQGQCLLF"
+                     /Pfam="FAD_binding_4, BBE"
      CDS             complement(join(3851..4342,4407..4777,4822..5117,
                      5175..5467))
                      /codon_start=1
                      /product="FAD-dependent monooxygenase DpmaE"
-                     /label=dpmaE
+                     /label="dpmaE"
                      /translation="MSQRQFKVIIIGGSVTGLTLAHSLHKIGIDYVVLEKRDTVTPQEG
                      ASIGILPNGARILDQLGLYEAIEDEAPPLGATRIHFPDGFAFTSLYPKKILENFGYPIA
                      FLERRQLLRILYDALPDKTRIHVNKTMSTIEHFTKDEITGARVLTKEGDVYEGDLIVGA
@@ -66,11 +67,12 @@ FEATURES             Location/Qualifiers
                      NLLRNMCQLKSGTRPTEQEIDLLLRRFNKQHLSRVTQITNMSKLTVRVHARKGVLHRLV
                      GRYVMPYFGAYFEARPFNMLADAASLDFIPLPKSSYPGWEKYSSKTRGNSRLLPLMFTL
                      PLLYFGLSWIVGIYWKPGYLHAWNS"
+                     /Pfam="FAD_binding_3"
      CDS             join(6713..6826,6906..7060,7113..7439,7503..7902)
                      /codon_start=1
                      /locus_tag="MANI_006355"
                      /product="geranylgeranyl pyrophosphate synthase DpmaD"
-                     /label=dpmaD
+                     /label="dpmaD"
                      /note="identified by sequence similarity"
                      /protein_id="KFG81919.1"
                      /translation="MSTSAPNTNELNSPVLETQPLAGDAALLHSSIADGYEEIIRAPFD
@@ -79,21 +81,23 @@ FEATURES             Location/Qualifiers
                      SKCPTEEEYFSMVSHKTGGLFRLAIRLMQLASDKNCDFVPLVNVLGVIFQIRDDYLNLQ
                      SHAYTVNKGFGEDLTEGKYSFPIIHSIRSDPTNIQLSSILKQRTTDVDVKLFAVECIKA
                      TGSFEHCKEKIAELVAEARQLIKEMGNSVPGSAEAVDRVLDLIGLEPESS"
+                     /Pfam="GGPS"
      CDS             complement(join(8837..9404,9470..9764,9823..9934))
                      /codon_start=1
                      /product="UbiA-like prenyltransferase DpmaC"
-                     /label=dpmaC
+                     /label="dpmaC"
                      /translation="MAKEAKMKATAERPLMLNLLTLSRFDKYNPTFTTFAGAWSALLAG
                      ASETRQEHLAPSPLFILRQTLFCVLAAYLFCGAGMVWNDWIDRDIDANVARTKNRPLAS
                      GKVTTAQAFVWMALQVIASCAVLHVMLDGKDVHKHVIPVMIASMLYPFLKRPTAKKLHI
                      YPQYMLAFTIAWPAIPGRAAICGRDESFGETVRYCLPLCTVVFFWTIYLNTAYSYQDVV
                      DDRKLNVNSFYNIAGRHTHLVLVALVCPILACLPLYLTQFQSTWLWVTWMGVWTAAFAV
                      QLALFDAKQPASGGSLHKSNFVLGIWTIVVCSVELLLKARVSI"
+                     /Pfam="UbiA_PT"
      CDS             join(11058..11575,11643..11856)
                      /codon_start=1
                      /locus_tag="MANI_006367"
                      /product="terpene cyclase DpmaB"
-                     /label=dpmaB
+                     /label="dpmaB"
                      /note="identified by sequence similarity"
                      /protein_id="KFG81920.1"
                      /translation="MNAADISRAPPGYLEVAWIADTCKLLMGLGWTTNYAGMIYKSLKD
@@ -101,11 +105,12 @@ FEATURES             Location/Qualifiers
                      APLVRRNLPFIFIICIAAWTTAHLALALQIGPSHAQAFSAYGCQLLLSVGALCQLLSRG
                      SSRGASYFLWFCRFFGSLVLIPQDVLRYRYWRQDHEYMGSPLYIWFVSIFLLLDGSYAL
                      CLWYVRRFESEQEEAKKAKSI"
+                     /Pfam="Pyr4"
      CDS             join(14953..15627,15694..21564)
                      /codon_start=1
                      /locus_tag="MANI_006324"
                      /product="polyketide synthase DpmaA"
-                     /label=dpmaA
+                     /label="dpmaA"
                      /note="identified by sequence similarity"
                      /protein_id="KFG81921.1"
                      /translation="MRVNTPSLLICGPMISQADAAYLPQVRSNLVHNKNLSYLREAVSE
@@ -146,6 +151,8 @@ FEATURES             Location/Qualifiers
                      QHQRFDMEFETLNIEKEPPASFAQSYDLVISANCIHATRDLRKSCSNIEKLLRKDGGML
                      CLLELTRPLEWLDCVFGLLDGWWRFDDHRTYALAGEQDWKTILLQSGFDHIDWTDDGSR
                      EAQQLRLITAWR"
+                     /Pfam="SAT2, PKS_KS, PKS_AT, fPKS_PT, ACP_PCP, HTH_51,
+                     PKS_NRPS_MT"
 ORIGIN
         1 ctaaaataat aaacattgac cttgtaagag cagtggatgt gttgcgcagc gggccgcggc
        61 cttgactgat tgggggttcc taaacaaatt actgggatca tatttcgcct tgatagtttc

@@ -1,25 +1,25 @@
-LOCUS       FBGC00247       24926 bp DNA     linear   UNA 27-JAN-2023
+LOCUS       FBGC00247              24926 bp    DNA     linear   UNA 27-JAN-2023
 DEFINITION  geodin.
 ACCESSION   FBGC00247
-VERSION     .
+VERSION     FBGC00247
 KEYWORDS    .
 SOURCE      Aspergillus terreus NIH2624
   ORGANISM  Aspergillus terreus NIH2624
+            .
 REFERENCE   1  (bases 1 to 24926)
-  AUTHORS   Nielsen MT, Nielsen JB, Anyaogu DC, Holm DK, Nielsen KF, Larsen TO, 
+  AUTHORS   Nielsen MT, Nielsen JB, Anyaogu DC, Holm DK, Nielsen KF, Larsen TO,
             Mortensen UH.
-  TITLE     Heterologous reconstitution of the intact geodin gene cluster in 
-            Aspergillus nidulans through a simple and versatile PCR based 
+  TITLE     Heterologous reconstitution of the intact geodin gene cluster in
+            Aspergillus nidulans through a simple and versatile PCR based
             approach.
   JOURNAL   PLoS One 2013;8:e72871
-  PUBMED    24009710
+   PUBMED   24009710
 REFERENCE   2  (bases 1 to 24926)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Jan 27, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1371/journal.pone.0072871"; journalName: "PLoS One"; date: 
+  JOURNAL   Exported Jan 27, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1371/journal.pone.0072871"; journalName: "PLoS One"; date:
             "2013"; volume: "8"; pages: "e72871"
 FEATURES             Location/Qualifiers
      source          1..24926
@@ -31,7 +31,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="ATEG_08449"
                      /product="methyltransferase GedA"
-                     /label=gedA
+                     /label="gedA"
                      /protein_id="EAU31622.1"
                      /translation="MERQPKSLSDAVQLLQTTEIISKCTQTIIAEWSNEAETFKKRASS
                      GRAGAELVLPSHELFNAQRTITAAIGKLIELVSEPSVRILEIAGQYQESRALYIAVERR
@@ -42,11 +42,12 @@ FEATURES             Location/Qualifiers
                      ALKDQRVQFMEHSFFDKNPVEGADVYYLRYVLHDWSDDYCVNILSHIRESMAPHSRLLI
                      CEQVMNTTIGDPDLTSAPAPLPANYGFHARFSHSRDLTMMAAINGIERTPEEFKTILKS
                      AGLALKQIWECRSQVSLLEAVRADARTA"
+                     /Pfam="Methyltransf_2"
      CDS             complement(join(2208..3014,3084..3239))
                      /codon_start=1
                      /locus_tag="ATEG_08450"
                      /product="metallo-beta-lactamase-like thioesterase GedB"
-                     /label=gedB
+                     /label="gedB"
                      /protein_id="EAU31623.1"
                      /translation="MKRGGYRQINKALNISAFENYLDIQHDHLPKLNDVEQLSPRVLRV
                      LGQNAGKFTLQGTNTYIVGTGRERLIIDTGQGIPEWTDLISSTLRDSAITLSHVLLTHW
@@ -54,12 +55,13 @@ FEATURES             Location/Qualifiers
                      MCFILEEENAMFTGDNVLGHGTSAVELLGIWMASLRLMQSSGCRVGYPAHGAVIADLLA
                      KIAGELDQKARREARVVRTLARNKREEQSKGRSKGSMTVQELVTAMHGKGLDDQVRTMA
                      LEPFINEVLGKLAGDGCVAFEVRRGEKRWFIVNDVTSSP"
+                     /Pfam="Lactamase_B"
      CDS             join(3752..4092,4150..4456,4521..5621,5678..8032,
                      8095..9306)
                      /codon_start=1
                      /locus_tag="ATEG_08451"
                      /product="polyketide synthase GedC"
-                     /label=gedC
+                     /label="gedC"
                      /note="similar to polyketide synthase"
                      /protein_id="EAU31624.1"
                      /translation="MDFTPSTGTPGEFRRMKLTYFTNEFPSDDLPGLARQLHLHSKDRR
@@ -93,11 +95,12 @@ FEATURES             Location/Qualifiers
                      FSPSDDSTAKTAAGETPPAPTTTAATAITAATSTTSTTSTASTGQPPKVDETSPVDSNS
                      TAARALALVAKEAGMEVTDLQDDAIFANLGVDSLMSLVIAEKFREELGVVVAGSLFLEY
                      PTVGDLKSWLLEYYS"
+                     /Pfam="SAT2, PKS_KS, PKS_AT, fPKS_PT, ACP_PCP"
      CDS             join(9732..10472,10567..11181)
                      /codon_start=1
                      /locus_tag="ATEG_08452"
                      /product="transcriptional coactivator GedD"
-                     /label=gedD
+                     /label="gedD"
                      /note="revised sequence"
                      /protein_id="EAU31625.1"
                      /translation="MDAVTQLEVCINELVASARTLVSFCREGGLSSPGPQLCFPAEAPT
@@ -108,11 +111,12 @@ FEATURES             Location/Qualifiers
                      TRASLTPVPSIPGIIQLDENYPHISVQTRNLGLAQPVLDAAVYILHLPSLSVANSPSRS
                      IVVKELQAHMDVLSSNPSAVLIATARVLPPPGSVHREVEAMCRVRDFTLMQLTNEHEPE
                      VADFDDLVNAVEAGGAGRLVVADKLRARNNLLVAFVLKYQEVSAPGALPSSF"
+                     /Pfam="MdpA"
      CDS             join(11916..12448,12531..13089)
                      /codon_start=1
                      /locus_tag="ATEG_08453"
                      /product="transcription factor GedR"
-                     /label=gedR
+                     /label="gedR"
                      /note="revised sequence"
                      /protein_id="EAU31626.1"
                      /translation="MSAEGHKLRGSCHACAASKVRCSKEKPTCSRCSKRGTTCEYLITK
@@ -122,11 +126,12 @@ FEATURES             Location/Qualifiers
                      DQIYTMLYCGCSEDSYLQAVVALIIFKALDRYAMAVSRPVIAADGDELRTESEAVIGGA
                      AAMTDSRLSAAQRVLGELHRVQRVLNQLSQRSVALPASDRLLPSKNASSAVSTIVMDHL
                      ERELRKQLGTLSSEIIKMLQLAE"
+                     /Pfam="AflR"
      CDS             complement(13273..13953)
                      /codon_start=1
                      /locus_tag="ATEG_08454"
                      /product="glutathione S-transferase GedE"
-                     /label=gedE
+                     /label="gedE"
                      /note="similar to glutathione transferase 2"
                      /protein_id="EAU31627.1"
                      /translation="MSKLLPIKVWGQGGPNPPRVAIILEELGLPYEFMPIQLSQVKEPE
@@ -134,11 +139,12 @@ FEATURES             Location/Qualifiers
                      FQASGQGPYYGQACWFKKYHPEPVPSALERYIKEMNRVSGVVDGYLAKQPVPPGGDGPW
                      LVGNKCSFADLAWVSWQMTLKKIIQTEDGYDVENFPHLKNWLDRMVAREPVKKVLSAVM
                      PPPS"
+                     /Pfam="GST_N, GST_N_3, GST_C"
      CDS             complement(14482..15276)
                      /codon_start=1
                      /locus_tag="ATEG_08455"
                      /product="short-chain dehydrogenase/reductase GedF"
-                     /label=gedF
+                     /label="gedF"
                      /note="revised sequence"
                      /protein_id="EAU31628.1"
                      /translation="MTTTYAVLGATGNCGTALVRLLLQSPTARIHAYCRNKPKLLSLIP
@@ -146,11 +152,12 @@ FEATURES             Location/Qualifiers
                      LQILNKESEFTIMPKLVLLSSATLDEQLSRATPALIRWILLRSASHVYRDLVETEAFLR
                      AQGDWVSTVFIKPGGLSLDVQRGHALSLTEEKSPLSYADLAAAMIEAATDPDGRWDMRN
                      VGVISVNGPAKSPPGAPMCIFMGFVRHYFPFLHPYLPSTGPG"
+                     /Pfam="NAD_binding_10"
      CDS             complement(15749..16711)
                      /codon_start=1
                      /locus_tag="ATEG_08456"
                      /product="methyltransferase GedG"
-                     /label=gedG
+                     /label="gedG"
                      /protein_id="EAU31629.1"
                      /translation="MSVDTANPTSPMMETHEQIFAQDPDFWKNYRRGRPQVPYSFFQRI
                      YNYHQGHSGRFETVHDAGAGNGVYSKELRSKFHHVIVSDVVAENVRQAEERLGTEGYSF
@@ -158,28 +165,31 @@ FEATURES             Location/Qualifiers
                      DARVQDVWERISQQGGRLLLQTANQPVDTINVMVRSQDHYNVAPLDERLFRQRALRIYL
                      NQETGGLTGLLPPERRGEVTEPDHEGPHDQITFEHDDEWRFDMDLDGFKEHFRTFPHAF
                      RDPEAFTSLWQEIEELVRQGSRLDGAWPVTLILATRTNA"
+                     /Pfam="Methyltransf_11"
      CDS             complement(17122..17574)
                      /codon_start=1
                      /product="anthrone oxygenase GedH"
-                     /label=gedH
+                     /label="gedH"
                      /translation="MANPAVGAMMGLSLVAVPVFLDTNTQSEQLLAQFASLYDYGHKLM
                      PTIAVATCALHGWVAARKRAAHQPWGRPVLAAVTTITMVPFTWVCMVPTNNALFQLHKG
                      ADANMEMVRGLIARWQWLHVARSLFPLAGAIVACQTLLKELVGGSR"
+                     /Pfam="Anthrone_oxy"
      CDS             join(18000..18176,18236..18487)
                      /codon_start=1
                      /locus_tag="ATEG_08457"
                      /product="decarboxylase GedI"
-                     /label=gedI
+                     /label="gedI"
                      /protein_id="EAU31630.1"
                      /translation="MSDVRAGSNDPPGKYLCLTICGYRKPGMSEEDYRHHMTKISAPMT
                      KDLMVKYGIKRWTMIHSPAVTRTLMDQLYDSQMVNLADFDCFSQVVFKSVEDYKRMKED
                      PYYKEHLFKDHEHFADTKKSLFVHFMPLPPPLGPCPGS"
+                     /Pfam="EthD"
      CDS             join(18878..19060,19127..19196,19256..19303,19354..19475,
                      19537..19615,19675..19692,19741..21038)
                      /codon_start=1
                      /locus_tag="ATEG_08458"
                      /product="laccase GedJ"
-                     /label=gedJ
+                     /label="gedJ"
                      /protein_id="EAU31631.1"
                      /translation="MPSLKDWVVAGLVPMTIASSTSRLPSNCTNGPSSRRCWQDGFDIW
                      SDYTDPKVAPPGKLVEYDLTVTQVTISPDGYERLGTVFNGQYPGPLIEADWGDTLRITV
@@ -192,11 +202,12 @@ FEATURES             Location/Qualifiers
                      WVYFLLTSNYSLEDVVTPRNLTPSVHPIHLHGHDFAILAQGKGPFTPDIAPQLDNPPRR
                      DVVDVDIGGYAWIAFEVDNPGAWLLHCHLQYHASEGMALQYIEQPSKIKPLIENAGVLN
                      DFGNRCASWKRYYNAVDIPNDRPQDDSGI"
+                     /Pfam="Cu-oxidase_3, Cu-oxidase, Cu-oxidase_2"
      CDS             21462..22802
                      /codon_start=1
                      /locus_tag="ATEG_08459"
                      /product="dioxygenase GedK"
-                     /label=gedK
+                     /label="gedK"
                      /protein_id="EAU31632.1"
                      /translation="MATATQIFLSPDHAGIARVSECPVGAIEAANHLLQTNHDEHHMFW
                      RPVAGHNHLTHSVLTILALGGGPAELQRAFDDARDIQRPIPPVDRQVVEQLGDPEQFRS
@@ -206,11 +217,12 @@ FEATURES             Location/Qualifiers
                      RTGKPRKIDFFHLHTVTASLSIDILVRQPWISPVVKARLVEWKARVDLVWYTATGAVQL
                      HLPSLLNYMPTSSAGMDWAALYRAVAAVHDDGHLAKLVRALKSGEAVSNPFEKGAGETF
                      PIQGIAWLKLAQMAYDTTVDRPIEQKWIWGIGFDENWTHVLSLESEK"
+                     /Pfam="Questin_oxidase"
      CDS             23424..24926
                      /codon_start=1
                      /locus_tag="ATEG_08460"
                      /product="FAD-dependent halogenase GedL"
-                     /label=gedL
+                     /label="gedL"
                      /protein_id="EAU31633.1"
                      /translation="MLASMRFFLRFIDLEEQFDAYGFQKKYGATFKINSKREAYTDFSA
                      SLGPGGYAWNVIRSEADDLIFRYAGEQGAHIFDGTKVDDIEFLSYDGADGANFTPAAFL
@@ -221,6 +233,7 @@ FEATURES             Location/Qualifiers
                      RKQNAAVITDDKEEGFDTAFGLIQPVIQGQADTGESEQQRMVAGVQFSLERFGQATPEA
                      QRALLDKVQFAGQNAEELEKLTADELAVLHNIIGRQLKMTKVEKNLDNFTRDVIDGWAP
                      RVERGKLGLQRADTSIMTAEMKDLFQLNRSLDSTKAGIQLPA"
+                     /Pfam="Trp_halogenase"
 ORIGIN
         1 ctaagctgtt ctagcatctg ctcgcactgc ttcaagcaac gaaacctgac ttctacactc
        61 ccatatctgc ttcaaagcca gccccgcaga tttaagtatg gttttaaact cctctggagt

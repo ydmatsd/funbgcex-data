@@ -1,26 +1,26 @@
-LOCUS       FBGC00219       42556 bp DNA     linear   UNA 26-JAN-2023
+LOCUS       FBGC00219              42556 bp    DNA     linear   UNA 31-MAR-2024
 DEFINITION  stipitatic acid.
 ACCESSION   FBGC00219
-VERSION     .
+VERSION     FBGC00219
 KEYWORDS    .
 SOURCE      Talaromyces stipitatus ATCC 10500
   ORGANISM  Talaromyces stipitatus ATCC 10500
+            .
 REFERENCE   1  (bases 1 to 42556)
-  AUTHORS   Davison J, al Fahad A, Cai M, Song Z, Yehia SY, Lazarus CM, Bailey 
+  AUTHORS   Davison J, al Fahad A, Cai M, Song Z, Yehia SY, Lazarus CM, Bailey
             AM, Simpson TJ, Cox RJ.
-  TITLE     Genetic, molecular, and biochemical basis of fungal tropolone 
+  TITLE     Genetic, molecular, and biochemical basis of fungal tropolone
             biosynthesis.
   JOURNAL   Proc Natl Acad Sci U S A 2012;109:7642-7
-  PUBMED    22508998
+   PUBMED   22508998
 REFERENCE   2  (bases 1 to 42556)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported May 9, 2023 from SnapGene 6.2.2
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1073/pnas.1201469109"; journalName: "Proc Natl Acad Sci U S A"; 
+  JOURNAL   Exported Mar 31, 2024 from SnapGene 7.2.0 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1073/pnas.1201469109"; journalName: "Proc Natl Acad Sci U S A";
             date: "2012"; volume: "109"; pages: "7642-7"
-COMMENT     Assembly name: JCVI-TSTA1-3.0
+            Assembly name: JCVI-TSTA1-3.0
             Genome coverage: 8.09x.
 FEATURES             Location/Qualifiers
      source          1..42556
@@ -35,7 +35,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="TSTA_117720"
                      /product="decarboxylase TsL3/TropJ"
-                     /label=tsL3/tropJ
+                     /label="tsL3/tropJ"
                      /note="encoded by transcript TSTA_117720A"
                      /protein_id="EED17997.1"
                      /translation="MNLPASIPVRTFISGCHILHRHHVLDAYGHLSVRNPERSDTFFMS
@@ -43,12 +43,13 @@ FEATURES             Location/Qualifiers
                      VLPYTITGVNLRPCVHMSGFLGASVPNFDVAKFYKEDDKCDLLIRNKDLGAHLAECFSA
                      PESDSESTRSVVLMRGHGFTAVGGSIPESVYRAIYTVENAKIQTVSMTLSAAAAKGDGP
                      HSGIYFLPEHEIRGTKELTQRSVMRSWKLWVREVETGGLYTNLA"
-     CDS             complement(join(2693..2809,2921..3010,3072..3510,3571..3797,
-                     3848..4213,4285..4590))
+                     /Pfam="Aldolase_II"
+     CDS             complement(join(2693..2809,2921..3010,3072..3510,
+                     3571..3797,3848..4213,4285..4590))
                      /codon_start=1
                      /locus_tag="TSTA_117730"
-                     /product="Cytochrome P450 monooxygenase TsL2/TropD"
-                     /label=tsL2/tropD
+                     /product="cytochrome P450 monooxygenase TsL2/TropD"
+                     /label="tsL2/tropD"
                      /note="encoded by transcript TSTA_117730A"
                      /protein_id="EED17998.1"
                      /translation="MAYGSQLTLLSGGQSIIILLIVSFLAWRFRVWFRLRHIPGPLGAS
@@ -60,11 +61,12 @@ FEATURES             Location/Qualifiers
                      ELVAANVSRPRPRWSEVHNLPYLDAVVQEALRVHPPFALPFERIVPEGGLHISGQYIPA
                      NTVIGASPYVVNRHKPTYGDDAELWRPERWLEGGPEVRKKRDDGLLTFGAGRRICLGKH
                      IGIFEVKKLIPFLVLNYDISIVKPETFLAENEWFFRQSNLLAQIRRRPLESVEPNV"
+                     /Pfam="p450"
      CDS             complement(join(5514..6340,6420..6936))
                      /codon_start=1
                      /locus_tag="TSTA_117740"
                      /product="FAD-dependent monooxygenase TsL1/TropB"
-                     /label=tsL1/tropB
+                     /label="tsL1/tropB"
                      /note="encoded by transcript TSTA_117740A"
                      /protein_id="EED18000.1"
                      /translation="MPGSLIDTRQQPLSVGIVGGGIIGVILAAGLVRRGIDVKVFEQAR
@@ -75,16 +77,17 @@ FEATURES             Location/Qualifiers
                      NPGLRAVLGFMPENIDRWAMFDTYDYPAPFFSRGKICLVGDAAHAAVPHHGAGACIGIE
                      DALCATVLLAEVFVSTRGKSSIVRNRAIAAAFGSFNAVRRVRAQWFVDSSRRVCDLYQQ
                      PEWADPQKRIKAENCFEEIKDRSHKIWHFDYNSMLQEAIEKYRHNMGS"
+                     /Pfam="FAD_binding_3"
      CDS             join(7596..8246,8321..15655)
                      /codon_start=1
                      /locus_tag="TSTA_117750"
                      /product="polyketide synthase TsPKS1/TropA"
                      /EC_number="2.3.1.94"
-                     /label=tspks1/tropA
-                     /note="encoded by transcript TSTA_117750A;
-                     similar to GenBank:AAR90275.1: polyketide synthase 
-                     taxon:5016 (Cochliobolus heterostrophus); % similarity: 
-                     63.2; coverage: 66.5%"
+                     /label="tspks1/tropA"
+                     /note="encoded by transcript TSTA_117750A; similar to
+                     GenBank:AAR90275.1: polyketide synthase taxon:5016
+                     (Cochliobolus heterostrophus); % similarity: 63.2;
+                     coverage: 66.5%"
                      /protein_id="EED18001.1"
                      /translation="MDPLASNFRGETVLLFGSQSLSFDANTFNAIRSSLEKEEYLRWIR
                      HTVADLPSALNTALQHVPHLKGSEEWAFSAVQELNDWLDSGHQPNSLDPSALPNTILTP
@@ -132,11 +135,13 @@ FEATURES             Location/Qualifiers
                      PLSWTPVDDVAKSLVDLLFTEKPYPVYHIENPITQPWQEMIPILADALGIPRGNRLSLK
                      DWVARVREFPEDPTDKDKNPATALVDFFEQDFERMSVGGLLLDTTKSREHSPSLRAVGP
                      ITPDLVRKFISYWRSISFVA"
+                     /Pfam="SAT2, PKS_KS, PKS_AT, fPKS_PT, ACP_PCP, HTH_51,
+                     PKS_NRPS_MT, fPKS_R"
      CDS             complement(join(16109..16474,16523..16778,16846..16988))
                      /codon_start=1
                      /locus_tag="TSTA_117760"
                      /product="hydrolase TsR1/TropI"
-                     /label=tsR1/tropI
+                     /label="tsR1/tropI"
                      /note="encoded by transcript TSTA_117760A"
                      /protein_id="EED18002.1"
                      /translation="MASLPSQSCCYQGFRHSGAPKGTLSMVKDIEVYTSYPPDKSTEYG
@@ -144,11 +149,12 @@ FEATURES             Location/Qualifiers
                      PQGKNHLPETVDPIVEVCLSEMRSKYQCKKIGAVGYCFGGKYVVRHLIPGKMDVGYTAH
                      PSHIDESELKGIKGPLAIAAAAKDNIFPAEKRHVSEEILQEVGFPYQINLYSGVSHGFG
                      VRGDMNAGEVRYAMRSAFVQAVEWFNEYMKEK"
+                     /Pfam="DLH"
      CDS             join(17625..17890,17937..18360,18420..19280)
                      /codon_start=1
                      /locus_tag="TSTA_117770"
                      /product="major facilitator superfamily transporter TsR2"
-                     /label=tsR2
+                     /label="tsR2"
                      /note="encoded by transcript TSTA_117770A"
                      /protein_id="EED18004.1"
                      /translation="MSKDLEAGEPAPKQELRQSLISRLRLRQPGQTATFTHPDGDRKSD
@@ -160,11 +166,12 @@ FEATURES             Location/Qualifiers
                      LPFLGMLVGIVLGALTNILNQKFYIKKYIENGNRAVPEARLPPMMLGSVSFAAGLFILG
                      WTSPKHVFWLCPIIGAVLQGLGFFTIFQAALNYLVDTFTRFSASAIAVNTFMRSVLAGT
                      FPLFAAIMYRKLGVPWASSLLGFIAIALIPIPFVLYAYGARIRARGKWSRPSIEGHGH"
+                     /Pfam="MFS_1"
      CDS             complement(join(19889..20772,20832..20868))
                      /codon_start=1
                      /locus_tag="TSTA_117780"
                      /product="hydrolase TsR3/TropF"
-                     /label=tsR3/tropF
+                     /label="tsR3/tropF"
                      /note="encoded by transcript TSTA_117780A"
                      /protein_id="EED18005.1"
                      /translation="MLHGMSPECALSKLLSSLEFHTLYRYTMTQKHNFPSNNKDTLHLP
@@ -173,12 +180,13 @@ FEATURES             Location/Qualifiers
                      GRTFGDHSHLPFRLPQWRFAVLLAGRGPLVTLSHLSVGADIMQKMAHLCENDDSSGLDS
                      QENLGNVILTRELIQVPTIHVHGRKDPALDLHRKLYYDDFDPRYSKVMEWDGAHRVPLK
                      SKDVATLVKEINVLWASVSHSNVQG"
+                     /Pfam="FSH1"
      CDS             join(21578..23071,23113..23166)
                      /codon_start=1
                      /locus_tag="TSTA_117790"
-                     /product="aldehdye dehydrogenase TsR4/TropH"
+                     /product="aldehyde dehydrogenase TsR4/TropH"
                      /EC_number="1.2.1.8"
-                     /label=tsR4/TropH
+                     /label="tsR4/TropH"
                      /note="encoded by transcript TSTA_117790A"
                      /protein_id="EED18006.1"
                      /translation="MAPNFPPIEEALPLHHDLFYDGKWQTPITDSRRETLNPSTGQVIG
@@ -190,11 +198,12 @@ FEATURES             Location/Qualifiers
                      KAAQDRVLNYIASAREEGARLVTGGGMFDDLAGTPVEGGFFVQPTIFADVTPDMKIARE
                      EIFGPVMSVLRWSDESELIRIVNSTNYGLTGSIFTKDLATAQRMIRQVEAGFVWVNDVC
                      KHFLNVPYGGIKDSGIGRDECIDELFAYTNIKSVNINLGGATHLGSRLSQAGQISNT"
+                     /Pfam="Aldedh"
      CDS             complement(join(23791..24149,24260..24557,24641..24961))
                      /codon_start=1
                      /locus_tag="TSTA_117800"
                      /product="2OG-Fe(II)-dependent dioxygenase TsR5/TropC"
-                     /label=tsR5/tropC
+                     /label="tsR5/tropC"
                      /note="encoded by transcript TSTA_117800A"
                      /protein_id="EED18007.1"
                      /translation="MSIGDEVIPTVDISAWLSSTASPESKNKVVEEVRSACNKYGFFNL
@@ -203,12 +212,13 @@ FEATURES             Location/Qualifiers
                      GQGIHKAFGHPSDVLNDILINPSIPMRLLHYAPQENPDPRQFGVGDHTDFGCVSILLQQ
                      KGTKGLEVWYPPKETWIPVPVIEDAFVINMGDTMHRWTGGYYRSARHRVYITGERRYSV
                      AFFLNGNLNLKIKPLDGSGGEASVGEHINSRLAHTLGDNAKYLR"
+                     /Pfam="DIOX_N, 2OG-FeII_Oxy"
      CDS             complement(join(25722..26444,26501..26996,27078..27354,
                      27470..27698))
                      /codon_start=1
                      /locus_tag="TSTA_117810"
                      /product="transcription factor TsR6/TropK"
-                     /label=tsR6/tropK
+                     /label="tsR6/tropK"
                      /note="encoded by transcript TSTA_117810A"
                      /protein_id="EED18008.1"
                      /translation="MSVAIKMSTNTVGGQSTRQPPGSACLHCRNKKMKCDALQPRCKNC
@@ -221,11 +231,12 @@ FEATURES             Location/Qualifiers
                      SSTNVWSKIDLLRNILKSRLASLSFKHQDSHFPFSDDPMETFMIMIAQSSVLYLYNTQK
                      SFSRATESSQNISMALQYEAQMAAQEIANLSTSILHMSRFKVQHFSLLSSEFNFMKVHT
                      LIFAQIHPFTPLILAKCMEFYKSNQNLDEITQAAVKQIYELLRHISKVNNIAVEYLS"
+                     /Pfam="EqxR, Zn_clus, Fungal_trans"
      CDS             join(30129..30420,30527..31035)
                      /codon_start=1
                      /locus_tag="TSTA_117820"
                      /product="short-chain dehydrogenase/reductase TsR7/TropE"
-                     /label=tsR7/tropE
+                     /label="tsR7/tropE"
                      /note="encoded by transcript TSTA_117820A"
                      /protein_id="EED18010.1"
                      /translation="MVLSDKKFVLVTGGSSGLGFETIKALIQTNQPYHVFLGCLFPDEG
@@ -233,11 +244,12 @@ FEATURES             Location/Qualifiers
                      EIGMREAWNRCYDVNVTGAQIMTHTFVPLLLRSNDPRLIFITSGLSSLTPMSNVYTPTR
                      MTVPAGWPKPEVHPYRAYRATKTALNMVMLEWHWQLREDGVKTWGVSPGFLATNLGASF
                      AGMDGAPPVLPASVGGRLVASVVEGDRDTDVGKIVLKDGEVQPF"
+                     /Pfam="adh_short"
      CDS             complement(join(31618..31883,31962..32163))
                      /codon_start=1
                      /locus_tag="TSTA_117830"
                      /product="hypothetical protein TSTA_117830"
-                     /label=TSTA_117830
+                     /label="TSTA_117830"
                      /note="encoded by transcript TSTA_117830A"
                      /protein_id="EED18011.1"
                      /translation="MSYITENTIWPTAATVLPEVQELIRQFYVLADIPDPETGDQYATD
@@ -247,7 +259,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="TSTA_117840"
                      /product="hypothetical protein TSTA_117840"
-                     /label=TSTA_117840
+                     /label="TSTA_117840"
                      /note="encoded by transcript TSTA_117840A"
                      /protein_id="EED18012.1"
                      /translation="MLLVANQNAGSIDTYAKNHFATLQADYLSPKDWKQLHIIKSFLQP
@@ -257,7 +269,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="TSTA_117850"
                      /product="transcription factor TsR9"
-                     /label=tsR9
+                     /label="tsR9"
                      /note="encoded by transcript TSTA_117850A"
                      /protein_id="EED18013.1"
                      /translation="MSAPEVRQVKRPRISLSCSVCRSRKVRCGREQPACTNCIRLNKTC
@@ -271,11 +283,12 @@ FEATURES             Location/Qualifiers
                      SSPVEPLRSGESIAMIYTTGRYETARLELEILNSLQSAQGLNHEGFRELVTATKQFHQK
                      IDALMTRIPTQGIPEEGFISSRLANATMLTHPALYKDDTSQHTVFGTWTRITLTLFKLE
                      VSVLLQKPFLKTPEYGSLPAQKLWTRHKKGKTLFQIQGVKV"
+                     /Pfam="EqxR, Zn_clus, Fungal_trans"
      CDS             complement(join(41497..41608,41679..42556))
                      /codon_start=1
                      /locus_tag="TSTA_117860"
-                     /product="Short-chain dehydrogenase/reductase TsR10/TropG"
-                     /label=tsR10/tropG
+                     /product="short-chain dehydrogenase/reductase TsR10/TropG"
+                     /label="tsR10/tropG"
                      /note="encoded by transcript TSTA_117860A"
                      /protein_id="EED18014.1"
                      /translation="MVKFFQPKISPLPDGIDLKGSTAVVTGASAGMGLELTRQLLQLNI
@@ -284,6 +297,7 @@ FEATURES             Location/Qualifiers
                      TWVGSRAFETTSLQKTPLQPNERVLEHMDKKEFFAPFQRYGDSKLLCLLFMCSLARQID
                      PKKVIINMLCPGMVNTNMSDVLPVYLRAVINVVKAIRARPVEVGVWIILNAALVAGPDS
                      HGKFLIDKDIASESQYISSPAGQEVQKKIWEETIEELSRLTTLPPEVN"
+                     /Pfam="adh_short"
 ORIGIN
         1 ctaagcaagg tttgtataca gaccacccgt ctcaacctcc cgcacccata gtttccatga
        61 tctcatcact gaccgttggg tgagttcctt cgtgccccgt atttcgtgct ctggaagaaa

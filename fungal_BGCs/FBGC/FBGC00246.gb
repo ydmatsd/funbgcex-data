@@ -1,23 +1,23 @@
-LOCUS       FBGC00246       23798 bp DNA     linear   UNA 27-JAN-2023
+LOCUS       FBGC00246              23798 bp    DNA     linear   UNA 27-JAN-2023
 DEFINITION  trypacidin.
 ACCESSION   FBGC00246
-VERSION     .
+VERSION     FBGC00246
 KEYWORDS    .
 SOURCE      Aspergillus fumigatus Af293
   ORGANISM  Aspergillus fumigatus Af293
+            .
 REFERENCE   1  (bases 1 to 23798)
   AUTHORS   Throckmorton K, Lim FY, Kontoyiannis DP, Zheng W, Keller NP.
-  TITLE     Redundant synthesis of a conidial polyketide by two distinct 
+  TITLE     Redundant synthesis of a conidial polyketide by two distinct
             secondary metabolite clusters in Aspergillus fumigatus.
   JOURNAL   Environ Microbiol 2016;18:246-59
-  PUBMED    26242966
+   PUBMED   26242966
 REFERENCE   2  (bases 1 to 23798)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Jan 27, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1111/1462-2920.13007"; journalName: "Environ Microbiol"; date: 
+  JOURNAL   Exported Jan 27, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1111/1462-2920.13007"; journalName: "Environ Microbiol"; date:
             "2016"; volume: "18"; pages: "246-59"
 FEATURES             Location/Qualifiers
      source          1..23798
@@ -31,7 +31,7 @@ FEATURES             Location/Qualifiers
                      /locus_tag="AFUA_4G14460"
                      /old_locus_tag="Afu4g14460"
                      /product="methyltransferase TpcM"
-                     /label=tpcM
+                     /label="tpcM"
                      /note="encoded by transcript AFUA_4G14460A"
                      /protein_id="EAL89349.1"
                      /translation="MAVPQSIPPPTAAPIESKDQVFARSKAFWDNYLRGRPQVPPSFFQ
@@ -40,40 +40,42 @@ FEATURES             Location/Qualifiers
                      DDPDIQDVWERISQQGGRILLGMAEHPPDTINVMSRSSKEYNVAPLEPQWFRPGALRIR
                      LNMAQGGITGLLPPERQQEVTDPDFAGPRDVVVYETNEEWRFETDWEGFLQHFRSFPHA
                      GADPAAFTGLLQELKDLLDEGRCLRGCWPATLILATRR"
+                     /Pfam="Methyltransf_11"
      CDS             complement(join(1314..1732,1783..1849))
                      /codon_start=1
                      /locus_tag="AFUA_4G14480"
                      /old_locus_tag="Afu4g14480"
                      /product="anthrone oxygenase TpcL"
-                     /label=tpcL
+                     /label="tpcL"
                      /note="encoded by transcript AFUA_4G14480A"
                      /protein_id="EAL89348.2"
                      /translation="MPQNASVIITQATAVITGSFLSGLMMGLSVVDIPVVLDTATQASQ
                      LLQHFTRLYDIGHKMMPSLAVTTCLLYGYTASSTRTTGGSGLPHIIAAVTTISMVPFTW
                      LVMAPTNNALFRMHANPAAANLGEVRRLLVRWAQLHAVRSLFPLMGSVLGLRQILRE"
+                     /Pfam="Anthrone_oxy"
      CDS             join(2124..2288,2336..2532,2584..2650)
                      /codon_start=1
                      /locus_tag="AFUA_4G14470"
                      /old_locus_tag="Afu4g14470"
                      /product="decarboxylase TpcK"
-                     /label=tpcK
+                     /label="tpcK"
                      /note="encoded by transcript AFUA_4G14470A"
                      /protein_id="EAL89347.1"
                      /translation="MGESSRKPSRYLCLTICGYRKPGMSEEDYRRYMTEVSAPMTKDLM
                      VKYGVKRWTMVHNTTATRALMAELCDSQMTNVVDFDCFSQVVFESLEDYKRMKQDPWYK
                      EHLFHDHENFADTKKSMMTIGWIEEFVRQGVAVDGMDN"
-     CDS             join(2893..3075,3139..3208,3260..3307,3353..3477,3530..3621,
-                     3661..3674,3723..5020)
+                     /Pfam="EthD"
+     CDS             join(2893..3075,3139..3208,3260..3307,3353..3477,
+                     3530..3621,3661..3674,3723..5020)
                      /codon_start=1
                      /locus_tag="AFUA_4G14490"
                      /old_locus_tag="Afu4g14490"
                      /product="laccase TpcJ"
                      /EC_number="1.10.3.2"
-                     /label=tpcJ
-                     /note="encoded by transcript AFUA_4G14490A;
-                     similar to GB:BAA08486.1: dihydrogeodin oxidase 
-                     {Aspergillus terreus;};
-                     GO_component: GO:0005886 - plasma membrane;
+                     /label="tpcJ"
+                     /note="encoded by transcript AFUA_4G14490A; similar to
+                     GB:BAA08486.1: dihydrogeodin oxidase {Aspergillus
+                     terreus;}; GO_component: GO:0005886 - plasma membrane;
                      GO_function: GO:0004322 - ferroxidase activity; GO_process:
                      GO:0006827 - high affinity iron ion transport"
                      /protein_id="EAL89346.1"
@@ -88,12 +90,13 @@ FEATURES             Location/Qualifiers
                      DTGDWVHFVITNNYTFEKVHFPRNLTPVMHPMHLHGHDFAILAQGRGEFDPSIVPKLDN
                      PPRRDVVNVDTGSYVWIAFQVNNPGAWLLHCHIAFHVSSGLSLQFIEQPKKVKPLMEAA
                      GVLGEFHDRCAKWTEYYDSVNIPDNHTIDDSGI"
+                     /Pfam="Cu-oxidase_3, Cu-oxidase, Cu-oxidase_2"
      CDS             5510..6847
                      /codon_start=1
                      /locus_tag="AFUA_4G14500"
                      /old_locus_tag="Afu4g14500"
                      /product="dioxygenase TpcI"
-                     /label=tpcI
+                     /label="tpcI"
                      /note="encoded by transcript AFUA_4G14500A"
                      /protein_id="EAL89345.1"
                      /translation="MATASQIRLRPRLGVARATDTNPDGALEAANRLLQKNHNEHHMFW
@@ -104,13 +107,14 @@ FEATURES             Location/Qualifiers
                      GSAQRPGKARKIDFFHLHAVTASLGLIVLLQQPWVTPEQKARLIEWKARVDLVWYAASG
                      AVELRRKDIVDYRPRHGLTWDSLYQAVRRVHDDGHLAKFIRALKAGEQISRPFEQGKRA
                      EAFPIKGSMWLRIAQMAYDSSAGRPIEEKWIWGAGFEPNWATVPAV"
+                     /Pfam="Questin_oxidase"
      CDS             complement(join(7008..7393,7449..7505,7562..7600,
                      7665..8031))
                      /codon_start=1
                      /locus_tag="AFUA_4G14510"
                      /old_locus_tag="Afu4g14510"
                      /product="methyltransferase TpcH"
-                     /label=tpcH
+                     /label="tpcH"
                      /note="encoded by transcript AFUA_4G14510A"
                      /protein_id="EAL89344.2"
                      /translation="MLEKVFHEKSFADQYTYGAKISELYAETLITESGIAKSHQRPLII
@@ -119,51 +123,52 @@ FEATURES             Location/Qualifiers
                      VIATMPGQLSYPTMDEINTMLNKGWDRESDVRAEFEQAGFDHVNITTVEKQCLLPVQEF
                      GEACKILLPYILSKFWTQEQRDQYEADVPSYLMRYLEREYGKDGLAPMKGVAIIASGRK
                      P"
+                     /Pfam="Methyltransf_25"
      CDS             8618..9409
                      /codon_start=1
                      /locus_tag="AFUA_4G14520"
                      /old_locus_tag="Afu4g14520"
                      /product="short-chain dehydrogenase/reductase TpcG"
-                     /label=tpcG
-                     /note="encoded by transcript AFUA_4G14520A;
-                     similar to SP:Q00713: Putative sterigmatocystin 
-                     biosynthesis protein stcQ [Emericella nidulans]"
+                     /label="tpcG"
+                     /note="encoded by transcript AFUA_4G14520A; similar to
+                     SP:Q00713: Putative sterigmatocystin biosynthesis protein
+                     stcQ [Emericella nidulans]"
                      /protein_id="EAL89343.1"
                      /translation="MPYAVLGATGNCGTALIQNLLQSSTSKVHAYCRDRRKLLYLLPHL
                      ADNKQVDIFDGSIHDLPLITECVRNCHAVFLVISTNDNVPQCRMALDTATAVIQALRIL
                      HGEGASMPKLVLLSSATLDDQLSQNTAPWVRWILLKSASQVYQDLSQAEAFLRQQQDWI
                      STIFIKPGGLSVDVQRGHRLSLTEEKSPLSYLDLAAAMIEAADDPDGRYDLRNVGVAYT
                      DGPARFPRGAPMCIFMGLVRHFLPFLHPYLPATGPNQGFLC"
+                     /Pfam="NAD_binding_10"
      CDS             9827..10504
                      /codon_start=1
                      /locus_tag="AFUA_4G14530"
                      /old_locus_tag="Afu4g14530"
                      /product="glutathione S-transferase TpcF"
-                     /label=tpcF
-                     /note="encoded by transcript AFUA_4G14530A;
-                     similar to Ure2p prion protein (GI:6324100) [Saccharomyces 
-                     cerevisiae] PubMed=1990286;
-                     GO_component: GO:0005625 - soluble fraction;
-                     GO_function: GO:0003714 - transcription corepressor 
-                     activity;
-                     GO_process: GO:0006808 - regulation of nitrogen 
-                     utilization"
+                     /label="tpcF"
+                     /note="encoded by transcript AFUA_4G14530A; similar to
+                     Ure2p prion protein (GI:6324100) [Saccharomyces cerevisiae]
+                     PubMed=1990286; GO_component: GO:0005625 - soluble
+                     fraction; GO_function: GO:0003714 - transcription
+                     corepressor activity; GO_process: GO:0006808 - regulation
+                     of nitrogen utilization"
                      /protein_id="EAL89342.1"
                      /translation="MPDIQPITVYGKGGPNPPRVAIILAELDLPHKVIEVPLSKVKEPD
                      YVAINPNGRIPAIYDPNTDLTLWESGAIVEYLVSHYDPDHRISFPAGSNLAALATQWLF
                      FQASGQGPYYGQASWFKKFHHEKVPSAIERYVKEINRVTGVLEGHLSRQKVAADGDGPW
                      LVGGKCSFADLAWIPWQVIVTAIIQPEDGYTVEDYPHVKNWLDRMMARPGVQKGMADIF
                      PST"
+                     /Pfam="GST_N, GST_C"
      CDS             complement(10594..11784)
                      /codon_start=1
                      /locus_tag="AFUA_4G14540"
                      /old_locus_tag="Afu4g14540"
                      /product="transcription factor TpcE"
-                     /label=tpcE
-                     /note="encoded by transcript AFUA_4G14540A;
-                     GO_component: GO:0005634 - nucleus;
-                     GO_function: GO:0003700 - transcription factor activity; 
-                     GO_process: GO:0045449 - regulation of transcription"
+                     /label="tpcE"
+                     /note="encoded by transcript AFUA_4G14540A; GO_component:
+                     GO:0005634 - nucleus; GO_function: GO:0003700 -
+                     transcription factor activity; GO_process: GO:0045449 -
+                     regulation of transcription"
                      /protein_id="EAL89341.2"
                      /translation="MRSPASSRRASALHRLCDSCRACGLSKVRCSKEKPTCSRCRRRGT
                      VCEYVVTKRPGRKPDSRSEVEPEPGHLSHPLPSPESSTAISQGNLPDPDAFDPLFALPE
@@ -172,15 +177,15 @@ FEATURES             Location/Qualifiers
                      LSCRCLIRALDLLKHFEVIRREAEIESSLPSIDAVVEVNKQTTEAITGMLQCPCSQKDG
                      YLLVLLALIVCKILDRYAAAAIPGTEQGHDPTRRLDEGPMAGQRVLGELHCIQRVMNQL
                      GPRLRMHGAQGASPGQAFHGTPAPLSVGLGDQLEPELHQRLSRLSSEIIRLLREAQ"
+                     /Pfam="EqxR, AflR"
      CDS             complement(join(13156..13719,13772..14521))
                      /codon_start=1
                      /locus_tag="AFUA_4G14550"
                      /old_locus_tag="Afu4g14550"
                      /product="transcriptional coactivator TpcD"
-                     /label=tpcD
-                     /note="encoded by transcript AFUA_4G14550A;
-                     similar to AafJ protein (GI:8980855) [Aspergillus sojae] 
-                     PMID: 14736460"
+                     /label="tpcD"
+                     /note="encoded by transcript AFUA_4G14550A; similar to AafJ
+                     protein (GI:8980855) [Aspergillus sojae] PMID: 14736460"
                      /protein_id="EAL89340.1"
                      /translation="MDSITQLEARANEVAAAARRLAEYCRNARVDGACLPAVVPSEAPR
                      AIREIQRLLLSNVDHLQILLTEPADLVQRLAVQSQLLSCLQWLGEFQVLACLPLTDTVS
@@ -190,17 +195,18 @@ FEATURES             Location/Qualifiers
                      GSTHAALHQDVRSVQIRELGGPQRVRDAAIYILNLGPLPHAILSTSVLTELRAHFSVLA
                      ANSCAMLILTAGLLLPKPGAVDARVETSVRLHDLSLLQLANDRLMEEDELVEMVHGVKD
                      SVGRLAVVNRLHLPCTTTVALGVRYQAFGHGDSSAKSL"
+                     /Pfam="MdpA"
      CDS             complement(join(14827..16044,16090..18456,18503..19615,
                      19661..19961,20008..20357))
                      /codon_start=1
                      /locus_tag="AFUA_4G14560"
                      /old_locus_tag="Afu4g14560"
                      /product="polyketide synthase TpcC"
-                     /label=tpcC
-                     /note="encoded by transcript AFUA_4G14560A;
-                     similar to polyketide synthase PKS19 (GI:40787399) 
-                     [Cochliobolus heterostrophus] PUBMED 14676319; GO_function:
-                     GO:0016218 - polyketide synthase activity"
+                     /label="tpcC"
+                     /note="encoded by transcript AFUA_4G14560A; similar to
+                     polyketide synthase PKS19 (GI:40787399) [Cochliobolus
+                     heterostrophus] PUBMED 14676319; GO_function: GO:0016218 -
+                     polyketide synthase activity"
                      /protein_id="EAL89339.1"
                      /translation="MRPVDFTPSSESPTAEKGMKVVYFGNELPQDGIQGICRRLHTYTK
                      DRRYPLLARFIEESTWAVHDEVRQLHAAQKALVSPFESVLHLAEQPELCRGPLCGSIEG
@@ -233,15 +239,16 @@ FEATURES             Location/Qualifiers
                      RILLNRFFSAPDADARKSTPATSAPAPAPPAGSEALQPKAAPASTPAAPASADAPTTNG
                      VKAAAEPDANSTAAKAIALVATEAGLGLSDLKDSASFSSLGIDSLMSLVISEKFRETLG
                      VTVTGSLFLEYPTVGDLKSWLLEYYS"
+                     /Pfam="SAT2, PKS_KS, PKS_AT, fPKS_PT, ACP_PCP"
      CDS             20742..21761
                      /codon_start=1
                      /locus_tag="AFUA_4G14570"
                      /old_locus_tag="Afu4g14570"
                      /product="metallo-beta-lactamase-like thioesterase TpcB"
-                     /label=tpcB
-                     /note="encoded by transcript AFUA_4G14570A;
-                     GO_function: GO:0003824 - catalytic activity;
-                     GO_process: GO:0008152 - metabolic process"
+                     /label="tpcB"
+                     /note="encoded by transcript AFUA_4G14570A; GO_function:
+                     GO:0003824 - catalytic activity; GO_process: GO:0008152 -
+                     metabolic process"
                      /protein_id="EAL89338.1"
                      /translation="MANEKRGGYRQINQALNICAWEGYLNEQHARLPTLEDVEQISPRV
                      LRVLGQNEGKVRRADGYYTCSSRLIEGPQFTLQGTNTYIVGTGRHRLLIDTGQGIPEWA
@@ -249,15 +256,15 @@ FEATURES             Location/Qualifiers
                      QTFRVEGATVRAVHTPGHSHDHMCFILEEENAMFTGDNVLGHGSSAVEVLSTWMSSLRM
                      MQSLRCAVGYPAHGAVIRDLPSKLDLELTQKARREDRVVETLKQMKTETQRNGARGKGS
                      VTVQQLVTAMHGHDLDEQVRTMALEPFVDEVLRKLAQDDRVAFEVRGGQKKWFAIEYT"
+                     /Pfam="Lactamase_B"
      CDS             join(22162..22549,22630..23073,23128..23395,23450..23798)
                      /codon_start=1
                      /locus_tag="AFUA_4G14580"
                      /old_locus_tag="Afu4g14580"
                      /product="methyltransferase TpcA"
-                     /label=tpcA
-                     /note="encoded by transcript AFUA_4G14580A;
-                     similar to GB:BAA32788.1: Ich1 [Coprinopsis cinerea] PUBMED
-                     9671586;
+                     /label="tpcA"
+                     /note="encoded by transcript AFUA_4G14580A; similar to
+                     GB:BAA32788.1: Ich1 [Coprinopsis cinerea] PUBMED 9671586;
                      GO_function: GO:0008171 - O-methyltransferase activity"
                      /protein_id="EAL89337.1"
                      /translation="MERQPKSLCDATQLLETANIISDTVQTIIAEWSAEAKAPQGSGKQ
@@ -269,6 +276,7 @@ FEATURES             Location/Qualifiers
                      RVQFVEHSFFDTNPTEGADIYFLRYVLHDWSDDYCVRILAAIRSSMAAHSRLLICDQVM
                      NTTIGDPDLDSAPSPLPANYGYHTRFSHSRDITMMSCINGIERTPAEFKGLLQAAGLKL
                      KKIWDCRSQVSLIEAVLPEMNGFR"
+                     /Pfam="MdpA, Methyltransf_2"
 ORIGIN
         1 ctaacgccgc gtcgcgagga tcaaagtcgc cggccaacag ccacgcaaac atcgcccctc
        61 gtccaagagg tccttgagct cctgcaacaa tcccgtaaag gccgcgggat cagcccctgc

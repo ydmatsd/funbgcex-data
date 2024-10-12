@@ -1,21 +1,21 @@
-LOCUS       FBGC00227       23653 bp DNA     linear   UNA 27-JAN-2023
+LOCUS       FBGC00227              23653 bp    DNA     linear   UNA 27-JAN-2023
 DEFINITION  neosartoricin.
 ACCESSION   FBGC00227
-VERSION     .
+VERSION     FBGC00227
 KEYWORDS    .
 SOURCE      Neosartorya fischeri NRRL 181
   ORGANISM  Neosartorya fischeri NRRL 181
+            .
 REFERENCE   1  (bases 1 to 23653)
   AUTHORS   Chooi YH, Fang J, Liu H, Filler SG, Wang P, Tang Y.
-  TITLE     Genome mining of a prenylated and immunosuppressive polyketide from 
+  TITLE     Genome mining of a prenylated and immunosuppressive polyketide from
             pathogenic fungi.
   JOURNAL   Org Lett 2013;15:780-3
-  PUBMED    23368997
+   PUBMED   23368997
 REFERENCE   2  (bases 1 to 23653)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Jan 27, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
+  JOURNAL   Exported Jan 27, 2023 from SnapGene 6.2.1 https://www.snapgene.com
 COMMENT     SGRef: number: 1; type: "Journal Article"; doi: "10.1021/ol303435y";
             journalName: "Org Lett"; date: "2013"; volume: "15"; pages: "780-3"
 FEATURES             Location/Qualifiers
@@ -30,10 +30,9 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="NFIA_112210"
                      /product="acetyltransferase NscF"
-                     /label=nscF
-                     /note="encoded by transcript NFIA_112210A;
-                     predicted by EVM
-                     This gene was originally not included in the gene cluster 
+                     /label="nscF"
+                     /note="encoded by transcript NFIA_112210A; predicted by EVM
+                     This gene was originally not included in the gene cluster
                      but manually added."
                      /protein_id="EAW20697.1"
                      /translation="MGFFGGKALPPPRNPTDTVLPIPAWDDQHRMRACCLHVTYRFDDV
@@ -45,13 +44,14 @@ FEATURES             Location/Qualifiers
                      LPAITFLRTQQILREPVSFTASHIRRSLVQQRTLPQIEAFFAFDKSASEKHPPVFGEPT
                      SLLVCCSNWHRGRFFEVDFSSAVLAPGIPLHDRVHPLGRPSCVIPTHHSGGLSLRNVGP
                      IIGKDASGNWWLSCTVRTSAWTGIEQELNALGARKTQ"
+                     /Pfam="CalD"
      CDS             5448..6395
                      /codon_start=1
                      /locus_tag="NFIA_112220"
                      /product="short-chain dehydrogenase/reductase NscE"
-                     /label=nscE
-                     /note="encoded by transcript NFIA_112220A;
-                     predicted by EVM"
+                     /label="nscE"
+                     /note="encoded by transcript NFIA_112220A; predicted by
+                     EVM"
                      /protein_id="EAW20698.1"
                      /translation="MHIFITGATGFIGRVVTELAIQQGHTVHGLSRSPQRDEILTSIGA
                      VPIRGDLATHNILREQSAKADATFHLAFDHDFSKSYDQIIKLDSEAVDALAAPLVGTSK
@@ -59,13 +59,14 @@ FEATURES             Location/Qualifiers
                      VYGRANETGFAARMINMAVENGVSGYIASVKDGCVTSVYVDDAAALFLLLASDKTVKAG
                      EIFHGTGDWDTTYGMLAGAIGRAVGVPVREFEREEAEERWGVFLSSFFGLKIRASNGKA
                      VEKLGWKPSGPSLVEELETGSYRQVVERFKQMKD"
+                     /Pfam="Epimerase"
      CDS             complement(8280..9644)
                      /codon_start=1
                      /locus_tag="NFIA_112230"
                      /product="DMATS-type prenyltransferase NscD"
-                     /label=nscD
-                     /note="encoded by transcript NFIA_112230A;
-                     predicted by EVM"
+                     /label="nscD"
+                     /note="encoded by transcript NFIA_112230A; predicted by
+                     EVM"
                      /protein_id="EAW20699.1"
                      /translation="MSPLQLNGKSRGTSPGNAEPLPIFDALCRSLPVGTADEQFWWKLT
                      GRHLARMMLEAGYPEHRQVECLLFHRFKVVPTFGPQPQSAEPWYRSRVAASAGDGAPIS
@@ -75,13 +76,14 @@ FEATURES             Location/Qualifiers
                      FDHIATVMTIGGRRPLSTEVLDKLRELWYELNGLPSDFPTSEQVPTDQGQEGPSGHHGV
                      GFYYDIQPRLALPDVKAFINVRKHAKSDLAAAETVIGFLERHGQGHHNPRAYLNVLRDI
                      VPAEELETRVGAQAFYSVAVKKEELDITAYFIPQVYRRFASVQVELNGQRRSRFE"
+                     /Pfam="Trp_DMAT"
      CDS             join(10119..10426,10485..11589,11646..14312,14393..15697)
                      /codon_start=1
                      /locus_tag="NFIA_112240"
                      /product="polyketide synthase NscA"
-                     /label=nscA
-                     /note="encoded by transcript NFIA_112240A;
-                     predicted by EVM"
+                     /label="nscA"
+                     /note="encoded by transcript NFIA_112240A; predicted by
+                     EVM"
                      /protein_id="EAW20700.1"
                      /translation="MATPRGQTVWFGNEFPNDDLKDLFRRLHQHSKDRRFRLLSVFLDE
                      STAILKEEVANLPQQLQELVPHFDTACTLPEVDFRQGPLGAAMESALLTILELGMLIGN
@@ -114,13 +116,14 @@ FEATURES             Location/Qualifiers
                      AEKQLQETAPSATSVKKSTPPAAEAPASVPALLSNPVAIPFPAASKSEVSTPPLTPPSQ
                      QESPGESAVITPATSDRGDPVDAGVVGQCLQVMARETGLEVDALTPDASFVQLGIDSLM
                      SLVLSEKFRAELGIEIKSSLFLECPTIGEMTAWLEEYC"
+                     /Pfam="SAT2, PKS_KS, PKS_AT, fPKS_PT, ACP_PCP"
      CDS             join(16362..16878,16931..17640)
                      /codon_start=1
                      /locus_tag="NFIA_112250"
                      /product="FAD-dependent monooxygenase NscC"
-                     /label=nscC
-                     /note="encoded by transcript NFIA_112250A;
-                     predicted by EVM"
+                     /label="nscC"
+                     /note="encoded by transcript NFIA_112250A; predicted by
+                     EVM"
                      /protein_id="EAW20701.1"
                      /translation="MAPPLPILIIGAGISGLTTARLLTNSGIPNIVFEASSPDRRQGFA
                      ISLREWGYATLLSALGDLPLRSLTRGVAPDREIGGSGWIDQAVWDNGTAKKLFVPDANS
@@ -130,13 +133,14 @@ FEATURES             Location/Qualifiers
                      LAEPWSLFLNGEAIQHHRVFHWAVRCVSVTQEDMQRAVGRGIAFVGDSWHAMPIFGGEG
                      GNHALADGVELAAAVAAGVAGDLGVAIGNYYDRAWKRSQDAVRRSKQRFYALHRPMAQW
                      RELSQKKPV"
+                     /Pfam="FAD_binding_3"
      CDS             join(19537..20673,20744..22006)
                      /codon_start=1
                      /locus_tag="NFIA_112260"
                      /product="transcription factor NscR"
-                     /label=nscR
-                     /note="encoded by transcript NFIA_112260A;
-                     predicted by EVM"
+                     /label="nscR"
+                     /note="encoded by transcript NFIA_112260A; predicted by
+                     EVM"
                      /protein_id="EAW20702.1"
                      /translation="MEKSNRRKRPSTPHLSCELCRERKIKCDKVDPCTNCVSAGVVCVP
                      VHRPRLPRGVHARRARPMSPAFVPARAPTPVAGPVSSEEKQADASSGAVGAVDDDLRKR
@@ -152,13 +156,14 @@ FEATURES             Location/Qualifiers
                      RIQSAWPTIEACYQLLRLKGVAGQEEAIQRPLERLMCRARDKASPLLQLARHSPTFSLG
                      SSAATSAAPTPRSRASSAPSDTLSDLSWPTAFSHAHSQLGVDLAPVGPVQPLAKLDLDS
                      LLLQFDIESQPLLAGQIHPVDAEPSLRTWEQLMSDIDHAESNKLLP"
+                     /Pfam="Zn_clus, Fungal_trans"
      CDS             join(22619..22828,22877..23653)
                      /codon_start=1
                      /locus_tag="NFIA_112270"
                      /product="metallo-beta-lactamase-like thioesterase NscB"
-                     /label=nscB
-                     /note="encoded by transcript NFIA_112270A;
-                     predicted by EVM"
+                     /label="nscB"
+                     /note="encoded by transcript NFIA_112270A; predicted by
+                     EVM"
                      /protein_id="EAW20703.1"
                      /translation="MALRMPFNQAFWEEYLSGQDATLPSLPDTSTLSSRVIRILGGNPG
                      AMHLQGTNTYLVGTGPSRILIDTGQGLPIWLSRIVGVLHSNNISISHILLTHWHGDHTG
@@ -166,6 +171,7 @@ FEATURES             Location/Qualifiers
                      EENALFTGDNVLGHGFSVAPDLGRYMESLELMAGLGCVLGYPAHGAVIGDLPSKLEEYI
                      RHKEMRVQGILSVLVKERERVEGDRGTEGRRKGGMTLHEIARAMFGTVPDEVIDQAMAP
                      FLMQALWKLTEDRKVGFEPGDPVKRKWFAVARRKTKPPRQHGSVARQ"
+                     /Pfam="Lactamase_B"
 ORIGIN
         1 tcactgggtc tttcttgcgc ccagggcatt cagttcctgt tcgatgccag tccaggcact
        61 cgtcctcacg gtgcacgata gccaccagtt cccacttgca tccttgccaa tgatgggccc

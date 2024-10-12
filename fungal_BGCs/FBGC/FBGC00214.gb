@@ -1,29 +1,30 @@
-LOCUS       FBGC00214       43176 bp DNA     linear   UNA 26-JAN-2023
+LOCUS       FBGC00214              43176 bp    DNA     linear   UNA 26-JAN-2023
 DEFINITION  satratoxin.
 ACCESSION   FBGC00214
-VERSION     .
+VERSION     FBGC00214
 KEYWORDS    .
 SOURCE      Stachybotrys chartarum IBT 7711
   ORGANISM  Stachybotrys chartarum IBT 7711
+            .
 REFERENCE   1  (bases 1 to 43176)
   AUTHORS   Semeiks J, Borek D, Otwinowski Z, Grishin NV.
-  TITLE     Comparative genome sequencing reveals chemotype-specific gene 
+  TITLE     Comparative genome sequencing reveals chemotype-specific gene
             clusters in the toxigenic black mold Stachybotrys.
   JOURNAL   BMC Genomics 2014;15:590
-  PUBMED    25015739
+   PUBMED   25015739
 REFERENCE   2  (bases 1 to 43176)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Jan 26, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1186/1471-2164-15-590"; journalName: "BMC Genomics"; date: 
-            "2014"; volume: "15"; pages: "590"
+  JOURNAL   Exported Jan 26, 2023 from SnapGene 6.2.1 https://www.snapgene.com
 COMMENT     ##Genome-Assembly-Data-START##
             Assembly Method       :: SOAPdenovo v. 1.05
             Assembly Name         :: S7711v1
             Genome Coverage       :: 199.0x
             Sequencing Technology :: Illumina HiSeq ##Genome-Assembly-Data-END##
+            ##Genome-Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1186/1471-2164-15-590"; journalName: "BMC Genomics"; date:
+            "2014"; volume: "15"; pages: "590"
 FEATURES             Location/Qualifiers
      source          1..43176
                      /chromosome="Unknown"
@@ -32,7 +33,7 @@ FEATURES             Location/Qualifiers
                      /country="Denmark"
                      /isolation_source="building materials"
                      /collected_by="Andersen et al"
-                     /collection_date=2002
+                     /collection_date="2002"
                      /db_xref="taxon:1280523"
                      /culture_collection="IBT:7711"
                      /organism="Stachybotrys chartarum IBT 7711"
@@ -42,7 +43,7 @@ FEATURES             Location/Qualifiers
                      /gene="TRI4"
                      /locus_tag="S7711_07399"
                      /product="cytochrome P450 monooxygenase TRI4"
-                     /label=TRI4
+                     /label="TRI4"
                      /protein_id="KEY64036.1"
                      /translation="MPALSDLESIKAVPLWAAAGAVGGLYFVYILGTCFYNVYLHPLRH
                      IPGSKLAVMGPYLEFYHEVIRKGQYLWEIEKMHEKYGPIVRVNPREIHIKDSSFYHTIY
@@ -54,12 +55,13 @@ FEATURES             Location/Qualifiers
                      IPAGTPLSMSTYFVHTDAELYPEPEKFKPERWIKAAEEGVPLKKFLTNFSQGSRQCIGI
                      NMSFAEMYLTISRVARAFDFELFETTAADLDMTYARIVAYPKEIPGKKEGLGEIRVKVT
                      NRHHPVLVQ"
+                     /Pfam="p450"
      CDS             join(2830..3627,3725..4209,4265..4537,4603..4735)
                      /codon_start=1
                      /gene="TRI3"
                      /locus_tag="S7711_07400"
                      /product="acetyltransferase TRI3"
-                     /label=TRI3
+                     /label="TRI3"
                      /protein_id="KEY64037.1"
                      /translation="MGSLPELRLPPLAPEIHRWKISKTNPRLAQRRGVGFEVIVGCEQL
                      NRKGQYDLYLIVTLRMVESSTSTPVSLAILKEKFELALLVARLEHPECGSSVRWDDQPS
@@ -71,12 +73,13 @@ FEATURES             Location/Qualifiers
                      ASFDLWIHDQSQLALGLRVHSFEGAMLSKNPMPFDKTSGPVCLSCGYVEPVAAQRKREE
                      SNVHTGAEADKANLQSAHQFISSDGINELYIPTDISSATTGETFMKTDKFVFLLNQFLP
                      YMALRLDSWKGTSMLTICYNDGNFSQEETATYLRAVADFMLAFRL"
+                     /Pfam="Tri3"
      CDS             join(7626..8006,8089..8976)
                      /codon_start=1
                      /gene="TRI10"
                      /locus_tag="S7711_07401"
                      /product="transcription factor TRI10"
-                     /label=TRI10
+                     /label="TRI10"
                      /protein_id="KEY64038.1"
                      /translation="MTPITITFPKRTQEKETSLLMHYLDVVFPLQFPVHDRSYEGKREW
                      LLAILTSSRSVYYATLSLSLLHKESRLDDFESVWQSERTRYYILALQESQQLLDQIDTA
@@ -86,18 +89,20 @@ FEATURES             Location/Qualifiers
                      IETGLRESSGSALVDLVTSIYATSTLTYMHTVVSGLNPNLREVQDSVAATMVLLKQLPD
                      VRIAKNLVWSLVVTGCMASLGQEDFFRGLNAVAGTSVRGLRNCWGLATIWDRTWNMRDT
                      ITTTSHTVWEDLINGQGPPNLLV"
+                     /Pfam="Fungal_trans_2"
      CDS             complement(10572..11405)
                      /codon_start=1
                      /gene="TRI6"
                      /locus_tag="S7711_07402"
                      /product="transcription factor TRI6"
-                     /label=TRI6
+                     /label="TRI6"
                      /protein_id="KEY64039.1"
                      /translation="MIAKDPSSARDDRSDAWMALPLFNRKGSPDHTRNILAWQPPTSID
                      LDMPNLDYCFFDYDIMDYDTLTPSHTSESSRPQSDFAVSAFHFNASSYFAHSSRPHSAS
                      LTPVLPRDTPSQSPDISRPHSVSVSSTVQSDSGYESIVVEQASSSKRRSLLNEISDDHI
                      PQPAFTGPCQCTFENCKSTTVFTTGRDFRRHYRQHFKRFFCRYEECPQSTDDPGDAGTR
                      GFATRKDRARHEAKHNPAIKCPWQNRNGGTCTRTFSRMDNMRDHYRRIHGKSCKT"
+                     /Pfam="Tri6"
      gap             12238..12312
                      /estimated_length=75
      CDS             complement(join(13596..20387,20458..20730))
@@ -105,7 +110,7 @@ FEATURES             Location/Qualifiers
                      /gene="TRI17"
                      /locus_tag="S7711_07403"
                      /product="polyketide synthase TRI17"
-                     /label=TRI17
+                     /label="TRI17"
                      /protein_id="KEY64040.1"
                      /translation="MSEADPVPLAIVGIGCRFSGYATNPGRLWDLLMSGKSTWSKVPAD
                      RWNEEAFRHHSPDGINNHQGGHFLDQDIDRFDAELFGITPEEAASIDPQQRLLLETTYE
@@ -148,13 +153,15 @@ FEATURES             Location/Qualifiers
                      HMVQEGASKEEISAFVARSIGNKVAEFAAIDPMEVKFGSSILDYGLDSLMAIELRNWMA
                      REFDAPIQLPEVVDSPDIWTLSERVVNCSQLTTSRSDTSKSSVVSGSEQDPLSTLPTSR
                      ANTPEVKE"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_DH, PKS_NRPS_MT, fPKS_ER,
+                     fPKS_KR, ACP_PCP"
      CDS             join(21633..22487,22579..23057,23124..23157,23235..23356,
                      23417..23552)
                      /codon_start=1
                      /gene="TRI18"
                      /locus_tag="S7711_07404"
                      /product="acetyltransferase TRI18"
-                     /label=TRI18
+                     /label="TRI18"
                      /protein_id="KEY64041.1"
                      /translation="MGSSGQQTADSTRPVPPDASSPKAEQYAFPLPTLDPAEFRWHPYP
                      KNNSILQRKANGVEALVGIKDANAVGTYDLYNNIVLRVGDIPDLTLPRLKRAFVRALLD
@@ -166,12 +173,13 @@ FEATURES             Location/Qualifiers
                      DPQGLKTALDKLAKKIRDDYNFWLGQADCLLPISVANHNFASNLIATSSATPKVHAPAF
                      CNDGRSENIISHEVLGLTGKKLFEVEDCFMGVEVIGYNAFIRMDTWKDAIRLTLCYNNG
                      CFSDALAKEYTKDVAKYMLAYADA"
+                     /Pfam="Tri3"
      CDS             complement(join(23988..24329,24387..25529))
                      /codon_start=1
                      /gene="TRI11"
                      /locus_tag="S7711_07405"
                      /product="cytochrome P450 monooxygenase TRI11"
-                     /label=TRI11
+                     /label="TRI11"
                      /protein_id="KEY64042.1"
                      /translation="MTVLLQAAALAAAAYTLSIPIQSIYNLYFHPLSKIPGPKLWIAFP
                      ILGQIARVRGVLDSYMCAFHRVYGEAVRYGPDEVSIITEQAWKDIYNHRPNQLERNILS
@@ -182,12 +190,13 @@ FEATURES             Location/Qualifiers
                      PFMIACFQEAFRLYPPVPSCLQRVTPETGMTQISGYDIPPNTKVGVHALAAYTDPRNWH
                      RPDEFLPERWLPEVEKNPASPFYKDRRATLQPFSVGPRSCIGRNMAEQEMRLILARLLW
                      NFDLALCPESKDWKEQKTHYLWEKHPLMCSVRRRVF"
+                     /Pfam="p450"
      CDS             join(26504..26972,27048..27730)
                      /codon_start=1
                      /gene="TRI5"
                      /locus_tag="S7711_07406"
                      /product="terpene synthase TRI5"
-                     /label=TRI5
+                     /label="TRI5"
                      /protein_id="KEY64043.1"
                      /translation="MEAFPTEYFLGTAVRLLENVKYRDSNYTREERVENLQYAYNKAAA
                      HFAQERQQQILKVSPKRLEASLRTIVGMVVYSWAKVSKELMADLSIHYTYTLILDDSED
@@ -196,12 +205,13 @@ FEATURES             Location/Qualifiers
                      WVNDLMSFYKEFDDPRDQTSLVKNYVVSEGITLNQALEKLTQDTLQSSEQMMVVFSQKD
                      PKIMDTIECFMHGYITWHLCDNRYRLKEIYDRTKDIQTEDAMKFRKFYEQAFKVGAIEA
                      TEWAYPTVVERLEQRKAEEQAEREEQAALANPEKAQVAQVVLA"
+                     /Pfam="TRI5"
      CDS             complement(join(28993..29905,29969..30159))
                      /codon_start=1
                      /gene="TRI14"
                      /locus_tag="S7711_07407"
                      /product="hypothetical protein TRI14"
-                     /label=TRI14
+                     /label="TRI14"
                      /protein_id="KEY64044.1"
                      /translation="MLPQVLLSTLGFLGKASCSQTSGHGSPNYHQCPELPKGDLIYDVY
                      MGYPENFMWDKRRCVAYVSNLYNASLSIYDPYESRVLETFQFPGLSHPGNSAIDNPLHT
@@ -210,13 +220,14 @@ FEATURES             Location/Qualifiers
                      LIANNNIIGQFVRFSVHDDEGTPIIIKQTPYHNFTTSNVLNLPEKYEDTILLATENATP
                      EHPSGGVGVFRSQDKLFHEMEFLGFIPSRLNQALATSARQMADRIYVVSVYTDGANITV
                      AGHTSKFVFQDFTEEIDALVNTQSDEL"
+                     /Pfam="Tri14"
      CDS             join(32681..32906,32974..33204,33270..33358,33425..33588,
                      33644..34091)
                      /codon_start=1
                      /gene="SAT17"
                      /locus_tag="S7711_07408"
                      /product="2OG-Fe(II)-dependent dioxygenase SAT17"
-                     /label=SAT17
+                     /label="SAT17"
                      /protein_id="KEY64045.1"
                      /translation="MAASPVLATTSHPIGHEAAVVTDADLDRHYAVKLAGKLNDEMAWV
                      GQQFTGEEDFVVCLSEADVAEVNAALTAFQDTGLKPGYLSPETFKLPKLGPKLRLLSQR
@@ -225,13 +236,14 @@ FEATURES             Location/Qualifiers
                      PDVIETLKEEWIWDSFIPEKPSFIRPLLLEQDGKLICNYRIRPFLGTPGYPRNAALGPL
                      PAHQEEALNTVAEIAEKLSLKFEFKTGDIQFLNNLSILHAREEFHCAKGDTTRRHLLRL
                      VQMDDELAWRLPPGLSKDMDKMFQHDLEEEKFIWSPEPLPYVIGQ"
+                     /Pfam="TauD"
      CDS             complement(join(34253..35048,35123..35231,35309..35432,
                      35498..35674))
                      /codon_start=1
                      /gene="SAT18"
                      /locus_tag="S7711_07409"
                      /product="methyltransferase SAT18"
-                     /label=SAT18
+                     /label="SAT18"
                      /protein_id="KEY64046.1"
                      /translation="MKLVEIAEDILSKANAYTNNTGLTSSQRFQLREEIRYQANGILSA
                      IDGPEQTMKAIARSYTTCTALKVCVDLKLASHLPLSDARSLSQLAQICGCDSLVLRPML
@@ -241,24 +253,26 @@ FEATURES             Location/Qualifiers
                      EIAKEINGRLVFLVKIILHDHGDDDCRLMLRNLVSVMKQGDRILIIDTVIPETGGSLSS
                      ANSDIIIMSMFGSGHRTLEEFRALIHRCGEDLVIETFASGDEEYDGMMVIEVRKAEPVL
                      DN"
+                     /Pfam="Methyltransf_2"
      CDS             complement(join(37498..37762,37830..38257))
                      /codon_start=1
                      /gene="SAT19"
                      /locus_tag="S7711_11146"
                      /product="acetyltransferase SAT19"
-                     /label=SAT19
+                     /label="SAT19"
                      /protein_id="KEY64047.1"
                      /translation="MATATPPPQDFPPYPPFTSLRLAAARDVAQMANLSVQGFKDSEIF
                      RYERPGHDQYPEDAVAYFANLYRDRLEDPRAVVIVAEDWDGAERVVVGVGCWILPQDSP
                      RTGQFVVPCVGDREPALDRDLCCRRLELFNAVTKATEERYLDGKVICDKFVVHPSYQRR
                      GHGTAMLRWSLRLCTQDTVDQGVIPSHVGEPVYLSLGFEVIGEMHVPDEGDTQGFTQRV
                      AVYKARQT"
+                     /Pfam="Acetyltransf_7"
      CDS             join(38956..39264,39369..40004,40059..41252)
                      /codon_start=1
                      /gene="SAT20"
                      /locus_tag="S7711_07410"
                      /product="transcription factor SAT20"
-                     /label=SAT20
+                     /label="SAT20"
                      /protein_id="KEY64048.1"
                      /translation="MPNLPGSSDSTQRHQRNPGTDELVCSSTKPNAAQENADTELAQEK
                      HPQLLSPQTDIPPVCSQPNVSFAQCWDQNFFLDAALTGQNSMTLLGVFDLPNSHMNLTE
@@ -279,7 +293,7 @@ FEATURES             Location/Qualifiers
                      /gene="SAT21"
                      /locus_tag="S7711_07411"
                      /product="major facilitator superfamily transporter SAT21"
-                     /label=SAT21
+                     /label="SAT21"
                      /protein_id="KEY64049.1"
                      /translation="MLRNTHLVLPFILYLLFRLSHFLLEVPTVRMIELAACHQHLRLDH
                      GPLNEAACKTPPVQEHVSLVVGWKMTFDSIPGLMSILYFGTLADKSGHRAILRLCCVGY
@@ -290,6 +304,7 @@ FEATURES             Location/Qualifiers
                      VASARINIGAVHASSIVLVASFIMAWQASSSTAFIFSMLAAGFGEGLEPALQGVLAAAS
                      QTKAKGSIFALMCTCSLLGDMTGGPLMSALMSIGRGGNGVSDGYCFLASALVFGAVIVL
                      AHLLWALGAEEMLGED"
+                     /Pfam="MFS_1"
 ORIGIN
         1 atgcctgcct tgtcagatct cgagtcgata aaagccgtcc ctctttgggc tgccgctgga
        61 gcggtcggag gcttgtactt tgtttacatt ttgggaacat gcttctacaa tgtctacttg

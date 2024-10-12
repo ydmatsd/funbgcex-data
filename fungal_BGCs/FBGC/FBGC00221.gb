@@ -1,37 +1,37 @@
-LOCUS       FBGC00221       32618 bp DNA     linear   UNA 26-JAN-2023
+LOCUS       FBGC00221              32618 bp    DNA     linear   UNA 26-JAN-2023
 DEFINITION  asperfuranone.
 ACCESSION   FBGC00221
-VERSION     .
+VERSION     FBGC00221
 KEYWORDS    .
 SOURCE      Aspergillus nidulans FGSC A4
   ORGANISM  Aspergillus nidulans FGSC A4
+            .
 REFERENCE   1  (bases 1 to 32618)
   AUTHORS   Chiang YM, Szewczyk E, Davidson AD, Keller N, Oakley BR, Wang CC.
-  TITLE     A gene cluster containing two fungal polyketide synthases encodes 
-            the biosynthetic pathway for a polyketide, asperfuranone, in 
+  TITLE     A gene cluster containing two fungal polyketide synthases encodes
+            the biosynthetic pathway for a polyketide, asperfuranone, in
             Aspergillus nidulans.
   JOURNAL   J Am Chem Soc 2009;131:2965-70
-  PUBMED    19199437
+   PUBMED   19199437
 REFERENCE   2  (bases 1 to 32618)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Jan 26, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: "10.1021/ja8088185";
-            journalName: "J Am Chem Soc"; date: "2009"; volume: "131"; pages: 
+  JOURNAL   Exported Jan 26, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     ##Genome-Annotation-Data-START##
+            Annotation Provider :: INSDC submitter
+            Annotation Status   :: Full annotation
+            Annotation Pipeline :: Eukaryotic Annotation Propagation Pipeline
+            ##Genome-Annotation-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi: "10.1021/ja8088185";
+            journalName: "J Am Chem Soc"; date: "2009"; volume: "131"; pages:
             "2965-70"
-COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final 
-            NCBI review. The reference sequence is identical to BN001308. 
+            PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to BN001308.
             Aspergillus nidulans FGSC A4 CADRE,
             updated by Eurofungbase with contributions from
             CADRE (http://www.cadre-genomes.org.uk),
             AspGD (http://www.aspergillusgenome.org) and
-              Ensembl Genomes 
-            (http://www.ensemblgenomes.org).##Genome-Annotation-Data-START##
-            Annotation Provider :: INSDC submitter
-            Annotation Status   :: Full annotation
-            Annotation Pipeline :: Eukaryotic Annotation Propagation Pipeline 
-            ##Genome-Annotation-Data-END##
+            Ensembl Genomes
 FEATURES             Location/Qualifiers
      source          1..32618
                      /chromosome="VIII"
@@ -44,7 +44,7 @@ FEATURES             Location/Qualifiers
                      /locus_tag="ANIA_01036"
                      /old_locus_tag="AN1036.2; AN1036.4"
                      /product="polyketide synthase AfoG"
-                     /label=afoG
+                     /label="afoG"
                      /note="transcript_id=CADANIAT00001610"
                      /db_xref="EnsemblGenomes-Gn:CADANIAG00001610"
                      /db_xref="EnsemblGenomes-Tr:CADANIAT00001610"
@@ -116,12 +116,14 @@ FEATURES             Location/Qualifiers
                      PASTKSAQTSSSGDGEEPLSSKLKSADSPDAAANYVGGAIATKLADIFMVPVADIDLTK
                      PPSAYGVDSLVAVELRNMLVLQAACDVSIFSILQSVSLAALAGMVVEKSAHFEGSATGT
                      VVVA"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_DH, PKS_NRPS_MT, fPKS_ER,
+                     fPKS_KR, ACP_PCP"
      CDS             join(8967..9020,9084..9267,9343..9371)
                      /codon_start=1
                      /locus_tag="ANIA_11287"
                      /old_locus_tag="AN11287.4"
                      /product="hypothetical protein ANIA_11287"
-                     /label=ANIA_11287
+                     /label="ANIA_11287"
                      /note="transcript_id=CADANIAT00001611"
                      /db_xref="EnsemblGenomes-Gn:CADANIAG00001611"
                      /db_xref="EnsemblGenomes-Tr:CADANIAT00001611"
@@ -136,7 +138,7 @@ FEATURES             Location/Qualifiers
                      /locus_tag="ANIA_01035"
                      /old_locus_tag="AN1035.2; AN1035.4"
                      /product="FAD-linked oxidoreductase AfoF"
-                     /label=afoF
+                     /label="afoF"
                      /note="transcript_id=CADANIAT00001612"
                      /db_xref="EnsemblGenomes-Gn:CADANIAG00001612"
                      /db_xref="EnsemblGenomes-Tr:CADANIAT00001612"
@@ -158,14 +160,14 @@ FEATURES             Location/Qualifiers
                      RTDAATMQEVFDDMTAFYEQYPGYLGQSLFQRYANNNTLKTPAHTAVYPWRDTKMFWLH
                      ENIFLNPELEAPTNELLVSLREKLHATSGFPADQPHIYVNYAFGDEGPEAWWSKENLPK
                      LSYLKRKWDPKGVFGKGTPIPRF"
+                     /Pfam="FAD_binding_4, BBE"
      CDS             complement(12592..20868)
                      /codon_start=1
                      /locus_tag="ANIA_01034"
                      /old_locus_tag="AN1034.2; AN1034.4"
                      /product="polyketide synthase AfoE"
-                     /label=afoE
-                     /note="transcript_id=CADANIAT00001613
-                     revised sequence"
+                     /label="afoE"
+                     /note="transcript_id=CADANIAT00001613 revised sequence"
                      /db_xref="EnsemblGenomes-Gn:CADANIAG00001613"
                      /db_xref="EnsemblGenomes-Tr:CADANIAT00001613"
                      /db_xref="GeneID:2876807"
@@ -235,12 +237,14 @@ FEATURES             Location/Qualifiers
                      GQISGSSTSGFWNPVEHFAFLVKSSQSLRAWPDLQGQMQWIPVDYCAAGVVDLLHLTSR
                      GDEAYPVYHMDNPVGQNWQAMNHVLASALDIPASNIIPFKTWISRVRRSPLPMETENPA
                      ARLVDFLDDHFERMSCGGLVLDTSKAKEHSTTMAGVGPVGTELARLYVQAWKDMGYLA"
+                     /Pfam="SAT2, PKS_KS, PKS_AT, fPKS_PT, ACP_PCP, HTH_51,
+                     PKS_NRPS_MT, fPKS_R"
      CDS             complement(join(21718..22326,22395..22597,22659..23169))
                      /codon_start=1
                      /locus_tag="ANIA_01033"
                      /old_locus_tag="AN1033.2; AN1033.4"
                      /product="FAD-dependent monooxygenase AfoD"
-                     /label=afoD
+                     /label="afoD"
                      /note="transcript_id=CADANIAT00001614"
                      /db_xref="EnsemblGenomes-Gn:CADANIAG00001614"
                      /db_xref="EnsemblGenomes-Tr:CADANIAT00001614"
@@ -258,12 +262,13 @@ FEATURES             Location/Qualifiers
                      HIKELASLFPEQLSKYAIFDQADHPLPYYAAGRVALAGDAAHASSPFHGAGACMGVEDA
                      LVLAELLEKVQNGSAFKEKKSNIELALKTYSDVRIERSQWLVKSSREMGDLYEWRYEDI
                      GGDGVKCKAEWERRSRVIWDFDVQGMVDQAREAYERAVVKV"
+                     /Pfam="ElcH"
      CDS             23775..24668
                      /codon_start=1
                      /locus_tag="ANIA_01032"
                      /old_locus_tag="AN1032.2; AN1032.4"
                      /product="hydrolase AfoC"
-                     /label=afoC
+                     /label="afoC"
                      /note="transcript_id=CADANIAT00001615"
                      /db_xref="EnsemblGenomes-Gn:CADANIAG00001615"
                      /db_xref="EnsemblGenomes-Tr:CADANIAT00001615"
@@ -279,13 +284,14 @@ FEATURES             Location/Qualifiers
                      RDRKRGATSSTNYRFAVLFAGRGPLLDLGFGSGSLAGSSAASSSASASVSGSESAGEEE
                      EDGHLLSIPTIHVHGLRDPGLEMHRDLVRSCRPSSVRIVEWEGAHRMPITTKDVGAVVA
                      ELRHLAISRKYESLRC"
+                     /Pfam="FSH1"
      CDS             join(25053..25291,25365..25443,25498..25766,25825..26294,
                      26443..26564,26648..27085)
                      /codon_start=1
                      /locus_tag="ANIA_01031"
                      /old_locus_tag="AN1031.2; AN1031.4"
                      /product="major facilitator superfamily transporter AfoB"
-                     /label=afoB
+                     /label="afoB"
                      /note="transcript_id=CADANIAT00001616"
                      /db_xref="EnsemblGenomes-Gn:CADANIAG00001616"
                      /db_xref="EnsemblGenomes-Tr:CADANIAT00001616"
@@ -306,12 +312,13 @@ FEATURES             Location/Qualifiers
                      NLVPAPQIPQAMAIIIFWQNIGAAISLIAANAIFSNSLRDQLAQRASQITVSPGAIVAA
                      GVRSIRDLVSGSALAAVLEAYAEAIDRVMYLGIAVSVMVIVFSPGLGWKDIRKTKDLQA
                      LTSDGAQGEATEKETVPVALG"
+                     /Pfam="MFS_1"
      CDS             complement(27677..28894)
                      /codon_start=1
                      /locus_tag="ANIA_01030"
                      /old_locus_tag="AN1030.2; AN1030.4"
                      /product="dehydrogenase ANIA_01030"
-                     /label=ANIA_01030
+                     /label="ANIA_01030"
                      /note="transcript_id=CADANIAT00001617"
                      /db_xref="EnsemblGenomes-Gn:CADANIAG00001617"
                      /db_xref="EnsemblGenomes-Tr:CADANIAT00001617"
@@ -331,12 +338,13 @@ FEATURES             Location/Qualifiers
                      MRKHDPALTRKFIAVAGEIIPPEKLTTFVGKGTYLIGMLGGMVKSSIRQRRTGVIAKFI
                      LVDGLVDPDSVVSRVYMDFLPQALERGQFVPAPPPLVVGKGLEKIQEALDIQRKGVSGK
                      KLVVTL"
+                     /Pfam="fPKS_ER, ADH_zinc_N"
      CDS             join(30265..30463,30693..31161,31214..31775,31848..32618)
                      /codon_start=1
                      /locus_tag="ANIA_01029"
                      /old_locus_tag="AN1029.2; AN1029.4"
                      /product="transcription factor AfoA"
-                     /label=afoA
+                     /label="afoA"
                      /note="transcript_id=CADANIAT00001618"
                      /db_xref="EnsemblGenomes-Gn:CADANIAG00001618"
                      /db_xref="EnsemblGenomes-Tr:CADANIAT00001618"
@@ -358,6 +366,7 @@ FEATURES             Location/Qualifiers
                      DPMLLFTQTLGYRATMHLSDTVQQVSWRALASSPVDQQLLSPGATMSLSAAAYHQMASH
                      AAGEIVRLAKAVPSLSPFKAHPFLPDTLACAATFLSTGSPDPTGGEGVQHLLRVLSELR
                      DTHSLARDYLQGLSVQTQDEDHRQDTRWYCT"
+                     /Pfam="Zn_clus, Fungal_trans"
 ORIGIN
         1 atgggcagca catcttccga gcccacatac gacagtgagc ccatcgcgat tattggcctt
        61 tcgtgcaagt tcgctgggtc cgcagacagc cccgagaaac tatgggagat gcttgcggaa

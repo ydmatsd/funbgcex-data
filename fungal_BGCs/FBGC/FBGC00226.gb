@@ -1,29 +1,29 @@
-LOCUS       FBGC00226       38606 bp DNA     linear   UNA 08-MAY-2023
+LOCUS       FBGC00226              38606 bp    DNA     linear   UNA 08-MAY-2023
 DEFINITION  hypocrellin A.
 ACCESSION   FBGC00226
-VERSION     .
+VERSION     FBGC00226
 KEYWORDS    .
 SOURCE      Shiraia sp. slf14
   ORGANISM  Shiraia sp. slf14
+            .
 REFERENCE   1  (bases 1 to 38606)
   AUTHORS   Yang H, Wang Y, Zhang Z, Yan R, Zhu D.
-  TITLE     Whole-Genome Shotgun Assembly and Analysis of the Genome of Shiraia 
-            sp. Strain Slf14, a Novel Endophytic Fungus Producing Huperzine A 
+  TITLE     Whole-Genome Shotgun Assembly and Analysis of the Genome of Shiraia
+            sp. Strain Slf14, a Novel Endophytic Fungus Producing Huperzine A
             and Hypocrellin A.
   JOURNAL   Genome Announc 2014;2(1):e00011-14
-  PUBMED    24503982
+   PUBMED   24503982
 REFERENCE   2  (bases 1 to 38606)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported May 8, 2023 from SnapGene 6.2.2
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1128/genomeA.00011-14"; journalName: "Genome Announc"; date: 
-            "2014"; volume: "2"; issue: "1"; pages: "e00011-14"
+  JOURNAL   Exported May 8, 2023 from SnapGene 6.2.2 https://www.snapgene.com
 COMMENT     ##Assembly-Data-START##
             Assembly Method       :: Velvet v. 1.2.10
             Sequencing Technology :: Illumina
             ##Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1128/genomeA.00011-14"; journalName: "Genome Announc"; date:
+            "2014"; volume: "2"; issue: "1"; pages: "e00011-14"
 FEATURES             Location/Qualifiers
      source          1..38606
                      /strain="slf14"
@@ -34,7 +34,7 @@ FEATURES             Location/Qualifiers
      CDS             complement(join(1..1200,1257..1925))
                      /codon_start=1
                      /product="laccase ORF2"
-                     /label=ORF2
+                     /label="ORF2"
                      /note="ORF1"
                      /protein_id="AIW00656.1"
                      /translation="MACNAFKFFTGLLGLSSTVSRSFPFSCSKASVRSSDTVRFEIHIT
@@ -48,10 +48,11 @@ FEATURES             Location/Qualifiers
                      EGYNASAEDIASPFLFQRPKSIETSELLLRNQKNEWVDLIIEIEGPFAQSHPMHKHGNK
                      AYVIGQGVGFFPWATVAEAEKALPKGTFNFIEPPYKDTFKTLEGVNNNAWLVLRYKVDS
                      PGAWLFHCHIQTHLSGGMGVVMLDGVDAWPELPERYKEWNGFDQPK"
+                     /Pfam="Cu-oxidase_3, Cu-oxidase, Cu-oxidase_2"
      CDS             join(2337..3170,3396..3422)
                      /codon_start=1
                      /product="fasciclin-like protein ORF1"
-                     /label=ORF1
+                     /label="ORF1"
                      /note="ORF2"
                      /protein_id="AIW00657.1"
                      /translation="MRTSTLIALALPALSSAAALSLEKLLSKHPKLSTFHDLLTQFDLL
@@ -60,11 +61,12 @@ FEATURES             Location/Qualifiers
                      SSMVLPHNITLTAEINGLTKFLDLMSEAGLVEEFEALKDVTVFIPQNAALEKLLWLMKL
                      LPKENLASVLKYHVVPNKVLYEAAVEDEEDHETLDGGVVRLSSGRSGDLRVNGVKVLHF
                      MYIKY"
-     CDS             complement(join(3625..4303,4358..5412,5467..6936,6989..8204,
-                     8256..8766,8865..9849,9923..10223,10274..10560))
+                     /Pfam="Fasciclin"
+     CDS             complement(join(3625..4303,4358..5412,5467..6936,
+                     6989..8204,8256..8766,8865..9849,9923..10223,10274..10560))
                      /codon_start=1
                      /product="polyketide synthase HYP1"
-                     /label=HYP1
+                     /label="HYP1"
                      /note="HYP1"
                      /protein_id="AIW00658.1"
                      /translation="MAEPIKVFVFGDQTYDASDLMFTLLHANDDVILTSFLDSSLQTLK
@@ -104,11 +106,13 @@ FEATURES             Location/Qualifiers
                      ATGDEIATLTLIDSPAPTHGLDRLPKRFFDHCSAVGIFGEELSAINPSKERAKIPDWLM
                      PHFEATIELLHDYHAPPMPAGSRSPGKVSIIWAGACAFGGKYAPLAPASMEGEDTEGMK
                      FLTEQRTDFGPGDWASLFPGKEITVDVINGEHHFSMMRGKGGDQLGQLMRKALGLVV"
+                     /Pfam="SAT2, PKS_KS, PKS_AT, fPKS_PT, ACP_PCP,
+                     Thioesterase"
      CDS             join(11258..11491,11549..14137)
                      /codon_start=1
-                     /product="dual O-methyltransferase/FAD-dependent 
+                     /product="dual O-methyltransferase/FAD-dependent
                      monooxygenase HYP2"
-                     /label=HYP2
+                     /label="HYP2"
                      /note="HYP2"
                      /protein_id="AIW00659.1"
                      /translation="MATSTSFSFQQALEQVVQAHNDLQKHAEDKGSHVNGVHSAPIFPK
@@ -128,11 +132,12 @@ FEATURES             Location/Qualifiers
                      ELQDIRQASTMRVVSSPPRVPTWQASAYVTLVGDAVHAMSPCGGVGANTALRDAAELAK
                      LFTRDLSRDDAGTSIDGSARGDGGDLVARVAAFDEGVRKRAFGAVMRSYVGSKAMFSQA
                      PFEELAVVSD"
+                     /Pfam="MdpA, FAD_binding_3"
      CDS             complement(join(16275..16421,16516..16887,16945..17534,
                      17599..17719,17781..17991,18051..18301,18379..18540))
                      /codon_start=1
                      /product="major facilitator superfamily transporter HYP3"
-                     /label=HYP3
+                     /label="HYP3"
                      /note="HYP3"
                      /protein_id="AIW00660.1"
                      /translation="MLHFGLFANHFGVVFTALRLSIGTRDCFARRGPRPSDTNNFPGCQ
@@ -146,10 +151,11 @@ FEATURES             Location/Qualifiers
                      SAKWIGYQIIYGAGVGFGLNQPLIAVQTALPNHQIAEGTAVIIFMQTFGGTIFIAVAQN
                      VFNNKLIANVRAQAIPVDPVALLSVGATQLQKLVDPQYFGRLQLAYNESITQTFYVAVA
                      SAGLSIIGSALIPWFSVKKKPVDSTDPAADVEMPTKDVEKV"
+                     /Pfam="MFS_1"
      CDS             18614..19717
                      /codon_start=1
                      /product="methyltransferase HYP4"
-                     /label=HYP4
+                     /label="HYP4"
                      /note="HYP4"
                      /protein_id="AIW00661.1"
                      /translation="MSLFQLTAAVTKAAADLDAASVAAVDAANVEAKAKASLLDAAERL
@@ -159,10 +165,11 @@ FEATURES             Location/Qualifiers
                      VGHVVDGGYPWHELPQGTLVVDVGGGPGHVSMALARKYPQLSFEVQDLVETAEFGSRSC
                      PAELKERVSFRAHDFFTPQPQHRTAEDQRAVVYFARFICHDWSDKYAGQIVGAVAAQMR
                      EQDRLILNEVIVPEPGEMGQRIERKCQ"
+                     /Pfam="MdpA"
      CDS             complement(20492..20725)
                      /codon_start=1
                      /product="hypothetical protein HYP5"
-                     /label=HYP5
+                     /label="HYP5"
                      /note="HYP5"
                      /protein_id="AIW00662.1"
                      /translation="MLGPQMTNSAVQGSSSSSSSSNSSSSDVHGVHSKSNHDNEREKWG
@@ -170,7 +177,7 @@ FEATURES             Location/Qualifiers
      CDS             21523..22872
                      /codon_start=1
                      /product="transcription factor HYP6"
-                     /label=HYP6
+                     /label="HYP6"
                      /note="HYP6"
                      /protein_id="AIW00663.1"
                      /translation="MATQLPTPSTSTPTATSTISSSSSLNNNNEHRRKIRDSCNNCSAQ
@@ -181,10 +188,11 @@ FEATURES             Location/Qualifiers
                      AKNELRDVDTVLFINRDAAQSVKKILDCTCSADPTVSLACYLATTKIVDWYGAAIEAVG
                      ERSEEEGCYSKKDTTQKSSQNTMADRIIARPIFMGKYCLDSEVQRVVRAQVVLGELKEH
                      VQPLLNRLPRYHVTGLDADADSTSNNVQACVLRNQLRNVIQSARHLNGSG"
+                     /Pfam="EqxR, AflR"
      CDS             join(23977..24243,24336..25382)
                      /codon_start=1
                      /product="FAD-dependent monooxygenase HYP7"
-                     /label=HYP7
+                     /label="HYP7"
                      /note="HYP7"
                      /protein_id="AIW00664.1"
                      /translation="MAISSQNDKLIVAIYGGGVTCATLSQALKDQIHLDVQYFDPNPDP
@@ -195,11 +203,12 @@ FEATURES             Location/Qualifiers
                      GITDALTKFSGLRLIPEIAHPHAPTYINGLVAMAGNAAHKMTNFQQLHFGQQIEDAMIL
                      GALLREAKNLHGVAAALYAYDVVRRPQSQWVSDQAKYLGELWHGMADGVGLDVARLKAA
                      FEKWWKEWREYDVKEHRQDALRLMRERLWAAGYVESRE"
+                     /Pfam="ElcH"
      CDS             complement(join(25866..26905,26960..27174,27226..27449,
                      27502..27669))
                      /codon_start=1
                      /product="FAD-linked oxidoreductase HYP8"
-                     /label=HYP8
+                     /label="HYP8"
                      /note="HYP8"
                      /protein_id="AIW00665.1"
                      /translation="MFVENLPQWILALAKFVPYHAGEGLPVLTRPQRIEAQKHGDQVNA
@@ -212,10 +221,11 @@ FEATURES             Location/Qualifiers
                      LANATIQPFISLPGFLVSIAFQPLPTLISERYGAVDSLGPIQTQGNMFYIHWAMSVDGS
                      EGSTDAAFEQATETLFREAERKAAAKGLQRDFLQLTYADRWQDPLGRRSKGTVKELWET
                      SLLYDPHGLFQTQVPGGFKLPQTKARENAEL"
+                     /Pfam="FAD_binding_4"
      CDS             join(32177..32536,32606..32989)
                      /codon_start=1
                      /product="hypothetical protein HYP9"
-                     /label=HYP9
+                     /label="HYP9"
                      /note="HYP9"
                      /protein_id="AIW00666.1"
                      /translation="MTERNDNVQLLAALVDWDDVEDSEYRFLVDGKDVKYITTAPGIFP
@@ -223,10 +233,11 @@ FEATURES             Location/Qualifiers
                      HLELVKLARLRQNIHKIELETTAYQRINGAGIGFTFLGHVMEAGRTIGFLIDFVEGLRT
                      AGQEDLAICQRILSRLHGLCLRHGDINKHNFLVGNESVLMIDFETTKECDAKEELEEEY
                      SRLGESLKDPSYRGGIGPRTVGRPS"
+                     /Pfam="Kdo"
      CDS             34853..35083
                      /codon_start=1
                      /product="hypothetical protein HYP10"
-                     /label=HYP10
+                     /label="HYP10"
                      /note="HYP10"
                      /protein_id="AIW00667.1"
                      /translation="MPFFSLALGKPAFLPRNSPDLPSEAIMPFPLQYSGNIPKAASKST
@@ -234,7 +245,7 @@ FEATURES             Location/Qualifiers
      CDS             join(35423..35870,35924..36477,36533..36714,36766..37153)
                      /codon_start=1
                      /product="major facilitator superfamily transporter HYP11"
-                     /label=HYP11
+                     /label="HYP11"
                      /note="HYP11"
                      /protein_id="AIW00668.1"
                      /translation="MARKYLGGSGERLTVWISIAASTVLIFYGYDQGVFGNVIINENFL
@@ -247,10 +258,11 @@ FEATURES             Location/Qualifiers
                      EMRTKGASLAMSTNWICNYAVVQATLPGIQNLKYKFWIIWAVICFAFIPITYFFYPETA
                      NRTLEDIDRFFETEPGLFIHRNKMAVQLHRPAEYIEADERIAAGQVGKSDEEKLSTEFV
                      ETKNAV"
+                     /Pfam="Sugar_tr"
      CDS             complement(join(37560..37672,37725..37877,37934..38606))
                      /codon_start=1
                      /product="short-chain dehydrogenase/reductase HYP12"
-                     /label=HYP12
+                     /label="HYP12"
                      /note="HYP12"
                      /protein_id="AIW00669.1"
                      /translation="MDPAEFGLSTLPLQHAPYSTIAPEALQGANSGKVALVTGAGQGIG
@@ -259,6 +271,7 @@ FEATURES             Location/Qualifiers
                      INIASRSGTVDVPMTLGYVSSKAALIRATHTLQKEMALDGLDPAIHMYALHPGGVRGNM
                      GGAGADQDVKDKYGDLTDEEFFKHLFKDGPSLCGQTCAWLASGRGQELRGLFLDCRQDV
                      AKLLEYGRERLLKETRNTLTVNFIDGYCNEP"
+                     /Pfam="adh_short"
 ORIGIN
         1 tcattttggt tgatcgaatc cgttccactc tttgtacctt tctggtaatt ccggccatgc
        61 atctactcca tccaacatca caactcccat accaccactc aaatgtgttt gaatatggca

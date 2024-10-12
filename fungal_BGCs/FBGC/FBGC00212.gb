@@ -1,29 +1,29 @@
-LOCUS       FBGC00212       30801 bp DNA     linear   UNA 25-JAN-2023
+LOCUS       FBGC00212              30801 bp    DNA     linear   UNA 25-JAN-2023
 DEFINITION  cichorine.
 ACCESSION   FBGC00212
-VERSION     .
+VERSION     FBGC00212
 KEYWORDS    .
 SOURCE      Aspergillus nidulans FGSC A4
   ORGANISM  Aspergillus nidulans FGSC A4
+            .
 REFERENCE   1  (bases 1 to 30801)
   AUTHORS   Sanchez JF, Entwistle R, Corcoran D, Oakley BR, Wang CC.
-  TITLE     Identification and molecular genetic analysis of the cichorine gene 
+  TITLE     Identification and molecular genetic analysis of the cichorine gene
             cluster in Aspergillus nidulans.
   JOURNAL   Med Chem Comm 2012;3:997-1002
-  PUBMED    24244835
+   PUBMED   24244835
 REFERENCE   2  (bases 1 to 30801)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Jan 25, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1039/C2MD20055D"; journalName: "Med Chem Comm"; date: "2012"; 
+  JOURNAL   Exported Jan 25, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1039/C2MD20055D"; journalName: "Med Chem Comm"; date: "2012";
             volume: "3"; pages: "997-1002"
-COMMENT     Aspergillus nidulans FGSC A4 CADRE,
+            Aspergillus nidulans FGSC A4 CADRE,
             updated by Eurofungbase with contributions from
             CADRE (http://www.cadre-genomes.org.uk),
             AspGD (http://www.aspergillusgenome.org) and
-              Ensembl Genomes (http://www.ensemblgenomes.org).
+            Ensembl Genomes (http://www.ensemblgenomes.org).
 FEATURES             Location/Qualifiers
      source          1..30801
                      /chromosome="I"
@@ -37,9 +37,8 @@ FEATURES             Location/Qualifiers
                      /locus_tag="ANIA_06449"
                      /old_locus_tag="AN6449.4"
                      /product="cytochrome P450 monooxygenase CicH"
-                     /label=cicH
-                     /note="transcript_id=CADANIAT00006525
-                     revised sequence"
+                     /label="cicH"
+                     /note="transcript_id=CADANIAT00006525 revised sequence"
                      /db_xref="EnsemblGenomes-Gn:CADANIAG00006525"
                      /db_xref="EnsemblGenomes-Tr:CADANIAT00006525"
                      /db_xref="GOA:C8V0D4"
@@ -57,13 +56,14 @@ FEATURES             Location/Qualifiers
                      KETRDLPYLDACVKEAARLHPPISLPLERVIPESGTVIGGFKIPGGTRVAMNPWAVHRD
                      RDVFGADADTWRPERWLEGEEKAKTLYNSLLTFGGGHRSCLGKNISYLEIYKLVPSILL
                      RYEIGLAEPEKEWHLENRWFVMPSRFYVRLKARNGVTKL"
+                     /Pfam="p450"
      CDS             complement(join(6433..7391,7450..11870,12032..13590,
                      13639..14253))
                      /codon_start=1
                      /locus_tag="ANIA_06448"
                      /old_locus_tag="AN6448.4"
                      /product="polyketide synthase PkbA"
-                     /label=pkbA
+                     /label="pkbA"
                      /note="transcript_id=CADANIAT00006526"
                      /db_xref="EnsemblGenomes-Gn:CADANIAG00006526"
                      /db_xref="EnsemblGenomes-Tr:CADANIAT00006526"
@@ -128,15 +128,16 @@ FEATURES             Location/Qualifiers
                      GVQDRPITAYNIPLTSRSNSKAGGTPAGGWMAPDDPRSRIVLHMNWKGQCLPVLLRGLP
                      PSNSLSPGDAEKLISQPQPEIEEIQRVSPYAQIRRGVYRTPTFVIHGTDDDLIPYEQSV
                      RTVQALKDMGVRAEVSVPQGKAHLFDMFKDADGSSWEVVKRGYDFLKEEVSGK"
+                     /Pfam="SAT2, PKS_KS, PKS_AT, fPKS_PT, ACP_PCP, HTH_51,
+                     PKS_NRPS_MT, Abhydrolase_3, Peptidase_S9"
      CDS             join(14818..15235,15306..15432,15486..15793,15850..15906,
                      16006..16216,16313..16622)
                      /codon_start=1
                      /locus_tag="ANIA_06447"
                      /old_locus_tag="AN6447.4"
                      /product="methyltransferase CicE"
-                     /label=cicE
-                     /note="transcript_id=CADANIAT00006527
-                     revised sequence"
+                     /label="cicE"
+                     /note="transcript_id=CADANIAT00006527 revised sequence"
                      /db_xref="EnsemblGenomes-Gn:CADANIAG00006527"
                      /db_xref="EnsemblGenomes-Tr:CADANIAT00006527"
                      /db_xref="GOA:Q5AZ33"
@@ -154,13 +155,14 @@ FEATURES             Location/Qualifiers
                      PEAVADGRVQFMEHNFFQPNPVKGADVYWLRGIFYCVQILSALRTSMAPTSRILVCDQV
                      MNTTAGCDEIPPAPSPLPANYGYYMRYPHHRDLAMMSIINGIERTPAQFTELVKQAGLK
                      VNKIWNCRSMVGIVEIGL"
+                     /Pfam="Methyltransf_2"
      CDS             join(17830..17908,18015..18195,18249..18292,18340..18508,
                      18567..19119)
                      /codon_start=1
                      /locus_tag="ANIA_06446"
                      /old_locus_tag="AN6446.4"
                      /product="transcription factor CicD"
-                     /label=cicD
+                     /label="cicD"
                      /note="transcript_id=CADANIAT00006529"
                      /db_xref="EnsemblGenomes-Gn:CADANIAG00006529"
                      /db_xref="EnsemblGenomes-Tr:CADANIAT00006529"
@@ -177,14 +179,15 @@ FEATURES             Location/Qualifiers
                      DTLSINMTLPSDLPSYLSLPLPDTAETDHALDESSTAWEIPDWTAFDNQCLFTPGASEL
                      EGSFTSRNHEEPPQPLPVPDIPGPSTLVLEDLRPETVNLVIDTLLRTNSKFGMRMYNTG
                      S"
+                     /Pfam="Myb_DNA-binding, Myb_DNA-bind_6"
      CDS             complement(join(19947..19993,20049..21510,21564..21681,
                      21737..21945))
                      /codon_start=1
                      /locus_tag="ANIA_06445"
                      /old_locus_tag="AN6445.4"
-                     /product="glucose-methanol-choline family oxidoreductase 
+                     /product="glucose-methanol-choline family oxidoreductase
                      CicC"
-                     /label=cicC
+                     /label="cicC"
                      /note="transcript_id=CADANIAT00006530"
                      /db_xref="EnsemblGenomes-Gn:CADANIAG00006530"
                      /db_xref="EnsemblGenomes-Tr:CADANIAT00006530"
@@ -205,12 +208,13 @@ FEATURES             Location/Qualifiers
                      AAVVSPLSRGTVDIASNDTEVNPIIDPRWFAHPGDIQVAVAGFRRSRALMASPAMAGIT
                      LGGESYPGTDVQTDDEIVEWLREASNTVHHACCTAGMGPRDNPDSVVDTQGRVIGVSGL
                      RIVDASIMPFLPPGHPISIIYGLAERIAESILADA"
+                     /Pfam="GMC_oxred_N, GMC_oxred_C"
      CDS             join(22581..25295,25407..25811)
                      /codon_start=1
                      /locus_tag="ANIA_06444"
                      /old_locus_tag="AN6444.4"
                      /product="NRPS-like carboxylic acid reductase CicB"
-                     /label=cicB
+                     /label="cicB"
                      /note="transcript_id=CADANIAT00006531"
                      /db_xref="EnsemblGenomes-Gn:CADANIAG00006531"
                      /db_xref="EnsemblGenomes-Tr:CADANIAT00006531"
@@ -239,12 +243,13 @@ FEATURES             Location/Qualifiers
                      HYPHEMTVSYVRMGQIAGSSTTGFWNINEHIPALTLSWIPVDVAAQSITELLLSPAPAE
                      LIYHIENPIRQSWHDMLQTIAAVLHLSASDALPWNEWQEQVAAAGDTDNPAKKLQDFFA
                      NDFIRMGCGEVVLGTDKARKASATLRRVDAVSEGCVRGYLQYWKEIGWLK"
+                     /Pfam="AA-adenyl-dom, fPKS_R"
      CDS             join(26564..26821,26869..30801)
                      /codon_start=1
                      /locus_tag="ANIA_06443"
                      /old_locus_tag="AN6443.4"
                      /product="ABC transporter CicA"
-                     /label=cicA
+                     /label="cicA"
                      /note="transcript_id=CADANIAT00006532"
                      /db_xref="EnsemblGenomes-Gn:CADANIAG00006532"
                      /db_xref="EnsemblGenomes-Tr:CADANIAT00006532"
@@ -281,6 +286,7 @@ FEATURES             Location/Qualifiers
                      LDPFNEHSDLELWDALRKAHLIDSDTKDSAVDASNPNGNANAQRLTLDTAVDEEGLTFS
                      LGQRQLMALARALVRNARIIICDEATSSVDFATDQRIQETMAQGFEGKTLLCIAHRLKT
                      IIHYDRICVMDQGSIAEIDTPLNLWEKEDGIFRAMCERSGISREDIVGQVEKE"
+                     /Pfam="ABC_membrane, ABC_tran"
 ORIGIN
         1 atggcaatcc ttgtacgcct cttcttcgcc ctctttgtcg tctccgtcta cttcttccgc
        61 gtacgcctgc gcctgagcca catccctggc ccgttcctcg cttctctgac aaacattaac

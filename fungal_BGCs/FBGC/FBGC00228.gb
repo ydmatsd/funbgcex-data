@@ -1,23 +1,23 @@
-LOCUS       FBGC00228       26012 bp DNA     linear   UNA 28-APR-2023
+LOCUS       FBGC00228              26012 bp    DNA     linear   UNA 28-APR-2023
 DEFINITION  terrein.
 ACCESSION   FBGC00228
-VERSION     .
+VERSION     FBGC00228
 KEYWORDS    .
 SOURCE      Aspergillus terreus NIH2624
   ORGANISM  Aspergillus terreus NIH2624
+            .
 REFERENCE   1  (bases 1 to 26012)
   AUTHORS   Zaehle C, Gressler M, Shelest E, Geib E, Hertweck C, Brock M.
-  TITLE     Terrein biosynthesis in Aspergillus terreus and its impact on 
+  TITLE     Terrein biosynthesis in Aspergillus terreus and its impact on
             phytotoxicity.
   JOURNAL   Chem Biol 2014;21:719-31
-  PUBMED    24816227
+   PUBMED   24816227
 REFERENCE   2  (bases 1 to 26012)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Apr 28, 2023 from SnapGene 6.2.2
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1016/j.chembiol.2014.03.010"; journalName: "Chem Biol"; date: 
+  JOURNAL   Exported Apr 28, 2023 from SnapGene 6.2.2 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1016/j.chembiol.2014.03.010"; journalName: "Chem Biol"; date:
             "2014"; volume: "21"; pages: "719-31"
 FEATURES             Location/Qualifiers
      source          1..26012
@@ -29,7 +29,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="ATEG_00138"
                      /product="major facilitator superfamily transporter TerG"
-                     /label=terG
+                     /label="terG"
                      /protein_id="EAU38784.1"
                      /translation="MSSSTLEGQETASHHSKNSPSRHGDDGGLQTAGDEYVYIADHYGM
                      VRRMIFIMTVCSSMFTNQLGLCNSLSTLEEIGESFGVTDPGKLSWTISGYGLTLGTFIL
@@ -41,12 +41,14 @@ FEATURES             Location/Qualifiers
                      LRPVHSIYWTYFFFATIIATFAMDSSLPAATIIFANAVPRQYQGMGSSVIMTIVVYSIS
                      LGLGFAGTIELQINNGGHTKADLLHGYRGTLWFSVGLTAFGTVLALIFLLKDLRRRKLA
                      RTQVEEEKGHSSEA"
-     CDS             complement(join(2359..2835,2889..3092,3143..3157,3207..3459,
-                     3509..3530,3586..3757,3967..4533,4585..4616,4674..4851))
+                     /Pfam="MFS_1"
+     CDS             complement(join(2359..2835,2889..3092,3143..3157,
+                     3207..3459,3509..3530,3586..3757,3967..4533,4585..4616,
+                     4674..4851))
                      /codon_start=1
                      /locus_tag="ATEG_00139"
                      /product="transcription factor TerR"
-                     /label=terR
+                     /label="terR"
                      /protein_id="EAU38785.1"
                      /translation="MFAELNAKDQFNELLKHLSSTSCTTMQADRVETSSSVRKKKWMSR
                      RRGACDMCKSKKVRCDGGTPCSYCNLHDLRCEYQLSKKQQTNKPPVASAAEDVSIVPSY
@@ -60,11 +62,12 @@ FEATURES             Location/Qualifiers
                      VNALYSPRALCQTVAERERNMMQAHKLLENWRTSLPVHLQNIHRHETGYVALDDQKTRH
                      LTLTMVGKYHEAIFIIFFPWTGSQSKGLISEHYRKRSMELCVKSAQAVLAIAARITSCD
                      ILGG"
+                     /Pfam="EqxR, Zn_clus"
      CDS             complement(5469..6848)
                      /codon_start=1
                      /locus_tag="ATEG_00140"
                      /product="Kelch-like protein TerF"
-                     /label=terF
+                     /label="terF"
                      /protein_id="EAU38786.1"
                      /translation="MPPTISDDTTVRSFTCAQPLGRAGYELIIRQMLHRFLSDLHTTKA
                      LLDRSLQATVNHAAGPVRSLLTIITVGFYTLLNWCSLGSYHTTKMISTVVTGLLLLASG
@@ -75,12 +78,13 @@ FEATURES             Location/Qualifiers
                      PIARGGVASATIGSLIFTAGGEGDRRTPTAVFPEMQAYDAATNTWVDYADMPLPVHGSD
                      AVVYKGEIVIPGGGIVTGATLTPVVQTFQPPLPDSGEKSMPLMVMVYRVVFDLPWMLFK
                      R"
-     CDS             join(7304..7469,7529..7620,7678..7752,7809..8053,8135..9247,
-                     9313..9526)
+                     /Pfam="Kelch_1, Kelch_6, Kelch_3"
+     CDS             join(7304..7469,7529..7620,7678..7752,7809..8053,
+                     8135..9247,9313..9526)
                      /codon_start=1
                      /locus_tag="ATEG_00141"
                      /product="laccase TerE"
-                     /label=terE
+                     /label="terE"
                      /protein_id="EAU38787.1"
                      /translation="MSPILEVCIALAALCSTVASRYITHGPDFQPDHILRVSEQVFPVA
                      CVTRPSTLINGTSPGPALYLREDQTTWVRVYNDLESKNTTIHWHGLSQSTAPFSDGSPQ
@@ -93,12 +97,13 @@ FEATURES             Location/Qualifiers
                      WDPDLNVYVAKVGEVIDIIMVNQPNGLDIGFDLHPWHIHGGHIYDLGSGPGSYNATANE
                      EKLKGYNPVIRDTTMLYKYTPGQYVGENKNFTDQGWRAWRLHVQDPGVWMVHCHTLQHM
                      IMGMQTVWMMGNASEITRGVSPESLEGYLNYGGDAYGNASYDPIVQHHFDYGLQQILQ"
+                     /Pfam="Cu-oxidase_3, Cu-oxidase, Cu-oxidase_2"
      CDS             join(10445..10966,11019..11924,11975..12149,12202..12318,
                      12377..12501)
                      /codon_start=1
                      /locus_tag="ATEG_00142"
                      /product="FAD-dependent monooxygenase TerD"
-                     /label=terD
+                     /label="terD"
                      /protein_id="EAU38788.1"
                      /translation="MSSKFDVVICGSGTAGLAAATWLAQYGVDCKILESRSGPLDVGQA
                      DGIQVRSVEIFESFGMAEELLREAYHNIEVAFWGSNPTSSGMGIVRKRSAHATTPGLSH
@@ -111,11 +116,12 @@ FEATURES             Location/Qualifiers
                      MIFPGDIRQPSASTRLAQLGTYLFSNHGPIRKYLPPGADIDSLIEVIVILSGERLEIQQ
                      DQIPDAFWPTTGKYRMRDLHKIYIDDETYHNGHGHAYDFYGIDPERGAVAIVRPDQYIS
                      KVLDMKNHEGISAFFEKFLQKKGQANGSLNSHDEWTLA"
+                     /Pfam="FAD_binding_3, Phe_hydrox_dim"
      CDS             join(13487..13492,13544..14098,14147..14737,14786..14854)
                      /codon_start=1
                      /locus_tag="ATEG_00143"
                      /product="FAD-dependent monooxygenase TerC"
-                     /label=terC
+                     /label="terC"
                      /protein_id="EAU38789.1"
                      /translation="MHVIVVGAGPCGFSLSLVLARAGIHVTLLDKADGVGSQPRAAHIF
                      APGIQMLRRAGVLEDVRRAGFVPKNWSFRKADGTPIVTIEDFAPSKSPDATTVLPIDTL
@@ -125,12 +131,13 @@ FEATURES             Location/Qualifiers
                      LAADAAHLCNPWGGLGLTGGFADAIGLSECLIGIHMGRADHSILDKYDEVRRAIYWNFT
                      DPISTSNFMRVSTSDPETILEKDPVMATFARMHEDSKIREDFDRHIYGILHDFTQYYST
                      GKGQASL"
+                     /Pfam="FAD_binding_3"
      CDS             complement(join(15215..15763,15846..16895,16953..17066,
                      17114..18745))
                      /codon_start=1
                      /locus_tag="ATEG_00144"
                      /product="polyketide synthase-like enzyme TerB"
-                     /label=terB
+                     /label="terB"
                      /protein_id="EAU38790.1"
                      /translation="MKVDMHQAEQWPSQRLLGSRAPQSNDNELSWTSVLNSEEDPWLYD
                      QILFGRRTFPVAGYVAIAGECMRQLSDSKLEFFSTKDLSIGSSLVFDPDDKLELHTTLR
@@ -152,11 +159,12 @@ FEATURES             Location/Qualifiers
                      YRHGQNLPASVVDIGFMGSIGMAVQSGALVQNLKRSGYYYLNERHLIDALTISLAHSRP
                      SGDRLMHRSQLGLGIRSTKPMAAATCRVAWKKDSRMAISHHFEPIGGIGHQEVKSLLNC
                      AFRTGND"
+                     /Pfam="fPKS_DH, PKS_NRPS_MT, fPKS_KR"
      CDS             join(19529..19818,19868..26012)
                      /codon_start=1
                      /locus_tag="ATEG_00145"
                      /product="polyketide synthase TerA"
-                     /label=terA
+                     /label="terA"
                      /note="similar to polyketide synthase"
                      /protein_id="EAU38791.1"
                      /translation="MAGSLKLYVFGDEAGDFAGPLQKLCEQRKEVLFLHFLDELNKVLR
@@ -196,6 +204,8 @@ FEATURES             Location/Qualifiers
                      LIDSPCPINLQPLPSELLHFIDSLGLLGAQGSAPKWLIPHFEASIKNLTAFVPHAMDPD
                      EAPRTHIIWARDGLVSESDEKQFPRSDAEAKSVKFLLDGRQNLGTYGWEKLIGSENISV
                      DFIEGNHFTMMREPKVSPPYLSLTPRQILTLQSR"
+                     /Pfam="SAT2, PKS_KS, PKS_AT, fPKS_PT, ACP_PCP,
+                     Thioesterase"
 ORIGIN
         1 atgtcctcct caactctaga agggcaggaa actgcatcgc atcattccaa aaattcacca
        61 tcgaggcatg gggatggtaa gttacttagt tctcaaagat atcctgccaa aactggaggc

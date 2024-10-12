@@ -1,29 +1,29 @@
-LOCUS       FBGC00249       28480 bp DNA     linear   UNA 28-JAN-2023
+LOCUS       FBGC00249              28480 bp    DNA     linear   UNA 28-JAN-2023
 DEFINITION  agnestins.
 ACCESSION   FBGC00249
-VERSION     .
+VERSION     FBGC00249
 KEYWORDS    .
 SOURCE      Paecilomyces divaricatus K5103
   ORGANISM  Paecilomyces divaricatus K5103
+            .
 REFERENCE   1  (bases 1 to 28480)
-  AUTHORS   Szwalbe AJ, Williams K, Song Z, de Mattos-Shipley K, Vincent JL, 
+  AUTHORS   Szwalbe AJ, Williams K, Song Z, de Mattos-Shipley K, Vincent JL,
             Bailey AM, Willis CL, Cox RJ, Simpson TJ.
-  TITLE     Characterisation of the biosynthetic pathway to agnestins A and B 
+  TITLE     Characterisation of the biosynthetic pathway to agnestins A and B
             reveals the reductive route to chrysophanol in fungi.
   JOURNAL   Chem Sci 2019;10:233-238
-  PUBMED    30746079
+   PUBMED   30746079
 REFERENCE   2  (bases 1 to 28480)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Jan 28, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1039/c8sc03778g"; journalName: "Chem Sci"; date: "2019"; volume:
-            "10"; pages: "233-238"
+  JOURNAL   Exported Jan 28, 2023 from SnapGene 6.2.1 https://www.snapgene.com
 COMMENT     ##Assembly-Data-START##
-            Assembly Method       :: ABySS-pe v. v. 2012; GApCloser v. v. 2012 
+            Assembly Method       :: ABySS-pe v. v. 2012; GApCloser v. v. 2012
             Sequencing Technology :: 454; Illumina
             ##Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1039/c8sc03778g"; journalName: "Chem Sci"; date: "2019"; volume:
+            "10"; pages: "233-238"
 FEATURES             Location/Qualifiers
      source          1..28480
                      /mol_type="genomic DNA"
@@ -34,7 +34,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="AgnL12"
                      /product="major facilitator superfamily transporter AgnL12"
-                     /label=agnL12
+                     /label="agnL12"
                      /protein_id="QBG38876.1"
                      /translation="MSRSTSTELQQELPASKEVPPDPTSIASSETASGSKPPSTEFTPR
                      AILVLVGSFLVTFCSVGFTNAFGVFQTYYQEAFLSDKSSSDISWIGSFNIFCMFGCTFI
@@ -44,12 +44,13 @@ FEATURES             Location/Qualifiers
                      NLAFYMVSVVNASSLFGRILPGLIADRVGNYNVLFMVAVFSGLVACCWTKATSVGGIVV
                      FSLAYGLASGAVISLQGPCAAQTVQREQFGVAMGVVMTFLSIAGLVGTPINGQILIPYG
                      YLGLSLFSGLVMLLGSVFILLARLKIKTGLLVKA"
-     CDS             join(2004..2169,2218..2290,2345..2445,2516..2613,2665..3302,
-                     3354..4332)
+                     /Pfam="MFS_1"
+     CDS             join(2004..2169,2218..2290,2345..2445,2516..2613,
+                     2665..3302,3354..4332)
                      /codon_start=1
                      /gene="AgnL11"
                      /product="transcription factor AgnL11"
-                     /label=agnL11
+                     /label="agnL11"
                      /protein_id="QBG38877.1"
                      /translation="MKRSFDASHGQLEKQSRPRQVPTSCHFCRTKKLKCDRRFPCSNCR
                      ARRLSCVPFSDRSQAASLDLPGAGPSSTVSNEELSENINELKARLQRLEELISVNAEEK
@@ -63,11 +64,12 @@ FEATURES             Location/Qualifiers
                      SVIELCKEMTGANEEFQHVKMWTIVHPLFNSVLVLVMDYCLNREEPRGDERKAEILEGF
                      RLLEACQEDSALAQRGLQQMRQLLKGSASARKDKNPIHGDTDRATPPGSSNLPQHDKSS
                      SSSPAPPVWPCLWTDPDLAPLETMDFDVDLDESQFEVLFRDFEGRHPMY"
+                     /Pfam="Zn_clus, Fungal_trans"
      CDS             complement(4587..5801)
                      /codon_start=1
                      /gene="Agn10"
                      /product="transcription factor Agn10"
-                     /label=agn10
+                     /label="agn10"
                      /protein_id="QBG38878.1"
                      /translation="MQFPLASAHEDSPPAGLKLRDSCNRCAVSKIKCSKEKPACARCAK
                      QDKVCEYSATKRAGRKRGSRRHNNPVPSPTTQDLPTAAPSTCPTFLEDPETIPLSPRPP
@@ -77,11 +79,12 @@ FEATURES             Location/Qualifiers
                      VLSSYATLLRQTPGPDGDGVSWDNSTPPPGEQGAGVDGEDHCRTIAQQILGQLHRVQRL
                      VSILSQRFNIPGGRARTPDSTAGPDLLSSIETLFPVPGSMLEQMEGLLRKRLRTLSAEI
                      VDILR"
+                     /Pfam="EqxR, AflR"
      CDS             complement(join(6910..7476,7567..8073,8168..8413))
                      /codon_start=1
                      /gene="AgnL9"
                      /product="transcriptional coactivator AgnL9"
-                     /label=agnL9
+                     /label="agnL9"
                      /protein_id="QBG38879.1"
                      /translation="MADFAQLEVYIGDLSTAITSLITQCQRNGHATGSPSENLSRLFGL
                      EAPTEAHRARESALVILTKLQIMLAGPTDLLQQMTIQTQLLACIRWLGEFQVPACIPLD
@@ -91,21 +94,23 @@ FEATURES             Location/Qualifiers
                      LSSASKNGTAASKVRHPRIRVQHRVPGTPQPIQDAMVYIINFPVPEPGVSYNSPVAQIS
                      AELRAHLAPLRMNRSATIVLTAPSLPERGNVAAVGVARIRDLSLLQLANEQEVEMSDLL
                      SLLNGVGDGEGRLVLVNEMRSAGNHGAVALEVKYQSYTDR"
+                     /Pfam="MdpA"
      CDS             join(10304..10328,10392..10447,10509..10550,10619..11020)
                      /codon_start=1
                      /gene="AgnL8"
                      /product="dehydratase AgnL8"
-                     /label=agnL8
+                     /label="agnL8"
                      /protein_id="QBG38880.1"
                      /translation="MAKDPTFEEVTGCQRALFEWADSYDTKDWERLKKCVAPTLRIDYR
                      SFLDKLWEAMPSDEFILMASDPRFLGNPLLKTQHFVGLSTWQKISPDEIEGTHQLRVPH
                      QRYTDSNMKEVAVKGHAHGIATMWYKRVEDEWKFAGVCPQIRWAEFDYDKVFAEGKDHF
                      GENGGNGEHAV"
+                     /Pfam="Scytalone_dh"
      CDS             join(12330..12485,12566..13354)
                      /codon_start=1
                      /gene="AgnL7"
                      /product="metallo-beta-lactamase-like thioesterase AgnL7"
-                     /label=agnL7
+                     /label="agnL7"
                      /protein_id="QBG38881.1"
                      /translation="MGEGGYQQINKTLNACAFDDYLATQHARLPPLPDVEQISPRVVRV
                      LGQNAGKFTLQGTNTYIVGTGSRRLIIDTAQGYRAWADLIESTLAQRSIRLSHVFLTHW
@@ -113,42 +118,46 @@ FEATURES             Location/Qualifiers
                      MCFVLEEENALFTGDNVLGHGTSAVEDLGLYMTTLRKLQAQECAVGYPAHGAVIPNLPG
                      KITNELAQKTRREKQCLVALDRIRNDQGRLASLTVSELIDVVHGTQLDEQVRKMALEPF
                      MDEVLRKLAEDGHVAFRVRKGVKTWFALNTVRS"
+                     /Pfam="Lactamase_B"
      CDS             complement(join(14109..14243,14321..14992))
                      /codon_start=1
                      /gene="AgnL6"
                      /product="short-chain dehydrogenase/reductase AgnL6"
-                     /label=agnL6
+                     /label="agnL6"
                      /protein_id="QBG38882.1"
                      /translation="MGSIDTPPHLPYRLDGKVALVTGAGRGIGAAMAVELARCGAKVIV
                      NYARSSSFANAVVDEIKSLGSDAVAIQADVSQVSQTVRLFEEAVQVFGGLDIVCSNAGV
                      VSFGHLSEVTEEEFDRVFSVNTRGQFFVAREAYRHLNSPGRIILMSSNTADSFTVPKHS
                      LYSASKGAINTFVRCLAKDCGDKKITVNAVAPGGTVTDMFHETAKDYLPNADKMSKEQI
                      LQIVANVSPLTRCGYPIDIAKVVCFLASSESEWVNGKVLGVDGGAA"
+                     /Pfam="adh_short_C2"
      CDS             join(15421..15627,15692..15970)
                      /codon_start=1
                      /gene="AgnL5"
                      /product="isomerase AgnL5"
-                     /label=agnL5
+                     /label="agnL5"
                      /protein_id="QBG38883.1"
                      /translation="MPAPAEVQAATLQRFLAAWQKWDAQEWLDGFADDFTQITLPLSLG
                      IPSRSRAEVEQVLPALVATVKSYQLTIRTVVHDPERNKAAVYALSTGTLPWGPWELEYS
                      VFITFSEAGDQVAVLEEMMDSAFLQEFGPKFGQYLQANGGPRAVAAGVGAGGATAVH"
+                     /Pfam="Trt14"
      CDS             16444..17232
                      /codon_start=1
                      /gene="AgnL4"
                      /product="short-chain dehydrogenase/reductase AgnL4"
-                     /label=agnL4
+                     /label="agnL4"
                      /protein_id="QBG38884.1"
                      /translation="MATYAVLGATGNCGTALIDNLLRTEGAQIHAFCRNKPKLMQKMPA
                      LVDHKRVQIYEGSIDDIDLLAECIRGTRAIFHVVTTNDNVPGCQVGLDTAQSIIAALES
                      LQALEPEGTKPPKIVLLSSGTIDDHLSRHMPSFFRRILRAAASHVYEDLRRTEAFLRAQ
                      PDGVSTIFIKPGGLSIDVQRGHALNLDRDESFVSYLDLAAAMIEAADDPDDRFDGKNVS
                      VANTNGAARFPMGTPLCILTGLARHSFPWLHRYLPATGPG"
+                     /Pfam="NAD_binding_10"
      CDS             18290..19672
                      /codon_start=1
                      /gene="AgnL3"
                      /product="dioxygenase AgnL3"
-                     /label=agnL3
+                     /label="agnL3"
                      /protein_id="QBG38885.1"
                      /translation="MADLTPVQVLPADIGILNFANIGSDSLAECNRLLDKNHRDHHMFV
                      RDTAGHNHIVHAVLAVLALGGSPQELRDRYDDGASMQRPLPPCDAELLEKLNDPEVFMA
@@ -159,32 +168,35 @@ FEATURES             Location/Qualifiers
                      AALDATAITDYSSPESDGLGWDELFAAVNKEHDDGHAAKFIRALKNGEMVSRRYEQGEW
                      AEFFPMKGDMWLKLARMCQDTTKGMPSDLKWIPFTGFEQPWKRADLAEAGETNTAEKVR
                      LY"
+                     /Pfam="Questin_oxidase"
      CDS             join(20476..20530,20600..21039)
                      /codon_start=1
                      /gene="AgnL2"
                      /product="anthrone oxygenase AgnL2"
-                     /label=agnL2
+                     /label="agnL2"
                      /note="DUF1772"
                      /protein_id="QBG38886.1"
                      /translation="MSTTSAQATAVVTGSFLSGAMISLSLMAVPVLLDTTTEPTQLFFQ
                      WRRMYHYGHQVLPTMAVATTLLYAYTASKRRRAQKPSWAVFALAGTITVSMIPFTWLCM
                      VPTNNVLFGLEAATRLGEPSGMGIEEAQALLVKWSWLHFTRSLMPLMGAILGSLGETVW
                      N"
+                     /Pfam="Anthrone_oxy"
      CDS             complement(join(21457..21717,21868..22056))
                      /codon_start=1
                      /gene="AgnL1"
                      /product="decarboxylase AgnL1"
-                     /label=agnL1
+                     /label="agnL1"
                      /protein_id="QBG38887.1"
                      /translation="MPDASEIPPPPPGAPGTQFLCLTICGYRRPGMSEEDYRHHMTQVS
                      APMTQDLMVKYGVKRWTMVHNTSETRALMSRLFDHQMTQLADFDCFSQVVFESVEEYRR
                      MKEDAWYQEHLVGDHEKFADTQRSRMTLGWITELIRDGKVVKGTQ"
+                     /Pfam="EthD"
      CDS             complement(join(22822..24105,24170..26533,26597..27700,
                      27757..28063,28116..28480))
                      /codon_start=1
                      /gene="Agnpks1"
                      /product="polyketide synthase AgnPKS"
-                     /label=agnPKS
+                     /label="agnPKS"
                      /protein_id="QBG38888.1"
                      /translation="MRYCTIPPVHSPIIRLQHGILSKMKLIYFSNEFPPDDLHTLFREL
                      HNHSKDRRHPILARFLEEATLAVREEVRRLPAHLRALIPPFESIWNFADFADLRKGQLC
@@ -217,6 +229,7 @@ FEATURES             Location/Qualifiers
                      FRRYPRILLSRFFSAPDDAHAPPVATSTSSKHAVATPATKGVNGVKAVKAAPAVNGTNG
                      VKTVPAVNGTNGVKATPAVNGVKPAPPVEVEVNSDTTTAKAIQIIAAESGLDLADLTDD
                      SSFADLGVDSLMSLVIAEKFRADLGVVVGGSLFLEYPTIGDLRSWLEEYYS"
+                     /Pfam="SAT2, PKS_KS, PKS_AT, fPKS_PT, ACP_PCP"
 ORIGIN
         1 tcaagctttc accagtaggc ctgtcttgat cttcaaccta gcgagcagga tgaagaccga
        61 tccgagcaac atcaccagac ccgagaagag tgacaaaccg agatacccat aggggatcaa

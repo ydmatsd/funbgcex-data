@@ -1,24 +1,24 @@
-LOCUS       FBGC00208       33254 bp DNA     linear   UNA 25-JAN-2023
+LOCUS       FBGC00208              33254 bp    DNA     linear   UNA 25-JAN-2023
 DEFINITION  azasperpyranone A.
 ACCESSION   FBGC00208
-VERSION     .
+VERSION     FBGC00208
 KEYWORDS    .
 SOURCE      Aspergillus terreus NIH2624
   ORGANISM  Aspergillus terreus NIH2624
+            .
 REFERENCE   1  (bases 1 to 33254)
   AUTHORS   Huang X, Zhang W, Tang S, Wei S, Lu X.
-  TITLE     Collaborative Biosynthesis of a Class of Bioactive Azaphilones by 
-            Two Separate Gene Clusters Containing Four PKS/NRPSs with 
+  TITLE     Collaborative Biosynthesis of a Class of Bioactive Azaphilones by
+            Two Separate Gene Clusters Containing Four PKS/NRPSs with
             Transcriptional Crosstalk in Fungi.
   JOURNAL   Angew Chem Int Ed Engl 2020;59:4349-4353
-  PUBMED    31908094
+   PUBMED   31908094
 REFERENCE   2  (bases 1 to 33254)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Jan 25, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1002/anie.201915514"; journalName: "Angew Chem Int Ed Engl"; 
+  JOURNAL   Exported Jan 25, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1002/anie.201915514"; journalName: "Angew Chem Int Ed Engl";
             date: "2020"; volume: "59"; pages: "4349-4353"
 FEATURES             Location/Qualifiers
      source          1..33254
@@ -30,7 +30,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="ATEG_07659"
                      /product="polyketide synthase ATEG_07659"
-                     /label=ATEG_07659
+                     /label="ATEG_07659"
                      /note="similar to polyketide synthase"
                      /protein_id="EAU31921.1"
                      /translation="MGSTHNEWESEPIAIIGLSCKFAGDASNPEKLWDMLAEGRNAWSE
@@ -78,11 +78,13 @@ FEATURES             Location/Qualifiers
                      GLNSGPGSHWDPASDSQMGRDARFMPLRYRKPAASRAQAQQAGGDSDSEPLSAKLRTAE
                      SSDAAARCVGDAIATKLADIFMVPVDDIDLSKPPSAYGVDSLVAVELRNMLVLQAACDV
                      SIFSILQSASLAALALDVVAKSAHVEIAA"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_DH, PKS_NRPS_MT, fPKS_ER,
+                     fPKS_KR, ACP_PCP"
      CDS             complement(join(8923..9914,9982..10195,10254..10493))
                      /codon_start=1
                      /locus_tag="ATEG_07660"
                      /product="FAD-linked oxidoreductase ATEG_07660"
-                     /label=ATEG_07660
+                     /label="ATEG_07660"
                      /protein_id="EAU31922.1"
                      /translation="MLRQLYQSLALVAAVHATGIFANGVDIESLFGPYLSPGTEIAEPT
                      DADFSTVASPRWSEWKPPTWTGAIKPKTERDLQKIVRIAAAHNLPFMATNGGHGTSLIY
@@ -93,11 +95,12 @@ FEATURES             Location/Qualifiers
                      TGLGRTDPQTMKEVMDEMTAFYEAHPGFLGQTLFQRYANNNTLKTPLSTAVYPWRDTKN
                      FWLHENIYTDPALEQPSIDLLLSLRKKLQATSGFDEPHIYVNYAFGDEGPAAWWGADNL
                      PRLRRLKRRWDPKGLFGRGTPIF"
+                     /Pfam="FAD_binding_4, BBE"
      CDS             complement(11359..19572)
                      /codon_start=1
                      /locus_tag="ATEG_07661"
                      /product="polyketide synthase ATEG_07661"
-                     /label=ATEG_07661
+                     /label="ATEG_07661"
                      /note="similar to polyketide synthase"
                      /protein_id="EAU31923.1"
                      /translation="MTHTTGPTKASGESTIFLFGPHVGTFTKQSMNKLVHPLSQSPQRD
@@ -147,11 +150,13 @@ FEATURES             Location/Qualifiers
                      KSAQALRAWPDLDGVLQWIPVNFCAGIIVDLLKIASRADDAYPVYHIDNPVGQPWKAMN
                      PVLASALDIPPHAIIPFKDWISRVRRSPLPLETENPAARLVDFLDDHFERMSCGGLVLD
                      TSKALEHSQTMATVGPVSSDVARLYVASWKKMGYLHS"
+                     /Pfam="SAT2, PKS_KS, PKS_AT, fPKS_PT, ACP_PCP, HTH_51,
+                     PKS_NRPS_MT, fPKS_R"
      CDS             complement(join(20180..20782,20837..21039,21113..21614))
                      /codon_start=1
                      /locus_tag="ATEG_07662"
                      /product="FAD-dependent monooxygenase ATEG_07662"
-                     /label=ATEG_07662
+                     /label="ATEG_07662"
                      /protein_id="EAU31924.1"
                      /translation="MTVADRAPLDVAIIGGGIIGIMTALGLLHRGFRVTVYERAASWPE
                      IGAAFAFTGVARQCMERLDPRVLESLARVAQRSPHEKVRYWDGFHPRTKEAAQEESAVL
@@ -161,24 +166,26 @@ FEATURES             Location/Qualifiers
                      EIVSCFPETVSKYAIFDQADNPLPYYASGRVCLAGDAAHASSPFHGAGACMGVEDALVL
                      AELLGLVDAGPVAARQRNIKAALQTYSSVRIERSQWLVQSSRDMGDLYEWRYPPTGEDG
                      AKCKAEFERRSKVIWDFDVDGMVAGAKKKYEHSMEA"
+                     /Pfam="FAD_binding_3"
      CDS             22139..22906
                      /codon_start=1
                      /locus_tag="ATEG_07663"
                      /product="esterase ATEG_07663"
-                     /label=ATEG_07663
+                     /label="ATEG_07663"
                      /protein_id="EAU31925.1"
                      /translation="MSPPRFSGRQDGRTDPTTALPRVLCLHGGGTNARIFRTQCRVIRA
                      HLADSFRLVFADGPFPSGPGPDVTAVYGDWGPFRAWLPHPAVKDPDVDKIDECIAAAMA
                      ADDRAGATGAWVGLLGFSQGARVAASLLLRQQRHQQRQKASLGFAYGATNAISEYRFAV
                      LFAGRGPLLDMGAGDDNTRPEAELLELPTIHVHGLQDPGLEMHRDLLRCCLGSSARLVQ
                      WDGDHRVPIRRKDVSAVAAEIRDLASRGILGDG"
+                     /Pfam="FSH1"
      CDS             join(23440..23699,23753..23831,23902..24172,24226..24729,
                      24801..24961,25022..25438)
                      /codon_start=1
                      /locus_tag="ATEG_07664"
-                     /product="major facilitator superfamily transporter 
+                     /product="major facilitator superfamily transporter
                      ATEG_07664"
-                     /label=ATEG_07664
+                     /label="ATEG_07664"
                      /protein_id="EAU31926.1"
                      /translation="MTETGSYAMDGPLRDSSESMQKQDGADNSASIDDAELKSEYPSGL
                      AVTLILTSVTLAYFLFFLDLAVLSTATPAITSRFDSLVDVGWYGGAYQLGSAAFQPLTG
@@ -190,11 +197,12 @@ FEATURES             Location/Qualifiers
                      SPTTSVAKWIGYQILYGVASGCTTAAPYIAIQNLVPTEQIPQAMAIIIFWQNIGAATSL
                      IAANAIFSNSLRHQLQQRISEIGHSPDVIVGAGVRSIRDLVSGSQLTAVLAAYAKSIDN
                      VMYLGIAVSVCVIIFSPGLGWKDIRKTKDLQAITSESPESGDKEAI"
+                     /Pfam="MFS_1"
      CDS             complement(25960..27105)
                      /codon_start=1
                      /locus_tag="ATEG_07665"
                      /product="dehydrogenase ATEG_07665"
-                     /label=ATEG_07665
+                     /label="ATEG_07665"
                      /protein_id="EAU31927.1"
                      /translation="MAPKNQAAWIPAKKVIPFKVGDAPYTKPGSGQVVVRNTAVAINPF
                      DWVLQYIGPALARYIQYPFIFGTDVAGEVVEVGPDVERFRVGDRVCGSATAIAKEVNRA
@@ -203,11 +211,12 @@ FEATURES             Location/Qualifiers
                      RSKTLIKDLLGALKGRELVGAYTIGDGAVQACTAVMTKHPSNLTRKFIAVAGAIIPAEK
                      LTSFVGKGTYLMSMMGGMIKSKGRHMRTGVEAKFIMVDGLVDPKSVVSRIYKEFLPQAL
                      ESGQFVPAPPPQVVGKGLDKIQDALDIQRKGVSGKKLVVTL"
+                     /Pfam="fPKS_ER"
      CDS             join(28116..28317,28486..28942,28997..29485,29547..30294)
                      /codon_start=1
                      /locus_tag="ATEG_07666"
                      /product="transcription factor ATEG_07666"
-                     /label=ATEG_07666
+                     /label="ATEG_07666"
                      /protein_id="EAU31928.1"
                      /translation="MSCPAARKGRQQPGFACEECRRRKARCDRVRPKCGFCTENGMQCV
                      IVEKRQQRGPIKGQLNSMQSQLATLRWQLDRYLRHRPASSMLMQGPVFEPDSELPAGIP
@@ -220,11 +229,12 @@ FEATURES             Location/Qualifiers
                      THRRLYATEFEAGTRDFCIRQGWLATAVERRVQMLVPSPAVDSDPMLLFTHMLAYRATV
                      HLSITVQQASWRTVDQQVLAAAYQQRAAQAASEIVRLAKAVPYLSPFKTHPFLPDTLAC
                      AATFLSTQTATDGGGDDIQHLLRVLGELQDTHSLARDYLQTLKLQVQGNRQDGWY"
+                     /Pfam="Zn_clus, Fungal_trans"
      CDS             join(31140..31999,32246..32535,32611..33254)
                      /codon_start=1
                      /locus_tag="ATEG_07667"
                      /product="transcription factor ATEG_07667"
-                     /label=ATEG_07667
+                     /label="ATEG_07667"
                      /protein_id="EAU31929.1"
                      /translation="MGRRAPSATRPSAAVYARQAVILVNGQHALGRCKDDLPADSVRCI
                      RLKKRCEPSESVRRRNAQSTQTAKVSDRRIARLEDKMESLLSAMQSFIGTTASSASSAN
@@ -237,6 +247,7 @@ FEATURES             Location/Qualifiers
                      HFWSQMILTITLLKYLTTLKDPDWDCQAVRNTVHLISTMDCMLQKLDLSSKEPELQCND
                      HLLKFLSKLLSRCRVWAEARWNIASQMQDGDTRQCRSANPDTNSHNYYIPDLDQMVFMQ
                      SMDLGDDQWFENVLGMPTMFY"
+                     /Pfam="HimD"
 ORIGIN
         1 atgggtagca cgcacaatga atgggaaagc gagcccatcg ccattatcgg gctcagctgc
        61 aagtttgcag gagacgccag caaccccgag aagctatggg acatgctggc cgaaggacga

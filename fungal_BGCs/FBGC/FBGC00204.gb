@@ -1,39 +1,39 @@
-LOCUS       FBGC00204       22492 bp DNA     linear   UNA 09-MAY-2023
+LOCUS       FBGC00204              22492 bp    DNA     linear   UNA 09-MAY-2023
 DEFINITION  diterpenoid pyrones.
 ACCESSION   FBGC00204
-VERSION     .
+VERSION     FBGC00204
 KEYWORDS    .
 SOURCE      Macrophomina phaseolina MS6
   ORGANISM  Macrophomina phaseolina MS6
+            .
 REFERENCE   1  (bases 1 to 22492)
-  AUTHORS   Tsukada K, Shinki S, Kaneko A, Murakami K, Irie K, Murai M, Miyoshi 
-            H, Dan S, Kawaji K, Hayashi H, Kodama EN, Hori A, Salim E, Kuraishi 
+  AUTHORS   Tsukada K, Shinki S, Kaneko A, Murakami K, Irie K, Murai M, Miyoshi
+            H, Dan S, Kawaji K, Hayashi H, Kodama EN, Hori A, Salim E, Kuraishi
             T, Hirata N, Kanda Y, Asai T.
-  TITLE     Synthetic biology based construction of biological activity-related 
+  TITLE     Synthetic biology based construction of biological activity-related
             library of fungal decalin-containing diterpenoid pyrones.
   JOURNAL   Nat Commun 2020;11:1830
-  PUBMED    32286350
+   PUBMED   32286350
 REFERENCE   2  (bases 1 to 22492)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported May 9, 2023 from SnapGene 6.2.2
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1038/s41467-020-15664-4"; journalName: "Nat Commun"; date: 
-            "2020"; volume: "11"; pages: "1830"
+  JOURNAL   Exported May 9, 2023 from SnapGene 6.2.2 https://www.snapgene.com
 COMMENT     ##Genome-Assembly-Data-START##
             Assembly Method       :: Newbler v. 2.5.3
             Assembly Name         :: MphMS6_1.0
             Genome Coverage       :: 66x
-            Sequencing Technology :: 454 GS FLX; Illumina GA IIx 
+            Sequencing Technology :: 454 GS FLX; Illumina GA IIx
             ##Genome-Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1038/s41467-020-15664-4"; journalName: "Nat Commun"; date:
+            "2020"; volume: "11"; pages: "1830"
 FEATURES             Location/Qualifiers
      source          1..22492
                      /host="Corchorus olitorius"
                      /strain="MS6"
                      /mol_type="genomic DNA"
                      /country="Bangladesh: Dhaka"
-                     /collection_date=Sep-2010
+                     /collection_date="Sep-2010"
                      /db_xref="taxon:1126212"
                      /organism="Macrophomina phaseolina MS6"
                      /submitter_seqid="contig00387"
@@ -41,7 +41,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="MPH_09193"
                      /product="cytochrome P450 monooxygenase DpmpJ"
-                     /label=dpmpJ
+                     /label="dpmpJ"
                      /note="revised sequence"
                      /protein_id="EKG13727.1"
                      /translation="MLQLILHHPYASLAAGILLYFFCLATYRLYLSPVAGFPGPRLAAL
@@ -54,12 +54,13 @@ FEATURES             Location/Qualifiers
                      SPDGPLHFRSADGRHEAVIPAGVPVGMTPVLVHHNEELFPDSYRFRPERWLDDKGHRRK
                      DLDGYMLSFNKGSRLCLGVNDVADPSASSCSLAYAELFLSIAAVVRRFATRMELYDTDI
                      SDVRVTRVFFIPKPKEGSKGVRVTIRGSA"
-     CDS             complement(join(2627..2946,3007..3461,3520..3643,3724..3850,
-                     3902..4069))
+                     /Pfam="p450"
+     CDS             complement(join(2627..2946,3007..3461,3520..3643,
+                     3724..3850,3902..4069))
                      /codon_start=1
                      /locus_tag="MPH_09194"
                      /product="methyltransferase DpmpI"
-                     /label=dpmpI
+                     /label="dpmpI"
                      /note="revised sequence"
                      /protein_id="EKG13728.1"
                      /translation="MSQKNTTTQVNELLAQVKTLSSSLNEADRATVQQSLLDTLSDVET
@@ -69,23 +70,25 @@ FEATURES             Location/Qualifiers
                      TAPDPARVLFVDIGGGMGQQCIRFRERYPDLAGRVILQDIPQTINRVPKPMPNGIEAVP
                      HSFEDPQPIKNAKFYYLRNVLHGLPDSHCVQVLKTLIPAMNEESRLIIDDVVLPDHGVS
                      RQAAQLDFIMLASIAGKKRTRGQWLAILGEAGYKVLDIRTYTWPLQDSLILAVPAQL"
+                     /Pfam="Methyltransf_2"
      CDS             join(4676..5193,5261..5474)
                      /codon_start=1
                      /locus_tag="MPH_09195"
                      /product="terpene cyclase DpmpB"
-                     /label=dpmpB
+                     /label="dpmpB"
                      /protein_id="EKG13729.1"
                      /translation="MNIVPLSQAPPEFLEVAWLADACKLLMGVGWTANYIGMIYKSIKD
                      RTYGMALMPLCCNFAWELVYALILPFDSGMEKWVHVTGLAFNCGVMYTAIKFAPGEWAH
                      ARLVQRHLTWIFIASVAGWMSAHLALAAQLGPSLAQAWSAYGCQLLLSVGGLCQLLCRG
                      HSRGTSYLLWFSRFFGSLVLIPQDILRYKYWRRDHEWMKSPLYLWFVSIFLILDGSYGI
                      LLWYVRRFERETAEAENRKRR"
+                     /Pfam="Pyr4"
      CDS             complement(join(5717..6172,6244..6690,6747..6951,
                      7005..7309))
                      /codon_start=1
                      /locus_tag="MPH_09197"
                      /product="FAD-dependent monooxygenase DpmpE"
-                     /label=dpmpE
+                     /label="dpmpE"
                      /note="revised sequence"
                      /protein_id="EKG13731.1"
                      /translation="MESSSSKGGFKVLIIGGSVTGLTLAHSLDKMGVDYRLLEKRKEIA
@@ -97,35 +100,37 @@ FEATURES             Location/Qualifiers
                      ILHHALNEKANSELSDQDVEALLRRFHKEHFPRVSRVYDMSWSVTRVHARDGSMRKFVG
                      RYVAPYFGERLQGRLFNLMADAAKIDFLPLPRASRSGWEEYRSSERNALLWASSLALLI
                      VLIALFTGRSYW"
+                     /Pfam="FAD_binding_3"
      CDS             complement(join(8219..8550,8596..9082))
                      /codon_start=1
                      /locus_tag="MPH_09198"
                      /product="short-chain dehydrogenase/reductase DpmpG"
-                     /label=dpmpG
+                     /label="dpmpG"
                      /protein_id="EKG13732.1"
                      /translation="MSASSTEATNLAGKTCLITGGAGGLGRALAAAFLRAGANVAICDL
                      NEERLKQASAELSGTGAGSLLAANADVADPAAAQQLFDRITAKFRTVDVLVNNAAIMDR
                      FDPVADLDHELWDRVISVNLAGPFIFSKLALRVMLQQPKPDGCILNIASGAAKGGWLAV
                      GDKGAAYTTSKHGLVGLTKSTASFYGPKGIRCNALMVGPMQTEFGAAHRGSHHEEGSRK
                      VMEILSGVGIQLCDVREVADLCVSLATGPGSSLINGACIAVDHGWTSVVG"
+                     /Pfam="adh_short_C2"
      CDS             join(10217..10310,10390..10684,10769..11333)
                      /codon_start=1
                      /product="UbiA-like prenyltransferase DpmpC"
-                     /label=dpmpC
+                     /label="dpmpC"
                      /translation="MAASNKIHLLKDLLILSRFNKYTPVFASFAGVWSTLLAGAARLAE
                      HPSAISPAFVLRQTGLCFLAAYIFYGAGTVWNDWVDRDVDANVARTKDRPLASGKVTTF
                      QAMLWMVLQTLATWYLLNVMLDGNDLWKHFLPVLVASFLYPFGKRPAARKLYVYPQYIL
                      GFIVAWPAVIGWAATYGQHQPFTETVRQCLPLCSMVYFWIIYLNTAYSYQDVADDRKMN
                      VNSFYNLGGQHLHLLLVALASPVPVCMLLFLREFDSFWLWATWLGGWTASFAEQLIHFD
                      PKEPASGGTLHKSNFMLGIWTIFACAVELLRSASKV"
+                     /Pfam="UbiA_PT"
      CDS             complement(join(11701..12204,12278..12368,12437..12509,
                      12547..12794,12860..13044))
                      /codon_start=1
                      /locus_tag="MPH_09200"
                      /product="short-chain dehydrogenase/reductase DpmpH"
-                     /label=dpmpH
-                     /note="NAD(P)-binding domain; IPR016040
-                     revised sequence"
+                     /label="dpmpH"
+                     /note="NAD(P)-binding domain; IPR016040 revised sequence"
                      /protein_id="EKG13734.1"
                      /translation="MMLQPIRRLCIFAADFVYGSLLYLPLSALLLIRALAHARADPWDE
                      SSIPRLDGKIALVTGANAGIGYHTVKHLAAKGAKVYLAARSGSRAASAIKRLHDENPSI
@@ -134,21 +139,23 @@ FEATURES             Location/Qualifiers
                      PCASPGWEASSLAQAKRYGKSKMANVLFAAELQRRMDAEGVDIISISLNPGPVKTQGAA
                      DVLPFMVRPMVWLFFKDPAEGAQTTLFAAAAAEIREEKERWKGGYLDGPGKLKSPSPRA
                      RDPQVAYNLWHTTESAVRAIGVLDKS"
+                     /Pfam="adh_short"
      CDS             join(13830..13925,13997..14151,14204..14530,14587..14974)
                      /codon_start=1
                      /product="geranylgeranyl pyrophosphate synthase DpmpD"
-                     /label=dpmpD
+                     /label="dpmpD"
                      /translation="MPSIHTPKMLTSEAVVAASARLGPTSGPKQEEIIRAPLDYLLMLP
                      GKNVRGKMITAFNEWLQLPAEKLEVIKRIVELLHTASLLIDDIQDSSKLRRGLPVAHSI
                      FGISQTINSANYAYFLAQQELPKLGDRRAFEIFTEELLNLHRGQGMDLYWRDSLICPTE
                      EEYLAMVSNKTGGLFRLAIKLMQMASETDRDYVPLVNLLGNIFQVRDDYLNLQSDAYSK
                      NKGFGEDLTEGKFSFPIIHSIRANPANIQLSSILKQRTDDNDVKEFAIRYIESTGSFEY
                      CRQRLAELAAEARELAKDMEGTATHAQGIERILGMLGIME"
+                     /Pfam="GGPS"
      CDS             join(15787..16422,16484..22492)
                      /codon_start=1
                      /locus_tag="MPH_09202"
                      /product="polyketide synthase DpmpA"
-                     /label=dpmpA
+                     /label="dpmpA"
                      /protein_id="EKG13736.1"
                      /translation="MSVELPSLVVCGPQLEEIPDATYLARLRSSLLHDPYLRSLKQEAL
                      ELHEMWPLLSATEPSLARFDAAPLLHSFAEWIRTGDSHVLRLAGGTLRNTQLALLTVLA
@@ -188,6 +195,8 @@ FEATURES             Location/Qualifiers
                      DQLVASGAAFTYTFTDVSSSLVAAARRRLEARYAAAGHEMHFAVLDIERPPPQRLLHSQ
                      DLVVASNVLHATRSLSDTCSNVQRLLRPGCGVLCLLELTRPLPWLDCVFGLLDGWWRFA
                      DSRTYPLVDEWRWKACLLNAGFRHVDWTDDESREADLFRWILALA"
+                     /Pfam="SAT2, PKS_KS, PKS_AT, fPKS_PT, ACP_PCP, HTH_51,
+                     PKS_NRPS_MT"
 ORIGIN
         1 atgctacagc ttatcctaca tcacccctac gcctcgcttg cagcaggaat cctgctctac
        61 ttcttctgtc tcgcgacata tcgtctctat ttgagtccgg tcgcaggatt ccccgggcct

@@ -1,24 +1,24 @@
-LOCUS       FBGC00222       50391 bp DNA     linear   UNA 26-JAN-2023
+LOCUS       FBGC00222              50391 bp    DNA     linear   UNA 26-JAN-2023
 DEFINITION  chaetoviridin A.
 ACCESSION   FBGC00222
-VERSION     .
+VERSION     FBGC00222
 KEYWORDS    .
 SOURCE      Chaetomium globosum CBS 148.51
   ORGANISM  Chaetomium globosum CBS 148.51
+            .
 REFERENCE   1  (bases 1 to 50391)
   AUTHORS   Winter JM, Sato M, Sugimoto S, Chiou G, Garg NK, Tang Y, Watanabe K.
-  TITLE     Identification and characterization of the chaetoviridin and 
-            chaetomugilin gene cluster in Chaetomium globosum reveal dual 
+  TITLE     Identification and characterization of the chaetoviridin and
+            chaetomugilin gene cluster in Chaetomium globosum reveal dual
             functions of an iterative highly-reducing polyketide synthase.
   JOURNAL   J Am Chem Soc 2012;134:17900-3
-  PUBMED    23072467
+   PUBMED   23072467
 REFERENCE   2  (bases 1 to 50391)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Jan 26, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
+  JOURNAL   Exported Jan 26, 2023 from SnapGene 6.2.1 https://www.snapgene.com
 COMMENT     SGRef: number: 1; type: "Journal Article"; doi: "10.1021/ja3090498";
-            journalName: "J Am Chem Soc"; date: "2012"; volume: "134"; pages: 
+            journalName: "J Am Chem Soc"; date: "2012"; volume: "134"; pages:
             "17900-3"
 FEATURES             Location/Qualifiers
      source          1..50391
@@ -30,7 +30,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="CHGG_07636"
                      /product="transcription factor CazD"
-                     /label=cazD
+                     /label="cazD"
                      /protein_id="EAQ86383.1"
                      /translation="MERRGPSHLGPYGLACTNCFKAKCKCVARPDGEGCQRCHRLHKQC
                      RPSDSIRRRTIDKTQNSASRIADLEGKLDNLISQLQNRNVIGGEPSRSHPPSQTGSESR
@@ -44,11 +44,12 @@ FEATURES             Location/Qualifiers
                      RHERVAYLWQCVRAVQACSAALLTPAPARFRGISLVQWAQLAHCAVALHRLTVTCDDAA
                      WDRAAVREVVDLSGLLGRVAAKLELAAMAGGAGLQGRGPDEVFTRLARTIRAFSLGGSP
                      GPVAGGLGYLHARPF"
+                     /Pfam="HimD"
      CDS             2281..3669
                      /codon_start=1
                      /locus_tag="CHGG_07637"
                      /product="acyltransferase CazE"
-                     /label=cazE
+                     /label="cazE"
                      /protein_id="EAQ86384.1"
                      /translation="MGSNQDDVITQQPGAGEDGVGSSNVNLDRLPDLMGQFPVLNAYTH
                      ITFGFELPLDVDRDAITSALQTSLDRLIELIPWLGWQIGLESGVRTTVPWPEDTPRVLL
@@ -59,12 +60,13 @@ FEATURES             Location/Qualifiers
                      AQVLRRALADANTPWAIRSLVTFIAREPDRSRLLYNGPHDGNTDVGATSSLNMAHARPP
                      HWGPVLGPSRFFSRSNGAPIPGSFTVYSPDGAGFVRMCICLPVDDLEALKKDALWKQHT
                      KFVG"
-     CDS             join(4775..4981,5078..5164,5237..5294,5363..7874,8372..8957,
-                     9052..9415,9483..12820)
+                     /Pfam="CalD"
+     CDS             join(4775..4981,5078..5164,5237..5294,5363..7874,
+                     8372..8957,9052..9415,9483..12820)
                      /codon_start=1
                      /locus_tag="CHGG_07638"
                      /product="polyketide synthase CazF"
-                     /label=cazF
+                     /label="cazF"
                      /protein_id="EAQ86385.1"
                      /translation="MVEGANQEWSKDQEPIAIIGLSCKFAGDAANPQGLWKMLAEGRDA
                      WSEIPTSRFDPKGVYHPDAQKLSTTHVKGAHFIEEDIGLFDAAFFNYSAETASALDPQY
@@ -107,13 +109,15 @@ FEATURES             Location/Qualifiers
                      EQPQVLLGLNSGPGPQWDPTSESQMGRDARFVPLKYRRPTGAQAAGQQLGDADVKPLSA
                      QLQEAGSRDEATRLVGDAIASKLGDIFMIPIDDIDLAKSPALHGVDSLVAVELRNMLML
                      QAAADISIFSIMQSASLGALASDVVAKSSHVEIAAGA"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_DH, PKS_NRPS_MT, fPKS_ER,
+                     fPKS_KR, ACP_PCP"
      gap             7996..8292
                      /estimated_length=297
      CDS             complement(join(13898..15895,15978..16070))
                      /codon_start=1
                      /locus_tag="CHGG_07639"
                      /product="hypothetical protein CazG"
-                     /label=cazG
+                     /label="cazG"
                      /protein_id="EAQ86386.1"
                      /translation="MSLTWHGGYRVNDSGMRSRHVGSNGFTGSVMDLQDSPFRGMGLPS
                      REEIDAVLKVQKKDDSSVTAKIQGKQSNPSSAHAGEPHGSPRWPVHRGEISPEGVGPGG
@@ -128,11 +132,12 @@ FEATURES             Location/Qualifiers
                      NVLVNLKGVHSSGTATRPSFMSLYVQLSRAQSWDGLHLFRKPGRGDFIEPKNVLDKDMR
                      EAILKLERRGEETRRRFEQDHRHESWFQEWAAMPESGQGTETDDVEGAALWRDPGVPEP
                      ES"
+                     /Pfam="PIF1"
      CDS             join(17615..17835,17942..18525,18706..19526)
                      /codon_start=1
                      /locus_tag="CHGG_07640"
                      /product="putative transposase CazH"
-                     /label=cazH
+                     /label="cazH"
                      /protein_id="EAQ86387.1"
                      /translation="MGYLRRPVPPGFLWRARAQRARSLLLYCTTPTSAKTWLKSLTPAI
                      AHSTSRTLPAPHSCPTIPRPVQGQTTTTYHQRHQKRKHVRTEGSRRVGRTPSTIQSRIK
@@ -144,11 +149,12 @@ FEATURES             Location/Qualifiers
                      KRRHRSQESLSKITRLSYKTVPTPRRSQDIFKLLYEVSPELCEIFRTDNTVKISFDKIA
                      KLADETTMEVLNLQLKLEAVEAQLERVKPEKKRKVKLDPNVKFATIVDIIKAKFEAGEL
                      VETSDALTDVVLQGHCRMSASIWI"
+                     /Pfam="HTH_Tnp_Tc5, DDE_1"
      CDS             complement(join(21675..22129,22215..23183,23318..23588))
                      /codon_start=1
                      /locus_tag="CHGG_07641"
                      /product="FAD-dependent halogenase CazI"
-                     /label=cazI
+                     /label="cazI"
                      /protein_id="EAQ86388.1"
                      /translation="MSIPESCTVLVVGGGPAGSYTAAALAREGTDVVLLEADTFPRYHI
                      GESMLASMRHFIRFIDLEKTFDNHGFRRKACYSHYNVYCDNDVLSDTDFLAVNGPNGYS
@@ -160,12 +166,13 @@ FEATURES             Location/Qualifiers
                      DEDGFDRAFSFFRPIIQGLADADASGKLTQGVISQSVEFCLHAFENISSEARQGVLDKL
                      ERVKADPNVETKADLEKLTEDELAILRTIRARQMLRGEEAMDGVKSFAQDVIDGWVPRL
                      VHGSLGMDRVGDQVAAPKYQESVFESGLADKKPAPALEKRPEGVVQV"
+                     /Pfam="Trp_halogenase"
      CDS             complement(join(24724..25386,25453..25987,26048..26507,
                      26690..26882))
                      /codon_start=1
                      /locus_tag="CHGG_07642"
                      /product="transcription factor CazJ"
-                     /label=cazJ
+                     /label="cazJ"
                      /protein_id="EAQ86389.1"
                      /translation="MEGRGLRQQPGFACEECRRRKARCDRGRPKCGFCTETGTTCVIVD
                      KRQQRGPKKGQLNAMRSQIAALQWQLEQQFGSDSGGGPIIPKQTTPEEEPNPPRAENHA
@@ -178,12 +185,13 @@ FEATURES             Location/Qualifiers
                      GTKPPYDFWTHQEWLASAVEKRIQMLAPCAAVDNEPMLLFAHILAQSAVVFLSNTVQRA
                      SWHTLEPQVVAAAYERRAAVAALEIVRLARAVPSLSCFKVHPFLPDALTSAAVFLSARC
                      NSVVGASGGVEQIRRVLRDVQVINSLAREHYESLKLARHG"
+                     /Pfam="EqxR, Zn_clus, Fungal_trans"
      CDS             complement(join(28594..29040,29109..29269,29367..29870,
                      29961..30231,30308..30688))
                      /codon_start=1
                      /locus_tag="CHGG_07643"
                      /product="major facilitator superfamily transporter CazK"
-                     /label=cazK
+                     /label="cazK"
                      /protein_id="EAQ86390.1"
                      /translation="MAATTSPTRSLDKGEKETDSTPSPDQLSTPSLQGSKQDDAEASTP
                      TDEEEYKHEYPEGFRLTYILTAVVLAYFLVYLDLAIMSTATPSITSEFDALVDIGWYGG
@@ -196,11 +204,12 @@ FEATURES             Location/Qualifiers
                      IIIFSMNIGAAASLIGANAIFSNSLRHELQKRVAAIGVSPDLIVDAGVDSVRSLVSGPA
                      LAAALEAYCKAIGHVMYLGIGTSACIIVFAWGLGWKDVRKVKKLNAITAEKPQEAPGLD
                      TKRGELNDENS"
+                     /Pfam="MFS_1"
      CDS             join(32118..32664,32731..32933,33019..33636)
                      /codon_start=1
                      /locus_tag="CHGG_07644"
                      /product="FAD-dependent monooxygenase CazL"
-                     /label=cazL
+                     /label="cazL"
                      /protein_id="EAQ86391.1"
                      /translation="MGDVVNEPRNALGNEDGALRPPLDVAIVGGGLVGVIAALGLVHRG
                      IRVTVYERGAKFQELGAGIGFPRVARECMQRMDPRVLDALARVTQQNPHDTVRYWDGFN
@@ -210,11 +219,12 @@ FEATURES             Location/Qualifiers
                      DQVARAFQSWGPHIVEAVSLLPEKLDMYGVFDMADHPAPIYAAGRVCIAGDAAHASSPF
                      HGVGAGMGIEDALVLVELLAQVRDQNEAGAGAGPPALTAALKTFSTVRMERTHWLVQSS
                      RDMGNIYQWRYPDTGRDSAKIKAEFERRARKIWDFDVDGMVADAKKEYGKRRAGEL"
+                     /Pfam="FAD_binding_3"
      CDS             34470..42710
                      /codon_start=1
                      /locus_tag="CHGG_07645"
                      /product="polyketide synthase CazM"
-                     /label=cazM
+                     /label="cazM"
                      /note="non-reducing polyketide synthase"
                      /protein_id="AKA40069.1"
                      /translation="MISVADLDYASRKSSIFLFAPHVGTFTKQSMDKLVRPLAASAHRD
@@ -264,11 +274,13 @@ FEATURES             Location/Qualifiers
                      VEHFAFLVKSAQTLRAWPDFDGVLQWIPVDHCASVMADLLKMGVADAPDAYPVYHIDNP
                      VGQQWKAMSPVLAAALDIPPHAIIPFSSWIKRVRRSPLLAETENPAARLVDFLDSHFER
                      MSCGGLILDTTKAKEHSQTMAKEGPVDPDLARLYVAAWKKMEFLRS"
+                     /Pfam="SAT2, PKS_KS, PKS_AT, fPKS_PT, ACP_PCP, HTH_51,
+                     PKS_NRPS_MT, fPKS_R"
      CDS             join(43683..44451,44516..44577,44634..45523,45586..45793)
                      /codon_start=1
                      /locus_tag="CHGG_07648"
                      /product="rhamnogalacturonate lyase CazN"
-                     /label=cazN
+                     /label="cazN"
                      /protein_id="EAQ86395.1"
                      /translation="MKLCFLSLFPLWADIASATITATESSSSINVKNDRLTFSVSKSAG
                      TINTLTLDGQDLLGSGGRLYLDCHCDSGYWNGGSFQLYKGTDKSGTAYAGVRISAKVDS
@@ -282,11 +294,12 @@ FEATURES             Location/Qualifiers
                      FDATSDQLEGKKQATLTIQLAGVKTSAGNTDDTGKAFANLDYTVTVNGRALPVWTIPAN
                      HSSSCGARSAASCYNTRNLWTFDASYLKQGLNTFTLALPARATAPESAVLPESVYLQYD
                      ALRLEVA"
+                     /Pfam="fn3_3, CBM-like"
      CDS             complement(join(47239..48404,48464..48710))
                      /codon_start=1
                      /locus_tag="CHGG_07649"
                      /product="FAD-linked oxidoreductase CazO"
-                     /label=cazO
+                     /label="cazO"
                      /protein_id="EAQ86396.1"
                      /translation="MPSSGFARCLVAALGGNSSLVAFPSNANYSAIVAPYNLDYAVVPA
                      AVAFPHTAHQVADLVSCAVRSGYKVQAKSGGHSAANYGSTTGELSINLQNLRHFSMNPS
@@ -297,11 +310,12 @@ FEATURES             Location/Qualifiers
                      FEYIATTDSGAEQYDIEIQAAGGQNAAVASSATAFPHRDATYILFTFASTAGNVTPTTS
                      SFVHNLHTLIKSGHPDEYYGRYAGFISGRIDPAQARTDFWGANLPRLGRIKAAYDPRDV
                      FHNDQGVLPVRH"
+                     /Pfam="FAD_binding_4, BBE"
      CDS             complement(join(49277..49956,50040..50391))
                      /codon_start=1
                      /locus_tag="CHGG_07650"
                      /product="short-chain dehydrogenase/reductase CazP"
-                     /label=cazP
+                     /label="cazP"
                      /protein_id="EAQ86397.1"
                      /translation="MVSLEQIRSSNSKIPTTLRPGLVAVFAGATSGIGESSLRQFAKNA
                      IKPRIYFLGRSKQSGDRVRAELKKLNPDGEYIFISVDVSLLRSVDDVCRQIKEKESAIN
@@ -310,6 +324,7 @@ FEATURES             Location/Qualifiers
                      VKGLTFAIIKAIWGAVSLVIAPLIATPFDEAGERQLFFATSARFPGGDGGAAGVPLPEG
                      VKVAKGSDGKRASGVYSITNHAETAPPKVDQLLEKFRKDGTAQKVWAQVQKEFIRTTGV
                      ASV"
+                     /Pfam="SmbD"
 ORIGIN
         1 tcaaaatgga cgagcatgca aatagcccaa acccccagcc acaggaccag ggctcccacc
        61 caaagaaaag gcacgtatgg tcctcgccag ccgagtaaac acctcatcag gcccccgccc

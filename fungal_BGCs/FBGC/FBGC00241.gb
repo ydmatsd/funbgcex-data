@@ -1,23 +1,23 @@
-LOCUS       FBGC00241       10050 bp DNA     linear   UNA 27-JAN-2023
+LOCUS       FBGC00241              10050 bp    DNA     linear   UNA 27-JAN-2023
 DEFINITION  desertorin C.
 ACCESSION   FBGC00241
-VERSION     .
+VERSION     FBGC00241
 KEYWORDS    .
 SOURCE      Aspergillus desertorum CBS 653.73
   ORGANISM  Aspergillus desertorum CBS 653.73
+            .
 REFERENCE   1  (bases 1 to 10050)
   AUTHORS   Mazzaferro LS, Huttel W, Fries A, Muller M.
   TITLE     Cytochrome P450-catalyzed regio- and stereoselective phenol coupling
             of fungal natural products.
   JOURNAL   J Am Chem Soc 2015;137:12289-95
-  PUBMED    26389790
+   PUBMED   26389790
 REFERENCE   2  (bases 1 to 10050)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Jan 27, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1021/jacs.5b06776"; journalName: "J Am Chem Soc"; date: "2015"; 
+  JOURNAL   Exported Jan 27, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1021/jacs.5b06776"; journalName: "J Am Chem Soc"; date: "2015";
             volume: "137"; pages: "12289-95"
 FEATURES             Location/Qualifiers
      source          1..10050
@@ -31,7 +31,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="EMD_0001"
                      /product="cytochrome P450 monooxygenase DesC"
-                     /label=desC
+                     /label="desC"
                      /protein_id="ALG03236.1"
                      /translation="MGALSEIFTAGYVALAGITGFFLVFLGFLVVISDYIDGWRSRRAL
                      GDIPIVDEGSNLSPILRWNSQPYDAEAEFTRAYYKYSKNGKPFAARIQHGGYAIVLPPS
@@ -43,12 +43,13 @@ FEATURES             Location/Qualifiers
                      VGLRVAMRPVDLRSVSPPLHLKPGTMIMTPSRTVHYDAEHYVDPLTFNGLRFYDATSNT
                      CTPRVFTTSPTYLPFSHGTGSCPARNFATQIARMLFIRLLMGYEFELANEEMPAYGLMD
                      GTAYFPNPEVRMRVRVRGK"
+                     /Pfam="p450"
      CDS             complement(join(2387..3598,3653..7048,7105..7402,
                      7454..7749))
                      /codon_start=1
                      /locus_tag="EMD_0002"
                      /product="polyketide synthase DesS"
-                     /label=desS
+                     /label="desS"
                      /protein_id="ALG03237.1"
                      /translation="MKVLFFSNKFPVEEHADLFQRIRQQSRSSRHAVLRQLLDECTAAV
                      REEIRLLPAEIRTRLPPFQSILDLAEGFRWERSPLAGTFECVFLCLAELCLFVGDYEAR
@@ -80,11 +81,12 @@ FEATURES             Location/Qualifiers
                      VTGLLAGVTLRPLPRILMHRFFDPADDAHNWGNSPAKPEAKPEMVPTSGSSSAAGSPSG
                      SSAGPLSIPERLADPSETSFQSKASKVSKALALIASETGIDMQDLNDETCLAQIGVDSL
                      LSLVLVEKFALELGVHFPGSFFLDFPTVGEVKRQML"
+                     /Pfam="SAT2, PKS_KS, PKS_AT, fPKS_PT, ACP_PCP"
      CDS             join(8617..8838,8900..9026,9081..9204,9264..10050)
                      /codon_start=1
                      /locus_tag="EMD_0003"
                      /product="methyltransferase DesB"
-                     /label=desB
+                     /label="desB"
                      /protein_id="ALG03238.1"
                      /translation="MGTETEYLQSIQQALKSLTTAANNCQLTYTHAVGQDVHSLCAREA
                      VRKTLVLEAYKFLQIAQGPVDAAVTCFEQTAHLASVRALLEAGVFEVLPTDGTPRTMKE
@@ -94,6 +96,7 @@ FEATURES             Location/Qualifiers
                      AHVISNLPSPSPSSYLDGIETMTHDFFTPQPVAGAQIYLIRRCLHNWPEESVIRILRNI
                      VPAMARTNSRLLIEEIIVPESNSGIEEGWMDMIMMALGAKQRTLEEWKGVLGTAGLEVV
                      TVYRVDGICHGLIEARVKSE"
+                     /Pfam="Methyltransf_2"
 ORIGIN
         1 atgggcgctc tatcagagat attcacggcg ggctatgtcg ccctcgcagg gatcactggg
        61 ttcttcctcg tcttcctcgg ttttctcgtg gtcatctccg actacattga cggatggcgt

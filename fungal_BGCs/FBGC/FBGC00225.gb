@@ -1,26 +1,23 @@
-LOCUS       FBGC00225       42770 bp DNA     linear   UNA 27-JAN-2023
+LOCUS       FBGC00225              42770 bp    DNA     linear   UNA 27-JAN-2023
 DEFINITION  cercosporin.
 ACCESSION   FBGC00225
-VERSION     .
+VERSION     FBGC00225
 KEYWORDS    .
 SOURCE      Cercospora beticola 09-40
   ORGANISM  Cercospora beticola 09-40
+            .
 REFERENCE   1  (bases 1 to 42770)
-  AUTHORS   de Jonge R, Ebert MK, Huitt-Roehl CR, Pal P, Suttle JC, Spanner RE, 
+  AUTHORS   de Jonge R, Ebert MK, Huitt-Roehl CR, Pal P, Suttle JC, Spanner RE,
             Neubauer JD, Jurick WM, Stott KA, Secor GA, Thomma BPHJ, Van de Peer
             Y, Townsend CA, Bolton MD.
-  TITLE     Gene cluster conservation provides insight into cercosporin 
+  TITLE     Gene cluster conservation provides insight into cercosporin
             biosynthesis and extends production to the genus Colletotrichum.
   JOURNAL   Proc Natl Acad Sci U S A 2018;115:E5459-E5466
-  PUBMED    29844193
+   PUBMED   29844193
 REFERENCE   2  (bases 1 to 42770)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Jan 27, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1073/pnas.1712798115"; journalName: "Proc Natl Acad Sci U S A"; 
-            date: "2018"; volume: "115"; pages: "E5459-E5466"
+  JOURNAL   Exported Jan 27, 2023 from SnapGene 6.2.1 https://www.snapgene.com
 COMMENT     ##Genome-Assembly-Data-START##
             Assembly Date          :: MAY-2014
             Assembly Method        :: SOAPdenovo v. 2.04
@@ -29,6 +26,9 @@ COMMENT     ##Genome-Assembly-Data-START##
             Genome Coverage        :: 70.0x
             Sequencing Technology  :: Illumina
             ##Genome-Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1073/pnas.1712798115"; journalName: "Proc Natl Acad Sci U S A";
+            date: "2018"; volume: "115"; pages: "E5459-E5466"
 FEATURES             Location/Qualifiers
      source          1..42770
                      /chromosome="1"
@@ -37,7 +37,7 @@ FEATURES             Location/Qualifiers
                      /mol_type="genomic DNA"
                      /country="USA: Red River Valley of North Dakota and
                      Minnesota"
-                     /collection_date=2009
+                     /collection_date="2009"
                      /db_xref="taxon:122368"
                      /organism="Cercospora beticola"
                      /submitter_seqid="Chr1"
@@ -45,7 +45,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="CB0940_00830"
                      /product="short-chain dehydrogenase/reductase CTB6"
-                     /label=CTB6
+                     /label="CTB6"
                      /protein_id="PIB02402.1"
                      /translation="MADSLVLLTGATGFIGFRILIELLRQGYSVRAVIRSAGKGQWLES
                      RLTAVMKGSDYKDRFETTTVADFVTDGAFDQAAENTSYIIHVASPIVSSDNPDDWEHDF
@@ -54,11 +54,12 @@ FEATURES             Location/Qualifiers
                      NWHSMQIVLGHKNPIGKPILTCHNDDVARCHVLALDPKVTGNQSFLISCSPEDGSEWDD
                      VKKFVQREFPEAVAQGVLPNDGHMPTVNKGVRFDVRKTEETFGFKHIPYEAQVLDVVKQ
                      YLELPEKDEGVEISTTA"
+                     /Pfam="Epimerase"
      CDS             join(1621..2009,2058..2623,2679..3117,3172..3316)
                      /codon_start=1
                      /locus_tag="CB0940_00831"
                      /product="major facilitator superfamily transporter CTB4"
-                     /label=CTB4
+                     /label="CTB4"
                      /protein_id="PIB02403.1"
                      /translation="MALPITDDDLDGLKQPYVTFSSGSASPPQSTTDAMDLEEQVLDAI
                      KSDAFLVDWVGEDDKGNPQNLPYWRKWVITMSLALYALSTTFSSSVFGAATHVLAEEFA
@@ -69,11 +70,12 @@ FEATURES             Location/Qualifiers
                      TTASLPLISILVGVIIAGALLSFTTNSRWAPNAKEGRPQETRLLLMMVGAVSLPAGMFL
                      FAWTSSATMNPWPQILSGIPTGFGIHLINMQGMNYIIDSYKIYANSAIAANTFLRSLFA
                      AGFPILATSMYAAIGVKWGTTILALLAVAMIPIPILFYYFGAKIRAKSKWQPPL"
+                     /Pfam="MFS_1"
      CDS             complement(join(3813..4922,4976..5254))
                      /codon_start=1
                      /locus_tag="CB0940_00832"
                      /product="methyltransferase CTB2"
-                     /label=CTB2
+                     /label="CTB2"
                      /protein_id="PIB02404.1"
                      /translation="MANRIEADNLFELTAELVSASAKLHKFLDQKNLPQPSFDAPAPSV
                      ALNTANKPYYDARSAIVEAAEQLIRLVRGPRDTLLALSFEHCATASMQVVFKYKFANHI
@@ -84,13 +86,14 @@ FEATURES             Location/Qualifiers
                      DWSDKYATKIVQALATGLRPQDRIILNEVVVPEAGQVGRETERRMHDRDLLMLMNLNGR
                      ERTQSAFEAIFASVTPKLRLQRVIHPEQGELSLIEVTLDGVELPAQANGVNGHANGTNG
                      VNGH"
+                     /Pfam="MdpA, Methyltransf_2"
      CDS             complement(join(5806..6481,6537..7849,7911..8285,
                      8339..11010,11058..11106,11164..11315,11363..12143,
                      12197..12500,12552..12844))
                      /codon_start=1
                      /locus_tag="CB0940_00833"
                      /product="polyketide synthase CTB1"
-                     /label=CTB1
+                     /label="CTB1"
                      /protein_id="PIB02405.1"
                      /translation="MEDGAQMRVVAFGDQTYDCSEAVSQLLRVRDDAIVVDFLERATAV
                      LKAELARLSSEQQEETPRFATLAELVPRYRAGTLNPAVSQALTCITQLGLFIRQHSSGQ
@@ -130,12 +133,14 @@ FEATURES             Location/Qualifiers
                      DRLPTRFFDHCTNVGLFGTELSRGSGGPNKTPEWLMPHFRASIELLHDYHAPPMKLGNK
                      TKVMVIWAGECAFDGVRYAHIPPSAGDTDEDTEGMKFLTEKRKDFGATEWASLFPGTDV
                      DARVVESEHHFSMMRDSGAQMLVEHMRDGLGIVSS"
+                     /Pfam="SAT2, PKS_KS, PKS_AT, fPKS_PT, ACP_PCP,
+                     Thioesterase"
      CDS             join(13694..13939,13988..14239,14310..16427)
                      /codon_start=1
                      /locus_tag="CB0940_00834"
-                     /product="dual O-methyltransferase/FAD-dependent 
+                     /product="dual O-methyltransferase/FAD-dependent
                      monooxygenase CTB3"
-                     /label=CTB3
+                     /label="CTB3"
                      /protein_id="PIB02398.1"
                      /translation="MMQFQRDLEASLEAVSANAQELLKSLKSRKDVQDLNASLPKDPLD
                      NCDAQTQAARAQLAEAATRILRLSIRPQEYLEHLQNGYQHLTCFRWLVELNILDHLPHS
@@ -153,11 +158,12 @@ FEATURES             Location/Qualifiers
                      SLRALFELQDTKQASLIRVASTIPDIPSWESHSNVTVLGDSIHPMSPCGGVGANTAIVD
                      ADALAKVLVEHGTKPPVNAIAEFEAAMRTRAKRNIWRSEVGSKRMFGQKNLVDCSEFVF
                      "
+                     /Pfam="MdpA, NAD_binding_8, FAD_binding_3"
      CDS             complement(join(16863..18314,18371..18502))
                      /codon_start=1
                      /locus_tag="CB0940_00835"
                      /product="FAD-dependent monooxygenase CTB5"
-                     /label=CTB5
+                     /label="CTB5"
                      /protein_id="PIB02399.1"
                      /translation="MLGLNLQQVLSNVPTISSIVSGVGSYQHGSDSSAWASVAASKSCC
                      DALTKSLGKNSVVFPYDAAYSQSMGSYFSLKNSDLHPSCIALPRSAEDVSKAVRTLSLG
@@ -169,11 +175,12 @@ FEATURES             Location/Qualifiers
                      GFKLILNYQPAPTVQLERNGAVDSLGPIQTEGNVVFVHWAVSYDESEAQFDDAITKSVQ
                      DLFHAANAKAKELGIYRHFIQPTYADSWQSPFDYRSKSTIEELVATSKKYDPLQVFQKQ
                      VPGGFKLPQI"
+                     /Pfam="FAD_binding_4"
      CDS             complement(join(19121..19778,19923..20524))
                      /codon_start=1
                      /locus_tag="CB0940_00836"
                      /product="FAD-dependent monooxygenase CTB7"
-                     /label=CTB7
+                     /label="CTB7"
                      /protein_id="PIB02400.1"
                      /translation="MASSNRRVLVNGGGPAGAVTAFWLAKGGFEVVVTERSMSRPYGQG
                      VDVTGRASDIIKKMGLEQRIRDSTTGEAGLTVVDDQGEDVAPPLGTAPIEGGTASVTQE
@@ -183,11 +190,12 @@ FEATURES             Location/Qualifiers
                      DDFYFTRIVQIKLDSWHSGRAALVGDAGYSPSPLTGQGTTLAIIGAYVLAGEMAKSPDD
                      LERAFTSYYAILNKFVSESQEIPFGGQAPKLILPQSDWGIWLLRTFYKIISWTGIWRLL
                      NFGNETVKVELPEYDFGGLD"
+                     /Pfam="FAD_binding_3"
      CDS             join(22137..22220,22272..23381)
                      /codon_start=1
                      /locus_tag="CB0940_00837"
                      /product="transcription factor CTB8"
-                     /label=CTB8
+                     /label="CTB8"
                      /protein_id="PIB02401.1"
                      /translation="MAKGSAGDAPNTRDTSFKRPKIRESCTHCSSQKIRCTKERPACAR
                      CVNKGLLCQYNISRRTGTRRHSVRATPEPETTISNAPTSSVAPDSVKIDGKRSPAMSDF
@@ -196,13 +204,14 @@ FEATURES             Location/Qualifiers
                      IAAGAPSHNIREFDHVLDSNRAALEKLSSILDCPPCCHDQEVLTALFLAVQKALSWYSA
                      ALDVAGDGEPTSPSSRVKSPPAFLGSYALGAQAQTLARAYVVMAQLQQHFQPLLAKLQR
                      ISSLSALGARSSSTTSLSSVSSLQSSTSGSAVIECQKRALQEALEDVVAKIEGIKRG"
+                     /Pfam="EqxR, CpaE, AflR"
      gap             23404..23413
                      /estimated_length=10
      CDS             complement(23875..24873)
                      /codon_start=1
                      /locus_tag="CB0940_00838"
                      /product="hypothetical protein CB0940_00838"
-                     /label=CB0940_00838
+                     /label="CB0940_00838"
                      /protein_id="PIB02406.1"
                      /translation="MRPSAQKIRCGKERPSCARCFSKDICCNYSPSLRTGRHPGSVVDQ
                      QSYNLHGNVDLPASERNELDVSSPNGQSCSNGHDISDFLQDNWPWDKPLGGLADATAPV
@@ -210,11 +219,12 @@ FEATURES             Location/Qualifiers
                      LHVPSQKCLNAASGVQADARCARDVDSLLTENREAIRLLDRSLSCACMSDMSVKLVAYM
                      VANKIVSMYGAIVGEPDCGDIVDSPIFIGSYALDTAARRSVRARTVLNEIRQQVEPVVA
                      RLPRFQPVIPSERGGPQEQTCVVKTDEAVPIECMLRTELQRVVAIANSMIY"
+                     /Pfam="EqxR, AflR"
      CDS             27921..28826
                      /codon_start=1
                      /locus_tag="CB0940_00839"
                      /product="hypothetical protein CB0940_00839"
-                     /label=CB0940_00839
+                     /label="CB0940_00839"
                      /protein_id="PIB02407.1"
                      /translation="MTKDPASPPPDPNTEQEWPVTDASMLFDDLGWSLASDDVNIPASK
                      DIFDTQFFLDKDLAVLDATSNTTRAGADVLQYVPPAPIMTFEPLGHCRPLSATGESNPI
@@ -222,12 +232,13 @@ FEATURES             Location/Qualifiers
                      DCPCFSAQGSIHLASYLLVSAVVSGYGAILRADGKPATALSITDRVAPSPLFMGSYELN
                      EAAQRGIRGRIVLTELKNHLEPLLERLPRFRASLADEISQATDEESMPDVAMSNTPLEV
                      QECVLREQLRSLVSAASQIP"
+                     /Pfam="AflR"
      CDS             join(31404..31543,31593..31696,31794..32666,32763..32856,
                      32908..33369,33433..33883)
                      /codon_start=1
                      /locus_tag="CB0940_00840"
                      /product="phenylalanine ammonia-lyase CB0940_00840"
-                     /label=CB0940_00840
+                     /label="CB0940_00840"
                      /protein_id="PIB01160.1"
                      /translation="MHRKSSRTPLTDLLCDTHRRVEELRANGDLRISGHTLDVASVVAV
                      ARHNVVPKIEEINGVLSLAKSVKVVQASYEKGETLYGINTGFGGSADVRSQNPDALQRS
@@ -242,11 +253,12 @@ FEATURES             Location/Qualifiers
                      YVLHLAGLDPSSRSKIHLNLSIKDVNSLQAKIKSELLHTFTAKRATFLESPDTAQYLGA
                      GTRKLHGYVRNTLAVPMHHGLEAHPRCGSGDQGKRKTIGSQVSIIYEAIRDGILFGEVA
                      EAMHELGIVALPN"
+                     /Pfam="Lyase_aromatic"
      CDS             join(34472..35162,35214..35613,35664..35873,35923..36445)
                      /codon_start=1
                      /locus_tag="CB0940_00841"
                      /product="major facilitator superfamily transporter CFP"
-                     /label=CFP
+                     /label="CFP"
                      /protein_id="PIB01159.1"
                      /translation="MASPARSTHTDTESHDVVKSDSESKLELEHSDSDIQDEKPASKSA
                      ETPEAKSEEDEELNDQGEKYISGWPLVFLLLAMVSTVFIVALSNTIISTAIPAITTAFN
@@ -259,11 +271,12 @@ FEATURES             Location/Qualifiers
                      VLPDAQIPAGTSLVLFVRLLGSAIPGPIGQSVLQTTLASRLGTEVAEQAYGGTGATEIR
                      SKLDNIFGAGTPEARDALDAFNDSVTKIFMVAIIVSCLSVLPLPLIELKSVKREKRDNE
                      DAKEGKKTNGTTGKTEDPEKGQSAEIAGKAV"
+                     /Pfam="MFS_1"
      CDS             complement(join(36822..37419,37472..37848))
                      /codon_start=1
                      /locus_tag="CB0940_00842"
                      /product="2OG-Fe(II)-dependent dioxygenase CTB9"
-                     /label=CTB9
+                     /label="CTB9"
                      /protein_id="PIB01162.1"
                      /translation="MTSTITTTETLQDAVPFVAPPSPPEDTSNKELPEKPYYDVEFNYR
                      LDPRDGGDEVIWGGTVGLMRRKYETRTVRINNERGNEHNFNLDTHGFAWVKHKTSVTEF
@@ -271,20 +284,22 @@ FEATURES             Location/Qualifiers
                      TPGRFVHVDQSYQGAVRRLYLDLPQEEARRLEKTRWAIINVWRPVRKVTNEPLAVCDAR
                      SVREDELFNTLHLVPMRWPDAAPQENQMWAVAPPKTPTQHKWHYVSGMTEDEALLIKMF
                      DSKKDGTARRVPHSSFPTPDDFGEPRASTETRCFVFWEDQEAE"
+                     /Pfam="NvfI"
      CDS             complement(join(38401..38437,38505..38704,38767..38928))
                      /codon_start=1
                      /locus_tag="CB0940_00843"
                      /product="dehydratase CTB10"
-                     /label=CTB10
+                     /label="CTB10"
                      /protein_id="PIB01161.1"
                      /translation="MGSIGEPNRLLCWSIYVTKKPDQSEEDHHNHVSKVNAPMMIPFLK
                      KYGIVRYTVKHNDAHSKPKQAALMAGQPEENVLAYDTVFEMIVKDIESIQTMQKDEEFL
                      RTTIPDHFNFADMTRSKGSLTWIEEFTF"
+                     /Pfam="EthD"
      CDS             complement(join(39384..39589,39643..40561))
                      /codon_start=1
                      /locus_tag="CB0940_00844"
                      /product="fasciclin-like protein CTB11"
-                     /label=CTB11
+                     /label="CTB11"
                      /protein_id="PIB01156.1"
                      /translation="MHFPALAVAGCLLSRATAQSLDQVLAKRDSFSLLRDLLHQHGLVD
                      ELEFTANATFFAMTNQALRSLADFGINLTTADPNIARAIFKYAQLDAIYTTDTVKALHH
@@ -293,11 +308,12 @@ FEATURES             Location/Qualifiers
                      PILDMLTSEQLKSVVAQHAVPNRVLYQSLFDGVETLETLDGSTLRIRRGKRGEIFVNGA
                      EVVRTDLLLYGGVAHLIDGALLPEKDASCSTGLFAAAAGGSSRVWKILASHQLTLLAVL
                      AMALVSILYKAYQSRKQSHQLIRPSDGLGNYEKV"
+                     /Pfam="Fasciclin"
      CDS             40860..42770
                      /codon_start=1
                      /locus_tag="CB0940_00845"
                      /product="laccase CTB12"
-                     /label=CTB12
+                     /label="CTB12"
                      /protein_id="PIB01155.1"
                      /translation="MWSVRLYPLALTLLFQCVSPAAARPSGCVDDVEVVQEIGSKEIQA
                      PVVRFEISLTTQSIDAAGIGFREAIFINDAFIGPTLYAKQGDRIEFVVHNYMQQDTSIH
@@ -311,6 +327,7 @@ FEATURES             Location/Qualifiers
                      AHPMHKHGNKVFLIGSGSGSFPWESVEEAIPHLPEGTFNFQDPPYLDTFNTVEMEGQAN
                      DTWTAVRYKAEYAGAWLFHCHVQTHLSGGMGMVVLDGVDAWPEVPLAYQEWNGFEPPAL
                      S"
+                     /Pfam="Cu-oxidase_3, Cu-oxidase, Cu-oxidase_2"
 ORIGIN
         1 atggccgact ctctcgttct attgactggt gctaccggct tcattggctt tcgtatcttg
        61 attgagctgc tccgtcaagg atacagcgtg cgagctgtga tccgcagtgc tggcaaggga

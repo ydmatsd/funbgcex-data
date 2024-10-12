@@ -1,33 +1,33 @@
-LOCUS       FBGC00202       71639 bp DNA     linear   UNA 09-MAY-2023
+LOCUS       FBGC00202              71639 bp    DNA     linear   UNA 09-MAY-2023
 DEFINITION  higginsianin A.
 ACCESSION   FBGC00202
-VERSION     .
+VERSION     FBGC00202
 KEYWORDS    .
 SOURCE      Colletotrichum higginsianum IMI 349063
   ORGANISM  Colletotrichum higginsianum IMI 349063
+            .
 REFERENCE   1  (bases 1 to 71639)
-  AUTHORS   Tsukada K, Shinki S, Kaneko A, Murakami K, Irie K, Murai M, Miyoshi 
-            H, Dan S, Kawaji K, Hayashi H, Kodama EN, Hori A, Salim E, Kuraishi 
+  AUTHORS   Tsukada K, Shinki S, Kaneko A, Murakami K, Irie K, Murai M, Miyoshi
+            H, Dan S, Kawaji K, Hayashi H, Kodama EN, Hori A, Salim E, Kuraishi
             T, Hirata N, Kanda Y, Asai T.
-  TITLE     Synthetic biology based construction of biological activity-related 
+  TITLE     Synthetic biology based construction of biological activity-related
             library of fungal decalin-containing diterpenoid pyrones.
   JOURNAL   Nat Commun 2020;11:1830
-  PUBMED    32286350
+   PUBMED   32286350
 REFERENCE   2  (bases 1 to 71639)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported May 9, 2023 from SnapGene 6.2.2
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1038/s41467-020-15664-4"; journalName: "Nat Commun"; date: 
-            "2020"; volume: "11"; pages: "1830"
+  JOURNAL   Exported May 9, 2023 from SnapGene 6.2.2 https://www.snapgene.com
 COMMENT     ##Genome-Assembly-Data-START##
-            Assembly Method       :: HGAP3.0 (WGS-Celera Assembler v. 7.0) v.
-                                     2014-10-31; Manual editing based on
-                                     optical map alignments v. 2014-12-16 Genome
-            Coverage       :: 133.0x
-            Sequencing Technology :: PacBio P5-C3 chemistry 
+            Assembly Method :: HGAP3.0 (WGS-Celera Assembler v. 7.0) v.
+            2014-10-31; Manual editing based on optical map alignments v.
+            2014-12-16 Genome
+            Coverage              :: 133.0x
+            Sequencing Technology :: PacBio P5-C3 chemistry
             ##Genome-Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1038/s41467-020-15664-4"; journalName: "Nat Commun"; date:
+            "2020"; volume: "11"; pages: "1830"
 FEATURES             Location/Qualifiers
      source          1..71639
                      /chromosome="4"
@@ -37,7 +37,7 @@ FEATURES             Location/Qualifiers
                      /country="Trinidad and Tobago: Trinidad"
                      /lat_lon="10.66 N 61.50999999 W"
                      /isolation_source="diseased leaf in field"
-                     /collection_date=24-Apr-1991
+                     /collection_date="24-Apr-1991"
                      /db_xref="taxon:759273"
                      /organism="Colletotrichum higginsianum IMI 349063"
                      /submitter_seqid="unitig_4"
@@ -45,7 +45,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="CH63R_05473"
                      /product="polyketide synthase DpchA"
-                     /label=dpchA
+                     /label="dpchA"
                      /protein_id="OBR09781.1"
                      /translation="MSAETPSLLVCGPLISDPDATHLARIRSALVHTPQLAELRQAVTE
                      LPGVWSLLAGGEPSLERVHAAPLLQAFAEWINKGNSSGLLAAGQSSRNTRLAVLTVLSH
@@ -85,11 +85,13 @@ FEATURES             Location/Qualifiers
                      GATTRRVLDQLIQSGVDFSYTFTDISLALVNGSKRKFTASYGRQRVDSDMEFTVLDIER
                      PPPASMLQAFHLVISSNCIHATRDLRTSCGNIEKLVRRGDGMLCLLELTRPLAWLDCVF
                      GLLDGWWRFEDGRKYALAHEDEWRARLESAGFQNVDWTGDGSRESEHFRLITAWH"
+                     /Pfam="SAT2, PKS_KS, PKS_AT, fPKS_PT, ACP_PCP, HTH_51,
+                     PKS_NRPS_MT"
      CDS             join(9378..9670,9752..10035,10132..10502,10573..11037)
                      /codon_start=1
                      /locus_tag="CH63R_05475"
                      /product="FAD-dependent monooxygenase DpchE"
-                     /label=dpchE
+                     /label="dpchE"
                      /protein_id="OBR09783.1"
                      /translation="MSEPHFKVIIVGGSITGLTLAHSLHKIGVDFTILEKRATVTPQEG
                      ASVGILPNGARVLDQLGLYGLVEEATAPLGATHIHFPDGFHFCSLYPKSMLDNFGYPVA
@@ -100,33 +102,36 @@ FEATURES             Location/Qualifiers
                      QCLGSKREAKPSGQELDALLRRFNDVHLSRVSHIYDTSWLIARVHARDGFVRKIIGRYV
                      MPYFGHKFESRPFNMIANAAALEFLPLPRSSFPGWEKYKSKEDKSGSWAVVSRSVLLLV
                      GLAILSTWWRRA"
+                     /Pfam="FAD_binding_3"
      CDS             complement(join(11679..11889,11983..12500))
                      /codon_start=1
                      /locus_tag="CH63R_05476"
                      /product="terpene cyclase DpchB"
-                     /label=dpchB
+                     /label="dpchB"
                      /protein_id="OBR09784.1"
                      /translation="MNVADISQAPEAYRDVVWIADTCKLIMGIGWTANYVGMIRKSLKD
                      QTYAMALLPLCCNFAWELTYAIMYAFTTSLEKYVHFSGLLLNCGVMYTAVKNAPREWEH
                      APLVQRNLRLIFVLAVAGFASAHVVLAKQVGPELGQAWSAYACQLLLSVGGLCQLLCRG
                      HSRGASYFLWFSRFFGSLVLVPQDIIRYTYWKEAHEFMGSPMYIWFVTIFLILDGSYGL
                      CLWYVRRFEQQNPAAGKLKK"
+                     /Pfam="Pyr4"
      CDS             complement(join(13374..13696,13813..14296))
                      /codon_start=1
                      /locus_tag="CH63R_05477"
                      /product="short-chain dehydrogenase/reductase DpchG"
-                     /label=dpchG
+                     /label="dpchG"
                      /protein_id="OBR09785.1"
                      /translation="MTSSEKNSTGLAGKTCLVTGGAGGLGKAVTAAFLDAGANVVICDI
                      NAKRIESTLAELRTRGGNLTAVTADITDHDQVLSLFDDIAGRFGTLDVLVNNAAVMDRF
                      DPVGDIELDLWDNVLAVNLTAPLQLSKFAVRSMLSKPEPAGCIINIASGAATAGWLAGT
                      AYTASKHGLVGLTKSTAAFYGPKGIRCNALIMGVMVGTHMHEAFLDGCHKEGRQKVEEI
                      FSGHRPQTCKVDDVAGICLSLASGPGWGTVNGALIAVDNGWTSVVG"
+                     /Pfam="adh_short_C2"
      CDS             join(34731..34824,34924..35218,35332..35893)
                      /codon_start=1
                      /locus_tag="CH63R_05478"
                      /product="UbiA-like prenyltransferase DpchC"
-                     /label=dpchC
+                     /label="dpchC"
                      /protein_id="OBR09786.1"
                      /translation="MAATKDRQLFRHLLRLSRFDRYNPLFTTFAGLWSTLLAGGAKMAE
                      QRSDMSVATVFQQCALCFVASYLFCGAGMVWNDWIDRDIDANVARTKERPLASGKVTAT
@@ -134,12 +139,13 @@ FEATURES             Location/Qualifiers
                      AFTIAWPAVIGRAAIYGQYESYAETLRQCLPLCTMVFFWTIYLNTAYSYQDVVDDRKLG
                      VNSFYNIAGKHIHLLLVALVSPILVCLPIYLFELHSLWLWLSWMGVWTASLAQQLVQFD
                      PKQPASGGSIHRSNFILGIWTILACVVQVFLTGSA"
+                     /Pfam="UbiA_PT"
      CDS             complement(join(36340..36843,36929..37019,37077..37149,
                      37210..37415,37540..37724))
                      /codon_start=1
                      /locus_tag="CH63R_05479"
                      /product="short-chain dehydrogenase/reductase DpchH"
-                     /label=dpchH
+                     /label="dpchH"
                      /note="revised sequence"
                      /protein_id="OBR09787.1"
                      /translation="MLSAWAHRLCVRAVDVLFGTFLYVPLGILFLKKSLSGFGDGDWDS
@@ -149,11 +155,12 @@ FEATURES             Location/Qualifiers
                      GKRYGTSKLANILFATELQRRMDEEGAGILSLSLNPGTIRTEGAADVMPLVTQPLVWLL
                      FTDAAKGADTTMFAATAREVRENSEQWKGRYLDGPGRIKPPSPKARDAVAARNLWNITA
                      AAVKGTGALEKL"
+                     /Pfam="adh_short"
      CDS             join(39263..39343,39430..39584,39649..39975,40067..40472)
                      /codon_start=1
                      /locus_tag="CH63R_05480"
                      /product="geranylgeranyl pyrophosphate synthase DpchD"
-                     /label=dpchD
+                     /label="dpchD"
                      /protein_id="OBR09788.1"
                      /translation="MSPAEIIRPAAKVQLMDSKAHGNNHEEIIRAPLNYLLDLPGKEVR
                      SKLMSAFNQWLRIPEEKLEVIKRIVMLLHNASLLLDDIQDSSTLRRGLPVSHSIFGIAQ
@@ -161,11 +168,12 @@ FEATURES             Location/Qualifiers
                      MVSNKTGGLFRLAVRLMQLASESDRDYVPLVNVMGLIFQVRDDYLNLQSTAYTKNKGFG
                      EDLTEGKFSFPIIHSIRSNPSNIQLSSILKQRTTDVDVKLFAVAYIESTGSFEHCRKTL
                      AELMAQAKAIIEGMEGDSSESLSVMNQILTMLGLDGNEVPR"
+                     /Pfam="GGPS"
      CDS             complement(join(41002..41503,41564..42888))
                      /codon_start=1
                      /locus_tag="CH63R_05481"
                      /product="FAD-dependent monooxygenase CH63R_05481"
-                     /label=CH63R_05481
+                     /label="CH63R_05481"
                      /note="This gene might also be a part of the BGC."
                      /protein_id="OBR09789.1"
                      /translation="MTAPAPNIDLKYAEEREKRIRPEGMAQFVELKDELGDLSKDLYVN
@@ -179,11 +187,12 @@ FEATURES             Location/Qualifiers
                      LNDKFDEGWESLHGVATNGFPNLFFYTPTGAAGSSNFIFCLDEGARQSAYIITEALRRA
                      TGDPAKVVVEVTKEGEQAWGTEVAKRAAWFAVFGNCTPSYLTAEGDAYKIPPEKMMAKA
                      RMASWGEGPNSYARHTEAYRAAGTLDGIEVSA"
+                     /Pfam="Pyr_redox_2, NAD_binding_8"
      CDS             complement(70218..71639)
                      /codon_start=1
                      /locus_tag="CH63R_05482"
                      /product="FAD-linked oxidoreductase DpchF"
-                     /label=dpchF
+                     /label="dpchF"
                      /protein_id="OBR09790.1"
                      /translation="MKLSFIASPVWALALAQFAAATQVKIDVDVAIFGGGSAGIHAAIQ
                      LRDAGATVAVIEKKSQIGGHAETYTDPQGKSTNVGVVVFDNIEVASNYFARLNVSIVRG
@@ -194,6 +203,7 @@ FEATURES             Location/Qualifiers
                      PYNQPSIPGPYGFVAYGSPNNFLVTVGLPDAANTAAKGEAVVRQSLATLSAVGAVPADA
                      LEKLTFPFSAVHSPYSLRVSAEEIKAGFYSKFLALEGARNTYWTGAVWAGHNSALIWNF
                      NMGTVLPGLKKDLGL"
+                     /Pfam="NAD_binding_8"
 ORIGIN
         1 tcagtgccat gccgtgataa gccggaaatg ctcagactca cgcgagccgt ccccggtcca
        61 gtccacgttc tggaacccgg cactctccaa cctcgcccgc cactcgtcct cgtgagccag

@@ -1,31 +1,31 @@
-LOCUS       FBGC00224       36183 bp DNA     linear   UNA 27-JAN-2023
+LOCUS       FBGC00224              36183 bp    DNA     linear   UNA 27-JAN-2023
 DEFINITION  elsinochrome A.
 ACCESSION   FBGC00224
-VERSION     .
+VERSION     FBGC00224
 KEYWORDS    .
 SOURCE      Parastagonospora nodorum SN15
   ORGANISM  Parastagonospora nodorum SN15
+            .
 REFERENCE   1  (bases 1 to 36183)
-  AUTHORS   Hu J, Sarrami F, Li H, Zhang G, Stubbs KA, Lacey E, Stewart SG, 
+  AUTHORS   Hu J, Sarrami F, Li H, Zhang G, Stubbs KA, Lacey E, Stewart SG,
             Karton A, Piggott AM, Chooi YH.
-  TITLE     Heterologous biosynthesis of elsinochrome A sheds light on the 
+  TITLE     Heterologous biosynthesis of elsinochrome A sheds light on the
             formation of the photosensitive perylenequinone system.
   JOURNAL   Chem Sci 2019;10:1457-1465
-  PUBMED    30809363
+   PUBMED   30809363
 REFERENCE   2  (bases 1 to 36183)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Jan 27, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
+  JOURNAL   Exported Jan 27, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
             "10.1039/c8sc02870b"; journalName: "Chem Sci"; date: "2019"; volume:
             "10"; pages: "1457-1465"
-COMMENT     This project was sequenced and assembled by the Broad Institute of 
-            Harvard/MIT, and Calhoun annotation was added to the scaffolds in 
+            This project was sequenced and assembled by the Broad Institute of
+            Harvard/MIT, and Calhoun annotation was added to the scaffolds in
             July 2006 by the Broad.  The annotation was updated in November 2007
-            by the Australian Centre for Necrotrophic Fungal Pathogens (ACNFP), 
-            based on additional EST evidence and retrained gene predictions.  
-            The ACNFP is responsible for the assembled genome sequence and 
+            by the Australian Centre for Necrotrophic Fungal Pathogens (ACNFP),
+            based on additional EST evidence and retrained gene predictions.
+            The ACNFP is responsible for the assembled genome sequence and
             annotation.
 FEATURES             Location/Qualifiers
      source          1..36183
@@ -37,7 +37,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="SNOG_08601"
                      /product="FAD-dependent monooxygenase ElcH"
-                     /label=elcH
+                     /label="elcH"
                      /note="gene prediction version 2"
                      /inference="ab initio prediction:same species:1.0"
                      /protein_id="EAT83769.2"
@@ -50,11 +50,12 @@ FEATURES             Location/Qualifiers
                      HFMTNFQQLGPSQQIEDAMILGTLLRSAHSRADVEAALYAYDTVRRPRSQWVSEHGKRL
                      GWLWTGMVEDVGIDAKKLKKAMLQWKQDSEAFDLKAHKNEAVKIMKQTIKERSGSEKII
                      TQEEKIKAGFQGLWEAMREKSGEQVEL"
+                     /Pfam="ElcH"
      CDS             join(2061..2090,2197..3000)
                      /codon_start=1
                      /locus_tag="SNOG_08602"
                      /product="short-chain dehydrogenase/reductase SNOG_08602"
-                     /label=SNOG_08602
+                     /label="SNOG_08602"
                      /note="gene prediction version 2"
                      /inference="ab initio prediction:same species:1.0"
                      /protein_id="EAT83770.2"
@@ -63,11 +64,12 @@ FEATURES             Location/Qualifiers
                      KLLLQMLRKTAKLHGNARIVSLTSPGFGFSPKGGIQFNSLHSEQDLGFGGPPKRYGQSK
                      LANILYADELSRRNPQLTCVSIDPGAAKTELFTNQGWLMKTFITITTWMRGEMMWSAEE
                      GAYNQLWAATADIPINGALYKPIGKHFEPTGHLKDAELRQMLWDWTEGELKAYAL"
+                     /Pfam="adh_short"
      CDS             join(3340..3508,3660..3807,3859..3900,3954..4041)
                      /codon_start=1
                      /locus_tag="SNOG_08603"
                      /product="hypothetical protein SNOG_08603"
-                     /label=SNOG_08603
+                     /label="SNOG_08603"
                      /note="gene prediction version 1"
                      /protein_id="EAT83771.1"
                      /translation="MAGSKTVNWHVDSGVGQLPIVPDHSLATRNHGKNWPGVAIYKGAQ
@@ -78,7 +80,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="SNOG_08604"
                      /product="probable xylanase SNOG_08604"
-                     /label=SNOG_08604
+                     /label="SNOG_08604"
                      /note="gene prediction version 2"
                      /inference="ab initio prediction:same species:1.0"
                      /protein_id="EAT83772.2"
@@ -87,11 +89,12 @@ FEATURES             Location/Qualifiers
                      KVGKHNPSDNASANYFGTLDSDGATYEIWQKERTNAPSIIGDNTDFQQYWSIRTKMHCG
                      GTINTGNHFRAWEAAGLKLGKQNYMVMGIEGQQGSGEADITKCQEDEYEADFDKGSGYH
                      NESNDDH"
+                     /Pfam="Glyco_hydro_11"
      CDS             complement(join(5937..7360,7497..7548))
                      /codon_start=1
                      /locus_tag="SNOG_08605"
                      /product="aldehyde dehydrogenase SNOG_08605"
-                     /label=SNOG_08605
+                     /label="SNOG_08605"
                      /note="gene prediction version 2"
                      /inference="ab initio prediction:same species:1.0"
                      /protein_id="EAT83773.2"
@@ -104,11 +107,12 @@ FEATURES             Location/Qualifiers
                      GTEFAKGYFYAPTILTDSQTKKIVDTRIWNEEAFGPVIVVVGFDTEEEALNFANDSEFG
                      LGAAIWTQDLSQAFRVSESVESGICWVNTHHRNDPSSPWGGIKSSGVGSENGIDAYNAY
                      TTTKSTIINYATAEDGLASDDWFREEGGDVRYG"
+                     /Pfam="Aldedh"
      CDS             complement(8516..8767)
                      /codon_start=1
                      /locus_tag="SNOG_08606"
                      /product="hypothetical protein SNOG_08606"
-                     /label=SNOG_08606
+                     /label="SNOG_08606"
                      /note="gene prediction version 2"
                      /inference="ab initio prediction:same species:1.0"
                      /protein_id="EAT83774.2"
@@ -118,9 +122,8 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="SNOG_08608"
                      /product="FAD-linked oxidoreductase ElcE"
-                     /label=elcE
-                     /note="gene prediction version 2
-                     revised sequence"
+                     /label="elcE"
+                     /note="gene prediction version 2 revised sequence"
                      /inference="ab initio prediction:same species:1.0"
                      /protein_id="EAT83776.2"
                      /translation="MFIQRLRQWVLFLADFAPSQEGHSETILNPSNSVKHVDHRLVVAE
@@ -133,11 +136,12 @@ FEATURES             Location/Qualifiers
                      ETIQPFLTLPGFLLSVAYQPLPTLMSERYGEVDSLGPIQTQGNMFYIHWAMSVDGSEVE
                      TDRKFEKVTRDLFQRAEAKAREKGLRRDFLQLTYADRWQDVLSSRSNGTLKELWRVSKE
                      YDPTGMFQKQVPGGFKLSEMDEDSMEL"
+                     /Pfam="FAD_binding_4"
      CDS             complement(join(13456..14622,14688..14786))
                      /codon_start=1
                      /locus_tag="SNOG_08609"
                      /product="transcription factor ElcR"
-                     /label=elcR
+                     /label="elcR"
                      /note="gene prediction version 2"
                      /protein_id="EAT83777.2"
                      /translation="MATQLPSPTATTSHSGNEPRRVIRESCNNCSAQKIRCGKQRPACA
@@ -148,11 +152,12 @@ FEATURES             Location/Qualifiers
                      DCSCSSDQAVSLACYLATSKIVDWYGAAIEAVGERTEDFSKNAGPKTSQGIMAERIIAR
                      PIYMGKYCLDPEVQRVVRAQVVLGELKEHVQPLLNSLPRFHITGLEAESDSSANGQQAC
                      ILRNQLRNVIQSARDLNGTGSS"
+                     /Pfam="EqxR, AflR"
      CDS             complement(join(15742..15964,16025..17115))
                      /codon_start=1
                      /locus_tag="SNOG_08610"
                      /product="methyltransferase ElcB"
-                     /label=elcB
+                     /label="elcB"
                      /note="gene prediction version 2"
                      /inference="ab initio prediction:same species:1.0"
                      /protein_id="EAT83778.1"
@@ -164,14 +169,14 @@ FEATURES             Location/Qualifiers
                      PKDLQHRVSFRAQDFFKPQPQRETDSRTIVYFARFILHDWSDKYAGQIVEPLAQAMRPQ
                      DRLILNEVVVPEPSVEQRIERKSHDRDLLMLMNLNGRERTLVAFEGLFEVVSPRLRVEK
                      VHKPTTGGELSLITASVDKLTGRKSAGGDIFGANVDEA"
+                     /Pfam="MdpA, Methyltransf_2"
      CDS             join(17485..17597,17717..17927,17985..18062,18115..18157,
                      18213..18802,18853..19224,19279..19608)
                      /codon_start=1
                      /locus_tag="SNOG_08611"
                      /product="major facilitator superfamily transporter ElcC"
-                     /label=elcC
-                     /note="gene prediction version 2
-                     revised sequence"
+                     /label="elcC"
+                     /note="gene prediction version 2 revised sequence"
                      /inference="ab initio prediction:same species:1.0"
                      /protein_id="EAT83779.2"
                      /translation="MSGTKVEISTITTPKIAHSALQFWALFFALCLAVLCQAWYGSGYL
@@ -185,12 +190,13 @@ FEATURES             Location/Qualifiers
                      LQLAYNDSITQTFYVAVATAGLSMAGSILIPWLSVKQAVAPEDAETANTVMPFQHPSSD
                      VDLAMPAILRQSGEIASEDSQSSDIEKVPRNNEVSTYDSQTSEVEKSSVGSTNRKVESI
                      RN"
+                     /Pfam="MFS_1"
      CDS             complement(join(21490..24051,24124..24402))
                      /codon_start=1
                      /locus_tag="SNOG_08612"
-                     /product="dual O-methyltransferase/FAD-dependent 
+                     /product="dual O-methyltransferase/FAD-dependent
                      monooxygenase ElcB"
-                     /label=elcB
+                     /label="elcB"
                      /note="gene prediction version 2"
                      /inference="ab initio prediction:same species:1.0"
                      /protein_id="EAT83780.2"
@@ -211,11 +217,12 @@ FEATURES             Location/Qualifiers
                      LRSLFELQDVSQASTMRVVSAPPKLPVWPSNSCVTLLGDAVHAMSPCGGVGANVALRDA
                      AELGKVFASTAASNEEDAIQSVGGKASDQHDMAQQIASFEGELRKRAFGGIMRSFVGSK
                      AMFGQRTFEELDVAEL"
+                     /Pfam="MdpA, FAD_binding_3"
      CDS             complement(join(24828..24880,24941..25026,25072..25178))
                      /codon_start=1
                      /locus_tag="SNOG_08613"
                      /product="hypothetical protein SNOG_08613"
-                     /label=SNOG_08613
+                     /label="SNOG_08613"
                      /note="gene prediction version 1"
                      /protein_id="EAT83781.1"
                      /translation="MALMIEKLAPPSKRSMTKFTQHCTGNCGQFWPKTWFWSRSSFIHW
@@ -224,9 +231,8 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="SNOG_08614"
                      /product="polyketide synthase ElcA"
-                     /label=elcA
-                     /note="gene prediction version 2
-                     revised sequence"
+                     /label="elcA"
+                     /note="gene prediction version 2 revised sequence"
                      /inference="ab initio prediction:same species:1.0"
                      /protein_id="EAT83782.2"
                      /translation="MVDLVQVFVFGDQSYDASELMFRLLHTHDDIILSSFLDSCFRTLQ
@@ -267,11 +273,13 @@ FEATURES             Location/Qualifiers
                      PPTDGLDRLPRRFFDHCSAVGIFGGEMSAINPSNKRAKLPEWLMPHFEATIELLHDYCA
                      PPMPLTTNAPKKINLIWAGGCAFGGKYAPLPPASMVGEDTEGMKFLTEQRTDFGPDKWT
                      DLFPGRHIDIDVVEGEHHFSMMRGKGAQQLGGFLRKTLGLLA"
+                     /Pfam="SAT2, PKS_KS, PKS_AT, fPKS_PT, ACP_PCP,
+                     Thioesterase"
      CDS             complement(32942..33880)
                      /codon_start=1
                      /locus_tag="SNOG_08615"
                      /product="fasciclin-like protein ElcF"
-                     /label=elcF
+                     /label="elcF"
                      /note="gene prediction version 2"
                      /inference="ab initio prediction:same species:1.0"
                      /protein_id="EAT83783.1"
@@ -281,11 +289,12 @@ FEATURES             Location/Qualifiers
                      HNITLTAQINGLGRFLELMNRAGVVAEFEGLKDVTVFVPHDDALEKADVGKMSKEQLAS
                      LLRGHVVPNRVLYGEVFGKKGGYKSSNGWEIHVGKTADGTLTVNGIKVVKEDVILYAGV
                      AHVIDKVLVADRVEHKGDRSYLHLDAQKPLR"
+                     /Pfam="Fasciclin"
      CDS             join(34252..34926,34984..36183)
                      /codon_start=1
                      /locus_tag="SNOG_08616"
                      /product="laccase ElcG"
-                     /label=elcG
+                     /label="elcG"
                      /note="gene prediction version 2"
                      /inference="ab initio prediction:same species:1.0"
                      /protein_id="EAT83784.1"
@@ -300,6 +309,7 @@ FEATURES             Location/Qualifiers
                      GIEGLNMTTEDVASPFLFQDPSQIETSELMLTTKKNEWVDLIIEVEGPFAQSHPMHKHG
                      NKAFIVGRGVGFFPWATVEEAEKHLPRGTFNFIDPPYKDTFKTLEGVNNNAWLALRYHA
                      NSPGAWLFHCHIQTHLAGGMGVVILDGVDEWPELPEAYAEWNGFEAPV"
+                     /Pfam="Cu-oxidase_3, Cu-oxidase, Cu-oxidase_2"
 ORIGIN
         1 tcagagctcg acctgctcac cactcttctc cctcattgcc tcccacaggc cctgaaatcc
        61 cgccttgatc ttttcttctt gagtgattat tttttcgcta cccgatctct ctttgatggt

@@ -1,30 +1,30 @@
-LOCUS       FBGC00250       24251 bp DNA     linear   UNA 28-JAN-2023
+LOCUS       FBGC00250              24251 bp    DNA     linear   UNA 28-JAN-2023
 DEFINITION  shamixanthone.
 ACCESSION   FBGC00250
-VERSION     .
+VERSION     FBGC00250
 KEYWORDS    .
 SOURCE      Aspergillus nidulans FGSC A4
   ORGANISM  Aspergillus nidulans FGSC A4
+            .
 REFERENCE   1  (bases 1 to 24251)
-  AUTHORS   Sanchez JF, Entwistle R, Hung JH, Yaegashi J, Jain S, Chiang YM, 
+  AUTHORS   Sanchez JF, Entwistle R, Hung JH, Yaegashi J, Jain S, Chiang YM,
             Wang CC, Oakley BR.
-  TITLE     Genome-based deletion analysis reveals the prenyl xanthone 
+  TITLE     Genome-based deletion analysis reveals the prenyl xanthone
             biosynthesis pathway in Aspergillus nidulans.
   JOURNAL   J Am Chem Soc 2011;133:4010-7
-  PUBMED    21351751
+   PUBMED   21351751
 REFERENCE   2  (bases 1 to 24251)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Jan 28, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
+  JOURNAL   Exported Jan 28, 2023 from SnapGene 6.2.1 https://www.snapgene.com
 COMMENT     SGRef: number: 1; type: "Journal Article"; doi: "10.1021/ja1096682";
-            journalName: "J Am Chem Soc"; date: "2011"; volume: "133"; pages: 
+            journalName: "J Am Chem Soc"; date: "2011"; volume: "133"; pages:
             "4010-7"
-COMMENT     Aspergillus nidulans FGSC A4 CADRE,
+            Aspergillus nidulans FGSC A4 CADRE,
             updated by Eurofungbase with contributions from
             CADRE (http://www.cadre-genomes.org.uk),
             AspGD (http://www.aspergillusgenome.org) and
-              Ensembl Genomes (http://www.ensemblgenomes.org).
+            Ensembl Genomes (http://www.ensemblgenomes.org).
 FEATURES             Location/Qualifiers
      source          1..24251
                      /chromosome="VIII"
@@ -37,7 +37,7 @@ FEATURES             Location/Qualifiers
                      /locus_tag="ANIA_10023"
                      /old_locus_tag="AN10023.4"
                      /product="dioxygenase MdpL"
-                     /label=mdpL
+                     /label="mdpL"
                      /note="transcript_id=CADANIAT00002588"
                      /db_xref="EnsemblGenomes-Gn:CADANIAG00002588"
                      /db_xref="EnsemblGenomes-Tr:CADANIAT00002588"
@@ -53,12 +53,13 @@ FEATURES             Location/Qualifiers
                      QRTKDGYEPKIDFFFMHCVTSSIFFSILGRQDWISMRDRVRLVEWKGRLDLMWYALCGV
                      PELDFEFVRTYRGERTGTMSWKELFAIVNEQHDDGHVAKFVRALKNGQEVCGQFEDGEE
                      FMVKGDMWLRIARMAYETTIETNMQNRWVVMAGMDGAWKDFKVQSSD"
+                     /Pfam="Questin_oxidase"
      CDS             complement(1702..2499)
                      /codon_start=1
                      /locus_tag="ANIA_10044"
                      /old_locus_tag="AN10044.4"
                      /product="short-chain dehydrogenase/reductase MdpK"
-                     /label=mdpK
+                     /label="mdpK"
                      /note="transcript_id=CADANIAT00002589"
                      /db_xref="EnsemblGenomes-Gn:CADANIAG00002589"
                      /db_xref="EnsemblGenomes-Tr:CADANIAT00002589"
@@ -71,12 +72,13 @@ FEATURES             Location/Qualifiers
                      ALKQIRTAEPNAVVPKLVLLSSATIDPHLSRKMPSWFLPIMKTAASNVYADLIKAEEML
                      RANESWVTSIFIKPAGLSVDIQRGHKLDFDEQESFISYLDLAAAMLEAANDTDGRYDGR
                      NVSVVNTGGKARFPPGTPKCIIVGLLRHFFPGLHRFLPTTGPS"
+                     /Pfam="NAD_binding_10"
      CDS             join(2864..2893,2959..3151,3253..3662)
                      /codon_start=1
                      /locus_tag="ANIA_10038"
                      /old_locus_tag="AN10038.4"
                      /product="glutathione S-transferase MdpJ"
-                     /label=mdpJ
+                     /label="mdpJ"
                      /note="transcript_id=CADANIAT00002590"
                      /db_xref="EnsemblGenomes-Gn:CADANIAG00002590"
                      /db_xref="EnsemblGenomes-Tr:CADANIAT00002590"
@@ -91,12 +93,13 @@ FEATURES             Location/Qualifiers
                      CRYNPLGQVPTFVGADGFVLSECIPLTLYCNDERSSLRILQWMSFANSDLFPAVGGVFL
                      PRIGQRQIIQQDDGDSLRAMLQRCKYLDEHLKRSRYLVGESITIADFFAASLLMGAFAA
                      FRRSMQERFGALCSWYDGVLEIGWFKKVAGGVPDLGLELEIPEDIKW"
+                     /Pfam="GST_N, GST_C"
      CDS             complement(join(3808..4050,4180..5664))
                      /codon_start=1
                      /locus_tag="ANIA_10035"
                      /old_locus_tag="AN10035.4"
                      /product="CoA ligase MdpI"
-                     /label=mdpI
+                     /label="mdpI"
                      /note="transcript_id=CADANIAT00002591"
                      /db_xref="EnsemblGenomes-Gn:CADANIAG00002591"
                      /db_xref="EnsemblGenomes-Tr:CADANIAT00002591"
@@ -115,12 +118,13 @@ FEATURES             Location/Qualifiers
                      RPRDIPFYGEMSPVGSVARGAAVRIRGANATVARGELGELHVSCPSIIPGYLGGVSAQS
                      FHDEDGRRWFKTGDVGLMDKQGVVFILGRMKDMINGKTCVVNAGGPFAVLARYTGKKEA
                      QIRRHVVRALGKSNALNGVIYLHQLGLERFPVNGTHKIARGDVEGAMLAYLQTEPTSR"
+                     /Pfam="AA-adenyl-dom"
      CDS             complement(join(6039..6559,6628..6685))
                      /codon_start=1
                      /locus_tag="ANIA_10022"
                      /old_locus_tag="AN10022.4"
                      /product="anthrone oxygenase MdpH2"
-                     /label=mdpH2
+                     /label="mdpH2"
                      /note="transcript_id=CADANIAT00002592"
                      /db_xref="EnsemblGenomes-Gn:CADANIAG00002592"
                      /db_xref="EnsemblGenomes-Tr:CADANIAT00002592"
@@ -134,12 +138,13 @@ FEATURES             Location/Qualifiers
                      QWVRTYHYGHISLPTISIATAILYFYIAAYQGAREQPWRKAALVGFLTIVMVPFTWIVM
                      SSTNGMLFGLEAGNRDHSQFFEQGANRSGLKGANSSQSHGLGNVSVGIGVEMATLEGVR
                      ELLVRWKWMHLVRSLFPLMAAVLGVGICV"
+                     /Pfam="Anthrone_oxy"
      CDS             complement(join(6962..7046,7160..7377,7439..7624))
                      /codon_start=1
                      /locus_tag="ANIA_10022"
                      /old_locus_tag="AN10022.4"
                      /product="decarboxylase MdpH1"
-                     /label=mdpH1
+                     /label="mdpH1"
                      /note="transcript_id=CADANIAT00002592"
                      /db_xref="EnsemblGenomes-Gn:CADANIAG00002592"
                      /db_xref="EnsemblGenomes-Tr:CADANIAT00002592"
@@ -152,13 +157,14 @@ FEATURES             Location/Qualifiers
                      /translation="MSTPNPPATNSTTSEDRLLCLTILGYRKQGMSEEAYRKHMIEHSA
                      PLTKDLMIKYGILRWTVKCPDRSKIHNPTETRELMYEIMDPQMANIADYDCFSQVVFRN
                      FEDYKKIKDDPWYKEHLVGDHENFADTKRSKMTIGWITQFIDRGVVTEGFEGFPGPKK"
+                     /Pfam="EthD"
      CDS             complement(join(7930..9192,9239..11605,11650..12750,
                      12802..13491))
                      /codon_start=1
                      /locus_tag="ANIA_00150"
                      /old_locus_tag="AN0150.4"
                      /product="polyketide synthase MdpG"
-                     /label=mdpG
+                     /label="mdpG"
                      /note="transcript_id=CADANIAT00002593"
                      /db_xref="EnsemblGenomes-Gn:CADANIAG00002593"
                      /db_xref="EnsemblGenomes-Tr:CADANIAT00002593"
@@ -206,12 +212,13 @@ FEATURES             Location/Qualifiers
                      MCGGIQFRRYPRILLNRFFTAPEEAGAISHAAASSTPAPRTKPEPVPVATPATAAAPVA
                      QSPAAPASVTPAPAPAPAPGPTPAAAPAAAGESDSVAAKALVLIAKEAALELSDLTDDA
                      SFANLGVDSLMSLVIAEKFREELGVTVTGSLFLEYPTIGDLRSWLLEYYN"
+                     /Pfam="SAT2, PKS_KS, PKS_AT, fPKS_PT, ACP_PCP"
      CDS             join(13960..14130,14191..14785,14820..14977)
                      /codon_start=1
                      /locus_tag="ANIA_00149"
                      /old_locus_tag="AN0149.4"
                      /product="metallo-beta-lactamase-like thioesterase MdpF"
-                     /label=mdpF
+                     /label="mdpF"
                      /note="transcript_id=CADANIAT00002594"
                      /db_xref="EnsemblGenomes-Gn:CADANIAG00002594"
                      /db_xref="EnsemblGenomes-Tr:CADANIAT00002594"
@@ -225,12 +232,13 @@ FEATURES             Location/Qualifiers
                      HMCFILEEENAMFTGDNVLGHGTSAVEELGVYMETLRKLNSHHCAVGYPAHGDVITNLP
                      AKIAGELAQKMRREKQVLLTLDRINKESRRTGQVVLVHGDGIDEEVRKMALEPFIDEVL
                      RKLAEDGKVAFEMRGGVKRWFGVGVL"
+                     /Pfam="Lactamase_B"
      CDS             16456..17763
                      /codon_start=1
                      /locus_tag="ANIA_00148"
                      /old_locus_tag="AN0148.4"
                      /product="transcription factor MdpE"
-                     /label=mdpE
+                     /label="mdpE"
                      /note="transcript_id=CADANIAT00002595"
                      /db_xref="EnsemblGenomes-Gn:CADANIAG00002595"
                      /db_xref="EnsemblGenomes-Tr:CADANIAT00002595"
@@ -248,12 +256,13 @@ FEATURES             Location/Qualifiers
                      NEQTLRDITEIIECSCSEDGYTITIITLAAFKVLAWYSAVAHISPISEDSQALEEIDRT
                      PAVVRGYNIDGEDQGRMAAQLVLSELHRVQRLVGNLYQRLKDQVSGGKPARLSTTGVND
                      SNHYSLPFHLLERLAVDLGAQLRSLSSEIVDRLRRG"
+                     /Pfam="EqxR, AflR"
      CDS             join(18290..18557,18636..19933)
                      /codon_start=1
                      /locus_tag="ANIA_00147"
                      /old_locus_tag="AN0147.4"
                      /product="FAD-dependent monooxygenase MdpD"
-                     /label=mdpD
+                     /label="mdpD"
                      /note="transcript_id=CADANIAT00002596"
                      /db_xref="EnsemblGenomes-Gn:CADANIAG00002596"
                      /db_xref="EnsemblGenomes-Tr:CADANIAT00002596"
@@ -272,12 +281,13 @@ FEATURES             Location/Qualifiers
                      GSSQRAYLGTKIYNLLRYERVSCAQKMSFVNSQLKTGTDWDAIWKDPAKIRTRFPKWIF
                      QHDPEAYAYEKFGEAFAHLLDGREFVNTNYPPGHEFRAWTVEEVWRNIADGKRVEDLLD
                      GDWS"
+                     /Pfam="FAD_binding_3"
      CDS             join(20564..20899,20955..21416)
                      /codon_start=1
                      /locus_tag="ANIA_00146"
                      /old_locus_tag="AN0146.4"
                      /product="short-chain dehydrogenase/reductase MdpC"
-                     /label=mdpC
+                     /label="mdpC"
                      /note="transcript_id=CADANIAT00002597"
                      /db_xref="EnsemblGenomes-Gn:CADANIAG00002597"
                      /db_xref="EnsemblGenomes-Tr:CADANIAT00002597"
@@ -293,12 +303,13 @@ FEATURES             Location/Qualifiers
                      GHLGEVTEEEFDRVFSLNTRAQFFVAREAYRHLNTHGRIILMSSNTAKEFSVPRHSVYS
                      GSKGAIESFVRVMAKDCGDKQITVNAVAPGGTVTDMFYDVAQHYIPNGEKHSAEELQKM
                      AATVSPLKRNGFPVDIAKVVGFLASREAEWVNGKIITVDGGAA"
+                     /Pfam="adh_short_C2"
      CDS             join(21712..21882,21930..22403)
                      /codon_start=1
                      /locus_tag="ANIA_10049"
                      /old_locus_tag="AN10049.4"
                      /product="dehydratase MdpB"
-                     /label=mdpB
+                     /label="mdpB"
                      /note="transcript_id=CADANIAT00002598"
                      /db_xref="EnsemblGenomes-Gn:CADANIAG00002598"
                      /db_xref="EnsemblGenomes-Tr:CADANIAT00002598"
@@ -310,12 +321,13 @@ FEATURES             Location/Qualifiers
                      DRLKQCIAPFLRIDYRAFLDKLWEKMPAEEFVAMVSHPHFLGNPLLKTQHFVGTMKWEK
                      VDDSKIVGYHQMRVAHQKHLDSQMKEVVAKGHGHGSATVTYRKINGEWKFAGIEPNIRW
                      TEFGGEGIFGPPEKEENGVAADDQVMNSNGSSEVEERNGHVVNKAVEVRSV"
+                     /Pfam="Scytalone_dh"
      CDS             join(22742..23494,23565..24251)
                      /codon_start=1
                      /locus_tag="ANIA_10021"
                      /old_locus_tag="AN10021.4"
                      /product="transcriptional coactivator MdpA"
-                     /label=mdpA
+                     /label="mdpA"
                      /note="transcript_id=CADANIAT00002599"
                      /db_xref="EnsemblGenomes-Gn:CADANIAG00002599"
                      /db_xref="EnsemblGenomes-Tr:CADANIAT00002599"
@@ -333,6 +345,7 @@ FEATURES             Location/Qualifiers
                      TIQHRLPTAPQPITSANLYILHLPSPSPTVPFASLATHILAELRSHLDILRSNPSATLI
                      LTPRPLPEPSAVHSEVEASARLRDLTLMQLANEREIELAEWINLLSNVSDSMGRLVVVN
                      KIQSRESTVVLLEIRYQAYNR"
+                     /Pfam="MdpA"
 ORIGIN
         1 tcaatcagac gactgcactt tgaagtcctt ccaagccccg tccatgcctg ccataaccac
        61 ccaccgattt tgcatgttcg tctcaatcgt cgtctcatac gccatcctcg caatcctcaa

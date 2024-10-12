@@ -1,24 +1,24 @@
-LOCUS       FBGC00239       24140 bp DNA     linear   UNA 27-JAN-2023
+LOCUS       FBGC00239              24140 bp    DNA     linear   UNA 27-JAN-2023
 DEFINITION  cladofulvin.
 ACCESSION   FBGC00239
-VERSION     .
+VERSION     FBGC00239
 KEYWORDS    .
 SOURCE      Cladosporium fulvum
   ORGANISM  Cladosporium fulvum
+            .
 REFERENCE   1  (bases 1 to 24140)
-  AUTHORS   Griffiths S, Mesarich CH, Saccomanno B, Vaisberg A, De Wit PJ, Cox 
+  AUTHORS   Griffiths S, Mesarich CH, Saccomanno B, Vaisberg A, De Wit PJ, Cox
             R, Collemare J.
-  TITLE     Elucidation of cladofulvin biosynthesis reveals a cytochrome P450 
+  TITLE     Elucidation of cladofulvin biosynthesis reveals a cytochrome P450
             monooxygenase required for anthraquinone dimerization.
   JOURNAL   Proc Natl Acad Sci U S A 2016;113:6851-6
-  PUBMED    27274078
+   PUBMED   27274078
 REFERENCE   2  (bases 1 to 24140)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Jan 27, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1073/pnas.1603528113"; journalName: "Proc Natl Acad Sci U S A"; 
+  JOURNAL   Exported Jan 27, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1073/pnas.1603528113"; journalName: "Proc Natl Acad Sci U S A";
             date: "2016"; volume: "113"; pages: "6851-6"
 FEATURES             Location/Qualifiers
      source          1..24140
@@ -27,26 +27,28 @@ FEATURES             Location/Qualifiers
      CDS             complement(1..804)
                      /codon_start=1
                      /product="short-chain dehydrogenase/reductase ClaC"
-                     /label=claC
-                     /label=jgi.p|Clafu1|184391
+                     /label="claC"
+                     /label="jgi.p|Clafu1|184391"
                      /translation="MAVVNGNYIPGRLDGRVAVVTGSGRGIGAAIAVHLGRLGANIVVN
                      YANSALDAQKVVDQIKGAGSEAIAIKADIRDVSQIMRLFDEAVAHFGHVDIAVSNSGVV
                      SFGHLKDVTEEEFDRVFSLNTRGQFFVAREAYRHLSEGGRIIMTSSNTSKDFSVPRHSL
                      YSGSKGAVDSFVRIFSKDCGDKKITVNGVAPGGTVTDMFHDVSHHYIPDGEKYTAEQRQ
                      QMAAFASPLHRNGFPEDIANVVGFLASKEGEWINGKVINLDGGAA"
+                     /Pfam="adh_short_C2"
      CDS             join(1210..1246,1298..1395,1456..1809)
                      /codon_start=1
                      /product="dehydratase ClaB"
-                     /label=claB
-                     /label=jgi.p|Clafu1|184392
+                     /label="claB"
+                     /label="jgi.p|Clafu1|184392"
                      /translation="MTRQAVPKPAYEDLVDCQSAMFEWAESFDSKDWDRLSACLAPTLF
                      LDYSDIMGKKWDALPVEEFIGMASSPHFLGNARIKTQHFIGASKWTQPDEGQIVGFHQM
                      RVAHQKYGDDELKQVLYHGHAHGKATTYYRNVGGQWKFAGLVPDVRWTEFDCDKIFEH"
+                     /Pfam="Scytalone_dh"
      CDS             complement(join(2936..4021,4076..4225))
                      /codon_start=1
                      /product="transcriptional coactivator ClaA"
-                     /label=claA
-                     /label=jgi.p|Clafu1|184393
+                     /label="claA"
+                     /label="jgi.p|Clafu1|184393"
                      /translation="MSDSLAGNGMRQNLNRSSTSSNHTGHAQNGRAPQDPLVDAGHFIK
                      QLACQVQSLACLKWLSELQILACIPLEGSRPLHDVAELANVPASQLSRVVRIVATIGFL
                      NEPDPGHIAHTALSAQFVVDFSLFDSILFLLTTVVPCSMQMSTLTQRHGSAFPTNDGAY
@@ -55,11 +57,12 @@ FEATURES             Location/Qualifiers
                      AVCILKIEAPSTTIRARVTAELLAHLEVLRNNESAVLIVAAPLLPEPGTVSTSAEASAR
                      SSDLTTLQLSNSPQLELDRLIDIVENVPNARDSLKVVQRILFRNGMVAAIEVRYRASSE
                      DQFATPAGTIDW"
+                     /Pfam="MdpA"
      CDS             9908..11248
                      /codon_start=1
                      /product="transcription factor ClaE"
-                     /label=claE
-                     /label=jgi.p|Clafu1|184394
+                     /label="claE"
+                     /label="jgi.p|Clafu1|184394"
                      /translation="MSLSRSVAAMHFPVTAPPPVPVPHAPHTGGLHEATATASSSAGPT
                      STSIAAGPRVRSSCETCAASKLKCSKERPRCARCVKRGLDCTYVLLKRAGRKPGQPQTS
                      SRSRRREPSSGGPSPPSGVTGTSTSSDMLQDLFGTPLDMTVDGFDAAMSDSSTFHSSDL
@@ -68,12 +71,13 @@ FEATURES             Location/Qualifiers
                      QNGTAVELLSGILESPCCQDGYLVVMVALVTFKILGWYSAVAQRTKTLLPGERHNPSPS
                      FDEQHSNTTTTIRGFCLDGEDSERRTVQLILGELHPVRQLIERFALRLKLLVEEMQDAD
                      KAGVAAKDLCANAMLSTSTLVYKQLETDLRSEWRALSARVIDRLKNL"
+                     /Pfam="EqxR, AflR"
      CDS             complement(join(11491..14732,14781..15171,15217..16618,
                      16673..17010))
                      /codon_start=1
                      /product="polyketide synthase ClaG"
-                     /label=claG
-                     /label=jgi.p|Clafu1|184395
+                     /label="claG"
+                     /label="jgi.p|Clafu1|184395"
                      /translation="MTTNHLENKVHAATESLFYFSNEFPKRDLQDLFRQAHTRSKLAQH
                      KCLAQFIQDATQTVKQEIQGLSMKLQHLFKPLESVLTWAEDHELREGALSGAIDGVLLI
                      VAQMTTLIGYLENNTAKMDDIATASLAGLGVGLLTACAVSSASTIADLSATGADAVRTA
@@ -105,32 +109,35 @@ FEATURES             Location/Qualifiers
                      APDSTNLDDTTETKDISSSTQHSVPVSRQVPPAAKSSAQTVFESSLPFAVPGPRKSTAR
                      PAVDEIAAREKPVASQSSSITNRAMQLIADEVGVELADLCDDVGFSDLGVDSLMSLVIA
                      DTFRATLDIKVNGSLFLDYETIGDLRNWLEETYA"
+                     /Pfam="SAT2, PKS_KS, PKS_AT, fPKS_PT, ACP_PCP"
      CDS             join(17538..17696,17793..18635)
                      /codon_start=1
                      /product="metallo-beta-lactamase-like thioesterase ClaF"
-                     /label=claF
-                     /label=jgi.p|Clafu1|184396
+                     /label="claF"
+                     /label="jgi.p|Clafu1|184396"
                      /translation="MDDKGGYRQINSAFNACAFDDILGSQMAQLPELPDVEQLTPRVLR
                      ILGQNPGKFTFQGTNTYVIGTGRQRLIIDTGGGEADWASLINDTLKARGITIARVLLTH
                      WHGDHTGGVADLIRLYPDLEHHIYKNQPDRGQQNIYHAQTFDVEGATVRALHTPGHSED
                      HMCFILEEEGEPRAMFTGDTILGHGTSTMEDLSSFMDSLQNITDQQCEVGYSAHGAVIE
                      NLPLKMVQELRHKTRREAQVLTALASYASRGQRSLTTSELVAEIYGQSLNAETRAFALE
                      PFIDQVLRKLAGDGKVGFEVRAGQRKWFIMDMMQGSIRPARSGSAREILVAA"
+                     /Pfam="Lactamase_B"
      CDS             18965..19777
                      /codon_start=1
                      /product="short-chain dehydrogenase/reductase ClaK"
-                     /label=claK
-                     /label=jgi.p|Clafu1|184397
+                     /label="claK"
+                     /label="jgi.p|Clafu1|184397"
                      /translation="MDSKVTTYAVLGSTGNCGSALIRNLLGKPQSRVHAFCRNKKKLLR
                      LIPEIADSKQVEVFEGGMQDHDLLAACIKNTRAVFMCISTNDNVPGCRLSQDSAIALVK
                      VMRELGYDKPDGGPNGPAPKLLLLSSGTIDPHLSKHLPSLLLWILKRSASHVYADLEKA
                      EEFLRAQESWLTTIYIKPGALSVDKKRGYELSLTEQKDPVSYLDLSAGMIEAADDPEGR
                      WDLKNISVNCGSTPAGFPDGTILCILMGLLRHYFPWTHAYLPMGMGPK"
+                     /Pfam="NAD_binding_10"
      CDS             join(20259..20512,20562..21691,21744..21976)
                      /codon_start=1
                      /product="cytochrome P450 monooxygenase ClaM"
-                     /label=claM
-                     /label=jgi.p|Clafu1|184398
+                     /label="claM"
+                     /label="jgi.p|Clafu1|184398"
                      /translation="MNSTAANVKPEPGLYGPDAAASPAIARYLIQGPSPLSIGLVVLIG
                      AISSFLLQQFLKPAVNPLSPKFTSNTWPWLGSLGMMIGHWTFWKSCIKESKTGQFSFWL
                      GRTHVVGLSGPDARKMFFEHPALDLHKATDLTPLGVNFWPIHAIFTPRDEKFQKSTYWL
@@ -141,16 +148,18 @@ FEATURES             Location/Qualifiers
                      FNTLYESIPIPGTSEVIPARTHAIYNSTEIHFNPKLYDRPASFRPDRFAPESQKTWDKE
                      PHGLNTWGTGQRLCSGMRWAKLQQNILMAVALSLYRLEKCDKDGKPDPSAYEKQQAMDG
                      DLDEEVAFVLPECFVKLIPRE"
+                     /Pfam="p450"
      CDS             join(23287..23573,23651..24140)
                      /codon_start=1
                      /product="short-chain dehydrogenase/reductase ClaN"
-                     /label=claN
-                     /label=jgi.p|Clafu1|184399
+                     /label="claN"
+                     /label="jgi.p|Clafu1|184399"
                      /translation="MSYTWLITRASSGRGAAIALAALEAGHKVIAGARNPAKASQVRPE
                      IQNQGGTWLRLDDSTADVRHVIAKAAKEHGLNVLVNNAGGYALRGVLEDFSETELYQQM
                      ETNFFGPIRAIQGALPWSRAQKPGTIFNISSTSDITGFTGFSLYAASKAALEGASEALY
                      GELALFGIRVLVVQPGASRTKFQSAGPRPAVSEACVGTTVDAILQRAVGMAAERRVILF
                      RRRRSIRSSQEPDSAALIGRALASLNYASCLASGCD"
+                     /Pfam="adh_short"
 ORIGIN
         1 ttacgcagca ccgccatcca aatttatgac cttgccattg atccactctc cttctttgct
        61 cgcaaggaat ccaacaacat tagcgatatc ctccgggaag ccattgcgat gaagcggcga

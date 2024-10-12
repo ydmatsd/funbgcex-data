@@ -1,22 +1,22 @@
-LOCUS       FBGC00218       48312 bp DNA     linear   UNA 26-JAN-2023
+LOCUS       FBGC00218              48312 bp    DNA     linear   UNA 26-JAN-2023
 DEFINITION  azaterrilone A.
 ACCESSION   FBGC00218
-VERSION     .
+VERSION     FBGC00218
 KEYWORDS    .
 SOURCE      Aspergillus terreus NIH2624
   ORGANISM  Aspergillus terreus NIH2624
+            .
 REFERENCE   1  (bases 1 to 48312)
   AUTHORS   Sun WW, Li CY, Chiang YM, Lin TS, Warren S, Chang FR, Wang CCC.
   TITLE     Characterization of a silent azaphilone biosynthesis gene cluster in
             Aspergillus terreus NIH 2624.
   JOURNAL   Fungal Genet Biol 2022;160:103694
-  PUBMED    35398258
+   PUBMED   35398258
 REFERENCE   2  (bases 1 to 48312)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Jan 26, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
+  JOURNAL   Exported Jan 26, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
             "10.1016/j.fgb.2022.103694"; journalName: "Fungal Genet Biol"; date:
             "2022"; volume: "160"; pages: "103694"
 FEATURES             Location/Qualifiers
@@ -30,7 +30,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="ATEG_03431"
                      /product="FAD-dependent monooxygenase TazF"
-                     /label=tazF
+                     /label="tazF"
                      /protein_id="EAU36705.1"
                      /translation="MPSNESTCLGSDRNMQTAWKLNASTPGFTPKKLRVVCIGAGLSGL
                      TLAYKLKHERPMDFVDLRIYEKNHEVGGTWLDNVYPGVGCDIPSPSYVFPFEPNPDWSK
@@ -42,12 +42,13 @@ FEATURES             Location/Qualifiers
                      RLDVEWKDKPAAYFATCAAGFPNYFIFAGPNAPIGHGSVNRMIWFQADYMLNWVEKIAT
                      EDIRSVAVKDSAVRDFNEFAKENLKRFVWSKGCHAWYSKKTDGEDNIVTAMYPGSLLHF
                      KVYLDKIRGEHFDIQYNTSNMFGFLGNGELALEREKDGDMAFYM"
-     CDS             complement(join(2709..4017,4084..8467,8531..8714,8767..8964,
-                     9065..9131,9235..9366,9439..10187,10223..10870))
+                     /Pfam="FMO-like"
+     CDS             complement(join(2709..4017,4084..8467,8531..8714,
+                     8767..8964,9065..9131,9235..9366,9439..10187,10223..10870))
                      /codon_start=1
                      /locus_tag="ATEG_03432"
                      /product="polyketide synthase TazA"
-                     /label=tazA
+                     /label="tazA"
                      /note="similar to polyketide synthase"
                      /protein_id="EAU36706.1"
                      /translation="MAVANHEEAEATTVLLFGPQALSFTEESFQRIRVALNDTENAWMR
@@ -94,11 +95,13 @@ FEATURES             Location/Qualifiers
                      LPDFQGELSWTPVDVVASTLADLVSYAAADFSAASTVYPIYHIDNPVRQPWKEMISVLA
                      RALDIPPANVLPFPEWVRRVRRFPGSTEKDNPAFKLIDFLDDNFVRMSCGGLLLDTRHT
                      QQHSPTLAAQGPVSNQVAEGYIRYWKRTGFLAG"
+                     /Pfam="SAT2, PKS_KS, PKS_AT, fPKS_PT, ACP_PCP, HTH_51,
+                     PKS_NRPS_MT, fPKS_R"
      CDS             join(11371..12192,12248..12630,12687..12807,12863..13006)
                      /codon_start=1
                      /locus_tag="ATEG_03433"
                      /product="FAD-linked oxidoreductase TazG"
-                     /label=tazG
+                     /label="tazG"
                      /protein_id="EAU36707.1"
                      /translation="MVAFSAILQTALGLSAANDLTSLFGPYLSPQAEILYGNDTNFYAQ
                      LQQRWTDYKAPSYGAGAIKPATAKDVQNVVKIANANSIPFFVTGGGHGISDYHNFDGLS
@@ -109,11 +112,12 @@ FEATURES             Location/Qualifiers
                      TVALRQIHAPTFQSFYSKLVDFWNANPTYQGRLLIQRYSNEGPMAVPDDATAYAYRDVK
                      TYMNIEGFYADSALDDAVNEFATLGRQEFVETSGFDQLAVYSNYARGDEGPVAWYGERK
                      LPKLSALKRKWDPEQRFSVNNPVPLHWRTEL"
+                     /Pfam="FAD_binding_4, BBE"
      CDS             complement(13097..14461)
                      /codon_start=1
                      /locus_tag="ATEG_03434"
                      /product="acetyltransferase TazM"
-                     /label=tazM
+                     /label="tazM"
                      /note="revised sequence"
                      /protein_id="EAU36708.1"
                      /translation="MGSIINIPGLPDGEFSNYEQVYLKMSRAFSHLQKEHWGIHCVCSV
@@ -124,11 +128,12 @@ FEATURES             Location/Qualifiers
                      MAVNMRPYLPPPYNSKKHACQTFVASITPTVPYHSGFVESARSLTHEYRSWWSADFMRS
                      LWWIYEYHLAKLSAPRPANAAPMKPPSGVTLSSLGVVDRNLRGGYGPNLRVDKFRFGVS
                      MMTRQTILYAWTFKDRLTLSLNYNDAYYSDLMAREVMSRVASHLEKGLEVELNTV"
+                     /Pfam="LolU"
      CDS             14748..16109
                      /codon_start=1
                      /locus_tag="ATEG_03435"
                      /product="acetyltransferase TazD"
-                     /label=tazD
+                     /label="tazD"
                      /protein_id="EAU36709.1"
                      /translation="MPWIETKPGLWQRPIGDNEKFIKFIGDRSHQVGREHWSVTAGAAF
                      TLNRDWSLSDLSSHCLNAWCAFRFDHPSIACTVEGDTVSYQTPSNEELASWANETFHIH
@@ -138,11 +143,12 @@ FEATURES             Location/Qualifiers
                      TSTMRFSLRPHLPPPYSGPAYAAGLYTGGYMFPVPASQSWIENAKQYEKEYNTGITEDF
                      LKCRRQYAVELIGILQRGAPPPDPPPSEVDISSVGDAEALVSPRFTHNGTILEVQSVDI
                      GVETLTRQTYCFLWTFRGRLELHLVYNEAFYEPERAERMVRILAKTLQTELGLA"
+                     /Pfam="LolU"
      CDS             join(16345..17238,17287..17733,17784..17897)
                      /codon_start=1
                      /locus_tag="ATEG_03436"
                      /product="major facilitator superfamily transporter TazK"
-                     /label=tazK
+                     /label="tazK"
                      /note="revised sequence"
                      /protein_id="EAU36710.1"
                      /translation="MPSFARTTNGETRPLLEGHRESELVDLSSLDHPLNPVNLPRWRKW
@@ -154,22 +160,24 @@ FEATURES             Location/Qualifiers
                      VKQKAASGNALVPEDRLHPMIVGAVSLAIGLLWFAWTSSPAISPWPQILAGIPIGVGVQ
                      VILLQSLAYLIDIYTTGAASAISGTMIVRSLVGGTFPLFAPQMYRKFGVFWATNMLGIF
                      ALALVPIPVVLLFYGARIRSLGKYRN"
+                     /Pfam="MFS_1"
      CDS             complement(18285..19082)
                      /codon_start=1
                      /locus_tag="ATEG_03437"
                      /product="esterase TazC"
-                     /label=tazC
+                     /label="tazC"
                      /protein_id="EAU36711.1"
                      /translation="MRATIDDPQAALPRILCLHGGGSNSRIFKAQTRALRYELSNYFRF
                      VFVEGPFDSEPGPDVTSAYEKFGPFRRWFRSGPQHPPIDSHTAVACIEESIYAAMERDD
                      LQGGTGDYVAVMGFSQGAKLAASLLFRQQIRAEKLGQAMSGTNFRFAILLNGRGPLVSM
                      DPELVMNTALMDASQIALDRPVTLEDLCRKEHVLRLPTIHVHGLQDPGLMLHRVLLREY
                      CSKNARLVEWDGAHRVPIKTKDVLPLVHEILQLAKQTGVVFAA"
+                     /Pfam="FSH1"
      CDS             join(19692..19734,19790..20479,20541..20740)
                      /codon_start=1
                      /locus_tag="ATEG_03438"
                      /product="short-chain dehydrogenase/reductase TazN"
-                     /label=tazN
+                     /label="tazN"
                      /note="revised sequence"
                      /protein_id="EAU36712.1"
                      /translation="MPPSKDQPNILRGPGDYEVTTRVHNDTYPEIDPRLLNLQGKSVFV
@@ -178,10 +186,11 @@ FEATURES             Location/Qualifiers
                      PLLLKASKDDIRYIVNVCSVGAHLTNPTLSSYQVSKNALLKLTTLTNAEYGPGVITFAI
                      HPGNSPTDIMGGPEAIPPHHKHVFVETPELSGDSVVFLVSKRREWLGGRYINCTWDLPE
                      LVSKEAEIVRGDKLKTKFDFDIGAPIELS"
+                     /Pfam="adh_short"
      CDS             complement(20810..22177)
                      /codon_start=1
                      /product="acetyltransferase TazQ"
-                     /label=tazQ
+                     /label="tazQ"
                      /note="manually added sequence"
                      /translation="MTAFDSAQYEDVLGQLPRLKTYSHLLLAFRLPENRSPEHFIELIK
                      SATQEVTKAFPWLACRVVHEGRGPGNSGVFRLAPCSEFTNSHPIVRTKDCTDLCPTYEE
@@ -191,11 +200,12 @@ FEATURES             Location/Qualifiers
                      LLRRKRPDDLSKFSRALDARRPLGIPREYLGQMGYNATCYLSFRELEALPLGLVALFLR
                      GAVKEVNTTYAARSWATFIANEPDKSRIMFGGSFDPDKDLGVSSIIHATFNDVIFGELG
                      TPSLFRRPLFPPLESCIYLWTQTVEGDVDVLLCLIEADWDALLADEEWSTHTELIG"
+                     /Pfam="CalD"
      CDS             join(22602..22850,22911..23450,23510..24028)
                      /codon_start=1
                      /locus_tag="ATEG_03439"
                      /product="methyltransferase TazO"
-                     /label=tazO
+                     /label="tazO"
                      /protein_id="EAU36713.1"
                      /translation="MTKTITLEGLADQVQAQASTLSTLLAEANLPSPSFGPDAPPAPPH
                      GKEFEKIQAARMALIESANAIRDLALGPEDCITAFSDGIKHDLAALHVIVDFNIPELVP
@@ -205,11 +215,12 @@ FEATURES             Location/Qualifiers
                      LEFVVQDFEGLKSFHDGVPDELKSRISFEAQDILQPNAHPNADVYLLRSILHDWSDKYA
                      VLILKNLVPALKDGARVLIADFIGPENTQSGPMWLERLSTIRSMQMMTMVNAPERSEKD
                      WINVVKRADSRYSVKAVVTPAGTAMSVIEIVFNASA"
+                     /Pfam="MdpA"
      CDS             complement(24526..25569)
                      /codon_start=1
                      /locus_tag="ATEG_03440"
                      /product="dehydrogenase TazE"
-                     /label=tazE
+                     /label="tazE"
                      /protein_id="EAU36714.1"
                      /translation="MTAEHDAAILPKPGGPLAVGKRATPEPGPNDVLIEVKAVALNPCD
                      YYQRDYGMPPVPIYPAVIGGDAAGVVAKLGSSVTGGPVPGPGSRVIAFASSFYQNGSPD
@@ -218,11 +229,12 @@ FEATURES             Location/Qualifiers
                      AVKKDGVYLHTAHCVVDGALQPTLDILKETKGDAFAKVAHSPVLPECHPTLDNTQITFN
                      FPSMDEVVRSKHIKEVFHGWLHPGLKDGKIVPSPNIQIEEGGLEGINAALDKLKAGVSG
                      TKIVVPV"
+                     /Pfam="fPKS_ER"
      CDS             complement(join(26436..26698,26785..27871))
                      /codon_start=1
                      /locus_tag="ATEG_03441"
                      /product="FAD-dependent monooxygenase TazP"
-                     /label=tazP
+                     /label="tazP"
                      /note="revised sequence"
                      /protein_id="EAU36715.1"
                      /translation="MMSILKLVKGVLYGEGEHHEKPKKTHIVIIGAGLTGLLLAQGLRK
@@ -233,12 +245,13 @@ FEATURES             Location/Qualifiers
                      SGYLGQEAPSDPPTELPEQLAWLKHMAKHWANPVHDLIYGMPDDSIVRVIRVQEWMPND
                      ANRRPTDGRITTVGDAAHLMTSFRGENANHGVVDVAKLLALLAPSGNKPTDLREVVSMY
                      EKEMVQRSRPATVKAREACLDANHYSKITSDSPFLSRRTMLDEEERGLLK"
+                     /Pfam="FAD_binding_3"
      CDS             join(28919..29167,29217..29433,29494..29882,29944..30320,
                      30408..30657)
                      /codon_start=1
                      /locus_tag="ATEG_03442"
                      /product="FAD-linked oxidoreductase TazL"
-                     /label=tazL
+                     /label="tazL"
                      /protein_id="EAU36716.1"
                      /translation="MRSNTVILAALPLVASAASTSGNWGGGVNYSKIFGGGLSANASIH
                      YPGQPDYNTTTVQRWSTWAEPTFAVTIKPATDEDVQYIIRTANKYNLTFLATGGGHGGE
@@ -249,11 +262,12 @@ FEATURES             Location/Qualifiers
                      TGKYNNHPSVGAKQTSVSTYIEVFNQYVEIMKARPWLTSALVVQRFNTTATLAVPESKR
                      GVYPGRDFSSLIILENYYDGPRHDADVYRFSKKLRSQLVATSGFDSLQTYINYAHGDEG
                      PEVWYGKDNLPRLVQLKRQWDPEGKFGPGNPIPLA"
+                     /Pfam="FAD_binding_4, BBE"
      CDS             join(31022..31143,31199..31403,31460..32176)
                      /codon_start=1
                      /locus_tag="ATEG_03443"
                      /product="trans-acting enoylreductase TazJ"
-                     /label=tazJ
+                     /label="tazJ"
                      /note="revised sequence"
                      /protein_id="EAU36717.1"
                      /translation="MKAIKTIADHQAEVREVPIPQIRDDYLLVKVKAVALNPTDWKHID
@@ -263,11 +277,12 @@ FEATURES             Location/Qualifiers
                      CVSTSASAELCAAAIGSNGGTVSYLLPLKHQREDVEAKYTLAYTAFGEYFSIAGTRKFE
                      ARPEDLEFAKMFWKLSEGLVAEGKIRVHPPRVGKDGLKGVLDGFQAMREGQVSGEKLVY
                      RIEDTPE"
+                     /Pfam="fPKS_ER"
      CDS             join(32473..32965,33031..33866)
                      /codon_start=1
                      /locus_tag="ATEG_03443"
                      /product="FAD-dependent monooxygenase TazH"
-                     /label=tazH
+                     /label="tazH"
                      /note="revised sequence"
                      /protein_id="EAU36717.1"
                      /translation="MRSYIPDQNATSNLDVAIVGGGIAGVTLALGLLKRGIKPIIYERG
@@ -278,12 +293,13 @@ FEATURES             Location/Qualifiers
                      IDMLPEELSRWAVFDTYDYPAPTFVRGRVCISGDAAHAAAPYHGAGAGFAVEDAAVLAE
                      LLSDAYDYLKISDVEKADIPKSVVLRKALETYNSIRLERAHWLVETSRHIGEIYEGQNA
                      DIGLDHTKCAAEIDWRCRKIWDYDVDDMMKQTSTLFKKQLGMI"
+                     /Pfam="ElcH"
      CDS             complement(join(33936..34111,34158..34234,34287..34909,
                      34968..35353,35406..35547,35597..35659))
                      /codon_start=1
                      /locus_tag="ATEG_03444"
                      /product="cytochrome P450 monooxygenase TazI"
-                     /label=tazI
+                     /label="tazI"
                      /protein_id="EAU36718.1"
                      /translation="MAYIQASSTQAVVVLLLVLVLTKIYRVYTGPLAHLPGPAISKWTG
                      LVLQKHLFAGNRPRYVQKLHQLYGPIVRISPDELDVSDSAAAKSIHRVASRFYKGRFYE
@@ -294,12 +310,13 @@ FEATURES             Location/Qualifiers
                      RALPYTRRVIDETLRLYPAVPGALPRAVPPEGATLVDHFIPGGVTVSTQVYSLHRDPKI
                      FPDPDRFDPDRWIDPTTEMRDSFMPFGGGSRTCIGMHLARMELRLATAHFFRRFTSPTV
                      STKEGFTDDDMYQHMYFLVSPKGHRCLIDV"
+                     /Pfam="p450"
      CDS             complement(join(36506..36718,36797..37288,37352..38334,
                      38400..38610))
                      /codon_start=1
                      /locus_tag="ATEG_03445"
                      /product="transcription factor TazR"
-                     /label=tazR
+                     /label="tazR"
                      /protein_id="EAU36719.1"
                      /translation="MSPSLNEPERLNRQAQGLACNECRARKLRCDRVRPTCGTCESLGV
                      TCTPNSVRQPRGPRKGYLKTLQSRISALERQWNGQQKAAGGSPGESPPCSEGGQTLRAV
@@ -312,14 +329,14 @@ FEATURES             Location/Qualifiers
                      VERAYGGMPQDFITRHQWLEGILMSKGKAIVDCISNDLDDELTDPMLLFTNMAAHATTL
                      LLGMTMQTGLCNYESLISGFEERATEAAQKILHLCQRLNECGYFKVHPFTPIPLVFCAE
                      WAQGRKNQNPAFEPLHNSMLCSLRDLSVVNMLAETCLARLNDSNPQMETDMSKSQS"
+                     /Pfam="EqxR, Zn_clus, Fungal_trans"
      CDS             join(40130..40366,40418..40562,40621..40889,40952..43468,
                      43528..48312)
                      /codon_start=1
                      /locus_tag="ATEG_03446"
                      /product="polyketide synthase TazB"
-                     /label=tazB
-                     /note="similar to polyketide synthase
-                     revised sequence"
+                     /label="tazB"
+                     /note="similar to polyketide synthase revised sequence"
                      /protein_id="EAU36720.1"
                      /translation="MPFLNGNTTHHEAHSAEPDHGNTEPMVIIGLAMRAADEATDAEAF
                      WDFLVRARQAARPIPEDRLSSKGFYHPNPNRGGSFYVKGAAFLEESPNGFDAAFFKMSK
@@ -367,6 +384,8 @@ FEATURES             Location/Qualifiers
                      PPTHLKYPMFAQLPPALSNTGPGGSHSAQSATHIRDQLQSATAPEEAARIIHKALRRKM
                      ADLLNISEDTIDDSLNVRANGVDSLIEMEFRTWFAKELGATVPLKDLAKDLTQLSARLV
                      SLSSFTKFR"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_DH, PKS_NRPS_MT, fPKS_ER,
+                     fPKS_KR, ACP_PCP"
 ORIGIN
         1 ttacatatag aaagccatgt ccccatcttt ctctcgctcc aatgccaatt ccccattccc
        61 caagaagcca aacatattgg acgtgttgta ctggatatcg aaatgctctc cacggatttt

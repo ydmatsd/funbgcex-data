@@ -1,36 +1,36 @@
-LOCUS       FBGC00233       13349 bp DNA     linear   UNA 27-JAN-2023
+LOCUS       FBGC00233              13349 bp    DNA     linear   UNA 27-JAN-2023
 DEFINITION  asperthecin.
 ACCESSION   FBGC00233
-VERSION     .
+VERSION     FBGC00233
 KEYWORDS    .
 SOURCE      Aspergillus nidulans FGSC A4
   ORGANISM  Aspergillus nidulans FGSC A4
+            .
 REFERENCE   1  (bases 1 to 13349)
   AUTHORS   Szewczyk E, Chiang YM, Oakley CE, Davidson AD, Wang CC, Oakley BR.
-  TITLE     Identification and characterization of the asperthecin gene cluster 
+  TITLE     Identification and characterization of the asperthecin gene cluster
             of Aspergillus nidulans.
   JOURNAL   Appl Environ Microbiol 2008;74:7607-12
-  PUBMED    18978088
+   PUBMED   18978088
 REFERENCE   2  (bases 1 to 13349)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Jan 27, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
+  JOURNAL   Exported Jan 27, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     ##Genome-Annotation-Data-START##
+            Annotation Provider :: INSDC submitter
+            Annotation Status   :: Full annotation
+            Annotation Pipeline :: Eukaryotic Annotation Propagation Pipeline
+            ##Genome-Annotation-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
             "10.1128/AEM.01743-08"; journalName: "Appl Environ Microbiol"; date:
             "2008"; volume: "74"; pages: "7607-12"
-COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final 
-            NCBI review. The reference sequence is identical to BN001301. 
+            PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to BN001301.
             Aspergillus nidulans FGSC A4 CADRE,
             updated by Eurofungbase with contributions from
             CADRE (http://www.cadre-genomes.org.uk),
             AspGD (http://www.aspergillusgenome.org) and
-              Ensembl Genomes 
-            (http://www.ensemblgenomes.org).##Genome-Annotation-Data-START##
-            Annotation Provider :: INSDC submitter
-            Annotation Status   :: Full annotation
-            Annotation Pipeline :: Eukaryotic Annotation Propagation Pipeline 
-            ##Genome-Annotation-Data-END##
+            Ensembl Genomes
 FEATURES             Location/Qualifiers
      source          1..13349
                      /chromosome="I"
@@ -43,7 +43,7 @@ FEATURES             Location/Qualifiers
                      /locus_tag="ANIA_06002"
                      /old_locus_tag="AN6002.2; AN6002.4"
                      /product="FAD-dependent monooxygenase AptC"
-                     /label=aptC
+                     /label="aptC"
                      /note="transcript_id=CADANIAT00007016"
                      /db_xref="EnsemblGenomes-Gn:CADANIAG00007016"
                      /db_xref="EnsemblGenomes-Tr:CADANIAT00007016"
@@ -61,12 +61,13 @@ FEATURES             Location/Qualifiers
                      NAKKLGEPWSLFLNGEAMRRHRVFNWLTRCVSMERSDVNSCTGKGVVFVGDSWHAMPIF
                      GGEGGNHAIFDGIELAKMLEVAWGRSKEDVQAAIGKYYDKSWRRCNDAVRRSKQRFYQL
                      HRPISEWIEIAEKQKMRA"
+                     /Pfam="FAD_binding_3"
      CDS             complement(join(1400..2119,2187..2396))
                      /codon_start=1
                      /locus_tag="ANIA_06001"
                      /old_locus_tag="AN6001.2; AN6001.4"
                      /product="metallo-beta-lactamase-like thioesterase AptB"
-                     /label=aptB
+                     /label="aptB"
                      /note="transcript_id=CADANIAT00007017"
                      /db_xref="EnsemblGenomes-Gn:CADANIAG00007017"
                      /db_xref="EnsemblGenomes-Tr:CADANIAT00007017"
@@ -81,12 +82,13 @@ FEATURES             Location/Qualifiers
                      EENALFTGDNVLGHGYSVVEDLGQYMNSMVQMANLNLPLGYPAHGAVIDDLPDKMREYI
                      KHREFRVQQVYAILEESRAAGQGRGRGGLTLHEIILAMYGEITDEVEKALAPFLSQVLW
                      KLAEDRKVGFEPGSAAKRRWYVRSRRPN"
+                     /Pfam="Lactamase_B"
      CDS             join(2829..3145,3199..4300,4362..7004,7058..8374)
                      /codon_start=1
                      /locus_tag="ANIA_06000"
                      /old_locus_tag="AN6000.2; AN6000.4"
                      /product="polyketide synthase AptA"
-                     /label=aptA
+                     /label="aptA"
                      /note="transcript_id=CADANIAT00007018"
                      /db_xref="EnsemblGenomes-Gn:CADANIAG00007018"
                      /db_xref="EnsemblGenomes-Tr:CADANIAT00007018"
@@ -136,12 +138,13 @@ FEATURES             Location/Qualifiers
                      SSAPKTATKHAPLPASKPAQAPAEPTPSSLPTVQAQNTSPPQQVTPSKPAMNGVKTPEE
                      EKPGKADAEGPNGTTSQPEATGVVGQCLQLIANETGQSVNELTPDATFVQLGVDSLMSL
                      VLSEKFRAELGLEVKSSLFLECPTVGDMMDWLEQYC"
+                     /Pfam="SAT2, PKS_KS, PKS_AT, fPKS_PT, ACP_PCP"
      CDS             join(9630..9987,10133..13188,13242..13349)
                      /codon_start=1
                      /locus_tag="ANIA_05999"
                      /old_locus_tag="AN5999.2; AN5999.4"
                      /product="carbamoyl-phosphate synthetase ANIA_05999"
-                     /label=ANIA_05999
+                     /label="ANIA_05999"
                      /note="transcript_id=CADANIAT00007019"
                      /db_xref="EnsemblGenomes-Gn:CADANIAG00007019"
                      /db_xref="EnsemblGenomes-Tr:CADANIAT00007019"
@@ -180,6 +183,7 @@ FEATURES             Location/Qualifiers
                      DLLHPLGFKFFAASPEVKAHIESATKEHTPVQVIEFPKKDKRALREVFQKYDIRGCFNL
                      AKTRGKTLLDEDYVMRRNAVDFGVPLFMETKTAQLFAQAMNQKLPRPEGIPSEVRTWSN
                      FVGGKLL"
+                     /Pfam="CPSase_L_D2, CPSase_L_D3"
 ORIGIN
         1 atgacactcc cagtcctcat catcggtgcc ggcctctcag gtctcacaac cgcgcgtctt
        61 ctcacaaacg cccacattcc ctgcatcgtc ttcgaagcct cccctccctc ccgcactcaa

@@ -1,25 +1,25 @@
-LOCUS       FBGC00201       23021 bp DNA     linear   UNA 09-MAY-2023
+LOCUS       FBGC00201              23021 bp    DNA     linear   UNA 09-MAY-2023
 DEFINITION  diterpenoid pyrones.
 ACCESSION   FBGC00201
-VERSION     .
+VERSION     FBGC00201
 KEYWORDS    .
 SOURCE      Fusarium graminearum PH-1
   ORGANISM  Fusarium graminearum PH-1
+            .
 REFERENCE   1  (bases 1 to 23021)
-  AUTHORS   Tsukada K, Shinki S, Kaneko A, Murakami K, Irie K, Murai M, Miyoshi 
-            H, Dan S, Kawaji K, Hayashi H, Kodama EN, Hori A, Salim E, Kuraishi 
+  AUTHORS   Tsukada K, Shinki S, Kaneko A, Murakami K, Irie K, Murai M, Miyoshi
+            H, Dan S, Kawaji K, Hayashi H, Kodama EN, Hori A, Salim E, Kuraishi
             T, Hirata N, Kanda Y, Asai T.
-  TITLE     Synthetic biology based construction of biological activity-related 
+  TITLE     Synthetic biology based construction of biological activity-related
             library of fungal decalin-containing diterpenoid pyrones.
   JOURNAL   Nat Commun 2020;11:1830
-  PUBMED    32286350
+   PUBMED   32286350
 REFERENCE   2  (bases 1 to 23021)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported May 9, 2023 from SnapGene 6.2.2
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1038/s41467-020-15664-4"; journalName: "Nat Commun"; date: 
+  JOURNAL   Exported May 9, 2023 from SnapGene 6.2.2 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1038/s41467-020-15664-4"; journalName: "Nat Commun"; date:
             "2020"; volume: "11"; pages: "1830"
 FEATURES             Location/Qualifiers
      source          1..23021
@@ -33,7 +33,7 @@ FEATURES             Location/Qualifiers
                      /locus_tag="FGRAMPH1_01T15647"
                      /old_locus_tag="FGSG_04588"
                      /product="polyketide synthase DpfgA"
-                     /label=dpfgA
+                     /label="dpfgA"
                      /note="unnamed protein product"
                      /db_xref="EnsemblGenomes-Gn:FGRAMPH1_01T15647"
                      /db_xref="GOA:I1RL11"
@@ -91,12 +91,14 @@ FEATURES             Location/Qualifiers
                      TVLDIEKSPPANMLESYDLIISSNCIHATRNLGQACANIEKLLRRDGGMLCLLELTRPL
                      SWLDCVFGLLDGWWRFDDDRTYALADEHKWKSTLLDAGFIHVDWTDDGYRESEQFRLIT
                      AWR"
+                     /Pfam="SAT2, PKS_KS, PKS_AT, fPKS_PT, ACP_PCP, HTH_51,
+                     PKS_NRPS_MT"
      CDS             7378..8274
                      /codon_start=1
                      /locus_tag="FGRAMPH1_01T15649"
                      /old_locus_tag="FGSG_04589"
                      /product="methyltransferase DpfgK"
-                     /label=dpfgK
+                     /label="dpfgK"
                      /note="unnamed protein product"
                      /db_xref="EnsemblGenomes-Gn:FGRAMPH1_01T15649"
                      /db_xref="GOA:I1RL12"
@@ -111,15 +113,15 @@ FEATURES             Location/Qualifiers
                      NVPTDRPVLVLFEGLTPYLTRDEVVSLLRRITNHFRDSGVNGEIRFDAPGSISYFLINY
                      VFNKPLRSMGTQFTWYMDDPRELETHVPGLKYRERMFVLHDYARLGNYGWLAGFLLRVA
                      DWFNIGGRIGSGYGYEF"
+                     /Pfam="LCM"
      CDS             complement(join(8563..9169,9226..9336,9388..9559,
                      9624..10025,10084..10153,10223..10315,10363..10458))
                      /codon_start=1
                      /locus_tag="FGRAMPH1_01T15651"
                      /old_locus_tag="FGSG_04590"
                      /product="cytochrome P450 monooxygenase DpfgJ"
-                     /label=dpfgJ
-                     /note="unnamed protein product
-                     revised sequence"
+                     /label="dpfgJ"
+                     /note="unnamed protein product revised sequence"
                      /db_xref="EnsemblGenomes-Gn:FGRAMPH1_01T15651"
                      /db_xref="GOA:I1RL13"
                      /db_xref="InterPro:IPR001128"
@@ -136,15 +138,15 @@ FEATURES             Location/Qualifiers
                      KRLQSELHHAYSSVNDITCNSLLSQPMLNACINESLRLVPPFNGHGSHRVTTSGTMIDG
                      VWVPAGTLISADFYSLHRDPSCWAFPDEYRPERWLKEHQGPGTPFENDVKTAWRPFSLG
                      PRVCVGREMALQSIRLAVSKIVYTFDMTLANRDFVWDRDAGSHYMWHDFDIAVTLAKA"
+                     /Pfam="p450"
      CDS             complement(join(11388..11784,11850..12176,12228..12382,
                      12465..12563))
                      /codon_start=1
                      /locus_tag="FGRAMPH1_01T15653"
                      /old_locus_tag="FGSG_04591"
                      /product="geranylgeranyl pyrophosphate synthase DpfgD"
-                     /label=dpfgD
-                     /note="unnamed protein product
-                     revised sequence"
+                     /label="dpfgD"
+                     /note="unnamed protein product revised sequence"
                      /db_xref="EnsemblGenomes-Gn:FGRAMPH1_01T15653"
                      /db_xref="GOA:I1RL14"
                      /db_xref="InterPro:IPR000092"
@@ -158,13 +160,14 @@ FEATURES             Location/Qualifiers
                      EEEYFTMVSNKTGGLFRLAVKLMQLASESDKDYVPLVNVLGVIFQIRDDYLNLQSGNYA
                      KNKGFGEDLTEGKFSFPIIHSIRSNPANIQLSSILKQRTTDIDVKLFAVGYIESTGSFE
                      HCRRKLVELTAEARAIMENIADGRSEDLEVINQLLGMIGLEGFD"
+                     /Pfam="GGPS"
      CDS             join(13498..13682,13737..13969,14025..14110,14202..14243,
                      14316..14819)
                      /codon_start=1
                      /locus_tag="FGRAMPH1_01T15655"
                      /old_locus_tag="FGSG_04592"
                      /product="short-chain dehydrogenase/reductase DpfgH"
-                     /label=dpfgH
+                     /label="dpfgH"
                      /note="unnamed protein product"
                      /db_xref="EnsemblGenomes-Gn:FGRAMPH1_01T15655"
                      /db_xref="GOA:I1RL15"
@@ -179,14 +182,14 @@ FEATURES             Location/Qualifiers
                      YGTTKLANVLFASELQRRMDEEDANIISLSLNPGTVRTDGAANVMPFMVRPLVRFLFTA
                      PERGADTSLFAATAEEIKENSERWKGRYLDGPGRIKVPSLRARDAVAGRNLWNITEAAV
                      RGTGALDRL"
+                     /Pfam="adh_short"
      CDS             complement(join(15010..15568,15635..15929,15983..16076))
                      /codon_start=1
                      /locus_tag="FGRAMPH1_01T15657"
                      /old_locus_tag="FGSG_04593"
                      /product="UbiA-like prenyltransferase DpfgC"
-                     /label=dpfgC
-                     /note="unnamed protein product
-                     revised sequence"
+                     /label="dpfgC"
+                     /note="unnamed protein product revised sequence"
                      /db_xref="EnsemblGenomes-Gn:FGRAMPH1_01T15657"
                      /db_xref="GOA:I1RL16"
                      /db_xref="InterPro:IPR000537"
@@ -199,11 +202,12 @@ FEATURES             Location/Qualifiers
                      AFTIAWPAIPGRAAICGRHESFTETTRQCLPLCIMVFFWTIYLNTAYSYQDVVDDRKLK
                      VNSFYNIAGNHIHVLLVLLVSPIIVCLYTYLAGFESTWLWISWMGVWTITLMRQLAQFD
                      PKQPASGGTLHKSNFILGVWTILACAAEVFLTSA"
+                     /Pfam="UbiA_PT"
      CDS             join(16898..17410,17458..17757)
                      /codon_start=1
                      /locus_tag="FGRAMPH1_01T15659"
                      /product="short-chain dehydrogenase/reductase DpfgG"
-                     /label=dpfgG
+                     /label="dpfgG"
                      /note="unnamed protein product"
                      /db_xref="EnsemblGenomes-Gn:FGRAMPH1_01T15659"
                      /db_xref="GOA:A0A098DL10"
@@ -216,13 +220,13 @@ FEATURES             Location/Qualifiers
                      PVGDVDPELWDRVLAVNLTAPLLLSKLAVQGMLLQENTNGSIINIASGSAKAGWLAGKH
                      PITMQTLKHGLIGLTKSTAAFYGTKGIRCNALMLGIIGGTNLNDAFQNGVHPEGRQKLG
                      EILSGVRPLPCDVKDIAELCVSLATGPGWNVVNGAVIAVDRGWTSIVG"
+                     /Pfam="adh_short_C2"
      CDS             join(17866..18383,18452..18662)
                      /codon_start=1
                      /locus_tag="FGRAMPH1_01T15659"
                      /product="terpene cyclase DpfgB"
-                     /label=dpfgB
-                     /note="unnamed protein product
-                     revised sequence"
+                     /label="dpfgB"
+                     /note="unnamed protein product revised sequence"
                      /db_xref="EnsemblGenomes-Gn:FGRAMPH1_01T15659"
                      /db_xref="GOA:A0A098DL10"
                      /db_xref="InterPro:IPR002347"
@@ -234,12 +238,13 @@ FEATURES             Location/Qualifiers
                      SPLVLRNLPLIFIICVSGFMSGHVALAAQVGPSLAQAWSAYGCQLLLSVGGLCQLLCRG
                      HSRGASYFLWFSRFFGSLVLVPQDILRYKYWRVDHEYMGSPLYIWFVCIFLLLDGSYGI
                      CLWYVRRFERQTAVAHKKKK"
+                     /Pfam="Pyr4"
      CDS             complement(join(18924..19376,19432..19802,19855..20138,
                      20194..20486))
                      /codon_start=1
                      /locus_tag="FGRAMPH1_01T15661"
                      /product="FAD-dependent monooxygenase DpfgE"
-                     /label=dpfgE
+                     /label="dpfgE"
                      /note="unnamed protein product"
                      /db_xref="EnsemblGenomes-Gn:FGRAMPH1_01T15661"
                      /db_xref="GOA:A0A098DME4"
@@ -256,13 +261,14 @@ FEATURES             Location/Qualifiers
                      ELLLENKGMKPTFRDIEVLLRRFNRMHLSRVSDIFNMSWLVARVHAQDGLLRKIIGRYV
                      MPYLGGRFDSRPFRMIADAAALDFLPLPRSSFPGWKMYKSREGGVVRNVFFLLAATVIV
                      AWVCRLWA"
+                     /Pfam="FAD_binding_3"
      CDS             join(21485..21652,21715..21832,21922..22045,22100..22551,
                      22611..22827,22964..23021)
                      /codon_start=1
                      /locus_tag="FGRAMPH1_01T15663"
                      /old_locus_tag="FGSG_04596"
                      /product="methyltransferase DpfgI"
-                     /label=dpfgI
+                     /label="dpfgI"
                      /note="unnamed protein product"
                      /db_xref="EnsemblGenomes-Gn:FGRAMPH1_01T15663"
                      /db_xref="GOA:I1RL18"
@@ -279,6 +285,7 @@ FEATURES             Location/Qualifiers
                      PDRVLFVDIGGGMGHQCIRLRGKYSDIPGRVVLQDMPITVERIPKPMPHGIEAMPYNFE
                      EPQPIKNAKFYYTRNVLHGLTDSASIAALKNVAAAMGTESLLVIDDLIIPDEGACTQAC
                      QLDFVMMASIAGKKRTRDQWEDKRKYNEYKCKRNSQFL"
+                     /Pfam="Methyltransf_2"
 ORIGIN
         1 tcaccgccat gccgtgatta atcgaaactg ctcagattcg cggtagccat cgtcggtcca
        61 gtcaacgtgg atgaagcccg cgtccaacag cgtcgacttc catttatgct catcggccag

@@ -1,28 +1,28 @@
-LOCUS       FBGC00232        9195 bp DNA     linear   UNA 27-JAN-2023
+LOCUS       FBGC00232               9195 bp    DNA     linear   UNA 27-JAN-2023
 DEFINITION  diorcinol.
 ACCESSION   FBGC00232
-VERSION     .
+VERSION     FBGC00232
 KEYWORDS    .
 SOURCE      Aspergillus nidulans FGSC A4
   ORGANISM  Aspergillus nidulans FGSC A4
+            .
 REFERENCE   1  (bases 1 to 9195)
   AUTHORS   Feng C, Wei Q, Hu C, Zou Y.
   TITLE     Biosynthesis of Diphenyl Ethers in Fungi.
   JOURNAL   Org Lett 2019;21:3114-3118
-  PUBMED    30990700
+   PUBMED   30990700
 REFERENCE   2  (bases 1 to 9195)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Jan 27, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1021/acs.orglett.9b00768"; journalName: "Org Lett"; date: 
+  JOURNAL   Exported Jan 27, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1021/acs.orglett.9b00768"; journalName: "Org Lett"; date:
             "2019"; volume: "21"; pages: "3114-3118"
-COMMENT     Aspergillus nidulans FGSC A4 CADRE,
+            Aspergillus nidulans FGSC A4 CADRE,
             updated by Eurofungbase with contributions from
             CADRE (http://www.cadre-genomes.org.uk),
             AspGD (http://www.aspergillusgenome.org) and
-              Ensembl Genomes (http://www.ensemblgenomes.org).
+            Ensembl Genomes (http://www.ensemblgenomes.org).
 FEATURES             Location/Qualifiers
      source          1..9195
                      /chromosome="II"
@@ -35,7 +35,7 @@ FEATURES             Location/Qualifiers
                      /locus_tag="ANIA_07909"
                      /old_locus_tag="AN7909.4"
                      /product="polyketide synthase AN7909"
-                     /label=AN7909
+                     /label="AN7909"
                      /note="transcript_id=CADANIAT00003928"
                      /db_xref="EnsemblGenomes-Gn:CADANIAG00003928"
                      /db_xref="EnsemblGenomes-Tr:CADANIAT00003928"
@@ -92,20 +92,23 @@ FEATURES             Location/Qualifiers
                      DMRAPSLIPTSIVTTDFVDKLGTFEGINRARDLPEDLSVKERAHLMATCRALSRYDAPA
                      FPSDRQPKQVAVVWALLGLDNRPDAPIASMGRPGLDIGKSMYEMNLDEFERYFNSWFYG
                      RRQQFGTNGWEDLLGDHIAVYTVNGDHFSMMCPPYASEVGDIVIETVTRAVE"
+                     /Pfam="SAT2, PKS_KS, PKS_AT, fPKS_PT, ACP_PCP,
+                     Thioesterase"
      CDS             join(7327..7457,7509..8019)
                      /codon_start=1
                      /product="decarboxylase AN7910"
-                     /label=AN7910
+                     /label="AN7910"
                      /translation="MATEIAEITNLLKRERYYRDTAQWELCRDAYHPDASMTYIDVSWF
                      QGNIDEFLERSARVHQGRVNVIHSSFDPVDVQVRGRRATSAAFCLITSSITLDGVEYEL
                      ASYMRLLSRLQKLSDAGPWRILRLEAIYVRDRLVCSFPGRDAAAPLVIPEKALAYPTPY
                      RCMAFVMLHRGLEPRVDLPNEDDQDSVRRVVEGNVAFLSGAEDIVEGTVA"
+                     /Pfam="SnoaL_4"
      CDS             complement(join(8133..8929,8997..9195))
                      /codon_start=1
                      /locus_tag="ANIA_07911"
                      /old_locus_tag="AN7911.4"
                      /product="decarboxylase AN7911"
-                     /label=AN7911
+                     /label="AN7911"
                      /note="transcript_id=CADANIAT00003929"
                      /db_xref="EnsemblGenomes-Gn:CADANIAG00003929"
                      /db_xref="EnsemblGenomes-Tr:CADANIAT00003929"
@@ -119,6 +122,7 @@ FEATURES             Location/Qualifiers
                      RMAENFMGSYPVPVGISLGGPGWGWHPDVGLHVLKLFAAGVFDRFPRLKIIVGHMGEML
                      PYMLERASDMSTRWGGWGPRDRPLRQVWDENIWITTSGSWSLAPLKCILHNTKVERIMY
                      SVDYPFESNERGLEWFKELEGSGLLTEEQLEMVAYRNAEDLLKVHMKKEQ"
+                     /Pfam="Amidohydro_2"
 ORIGIN
         1 ctattccacc gcccgagtca cagtttcaat aacaatatca ccaacctcac ttgcataggg
        61 cgggcacatc atggagaagt gatctgaagg ccaagttagt aagttaccat agatgggggc

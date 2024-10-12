@@ -1,29 +1,29 @@
-LOCUS       FBGC00230       22010 bp DNA     linear   UNA 27-JAN-2023
+LOCUS       FBGC00230              22010 bp    DNA     linear   UNA 27-JAN-2023
 DEFINITION  oosporein.
 ACCESSION   FBGC00230
-VERSION     .
+VERSION     FBGC00230
 KEYWORDS    .
 SOURCE      Beauveria bassiana ARSEF 2860
   ORGANISM  Beauveria bassiana ARSEF 2860
+            .
 REFERENCE   1  (bases 1 to 22010)
   AUTHORS   Feng P, Shang Y, Cen K, Wang C.
-  TITLE     Fungal biosynthesis of the bibenzoquinone oosporein to evade insect 
+  TITLE     Fungal biosynthesis of the bibenzoquinone oosporein to evade insect
             immunity.
   JOURNAL   Proc Natl Acad Sci U S A 2015;112:11365-70
-  PUBMED    26305932
+   PUBMED   26305932
 REFERENCE   2  (bases 1 to 22010)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Jan 27, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1073/pnas.1503200112"; journalName: "Proc Natl Acad Sci U S A"; 
-            date: "2015"; volume: "112"; pages: "11365-70"
+  JOURNAL   Exported Jan 27, 2023 from SnapGene 6.2.1 https://www.snapgene.com
 COMMENT     ##Genome-Assembly-Data-START##
             Assembly Method       :: Newbler v. 2.3
             Genome Coverage       :: 28X
             Sequencing Technology :: 454
             ##Genome-Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1073/pnas.1503200112"; journalName: "Proc Natl Acad Sci U S A";
+            date: "2015"; volume: "112"; pages: "11365-70"
 FEATURES             Location/Qualifiers
      source          1..22010
                      /chromosome="Unknown"
@@ -39,7 +39,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="BBA_08179"
                      /product="polyketide synthase OpS1"
-                     /label=OpS1
+                     /label="OpS1"
                      /protein_id="EJP62792.1"
                      /translation="MPSFFPVFSGLGSGSVFSEENVGRAEENALSPECAVLLQSCHRTF
                      REQVSDAIARNILPEDSIDLDDFAEPASLIRPLSKYSRNVVMQHAALYLHQILAYMTSQ
@@ -79,11 +79,13 @@ FEATURES             Location/Qualifiers
                      LSESIISAVTAQPAEKDAAAGSTTASKCVSPVASAIRKLVQQSFRICAGLIGDFGTSAE
                      LQQRGLSNKPVGPVPRVILLRSAVGWTPPRGYTGAAVEEMENPWLQDRRDRSLATAGWE
                      ILTGGPIQCLDIPGNHFQVFDAPNIAAVSAALVDACSEFELK"
+                     /Pfam="SAT2, PKS_KS, PKS_AT, fPKS_PT, ACP_PCP,
+                     Thioesterase, Abhydrolase_6"
      CDS             complement(join(8234..8512,8571..9529,9730..9919))
                      /codon_start=1
                      /locus_tag="BBA_08180"
                      /product="major facilitator superfamily transporter OpS2"
-                     /label=OpS2
+                     /label="OpS2"
                      /protein_id="EJP62793.1"
                      /translation="MDEKLAEGTSQPTAAPRRRLLDRILLIGTKEDAKLYKDGEKWLFT
                      AIVSLAAAVAPLGSAMLMLSGTVANLSVALYALSMAIIPLWWSVLSEAYGRRPIYLVSF
@@ -94,13 +96,14 @@ FEATURES             Location/Qualifiers
                      SGNPKFRPSDRMCENAWIPAFVFPAALLVFGWTTHEGIFWFAPIVVTFFFGLGNSLIFN
                      TATTMLTEILPGKASNAVALNNLMRNTLSCAAAVATDPLLGAIGTQWLFTGLAVICWAS
                      SGVIWALKRHSDKAPSA"
+                     /Pfam="MFS_1"
      gap             9591..9690
                      /estimated_length=100
      CDS             11826..14051
                      /codon_start=1
                      /locus_tag="BBA_08181"
                      /product="transcription factor OpS3"
-                     /label=OpS3
+                     /label="OpS3"
                      /protein_id="EJP62794.1"
                      /translation="MFYTFNAVMTDVVSAGRPARGQSTTTRSRNTQQSAPTSQNFRACR
                      RCRQHRIKCSEKPCEPCRANNSKCVWTEEKPTAAVLTPISPANLAANRPMMAPAAGSTI
@@ -115,12 +118,13 @@ FEATURES             Location/Qualifiers
                      CSSDASITKHAESAFSRACSVLSMLHSIYSRSDILDRLTMVLPFIWNAIITIAAYVFVG
                      SADDDKKTQLLKAMNNALAILEPLARINPDSLKVYQISQALAAELREASGGTDVVAMPP
                      PPSAATSTSTTFTDDLFKSTFTGSLDLDEFLNDEVTMTDDFSELYSF"
+                     /Pfam="Fungal_trans"
      CDS             complement(join(14391..14475,14655..14752,14820..15009,
                      15058..15106,15158..15213,15338..16143))
                      /codon_start=1
                      /locus_tag="BBA_08182"
                      /product="FAD-dependent monooxygenase OpS4"
-                     /label=OpS4
+                     /label="OpS4"
                      /protein_id="EJP62795.1"
                      /translation="MGSIREPLHLVVIGGGLAGLSAAIATRLEGHRCTLLEKAPEFNEV
                      GAGLQLTPNSTRLLRRWGVLDKLRSKAGIPTQLTVRRYDGSKVLSRADGWDETMQSQYD
@@ -130,6 +134,7 @@ FEATURES             Location/Qualifiers
                      KWRLMHMPSLPKWNHESGYFTMAGDSCHPMLPYLAQGANSAMEDGAVLGRLLGSIHEAS
                      RIPDVLAVYQEIRKVRVEKIAKQALKQRYNFHMPDGPLQEARDEAMTTHQQREEEYASQ
                      WTCPIMQPWLYGYDAIAVADSAVANTKL"
+                     /Pfam="FAD_binding_3"
      gap             14512..14611
                      /estimated_length=100
      CDS             join(17127..17390,17456..17531,17582..17700,17760..17810,
@@ -137,7 +142,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="BBA_08183"
                      /product="laccase OpS5"
-                     /label=OpS5
+                     /label="OpS5"
                      /protein_id="EJP62796.1"
                      /translation="MMRPWTILIASSWLSLAAASASASACAAKPSVAAEIASIDHDNCE
                      HGPNSRGCWGDYSINTNYYEQAPDTGVTREYWFVVENITMAPDGYEQHVLAINRSIPGP
@@ -150,21 +155,23 @@ FEATURES             Location/Qualifiers
                      QWVYIVFNDISERNRSHPMHLHGHDFFLLGTGEGNFTKDSPLQLKNPPRRDTASWPKRG
                      YMVFAYKTDNPGAWLIHCHIAWHSSQGLGMQMLERPGEMTYTEDEDQALHQTCQSWNKF
                      YESPEQYIQEDSGI"
+                     /Pfam="Cu-oxidase_3, Cu-oxidase, Cu-oxidase_2"
      CDS             complement(join(19672..20118,20180..20389))
                      /codon_start=1
                      /locus_tag="BBA_08184"
                      /product="glutathione-S-transferase OpS6"
-                     /label=OpS6
+                     /label="OpS6"
                      /protein_id="EJP62797.1"
                      /translation="MASLQPIKLYAHKKGPNPWKVALILEELGLPYETTYLEFPDAKVE
                      PYISLNPNGKLPAIQDPNHSIELFESGAIIEYLIEQYDKDGKLSHESLQDKSLARAWLH
                      LQMSAQAPVIGYKVWMGRTYDASQIVSANEFLTLEIKRVLGVLDKHLAKMGGPYLLGSK
                      VSYADLAFVPHYMMLPLFVPDYDPATEYPHFAAWLAALKERPAVKKIAATKAALA"
+                     /Pfam="GST_N_3, GST_C_3"
      CDS             join(20954..21003,21063..21522,21603..22010)
                      /codon_start=1
                      /locus_tag="BBA_08185"
                      /product="cupin domain-containing protein OpS7"
-                     /label=OpS7
+                     /label="OpS7"
                      /protein_id="EJP62798.1"
                      /translation="MGFVPITLSAGQNPLTQFDGKIETHFLEPPAGTAFQIMQIYKPLP
                      KGDKSGAYRGPPPHFHLHQTERFKVIKGRVGIEVNDKVTVLRPKDGVAICPAGNIHRFI
@@ -172,6 +179,7 @@ FEATURES             Location/Qualifiers
                      DFIQQCATFDGGDHYLPFPATLPEWVPMSWSVAIRTFLGFWVTVIIGRYVGGLLGYQPF
                      YREYTTDWELAVAKMQGTWFYRRNVQTAYRAATSWKELREMVPYSDEGAANMGLADAKV
                      GNGAAVKKAINDRAANNGEDKKNL"
+                     /Pfam="PatJ"
 ORIGIN
         1 ctacttcaac tcaaactccg agcaggcatc aaccagagcc gcagacacgg ccgcgatatt
        61 tggcgcatca aatacttgaa aatgattgcc gggaatatcc aaacactgaa tcggtcctcc

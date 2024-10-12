@@ -1,29 +1,30 @@
-LOCUS       FBGC00216       19854 bp DNA     linear   UNA 26-JAN-2023
+LOCUS       FBGC00216              19854 bp    DNA     linear   UNA 26-JAN-2023
 DEFINITION  satratoxin.
 ACCESSION   FBGC00216
-VERSION     .
+VERSION     FBGC00216
 KEYWORDS    .
 SOURCE      Stachybotrys chartarum IBT 7711
   ORGANISM  Stachybotrys chartarum IBT 7711
+            .
 REFERENCE   1  (bases 1 to 19854)
   AUTHORS   Semeiks J, Borek D, Otwinowski Z, Grishin NV.
-  TITLE     Comparative genome sequencing reveals chemotype-specific gene 
+  TITLE     Comparative genome sequencing reveals chemotype-specific gene
             clusters in the toxigenic black mold Stachybotrys.
   JOURNAL   BMC Genomics 2014;15:590
-  PUBMED    25015739
+   PUBMED   25015739
 REFERENCE   2  (bases 1 to 19854)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Jan 26, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1186/1471-2164-15-590"; journalName: "BMC Genomics"; date: 
-            "2014"; volume: "15"; pages: "590"
+  JOURNAL   Exported Jan 26, 2023 from SnapGene 6.2.1 https://www.snapgene.com
 COMMENT     ##Genome-Assembly-Data-START##
             Assembly Method       :: SOAPdenovo v. 1.05
             Assembly Name         :: S7711v1
             Genome Coverage       :: 199.0x
             Sequencing Technology :: Illumina HiSeq ##Genome-Assembly-Data-END##
+            ##Genome-Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1186/1471-2164-15-590"; journalName: "BMC Genomics"; date:
+            "2014"; volume: "15"; pages: "590"
 FEATURES             Location/Qualifiers
      source          1..19854
                      /chromosome="Unknown"
@@ -32,7 +33,7 @@ FEATURES             Location/Qualifiers
                      /country="Denmark"
                      /isolation_source="building materials"
                      /collected_by="Andersen et al"
-                     /collection_date=2002
+                     /collection_date="2002"
                      /db_xref="taxon:1280523"
                      /culture_collection="IBT:7711"
                      /organism="Stachybotrys chartarum IBT 7711"
@@ -42,7 +43,7 @@ FEATURES             Location/Qualifiers
                      /gene="SAT11"
                      /locus_tag="S7711_09749"
                      /product="cytochrome P450 monooxygenase SAT11"
-                     /label=SAT11
+                     /label="SAT11"
                      /protein_id="KEY67210.1"
                      /translation="MTIPTSFEMLKGMHIKDAFLLIAMLYLGYLLCICFYNIYLHPLRH
                      IPGSKLAVMGPYLEFYHEVIRQGQYLWEIEKMHDKYGPIVRVNEREIHIRDSSYYHTIY
@@ -54,13 +55,14 @@ FEATURES             Location/Qualifiers
                      IPAGTPLSMSTYFVHTDKELYPEPEKFKPERWIQAAEENIPLKKFLTNFSQGSRQCIGI
                      SMSFAEMYLTISRVARAYNFELYETTAADLDMTYARIVPYPKEIPGKTEGLGEIRVKIV
                      GKNHSQIEE"
-     CDS             complement(join(3527..3659,3723..3980,4041..4053,4105..4519,
-                     4601..5503))
+                     /Pfam="p450"
+     CDS             complement(join(3527..3659,3723..3980,4041..4053,
+                     4105..4519,4601..5503))
                      /codon_start=1
                      /gene="SAT12"
                      /locus_tag="S7711_09750"
                      /product="acetyltransferase SAT12"
-                     /label=SAT12
+                     /label="SAT12"
                      /protein_id="KEY67211.1"
                      /translation="MLDDDCSPTSSSEMSNASSREASITSRSSSTSGNNSLPEDRGAVV
                      QLPTLNPSDYRWHPFPGDSSVLQRKAIGVEALVGIRDANSRGEYDFYNNIVLRVGNALE
@@ -72,12 +74,13 @@ FEATURES             Location/Qualifiers
                      AVVELQKLASWGIKSDNLNGVKVALDDLAKKVKEDYDYWLTNLVAWRFKSSCTSEFIAF
                      GSAIYQTPYLDPGAPKVKVGTGTSTDMVFLKAFCNDGRAESIIAYTMHGPSGKELFQVD
                      DCFGGVDVLGSNAFIRMDTWKDAIRLTLCYNSGCFSDAVANSFTTDVAQYMLAYSW"
+                     /Pfam="Tri3"
      CDS             join(6216..6497,6568..13437)
                      /codon_start=1
                      /gene="SAT13"
                      /locus_tag="S7711_09751"
                      /product="polyketide synthase SAT13"
-                     /label=SAT13
+                     /label="SAT13"
                      /protein_id="KEY67212.1"
                      /translation="MSGPNPVPLAIVGIACRFPGDATNPERFWDLLANARSGWSRVPND
                      RWNEEAFWHPDPDDTNGTNNHMGGHFLNQDLARFDAGFFNVTPQEAASMDPQQRLLLET
@@ -120,12 +123,14 @@ FEATURES             Location/Qualifiers
                      PVIGFTAETIVSTTAVNGTAHTPMFTHVRQKPTAKTTVGNVNEKRSFKDIVNSGTNKGE
                      ISEFVARSICDKIADLTGIDLAEVNLDSGISDYGLDSLVSIELRNWLMREFDSPIQSSE
                      VLDSHGIRDLAQKVVSRSRLVTTETDVVHTVNGEAPT"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_DH, PKS_NRPS_MT, fPKS_ER,
+                     fPKS_KR, ACP_PCP"
      CDS             complement(14295..15662)
                      /codon_start=1
                      /gene="SAT14"
                      /locus_tag="S7711_09752"
                      /product="acetyltransferase SAT14"
-                     /label=SAT14
+                     /label="SAT14"
                      /protein_id="KEY67213.1"
                      /translation="MATIPIRLQALATDQTVLKLPHPYKTEFAVRKASKASTKLPVYNL
                      VPKPFPTRPLPFELHNDHLVFTDAIHLKSSELPPDSNNGAWARARRAPCVTLYWDGVEV
@@ -135,12 +140,13 @@ FEATURES             Location/Qualifiers
                      WQSDPRVLQGWTETKTLDQHRRYLEALHKDPHQLTVLAKWDDSPFAYFELYWAKENRLG
                      GYIDAGDFDRGRHSFVGDVRFRGPLRVSAWWSSLMHYLFLDDPRTMHIVGEPRDTHSTV
                      LMYDFIHGFGLDRFIDLPSKRSAFMRCSRDRFFQSFPLEDSEKVIGGTSIRVVQKL"
+                     /Pfam="Acetyltransf_8"
      CDS             16137..17606
                      /codon_start=1
                      /gene="SAT15"
                      /locus_tag="S7711_11460"
                      /product="transcription factor SAT15"
-                     /label=SAT15
+                     /label="SAT15"
                      /note="revised sequence"
                      /protein_id="KEY67214.1"
                      /translation="MTTPPGWKVSGQNEISRPFDILEAWFHRIVGGGNLTRERDSFGSN
@@ -152,17 +158,19 @@ FEATURES             Location/Qualifiers
                      LDLARKIGTKYATDLSDVVKDDNGRPISFLDMLGPWIDRYTQVISGLSFGSSTFRSPAV
                      SSLGLMENFVQRKYPFGDCPSEQVEIQDLWWSVDVLDQGAYFHISTFRDQLRLQVCFNQ
                      SYYTDQFMGQVIQRIMDEVVQGLGIKSQAKM"
+                     /Pfam="LolU"
      CDS             join(19013..19040,19163..19622,19677..19710,19822..19854)
                      /codon_start=1
                      /gene="SAT16"
                      /locus_tag="S7711_09753"
                      /product="truncated acetyltransferase SAT16"
-                     /label=SAT16
+                     /label="SAT16"
                      /protein_id="KEY67215.1"
                      /translation="MVELNPVTITNDNATPRGHVLKLILVESRDIIRAVKTRLCPQYTI
                      SYLAQAATVIAMLDTYSSKSELSKPDFFVALTVVNGRRYLREDLESNYLAGYVTGAPIK
                      IEKLRSLLVSLDDSKDIIVSALEKAAKDAKRRLDMWIYDQSQLATGFRIHSFKGAMSSE
                      NPELFKKTAVPYLSSYGINEV"
+                     /Pfam="Tri3"
 ORIGIN
         1 atgacaatcc caacgagctt cgagatgctg aaaggcatgc atatcaagga cgccttctta
        61 ttgatagcaa tgttgtacct cggctatcta ttatgtatat gcttctacaa catctacctt

@@ -1,24 +1,24 @@
-LOCUS       FBGC00207       25194 bp DNA     linear   UNA 09-MAY-2023
+LOCUS       FBGC00207              25194 bp    DNA     linear   UNA 09-MAY-2023
 DEFINITION  azasperpyranone A.
 ACCESSION   FBGC00207
-VERSION     .
+VERSION     FBGC00207
 KEYWORDS    .
 SOURCE      Aspergillus terreus NIH2624
   ORGANISM  Aspergillus terreus NIH2624
+            .
 REFERENCE   1  (bases 1 to 25194)
   AUTHORS   Huang X, Zhang W, Tang S, Wei S, Lu X.
-  TITLE     Collaborative Biosynthesis of a Class of Bioactive Azaphilones by 
-            Two Separate Gene Clusters Containing Four PKS/NRPSs with 
+  TITLE     Collaborative Biosynthesis of a Class of Bioactive Azaphilones by
+            Two Separate Gene Clusters Containing Four PKS/NRPSs with
             Transcriptional Crosstalk in Fungi.
   JOURNAL   Angew Chem Int Ed Engl 2020;59:4349-4353
-  PUBMED    31908094
+   PUBMED   31908094
 REFERENCE   2  (bases 1 to 25194)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported May 9, 2023 from SnapGene 6.2.2
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1002/anie.201915514"; journalName: "Angew Chem Int Ed Engl"; 
+  JOURNAL   Exported May 9, 2023 from SnapGene 6.2.2 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1002/anie.201915514"; journalName: "Angew Chem Int Ed Engl";
             date: "2020"; volume: "59"; pages: "4349-4353"
 FEATURES             Location/Qualifiers
      source          1..25194
@@ -30,7 +30,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="ATEG_03629"
                      /product="polyketide synthase ATEG_03629"
-                     /label=ATEG_03629
+                     /label="ATEG_03629"
                      /note="similar to polyketide synthase"
                      /protein_id="EAU35431.1"
                      /translation="MTPTLLLCGSQAIQWSEDYLSSLREMLLADSALQPLVHAIRDLPQ
@@ -78,11 +78,13 @@ FEATURES             Location/Qualifiers
                      RGQMMPVLLDGLPSKKTLLEAGGDASPSKWMDLPQPSVDRLRAVSPYAQIVQGNYRVPT
                      FLVHGTRDDLIPWEQSVRTKDALTSQGVAAGVAVVDDAVHLFDLYRDPEGRYWNAVLEG
                      YEFLLRHL"
+                     /Pfam="SAT2, PKS_KS, PKS_AT, fPKS_PT, ACP_PCP, HTH_51,
+                     PKS_NRPS_MT, Abhydrolase_3, Peptidase_S9"
      CDS             complement(join(8515..8943,8994..10988,11041..11826))
                      /codon_start=1
                      /locus_tag="ATEG_03630"
                      /product="NRPS-like carboxylic acid reductase ATEG_03630"
-                     /label=ATEG_03630
+                     /label="ATEG_03630"
                      /protein_id="EAU35432.1"
                      /translation="MSPIAIDTAPFQRARVNLLHPEDPKAVKSIVQLLQFNAEHNPDHV
                      FCLQLPSKQDDAIGNPIRITHLQFYRAVSYCTQRLQEEIDGLHGPRVNEDGTVTKCSPV
@@ -103,12 +105,13 @@ FEATURES             Location/Qualifiers
                      WIAVDNAATVLSDILFAPSLSGIYHLENPIRQAWQDVLDIFASSLYINTVNVPFDQWLR
                      NVQAAVQELGTEDERMEYDLLAEFLEKDFQRMATGKVILDTSRSRAVSETLREVGEISE
                      EVVWKYVREWRRAGTLRAPLE"
+                     /Pfam="AA-adenyl-dom, ACP_PCP, fPKS_R"
      CDS             complement(join(12245..12376,12425..12872,12921..13144,
                      13195..13557,13604..13915))
                      /codon_start=1
                      /locus_tag="ATEG_03631"
                      /product="cytochrome P450 monooxygenase ATEG_03631"
-                     /label=ATEG_03631
+                     /label="ATEG_03631"
                      /protein_id="EAU35433.1"
                      /translation="MALLEDIINFATLNPMVVVAIPVFLFVISLLRSYLRLAHIPGPFA
                      AGWTNLPRFSWVLSFKAHDIHTALHRKYGPLVRFGPNMVSVGDPKEVGHIYGFTDPWMK
@@ -119,23 +122,25 @@ FEATURES             Location/Qualifiers
                      ELDQAAAAGNLDDLASWKQTRELPYLDAVIKEGGRIHPPFGLPYERVVPAQGATICGKF
                      LPGGTLVGMSAWVVHRNKELYGEDCDEWNPDRWLKCDTEKRRKMENALLTFGAGHRTCM
                      GKHIAYLEMYKVVPTLLRKYDVSRLLCFLVSRTG"
+                     /Pfam="p450"
      CDS             complement(join(14063..14437,14488..14850))
                      /codon_start=1
                      /locus_tag="ATEG_03632"
                      /product="short-chain dehydrogenase/reductase ATEG_03632"
-                     /label=ATEG_03632
+                     /label="ATEG_03632"
                      /protein_id="EAU35434.1"
                      /translation="MSLTGKVAIITGGSKGIGKAAALRLAQEGASVAIGYHSDASGAHE
                      VVEKVGADRAIAVQLNAGKVAEISQFVDQTVEKFGKIDLVIAAAGKMTMSPVEALTEDV
                      FDSLFELNVKGPMFLVQKAVPHMAPGSHVVLFSTTLCAASMVAPPYVSYVASKGAIEQM
                      TRVLSKDLGRKGIAVNCIAPGPTATELFNRVQTEQTLAFLRSANPNGRIGEPEDIAGSI
                      VFLCSSDSRWVMGQTLRVNGGMA"
+                     /Pfam="adh_short_C2"
      CDS             join(15145..15357,15403..15692,15737..16051,16100..16526)
                      /codon_start=1
                      /locus_tag="ATEG_03633"
-                     /product="major facilitator superfamily transporter 
+                     /product="major facilitator superfamily transporter
                      ATEG_03633"
-                     /label=ATEG_03633
+                     /label="ATEG_03633"
                      /note="revised sequence"
                      /protein_id="EAU35435.1"
                      /translation="MAEEKQVDNSPDPSDFPDGGWKAWSVVLGAWSCLFCSFGWVNSIG
@@ -146,11 +151,12 @@ FEATURES             Location/Qualifiers
                      WLGDRMGRFNIAILTTGLSAILGLALWIPATHSAVTIVFAALFGFSSGTFVSITPALIQ
                      QLSAVQNVGIRLGTCFGIMSLATFTGNPIAGALIAKDNGGYLYLKIFSGVTMAAGCGML
                      LVSRTIQAGLNWKKI"
+                     /Pfam="MFS_1"
      CDS             complement(16789..17748)
                      /codon_start=1
                      /locus_tag="ATEG_03634"
                      /product="short-chain dehydrogenase/reductase ATEG_03634"
-                     /label=ATEG_03634
+                     /label="ATEG_03634"
                      /protein_id="EAU35436.1"
                      /translation="MPNVFILGGSGYVGLALAKSLLAAGTYTVWGTARTPEKAKLLLQN
                      EIHPVEEDITDAAKLAAIIADHSIDVVVDCTSAYEQAASILKGVVDAATARRDALKKEG
@@ -158,12 +164,13 @@ FEATURES             Location/Qualifiers
                      LDVAILRPCAMYGRTSWVWGTWWGGLLAAKKSGSQDTIQVPADITARTGTLHVDDAAAA
                      FHAAIDRLDGRLGSWPVFDLVTETIGVQEIMEAAKAALGVTAKLEYAGTHGNPFLEALS
                      LVSKSDASRARTVLGWEPRRKEFILNLPLYIQAWEASQ"
+                     /Pfam="Epimerase"
      CDS             join(18248..18521,18571..18636,18689..19271,19326..19528,
                      19575..19641,19701..20625)
                      /codon_start=1
                      /locus_tag="ATEG_03635"
                      /product="conserved hypothetical protein ATEG_03635"
-                     /label=ATEG_03635
+                     /label="ATEG_03635"
                      /protein_id="EAU35437.1"
                      /translation="MASTLPPQTWEAGYARPADQASWEAETNYVAESGERAHWMLPVHT
                      EPPTSTIGNGLGLTHLRTWPSIYDGTATGKPEWFKPSKEVDVLICGAGPFGLELGLILA
@@ -178,24 +185,26 @@ FEATURES             Location/Qualifiers
                      RLAVLAGELRKREGFYERFGGREMFNLILVVKTLSHQTAELLEGDLAPLKDHATTVYDD
                      RAPDDDAHYWYGVNHARGALVVVRPDLAVGVSVWPEEIGKLNKYFASFLLECEETLPTK
                      KSLLARLWDAL"
+                     /Pfam="FAD_binding_3, Phe_hydrox_dim"
      CDS             complement(join(21202..21323,21380..21517,21567..21809,
                      21851..22043))
                      /codon_start=1
                      /locus_tag="ATEG_03636"
                      /product="conserved hypothetical protein ATEG_03636"
-                     /label=ATEG_03636
+                     /label="ATEG_03636"
                      /protein_id="EAU35438.1"
                      /translation="MQLLTIVWTSLAAGIMATATPTSLPLCSMVDRPCKCPPGTTFKNL
                      TTYGVIGAPARDVQDIMGSSAVFDLQFQGGLVPSSTKGKDNVPGAVRSFNFSGPAGYYV
                      ISEQVCLRLRMNSGHVADVYKLTKWKTSPDGSFNQQYQQSPKPPVVQVPGAGAYHGGWT
                      SIVGQQTVVRNETAIAWKNWRCETGETFPSATSHEGGITNTSAVLEKQGKLTGVSIAAF
                      TIFNEVRDD"
+                     /Pfam="ATEG_03636"
      CDS             join(22479..22566,22625..22734,22806..22911,23100..23178,
                      23227..23791)
                      /codon_start=1
                      /locus_tag="ATEG_03637"
                      /product="transcription factor ATEG_03637"
-                     /label=ATEG_03637
+                     /label="ATEG_03637"
                      /protein_id="EAU35439.1"
                      /translation="MTAMVAERRRWTPAEDALLRHEVCLQQERSPTGRPHRIDWNAIAM
                      KIPGRSNKDCRKRYHNQFAGCGPWSPEEDARLRALVRKYRCNWALIAQRMDTRTADLQV
@@ -203,11 +212,12 @@ FEATURES             Location/Qualifiers
                      ATPEHDLCIDQYLQLLPAEEAFDAHDKTFCNWALNAEDLVRVDQEQIGNFLHPDNLLMN
                      PSVLCADLNPDLPSWTDEAPPTFNGDQRESSSAHVETTTAVSDSGFSSDLPDEETSRIT
                      ITVEGAAPETILTVMKILFESNARVEFQRGQIDS"
+                     /Pfam="Myb_DNA-binding"
      CDS             complement(join(23869..24384,24445..24731,24993..25194))
                      /codon_start=1
                      /locus_tag="ATEG_03638"
                      /product="transcription factor ATEG_03638"
-                     /label=ATEG_03638
+                     /label="ATEG_03638"
                      /protein_id="EAU35440.1"
                      /translation="MGTVRFPHQISPSRYDDSNPGACMESAMTPYVVGFSLDGLVICYL
                      FGVPCMLQEVASAAPFRLGPGTSQTQGSVSWHEIASFLPGRTNKDCRKRWYGTTATKVN
@@ -215,6 +225,7 @@ FEATURES             Location/Qualifiers
                      DELLVCGVEQYGHCWQQIVSLYFPRRSSLSAKNRYHLLQRRLQNEAIRSIGNTADSDEM
                      IDLDSEMDVYVSDGGFIDTLPSITPLPAGDLGSESWGYPFPSSINEYYNPSPSAYPSAP
                      VTPPGSTMSRNPSRPASSHRRVTIQAVCSTDNLGDMFKAVTDLSISAVFKTDN"
+                     /Pfam="Myb_DNA-bind_6, Myb_DNA-binding"
 ORIGIN
         1 ctaaaggtgc ctcaacaaaa actcatatcc ctccaagaca gcgttccaat accgcccctc
        61 cgggtccctg tagagatcaa acaagtgcac cgcatcgtcc accacagcca ctccagctgc

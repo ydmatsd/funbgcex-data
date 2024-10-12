@@ -1,24 +1,24 @@
-LOCUS       FBGC00209       26307 bp DNA     linear   UNA 25-JAN-2023
+LOCUS       FBGC00209              26307 bp    DNA     linear   UNA 25-JAN-2023
 DEFINITION  oxosorbicillinol.
 ACCESSION   FBGC00209
-VERSION     .
+VERSION     FBGC00209
 KEYWORDS    .
 SOURCE      Penicillium rubens Wisconsin 54-1255
   ORGANISM  Penicillium rubens Wisconsin 54-1255
+            .
 REFERENCE   1  (bases 1 to 26307)
-  AUTHORS   Guzman-Chavez F, Salo O, Nygard Y, Lankhorst PP, Bovenberg RAL, 
+  AUTHORS   Guzman-Chavez F, Salo O, Nygard Y, Lankhorst PP, Bovenberg RAL,
             Driessen AJM.
-  TITLE     Mechanism and regulation of sorbicillin biosynthesis by Penicillium 
+  TITLE     Mechanism and regulation of sorbicillin biosynthesis by Penicillium
             chrysogenum.
   JOURNAL   Microb Biotechnol 2017;10:958-968
-  PUBMED    28618182
+   PUBMED   28618182
 REFERENCE   2  (bases 1 to 26307)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Jan 25, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1111/1751-7915.12736"; journalName: "Microb Biotechnol"; date: 
+  JOURNAL   Exported Jan 25, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1111/1751-7915.12736"; journalName: "Microb Biotechnol"; date:
             "2017"; volume: "10"; pages: "958-968"
 FEATURES             Location/Qualifiers
      source          1..26307
@@ -33,10 +33,10 @@ FEATURES             Location/Qualifiers
                      /gene="Pc21g05060"
                      /locus_tag="PCH_Pc21g05060"
                      /product="FAD-dependent monooxygenase SorC"
-                     /label=sorC
-                     /note="unknown EC_number=1.14.13.1;
-                     Title: strong similarity to salicylate hydroxylase nahW - 
-                     Pseudomonas stutzeri"
+                     /label="sorC"
+                     /note="unknown EC_number=1.14.13.1; Title: strong
+                     similarity to salicylate hydroxylase nahW - Pseudomonas
+                     stutzeri"
                      /db_xref="GOA:B6HN76"
                      /db_xref="InterPro:IPR002938"
                      /db_xref="InterPro:IPR003042"
@@ -54,15 +54,15 @@ FEATURES             Location/Qualifiers
                      FGPTVRSAVSMFPEKLEKWAVFDMLEAPVPTFAKGRVCLAGDAAHASTPNQGGGAGFGI
                      EDALVLAEVLAVLAEAPNVSGIVASEALAVYSEVRYERSQWLVRSSRRTGELCTWKDRD
                      WGLAAEELSRDIISRSHQLWDHDTAGMVSDALAILGERVRGADTAF"
+                     /Pfam="FAD_binding_3"
      CDS             complement(join(2192..5210,5260..9464,9518..10153))
                      /codon_start=1
                      /gene="Pc21g05070"
                      /locus_tag="PCH_Pc21g05070"
                      /product="polyketide synthase SorB"
-                     /label=sorB
-                     /note="Title: strong similarity to polyketide synthase
-                     like protein An09g01860 - Aspergillus niger
-                     revised sequence"
+                     /label="sorB"
+                     /note="Title: strong similarity to polyketide synthase like
+                     protein An09g01860 - Aspergillus niger revised sequence"
                      /db_xref="GOA:B6HN77"
                      /db_xref="InterPro:IPR001227"
                      /db_xref="InterPro:IPR006162"
@@ -131,16 +131,17 @@ FEATURES             Location/Qualifiers
                      FLFKSAQTLRSFPAVEGILTWLPLEQASATLADLLLRDAPDCHPVYHVDNPVRKPWAEI
                      VPVLAQALGIPEKGIVPLDDWLRRVKAFPGEDPWDNPAGKAIDFFEHKFQHMSCGGVTM
                      ATNNAVEHSPTLRGVQPVADAVVMKYFQVWKDTGFLR"
+                     /Pfam="SAT2, PKS_KS, PKS_AT, fPKS_PT, ACP_PCP, HTH_51,
+                     PKS_NRPS_MT, fPKS_R"
      CDS             join(11506..11715,11773..11859,11918..11975,12037..12370,
                      12428..18641,18703..19545)
                      /codon_start=1
                      /gene="Pc21g05080"
                      /locus_tag="PCH_Pc21g05080"
                      /product="polyketide synthase SorA"
-                     /label=sorA
-                     /note="unknown EC_number=2.1.1.-;
-                     Title: strong similarity to lovastatin diketide synthase 
-                     lovF - Aspergillus terreus"
+                     /label="sorA"
+                     /note="unknown EC_number=2.1.1.-; Title: strong similarity
+                     to lovastatin diketide synthase lovF - Aspergillus terreus"
                      /db_xref="GOA:B6HNK3"
                      /db_xref="InterPro:IPR001227"
                      /db_xref="InterPro:IPR009081"
@@ -215,13 +216,15 @@ FEATURES             Location/Qualifiers
                      SLLRAGRRVIDEDHVLGSLESAILSPFDPQFVVGGINSGPGPHWDLDGDLGRDMRVLPL
                      KYRPPAVTGQSQDDDSSSDSLAAKMIACESQGDAVRVVGTAIAEMLAEMFLVPIEDVDL
                      GQSPSQQGVDSLVAVEVRNMLFSQAGAEVSIFNIMQSPSLTQLAIDVVDRSAHVKLAG"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_DH, PKS_NRPS_MT, fPKS_ER,
+                     fPKS_KR, ACP_PCP"
      CDS             complement(join(19891..20446,20502..20852,20907..21879,
                      21957..21987,22104..22247))
                      /codon_start=1
                      /gene="Pc21g05090"
                      /locus_tag="PCH_Pc21g05090"
                      /product="transcription factor SorR2"
-                     /label=sorR2
+                     /label="sorR2"
                      /note="Title: weak similarity to positive regulator of
                      purine utilisation uaY - Aspergillus nidulans"
                      /db_xref="GOA:B6HNK4"
@@ -242,13 +245,14 @@ FEATURES             Location/Qualifiers
                      AMKPDTQPLHKSPSLSHRLLRESASMCIEAAQQVASLVNETLEPDEPIGLLPWWYRIYY
                      LHIAGANFLAAMFRSELFTDSVSQSWESVMLALRAHEHLSPYVQQCLWTFETLAARITG
                      KPYPSMDGGGCGLMVDGSSGVSFDDIFKDINFDFDNFIFGPEDFGEGLV"
+                     /Pfam="Fungal_trans"
      CDS             join(22517..22841,22956..24199)
                      /codon_start=1
                      /gene="Pc21g05100"
                      /locus_tag="PCH_Pc21g05100"
                      /product="major facilitator superfamily transporter SorT"
-                     /label=sorT
-                     /note="Title: strong similarity to membrane protein Tpo2 
+                     /label="sorT"
+                     /note="Title: strong similarity to membrane protein Tpo2
                      -Saccharomyces cerevisiae"
                      /db_xref="GOA:B6HNK5"
                      /db_xref="InterPro:IPR011701"
@@ -268,13 +272,14 @@ FEATURES             Location/Qualifiers
                      SAPFGFGCVLVILPIMNYLIDTYTIYAASVLAAAAIFRSVVGAVFPLFTTQMYHNLGIH
                      WASSIPAFLTLLCMPFPLIMYRYGEAVRMKCKYSFEAAEMMRKMQLQQTAAATTTEKDK
                      DSSSE"
+                     /Pfam="MFS_1"
      CDS             24892..26307
                      /codon_start=1
                      /gene="Pc21g05110"
                      /locus_tag="PCH_Pc21g05110"
                      /product="FAD-linked oxidoreductase SorD"
-                     /label=sorD
-                     /note="Title: strong similarity to hypothetical protein 
+                     /label="sorD"
+                     /note="Title: strong similarity to hypothetical protein
                      contig_1_54_scaffold_3.tfa_480wg - Aspergillus nidulans"
                      /db_xref="GOA:B6HNK6"
                      /db_xref="InterPro:IPR006094"
@@ -295,6 +300,7 @@ FEATURES             Location/Qualifiers
                      EVFKYLATTKNGTDLYAVTFAALGGAVRDVSASETAFYHRDASYFMFSFGRTSGDLTDT
                      TVQFLDGLSEVLTSGQPDAYYGQYVGNVDPRQSTDKALTGYYGKNLHRLQQIKSAVDPN
                      DVFHNQQSIPPLS"
+                     /Pfam="FAD_binding_4, BBE"
 ORIGIN
         1 tcagaatgca gtgtctgcgc ccctaactcg ctctcccaag atagccaaag cgtcgcttac
        61 cataccagca gtatcgtgat cccataattg atgactacgg ctaattatat cacgactcag
