@@ -1,33 +1,33 @@
-LOCUS       FBGC00557       18848 bp DNA     linear   UNA 07-APR-2023
+LOCUS       FBGC00557              18848 bp    DNA     linear   UNA 07-APR-2023
 DEFINITION  hancockinone A.
 ACCESSION   FBGC00557
-VERSION     .
+VERSION     FBGC00557
 KEYWORDS    .
 SOURCE      Aspergillus hancockii FRR 3425
   ORGANISM  Aspergillus hancockii FRR 3425
+            .
 REFERENCE   1  (bases 1 to 18848)
-  AUTHORS   Li H, Shu S, Kalaitzis JA, Shang Z, Vuong D, Crombie A, Lacey E, 
+  AUTHORS   Li H, Shu S, Kalaitzis JA, Shang Z, Vuong D, Crombie A, Lacey E,
             Piggott AM, Chooi YH.
-  TITLE     Genome Mining of Aspergillus hancockii Unearths Cryptic Polyketide 
+  TITLE     Genome Mining of Aspergillus hancockii Unearths Cryptic Polyketide
             Hancockinone A Featuring a Prenylated 6/6/6/5 Carbocyclic Skeleton.
   JOURNAL   Org Lett 2021;23:8789-8793
-  PUBMED    34747627
+   PUBMED   34747627
 REFERENCE   2  (bases 1 to 18848)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Apr 7, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1021/acs.orglett.1c03283"; journalName: "Org Lett"; date: 
-            "2021"; volume: "23"; pages: "8789-8793"
-COMMENT     Annotated using funannotate 
-            v1.5.2-3129958.##Genome-Assembly-Data-START##
+  JOURNAL   Exported Apr 7, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     ##Genome-Assembly-Data-START##
             Assembly Method        :: SPAdes v. 3.13.0
             Genome Representation  :: Full
             Expected Final Version :: Yes
             Genome Coverage        :: 123.614x
-            Sequencing Technology  :: Illumina HiSeq 
+            Sequencing Technology  :: Illumina HiSeq
             ##Genome-Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1021/acs.orglett.1c03283"; journalName: "Org Lett"; date:
+            "2021"; volume: "23"; pages: "8789-8793"
+            Annotated using funannotate
 FEATURES             Location/Qualifiers
      source          1..18848
                      /strain="FRR 3425"
@@ -35,7 +35,7 @@ FEATURES             Location/Qualifiers
                      /country="Australia: South Burnett Region, Queensland"
                      /isolation_source="Soil"
                      /collected_by="John Pitt"
-                     /collection_date=1984
+                     /collection_date="1984"
                      /db_xref="taxon:1873369"
                      /culture_collection="FRR:3425"
                      /type_material="holotype of Aspergillus hancockii"
@@ -45,9 +45,8 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="BBP40_009495"
                      /product="metallo-beta-lactamase-like thioesterase HknB"
-                     /label=hknB
-                     /note="EggNog:ENOG410PJX9;
-                     COG:S"
+                     /label="hknB"
+                     /note="EggNog:ENOG410PJX9; COG:S"
                      /db_xref="InterPro:IPR001279"
                      /db_xref="InterPro:IPR036866"
                      /db_xref="PFAM:PF00753"
@@ -58,23 +57,22 @@ FEATURES             Location/Qualifiers
                      EENALFTGDNVLGHGYSVAQDLGRYMESLDRMAGLHCGLGYPAHGAVIDDLPAKLNEYI
                      RHKEARVRGVLSVLVRNREAVEVGVGRGGERKGGMMLHEIVRAMFGSVPQEVVEQAIAP
                      FLIQVLWKLAEDRKVGFAPGDPVNRKWFAVRNRAHT"
+                     /Pfam="Lactamase_B"
      CDS             complement(join(1696..2988,3059..3559,3638..3769,
                      3822..4187))
                      /codon_start=1
                      /locus_tag="BBP40_009496"
                      /product="transcription factor HknR"
-                     /label=hknR
-                     /note="EggNog:ENOG410PVEH;
-                     COG:K;
-                     GO_component: GO:0005634 - nucleus [Evidence IEA]; 
-                     GO_function: GO:0008270 - zinc ion binding [Evidence IEA]; 
-                     GO_function: GO:0003677 - DNA binding [Evidence IEA]; 
-                     GO_function: GO:0000981 - DNA-binding transcription factor 
-                     activity, RNA polymerase II-specific [Evidence IEA]; 
-                     GO_process: GO:0006351 - transcription, DNA-templated 
-                     [Evidence IEA];
-                     GO_process: GO:0006355 - regulation of transcription, 
-                     DNA-templated [Evidence IEA]"
+                     /label="hknR"
+                     /note="EggNog:ENOG410PVEH; COG:K; GO_component: GO:0005634
+                     - nucleus [Evidence IEA]; GO_function: GO:0008270 - zinc
+                     ion binding [Evidence IEA]; GO_function: GO:0003677 - DNA
+                     binding [Evidence IEA]; GO_function: GO:0000981 -
+                     DNA-binding transcription factor activity, RNA polymerase
+                     II-specific [Evidence IEA]; GO_process: GO:0006351 -
+                     transcription, DNA-templated [Evidence IEA]; GO_process:
+                     GO:0006355 - regulation of transcription, DNA-templated
+                     [Evidence IEA]"
                      /db_xref="InterPro:IPR001138"
                      /db_xref="InterPro:IPR007219"
                      /db_xref="InterPro:IPR036864"
@@ -95,13 +93,13 @@ FEATURES             Location/Qualifiers
                      EKLGPLLQQTSSSPSFGLHGIETTSASHTSPSRLSNISSDCLSNLSWPTAFSHSEPHLG
                      PDLAPAAPVKPPTKLDLDPLLLVPFDSDRKPLMAGQMHPLDIEQSWRTWDDLMMEIELD
                      KSAGSNAFPC"
+                     /Pfam="Zn_clus, Fungal_trans"
      CDS             complement(join(6095..6825,6892..7417))
                      /codon_start=1
                      /locus_tag="BBP40_009497"
                      /product="FAD-dependent monooxygenase HknC"
-                     /label=hknC
-                     /note="EggNog:ENOG410PQ7W;
-                     COG:S"
+                     /label="hknC"
+                     /note="EggNog:ENOG410PQ7W; COG:S"
                      /db_xref="InterPro:IPR036188"
                      /protein_id="KAF7597158.1"
                      /translation="MTKSHNNLPLPILIIGAGLSGLTTARLLTNSGIPNIVFEASSPDR
@@ -112,19 +110,17 @@ FEATURES             Location/Qualifiers
                      TRNLAEPWSHFMKGDAIQGHRVFHWTVRCVSVTRDLLLHAAGQGVVFVGDSWHAMPIFG
                      GEGGNHALLDGVELAATIMGDTGGDLGMAIETYYDQAWKRSQEAVRRSKQRFYALHRSM
                      AEWREIAEKKKKKKKNDTP"
+                     /Pfam="FAD_binding_3"
      CDS             complement(join(8121..9443,9512..12178,12231..13335,
                      13399..13706))
                      /codon_start=1
                      /locus_tag="BBP40_009498"
                      /product="polyketide synthase HknA"
-                     /label=hknA
-                     /note="TransMembrane:2 (o984-1004i1016-1038o); 
-                     EggNog:ENOG410PM0W;
-                     COG:I;
-                     GO_function: GO:0031177 - phosphopantetheine binding 
-                     [Evidence IEA];
-                     GO_function: GO:0003824 - catalytic activity [Evidence 
-                     IEA]"
+                     /label="hknA"
+                     /note="TransMembrane:2 (o984-1004i1016-1038o);
+                     EggNog:ENOG410PM0W; COG:I; GO_function: GO:0031177 -
+                     phosphopantetheine binding [Evidence IEA]; GO_function:
+                     GO:0003824 - catalytic activity [Evidence IEA]"
                      /db_xref="InterPro:IPR009081"
                      /db_xref="InterPro:IPR014030"
                      /db_xref="InterPro:IPR014031"
@@ -180,19 +176,17 @@ FEATURES             Location/Qualifiers
                      HSAQEHTHQPQSKAPNAPNAAKKSAPEAAAVPVATITTPNKPVAIPIPTSNTTRDPTPP
                      LTPPSEEQSPKCSPIITPAASDRGDPLGAGVVGQCLRVIASETGLELEALAPDASFVQL
                      GVDSLMSLVLSEKFRAELGVEIKSSLFLECPTIGEMTAWLEEYC"
+                     /Pfam="SAT2, PKS_KS, PKS_AT, fPKS_PT, ACP_PCP"
      CDS             14148..15509
                      /codon_start=1
                      /locus_tag="BBP40_009499"
                      /product="DMATS-type prenyltransferase HknD"
-                     /label=hknD
-                     /note="EggNog:ENOG410PUBT;
-                     COG:S;
-                     MEROPS:MER0066227;
-                     GO_function: GO:0016765 - transferase activity, 
-                     transferring alkyl or aryl (other than methyl) groups 
-                     [Evidence IEA];
-                     GO_process: GO:0009820 - alkaloid metabolic process 
-                     [Evidence IEA]"
+                     /label="hknD"
+                     /note="EggNog:ENOG410PUBT; COG:S; MEROPS:MER0066227;
+                     GO_function: GO:0016765 - transferase activity,
+                     transferring alkyl or aryl (other than methyl) groups
+                     [Evidence IEA]; GO_process: GO:0009820 - alkaloid metabolic
+                     process [Evidence IEA]"
                      /db_xref="InterPro:IPR017795"
                      /db_xref="PFAM:PF11991"
                      /protein_id="KAF7597160.1"
@@ -204,21 +198,19 @@ FEATURES             Location/Qualifiers
                      SFDHIATVMTLGGRRPLSTKFLNQLQELWYKLNGLASDFPTSEQVPVTQDDGVASHNGV
                      GFYYDIQPQLALPDVKTFIDVRKHAKSDMAAAETVVSFLERHGSGHNPRAYLNVLRDIV
                      PAEELETRTGAQAFYSVAAKKDEVDITAYFIPQVYRRFASVQVELNGQRRSRFE"
+                     /Pfam="Trp_DMAT"
      CDS             join(17155..17362,17417..17616,17669..18664,18729..18848)
                      /codon_start=1
                      /locus_tag="BBP40_009500"
                      /product="cytochrome P450 monooxygenase HknE"
-                     /label=hknE
-                     /note="EggNog:ENOG410PF8T;
-                     COG:Q;
-                     GO_function: GO:0020037 - heme binding [Evidence IEA]; 
-                     GO_function: GO:0016705 - oxidoreductase activity, acting 
-                     on paired donors, with incorporation or reduction of 
-                     molecular oxygen [Evidence IEA];
-                     GO_function: GO:0005506 - iron ion binding [Evidence IEA]; 
-                     GO_process: GO:0055114 - oxidation-reduction process 
-                     [Evidence IEA]
-                     revised sequence"
+                     /label="hknE"
+                     /note="EggNog:ENOG410PF8T; COG:Q; GO_function: GO:0020037 -
+                     heme binding [Evidence IEA]; GO_function: GO:0016705 -
+                     oxidoreductase activity, acting on paired donors, with
+                     incorporation or reduction of molecular oxygen [Evidence
+                     IEA]; GO_function: GO:0005506 - iron ion binding [Evidence
+                     IEA]; GO_process: GO:0055114 - oxidation-reduction process
+                     [Evidence IEA] revised sequence"
                      /db_xref="InterPro:IPR001128"
                      /db_xref="InterPro:IPR036396"
                      /db_xref="PFAM:PF00067"
@@ -232,6 +224,7 @@ FEATURES             Location/Qualifiers
                      STGIISDAEVRRIGYLQAVIREGLRIFVPVVNIFPRDAPPGGDTININGKAVVIPGGTW
                      IGYSALGMHHDEATYGKDAKVFRPERWFINDKDRLANMTRVNDLIFGYGRWKCLGQTLA
                      QVEIGKVIFEALRSFDWALVNPEKPWKKRNVNGLFAVSDMWVTVTERRS"
+                     /Pfam="p450"
 ORIGIN
         1 ctaggtgtgg gctcggttgc gcacagcgaa ccacttccta ttcactggat ctcccggtgc
        61 aaatcccacc ttccgatcct ccgccagctt ccacaagacc tgaatcaaaa acggcgcgat

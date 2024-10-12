@@ -1,36 +1,37 @@
-LOCUS       FBGC00565       20059 bp DNA     linear   UNA 08-APR-2023
+LOCUS       FBGC00565              20059 bp    DNA     linear   UNA 08-APR-2023
 DEFINITION  dichlorodiaporthin.
 ACCESSION   FBGC00565
-VERSION     .
+VERSION     FBGC00565
 KEYWORDS    .
 SOURCE      Penicillium nalgiovense IBT 13039
   ORGANISM  Penicillium nalgiovense IBT 13039
+            .
 REFERENCE   1  (bases 1 to 20059)
-  AUTHORS   Liu M, Ohashi M, Hung YS, Scherlach K, Watanabe K, Hertweck C, Tang 
+  AUTHORS   Liu M, Ohashi M, Hung YS, Scherlach K, Watanabe K, Hertweck C, Tang
             Y.
-  TITLE     AoiQ Catalyzes Geminal Dichlorination of 1,3-Diketone Natural 
+  TITLE     AoiQ Catalyzes Geminal Dichlorination of 1,3-Diketone Natural
             Products.
   JOURNAL   J Am Chem Soc 2021;143:7267-7271
-  PUBMED    33957045
+   PUBMED   33957045
 REFERENCE   2  (bases 1 to 20059)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Apr 8, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1021/jacs.1c02868"; journalName: "J Am Chem Soc"; date: "2021"; 
-            volume: "143"; pages: "7267-7271"
+  JOURNAL   Exported Apr 8, 2023 from SnapGene 6.2.1 https://www.snapgene.com
 COMMENT     ##Genome-Assembly-Data-START##
             Assembly Method       :: ABySS v. 1.5.2
             Genome Coverage       :: 115.0x
             Sequencing Technology :: Illumina HiSeq ##Genome-Assembly-Data-END##
+            ##Genome-Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1021/jacs.1c02868"; journalName: "J Am Chem Soc"; date: "2021";
+            volume: "143"; pages: "7267-7271"
 FEATURES             Location/Qualifiers
      source          1..20059
                      /strain="IBT 13039"
                      /mol_type="genomic DNA"
                      /country="Greece: Creete"
                      /isolation_source="cheese"
-                     /collection_date=Apr-1992
+                     /collection_date="Apr-1992"
                      /db_xref="taxon:60175"
                      /organism="Penicillium nalgiovense"
                      /submitter_seqid="PENNAL_contig0009"
@@ -39,7 +40,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="PENNAL_c0009G11320"
                      /product="FAD-dependent halogenase NgvE"
-                     /label=ngvE
+                     /label="ngvE"
                      /protein_id="OQE91609.1"
                      /translation="MAAIQTVPEQCTVLVVGGGPAGSYASSALAREGISVVLLEADNFP
                      RYHIGESMLPSMRHFLKFIDCYEKFDAHGFRVKNGGAFRLNWSRPESYTDFIAAGGPGG
@@ -52,11 +53,12 @@ FEATURES             Location/Qualifiers
                      HGVSDPTATDPKTREALEELKNTLSPEELDIMNTIRGRRMIRAEDSLNIDNYRLDSING
                      MAPNLERGNLTLRKAEINKIDVSKKDLLSLLSGEAAEGKHHETEETKAPAAAVAEVAEF
                      AT"
+                     /Pfam="Trp_halogenase"
      CDS             join(2496..2705,2776..3480)
                      /codon_start=1
                      /locus_tag="PENNAL_c0009G03556"
                      /product="metallo-beta-lactamase-like thioesterase NgvB"
-                     /label=ngvB
+                     /label="ngvB"
                      /protein_id="OQE91435.1"
                      /translation="MFTPKVWTQSEWHDYLAIRNSKLPALPVVTELSAEVVRILGGNPG
                      DMQLQGTNTYLVGSGQTRILIDTGQGCQLWIETLVNFLKQHHLSISQVLLTHWHSDHTG
@@ -64,12 +66,13 @@ FEATURES             Location/Qualifiers
                      ETGAIFTGDNILGHGTSVVVENLGLYLKSIQKMRQRVHSEGISVGYPGHGAVIEDPTAK
                      LIVYTKHWEVLEKAVYSTFMGGSSKERALLTAREVTSRLYGTALEMMVGPFITQVLYKL
                      AEQGELAFTVVGGPEKKWFVLRR"
+                     /Pfam="Lactamase_B"
      CDS             join(3946..4343,4408..4705,4761..5555,5636..8245,
                      8301..9485)
                      /codon_start=1
                      /locus_tag="PENNAL_c0009G06931"
                      /product="polyketide synthase NgvA"
-                     /label=ngvA
+                     /label="ngvA"
                      /db_xref="GO:0003824"
                      /db_xref="GO:0008152"
                      /protein_id="OQE91456.1"
@@ -104,11 +107,12 @@ FEATURES             Location/Qualifiers
                      TPAAAVEKTSATQPTQALLPKPLVPGETTLPSRPPVVETSSPTVVVNEPAVITDCLRLI
                      GQETGYPPSDLSDEATFPELGVDSLMSLVLAEKFRNELRLEVRSSLFLECPTVKEFKDW
                      IKQYC"
+                     /Pfam="SAT2, PKS_KS, PKS_AT, fPKS_PT, ACP_PCP"
      CDS             complement(9627..10631)
                      /codon_start=1
                      /locus_tag="PENNAL_c0009G06102"
                      /product="transcription factor PENNAL_c0009G06102"
-                     /label=PENNAL_c0009G06102
+                     /label="PENNAL_c0009G06102"
                      /db_xref="GO:0000981"
                      /db_xref="GO:0005634"
                      /db_xref="GO:0006355"
@@ -120,11 +124,12 @@ FEATURES             Location/Qualifiers
                      LFSELEVPTEQLRRSSLVDSCLANSTAQTIIAVLRRLFTILICPCSERAEVGMLIYSIC
                      MTIIDMHAMTITKSVRNTPPPPVLGQTGLWDDHGASAQEPPENEAVAILVLGELSKMAK
                      LVLQFIERYSGDVEGKQPLPKGHEIPFDFLPALGNLMRERLQQITNDATYWLG"
+                     /Pfam="EqxR"
      CDS             12222..13622
                      /codon_start=1
                      /locus_tag="PENNAL_c0009G02208"
                      /product="transcription factor PENNAL_c0009G02208"
-                     /label=PENNAL_c0009G02208
+                     /label="PENNAL_c0009G02208"
                      /note="revised sequence"
                      /protein_id="OQE91467.1"
                      /translation="MCTPAIDNGDFCMDRSPCTCPRHQCRSGHSMKHSSHTQLNDQLNN
@@ -136,11 +141,12 @@ FEATURES             Location/Qualifiers
                      RPSSSSPGGEDYFDEHKSSPEKVIYQAVTIGDHTVDNFSLDWDIQAQVILKELGHLQRL
                      VDTLSARIKQTGTSHSMGPGAGANDNAPSTGLPAIAHDRLVAHLSKEVEMVQNDLTTSW
                      REHQKLQR"
+                     /Pfam="AflR"
      CDS             complement(join(14078..14543,14607..15105,15162..15657))
                      /codon_start=1
                      /locus_tag="PENNAL_c0009G01513"
                      /product="FAD-linked oxidoreductase NgvD"
-                     /label=ngvD
+                     /label="ngvD"
                      /db_xref="GO:0003824"
                      /db_xref="GO:0008762"
                      /db_xref="GO:0016491"
@@ -157,11 +163,12 @@ FEATURES             Location/Qualifiers
                      HNPDPNVYMELFKIWEKGVSKIANVDSIFVEFLVQPHPVTNGTNMFGLTPERKDDVMID
                      MTAGYANKADDVLVQRVIIDIVDKQRALLKSHGHLMDFIYLNYADISQKVLQSWGEDNI
                      AKLRAASKKYDPNGVFQEQVPGGYKIPA"
+                     /Pfam="FAD_binding_4, BBE"
      CDS             complement(join(16711..16922,17021..17744))
                      /codon_start=1
                      /locus_tag="PENNAL_c0009G07668"
                      /product="short-chain dehydrogenase/reductase NgvC"
-                     /label=ngvC
+                     /label="ngvC"
                      /db_xref="GO:0008152"
                      /db_xref="GO:0016491"
                      /protein_id="OQE91382.1"
@@ -171,12 +178,13 @@ FEATURES             Location/Qualifiers
                      NEDKPITFINLTTAGIIFPPFTGMGAYVSSKMAAVKVLQSFAVENPQVRLHNVHPGFLE
                      TAMSAKLSESIKLPFAFDEISLPADFLVWIVSPEAEFLKNKIVFSSWDVDELKARKNEI
                      VGGPPGTGELWLGYQGFPRFIGGQALPGTQ"
+                     /Pfam="adh_short"
      CDS             complement(join(18669..18982,19055..19482,19580..19830,
                      19922..20059))
                      /codon_start=1
                      /locus_tag="PENNAL_c0009G02437"
                      /product="methyltransferase NgvF"
-                     /label=ngvF
+                     /label="ngvF"
                      /db_xref="GO:0008168"
                      /db_xref="GO:0008171"
                      /protein_id="OQE91620.1"
@@ -187,6 +195,7 @@ FEATURES             Location/Qualifiers
                      GHQCARLLAKHPSLAGRVVLQDLEETIRRAPEVNGVDFMVHDFFTKQPVKGAKFYYLRA
                      ILHDWEDDKSVEILKQIIPAMSEDSQILIDDLALPNTGVHWWSTCIDMQMYIMHGAMER
                      TVDQWYGLLDKAGLKVKEIKTYSPVMRNSVIVAIPK"
+                     /Pfam="Methyltransf_2"
 ORIGIN
         1 tcaagttgcg aactccgcaa cttccgccac agctgccgcc ggggctttgg tctcctcggt
        61 ctcgtggtgc tttccttctg cggcttcacc actaaggagg gaaagcaggt ccttctttga

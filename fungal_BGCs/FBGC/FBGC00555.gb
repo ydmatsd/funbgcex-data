@@ -1,25 +1,25 @@
-LOCUS       FBGC00555       24796 bp DNA     linear   UNA 07-APR-2023
+LOCUS       FBGC00555              24796 bp    DNA     linear   UNA 07-APR-2023
 DEFINITION  sphingofungins.
 ACCESSION   FBGC00555
-VERSION     .
+VERSION     FBGC00555
 KEYWORDS    .
 SOURCE      Aspergillus fumigatus A1163
   ORGANISM  Aspergillus fumigatus A1163
+            .
 REFERENCE   1  (bases 1 to 24796)
-  AUTHORS   Bissell AU, Rautschek J, Hoefgen S, Raguz L, Mattern DJ, Saeed N, 
-            Janevska S, Jojic K, Huang Y, Kufs JE, Herboeck B, Guo H, Hillmann 
+  AUTHORS   Bissell AU, Rautschek J, Hoefgen S, Raguz L, Mattern DJ, Saeed N,
+            Janevska S, Jojic K, Huang Y, Kufs JE, Herboeck B, Guo H, Hillmann
             F, Beemelmanns C, Valiante V.
-  TITLE     Biosynthesis of the Sphingolipid Inhibitors Sphingofungins in 
+  TITLE     Biosynthesis of the Sphingolipid Inhibitors Sphingofungins in
             Filamentous Fungi Requires Aminomalonate as a Metabolic Precursor.
   JOURNAL   ACS Chem Biol 2022;17:386-394
-  PUBMED    35023724
+   PUBMED   35023724
 REFERENCE   2  (bases 1 to 24796)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Apr 7, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1021/acschembio.1c00839"; journalName: "ACS Chem Biol"; date: 
+  JOURNAL   Exported Apr 7, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1021/acschembio.1c00839"; journalName: "ACS Chem Biol"; date:
             "2022"; volume: "17"; pages: "386-394"
 FEATURES             Location/Qualifiers
      source          1..24796
@@ -31,7 +31,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="AFUB_034450"
                      /product="short-chain dehydrogenase/reductase SphI"
-                     /label=sphI
+                     /label="sphI"
                      /note="encoded by transcript AFUB_034450A"
                      /protein_id="EDP52281.1"
                      /translation="MAHPLVFITGATGFLGSATAVAALKAGYRLRICVRKPSDELQNLL
@@ -40,11 +40,12 @@ FEATURES             Location/Qualifiers
                      MRLYHASKLLANQTAWEFRKTAKPPYALVTLHPAFVYGRNPVQTTAEAIQESSNGLLWH
                      AIMTGVPHHSYSRVPGVHIDDVVEAHLRALDPAIPDGSKYLLAAKGGTWKEVADVIQRD
                      YSYLGAKITPDIEEEFLSTDSSKAEAELGMRWRAWEQMVRDVVDQQLEFANV"
+                     /Pfam="Epimerase"
      CDS             complement(join(1523..2677,2739..3011,3072..3275))
                      /codon_start=1
                      /locus_tag="AFUB_034460"
                      /product="cytochrome P450 monooxygenase SphH"
-                     /label=sphH
+                     /label="sphH"
                      /note="encoded by transcript AFUB_034460A"
                      /protein_id="EDP52282.1"
                      /translation="MGPIHNYFGVVCLGIAASVYFRPECALYGSRIATFAVLLTGIAIS
@@ -57,12 +58,13 @@ FEATURES             Location/Qualifiers
                      CNEVIRFHPSVPNTVRVALNDTTLMGHPIPKGTQVVISPELVNHMPALWGPDAERFNPD
                      RWMGPGKANTGGAASNYAFLSFLHGPRSCIGQVFAKAELACLLAAVVGSFAFELKSPDA
                      PLEVREGATIAPKDGVLAKFTPVEGW"
-     CDS             complement(join(3676..4285,4363..5009,5070..5810,5875..5920,
-                     5983..6112,6181..6214))
+                     /Pfam="p450"
+     CDS             complement(join(3676..4285,4363..5009,5070..5810,
+                     5875..5920,5983..6112,6181..6214))
                      /codon_start=1
                      /locus_tag="AFUB_034470"
                      /product="transcription factor SphG"
-                     /label=sphG
+                     /label="sphG"
                      /note="encoded by transcript AFUB_034470A"
                      /protein_id="EDP52283.1"
                      /translation="MAKELSRDEYTVCDQCRARKIRCSREKPSCRNCGRLGLQCEWSGQ
@@ -78,14 +80,14 @@ FEATURES             Location/Qualifiers
                      RAEASYNRRLYQLSLIVTDVVKARRTQHKRPKPTSEGPTDPYLMSELLSPATTGYSYMN
                      SEVQETYDSRFDGGVFQDPDGSFAPMSSITSTSGELARGSDEFLSQLRSYGKSAPGNEH
                      FDSLAMEALGESVLFWKGVNQGASADSPSVRCDLGERLNYI"
+                     /Pfam="Zn_clus, Fungal_trans"
      CDS             join(8149..8178,8217..8292,8347..8480,8549..8858,
                      8946..9400)
                      /codon_start=1
                      /locus_tag="AFUB_034480"
                      /product="short-chain dehydrogenase/reductase SphF"
-                     /label=sphF
-                     /note="encoded by transcript AFUB_034480A
-                     revised sequence"
+                     /label="sphF"
+                     /note="encoded by transcript AFUB_034480A revised sequence"
                      /protein_id="EDP52284.1"
                      /translation="MKPDQDLFGKTSRTAFVTGGSGGLGKAISNILAARGANVTIFARR
                      PGPLADAQNEIGGNCVDADRQEIDAVAVDMADASAVSDAFRSQPRIADFLYCCAGGNHA
@@ -93,11 +95,12 @@ FEATURES             Location/Qualifiers
                      IVFANSAAAFLGLPGSVAYTPAKSAVRALADTLRLEVLRHNSARTTYTIHIAFPADFIS
                      PGFVLEQDTKPDLTKRIQGTNVATFAQLEEKFPSSEKVAQGIVARVDRGDFIICEDSLA
                      ASLLFTNMVGLSPKRGLGIVDSLWSVVMGWFVVPVLRRRWEKMCREDAINRLR"
+                     /Pfam="adh_short"
      CDS             complement(9508..11055)
                      /codon_start=1
                      /locus_tag="AFUB_034490"
                      /product="acetyltransferase SphE"
-                     /label=sphE
+                     /label="sphE"
                      /note="encoded by transcript AFUB_034490A"
                      /protein_id="EDP52285.1"
                      /translation="MGFLRFGRESAPPPTVQSDTIIPFHYWDDDHHTRGLSFDVTFRVD
@@ -109,11 +112,12 @@ FEATURES             Location/Qualifiers
                      LAELGHIPSATCALVTNAVFATLTFLSVRQVLEEPLGFTAFEIRKSLIQQRNAEQLQAL
                      DRIQRKTLDNAHHPALFGNPSMYTVMMSNWVKAKLFQVDFSAAVIRKGMATGKRSNQLG
                      RPSCIQGTGTKGYATRNTGVVIGKDAAGNFWLLYSLRKEIWPAVEQQLLSMSLDDAA"
+                     /Pfam="CalD"
      CDS             join(11663..11950,12013..13464)
                      /codon_start=1
                      /locus_tag="AFUB_034500"
                      /product="major facilitator superfamily transporter SphD"
-                     /label=sphD
+                     /label="sphD"
                      /note="encoded by transcript AFUB_034500A"
                      /protein_id="EDP52286.1"
                      /translation="MGQAEFNARTDASAEISAFAVRAEPDSEPVSEKQGTAETDAETGA
@@ -127,13 +131,13 @@ FEATURES             Location/Qualifiers
                      TGLAIGQFLTIRMFGGLVGLTISATIFNSVFSTSISATAVHLTGPLAPLKDVANAVAFI
                      DKLRSIDVPVETRDQVLRVYLKCFQTIFYTMTGLSGLGLVTSLFVDEIDLKSQGLGNQR
                      FEE"
+                     /Pfam="MFS_1"
      CDS             complement(13539..14516)
                      /codon_start=1
                      /locus_tag="AFUB_034510"
                      /product="2OG-Fe(II)-dependent dioxygenase SphC"
-                     /label=sphC
-                     /note="encoded by transcript AFUB_034510A
-                     revised sequence"
+                     /label="sphC"
+                     /note="encoded by transcript AFUB_034510A revised sequence"
                      /protein_id="EDP52287.1"
                      /translation="MWRIPTDVPQVAVPIGLKLAEVTADTPLDEVFKHWKESGGVILKN
                      ILTPAEAHQITTELESRIDSVQRGSRVPHEDLAAFHGAKTKRAGDLINHSATFRERILE
@@ -141,12 +145,13 @@ FEATURES             Location/Qualifiers
                      PQINFLFAFSDFTDDNGATRIIPGSNKWPFHQRGNMAQTIPAEMKTGDCLLIGGKVIHA
                      MGENKTETERKCIQLTVIPSFLTPAEAHPFIIKLETVKKLSKRAQRFVGFRSQYPRGSP
                      GLWTKDYIELALHLGLDDLQGAMEDLQHVLNQPKQWDTIDYDKM"
+                     /Pfam="PhyH"
      CDS             complement(join(15207..17024,17097..17390,17447..22187,
                      22250..22941))
                      /codon_start=1
                      /locus_tag="AFUB_034520"
                      /product="polyketide synthase SphB"
-                     /label=sphB
+                     /label="sphB"
                      /note="encoded by transcript AFUB_034520A"
                      /protein_id="EDP52288.1"
                      /translation="MIRQVTDCEASTFYVEFTSMTMDESTGTNGHGVTMGSDTTNGATP
@@ -192,11 +197,13 @@ FEATURES             Location/Qualifiers
                      ALAADSKATSYFVHKNTFLVGLALLIPLHDPSNYVIWKKDRRMASYHNNSTVAAATAAS
                      TDVLKTYLSSAKADPSILKSPEAAKLFAVEIGKRLFDLLLKPHEEPNTSWPLLDLGLDS
                      LVALELRAWIKQVFSFDLPMLEMMSIGSLDILGQYAANEVYRITTDNNEG"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_DH, PKS_NRPS_MT, fPKS_ER,
+                     fPKS_KR, ACP_PCP"
      CDS             join(23261..24104,24172..24314,24371..24796)
                      /codon_start=1
                      /locus_tag="AFUB_034530"
                      /product="aminotransferase SphA"
-                     /label=sphA
+                     /label="sphA"
                      /note="encoded by transcript AFUB_034530A"
                      /protein_id="EDP52289.1"
                      /translation="MAANGKVVSEMIAWIKSQKLIAPRMKDAPTFYRNLEEALDVRRST
@@ -208,6 +215,7 @@ FEATURES             Location/Qualifiers
                      FFESITSSNIWDKATDLGILSIPVAEDYESLDFVTHIVPIWTRQKYNWWLFFHLQLAKI
                      AVVPIDYPQVPKGKSRVRVMIHAGNTEEQVDYLVATLCDFANEMIDIEEGGEKGKIPKA
                      AQEIYALMAAHA"
+                     /Pfam="Aminotran_1_2"
 ORIGIN
         1 tcaaacgttc gcaaactcca gttgctggtc gaccacatcc cgcaccatct gctcccatgc
        61 gcgccagcgc atccctaact ctgcttcggc tttgctactg tcggtcgaga gaaactcttc

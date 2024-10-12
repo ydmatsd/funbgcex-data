@@ -1,31 +1,31 @@
-LOCUS       FBGC00553       10373 bp DNA     linear   UNA 07-APR-2023
+LOCUS       FBGC00553              10373 bp    DNA     linear   UNA 07-APR-2023
 DEFINITION  amphichopyrone B.
 ACCESSION   FBGC00553
-VERSION     .
+VERSION     FBGC00553
 KEYWORDS    WGS.
 SOURCE      Beauveria felina SYSU-MS7908
   ORGANISM  Beauveria felina SYSU-MS7908
+            .
 REFERENCE   1  (bases 1 to 10373)
   AUTHORS   Yuan S, Chen L, Wu Q, Jiang M, Guo H, Hu Z, Chen S, Liu L, Gao Z.
   TITLE     Genome Mining of alpha-Pyrone Natural Products from Ascidian-Derived
             Fungus Amphichordafelina SYSU-MS7908.
   JOURNAL   Mar Drugs 2022;20(5):294
-  PUBMED    35621945
+   PUBMED   35621945
 REFERENCE   2  (bases 1 to 10373)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Apr 7, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.3390/md20050294"; journalName: "Mar Drugs"; date: "2022"; 
-            volume: "20"; issue: "5"; pages: "294"
+  JOURNAL   Exported Apr 7, 2023 from SnapGene 6.2.1 https://www.snapgene.com
 COMMENT     ##Genome-Assembly-Data-START##
             Assembly Method        :: SPAdes v. 3.5.0
             Genome Representation  :: Full
             Expected Final Version :: Yes
             Genome Coverage        :: 301.0x
-            Sequencing Technology  :: Illumina NovaSeq 
+            Sequencing Technology  :: Illumina NovaSeq
             ##Genome-Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.3390/md20050294"; journalName: "Mar Drugs"; date: "2022";
+            volume: "20"; issue: "5"; pages: "294"
 FEATURES             Location/Qualifiers
      source          1..10373
                      /host="Styela plicata"
@@ -38,7 +38,7 @@ FEATURES             Location/Qualifiers
      CDS             complement(join(1..4787,4862..7506,7574..8045,8104..8155))
                      /codon_start=1
                      /product="polyketide synthase AmpB"
-                     /label=ampB
+                     /label="ampB"
                      /note="amphichopyrone A and B"
                      /protein_id="URT29632.1"
                      /translation="MTSTQRDPHEPVAIVGMGCQWPGGVRDSSHFWEFLRDRVDGWKEF
@@ -87,10 +87,12 @@ FEATURES             Location/Qualifiers
                      RAFLDAQRQSAPQQSSLEEGSKNTVAYLRSEFDAAIREGADARASTVELVQGAITKAVA
                      EMLFVDVESIDPAKSVADLGVDSLIAAELRNWFLQGLATNISMLDLLDPSVSISTRAVT
                      ITDKALSAKT"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_DH, PKS_NRPS_MT, fPKS_ER,
+                     fPKS_KR, ACP_PCP"
      CDS             join(8943..9830,9894..10373)
                      /codon_start=1
                      /product="methyltransferase AmpC"
-                     /label=ampC
+                     /label="ampC"
                      /note="amphichopyrone A and B"
                      /protein_id="URT29633.1"
                      /translation="MTIQTNGNHSNGTMASQPNGKHLNGTSTIQNNGGIQGESTSILSL
@@ -101,6 +103,7 @@ FEATURES             Location/Qualifiers
                      DCGGGNGHISKTLAELYPNLDFVVEDSNADMLAEGKESLPKDLDGRVKYLQHSFFDPQP
                      VKDAAAFLIRQCTHNWADNDVVTIFKSFVPGLEGSGPDTPLLINDIIIPEPGTWPRHQE
                      RVVRQVDMVMLVNCGAKQRTKAEFEALLKEADSRYEIRNVFDNGPLGLLEVYLNRY"
+                     /Pfam="Methyltransf_2"
 ORIGIN
         1 ctatgtcttt gcactcaggg ccttgtcagt aatggtgaca gctcgagtac ttatgctcac
        61 actcggatca agaagatcca gcatgctgat gttggtcgcc aaaccctgaa ggaaccagtt

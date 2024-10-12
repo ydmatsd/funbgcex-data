@@ -1,22 +1,22 @@
-LOCUS       FBGC00592       37952 bp DNA     linear   UNA 11-APR-2023
+LOCUS       FBGC00592              37952 bp    DNA     linear   UNA 11-APR-2023
 DEFINITION  chaetocin.
 ACCESSION   FBGC00592
-VERSION     .
+VERSION     FBGC00592
 KEYWORDS    .
 SOURCE      Chaetomium virescens ATCC 26417
   ORGANISM  Chaetomium virescens ATCC 26417
+            .
 REFERENCE   1  (bases 1 to 37952)
   AUTHORS   Gerken T, Walsh CT.
   TITLE     Cloning and sequencing of the chaetocin biosynthetic gene cluster.
   JOURNAL   Chembiochem 2013;14:2256-8
-  PUBMED    24123808
+   PUBMED   24123808
 REFERENCE   2  (bases 1 to 37952)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Apr 11, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1002/cbic.201300513"; journalName: "Chembiochem"; date: "2013"; 
+  JOURNAL   Exported Apr 11, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1002/cbic.201300513"; journalName: "Chembiochem"; date: "2013";
             volume: "14"; pages: "2256-8"
 FEATURES             Location/Qualifiers
      source          1..37952
@@ -27,7 +27,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="Chavir__000004"
                      /product="methyltransferase ChaM"
-                     /label=chaM
+                     /label="chaM"
                      /protein_id="Chavir_:cds.g4.t1"
                      /translation="MNSMLKQLNATLRQAVDAFDGPFKTELLDALKSPDSLPDKETWKL
                      ASETVDLADKVIRQVQPPALQLAESYLAYLDTKCLWTAVSNNIPDILASSGPQPITELA
@@ -37,11 +37,12 @@ FEATURES             Location/Qualifiers
                      FADVGDRMVALHVGDFRNEVPAYEVYTMKWCLHNWGDPDVVRILSAVRRAILETPRARM
                      VIIEAVLAEGRSSRVWRFGDMTMMSTVNGQERTEEEWRSVVAQAGWEIKSISPLRNAWA
                      AAIDLRPIKVDVDSSA"
+                     /Pfam="Methyltransf_2"
      CDS             join(4369..4808,4865..5352,5406..5503)
                      /codon_start=1
                      /locus_tag="Chavir__000006"
                      /product="thioredoxin reductase ChaT"
-                     /label=chaT
+                     /label="chaT"
                      /protein_id="Chavir_:cds.g6.t1"
                      /translation="MLTGTAVAAGPKIYDALIVGGGPAGLSAALALARVCRTSIVFDSG
                      EYRNQGSQAMHTFLSRDGIHPEQFRNTARQQIHEKYSAQVSFMKSKVIRISNTEILPGY
@@ -50,11 +51,12 @@ FEATURES             Location/Qualifiers
                      LVNNGEGPANGITVEFESGPPAKLGMLLHRPPTRSRAHDLIAQLGLETKPNGDVQADPM
                      MLQSSVPGCIVAGDTQESIKQAVVAAANGVRAAAVITYQLSEEEGSRALAEAEKTNGAN
                      L"
+                     /Pfam="Pyr_redox_2"
      CDS             8319..10187
                      /codon_start=1
                      /locus_tag="Chavir__000007"
                      /product="transcription factor ChaZ"
-                     /label=chaZ
+                     /label="chaZ"
                      /protein_id="Chavir_:cds.g7.t1"
                      /translation="MARRPDGHGPSVTATSREPKYRTSCDNCQAAKVKCGQGKPACRRC
                      TVHMLECVYSLSRRMGRPRAKRSGTRADSGLGTQSNAGPSDNSNNSNPNHNNDSNNHNN
@@ -67,12 +69,13 @@ FEATURES             Location/Qualifiers
                      QQRTSPLSLDTALLMEGEVATSLSRLGRCKACRHEGSVHLLALISMRMMLQLLQKAVRD
                      EFAARRRPGRNPAGGDNSDSGLDGGGVTLWIGKFKVRPRARLRFLRRLLQARFYRLAVL
                      VEQREKLVDGLSRDCFASASSLMLADISQGLQTVMGWLELWNSKPW"
+                     /Pfam="EqxR, Zn_clus"
      CDS             join(10870..11121,11167..11301,11365..11505,11568..11610,
                      11658..12329,12379..12833)
                      /codon_start=1
                      /locus_tag="Chavir__000008"
                      /product="cytochrome P450 monooxygenase ChaB"
-                     /label=chaB
+                     /label="chaB"
                      /protein_id="Chavir_:cds.g8.t1"
                      /translation="MSPNLDFYQAYLPRDLHVIPLANTGFVVAIVLFILSLDYLNYARQ
                      RKRLGSVPIVGDAPYLLRRLRWTENEVSLRNVLQRGYDTFSKKSKPWAYWGQHDDFIVV
@@ -84,13 +87,14 @@ FEATURES             Location/Qualifiers
                      ESFTRETLRVDGPTLSSVSDQELVHAVSVTRSVLQPMQLESGLALSRGTIISSPAWFIH
                      NDEDYYPGASEFNPWRFYNEETNTATTKATTASNTFLGYGYGSQICPGRFLGIRITQIL
                      FANMLMRYDAKFEDVQNGKPENLFMPGQVLPHYRARIVLKEREGVKVG"
+                     /Pfam="p450"
      CDS             join(13464..13613,13678..13756,13819..13902,14047..14168,
                      14231..14781,14832..15438,15502..16894,16958..17353,
                      17413..17675,17736..17810,17896..18039)
                      /codon_start=1
                      /locus_tag="Chavir__000008"
                      /product="ABC transporter ChaA"
-                     /label=chaA
+                     /label="chaA"
                      /protein_id="Chavir_:cds.g8.t1"
                      /translation="MKRSYADDNAADEPQSRQPDIAATTGSNDGQVDEKGQDAATPKAG
                      FGTLLRVLRFSTLMNRGIQVVCVFAALCSGAAMPLMALVLGRLTANLTQFGSVDTHVSP
@@ -115,22 +119,24 @@ FEATURES             Location/Qualifiers
                      GYDTDCGARGISLSGGQKQRVAIARALVRKPELLLLDEPTSALDAESERRDIIQLVLDT
                      FRSIRKGRTVILVTHRLNMARDVDVIFVMSGGEIVEQGSHSELMALRGHYFRMHQESLG
                      DGI"
+                     /Pfam="ABC_membrane, ABC_tran"
      CDS             join(20324..20700,20776..20847,20918..21188)
                      /codon_start=1
                      /locus_tag="Chavir__000010"
                      /product="glutathione S-transferase ChaG"
-                     /label=chaG
+                     /label="chaG"
                      /protein_id="Chavir_:cds.g10.t1"
                      /translation="MPINKFSARSLDTDVPDKPLVFVVEGRYQNWIKPVILLECLKVDY
                      DALCLDGPATRTYWYTKIHPQRYVPALIDAEDGKRVTSWDSSMILQYLGNKYDKTRAWI
                      GASPAEELEIGNWLTFETASLGPTAKYWVWYAIRKPEDQNPKAQEKMLNDLKVQFGILD
                      KHLSQPGQQWIGLKDRPTIADISIYPFADDPTMARMGLDKNDFPALKAWSDRFAQIPGV
                      AKAYAEMDSRKEAVIGE"
+                     /Pfam="GST_N_2, GST_C"
      CDS             join(21740..22180,22257..22333,22391..22480,22550..23012)
                      /codon_start=1
                      /locus_tag="Chavir__000010"
                      /product="dipeptidase ChaJ"
-                     /label=chaJ
+                     /label="chaJ"
                      /protein_id="Chavir_:cds.g10.t1"
                      /translation="MIRGWYLGRAGDAQVDAQDMPIAHTDITRLRKGRVGGVFWSAYVP
                      CPEANVSNDFSTDRHYESLRATLQQIDIIHTLAERYSRDLCLARTSAEVWDAFGSGRVA
@@ -139,22 +145,24 @@ FEATURES             Location/Qualifiers
                      TNGGLFMVSFLRKLTDQDRPTLERVADHIQHVGERIGYEHVGIGSDFDGMMQGPDGLED
                      VSKFPLLIAELLRRGVPEESVRNLAGLNMLRVLDEVDKVSARMKADNEEMMQDVIESMW
                      DDKIRNEVKQVRGVFE"
+                     /Pfam="Peptidase_M19"
      CDS             complement(join(23105..23425,23485..23982))
                      /codon_start=1
                      /locus_tag="Chavir__000011"
                      /product="gamma-glutamyl cyclotransferase ChaK"
-                     /label=chaK
+                     /label="chaK"
                      /protein_id="Chavir_:cds.g11.t1"
                      /translation="MAPEKRLPLWKVRAHDIDKPLWYLGYGSNMRSTSMTDRKVTPLAT
                      KVVTVPTHYVTFDVFGIPYSEPCYASIEQFPDGESGQLHLVHKGNPAVKVPPLCGVAHH
                      LTASDFHRLLVTEGSGVVYDVVEVQAYELDDGGIAKDQPFTAYALKAKWPQRPSGIPSA
                      RYMKLFIEGARENNLPTDYIAYLENFPSYRKLEGPSRTYGQLVFDWSWRPFLKRIVRLT
                      TWRVDEDGNCSVLLALMIVRLYQTMWAYHDFVHRRIFGEGDGGKLYWVRG"
+                     /Pfam="GliK"
      CDS             complement(join(25135..31520,31591..32212))
                      /codon_start=1
                      /locus_tag="Chavir__000011"
                      /product="nonribosomal peptide synthetase ChaP"
-                     /label=chaP
+                     /label="chaP"
                      /protein_id="Chavir_:cds.g11.t1"
                      /translation="MMAGEPSMDLCELFAQTAEQYPHNLAVDHPDGCLTYRELDEASSE
                      LASNLRDLGVGDGTPVLLVTAHGTFNVVAILAILKAGGFFVPIDRSTWSPDTIKYVFDT
@@ -196,12 +204,13 @@ FEATURES             Location/Qualifiers
                      HVELQRLRTETNTQQVMDAVRNGLEVVLRAVADECSLMELGARLDELQLPALSRAVNGE
                      QGAPDDEGVSFCDSDSSHYPSTVEELASKIRDEMVRCLEDTSTGTNIENLTWKFQMSLG
                      VSFFEVGADSAAALTLRHRLRENLGLDVSVRDVFIAQSPLKLAQHVFH"
+                     /Pfam="AA-adenyl-dom, ACP_PCP, NRPS_C"
      CDS             join(32638..32772,32838..32974,33028..33638,33711..33932,
                      33999..34063,34123..34227,34290..34535)
                      /codon_start=1
                      /locus_tag="Chavir__000012"
                      /product="cytochrome P450 monooxygenase ChaC"
-                     /label=chaC
+                     /label="chaC"
                      /protein_id="Chavir_:cds.g12.t1"
                      /translation="MLWATVLEKAAGHKTILALAIPVAFLFGLLFKLHSLVLFPQPIVK
                      GLPYVPFKFPNGQGTEKFFDGRRAAREWRSKYGSIYSIWSGFKPEIVLTKPEHVKAFYK
@@ -212,11 +221,12 @@ FEATURES             Location/Qualifiers
                      TAYEDYLCRDDTLLAACILETSRLHPILPFSNPESSPVDKMVDGYVIPKYTDVIVDAYA
                      INVDNPYWEDPLKFDPYRHVGKKDNQARRYNMWRFGFGPRQCLGKSVADVILRVIIAEL
                      LKRYQLEAVQYAGIGDVELQAESWIGLPDGQVRLTPLLPNGVSLGGTV"
+                     /Pfam="p450"
      CDS             complement(join(34917..35456,35528..35988,36057..36444))
                      /codon_start=1
                      /locus_tag="Chavir__000013"
                      /product="aminotransferase ChaI"
-                     /label=chaI
+                     /label="chaI"
                      /protein_id="Chavir_:cds.g13.t1"
                      /translation="MLSSRARASNAWFLEQFKRPLSRQGSKSASNIDLATAENWLVRPE
                      ILPLLKKNARSGLTADHLSYAGGLGGTPELLGAISAFFNRFFSPKVPVKPEHVVTGPGC
@@ -227,17 +237,19 @@ FEATURES             Location/Qualifiers
                      IAIQFAEFHGLTYYKPVAGLYIWLRLSHGGCESVDEEEDIVRRCAEHRVLIGSGADYAT
                      NQAGWFRLIFALPERTFLEALRRIEEAVGYTERFWFEDARGTKRGKQVLAAAFSVLGCR
                      GFRL"
+                     /Pfam="Aminotran_1_2"
      CDS             join(36904..37087,37147..37213,37286..37753,37829..37952)
                      /codon_start=1
                      /locus_tag="Chavir__000014"
                      /product="methyltransferase ChaN"
-                     /label=chaN
+                     /label="chaN"
                      /protein_id="Chavir_:cds.g14.t1"
                      /translation="MAESNEVKQAEEAYMLPHSHQEIERMRNQHEWIKGSFGGLIKAPI
                      NFFEKHQKILDSATADGTWLCDVSSLFPPETELVGFDIAPQLYRPPDTLPPNVKLVPGD
                      LSKPLPDEWNQNFHLVHQRFVFPGFSTATIRQFLNRLMACVKPGGWIQLVEPAADDNVS
                      GPDAVGFAVLHRLAGLCMQSPNPKNVILSTLKEGGFVDVNIQTMDIVIGVFQDNKELDA
                      RGRKSMRASVQNMCQIVDPKTLGVSEADWHTVLDRFDADMEKYRTAVRHHIIWARKPE"
+                     /Pfam="GliN"
 ORIGIN
         1 tcaagctgag ctatcaacgt ctaccttgat gggcctaagg tcaatagctg ccgcccaggc
        61 attccgcaac ggtgagatac tcttgatctc ccagcctgcc tgtgctacga cgcttcgcca

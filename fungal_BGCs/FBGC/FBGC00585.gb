@@ -1,30 +1,30 @@
-LOCUS       FBGC00585       15700 bp DNA     linear   UNA 11-APR-2023
+LOCUS       FBGC00585              15700 bp    DNA     linear   UNA 11-APR-2023
 DEFINITION  dothistromin.
 ACCESSION   FBGC00585
-VERSION     .
+VERSION     FBGC00585
 KEYWORDS    .
 SOURCE      Dothistroma septosporum NZE10
   ORGANISM  Dothistroma septosporum NZE10
+            .
 REFERENCE   1  (bases 1 to 15700)
-  AUTHORS   de Wit PJ, van der Burgt A, Okmen B, Stergiopoulos I, Abd-Elsalam 
+  AUTHORS   de Wit PJ, van der Burgt A, Okmen B, Stergiopoulos I, Abd-Elsalam
             KA, Aerts AL, Bahkali AH, Beenen HG, Chettri P, Cox MP, Datema E, de
-            Vries RP, Dhillon B, Ganley AR, Griffiths SA, Guo Y, Hamelin RC, 
-            Henrissat B, Kabir MS, Jashni MK, Kema G, Klaubauf S, Lapidus A, 
-            Levasseur A, Lindquist E, Mehrabi R, Ohm RA, Owen TJ, Salamov A, 
-            Schwelm A, Schijlen E, Sun H, van den Burg HA, van Ham RC, Zhang S, 
+            Vries RP, Dhillon B, Ganley AR, Griffiths SA, Guo Y, Hamelin RC,
+            Henrissat B, Kabir MS, Jashni MK, Kema G, Klaubauf S, Lapidus A,
+            Levasseur A, Lindquist E, Mehrabi R, Ohm RA, Owen TJ, Salamov A,
+            Schwelm A, Schijlen E, Sun H, van den Burg HA, van Ham RC, Zhang S,
             Goodwin SB, Grigoriev IV, Collemare J, Bradshaw RE.
-  TITLE     The genomes of the fungal plant pathogens Cladosporium fulvum and 
-            Dothistroma septosporum reveal adaptation to different hosts and 
+  TITLE     The genomes of the fungal plant pathogens Cladosporium fulvum and
+            Dothistroma septosporum reveal adaptation to different hosts and
             lifestyles but also signatures of common ancestry.
   JOURNAL   PLoS Genet 2012;8:e1003088
-  PUBMED    23209441
+   PUBMED   23209441
 REFERENCE   2  (bases 1 to 15700)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Apr 11, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1371/journal.pgen.1003088"; journalName: "PLoS Genet"; date: 
+  JOURNAL   Exported Apr 11, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1371/journal.pgen.1003088"; journalName: "PLoS Genet"; date:
             "2012"; volume: "8"; pages: "e1003088"
 FEATURES             Location/Qualifiers
      source          1..15700
@@ -39,9 +39,9 @@ FEATURES             Location/Qualifiers
                      /gene="pksA"
                      /locus_tag="DOTSEDRAFT_192192"
                      /product="polyketide synthase PksA"
-                     /label=pksA
-                     /note="GO_function: GO:48037; hydrolase activity, acting
-                     on ester bonds - cofactor binding [PMID 16788]; GO_process:
+                     /label="pksA"
+                     /note="GO_function: GO:48037; hydrolase activity, acting on
+                     ester bonds - cofactor binding [PMID 16788]; GO_process:
                      GO:9058 - biosynthetic process"
                      /db_xref="InterPro:IPR001031"
                      /db_xref="InterPro:IPR006163"
@@ -91,17 +91,19 @@ FEATURES             Location/Qualifiers
                      HLGGWSSGGAFAYVTAEKMIKQGDEVGSLFIFDAPVPQVMEKLPREFYEAVNFTESTAV
                      GTAEPPPYLIPHFMAVVDVMLDYKCKPLQTKKMPNVGLIWADSTVMKEDEAPKMKGMHF
                      MIQKRTNFGPDGWDEVCPGAKFEIVKAVDTNHFTLMTKARVNYVSDLIDKVMG"
+                     /Pfam="SAT2, PKS_KS, PKS_AT, fPKS_PT, ACP_PCP,
+                     Thioesterase"
      CDS             join(7964..8071,8123..9279,9333..9603)
                      /codon_start=1
                      /gene="CypX"
                      /locus_tag="DOTSEDRAFT_139960"
                      /product="cytochrome P450 monooxygenase CypC"
-                     /label=cypX
-                     /note="Probable dothistromin biosynthetic gene. Similar to 
-                     Aspergillus nidulans stcB and A. parasiticus aflV (cypX). 
-                     Previously called cypA;
-                     GO_function: GO:4497; iron ion binding - monooxygenase 
-                     activity [Evidence 20037] [PMID 5506]"
+                     /label="cypX"
+                     /note="Probable dothistromin biosynthetic gene. Similar to
+                     Aspergillus nidulans stcB and A. parasiticus aflV (cypX).
+                     Previously called cypA; GO_function: GO:4497; iron ion
+                     binding - monooxygenase activity [Evidence 20037] [PMID
+                     5506]"
                      /db_xref="InterPro:IPR001128"
                      /db_xref="JGIDB:Dotse1_139960"
                      /protein_id="EME38861.1"
@@ -114,15 +116,16 @@ FEATURES             Location/Qualifiers
                      LEEEVASIDGEVTDTVCEGLPLMNAIIDESMRLYGAAPGGLPRSPPAGGANLGGYYIPE
                      GTVVDTQNWTLHTDGATWKEAQTFDHTRFLPENRLEFSEKQKMAFNPFGQGSRQCLGIH
                      LGRLEMRLAVAHFFRELRGVKLAKSATPESMAVVDSFVAGVPRDRRCEVTMKA"
+                     /Pfam="p450"
      CDS             10548..11402
                      /codon_start=1
                      /gene="avfA"
                      /locus_tag="DOTSEDRAFT_75546"
                      /product="short-chain dehydrogenase/reductase AvfA"
-                     /label=avfA
+                     /label="avfA"
                      /note="Similar to aflatoxin averufin oxidase gene aflI
-                     (avfA). Probable dothistromin gene. Similar to aflatoxin 
-                     averufin oxidase gene aflI (avfA). Probable dothistromin 
+                     (avfA). Probable dothistromin gene. Similar to aflatoxin
+                     averufin oxidase gene aflI (avfA). Probable dothistromin
                      gene"
                      /db_xref="JGIDB:Dotse1_75546"
                      /protein_id="EME38862.1"
@@ -132,16 +135,17 @@ FEATURES             Location/Qualifiers
                      YEAAAAKGLLSYIYVDPPTIHDAFGPNRTGHKLISCKPDVCDKQETALSYADLGAGFVE
                      IASRKEDFLNQPVGVTATGKAKETWGVLAGFLFDGAKGRARAWWEEERPMSKPQNLFLY
                      CGM"
+                     /Pfam="NAD_binding_10"
      CDS             complement(join(11694..11851,11904..13008))
                      /codon_start=1
                      /gene="epoA"
                      /locus_tag="DOTSEDRAFT_57187"
                      /product="epoxide hydrolase EpoA"
-                     /label=epoA
-                     /note="epoxide hydrolase;
-                     GO_component: GO:5792; membrane - microsome [PMID 16020]; 
-                     GO_function: GO:4301 - epoxide hydrolase activity; 
-                     GO_process: GO:9636 - response to toxin"
+                     /label="epoA"
+                     /note="epoxide hydrolase; GO_component: GO:5792; membrane -
+                     microsome [PMID 16020]; GO_function: GO:4301 - epoxide
+                     hydrolase activity; GO_process: GO:9636 - response to
+                     toxin"
                      /db_xref="InterPro:IPR000073"
                      /db_xref="InterPro:IPR010497"
                      /db_xref="JGIDB:Dotse1_57187"
@@ -154,15 +158,16 @@ FEATURES             Location/Qualifiers
                      GEKMMAWSDSSSQPSLEQILETVSLYWLTDSITRGLYPYRRFASGNEPKINFIEKPLGY
                      SFFPNTYLPCPVSWAKTTANLVQYRRHESGGHFAPWERPRELLEDVEEYVDVAFGKKDS
                      PMMGPKAVEDVSGSGSHARGL"
+                     /Pfam="EHN"
      CDS             join(13538..13820,13897..13973,14025..14273,14325..15273,
                      15323..15548,15604..15700)
                      /codon_start=1
                      /gene="MoxY"
                      /locus_tag="DOTSEDRAFT_75547"
                      /product="FAD-dependent monooxygenase MoxY"
-                     /label=moxY
-                     /note="Probable dothistromin biosynthetic gene. Similar to 
-                     Aspergillus nidulans stcW and A. parasiticus aflW (moxY). 
+                     /label="moxY"
+                     /note="Probable dothistromin biosynthetic gene. Similar to
+                     Aspergillus nidulans stcW and A. parasiticus aflW (moxY).
                      Previously called moxA"
                      /db_xref="JGIDB:Dotse1_75547"
                      /protein_id="EME38864.1"
@@ -177,6 +182,7 @@ FEATURES             Location/Qualifiers
                      IENGSVMAPLHSVSEYAIQLIKRMQNENIRSWVPRQDITDSFNDHVQEWIKHTVWKDDC
                      RSWYKNNETGRVNAIWPGSSLHYQQVIERPRYEDFEIHSFNDNPWAHLGMGWTVQDRKG
                      PKEEDVCPYFNVKNIDPKWYEACGGDSRLLVERPEESSQAGQQFLWPTGT"
+                     /Pfam="FMO-like"
 ORIGIN
         1 ctatcccatc accttatcaa tcaaatcact gacatagttg actctcgcct tcgtcataag
        61 cgtgaagtgg ttcgtgtcga ccgccttcac aatctcaaac ttcgctccag ggcagacttc

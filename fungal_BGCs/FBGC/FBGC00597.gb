@@ -1,47 +1,48 @@
-LOCUS       FBGC00597       56007 bp DNA     linear   UNA 13-APR-2023
+LOCUS       FBGC00597              56007 bp    DNA     linear   UNA 13-APR-2023
 DEFINITION  aculeacin A.
 ACCESSION   FBGC00597
-VERSION     .
+VERSION     FBGC00597
 KEYWORDS    .
 SOURCE      Aspergillus aculeatus ATCC 16872
   ORGANISM  Aspergillus aculeatus ATCC 16872
+            .
 REFERENCE   1  (bases 1 to 56007)
   AUTHORS   Yue Q, Chen L, Zhang X, Li K, Sun J, Liu X, An Z, Bills GF.
-  TITLE     Evolution of Chemical Diversity in Echinocandin Lipopeptide 
+  TITLE     Evolution of Chemical Diversity in Echinocandin Lipopeptide
             Antifungal Metabolites.
   JOURNAL   Eukaryot Cell 2015;14:698-718
-  PUBMED    26024901
+   PUBMED   26024901
 REFERENCE   2  (bases 1 to 56007)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Apr 13, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1128/EC.00076-15"; journalName: "Eukaryot Cell"; date: "2015"; 
+  JOURNAL   Exported Apr 13, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     ##ata-START##
+            Assembly Method       :: Newbler v. 2.3
+            Assembly Name         :: Aspac1
+            Long Assembly Name    :: Aspergillus aculeatus ATCC16872 v1.1 Genome
+            Coverage              :: 32.17x
+            Sequencing Technology :: 454; Sanger dideoxy sequencing
+            ##ata-END##
+            ##Metadata-START##
+            Organism Display Name :: Aspergillus aculeatus ATCC 16872
+            GOLD Stamp ID         :: Gp0003551
+            ##Metadata-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1128/EC.00076-15"; journalName: "Eukaryot Cell"; date: "2015";
             volume: "14"; pages: "698-718"
-COMMENT     URL -- http://genome.jgi.doe.gov/Aspac1
+            URL -- http://genome.jgi.doe.gov/Aspac1
             JGI Project ID: 52394
             The DNA was provided by David Culley (David.Culley@pnnl.gov)
             The strain is available from David Culley
             Contacts: David Culley (David.Culley@pnnl.gov)
             Assembly and annotation done by JGI.
-            The JGI and collaborators endorse the principles for the 
-            distribution and use of large scale sequencing data adopted by the 
-            larger genome sequencing community and urge users of this data to 
+            The JGI and collaborators endorse the principles for the
+            distribution and use of large scale sequencing data adopted by the
+            larger genome sequencing community and urge users of this data to
             follow them. It is our intention to publish the work of this project
-            in a timely fashion and we welcome collaborative interaction on the 
-            project and analysis. 
+            in a timely fashion and we welcome collaborative interaction on the
+            project and analysis.
             (http://www.genome.gov/page.cfm?pageID=10506376).##Genome-Assembly-D
-            ata-START##
-            Assembly Method       :: Newbler v. 2.3
-            Assembly Name         :: Aspac1
-            Long Assembly Name    :: Aspergillus aculeatus ATCC16872 v1.1 Genome
-            Coverage       :: 32.17x
-            Sequencing Technology :: 454; Sanger dideoxy sequencing 
-            ##Genome-Assembly-Data-END####Metadata-START##
-            Organism Display Name :: Aspergillus aculeatus ATCC 16872
-            GOLD Stamp ID         :: Gp0003551
-            ##Metadata-END##
 FEATURES             Location/Qualifiers
      source          1..56007
                      /chromosome="Unknown"
@@ -57,7 +58,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="ASPACDRAFT_42018"
                      /product="2OG-Fe(II)-dependent dioxygenase AAOXY2"
-                     /label=AAOXY2
+                     /label="AAOXY2"
                      /db_xref="InterPro:IPR005123"
                      /db_xref="JGIDB:Aspac1_42018"
                      /protein_id="OJK01754.1"
@@ -67,11 +68,12 @@ FEATURES             Location/Qualifiers
                      PADHLIAKHQSNTSELRLLHYPSIPARSMGSGKRIGEHSDFGTLTLLLQDSVGGLQVED
                      QRQLGSFIPVESEDVYEVIINVGDCLQRWTNKQLRSANHRVCLPQGTDVHSTAMLAPRY
                      SVAYFGKPDREVLVDSLPAFVRPGIKSEYDDHLTALEYMQQKLVRTYG"
+                     /Pfam="DIOX_N, 2OG-FeII_Oxy"
      CDS             complement(join(1442..1570,1640..3145,3235..3405))
                      /codon_start=1
                      /locus_tag="ASPACDRAFT_26446"
                      /product="isopropyl malate synthase AAHtyA"
-                     /label=AAHtyA
+                     /label="AAHtyA"
                      /note="GO_function: GO:3824 - catalytic activity"
                      /db_xref="InterPro:IPR000891"
                      /db_xref="JGIDB:Aspac1_26446"
@@ -87,16 +89,16 @@ FEATURES             Location/Qualifiers
                      RILGQQQQGFGVLFQQPACPHELEDATEEASRIATLMSQALQLPFRCQMAAFHPLPAER
                      QQGLVVTFAYCVIGDGSEKSWGIGVGVGKDEAIYATLLSIIQKRSVRVIDQPWASLDVK
                      STMERNEIISNNDLGHSRFQEIIIG"
+                     /Pfam="HMGL-like"
      CDS             join(4094..4168,4234..4309,4399..4490,4576..5215,
                      5278..5507)
                      /codon_start=1
                      /locus_tag="ASPACDRAFT_51504"
                      /product="isopropyl malate dehydrogenase AAHtyC"
-                     /label=AAHtyC
+                     /label="AAHtyC"
                      /note="GO_function: GO:16616 - oxidoreductase activity,
-                     acting on the CH-OH group of donors, NAD or NADP as 
-                     acceptor;
-                     GO_process: GO:8152 - metabolic process"
+                     acting on the CH-OH group of donors, NAD or NADP as
+                     acceptor; GO_process: GO:8152 - metabolic process"
                      /db_xref="InterPro:IPR001804"
                      /db_xref="JGIDB:Aspac1_51504"
                      /protein_id="OJK01756.1"
@@ -107,12 +109,13 @@ FEATURES             Location/Qualifiers
                      RHMLIDTAAMTLACRPTTLNGIVLTSNMFGDIVSDEASAIPGSLGLLPSASLCAIPDPD
                      GGDGVRGIYEPVHGSAPDIAGKGIINPTGMILSVAMMLRYSLEMPDAAEAVETAVKEVI
                      ERGCRTRDVGGTASTTEFGDAVVAYLKDHA"
-     CDS             join(5877..6500,6587..6772,6841..7200,7271..7808,7880..8250,
-                     8309..8486,8557..8942)
+                     /Pfam="Iso_dh"
+     CDS             join(5877..6500,6587..6772,6841..7200,7271..7808,
+                     7880..8250,8309..8486,8557..8942)
                      /codon_start=1
                      /locus_tag="ASPACDRAFT_2707"
                      /product="aconitase AAHtyD"
-                     /label=AAHtyD
+                     /label="AAHtyD"
                      /note="GO_process: GO:8152 - metabolic process"
                      /db_xref="InterPro:IPR000573"
                      /db_xref="InterPro:IPR001030"
@@ -134,11 +137,12 @@ FEATURES             Location/Qualifiers
                      LGVKCVIARSFSFIYGRNQPTIGLLGLTITDDDFYAAAQTGVAIEIDLPRRQVTVSDRS
                      YPFVLDEMELALIQRQGLAAAYKMFGKSVFQSLCNDPGSGTVPASALAEMHLGRCQAEN
                      RGKQEVLAW"
+                     /Pfam="Aconitase, Aconitase_C"
      CDS             complement(join(9120..9332,9429..9665))
                      /codon_start=1
                      /locus_tag="ASPACDRAFT_42022"
                      /product="hypothetical protein ASPACDRAFT_42022"
-                     /label=ASPACDRAFT_42022
+                     /label="ASPACDRAFT_42022"
                      /db_xref="JGIDB:Aspac1_42022"
                      /protein_id="OJK01758.1"
                      /translation="MGWNPSHELIVFLVICGCVVFVFIGYALARLYGGDTFDGPGLPGM
@@ -148,8 +152,8 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="ASPACDRAFT_77431"
                      /product="RTA1 domain-containing protein ASPACDRAFT_77431"
-                     /label=ASPACDRAFT_77431
-                     /note="GO_component: GO:16021 - integral to membrane; 
+                     /label="ASPACDRAFT_77431"
+                     /note="GO_component: GO:16021 - integral to membrane;
                      GO_process: GO:6950 - response to stress"
                      /db_xref="InterPro:IPR007568"
                      /db_xref="JGIDB:Aspac1_77431"
@@ -160,11 +164,12 @@ FEATURES             Location/Qualifiers
                      TSLRDLGIDIMIAGLACQVVSLVAFMALAGDFALQLHRHQAQGSTSLLPVDWHAGWKWR
                      GFLIGLIVATTTIFIRSCFRVAELKGGFGSALANDQVAFIILEGVMMILACGAMTAFHP
                      GLVFSRERWNASAQQQLKLNRVESRSSQIEMIQRSAV"
+                     /Pfam="RTA1"
      CDS             complement(join(12245..13009,13103..13723,13791..14024))
                      /codon_start=1
                      /locus_tag="ASPACDRAFT_4483"
                      /product="cytochrome P450 monooxygenase AAP450-1"
-                     /label=AAP450-1
+                     /label="AAP450-1"
                      /note="GO_function: GO:4497; iron ion binding -
                      monooxygenase activity [Evidence 20037] [PMID 5506]"
                      /db_xref="InterPro:IPR001128"
@@ -180,14 +185,15 @@ FEATURES             Location/Qualifiers
                      DLSYIAVPRMVAPAMGLDFDQGLLHLPRGVRVCVPAHAIHRDPLNYADPLTFDPFRFSD
                      SEQNREKAVSIATTTDAFLVFGHGRHACPGRFFAAQTMKLMLAYLVRHYEVEPIDHGPE
                      KEVQVGTARPSAQLCLRVRWRD"
+                     /Pfam="p450"
      CDS             15329..37408
                      /codon_start=1
                      /locus_tag="ASPACDRAFT_42025"
                      /product="nonribosomal peptide synthetase AANRPS4"
-                     /label=AANRPS4
-                     /note="GO_function: GO:3824; cofactor binding - catalytic 
-                     activity [PMID 48037];
-                     GO_process: GO:8152 - metabolic process"
+                     /label="AANRPS4"
+                     /note="GO_function: GO:3824; cofactor binding - catalytic
+                     activity [PMID 48037]; GO_process: GO:8152 - metabolic
+                     process"
                      /db_xref="InterPro:IPR000873"
                      /db_xref="InterPro:IPR001242"
                      /db_xref="InterPro:IPR006163"
@@ -318,11 +324,12 @@ FEATURES             Location/Qualifiers
                      EYVRMLAETLTILVDEPSRTVKEMLSGPAARSGGKGKKSSAPVVQITERISGEDPLVMA
                      SYLQIKQRPEWEVVLQRRRGIATGKTRPAASFAQRGGDLLDAVYLASLLGPGDQFDSAQ
                      AILVGSRREDEARLEEALPSAKAKRLSLRTMWTSARKSYARWFTAGSWQRSQTSLAV"
+                     /Pfam="ACP_PCP, NRPS_C, AA-adenyl-dom, NRPS_CT"
      CDS             join(37799..38034,38126..38192,38290..38973)
                      /codon_start=1
                      /locus_tag="ASPACDRAFT_77432"
                      /product="2OG-Fe(II)-dependent dioxygenase AAOXY1"
-                     /label=AAOXY1
+                     /label="AAOXY1"
                      /db_xref="InterPro:IPR005123"
                      /db_xref="JGIDB:Aspac1_77432"
                      /protein_id="OJK01762.1"
@@ -332,11 +339,12 @@ FEATURES             Location/Qualifiers
                      SEPSVTNLGFLKYPPQPPGSRNFGHIAHTDVGSLTLLSATARGLQVIDIARQDWEFVEP
                      NPAQLFVQFGDCLKFLSRGRIIPSLHRVVPSDTDAQATKYTLAYFVRPNEQAQITTDDG
                      TVWRYENYHCRKFDAFARPLSHVRPEGEHDMISIRQAPQREAPVAAA"
+                     /Pfam="2OG-FeII_Oxy"
      CDS             join(39492..39716,39794..40163,40240..41240)
                      /codon_start=1
                      /locus_tag="ASPACDRAFT_42027"
                      /product="cytochrome P450 monooxygenase AMP450-2"
-                     /label=AMP450-2
+                     /label="AMP450-2"
                      /note="GO_function: GO:4497; iron ion binding -
                      monooxygenase activity [Evidence 20037] [PMID 5506]"
                      /db_xref="InterPro:IPR001128"
@@ -352,12 +360,13 @@ FEATURES             Location/Qualifiers
                      AADKEAGGLRLPHGARISVAAYAIHRDDNLWPEATTYNPSRYAVEHAAAPRVPMSRASE
                      RFLSFGMGKRACPGRFFVTDELKLLFAHIFTKYEIKVIPPPPTTAGLFTELTLRGPQEQ
                      LMVRRRTKEETNTA"
+                     /Pfam="p450"
      CDS             complement(join(41931..42233,42298..42623,42689..42851,
                      42917..43162,43232..43603,43674..43943))
                      /codon_start=1
                      /locus_tag="ASPACDRAFT_42028"
                      /product="CoA ligase AALigase"
-                     /label=AALigase
+                     /label="AALigase"
                      /note="GO_function: GO:3824 - catalytic activity;
                      GO_process: GO:8152 - metabolic process"
                      /db_xref="InterPro:IPR000873"
@@ -373,11 +382,12 @@ FEATURES             Location/Qualifiers
                      LYVRSPSVMKGYLGENEGDSYAFDQDGWLVTGDVACMRRGADGEEHLFIVDRKKDIMKV
                      KGIQVAPVEIEAQLLNHPAVDETAVIGVQDDATGERPFAFVVRSRQVDAQMDEATLRQA
                      LAAYIQNTLSEPFWLRENIRFLEAIPKSHSGKALKFKLKDLV"
+                     /Pfam="AA-adenyl-dom"
      CDS             join(46176..48151,48235..48466)
                      /codon_start=1
                      /locus_tag="ASPACDRAFT_42029"
                      /product="hypothetical protein AAHYP"
-                     /label=AAHYP
+                     /label="AAHYP"
                      /db_xref="JGIDB:Aspac1_42029"
                      /protein_id="OJK01765.1"
                      /translation="MHLVEGSRATPTTPQQDCHDLVLMDRLCVDFREKLLDALATSSCS
@@ -393,11 +403,12 @@ FEATURES             Location/Qualifiers
                      HRSKTQALTDLMQMLYPGLTPIPAVSAVSSNRSTNDCVYTRKLTRLRNRLSCARNWYPF
                      EHTFPGGILALIPCAGRYSISIDQVEKLPSDTMRIFLAYLQEHRGTYLRNLSQALSKEV
                      FDVLEGADLSQTFAFETVDEGGLGDYLYDTEDLLQLCRPAV"
+                     /Pfam="EcdJ"
      CDS             complement(join(49091..49762,49846..50019,50090..50251))
                      /codon_start=1
                      /locus_tag="ASPACDRAFT_59413"
                      /product="2OG-Fe(II)-dependent dioxygenase AAOXY4"
-                     /label=AAOXY4
+                     /label="AAOXY4"
                      /db_xref="InterPro:IPR005123"
                      /db_xref="JGIDB:Aspac1_59413"
                      /protein_id="OJK01766.1"
@@ -407,6 +418,7 @@ FEATURES             Location/Qualifiers
                      LGIRRGAFVERCQGHASELRLNHYPAIARRTLEAGKTSRIWPHTDFGIITLLAQDDRGG
                      LEVQSEANPVEFVPVPREDPTEFVVNIGDTLERWTNGVLHAGLHQVTAPRGEEASTGSD
                      ETILPARRSIAFFLKARRDMSVGPLLPFVTPDRPSQYQDMTALAYQQLRTGIVY"
+                     /Pfam="DIOX_N, 2OG-FeII_Oxy"
      CDS             join(50701..50913,50986..51505,51583..51809,51879..52158,
                      52268..52501,52572..53347,53398..53560,53620..53952,
                      54025..54148,54223..54294,54357..55088,55140..55223,
@@ -414,11 +426,11 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="ASPACDRAFT_25680"
                      /product="ABC transporter AATRT"
-                     /label=AATRT
-                     /note="GO_component: GO:16021 - integral to membrane; 
-                     GO_function: GO:5524; ATPase activity - ATP binding 
-                     [Evidence 42626] [PMID 16887];
-                     GO_process: GO:6810 - transport"
+                     /label="AATRT"
+                     /note="GO_component: GO:16021 - integral to membrane;
+                     GO_function: GO:5524; ATPase activity - ATP binding
+                     [Evidence 42626] [PMID 16887]; GO_process: GO:6810 -
+                     transport"
                      /db_xref="InterPro:IPR001140"
                      /db_xref="InterPro:IPR003439"
                      /db_xref="JGIDB:Aspac1_25680"
@@ -448,6 +460,7 @@ FEATURES             Location/Qualifiers
                      RQDVRSRLITLPQEPFFYHGTIRENLDVQGQHTDEDLYEILSRLGLQELIVRKGGLDVS
                      MSEDMLSHGQRQLLCVVRASLRTSKILILDEATSSVDQETEALILDVLRERFRDHTVVC
                      IAHRLNTILDYDQVIVLDQGCVVECGHPATLAAQPSIFAELLRATGEHSVTEE"
+                     /Pfam="ABC_membrane, ABC_tran"
 ORIGIN
         1 atggttatca aatcattaga cttccgccgc tatcgcagcg acgatgcgca agagcgacaa
        61 caattctgcg atgaactctg tgaaacgctc tgtgtctatg gatttgctaa gattcgccac

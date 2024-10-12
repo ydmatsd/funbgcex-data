@@ -1,24 +1,24 @@
-LOCUS       FBGC00552       15741 bp DNA     linear   UNA 07-APR-2023
+LOCUS       FBGC00552              15741 bp    DNA     linear   UNA 07-APR-2023
 DEFINITION  calipyridone A.
 ACCESSION   FBGC00552
-VERSION     .
+VERSION     FBGC00552
 KEYWORDS    .
 SOURCE      Aspergillus californicus IBT 16748
   ORGANISM  Aspergillus californicus IBT 16748
+            .
 REFERENCE   1  (bases 1 to 15741)
-  AUTHORS   Guo Y, Contesini FJ, Wang X, Ghidinelli S, Tornby DS, Andersen TE, 
+  AUTHORS   Guo Y, Contesini FJ, Wang X, Ghidinelli S, Tornby DS, Andersen TE,
             Mortensen UH, Larsen TO.
-  TITLE     Biosynthesis of Calipyridone A Represents a Fungal 2-Pyridone 
+  TITLE     Biosynthesis of Calipyridone A Represents a Fungal 2-Pyridone
             Formation without Ring Expansion in Aspergillus californicus.
   JOURNAL   Org Lett 2022;24:804-808
-  PUBMED    35045257
+   PUBMED   35045257
 REFERENCE   2  (bases 1 to 15741)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Apr 7, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1021/acs.orglett.1c03792"; journalName: "Org Lett"; date: 
+  JOURNAL   Exported Apr 7, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1021/acs.orglett.1c03792"; journalName: "Org Lett"; date:
             "2022"; volume: "24"; pages: "804-808"
 FEATURES             Location/Qualifiers
      source          1..15741
@@ -28,8 +28,8 @@ FEATURES             Location/Qualifiers
      CDS             join(1..177,268..400,461..590,668..1490)
                      /codon_start=1
                      /product="methyltransferase CpdC"
-                     /label=cpdC
-                     /label=jgi.p|Aspcalif1|222318
+                     /label="cpdC"
+                     /label="jgi.p|Aspcalif1|222318"
                      /note="/ID=CDS_3977"
                      /note="/Parent=mRNA_3977"
                      /note="/frame=[326486..327145: 0]"
@@ -42,11 +42,12 @@ FEATURES             Location/Qualifiers
                      KTTHSTKDGSEQAQIEVMRHDFFNPQPVLGADVYLLSRIVHNWPDEKARVILSHLRAAM
                      SQDSTLLVIDRIFSDKLERVSETMTMLDLGMMASLSALERTEGQFRELLSSVGLRLMNV
                      WRAASSDGDNECRAILQIVKG"
+                     /Pfam="Methyltransf_2"
      CDS             complement(2230..3075)
                      /codon_start=1
                      /product="methyltransferase CpdB"
-                     /label=cpdB
-                     /label=jgi.p|Aspcalif1|222319
+                     /label="cpdB"
+                     /label="jgi.p|Aspcalif1|222319"
                      /note="/ID=CDS_3978"
                      /note="/Parent=mRNA_3978"
                      /note="/frame=[complement(327885..328730): 0]"
@@ -57,12 +58,13 @@ FEATURES             Location/Qualifiers
                      DDVMDEWQRLLMKVQLSSGCQPHAGRMVHSWARQAGFSPTEIRYTWSSWCYHTPKEIGW
                      YSGLMSERIVAAGMATLAVMHGLATPEELEQIAAGWRRWGALEDAFFSFPSGEIICRKG
                      "
+                     /Pfam="Methyltransf_31"
      CDS             join(3373..4708,4803..7638,7739..10192,10248..15741)
                      /codon_start=1
-                     /product="polyketide synthase-nonribosomal peptide 
+                     /product="polyketide synthase-nonribosomal peptide
                      synthetase CpdA"
-                     /label=cpdA
-                     /label=jgi.p|Aspcalif1|255550
+                     /label="cpdA"
+                     /label="jgi.p|Aspcalif1|255550"
                      /note="/ID=CDS_3979"
                      /note="/Parent=mRNA_3979"
                      /note="/frame=[329028..330363: 0, 330458..333293: 2,
@@ -137,6 +139,8 @@ FEATURES             Location/Qualifiers
                      IENWARQTGLPACIHRPCILVGDGAPIDGAIIQYSQRLRASPLFPNFRGRIDVRHVTGM
                      ASDIVQACLSTASALSSPDDREDSPNLTYRHYSSGRSFPASDYRAYIEHLAGEPVVEVS
                      LAEWMKRAMEIGMGVESARFMDWSIKVGKMMTFNYMGEQEL"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_DH, PKS_NRPS_MT, fPKS_KR,
+                     ACP_PCP, Condensation, AA-adenyl-dom, fPKS_R"
 ORIGIN
         1 atggatacac accatctgat cctggatctt gagaaagctc tttcatctct ttctaccaat
        61 actggccagc tagacgacca acagcgccat catgttctcc agtcatgtcg tactttctgt

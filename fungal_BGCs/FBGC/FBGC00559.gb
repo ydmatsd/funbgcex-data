@@ -1,22 +1,22 @@
-LOCUS       FBGC00559       23386 bp DNA     linear   UNA 08-APR-2023
+LOCUS       FBGC00559              23386 bp    DNA     linear   UNA 08-APR-2023
 DEFINITION  (-)-sambutoxin.
 ACCESSION   FBGC00559
-VERSION     .
+VERSION     FBGC00559
 KEYWORDS    .
 SOURCE      Fusarium commune F23a
   ORGANISM  Fusarium commune F23a
+            .
 REFERENCE   1  (bases 1 to 23386)
   AUTHORS   Go EB, Kim LJ, Nelson HM, Ohashi M, Tang Y.
   TITLE     Biosynthesis of the Fusarium Mycotoxin (-)-Sambutoxin.
   JOURNAL   Org Lett 2021;23:7819-7823
-  PUBMED    34581588
+   PUBMED   34581588
 REFERENCE   2  (bases 1 to 23386)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Apr 8, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1021/acs.orglett.1c02836"; journalName: "Org Lett"; date: 
+  JOURNAL   Exported Apr 8, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1021/acs.orglett.1c02836"; journalName: "Org Lett"; date:
             "2021"; volume: "23"; pages: "7819-7823"
 FEATURES             Location/Qualifiers
      source          1..23386
@@ -26,9 +26,9 @@ FEATURES             Location/Qualifiers
      CDS             complement(join(1..4222,4290..11866))
                      /codon_start=1
                      /locus_tag="Fuscom__000660"
-                     /product="polyketide synthase-nonribosomal peptide 
+                     /product="polyketide synthase-nonribosomal peptide
                      synthetase SmbA"
-                     /label=smbA
+                     /label="smbA"
                      /protein_id="Fuscom_:cds.g660.t1"
                      /translation="MPSPGEPIAVIGSACRFPGGASSPSKLWSLLQSPKDCLRDFPKDR
                      LNLEAFYNKDGEHHGATDVCNKGYLLEEDSRLFDASFFNVNPAEADGMDPQQRLTLETV
@@ -97,11 +97,13 @@ FEATURES             Location/Qualifiers
                      TAAKWAGEVFLEILSEAAAANAERDLPVSIHRHCAIVGDEAPIEDALNALLRYSKLVNA
                      VPRVSSLNVGGYFDFLPVTDVADSFAEFVESSQGTHSGVAFKHYSSGVKVPPAEFASYM
                      QETCGGEFRELDLDDWIEQARKEGIEELIVLYLQAIVEKGQRIIFPYMGNKE"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_DH, PKS_NRPS_MT, fPKS_KR,
+                     ACP_PCP, Condensation, AA-adenyl-dom, fPKS_R"
      CDS             join(12562..13118,13165..13705)
                      /codon_start=1
                      /locus_tag="Fuscom__000661"
                      /product="trans-acting enoylreductase SmbB"
-                     /label=smbB
+                     /label="smbB"
                      /protein_id="Fuscom_:cds.g661.t1"
                      /translation="MAVQSIISRQNLPATQKALKVQGAGIVTLQENSPVEPPKEDEVLV
                      RIFCVGVNPHDWKSLDMSPSPGATWGCDFAGEVITAGNLTTKFKAGDRVGGACAGNRSD
@@ -110,11 +112,12 @@ FEATURES             Location/Qualifiers
                      IRTFTHDSLEYVLDCITESSSMKICYAAIGSHGGNYIGLDQFPIRGHTRRDVRPGWVLA
                      WTALGKPVDWRKPYRREARPKDKAFAERWAPIAQKILDSKDIMTHPTEVSEEGLAGVAE
                      GAERVKMGTAGGKKLIYRVAALSTS"
+                     /Pfam="fPKS_ER"
      CDS             join(14926..15501,15550..16078,16124..16542)
                      /codon_start=1
                      /locus_tag="Fuscom__000662"
                      /product="cytochrome P450 monooxygenase SmbC"
-                     /label=smbC
+                     /label="smbC"
                      /protein_id="Fuscom_:cds.g662.t1"
                      /translation="MSSRLSAISLAAFYGLVILYFLNRLWDHISYSIKTKKYKCGPLKT
                      YPHWDPIWGIDFVLSMSRAFKEHRWLSWMEETWAAQGTKTFKARFLGMRMVYSSEMENM
@@ -125,21 +128,23 @@ FEATURES             Location/Qualifiers
                      KEVLELGDEELTFSKLRGMKYMNWVINETHRTIPNGIQMIRVAAHDTTLPRGGGPDGKQ
                      PIFCAKGDIVHCNRYLMHRDPEYWGEDAAEFRPERWDGLRPLWHFVPFGGGPRICPAHI
                      LVATETAYVLTRFCQKFKGIEARDERGYVPVMRVGPSSLNGVKIAVTPR"
+                     /Pfam="p450"
      CDS             complement(join(16708..17366,17414..17738))
                      /codon_start=1
                      /product="short-chain dehydrogenase/reductase SmbD"
-                     /label=smbD
+                     /label="smbD"
                      /translation="MSSSHPAPQSFVAVFVGATRGIGLATLKVLTRTLPNPRIYVIGRS
                      KARFAGELALLNECNPNATIQFVQAEVSLIKAIDGACERIRNLEKHVDFLFMSPGSLAF
                      GGPHYTGEKLDLCFSLSFYIRMRLIERLLPMLMQAPHPRVLSVLAGGHEGPLFTNDGDT
                      GLRKKGSYTAPRAVNQVTTLHSLAFIHFASHYPKVSWLHVHPGWVATTFLSDLLQSAGA
                      VGVLAGKIVLPVYRFVAMSEDECGRRQAEYALSGRYPSREMICSAVVDVTDQAACHGLC
                      SGFYRVLSDGSTATDGKVLGPLEREGWPLKAFKHTQQVFDEILCQE"
+                     /Pfam="SmbD"
      CDS             join(18170..19617,19671..19830)
                      /codon_start=1
                      /locus_tag="Fuscom__000663"
                      /product="cytochrome P450 monooxygenase SmbE"
-                     /label=smbE
+                     /label="smbE"
                      /protein_id="Fuscom_:cds.g663.t1"
                      /translation="MTNPTNITMNQLSMDWERVAVIWQTASPASRVIITLSAISLTALL
                      ISIIYELYFSPLSKFPGPKLCAISRIPHLIATASGHQLPWLINLHNKYGGVVRIAPDAL
@@ -151,11 +156,12 @@ FEATURES             Location/Qualifiers
                      ATGTDRVVPGSGAQIAGRFVPGNTVVMMLHQVTYSVKQNFSRASEYVPERWLPEGKGRP
                      QDCIDDVRGSVHPFSVGPQSCFGQELSFYVLRLALCKLLYRFDIALTPESENWVDGQLT
                      FGTRSKPPLMAYVKKASL"
+                     /Pfam="p450"
      CDS             complement(join(20148..20480,20528..20638,20685..21752))
                      /codon_start=1
                      /locus_tag="Fuscom__000664"
                      /product="cytochrome P450 monooxygenase SmbF"
-                     /label=smbF
+                     /label="smbF"
                      /protein_id="Fuscom_:cds.g664.t1"
                      /translation="MENLQLNARTLLTVAASLIALRITYTVIYRLYLSPLARIPGPRLA
                      ALSFFYEFYYDVIKRGKFLWKIQELHRQYGPIVRINPYEVHINDDSFYDEIYASGPHHP
@@ -166,11 +172,12 @@ FEATURES             Location/Qualifiers
                      VDSPITVAKLEPLPYLTGVIQEGIRLSFGVPGRLPRYAPTEDLVYAGYELPRGTRMSSS
                      SYLIDTNEEHYPDPFKFDPERWMHGKTSLSRHFVPFCRGSRQCIGMNLAYAELYLTVAT
                      IFSRFDLELVGTTKRDVEIAHDFFVGMPPLDSKGVMVRIVKDCSE"
+                     /Pfam="p450"
      CDS             join(22349..22586,22638..23183,23238..23386)
                      /codon_start=1
                      /locus_tag="Fuscom__000665"
                      /product="methyltransferase SmbG"
-                     /label=smbG
+                     /label="smbG"
                      /protein_id="Fuscom_:cds.g665.t1"
                      /translation="MATEAVNQSPQTGTDSSVANGTGMDALMEDAKKRGLQEEISRLTD
                      NHLVYTDAAGGKLSYAPVDWKKPGLRILDSATADGIWLQDLRKQAGPVADEQTYIGTDL
@@ -178,6 +185,7 @@ FEATURES             Location/Qualifiers
                      AKPGSWVELVELDCDQSLLEEGTAAHEFFRLLEQIWKIKKMGGNFGPNLKEWMENAGLE
                      DVQVDVLQCKVGAKAKPELKQASINGAAGAGPMIVAMARTLPELEGFTTEQLDTLDTRV
                      RKELAEKGAEFQSFAVRGRVPAGGLKPKK"
+                     /Pfam="GliN"
 ORIGIN
         1 ctactccttg ttccccatgt acggaaatat tatccgttgt cctttctcca cgatagcctg
        61 caaatacaac acaattaact cttcaattcc ttccttcctc gcctgctcaa tccaatcgtc

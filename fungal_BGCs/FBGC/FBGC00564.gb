@@ -1,44 +1,45 @@
-LOCUS       FBGC00564       12826 bp DNA     linear   UNA 08-APR-2023
+LOCUS       FBGC00564              12826 bp    DNA     linear   UNA 08-APR-2023
 DEFINITION  8-methyldiaporthin.
 ACCESSION   FBGC00564
-VERSION     .
+VERSION     FBGC00564
 KEYWORDS    RefSeq; HIGH_QUALITY_DRAFT.
 SOURCE      Aspergillus oryzae RIB40
   ORGANISM  Aspergillus oryzae RIB40
+            .
 REFERENCE   1  (bases 1 to 12826)
   AUTHORS   Nakazawa T, Ishiuchi K, Praseuth A, Noguchi H, Hotta K, Watanabe K.
-  TITLE     Overexpressing transcriptional regulator in Aspergillus oryzae 
-            activates a silent biosynthetic pathway to produce a novel 
+  TITLE     Overexpressing transcriptional regulator in Aspergillus oryzae
+            activates a silent biosynthetic pathway to produce a novel
             polyketide.
   JOURNAL   Chembiochem 2012;13:855-61
-  PUBMED    22447538
+   PUBMED   22447538
 REFERENCE   2  (bases 1 to 12826)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Apr 8, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1002/cbic.201200107"; journalName: "Chembiochem"; date: "2012"; 
+  JOURNAL   Exported Apr 8, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     ##Genome-Assembly-Data-START##
+            Assembly Method     :: Phred/Phrap software
+            Assembly Name       :: Aoryzae_assembly02
+            ##Genome-Assembly-Data-END##
+            ##Genome-Annotation-Data-START##
+            Annotation Provider :: INSDC submitter
+            Annotation Status   :: Full annotation
+            Annotation Pipeline :: Eukaryotic Annotation Propagation Pipeline
+            ##Genome-Annotation-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1002/cbic.201200107"; journalName: "Chembiochem"; date: "2012";
             volume: "13"; pages: "855-61"
-COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final 
+            PROVISIONAL REFSEQ: This record has not yet been subject to final
             NCBI review. The reference sequence is identical to BA000056.
             This genome assembly has been updated so
             as to reflect the location and orientation of
             contigs on the chromosomes. Gap lengths were
             estimated using the results from Optical
-            Mapping (http://www.bio.nite.go.jp/dogan/project/view/AO). This 
-            Aspergillus oryzae RIB40 genome consists of a nuclear genome 
-            assembly represented by eight chromosomes (assembled from 24 
-            entries) and three unplaced contigs (AP007156, AP007160 and 
-            AP007177) and a complete mitochondrial genome 
-            (AP007176).##Genome-Assembly-Data-START##
-            Assembly Method :: Phred/Phrap software
-            Assembly Name   :: Aoryzae_assembly02
-            ##Genome-Assembly-Data-END####Genome-Annotation-Data-START##
-            Annotation Provider :: INSDC submitter
-            Annotation Status   :: Full annotation
-            Annotation Pipeline :: Eukaryotic Annotation Propagation Pipeline 
-            ##Genome-Annotation-Data-END##
+            Mapping (http://www.bio.nite.go.jp/dogan/project/view/AO). This
+            Aspergillus oryzae RIB40 genome consists of a nuclear genome
+            assembly represented by eight chromosomes (assembled from 24
+            entries) and three unplaced contigs (AP007156, AP007160 and
+            AP007177) and a complete mitochondrial genome
 FEATURES             Location/Qualifiers
      source          1..12826
                      /chromosome="8"
@@ -50,7 +51,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="AO090010000047"
                      /product="methyltransferase AoiF"
-                     /label=aoiF
+                     /label="aoiF"
                      /note="unnamed protein product; predicted protein"
                      /db_xref="GeneID:5999231"
                      /protein_id="XP_001827097.1"
@@ -62,13 +63,14 @@ FEATURES             Location/Qualifiers
                      PGYLSYLDDAQDLKSRIGYRAHSFFDPQPVQDADVYMLRMILHNWSFDDCVRILSRLVQ
                      TLKPGARIIIVDIVLPDPGVVSASKERLLRVQDLIMQQVFNSMERYLENWMDIFRKVDE
                      RLEVKRIVEPPGSLMSLIELSMAA"
+                     /Pfam="MdpA"
      CDS             join(2112..2389,2439..6192,6244..8577)
                      /codon_start=1
                      /locus_tag="AO090010000048"
                      /product="polyketide synthase AoiG"
-                     /label=aoiG
-                     /note="unnamed protein product; polyketide synthase
-                     modules and related proteins"
+                     /label="aoiG"
+                     /note="unnamed protein product; polyketide synthase modules
+                     and related proteins"
                      /db_xref="GeneID:5999232"
                      /protein_id="XP_023094012.1"
                      /translation="MVNIYIFGDQTVRVDDAVHKLLHVKNNPILKSFLDGSFAAIRKQI
@@ -108,11 +110,13 @@ FEATURES             Location/Qualifiers
                      VFGVHGGRKPPAWLLQHFQAFNDVLSQYTLEPFRPADATPNTTLIYAQDGVCKSPRDPR
                      PERHPGDPEVFSWLLENRVDMSCNGWDQLLGEDNIHLGTVFDANHFTIVRTPAVVRLSE
                      IVRMAMSRKFQ"
+                     /Pfam="SAT2, PKS_KS, PKS_AT, fPKS_PT, ACP_PCP,
+                     Thioesterase"
      CDS             9591..10754
                      /codon_start=1
                      /locus_tag="AO090010000049"
                      /product="transcription factor AoiH"
-                     /label=aoiH
+                     /label="aoiH"
                      /note="unnamed protein product; predicted protein"
                      /db_xref="GeneID:5999233"
                      /protein_id="XP_001827099.3"
@@ -123,16 +127,18 @@ FEATURES             Location/Qualifiers
                      DPRTSCVRSRTPPRSHTQSLDATLDDGRTAMDTVKDILACPCAQEIRVALLLVLIIQQV
                      LESYQALLTQQHDTPREESPLGINLSRYDTPMAIGRYLLDNELRSKIIVQVLSSELEKI
                      GLILDILTRHAQSMAHQPDELILGTYIDSLQTTKKEVLESLEQGNDI"
+                     /Pfam="EqxR, Zn_clus, AflR"
      CDS             complement(11879..12826)
                      /codon_start=1
                      /product="2OG-Fe(II)-dependent dioxygenase AoiI"
-                     /label=aoiI
+                     /label="aoiI"
                      /translation="MDILKDFLQAPPPPNATIKKLDFTKTTPPIPAYKNHFAAIIDNAL
                      TPAECNQLLHLAEQSIAPQNKSDPDPGNTPWDRALLNVGNGKQVKATGFRNCGRIIYDS
                      PDIADRLLNRLLPFLRECDIVQISGQPLVTGAGPATRGETFKLTRLNEKLRFLKYTGGE
                      YFRAHTDGCYVTPDERERSLFTVHLYLNGEGEQDEGELRRAIARRERVDARVSEDNSGW
                      GVVFGDGDGDANEDIRSEEKEENSEGAREQTLLGGATSFRLESYAGERVVRVFPKAGSA
                      LVFQQRGLCHAGDDVFRGVKYTMRSDMMYEKVER"
+                     /Pfam="2OG-FeII_Oxy_3"
 ORIGIN
         1 atggaagaac tgacccgaag tctggtgaac gacgtcgagg tactgaacaa ccactttgtt
        61 tccactggcc atcccctccc ttcatttgat cgtcatacac ctacagttgt actgcctaat

@@ -1,23 +1,23 @@
-LOCUS       FBGC00580       17355 bp DNA     linear   UNA 10-APR-2023
+LOCUS       FBGC00580              17355 bp    DNA     linear   UNA 10-APR-2023
 DEFINITION  sporandol.
 ACCESSION   FBGC00580
-VERSION     .
+VERSION     FBGC00580
 KEYWORDS    .
 SOURCE      Chrysosporium merdarium ATCC 74009
   ORGANISM  Chrysosporium merdarium ATCC 74009
+            .
 REFERENCE   1  (bases 1 to 17355)
   AUTHORS   Thiele W, Obermaier S, Muller M.
-  TITLE     A Fasciclin Protein Is Essential for Laccase-Mediated Selective 
+  TITLE     A Fasciclin Protein Is Essential for Laccase-Mediated Selective
             Phenol Coupling in Sporandol Biosynthesis.
   JOURNAL   ACS Chem Biol 2020;15:844-848
-  PUBMED    32227858
+   PUBMED   32227858
 REFERENCE   2  (bases 1 to 17355)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Apr 10, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1021/acschembio.0c00025"; journalName: "ACS Chem Biol"; date: 
+  JOURNAL   Exported Apr 10, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1021/acschembio.0c00025"; journalName: "ACS Chem Biol"; date:
             "2020"; volume: "15"; pages: "844-848"
 FEATURES             Location/Qualifiers
      source          1..17355
@@ -30,7 +30,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="spoP"
                      /product="polyketide synthase SpoP"
-                     /label=spoP
+                     /label="spoP"
                      /protein_id="QNT61260.1"
                      /translation="MKLVHFTNQLPSDHLAIFRRLRTQSKANDGAILRIFLQKATQTLR
                      EEIRLLPVEQKAIFPPFNNILDLAEAQSLRRGYLGEAIDGVLLNVMHLSLFIRYHELHP
@@ -63,11 +63,12 @@ FEATURES             Location/Qualifiers
                      PGKALTPPLSFTSGTPPLEDEPVMGELTPPTEPSSPKMTPIVVDSIGSENQVVKDALVL
                      LAAETAVDISELTGETSFASIGVDSLLSLVLAEKFKEELGVQVPSSLFLECPTLNDLQA
                      WLVDYS"
+                     /Pfam="SAT2, PKS_KS, PKS_AT, fPKS_PT, ACP_PCP"
      CDS             complement(join(6250..7053,7202..7345))
                      /codon_start=1
                      /gene="spoB"
                      /product="metallo-beta-lactamase-like thioesterase SpoB"
-                     /label=spoB
+                     /label="spoB"
                      /protein_id="QNT61261.1"
                      /translation="MAVATNNYPDITAFGDYIDAQTRLLPELPEVEVLTPRIIRVMGCN
                      PGRMQLQGTNTYLLGTGPEKILIDTGAGDRRWAELVSSLVNDWGILIRHVLLTHWHGDH
@@ -75,11 +76,12 @@ FEATURES             Location/Qualifiers
                      MDEERALFTGDTLLGNGANTAVENMSEYMTSLRKIQERDCHIAYPGHGDKIPDLTKKLK
                      QEVDRCLQRESRVLMTLRKIQKSNAAAGDRGKGGATTTELVNEMFGSLSASVRESAIQP
                      AVKEMLMKLAAEKKVGFELKAGQKRWFAKSQVVA"
+                     /Pfam="Lactamase_B"
      CDS             complement(8528..9805)
                      /codon_start=1
                      /gene="spoR"
                      /product="transcription factor SpoR"
-                     /label=spoR
+                     /label="spoR"
                      /protein_id="QNT61262.1"
                      /translation="MDHSQVKSASKLRSPKSRLENVRSSCDNCTKSKVRCSKNQPRCQR
                      CIHQGVHCKYSLSRKCRRRTTSTVESISGSNQPLESSRDRPSRFENGLSTLLPSNPASI
@@ -89,11 +91,12 @@ FEATURES             Location/Qualifiers
                      LRALSWYQASLDSGSSNGSPSITSGSLSASFTASSSVSGSTSTLDVPPSMDWVSIPAIN
                      FGFYALDEEHSSCMVAQLICAELSKIKSVVDKFSSKYCERDSAISTLYSAKAGENNTPF
                      YVELEALLRDRLDRTIVSAREHIERW"
+                     /Pfam="EqxR, CpaE, AflR"
      CDS             complement(join(10855..11172,11235..11594,11647..12201))
                      /codon_start=1
                      /gene="spoF"
                      /product="fasciclin-like protein SpoF"
-                     /label=spoF
+                     /label="spoF"
                      /protein_id="QNT61263.1"
                      /translation="MALTSKIRRTLIQAATVAAVLLTVSTAVQLYVTKWRPAADQWRLT
                      QIFKGSNEPLHLPLTHSQTAWEVMKSDKNISSFVRMIEDFPDIVLGLTSVAGKFTVLAP
@@ -103,12 +106,13 @@ FEATURES             Location/Qualifiers
                      RTFYSDVHYQSNGQGEIKMATGSATSLPTLVNGHDLQISIHADDSRNLITINNAVRAST
                      QDIVAMDGVIHVIDTVLLPPTASEDGSKPQEEDTSWITSLVQLFRWKTTPEELTVESLM
                      EILNPLLEPSS"
+                     /Pfam="Fasciclin"
      CDS             join(12580..12774,12880..12935,12993..13163,13219..13389,
                      13483..13608,13674..14916)
                      /codon_start=1
                      /gene="spoL"
                      /product="laccase SpoL"
-                     /label=spoL
+                     /label="spoL"
                      /protein_id="QNT61264.1"
                      /translation="MIALFLRVLFVLGFICPTAFSKLVREEIVLTWEVAAPNGQSREVI
                      KVNGQLPGPTFRWDEDDDVEVIVHNQMPFNTTIHWHGLLMQATPWSDGAPGITQLPIEI
@@ -122,11 +126,12 @@ FEATURES             Location/Qualifiers
                      EAVQAEPQSFNLENPNYRDTYVTSFAGTSWMVLRYQATNPGPWLFHCHLGTHLAGGMAM
                      AILDGVDDWPDVPQEYSPSQRGFSLGPQPSVGVEGDSYHSSEELGGPISHPLGFISPGY
                      WDSIVSRAISFLESLRSK"
+                     /Pfam="Cu-oxidase_3, Cu-oxidase, Cu-oxidase_2"
      CDS             complement(join(15975..17009,17071..17355))
                      /codon_start=1
                      /gene="spoM"
                      /product="methyltransferase SpoM"
-                     /label=spoM
+                     /label="spoM"
                      /protein_id="QNT61265.1"
                      /translation="MTVTNSQKAADAINSKTELETLAAAISENTAILSDFLRAENLPQP
                      SFKRDAPTTVLSPSAPDHIKKAQRALIEASLKAYELATGPSEYLPNLALGYNYTAALRW
@@ -136,6 +141,7 @@ FEATURES             Location/Qualifiers
                      FPDLNFVVQDLAENTSDGEATIGDYGPEIASRIKFQSHDFFQEQPVKGADVYLLRMILH
                      DWPDKEAIQISKSLARAMSSSSRILIMDSVMPIPGSIPSSLERNIRAKDIAMWMAFNSM
                      ERDLGDWEELLENIDDRLQIANVVQPVSSFMSVLEVVCKS"
+                     /Pfam="MdpA"
 ORIGIN
         1 ttagctgtag tcaaccagcc atgcttgaag gtcgttcagc gtgggacact ccaagaacag
        61 tgaagatggc acttgaactc ccagctcttc tttgaacttc tctgccagca caagtgatag

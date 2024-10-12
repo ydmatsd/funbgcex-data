@@ -1,24 +1,24 @@
-LOCUS       FBGC00581       22173 bp DNA     linear   UNA 10-APR-2023
+LOCUS       FBGC00581              22173 bp    DNA     linear   UNA 10-APR-2023
 DEFINITION  thermolides.
 ACCESSION   FBGC00581
-VERSION     .
+VERSION     FBGC00581
 KEYWORDS    .
 SOURCE      Talaromyces thermophilus NRRL 2155
   ORGANISM  Talaromyces thermophilus NRRL 2155
+            .
 REFERENCE   1  (bases 1 to 22173)
   AUTHORS   Zhang JM, Wang HH, Liu X, Hu CH, Zou Y.
-  TITLE     Heterologous and Engineered Biosynthesis of Nematocidal 
-            Polyketide-Nonribosomal Peptide Hybrid Macrolactone from Extreme 
+  TITLE     Heterologous and Engineered Biosynthesis of Nematocidal
+            Polyketide-Nonribosomal Peptide Hybrid Macrolactone from Extreme
             Thermophilic Fungi.
   JOURNAL   J Am Chem Soc 2020;142:1957-1965
-  PUBMED    31904941
+   PUBMED   31904941
 REFERENCE   2  (bases 1 to 22173)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Apr 10, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1021/jacs.9b11410"; journalName: "J Am Chem Soc"; date: "2020"; 
+  JOURNAL   Exported Apr 10, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1021/jacs.9b11410"; journalName: "J Am Chem Soc"; date: "2020";
             volume: "142"; pages: "1957-1965"
 FEATURES             Location/Qualifiers
      source          1..22173
@@ -29,7 +29,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="Talth__000003"
                      /product="acetyltransferase ThmE"
-                     /label=thmE
+                     /label="thmE"
                      /protein_id="Talth_:cds.g3.t1"
                      /translation="MSWLLSYLPFSGTQRPMPPMVPSDEVVPVHMFDDTSALRGIILVW
                      LFRFDEVLDPDKLNDALSQLFQMEGWRKLGGRFRRRADRKLEIHIPCPFTKERPPVHFT
@@ -40,11 +40,12 @@ FEATURES             Location/Qualifiers
                      YVQNAPTVIFHHCPADKARELSLGELALMCRDAITTQTTEAQMKAFSALSAASLRSTGA
                      GGMYGDKDMAFKLVSNWLKAKLIDKMDFSPAIVKEARASEPGKKRGHPTYYHSGDAESA
                      DGPLLIPLTAVMEIDHCGDLWLSVVLPREVWPKYLELLNSFGSNSRPAMPPKL"
+                     /Pfam="CalD"
      CDS             complement(3055..7923)
                      /codon_start=1
                      /locus_tag="Talth__000004"
                      /product="nonribosomal peptide synthetase ThmB"
-                     /label=thmB
+                     /label="thmB"
                      /protein_id="Talth_:cds.g4.t1"
                      /translation="MTTVPVMSRQDVDDTTLADISKACNVPVEKIQDVYACTPLQVATM
                      TESSMHTGASTFRFILNLAPTLNIDRFCSALQDVVARTAILRSRIVNCHRGLVQVPIDE
@@ -74,13 +75,14 @@ FEATURES             Location/Qualifiers
                      HLIALPGLEKLEIEIRYSPQVFSPEQILWIRQALTRILQLFSDHPDETVARVETSLHET
                      LGPYEIIQKGEQGSGFTNGYSQPPSQKALNLVSQAWNEVGLSLSEQKTETAIWDCGANI
                      VTSFLLSDYFRGAGYNITTQDIIRNPTLYQQACLIDSLLETEN"
+                     /Pfam="NRPS_C, AA-adenyl-dom, ACP_PCP, NRPS_CT"
      CDS             join(10720..11372,11425..11695,11765..11790,11846..11941,
                      11992..12121,12188..12251,12308..12809,12859..12965,
                      13017..17983,18039..18215,18273..18914)
                      /codon_start=1
                      /locus_tag="Talth__000005"
                      /product="polyketide synthase ThmA"
-                     /label=thmA
+                     /label="thmA"
                      /protein_id="Talth_:cds.g5.t1"
                      /translation="MANSTPIAIVGLAYRAPGVGRKGLWEYMREAKCAWSKVPPERWDS
                      DAFHFPDKDKAGCIASEGGHFLPDDIYAFDAPFFHLRAEEARSVDPHHRLLLECAFEAA
@@ -126,11 +128,13 @@ FEATURES             Location/Qualifiers
                      ISFSLSNRDDSDILPWQWFHPWALVEYIRTTPDAEGTEDEQGKERSAAQGSGHGNDPLP
                      RLLDALMDKVSSITMIERDEIEPDAPLSNYSLDSLVSVELRNWIRRETGVEVPLPKIVN
                      SADLRALATHILSQKKGGQKK"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_DH, PKS_NRPS_MT, fPKS_ER,
+                     fPKS_KR, ACP_PCP"
      CDS             join(21179..21242,21290..22173)
                      /codon_start=1
                      /locus_tag="Talth__000006"
                      /product="short-chain dehydrogenase/reductase ThmC"
-                     /label=thmC
+                     /label="thmC"
                      /protein_id="Talth_:cds.g6.t1"
                      /translation="MAFDPLRDIPDLQGKVILVTGECPTGNSGLGAATIRILAHHRPSV
                      IYLCVRPVSIASAEALVSSVKTSIPDANIQIRPLDLASFDSVKRFATDFLRDAVYLDLL
@@ -138,6 +142,7 @@ FEATURES             Location/Qualifiers
                      TYINPPPTGLVLDQMKSADPLTSAYQRYAHSKLALILFARKLAQVYSSIKTISYNPGQV
                      YTDLFRKSTGINQWFMTFVGIPFAWLTGVTPEKGAENGLWAATSSDLKNGAYYDPVGVL
                      REDKKFFTDQKLADELWEWTNRELAAHGAPGWPS"
+                     /Pfam="adh_short"
 ORIGIN
         1 ttacaatttt ggtggcatgg ccggccggga attgctgccg aaagaattca acaactccag
        61 atactttggc cacacctcac gcggtaaaac aacggacagc cacagatcgc cacaatggtc

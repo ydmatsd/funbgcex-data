@@ -1,23 +1,23 @@
-LOCUS       FBGC00551       39770 bp DNA     linear   UNA 07-APR-2023
+LOCUS       FBGC00551              39770 bp    DNA     linear   UNA 07-APR-2023
 DEFINITION  CJ-12662.
 ACCESSION   FBGC00551
-VERSION     .
+VERSION     FBGC00551
 KEYWORDS    .
 SOURCE      Aspergillus thermomutatus NRRL 3496
   ORGANISM  Aspergillus thermomutatus NRRL 3496
+            .
 REFERENCE   1  (bases 1 to 39770)
   AUTHORS   Cheng W, Chen M, Ohashi M, Tang Y.
-  TITLE     Biosynthesis of Terpenoid-Pyrrolobenzoxazine Hybrid Natural Product 
+  TITLE     Biosynthesis of Terpenoid-Pyrrolobenzoxazine Hybrid Natural Product
             CJ-12662.
   JOURNAL   Angew Chem Int Ed Engl 2022;61:e202116928
-  PUBMED    35075754
+   PUBMED   35075754
 REFERENCE   2  (bases 1 to 39770)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Apr 7, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1002/anie.202116928"; journalName: "Angew Chem Int Ed Engl"; 
+  JOURNAL   Exported Apr 7, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1002/anie.202116928"; journalName: "Angew Chem Int Ed Engl";
             date: "2022"; volume: "61"; pages: "e202116928"
 FEATURES             Location/Qualifiers
      source          1..39770
@@ -28,7 +28,7 @@ FEATURES             Location/Qualifiers
                      2439..2749,2798..2817,2885..3001,3117..3201,3250..3667))
                      /codon_start=1
                      /product="polyketide synthase-like protein ThmK"
-                     /label=thmK
+                     /label="thmK"
                      /note="non-canonical PKS"
                      /protein_id="ULE36145.1"
                      /translation="MGDYQVAQEMPLEQSIAIIGIACRLPGDCNSPHSLWEMLRKARRA
@@ -50,10 +50,11 @@ FEATURES             Location/Qualifiers
                      SKDWQVRKSKPGLGASENGVIASNIAKLTQSMQNNLKKTCVPGEYSDLLSEQLSNMLRL
                      TRPIDPERLLSSYGLDSLSKIQLRLWLNTQLSVDVSTFDIINAPTLASLREMVAEKLRG
                      V"
+                     /Pfam="PKS_KS, PKS_AT, ACP_PCP"
      CDS             complement(join(4361..5158,5224..5331))
                      /codon_start=1
                      /product="acyltransferase ThmJ"
-                     /label=thmJ
+                     /label="thmJ"
                      /note="acyltransferase"
                      /protein_id="ULE36157.1"
                      /translation="MFKYQEVEFKSLDGLTLRGRLYPAANRGPAIVITSSFNLVKEIAV
@@ -62,10 +63,11 @@ FEATURES             Location/Qualifiers
                      NEPFRIPLVTETGANPLGFGPDFGVEAFQTLSLLKETIAPNYESEMTIQTWPRVLGFNP
                      LPLLQYLSPTPAMVVIPELDTISPSYRQKELFNALPEPKRLYNAIGKGHIDVVIGDGCA
                      DVIMAQMNFFKEVMSGQFNV"
+                     /Pfam="Hydrolase_4"
      CDS             6703..8238
                      /codon_start=1
                      /product="cytochrome P450 monooxygenase ThmI"
-                     /label=thmI
+                     /label="thmI"
                      /note="P450"
                      /protein_id="ULE36146.1"
                      /translation="MDLFAFLLVSFAITVLRLFYEHYRDRKLPPGPPRLPFVGNLLQMP
@@ -77,10 +79,11 @@ FEATURES             Location/Qualifiers
                      TQRWRLISPLMFPHGMMEEDTCLGYTIPKGATVFALGYTMSLDESRFDKPLEFRPERWL
                      EKVENGGFKSFFGYGRRGCPGRDIGKNSLFLMFSRILWAYNVKNGDSKAPDDRASSSAL
                      ISVPQQFKVIFEPRSTHHRMMIEREWINAEKDIDLLMREIKERQMKLGMDRGG"
+                     /Pfam="p450"
      CDS             join(9114..9285,9341..9939,10017..10360,10420..10717)
                      /codon_start=1
                      /product="FAD-dependent monooxygenase ThmH"
-                     /label=thmH
+                     /label="thmH"
                      /note="FMO"
                      /protein_id="ULE36147.1"
                      /translation="MTIPCSTGPDGVAPPNSSGIKVIVVGLGIGGLAAAIECHRKGHAV
@@ -92,11 +95,12 @@ FEATURES             Location/Qualifiers
                      QAIEDAAVLAIALELSGKGNVRQALQVAEQIRKPRATRISEASWAMHNDWYNQDWDAVA
                      KDPKLLKSSRPGWVLSHDCQAYAYEEYQKVVHAMETNQEYIPTNVPADGGLGLNEKMTL
                      TGEMTQASDVDR"
+                     /Pfam="FAD_binding_3"
      CDS             complement(join(11217..11661,11731..11987,12062..12090,
                      12146..12560))
                      /codon_start=1
                      /product="terpene synthase ThmB"
-                     /label=thmB
+                     /label="thmB"
                      /note="terpene cyclase"
                      /protein_id="ULE36148.1"
                      /translation="MRYINHFNCPVDWAVSVRTSHDKFGFLDPNRPEKSNSCPNFEILC
@@ -106,10 +110,11 @@ FEATURES             Location/Qualifiers
                      YLQFREMDVGNEVIIACLRYSCEFQLTPSDVDAVHDLETLMVRHCLLTNDLFSFNKEQC
                      ERVSTGASIVNTVECLRTLMTTSVSAAKSMALTLLWEVEQKMHEVYERGLLEWTDLQAL
                      YAQRVIELSAGNYFFSATTYRYSTEAIKVHLDFASKVGASL"
+                     /Pfam="Terpene_syn_C_2"
      CDS             13683..15230
                      /codon_start=1
                      /product="cytochrome P450 monooxygenase ThmG"
-                     /label=thmG
+                     /label="thmG"
                      /note="P450"
                      /protein_id="ULE36149.1"
                      /translation="MIVLDCPSYLFLLLTFLIIWRACNLLASNNKSKLPLPPGPRPLPI
@@ -121,10 +126,11 @@ FEATURES             Location/Qualifiers
                      PYIRAVALECLRWRPLTPLGFPHSTNEDDEYMGYRIPKDAIILPNHWAMDLDEAIFDQA
                      TEFRPERWILNTNLPLAAFGFGRRACIGRHVAFNSLLIVIARILWAFNISPAYKMGKKV
                      EVDPWDMQQSVTCPPSPFEAVFKSRSPESHQIIERTWAAMEKDSHAIMGRVKASISP"
+                     /Pfam="p450"
      CDS             16144..19464
                      /codon_start=1
                      /product="nonribosomal peptide synthetase ThmA"
-                     /label=thmA
+                     /label="thmA"
                      /note="NRPS"
                      /protein_id="ULE36150.1"
                      /translation="MPGVEAIALPEGWQRSTPSDQQMSNWNKTPIASVNLCIHELILQR
@@ -146,10 +152,11 @@ FEATURES             Location/Qualifiers
                      GGSFIRRGAPVSGIMEMMGPTTCILPVRIQLDREETLLNAQQKVANQLMEMSDFEDIDT
                      VRIGRLSPDATAACRLRTTVVIMQGEMLQSTSYFFARTWQHKNMGFPTALLLMCSVSSG
                      SAVVQAMYDQNMLKPARMQQLLNQLAQAVQFIDEEPHIKVMNVVSTQHKVESFESINL"
+                     /Pfam="AA-adenyl-dom, ACP_PCP, NRPS_C"
      CDS             join(20643..20699,20772..22042,22128..22332)
                      /codon_start=1
                      /product="cytochrome P450 monooxygenase ThmF"
-                     /label=thmF
+                     /label="thmF"
                      /note="P450"
                      /protein_id="ULE36151.1"
                      /translation="MAQILDWFSVKVALAVLIISYFLSLLYNVYLHPLRRYPGPTAMAA
@@ -161,10 +168,11 @@ FEATURES             Location/Qualifiers
                      KLRELEYLDACIKEAHRIYPAVPIPMPRVVPRPGAEISGRWVPAGTRVYSSPFSTQRST
                      ANFYDPHAFRPERWLMDADVCFSSDNKAAFQPFSLGPRSCLGQDMANYMTRLVVSRLLL
                      HFDIEVCTEGKDWFAGQKVWGAWDKKPVPVRLSPVQPQSDCSQSSARSMNCH"
+                     /Pfam="p450"
      CDS             join(23262..23426,23493..23963,24033..24302)
                      /codon_start=1
                      /product="truncated FAD-dependent monooxygenase ThmE"
-                     /label=thmE
+                     /label="thmE"
                      /note="FMO"
                      /protein_id="ULE36152.1"
                      /translation="MAISGSGPSEVAPPNSSGIKVIVVGLGMGGLAAAIECHQKGHTVS
@@ -173,11 +181,12 @@ FEATURES             Location/Qualifiers
                      TAELGDIPEIKWIMEGTTDSGKVFMGPGLEIGFASFANGQEMAMAAMYNVDYAREKLGR
                      PPDNVHDLVGLMEGWGVQGKLRNMLKHVPNNKMVHHSHPEVPCPGGCPQRKGRSLSATQ
                      HTLSFLLLAKVLAKPLKMQR"
+                     /Pfam="FAD_binding_2"
      CDS             join(25645..25969,26034..26157,26229..26338,26407..26782,
                      26849..27143)
                      /codon_start=1
                      /product="methyltransferase ThmD"
-                     /label=thmD
+                     /label="thmD"
                      /note="N-methyltransferase"
                      /protein_id="ULE36153.1"
                      /translation="MSQHTDQISQMLSLVECITQEAQSLRTHSSQQDSFLGDKFQRIIT
@@ -188,11 +197,12 @@ FEATURES             Location/Qualifiers
                      SWQGHNFFDPQPVKGADVYLLNSVLMDHHDKACKIILRNIANAMVPGHSTCLVSDGIEP
                      ENELSPLFSAHQLHMISILSRAYRSQSDWEKLFHEADERLLFEKIFSSGTGKVIYALRL
                      RETDPVRLSG"
+                     /Pfam="Methyltransf_2"
      CDS             complement(join(28589..28704,28757..29113,29203..29583,
                      29635..29884,29960..30436,30497..30661))
                      /codon_start=1
                      /product="FAD-dependent halogenase ThmC"
-                     /label=thmC
+                     /label="thmC"
                      /note="FMO; halogenase"
                      /protein_id="ULE36154.1"
                      /translation="MRVAVVGGGPSGLVVLKYLTTVHNFQPVDPIEAQLFEAEDSVGGT
@@ -206,10 +216,11 @@ FEATURES             Location/Qualifiers
                      ENNPSCRIQYGVEHDAYAYQLACDVGGAASFLEALSRGWRVWVVWALGACPNTKFRLVG
                      PWKWGGAEEVIKTELFATVKRRGNIFGRILELVVLFVMTVPATLLLYLTDGISVICEGV
                      KSLST"
+                     /Pfam="FMO-like"
      CDS             join(35637..35808,35881..36479,36551..36894,36960..37281)
                      /codon_start=1
                      /product="FAD-dependent monooxygenase ThmM"
-                     /label=thmM
+                     /label="thmM"
                      /note="FMO (tertially amine hydroxylase)"
                      /protein_id="ULE36155.1"
                      /translation="MTVSSSSGPAGVAPPHSSGIRVIVVGLGIGGLAAAIECHRKGHTV
@@ -221,11 +232,12 @@ FEATURES             Location/Qualifiers
                      QAIEDAAAIAITLELAGKSNVPLALQIAEKIRKPRATIIQQSSRVVHDEWYNQDWDAVA
                      KDPTSMKSSRPGWILNHNCQVHTYEEYERALHAIQTGQEYIPRDLPMDGQLGIADKMTT
                      WEKYKATTDDKPCFLEKTCL"
+                     /Pfam="FAD_binding_3"
      CDS             complement(join(37923..38458,38653..38938,39007..39459,
                      39537..39770))
                      /codon_start=1
                      /product="FAD-dependent monooxygenase ThmL"
-                     /label=thmL
+                     /label="thmL"
                      /note="FMO"
                      /protein_id="ULE36156.1"
                      /translation="MGLFNNLVIWFYEVIQFFIAQVFAPNPRQPRQKVFGPRIAIIAAG
@@ -237,6 +249,7 @@ FEATURES             Location/Qualifiers
                      IVDPSTRPSLAWMHAWVDWTRAWKQGSPGGALEFFTYSELVGWIVLSLASNPFRWKWIL
                      FVLGGWGNPLPPSMMHQEGSPQQRSTTADGAAEKPKAANRKSHKPKNKTETDGTASDGQ
                      KAQNGMGDAGHKMNSGLTGENEDKPASGPAKSGVYSEAVPAFVT"
+                     /Pfam="FMO-like"
 ORIGIN
         1 tcaaactccc ctcaactttt cagcaaccat ctcacgcaaa gaggccaacg taggggcatt
        61 gataatgtca aaagtggata catccactga cagctgcgta ttcagccaaa ggcgtagttg

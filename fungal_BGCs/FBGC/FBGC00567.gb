@@ -1,30 +1,30 @@
-LOCUS       FBGC00567       41874 bp DNA     linear   UNA 08-APR-2023
+LOCUS       FBGC00567              41874 bp    DNA     linear   UNA 08-APR-2023
 DEFINITION  pyridoxatin.
 ACCESSION   FBGC00567
-VERSION     .
+VERSION     FBGC00567
 KEYWORDS    .
 SOURCE      Aspergillus bombycis NRRL 26010
   ORGANISM  Aspergillus bombycis NRRL 26010
+            .
 REFERENCE   1  (bases 1 to 41874)
-  AUTHORS   Ohashi M, Jamieson CS, Cai Y, Tan D, Kanayama D, Tang MC, Anthony 
-            SM, Chari JV, Barber JS, Picazo E, Kakule TB, Cao S, Garg NK, Zhou 
+  AUTHORS   Ohashi M, Jamieson CS, Cai Y, Tan D, Kanayama D, Tang MC, Anthony
+            SM, Chari JV, Barber JS, Picazo E, Kakule TB, Cao S, Garg NK, Zhou
             J, Houk KN, Tang Y.
   TITLE     An enzymatic Alder-ene reaction.
   JOURNAL   Nature 2020;586:64-69
-  PUBMED    32999480
+   PUBMED   32999480
 REFERENCE   2  (bases 1 to 41874)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Apr 8, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1038/s41586-020-2743-5"; journalName: "Nature"; date: "2020"; 
-            volume: "586"; pages: "64-69"
+  JOURNAL   Exported Apr 8, 2023 from SnapGene 6.2.1 https://www.snapgene.com
 COMMENT     ##Genome-Assembly-Data-START##
             Assembly Method       :: Newbler v. 2.9
             Genome Coverage       :: 53.0x
             Sequencing Technology :: IonTorrent
             ##Genome-Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1038/s41586-020-2743-5"; journalName: "Nature"; date: "2020";
+            volume: "586"; pages: "64-69"
 FEATURES             Location/Qualifiers
      source          1..41874
                      /strain="NRRL26010"
@@ -32,7 +32,7 @@ FEATURES             Location/Qualifiers
                      /country="Japan"
                      /lat_lon="36 N 138 E"
                      /isolation_source="excrement"
-                     /collection_date=1987
+                     /collection_date="1987"
                      /db_xref="taxon:109264"
                      /type_material="type material of Aspergillus bombycis"
                      /organism="Aspergillus bombycis"
@@ -41,18 +41,19 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="ABOM_002888"
                      /product="short-chain dehydrogenase/reductase PdxG"
-                     /label=pdxG
+                     /label="pdxG"
                      /protein_id="OGM48164.1"
                      /translation="MATVVLVTGATKGIGKGFVKHYLQRPNTTVVAAVRAPSSSEADNI
                      SQFDCAPSSKAIVVKIDATSQTDASDTIRILAAEHGIDRLDIVIANAGIFDPSAHQKVV
                      DMKLTDLQEHIDVNAYGVIRLFQATWPLLEKSKQPIFLLNSAGAATMAGMKTFAHFPLN
                      SYAASKMLANFFILRLAIEHPNLIAFAVHPGSVVTENRTAAAAKLGVPIDGLSVDQCVS
                      SLLSLVDGATLTTTSGTFVNVDGTPIPW"
+                     /Pfam="adh_short"
      CDS             join(1580..1810,1865..2422,2484..3077)
                      /codon_start=1
                      /locus_tag="ABOM_002889"
                      /product="pericyclase PdxI"
-                     /label=pdxI
+                     /label="pdxI"
                      /protein_id="OGM48163.1"
                      /translation="MVTLAELASDIQSQVKVIDTYLTEHNLPQPTFAPDSPRELPLDAN
                      VQRARLLLIEKAMALSNLAIGAADNLRWHCMNNKFDDMTLHFLARYNIFDAVPRDEPIS
@@ -63,11 +64,12 @@ FEATURES             Location/Qualifiers
                      DKAITILRRCVEAMDPNKSRLLTRDIVMDGGDPPAEDAVINGRAINSKEGSYEAGLGPT
                      GVITRLNIGIDFQVLAVVNGFERTREEWVTLFKKADPRFALKGCIQTVGNCAALMEWIL
                      EE"
+                     /Pfam="MdpA"
      CDS             complement(join(3219..3710,3762..4583))
                      /codon_start=1
                      /locus_tag="ABOM_002890"
                      /product="FAD-linked oxidoreductase Orf13"
-                     /label=orf13
+                     /label="orf13"
                      /protein_id="OGM48091.1"
                      /translation="MPSDNAKLIGKALGFFIPHLGRVAIQRVAAVRHNWTWQDTPDAKN
                      VVVLGGSFAGIELVNRLAETLPTGFKAVWIEKNSHLNYSFNFPRFSVLTGHEHTAFIPY
@@ -77,11 +79,12 @@ FEATURES             Location/Qualifiers
                      PNSSILSSLLPDAISKETSRILVRPTLQVFASNHNIPMFAFGDVADHGGPHMARAGWMQ
                      AGVVLDNILAMINGQTPSRLYTPNLFIEGAIKLTLGKTHNVVYATEADGSDVMVPSRDG
                      KLDLGIERAWKEFGANFKLANTATESVGQPVSGAGEVQ"
+                     /Pfam="Pyr_redox_2"
      CDS             join(5295..5512,5572..6456,6528..6600,6673..6927)
                      /codon_start=1
                      /locus_tag="ABOM_002891"
                      /product="major facilitator superfamily transporter Orf12"
-                     /label=orf12
+                     /label="orf12"
                      /protein_id="OGM48092.1"
                      /translation="MADTEKSSAMGTKPQTELNDIERSSGEDHSAKEEKDPNVVDFDGP
                      DDPENPMNWSTAKKTVAIAIVSMMTMLSPIGSTISSAAASDIMAHFHAQNESLEAFVTT
@@ -92,12 +95,13 @@ FEATURES             Location/Qualifiers
                      VGVIFCGAASDKLSNYLTLKNGGEAKPDENKTHWIVPIIGTGFLGGGMIITYMASVMYL
                      VDAYTVYAASVTASNTIFRCLFGALLPLAGGAMYSALGVGWGTSVLGFIAVAFIPVPVI
                      FYLYGERIRESSLFKVDF"
-     CDS             complement(join(7482..8258,8308..8335,8396..8579,8634..8788,
-                     8869..8963,9022..9094,9149..9294))
+                     /Pfam="MFS_1"
+     CDS             complement(join(7482..8258,8308..8335,8396..8579,
+                     8634..8788,8869..8963,9022..9094,9149..9294))
                      /codon_start=1
                      /locus_tag="ABOM_002892"
                      /product="cytochrome P450 monooxygenase PdxF"
-                     /label=pdxF
+                     /label="pdxF"
                      /protein_id="OGM48078.1"
                      /translation="MEQPFSASVAAILLFAAAFIYTVGGLIYRLYFSPIAHFPGPKIAA
                      ATHLYGFYYDAIRGGQYVWKVAQMHQKYGPVVRINPNEIHISDPDYYAVLYASAKSVAI
@@ -108,11 +112,12 @@ FEATURES             Location/Qualifiers
                      RLSYGLSARLPRVAPTQVLEVPGTTGLAIPPGTKVSMNSVLMHRHPQLFPQPDEFRPER
                      WLDNPRLDRYLVPFSKGARQCLGINLAYAEVYMALGAIVGRFSVTDGGPRLQLVDNEAS
                      LRSIEIAGDMFLPSTKSGNKHIEAVFR"
+                     /Pfam="p450"
      CDS             join(9614..10123,10184..10678,10732..10835,10895..11990)
                      /codon_start=1
                      /locus_tag="ABOM_002893"
                      /product="transcription factor Orf10/11"
-                     /label=orf10/11
+                     /label="orf10/11"
                      /protein_id="OGM48079.1"
                      /translation="MPEGTRSHRKGHYSCDFCRARKLRCDRPLPCTNCVSRGKTCHFGP
                      SAGQHTRAPRTVISPAVPAQHQQQIVSNPTPPSPQLPSPRPSGPDQGLLAEIQALRKLA
@@ -127,11 +132,12 @@ FEATURES             Location/Qualifiers
                      ACVNGTGSLQDEIRYGEVAEALRILEDARSHSLAAANLLESLTQVLAKHRAQQQISRVS
                      DPLQLGGASTTAATSTNPVMGVTTAQMYQRPDTLSLAGTPNPVDTNKSGPTVAVPDQMP
                      PTTGQPSYGNQLAQSLEELVDLDGFQWDDLFSGMDASTFF"
+                     /Pfam="EqxR"
      CDS             complement(join(12799..13008,13093..13269))
                      /codon_start=1
                      /locus_tag="ABOM_002895"
                      /product="hypothetical protein Orf9"
-                     /label=orf9
+                     /label="orf9"
                      /protein_id="OGM48077.1"
                      /translation="MASATTANHATSVAELLVSSVVAAVAHFGISAGAATTLVSDIAVR
                      RSSERRVVAALGGSARFTSKSWLVLQLSEWLGSVCCVALQKASTGGGPGSRDTALEDIV
@@ -140,7 +146,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="ABOM_002896"
                      /product="hypothetical protein Orf8"
-                     /label=orf8
+                     /label="orf8"
                      /protein_id="OGM48090.1"
                      /translation="MSATAAPERLELTVPGEPESEGVPAHKFSIADYYTLVSCWGMLRW
                      LSPFILLGGATAIRVSKPVPGLVPFAIVNEFCVHLLPFYSYLTTTIKGGPDVNEGPEG"
@@ -148,7 +154,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="ABOM_002897"
                      /product="ADP-ribosylglycohydrolase Orf7"
-                     /label=orf7
+                     /label="orf7"
                      /note="putative"
                      /protein_id="OGM48075.1"
                      /translation="MDKLQLSQYGWERLARASLHDSIVGCLIGSALGDAVGLYTEFLSG
@@ -159,11 +165,12 @@ FEATURES             Location/Qualifiers
                      RYKMGYVYKTLGAGLHLLRLAMRDTANGMLKSRALAFEPLITDLIMLGGDADTNACFAG
                      ALLGAYLGYANLPLNWRHGLRHGPWLLSKAEGLSQILGVADGEYVGSADQETARDGGRG
                      GMPSEADMERKVMVLQAWMAEQEQEAKRRATKLEDKHWFKWRHQP"
+                     /Pfam="ADP_ribosyl_GH"
      CDS             join(17794..18103,18163..18487,18579..18732)
                      /codon_start=1
                      /locus_tag="ABOM_002898"
                      /product="hypothetical protein Orf6"
-                     /label=orf6
+                     /label="orf6"
                      /protein_id="OGM48080.1"
                      /translation="MQTLLVSAVRVCKSWNSLITKSPHLQRALCLLPEDDRDASDTNTV
                      VNPLLAKHFPPLFTPVYDIGCPFPIQGREPDESCYDYLFEDVNYNGMMNFKSMPVYQRS
@@ -173,9 +180,9 @@ FEATURES             Location/Qualifiers
      CDS             complement(19876..31989)
                      /codon_start=1
                      /locus_tag="ABOM_002899"
-                     /product="polyketide synthase-nonribosomal peptide 
+                     /product="polyketide synthase-nonribosomal peptide
                      synthetase PdxC"
-                     /label=pdxC
+                     /label="pdxC"
                      /protein_id="OGM48141.1"
                      /translation="MSKPVGIIGSACRFPGGADSPSKLWELLKEPRDIVSEFTPDRLNL
                      WSFYHQNGEHHGSTDVQNKSYLLSQDIRLFDASFFRISPAEAEAMDPQQRILLETVYEA
@@ -246,11 +253,13 @@ FEATURES             Location/Qualifiers
                      SVTIHRPCAVIGHNAPSEDALNALLRFAVTQNAVPRFRNLTGFLDFAPVAEVAANISRV
                      ALKKAHPGNSRGCILNAASIGDYPVTIVHHSSGIRTPVSHFRTRMEKLYGHDFGELDIV
                      EWIAEAVKGGMDPLISTYLEALVEKDQMIGFPYLGEPLT"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_DH, PKS_NRPS_MT, fPKS_KR,
+                     ACP_PCP, Condensation, AA-adenyl-dom, fPKS_R"
      CDS             32672..33862
                      /codon_start=1
                      /locus_tag="ABOM_002900"
                      /product="trans-acting enoylreductase PdxD"
-                     /label=pdxD
+                     /label="pdxD"
                      /protein_id="OGM48040.1"
                      /translation="MDPLPSTQRALKVRGPGMLELDEACPLPGFEDDEVLVRVRCVAIN
                      PVDAKVIDMAPNIGATAGCEFAGDVVQVGPLVKNKQLKAGVAVFGCVWGNHPNRPDNGA
@@ -259,11 +268,12 @@ FEATURES             Location/Qualifiers
                      LVPVCTCSPHNFAMVKELGAEEAFDYHSPTCGDDIRRYTSDNLAYTFDCITDLGSMRIC
                      YTAMGRAGGKYMGLDPVPLRGHTRRDIKPEYVLIYTMFGKEVQSPRPFGRPARPKDRAF
                      AEIWYRSTQVLVDTPGEIRPHPLDQGLDDLDGVIKGLDRMRKGDVSGVKLVYELKR"
+                     /Pfam="fPKS_ER, ADH_zinc_N"
      CDS             join(34793..35410,35476..37287)
                      /codon_start=1
                      /locus_tag="ABOM_002901"
                      /product="transcription factor PdxE"
-                     /label=pdxE
+                     /label="pdxE"
                      /protein_id="OGM48041.1"
                      /translation="MCAQTSQGGPSRKRRRQAVVCTECRRRKIACDRNTPCAQCIQSNS
                      PCTYYNSYNSYSASADFSSDQDNSVKPQHRRSSSTAVPAIHNFGPRMQLPNPTTVNYHD
@@ -279,13 +289,14 @@ FEATURES             Location/Qualifiers
                      VCTELLLQLREDSSPAASSLSRRELIQTIEDATSLTRRRILRGETSVKLHAFLACVLAK
                      IGTSKRRLSLQHKPPTEQVVANAAKRTLDSCSSILEARLRRMETRPHPGPIVNAPLGSH
                      LSFPELTPLDTENGDGLGRRGAVSTILERSSGTSPSLDDGSDAWSFPAWENETASS"
+                     /Pfam="CghF"
      CDS             complement(join(37758..38107,38168..38399,38453..38524,
                      38579..38761,38819..39083,39138..39183,39233..39363,
                      39435..39520,39599..39742))
                      /codon_start=1
                      /locus_tag="ABOM_002902"
                      /product="cytochrome P450 monooxygenase PdxB"
-                     /label=pdxB
+                     /label="pdxB"
                      /protein_id="OGM48068.1"
                      /translation="MNSIDHALVEFLRPFSGIEGLSRTSPLAVLSYGIGIFIVVILLSR
                      NGNRLKYLDMDGVPMKELSLGRTSKAALLFEPHEISKQGEKLAHDEPYIIRDGAHREVV
@@ -296,11 +307,12 @@ FEATURES             Location/Qualifiers
                      DFQQRLYEEIVAQRSGEDLDLKAYVARQDSLLHYLCLESIRLQPATWFSVPECITIDKV
                      IGRYKIPAQTPVVIDVRRLNTNALTWGPDGGQFRPERFASLSPNDYRYGFMRFGVVSGK
                      CLGKHMADTLMKVAMVTILEQYRIEEVEKNIGVKEGDLAFIRRK"
+                     /Pfam="p450"
      CDS             join(40135..40785,40843..41395,41456..41874)
                      /codon_start=1
                      /locus_tag="ABOM_002903"
                      /product="cytochrome P450 monooxygenase PdxA"
-                     /label=pdxA
+                     /label="pdxA"
                      /protein_id="OGM48044.1"
                      /translation="MNLTNPTPSPRLSLTDWDCDLSNVALDVIPKWSHLFYLVVLCIIT
                      KSVTSNITRSWTEWRKGYGRIPRYPQRIPIMGFDIAFSMAKALKNHTFLLWLRMLHETG
@@ -312,6 +324,7 @@ FEATURES             Location/Qualifiers
                      NETHRLYPNGIMQVRYCIKDSTLPLGGGRDGKSPIYVRKGDVVQVNKNVMHRDKDVWGE
                      DADEFKPERWFGLRPYWNFVPFGGGPRRCPAQLLVTTEASYVVARFCRRFKAIENRDSN
                      GYVPVMRAGPVNTNGVKIAVTPV"
+                     /Pfam="p450"
 ORIGIN
         1 atggctactg ttgttcttgt tacgggtgct actaagggtc agtaatagat ccctatacta
        61 tgtaagttat actcaagcac tgatgtttca tgaaggtatc ggaaagggat tcgtgaaaca

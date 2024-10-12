@@ -1,28 +1,28 @@
-LOCUS       FBGC00571       16240 bp DNA     linear   UNA 08-APR-2023
+LOCUS       FBGC00571              16240 bp    DNA     linear   UNA 08-APR-2023
 DEFINITION  decarestricitine C1.
 ACCESSION   FBGC00571
-VERSION     .
+VERSION     FBGC00571
 KEYWORDS    .
 SOURCE      Beauveria bassiana ARSEF 2860
   ORGANISM  Beauveria bassiana ARSEF 2860
+            .
 REFERENCE   1  (bases 1 to 16240)
   AUTHORS   Gao DW, Jamieson CS, Wang G, Yan Y, Zhou J, Houk KN, Tang Y.
   TITLE     A Polyketide Cyclase That Forms Medium-Ring Lactones.
   JOURNAL   J Am Chem Soc 2021;143:80-84
-  PUBMED    33351624
+   PUBMED   33351624
 REFERENCE   2  (bases 1 to 16240)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Apr 8, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1021/jacs.0c11226"; journalName: "J Am Chem Soc"; date: "2021"; 
-            volume: "143"; pages: "80-84"
+  JOURNAL   Exported Apr 8, 2023 from SnapGene 6.2.1 https://www.snapgene.com
 COMMENT     ##Genome-Assembly-Data-START##
             Assembly Method       :: Newbler v. 2.3
             Genome Coverage       :: 28X
             Sequencing Technology :: 454
             ##Genome-Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1021/jacs.0c11226"; journalName: "J Am Chem Soc"; date: "2021";
+            volume: "143"; pages: "80-84"
 FEATURES             Location/Qualifiers
      source          1..16240
                      /chromosome="Unknown"
@@ -37,7 +37,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="BBA_03806"
                      /product="cytochrome P450 monooxygenase DcsC"
-                     /label=dcsC
+                     /label="dcsC"
                      /protein_id="EJP67232.1"
                      /translation="MAASNFASTAQPVLQTLQQGLDDAVHVWRVDGLLSWPTVYLITTA
                      VLTYCTYLVAQRLFFHPLAGIPGPKFAALTYWYEIYYDVWKGGQYFRKVKQMHEKYGPI
@@ -49,11 +49,12 @@ FEATURES             Location/Qualifiers
                      VVARLPRVSPTEPIVYEDKARGRSYVVPAGVTYSMTAQIAHTNEAVFADADKFIPQRWI
                      DNPRLDRAFIGFARGTRNCIGMNFAKQELSIILATILLKYDLYRGQEGPTLELYNTTRE
                      RDIDCVRDMIIPFPAAGSPGLQLRVRN"
+                     /Pfam="p450"
      CDS             2794..4527
                      /codon_start=1
                      /locus_tag="BBA_03807"
                      /product="FAD-linked oxidoreductase DcsE"
-                     /label=dcsE
+                     /label="dcsE"
                      /protein_id="EJP67233.1"
                      /translation="MFRSSVSLCLLLAPLVVSLPHQASNHTDNLRCRYLPQDSQWPSFE
                      SWNQLNVSVQGRLLAGKPLAHVCHGSTYDAAACTELANHWTEQAPYFSDPVNIMSPFWA
@@ -66,23 +67,25 @@ FEATURES             Location/Qualifiers
                      HRGRAPNTNAVLPAWRDALYHLIIEEVYKEDASTAQLVSVQADMNAHQELLRAAAPGGG
                      AYINEATLDNVQWKKDYFGANYNKLLRVKKRYDPQFLLYGPASVGSDAWVRASDGRLCR
                      K"
+                     /Pfam="FAD_binding_4, BBE"
      CDS             complement(join(4823..4994,5083..5199,5226..5235,
                      5307..5763))
                      /codon_start=1
                      /locus_tag="BBA_03808"
                      /product="short-chain dehydrogenase/reductase DcsD"
-                     /label=dcsD
+                     /label="dcsD"
                      /protein_id="EJP67234.1"
                      /translation="MASPTIVLITGAGRGIGRGILELYAAKPNHTVIAANRNPDDGPSK
                      ELLKLPTAEGTTVQVVKIEATDDNDSLKAVETLKSSGIDHIDIVIANAGKATAWPKLQD
                      AKIPDIKDHIDTNVFGFVRLYQAVFPLLKASKNPKLIVIGSSAAFLTAKPQQNVIPFPN
                      AVYGPTKILQHWYARTIAVAETWLTVFPIDPGFVQTEMGNRGARAFDLAEASISVDESV
                      RGVVKVIDESTKETHSGKLWKWTGEEEPW"
+                     /Pfam="adh_short"
      CDS             complement(join(6669..7303,7362..7518,7575..7691))
                      /codon_start=1
                      /locus_tag="BBA_03809"
                      /product="thioesterase DcsB"
-                     /label=dcsB
+                     /label="dcsB"
                      /protein_id="EJP67235.1"
                      /translation="MAPLSSFQVVECKTIDGIIIRGRFYAVDGKGPAIIMTPGFNCVKE
                      MLLPDIAETFQSQGFNTYIYDPRSIGDSDGSPKNLIDPLQQAEDLADIVTHISSLPSVD
@@ -90,12 +93,13 @@ FEATURES             Location/Qualifiers
                      RGNEPFMLPPFNSKGENPIGMAGSGGPGGIEAYGFMGAVIDRGAPNFRNKIALQTYQKL
                      AWWQPKEILKLVDKTPVLMVTPELDTMSPPEEQKAAFELFPQTKKFLEAKGKGHLTVLS
                      GEGSVEVVDAMTEFIRENVAG"
+                     /Pfam="Abhydrolase_1"
      CDS             join(8514..8904,8964..9529,9586..9669,9728..9851,
                      9993..10592,10653..14811,14869..15349,15404..16240)
                      /codon_start=1
                      /locus_tag="BBA_03810"
                      /product="polyketide synthase DcsA"
-                     /label=dcsA
+                     /label="dcsA"
                      /protein_id="EJP67236.1"
                      /translation="MSGQEPIAIIGLSCRLPGGNSNPRKLWDFLERGGIASNKVPENRF
                      NINAHWDGSHKPRTMRPLGGMFLEDVDPADFDASFFEISKTDAIAMDPNQRQMLEVVFE
@@ -139,6 +143,8 @@ FEATURES             Location/Qualifiers
                      DLKREARFGYLFSQAGGADGAKDGGSKGDQAIRALKLMHQSGATGAPLVKLATELVAGQ
                      ITKILRLETELEPAKSLMAYGVDSLAAVELRNWVRSELGAELSTLDITNASSLIALCEK
                      LVTKLPAP"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_DH, PKS_NRPS_MT, fPKS_ER,
+                     fPKS_KR, ACP_PCP"
 ORIGIN
         1 ctagtttcga actctgagct gaagaccagg acttccagcc gcagggaaag gaataatcat
        61 gtcgcggaca caatcaatat cccgctcgcg ggtagtgttg tacagttcaa gcgtgggacc

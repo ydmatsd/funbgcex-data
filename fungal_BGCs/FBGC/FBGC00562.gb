@@ -1,23 +1,23 @@
-LOCUS       FBGC00562       30580 bp DNA     linear   UNA 08-APR-2023
+LOCUS       FBGC00562              30580 bp    DNA     linear   UNA 08-APR-2023
 DEFINITION  harzianic acid.
 ACCESSION   FBGC00562
-VERSION     .
+VERSION     FBGC00562
 KEYWORDS    .
 SOURCE      Trichoderma afroharzianum T22
   ORGANISM  Trichoderma afroharzianum T22
+            .
 REFERENCE   1  (bases 1 to 30580)
   AUTHORS   Xie L, Zang X, Cheng W, Zhang Z, Zhou J, Chen M, Tang Y.
-  TITLE     Harzianic Acid from Trichoderma afroharzianum Is a Natural Product 
+  TITLE     Harzianic Acid from Trichoderma afroharzianum Is a Natural Product
             Inhibitor of Acetohydroxyacid Synthase.
   JOURNAL   J Am Chem Soc 2021;143(25):9575-9584
-  PUBMED    34132537
+   PUBMED   34132537
 REFERENCE   2  (bases 1 to 30580)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Apr 8, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1021/jacs.1c03988"; journalName: "J Am Chem Soc"; date: "2021"; 
+  JOURNAL   Exported Apr 8, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1021/jacs.1c03988"; journalName: "J Am Chem Soc"; date: "2021";
             volume: "143"; issue: "25"; pages: "9575-9584"
 FEATURES             Location/Qualifiers
      source          1..30580
@@ -28,9 +28,9 @@ FEATURES             Location/Qualifiers
                      11359..11611,11711..11890,11981..12294,12363..12685))
                      /codon_start=1
                      /locus_tag="TriharT22__006993"
-                     /product="polyketide synthase-nonribosomal peptide 
+                     /product="polyketide synthase-nonribosomal peptide
                      synthetase HacA"
-                     /label=hacA
+                     /label="hacA"
                      /protein_id="TriharT22_:CDS_2647"
                      /translation="MAVSEQEPIAIIGMACRFPGGSDSPSKLWDLIQSPCNLSKRVPAD
                      RFDSTGFFHANGSQHGALNAPNAYFIEEDVTRFDNTFFNIQPAEAEAIDPQQRLVMETV
@@ -102,11 +102,13 @@ FEATURES             Location/Qualifiers
                      AYLANSLRLGVRPDFAKLGGTFHVAPVNDVAAAVAAAVTASHEESEDKALRFVNYPGTA
                      ALRTGVTSAHAEELFRKPENEAVLKLPTVPALHWVGMAKRAGLFEWFITSQELVVADDE
                      GRRVVSKR"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_DH, PKS_NRPS_MT, fPKS_KR,
+                     ACP_PCP, Condensation, AA-adenyl-dom, fPKS_R"
      CDS             13773..14936
                      /codon_start=1
                      /locus_tag="TriharT22__006959"
                      /product="trans-acting enoylreductase HacB"
-                     /label=hacB
+                     /label="hacB"
                      /protein_id="TriharT22_:CDS_2648"
                      /translation="MAATSTTQTALVGGPKGDIILTNSAPLPQGPLQDHEVAVAVKAIS
                      INPVDTKMTGPYHTEGAILGCDFAGLVTAVGPIAAGWGFREGDRVAGTVIGLNSLRPSV
@@ -115,22 +117,24 @@ FEATURES             Location/Qualifiers
                      SARSFELVRSFGADATFDYASPTAAEEIRAYTGNLLRLAIDCVTTPESSRLCYAAMSRL
                      GGRYVALDPYSDAVAATRAVIRPSWVFGLEPLGDEIAWPEPHTRKPNRIAQDFLEVWSR
                      TMQGLVDRKLIRFHPQLVRDDGLAGALEGLDDIRSGRVSGKKLLYNL"
+                     /Pfam="fPKS_ER"
      CDS             complement(join(15437..15930,15989..16241,16326..16382))
                      /codon_start=1
                      /locus_tag="TriharT22__007008"
                      /product="aldolase HacC1"
-                     /label=hacC1
+                     /label="hacC1"
                      /protein_id="TriharT22_:CDS_2649"
                      /translation="MASCVNTLATKVAAGQLCKAFGIKFNTNPQVVQLAKNAGFDSLFI
                      DLEHSTLSIDDVSQLSVAGLLAGITPFVRVPHQCGNGFVQRLLDGGAMGVIFPHIHSSQ
                      DAKAAVSISKYPPAGCRSMTGQLPVFSLRPMPQDRVIEESNTSASSVIVMIETKDAVEN
                      VDEIAAVEGVDVLLVGSNDLSIELGVPGGFQTPAFRSALESVSKACRRHGKTMGLAGLY
                      DNYEIQNWAVNTLHVRYMLCAIDSSLIASGAARCIAALPNVEKER"
+                     /Pfam="HpcH_HpaI"
      CDS             join(16769..16944,17010..17084,17145..17355)
                      /codon_start=1
                      /locus_tag="TriharT22__007009"
                      /product="truncated acetolactate synthase HacH"
-                     /label=hacH
+                     /label="hacH"
                      /protein_id="TriharT22_:CDS_2650"
                      /translation="MIRSAKSSLFMRRTSWQCHSCLPNSSAALAATSALKTTQRAYLNI
                      TAQGKSAVTESPAHRSFNVTSEGQIQPSASTRPNETDESLIGKTGGESSNSSMPKSINR
@@ -140,7 +144,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="TriharT22__007010"
                      /product="aminotransferase HacD"
-                     /label=hacD
+                     /label="hacD"
                      /protein_id="TriharT22_:CDS_2651"
                      /translation="MALLEQIPAALPDNTFVLIEAFKVDTEKKKVNLSPGIYRDDNAKT
                      WVLPSVKKAREVLQADPHLNHDISPQMGYPDLVSVARQITFGDTLGSRSITSMQTIAGT
@@ -150,11 +154,12 @@ FEATURES             Location/Qualifiers
                      LKQISRAEITSTPGFGAKVVATIVQNPELRKQWQQDLNTMSGRLRDMRKRLHDELTKRE
                      TPGNWRHLLTDIGMFSITGLSQEQVTTLKDSFHVYLLPTGRLSFTGLTTANVEYVAESI
                      HRVLTL"
+                     /Pfam="Aminotran_1_2"
      CDS             21491..22612
                      /codon_start=1
                      /locus_tag="TriharT22__007046"
                      /product="methyltransferase HacE"
-                     /label=hacE
+                     /label="hacE"
                      /protein_id="TriharT22_:CDS_2652"
                      /translation="MGSNIVDARARVQQAYHDIGEPVFSAAEFTLIKVFIDYKGFDAIP
                      DEGDISVADLAAKIGGTHEVIDRMTTFFISGKVLASTGPGRVAHTERSRLYKYDEPTAW
@@ -163,23 +168,25 @@ FEATURES             Location/Qualifiers
                      AERCVLFDLPQVIENTKKNVEKEQDTDLQKIQMISGSMFEPYPESVKGALIYQFRRILN
                      DFPDEDVLRAFHNVRKAVVPDSRILIIEEMLNPKRIPMNVGLDICLMCAAGKRRNAAMF
                      SELAAQAGFKLNAEFQQIAGEFDDFGVLEFVLA"
+                     /Pfam="Methyltransf_2"
      CDS             complement(join(23166..23921,24012..24068))
                      /codon_start=1
                      /locus_tag="TriharT22__007011"
                      /product="aldolase HacC2"
-                     /label=hacC2
+                     /label="hacC2"
                      /protein_id="TriharT22_:CDS_2653"
                      /translation="MVLCENVIYTKASAGQLCKAMVLRLVTNPLVVQFVRNAGFDVVWV
                      EMEHSTYSITEASMLASAAMMAGMTPIVRVPYQCGMGYVQQVLDSGAMMVVFPHIVSAA
                      EAKEAVKMCKFPPYGKRSLWLQQAAVGLRTMPMQMMADEVNSMASAVGVMIEAEESIIN
                      VDAIAAVDGVDVLIVGCIDLSSDMGIPGQIDAPKFKAALKAVSVACKRYNKVFGLAGNY
                      KDLEFQDWVINTLGVRLILAHVDSNLISVGAMECAERISSIDRTVASN"
+                     /Pfam="HpcH_HpaI"
      CDS             complement(join(25371..25540,25704..26988,27151..27847,
                      27907..28055))
                      /codon_start=1
                      /locus_tag="TriharT22__006960"
                      /product="transcription factor HacF"
-                     /label=hacF
+                     /label="hacF"
                      /protein_id="TriharT22_:CDS_2654"
                      /translation="MDHLEPPAYTEPPSLCHQQPGTVAADSLPQLRDRRREKPLLSCTF
                      CRSRKVRCDRQLPCKTCTSRGIGLSCTYELGGSRKGKSKVSVGDRIQQLEDLVRSLVGQ
@@ -195,11 +202,12 @@ FEATURES             Location/Qualifiers
                      DQATGAKIHNLLRNAYPLWLHSTTVSREARRAIDHLSLMLGLQEQDSGTPLTGSATATP
                      QGTDMSLDQFTWDAYEECIASFPATTAFGGEFMGPSLPGSSSATSISTADLLSMNLNTP
                      ESGGWIDRGAFRP"
+                     /Pfam="Zn_clus, CghF"
      CDS             join(28820..29545,29611..29688,29765..30580)
                      /codon_start=1
                      /locus_tag="TriharT22__007047"
                      /product="major facilitator superfamily transporter HacG"
-                     /label=hacG
+                     /label="hacG"
                      /protein_id="TriharT22_:CDS_2655"
                      /translation="MEESRAESDHTAYENETSTMASFDAAAQGDFGREKGSTIDKQGDS
                      AAGETNSDHNEVANASEDAEKGAPVSSEEAPAPDPNIVDWDGPDDPANPRNWSKAYKLA
@@ -211,6 +219,7 @@ FEATURES             Location/Qualifiers
                      AEGGSYRPERRLIMMMFVSPMFPIGLFIYGWTTEYRVHWVVPIIGTAICGPGAVIINSS
                      SQTYIIDIFGPQGAASALAAVTLLRNLTGAFLPLAAPTLYANLGLGWGNSVLAFITIAF
                      IPVPIFFYLCGEALRKRFPVEI"
+                     /Pfam="MFS_1"
 ORIGIN
         1 tcaccgtttt gaaacaactc ttcgtccctc atcatcagct accaccaatt cctgagaggt
        61 aataaaccac tcaaacagtc cagcacgttt tgccatacca acccagtgca acgccgggac

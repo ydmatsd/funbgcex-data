@@ -1,23 +1,23 @@
-LOCUS       FBGC00593       91220 bp DNA     linear   UNA 11-APR-2023
+LOCUS       FBGC00593              91220 bp    DNA     linear   UNA 11-APR-2023
 DEFINITION  cyclosporin A.
 ACCESSION   FBGC00593
-VERSION     .
+VERSION     FBGC00593
 KEYWORDS    .
 SOURCE      Tolypocladium inflatum NRRL 8044
   ORGANISM  Tolypocladium inflatum NRRL 8044
+            .
 REFERENCE   1  (bases 1 to 91220)
   AUTHORS   Yang X, Feng P, Yin Y, Bushley K, Spatafora JW, Wang C.
-  TITLE     Cyclosporine Biosynthesis in Tolypocladium inflatum Benefits Fungal 
+  TITLE     Cyclosporine Biosynthesis in Tolypocladium inflatum Benefits Fungal
             Adaptation to the Environment.
   JOURNAL   mBio 2018;9(5):e01211-18
-  PUBMED    30279281
+   PUBMED   30279281
 REFERENCE   2  (bases 1 to 91220)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Apr 11, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1128/mBio.01211-18"; journalName: "mBio"; date: "2018"; volume: 
+  JOURNAL   Exported Apr 11, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1128/mBio.01211-18"; journalName: "mBio"; date: "2018"; volume:
             "9"; issue: "5"; pages: "e01211-18"
 FEATURES             Location/Qualifiers
      source          1..91220
@@ -28,7 +28,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="Tolpoc__000449"
                      /product="F-box domain protein TINF00557"
-                     /label=TINF00557
+                     /label="TINF00557"
                      /protein_id="Tolpoc_:cds.g449.t1"
                      /translation="MAMANDVHRQHGLYTPHSLSDLAAGMAPTMEASRGETFPILSDPE
                      SAVYQPDQLRGLLCLEQSPKSVRTTTAPRTASKNSKEEEEKPEAQAVEVFELTAADYSL
@@ -43,7 +43,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="Tolpoc__000450"
                      /product="nonribosomal peptide synthetase SimA"
-                     /label=simA
+                     /label="simA"
                      /protein_id="Tolpoc_:cds.g450.t1"
                      /translation="MGAIGQDMAYDRLANPSRASSISSNRYSEPVEQSFAQGRLWFLHQ
                      LKLGASWDITPAAIRLRGHLDIDALNAASRALTQRHETLRTTFKEQDGVGVQVVHASGL
@@ -305,11 +305,13 @@ FEATURES             Location/Qualifiers
                      PEAEIEGQQIRLEGLPAKDQARQANGHAPNGTNGTNGTNGTNGANGTNGTNGTNGTHAN
                      GINGSNGVNGRDSNVVSAAGDQAPVHDLDIVGIPEPDGSVKIGIGASRQILGEKVVGSM
                      LNELCETMLALSRT"
+                     /Pfam="NRPS_C, AA-adenyl-dom, ACP_PCP, PKS_NRPS_MT,
+                     NRPS_CT"
      CDS             join(49663..49744,49821..50890)
                      /codon_start=1
                      /locus_tag="Tolpoc__000451"
                      /product="alanine racemase SimB"
-                     /label=simB
+                     /label="simB"
                      /protein_id="Tolpoc_:cds.g451.t1"
                      /translation="MKICPILNSKAGHWGDPTLTGSAFDFRSDAITTPSHGMLEAIAGA
                      TLNDDVYGEDQLTRSFEEHMASICGKEAALFVVSGTMANQIALGALSRRCTGVLADATS
@@ -318,23 +320,25 @@ FEATURES             Location/Qualifiers
                      AAPIGSAIVGSRDLIARARRLRQSIGGGVRKAGAIVAAAWQAMIENFGPGDVDTRGIIQ
                      RTHVLARAVANMWTSRGGLLLRPVMTNLVWLDLKSAGLDKSTLDTAAQHRDIRIRAPRI
                      VLHHQISTDAMRRLEAVFEEVLEKKASQSPLRSRAERAGLERL"
+                     /Pfam="Beta_elim_lyase"
      CDS             join(54081..54094,54204..54268,54418..54587,54664..54770,
                      54863..55049)
                      /codon_start=1
                      /locus_tag="Tolpoc__000452"
                      /product="cyclophilin SimC"
-                     /label=simC
+                     /label="simC"
                      /protein_id="Tolpoc_:cds.g452.t1"
                      /translation="MVINTYLELEWEGPVMKDGKPTATIKTQTGRINLTVYDDVTPLTA
                      ENFRALCTGEKGFGYKGSYLHRIIPGFLLQGGDFTRGNGTGGKSIYGTKFKDENFTLKH
                      HKPGMLTMANAGPHTNGSQFVITTAETSWLDGRHVVFGEVADEPSMAVVMAIEATGSES
                      GAGQYSKRPMIVACGQS"
+                     /Pfam="Pro_isomerase"
      CDS             complement(join(55634..55660,55735..58654,58753..59381,
                      59476..59865))
                      /codon_start=1
                      /locus_tag="Tolpoc__000453"
                      /product="ABC transporter SimD"
-                     /label=simD
+                     /label="simD"
                      /protein_id="Tolpoc_:cds.g453.t1"
                      /translation="MGILNRAKASQDPVLDSELDSARLSGDVASPAIEDPPREREAGLK
                      DYIRVFTYAKRQDIIFLVAAALSSIAAGVTMPLMVAVFGRLVENFSSFDAADGKTQHAF
@@ -359,11 +363,12 @@ FEATURES             Location/Qualifiers
                      SGTMRDNILLGVDPDQTTDEQLEQCCRDADIYDFISSLPDGFQTEVGNKGVSLSGGQKQ
                      RMSIARALIRNPRVLLLDEATSSLDSESEKQVQASLSRVAQGRTTIAVAHRLATIQNAD
                      VIYVLGEGKVLEQGSHSELLRLRGAYWSMCQSQALDQ"
+                     /Pfam="ABC_membrane, ABC_tran"
      CDS             join(60979..61240,61319..61908,62034..62225)
                      /codon_start=1
                      /locus_tag="Tolpoc__000454"
                      /product="thioesterase SimE"
-                     /label=simE
+                     /label="simE"
                      /protein_id="Tolpoc_:cds.g454.t1"
                      /translation="MDENPLRLQFRPRAARFPSAAPLVLIHDAGGTVYSYLRLGDLKRD
                      VWAISDPYFEAVKPWDGGFDEMAEHYQQLIESAGIRGPILFGGWSLGAYVSLAIAKRML
@@ -372,11 +377,12 @@ FEATURES             Location/Qualifiers
                      PPPAVLVRCLRRTPTDAPSQGPSQVDRYRDDLLLGWEGRHQSFIKAVIDVDKHHFNVFQ
                      PSNLALKTQQDSLGSTVLGTSPSLTTYQVMELLPQRAANLLPSLQADTMTQHINEGLNM
                      LDSLQIA"
+                     /Pfam="Thioesterase, Abhydrolase_6"
      CDS             complement(join(62434..62594,62665..63849,63922..64048))
                      /codon_start=1
                      /locus_tag="Tolpoc__000455"
                      /product="cytochrome b2-like protein SimF"
-                     /label=simF
+                     /label="simF"
                      /protein_id="Tolpoc_:cds.g455.t1"
                      /translation="MTRPISREELGQHNKDGDLWIALNGKVYDFSDFPSSHPGGPEVIY
                      RYAGQDASEEYNTFHAPDLVKSTLGAEKMVGHILDVATAGSDAVKPTSVKDQKPLLDEL
@@ -387,6 +393,7 @@ FEATURES             Location/Qualifiers
                      RHEDAVKAMELGFEGIILSNHGGRAADGALPAILTLLELHRNCPQVFGAMEILVDGGFR
                      RGSDVVKAICLGASAVGLGRPFMYSVMYGQEGTERVVDILKDEIKTCMQLIGICDLFAD
                      ASPNYLVTGEIDHLVWSGQHPYARKMTRRSRI"
+                     /Pfam="Cyt-b5, FMN_dh"
      CDS             complement(join(64727..66460,66533..66607,66669..66953,
                      67021..67902,68108..68133,68207..68303,68381..70536,
                      70649..71098,71188..71788,71844..71956,72029..72152,
@@ -394,7 +401,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="Tolpoc__000456"
                      /product="polyketide synthase SimG"
-                     /label=simG
+                     /label="simG"
                      /protein_id="Tolpoc_:cds.g456.t1"
                      /translation="MAPQQISPPNGTASPEAGTPRYTYRPASPAPESPWADSAEGAELA
                      KPMAIIGMAMRLPGSVRSGDDLWDLLSTRKSGLCDIPKNRFNADGFYDPARGPGTIPVK
@@ -440,11 +447,13 @@ FEATURES             Location/Qualifiers
                      KTSRYVTPGYVGIGLNTTTPMSAASTRVPWKRDPRMSIYHNMDNSSGDVRGEGSSKGSS
                      LKVVLAAEPSEEKKTEIIAKALAGTLGNFLIKDGSSFPLDKPLKMLGMDSLIAMEVRNW
                      IRQNIGAETSTFTVLQSSSFMHLAGEIRAAMNAASEE"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_DH, PKS_NRPS_MT, fPKS_ER,
+                     fPKS_KR, ACP_PCP"
      CDS             join(75055..75255,75365..76159)
                      /codon_start=1
                      /locus_tag="Tolpoc__000457"
                      /product="thioesterase SimH"
-                     /label=simH
+                     /label="simH"
                      /protein_id="Tolpoc_:cds.g457.t1"
                      /translation="MLTPLFLIKFAVAASVPVTIGGLAYVATSPELREGIYHFLTSPGW
                      PLRLCLVVFAALNWKNLPLAWTARVFYSFACHDFFKRGDLPPHALFGHIVTTTRNSPLD
@@ -452,12 +461,13 @@ FEATURES             Location/Qualifiers
                      LGSVFCSYRREVGMLESYELWSRVLTWDRKWLYFVTHFVARDKGKGKASPGGVGTDRDW
                      SQRIIATAISKYVFKLGRFTIHPSIILEESGLLPERPGGGWRGGELEVGDVSEKVESLE
                      GEEEPVEGWKRTELMRRKGMELAEHFAALDAGHSLFDGREDGVLGRFVLG"
+                     /Pfam="4HBT_2"
      CDS             join(78295..78393,78463..78613,78683..78742,78809..79069,
                      79130..79495,79555..80171)
                      /codon_start=1
                      /locus_tag="Tolpoc__000458"
                      /product="cytochrome P450 monooxygenase SimI"
-                     /label=simI
+                     /label="simI"
                      /protein_id="Tolpoc_:cds.g458.t1"
                      /translation="MLQYSFANILNVHRLLEWAKLLGVTLSGSLLSFIVYTLVYYAFFH
                      PLAKYPGPVLAKFTNLYSAYHAWKGDIHTDILRCHEKYGVWVRYAPNRVLINTVDSLRD
@@ -469,11 +479,12 @@ FEATURES             Location/Qualifiers
                      PSGCEVGSGIYAMQRSPANWEHPHRFMPERWADEVEGRRPYFPFNIGPRSCVGKPLAIA
                      QIMLTFARLLFEFDFERAEETKRSKANLEMLDSQTIPYVLRDHVTGQKDGPMLRFRPRF
                      "
+                     /Pfam="p450"
      CDS             complement(join(80599..80868,80949..81745,81820..81850))
                      /codon_start=1
                      /locus_tag="Tolpoc__000459"
                      /product="aminotransferase SimJ"
-                     /label=simJ
+                     /label="simJ"
                      /protein_id="Tolpoc_:cds.g459.t1"
                      /translation="MFPPPPASGIDWTNVDLSLKIPVKGHVEARHNASTGTWSAPVLET
                      NPNISISGISPALNYGQQCFEGMKAYRQTSGDIVIFRPEAHAARIAKSAVAVCLPPPPK
@@ -482,11 +493,12 @@ FEATURES             Location/Qualifiers
                      KIDEFSTSGFMGFKSDGSEKTLVVPLAENAVQSVTSASLTRIAELQGWTIQRDEVPLHT
                      LSSIEEVVAVGTVAVVVPIRSISRLSTSEKFTFPGTSNPEKIESQLLGLARTLSDIARG
                      NREDTEGWCWKVTEHGPDSSSRSRL"
+                     /Pfam="Aminotran_4"
      CDS             join(89971..90076,90162..90362,90433..91220)
                      /codon_start=1
                      /locus_tag="Tolpoc__000462"
                      /product="transcription factor SimL"
-                     /label=simL
+                     /label="simL"
                      /protein_id="Tolpoc_:cds.g462.t1"
                      /translation="MSFKRPCPDDSDHESPLGHQRGKKTEQGRFPQRAYRERLKAKLEG
                      LEDEVPAPQELFIDAAPTPRSEIINSSLDSKAASTPYPEVATPAAHHDLMTGAVFDLAS
@@ -495,6 +507,7 @@ FEATURES             Location/Qualifiers
                      AYYTETFDETSPLDRDQRLSRNRRLPRLLGALRDASKDWSHWERRGFQEQITQGAEDIL
                      VDELELFRKEYTDTAFLREMTTSELGGGQTAATSRGSSNRRTFQDNVCAFPPVLPPLSS
                      HLFSSLKPLSLPESDRTKGNFRTA"
+                     /Pfam="TqaK"
 ORIGIN
         1 ggctatctct aataagtagg aggtaaaact aggttatcta ttatatagcc ataaagagct
        61 cataaataac gtagatgata taagggacca tctattccga agacagaatt aaagcttaac

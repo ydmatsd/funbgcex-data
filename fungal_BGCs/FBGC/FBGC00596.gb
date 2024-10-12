@@ -1,24 +1,24 @@
-LOCUS       FBGC00596       18814 bp DNA     linear   UNA 11-APR-2023
+LOCUS       FBGC00596              18814 bp    DNA     linear   UNA 11-APR-2023
 DEFINITION  desmethylbassianin.
 ACCESSION   FBGC00596
-VERSION     .
+VERSION     FBGC00596
 KEYWORDS    .
 SOURCE      Beauveria bassiana 992.05
   ORGANISM  Beauveria bassiana 992.05
+            .
 REFERENCE   1  (bases 1 to 18814)
-  AUTHORS   Fisch KM, Bakeer W, Yakasai AA, Song Z, Pedrick J, Wasil Z, Bailey 
+  AUTHORS   Fisch KM, Bakeer W, Yakasai AA, Song Z, Pedrick J, Wasil Z, Bailey
             AM, Lazarus CM, Simpson TJ, Cox RJ.
   TITLE     Rational domain swaps decipher programming in fungal highly reducing
             polyketide synthases and resurrect an extinct metabolite.
   JOURNAL   J Am Chem Soc 2011;133:16635-41
-  PUBMED    21899331
+   PUBMED   21899331
 REFERENCE   2  (bases 1 to 18814)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Apr 11, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
+  JOURNAL   Exported Apr 11, 2023 from SnapGene 6.2.1 https://www.snapgene.com
 COMMENT     SGRef: number: 1; type: "Journal Article"; doi: "10.1021/ja206914q";
-            journalName: "J Am Chem Soc"; date: "2011"; volume: "133"; pages: 
+            journalName: "J Am Chem Soc"; date: "2011"; volume: "133"; pages:
             "16635-41"
 FEATURES             Location/Qualifiers
      source          1..18814
@@ -29,7 +29,7 @@ FEATURES             Location/Qualifiers
      CDS             join(1..585,650..1175,1238..1653)
                      /codon_start=1
                      /product="cytochrome P450 monooxygenase DMBA"
-                     /label=dmbA
+                     /label="dmbA"
                      /note="cytochrome P450"
                      /protein_id="ADN43682.1"
                      /translation="MLPLLDSVSLPYLILSACLSVILLRRFLAHDKGGSKSIAQGCLPE
@@ -41,10 +41,11 @@ FEATURES             Location/Qualifiers
                      LRDEVDAVGDAPITFEMLRNMKYLNGILNETHRLIPNNVTQVRAALSDVVLPLGGGPNG
                      KAPLDVRKGDIVSVTKTVMYRDPEQWGPDANEYRPERWDGMRGGWHFLPYGGGPRRCPA
                      QMMVQNESAYMLFRLAQKYSTIVARDPEPFRARMRIGPSSMHGVKIAFYK"
+                     /Pfam="p450"
      CDS             complement(join(2061..3443,3501..3737))
                      /codon_start=1
                      /product="cytochrome P450 monooxygenase DMBB"
-                     /label=dmbB
+                     /label="dmbB"
                      /note="cytochrome P450"
                      /protein_id="ADN43683.1"
                      /translation="MALFQAMSMVAQLGYYEKVAGVLGFLSIALLFWKLNHKPFYPALP
@@ -57,10 +58,11 @@ FEATURES             Location/Qualifiers
                      KDGLESPEGIKLQKGTTISWLASCAQVDADRFDNPQKFDPFRFSRASKDDDDDGKSTSS
                      HAKDAFVTTSPQYLPFGHGKHACPGRFMVDLMFKILLAQLLTHYDLGWPEDYQGKQPPS
                      VWQGELSEPPPGARILVKRRKV"
+                     /Pfam="p450"
      CDS             complement(4321..5490)
                      /codon_start=1
                      /product="trans-acting enoylreductase DMBC"
-                     /label=dmbC
+                     /label="dmbC"
                      /note="enoyl reductase"
                      /protein_id="ADN43684.1"
                      /translation="MAAVSALPLTQKALKVASPDTLHLVTDAPLPTLGQDDSVLIRVVC
@@ -70,11 +72,12 @@ FEATURES             Location/Qualifiers
                      SASRAKRLGAAATFDYQSATCGRDIREYTNDSLALAIDCLSESASMAICYEAIGSAGGR
                      YVSLDPFPIRGCVRRSIVPDWICSFTQFGHSINWAPPYNLDERPDDYRLAEEWYHLAQK
                      LLDAQLIEAPTLELRSGGLLRVPEGVTAVKLGQIKRRKLVYHVSEEVLP"
+                     /Pfam="fPKS_ER, ADH_zinc_N"
      CDS             join(6163..7430,7501..10714,10766..18814)
                      /codon_start=1
-                     /product="polyketide synthase-nonribosomal peptide 
+                     /product="polyketide synthase-nonribosomal peptide
                      synthetase DMBS"
-                     /label=dmbS
+                     /label="dmbS"
                      /note="polyketide synthase-nonribosomal peptide synthase"
                      /protein_id="ADN43685.1"
                      /translation="MSPMKQNESESHCVSEPIAIVGSAYRFPGGCNTPSKLWDLLRQPR
@@ -149,6 +152,8 @@ FEATURES             Location/Qualifiers
                      MRCVPSLPEHRAQGYLDFGQVDKVVEEMVGDVLGLADERQEEGPAVVYKHHSGGVKVPI
                      HEFREHMESVYGGRFESVDLGQWIARAVDAGMDPLISAYLETFLEGDAPMVFPYMGEQA
                      V"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_DH, PKS_NRPS_MT, fPKS_KR,
+                     ACP_PCP, Condensation, AA-adenyl-dom, fPKS_R"
 ORIGIN
         1 atgctgcccc tcctagacag cgtgagcctc ccatacctca tcctgtcggc atgtctttct
        61 gtcatactgc tgcgcagatt cctagctcac gacaagggag gatccaagtc catcgcacaa

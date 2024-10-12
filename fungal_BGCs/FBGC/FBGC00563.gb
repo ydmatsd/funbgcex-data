@@ -1,44 +1,45 @@
-LOCUS       FBGC00563       21118 bp DNA     linear   UNA 08-APR-2023
+LOCUS       FBGC00563              21118 bp    DNA     linear   UNA 08-APR-2023
 DEFINITION  8-methyldichlorodiaporthin.
 ACCESSION   FBGC00563
-VERSION     .
+VERSION     FBGC00563
 KEYWORDS    .
 SOURCE      Aspergillus oryzae RIB40
   ORGANISM  Aspergillus oryzae RIB40
+            .
 REFERENCE   1  (bases 1 to 21118)
-  AUTHORS   Liu M, Ohashi M, Hung YS, Scherlach K, Watanabe K, Hertweck C, Tang 
+  AUTHORS   Liu M, Ohashi M, Hung YS, Scherlach K, Watanabe K, Hertweck C, Tang
             Y.
-  TITLE     AoiQ Catalyzes Geminal Dichlorination of 1,3-Diketone Natural 
+  TITLE     AoiQ Catalyzes Geminal Dichlorination of 1,3-Diketone Natural
             Products.
   JOURNAL   J Am Chem Soc 2021;143:7267-7271
-  PUBMED    33957045
+   PUBMED   33957045
 REFERENCE   2  (bases 1 to 21118)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Apr 8, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1021/jacs.1c02868"; journalName: "J Am Chem Soc"; date: "2021"; 
+  JOURNAL   Exported Apr 8, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     ##Genome-Assembly-Data-START##
+            Assembly Method     :: Phred/Phrap software
+            Assembly Name       :: Aoryzae_assembly02
+            ##Genome-Assembly-Data-END##
+            ##Genome-Annotation-Data-START##
+            Annotation Provider :: INSDC submitter
+            Annotation Status   :: Full annotation
+            Annotation Pipeline :: Eukaryotic Annotation Propagation Pipeline
+            ##Genome-Annotation-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1021/jacs.1c02868"; journalName: "J Am Chem Soc"; date: "2021";
             volume: "143"; pages: "7267-7271"
-COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final 
+            PROVISIONAL REFSEQ: This record has not yet been subject to final
             NCBI review. The reference sequence is identical to BA000053.
             This genome assembly has been updated so
             as to reflect the location and orientation of
             contigs on the chromosomes. Gap lengths were
             estimated using the results from Optical
-            Mapping (http://www.bio.nite.go.jp/dogan/project/view/AO). This 
-            Aspergillus oryzae RIB40 genome consists of a nuclear genome 
-            assembly represented by eight chromosomes (assembled from 24 
-            entries) and three unplaced contigs (AP007156, AP007160 and 
-            AP007177) and a complete mitochondrial genome 
-            (AP007176).##Genome-Assembly-Data-START##
-            Assembly Method :: Phred/Phrap software
-            Assembly Name   :: Aoryzae_assembly02
-            ##Genome-Assembly-Data-END####Genome-Annotation-Data-START##
-            Annotation Provider :: INSDC submitter
-            Annotation Status   :: Full annotation
-            Annotation Pipeline :: Eukaryotic Annotation Propagation Pipeline 
-            ##Genome-Annotation-Data-END##
+            Mapping (http://www.bio.nite.go.jp/dogan/project/view/AO). This
+            Aspergillus oryzae RIB40 genome consists of a nuclear genome
+            assembly represented by eight chromosomes (assembled from 24
+            entries) and three unplaced contigs (AP007156, AP007160 and
+            AP007177) and a complete mitochondrial genome
 FEATURES             Location/Qualifiers
      source          1..21118
                      /chromosome="5"
@@ -51,9 +52,9 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="AO090701000530"
                      /product="polyketide synthase DiaA"
-                     /label=diaA
-                     /note="unnamed protein product; polyketide synthase
-                     modules and related proteins"
+                     /label="diaA"
+                     /note="unnamed protein product; polyketide synthase modules
+                     and related proteins"
                      /db_xref="GeneID:5995419"
                      /protein_id="XP_001823362.1"
                      /translation="MIENTTITPSESRSPSPSHANVDMDANIPEEFILFSHELPSGEIQ
@@ -89,11 +90,12 @@ FEATURES             Location/Qualifiers
                      QSQPLPASALQRPKNLTTPTSKVTNSQHEDQAGISPKFNSPAPVATVTQQVQPVQGGQD
                      QSQNSQATACLAIIAEETGLDLDDLKGDAAFAELGVDSLMSLALSAKIRAELGVDVQAS
                      IFLQCPTVQDLVTWLSK"
+                     /Pfam="SAT2, PKS_KS, PKS_AT, fPKS_PT, ACP_PCP"
      CDS             complement(join(6851..7681,7867..8091))
                      /codon_start=1
                      /locus_tag="AO090701000529"
                      /product="metallo-beta-lactamase-like thioesterase DiaB"
-                     /label=diaB
+                     /label="diaB"
                      /note="unnamed protein product; glyoxylase"
                      /db_xref="GeneID:5995418"
                      /protein_id="XP_001823361.1"
@@ -104,12 +106,13 @@ FEATURES             Location/Qualifiers
                      KYIAQRVSREKQIYSVLVRETSSSPSFRNGSSARSARKARSGYTGGVSDSSDSRIDQDI
                      NGTETVQGLSTADIGGLIYGEVSKDSATFDSAVGPLLDQVLYMLLERGEVGCRLVGPDR
                      TTHWFATVQPL"
+                     /Pfam="Lactamase_B"
      CDS             join(8515..8642,8716..8812,8882..8924,8998..9402,
                      9478..10017,10079..10917,10990..11979)
                      /codon_start=1
                      /locus_tag="AO090701000528"
                      /product="FAD-dependent halogenase/methyltransferase AoiQ"
-                     /label=aoiQ
+                     /label="aoiQ"
                      /note="unnamed protein product; predicted protein"
                      /db_xref="GeneID:5995417"
                      /protein_id="XP_023092177.1"
@@ -131,13 +134,14 @@ FEATURES             Location/Qualifiers
                      ELAGRVIVQDRGEVIKCAPDIKGIQWMEHDFFQTQPVKGAKYYYLRAILHNWDDKNTVQ
                      ILSNIVPAMSADSLVAIDEVVVPEENAHVWPAGLDLQMYSLFSTTERTASQWDAILDKA
                      GLRAVAVKKYAPVMQSSVIFAAAK"
+                     /Pfam="Trp_halogenase, Methyltransf_2"
      CDS             complement(join(12452..13314,13358..13835,13902..14105))
                      /codon_start=1
                      /locus_tag="AO090701000527"
-                     /product="glucose-methanol-choline family oxidoreductase 
+                     /product="glucose-methanol-choline family oxidoreductase
                      AO090701000527"
-                     /label=AO090701000527
-                     /note="unnamed protein product; choline dehydrogenase and 
+                     /label="AO090701000527"
+                     /note="unnamed protein product; choline dehydrogenase and
                      related flavoproteins"
                      /db_xref="GeneID:5995416"
                      /protein_id="XP_023092176.1"
@@ -150,11 +154,12 @@ FEATURES             Location/Qualifiers
                      IAGILNGPNEASACIHFAIYPGNLAIIGIFPSFPFSRGSVHIQSADPASSPQIDPKYLN
                      HPSDLDSMVRHVQHLQEIFHSARLQPFVDAPPPQDREALAQLVREAMAIPTAHACGTTA
                      MLPRERGGVVASDLKVYGVSNVRVVDASVFPVISQANPISTVYTVAERAADLIRAN"
+                     /Pfam="GMC_oxred_N, GMC_oxred_C"
      CDS             join(15594..16314,16377..16588)
                      /codon_start=1
                      /locus_tag="AO090701000526"
                      /product="short-chain dehydrogenase/reductase DiaC"
-                     /label=diaC
+                     /label="diaC"
                      /note="unnamed protein product; predicted protein"
                      /db_xref="GeneID:5995415"
                      /protein_id="XP_023092175.1"
@@ -164,11 +169,12 @@ FEATURES             Location/Qualifiers
                      EDKPVTFINLTTAGILFPPFPGMGAYVSSKMAAVKLLQSFATENPQVRLHNVHPGLLRT
                      AMSAKLAETIQLPYAYDDITLPADFLVWIASPEAEFLKDKIVFAAWDVDELKARQKEIV
                      GGPPGTGELWLGYQGFPRFIAGQPLSGTQ"
+                     /Pfam="adh_short"
      CDS             complement(join(19543..20008,20071..20569,20623..21118))
                      /codon_start=1
                      /locus_tag="AO090701000525"
                      /product="FAD-linked oxidoreductase DiaD"
-                     /label=diaD
+                     /label="diaD"
                      /note="unnamed protein product; predicted protein"
                      /db_xref="GeneID:5995414"
                      /protein_id="XP_023092174.1"
@@ -181,6 +187,7 @@ FEATURES             Location/Qualifiers
                      NNPEPSVYMQLFKIWEKGLSKIAKVEGIFVEFLVQPHPVTNGTNMFGLTPGKTDDVMVD
                      MTAAYTNTADDALVKAVITDIVNQQRALLKAHGHLIDFIYLNYADISQKVLQSWGADNV
                      AKLRAVSKRYDPKGVFQKQVPGGYKIPM"
+                     /Pfam="FAD_binding_4, BBE"
 ORIGIN
         1 ttacttgctc aaccacgtaa ccaaatcctg tacagtgggg cattgcagaa aaatggacgc
        61 ctgaacatca acacctagct ctgcacgtat cttggccgac agtgccagtg acattagaga

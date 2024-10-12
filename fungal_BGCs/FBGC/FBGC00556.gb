@@ -1,28 +1,28 @@
-LOCUS       FBGC00556       15792 bp DNA     linear   UNA 07-APR-2023
+LOCUS       FBGC00556              15792 bp    DNA     linear   UNA 07-APR-2023
 DEFINITION  asteltoxin.
 ACCESSION   FBGC00556
-VERSION     .
+VERSION     FBGC00556
 KEYWORDS    .
 SOURCE      Emericella variecolor ATCC 46460
   ORGANISM  Emericella variecolor ATCC 46460
+            .
 REFERENCE   1  (bases 1 to 15792)
-  AUTHORS   Cao, F., Tao, W.-T., Yu, Q., Xu, C.-X., Cheng, J.-T., Liu, R.-X., 
+  AUTHORS   Cao, F., Tao, W.-T., Yu, Q., Xu, C.-X., Cheng, J.-T., Liu, R.-X.,
             Zhao, Q.-W., Jiang, X.-H., Liu, Y., Li, Y.-Q., Zhan, Z.-J., Shi, T.,
             Mao, X.-M.
-  TITLE     Discovery of Semi-Pinacolases from the Epoxide Hydrolase Family 
+  TITLE     Discovery of Semi-Pinacolases from the Epoxide Hydrolase Family
             during Efficient Assembly of a Fungal Polyketide
   JOURNAL   ACS Catal 2021;11:14702-14711
 REFERENCE   2  (bases 1 to 15792)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Apr 7, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1021/acscatal.1c03899"; journalName: "ACS Catal"; date: "2021"; 
-            volume: "11"; pages: "14702-14711"
+  JOURNAL   Exported Apr 7, 2023 from SnapGene 6.2.1 https://www.snapgene.com
 COMMENT     ##Assembly-Data-START##
-            Sequencing Technology :: Sanger dideoxy sequencing 
+            Sequencing Technology :: Sanger dideoxy sequencing
             ##Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1021/acscatal.1c03899"; journalName: "ACS Catal"; date: "2021";
+            volume: "11"; pages: "14702-14711"
 FEATURES             Location/Qualifiers
      source          1..15792
                      /mol_type="genomic DNA"
@@ -38,7 +38,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="astC"
                      /product="FAD-dependent monooxygenase AstC"
-                     /label=astC
+                     /label="astC"
                      /note="asteltoxin biosynthesis protein C"
                      /protein_id="UOK93124.1"
                      /translation="MSDHTQAAQRAPFRVIIVGGSITGLTLAHCLERAGIDYVVLEKHV
@@ -50,11 +50,12 @@ FEATURES             Location/Qualifiers
                      RLRSLLADTYPDKPLEQSLNGMLEDFNQKQFKRLLSVHGDAQFVTRLEALDGWSLRVFA
                      RHVMKYLGDLLVGNLSRIVAAGSVLDFVPLTVRSGKDWPPCPLQNSWGIAESLNFFWAC
                      TWALCFALVVVYVRQKEGGLGLGTSFW"
+                     /Pfam="FAD_binding_3"
      CDS             join(2309..2649,2719..3574)
                      /codon_start=1
                      /gene="astD"
                      /product="epoxide hydrolase AstD"
-                     /label=astD
+                     /label="astD"
                      /note="asteltoxin biosynthesis protein D"
                      /protein_id="UOK93125.1"
                      /translation="MPQSAKYVLPAYGALALYALVDFSYRNGYIPMVMEKGQIWLNQPS
@@ -64,22 +65,24 @@ FEATURES             Location/Qualifiers
                      AERSRISIKGREQGQQPGATLTNWQRTRSAFRAVYGLTFAVAAITHIATWTISLTVASG
                      LRDALNPQTAAALHPSIIFLNTAPWSSVQTDSVGEGTLWLIQWDQAIAAGAMWLWSLQL
                      YRTAHVTHGRAIDLMHFVLKTVAFCMVAGFTGAAVELLWEREEMVLEAALEKEKERQL"
+                     /Pfam="CtvD"
      CDS             join(4081..4378,4520..4649,4899..5085)
                      /codon_start=1
                      /gene="astE"
                      /product="SnoaL-like domain-containing protein AstE"
-                     /label=astE
+                     /label="astE"
                      /note="asteltoxin biosynthesis protein E"
                      /protein_id="UOK93126.1"
                      /translation="MSRHYCLPFLLHFFFQLLLLFSPFTQGTTSVEPGNESPEPLLDYW
                      YHASPVAVPIPVTDDPSEQAMVTARNDEFRAAFASADVDRLMSFFAPQALYSDYAIAAL
                      DMDYASTRTYFETMFAGAQNLSFTQTSITGYKHFAAAEWVLTMSATNASQSHATTLAAP
                      GSSGDTGMEMRGASLTWYDEAGEKILRNCDYGVLWPPAAAV"
+                     /Pfam="SnoaL_2"
      CDS             complement(5657..6364)
                      /codon_start=1
                      /gene="astB"
                      /product="methyltransferase AstB"
-                     /label=astB
+                     /label="astB"
                      /note="asteltoxin biosynthesis protein B"
                      /protein_id="UOK93123.1"
                      /translation="MTIESRDNYYNPLVLWVYDFFVQVLTNTFWWRCSTRSILVPFFIA
@@ -87,12 +90,14 @@ FEATURES             Location/Qualifiers
                      HDISREPECVVANILEPLPLKRGEQFDSIALMYVLHCIPVPPAVKGRVVENLKEFLADD
                      GVFFGSTVLGKGVRHNLIGMFLMWLYNYIGMFGNWDDGREEILKPIRENFEEVESEVVG
                      TVLMWRAMKPRRW"
-     CDS             join(7601..8032,8117..8497,8547..8679,8733..8849,8909..9110,
-                     9170..9920,9975..13905,14018..14732,14817..15792)
+                     /Pfam="VrtF"
+     CDS             join(7601..8032,8117..8497,8547..8679,8733..8849,
+                     8909..9110,9170..9920,9975..13905,14018..14732,
+                     14817..15792)
                      /codon_start=1
                      /gene="astA"
                      /product="polyketide synthase AstA"
-                     /label=astA
+                     /label="astA"
                      /note="asteltoxin biosynthesis protein A"
                      /protein_id="UOK93122.1"
                      /translation="MAPEPIAIIGTGCRLPGSSSSPSRLWELLSKPKDVASKPPADRFN
@@ -139,6 +144,8 @@ FEATURES             Location/Qualifiers
                      EPDIIWYTNPQTWPLANYHLRSHSTHGGEAGGAQVPVQKQLEATENMDEAAEIVLSAFI
                      AKIIQKLHLSENVSVTADSRLTELGADSLVAVDLRTWFLKELQVEIPVLQIQSGASIGE
                      LAGSVTAKLPGSLIPNVKASSD"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_DH, PKS_NRPS_MT, fPKS_KR,
+                     ACP_PCP"
 ORIGIN
         1 ctaccagaaa gaagttccta gccctagtcc tccttccttc tgcctcacat aaacgacaac
        61 caaagcaaaa cacaaagccc aggtacaagc ccaaaagaag ttaagcgatt ctgcaattcc

@@ -1,37 +1,38 @@
-LOCUS       FBGC00578       32394 bp DNA     linear   UNA 10-APR-2023
+LOCUS       FBGC00578              32394 bp    DNA     linear   UNA 10-APR-2023
 DEFINITION  harzianopyridone.
 ACCESSION   FBGC00578
-VERSION     .
+VERSION     FBGC00578
 KEYWORDS    .
 SOURCE      Trichoderma harzianum T6776
   ORGANISM  Trichoderma harzianum T6776
+            .
 REFERENCE   1  (bases 1 to 32394)
-  AUTHORS   Bat-Erdene U, Kanayama D, Tan D, Turner WC, Houk KN, Ohashi M, Tang 
+  AUTHORS   Bat-Erdene U, Kanayama D, Tan D, Turner WC, Houk KN, Ohashi M, Tang
             Y.
-  TITLE     Iterative Catalysis in the Biosynthesis of Mitochondrial Complex II 
+  TITLE     Iterative Catalysis in the Biosynthesis of Mitochondrial Complex II
             Inhibitors Harzianopyridone and Atpenin B.
   JOURNAL   J Am Chem Soc 2020;142:8550-8554
-  PUBMED    32365298
+   PUBMED   32365298
 REFERENCE   2  (bases 1 to 32394)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Apr 10, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1021/jacs.0c03438"; journalName: "J Am Chem Soc"; date: "2020"; 
-            volume: "142"; pages: "8550-8554"
+  JOURNAL   Exported Apr 10, 2023 from SnapGene 6.2.1 https://www.snapgene.com
 COMMENT     ##Genome-Assembly-Data-START##
             Assembly Date         :: 2014
             Assembly Method       :: Velvet v. 1.2.07
             Genome Coverage       :: 100.0x
             Sequencing Technology :: Illumina MiSeq ##Genome-Assembly-Data-END##
+            ##Genome-Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1021/jacs.0c03438"; journalName: "J Am Chem Soc"; date: "2020";
+            volume: "142"; pages: "8550-8554"
 FEATURES             Location/Qualifiers
      source          1..32394
                      /strain="T6776"
                      /mol_type="genomic DNA"
                      /country="Italy: Tuscany, Pisa, Colignola"
                      /isolation_source="soil"
-                     /collection_date=1998
+                     /collection_date="1998"
                      /identified_by="Dr. Sabrina Sarrocco"
                      /db_xref="taxon:5544"
                      /organism="Trichoderma harzianum"
@@ -40,7 +41,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="THAR02_03282"
                      /product="transcription factor HarH"
-                     /label=harH
+                     /label="harH"
                      /protein_id="KKP04592.1"
                      /translation="MVNLPYIENPPRKRRRPAVACVECRRRKVKCDRAKPCGPCYQSAL
                      TCYYRPPSFSQSGPPPAPAPAPAQQPLHSSFQGTNLAGSVGLPMDQRSSPSSVFRDESR
@@ -55,12 +56,13 @@ FEATURES             Location/Qualifiers
                      HAMPEDDFSLLIISGSSIIISFLWEATAHVCADVINNITESPFPLISSLSRSELTQTIQ
                      CAIDTARSCLRAGDTAVEPLVLFSCSLAHIKSVSEEKPIDKSIMDAARSSLLFCYKVLE
                      AGYREEGQDSRLDISIGRHGLEFPDYDSATDLWDTVVNAPIMLFE"
+                     /Pfam="CghF"
      CDS             complement(join(2616..3396,3452..3578,3639..3768,
                      3824..3991))
                      /codon_start=1
                      /locus_tag="THAR02_03283"
                      /product="methyltransferase HarB"
-                     /label=harB
+                     /label="harB"
                      /protein_id="KKP04593.1"
                      /translation="MANVNVKELIAQVNAAAQQGASGVDDSERKQLLAAVDKLRASYET
                      PFETTIRVVFSGHQAIAIRLGVDSGLFDAAAKQPQDNITVKQLAKDTGVDELLATRIVR
@@ -70,11 +72,12 @@ FEATURES             Location/Qualifiers
                      FFKEQPVKGAKGYYLRTVLHDWPDKQAVQILERVREAMTPESVLLINETVIPESNASLS
                      SATADLIMMVSFGSLERTEKQFAELFAKAQLELVKVWFPTDFEVASDISEQASLLEVRL
                      RR"
+                     /Pfam="MdpA, Methyltransf_2"
      CDS             join(5191..5631,5682..6536)
                      /codon_start=1
                      /locus_tag="THAR02_03284"
                      /product="FAD-dependent monooxygenase HarC"
-                     /label=harC
+                     /label="harC"
                      /protein_id="KKP04594.1"
                      /translation="MAVPSGDASSPKQVHILIIGAGLTGLILAQAIRNFNQSERSTQSS
                      VKYTYSIFERDDHAFARGGGWSLTIHWALTDLRNVLPHDIISRFEDCLVNPEAAEKGIP
@@ -84,12 +87,14 @@ FEATURES             Location/Qualifiers
                      TTNGERLAWLRSLASDWAEPFRGIANDIPDDTELREIVLEDWPPQPNGWDNHNGTVTLV
                      GDAAHGMTMFRGEAANHGVIDVSVLTKLLFSDDVCQEKENALILAVQAYEDEMIERTRP
                      AVLKSRQACIDANNYESVNAQSPLIAKRVVRD"
-     CDS             complement(join(7108..7463,7512..7743,7791..7862,7916..8098,
-                     8172..8448,8508..8553,8603..8733,8807..8886,8938..9060))
+                     /Pfam="FAD_binding_3"
+     CDS             complement(join(7108..7463,7512..7743,7791..7862,
+                     7916..8098,8172..8448,8508..8553,8603..8733,8807..8886,
+                     8938..9060))
                      /codon_start=1
                      /locus_tag="THAR02_03285"
                      /product="cytochrome P450 monooxygenase HarD"
-                     /label=harD
+                     /label="harD"
                      /protein_id="KKP04595.1"
                      /translation="MVNATWAQGLDVAGLFTEQKFSSSVLLIIFASIVHLIFLRRPSVI
                      RDKDGKPIKELKANARVMKFALSAELSKQGRELAGDAPYMIHNGQSRELVITQPDHLKD
@@ -100,11 +105,12 @@ FEATURES             Location/Qualifiers
                      LRSEIFLQTAATDSDLAKYVAKTDSLLNYLVMESMRHTPAFWFSLPECTAMAKTIGGYQ
                      VPANTAVVIDSGRLNKEAVTWGADGHDFRPQRFKEIPQSKCRYGFMKFGAGGASGRCLG
                      KHVADITFKLTVIAVLKKFSLETPKVEILAATPAAVTFSPN"
+                     /Pfam="p450"
      CDS             join(9445..9983,10036..10558)
                      /codon_start=1
                      /locus_tag="THAR02_03286"
                      /product="trans-acting enoylreductase HarE"
-                     /label=harE
+                     /label="harE"
                      /protein_id="KKP04596.1"
                      /translation="MTIIIPGSQRALKVTGPGQFQVSLANAIPTVADDEVLVKVVAVAI
                      NPIDGKSAELSPTAGATSGCDFAGSVVQLGSNITKPLKLGDRVCACIFGNNPERLDNGA
@@ -113,11 +119,12 @@ FEATURES             Location/Qualifiers
                      DTLVYALDCIADTSSMTICYKAIGSAGGHYLSLDPFPIRCHTRRSIKPNWISTLTMFNQ
                      AVNWQIGYRKEAKPKDRAFGHEWFKTAQDLLDNGHVKPHPFREMTGGLDGIVDGIVQVR
                      KSEVSAMKLVYTI"
+                     /Pfam="fPKS_ER"
      CDS             join(11083..11696,11754..12861)
                      /codon_start=1
                      /locus_tag="THAR02_03287"
                      /product="FAD-dependent monooxygenase HarF"
-                     /label=harF
+                     /label="harF"
                      /protein_id="KKP04597.1"
                      /translation="MAVETLPSDTVLVVGGGPVGLLLVKTLAHHGVKSVLLERHYTTTT
                      WPKMDLTNSRSMEIFRSLGMAEELRKLAVPAKFPFTCLFSTGLNDEKAASSWDLPSAEK
@@ -129,11 +136,12 @@ FEATURES             Location/Qualifiers
                      KTLQAGGEEARAMISRVHEYIQANDAHNKSLGVELGYRYTSSICLPDQPQDELPSPPEF
                      DPRNYIPTTVSGYRAPHVFLQDKTPIFDHYGKDFTLIAFKNSQQHLQAIDWLRQSAERL
                      KVPLRISSLDGETTAQNIWSVDLVLVRPDGFVSWRGNSLDKLETAYEVIAKAIGHD"
+                     /Pfam="FAD_binding_3"
      CDS             complement(join(13317..13735,13792..14317,14368..14937))
                      /codon_start=1
                      /locus_tag="THAR02_03288"
                      /product="cytochrome P450 monooxygenase HarG"
-                     /label=harG
+                     /label="harG"
                      /protein_id="KKP04598.1"
                      /translation="MALQSWGVNLLIGAVAFWLFRGIVEKIQWDRKRRAKQCGEIPSYP
                      HLDPFFGLDVVLGMAKSLKNHYFLDWLNWVHKNRPKTFLVNFVGTRFIWTIEPENMKSM
@@ -144,12 +152,13 @@ FEATURES             Location/Qualifiers
                      LAYGDGELTFEALRGMKYLNGILNETHRLYPNGVTQVRKCLEDTVLPTGGGPDGKQPIY
                      VRKGDVVQVNKNVLHRDPEIWGDDVLEFNPDRWRDLRPMWNFVPFGGGPRRCPAQMLVT
                      AEASYVIARIARRYARIESRDPSPYVGVMRVGPSSKTGVKIALYRA"
+                     /Pfam="p450"
      CDS             15647..27514
                      /codon_start=1
                      /locus_tag="THAR02_03289"
-                     /product="polyketide synthase-nonribosomal peptide 
+                     /product="polyketide synthase-nonribosomal peptide
                      synthetase HarA"
-                     /label=harA
+                     /label="harA"
                      /protein_id="KKP04599.1"
                      /translation="MPESIAIISTACRFPGGSNSPAKLWELLKEPRDILKPIDESRLRL
                      SKFHHNNGEHHGSTDVQGASYTLEDDCRLFDASFFGISPLEADIMDPQQRILLEVVYEA
@@ -219,12 +228,14 @@ FEATURES             Location/Qualifiers
                      CILTGDEAPNEDAVNGVMKYSSLTRTVPLFANFDGFFDLKDVHAAAADIAANVLSEDST
                      DRSVRFIHHSSGIKVPISDFKKHLEKLYSGVFEEVTMDEWIGKVLEAGIDPLITSYLQA
                      MAEKEEVIQFPFLGVS"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_DH, PKS_NRPS_MT, fPKS_KR,
+                     ACP_PCP, Condensation, AA-adenyl-dom, fPKS_R"
      CDS             complement(join(27764..28176,28230..28459,28510..28893,
                      28968..29852,29919..30124))
                      /codon_start=1
                      /locus_tag="THAR02_03290"
                      /product="transcription factor HarI"
-                     /label=harI
+                     /label="harI"
                      /protein_id="KKP04600.1"
                      /translation="MEEKPPKAALAIPRRKRNRIRTSCRPCRARKSKCDGNRPSCLTCL
                      SRGLPDQCVYEQPRPGEHRVVSFRNIPHQSPNNAILSGSPVAAPNRDSLVGHSTQPKPS
@@ -239,12 +250,13 @@ FEATURES             Location/Qualifiers
                      LLAASLIPDLGVDLDQEPNKTSWEQAIAIFQFYMSYDISAQGGIQALWDYRQKFEATKR
                      RGEPPLNGTAQAEPQQNPQNGTEAVAPEETSFNMDNIFFGVDTQGQGVDLSQAFHDWNW
                      LDFDIPEFMLS"
+                     /Pfam="Zn_clus, Fungal_trans"
      CDS             join(30634..30785,30846..30900,30966..31065,31130..31214,
                      31283..31782,31849..32088,32149..32292,32351..32394)
                      /codon_start=1
                      /locus_tag="THAR02_03291"
                      /product="major facilitator superfamily transporter HarJ"
-                     /label=harJ
+                     /label="harJ"
                      /protein_id="KKP04601.1"
                      /translation="MASEKDFETPSSVVQSSDEGESTEVNSRDGQVNTEKASQEEEEMK
                      DGGYGWVIVAAVCLILAHSFGINSMFGVFLAFYLKSNTYPGATPLQFAFIGGLCFSVAF
@@ -254,6 +266,7 @@ FEATURES             Location/Qualifiers
                      VGFSAQQGSLASAMFNLSTGIGRPLIGFLCDRFGTIRVTMLGTFFSALITFFIWIFGGK
                      SYGGLMVYALLGMFPSLLWASFVVMAVSIFGLKLTPAAISLSILTLALPYTFAEAIGLS
                      LRKSGVDGFINVQVFAGVMFVAAGICTLILTIRKGELYRK"
+                     /Pfam="MFS_1"
 ORIGIN
         1 atggtaaact tgccttacat tgaaaacccc ccacgcaaac gccggaggcc tgctgtagcg
        61 taagagtttc aacacactcg cgcactttct tcacgcaact gacagaatta gttgcgttga

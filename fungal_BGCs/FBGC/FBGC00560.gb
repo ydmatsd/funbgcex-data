@@ -1,23 +1,23 @@
-LOCUS       FBGC00560       20605 bp DNA     linear   UNA 09-MAY-2023
+LOCUS       FBGC00560              20605 bp    DNA     linear   UNA 09-MAY-2023
 DEFINITION  ilicicolin H.
 ACCESSION   FBGC00560
-VERSION     .
+VERSION     FBGC00560
 KEYWORDS    .
 SOURCE      Nectria sp. B-13
   ORGANISM  Nectria sp. B-13
+            .
 REFERENCE   1  (bases 1 to 20605)
   AUTHORS   Tan D, Jamieson CS, Ohashi M, Tang MC, Houk KN, Tang Y.
-  TITLE     Genome-Mined Diels-Alderase Catalyzes Formation of the 
+  TITLE     Genome-Mined Diels-Alderase Catalyzes Formation of the
             cis-Octahydrodecalins of Varicidin A and B.
   JOURNAL   J Am Chem Soc 2019;141:769-773
-  PUBMED    30609896
+   PUBMED   30609896
 REFERENCE   2  (bases 1 to 20605)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported May 9, 2023 from SnapGene 6.2.2
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1021/jacs.8b12010"; journalName: "J Am Chem Soc"; date: "2019"; 
+  JOURNAL   Exported May 9, 2023 from SnapGene 6.2.2 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1021/jacs.8b12010"; journalName: "J Am Chem Soc"; date: "2019";
             volume: "141"; pages: "769-773"
 FEATURES             Location/Qualifiers
      source          1..20605
@@ -28,7 +28,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="NecB13__000141"
                      /product="cytochrome P450 monooxygenase NccC"
-                     /label=nccC
+                     /label="nccC"
                      /protein_id="NecB13_:cds.g141.t1"
                      /translation="MITNDLIAQHSLTLTIASSVLLVFLLSRLLRKDATGKAQGCRPVA
                      KRWQWDPILGLDIVLAQIGALKGNYYLPWLIELHSNMPKTFEINFFGKRQIYTSEPDNL
@@ -39,11 +39,12 @@ FEATURES             Location/Qualifiers
                      EVLAHGDAPLTFEALRNMKYLQCVLNETHRLTPNNVTQIRVCLNDSVLPVGGGKNAKEP
                      FFVRKGDVVSITKTVMYRDPEIWGNDAEEFKPERFDGRRVFWEFLPFGGGPRRCPAQMM
                      VQTEAAYMLARLARVYRRIEARDPAPYTAVMRIGPSNKTGVQIAVYK"
+                     /Pfam="p450"
      CDS             join(2429..2616,2673..3405)
                      /codon_start=1
                      /locus_tag="NecB13__000142"
                      /product="SAM-dependent Diels-Alderase NccD"
-                     /label=nccD
+                     /label="nccD"
                      /protein_id="NecB13_:cds.g142.t1"
                      /translation="MTSTEAAGAGKAPAIRANPALQTYYESQESYLVYEVVLRGSHHFG
                      FYEKDTYWPFPVGRSLERMEAKLLSALALPSGSQILDAGCGFGPVAISMAKKGMRVTAI
@@ -51,11 +52,12 @@ FEATURES             Location/Qualifiers
                      AATGFFRVLKPGGRIAFFEAQRSRTSGDYDEGDELAGHLKLVNEYTAMPTNELSREDYF
                      KDLLEDAGFVDVEVRDYSENIRPQLRLFYSLVVVPWFFIRLLGLEKNFTNMICATSGYI
                      GQPRWKFVGISATKPGPDIEGAKTK"
+                     /Pfam="Methyltransf_11"
      CDS             complement(4392..5537)
                      /codon_start=1
                      /locus_tag="NecB13__000143"
                      /product="trans-acting enoylreductase NccB"
-                     /label=nccB
+                     /label="nccB"
                      /protein_id="NecB13_:cds.g143.t1"
                      /translation="MALATPLPATQAAVKVTGPSTVDVSAATTLPVLEAFEVLVRVACV
                      SINHVDGKSADMSPTPGATSGVDFSGLIVALGPKVDSDEFRANNNMRALSIGDRVFGGV
@@ -64,12 +66,13 @@ FEATURES             Location/Qualifiers
                      LGAAATFDYRSPTCGADLREHTANGLELALDCITDTASMSICYEALGSAGGRYVALDAF
                      PLRGHTRRSVAAEWVCTYTQFGHAVAWVPPYNLDARPRDREIAEAWYVVAQQLVDEGLI
                      EPYPKEDRTGGLAAVGEGMRAVWKGEISGRKLAYPIAEECY"
+                     /Pfam="fPKS_ER, ADH_zinc_N"
      CDS             join(6418..10764,10819..18576)
                      /codon_start=1
                      /locus_tag="NecB13__000144"
-                     /product="polyketide synthase-nonribosomal peptide 
+                     /product="polyketide synthase-nonribosomal peptide
                      synthetase NccA"
-                     /label=nccA
+                     /label="nccA"
                      /protein_id="NecB13_:cds.g144.t1"
                      /translation="MSQQRYPEPIAVIGSACRFPGASSSPSKLWSLLQEPRDVLKKFDP
                      DRLNLKRFHHTNGDTHGATDVNNKSYLLEENTRLFDASFFGISPLEAAGMDPQQRLLLE
@@ -140,11 +143,13 @@ FEATURES             Location/Qualifiers
                      HMQQVSRSPLTVAVHRPCVVVSEQAPNSDALNAILRYSVSMRCVPQLDNVEGYLDFGKV
                      EKIVDEIADSALQLAQAGSQDQEIRFRHHSGGAKVPVREFRAHMEDIYGGSFDEVDVTE
                      WMRRAADAGIDPLITAYLEGILDSGSPMVFPYLGEE"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_DH, PKS_NRPS_MT, fPKS_KR,
+                     ACP_PCP, Condensation, AA-adenyl-dom, fPKS_R"
      CDS             join(19160..19337,19412..20079,20135..20509,20558..20605)
                      /codon_start=1
                      /locus_tag="NecB13__000145"
                      /product="epimerase NccE"
-                     /label=nccE
+                     /label="nccE"
                      /protein_id="NecB13_:cds.g145.t1"
                      /translation="MADLHTGKPITLKCGLTLPNRLVKAATAESMASNNTLPDEKFQNL
                      YRHWAEGGWGMVLAGNVQVDANHICTATDLSVDHSLSDSKIVEAWRPWAAACNGNGTVT
@@ -154,6 +159,7 @@ FEATURES             Location/Qualifiers
                      TMFLGPEKSRKQSQLGQPLAHEPFFLDFAKAIRPHIPGIPLIVTGGFRSCQGIEETIAG
                      GDADLVGLARPAVVNPLLPKTTVLSPKTTEFGPEIEDGDVTLYAKKTEAPWILKQIGIR
                      AVEVHIDNAWYVEQLKMLATTKV"
+                     /Pfam="Oxidored_FMN"
 ORIGIN
         1 tcacttgtac acggcaatct gcacgcccgt cttattggac ggcccgatcc gcatcacggc
        61 agtgtaaggg gctgggtcgc gcgcctcgat ccgccggtaa acacgggcaa gtcgggccaa

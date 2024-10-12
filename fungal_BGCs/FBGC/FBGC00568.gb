@@ -1,31 +1,31 @@
-LOCUS       FBGC00568       15399 bp DNA     linear   UNA 08-APR-2023
+LOCUS       FBGC00568              15399 bp    DNA     linear   UNA 08-APR-2023
 DEFINITION  brevianamide A.
 ACCESSION   FBGC00568
-VERSION     .
+VERSION     FBGC00568
 KEYWORDS    .
 SOURCE      Penicillium brevicompactum NRRL 864
   ORGANISM  Penicillium brevicompactum NRRL 864
+            .
 REFERENCE   1  (bases 1 to 15399)
-  AUTHORS   Ye Y, Du L, Zhang X, Newmister SA, McCauley M, Alegre-Requena JV, 
-            Zhang W, Mu S, Minami A, Fraley AE, Adrover-Castellano ML, Carney 
-            NA, Shende VV, Qi F, Oikawa H, Kato H, Tsukamoto S, Paton RS, 
+  AUTHORS   Ye Y, Du L, Zhang X, Newmister SA, McCauley M, Alegre-Requena JV,
+            Zhang W, Mu S, Minami A, Fraley AE, Adrover-Castellano ML, Carney
+            NA, Shende VV, Qi F, Oikawa H, Kato H, Tsukamoto S, Paton RS,
             Williams RM, Sherman DH, Li S.
-  TITLE     Fungal-derived brevianamide assembly by a stereoselective 
+  TITLE     Fungal-derived brevianamide assembly by a stereoselective
             semipinacolase.
   JOURNAL   Nat Catal 2020;3:497-506
-  PUBMED    32923978
+   PUBMED   32923978
 REFERENCE   2  (bases 1 to 15399)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Apr 8, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1038/s41929-020-0454-9"; journalName: "Nat Catal"; date: "2020";
-            volume: "3"; pages: "497-506"
+  JOURNAL   Exported Apr 8, 2023 from SnapGene 6.2.1 https://www.snapgene.com
 COMMENT     ##Assembly-Data-START##
             Assembly Method       :: SMRT Link v. 5.0.1
             Sequencing Technology :: Illumina; PacBio
             ##Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1038/s41929-020-0454-9"; journalName: "Nat Catal"; date: "2020";
+            volume: "3"; pages: "497-506"
 FEATURES             Location/Qualifiers
      source          1..15399
                      /mol_type="genomic DNA"
@@ -36,7 +36,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="bvnA"
                      /product="nonribosomal peptide synthetase BvnA"
-                     /label=bvnA
+                     /label="bvnA"
                      /note="BvnA"
                      /protein_id="QFZ94974.1"
                      /translation="MENSEEIDEKQSPSHINVDEIFPMTSPLSPPGEMEDTFDFRALAL
@@ -78,12 +78,13 @@ FEATURES             Location/Qualifiers
                      HVSSLQAECVGLRTIVDTATDWSPSASFPYILQHQTANHGLTLTLDGVQSGVLSSVGSL
                      TPGPEVWICSTETPSGVRIDVHCCGQVMDLDGATRLAGEICEVISGLVSKPDVALSEIG
                      GMAF"
+                     /Pfam="AA-adenyl-dom, ACP_PCP, NRPS_C, NRPS_CT"
      CDS             complement(join(7819..8065,8145..8491,8549..9141,
                      9202..9364))
                      /codon_start=1
                      /gene="bvnB"
                      /product="FAD-dependent monooxygenase BvnB"
-                     /label=bvnB
+                     /label="bvnB"
                      /note="BvnB"
                      /protein_id="QFZ94975.1"
                      /translation="MTRNNTIPRDPVPFSGITVLIVGLGIAGLTAALECSRRGHKVIGF
@@ -94,11 +95,12 @@ FEATURES             Location/Qualifiers
                      SKLNAVLSRTPPGACFNHTMLATPPLRTWVSHKGRMVVIGDAAHPFLPYAGQGANQAIE
                      DAASVAICLERAGRGDIPLALRVFEKLRHKRVSLIQEGSVEAKDSFLKANWDSDDEAGS
                      PSAYLHQSWVYNHDCVQHVVEEFQTAADAIRHGRKYIPTNVPVDGKYRQE"
+                     /Pfam="FAD_binding_3"
      CDS             complement(join(10257..10383,10459..11645))
                      /codon_start=1
                      /gene="bvnC"
                      /product="DMATS-type prenyltransferase BvnC"
-                     /label=bvnC
+                     /label="bvnC"
                      /note="BvnC"
                      /protein_id="QFZ94976.1"
                      /translation="MTKSNEVLAKVAHDELSDRTPTEVIASTWVFPTEDQAQWWQDTGP
@@ -109,12 +111,13 @@ FEATURES             Location/Qualifiers
                      EMWTLGGRLSDEPEIQRGLEILQQFWNMLKLHEGNRPFAGGFDDGSRLEGDDQIASPII
                      WNYELHPGHSWPVPKFYFPVHAENDQLVASALAGFFGYLGWEVEARSYADTFRALYSEH
                      DVAETSRLQSWISFSYTQKKGPYLSVYYHSQRSYPWEN"
+                     /Pfam="Trp_DMAT"
      CDS             join(12149..12481,12544..12643,12707..12775,12841..13416,
                      13484..13905)
                      /codon_start=1
                      /gene="bvnD"
                      /product="cytochrome P450 monooxygenase BvnD"
-                     /label=bvnD
+                     /label="bvnD"
                      /note="BvnD"
                      /protein_id="QFZ94977.1"
                      /translation="MTKATTPHHSLVDPMGWTLGFLLCSILLAFLMPKSPRTRFPVVNR
@@ -126,16 +129,18 @@ FEATURES             Location/Qualifiers
                      MWLLESLMKESQRLEPFFLLSMFRYATETVILPDGTVIPKGTLTAVANPSRLDPTIYPE
                      PDKFDVYRFLKMRDDATQAGLAPFSKTNHTHLAFGHGKQACPGRFIAINEVKLALCHIL
                      LKYDIDLVDGSNCELVRTGLVTVRNPAAKIRVRRRQEEVKI"
+                     /Pfam="p450"
      CDS             14935..15399
                      /codon_start=1
                      /gene="bvnE"
                      /product="isomerase BvnE"
-                     /label=bvnE
+                     /label="bvnE"
                      /note="BvnE"
                      /protein_id="QFZ94978.1"
                      /translation="MTLNQTTGPNLREQLIVSAHRWLSTMNDFTPDAMVSHRTEECVTR
                      PAPRSLGFAPLNNGQLRTFFKTLTAQMKNFNLALMPGAVPIVDERLRKVVMHLASYAEA
                      ACGLYENEYMVVLTFNEEGTLLRDVIEFADSDYCVKFAERQAAAAESTSI"
+                     /Pfam="Trt14"
 ORIGIN
         1 ctaaaatgcc atcccgccaa tctcactcaa agccacgtcc ggcttactca cgagcccact
        61 gatcacctcg caaatctcgc ccgccaagcg cgtcgccccg tcaagatcca taacctgccc

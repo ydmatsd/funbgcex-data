@@ -1,24 +1,24 @@
-LOCUS       FBGC00575       18415 bp DNA     linear   UNA 10-APR-2023
+LOCUS       FBGC00575              18415 bp    DNA     linear   UNA 10-APR-2023
 DEFINITION  quinolactacin A2.
 ACCESSION   FBGC00575
-VERSION     .
+VERSION     FBGC00575
 KEYWORDS    .
 SOURCE      Penicillium citrinum ATCC 9849
   ORGANISM  Penicillium citrinum ATCC 9849
+            .
 REFERENCE   1  (bases 1 to 18415)
   AUTHORS   Zhao F, Liu Z, Yang S, Ding N, Gao X.
-  TITLE     Quinolactacin Biosynthesis Involves 
+  TITLE     Quinolactacin Biosynthesis Involves
             Non-Ribosomal-Peptide-Synthetase-Catalyzed Dieckmann Condensation to
             Form the Quinolone-gamma-lactam Hybrid.
   JOURNAL   Angew Chem Int Ed Engl 2020;59:19108-19114
-  PUBMED    32663343
+   PUBMED   32663343
 REFERENCE   2  (bases 1 to 18415)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Apr 10, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1002/anie.202005770"; journalName: "Angew Chem Int Ed Engl"; 
+  JOURNAL   Exported Apr 10, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1002/anie.202005770"; journalName: "Angew Chem Int Ed Engl";
             date: "2020"; volume: "59"; pages: "19108-19114"
 FEATURES             Location/Qualifiers
      source          1..18415
@@ -29,7 +29,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="Pencit__000535"
                      /product="nonribosomal peptide synthetase QulA"
-                     /label=qulA
+                     /label="qulA"
                      /protein_id="Pencit_:cds.g535.t1"
                      /translation="MAEKNSQAQAFEQKHKMSPVQSRLWFAEQYMNDPTQSNMAVSYKT
                      RGDFQIQQFKIALKRVIDRHKSLQTAYFMDRDTGQLMQAVRSEALPYFEYIDEADETLC
@@ -56,11 +56,12 @@ FEATURES             Location/Qualifiers
                      IGENAPSTDTVNAVIRYSRELKAVPELEKMDGYFDFRQVEAVADEIVQTIFAWQSGQTL
                      KYVHHSSGIKVPIQELGDHLTKLHGGFYKRLSTLEWIRRATEIGMEVIVAKFMEAVIET
                      GEARSFPFLEDEKYASGV"
+                     /Pfam="Condensation, AA-adenyl-dom, ACP_PCP, fPKS_R"
      CDS             complement(join(5262..7364,7420..7863))
                      /codon_start=1
                      /locus_tag="Pencit__000536"
                      /product="nonribosomal peptide synthetase QulB"
-                     /label=qulB
+                     /label="qulB"
                      /protein_id="Pencit_:cds.g536.t1"
                      /translation="MSEVEAMEAETCVFPVSNREIAQDGEVFQKVSMGSFPLPAGFDDI
                      SQDGMSSVFLLAWALVLRRFTDMDNVRFFVHNIATDNTTECSPQILEANIRPEVTAGTL
@@ -77,12 +78,13 @@ FEATURES             Location/Qualifiers
                      PDEQFRRRVLVTNSKLRTVLPSYMVPTIYIPLLHVPMTFSRKIDRRALRRQAAMLDQDQ
                      LLLYRIGDQSDTAEKAKPRSNAEKALHRMFALLLNLDEAKIGVNDSFYDLGGNSIGSMQ
                      LVSMCHAENMTLTVESLFEKETIAELAATIEGNRCG"
-     CDS             complement(join(8699..8978,9032..9416,9475..9584,9644..9767,
-                     9823..10138))
+                     /Pfam="NRPS_C, AA-adenyl-dom, ACP_PCP"
+     CDS             complement(join(8699..8978,9032..9416,9475..9584,
+                     9644..9767,9823..10138))
                      /codon_start=1
                      /locus_tag="Pencit__000537"
                      /product="methyltransferase QulM"
-                     /label=qulM
+                     /label="qulM"
                      /protein_id="Pencit_:cds.g537.t1"
                      /translation="MTRENTEVELLASRITQLARKYSDATHAGAEATEIIRSISATCTE
                      LNAVVSSPETWVERIALSYNGTVAICILLDLNIFRILLENNGSASLSTLVRSSGYSRDL
@@ -92,11 +94,12 @@ FEATURES             Location/Qualifiers
                      QWQQHDYFNEQPIKGADIYMLSNILMDNTTGDCRRILERIAEAMTEKESVLLIDDGIEL
                      DNSSKTHSCYGSSMNMHMLAVLGTLFRTREQWELLFSQIPGRLEVTGSWPVDGGRIIFE
                      VRKMT"
+                     /Pfam="Methyltransf_2"
      CDS             complement(join(11158..11631,11695..12279,12353..12646))
                      /codon_start=1
                      /locus_tag="Pencit__000538"
                      /product="indoleamine 2,3-dioxygenase QulI"
-                     /label=qulI
+                     /label="qulI"
                      /protein_id="Pencit_:cds.g538.t1"
                      /translation="MKHFRDLDLSSYSLSSVSGFLPERPALERLPNPYYDHWEDLSRNL
                      PQLVASDTLKDKLERLPILSTALLDSEEEWRRAYVVLSFLSQGYIWSGDQPRRNLPIAI
@@ -106,11 +109,12 @@ FEATURES             Location/Qualifiers
                      TLGTCQNVEFIKEMRNYMPGPHREFLELMTSVSNIRPYILSLGNDSDVRSLYDKAVLRL
                      AALRDCHLRVVARYILIPAGKKNPSGHRQLQERGRGTGGTDIMKFLRETRNNTLSACCE
                      QSKGSTVVQTYPKRCETCGSGPIDRTTLIKKATVVINEIECLREGELGLEK"
+                     /Pfam="IDO"
      CDS             join(14667..14878,14960..14981,15072..15708,15769..16106)
                      /codon_start=1
                      /locus_tag="Pencit__000539"
                      /product="FMN-dependent dehydrogenase QulF"
-                     /label=qulF
+                     /label="qulF"
                      /protein_id="Pencit_:cds.g539.t1"
                      /translation="MPPVNFGSYQTKIYHDGTNLNRLPAITTNPTLLEKHAREVLSSRA
                      YSYIAGGAGEKSTMEANRLAFRQWKLVPRVMRPMDDQSISVNLFGQEYKSPLIVGPVGV
@@ -120,11 +124,12 @@ FEATURES             Location/Qualifiers
                      EGLVVSNHGGRQVDGAIGSLDALPDIVDAVGDKMTVMFDSGVRTGADVIKALCLGAKAV
                      LVGRPVIYGLAIGGKEGAKSVIECLLADLWQGMGLAGMRTVADCNRDCMRRISYPGDLK
                      TML"
+                     /Pfam="FMN_dh"
      CDS             complement(join(17000..17919,17978..18070,18127..18415))
                      /codon_start=1
                      /locus_tag="Pencit__000540"
                      /product="major facilitator superfamily transporter QulP"
-                     /label=qulP
+                     /label="qulP"
                      /protein_id="Pencit_:cds.g540.t1"
                      /translation="MGTVEEDVASQEVTRMPAERTVAVNESELYPDGGMKAWLVVLGSW
                      CAALPSFGLVNSTGVFADWIATHQLSQYSRSAVSWIFSVHIFFLLIGGIQVGPIFDRYG
@@ -134,6 +139,7 @@ FEATURES             Location/Qualifiers
                      LNAGSILGRLMPAYAADRYGRFNTMVVTTAVSAIFTVTLWLKSGSNHAAIYSYAALFGF
                      WSGSAIGLSPVCVAQISKTEDFGKRYGTAYAFVSVGVLVALPIAGQILKVQTHNGVEEY
                      WGLIVFCGVAYGVSTAFFALARGFKTGWKIKKVF"
+                     /Pfam="MFS_1"
 ORIGIN
         1 ctatacccca gatgcatatt tttcgtcctc taagaacgga aacgatctag cctctccggt
        61 ctcaatcaca gcctccatga acttggctac aatcacctcc atgcctatct cggtagcacg

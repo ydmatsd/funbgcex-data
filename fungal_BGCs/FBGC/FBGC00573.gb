@@ -1,39 +1,40 @@
-LOCUS       FBGC00573       36427 bp DNA     linear   UNA 09-APR-2023
+LOCUS       FBGC00573              36427 bp    DNA     linear   UNA 09-APR-2023
 DEFINITION  ustethylin A.
 ACCESSION   FBGC00573
-VERSION     .
+VERSION     FBGC00573
 KEYWORDS    .
 SOURCE      Aspergillus ustus 3.3904
   ORGANISM  Aspergillus ustus 3.3904
+            .
 REFERENCE   1  (bases 1 to 36427)
   AUTHORS   Zheng L, Yang Y, Wang H, Fan A, Zhang L, Li SM.
-  TITLE     Ustethylin Biosynthesis Implies Phenethyl Derivative Formation in 
+  TITLE     Ustethylin Biosynthesis Implies Phenethyl Derivative Formation in
             Aspergillus ustus.
   JOURNAL   Org Lett 2020;22:7837-7841
-  PUBMED    33006285
+   PUBMED   33006285
 REFERENCE   2  (bases 1 to 36427)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Apr 9, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1021/acs.orglett.0c02719"; journalName: "Org Lett"; date: 
-            "2020"; volume: "22"; pages: "7837-7841"
-COMMENT     The only annotation on JOMC01000000 are predicted secondary 
-            metabolite biosynthetic gene clusters on 44 
-            contigs.##Genome-Assembly-Data-START##
+  JOURNAL   Exported Apr 9, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     ##Genome-Assembly-Data-START##
             Assembly Date         :: 25-FEB-2014
             Assembly Method       :: CLC Workbench v. 6
             Assembly Name         :: Austus1.0
             Genome Coverage       :: 100.0x
             Sequencing Technology :: Illumina HiSeq ##Genome-Assembly-Data-END##
+            ##Genome-Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1021/acs.orglett.0c02719"; journalName: "Org Lett"; date:
+            "2020"; volume: "22"; pages: "7837-7841"
+            The only annotation on JOMC01000000 are predicted secondary
+            metabolite biosynthetic gene clusters on 44
 FEATURES             Location/Qualifiers
      source          1..36427
                      /strain="3.3904"
                      /mol_type="genomic DNA"
                      /country="China"
                      /isolation_source="perished rubber"
-                     /collection_date=Dec-2010
+                     /collection_date="Dec-2010"
                      /db_xref="taxon:40382"
                      /organism="Aspergillus ustus"
                      /submitter_seqid="AUSC_79"
@@ -41,7 +42,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="HK57_00646"
                      /product="NRPS-like carboxylic acid reductase UttJ"
-                     /label=uttJ
+                     /label="uttJ"
                      /note="AUSM45_009"
                      /protein_id="KIA75587.1"
                      /translation="MCVINGSEDPRFTWPKLSLHAGGEGDARSLPELIDFHARVNPHHR
@@ -64,12 +65,13 @@ FEATURES             Location/Qualifiers
                      SAVLAELIFSTQPLDLVYHLENPVRQSWNEVLNILATELAVPKHDRRPMAEWVEEVRRR
                      PQDDNNSNPAAAIADFFQENFEWMSGGSIVLSTETSRRHSPTLRRVGPVSDETIRSYIR
                      YWKGISFIKEGEA"
-     CDS             complement(join(4301..4753,4832..4888,4943..5020,5080..5210,
-                     5267..5374,5469..5664))
+                     /Pfam="AA-adenyl-dom, ACP_PCP, fPKS_R"
+     CDS             complement(join(4301..4753,4832..4888,4943..5020,
+                     5080..5210,5267..5374,5469..5664))
                      /codon_start=1
                      /locus_tag="HK57_00647"
                      /product="short-chain dehydrogenase/reductase UttI"
-                     /label=uttI
+                     /label="uttI"
                      /note="AUSM45_010"
                      /protein_id="KIA75588.1"
                      /translation="MTRTLLTGGSGFIAAHVLKSLLTRGHSVVTTVRSQEKAEQIKASY
@@ -79,11 +81,12 @@ FEATURES             Location/Qualifiers
                      GKAKSGLPYTGVFLWVDVRDLALAHVLAIEKPEAGGQRFLLSPGHYTNKEIAEVIYEEF
                      PELRDGLPTGEALKGGDYPSPAGWYGYDSSKASKVLGLEFSGFRECIVDTVNSLKPLVQ
                      "
+                     /Pfam="Epimerase"
      CDS             6950..7984
                      /codon_start=1
                      /locus_tag="HK57_00648"
                      /product="2OG-Fe(II)-dependent dioxygenase UttH"
-                     /label=uttH
+                     /label="uttH"
                      /note="AUSM45_011"
                      /protein_id="KIA75589.1"
                      /translation="MAPSVLAAEQPVSSPAAKTAPTQVDAFEIPTVDISAFLADPDSAE
@@ -93,11 +96,12 @@ FEATURES             Location/Qualifiers
                      YGASAHTDFGAITLLLQEESPGLEVLDSQTGAWVGVPPDPEVYVVNVGDMLSFWTNNEY
                      KSSVHRVINREPGDRYSVVFFFDGNGDARLAPLDGGEHEEGEGDALTVEQHMIRRVAES
                      YGKK"
+                     /Pfam="DIOX_N, 2OG-FeII_Oxy"
      CDS             join(8570..8791,8894..10270)
                      /codon_start=1
                      /locus_tag="HK57_00649"
                      /product="major facilitator superfamily transporter UttG"
-                     /label=uttG
+                     /label="uttG"
                      /note="AUSM45_012"
                      /protein_id="KIA75590.1"
                      /translation="MSDKDAPSSSDTETGGDVPTPAPVRSIKGVRWVVVVLAILTSTFF
@@ -110,11 +114,12 @@ FEATURES             Location/Qualifiers
                      QTQVKQIEIPHCVAFMAFAQQGGAALTLAISNSVFLNDALRQLGDVLPNLSRDSIQRIL
                      SGLGDEIVDAFSDTERERVSSTIADSLAKAYIVAIACGALAVLLSVFIKRDREWEKRVW
                      TAVRRGVAMSSEKSN"
+                     /Pfam="MFS_1"
      CDS             join(11041..11265,11343..12208,12280..12442)
                      /codon_start=1
                      /locus_tag="HK57_00650"
                      /product="methyltransferase UttF"
-                     /label=uttF
+                     /label="uttF"
                      /note="AUSM45_013"
                      /protein_id="KIA75591.1"
                      /translation="MPTLTEIAQNILDSARALDEYTASQGLPPTSFTQHTLPTLSGDIE
@@ -125,12 +130,13 @@ FEATURES             Location/Qualifiers
                      QRVCPQHLLERISFQAHDFFTAQPVKHADVYFFRYILHNWADKYSVVILRNLIPALKAG
                      SRVIIYEFLLPDESQTEWTKKQWRNLDMIQMLGWNSLERTESDWKSLFAAVDPRLEFVG
                      TITPEGSIVSLIEAVWRP"
+                     /Pfam="MdpA"
      CDS             join(14102..14200,14296..14380,14433..15267,15386..15603,
                      15679..15802,15860..16010)
                      /codon_start=1
                      /locus_tag="HK57_00651"
                      /product="FAD-linked oxidoreductase UttE"
-                     /label=uttE
+                     /label="uttE"
                      /note="AUSM45_014"
                      /protein_id="KIA75592.1"
                      /translation="MRATTASIVALTSALAAVASGATTGRPQNGRVCCHALNGILPNDT
@@ -142,12 +148,13 @@ FEATURES             Location/Qualifiers
                      VDQRLFSVYADREFLKEAWQIQLRWLRARRDVPGLVGVQVPMPITPNQVAQGIAKGGNA
                      LGLDATEEGKTVVVILMLLNFNNLEDLPRLRREHNALMEELVALAKKRGVYHPYIMLTY
                      SGAGQEAIASYGRENVARLRSVAKAYDPTRVFQRLVPGGQKLPRR"
+                     /Pfam="FAD_binding_4"
      CDS             complement(join(16730..17690,17791..17923,18023..18066,
                      18150..18271,18376..18456,18511..18642))
                      /codon_start=1
                      /locus_tag="HK57_00652"
                      /product="transcription factor UttD"
-                     /label=uttD
+                     /label="uttD"
                      /note="AUSM45_015"
                      /protein_id="KIA75593.1"
                      /translation="MHGENTLKARNLWAEEEDRILRSEVVKQGTCSETIFPKRLLFFLQ
@@ -159,12 +166,13 @@ FEATURES             Location/Qualifiers
                      YVMGTGLLTAGGTDCSSSTPALCHDDGDGCGRMDRGEEEGGELMHLDAPPHPPHHHSTS
                      STATNTDTDPTNLDWNWDQIPDIDLPTATATTTTATAMTAEQNRDREAEEAIIRKNRTM
                      ILHQMQPEQISRVMDFLLSWNTPIDVKIVNPE"
+                     /Pfam="Myb_DNA-bind_6, Myb_DNA-binding"
      CDS             join(23720..23995,24126..24488,24548..24765,24843..25290,
                      25365..25454,25517..25642)
                      /codon_start=1
                      /locus_tag="HK57_00653"
                      /product="cytochrome P450 monooxygenase UttC"
-                     /label=uttC
+                     /label="uttC"
                      /note="AUSM45_016"
                      /protein_id="KIA75594.1"
                      /translation="MLLPILYTSIALTIVTWYVRSYWRLRHIPGPFWAKFSNLPRFLWV
@@ -176,11 +184,12 @@ FEATURES             Location/Qualifiers
                      VSWQQAQQLPYLDAVIKEAGRLHPPFGLHLERHVPPGGAVICGVHLPAGTIVGINSWAI
                      HRREDPFGEDADEFRPERWLVSDEAQKRKMGRALLTFGAGRRVCLGKHISILEMYKLIP
                      SVFRRYKLEFAVPGGRSYHAHNRWFVHQTGLDVRFQKRTVDEKLDILG"
+                     /Pfam="p450"
      CDS             join(26408..26867,26959..27344,27416..27792,27870..28107)
                      /codon_start=1
                      /locus_tag="HK57_00654"
                      /product="FAD-linked oxidoreductase UttB"
-                     /label=uttB
+                     /label="uttB"
                      /note="AUSM45_017"
                      /protein_id="KIA75595.1"
                      /translation="MVSFLRFTRFLELLLLAQLAVAVANDNTDISPLVRHLSRGAEVFY
@@ -192,11 +201,12 @@ FEATURES             Location/Qualifiers
                      PQNNWSQAMAHVDAPTFIAYFNALAELWISHPAAANAIMSIEVFSSRAVLAVPDSETAY
                      PFRDTGVQIIFNFPVNDDTVTAFAEHWVPEFIKTGGFNESRVYVSYAHGDEPLENKYGA
                      RKLPRLLRLKKKWDPKGIFSFNNGLPVV"
+                     /Pfam="FAD_binding_4, BBE"
      CDS             join(29271..35286,35352..35720,35799..35887,35945..36427)
                      /codon_start=1
                      /locus_tag="HK57_00655"
                      /product="polyketide synthase UttA"
-                     /label=uttA
+                     /label="uttA"
                      /note="AUSM45_018"
                      /protein_id="KIA75596.1"
                      /translation="MVVEGYPDTAVAVIGMACKFPGADSLDEYWQLLDEGRSMCEPAGE
@@ -239,6 +249,8 @@ FEATURES             Location/Qualifiers
                      ATGGWMCPSDPRSRIILHMNWRGQMLPVLFNGLPSKKDAPSAESQKQFARLPQPSPSQI
                      AKFSPLAHIATGEIRSPTYLVHGTEDDLIPWQQSQRTYEALVAAGVEAGISVLEGQPHL
                      FDLFSDGDGKKWERILEAFEFVFRHLGVVPK"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_PT, ACP_PCP, HTH_51,
+                     PKS_NRPS_MT, Abhydrolase_3"
 ORIGIN
         1 ctatgcttca ccctccttaa taaagctaat ccccttccag taacgtatat aactccgaat
        61 cgtctcgtcg cttacaggcc ctaccctccg caaggtcggc gaatgccgtc gtgaagtctc

@@ -1,23 +1,23 @@
-LOCUS       FBGC00595       17838 bp DNA     linear   UNA 11-APR-2023
+LOCUS       FBGC00595              17838 bp    DNA     linear   UNA 11-APR-2023
 DEFINITION  NG-391.
 ACCESSION   FBGC00595
-VERSION     .
+VERSION     FBGC00595
 KEYWORDS    .
 SOURCE      Metarhizium anisopliae ARSEF 2575
   ORGANISM  Metarhizium anisopliae ARSEF 2575
+            .
 REFERENCE   1  (bases 1 to 17838)
   AUTHORS   Donzelli BG, Krasnoff SB, Churchill AC, Vandenberg JD, Gibson DM.
   TITLE     Identification of a hybrid PKS-NRPS required for the biosynthesis of
             NG-391 in Metarhizium robertsii.
   JOURNAL   Curr Genet 2010;56:151-62
-  PUBMED    20355253
+   PUBMED   20355253
 REFERENCE   2  (bases 1 to 17838)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Apr 11, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1007/s00294-010-0288-0"; journalName: "Curr Genet"; date: 
+  JOURNAL   Exported Apr 11, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1007/s00294-010-0288-0"; journalName: "Curr Genet"; date:
             "2010"; volume: "56"; pages: "151-62"
 FEATURES             Location/Qualifiers
      source          1..17838
@@ -28,17 +28,18 @@ FEATURES             Location/Qualifiers
      CDS             complement(join(1..612,686..739))
                      /codon_start=1
                      /product="glutathione S-transferase Orf2"
-                     /label=orf2
+                     /label="orf2"
                      /note="ORF2"
                      /protein_id="ACS68552.1"
                      /translation="MAPFGKIYSFMPNGRVFKIMAAAKLNNLDIEVADYQHMVTNKSAG
                      FLEKFPLGKVPAFEGVDGLCLFESDAIARYIAASGPFSSQLLGSDAATSAQIQQWVSFT
                      EGEIYQAVLELVMWRVGMRPFEESTECKALDKLERGLSILEGHLKNREWLVGPQLTLAD
                      LTAASALVWAFMHIIDEPMREEFPKTTAWYLRVIGTTGIESVFGPPNLITARRTGPTC"
+                     /Pfam="GST_N, GST_C"
      CDS             complement(1203..2483)
                      /codon_start=1
                      /product="alpha/beta hydrolase Orf3"
-                     /label=orf3
+                     /label="orf3"
                      /note="ORF3"
                      /protein_id="ACS68553.1"
                      /translation="MRQVFPSTFFNFEFLRLLGTVPYYGAEVGECLETASRIKDGDPET
@@ -49,11 +50,12 @@ FEATURES             Location/Qualifiers
                      LSGWLSDKFVNSVIGCLERVNFQLAWEFGHSKWVYGVDTPADVLRFMQKFTLHSTKNAV
                      LSNIKCPTLVTGAADSFYFTPDQNAHKIMEGLTCLSDTQKRLWIGNGVKGGGLQAKIGA
                      LALVHYEMFAWLDKTFGIERENLINKV"
+                     /Pfam="FrsA-like"
      CDS             join(2894..10276,10335..14759)
                      /codon_start=1
-                     /product="polyketide synthase-nonribosomal peptide 
+                     /product="polyketide synthase-nonribosomal peptide
                      synthetase NGS1"
-                     /label=ngs1
+                     /label="ngs1"
                      /note="NGS1; ORF4"
                      /protein_id="ACS68554.1"
                      /translation="MSQNSIVREPIAVVGVACRFPGEATSPSKLWDLVCEKRDVQKPIS
@@ -123,20 +125,23 @@ FEATURES             Location/Qualifiers
                      TPPVDGSQGYIATKWASEVYLENVVTRLGIPVWIHRPSNITGIRSPSVDLMQIIFKYSE
                      QIKAVPEIDGWKGCFDFVPVETVARGIVCAIHEPGVQQGTRPIYRHHCGRDKIPVTGIR
                      EHLETKVGARIDSVGIEEWLSRAQSVGLDDTAAALVSSTFAQSSTKTVPWLRSGD"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_DH, PKS_NRPS_MT, fPKS_KR,
+                     ACP_PCP, Condensation, AA-adenyl-dom, fPKS_R"
      CDS             complement(15428..15928)
                      /codon_start=1
                      /product="hypothetical protein Orf5"
-                     /label=orf5
+                     /label="orf5"
                      /note="ORF5"
                      /protein_id="ACS68555.1"
                      /translation="MASGAFFDPLVALRALPLVSSTCTLLFGWDQTFFLGIMNRPENRA
                      KSKPLLQSYFNTFFYRGLPFVVGAIGVSTWSGVGNLFAQRSVLQSRQSYWWYAAGTIAA
                      ASHLLFVPLIAPSVKDMMDGKEQTDANDCLDEWLRVNNVRTWTVDLLAWGAFMVAAGKT
                      LCH"
+                     /Pfam="XenD"
      CDS             16189..17838
                      /codon_start=1
                      /product="major facilitator superfamily transporter Orf6"
-                     /label=orf6
+                     /label="orf6"
                      /note="ORF6"
                      /protein_id="ACS68556.1"
                      /translation="MATDINVLAGGAAVDAGSQTNKKGLKFWLVFAAISLTTFLAALDT
@@ -149,6 +154,7 @@ FEATURES             Location/Qualifiers
                      FTSCLPPILASLPDSDVATATGAWTFLRNFGSIWGIAIPAAVFNTHANKFASEVSDPSV
                      RALLVNGGAYGHATREFITMFDGDPALKSEILSLYIRGLKVVWEVSIAFALPWAWLLLS
                      LFPSIELRDELNTEYGMKEAETKPTTDLGDKA"
+                     /Pfam="MFS_1"
 ORIGIN
         1 tcaacaggtt ggcccagtac gcctggccgt aatcaagttt ggtggtccaa acacggattc
        61 aatgccagtc gtcccgataa cccgcaaata ccaggccgtc gtcttgggga attcttcgcg

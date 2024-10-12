@@ -1,39 +1,39 @@
-LOCUS       FBGC00599       70929 bp DNA     linear   UNA 12-APR-2023
+LOCUS       FBGC00599              70929 bp    DNA     linear   UNA 12-APR-2023
 DEFINITION  FR190293.
 ACCESSION   FBGC00599
-VERSION     .
+VERSION     FBGC00599
 KEYWORDS    .
 SOURCE      Venustampulla echinocandica BP 5553
   ORGANISM  Venustampulla echinocandica BP 5553
+            .
 REFERENCE   1  (bases 1 to 70929)
   AUTHORS   Yue Q, Chen L, Zhang X, Li K, Sun J, Liu X, An Z, Bills GF.
-  TITLE     Evolution of Chemical Diversity in Echinocandin Lipopeptide 
+  TITLE     Evolution of Chemical Diversity in Echinocandin Lipopeptide
             Antifungal Metabolites.
   JOURNAL   Eukaryot Cell 2015;14:698-718
-  PUBMED    26024901
+   PUBMED   26024901
 REFERENCE   2  (bases 1 to 70929)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Apr 12, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1128/EC.00076-15"; journalName: "Eukaryot Cell"; date: "2015"; 
-            volume: "14"; pages: "698-718"
+  JOURNAL   Exported Apr 12, 2023 from SnapGene 6.2.1 https://www.snapgene.com
 COMMENT     ##Genome-Assembly-Data-START##
             Assembly Date          :: 2015
             Assembly Method        :: AllPaths v. 44837
             Genome Representation  :: Full
             Expected Final Version :: Yes
             Genome Coverage        :: 100.0x
-            Sequencing Technology  :: Illumina HiSeq 
+            Sequencing Technology  :: Illumina HiSeq
             ##Genome-Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1128/EC.00076-15"; journalName: "Eukaryot Cell"; date: "2015";
+            volume: "14"; pages: "698-718"
 FEATURES             Location/Qualifiers
      source          1..70929
                      /strain="BP 5553"
                      /mol_type="genomic DNA"
                      /country="Japan: Nagano Prefecture"
                      /isolation_source="soil"
-                     /collection_date=2006
+                     /collection_date="2006"
                      /db_xref="taxon:2656787"
                      /organism="Venustampulla echinocandica"
                      /submitter_seqid="scaffold_9"
@@ -41,7 +41,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="BP5553_08798"
                      /product="hypothetical protein PHHYP"
-                     /label=PHHYP
+                     /label="PHHYP"
                      /protein_id="RDL32342.1"
                      /translation="MDLSRSPGRALIQNENEDGVEIIETLCIDFRDRLLVALSSTCQSD
                      FSEAKKVVEERLRDILDAASSLSSTEIAYHDANTSSLCSSNVPEEAISTVSIDVGFDQP
@@ -55,11 +55,12 @@ FEATURES             Location/Qualifiers
                      ANTRSTKDNQIKYRSKTHALNDLMRTLYPDLKPDSEGSITAAGGEYNRKLTKLRNRLSC
                      ARNWYQFEEEFPGAILALIPCATGDLSISIDQVEKLPSDVVRILLDYLKEQRGAFLCKM
                      SQVLSKDLFDILTRRNVTQKYKLEETDENSLKDCLYDDDQLLELCKTI"
+                     /Pfam="EcdJ"
      CDS             complement(join(2544..3206,3267..3440,3491..3652))
                      /codon_start=1
                      /locus_tag="BP5553_08799"
                      /product="2OG-Fe(II)-dependent dioxygenase PHOXY4"
-                     /label=PHOXY4
+                     /label="PHOXY4"
                      /protein_id="RDL32343.1"
                      /translation="MQIETLDFSKFHAGTDAERYEFSKALLAGFASTGFVKLINHGFSR
                      EEISRMFEENRRFFELTDSVKARIANEDGPKPQRGWSSLGAEKTGLLNTGGKTNLTKPD
@@ -67,12 +68,13 @@ FEATURES             Location/Qualifiers
                      MHLPKGAFVQKCQGHASELRLNHYPGIAVKILEEGRTSRIWPHTDFGIITLLSQDDVGG
                      LEIQDKDHPANFVPVPREDLSELIVNIGDTLERWTNGFLQAGLHQVTAPREMLNRSNEN
                      LLPRRSIAFFLKAHRQMSVGPLPQFVAEKTPAKYEDITALAYQQRRTAIVY"
-     CDS             join(5803..6081,6160..6528,6588..6833,6911..7073,7129..7454,
-                     7517..7828)
+                     /Pfam="DIOX_N, 2OG-FeII_Oxy"
+     CDS             join(5803..6081,6160..6528,6588..6833,6911..7073,
+                     7129..7454,7517..7828)
                      /codon_start=1
                      /locus_tag="BP5553_08800"
                      /product="CoA ligase PHligase"
-                     /label=PHligase
+                     /label="PHligase"
                      /protein_id="RDL32344.1"
                      /translation="MVFTSPSWCRDILMPIPDKELVGEFAMRRGHGLNDVSEDSPSAIC
                      AYTGRSYSIKDIRYNVKCLSKSLGQVLGWDFNEGSPEDKVVAICSLNSIDYVPLTWAIH
@@ -84,11 +86,12 @@ FEATURES             Location/Qualifiers
                      GDLLVRSPSVMHNYLWEDSTDTGTFDSDGWLRTGDVATFQENAKGDSHLFIVDRKKDIM
                      KVKGIQVPPVEIEGHLLAHPAIDDAAVVAIPDEDAGERPFAFVVRSLKVMTDVDEKTLK
                      LAVAKHIQNSLSEPYWLRQNIKFIEAIPKSHNGKALKFKLKEQLVTA"
+                     /Pfam="AA-adenyl-dom"
      CDS             complement(join(8281..8949,9012..9329))
                      /codon_start=1
                      /locus_tag="BP5553_08801"
                      /product="2OG-Fe(II)-dependent dioxygenase PHOXY3"
-                     /label=PHOXY3
+                     /label="PHOXY3"
                      /protein_id="RDL32345.1"
                      /translation="MDCIKQSEHSQLSSLSLSRLEDNNPEESKRLFEACVNDGFFYLDL
                      RNHKQLLDDYDALLEIMKTYFDQPLDQKMNDDRKSDTVGYEPVATSAGVLDGLPDYYET
@@ -96,11 +99,12 @@ FEATURES             Location/Qualifiers
                      HRDSSVTRTNLTFLKYPKQDTTEHGVGHNRHTDVGTLTFLLSGQSGLQRLTSESWCHVE
                      PRPGFAVVNVGDSLRFLSGRVLSSIIHRVLPVGPHQTEDRYTLAYFLRPEDEAVFEDCH
                      GNLISARSWHDRKFDHFRESHDQQKNDSILMGGMEDNQKFLQYKFQA"
+                     /Pfam="DIOX_N, 2OG-FeII_Oxy"
      CDS             join(9962..10123,10178..10342,10400..11059)
                      /codon_start=1
                      /locus_tag="BP5553_08802"
                      /product="2OG-Fe(II)-dependent dioxygenase PHOXY2"
-                     /label=PHOXY2
+                     /label="PHOXY2"
                      /protein_id="RDL32346.1"
                      /translation="MAIQTLDYRDFQHGSPEQYKKFCHNLCDTLSTWGFAKIRNTSIPN
                      AVIDELFSYNKRFFALPDEIKQKARHPAAPNPHRGWSAVGQEQLSRIAGFEKDEESEGF
@@ -108,11 +112,12 @@ FEATURES             Location/Qualifiers
                      PEDLLLSKHQTDASELRLNHYPSIPCEDLKSGMRIGEHSDFGTLTLLLQDSVGGLQVED
                      QENLGTFIPVESNSMYEVIINVGDCLQRWTNRQLRSANHQVHLPEGKSAKSGEMLADRY
                      SVAYFGKPDRSVLVDSLPEFCNGGESKYNDHMNALEYNQTKLLRTYA"
+                     /Pfam="DIOX_N, 2OG-FeII_Oxy"
      CDS             join(11745..11787,11845..11877,11952..12721,12785..13018)
                      /codon_start=1
                      /locus_tag="BP5553_08803"
                      /product="transaminase PHHtyB"
-                     /label=PHHtyB
+                     /label="PHHtyB"
                      /protein_id="RDL32347.1"
                      /translation="MKAANFPLPPLQGVDWDHLGFEPVEVNGHVECTFSSKTGSWTEPV
                      FVANPYLPIHGLAPGLNYGQQIFEGMKAFRNPSGEVQLFRPDQNALRFARSARCVSIPP
@@ -121,11 +126,12 @@ FEATURES             Location/Qualifiers
                      DSLSHSLIDEFSTSGFIGVLNDGEVPILVVSDSQQVVPSITVDSICEVARAFDWHVERR
                      PISFSEVARFSEVYAAGTAAVLVPIGSILQRSTGEHIIYPVEYSSSKSCFSRLSKALRD
                      IQQGLVSDDRGWIKLVSKP"
+                     /Pfam="Aminotran_4"
      CDS             join(14003..14197,14292..15845,15904..15999)
                      /codon_start=1
                      /locus_tag="BP5553_08804"
                      /product="isopropyl malate synthase PHHtyA"
-                     /label=PHHtyA
+                     /label="PHHtyA"
                      /protein_id="RDL32348.1"
                      /translation="MKSADGRYSMATCCAGGQSLYSKYGERAPDIQLPDRQWPSKKLTK
                      SPIWMSTDLRDGNQALPNPMTLQQKWRMFQLLVSIGFKQIEVSFPCASQTEFDFTRQLI
@@ -138,12 +144,13 @@ FEATURES             Location/Qualifiers
                      LERGLATEEICDLFLEVYDLKSSYSTQMLERLHSNFSQIPGLQQELEDATALANNAAMV
                      LSETLGIDVRCTVALSHVIPSHDGGQPWNVAFVQCEIGKTAHGLWGVGVGLNRDAAVNG
                      SLVSAARSYSNMDEATTRYIETRDTKTSVKAMVQPLLL"
+                     /Pfam="HMGL-like"
      CDS             join(16759..16833,16905..16976,17061..17156,17264..17903,
                      17966..18201)
                      /codon_start=1
                      /locus_tag="BP5553_08805"
                      /product="isopropyl malate dehydrogenase PHHtyC"
-                     /label=PHHtyC
+                     /label="PHHtyC"
                      /protein_id="RDL32349.1"
                      /translation="MTKEFDIVVFPGDYGGPEVMAEGLKVLSEIERQYHLDVSFNLKYH
                      LIGGASFDTHGTPITTDALDDAKAASAVLLGAVGGPKWDGTLVPVESGLGRLRKFLDAF
@@ -152,22 +159,24 @@ FEATURES             Location/Qualifiers
                      SHMLIDTAAMNMARRPTSLNGIILTSNMFGDIISDEASAIPGSMGLLPSASLCAIPTML
                      DGSKVHGIYEPIHGSAPDIAGHGIINPTGMILSTAMMLRYSLAMPEAADSIEAAVSKVI
                      EEGCRTSDIGGNASTADFGDAVVAALKSYTYK"
+                     /Pfam="Iso_dh"
      CDS             join(18984..19122,19174..19349,19436..19948)
                      /codon_start=1
                      /locus_tag="BP5553_08806"
                      /product="sulfotransferase BP5553_08806"
-                     /label=BP5553_08806
+                     /label="BP5553_08806"
                      /protein_id="RDL32350.1"
                      /translation="MASDLQNGQLTTMGLLRPKTNIDRRSCKRVVPMKVICLGLCRTGT
                      SSLRAALFELGLNDVYHMFSVTTENPLDAELWKEAYDAKYKGIGKPYGKEEFDALLGHC
                      MATTDFPGISFAPELLAAYPDAKVILTVRDNGDVWYDSVFNTIWTVSNFLRAPPKTLTQ
                      RLVQAILPKPHFNVFEHTPLGNFPVEGRQWYDDWNEDIRTRAKGREFLEFNVKQGWGPL
                      CEFLGVEQPKAKFPRVNDSASFKETHNNDLLRVGAKVVAALSVLGLAVWLAKK"
+                     /Pfam="Sulfotransfer_4"
      CDS             complement(join(20644..21420,21477..22100,22157..22402))
                      /codon_start=1
                      /locus_tag="BP5553_08807"
                      /product="cytochrome P450 monooxygenase PHP450-1"
-                     /label=PHP450-1
+                     /label="PHP450-1"
                      /protein_id="RDL32351.1"
                      /translation="MLSDTISHIERVIGEQTLFSGALNLLFISLIAQLVLAHFTVHGRF
                      WNAQAWTGVRKEWLPKIRAKFRSIGGIRQMLSDGYEGFSKQKKAFVLPMIAEEPWLVLP
@@ -179,11 +188,12 @@ FEATURES             Location/Qualifiers
                      RMVVDPHGTQFSVNGINSSSPLTVPPGIRVCVPAHAIHRDATLNPSPHEFQAFRFAKSR
                      EKDGQRETKLSEPKVSIVTTTDKFLPFGHGRHACPGRFFAAQQMKLMLAYLVQNYDVEK
                      LSTKVENKVMVGTATPDAKLKVRVKRRKGYA"
+                     /Pfam="p450"
      CDS             join(23406..23627,23681..24050,24116..25089)
                      /codon_start=1
                      /locus_tag="BP5553_08808"
                      /product="cytochrome P450 monooxygenase PHP450-2"
-                     /label=PHP450-2
+                     /label="PHP450-2"
                      /protein_id="RDL32352.1"
                      /translation="MVSVLASTNLQYGAIGFVLFVLFAYVLNKLTTWEYSIPNEVQWID
                      RRKQPLSYLRAKIRSLGRNKENVLEAYFKFNKLGKAAALAVPFGRPLLLLPPKFIRWIV
@@ -195,11 +205,12 @@ FEATURES             Location/Qualifiers
                      MHVPCGTRLGVSAAGIHVDNSIYEDATTYNPGRFMVIELDPRGKPNPMWKGNEKYLAFG
                      LGRRSCPGRWYVTDQLKLTLAHLFSKYEIKFEKAAEKTSALRKILPGAPQDHVMIRRRS
                      KAAL"
+                     /Pfam="p450"
      CDS             join(25874..26144,26194..26702,26757..26891)
                      /codon_start=1
                      /locus_tag="BP5553_08809"
                      /product="alpha/beta hydrolase PHHYD"
-                     /label=PHHYD
+                     /label="PHHYD"
                      /note="Alpha"
                      /protein_id="RDL32353.1"
                      /translation="MNQNPILIQRHHHRKTFAQKAPPVPLFLIHDGGGTVFSYFHLRPL
@@ -208,11 +219,12 @@ FEATURES             Location/Qualifiers
                      RQWKPPVWRSSATQLLDGQTQTTKVQINDTTSPLCPPAILIRATDLQSSPDSSRASDSE
                      ASEDGGTRALGFDKYENFNLRHAVDTSGDHFSIFNNENIDGLSQKLKKACDTLAMKSQN
                      IYIKKGLAIISTRVLETPGLGNV"
+                     /Pfam="Thioesterase"
      CDS             complement(join(27126..27788,27841..27907,27963..28198))
                      /codon_start=1
                      /locus_tag="BP5553_08810"
                      /product="2OG-Fe(II)-dependent dioxygenase PHOXY1"
-                     /label=PHOXY1
+                     /label="PHOXY1"
                      /protein_id="RDL32354.1"
                      /translation="MNSISFAGILNGNAKDVQALAEAAATQGFFNLELDCRDAKVLQKN
                      VKFLESFAKDILDSPESVKAAYHFHRTGRFRTTGFKPLGIEEGAKQGRPDGFELFMLPQ
@@ -220,12 +232,13 @@ FEATURES             Location/Qualifiers
                      SLPSVTNMGFIKYPPQPKESGNFGHIAHTDVGSLTILSATERGLQTLDNNTKKWIWVDP
                      NDQCLFVQLGDSLKFLSRGKILPSLHRVVPSDVAPQATKYTVAYFVRANEEAEITSDDG
                      KVWLYKDYHCRKFDAFARPLGYRPDGEESLISLRDYERME"
+                     /Pfam="2OG-FeII_Oxy"
      CDS             complement(join(29260..30554,30605..30702,30753..31084,
                      31151..31507,31566..32424,32473..34732,34800..36687,
                      36739..36777,36827..37246))
                      /codon_start=1
                      /product="polyketide synthase PHPKS4"
-                     /label=PHPKS4
+                     /label="PHPKS4"
                      /translation="MGDINGSVDPPNMAYEPLAIVGMGMRLPGGIHTAEDLWSLLVEKR
                      STRCKVPSDRFNISAFYSPSGRVGSVKMQHGHFLAATDDLQHLDTTFFSMSRKEVEILD
                      PQQRMLLEVVYECMQNAGQSNWRGGNIGCYVGVWGEDWVDIHAKDSQDAGMYRIAGGQD
@@ -269,13 +282,15 @@ FEATURES             Location/Qualifiers
                      LSIGVRSNKPLSDPSNRVSWKRDARMGAYLNTGSAASANTSNATDQLKGFMSAVEADSF
                      ILNSPASLDLVTNEIGVRIYTFMLHSIDELDVSQSLAALGVDSLVTIEIRNWMKRSFGG
                      LEFSTLEILNAGTIEALGLLTIEGLKRKFEIRDGDKEIRETGDTYLLMKAP"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_DH, PKS_NRPS_MT, fPKS_ER,
+                     fPKS_KR, ACP_PCP"
      CDS             39132..60824
                      /codon_start=1
                      /locus_tag="BP5553_08811"
                      /product="nonribosomal peptide synthetase PHNRPS4"
-                     /label=PHNRPS4
-                     /note="putative FR901379 nonribosomal peptide synthase
-                     like protein"
+                     /label="PHNRPS4"
+                     /note="putative FR901379 nonribosomal peptide synthase like
+                     protein"
                      /protein_id="RDL32355.1"
                      /translation="MTTSDCVGNSEKMDGNGALQTGSSKQIFRESNSNGNHVNGNSTHI
                      NGNGIHVNGSEAHIHRNGTHINGNGVHVNGKETHINTNGTHINGNGIHANGNETHINGN
@@ -400,6 +415,7 @@ FEATURES             Location/Qualifiers
                      DAMGCCVTLLPFRVTLEQQWTIKDLLQNVRNQQIQSMQHSQLGFREILHKCSDWPTSTR
                      FTSAINHISGQDSAFSMRDTEYSISALEIKDPLWIIDVGITTIQRGNELEIRLSYLPAN
                      ISEIVAAGLLDALRDTVQLIANDPLLPVEQVLSLHSGERLQNGASK"
+                     /Pfam="ACP_PCP, NRPS_C, AA-adenyl-dom, NRPS_CT"
      CDS             join(61932..62153,62229..62757,62808..63034,63085..63364,
                      63434..63667,63728..64536,64604..64766,64814..65152,
                      65210..65333,65387..65458,65517..66248,66316..66399,
@@ -407,7 +423,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="BP5553_08812"
                      /product="ABC transporter PHTRT"
-                     /label=PHTRT
+                     /label="PHTRT"
                      /protein_id="RDL32356.1"
                      /translation="MVTPLTQCQIEVENVFGPQVTECYDNFDFTLLFEESILYLGPLLL
                      ALSLVLIRLWQLKAQETVIRKNILSILKRLCWISFVLLQLVHFILTLTLRTSTTKLSNA
@@ -435,12 +451,13 @@ FEATURES             Location/Qualifiers
                      LDVVGMREVIDKKGGLDAMANEDPLSHGQSQLLCLARAVLRPNKILIMDESTSSVDKKT
                      EAKMVDIIRERFQDRTVICVAHNLNTIMDYDEVIVLEAGRIVEQGKPSILALEPSKFAS
                      LLRAADSEPENASEEETTGAGLSPGVSV"
+                     /Pfam="ABC_membrane, ABC_tran, SMC_N"
      CDS             complement(join(67888..68258,68382..68559,68638..68999,
                      69051..69588,69643..70002,70062..70247,70309..70929))
                      /codon_start=1
                      /locus_tag="BP5553_08813"
                      /product="aconitase PHHtyD"
-                     /label=PHHtyD
+                     /label="PHHtyD"
                      /protein_id="RDL32357.1"
                      /translation="MSKSTMSYSLNDRFPKAAVKSIRALLGILSRTRGVLVDEQPNGEI
                      APGLISVADGHIHLAGLNDSHYDSTTSHLEDFLNRLCEALDTVGRDAEADAFRHALQLY
@@ -458,6 +475,7 @@ FEATURES             Location/Qualifiers
                      CVIAKSFSFIYGRNQPSIGLLGINIVNESFYELARTGAGIKIDLPGRIVQVEGRSFPFV
                      LDDMELSLIKSQGLATAYKKFGKNVFASLCGTESSVMASELAELKLKSVGDGMRTSLAW
                      "
+                     /Pfam="Aconitase, Aconitase_C"
 ORIGIN
         1 atggaccttt cccgaagccc tggcagagcg cttatacaaa atgaaaatga agatggtgta
        61 gagatcatcg aaacggtagg attgtccgaa cggtcgttag agctgagcta acgaagaagc

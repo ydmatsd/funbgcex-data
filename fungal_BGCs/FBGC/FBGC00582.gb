@@ -1,36 +1,36 @@
-LOCUS       FBGC00582       27964 bp DNA     linear   UNA 10-APR-2023
+LOCUS       FBGC00582              27964 bp    DNA     linear   UNA 10-APR-2023
 DEFINITION  curvulamine.
 ACCESSION   FBGC00582
-VERSION     .
+VERSION     FBGC00582
 KEYWORDS    .
 SOURCE      Curvularia sp. IFB-Z10
   ORGANISM  Curvularia sp. IFB-Z10
+            .
 REFERENCE   1  (bases 1 to 27964)
   AUTHORS   Dai GZ, Han WB, Mei YN, Xu K, Jiao RH, Ge HM, Tan RX.
-  TITLE     Pyridoxal-5'-phosphate-dependent bifunctional enzyme catalyzed 
+  TITLE     Pyridoxal-5'-phosphate-dependent bifunctional enzyme catalyzed
             biosynthesis of indolizidine alkaloids in fungi.
   JOURNAL   Proc Natl Acad Sci U S A 2020;117:1174-1180
-  PUBMED    31882449
+   PUBMED   31882449
 REFERENCE   2  (bases 1 to 27964)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Apr 10, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1073/pnas.1914777117"; journalName: "Proc Natl Acad Sci U S A"; 
-            date: "2020"; volume: "117"; pages: "1174-1180"
+  JOURNAL   Exported Apr 10, 2023 from SnapGene 6.2.1 https://www.snapgene.com
 COMMENT     ##Genome-Assembly-Data-START##
             Assembly Method       :: SOAPdenovo v. 1.05
             Genome Coverage       :: 33.0x
             Sequencing Technology :: Sanger
             ##Genome-Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1073/pnas.1914777117"; journalName: "Proc Natl Acad Sci U S A";
+            date: "2020"; volume: "117"; pages: "1174-1180"
 FEATURES             Location/Qualifiers
      source          1..27964
                      /host="white croaker"
                      /strain="IFB-Z10"
                      /mol_type="genomic DNA"
                      /country="China: port of Yancheng, Jiangsu"
-                     /collection_date=Oct-2009
+                     /collection_date="Oct-2009"
                      /db_xref="taxon:1526222"
                      /organism="Curvularia sp. IFB-Z10"
                      /submitter_seqid="scaffold_8"
@@ -38,9 +38,8 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="curD"
                      /product="FAD-dependent monooxygenase CuaD"
-                     /label=cuaD
-                     /note="CurD
-                     revised sequence"
+                     /label="cuaD"
+                     /note="CurD revised sequence"
                      /protein_id="QHD56303.1"
                      /translation="MPKLNHIVIVGAGPSGLLLGILLAKNLAIKVTILEADTKINGNPR
                      AAHYAPSAVYDFHRAGIIDDVRAKGLSPKGVCWRLQDGTFLAGMGREPEDSKYAMVVLP
@@ -50,12 +49,14 @@ FEATURES             Location/Qualifiers
                      VGKILLVADAAHLCNPFGGLGLTGGFADVGSLYDCFMGIHLDELDESILDRYSEIRIKI
                      WREMIDPMSRENFHRLWDPAHEEKRKEFFKMCEKATHDPVWGKSVAESIHQVRHDFTQY
                      FKSKQKIEGKGMDEMRTSNGIVAENSAAA"
-     CDS             complement(join(2529..2621,2678..2826,2916..3009,3070..3097,
-                     3154..3289,3357..3469,3575..3788,3899..3928,3992..4049))
+                     /Pfam="FAD_binding_3"
+     CDS             complement(join(2529..2621,2678..2826,2916..3009,
+                     3070..3097,3154..3289,3357..3469,3575..3788,3899..3928,
+                     3992..4049))
                      /codon_start=1
                      /gene="curC"
                      /product="short-chain dehydrogenase/reductase CuaC"
-                     /label=cuaC
+                     /label="cuaC"
                      /note="CurC"
                      /protein_id="QHD56302.1"
                      /translation="MSPPLAAASLLTVKNWVVVVTGGGTGIGLMYAQALAANGAKVYIT
@@ -64,11 +65,12 @@ FEATURES             Location/Qualifiers
                      SPIGKMGSVINTTSNSGQLRMSESSQLAYNVSKAASVHMTRQLAFDLSHENIKIRVNGI
                      APGWFPSEMTTGGSNENNESTAQEDSAFQQEMRSIGARVPPGRMGKAEDLASGLLMLAT
                      NDYIWGMNLVIDGGILQSVAGNI"
+                     /Pfam="adh_short"
      CDS             join(5524..6117,6178..7227,7281..7322)
                      /codon_start=1
                      /gene="curE"
                      /product="major facilitator superfamily transporter CuaE"
-                     /label=cuaE
+                     /label="cuaE"
                      /note="CurE"
                      /protein_id="QHD56304.1"
                      /translation="MHDTQTTTTPTESRAAISEANSVRRSESPVLDEKPPDVKEDAGPE
@@ -81,11 +83,12 @@ FEATURES             Location/Qualifiers
                      VVGGALMYTVRVDTSVSAIYGYSILLGIGGGCFMITAFGCVSDVVEPKEIFNAIGVISL
                      VQCIGITLFPSLSGNVFQNVGANYIAPLLPSDFSGNPRVILAGASSAAWQSFSEDTQAR
                      LVNAIVEAMKNVYIMTIIASGVTALLSPFLGFRKVGGGQVAAMA"
+                     /Pfam="MFS_1"
      CDS             complement(join(11152..11784,11839..11981,12035..12884))
                      /codon_start=1
                      /gene="curB"
                      /product="PLP-containing enzyme CuaB"
-                     /label=cuaB
+                     /label="cuaB"
                      /note="CurB"
                      /protein_id="QHD56301.1"
                      /translation="MPVQVPEPTKDFGAQWREEWAEAQKLKGPNMKNSSVFYRNIEEEL
@@ -98,12 +101,13 @@ FEATURES             Location/Qualifiers
                      RDGFNGCNIVFPIVPKGEERVRLFLHAHNTKDEVKGLVNSITTWIQEMLDIEASGDKNK
                      LPAAARLAFDILEKDEQMTNGTSNATAEKTNGANKDSGSKETFSKEAVSKDIGNKNIMN
                      GISAFKNSSLVSGLGFGEMPSRII"
+                     /Pfam="Aminotran_1_2"
      CDS             join(13947..14510,14569..14726,14779..15175,15269..19639,
                      19704..19988,20064..20479,20548..21925)
                      /codon_start=1
                      /gene="curA"
                      /product="polyketide synthase CuaA"
-                     /label=cuaA
+                     /label="cuaA"
                      /note="CurA; involved in the biosynthesis of curvulamine"
                      /protein_id="QHD56300.1"
                      /translation="MSTTNGMHSTNGNGVSHTNGANGTNGYVNGHSHENGVNGNSHVNG
@@ -149,11 +153,13 @@ FEATURES             Location/Qualifiers
                      FRAAASYPTPKLNVDTKSVPFAYKNTFATGFASDKSLNHSDSRAHWKKDIRMGIWHNIS
                      DGEAGGAGNSNDAFKTFLAAAKTDAEVLAKPETATYIAFEIGKQLMRLLLRPEDDELDI
                      TQPVQQLGLDSLVGIELRNWWRQTFGFDISVLQLLGFGTLEELGKQAVIGLLKALGGK"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_DH, PKS_NRPS_MT, fPKS_ER,
+                     fPKS_KR, ACP_PCP"
      CDS             26621..27964
                      /codon_start=1
                      /gene="curF"
                      /product="transcription factor CuaF"
-                     /label=cuaF
+                     /label="cuaF"
                      /note="CurF"
                      /protein_id="QHD56305.1"
                      /translation="MPPPTGIRLRDSCQSCAASKTRCSKEKPQCARCAKRGTKCEYLVT
@@ -164,6 +170,7 @@ FEATURES             Location/Qualifiers
                      TATISAMLQCDSSQDGYFLAVVCLAMSKVLDAYVTASQTLSPLHDRRRLSRSSSSSSSL
                      SSLSPLASSEPARSRSTGSASPPASQGDPKAVQHLLDELYLVRASMDLLGAKIAAMPPL
                      SCDALAAALPFSAETLNQLYDEQRRRLKAISLHLINTLKAFWVEEMSF"
+                     /Pfam="CpaE, Zn_clus, AflR"
 ORIGIN
         1 atgccgaaac tgaaccacgt atgttcttta gccccaacat gctcatgctg tgcagtaatg
        61 acttgtacag attgtcatcg ttggcgctgg cccttcaggt cttttgttgg gcatactgtt

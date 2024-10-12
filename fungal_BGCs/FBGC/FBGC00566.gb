@@ -1,32 +1,32 @@
-LOCUS       FBGC00566        9791 bp DNA     linear   UNA 08-APR-2023
+LOCUS       FBGC00566               9791 bp    DNA     linear   UNA 08-APR-2023
 DEFINITION  shimalactones.
 ACCESSION   FBGC00566
-VERSION     .
+VERSION     FBGC00566
 KEYWORDS    .
 SOURCE      Emericella variecolor GF10
   ORGANISM  Emericella variecolor GF10
+            .
 REFERENCE   1  (bases 1 to 9791)
-  AUTHORS   Fujii I, Hashimoto M, Konishi K, Unezawa A, Sakuraba H, Suzuki K, 
+  AUTHORS   Fujii I, Hashimoto M, Konishi K, Unezawa A, Sakuraba H, Suzuki K,
             Tsushima H, Iwasaki M, Yoshida S, Kudo A, Fujita R, Hichiwa A, Saito
-            K, Asano T, Ishikawa J, Wakana D, Goda Y, Watanabe A, Watanabe M, 
+            K, Asano T, Ishikawa J, Wakana D, Goda Y, Watanabe A, Watanabe M,
             Masumoto Y, Kanazawa J, Sato H, Uchiyama M.
-  TITLE     Shimalactone Biosynthesis Involves Spontaneous Double Bicyclo-Ring 
+  TITLE     Shimalactone Biosynthesis Involves Spontaneous Double Bicyclo-Ring
             Formation with 8-pi-6-pi Electrocyclization.
   JOURNAL   Angew Chem Int Ed Engl 2020;59:8464-8470
-  PUBMED    32129542
+   PUBMED   32129542
 REFERENCE   2  (bases 1 to 9791)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Apr 8, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1002/anie.202001024"; journalName: "Angew Chem Int Ed Engl"; 
+  JOURNAL   Exported Apr 8, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1002/anie.202001024"; journalName: "Angew Chem Int Ed Engl";
             date: "2020"; volume: "59"; pages: "8464-8470"
 FEATURES             Location/Qualifiers
      source          1..9791
                      /strain="GF10"
                      /mol_type="genomic DNA"
-                     /label=synonym: Emericella variecolor
+                     /label="synonym: Emericella variecolor"
                      /note="synonym: Emericella variecolor"
                      /db_xref="taxon:1549217"
                      /organism="Aspergillus stellatus"
@@ -34,7 +34,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="shmA"
                      /product="polyketide synthase ShmA"
-                     /label=shmA
+                     /label="shmA"
                      /protein_id="BBI47418.1"
                      /translation="MTAEPIAIIGTSCRFPGQSTTPSRLWDLLKEPRDVASVPPASRWD
                      ASSFYHEDPTYPGTLNAKEGYFLTEDPRYFDAAFFNISSTEAASIDPQQRQLLETVFES
@@ -80,11 +80,13 @@ FEATURES             Location/Qualifiers
                      WDYVDYRANANKDHVGGLGKAASSVRAQLKSATTREEVAAIIDAAIKNKVRSKFSLADD
                      YPLSSATYLRDLGMDSLVAVDLRRWFFKELGVEIPLMDFLNGGSITELTGQVVDGLSDT
                      SVPNGGDGEKMANGVNGVKH"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_DH, PKS_NRPS_MT, fPKS_KR,
+                     ACP_PCP"
      CDS             join(8268..8569,8629..9280,9339..9791)
                      /codon_start=1
                      /gene="shmB"
                      /product="FAD-dependent monooxygenase ShmB"
-                     /label=shmB
+                     /label="shmB"
                      /protein_id="BBI47419.1"
                      /translation="MSISSKDSGLRIIIIGGGITGLALAHFLEHAGINFVLLEKHHDIL
                      ANFGGSVGLQANGCRILEQVGVYEHLEQWMTATEFIRARLPDGFTWVYPSHLYTSMLGY
@@ -95,6 +97,7 @@ FEATURES             Location/Qualifiers
                      LRRLNTPQTKHTEAEISAGLRDSTAAHMARLRRRCAESYVLARTIALETWTGWFWLRYF
                      AKYTATSACYYIMTFQDAGPTLDYLPMPTRARLASKRLEQMVKKRRRTAWLSCGVAFGV
                      ISLSFLWFLS"
+                     /Pfam="FAD_binding_3"
 ORIGIN
         1 ctaatgcttt acaccgttta caccatttgc catcttctcc ccatcccctc cgtttggaac
        61 agatgtatcc gataaaccat ccacaacctg ccctgtcagc tccgtaattg accccccgtt

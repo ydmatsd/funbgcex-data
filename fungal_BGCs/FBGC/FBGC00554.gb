@@ -1,28 +1,28 @@
-LOCUS       FBGC00554       31136 bp DNA     linear   UNA 07-APR-2023
+LOCUS       FBGC00554              31136 bp    DNA     linear   UNA 07-APR-2023
 DEFINITION  shearone I.
 ACCESSION   FBGC00554
-VERSION     .
+VERSION     FBGC00554
 KEYWORDS    .
 SOURCE      Penicillium shearii IFM 42152
   ORGANISM  Penicillium shearii IFM 42152
+            .
 REFERENCE   1  (bases 1 to 31136)
   AUTHORS   Morishita Y, Tsukada K, Murakami K, Irie K, Asai T.
-  TITLE     Synthetic Biology-Based Discovery of Diterpenoid Pyrones from the 
+  TITLE     Synthetic Biology-Based Discovery of Diterpenoid Pyrones from the
             Genome of Eupenicillium shearii.
   JOURNAL   J Nat Prod 2022;85:384-390
-  PUBMED    35057611
+   PUBMED   35057611
 REFERENCE   2  (bases 1 to 31136)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Apr 7, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1021/acs.jnatprod.1c00973"; journalName: "J Nat Prod"; date: 
-            "2022"; volume: "85"; pages: "384-390"
+  JOURNAL   Exported Apr 7, 2023 from SnapGene 6.2.1 https://www.snapgene.com
 COMMENT     ##Assembly-Data-START##
             Assembly Method       :: Velvet 1.2.10
             Sequencing Technology :: Illumina Hiseq
             ##Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1021/acs.jnatprod.1c00973"; journalName: "J Nat Prod"; date:
+            "2022"; volume: "85"; pages: "384-390"
 FEATURES             Location/Qualifiers
      source          1..31136
                      /strain="IFM 42152"
@@ -35,7 +35,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="esdpI"
                      /product="cytochrome P450 monooxygenase EsdpI"
-                     /label=esdpI
+                     /label="esdpI"
                      /protein_id="BCP96878.1"
                      /translation="MDPESLGVRDSDLVRAGLAIGVAILAIIVLFPGIRYKGGLVNNKK
                      PFELSWTNAKRRFQSGARGLITTAFNQNDGKHKDAFYMVTDNGVEMIIHPKYAHEIRND
@@ -46,12 +46,13 @@ FEATURES             Location/Qualifiers
                      IGTHGWEKAALYNLKLMDSVLKETQRLKPISIGTMVRVTLDDVTLSDGLRIPKGTKTLV
                      SCHNMWDKGIYDHADQFDGYRFYELRKLPGQENSSQLVSTSPDHFAFGHGLHACPGRFF
                      AAAEVKITLCHILLKYDIRLVGERPNVIEHGVAQYANAWGQIEIKRREEEIAL"
-     CDS             join(2907..3191,3254..3604,3700..3926,3990..4440,4504..4593,
-                     4646..4747)
+                     /Pfam="p450"
+     CDS             join(2907..3191,3254..3604,3700..3926,3990..4440,
+                     4504..4593,4646..4747)
                      /codon_start=1
                      /gene="esdpH"
                      /product="cytochrome P450 monooxygenase EsdpH"
-                     /label=esdpH
+                     /label="esdpH"
                      /protein_id="BCP96879.1"
                      /translation="MLSQRVGILIIGVLATATFWLCRRYFQLRGIPGPFVARITNLCRV
                      RWVGSRKSHEIHSRLHDQYGSVVRFGPNMVSVADPAAISVIYPARSGFLKGDFYHVFKS
@@ -62,12 +63,13 @@ FEATURES             Location/Qualifiers
                      RPVPKWKEVRGLAYLDACLNEALRLHPPFCLPFERVVPDTGLSIGDYYLPPGTLVGMSP
                      YVVGRYKPVFGQDADQWRPERWLECSPQDQRKMESSMITFGAGRRVCLGKNVAIMEIKK
                      LIPAILLRYDIKLLDPTSFKVENSWFFRQEGLDVEMKKRDGSA"
+                     /Pfam="p450"
      CDS             complement(join(4947..5101,5167..5541,5632..5964,
                      6040..6217))
                      /codon_start=1
                      /gene="esdpJ"
                      /product="2OG-Fe(II)-dependent dioxygenase EsdpJ"
-                     /label=esdpJ
+                     /label="esdpJ"
                      /note="revised sequence"
                      /protein_id="BCP96880.1"
                      /translation="MGSISQSHKRQPLELQGHLASFKAFDCTPVLGTEFPDAKLAEWLQ
@@ -77,12 +79,13 @@ FEATURES             Location/Qualifiers
                      PNNVGSDLSAIHPVVRTNPVTGWKGLYGAGMHTRRFNEVTADESRRLADWLLQMIVENH
                      DLQFRHSWKNPYDVAIWDNRAVFHAGIMDYKGQGHRTGHRYVGVGEQPYLDPESKTRRE
                      ALGEFN"
+                     /Pfam="TauD"
      CDS             complement(join(7038..7550,7611..7981,8044..8315,
                      8387..8679))
                      /codon_start=1
                      /gene="esdpE"
                      /product="FAD-dependent monooxygenase EsdpE"
-                     /label=esdpE
+                     /label="esdpE"
                      /protein_id="BCP96881.1"
                      /translation="MGAERLKVIIVGGSIAGLTLAHCLDKAGIDYVVLEKRKEITHQEG
                      ASILILPHGGRILDQLGMFHSLSQYTEPLHAAHISYPDGFTHTNRSPQVLTDRFGIPLI
@@ -93,11 +96,12 @@ FEATURES             Location/Qualifiers
                      GQKTAAKPSQEDLNTLFEKFSRDRINRLQSIYKMSRIVVRLHAGRNLFLRLMGRYYLPN
                      TGDVPANQASKSIASGIYLDYLPLPTYSAPGWQDFAPNSKLFSGSLLLIMSVALLFGVI
                      CWAGRDIHPLSMKILALLGNYVSQ"
+                     /Pfam="FAD_binding_3"
      CDS             join(9452..9670,9727..9881,9951..10277,10337..10718)
                      /codon_start=1
                      /gene="esdpD"
                      /product="geranylgeranyl pyrophosphate synthase EsdpD"
-                     /label=esdpD
+                     /label="esdpD"
                      /note="revised sequence"
                      /protein_id="BCP96882.1"
                      /translation="MIQLPPTPLHDLNPAFHQEFSSMSWSALHAMPSTTSVGPSLKEVN
@@ -107,11 +111,12 @@ FEATURES             Location/Qualifiers
                      IKLIQLESENTMDCVPLVDLLGVIFQIRDDYQNLQSDQYAKNKGFGEDITEGKFSYPII
                      HSIRKDNGNSQLMNILRQKTEDEDVKRYTIQIIESTGSFEYTRQKLISLTAQARALLKS
                      LGVDQSSGLASILEFLELKQ"
+                     /Pfam="GGPS"
      CDS             complement(join(11568..17528,17586..18206))
                      /codon_start=1
                      /gene="esdpA"
                      /product="polyketide synthase EsdpA"
-                     /label=esdpA
+                     /label="esdpA"
                      /protein_id="BCP96883.1"
                      /translation="MPLPLPSAIVCGPQTNLPSQRNLDWLRSYLTQRPDVEHLLQAVLE
                      LPDLLSALQEHDHDLRLIPASSLKDLREWCLDHSIILQIPETLPNVLLAPLTVLIHIIQ
@@ -151,12 +156,14 @@ FEATURES             Location/Qualifiers
                      DISSTLVSRARDTFRAYDCVEYMTLNVEQINPEVAGSYDVILSSNCIHATKDLRHSCQG
                      LYDLLRPKGMLCLLELTRDVPWLDLTFGLLDGWWRFDDGREHVLASEQMWKRLLQEAGF
                      THVDWSNDESRESDVFRLIMALKK"
+                     /Pfam="SAT2, PKS_KS, PKS_AT, fPKS_PT, ACP_PCP, HTH_51,
+                     PKS_NRPS_MT"
      CDS             join(18572..18754,18811..18924,18983..19082,19138..19206,
                      19267..19860,19919..20340)
                      /codon_start=1
                      /gene="esdpG"
                      /product="cytochrome P450 monooxygenase EsdpG"
-                     /label=esdpG
+                     /label="esdpG"
                      /protein_id="BCP96884.1"
                      /translation="MAFYSAVEAVLGVTWLSALFTLGSLSVFWLLRHRERKSQHALHNA
                      WAQISAFDPSSLDRSKTADDWKTTRLGKATLVSNRYAHEIRNDERLSFQLGLEQDFLTT
@@ -167,11 +174,12 @@ FEATURES             Location/Qualifiers
                      VLKESQRIQPLGLYTLSRIALEPITLDDGTQIKKGEQVKISTDHMWNSSIWPDAAQFDG
                      YRFQRFRDNPDQSSAVSFVSLSANHMGFGYGKHACPGRFLAAIEAKVALCHLLLKYDFE
                      LENKEASAAQTEGVMIWRDHRAQLRIKRRVEKIEW"
+                     /Pfam="p450"
      CDS             complement(join(20689..21244,21300..21594,21646..21778))
                      /codon_start=1
                      /gene="esdpC"
                      /product="UbiA-like prenyltransferase EsdpC"
-                     /label=esdpC
+                     /label="esdpC"
                      /protein_id="BCP96885.1"
                      /translation="MAKASLDTLPRSVPQKRTAGDLAKDLFVLSRFNRYNPLLATFSGV
                      WATLLAGASKRIDHPGSISTEYVFKQALLVFVGGYIFCGAGMVWNDWIDLNIDKQVART
@@ -179,29 +187,32 @@ FEATURES             Location/Qualifiers
                      FFKTIYFYPQYFLGFTLGYPSVIGWLAIKGQDQSLQDNIMESFALGTTVFTWVLYLNTA
                      YSYQDIEGDKKANVNSVYFLAGSYIHYFLVFLAALVLGATSLQLKAQASQWLWGSWLSV
                      WGYSFASQLSRFSAKDPSSGGTLHKENFALGVWTVFACAVELLLKS"
+                     /Pfam="UbiA_PT"
      CDS             join(22765..23282,23346..23565)
                      /codon_start=1
                      /gene="esdpB"
                      /product="terpene cyclase EsdpB"
-                     /label=esdpB
+                     /label="esdpB"
                      /protein_id="BCP96886.1"
                      /translation="MDEFDFNAAPPEFQEIRWMVASIFLISGTGWIVNYVTTIRTALRD
                      RTSGVTLLSLCNNLAWETVFAVIHRPPHLIAALVITVWLLVNIYVIYVSVKFARESQDV
                      SPLLRRHLPVVTLLGFVGFLTGHIALSMHLGPTKALYWGGMICQVTLSASALGLLIQRG
                      HTRGASPAMWLSRFIASSFGVPGLFVRAVYWPSAWGWADNILMRWLSGVFFLLDLSYGA
                      IYYHISRSEHEVGASGSKMSKRE"
+                     /Pfam="Pyr4"
      CDS             complement(join(30191..30414,30472..30558,30617..31052,
                      31116..31136))
                      /codon_start=1
                      /gene="esdpF"
                      /product="short-chain dehydrogenase/reductase EsdpF"
-                     /label=esdpF
+                     /label="esdpF"
                      /protein_id="BCP96887.1"
                      /translation="MATLEAKVVIVTGSASGIGLATTKAALKEGARVLAVDISPRPSCL
                      EDDPELDFFQCDLTSPSAAADITQRCLMVFGGINVLVNVAGIIDHCSSVDTLTDDIWER
                      CMAVNLNAPVKLMREVLPIMKKQKSGSIVNISSKAGSSGAVSGVAYTASKHALQGVTKN
                      VAWRFKADNIRCNAICPGGVTSAISSNIDSSAIDFAAVETMLPIIDSVKVNRPDFELVR
                      AEDVANAIIFLASDKSSRISGAMLPIDDGWSTI"
+                     /Pfam="adh_short_C2"
 ORIGIN
         1 tcataaagca atttcttcct cgcgtcgctt aatctcaatc tggccccagg cgttggcata
        61 ctgagctacg ccgtgctcga tcacatttgg acgctccccg acaagccgaa tgtcgtactt

@@ -1,30 +1,30 @@
-LOCUS       FBGC00586        5327 bp DNA     linear   UNA 11-APR-2023
+LOCUS       FBGC00586               5327 bp    DNA     linear   UNA 11-APR-2023
 DEFINITION  dothistromin.
 ACCESSION   FBGC00586
-VERSION     .
+VERSION     FBGC00586
 KEYWORDS    .
 SOURCE      Dothistroma septosporum NZE10
   ORGANISM  Dothistroma septosporum NZE10
+            .
 REFERENCE   1  (bases 1 to 5327)
-  AUTHORS   de Wit PJ, van der Burgt A, Okmen B, Stergiopoulos I, Abd-Elsalam 
+  AUTHORS   de Wit PJ, van der Burgt A, Okmen B, Stergiopoulos I, Abd-Elsalam
             KA, Aerts AL, Bahkali AH, Beenen HG, Chettri P, Cox MP, Datema E, de
-            Vries RP, Dhillon B, Ganley AR, Griffiths SA, Guo Y, Hamelin RC, 
-            Henrissat B, Kabir MS, Jashni MK, Kema G, Klaubauf S, Lapidus A, 
-            Levasseur A, Lindquist E, Mehrabi R, Ohm RA, Owen TJ, Salamov A, 
-            Schwelm A, Schijlen E, Sun H, van den Burg HA, van Ham RC, Zhang S, 
+            Vries RP, Dhillon B, Ganley AR, Griffiths SA, Guo Y, Hamelin RC,
+            Henrissat B, Kabir MS, Jashni MK, Kema G, Klaubauf S, Lapidus A,
+            Levasseur A, Lindquist E, Mehrabi R, Ohm RA, Owen TJ, Salamov A,
+            Schwelm A, Schijlen E, Sun H, van den Burg HA, van Ham RC, Zhang S,
             Goodwin SB, Grigoriev IV, Collemare J, Bradshaw RE.
-  TITLE     The genomes of the fungal plant pathogens Cladosporium fulvum and 
-            Dothistroma septosporum reveal adaptation to different hosts and 
+  TITLE     The genomes of the fungal plant pathogens Cladosporium fulvum and
+            Dothistroma septosporum reveal adaptation to different hosts and
             lifestyles but also signatures of common ancestry.
   JOURNAL   PLoS Genet 2012;8:e1003088
-  PUBMED    23209441
+   PUBMED   23209441
 REFERENCE   2  (bases 1 to 5327)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Apr 11, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1371/journal.pgen.1003088"; journalName: "PLoS Genet"; date: 
+  JOURNAL   Exported Apr 11, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1371/journal.pgen.1003088"; journalName: "PLoS Genet"; date:
             "2012"; volume: "8"; pages: "e1003088"
 FEATURES             Location/Qualifiers
      source          1..5327
@@ -39,14 +39,12 @@ FEATURES             Location/Qualifiers
                      /gene="aflR"
                      /locus_tag="DOTSEDRAFT_75566"
                      /product="transcription factor AflR"
-                     /label=aflR
+                     /label="aflR"
                      /note="Protein with similarity to Aspergillus spp.
-                     aflatoxin AflR regulatory proteins;
-                     GO_component: GO:5634 - nucleus;
-                     GO_function: GO:3700; zinc ion binding - transcription 
-                     factor activity [PMID 8270];
-                     GO_process: GO:6355 - regulation of transcription, 
-                     DNA-dependent"
+                     aflatoxin AflR regulatory proteins; GO_component: GO:5634 -
+                     nucleus; GO_function: GO:3700; zinc ion binding -
+                     transcription factor activity [PMID 8270]; GO_process:
+                     GO:6355 - regulation of transcription, DNA-dependent"
                      /db_xref="InterPro:IPR001138"
                      /db_xref="InterPro:IPR013700"
                      /db_xref="JGIDB:Dotse1_75566"
@@ -60,14 +58,15 @@ FEATURES             Location/Qualifiers
                      KPSLAEEINWTDQQSGRPRSRTHSEEVLRFPPSIDGYSSDGSDNGRMAAQLVLSELHRV
                      QRLVNLLSQRLEGVRLRNHVASSGSSSSLESIGEDSVVGVSLSATAGSPLSSPTFDQLE
                      ADLRKRLRAVSFETIDVLRRS"
+                     /Pfam="EqxR, AflR"
      CDS             join(3843..4073,4130..4642,4701..5327)
                      /codon_start=1
                      /gene="aflJ"
                      /locus_tag="DOTSEDRAFT_57214"
                      /product="transcriptional coactivator AflJ"
-                     /label=aflJ
-                     /note="Similar to AflJ regulatory protein in aflatoxin and 
-                     sterigmatocystin-producing Aspergillus species (now called 
+                     /label="aflJ"
+                     /note="Similar to AflJ regulatory protein in aflatoxin and
+                     sterigmatocystin-producing Aspergillus species (now called
                      AflS in A. parasiticus)"
                      /db_xref="JGIDB:Dotse1_57214"
                      /protein_id="EME38896.1"
@@ -79,6 +78,7 @@ FEATURES             Location/Qualifiers
                      WSRSLSATKLHNGLSTPPESDTGPAARAAKASERLELQQRALGSPQNVTNAAVYILRLG
                      TASPFTSWHKLRAQATAELSAHADILRKEHGSRLILVTRTLPKPGEVETTVEAMARFRD
                      LTLMQLANVRELETSEVVELLNSVHIEGGCLVLTNELRTRNSGMIAFEATYQPQLLG"
+                     /Pfam="MdpA"
 ORIGIN
         1 ctaactacga cgcagaacgt caatggtctc aaaagagact gcacgcaaac gcttcctgag
        61 atcagcttca agctgatcga atgttggcga agacaaaggt gagcccgcag tagcggacag

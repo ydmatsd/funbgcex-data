@@ -1,37 +1,37 @@
-LOCUS       FBGC00574       19592 bp DNA     linear   UNA 09-MAY-2023
+LOCUS       FBGC00574              19592 bp    DNA     linear   UNA 09-MAY-2023
 DEFINITION  heptelidic acid.
 ACCESSION   FBGC00574
-VERSION     .
+VERSION     FBGC00574
 KEYWORDS    .
 SOURCE      Aspergillus oryzae RIB40
   ORGANISM  Aspergillus oryzae RIB40
+            .
 REFERENCE   1  (bases 1 to 19592)
   AUTHORS   Shinohara Y, Nishimura I, Koyama Y.
-  TITLE     Identification of a gene cluster for biosynthesis of the 
+  TITLE     Identification of a gene cluster for biosynthesis of the
             sesquiterpene antibiotic, heptelidic acid, in Aspergillus oryzae.
   JOURNAL   Biosci Biotechnol Biochem 2019;83:1506-1513
-  PUBMED    30466366
+   PUBMED   30466366
 REFERENCE   2  (bases 1 to 19592)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported May 9, 2023 from SnapGene 6.2.2
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1080/09168451.2018.1549934"; journalName: "Biosci Biotechnol 
-            Biochem"; date: "2019"; volume: "83"; pages: "1506-1513"
-COMMENT     This genome assembly has been updated so
-            as to reflect the location and orientation of
-            contigs on the chromosomes. Gap lengths were
-            estimated using the results from Optical
-            Mapping (http://www.bio.nite.go.jp/dogan/project/view/AO). This 
-            Aspergillus oryzae RIB40 genome consists of a nuclear genome 
-            assembly represented by eight chromosomes (assembled from 24 
-            entries) and three unplaced contigs (AP007156, AP007160 and 
-            AP007177) and a complete mitochondrial genome 
-            (AP007176).##Genome-Assembly-Data-START##
+  JOURNAL   Exported May 9, 2023 from SnapGene 6.2.2 https://www.snapgene.com
+COMMENT     ##Genome-Assembly-Data-START##
             Assembly Method :: Phred/Phrap software
             Assembly Name   :: Aoryzae_assembly02
             ##Genome-Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1080/09168451.2018.1549934"; journalName: "Biosci Biotechnol
+            Biochem"; date: "2019"; volume: "83"; pages: "1506-1513"
+            This genome assembly has been updated so
+            as to reflect the location and orientation of
+            contigs on the chromosomes. Gap lengths were
+            estimated using the results from Optical
+            Mapping (http://www.bio.nite.go.jp/dogan/project/view/AO). This
+            Aspergillus oryzae RIB40 genome consists of a nuclear genome
+            assembly represented by eight chromosomes (assembled from 24
+            entries) and three unplaced contigs (AP007156, AP007160 and
+            AP007177) and a complete mitochondrial genome
 FEATURES             Location/Qualifiers
      source          1..19592
                      /chromosome="7"
@@ -45,7 +45,7 @@ FEATURES             Location/Qualifiers
                      /locus_tag="AO090011000408"
                      /old_locus_tag="AO070316000104"
                      /product="terpene synthase HepA"
-                     /label=hepA
+                     /label="hepA"
                      /note="unnamed protein product; predicted protein"
                      /protein_id="BAE64913.1"
                      /translation="MSQSVVVNPRPALKAKLTKEPFSIPNLKPYYKAWPTAVNPDYPGL
@@ -55,20 +55,22 @@ FEATURES             Location/Qualifiers
                      EFADGNDIPRDIMTDPKMISLWYEVNMNMSLSNDLLSLRKEIKHGDIDSMVPVLVSARG
                      LTVRQAVKETEAEINRNIERFDQIADALLEEIKLTHPEKVDEVASYIVGCRYNQMANFL
                      WSLTTTRYGLGDMVRDAEGRIPIVIENVN"
+                     /Pfam="Terpene_syn_C_2"
      CDS             complement(join(2362..2506,2617..2738,2798..2863))
                      /codon_start=1
                      /product="hypothetical protein HepB"
-                     /label=hepB
+                     /label="hepB"
                      /translation="MGESQEQVQCAIVYPRAGKADRLKEIMNGIIASMQENEPNALQYQ
                      VFFGSRPGGEPIMIVLEKYKNQEALHQHRQNPKLAELRRVATEESLFAHPPEIIPLSML
                      GQVQRP"
-     CDS             join(3104..3345,3399..3436,3491..3745,3844..4466,4520..4631,
-                     4698..4748,4801..4826,4892..4962,5021..5075)
+                     /Pfam="ABM"
+     CDS             join(3104..3345,3399..3436,3491..3745,3844..4466,
+                     4520..4631,4698..4748,4801..4826,4892..4962,5021..5075)
                      /codon_start=1
                      /locus_tag="AO090011000410"
                      /old_locus_tag="AO070316000106"
                      /product="cytochrome P450 monooxygenase HepC"
-                     /label=hepC
+                     /label="hepC"
                      /note="unnamed protein product; predicted protein"
                      /protein_id="BAE64914.1"
                      /translation="MQQNMIIPSFWTGTAIIGLVACAYVSYQCLLSPLARFPGPFAAKL
@@ -80,13 +82,14 @@ FEATURES             Location/Qualifiers
                      QEAESWPYLQAIIYEAMRLYAPAAFVLDRVVPPEGMMIEDKFVPGNTVVGSSAWVIHRN
                      PEIWGPDVDTFRPERWLDDRKDEYKRYFFAFGGGSRTCIGKNISWLEIGKLVPTLLRHF
                      EMRLENGAVLKEEFCALVFLKGLKVHISRRRV"
-     CDS             complement(join(5419..5975,6028..6190,6247..6443,6506..6536,
-                     6597..7088,7155..7235))
+                     /Pfam="p450"
+     CDS             complement(join(5419..5975,6028..6190,6247..6443,
+                     6506..6536,6597..7088,7155..7235))
                      /codon_start=1
                      /locus_tag="AO090011000411"
                      /old_locus_tag="AO070316000107"
                      /product="cytochrome P450 monooxygenase HepD"
-                     /label=hepD
+                     /label="hepD"
                      /note="unnamed protein product; cytochrome P450
                      CYP4/CYP19/CYP26 subfamilies"
                      /protein_id="BAE64915.1"
@@ -99,13 +102,14 @@ FEATURES             Location/Qualifiers
                      IRTTFVNDGEITVARLSECKYLLATVEECLRIYPPSPANHTRMVPKEGIVLNDQHIPGG
                      IGVGMPMYAAFRASSNFTYPDRFAPERWLGDPMYSKDKKGALQPFSFGPRNCLGRHLAY
                      QEIKLALAKLVYHFDLELNPKCGDWDEQKNFTFWVKPPLWVNLHPVKS"
+                     /Pfam="p450"
      CDS             join(7935..8375,8439..8541,8601..8669,8723..9331,
                      9386..9819)
                      /codon_start=1
                      /locus_tag="AO090011000412"
                      /old_locus_tag="AO070316000108"
                      /product="cytochrome P450 monooxygenase HepE"
-                     /label=hepE
+                     /label="hepE"
                      /note="unnamed protein product; predicted protein"
                      /protein_id="BAE64916.1"
                      /translation="MYTMDHFNLAGPESNTSITSLEWLGIKNSFTGSHWAHITGLSELH
@@ -118,14 +122,15 @@ FEATURES             Location/Qualifiers
                      LRLKPIAVVSMRRVAMDHLKLSDGTFLPKGTKMAVSSHRMWDPDVYENPEQWDGFRYVN
                      LRETPGQDKHAQFVSTSERHLGFGHGKHACPGRFFASSELKVALCHILMKYDFELAPGT
                      VVQHRYSGASYYADPAIRVMLRRRNVALPSWFER"
+                     /Pfam="p450"
      CDS             complement(join(9930..10739,10811..11282,11334..11503))
                      /codon_start=1
                      /locus_tag="AO090011000413"
                      /old_locus_tag="AO070316000109"
                      /product="major facilitator superfamily transporter HepF"
-                     /label=hepF
+                     /label="hepF"
                      /note="unnamed protein product; synaptic vesicle
-                     transporter SVOP and related transporters (major 
+                     transporter SVOP and related transporters (major
                      facilitator superfamily)"
                      /protein_id="BAE64917.1"
                      /translation="METPAGKADRPRDHDSEQSQDNVVSWEGEDDPTNPLNWSPLAKWV
@@ -137,13 +142,14 @@ FEATURES             Location/Qualifiers
                      VAQANRFGSAKPEHRLPMMILSGPVIAAGLFWYGWSVQARIHWMMPIVGSGIVGLGNMF
                      FFMPMVSYLVDSFPTYAASAIAANAVLRSIGGAVLPLAGQRMYDTLGFGWGNSILAFMA
                      LVFNPLLIAIYRYGEYIRTRWQVKL"
+                     /Pfam="MFS_1"
      CDS             complement(join(11974..12170,12219..12900,12969..13094))
                      /codon_start=1
                      /locus_tag="AO090011000414"
                      /old_locus_tag="AO070316000110"
                      /product="glyceraldehyde-3-phosphate dehydrogenase HepG"
-                     /label=hepG
-                     /note="unnamed protein product; glyceraldehyde 3-phosphate 
+                     /label="hepG"
+                     /note="unnamed protein product; glyceraldehyde 3-phosphate
                      dehydrogenase"
                      /protein_id="BAE64918.1"
                      /translation="MTAKVGINGFGRIGRIVFRNSFSHENTEVVMVNDPFIEVQYAAYM
@@ -152,13 +158,14 @@ FEATURES             Location/Qualifiers
                      ERFGVVEGLMTAVHAYTATQKLVDAPSKKDWRGGRAAAQNLIPSSTGAAKAVGKVIPEL
                      QGKVTGMSIRVPTSNVSVVDLTCRLEKGASYEEIITAIKEAAQGELKGILDYTEDDVVS
                      SDMKGNPHSSIVDIKAGISLNPNFLKIVSWYDNEWGYSRRVLDLTAYIASVGK"
+                     /Pfam="Gp_dh_N, Gp_dh_C"
      CDS             join(13838..14054,14114..14248,14310..14728,14780..15118,
                      15174..15281,15348..15505,15562..15751)
                      /codon_start=1
                      /locus_tag="AO090011000415"
                      /old_locus_tag="AO070316000111"
                      /product="cytochrome P450 monooxygenase HepH"
-                     /label=hepH
+                     /label="hepH"
                      /note="unnamed protein product; cytochrome P450"
                      /protein_id="BAE64919.1"
                      /translation="MASLTGAAAVLLAFILAYSTALTIYRLFFHPLARFPGPRLAAATK
@@ -171,12 +178,13 @@ FEATURES             Location/Qualifiers
                      DWVIPPNTPVSMSHGDILHNEDIFPDPMKFMPSRWFNASPQQNRLFVPFGKGTRMCVGM
                      NFAYCEIYMSLAVILARFDLELYDTRWERDVHYTRDCFLGEPDPASPGIRVKVVADHKT
                      FTRS"
+                     /Pfam="p450"
      CDS             complement(16001..16708)
                      /codon_start=1
                      /locus_tag="AO090011000416"
                      /old_locus_tag="AO070316000112"
                      /product="transcription factor HepR"
-                     /label=hepR
+                     /label="hepR"
                      /note="unnamed protein product; predicted protein"
                      /protein_id="BAE64920.1"
                      /translation="MAETWMALPLFNRQNSPESSRDVLSMASPGLLPIDPSPEHDETNK
@@ -184,12 +192,13 @@ FEATURES             Location/Qualifiers
                      CPFPGCKSTLRFTGSRELRRHYKQHFKRFFCRYPHCPQAGPGLQGPHPSTKRGFATRKD
                      RARHEAKHDPRIQCPCLDERGERCSRMFSRLDNMRDHVRRIHNNSHYAGQETHGTADAI
                      PDIDIHHEIEARS"
+                     /Pfam="Tri6"
      CDS             join(18242..18628,18690..19592)
                      /codon_start=1
                      /locus_tag="AO090011000417"
                      /old_locus_tag="AO070316000113"
                      /product="transcription factor HepS"
-                     /label=hepS
+                     /label="hepS"
                      /note="unnamed protein product; predicted protein"
                      /protein_id="BAE64921.1"
                      /translation="MISMSVPRKKQEREISLLMHYVDDVFPHQFPIYHSQFVGKREWLL
@@ -200,6 +209,7 @@ FEATURES             Location/Qualifiers
                      DCLENGIRELSAKTSGSSDAVSSITRIYASSTLTYLHSVVSGLNPDLSEIQESVSRTIE
                      LLKELSNWHLLACLTWPLCVTGCMAAPDHEAFFHSLAISAEISPHSLRHTWIVLRILKD
                      VGKVRGSLGEQILPTWEQILCIDGAPILLT"
+                     /Pfam="Fungal_trans_2"
 ORIGIN
         1 ttaattgaca ttttcaataa ctattgggat cctgccctca gcatcccgaa ccatatcacc
        61 caggccatat ctggtggtag tcaagctaca aaaaatagat cagtattgtt cccaaattaa

@@ -1,32 +1,33 @@
-LOCUS       FBGC00577       17696 bp DNA     linear   UNA 10-APR-2023
+LOCUS       FBGC00577              17696 bp    DNA     linear   UNA 10-APR-2023
 DEFINITION  CIML D.
 ACCESSION   FBGC00577
-VERSION     .
+VERSION     FBGC00577
 KEYWORDS    .
 SOURCE      Colletotrichum incanum MAFF 238704
   ORGANISM  Colletotrichum incanum MAFF 238704
+            .
 REFERENCE   1  (bases 1 to 17696)
   AUTHORS   Morishita Y, Aoki Y, Ito M, Hagiwara D, Torimaru K, Morita D, Kuroda
             T, Fukano H, Hoshino Y, Suzuki M, Taniguchi T, Mori K, Asai T.
-  TITLE     Genome Mining-Based Discovery of Fungal Macrolides Modified by 
-            glycosylphosphatidylinositol (GPI)-Ethanolamine Phosphate 
+  TITLE     Genome Mining-Based Discovery of Fungal Macrolides Modified by
+            glycosylphosphatidylinositol (GPI)-Ethanolamine Phosphate
             Transferase Homologues.
   JOURNAL   Org Lett 2020;22:5876-5879
-  PUBMED    32663020
+   PUBMED   32663020
 REFERENCE   2  (bases 1 to 17696)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Apr 10, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1021/acs.orglett.0c01975"; journalName: "Org Lett"; date: 
-            "2020"; volume: "22"; pages: "5876-5879"
+  JOURNAL   Exported Apr 10, 2023 from SnapGene 6.2.1 https://www.snapgene.com
 COMMENT     ##Genome-Assembly-Data-START##
-            Assembly Method       :: Velvet v. 1.2.1; SPAdes v. 3.0 MAY-2014 
+            Assembly Method       :: Velvet v. 1.2.1; SPAdes v. 3.0 MAY-2014
             Assembly Name         :: Ci238704v1
-            Long Assembly Name    :: Colletotrichum incanum MAFF238704 v1.0 
+            Long Assembly Name    :: Colletotrichum incanum MAFF238704 v1.0
             Genome Coverage       :: 230x
             Sequencing Technology :: Illumina HiSeq ##Genome-Assembly-Data-END##
+            ##Genome-Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1021/acs.orglett.0c01975"; journalName: "Org Lett"; date:
+            "2020"; volume: "22"; pages: "5876-5879"
 FEATURES             Location/Qualifiers
      source          1..17696
                      /host="Raphanus sativus L. Daikon Group"
@@ -34,7 +35,7 @@ FEATURES             Location/Qualifiers
                      /mol_type="genomic DNA"
                      /country="Japan: Miyazaki Prefecture"
                      /isolation_source="organic material"
-                     /collection_date=Oct-1998
+                     /collection_date="Oct-1998"
                      /db_xref="taxon:1573173"
                      /organism="Colletotrichum incanum"
                      /submitter_seqid="contig470"
@@ -42,7 +43,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="CI238_12749"
                      /product="cytochrome P450 monooxygenase CimlD"
-                     /label=cimlD
+                     /label="cimlD"
                      /protein_id="KZL86693.1"
                      /translation="MIVSSISLLATAGACLVLYITVSRLSRWRRLNHIPGPPGAGWSRL
                      WLLVHLASGKLPNKFQEICRKYGPLVRIAPNWVVCSDPNEIRRIWGIRSGYHRGTWYRS
@@ -53,13 +54,14 @@ FEATURES             Location/Qualifiers
                      DVQAKSLPFLQACIKEGLRLWPPSIGMMGKVSDQDDTICGIRVPAQTQIGWAATVIMKD
                      RRVFGENAAVFEPTRWLKAEPERLKEMESIYGLVFATNTRWECLGKRLAYIELGKVLFE
                      LFCRFDFSMVNPVEPFRWMNHGFTVQQDMHAKITQRASGAGGLTDKDQ"
-     CDS             complement(join(3914..4007,4091..4583,4681..4788,4848..5299,
-                     5358..5635,5686..6289,6358..6485,6548..6845,6915..6959,
-                     7060..7262))
+                     /Pfam="p450"
+     CDS             complement(join(3914..4007,4091..4583,4681..4788,
+                     4848..5299,5358..5635,5686..6289,6358..6485,6548..6845,
+                     6915..6959,7060..7262))
                      /codon_start=1
                      /gene="cimlC"
                      /product="GPI ethanolamine phosphate transferase CimlC"
-                     /label=cimlC
+                     /label="cimlC"
                      /protein_id="FAA01290.1"
                      /translation="MVQLRQTGLLLAANVLIIASLVVFMAGYFRPQPSLTVALLDEDDT
                      QNSMPGKPPFDKVVFMVVDALRSDFVYGEKSGFKFTQSLIRSGSAVPFTAMAALPTLTV
@@ -77,11 +79,12 @@ FEATURES             Location/Qualifiers
                      VTLQTLLSNWVAPTWWSLAGLLLLHRGRGAAKGNATTVKSPHIQTNGQRSTPAATVMNG
                      NGANAKSAESKNNAKLGNTMLELIAFDTAFAASSSLAVMLSCLWLQDAPELWTVLAPNR
                      IEDGRVKSAAKVPSPLVGNGPPLSPPPGS"
+                     /Pfam="Phosphodiest, PIGO_PIGG"
      CDS             complement(join(8310..9134,9230..9337))
                      /codon_start=1
                      /locus_tag="CI238_12751"
                      /product="thioesterase CimlB"
-                     /label=cimlB
+                     /label="cimlB"
                      /note="n-terminal domain protein"
                      /protein_id="KZL86692.1"
                      /translation="MAIFEDVEFKTVDGVILRGRLYAAQNRGPGVVMGPGLNITKEMSG
@@ -90,11 +93,12 @@ FEATURES             Location/Qualifiers
                      KGNEPFYVPMLNKKGENPAGFNSGFDEETVKRLMDAYNELDPLRASLAPNHVNRTTVGT
                      YRYMLLWDMKYMWKYITQPVLFLLPRKDQILSVETQMPHYNMLGGPKQLHIQENAGHMD
                      ILDGPENEQVNAVQIEFTLDVLQGKTMKS"
+                     /Pfam="Hydrolase_4"
      CDS             join(10264..10934,10990..14720,14776..15160,15221..17696)
                      /codon_start=1
                      /locus_tag="CI238_12752"
                      /product="polyketide synthase CimlA"
-                     /label=cimlA
+                     /label="cimlA"
                      /protein_id="KZL86691.1"
                      /translation="MVSVTKETKNANGINGLYGAAGPNNTDGTRITNGTNGTNGEHQGA
                      AGSTCPQSGHYVQEPVAIVSMACRLPDESHSPQEFWRFLEQGKIALNTPPNTRYSLNTH
@@ -138,6 +142,7 @@ FEATURES             Location/Qualifiers
                      PGNPPFDPDHRFSALRPAAGTAVSTSAGGSGSSQATRLAMLKNAGKGGGADHDTLVAAA
                      TELVNTVLMRSLGVGEPLDPTRPLAIYGVDSLVAVELRNWARAELDVEFSTLDIVGART
                      LNILCESIVKKLTGA"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_DH, fPKS_ER, fPKS_KR, ACP_PCP"
 ORIGIN
         1 tcactggtcc ttatccgtca gtccccccgc tcccgacgcc ctctgggtga ttttggcgtg
        61 catgtcttgc tgaactgtga agccgtggtt catccagcgg aacggctcaa ctgggttgac

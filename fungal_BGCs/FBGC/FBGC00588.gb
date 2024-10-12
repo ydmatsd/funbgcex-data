@@ -1,30 +1,30 @@
-LOCUS       FBGC00588       25508 bp DNA     linear   UNA 11-APR-2023
+LOCUS       FBGC00588              25508 bp    DNA     linear   UNA 11-APR-2023
 DEFINITION  dothistromin.
 ACCESSION   FBGC00588
-VERSION     .
+VERSION     FBGC00588
 KEYWORDS    .
 SOURCE      Dothistroma septosporum NZE10
   ORGANISM  Dothistroma septosporum NZE10
+            .
 REFERENCE   1  (bases 1 to 25508)
-  AUTHORS   de Wit PJ, van der Burgt A, Okmen B, Stergiopoulos I, Abd-Elsalam 
+  AUTHORS   de Wit PJ, van der Burgt A, Okmen B, Stergiopoulos I, Abd-Elsalam
             KA, Aerts AL, Bahkali AH, Beenen HG, Chettri P, Cox MP, Datema E, de
-            Vries RP, Dhillon B, Ganley AR, Griffiths SA, Guo Y, Hamelin RC, 
-            Henrissat B, Kabir MS, Jashni MK, Kema G, Klaubauf S, Lapidus A, 
-            Levasseur A, Lindquist E, Mehrabi R, Ohm RA, Owen TJ, Salamov A, 
-            Schwelm A, Schijlen E, Sun H, van den Burg HA, van Ham RC, Zhang S, 
+            Vries RP, Dhillon B, Ganley AR, Griffiths SA, Guo Y, Hamelin RC,
+            Henrissat B, Kabir MS, Jashni MK, Kema G, Klaubauf S, Lapidus A,
+            Levasseur A, Lindquist E, Mehrabi R, Ohm RA, Owen TJ, Salamov A,
+            Schwelm A, Schijlen E, Sun H, van den Burg HA, van Ham RC, Zhang S,
             Goodwin SB, Grigoriev IV, Collemare J, Bradshaw RE.
-  TITLE     The genomes of the fungal plant pathogens Cladosporium fulvum and 
-            Dothistroma septosporum reveal adaptation to different hosts and 
+  TITLE     The genomes of the fungal plant pathogens Cladosporium fulvum and
+            Dothistroma septosporum reveal adaptation to different hosts and
             lifestyles but also signatures of common ancestry.
   JOURNAL   PLoS Genet 2012;8:e1003088
-  PUBMED    23209441
+   PUBMED   23209441
 REFERENCE   2  (bases 1 to 25508)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Apr 11, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1371/journal.pgen.1003088"; journalName: "PLoS Genet"; date: 
+  JOURNAL   Exported Apr 11, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1371/journal.pgen.1003088"; journalName: "PLoS Genet"; date:
             "2012"; volume: "8"; pages: "e1003088"
 FEATURES             Location/Qualifiers
      source          1..25508
@@ -39,14 +39,13 @@ FEATURES             Location/Qualifiers
                      /gene="ordB"
                      /locus_tag="DOTSEDRAFT_75648"
                      /product="short-chain dehydrogenase/reductase OrdB"
-                     /label=ordB
-                     /note="Similar to aflatoxin AflX and sterigmatocystin StcQ 
-                     dehydrogenase proteins;
-                     GO_component: GO:5737 - cytoplasm;
-                     GO_function: GO:16620; NAD binding - oxidoreductase 
-                     activity, acting on the aldehyde or oxo group of donors, 
-                     NAD or NADP as acceptor [PMID 51287];
-                     GO_process: GO:6520 - amino acid metabolic process"
+                     /label="ordB"
+                     /note="Similar to aflatoxin AflX and sterigmatocystin StcQ
+                     dehydrogenase proteins; GO_component: GO:5737 - cytoplasm;
+                     GO_function: GO:16620; NAD binding - oxidoreductase
+                     activity, acting on the aldehyde or oxo group of donors,
+                     NAD or NADP as acceptor [PMID 51287]; GO_process: GO:6520 -
+                     amino acid metabolic process"
                      /db_xref="InterPro:IPR000534"
                      /db_xref="JGIDB:Dotse1_75648"
                      /protein_id="EME39028.1"
@@ -55,16 +54,15 @@ FEATURES             Location/Qualifiers
                      IRAENEKAILPKVIVLSSAKLDDKLCQNMPNAMKVLVKLATSNQCADLKESQRILTAER
                      HWISSTFMMPGGLVQDAQKGHALSLETEKTPLSYLDLAAGMVEVADAEDEYHMKNVSVI
                      PTGTGVKFPYESLLEVVKGLLAHYFPWTYRYTGAMPMPVLPQKTA"
+                     /Pfam="NAD_binding_10"
      CDS             join(1407..1682,1741..3519)
                      /codon_start=1
                      /locus_tag="DOTSEDRAFT_29211"
                      /product="transcription factor DOTSEDRAFT_29211"
-                     /label=DOTSEDRAFT_29211 copy
-                     /note="GO_component: GO:5634 - nucleus;
-                     GO_function: GO:3677; zinc ion binding - DNA binding [PMID 
-                     8270];
-                     GO_process: GO:6350 - transcription
-                     revised sequence"
+                     /label="DOTSEDRAFT_29211 copy"
+                     /note="GO_component: GO:5634 - nucleus; GO_function:
+                     GO:3677; zinc ion binding - DNA binding [PMID 8270];
+                     GO_process: GO:6350 - transcription revised sequence"
                      /db_xref="InterPro:IPR007219"
                      /db_xref="JGIDB:Dotse1_29211"
                      /protein_id="EME39029.1"
@@ -80,13 +78,14 @@ FEATURES             Location/Qualifiers
                      FAQWAWFSWVKWYALAVVLAELCCARGEQADRAWQFAKVSYDDYAKIVADTESGLLWKP
                      IMKLMRKVQQLRSEPNTEGQALQPKDTMAQQYDWLGGLTARTRSGTTPSTASSSETSYR
                      KQYENESPVQDEGMMCQPQDHAMGDHMSWVHWDLLIDDINDSNVNDIIW"
+                     /Pfam="EqxR, Zn_clus, Fungal_trans"
      CDS             complement(join(3697..4573,4623..4765))
                      /codon_start=1
                      /locus_tag="DOTSEDRAFT_160897"
-                     /product="short-chain dehydrogenase/reductase 
+                     /product="short-chain dehydrogenase/reductase
                      DOTSEDRAFT_160897"
-                     /label=DOTSEDRAFT_160897
-                     /note="GO_function: GO:16491 - oxidoreductase activity; 
+                     /label="DOTSEDRAFT_160897"
+                     /note="GO_function: GO:16491 - oxidoreductase activity;
                      GO_process: GO:8152 - metabolic process"
                      /db_xref="InterPro:IPR002198"
                      /db_xref="JGIDB:Dotse1_160897"
@@ -97,19 +96,20 @@ FEATURES             Location/Qualifiers
                      SPTHLSIVGSNVHAFADPNIITQAPQGKIFSTASNEKEADMGARYFQSKLMVMLLVQEL
                      AARISNLNKSNGSQSIIVNCPSPGWCRTPLFRTDDGGFWGRNMLKLIGRDAEPGARCFT
                      SAIAAGPETHGQYLSECQVKNTSAWVRSPEGSESQRKLWDDMTRQLNQISPGVTEVLA"
+                     /Pfam="adh_short"
      CDS             complement(join(5369..5716,5773..6372,6426..6917,
                      6973..7110))
                      /codon_start=1
                      /gene="avnA"
                      /locus_tag="DOTSEDRAFT_57312"
                      /product="cytochrome P450 monooxygenase AvnA"
-                     /label=avnA
-                     /note="Similar to Aspergillus flavus aflG (avnA). May be 
-                     involved in dothistromin biosynthesis. Similar to 
-                     Aspergillus flavus aflG (avnA). May be involved in 
-                     dothistromin biosynthesis;
-                     GO_function: GO:4497; iron ion binding - monooxygenase 
-                     activity [Evidence 20037] [PMID 5506]"
+                     /label="avnA"
+                     /note="Similar to Aspergillus flavus aflG (avnA). May be
+                     involved in dothistromin biosynthesis. Similar to
+                     Aspergillus flavus aflG (avnA). May be involved in
+                     dothistromin biosynthesis; GO_function: GO:4497; iron ion
+                     binding - monooxygenase activity [Evidence 20037] [PMID
+                     5506]"
                      /db_xref="InterPro:IPR001128"
                      /db_xref="JGIDB:Dotse1_57312"
                      /protein_id="EME39031.1"
@@ -123,20 +123,21 @@ FEATURES             Location/Qualifiers
                      ADIAGQYVPAGTTVAVQQYAACRSSDNFRRPDEFLPQRWLEDPEFANDRRATSQPFSVG
                      PRNCIGRQLAHAEMRLILAKILWHFDLELDAPKMGPRDWLSEQGVWILWDKSPLWVRLM
                      PRTLEKSG"
+                     /Pfam="p450"
      CDS             complement(join(7679..8202,8250..8735,8786..8870,
                      8924..13412,13460..13590))
                      /codon_start=1
                      /gene="hexB"
                      /locus_tag="DOTSEDRAFT_181128"
                      /product="fatty acid synthase subunit beta HexB"
-                     /label=hexB
-                     /note="Similar to Aspergillus flavus aflB (hexB). May be 
-                     involved in dothistromin biosynthesis. Similar to 
-                     Aspergillus flavus aflB (hexB). May be involved in 
-                     dothistromin biosynthesis;
-                     GO_component: GO:5835 - fatty acid synthase complex; 
-                     GO_function: GO:4312 - fatty-acid synthase activity; 
-                     GO_process: GO:6633 - fatty acid biosynthetic process"
+                     /label="hexB"
+                     /note="Similar to Aspergillus flavus aflB (hexB). May be
+                     involved in dothistromin biosynthesis. Similar to
+                     Aspergillus flavus aflB (hexB). May be involved in
+                     dothistromin biosynthesis; GO_component: GO:5835 - fatty
+                     acid synthase complex; GO_function: GO:4312 - fatty-acid
+                     synthase activity; GO_process: GO:6633 - fatty acid
+                     biosynthetic process"
                      /db_xref="InterPro:IPR002539"
                      /db_xref="InterPro:IPR004136"
                      /db_xref="InterPro:IPR013565"
@@ -176,17 +177,19 @@ FEATURES             Location/Qualifiers
                      NHNVRSQQYVCAGHFRALWILGKVCDDLAKHPKIHLLSMQDLKDMVTTHVPAAGKLTND
                      IVLTRGKATIPLNGIDIPFHSTMLRGEIEHFRRYLLTKVNVPDIKPNELVGKWIPNVVG
                      RPFSLDRSYIEHVQSVTGSEPLQKMLKAMA"
+                     /Pfam="SAT2, DUF1729, FAS_meander, MaoC_dehydrat_N,
+                     MaoC_dehydratas, Acyl_transf_1"
      CDS             join(14863..18668,18762..19896,19948..20085)
                      /codon_start=1
                      /gene="hexA"
                      /locus_tag="DOTSEDRAFT_66976"
                      /product="fatty acid synthase subunit alpha HexA"
-                     /label=hexA
+                     /label="hexA"
                      /note="Fatty acid synthase-like, similar to hexA of
-                     Aspergillus flavus. Possibly involved in dothistromin 
-                     biosynthesis;
-                     GO_process: GO:6633; macromolecule biosynthetic process - 
-                     fatty acid biosynthetic process [PMID 9059]"
+                     Aspergillus flavus. Possibly involved in dothistromin
+                     biosynthesis; GO_process: GO:6633; macromolecule
+                     biosynthetic process - fatty acid biosynthetic process
+                     [PMID 9059]"
                      /db_xref="InterPro:IPR008278"
                      /db_xref="InterPro:IPR014030"
                      /db_xref="InterPro:IPR014031"
@@ -221,11 +224,12 @@ FEATURES             Location/Qualifiers
                      LTRLVRGERLNARPDAASGLAQAARSAQAWIEKQTGGRSSVDTSTVGIDLVDLSAFSAH
                      ENETFIERNFTEQEKAFAKQSLDQKMAFASRWAAKEAVFKCLHTQTKGAGAAMKDIEIV
                      KSDNAPKVKLHNDCIKAGRKAGLEDIQLSISHGEDCLIAVAIGIAGNGPAKYTL"
+                     /Pfam="Fas_alpha_ACP, FAS_I_H, adh_short, ACPS"
      CDS             join(20781..20834,20929..21135,21215..21296,21350..21852)
                      /codon_start=1
                      /locus_tag="DOTSEDRAFT_66977"
                      /product="sulfotransferase DOTSEDRAFT_66977"
-                     /label=DOTSEDRAFT_66977
+                     /label="DOTSEDRAFT_66977"
                      /db_xref="JGIDB:Dotse1_66977"
                      /protein_id="EME39033.1"
                      /translation="MAPQLKDPRNAKRTQPMQVLCLGMSRSGTESLCKALEILGVPTYH
@@ -234,13 +238,14 @@ FEATURES             Location/Qualifiers
                      HNIRRNAFSIYKEHAALVRGAAQEADKNGNFLEYDVTQGWEPLCEFLGKKIPDVEFPMG
                      NVAEEFHKRVEGSMKPRFVRSVRNLVLIVGGFVGLGWYGYVQREAVVGAVREAIKPLLK
                      "
+                     /Pfam="Sulfotransfer_4"
      CDS             complement(join(22357..22793,22850..22970))
                      /codon_start=1
                      /gene="hypC"
                      /locus_tag="DOTSEDRAFT_75655"
                      /product="anthrone oxygenase HypC"
-                     /label=hypC
-                     /note="Similar to Aspergillus parasiticus hypC (previously 
+                     /label="hypC"
+                     /note="Similar to Aspergillus parasiticus hypC (previously
                      called hypB1)"
                      /db_xref="InterPro:IPR013901"
                      /db_xref="JGIDB:Dotse1_75655"
@@ -249,18 +254,19 @@ FEATURES             Location/Qualifiers
                      LFLLTIPVILETTTVPSQLLNQWHRIFYRGHIQGPLISIATGLLYSYAAYQRSQRGAAW
                      KPFAVSAAVTVAMIPFTWVFMANVNNSLFRAVAVTEKGGEGNWNEAQGLVRSWGAWNAV
                      RALFPLSGAVLGLLSTCKIVSF"
+                     /Pfam="Anthrone_oxy"
      CDS             join(23518..23967,24015..25508)
                      /codon_start=1
                      /gene="vbsA"
                      /locus_tag="DOTSEDRAFT_75656"
-                     /product="glucose-methanol-choline family oxidoreductase 
+                     /product="glucose-methanol-choline family oxidoreductase
                      VbsA"
-                     /label=vbsA
+                     /label="vbsA"
                      /note="Functional ortholog of Aspergillus parasiticus aflK
-                     and A. nidulans stcN. Functional ortholog of Aspergillus 
-                     parasiticus aflK and A. nidulans stcN;
-                     GO_function: GO:16614; FAD binding - oxidoreductase 
-                     activity, acting on CH-OH group of donors [PMID 50660]"
+                     and A. nidulans stcN. Functional ortholog of Aspergillus
+                     parasiticus aflK and A. nidulans stcN; GO_function:
+                     GO:16614; FAD binding - oxidoreductase activity, acting on
+                     CH-OH group of donors [PMID 50660]"
                      /db_xref="InterPro:IPR000172"
                      /db_xref="InterPro:IPR007867"
                      /db_xref="JGIDB:Dotse1_75656"
@@ -277,6 +283,7 @@ FEATURES             Location/Qualifiers
                      IVDPKWLSDPRDQEMAVAAFRRCRQFTQHEILQDVIDGEELLPGKKYQTDDEVLGYIAE
                      TSDAYYAGVGTAAMGKKDDPKAVLDSKARVLGVQGLRVVDASSFPFAIDGQPMGTVYAL
                      AEKIAADIIAGN"
+                     /Pfam="GMC_oxred_N, GMC_oxred_C"
 ORIGIN
         1 atggcctcct acgctgtcct cggcgctact ggcaacactg gccaagctct gatcaacatc
        61 ctcctccagt ctccagagaa gaagatccat gcctactgcc gctccaaaca aaagctcttg

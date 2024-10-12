@@ -1,23 +1,23 @@
-LOCUS       FBGC00598       55812 bp DNA     linear   UNA 12-APR-2023
+LOCUS       FBGC00598              55812 bp    DNA     linear   UNA 12-APR-2023
 DEFINITION  FR901379.
 ACCESSION   FBGC00598
-VERSION     .
+VERSION     FBGC00598
 KEYWORDS    .
 SOURCE      Coleophoma empetri FERM BP 6252
   ORGANISM  Coleophoma empetri FERM BP 6252
+            .
 REFERENCE   1  (bases 1 to 55812)
   AUTHORS   Yue Q, Chen L, Zhang X, Li K, Sun J, Liu X, An Z, Bills GF.
-  TITLE     Evolution of Chemical Diversity in Echinocandin Lipopeptide 
+  TITLE     Evolution of Chemical Diversity in Echinocandin Lipopeptide
             Antifungal Metabolites.
   JOURNAL   Eukaryot Cell 2015;14:698-718
-  PUBMED    26024901
+   PUBMED   26024901
 REFERENCE   2  (bases 1 to 55812)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Apr 12, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1128/EC.00076-15"; journalName: "Eukaryot Cell"; date: "2015"; 
+  JOURNAL   Exported Apr 12, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1128/EC.00076-15"; journalName: "Eukaryot Cell"; date: "2015";
             volume: "14"; pages: "698-718"
 FEATURES             Location/Qualifiers
      source          1..55812
@@ -28,7 +28,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="Colemp__000007"
                      /product="nonribosomal peptide synthetase CENRPS4"
-                     /label=CENRPS4
+                     /label="CENRPS4"
                      /protein_id="Colemp_:cds.g7.t1"
                      /translation="MTASNGLESSERQVDGSGTHQSGSPNQTVRNSNSNGIRVDGNGTH
                      VNGIGTHATGNGTSPELTTSPSKVHSSGDFEEEFKTICATVLKIEIEELDDTQSFVSLG
@@ -154,6 +154,7 @@ FEATURES             Location/Qualifiers
                      IHLSYLPASISETVAAGLLDALRDTLQLISNDPLLPVEHVLSLANGSKSLQNEPSVTRE
                      IGLSLPGYINHNESKENMAYAELKQTPQWDTVLQGRRGDQNGKSASFSERGGDLLDAIY
                      LSSLLGEHERHISVNSILRGSKQEEYE"
+                     /Pfam="ACP_PCP, NRPS_C, AA-adenyl-dom, NRPS_CT"
      CDS             join(22805..22865,22955..23470,23522..23748,23798..24077,
                      24147..24380,24451..25307,25373..25535,25582..25920,
                      25978..26101,26154..26212,26293..27013,27081..27164,
@@ -161,7 +162,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="Colemp__000008"
                      /product="ABC transporter CETRT"
-                     /label=CETRT
+                     /label="CETRT"
                      /protein_id="Colemp_:cds.g8.t1"
                      /translation="MATEGTGDSDTEEPTFRSKATFVLLQLVHLVLSLTLRTSTTKLSI
                      AVIVIGLLASPVFIFLSDREHHRSTAPSTILILYLLATIPMDAARARTLFRMPDNNAIA
@@ -188,11 +189,12 @@ FEATURES             Location/Qualifiers
                      FSDKELLEVLDVVEMREVIDKKGGLDAMANEDLLSHGQSQLLCLARAILRPNKILILDE
                      ATSSVDKKTEAKMVAILKERFQDRTVICVAHNLNTIMDYDEVIVLEEGRIVEQGKPSNL
                      ALEPSVFASLLHAVDGESDSASK"
+                     /Pfam="ABC_membrane, ABC_tran"
      CDS             join(28640..28875,28924..28990,29042..29704)
                      /codon_start=1
                      /locus_tag="Colemp__000009"
                      /product="2OG-Fe(II)-dependent dioxygenase CEOXY1"
-                     /label=CEOXY1
+                     /label="CEOXY1"
                      /protein_id="Colemp_:cds.g9.t1"
                      /translation="MYSISFTGLFDGNAKDVQALAEAATTQGFFNLELDCTDAKVLQED
                      VKFLESFAKDILDSPENIKEAYHFHRTGRFRTTGFKPLGIEEGAKQGRPDGFELFMLPQ
@@ -200,11 +202,12 @@ FEATURES             Location/Qualifiers
                      SLPSVTNMGFIKYPPQPEESRNFGHIAHTDVGSLTILSATQRGLQALDSKTKEWVWVEP
                      SDQFLFVQLGDSLKFLSQGKILPSLHRVIPSDVAPHATKYTVAYFLRPNEEVEITADDG
                      KVWLYKDYHCRKFDAFARPLGYRPDGEDSLISLRDYARVE"
+                     /Pfam="2OG-FeII_Oxy"
      CDS             complement(join(30041..30100,30154..30668,30718..30988))
                      /codon_start=1
                      /locus_tag="BP6252_08686"
                      /product="thioesterase BP6252_08686"
-                     /label=BP6252_08686
+                     /label="BP6252_08686"
                      /protein_id="RDW69666.1"
                      /translation="MNQNPILIQRHHYRKTFAQKTPPEPLFLIHDGGGTVFSYFLLGSL
                      GRNVYGISNPHFGTDLTWTNGIASMAECYAKLIKETCPFGDILLGGWSLGGLVAVQIAQ
@@ -212,11 +215,12 @@ FEATURES             Location/Qualifiers
                      RQWTPPVWRFPMAEVQDGQSHMAGLKMNDTTTPLSPPAILFRATDNSLDSNTDVSEASD
                      TKVSNDGGSQALGFDRYENFDLREVVDTSGDHFSIFSNDNVNELSKKLKDACDKLTKKS
                      "
+                     /Pfam="Thioesterase"
      CDS             complement(join(31802..32775,32840..33209,33262..33510))
                      /codon_start=1
                      /locus_tag="Colemp__000011"
                      /product="cytochrome P450 monooxygenase CEP450-1"
-                     /label=CEP450-1
+                     /label="CEP450-1"
                      /protein_id="Colemp_:cds.g11.t1"
                      /translation="MFPATISDVIPIITSTKLFLYGAIGSLLFVILAFSLNRLTTWEYS
                      IPNEVQWIDRRKEAFSYLRAKARSLVRNKENVLEAYFKFNKLGNAAACAVAFGRPLLLL
@@ -228,12 +232,13 @@ FEATURES             Location/Qualifiers
                      PKGVTLDNGLHVPYGTRVGVSAAGIHVDDSVYENATTYNPGRFMVIDLDARGKPNPLWK
                      GTENYLAFGLGRRSCPGRWYVTDQLKLTVAHIFSKYEIKFEKAAKKTSALRKILPGAPQ
                      DHVMIRRRPKVAL"
+                     /Pfam="p450"
      CDS             complement(join(34750..35120,35244..35421,35501..35862,
                      35914..36451,36505..36864,36922..37107,37169..37789))
                      /codon_start=1
                      /locus_tag="Colemp__000012"
                      /product="aconitase CEHtyD"
-                     /label=CEHtyD
+                     /label="CEHtyD"
                      /protein_id="Colemp_:cds.g12.t1"
                      /translation="MPKSTIVSNLNGGFPKDAVRSIRILLDILAHTRGIVVDEQPNGED
                      HPSPVSKTDDRIYLRGSDVSHHDSTASYLGDFLDRLCEALDTVGKDAEADAFRHALQLY
@@ -251,12 +256,13 @@ FEATURES             Location/Qualifiers
                      CVIAKSFSFIYGRNQPNIGLLGINILDEDFYELARTGSDIKIDIPGRIVQIEGRSFSFA
                      LDDMELSLIKNRGLATAYKTFGKNVFASLCGTDSTLMVSELADLKLEGDSNGMNTVLAW
                      "
+                     /Pfam="Aconitase, Aconitase_C"
      CDS             complement(join(38514..38752,38809..39448,39532..39627,
                      39710..39781,39864..39938))
                      /codon_start=1
                      /locus_tag="Colemp__000013"
                      /product="isopropyl malate dehydrogenase CEHtyC"
-                     /label=CEHtyC
+                     /label="CEHtyC"
                      /protein_id="Colemp_:cds.g13.t1"
                      /translation="MAKEFDIVVFSGDYGGPEVMAEGLKVLSEIERQYHSEVSFSLKYH
                      LIGGASFDAHGTPITTEALDDAKAASAVLLGAVGGPKWDGAPVPVESGLGRLRKTLDAF
@@ -265,11 +271,12 @@ FEATURES             Location/Qualifiers
                      SHMLIDTAAMNMAHRPTSLNGIILTSNMFGDIISDEASAIPGSLGLLPSASLCAIPTVL
                      DASKVRGIYEPIHGSAPDIAGRGIINPTGMILSVAMMLRYSLAMPEAANSIEAAVSKVI
                      EEGCRTSDIGGNTSTADFGDAVVAALKSCSHKV"
+                     /Pfam="Iso_dh"
      CDS             complement(join(40678..40809,40864..42420,42524..42724))
                      /codon_start=1
                      /locus_tag="Colemp__000014"
                      /product="isopropyl malate synthase CEHtyA"
-                     /label=CEHtyA
+                     /label="CEHtyA"
                      /protein_id="Colemp_:cds.g14.t1"
                      /translation="MGESNMKDTNRTYTCCAGGQSLYSKYGERAPDIQLPDRQWPSRKL
                      TKSPIWMSTDLRDGNQALPNPMTLQQKWRMFHLLVSIGFKQIEVSFPCASQTEFDFTRQ
@@ -282,12 +289,13 @@ FEATURES             Location/Qualifiers
                      SVTLERGLAAEEICDLFLEVYHLKSSYSMQMLERLQSNFSRVPGLLQELEDVTELVNSA
                      VLVLSETLGIDVRHTVALSHSISSDEGKQPLNVAFVQCEIGETVPGLWGVGVGLTKDLA
                      VNRSLLSVARSYANMDTVTTKRIETNGINITNNAILQPLGAYFSVKADSALSI"
+                     /Pfam="HMGL-like"
      CDS             complement(join(43846..44079,44135..44904,44988..45020,
                      45088..45130))
                      /codon_start=1
                      /locus_tag="Colemp__000015"
                      /product="transaminase CEHtyB"
-                     /label=CEHtyB
+                     /label="CEHtyB"
                      /protein_id="Colemp_:cds.g15.t1"
                      /translation="MEAANFPLPPLKDVDWDHLGFEPVEVNGHVECIFSSKTGCWTEPE
                      FVTDPYLRVHGLAPGLNFAQQIFEGMKAFRSPSGEIQLFRPDQNALRFARSARCVSIPP
@@ -296,11 +304,12 @@ FEATURES             Location/Qualifiers
                      DSLSHSLIDEFSTSGFIGVLNDGGVPTLVVSDSQQVVPSITVDSICDVARGFNWHVEKR
                      PIPFSEVAQFSEVYAAGTAAVLVPIGSIRRRSTGEHIIYPVDYSSATSCFFRLSKALGD
                      VQQGVVPDHRSWIALITKP"
+                     /Pfam="Aminotran_4"
      CDS             complement(join(45547..46206,46265..46429,46484..46645))
                      /codon_start=1
                      /locus_tag="Colemp__000016"
                      /product="2OG-Fe(II)-dependent dioxygenase CEOXY2"
-                     /label=CEOXY2
+                     /label="CEOXY2"
                      /protein_id="Colemp_:cds.g16.t1"
                      /translation="MAIQTLNYRDFQDGSPEQSKKFCQALCDTLSTWGFAKIRNSTIPD
                      AVIDELFKYNKRFFALPEQIKQKAAHPAAPNPHRGWSAVGQEQLSRIAGFEKDEEREGF
@@ -308,11 +317,12 @@ FEATURES             Location/Qualifiers
                      PEDLLLSRHQTDTSELRILHYPSIPCEHLKSAMRIGEHSDFGTLTLLLQDSVGGLQVED
                      QKSPGTFIPVESDSIYEIIINVGDCLQRWTNRELQSANHRVHLPEGKNAKSGDILAERY
                      SVAYFGKPDREVLVDTLPEFCRGGKSRYNDHMNALQYNQTKLLRTYA"
+                     /Pfam="DIOX_N, 2OG-FeII_Oxy"
      CDS             join(47266..47583,47643..48311)
                      /codon_start=1
                      /locus_tag="Colemp__000017"
                      /product="2OG-Fe(II)-dependent dioxygenase CEOXY3"
-                     /label=CEOXY3
+                     /label="CEOXY3"
                      /protein_id="Colemp_:cds.g17.t1"
                      /translation="MDHIKEIENSPLSSLSLSRLEANIPEESKKLFEACVNEGFFYLDL
                      RDHKQLLSDYEALLEIMKNYFDQSLDQKMKDDHKSDTVGYEPVATSAGALDGLPDYYES
@@ -320,12 +330,13 @@ FEATURES             Location/Qualifiers
                      HKDGTVTRTNLTFLKYPKQNTVEHGVGHNRHTDIGTLTFLLSGQRGLQRLTSEGWCDVE
                      PRSGFAVVNVGDSLRFLSDCMFSSIIHRVLPVGSHQTEDRYTLAYFLRPEDEAVFKDFH
                      GNLISAKSWHDRKFDHFRESHDQQKKDSILTGGMEGNQKFLQSKIEA"
+                     /Pfam="DIOX_N, 2OG-FeII_Oxy"
      CDS             complement(join(48731..49042,49102..49427,49484..49646,
                      49710..49955,50010..50378,50462..50740))
                      /codon_start=1
                      /locus_tag="Colemp__000018"
                      /product="CoA ligase CELigase"
-                     /label=CELigase
+                     /label="CELigase"
                      /protein_id="Colemp_:cds.g18.t1"
                      /translation="MVFTSPKWCQDILMPIPEKELVGEFVMRRGHDLNDIPEDSPSSVC
                      AYTGKSYTIKDIRNNVNCLSKSLGQILGWDFHQGSSEDKVVAVCSLNSIDYVPLTWAIH
@@ -337,11 +348,12 @@ FEATURES             Location/Qualifiers
                      GDLLLRSPSVVGGYFGEAEAETTTFGSDGWLRTGDVAAFQQNSNGDSHLVIVDRKKDIM
                      KVKGIQVPPVEIEAQLVAHPAVDDAAVVAIEDEDAGERPFAFVVRSQKVMTDVDEKGLR
                      QAINKHIQNTLSEPFWLRQNIRFIEAIPKSHNGKSLKYKLKQQLITV"
+                     /Pfam="AA-adenyl-dom"
      CDS             join(52211..52372,52421..52594,52654..53316)
                      /codon_start=1
                      /locus_tag="Colemp__000019"
                      /product="2OG-Fe(II)-dependent dioxygenase CEOXY4"
-                     /label=CEOXY4
+                     /label="CEOXY4"
                      /protein_id="Colemp_:cds.g19.t1"
                      /translation="MEIKTLDFSRFHTGTEAERYEFSKLLLTGFASTGFVKLINHGFSR
                      EEISRTFEENRRFFELNDSVKAPIANEDGPKPQRGWSSVGAEKTGLLNTGGKINLSKPD
@@ -349,11 +361,12 @@ FEATURES             Location/Qualifiers
                      MQLPKGAFVEKCQGHASELRLNHYPGISVKTLEEGQTSRIWPHTDFGIITLLSQDDVGG
                      LEIKDKNHPTNFLPVPREDPAELVVNIGDTLERWTNGFLQAGLHQVTTPREMLNRCDET
                      LRPRRSNAFFLKAHRQMSVGPLSQFVAEKTPARYEDMTALAYQQRRTAIVY"
+                     /Pfam="DIOX_N, 2OG-FeII_Oxy"
      CDS             complement(join(53677..53905,53963..55812))
                      /codon_start=1
                      /locus_tag="Colemp__000020"
                      /product="hypothetical protein CEHYP"
-                     /label=CEHYP
+                     /label="CEHYP"
                      /protein_id="Colemp_:cds.g20.t1"
                      /translation="MHLSQSPGSGDTQNEDSIEMVETVRIVWKEIRASLTRKLCMEFRE
                      RLLVVLSSACQSNFAEAKKIAEQRLRDILDTTSSLFPANITYHAPTPGMSLCSSNAIDR
@@ -367,6 +380,7 @@ FEATURES             Location/Qualifiers
                      KRGAEAAFDADAKSAKDNQLKYRSKTQALSDLMRTLYPDLQPDPEGSVSTTGCEYNRKL
                      TKLRNRLSCARNWYQFEQEFPGAILALIPCAAGDLSISIDHVEKLPSDVLRIFLDYLKE
                      KRGVFLHKLSQALSRDLYDILTRRNVTQKYRLEQTDENALEDCLYDSDELLELCRTT"
+                     /Pfam="EcdJ"
 ORIGIN
         1 atgacggcat caaatggatt ggagagctcg gagaggcagg ttgatgggag cgggacacat
        61 cagagtggaa gtccaaacca aacagtccgc aactccaaca gcaatggaat tcgtgtcgat

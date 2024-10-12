@@ -1,39 +1,40 @@
-LOCUS       FBGC00569       21868 bp DNA     linear   UNA 08-APR-2023
+LOCUS       FBGC00569              21868 bp    DNA     linear   UNA 08-APR-2023
 DEFINITION  oxepinamide D.
 ACCESSION   FBGC00569
-VERSION     .
+VERSION     FBGC00569
 KEYWORDS    .
 SOURCE      Aspergillus ustus 3.3904
   ORGANISM  Aspergillus ustus 3.3904
+            .
 REFERENCE   1  (bases 1 to 21868)
   AUTHORS   Zheng L, Wang H, Ludwig-Radtke L, Li SM.
-  TITLE     Oxepin Formation in Fungi Implies Specific and Stereoselective Ring 
+  TITLE     Oxepin Formation in Fungi Implies Specific and Stereoselective Ring
             Expansion.
   JOURNAL   Org Lett 2021;23:2024-2028
-  PUBMED    33656898
+   PUBMED   33656898
 REFERENCE   2  (bases 1 to 21868)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Apr 8, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1021/acs.orglett.1c00166"; journalName: "Org Lett"; date: 
-            "2021"; volume: "23"; pages: "2024-2028"
-COMMENT     The only annotation on JOMC01000000 are predicted secondary 
-            metabolite biosynthetic gene clusters on 44 
-            contigs.##Genome-Assembly-Data-START##
+  JOURNAL   Exported Apr 8, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     ##Genome-Assembly-Data-START##
             Assembly Date         :: 25-FEB-2014
             Assembly Method       :: CLC Workbench v. 6
             Assembly Name         :: Austus1.0
             Genome Coverage       :: 100.0x
             Sequencing Technology :: Illumina HiSeq ##Genome-Assembly-Data-END##
+            ##Genome-Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1021/acs.orglett.1c00166"; journalName: "Org Lett"; date:
+            "2021"; volume: "23"; pages: "2024-2028"
+            The only annotation on JOMC01000000 are predicted secondary
+            metabolite biosynthetic gene clusters on 44
 FEATURES             Location/Qualifiers
      source          1..21868
                      /strain="3.3904"
                      /mol_type="genomic DNA"
                      /country="China"
                      /isolation_source="perished rubber"
-                     /collection_date=Dec-2010
+                     /collection_date="Dec-2010"
                      /db_xref="taxon:40382"
                      /organism="Aspergillus ustus"
                      /submitter_seqid="AUSC_58"
@@ -41,7 +42,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="HK57_00501"
                      /product="FAD-dependent monooxygenase OpaC2"
-                     /label=opaC2
+                     /label="opaC2"
                      /note="AUSM36_001"
                      /protein_id="KIA75686.1"
                      /translation="MLDPRIAAAPQSSGITVIIVGLGIAGLTTAISCHLRGHTVIGFDK
@@ -53,12 +54,14 @@ FEATURES             Location/Qualifiers
                      ATVAITLQLAGKRNIKLGLNAMMELRKHRATYIQHNAWRVNDEWFRSDQEERTGDKASP
                      TPGVMDWIIDHCCQTYAWDEFDQVRECIETGIPYHPSNLPAECYEKATNFLEQGGHGLP
                      F"
-     CDS             complement(join(2231..2405,2485..2645,2723..2833,2901..3224,
-                     3285..3376,3436..3550,3628..3889,3961..4024,4066..4330))
+                     /Pfam="FAD_binding_3"
+     CDS             complement(join(2231..2405,2485..2645,2723..2833,
+                     2901..3224,3285..3376,3436..3550,3628..3889,3961..4024,
+                     4066..4330))
                      /codon_start=1
                      /locus_tag="HK57_00502"
                      /product="cytochrome P450 monooxygenase OpaB2"
-                     /label=opaB2
+                     /label="opaB2"
                      /note="AUSM36_002"
                      /protein_id="KIA75687.1"
                      /translation="MVAMESYYPSSNVQIMFTSLAVGILVAGLVHQAFSRLISHPLSKI
@@ -71,11 +74,12 @@ FEATURES             Location/Qualifiers
                      GYEVDGYFLPGGTILSHSIYLIHHNPQCFSDPKQFRPERWLGEEGQALEQYYIPFSRGT
                      RSCIGTSLAYHEMYSFLAILFSRFDLELVDTNAESMEWTDQMFARRKADVKIRLVRDRW
                      SGEVF"
+                     /Pfam="p450"
      CDS             join(6090..6515,6575..17866)
                      /codon_start=1
                      /locus_tag="HK57_00503"
                      /product="nonribosomal peptide synthetase OpaA2"
-                     /label=opaA2
+                     /label="opaA2"
                      /note="AUSM36_003"
                      /protein_id="KIA75688.1"
                      /translation="MAIEDAAKPDEPTWVCLFPRLTGEPPGKGTRETTHFDPMTNSLLD
@@ -145,11 +149,12 @@ FEATURES             Location/Qualifiers
                      VRIRLDQIGSISDLLSLVQNQYQQTVQHDEIELPTIIERCTPWARETDLHSIVQHQNIP
                      LTHDLSLGRGLKTQFSLNGYFRPGKEVFIFTEPMGDILSVQLCVNPNVIGLERASGLHR
                      RLVKLIGDLCYLDGGEAVEKLLKVV"
+                     /Pfam="NRPS_C, AA-adenyl-dom, ACP_PCP, NRPS_E, NRPS_CT"
      CDS             join(19994..20299,20365..21171,21227..21868)
                      /codon_start=1
                      /locus_tag="HK57_00504"
                      /product="major facilitator superfamily transporter OpaD2"
-                     /label=opaD2
+                     /label="opaD2"
                      /note="AUSM36_004"
                      /protein_id="KIA75689.1"
                      /translation="MLGRIVDRLSRNSLGTLSRYDAKQLSSTEFTQDARLDHESPEQLG
@@ -163,6 +168,7 @@ FEATURES             Location/Qualifiers
                      GFGLPVTVVQAVLPGDRISSATALIAFTQSISGALFIFVGQSVFQTRLTLGLLRENLDA
                      RMALESGATRIRETIPPDMVPVALQAYNFAITGAFYVGLALAAASLVGAVPQRWLSVKG
                      KKIEPGVA"
+                     /Pfam="MFS_1"
 ORIGIN
         1 atgctggacc ctcgaattgc cgccgcccct cagtcatctg gtatcacagt gataatcgtc
        61 ggtctgggga tcgcggggct gactacagct atttcttgcc atcttagagg tcataccgta
