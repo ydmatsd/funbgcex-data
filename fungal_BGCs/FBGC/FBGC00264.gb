@@ -1,36 +1,37 @@
-LOCUS       FBGC00264       24352 bp DNA     linear   UNA 28-JAN-2023
+LOCUS       FBGC00264              24352 bp    DNA     linear   UNA 28-JAN-2023
 DEFINITION  trihazone F.
 ACCESSION   FBGC00264
-VERSION     .
+VERSION     FBGC00264
 KEYWORDS    .
 SOURCE      Trichoderma harzianum T6776
   ORGANISM  Trichoderma harzianum T6776
+            .
 REFERENCE   1  (bases 1 to 24352)
   AUTHORS   Zhu Y, Wang J, Mou P, Yan Y, Chen M, Tang Y.
-  TITLE     Genome mining of cryptic tetronate natural products from a PKS-NRPS 
+  TITLE     Genome mining of cryptic tetronate natural products from a PKS-NRPS
             encoding gene cluster in Trichoderma harzianum t-22.
   JOURNAL   Org Biomol Chem 2021;19:1985-1990
-  PUBMED    33570538
+   PUBMED   33570538
 REFERENCE   2  (bases 1 to 24352)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Jan 28, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1039/d0ob02545c"; journalName: "Org Biomol Chem"; date: "2021"; 
-            volume: "19"; pages: "1985-1990"
+  JOURNAL   Exported Jan 28, 2023 from SnapGene 6.2.1 https://www.snapgene.com
 COMMENT     ##Genome-Assembly-Data-START##
             Assembly Date         :: 2014
             Assembly Method       :: Velvet v. 1.2.07
             Genome Coverage       :: 100.0x
             Sequencing Technology :: Illumina MiSeq ##Genome-Assembly-Data-END##
+            ##Genome-Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1039/d0ob02545c"; journalName: "Org Biomol Chem"; date: "2021";
+            volume: "19"; pages: "1985-1990"
 FEATURES             Location/Qualifiers
      source          1..24352
                      /strain="T6776"
                      /mol_type="genomic DNA"
                      /country="Italy: Tuscany, Pisa, Colignola"
                      /isolation_source="soil"
-                     /collection_date=1998
+                     /collection_date="1998"
                      /identified_by="Dr. Sabrina Sarrocco"
                      /db_xref="taxon:5544"
                      /organism="Trichoderma harzianum"
@@ -39,7 +40,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="THAR02_03175"
                      /product="trans-acting enoylreductase ThnE"
-                     /label=thnE
+                     /label="thnE"
                      /protein_id="KKP04695.1"
                      /translation="MSSATTMGQLPQHQTAIVAQGPGQMTIQKDAPVPALAHDMVLVKT
                      ATVAINPVDVKSLDYSPAPGAIIGFDFAGTIVALGSDAVKEGRLAVGDRVAGVVYGMDR
@@ -48,12 +49,13 @@ FEATURES             Location/Qualifiers
                      PGCADAIKAYTNNELDYALDCIAEAETTQLCYAAIGRAGGRYVAVEPFRESIAQSRINT
                      VKASWFNVMTVWGRKVELGGEYAREASLEDREFGARSFAAVQALLDRGYVTTHPIKLMS
                      GGWEGVVEGVAKIRSQPPSGYKLVCQVA"
+                     /Pfam="fPKS_ER"
      CDS             complement(join(3588..4327,4391..4586,4653..4791,
                      4855..4997))
                      /codon_start=1
                      /locus_tag="THAR02_03176"
                      /product="FAD-dependent monooxygenase ThnD"
-                     /label=thnD
+                     /label="thnD"
                      /protein_id="KKP04696.1"
                      /translation="MHVLIAGAGLGGLTLAQNLRKRGISYEIFERDEHKDARFQGWAIA
                      LHTITDELVASMPSDMPDLRQATDHMSPLKIPTQICLYPAESNVRVGWEDCPETPFIRA
@@ -63,11 +65,12 @@ FEATURES             Location/Qualifiers
                      GVKKETHIWRDLELSSLPAGRVVLMGDAAHVMTPFRGEGGYNTFIDAMALAKILDRLDK
                      EDKTHDIESIKNSVNEYNAEMLERGVKSVQLSREWVDGSKVNSKKPLLAPMKVIPFSEV
                      PLEVAA"
+                     /Pfam="FAD_binding_3"
      CDS             join(6551..6862,6951..7601)
                      /codon_start=1
                      /locus_tag="THAR02_03177"
                      /product="2OG-Fe(II)-dependent dioxygenase ThnC"
-                     /label=thnC
+                     /label="thnC"
                      /protein_id="KKP04697.1"
                      /translation="MSEEDISLPIIDLSGYLSPKSPDDRQNVIEQIRDACRDFGFFQLK
                      GHGIPISLQKELLKSLGTLFSMPKEEKMKLSYLENPCRRGYEASGMSMREGDAMPDSKE
@@ -75,11 +78,12 @@ FEATURES             Location/Qualifiers
                      TDLMEAFAKRPLVQMKLIRYPSPSVTLPGQFGVGAHNDFGGVTVLLQQAGKDGLEVWLE
                      KQQKWLSVPALEDVYVINCGDMIMKWSGGRYKSVRHRVINKTEGERHSCATFWHGDVFA
                      TNPLNPEDPNKETVGQLLVKRFRHQMSIHKEGLAQVGEL"
+                     /Pfam="DIOX_N, 2OG-FeII_Oxy"
      CDS             join(8716..8949,9002..10145,10198..10508)
                      /codon_start=1
                      /locus_tag="THAR02_03178"
                      /product="major facilitator superfamily transporter ThnB"
-                     /label=thnB
+                     /label="thnB"
                      /note="revised sequence"
                      /protein_id="KKP04698.1"
                      /translation="MSGDYSATRKSENVDTSTTASQEDSSLAPEQPEKLVGASDVAAVS
@@ -92,13 +96,14 @@ FEATURES             Location/Qualifiers
                      VAAVATGLLYTLDVDTSSGKWIGYQVLVGAGLAFPFQNALNILQAEVDADDMSPATSSL
                      YFFQILGGAFSISAAQAAFNNRLLHSLTINAPGVSPLLVLATGASDLRSVFSADELPGV
                      ILSYMDGLKAAFAVSVGLVGMAFLVSFIVPWKKINLKPGEAVAMA"
+                     /Pfam="MFS_1"
      CDS             join(11837..13118,13201..16227,16297..19311,19394..21292,
                      21371..21985,22059..24352)
                      /codon_start=1
                      /locus_tag="THAR02_03179"
-                     /product="polyketide synthase-nonribosomal peptide 
+                     /product="polyketide synthase-nonribosomal peptide
                      synthetase ThnA"
-                     /label=thnA
+                     /label="thnA"
                      /protein_id="KKP04699.1"
                      /translation="MGSQNLEPIAIVGSACRFPGGVNSPSALWKLLEDPKDVCTDIPSD
                      RFDTTGFYHPDGKHHGATNVRKSYLLQEDLRLFDTAFFNISPNEADSMDPQQRILLETV
@@ -169,6 +174,8 @@ FEATURES             Location/Qualifiers
                      AATRWASERILERSAADLGVPSSIYRLCPATTRQDAPQALLDEFTHYGSIIRATPDLSG
                      WSGRLDMLPAVLTAQWLCEALLNYEERSGIVQFRNYESLLTVTGAELTASFDQEQSGSG
                      NLEKISLLKWIGKIKKAGFPYFLASHEIAIEKEGSVNDTKLEMRR"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_DH, PKS_NRPS_MT, fPKS_KR,
+                     ACP_PCP, Condensation, AA-adenyl-dom, fPKS_R"
 ORIGIN
         1 tcaggcgacc tgacaaacca atttgtaacc agatggcggc tggctgcgta tcttggctac
        61 accctcaaca acaccttccc aaccaccaga catgagcttg atgggatgag ttgtcacata

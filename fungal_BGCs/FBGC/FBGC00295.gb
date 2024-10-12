@@ -1,36 +1,35 @@
-LOCUS       FBGC00295       51710 bp DNA     linear   UNA 13-APR-2023
+LOCUS       FBGC00295              51710 bp    DNA     linear   UNA 13-APR-2023
 DEFINITION  W493 B.
 ACCESSION   FBGC00295
-VERSION     .
+VERSION     FBGC00295
 KEYWORDS    .
 SOURCE      Fusarium pseudograminearum CS3096
   ORGANISM  Fusarium pseudograminearum CS3096
+            .
 REFERENCE   1  (bases 1 to 51710)
-  AUTHORS   Sørensen JL, Sondergaard TE, Covarelli L, Fuertes PR, Hansen FT, 
+  AUTHORS   Sørensen JL, Sondergaard TE, Covarelli L, Fuertes PR, Hansen FT,
             Frandsen RJ, Saei W, Lukassen MB, Wimmer R, Nielsen KF, Gardiner DM,
             Giese H.
-  TITLE     Identification of the biosynthetic gene clusters for the 
-            lipopeptides fusaristatin A and W493 B in Fusarium graminearum and 
+  TITLE     Identification of the biosynthetic gene clusters for the
+            lipopeptides fusaristatin A and W493 B in Fusarium graminearum and
             F. pseudograminearum.
   JOURNAL   J Nat Prod 2014;77:2619-25
-  PUBMED    25412204
+   PUBMED   25412204
 REFERENCE   2  (bases 1 to 51710)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Apr 13, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: "10.1021/np500436r";
-            journalName: "J Nat Prod"; date: "2014"; volume: "77"; pages: 
-            "2619-25"
-COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final 
-            NCBI review. The reference sequence is identical to 
-            CM003198.##Genome-Assembly-Data-START##
-            Assembly Method       :: CLCBio Genomics Workbench v. 3 (April
-                                     2010)
+  JOURNAL   Exported Apr 13, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     ##Genome-Assembly-Data-START##
+            Assembly Method       :: CLCBio Genomics Workbench v. 3 (April 2010)
             Assembly Name         :: FP7
             Genome Coverage       :: 180X
-            Sequencing Technology :: Illumina GA; Illumina GAIIx 
+            Sequencing Technology :: Illumina GA; Illumina GAIIx
             ##Genome-Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi: "10.1021/np500436r";
+            journalName: "J Nat Prod"; date: "2014"; volume: "77"; pages:
+            "2619-25"
+            PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to
 FEATURES             Location/Qualifiers
      source          1..51710
                      /chromosome="1"
@@ -42,7 +41,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="FPSE_09183"
                      /product="nonribosomal peptide synthetase NRPS32"
-                     /label=NRPS32
+                     /label="NRPS32"
                      /db_xref="GeneID:20367800"
                      /protein_id="XP_009260575.1"
                      /translation="MENPNNGQAHFEPSKLVLGRVAADLFDTDVDSLDWGKSFIMLGGD
@@ -197,12 +196,13 @@ FEATURES             Location/Qualifiers
                      ARAVPCRVTCEPEWTAKTLLEQIKQQQVDSMAHEGLELQQIAQRFMGWSEEVESDAPDM
                      RVSMVNHTKAQKQTMSLGSTVYERVTVDLSNSYASVDFAIESVEQEDGSLSLGMAYASD
                      RISEQLARTLSNGFQAVLLEIIEDSGCNVSHLDDILRDLVVKQ"
+                     /Pfam="ACP_PCP, NRPS_E, NRPS_C, AA-adenyl-dom, NRPS_CT"
      CDS             complement(join(28332..28658,28720..29051,29109..29271,
                      29326..29571,29639..30043,30098..30364))
                      /codon_start=1
                      /locus_tag="FPSE_09184"
                      /product="CoA ligase FPSE_09184"
-                     /label=FPSE_09184
+                     /label="FPSE_09184"
                      /db_xref="GeneID:20367801"
                      /protein_id="XP_009260576.1"
                      /translation="MIFTAPAYAPALPSPLPLQQTIGDFCLAKRRERQGASDSLFIEAA
@@ -216,11 +216,12 @@ FEATURES             Location/Qualifiers
                      FIVDRIRDMIKVKGNQVAPGQIEDHLTKHAAVAETAVIGIADEVAGERALAFIVRESSH
                      AREMSEADLRKIIQEHNDLELPEVCRLQDRIIFVDELPKSASGKILKRELRKQVATWSP
                      PQK"
+                     /Pfam="AA-adenyl-dom"
      CDS             join(31016..31870,31933..32736,32811..35042,35099..35125)
                      /codon_start=1
                      /locus_tag="FPSE_09185"
                      /product="ABC transporter FPSE_09185"
-                     /label=FPSE_09185
+                     /label="FPSE_09185"
                      /db_xref="GeneID:20367802"
                      /protein_id="XP_009260577.1"
                      /translation="MADHQARQSGSSQRTVIPDPQLAKEKSNLTNYLRVFAYATRWDFC
@@ -246,11 +247,12 @@ FEATURES             Location/Qualifiers
                      SSVPEERIHEVCRDVFIHDVIVSLPDGYNTEVGAMSLSGGQKQRIAIARALIRNPKLLL
                      LDEATSALDSESEKIVQAAFEKARKRRTMIAVAHRLATIQDADIIFVFDQGMVVEKGTH
                      GELLQKRGIYWDMCQTQALDQ"
+                     /Pfam="ABC_membrane, ABC_tran"
      CDS             complement(join(35508..35588,35640..36073,36128..36365))
                      /codon_start=1
                      /locus_tag="FPSE_09186"
                      /product="thioesterase FPSE_09186"
-                     /label=FPSE_09186
+                     /label="FPSE_09186"
                      /db_xref="GeneID:20367803"
                      /protein_id="XP_009260578.1"
                      /translation="MIRQIQKRPAGSNANPLFLFHDASGTISNYLALGLLGRDVYAIAD
@@ -258,13 +260,14 @@ FEATURES             Location/Qualifiers
                      GVLMIDSPFPDYRHALSLALESPPSEDGPASTRSDIEKAMLQTVTMLHKWKIPVWRREP
                      QPHTVMLCAGNDVDSDHVALSLVDQFRDSPTLGWNERAGPSVVNESYPIQGHHFSIFDP
                      RNIDSVTKTIVTVTAAMEMMAPEDDEDY"
+                     /Pfam="Thioesterase"
      CDS             join(37558..38760,38816..38865,38921..44195,44254..44580,
                      44638..45477)
                      /codon_start=1
                      /gene="PKS6"
                      /locus_tag="FPSE_09187"
                      /product="polyketide synthase PKS40"
-                     /label=PKS40
+                     /label="PKS40"
                      /db_xref="GeneID:20367804"
                      /protein_id="XP_009260579.1"
                      /translation="MAPNMTAPEPIAIIGMSCRFPGGASEPSRLWDTLSEGKSAWSEVP
@@ -311,12 +314,14 @@ FEATURES             Location/Qualifiers
                      LSNDGPDCQASIGVMAEASPNNAEWLEQRRISHLVKDSANGAAGLNEGSGSDADHIGHI
                      RSAKTAEEALDAVGQAVLAELSKLTVTPVDRILPHRTLDSYGVDSLVAVELRNWVVAIV
                      AADLSLLLIRESRSIEELIHLVAGKSRLVPAKLQDAVSKLA"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_DH, PKS_NRPS_MT, fPKS_ER,
+                     fPKS_KR, ACP_PCP"
      CDS             join(47944..47952,48014..48223,48283..48577,48634..49265,
                      49330..49461)
                      /codon_start=1
                      /locus_tag="FPSE_09188"
                      /product="transcription factor FPSE_09188"
-                     /label=FPSE_09188
+                     /label="FPSE_09188"
                      /note="revised sequence"
                      /db_xref="GeneID:20367805"
                      /protein_id="XP_009260580.1"
@@ -328,12 +333,13 @@ FEATURES             Location/Qualifiers
                      AYYQRSSKGNEWLRQEQRLNRMRRLPVLLKELHLAAQGWGQWERRNFQEQIIKSTEDIL
                      FAELQDHLATRRNSPHASPCSIEQRSQARQHMMEHDADPEAELPNTWTLLTSLSTRYST
                      IASQDLQSDMPRLVSKFLAAGSELNS"
+                     /Pfam="TqaK"
      CDS             complement(join(49877..50365,50427..51161,51220..51462,
                      51521..51616,51675..51710))
                      /codon_start=1
                      /locus_tag="FPSE_09189"
                      /product="putative transcription factor FPSE_09189"
-                     /label=FPSE_09189
+                     /label="FPSE_09189"
                      /note="revised sequence"
                      /db_xref="GeneID:20367806"
                      /protein_id="XP_009260581.1"
@@ -347,6 +353,7 @@ FEATURES             Location/Qualifiers
                      YSLPSSASPGAYSGQTIRKDRHTTALREAFIKNWKSENFSQFVDVCKSIVDELAMDQMT
                      GNGRADTSACERVFNQAVWLWAQVFPQTTGIRTGHEDSSRDGGRENKAMNRNRSTGNSV
                      EIEDEYNVQTSTQLE"
+                     /Pfam="FPSE_09189"
 ORIGIN
         1 ctattgtttc acgaccaaat ctctcagtat gtcatccagg tggctgacgt tacatcctga
        61 atcctcaata atttccaaca aaactgcttg gaatccgtta gataatgttc ttgccaactg

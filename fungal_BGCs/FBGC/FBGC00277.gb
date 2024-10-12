@@ -1,48 +1,49 @@
-LOCUS       FBGC00277       42672 bp DNA     linear   UNA 08-MAY-2023
+LOCUS       FBGC00277              42672 bp    DNA     linear   UNA 08-MAY-2023
 DEFINITION  acurin A.
 ACCESSION   FBGC00277
-VERSION     .
+VERSION     FBGC00277
 KEYWORDS    .
 SOURCE      Aspergillus aculeatus ATCC 16872
   ORGANISM  Aspergillus aculeatus ATCC 16872
+            .
 REFERENCE   1  (bases 1 to 42672)
   AUTHORS   Wolff PB, Nielsen ML, Slot JC, Andersen LN, Petersen LM, Isbrandt T,
             Holm DK, Mortensen UH, Nødvig CS, Larsen TO, Hoof JB.
-  TITLE     Acurin A, a novel hybrid compound, biosynthesized by individually 
+  TITLE     Acurin A, a novel hybrid compound, biosynthesized by individually
             translated PKS- and NRPS-encoding genes in Aspergillus aculeatus.
   JOURNAL   Fungal Genet Biol 2020;139:103378
-  PUBMED    32234543
+   PUBMED   32234543
 REFERENCE   2  (bases 1 to 42672)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported May 8, 2023 from SnapGene 6.2.2
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
+  JOURNAL   Exported May 8, 2023 from SnapGene 6.2.2 https://www.snapgene.com
+COMMENT     ##ata-START##
+            Assembly Method       :: Newbler v. 2.3
+            Assembly Name         :: Aspac1
+            Long Assembly Name    :: Aspergillus aculeatus ATCC16872 v1.1 Genome
+            Coverage              :: 32.17x
+            Sequencing Technology :: 454; Sanger dideoxy sequencing
+            ##ata-END##
+            ##Metadata-START##
+            Organism Display Name :: Aspergillus aculeatus ATCC 16872
+            GOLD Stamp ID         :: Gp0003551
+            ##Metadata-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
             "10.1016/j.fgb.2020.103378"; journalName: "Fungal Genet Biol"; date:
             "2020"; volume: "139"; pages: "103378"
-COMMENT     URL -- http://genome.jgi.doe.gov/Aspac1
+            URL -- http://genome.jgi.doe.gov/Aspac1
             JGI Project ID: 52394
             The DNA was provided by David Culley (David.Culley@pnnl.gov)
             The strain is available from David Culley
             Contacts: David Culley (David.Culley@pnnl.gov)
             Assembly and annotation done by JGI.
-            The JGI and collaborators endorse the principles for the 
-            distribution and use of large scale sequencing data adopted by the 
-            larger genome sequencing community and urge users of this data to 
+            The JGI and collaborators endorse the principles for the
+            distribution and use of large scale sequencing data adopted by the
+            larger genome sequencing community and urge users of this data to
             follow them. It is our intention to publish the work of this project
-            in a timely fashion and we welcome collaborative interaction on the 
-            project and analysis. 
+            in a timely fashion and we welcome collaborative interaction on the
+            project and analysis.
             (http://www.genome.gov/page.cfm?pageID=10506376).##Genome-Assembly-D
-            ata-START##
-            Assembly Method       :: Newbler v. 2.3
-            Assembly Name         :: Aspac1
-            Long Assembly Name    :: Aspergillus aculeatus ATCC16872 v1.1 Genome
-            Coverage       :: 32.17x
-            Sequencing Technology :: 454; Sanger dideoxy sequencing 
-            ##Genome-Assembly-Data-END####Metadata-START##
-            Organism Display Name :: Aspergillus aculeatus ATCC 16872
-            GOLD Stamp ID         :: Gp0003551
-            ##Metadata-END##
 FEATURES             Location/Qualifiers
      source          1..42672
                      /chromosome="Unknown"
@@ -58,7 +59,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="ASPACDRAFT_48"
                      /product="polyketide synthase AcrA"
-                     /label=acrA
+                     /label="acrA"
                      /db_xref="InterPro:IPR013217"
                      /db_xref="InterPro:IPR013968"
                      /db_xref="InterPro:IPR014030"
@@ -108,11 +109,13 @@ FEATURES             Location/Qualifiers
                      APEMITGLHRHSLREEVAKAFWAENPRFSLHTLVEESQTVVVDAASAKQVPLAEAVAEA
                      ETLEEVDGVIQEAFVVKMERMLQAAKGSIERGQPLINLGVDSLIAVEIRSWFLKELEVD
                      MPVLKLVGGMSVGELCREAASEVLKSLPIKV"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_DH, PKS_NRPS_MT, fPKS_KR,
+                     ACP_PCP"
      CDS             7837..9126
                      /codon_start=1
                      /locus_tag="ASPACDRAFT_61993"
                      /product="hydrolase AcrC-1"
-                     /label=acrC-1
+                     /label="acrC-1"
                      /note="revised sequence"
                      /db_xref="InterPro:IPR004045"
                      /db_xref="InterPro:IPR004046"
@@ -127,11 +130,12 @@ FEATURES             Location/Qualifiers
                      RMPGWFINGWLSRRLSDGFFNWVVNKLAGWSFQLRWEFGHSMWVYGVESPAEVMRCMQQ
                      YHARGYLQKVKCSTFVTGAADTFYFTPKQNTEPIFEALGHVPLQKKRLWIGKGVEGGGL
                      QAKIGAWAVFHQKMFVWLDEQFEIKRGTIV"
+                     /Pfam="Abhydrolase_6"
      CDS             join(9429..9482,9550..10173)
                      /codon_start=1
                      /locus_tag="ASPACDRAFT_61993"
                      /product="glutathione S-transferase AcrC-2"
-                     /label=acrC-2
+                     /label="acrC-2"
                      /note="revised sequence"
                      /db_xref="InterPro:IPR004045"
                      /db_xref="InterPro:IPR004046"
@@ -143,11 +147,12 @@ FEATURES             Location/Qualifiers
                      FAENEVFRNMMAVVLWRVGMREYDAGVDGEGAKGLEEALAVVERHLAVGEKEFLATEGE
                      LSLVDLTLASALFWAFMHYIDEEMRGRFPRVVRWYLRVVGAERVREVFGEPSLVAVRKE
                      ASV"
+                     /Pfam="GST_N, GST_C"
      CDS             join(10420..12009,12196..12270)
                      /codon_start=1
                      /locus_tag="ASPACDRAFT_1881869"
                      /product="major facilitator superfamily transporter MFS"
-                     /label=MFS
+                     /label="MFS"
                      /db_xref="InterPro:IPR011701"
                      /db_xref="JGIDB:Aspac1_1881869"
                      /protein_id="OJJ98488.1"
@@ -161,13 +166,14 @@ FEATURES             Location/Qualifiers
                      PPILASLPESDVATGTATWIFMRNFGAIWGTAIPAAVFNTKANALASQTIDDPTVRGLL
                      VNGGAYERATKAFVSSFKSRPAVMRAIRRLYVVSLREVWQVSIAFCGVGFLLCFLVKAY
                      RLREELNTEYGMQLWRPVFKRLVCTWYLAGSANLMCT"
+                     /Pfam="MFS_1"
      CDS             join(12573..12860,12925..12979,13029..13130,13180..13194,
                      13253..13310,13378..13593,13649..14025,14080..14363)
                      /codon_start=1
                      /locus_tag="ASPACDRAFT_1903457"
                      /product="aldehyde dehydrogenase ASPACDRAFT_1903457"
-                     /label=ASPACDRAFT_1903457
-                     /note="GO_function: GO:16491 - oxidoreductase activity; 
+                     /label="ASPACDRAFT_1903457"
+                     /note="GO_function: GO:16491 - oxidoreductase activity;
                      GO_process: GO:8152 - metabolic process"
                      /db_xref="InterPro:IPR015590"
                      /db_xref="JGIDB:Aspac1_1903457"
@@ -181,11 +187,12 @@ FEATURES             Location/Qualifiers
                      EKKGSEGLFVRPVVLDNPPDEAGVLQEEVFGPIVSCKPFDTADEVVRIANESTTGLSAI
                      VWTADAELAERVSAQLDVGNVFVNGPPKPNAYVPFGGHKQSGVGVEYGLEGLLGFCQVK
                      SVHVYK"
+                     /Pfam="Aldedh"
      CDS             join(14711..14919,14966..16259)
                      /codon_start=1
                      /locus_tag="ASPACDRAFT_45003"
                      /product="cytochrome P450 monooxygenase AcrD"
-                     /label=acrD
+                     /label="acrD"
                      /note="GO_function: GO:4497; iron ion binding -
                      monooxygenase activity [Evidence 20037] [PMID 5506]"
                      /db_xref="InterPro:IPR001128"
@@ -200,11 +207,12 @@ FEATURES             Location/Qualifiers
                      RNDPRPTDCDYSMSGMVYLQACIDETMRLVPGQATGSPRESRKDETLLGYDIPKGTTVF
                      PTTQEVHLDETLWPNATEFLPERWLDVYAKGEANSLPYYPFSAGSRVCIGKHFAAQEMH
                      LSLVSLLRRFQFEYVSGQDESTVFRIAQQMRGHRYLMTVGRR"
+                     /Pfam="p450"
      CDS             join(16628..16839,16904..17816)
                      /codon_start=1
                      /locus_tag="ASPACDRAFT_122283"
                      /product="methyltransferase AcrG"
-                     /label=acrG
+                     /label="acrG"
                      /db_xref="JGIDB:Aspac1_122283"
                      /protein_id="OJJ98491.1"
                      /translation="MSPAKVSANDVPMHGNGFYSSNSALQHSAMLNALPLLAAAAAASK
@@ -214,11 +222,12 @@ FEATURES             Location/Qualifiers
                      ACRSAMIDMLQAGVLSPAVANVFEVPAYNRTIADVRRTLAEGEVVAAWEVEEVFERKVV
                      HPALQELEARREAAPGKEEEHAEWYARTVVDWLMAVVAGYFVKAVREGMGVTDQTVLDG
                      LLAEWVERTRGRFLEGHRNEPVECWFVYVRLGRK"
+                     /Pfam="Methyltransf_7"
      CDS             18570..20351
                      /codon_start=1
                      /locus_tag="ASPACDRAFT_122285"
                      /product="FAD-dependent monooxygenase AcrE"
-                     /label=acrE
+                     /label="acrE"
                      /note="GO_function: GO:16491 - oxidoreductase activity"
                      /db_xref="InterPro:IPR006076"
                      /db_xref="JGIDB:Aspac1_122285"
@@ -234,16 +243,16 @@ FEATURES             Location/Qualifiers
                      TIEVQGRWIVDAIKQMERQAIRSINPSREAAHAWKLQIRAFQNASFFPTVHSTYMGGSI
                      PGKPFELVSYPAGMPMYARQIRDALPTFPGFEVVKADGEKVENLAPGGLEATTNFFERL
                      FGMPPSSAKEDLAKQDH"
+                     /Pfam="FMO-like"
      CDS             join(23820..24378,24451..25787)
                      /codon_start=1
                      /locus_tag="ASPACDRAFT_122290"
                      /product="transcription factor AcrR"
-                     /label=acrR
-                     /note="GO_component: GO:5634 - nucleus;
-                     GO_function: GO:3700; zinc ion binding - transcription 
-                     factor activity [PMID 8270];
-                     GO_process: GO:6355 - regulation of transcription, 
-                     DNA-dependent"
+                     /label="acrR"
+                     /note="GO_component: GO:5634 - nucleus; GO_function:
+                     GO:3700; zinc ion binding - transcription factor activity
+                     [PMID 8270]; GO_process: GO:6355 - regulation of
+                     transcription, DNA-dependent"
                      /db_xref="InterPro:IPR001138"
                      /db_xref="JGIDB:Aspac1_122290"
                      /protein_id="OJJ98493.1"
@@ -258,11 +267,12 @@ FEATURES             Location/Qualifiers
                      NVQMINTVLTKIKSSTQRMLLGPDYLPPSSCSSSASTSSTASTTSCSTRAPPSSATGGA
                      HHPATAGSIFFHHAHSHSHSSSDHLFSQPEGRGYAPYNHAFHPPPPSRHTHNYPTPETI
                      TPPSSVLGGVSGTTPPPFVSGVDHVVRRALTEVQELELSLRNRARAIQQWSEEGF"
+                     /Pfam="EqxR"
      CDS             join(26786..28165,28230..28289)
                      /codon_start=1
                      /locus_tag="ASPACDRAFT_79887"
                      /product="amino acid transporter ASPACDRAFT_79887"
-                     /label=ASPACDRAFT_79887
+                     /label="ASPACDRAFT_79887"
                      /db_xref="InterPro:IPR013057"
                      /db_xref="JGIDB:Aspac1_79887"
                      /protein_id="OJJ98494.1"
@@ -275,12 +285,13 @@ FEATURES             Location/Qualifiers
                      ICTIVAGRLIHGRIYANSVTRYINTPKGWITWLILITVLTILSWVIAEAIPFFDDLLSI
                      ASALFTSGFSFYLPPIMWYVLIREGPWYSRENLMTSIVNFLVFIFGLVVLVGGMYSSVQ
                      DIINNYREGDVRSPFTCGSVS"
+                     /Pfam="Aa_trans"
      CDS             join(29118..29211,29274..29853,29944..30376)
                      /codon_start=1
                      /locus_tag="ASPACDRAFT_122294"
-                     /product="2OG-Fe(II)-dependent dioxygenase 
+                     /product="2OG-Fe(II)-dependent dioxygenase
                      ASPACDRAFT_122294"
-                     /label=ASPACDRAFT_122294
+                     /label="ASPACDRAFT_122294"
                      /note="GO_function: GO:16491 - oxidoreductase activity"
                      /db_xref="InterPro:IPR003819"
                      /db_xref="JGIDB:Aspac1_122294"
@@ -292,11 +303,12 @@ FEATURES             Location/Qualifiers
                      PHPYIWMSPARALPTGLGLYSEDRELAPSDLPPIDPAKIQILPMLWKNPVTGHPALQIH
                      PSAVRKIHLKDGSVIDDLKQVRDIVYRLQRPAISPQYVYPHDWEEGDLVLFHNRGVLHS
                      VVGAFGEGEVRLFRQCNLAAGEAPAGME"
+                     /Pfam="TauD"
      CDS             complement(join(31555..32828,32903..33072,33126..33649))
                      /codon_start=1
                      /locus_tag="ASPACDRAFT_1857753"
                      /product="hypothetical protein ASPACDRAFT_1857753"
-                     /label=ASPACDRAFT_1857753
+                     /label="ASPACDRAFT_1857753"
                      /db_xref="JGIDB:Aspac1_1857753"
                      /protein_id="OJJ98496.1"
                      /translation="MATTIPVSDPREETDDVQLHLLSAPTKGSPTAPLHHEIPLSQPPG
@@ -311,14 +323,15 @@ FEATURES             Location/Qualifiers
                      SKTIRDSVFTSSSGRTGNQTTGHTMVVVPFVAVHWEWIALPAVVWVLSCAVWLGTAVQT
                      RRLHLYTWGTNPLPLLFLYRGTGVHENENENGGGDADTDADAHQQWSRPTAWTASALDH
                      AAEKLRVRLVTNAHEVALHD"
+                     /Pfam="DUF3176"
      CDS             complement(34525..39183)
                      /codon_start=1
                      /locus_tag="ASPACDRAFT_122295"
                      /product="nonribosomal peptide synthetase AcrB"
-                     /label=acrB
-                     /note="GO_function: GO:3824; cofactor binding - catalytic 
-                     activity [PMID 48037];
-                     GO_process: GO:8152 - metabolic process"
+                     /label="acrB"
+                     /note="GO_function: GO:3824; cofactor binding - catalytic
+                     activity [PMID 48037]; GO_process: GO:8152 - metabolic
+                     process"
                      /db_xref="InterPro:IPR000873"
                      /db_xref="InterPro:IPR001242"
                      /db_xref="InterPro:IPR006163"
@@ -352,11 +365,12 @@ FEATURES             Location/Qualifiers
                      VVHRPASIVARQPGTPGTSQSEPPAMDIMHNMVQYARIMQCFPATEGVNWRFDFVGVDA
                      VASGILASALGEEDESEGVKYVHHCNERKLSPRELKKELEEEAGCVFEEVEVGEWVRRA
                      KECGMDGLVAATLVDLMERQRGVVFTEMGLDC"
+                     /Pfam="Condensation, AA-adenyl-dom, ACP_PCP, fPKS_R"
      CDS             join(41014..41756,41812..41863,41914..42125,42195..42672)
                      /codon_start=1
                      /locus_tag="ASPACDRAFT_62004"
                      /product="cytochrome P450 monooxygenase AcrF"
-                     /label=acrF
+                     /label="acrF"
                      /note="GO_function: GO:4497; iron ion binding -
                      monooxygenase activity [Evidence 20037] [PMID 5506]"
                      /db_xref="InterPro:IPR001128"
@@ -371,6 +385,7 @@ FEATURES             Location/Qualifiers
                      PDKAPAVTVPKGSLIWVGIHTIHHDAEFFPCPDEFHPERFMTAKTITLADGRTEAVTAG
                      WNGHAPPADAYRPFEKGPRMCIGSEMAMIEIRVVLAMTLRRFRFESAYAEYRRRHPDEV
                      EAAGGRTEAFGDEAYQVFSSTAKPKSGVPMYVYTKE"
+                     /Pfam="p450"
 ORIGIN
         1 tcacacttta ataggcaaac tcttgagcac ctcactcgcc gcctcccgac acaactcccc
        61 gacggacatg ccgcccacca gcttgagcac cggcatgtcc acctccaact ccttcaagaa

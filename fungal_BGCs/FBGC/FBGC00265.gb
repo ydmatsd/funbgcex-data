@@ -1,23 +1,23 @@
-LOCUS       FBGC00265       25456 bp DNA     linear   UNA 28-JAN-2023
+LOCUS       FBGC00265              25456 bp    DNA     linear   UNA 28-JAN-2023
 DEFINITION  fusarisetin A.
 ACCESSION   FBGC00265
-VERSION     .
+VERSION     FBGC00265
 KEYWORDS    .
 SOURCE      Fusarium sp. FN080326
   ORGANISM  Fusarium sp. FN080326
+            .
 REFERENCE   1  (bases 1 to 25456)
   AUTHORS   Kato N, Nogawa T, Hirota H, Jang JH, Takahashi S, Ahn JS, Osada H.
-  TITLE     A new enzyme involved in the control of the stereochemistry in the 
+  TITLE     A new enzyme involved in the control of the stereochemistry in the
             decalin formation during equisetin biosynthesis.
   JOURNAL   Biochem Biophys Res Commun 2015;460:210-5
-  PUBMED    25770422
+   PUBMED   25770422
 REFERENCE   2  (bases 1 to 25456)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Jan 28, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1016/j.bbrc.2015.03.011"; journalName: "Biochem Biophys Res 
+  JOURNAL   Exported Jan 28, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1016/j.bbrc.2015.03.011"; journalName: "Biochem Biophys Res
             Commun"; date: "2015"; volume: "460"; pages: "210-5"
 FEATURES             Location/Qualifiers
      source          1..25456
@@ -30,9 +30,9 @@ FEATURES             Location/Qualifiers
                      11637..12267))
                      /codon_start=1
                      /gene="fsa1"
-                     /product="polyketide synthase-nonribosomal peptide 
+                     /product="polyketide synthase-nonribosomal peptide
                      synthetase Fsa1"
-                     /label=fsa1
+                     /label="fsa1"
                      /protein_id="BAR40283.1"
                      /translation="MDASEPIAVIGSACRFPGGSDSPSKLWELLKEPRDLLSKVPPERY
                      NADAFYHADATHHGTTNVRHSYFLSEDPSSFDNNFFNIQPGEAEAIDPQQRLLMEVVYQ
@@ -102,11 +102,13 @@ FEATURES             Location/Qualifiers
                      ESAQQSEEETISIVNELMQIVKLLGCRPSFDGVGGFVDVMPVNEIVEAIHETALNSQTG
                      EGLCILEHKAHQRAYVRSFATVVESDDGLSKLPCIPILEWFGRAKKAGFSYFLASQDLI
                      LGSQLFSRR"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_DH, PKS_NRPS_MT, fPKS_KR,
+                     ACP_PCP, Condensation, AA-adenyl-dom, fPKS_R"
      CDS             12807..13931
                      /codon_start=1
                      /gene="fsa2"
                      /product="Diels-Alderase Fsa2"
-                     /label=fsa2
+                     /label="fsa2"
                      /protein_id="BAR40284.1"
                      /translation="MSNVTVSAFTVDKSISEEHVLPSSFIPGSGNIFPKFTSAIPKTAW
                      ELWYFDGISKDDKSSIVIGVTRNAEGLKHGGFKVQVFVIWADERTWHRDLFFPESVVSI
@@ -115,11 +117,12 @@ FEATURES             Location/Qualifiers
                      SYYLRTQVGPYAMQIMRIFPPAGSEDQPSTMARLYREGQLVCVAQHVVTREDALMTHDS
                      LILSKQDNSDSEDVVTGGYRDKNTGYTVEFVEKGNEGQRWKFQVRHERIIWNTPTSRPG
                      PDATGNTGFVEVLCGGTIGESYEGVGTGGQCELS"
+                     /Pfam="Fsa2"
      CDS             14487..15548
                      /codon_start=1
                      /gene="fsa3"
                      /product="trans-acting enoylreductase Fsa3"
-                     /label=fsa3
+                     /label="fsa3"
                      /protein_id="BAR40285.1"
                      /translation="MVQRQQTALVGTDDGGIRLSSTETIPNITGDSVLIKTKAVSVNPV
                      DTKMIGPYVTPGAVAGFDFAGVVEMVGPDATKCDIRVGDRVCTAIMGMNPLDPTVGAFA
@@ -128,11 +131,12 @@ FEATURES             Location/Qualifiers
                      NIRYALDCISTTQSMQFCYQAIGRAGGKYTALEPFSEAVARTRKMVKPDWIMGPQMLGK
                      EIRWPEPHWRPANAEMGEFGVYWTAVLRKLLDNNLIRPHAIVVREGGLEKVLDGIEDIR
                      AKKISGKKLVFTL"
+                     /Pfam="fPKS_ER"
      CDS             join(16129..16897,16944..17254)
                      /codon_start=1
                      /gene="fsa4"
                      /product="methyltransferase Fsa4"
-                     /label=fsa4
+                     /label="fsa4"
                      /protein_id="BAR40286.1"
                      /translation="MSSILSRYPEAETPVHGYFYSMVELAVVRVFVQHQIFDAIADDGT
                      SIEELATKTGMELNLLERLSNFLVASKVLSSPKPGFIGLPSETKMFQQRRAKLFYSHIF
@@ -141,11 +145,12 @@ FEATURES             Location/Qualifiers
                      QDLPNVIKDVPEEEGILNQVQKVGSSFFDKQPTKGALVYYIRRVLNDWPDDECVTILKN
                      IREACASDSRLLISENLLPDEPSVSLAAADLWMMNFAGKRRNVRMFNDLASRSGFEISS
                      IAKDKTSNSAVIEMLPVQI"
+                     /Pfam="Methyltransf_2"
      CDS             complement(17556..18953)
                      /codon_start=1
                      /gene="fsa5"
                      /product="transcription factor Fsa5"
-                     /label=fsa5
+                     /label="fsa5"
                      /protein_id="BAR40287.1"
                      /translation="MSTQNNQSIRSSCDRCRSHKLKCTVAPENTRSGSSRCTRCIRAQV
                      TCVFGHRSQSKRSTNVKKADLRSGTNGQETTSMQASTIVPGSPDLWVGRQEVEEGLHIG
@@ -156,12 +161,13 @@ FEATURES             Location/Qualifiers
                      YTSQTAHASPKWGLGLQLGELPSADETCTKVYTAVQILLDAFQSVEDVVGLPRSLSAVR
                      QQSCGKEEEGESGDVFNRASLWTDFLAKSVFKATVKSSSEEDCEEIRQLSIKVKSLKSL
                      IRERMKL"
+                     /Pfam="EqxR"
      CDS             complement(join(20694..20743,20804..20935,21002..22295,
                      22351..22382,22441..23054,23118..23251))
                      /codon_start=1
                      /gene="fsa6"
                      /product="transcription factor Fsa6"
-                     /label=fsa6
+                     /label="fsa6"
                      /protein_id="BAR40288.1"
                      /translation="MADQAQDVRPTEWGPGKTPQGRARLPSSRPREKPQLSCNLCRRRK
                      LRCDRQRPCSSCAQRELGLSCTYASDRVLSNGVAHQTRTTTQDRIRHLESLVYDLMQNS
@@ -176,11 +182,12 @@ FEATURES             Location/Qualifiers
                      CQLYQERWRVSSLVNHDFLLATSILCYYLQHAWGATQRVSESDSFDETIMASLRRSHDI
                      WLQSSNSSKEARKVVRALAVVLGRVNTPSADSVGEAGLVFGLPSTYPPSTTNDYSQETP
                      GGLGSQFPMFNSALMPNWATFADDLISAPMITPTAEWQEMDETVDAMGSLNWPWNLQ"
+                     /Pfam="CghF"
      CDS             join(23776..24026,24081..24459,24510..24587,24641..25456)
                      /codon_start=1
                      /gene="fsa7"
                      /product="major facilitator superfamily transporter Fsa7"
-                     /label=fsa7
+                     /label="fsa7"
                      /protein_id="BAR40289.1"
                      /translation="MATKDPAVTTPDDSQLEAGRGNTGNNAGDALEKPSSSTGTMVDEP
                      ADPNVVDWDGPDDPEHPLNWSKTQKNLHLVIVSLFTLAANLAATMFAPGAEELATEFSI
@@ -191,6 +198,7 @@ FEATURES             Location/Qualifiers
                      GLAYLGLGIGMILGLVLFSVLSDKMLKQKSGAARPEDRLILMKWLGPVTPLGLFIYGWT
                      AKYAVHWIVPIIGTFVVGFGSLFVVIPGQIYLVDSFGAEAAASAMAANLLVRSPFGAFL
                      DLTASPLYESLGLGWGNSVLGFICLLFTPVPWFFYTYGERMRTHFKVDL"
+                     /Pfam="MFS_1"
 ORIGIN
         1 tcaacgcctt gaaaatagct gtgatccgag aataagatcc tgcgatgcca agaaataaga
        61 aaagcctgcc ttcttcgccc ttccgaacca ttctaagatg gggatacagg ggagtttgct

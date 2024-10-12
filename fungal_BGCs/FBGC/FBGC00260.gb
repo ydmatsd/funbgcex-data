@@ -1,23 +1,23 @@
-LOCUS       FBGC00260       29819 bp DNA     linear   UNA 09-MAY-2023
+LOCUS       FBGC00260              29819 bp    DNA     linear   UNA 09-MAY-2023
 DEFINITION  cytochalasin E.
 ACCESSION   FBGC00260
-VERSION     .
+VERSION     FBGC00260
 KEYWORDS    .
 SOURCE      Aspergillus clavatus NRRL 1
   ORGANISM  Aspergillus clavatus NRRL 1
+            .
 REFERENCE   1  (bases 1 to 29819)
   AUTHORS   Qiao K, Chooi YH, Tang Y.
   TITLE     Identification and engineering of the cytochalasin gene cluster from
             Aspergillus clavatus NRRL 1.
   JOURNAL   Metab Eng 2011;13:723-32
-  PUBMED    21983160
+   PUBMED   21983160
 REFERENCE   2  (bases 1 to 29819)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported May 9, 2023 from SnapGene 6.2.2
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1016/j.ymben.2011.09.008"; journalName: "Metab Eng"; date: 
+  JOURNAL   Exported May 9, 2023 from SnapGene 6.2.2 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1016/j.ymben.2011.09.008"; journalName: "Metab Eng"; date:
             "2011"; volume: "13"; pages: "723-32"
 FEATURES             Location/Qualifiers
      source          1..29819
@@ -31,9 +31,9 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="ACLA_078640"
                      /product="transcription factor CcsR"
-                     /label=ccsR
-                     /note="encoded by transcript ACLA_078640A;
-                     predicted by EVM2"
+                     /label="ccsR"
+                     /note="encoded by transcript ACLA_078640A; predicted by
+                     EVM2"
                      /protein_id="EAW09115.1"
                      /translation="MVRNMDLYRRSACDRCRRQKLRCVRPLKHGACEHPNNIEALEPCE
                      RCSRAGTPCVSTLPPPRKLSRVERLSGLTSVGQLDNLPLQPLIPKQASSHRPGSGSAKS
@@ -45,14 +45,15 @@ FEATURES             Location/Qualifiers
                      YDTIFSQIYSSLLAGTDSTSPSMPPVLPGLQIGGFSLDQHCDLQIEILIQLSARMLDRI
                      EGKLGVTDTKDSNAPVDDQEWSRNGSILDTASASTILDALFKQNHSETRAKPGKGARAG
                      SVRNIMKNIRAELTVHK"
+                     /Pfam="EqxR"
      CDS             complement(join(3539..5028,5085..5505))
                      /codon_start=1
                      /locus_tag="ACLA_078650"
                      /product="FAD-dependent monooxygenase CcsB"
-                     /label=ccsB
-                     /note="encoded by transcript ACLA_078650A;
-                     predicted by EVM2 similar to cyclododecanone monooxygenase 
-                     (GI:16209564) [Rhodococcus ruber] PMID: 11591693"
+                     /label="ccsB"
+                     /note="encoded by transcript ACLA_078650A; predicted by
+                     EVM2 similar to cyclododecanone monooxygenase (GI:16209564)
+                     [Rhodococcus ruber] PMID: 11591693"
                      /protein_id="EAW09116.1"
                      /translation="MGSLLSIVLRSATRIIRPIIPSSVLSLLSGPKPVHPLQTLQFDKE
                      AILEKYQAERAKRLRQDGVSQFKSARSGAYDRFRQDVARPQSREPIEAETKVLIVGAGF
@@ -66,18 +67,19 @@ FEATURES             Location/Qualifiers
                      PNLLYVGPAQTGVTANWTHTTYAVGDHIAEFVAKSLRDGQYQAFEPTEEAEEEWGRRNE
                      EGSEMRLLFAQSCPPGYYNREGKPEEIPARWAYFPKGIIEWTRITQEWREKGDYQGMDK
                      R"
+                     /Pfam="Pyr_redox_3"
      CDS             complement(join(6420..9298,9367..11406,11462..12165,
                      12223..14679,14742..18793))
                      /codon_start=1
                      /locus_tag="ACLA_078660"
-                     /product="polyketide synthase-nonribosomal peptide 
+                     /product="polyketide synthase-nonribosomal peptide
                      synthetase CcsA"
-                     /label=ccsA
-                     /note="encoded by transcript ACLA_078660A;
-                     predicted by EVM2 similar to polyketide synthase/peptide 
-                     synthetase ACE1 (GI:47109414) [Magnaporthe grisea] PUBMED =
-                     15319478 similar to equisetin synthetase (GI:55823917) 
-                     [Fusarium heterosporum]"
+                     /label="ccsA"
+                     /note="encoded by transcript ACLA_078660A; predicted by
+                     EVM2 similar to polyketide synthase/peptide synthetase ACE1
+                     (GI:47109414) [Magnaporthe grisea] PUBMED = 15319478
+                     similar to equisetin synthetase (GI:55823917) [Fusarium
+                     heterosporum]"
                      /protein_id="EAW09117.1"
                      /translation="MGSFQNSSEPIAIIGTGCRFPGGCDSPSKLWELLRAPRDLLKEIP
                      ESRFSVDSFYHPDNAHHGTSNVRHSYFLEEDLRQFDVQFFGIKPIEANAVDPQQRLLLE
@@ -148,14 +150,15 @@ FEATURES             Location/Qualifiers
                      VASKWASERYLEKVSDQCGLPIWIHRPSSIVGEGAPDTDMMASLLGYSRTLRAIPQTDG
                      WTGWLDFVSADRVAMQIADEVYEDYSWPGTVKYLYEAGDREIPLSDLRGVLERETGESF
                      ESIPLEEWVLRAEGQGLHPLLGEYLRRVSGIPLVLPRLVQQGSFF"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_DH, PKS_NRPS_MT, fPKS_KR,
+                     ACP_PCP, Condensation, AA-adenyl-dom, fPKS_R"
      CDS             complement(join(20494..20909,20971..21868,21921..22199))
                      /codon_start=1
                      /locus_tag="ACLA_078670"
                      /product="cytochrome P450 monooxygenase CcsD"
-                     /label=ccsD
-                     /note="encoded by transcript ACLA_078670A;
-                     predicted by EVM2
-                     revised sequence"
+                     /label="ccsD"
+                     /note="encoded by transcript ACLA_078670A; predicted by
+                     EVM2 revised sequence"
                      /protein_id="EAW09118.1"
                      /translation="MWSLQSNIIEPYQVLRQSLEPLKLSRWQMTKLIARSMVNEISPRT
                      LVLLAVTCSLLVLYFSTRERQPVMPRELPVVKAKSYHFEDIIVEGRKKYPDRPYLAVNN
@@ -167,13 +170,14 @@ FEATURES             Location/Qualifiers
                      AKPVKLSVGPTIPAGAIIAVDAAAINRSPSLWKDPDEFDMNRFHDLRQVPGNENKFHLL
                      NTGSDSPGWGDGTQACPGRFFANSTLKIAFAYILQNYDVKRKEGSSPPKMTPLANGTWA
                      PDDKAAALFKSRN"
+                     /Pfam="p450"
      CDS             complement(join(23336..23836,23907..24716))
                      /codon_start=1
                      /locus_tag="ACLA_078680"
                      /product="hydrolase CcsE"
-                     /label=ccsE
-                     /note="encoded by transcript ACLA_078680A;
-                     predicted by EVM2"
+                     /label="ccsE"
+                     /note="encoded by transcript ACLA_078680A; predicted by
+                     EVM2"
                      /protein_id="EAW09119.1"
                      /translation="MHKLFKNAPFFDFEAIRILGTTCYGGADVAEVFEAVDQIKNNDPE
                      TWETAWRIQAERAEKLAAEALEHGDRDAALAGYLRASNYTRASGYMYVSRAESSGEALV
@@ -183,14 +187,14 @@ FEATURES             Location/Qualifiers
                      AHVSPIFIHAWTSGWISGGFVDNLMALLSRLSFQLRWEISVTGTFFGLSSPSQILLHMK
                      KYTLRSTEEEPEGFLSRVICPVLLSGAGKSLYLDVDNHTRQCYDGLVNVAERNKQLWIP
                      ESEGQGSLQAKMGAFRLCNQRTYRFLDECFGIMRKSL"
+                     /Pfam="Abhydrolase_6"
      CDS             complement(join(25053..25530,25594..26354))
                      /codon_start=1
                      /locus_tag="ACLA_078690"
                      /product="Diels-Alderase CcsF"
-                     /label=ccsF
-                     /note="encoded by transcript ACLA_078690A;
-                     predicted by EVM2
-                     revised sequence"
+                     /label="ccsF"
+                     /note="encoded by transcript ACLA_078690A; predicted by
+                     EVM2 revised sequence"
                      /protein_id="EAW09120.1"
                      /translation="MRTSILLSSFSLFAHVRSWQPWPEHWLHDNPATFDSQMPLTEQCQ
                      ISDLTAFEMVKGRKIVDFTTSAIESFEAPKINPLNSTAGEQWEFDGVSEDGMQSFVFGF
@@ -200,14 +204,15 @@ FEATURES             Location/Qualifiers
                      NINPGETRQSVVLFKDGLPVFRSTRAEASDVDDYALVSKTYGGAVTGTLKDKVTGYQLE
                      LVSPGRMQHYTFFVEHANLGFEYILGEGVGGSGFSGHSRGGHVGLSQYQGIALTEALTF
                      PKNSPLFRSNYVA"
+                     /Pfam="Fsa2"
      CDS             join(26671..27236,27296..27824)
                      /codon_start=1
                      /locus_tag="ACLA_078700"
                      /product="trans-acting enoylreductase CcsC"
-                     /label=ccsC
-                     /note="encoded by transcript ACLA_078700A;
-                     predicted by EVM2 similar to SP:P54006: protein TOXD 
-                     [Cochliobolus carbonum]"
+                     /label="ccsC"
+                     /note="encoded by transcript ACLA_078700A; predicted by
+                     EVM2 similar to SP:P54006: protein TOXD [Cochliobolus
+                     carbonum]"
                      /protein_id="EAW09121.1"
                      /translation="MTVPTTIRLPSKQTVILEGDDLRLRIDDNAPLPVLRPDEVLVRTM
                      AVAINPCDYKMHERFPSPGAVDGCDFSGVILAIGAGVPSLGVSFQIGDRVCGAVHGSNP
@@ -216,14 +221,15 @@ FEATURES             Location/Qualifiers
                      GQKIKAYTRNTLRYVLDPFTDAKSIALCCGAMGRAGGRYACLEMYPDYLVEKRTLRVGF
                      VMGPALLGHRLELDYGYERAADPEMRQFGIRWYRSIQWLLSKGQLKPHPLRVLPGRFDA
                      ILQGIEMLKSKSVSGEKLVVSIGM"
+                     /Pfam="fPKS_ER"
      CDS             join(28023..28211,28270..28410,28461..28545,28604..28672,
                      28730..29332,29401..29819)
                      /codon_start=1
                      /locus_tag="ACLA_078710"
                      /product="cytochrome P450 monooxygenase CcsG"
-                     /label=ccsG
-                     /note="encoded by transcript ACLA_078710A;
-                     predicted by EVM2"
+                     /label="ccsG"
+                     /note="encoded by transcript ACLA_078710A; predicted by
+                     EVM2"
                      /protein_id="EAW09122.1"
                      /translation="MMITLFTLAVVSIGFFLWWLLTVQPAVTKRALKHIPELRFEDNDT
                      PERYTQDSRSLLFRGYDKYLRHGIPFQMRHPIEELGPQVLLPMKYLDEVKYASTSLFSF
@@ -234,6 +240,7 @@ FEATURES             Location/Qualifiers
                      VAKMRKLDSFMKESQRVHPIGFITAQRMTVRPHTFKDGLHLPAGVIFQFPADAVHHDPA
                      IYPRPDQFAGYRFLHLRETVDANRYHFASVSDTMLGFGAGSHACPGRFFTSLAIKLILV
                      VLLTQYEVKLADCDGSRPANGFNDFNMGPSREATIMIRKRSGL"
+                     /Pfam="p450"
 ORIGIN
         1 tcatttatga actgtcaact ctgctctgat attcttcatg atattcctga ccgacccagc
        61 ccttgcccct ttccctggct ttgcacgcgt ttctgaatgg ttctgtttga agagcgcatc

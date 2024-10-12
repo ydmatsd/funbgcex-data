@@ -1,28 +1,28 @@
-LOCUS       FBGC00271       29180 bp DNA     linear   UNA 09-MAY-2023
+LOCUS       FBGC00271              29180 bp    DNA     linear   UNA 09-MAY-2023
 DEFINITION  fusarin C.
 ACCESSION   FBGC00271
-VERSION     .
+VERSION     FBGC00271
 KEYWORDS    .
 SOURCE      Fusarium fujikuroi IMI 58289
   ORGANISM  Fusarium fujikuroi IMI 58289
+            .
 REFERENCE   1  (bases 1 to 29180)
   AUTHORS   Niehaus EM, Kleigrewe K, Wiemann P, Studt L, Sieber CM, Connolly LR,
             Freitag M, Guldener U, Tudzynski B, Humpf HU.
-  TITLE     Genetic manipulation of the Fusarium fujikuroi fusarin gene cluster 
-            yields insight into the complex regulation and fusarin biosynthetic 
+  TITLE     Genetic manipulation of the Fusarium fujikuroi fusarin gene cluster
+            yields insight into the complex regulation and fusarin biosynthetic
             pathway.
   JOURNAL   Chem Biol 2013;20:1055-66
-  PUBMED    23932525
+   PUBMED   23932525
 REFERENCE   2  (bases 1 to 29180)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported May 9, 2023 from SnapGene 6.2.2
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1016/j.chembiol.2013.07.004"; journalName: "Chem Biol"; date: 
+  JOURNAL   Exported May 9, 2023 from SnapGene 6.2.2 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1016/j.chembiol.2013.07.004"; journalName: "Chem Biol"; date:
             "2013"; volume: "20"; pages: "1055-66"
-COMMENT     Sequencing was performed by Eurofins MWG Operon, Germany Guldener 
-            U., Wiemann P., Sieber C., Munsterkotter M., Tudzynski B. 
+            Sequencing was performed by Eurofins MWG Operon, Germany Guldener
+            U., Wiemann P., Sieber C., Munsterkotter M., Tudzynski B.
             Westfaelische Wilhelms-Universitaet Muenster
             Institut fuer Biologie und Biotechnologie der Pflanzen, Schlossplatz
             8, 48143 Muenster, Germany
@@ -37,9 +37,9 @@ FEATURES             Location/Qualifiers
      CDS             complement(join(1..4356,4410..10963,11017..11857))
                      /codon_start=1
                      /locus_tag="FFUJ_10058"
-                     /product="polyketide synthase-nonribosomal peptide 
+                     /product="polyketide synthase-nonribosomal peptide
                      synthetase Fus1"
-                     /label=fus1
+                     /label="fus1"
                      /db_xref="EnsemblGenomes-Gn:FFUJ_10058"
                      /db_xref="EnsemblGenomes-Tr:CCT73260"
                      /db_xref="GOA:S0EEY3"
@@ -136,11 +136,13 @@ FEATURES             Location/Qualifiers
                      KWASEVILEKYASQYNLPVWIHRPSNITGPNAPKADLMQNIFHYSVKTASLPDLASWSG
                      CFDFVPVDVVAAGIAGSIYETQDTVAYKHHCGREKISVEDLPSYLEAKHGKIETISVEE
                      WLERSKAAGFDEVTAALVEKTLSRGGIVPWLRKEAN"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_DH, PKS_NRPS_MT, fPKS_KR,
+                     ACP_PCP, Condensation, AA-adenyl-dom, fPKS_R"
      CDS             14653..15912
                      /codon_start=1
                      /locus_tag="FFUJ_10057"
                      /product="hydrolase Fus2"
-                     /label=fus2
+                     /label="fus2"
                      /db_xref="EnsemblGenomes-Gn:FFUJ_10057"
                      /db_xref="EnsemblGenomes-Tr:CCT73261"
                      /db_xref="GOA:S0EE80"
@@ -156,11 +158,12 @@ FEATURES             Location/Qualifiers
                      LSGWVSDGVFNWVVDGLTAVNFQIAWEFGHGKWVFGVETPADVLRVMQKISLKGGYLEK
                      IKCPTLITGAADSFYFTPDINANIIFEGLTALEPNDKHLWIGKGVEGGGLQAKIGALAV
                      VHHKMFTWLDSTFAIKRDVL"
+                     /Pfam="FrsA-like"
      CDS             join(16745..16768,16832..17440)
                      /codon_start=1
                      /locus_tag="FFUJ_10056"
                      /product="glutathione S-transferase Fus3"
-                     /label=fus3
+                     /label="fus3"
                      /db_xref="EnsemblGenomes-Gn:FFUJ_10056"
                      /db_xref="EnsemblGenomes-Tr:CCT73262"
                      /db_xref="GOA:S0EHD0"
@@ -174,11 +177,12 @@ FEATURES             Location/Qualifiers
                      PAFEGPDGFCLVESDAIAQYVAQSGPQASQLLGQDAMSSAKIRQWISFFAEEIYPTVLD
                      LVMWRVGLGAFDETTETKALTQLVYGLSVLEKHLGTGALLVGDKLTLADLTGASTLLWA
                      FMHIVDEPMRQQYPNVVAWYLKVVQNEEVEEVFGKPNFIEKRRLGAK"
+                     /Pfam="GST_N, GST_C"
      CDS             complement(17685..19004)
                      /codon_start=1
                      /locus_tag="FFUJ_10055"
                      /product="aspartic protease Fus4"
-                     /label=fus4
+                     /label="fus4"
                      /db_xref="EnsemblGenomes-Gn:FFUJ_10055"
                      /db_xref="EnsemblGenomes-Tr:CCT73263"
                      /db_xref="GOA:S0ELJ9"
@@ -194,11 +198,12 @@ FEATURES             Location/Qualifiers
                      AVKTAKRTPPLAVVDEGSEGLGAPLSLNGYKYLVRHIKSAKLASKAIVQNIQQQGSSGY
                      NTANQDWYTVSCDGLDEFPNLVYQLDGRKKYTISPGDYVTKLTDMPGSVCYLNVNVWKY
                      GRTENGDARVVLLGKAFLKRKYLVLNFEERSFGLAPLLTG"
+                     /Pfam="Asp"
      CDS             19794..20495
                      /codon_start=1
                      /locus_tag="FFUJ_10054"
                      /product="esterase Fus5"
-                     /label=fus5
+                     /label="fus5"
                      /db_xref="EnsemblGenomes-Gn:FFUJ_10054"
                      /db_xref="EnsemblGenomes-Tr:CCT73264"
                      /db_xref="InterPro:IPR005645"
@@ -210,11 +215,12 @@ FEATURES             Location/Qualifiers
                      SQGARATASILLEQQREAFTHDALFGVFFCGTFPPFIPDAPDISLPTVHILGLTDPYLR
                      ESEELLEHCTQQSVRRVIKFNGGHHMPTSSDVTQKIADVITMTYRTSQRKKVSNIWRKK
                      VPDCRSLALES"
+                     /Pfam="FSH1"
      CDS             21607..23274
                      /codon_start=1
                      /locus_tag="FFUJ_10053"
                      /product="major facilitator superfamily transporter Fus6"
-                     /label=fus6
+                     /label="fus6"
                      /db_xref="EnsemblGenomes-Gn:FFUJ_10053"
                      /db_xref="EnsemblGenomes-Tr:CCT73265"
                      /db_xref="GOA:S0EEY7"
@@ -232,12 +238,13 @@ FEATURES             Location/Qualifiers
                      GTVFTSTLPPILASLPDSDVATATGAWTFIRNFGSIWGVAIPAAVFNNHVNHAAPKISD
                      SSVKSLLVDGGAYEHATQHFIKSLSPNPDLKTQVIQVYLEGLKVVWQVSLAFCLLGFIL
                      CFFVRSLTLRDELNTEFGLKEEKPNSNNMSSEEGVVRD"
+                     /Pfam="MFS_1"
      CDS             join(23653..23934,23996..24050,24103..24204,24253..24267,
                      24315..24372,24427..24642,24690..25063,25123..25406)
                      /codon_start=1
                      /locus_tag="FFUJ_10052"
                      /product="aldehyde dehydrogenase Fus7"
-                     /label=fus7
+                     /label="fus7"
                      /db_xref="EnsemblGenomes-Gn:FFUJ_10052"
                      /db_xref="EnsemblGenomes-Tr:CCT74093"
                      /db_xref="GOA:S0ENH1"
@@ -256,11 +263,12 @@ FEATURES             Location/Qualifiers
                      AAEGFFIQPTILKSPPPDADVVQQENFGPIVSCIKFSSLDEAISLANNSDTGLAASVWS
                      SDVSAARRVAAKLEVGNVYINGPPQPDPYVPFGGHKQSGLGVEYGLPGLLSFCQTKSTY
                      LYK"
+                     /Pfam="Aldedh"
      CDS             join(26014..26160,26210..26310,26361..27657)
                      /codon_start=1
                      /locus_tag="FFUJ_10051"
                      /product="cytochrome P450 monooxygenase Fus8"
-                     /label=fus8
+                     /label="fus8"
                      /db_xref="EnsemblGenomes-Gn:FFUJ_10051"
                      /db_xref="EnsemblGenomes-Tr:CCT73266"
                      /db_xref="GOA:S0EE84"
@@ -278,11 +286,12 @@ FEATURES             Location/Qualifiers
                      KKLIAEVDKWYPPSEPDRVTECAYSQTGMTYLQACIDETMRLIPGQATGSPRETSKQES
                      LLGYKIPRGTTVFPNTQEAHLDGSIWEQPEKYIPERWLEIYSQNQTSAMPYWPFSAGSR
                      ICVGKNFAFQEMHISLTTLLRKFTFEYVPGQDETTVFRIAQQLETDSYKVRVKKRF"
+                     /Pfam="p450"
      CDS             join(28065..28255,28304..29180)
                      /codon_start=1
                      /locus_tag="FFUJ_10050"
                      /product="methyltransferase Fus9"
-                     /label=fus9
+                     /label="fus9"
                      /db_xref="EnsemblGenomes-Gn:FFUJ_10050"
                      /db_xref="EnsemblGenomes-Tr:CCT73267"
                      /db_xref="GOA:S0EHD6"
@@ -297,6 +306,7 @@ FEATURES             Location/Qualifiers
                      IPLSVAQAFRVPTYNRTLSDVKKVMDEFTQTWKVHDLFEDDVMHPAFHKLKIQSNPSLE
                      ASHKYAEVVIDWMMAVCSGYFTKALQVGSQGGYTKQEEEGLLQVWVTRTKEFFIRDYKD
                      KEVICSFIYIRLERL"
+                     /Pfam="Methyltransf_7"
 ORIGIN
         1 ctagtttgct tcttttcgaa gccaaggaac aattccccct ctgctcaacg tcttctcaac
        61 taacgccgca gtaacctcat caaaccctgc agccttcgaa cgctctaacc actcttcaac

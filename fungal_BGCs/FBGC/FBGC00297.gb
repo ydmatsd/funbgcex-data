@@ -1,31 +1,31 @@
-LOCUS       FBGC00297       28365 bp DNA     linear   UNA 08-FEB-2023
+LOCUS       FBGC00297              28365 bp    DNA     linear   UNA 08-FEB-2023
 DEFINITION  beauveriolide I.
 ACCESSION   FBGC00297
-VERSION     .
+VERSION     FBGC00297
 KEYWORDS    .
 SOURCE      Cordyceps militaris CM01
   ORGANISM  Cordyceps militaris CM01
+            .
 REFERENCE   1  (bases 1 to 28365)
   AUTHORS   Wang X, Gao YL, Zhang ML, Zhang HD, Huang JZ, Li L.
-  TITLE     Genome mining and biosynthesis of the Acyl-CoA:cholesterol 
-            acyltransferase inhibitor beauveriolide I and III in Cordyceps 
+  TITLE     Genome mining and biosynthesis of the Acyl-CoA:cholesterol
+            acyltransferase inhibitor beauveriolide I and III in Cordyceps
             militaris.
   JOURNAL   J Biotechnol 2020;309:85-91
-  PUBMED    31926180
+   PUBMED   31926180
 REFERENCE   2  (bases 1 to 28365)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Feb 8, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1016/j.jbiotec.2020.01.002"; journalName: "J Biotechnol"; date: 
-            "2020"; volume: "309"; pages: "85-91"
+  JOURNAL   Exported Feb 8, 2023 from SnapGene 6.2.1 https://www.snapgene.com
 COMMENT     ##Genome-Assembly-Data-START##
             Assembly Method       :: Newbler v. 2.3
             Assembly Name         :: CmilitarisCM01_v01
             Genome Coverage       :: 100x
             Sequencing Technology :: 454; Illumina
             ##Genome-Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1016/j.jbiotec.2020.01.002"; journalName: "J Biotechnol"; date:
+            "2020"; volume: "309"; pages: "85-91"
 FEATURES             Location/Qualifiers
      source          1..28365
                      /chromosome="Unknown"
@@ -39,7 +39,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="CCM_01282"
                      /product="polyketide synthase Cm3B"
-                     /label=Cm3B
+                     /label="Cm3B"
                      /protein_id="EGX96624.1"
                      /translation="MQSDTNNSPLSWEELRSGAASSDANSSPPEPIAIIGMSCRLSGSA
                      QDPSSLWEMLTSGRTAWTPGPGQRFNMEAFQSSSADTFGMTNTGGGHFLKEDVAAFDAA
@@ -84,11 +84,13 @@ FEATURES             Location/Qualifiers
                      QVAAALRKQGLGTISMADLLTLLNYAVVHRNPEESVCSIGMLPRDTDESLTDRRFAHLV
                      RHDVVSQTADAGGVQFADIPRLLDGAAPGAQLLENISQLVLMQLSKLIASPVETLSAAQ
                      SLDSYGVDSLVAVELRNWVGAYLQANVPLMVLRGTSSIHELAKIIAKESRFVTASA"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_DH, PKS_NRPS_MT, fPKS_ER,
+                     fPKS_KR, ACP_PCP"
      CDS             9089..10546
                      /codon_start=1
                      /locus_tag="CCM_01283"
                      /product="acyltransferase Cm3C"
-                     /label=Cm3C
+                     /label="Cm3C"
                      /protein_id="EGX96625.1"
                      /translation="MECTTVKLSVALGEEVVQLSTLDQQAQRAYANLLLVFKLSQNADA
                      DHVFSSLKRGLGAALTEVPDFASLVVPVPGSKKNELQLRLGPDSGVPFKLVRQDALASH
@@ -99,12 +101,13 @@ FEATURES             Location/Qualifiers
                      INEPNARTRMRLAEVCAPSSPASLVALAAAVREAIGAMDEKTMREFIGLVEGSSSVTDV
                      YWDYNTFPGPDLVVTDMSGMDTLRQEWGGDLGQPVCIRSGSREKGVAYFLPQDAQGGFE
                      VQLQCTAEDLGRLKDDSLFTKYAEFRS"
+                     /Pfam="Transferase"
      CDS             complement(join(10958..11269,11325..11650,11723..11885,
                      11943..12188,12261..12647,12758..13024))
                      /codon_start=1
                      /locus_tag="CCM_01284"
                      /product="CoA ligase Cm3D"
-                     /label=Cm3D
+                     /label="Cm3D"
                      /note="revised sequence"
                      /protein_id="EGX96626.1"
                      /translation="MIFSSPAWVPSPDQSAPDQVPIGDYVLSNHVLSKNDAPFVDAISG
@@ -117,11 +120,12 @@ FEATURES             Location/Qualifiers
                      QSGEVYYKAPNMFVGYLGDHESTISSFDDDGWMRTGDMGAIQVSPNGVEHLFIRDRIKD
                      MIKVKGMQVIPADVEAAMLTHPAVADVAVIGVPDELAGERAMAFVIRSTSVMSEFSEDD
                      LRDSINDHLEDRLHETHWLGDRLEFVAEIPKSQSGKVLKKILREKAASN"
+                     /Pfam="AA-adenyl-dom"
      CDS             join(14015..15532,15601..28365)
                      /codon_start=1
                      /locus_tag="CCM_01285"
                      /product="nonribosomal peptide synthetase Cm3A"
-                     /label=Cm3A
+                     /label="Cm3A"
                      /protein_id="EGX96627.1"
                      /translation="MKHLASSENMPTPAQDRAPSPSAMQQEIVDMCAQVLGRPITRMRT
                      SKSFVALGGDSLLAIKLMAHCREAGYTISIAKILQTASIEELSRSAECQLISSSGEGPV
@@ -204,6 +208,7 @@ FEATURES             Location/Qualifiers
                      SRDVVFGYVANGRDAPVDGVSHMAGPLINVMVSRIWLGDKQRSVAKTAEQVQNDFMEAF
                      RYQRVSLADIEQVTGLSERQMLHTVVSIVRDPGSRRSSDAGVSVHGQSATSLAEYDVSL
                      NAACGEDAIKLSLEYSSRYPGSVSAKGLLDNLQKAVLDLAENGEASIEEMGLRC"
+                     /Pfam="ACP_PCP, NRPS_C, AA-adenyl-dom, NRPS_E"
 ORIGIN
         1 tcaagcactt gctgtgacaa accgcgactc cttggcaata attttggcca gttcatgaat
        61 actgctcgtc cccctcagca ccatcagcgg cacgttcgcc tgcaaatacg cgcccaccca

@@ -1,43 +1,44 @@
-LOCUS       FBGC00291       10733 bp DNA     linear   UNA 08-FEB-2023
+LOCUS       FBGC00291              10733 bp    DNA     linear   UNA 08-FEB-2023
 DEFINITION  2,4'-dihydroxy-3'-methoxypropiophenone.
 ACCESSION   FBGC00291
-VERSION     .
+VERSION     FBGC00291
 KEYWORDS    .
 SOURCE      Aspergillus oryzae RIB40
   ORGANISM  Aspergillus oryzae RIB40
+            .
 REFERENCE   1  (bases 1 to 10733)
   AUTHORS   Kan E, Tomita H, Katsuyama Y, Maruyama JI, Koyama Y, Ohnishi Y.
   TITLE     Discovery of the 2,4'-Dihydroxy-3'-methoxypropiophenone Biosynthesis
             Genes in Aspergillus oryzae.
   JOURNAL   ChemBioChem 2021;22:203-211
-  PUBMED    32885554
+   PUBMED   32885554
 REFERENCE   2  (bases 1 to 10733)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Feb 8, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1002/cbic.202000505"; journalName: "ChemBioChem"; date: "2021"; 
+  JOURNAL   Exported Feb 8, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     ##Genome-Assembly-Data-START##
+            Assembly Method     :: Phred/Phrap software
+            Assembly Name       :: Aoryzae_assembly02
+            ##Genome-Assembly-Data-END##
+            ##Genome-Annotation-Data-START##
+            Annotation Provider :: INSDC submitter
+            Annotation Status   :: Full annotation
+            Annotation Pipeline :: Eukaryotic Annotation Propagation Pipeline
+            ##Genome-Annotation-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1002/cbic.202000505"; journalName: "ChemBioChem"; date: "2021";
             volume: "22"; pages: "203-211"
-COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final 
+            PROVISIONAL REFSEQ: This record has not yet been subject to final
             NCBI review. The reference sequence is identical to BA000052.
             This genome assembly has been updated so
             as to reflect the location and orientation of
             contigs on the chromosomes. Gap lengths were
             estimated using the results from Optical
-            Mapping (http://www.bio.nite.go.jp/dogan/project/view/AO). This 
-            Aspergillus oryzae RIB40 genome consists of a nuclear genome 
-            assembly represented by eight chromosomes (assembled from 24 
-            entries) and three unplaced contigs (AP007156, AP007160 and 
-            AP007177) and a complete mitochondrial genome 
-            (AP007176).##Genome-Assembly-Data-START##
-            Assembly Method :: Phred/Phrap software
-            Assembly Name   :: Aoryzae_assembly02
-            ##Genome-Assembly-Data-END####Genome-Annotation-Data-START##
-            Annotation Provider :: INSDC submitter
-            Annotation Status   :: Full annotation
-            Annotation Pipeline :: Eukaryotic Annotation Propagation Pipeline 
-            ##Genome-Annotation-Data-END##
+            Mapping (http://www.bio.nite.go.jp/dogan/project/view/AO). This
+            Aspergillus oryzae RIB40 genome consists of a nuclear genome
+            assembly represented by eight chromosomes (assembled from 24
+            entries) and three unplaced contigs (AP007156, AP007160 and
+            AP007177) and a complete mitochondrial genome
 FEATURES             Location/Qualifiers
      source          1..10733
                      /chromosome="4"
@@ -49,20 +50,21 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="AO090102000167"
                      /product="lipocalin-like domain-containing protein PpsC"
-                     /label=ppsC
+                     /label="ppsC"
                      /note="unnamed protein product; predicted protein"
                      /db_xref="GeneID:5994444"
                      /protein_id="XP_001822399.3"
                      /translation="MSPRSLFRSKLIGTWVLLEYRTESLKSKQVKWPFGSSPKGILIYS
                      PAGYMSAQVMRPGTPQHEGQEFLSGTDEELAVAMRHYLAYSGRFTVPDMASTENSTRRV
                      IHEVEMSSYPNWIGTTQERVVHIKGDILELSTVHPLVISGIEQRSFLTWRKLPRLT"
+                     /Pfam="Lipocalin_5"
      CDS             1199..8488
                      /codon_start=1
                      /locus_tag="AO090102000166"
                      /product="polyketide synthase PpsB"
-                     /label=ppsB
-                     /note="unnamed protein product; polyketide synthase
-                     modules and related proteins"
+                     /label="ppsB"
+                     /note="unnamed protein product; polyketide synthase modules
+                     and related proteins"
                      /db_xref="GeneID:5994443"
                      /protein_id="XP_023091701.1"
                      /translation="MKVDERVAIIGTGCRFPGGSNSPHELWELLVNPRDVARKVPPDRF
@@ -107,11 +109,13 @@ FEATURES             Location/Qualifiers
                      GEILAGLRNSEKWELVPKLSAWNESKTLLESDDKSQSAGQGQAHDTDAVTQLKLATSVA
                      EAREIILQLFKEKLRRKLGLSSDVPLRRETLLHELGIDSLVAVDIHIWFARELGAKIPV
                      VQIMGAGSIGSMVDEVVKRRNGFT"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_DH, PKS_NRPS_MT, fPKS_KR,
+                     ACP_PCP"
      CDS             join(8941..10304,10412..10733)
                      /codon_start=1
                      /locus_tag="AO090102000165"
                      /product="CoA ligase PpsA"
-                     /label=ppsA
+                     /label="ppsA"
                      /note="unnamed protein product; acyl-CoA synthetase"
                      /db_xref="GeneID:5994442"
                      /protein_id="XP_001822397.1"
@@ -125,6 +129,7 @@ FEATURES             Location/Qualifiers
                      IPGELQVRGSGLFTSYKGHPDHTDGDGWFSTGDVMYQKNGHYFLVGRMKEMIKVRGYQV
                      SPVELEAELAQHPLVKDAAVIGVLATDGSSELPRAYVVPLSWAERPSPEDIYDFMRQRL
                      AGYKFLEGGVVFVDSIPRNSGGKIRRTKLSELDDQRDKLIALLT"
+                     /Pfam="AA-adenyl-dom"
 ORIGIN
         1 tcatgtcagc cgcggtaatt tcctccatgt caaaaagctt cgctgttcaa taccctagaa
        61 tctgttagtg tctctttctt tctgtggaat gtcgtggtgc atcaatgact ctgcatgtgt

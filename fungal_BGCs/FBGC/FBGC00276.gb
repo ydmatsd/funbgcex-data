@@ -1,36 +1,37 @@
-LOCUS       FBGC00276       29823 bp DNA     linear   UNA 29-JAN-2023
+LOCUS       FBGC00276              29823 bp    DNA     linear   UNA 29-JAN-2023
 DEFINITION  verrucosidin.
 ACCESSION   FBGC00276
-VERSION     .
+VERSION     FBGC00276
 KEYWORDS    .
 SOURCE      Penicillium polonicum IBT 4502
   ORGANISM  Penicillium polonicum IBT 4502
+            .
 REFERENCE   1  (bases 1 to 29823)
-  AUTHORS   Valente S, Piombo E, Schroeckh V, Meloni GR, Heinekamp T, Brakhage 
+  AUTHORS   Valente S, Piombo E, Schroeckh V, Meloni GR, Heinekamp T, Brakhage
             AA, Spadaro D.
-  TITLE     CRISPR-Cas9-Based Discovery of the Verrucosidin Biosynthesis Gene 
+  TITLE     CRISPR-Cas9-Based Discovery of the Verrucosidin Biosynthesis Gene
             Cluster in Penicillium polonicum.
   JOURNAL   Front Microbiol 2021;12:660871
-  PUBMED    34093475
+   PUBMED   34093475
 REFERENCE   2  (bases 1 to 29823)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Jan 29, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.3389/fmicb.2021.660871"; journalName: "Front Microbiol"; date: 
-            "2021"; volume: "12"; pages: "660871"
+  JOURNAL   Exported Jan 29, 2023 from SnapGene 6.2.1 https://www.snapgene.com
 COMMENT     ##Genome-Assembly-Data-START##
             Assembly Method       :: ABySS v. 1.5.2
             Genome Coverage       :: 137.5x
             Sequencing Technology :: Illumina HiSeq ##Genome-Assembly-Data-END##
+            ##Genome-Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.3389/fmicb.2021.660871"; journalName: "Front Microbiol"; date:
+            "2021"; volume: "12"; pages: "660871"
 FEATURES             Location/Qualifiers
      source          1..29823
                      /strain="IBT 4502"
                      /mol_type="genomic DNA"
                      /country="USA: Tennesse"
                      /isolation_source="Hay"
-                     /collection_date=1983
+                     /collection_date="1983"
                      /db_xref="taxon:60169"
                      /organism="Penicillium polonicum"
                      /submitter_seqid="PENPOL_contig002"
@@ -39,7 +40,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="PENPOL_c002G07872"
                      /product="FAD-dependent monooxygenase VerC1"
-                     /label=verC1
+                     /label="verC1"
                      /db_xref="InterPro:IPR002938"
                      /db_xref="PFAM:PF01494"
                      /protein_id="OQD69144.1"
@@ -57,11 +58,12 @@ FEATURES             Location/Qualifiers
                      VWQMHPIWTAITLYLFSRIFPSTVKEDRVHGLRRDLPVIKFSMTVLVIGAAGFWMWSRW
                      TSPSSVARVFFPTAVPSTQAPFAACVCAILKWDMLSTFGSTFLWLGYLIWDLKYAGMMQ
                      ATWVRVAIYGVAAFVALGPGAAIGLGWLWRENILAHKRHKDAVTEENLAQTR"
+                     /Pfam="FAD_binding_3, CtvD"
      CDS             3420..4106
                      /codon_start=1
                      /locus_tag="PENPOL_c002G01780"
                      /product="methyltransferase VerB"
-                     /label=verB
+                     /label="verB"
                      /db_xref="InterPro:IPR029063"
                      /protein_id="OQD68888.1"
                      /translation="MHPSARLYNNIALWFYDYLVHSIFMVYGWHCPTKSVGLPFFSSHV
@@ -69,11 +71,12 @@ FEATURES             Location/Qualifiers
                      TETLTADVLQPIPAAGKHETFDSLSLMNVLHCLPGTSESKAQAFGHLKPFLKEDGVLFG
                      STILGRGVEHNRFGRLVMWLSNSLGIFHNYGDHPDDFVRALQKDFNQVEHVVVGRVLLF
                      TAKEPN"
+                     /Pfam="VrtF"
      CDS             join(4867..5159,5248..5519,5579..5949,6011..6475)
                      /codon_start=1
                      /locus_tag="PENPOL_c002G07909"
                      /product="FAD-dependent monooxygenase VerC2"
-                     /label=verC2
+                     /label="verC2"
                      /note="revised sequence"
                      /db_xref="InterPro:IPR002938"
                      /db_xref="PFAM:PF01494"
@@ -87,11 +90,12 @@ FEATURES             Location/Qualifiers
                      HNGLNQPSYDEIQEVLGRYSQSQRKRMKKLHWISHMVTRLQSREGLINKFVGRYIYSHT
                      GNSTFYLTGKMIAQGPVLNYLSTPKEIEIGLRASFDQYGKDGGDMPWKTTIMFIALLTI
                      VVLIYSFI"
+                     /Pfam="FAD_binding_3"
      CDS             complement(join(6634..7381,7446..7801))
                      /codon_start=1
                      /locus_tag="PENPOL_c002G01858"
                      /product="epoxide hydrolase VerU1"
-                     /label=verU1
+                     /label="verU1"
                      /protein_id="OQD69720.1"
                      /translation="MSTAVNTIRCSLLLLGLVGIYTVWISSFRNGLFLRNEEFAGKGQL
                      PGTPNATLRTHFTGIDTLDKALGIFVVFYWPVCQGNLRSLSLIAFPAAVGVGEMWILFA
@@ -100,11 +104,12 @@ FEATURES             Location/Qualifiers
                      TADFQATLSTARTSIYISAMACATISHLVPLLISLLADSSDICPGKVFVPHLAWPSRRV
                      TSVEEGLLRFFQWDYGLGSLALLLWAVGLHIQRRQQISQGINYLRLIPEALFLSVMMSP
                      CGAAALYLYRHNSTNCASKTGDKSGSG"
+                     /Pfam="CtvD"
      CDS             join(8568..8670,8732..8795,8857..10306)
                      /codon_start=1
                      /locus_tag="PENPOL_c002G07307"
                      /product="cytochrome P450 monooxygenase VerH"
-                     /label=verH
+                     /label="verH"
                      /db_xref="GO:0005506"
                      /db_xref="GO:0016705"
                      /db_xref="GO:0020037"
@@ -122,11 +127,12 @@ FEATURES             Location/Qualifiers
                      PNVFIDPDRFDPMRYEGYTKLAADYANAPDAATRDHYTYGIGRRICPGIHLADRSMFLA
                      IAKLIWGFRFEPQRDEQGNSIPIDSNPVTGYTVDKVQISPKPFACAVIPRDKEGEKTIL
                      REFGVASEVFADYNLDENASL"
+                     /Pfam="p450"
      CDS             join(11100..17647,17704..18856)
                      /codon_start=1
                      /locus_tag="PENPOL_c002G03804"
                      /product="polyketide synthase VerA"
-                     /label=verA
+                     /label="verA"
                      /db_xref="GO:0003824"
                      /db_xref="GO:0008152"
                      /db_xref="InterPro:IPR009081"
@@ -191,12 +197,14 @@ FEATURES             Location/Qualifiers
                      AASMSEAAEIVAAGLADKVRSKFNLASDIALTQDTQLSDLGIDSLVAVDLRSWFVRELS
                      VEIPMLQILSGSSLRALTADSVSKLPPTLLPGILSRDQDFKDVSGLTSPPEVPSDASRS
                      SVSSGMDEIVTPESPSFDQVYRIAGDEMELTKPHQRPIPTPQL"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_DH, PKS_NRPS_MT, fPKS_KR,
+                     ACP_PCP"
      CDS             complement(join(20575..20969,21026..21321,21376..21482,
                      21534..21787,21837..22977))
                      /codon_start=1
                      /locus_tag="PENPOL_c002G07024"
                      /product="transcription factor VerF"
-                     /label=verF
+                     /label="verF"
                      /db_xref="GO:0000981"
                      /db_xref="GO:0003677"
                      /db_xref="GO:0005634"
@@ -222,11 +230,12 @@ FEATURES             Location/Qualifiers
                      DLSVNIRHLLATLGPLNLFALTSAIHSQIFQFRSAVGSFQLRAPIQNALSNWRDIWQLF
                      SSTFPQGITPHMTIEDPHIQPEELWKRMGFFRYAPEYWLLAHLMADRLAVLGTSKPENE
                      LEPLDEGPLDPILNRYDQTSMRQVNDLIMGFQTFQI"
+                     /Pfam="EqxR, Fungal_trans"
      CDS             complement(join(25229..25329,25391..25595,25652..25681))
                      /codon_start=1
                      /locus_tag="PENPOL_c002G03902"
                      /product="hypothetical protein VerU2"
-                     /label=verU2
+                     /label="verU2"
                      /protein_id="OQD69889.1"
                      /translation="MSYKTNYELYSRGSIDSRRSPPPDELLSPLATLYPHVAALQPQYN
                      PSNCTFTGYRDTGYWAAAYTTQTMDDSMSMRRIDGRPCRFVSKLRRLLSRDELKHRRGS
@@ -235,7 +244,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="PENPOL_c002G01050"
                      /product="hypothetical protein VerU3"
-                     /label=verU3
+                     /label="verU3"
                      /protein_id="OQD69759.1"
                      /translation="MTNILRLFALVPGSVEQDAERISDRRDRSHEEGMTNPEAQSVLND
                      AEFGRVDPTGWFPHYKNCVQHFVDYSQHTPQVQSIAAFINIRLPCQRPSESSAPMSEST
@@ -245,7 +254,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="PENPOL_c002G05667"
                      /product="acyltransferase VerG"
-                     /label=verG
+                     /label="verG"
                      /db_xref="InterPro:IPR016181"
                      /protein_id="OQD69357.1"
                      /translation="MAICIYEHDAAKIIPTLVSELPYSTTLLRRIQHGIAYPYETAHIL
@@ -256,6 +265,7 @@ FEATURES             Location/Qualifiers
                      FHDREGREGVLSKHLDLVQSRTHIPRPRAQLSKIPGMAVYLDSTSSDADEMPIAWGFLG
                      VDGALVTLHVEPEHRGRGLAVPLSKAIMRRGMAVDGVFGAGSVNSEDSQTRERVGAWAH
                      TEVAGYNNASRRVMEKIGGQVLTTVTWTVIELLD"
+                     /Pfam="FR47"
 ORIGIN
         1 tcaccgtgtt tgggcgaggt tctcttccgt aacagcatct ttatgcctct tatgagcgag
        61 gatattctcc ctccacagcc agcccaaccc gatcgcagct ccaggaccaa gagcaacaaa

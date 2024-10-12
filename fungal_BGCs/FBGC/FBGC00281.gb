@@ -1,30 +1,30 @@
-LOCUS       FBGC00281       13096 bp DNA     linear   UNA 29-JAN-2023
+LOCUS       FBGC00281              13096 bp    DNA     linear   UNA 29-JAN-2023
 DEFINITION  aspernidgulene A1.
 ACCESSION   FBGC00281
-VERSION     .
+VERSION     FBGC00281
 KEYWORDS    .
 SOURCE      Aspergillus nidulans FGSC A4
   ORGANISM  Aspergillus nidulans FGSC A4
+            .
 REFERENCE   1  (bases 1 to 13096)
   AUTHORS   Lin TS, Chen B, Chiang YM, Wang CCC.
-  TITLE     Discovery and Elucidation of the Biosynthesis of Aspernidgulenes: 
-            Novel Polyenes from Aspergillus Nidulans by Using Serial Promoter 
+  TITLE     Discovery and Elucidation of the Biosynthesis of Aspernidgulenes:
+            Novel Polyenes from Aspergillus Nidulans by Using Serial Promoter
             Replacement.
   JOURNAL   Chembiochem 2019;20:329-334
-  PUBMED    30302871
+   PUBMED   30302871
 REFERENCE   2  (bases 1 to 13096)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Jan 29, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1002/cbic.201800486"; journalName: "Chembiochem"; date: "2019"; 
+  JOURNAL   Exported Jan 29, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1002/cbic.201800486"; journalName: "Chembiochem"; date: "2019";
             volume: "20"; pages: "329-334"
-COMMENT     Aspergillus nidulans FGSC A4 CADRE,
+            Aspergillus nidulans FGSC A4 CADRE,
             updated by Eurofungbase with contributions from
             CADRE (http://www.cadre-genomes.org.uk),
             AspGD (http://www.aspergillusgenome.org) and
-              Ensembl Genomes (http://www.ensemblgenomes.org).
+            Ensembl Genomes (http://www.ensemblgenomes.org).
 FEATURES             Location/Qualifiers
      source          1..13096
                      /chromosome="VII"
@@ -37,9 +37,8 @@ FEATURES             Location/Qualifiers
                      /locus_tag="ANIA_01784"
                      /old_locus_tag="AN1784.4"
                      /product="polyketide synthase SdgA"
-                     /label=sdgA
-                     /note="transcript_id=CADANIAT00008431
-                     revised sequence"
+                     /label="sdgA"
+                     /note="transcript_id=CADANIAT00008431 revised sequence"
                      /db_xref="EnsemblGenomes-Gn:CADANIAG00008431"
                      /db_xref="EnsemblGenomes-Tr:CADANIAT00008431"
                      /db_xref="GOA:Q5BCE6"
@@ -107,12 +106,14 @@ FEATURES             Location/Qualifiers
                      PECDSDPEIVIGLPLIDLEQHPDIFWSSNPLTWDFIDYSIKSTSQLGGTLHSRGSLKAV
                      LQSDSISSIEDITPIVSEALIAKVRSKFSVSANTIVSPSTQLTDLGVDSLVAVDIRTWF
                      ATELAVDIPLLQILGGASIEELTATAVAKLPAGVFPRVQVLRDAETQ"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_DH, PKS_NRPS_MT, fPKS_KR,
+                     ACP_PCP"
      CDS             join(8370..8737,8798..9485)
                      /codon_start=1
                      /locus_tag="ANIA_01785"
                      /old_locus_tag="AN1785.4"
                      /product="epoxide hydrolase SdgD"
-                     /label=sdgD
+                     /label="sdgD"
                      /note="transcript_id=CADANIAT00008432"
                      /db_xref="EnsemblGenomes-Gn:CADANIAG00008432"
                      /db_xref="EnsemblGenomes-Tr:CADANIAT00008432"
@@ -126,12 +127,13 @@ FEATURES             Location/Qualifiers
                      EKSRRTIYIFALVIAATTHLGALLASLLHADLGPADVFLPPLPWYVTRFPSLEEGMASF
                      LQWDYLIASVTLFLWAVAVYLRDCDEHVDWQRFGLEVCAISVIISPAAMAVLLIWRLDE
                      MLSRRGIAKED"
+                     /Pfam="CtvD"
      CDS             complement(join(9612..10076,10188..10534,10592..11207))
                      /codon_start=1
                      /locus_tag="ANIA_01786"
                      /old_locus_tag="AN1786.4"
                      /product="FAD-dependent monooxygenase SdgC"
-                     /label=sdgC
+                     /label="sdgC"
                      /note="transcript_id=CADANIAT00008433"
                      /db_xref="EnsemblGenomes-Gn:CADANIAG00008433"
                      /db_xref="EnsemblGenomes-Tr:CADANIAT00008433"
@@ -149,12 +151,13 @@ FEATURES             Location/Qualifiers
                      ANTLRRISQIDKPSEDDINRLLQGYTVRQQKRLRAVHAISRSVTRVHARQGRIKKIIGR
                      YVYPYTPGAALHTFSRIIAPAPCLDYVPMPFPGPGWTRALVSGWSPISGVLLLVIPIIA
                      LVYGYSVINFGRDSINN"
+                     /Pfam="FAD_binding_3"
      CDS             join(11479..11502,11560..12479,12534..12754,12822..13096)
                      /codon_start=1
                      /locus_tag="ANIA_01787"
                      /old_locus_tag="AN1787.4"
                      /product="FAD-linked oxidoreductase SdgF"
-                     /label=sdgF
+                     /label="sdgF"
                      /note="transcript_id=CADANIAT00008434"
                      /db_xref="EnsemblGenomes-Gn:CADANIAG00008434"
                      /db_xref="EnsemblGenomes-Tr:CADANIAT00008434"
@@ -174,6 +177,7 @@ FEATURES             Location/Qualifiers
                      VKMAKLRARGKDYALFAIVQPWVPLFWEHSEARGGDVLGLERFETNLLNIAWDYSWDNS
                      ADDELLYELAQSAREQLDEYARSTGAYNEYIYLNYAGRTQDPLRGYGLENLEFLRRVSE
                      KFDPDGVFQRLVRGGFKIDRA"
+                     /Pfam="FAD_binding_4"
 ORIGIN
         1 tcattgcgtc tctgcatccc tcaatacttg gactcgcgga aacacacccg ctggaagctt
        61 agccacagct gtagctgtta attcttcgat cgacgctcca cccaggattt gaagcagagg

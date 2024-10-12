@@ -1,33 +1,32 @@
-LOCUS       FBGC00288       19206 bp DNA     linear   UNA 09-MAY-2023
+LOCUS       FBGC00288              19206 bp    DNA     linear   UNA 09-MAY-2023
 DEFINITION  depudecin.
 ACCESSION   FBGC00288
-VERSION     .
+VERSION     FBGC00288
 KEYWORDS    .
 SOURCE      Fusarium langsethiae Fl201059
   ORGANISM  Fusarium langsethiae Fl201059
+            .
 REFERENCE   1  (bases 1 to 19206)
   AUTHORS   Reynolds HT, Slot JC, Divon HH, Lysøe E, Proctor RH, Brown DW.
-  TITLE     Differential Retention of Gene Functions in a Secondary Metabolite 
+  TITLE     Differential Retention of Gene Functions in a Secondary Metabolite
             Cluster.
   JOURNAL   Mol Biol Evol 2017;34:2002-2015
-  PUBMED    28460114
+   PUBMED   28460114
 REFERENCE   2  (bases 1 to 19206)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported May 9, 2023 from SnapGene 6.2.2
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1093/molbev/msx145"; journalName: "Mol Biol Evol"; date: "2017";
-            volume: "34"; pages: "2002-2015"
+  JOURNAL   Exported May 9, 2023 from SnapGene 6.2.2 https://www.snapgene.com
 COMMENT     ##Genome-Assembly-Data-START##
-            Assembly Method        :: CLC Genomics Workbench v. 7.5; Biokanga
-                                      v. 3.4.7; SSPACE v. 3.0; Gapfiller v.
-                                      1.1.1
+            Assembly Method :: CLC Genomics Workbench v. 7.5; Biokanga v. 3.4.7;
+            SSPACE v. 3.0; Gapfiller v. 1.1.1
             Genome Representation  :: Full
             Expected Final Version :: Yes
             Genome Coverage        :: 500.0x
-            Sequencing Technology  :: Illumina GAIIx; 454 
+            Sequencing Technology  :: Illumina GAIIx; 454
             ##Genome-Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1093/molbev/msx145"; journalName: "Mol Biol Evol"; date: "2017";
+            volume: "34"; pages: "2002-2015"
 FEATURES             Location/Qualifiers
      source          1..19206
                      /host="Avena sativa"
@@ -35,7 +34,7 @@ FEATURES             Location/Qualifiers
                      /mol_type="genomic DNA"
                      /country="Norway: Bruvoll, Nord-Odal"
                      /isolation_source="oat product"
-                     /collection_date=1998
+                     /collection_date="1998"
                      /db_xref="taxon:179993"
                      /organism="Fusarium langsethiae"
                      /submitter_seqid="Fl201059_contig338"
@@ -43,7 +42,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="FLAG1_09231"
                      /product="transcription factor DEP6"
-                     /label=DEP6
+                     /label="DEP6"
                      /protein_id="KPA37940.1"
                      /translation="MIRQFSAGSSFTARHACEICRQRKVRCDRALPRCRRCERLNQACV
                      YSPISQRRTRDEQLQELQERLAKTEAQLALDAPRGPASSMSSQSRSDSAAPAASRVPSV
@@ -56,12 +55,13 @@ FEATURES             Location/Qualifiers
                      SIRKDPVAFSLYLNLRATEIFSHESAIARSKEQGLPPLMTAESQRRATAAAFQISTAVR
                      LNLPSPWKVDSDIIMLQAIFIAWPLAMALKAFYRELEHGGSRDSVNGVVTSSRLLFAAL
                      GHIEESGGHWHQSVAHVEAKLQELDEKNGFNSLAL"
-     CDS             complement(join(2312..3190,3282..8124,8186..9173,9225..9464,
-                     9522..9687))
+                     /Pfam="EqxR, Fungal_trans"
+     CDS             complement(join(2312..3190,3282..8124,8186..9173,
+                     9225..9464,9522..9687))
                      /codon_start=1
                      /locus_tag="FLAG1_09232"
                      /product="polyketide synthase DEP5"
-                     /label=DEP5
+                     /label="DEP5"
                      /protein_id="KPA37941.1"
                      /translation="MPHFRESSSSSENGAIDHDLQHTFQRILSDDQYTKFSPNEPPLSQ
                      QLEPIAVVGMGCRLPGDVSSPSDFWKLMMEKKSGQTPKVPSSRFNIDAHFHPDNDRPGS
@@ -104,11 +104,12 @@ FEATURES             Location/Qualifiers
                      ARQEAEGDVDAFWTTDPRFSVLLDDMKQHSGDNQGDGEKGSILSQVKAASDSPAQAISL
                      VRDHFISKLARVLLLDQDEFDDDGSGRSIASYGIDSMIGAELRNWIFKELGLDVAFQQL
                      LSPSLTISKFAELVCAAQGIVLDNE"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_DH, fPKS_ER, fPKS_KR, ACP_PCP"
      CDS             join(10257..10302,10354..11212,11276..11918,11971..12165)
                      /codon_start=1
                      /locus_tag="FLAG1_09233"
                      /product="FAD-dependent monooxygenase DEP4"
-                     /label=DEP4
+                     /label="DEP4"
                      /protein_id="KPA37942.1"
                      /translation="MSQPLETFDVIVIGAGWYGLMAARTFLELAPDTNLLILDDGKTVG
                      GVWSKERIYPSLFAQISHPLFEYSFYPMPEEDISPDGFVSGKTIQKYLEAFAKDHGLIL
@@ -121,6 +122,7 @@ FEATURES             Location/Qualifiers
                      PLAAELQALWGVSWMLGWRDLPSKEEMETEAANFNAWTRKRYLEQGRKHSYFIYDYIPY
                      IDTLMKDLGLDPFRKSNVFEEWFVRYKPSDYKTILEEYRSVRRHEREMERSGEESVARM
                      KRCD"
+                     /Pfam="Pyr_redox_3, FMO-like"
      gap             13109..13159
                      /estimated_length=51
      CDS             join(13372..13497,13553..13981,14034..14075,14133..14513,
@@ -129,7 +131,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="FLAG1_09234"
                      /product="major facilitator superfamily transporter DEP3"
-                     /label=DEP3
+                     /label="DEP3"
                      /protein_id="KPA37943.1"
                      /translation="MSEQSTLAGPYTEKPGVESQNPTGDGKASFDETSPRDIHGWRWAI
                      AYAAMLSTTFLFALDNTIVANIQPSIINDFGHLELISWIGTGFALGTMFILLWGKIYGV
@@ -141,12 +143,13 @@ FEATURES             Location/Qualifiers
                      TSNGNVYGYNILVGAGAGCYIVAGFAIVQSLVPTHEIANAVGAMTISQDLGMVLFLAIC
                      GSLFHNVAVDKVGKALPSASETEIGNLIAGTSSSAFQALSEADKDLVIPEIASAMKSIW
                      AFFMAAAALSFVCSWPLFKTKLGGKKVEASVVV"
+                     /Pfam="MFS_1"
      CDS             complement(join(15900..16523,16575..16948,17008..17279,
                      17340..17635))
                      /codon_start=1
                      /locus_tag="FLAG1_09235"
                      /product="FAD-dependent monooxygenase DEP2"
-                     /label=DEP2
+                     /label="DEP2"
                      /protein_id="KPA37944.1"
                      /translation="MHDSPPFKVIIVGAGVTGLTLAHCLVKAGIDYALLDKGVVAPGFG
                      TTITLQPHGCRILHQLGCLDAVLAKCDVMGGASCRDPNGKIFTSNDFFGVVRKFAGYDT
@@ -158,11 +161,12 @@ FEATURES             Location/Qualifiers
                      PIIGLDTLAQKIAGLCVTAPKLAYVDFDERRGILGWQDTLAAEKERESKTQVKVPIKQK
                      KGLSWSTWNGGFEAIVPQILVLWAGLWLAICFFHLVFSGNHVPGFGSEVARFFTVYNET
                      WMHS"
+                     /Pfam="FAD_binding_3"
      CDS             18109..19206
                      /codon_start=1
                      /locus_tag="FLAG1_09236"
                      /product="epoxide hydrolase DEP1"
-                     /label=DEP1
+                     /label="DEP1"
                      /protein_id="KPA37945.1"
                      /translation="MFQTSRSQLLYLSALGVWGLWGYAYFNGMFTRLDTITRTLHFPDN
                      RPLRDSYTGLGPLDKQLTLLSVFYDVLTNSLSSGPRLLFFDINYAVACTNLWTLIESRR
@@ -171,6 +175,7 @@ FEATURES             Location/Qualifiers
                      KEYKKWISASLILAGSVASAVHIYTLTGALFTRDSDVSLTRLFVPTGGFTDPIKTLVSN
                      ENLLAEYAALLENLHLFSQWDWIVVCLTSVVYAQLLLSRREGLKVNKPAVPYEAQEMIY
                      LTIATVVLGPGGAGSFALAIREARI"
+                     /Pfam="CtvD"
 ORIGIN
         1 atgataaggc aattctccgc tggctcttct ttcacggctc gacacgcttg cgagatatgc
        61 aggcaagtct tctagcatac atgccacgtg ttctatccag aaggctaacg aattaatttt

@@ -1,23 +1,23 @@
-LOCUS       FBGC00273       27184 bp DNA     linear   UNA 09-MAY-2023
+LOCUS       FBGC00273              27184 bp    DNA     linear   UNA 09-MAY-2023
 DEFINITION  fusarin C.
 ACCESSION   FBGC00273
-VERSION     .
+VERSION     FBGC00273
 KEYWORDS    .
 SOURCE      Fusarium verticillioides 7600
   ORGANISM  Fusarium verticillioides 7600
+            .
 REFERENCE   1  (bases 1 to 27184)
   AUTHORS   Brown DW, Butchko RA, Busman M, Proctor RH.
-  TITLE     Identification of gene clusters associated with fusaric acid, 
-            fusarin, and perithecial pigment production in Fusarium 
+  TITLE     Identification of gene clusters associated with fusaric acid,
+            fusarin, and perithecial pigment production in Fusarium
             verticillioides.
   JOURNAL   Fungal Genet Biol 2012;49:521-32
-  PUBMED    22652150
+   PUBMED   22652150
 REFERENCE   2  (bases 1 to 27184)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported May 9, 2023 from SnapGene 6.2.2
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
+  JOURNAL   Exported May 9, 2023 from SnapGene 6.2.2 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
             "10.1016/j.fgb.2012.05.010"; journalName: "Fungal Genet Biol"; date:
             "2012"; volume: "49"; pages: "521-32"
 FEATURES             Location/Qualifiers
@@ -31,7 +31,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="FVEG_11078"
                      /product="methyltransferase FUS9"
-                     /label=FUS9
+                     /label="FUS9"
                      /protein_id="EWG52297.1"
                      /translation="MADKSHVNNVPMQGNGAYSSHAALQHEAMLKALPLFRAAAEAISK
                      VDSTRVAIVEYGSAHGNNSLEPMEAILKSIHARSLELLFSDRPENDFCTLSKTVTEWAD
@@ -40,11 +40,12 @@ FEATURES             Location/Qualifiers
                      IPVSVAQAFRVPTYNRTLSDVKKLMDEFTQIWKVHDLFEDDVMHPAFYELKIQSNPSQE
                      ASHKYAEIVIDWMMAVCSGYFTKALQVGSQGGYTKEEEESLLQDWVTRTKELFIRDHKD
                      EEVICSFIYIRLERL"
+                     /Pfam="Methyltransf_7"
      CDS             complement(join(1530..2826,2878..2978,3028..3174))
                      /codon_start=1
                      /locus_tag="FVEG_11079"
                      /product="cytochrome P450 monooxygenase FUS8"
-                     /label=FUS8
+                     /label="FUS8"
                      /note="At least one base has a quality score < 10"
                      /protein_id="EWG52298.1"
                      /translation="MESTPLQYPLGLKTDSLVKQVSEVLKSLTVTKAVGAFIVLFIIIP
@@ -56,12 +57,13 @@ FEATURES             Location/Qualifiers
                      KKLIAEVDKWYPPSEPDRATECAYSQTGMTYLQACIDETMRLIPGQATGSPREASKQEV
                      LLGYKIPRGTTVFPNTQEAHLDGSIWEQPEKYIPERWLEIYSRNQTSAMPYWPFSAGSR
                      ICVGKNFAFQEMHISLTTLLRKFTFEYVPGQDETTVFRIAQQLEADSYKVRVKKRF"
-     CDS             complement(join(3819..4102,4163..4536,4584..4799,4854..4911,
-                     4959..4973,5023..5124,5177..5231,5286..5567))
+                     /Pfam="p450"
+     CDS             complement(join(3819..4102,4163..4536,4584..4799,
+                     4854..4911,4959..4973,5023..5124,5177..5231,5286..5567))
                      /codon_start=1
                      /locus_tag="FVEG_11080"
                      /product="aldehyde dehydrogenase FUS7"
-                     /label=FUS7
+                     /label="FUS7"
                      /protein_id="EWG52299.1"
                      /translation="MNFDTFHNIIAGQHRSARETSSGVNPLDRSSLWPAPVATANDVEE
                      AVRSAQEAFPAWSQKTYKQRTELLEKFADLYLAHANEFCQLIATECGRTAGNAAIEVYF
@@ -72,11 +74,12 @@ FEATURES             Location/Qualifiers
                      AAEGFFIRPTIIKNPPPDAHAVQQENFGPIVSCIKFSSLDEAIFLANNSDTGLAASVWS
                      GDISAAKRVAAKLEAGNVYINGPPQPDPYVPFGGQKQSGLGVEYGLPGLLSFCQTKSTY
                      VYK"
+                     /Pfam="Aldedh"
      CDS             complement(5951..7642)
                      /codon_start=1
                      /locus_tag="FVEG_11081"
                      /product="major facilitator superfamily transporter FUS6"
-                     /label=FUS6
+                     /label="FUS6"
                      /protein_id="EWG52303.1"
                      /translation="MPQPDKMAAVNNAMPQPAPEKSLSSDPQPESSKKSARFWLIFVAI
                      ALTTFLAALDTSIISTALPTITADLGSESLYVWIIDAYLLASTATIPIFAQAANIYGRR
@@ -88,22 +91,24 @@ FEATURES             Location/Qualifiers
                      QILFGVGTGTVFTSTLPPILASLPDSDVATATGAWTFIRNFGSIWGVAIPAAVFNNQVN
                      HAAPKISDSTVKSLLVDGGAYEHATQHFIKSLSPNPELKTQVIQVYLEGLKVVWQVSLA
                      FCLLGFILCFFVRSLTLRDELNTEFGLKEEKPNSKNMSSEEGVVRE"
+                     /Pfam="MFS_1"
      CDS             complement(8587..9288)
                      /codon_start=1
                      /locus_tag="FVEG_11082"
                      /product="esterase FUS5"
-                     /label=FUS5
+                     /label="FUS5"
                      /protein_id="EWG52304.1"
                      /translation="MVHRPRLLCLHGGGASSQIMRIQFSKLESALRKTFQLVFLEGPLD
                      SAPGPGVLPFFKDFGPYSCWVSDDRSLSPEEKRQEETNAIAYIKTFMLQYGPFAGILGF
                      SQGARAAASILLEQQREAFTHDSLFGVFFCGTFPPFIPDAPDISLPTIHVLGLTDPYLR
                      ESEVLLEHCTQQSVRRVIKFNGGHHMPTSSDVTQQIADVISMTYRTSQRKRVSGIWKKN
                      VVDSRPSALEI"
+                     /Pfam="FSH1"
      CDS             10095..11414
                      /codon_start=1
                      /locus_tag="FVEG_11083"
                      /product="aspartic protease FUS4"
-                     /label=FUS4
+                     /label="FUS4"
                      /protein_id="EWG52305.1"
                      /translation="MLTIATLHVALQVFGAFSPSHAAAVTLEHRSARDGNSVAVPANWD
                      VYGYLFNVTVGSPPQNITMLSDMTWMAPFVRSGRCLGQFNPELCVAQGQSFFNEHNSTT
@@ -113,21 +118,23 @@ FEATURES             Location/Qualifiers
                      AVKTAKRTPPLAVVDEGSEGLGAPLSLNGYKYLVRHIKSAKLASKAIVQNIQQQGSSGY
                      NTADQDWYTVACDGLHEYPDLVYQLDGRKKYTISAGDYVTKLTDMPGSVCYLNINVWKY
                      GRTENGDARVVLLGRAFLKRKYLVLNFEDRSFGLAPLRTG"
+                     /Pfam="Asp"
      CDS             complement(join(11654..12262,12337..12390))
                      /codon_start=1
                      /locus_tag="FVEG_11084"
                      /product="glutathione S-transferase FUS3"
-                     /label=FUS3
+                     /label="FUS3"
                      /protein_id="EWG52306.1"
                      /translation="MTSFGTLYTYMPNARVFKILAAAKLNNLIIEIPAYQHGVTNKSAE
                      FLSKFPAGKVPAFEGPDGFCLVESDAIAQYVAQSGPQASQLLGQDAMSSAKIRQWISFF
                      AEEIYPTVLDLVMWRVGLGAFDETTEIKALAQLAYGLSVLEKHLNPGILLTGDELTLAD
                      LTGASTLLWAFMHIIDEPMRQQYPNVVAWYLKVVQNEEVKEVFGKPNLIEKRRIGAK"
+                     /Pfam="GST_N, GST_C"
      CDS             complement(13125..14384)
                      /codon_start=1
                      /locus_tag="FVEG_11085"
                      /product="hydrolase FUS2"
-                     /label=FUS2
+                     /label="FUS2"
                      /protein_id="EWG52307.1"
                      /translation="MHKVFASDFFNFEFLRLLGTVPFQGAEVGECLTTAGRIKDGDPES
                      WYRAWRDQAEKAQALAEEAAAVGDRTGACWAYIRAANYWRASEFLLHCTPNDPRILAAS
@@ -137,12 +144,13 @@ FEATURES             Location/Qualifiers
                      LSGWVSDGLFNWVVDALTAVNFQIAWEFGHGKWVFGVETPADVLRVMQQISLKGGYLSK
                      IKCPTLITGAADSFYFTPDINANPIFEGLTALGSNEKHLWIGKGVEGGGLQAKIGALAV
                      VHHKMFTWLDSTFAIKRDVL"
+                     /Pfam="FrsA-like"
      CDS             join(15325..16165,16220..22773,22829..27184)
                      /codon_start=1
                      /locus_tag="FVEG_11086"
-                     /product="polyketide synthase-nonribosomal peptide 
+                     /product="polyketide synthase-nonribosomal peptide
                      synthetase FUS1"
-                     /label=FUS1
+                     /label="FUS1"
                      /protein_id="EWG52308.1"
                      /translation="MADNQSLPKEPIAIIGTSCRFPGGANTPSKLWDLLCEKRDVQSRI
                      PNDRFNVDAFYSTNGDKNGCTDVKRAYLLSEDIRVFDASFFKINPREAEAMDPQQRLLL
@@ -211,6 +219,8 @@ FEATURES             Location/Qualifiers
                      KWASEAILEKYASQYNLPVWIHRPSNITGPNAPKADLMQNIFHYSAKTASLPDLASWSG
                      CFDFVPVDVVAAGIASSIYETQETVAYKHHCGTEKISVEDLPSYLEAKHGKIETVSIEE
                      WLERSKAAGLDEVTAVLVEKTLSRGGIVPWLRREAN"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_DH, PKS_NRPS_MT, fPKS_KR,
+                     ACP_PCP, Condensation, AA-adenyl-dom, fPKS_R"
 ORIGIN
         1 ttaaagcctt tctagtcgga tataaataaa agaacaaata acttcctcat ccttgtgatc
        61 acggataaaa agctcctttg ttctagtaac ccaatcttga agtagactct cctcctcctc

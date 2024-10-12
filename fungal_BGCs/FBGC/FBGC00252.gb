@@ -1,30 +1,30 @@
-LOCUS       FBGC00252        5712 bp DNA     linear   UNA 28-JAN-2023
+LOCUS       FBGC00252               5712 bp    DNA     linear   UNA 28-JAN-2023
 DEFINITION  shamixanthone.
 ACCESSION   FBGC00252
-VERSION     .
+VERSION     FBGC00252
 KEYWORDS    .
 SOURCE      Aspergillus nidulans FGSC A4
   ORGANISM  Aspergillus nidulans FGSC A4
+            .
 REFERENCE   1  (bases 1 to 5712)
-  AUTHORS   Sanchez JF, Entwistle R, Hung JH, Yaegashi J, Jain S, Chiang YM, 
+  AUTHORS   Sanchez JF, Entwistle R, Hung JH, Yaegashi J, Jain S, Chiang YM,
             Wang CC, Oakley BR.
-  TITLE     Genome-based deletion analysis reveals the prenyl xanthone 
+  TITLE     Genome-based deletion analysis reveals the prenyl xanthone
             biosynthesis pathway in Aspergillus nidulans.
   JOURNAL   J Am Chem Soc 2011;133:4010-7
-  PUBMED    21351751
+   PUBMED   21351751
 REFERENCE   2  (bases 1 to 5712)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Jan 28, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
+  JOURNAL   Exported Jan 28, 2023 from SnapGene 6.2.1 https://www.snapgene.com
 COMMENT     SGRef: number: 1; type: "Journal Article"; doi: "10.1021/ja1096682";
-            journalName: "J Am Chem Soc"; date: "2011"; volume: "133"; pages: 
+            journalName: "J Am Chem Soc"; date: "2011"; volume: "133"; pages:
             "4010-7"
-COMMENT     Aspergillus nidulans FGSC A4 CADRE,
+            Aspergillus nidulans FGSC A4 CADRE,
             updated by Eurofungbase with contributions from
             CADRE (http://www.cadre-genomes.org.uk),
             AspGD (http://www.aspergillusgenome.org) and
-              Ensembl Genomes (http://www.ensemblgenomes.org).
+            Ensembl Genomes (http://www.ensemblgenomes.org).
 FEATURES             Location/Qualifiers
      source          1..5712
                      /chromosome="II"
@@ -32,14 +32,14 @@ FEATURES             Location/Qualifiers
                      /mol_type="genomic DNA"
                      /db_xref="taxon:227321"
                      /organism="Aspergillus nidulans FGSC A4"
-     CDS             join(1..184,232..433,483..567,623..749,802..1251,1306..2081,
-                     2132..2176)
+     CDS             join(1..184,232..433,483..567,623..749,802..1251,
+                     1306..2081,2132..2176)
                      /codon_start=1
                      /locus_tag="ANIA_07998"
                      /old_locus_tag="AN7998.4"
-                     /product="glucose-methanol-choline family oxidoreductase 
+                     /product="glucose-methanol-choline family oxidoreductase
                      XptC"
-                     /label=xptC
+                     /label="xptC"
                      /note="transcript_id=CADANIAT00004018"
                      /db_xref="EnsemblGenomes-Gn:CADANIAG00004018"
                      /db_xref="EnsemblGenomes-Tr:CADANIAT00004018"
@@ -60,12 +60,13 @@ FEATURES             Location/Qualifiers
                      DTDANVQVFNVKPFSRGYVYINQTDPLANPVIDFRTASDPTDFQLHIALLHKQRELFNA
                      PSLAALGPTEVVPGPAVQTDEDIIKLMREILQPSNGHQCCSAPMMPRELGGVLSPEMKV
                      YGTTGLRVIDISHWPKELSGPPMASIYAAGEKAADIIKGEHGWLGN"
+                     /Pfam="GMC_oxred_N, GMC_oxred_C"
      CDS             complement(join(2540..3054,3111..3396))
                      /codon_start=1
                      /locus_tag="ANIA_07999"
                      /old_locus_tag="AN7999.4"
                      /product="short-chain dehydrogenase/reductase ANIA_07999"
-                     /label=ANIA_07999
+                     /label="ANIA_07999"
                      /note="transcript_id=CADANIAT00004019"
                      /db_xref="EnsemblGenomes-Gn:CADANIAG00004019"
                      /db_xref="EnsemblGenomes-Tr:CADANIAT00004019"
@@ -80,10 +81,11 @@ FEATURES             Location/Qualifiers
                      ASKVTLRECFNKAYDVNVTGATVLTHTLAPLLIKSSDPRLLFIAGLSMMTVAMKEYFPT
                      PPLPAGWPKKVEFETIGYRCSKTALNMLMLDWNHKLKADKVKVWAVGPGMLETDLGGQR
                      ELAKKMGLGSATLGGTLIRDVVEGARDQDVGRVIQRDGDGFVPL"
+                     /Pfam="adh_short"
      CDS             join(4264..4485,4540..5712)
                      /codon_start=1
                      /product="DMATS-type prenyltransferase XptB"
-                     /label=xptB
+                     /label="xptB"
                      /translation="MTATDGMVLHKRSLSEGGTSTQAWKVLSQTLPSRGPDVDAWWQLT
                      GRHLAVLLDAAAYPIEKQYECLLYHYHYAAPYLGPAPREGASPPTWKSMLQLDGTPFEF
                      SWKWNNPGGEPDVRFGLEPIGPMAGTSLDPLNHLAMREILYKLSSAVPGSDLTWTHHFL
@@ -93,6 +95,7 @@ FEATURES             Location/Qualifiers
                      ADAPDMLKGCVYFFDIAPGRNLPAIKVYFPVRNHCRNDLAVTQNLNRWLESRGRGQYGA
                      AFGRALETIADYRRLEDSGGLLSFLSCQFMEDGELDLTSYFNPQAFHSGRLTHRRATRR
                      RGDDRW"
+                     /Pfam="Trp_DMAT"
 ORIGIN
         1 atggccaagc tatccgtaat tctgcttttc cgcagccttt tactttgcgg tgcgctcacg
        61 gtctcacggc atgctacgct agtgactgag cgagaagtcc aatccagcaa atacgacttt

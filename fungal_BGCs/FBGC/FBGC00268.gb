@@ -1,29 +1,29 @@
-LOCUS       FBGC00268       19896 bp DNA     linear   UNA 28-JAN-2023
+LOCUS       FBGC00268              19896 bp    DNA     linear   UNA 28-JAN-2023
 DEFINITION  wortmanamides.
 ACCESSION   FBGC00268
-VERSION     .
+VERSION     FBGC00268
 KEYWORDS    .
 SOURCE      Talaromyces wortmannii CBS 387.67
   ORGANISM  Talaromyces wortmannii CBS 387.67
+            .
 REFERENCE   1  (bases 1 to 19896)
   AUTHORS   Hai Y, Tang Y.
-  TITLE     Biosynthesis of Long-Chain N-Acyl Amide by a Truncated Polyketide 
-            Synthase-Nonribosomal Peptide Synthetase Hybrid Megasynthase in 
+  TITLE     Biosynthesis of Long-Chain N-Acyl Amide by a Truncated Polyketide
+            Synthase-Nonribosomal Peptide Synthetase Hybrid Megasynthase in
             Fungi.
   JOURNAL   J Am Chem Soc 2018;140:1271-1274
-  PUBMED    29343058
+   PUBMED   29343058
 REFERENCE   2  (bases 1 to 19896)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Jan 28, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1021/jacs.7b13350"; journalName: "J Am Chem Soc"; date: "2018"; 
-            volume: "140"; pages: "1271-1274"
+  JOURNAL   Exported Jan 28, 2023 from SnapGene 6.2.1 https://www.snapgene.com
 COMMENT     ##Assembly-Data-START##
             Assembly Method       :: SOAPdenovo v. 1/20/2015
             Sequencing Technology :: Illumina
             ##Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1021/jacs.7b13350"; journalName: "J Am Chem Soc"; date: "2018";
+            volume: "140"; pages: "1271-1274"
 FEATURES             Location/Qualifiers
      source          1..19896
                      /strain="CBS 387.67"
@@ -34,7 +34,7 @@ FEATURES             Location/Qualifiers
      CDS             complement(join(1..929,1008..1125))
                      /codon_start=1
                      /product="thioesterase TwmA"
-                     /label=twmA
+                     /label="twmA"
                      /note="putative thioesterase"
                      /protein_id="QBC19709.1"
                      /translation="MASGKAGGASALFSEATQAEQLDSHTYRVNLNQGFCIGAVPNGGY
@@ -44,11 +44,12 @@ FEATURES             Location/Qualifiers
                      YVVDSFPHNMHTFLAAPALRELLNASPERSGDSEVKDVRKKDQQRAEMWFPTVVMNIEA
                      KTALPEEGVEWLSVRVSSKQIKEGKFDLEVLVRDTDGEMVALSNHVAMILSVERNTGKK
                      SGSSKASL"
-     CDS             complement(join(1606..1951,2018..4153,4211..7236,7295..9464,
-                     9515..9934,9985..10826))
+                     /Pfam="4HBT_3"
+     CDS             complement(join(1606..1951,2018..4153,4211..7236,
+                     7295..9464,9515..9934,9985..10826))
                      /codon_start=1
                      /product="polyketide synthase TwmB"
-                     /label=twmB
+                     /label="twmB"
                      /note="wortmanamide synthase"
                      /protein_id="QBC19710.1"
                      /translation="MAGEGAEIAIIGSGCRFPGNASSPSKLWALLQNPTSVASKVPALG
@@ -102,11 +103,13 @@ FEATURES             Location/Qualifiers
                      GPLYNLVLVRILAQQTTRFEDLLETTRNKTYAALSNSKLPYPMLVEELGLQRIAKDYPF
                      VQVFADYRVGQRTTAEFGEDNKLVMMGFDFNVPYDVFLDTIDEPEGECLHELFLRNDLF
                      GREEADRLARSYKSLVVAFAEHPAMTLGQAALAESECGGKIAQ"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_DH, PKS_NRPS_MT, fPKS_KR,
+                     ACP_PCP, Condensation"
      CDS             join(12309..12507,12572..12648,12732..13111,13174..13229,
                      13292..13671)
                      /codon_start=1
                      /product="hypothetical protein TwmC"
-                     /label=twmC
+                     /label="twmC"
                      /note="GPCR-like protein"
                      /protein_id="QBC19711.1"
                      /translation="MAFEIPEDSTQLSQFVTLLIFTPLGIVVTALRFVAVRRVTRKVGF
@@ -116,11 +119,12 @@ FEATURES             Location/Qualifiers
                      IGFVKIAVTYSTSELYAFSMIALWTGVQMFTALLCCSLPMYNTFLPIVADFWNRLSHHS
                      LGWVSRVRSSQSSSKNSRKHGPYDSDQSPGPGWDDLVAYNGTKGLTLPQAPYHGDNHAL
                      GNVSPITHPQAYSKQTTRQFDVV"
+                     /Pfam="TwmC"
      CDS             join(14060..14131,14198..14310,14363..14412,14463..14522,
                      14579..14908,14956..15518,15579..15929)
                      /codon_start=1
                      /product="cytochrome P450 monooxygenase TwmD"
-                     /label=twmD
+                     /label="twmD"
                      /note="P450-like protein"
                      /protein_id="QBC19712.1"
                      /translation="MAFLDYPPFDICTIQQLLTFIIISYTFYLTTRSIWRLYFHPLSKY
@@ -132,10 +136,11 @@ FEATURES             Location/Qualifiers
                      RSAFKNYDEITSGSAAQLAYLSACLSESLRIMPGVLTGMPVVSPGAMVDGTYIPKGVVC
                      QSSSLALARSPRNFRHALSFRPERWLQEDHALYDAQFAQDNRKGFQPFSQGPRICAGKE
                      IAWWQSRVFLAKVLWTFDLEMVSGQQIDMARDLRGWGMYDKPEIRVRFRPKFVV"
+                     /Pfam="p450"
      CDS             16510..17616
                      /codon_start=1
                      /product="trans-acting enoylreductase TwmE"
-                     /label=twmE
+                     /label="twmE"
                      /note="enoyl-reductase"
                      /protein_id="QBC19713.1"
                      /translation="MTPTTLPTSQRAVQQDGNGKLHVANNAAIPSLLPGHVLVKTYAVA
@@ -145,10 +150,11 @@ FEATURES             Location/Qualifiers
                      SSADVALKIKTHTGGRLKYALDCISDVASVATCYAAIQRPGGRYVSLEYIPDELLAQRR
                      AVRPNFVLSAELYGEEIVLGEEAYDRPANREKHQLAVQNVGMLQRLIDSGGLKTHPTEE
                      IEGGLEGVVKGLVALAGGGHPRKLVAVV"
+                     /Pfam="fPKS_ER"
      CDS             join(18193..18416,18471..19896)
                      /codon_start=1
                      /product="major facilitator superfamily transporter TwmF"
-                     /label=twmF
+                     /label="twmF"
                      /note="MFS protein"
                      /protein_id="QBC19708.1"
                      /translation="MKSPSSSAEMQSSSPEPAPWKPDFQVYAIVIGLGITNLLAALENT
@@ -161,6 +167,7 @@ FEATURES             Location/Qualifiers
                      TTMLPAFQAFIHERDIAACTAAWYFIRLFGHIWGVAIPAAIFNQRIDTLLGQGAISDPS
                      VSKTIAAGGAYQAASAAFVKQFPGSLQLEIRSVYSQAIQRVFQVSIAFAGVAFLLTLLE
                      KDVGLRKTLETDFGLEKEGAGQQADVEGRSHE"
+                     /Pfam="MFS_1"
 ORIGIN
         1 ttataaagaa gcctttgaag aaccgctctt cttgcccgta ttccgttcaa cactcagaat
        61 catcgcaaca tgattgctca acgcaaccat ctccccatcc gtgtcccgca cgagcacctc

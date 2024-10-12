@@ -1,26 +1,26 @@
-LOCUS       FBGC00294       28933 bp DNA     linear   UNA 08-FEB-2023
+LOCUS       FBGC00294              28933 bp    DNA     linear   UNA 08-FEB-2023
 DEFINITION  fusaristatin A.
 ACCESSION   FBGC00294
-VERSION     .
+VERSION     FBGC00294
 KEYWORDS    .
 SOURCE      Fusarium graminearum PH-1
   ORGANISM  Fusarium graminearum PH-1
+            .
 REFERENCE   1  (bases 1 to 28933)
-  AUTHORS   Sørensen JL, Sondergaard TE, Covarelli L, Fuertes PR, Hansen FT, 
+  AUTHORS   Sørensen JL, Sondergaard TE, Covarelli L, Fuertes PR, Hansen FT,
             Frandsen RJ, Saei W, Lukassen MB, Wimmer R, Nielsen KF, Gardiner DM,
             Giese H.
-  TITLE     Identification of the biosynthetic gene clusters for the 
-            lipopeptides fusaristatin A and W493 B in Fusarium graminearum and 
+  TITLE     Identification of the biosynthetic gene clusters for the
+            lipopeptides fusaristatin A and W493 B in Fusarium graminearum and
             F. pseudograminearum.
   JOURNAL   J Nat Prod 2014;77:2619-25
-  PUBMED    25412204
+   PUBMED   25412204
 REFERENCE   2  (bases 1 to 28933)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Feb 8, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
+  JOURNAL   Exported Feb 8, 2023 from SnapGene 6.2.1 https://www.snapgene.com
 COMMENT     SGRef: number: 1; type: "Journal Article"; doi: "10.1021/np500436r";
-            journalName: "J Nat Prod"; date: "2014"; volume: "77"; pages: 
+            journalName: "J Nat Prod"; date: "2014"; volume: "77"; pages:
             "2619-25"
 FEATURES             Location/Qualifiers
      source          1..28933
@@ -33,7 +33,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="FGSG_08209"
                      /product="nonribosomal peptide synthetase NRPS7"
-                     /label=NRPS7
+                     /label="NRPS7"
                      /note="revised sequence"
                      /protein_id="ESU15173.1"
                      /translation="MDCHQHVETLLCRAASVVLKKEENEIDLEKSLVEQGGDMLSGVFF
@@ -111,11 +111,12 @@ FEATURES             Location/Qualifiers
                      SSKLTKLQRVNSPKEQTLRKDKPTNGVFSDKPDDATLSVLDTIWFSIFTSNRAGVGTLA
                      SDELTPDLRYLPFYKVGGDLLDAAWFIALIQRRVKTSGRESNGDGILASHNQLTVDDVL
                      RHPSVVEFAGLLKQKQVELN"
+                     /Pfam="NRPS_E, NRPS_C, AA-adenyl-dom, ACP_PCP, NRPS_CT"
      CDS             join(14829..15167,15220..15306,15362..22600)
                      /codon_start=1
                      /locus_tag="FGSG_08208"
                      /product="polyketide synthase PKS6"
-                     /label=PKS6
+                     /label="PKS6"
                      /protein_id="ESU15174.1"
                      /translation="MGSLSAVPATNGNHAALNGSASTNGQHVNGSTHVNGNHSLNGSAQ
                      VNGHSATTANLEPIAVVGMSCRLPGDATDTQKLWELITKGRSAWSKVPTDRWNQEAFHD
@@ -161,11 +162,13 @@ FEATURES             Location/Qualifiers
                      NGNERGLGEARWANDKRLAQIFGAETQAGNKTVGGGADNVGFALQSATTFQEAQDIICD
                      AIVKQLATILAIQSDDIIPARSLDSYGLDSLVGVELRNWIGAYLQVNLPLLVMWNTSSI
                      NELAEIVTKGSRLVKVKVEDTEEEQVDVVKD"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_DH, PKS_NRPS_MT, fPKS_ER,
+                     fPKS_KR, ACP_PCP"
      CDS             join(23681..23889,23978..24403,24462..25395)
                      /codon_start=1
                      /locus_tag="FGSG_08207"
                      /product="cytochrome P450 monooxygenase FGSG_08207"
-                     /label=FGSG_08207
+                     /label="FGSG_08207"
                      /protein_id="ESU15175.1"
                      /translation="MALTEGISELLLSKPVVLGLAACALLFLIGRAFEPTVDALEPPML
                      RPSIPIFGHFYSMMKDQEAFFKRLDKKYHMPIATVPILKYKMYAITDPILVQSAYCNKN
@@ -177,21 +180,23 @@ FEATURES             Location/Qualifiers
                      EVWGEDAAVFRADRFLDKGLTSEQAKLRRAALTPFGGGAHMCPGRNFATAEIYGFMTAL
                      LLGYNVEPVDGKWDAFKPPPMATCPQSTSVCKPEDEASVCGTRLIRRSGWEGAQWKFVS
                      GKVTE"
+                     /Pfam="p450"
      CDS             complement(join(25665..25892,25941..26129))
                      /codon_start=1
                      /locus_tag="FGSG_08206"
                      /product="Dabb domain-containing protein FGSG_08206"
-                     /label=FGSG_08206
+                     /label="FGSG_08206"
                      /protein_id="ESU15176.1"
                      /translation="MFAFKRSSCYFQVSNKIVKNGQIRGYISVADRVHRVTMFKMPKAE
                      DQQRFLEQCRKMAADNQRNGSPYILSMVAGPAEDGPRTEGYTFVNKTEFASMEDMKYYE
                      TECPAHGEVKKVLGEITIDGMMTVFFKPQATGGA"
+                     /Pfam="Dabb"
      CDS             join(27135..27627,27681..28030,28086..28173,28224..28389,
                      28443..28641,28694..28933)
                      /codon_start=1
                      /locus_tag="FGSG_08205"
                      /product="aminotransferase FGSG_08205"
-                     /label=FGSG_08205
+                     /label="FGSG_08205"
                      /note="revised sequence"
                      /protein_id="ESU15177.1"
                      /translation="MFATQSPRHLQVLLCRTKKFALASPPICYKVGAASSGSIRKFLSA
@@ -203,6 +208,7 @@ FEATURES             Location/Qualifiers
                      LAGGFAPMAAMFINHRLSDALMSGSGVFSHGHTYQGHPVGCAAALEVQRIIREDNLVEN
                      VRKNGEYLGKLLHDQLDDHPNVGNIRGRGFFWSMEFVADKETKEPFLPSDGIAKKVHLT
                      ALNDVGISLYPGMGTKDGVAGDHAWIGPAYNCSKQDIERIVSKVKEAVVLALG"
+                     /Pfam="Aminotran_3"
 ORIGIN
         1 ctaattcagc tcaacttgtt tttgcttcag aaggcccgca aactccacca cactgggatg
        61 acgaagaaca tcatcgacag tcaactgatt atgcgaagct aatatcccgt ctccatttga

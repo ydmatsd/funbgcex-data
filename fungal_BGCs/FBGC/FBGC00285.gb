@@ -1,24 +1,24 @@
-LOCUS       FBGC00285       15406 bp DNA     linear   UNA 30-JAN-2023
+LOCUS       FBGC00285              15406 bp    DNA     linear   UNA 30-JAN-2023
 DEFINITION  citreoviridin.
 ACCESSION   FBGC00285
-VERSION     .
+VERSION     FBGC00285
 KEYWORDS    .
 SOURCE      Aspergillus terreus NIH2624
   ORGANISM  Aspergillus terreus NIH2624
+            .
 REFERENCE   1  (bases 1 to 15406)
   AUTHORS   Lin TS, Chiang YM, Wang CC.
   TITLE     Biosynthetic Pathway of the Reduced Polyketide Product Citreoviridin
-            in Aspergillus terreus var. aureus Revealed by Heterologous 
+            in Aspergillus terreus var. aureus Revealed by Heterologous
             Expression in Aspergillus nidulans.
   JOURNAL   Org Lett 2016;18:1366-9
-  PUBMED    26954888
+   PUBMED   26954888
 REFERENCE   2  (bases 1 to 15406)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Jan 30, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1021/acs.orglett.6b00299"; journalName: "Org Lett"; date: 
+  JOURNAL   Exported Jan 30, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1021/acs.orglett.6b00299"; journalName: "Org Lett"; date:
             "2016"; volume: "18"; pages: "1366-9"
 FEATURES             Location/Qualifiers
      source          1..15406
@@ -26,12 +26,12 @@ FEATURES             Location/Qualifiers
                      /mol_type="genomic DNA"
                      /db_xref="taxon:341663"
                      /organism="Aspergillus terreus NIH2624"
-     CDS             join(1..148,206..300,356..398,460..776,843..1077,1139..1750,
-                     1821..1900)
+     CDS             join(1..148,206..300,356..398,460..776,843..1077,
+                     1139..1750,1821..1900)
                      /codon_start=1
                      /locus_tag="ATEG_09616"
                      /product="ATP synthase subunit beta CtvE"
-                     /label=ctvE
+                     /label="ctvE"
                      /note="revised sequence"
                      /protein_id="EAU29807.1"
                      /translation="MFRLSSGLLKGGACASRSRIPQLGRSLYSTATSAGADKTQGKIHT
@@ -43,13 +43,13 @@ FEATURES             Location/Qualifiers
                      VPADDLTDPAPATTFIHLDATTELSRGISELGIYPAVDPLGSKSRLMDPRIVGEEHYDT
                      AMRVQRTLQEYKSLQDIIAILGMDELSEADKITVERARKLQKFLSQPFAVAEVFTGIPG
                      QLVSLEDTIRSFKAVLDGQGDNMPENAFYMVGNFESAKAKSEKILDELEGK"
+                     /Pfam="ATP-synt_ab_N, ATP-synt_ab"
      CDS             complement(2203..9624)
                      /codon_start=1
                      /locus_tag="ATEG_09617"
                      /product="polyketide synthase CtvA"
-                     /label=ctvA
-                     /note="similar to polyketide synthase
-                     revised sequence"
+                     /label="ctvA"
+                     /note="similar to polyketide synthase revised sequence"
                      /protein_id="EAU29808.1"
                      /translation="MWHQSHPQIDSILTLSMTRRAPTPWQPMPARGTSSLTTSRPAPFF
                      NISATEALALDPQQRMLLEVVYESLETAGLRLDALRGSPTGVYCGVMNSDWEGIFSVSC
@@ -94,22 +94,25 @@ FEATURES             Location/Qualifiers
                      SLAQVGEVVEAGVAAKLHHRLHLPGEVGSGNVTGDTRLTELGVDSLIAVDLRRWFAQEL
                      EVDIPVLQMLSGCSVKELAAAATALLQPKFYPGVVGDSDVGSEKDGSSDSRGDTSSSSY
                      QVITPEESD"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_DH, PKS_NRPS_MT, fPKS_KR,
+                     ACP_PCP"
      CDS             10257..10946
                      /codon_start=1
                      /locus_tag="ATEG_09618"
                      /product="methyltransferase CtvB"
-                     /label=ctvB
+                     /label="ctvB"
                      /protein_id="EAU29809.1"
                      /translation="MTFYQLSDAEGADNYYNPLLLWWYDFWVHWVSALFAWKCSSKNIL
                      LPFFLSNIGSRHCDVGVGTGYYLSAVRKRQPSWPQDKLTLVDFHIRCLRKAANRVGIAD
                      RTECVLANILEPIPIQPERQFDSISLMYVLHCLPGASKDKGRVFANLKPLLKDSGTLFG
                      STLLCRGVRQNWFNWLLQRIYNAVDMFQNRADFPDDFVRALEEEFEEVESVIIGTVLMF
                      KARKPRR"
+                     /Pfam="VrtF"
      CDS             join(11154..11491,11559..12267)
                      /codon_start=1
                      /locus_tag="ATEG_09619"
                      /product="epoxide hydrolase CtvD"
-                     /label=ctvD
+                     /label="ctvD"
                      /protein_id="EAU29810.1"
                      /translation="MALSAYFLLCLSVLGLDAIYGFGFRNGFLELMANSYRERKLSGTA
                      EPLQGNITGTGLDELLGNLIVFYWPVLDGNHPGLSLQAFHFLGAIVAVWVAIQVQSWRS
@@ -118,11 +121,12 @@ FEATURES             Location/Qualifiers
                      ISVRTACRTACSFAFVCAIIPHAVSWGLSLTLIPTNLLADVLPWQFAGGGTVQVQSMAQ
                      GGLWFLQWDHLIGMGSFLLWAMHMRWTVEQQSSFLQTCYLALKVGVLCLISGPCGAAVW
                      LLWEESQF"
+                     /Pfam="CtvD"
      CDS             join(13797..14095,14167..14438,14500..14870,14927..15406)
                      /codon_start=1
                      /locus_tag="ATEG_09620"
                      /product="FAD-dependent monooxygenase CtvC"
-                     /label=ctvC
+                     /label="ctvC"
                      /protein_id="EAU29811.1"
                      /translation="MEGKGPSFKVIIVGASVTGLTLAHCLHRAGIDYVVLEKHHEVHPP
                      IGAAVAILPNGGRIMEQLGIFRHIEDRCQPFQRVHLCFQDGFYYDSLSPSVVLKRFGLK
@@ -133,6 +137,7 @@ FEATURES             Location/Qualifiers
                      TQNHHQPSDDTIHRALANFSERHRKRLDAIHLESRWITRLEACQGWVVTAFTRYVAPHC
                      GDLFALGVVRNSYNGEVLQFLPLTERSGKHWPKLEWWNTWGLSKWQEFGERLVYCFGVV
                      ILLWISWAVFNVNQL"
+                     /Pfam="FAD_binding_3"
 ORIGIN
         1 atgttcaggc tgtcgtccgg ccttctgaag ggaggagcct gtgcctcccg gtctcgcatc
        61 cctcagcttg gccgttctct ctacagcact gccacctctg caggagctga caagactcag

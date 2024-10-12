@@ -1,37 +1,37 @@
-LOCUS       FBGC00299       15399 bp DNA     linear   UNA 09-FEB-2023
+LOCUS       FBGC00299              15399 bp    DNA     linear   UNA 09-FEB-2023
 DEFINITION  gibepyrone A.
 ACCESSION   FBGC00299
-VERSION     .
+VERSION     FBGC00299
 KEYWORDS    .
 SOURCE      Fusarium fujikuroi IMI 58289
   ORGANISM  Fusarium fujikuroi IMI 58289
+            .
 REFERENCE   1  (bases 1 to 15399)
-  AUTHORS   Janevska S, Arndt B, Niehaus EM, Burkhardt I, Rosler SM, Brock NL, 
+  AUTHORS   Janevska S, Arndt B, Niehaus EM, Burkhardt I, Rosler SM, Brock NL,
             Humpf HU, Dickschat JS, Tudzynski B.
-  TITLE     Gibepyrone Biosynthesis in the Rice Pathogen Fusarium fujikuroi Is 
+  TITLE     Gibepyrone Biosynthesis in the Rice Pathogen Fusarium fujikuroi Is
             Facilitated by a Small Polyketide Synthase Gene Cluster.
   JOURNAL   J Biol Chem 2016;291:27403-27420
-  PUBMED    27856636
+   PUBMED   27856636
 REFERENCE   2  (bases 1 to 15399)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Feb 9, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
+  JOURNAL   Exported Feb 9, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     ##Genome-Annotation-Data-START##
+            Annotation Provider :: INSDC submitter
+            Annotation Status   :: Full annotation
+            Annotation Pipeline :: Eukaryotic Annotation Propagation Pipeline
+            ##Genome-Annotation-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
             "10.1074/jbc.M116.753053"; journalName: "J Biol Chem"; date: "2016";
             volume: "291"; pages: "27403-27420"
-COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final 
-            NCBI review. The reference sequence is identical to HF679033. 
-            Sequencing was performed by Eurofins MWG Operon, Germany Guldener 
-            U., Wiemann P., Sieber C., Munsterkotter M., Tudzynski B. 
+            PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to HF679033.
+            Sequencing was performed by Eurofins MWG Operon, Germany Guldener
+            U., Wiemann P., Sieber C., Munsterkotter M., Tudzynski B.
             Westfaelische Wilhelms-Universitaet Muenster
             Institut fuer Biologie und Biotechnologie der Pflanzen, Schlossplatz
             8, 48143 Muenster, Germany
-            tudzynsb@uni-muenster.de.##Genome-Annotation-Data-START##
-            Annotation Provider :: INSDC submitter
-            Annotation Status   :: Full annotation
-            Annotation Pipeline :: Eukaryotic Annotation Propagation Pipeline 
-            ##Genome-Annotation-Data-END##
 FEATURES             Location/Qualifiers
      source          1..15399
                      /chromosome="XI"
@@ -46,7 +46,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="FFUJ_12020"
                      /product="polyketide synthase GPY1"
-                     /label=GPY1
+                     /label="GPY1"
                      /db_xref="EnsemblGenomes-Gn:FFUJ_12020"
                      /db_xref="EnsemblGenomes-Tr:CCT75967"
                      /db_xref="GeneID:35405480"
@@ -115,6 +115,8 @@ FEATURES             Location/Qualifiers
                      EYQSWAQDAKFGLLRSRAADNAALDSDSDSGESAVQTAFKALRNTLGRLGDAPEGKEAA
                      LQPFVCTALVAKLAQVLSIKVGDIQPSRSAIQYGMDSLIAIEVRSWARYAFQIDLPIND
                      LTNPYSIQDLSARVSRMIAG"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_DH, PKS_NRPS_MT, fPKS_ER,
+                     fPKS_KR, ACP_PCP"
      CDS             complement(join(10393..10612,10662..11036,11099..11182,
                      11236..11910,11966..12016,12068..12263,12320..12652,
                      12698..12860,12913..13637,13686..13919,13968..14247,
@@ -122,7 +124,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="FFUJ_12021"
                      /product="ABC transporter GPY2"
-                     /label=GPY2
+                     /label="GPY2"
                      /db_xref="EnsemblGenomes-Gn:FFUJ_12021"
                      /db_xref="EnsemblGenomes-Tr:CCT75968"
                      /db_xref="GeneID:35405481"
@@ -159,6 +161,7 @@ FEATURES             Location/Qualifiers
                      SVSIREYAKLFGISDEQEIIQGLKKTGLWQTIEQGGGLDMIASSDTFSHGERQLFAMTL
                      ACLKKGKLVLMDEPTSHVDNDIQTQLRQAVFDTFPDSTVLCVTHQVATIVDFDIVLVLD
                      DGKIVEQGDPKELLHQPTSRFAQLYSAGEL"
+                     /Pfam="ABC_membrane, ABC_tran"
 ORIGIN
         1 tcatccggca atcattctag aaaccctagc cgacaaatcc tgaatactat acgggttcgt
        61 caaatcatta ataggcagat caatttggaa cgcatatcgc gcccaagatc gaacctcaat

@@ -1,34 +1,35 @@
-LOCUS       FBGC00253       12803 bp DNA     linear   UNA 28-JAN-2023
+LOCUS       FBGC00253              12803 bp    DNA     linear   UNA 28-JAN-2023
 DEFINITION  tenuazonic acid.
 ACCESSION   FBGC00253
-VERSION     .
+VERSION     FBGC00253
 KEYWORDS    .
 SOURCE      Pyricularia oryzae 70-15
   ORGANISM  Pyricularia oryzae 70-15
+            .
 REFERENCE   1  (bases 1 to 12803)
   AUTHORS   Yun CS, Motoyama T, Osada H.
-  TITLE     Biosynthesis of the mycotoxin tenuazonic acid by a fungal NRPS-PKS 
+  TITLE     Biosynthesis of the mycotoxin tenuazonic acid by a fungal NRPS-PKS
             hybrid enzyme.
   JOURNAL   Nat Commun 2015;6:8758
-  PUBMED    26503170
+   PUBMED   26503170
 REFERENCE   2  (bases 1 to 12803)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Jan 28, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1038/ncomms9758"; journalName: "Nat Commun"; date: "2015"; 
-            volume: "6"; pages: "8758"
-COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final 
-            NCBI review. The reference sequence is identical to 
-            CM001233.##Genome-Assembly-Data-START##
+  JOURNAL   Exported Jan 28, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     ##Genome-Assembly-Data-START##
             Assembly Name         :: MG8
             Sequencing Technology :: Sanger ABI
-            ##Genome-Assembly-Data-END####Genome-Annotation-Data-START##
-            Annotation Provider :: INSDC submitter
-            Annotation Status   :: Full annotation
-            Annotation Pipeline :: Eukaryotic Annotation Propagation Pipeline 
+            ##Genome-Assembly-Data-END##
+            ##Genome-Annotation-Data-START##
+            Annotation Provider   :: INSDC submitter
+            Annotation Status     :: Full annotation
+            Annotation Pipeline   :: Eukaryotic Annotation Propagation Pipeline
             ##Genome-Annotation-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1038/ncomms9758"; journalName: "Nat Commun"; date: "2015";
+            volume: "6"; pages: "8758"
+            PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to
 FEATURES             Location/Qualifiers
      source          1..12803
                      /chromosome="3"
@@ -40,7 +41,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="MGG_07800"
                      /product="transcription factor TAS2"
-                     /label=TAS2
+                     /label="TAS2"
                      /db_xref="GeneID:2683727"
                      /protein_id="XP_003713017.1"
                      /translation="MRQNSDYPSLGPFFFAGKIKLSIATESFSAMKRSRAESASGPQQP
@@ -57,11 +58,12 @@ FEATURES             Location/Qualifiers
                      HAYRLLAAAGEECTVAADLVCAMRGVFAKYRVDGDLATVDGRGGQNQIVGSSRSAMASV
                      QTSAGGACNEQQQIGPAAWPGMRGAIPDENQPMGEGSLETGKAWDGFDKDLDDLFVAND
                      TYCSWDQIFARLGSYCGP"
+                     /Pfam="EqxR, Zn_clus, Fungal_trans"
      CDS             join(2825..2857,2937..3059)
                      /codon_start=1
                      /locus_tag="MGG_16932"
                      /product="hypothetical protein MGG_16932"
-                     /label=MGG_16932
+                     /label="MGG_16932"
                      /db_xref="GeneID:12985895"
                      /protein_id="XP_003713018.1"
                      /translation="MSDILIADCIKGKPGNAKELCAQYSGGTLNSLGLQKRAAFIIAVK
@@ -69,9 +71,9 @@ FEATURES             Location/Qualifiers
      CDS             complement(join(3867..4020,4110..5227))
                      /codon_start=1
                      /locus_tag="MGG_07802"
-                     /product="major facilitator superfamily transporter 
+                     /product="major facilitator superfamily transporter
                      MGG_07802"
-                     /label=MGG_07802
+                     /label="MGG_07802"
                      /db_xref="GeneID:2683729"
                      /protein_id="XP_003713019.1"
                      /translation="MQPSARGWLALAGAAVALFCTVGFLNAFGVFQEYYSTFLDRSPSD
@@ -82,12 +84,13 @@ FEATURES             Location/Qualifiers
                      NASSFLGRVLPGYIADKFGHFNLLVLSTLLSGVVGFTWTQASSLPGLIMWALAYGFTSG
                      AVMSLQNACASKMAPPQAQGLAVGVLMGVLSISALIGTPISGQILTRSGYVALSAWTGA
                      TLVAGGGVIGVARLLKYPKLMTAF"
+                     /Pfam="MFS_1"
      CDS             join(7865..8096,8149..8547,8626..12803)
                      /codon_start=1
                      /locus_tag="MGG_07803"
-                     /product="nonribosomal peptide synthetase-polyketide 
+                     /product="nonribosomal peptide synthetase-polyketide
                      synthase TAS1"
-                     /label=TAS1
+                     /label="TAS1"
                      /db_xref="GeneID:2683730"
                      /protein_id="XP_003713020.1"
                      /translation="MSVRPLPFLTGPAPSPDTAAGFKPSPPTGNLVSVSPLSKAQMALW
@@ -118,6 +121,7 @@ FEATURES             Location/Qualifiers
                      GSGTPWGDALEVQGLKMAFDRLSKTGAAEQSGTGRAQPEADRIYLGSNKGNCGNTEAAS
                      GLLSLIKASMALNLGVVPPLPNLAEPNPKCEFEETKFEPLGKQLALAPGDRVGVTSLGY
                      GGSNAHVVLASAQLFGVEQKAFF"
+                     /Pfam="Condensation, AA-adenyl-dom, ACP_PCP, PKS_KS"
 ORIGIN
         1 atgaggcaaa attcggatta tccgtcgctg gggccttttt tttttgcggg aaaaataaaa
        61 ctatccatcg caacggagtc attttcggca atgaaacgta gcagggccga gagcgcctcg

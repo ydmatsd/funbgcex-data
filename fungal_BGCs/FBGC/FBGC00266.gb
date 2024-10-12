@@ -1,40 +1,23 @@
-LOCUS       FBGC00266       16527 bp DNA     linear   UNA 28-JAN-2023
+LOCUS       FBGC00266              16527 bp    DNA     linear   UNA 28-JAN-2023
 DEFINITION  myceliothermophin E.
 ACCESSION   FBGC00266
-VERSION     .
+VERSION     FBGC00266
 KEYWORDS    .
 SOURCE      Thermothelomyces thermophilus ATCC 42464
   ORGANISM  Thermothelomyces thermophilus ATCC 42464
+            .
 REFERENCE   1  (bases 1 to 16527)
-  AUTHORS   Li L, Yu P, Tang MC, Zou Y, Gao SS, Hung YS, Zhao M, Watanabe K, 
+  AUTHORS   Li L, Yu P, Tang MC, Zou Y, Gao SS, Hung YS, Zhao M, Watanabe K,
             Houk KN, Tang Y.
-  TITLE     Biochemical Characterization of a Eukaryotic Decalin-Forming 
+  TITLE     Biochemical Characterization of a Eukaryotic Decalin-Forming
             Diels-Alderase.
   JOURNAL   J Am Chem Soc 2016;138:15837-15840
-  PUBMED    27960349
+   PUBMED   27960349
 REFERENCE   2  (bases 1 to 16527)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Jan 28, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1021/jacs.6b10452"; journalName: "J Am Chem Soc"; date: "2016"; 
-            volume: "138"; pages: "15837-15840"
-COMMENT     URL -- http://www.jgi.doe.gov/fungi
-            JGI Project ID: 4043098
-            The DNA was provided by Adrian Tsang (tsang@gene.concordia.ca)
-            The strain is available from the American Type Culture Collection 
-            under ATCC 42464
-            Contacts: Adrian Tsang (tsang@gene.concordia.ca)
-                      Igor Grigoriev (ivgrigoriev@lbl.gov)
-            Assembly and annotation done by JGI.
-            The JGI and collaborators endorse the principles for the 
-            distribution and use of large scale sequencing data adopted by the 
-            larger genome sequencing community and urge users of this data to 
-            follow them. It is our intention to publish the work of this project
-            in a timely fashion and we welcome collaborative interaction on the 
-            project and analysis. 
-            (http://www.genome.gov/page.cfm?pageID=10506376).##Metadata-START##
+  JOURNAL   Exported Jan 28, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     ##Metadata-START##
             Organism Display Name :: Myceliophthora thermophila ATCC 42464
             GOLD Stamp ID         :: Gi01755
             Assembly Method       :: Arachne v.20071016
@@ -42,6 +25,23 @@ COMMENT     URL -- http://www.jgi.doe.gov/fungi
             Sequencing Technology :: Sanger
             Sequencing Depth      :: 7.66x
             ##Metadata-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1021/jacs.6b10452"; journalName: "J Am Chem Soc"; date: "2016";
+            volume: "138"; pages: "15837-15840"
+            URL -- http://www.jgi.doe.gov/fungi
+            JGI Project ID: 4043098
+            The DNA was provided by Adrian Tsang (tsang@gene.concordia.ca)
+            The strain is available from the American Type Culture Collection
+            under ATCC 42464
+            Contacts: Adrian Tsang (tsang@gene.concordia.ca)
+            Igor Grigoriev (ivgrigoriev@lbl.gov)
+            Assembly and annotation done by JGI.
+            The JGI and collaborators endorse the principles for the
+            distribution and use of large scale sequencing data adopted by the
+            larger genome sequencing community and urge users of this data to
+            follow them. It is our intention to publish the work of this project
+            in a timely fashion and we welcome collaborative interaction on the
+            project and analysis.
 FEATURES             Location/Qualifiers
      source          1..16527
                      /chromosome="2"
@@ -54,14 +54,13 @@ FEATURES             Location/Qualifiers
                      11610..12611))
                      /codon_start=1
                      /locus_tag="MYCTH_78013"
-                     /product="polyketide synthase-nonribosomal peptide 
+                     /product="polyketide synthase-nonribosomal peptide
                      synthetase MycA"
-                     /label=mycA
-                     /note="polyketide synthase/non-ribosomal peptide
-                     synthetase hybrid;
-                     GO_function: GO:3824; cofactor binding - catalytic activity
-                     [PMID 48037];
-                     GO_process: GO:8152 - metabolic process"
+                     /label="mycA"
+                     /note="polyketide synthase/non-ribosomal peptide synthetase
+                     hybrid; GO_function: GO:3824; cofactor binding - catalytic
+                     activity [PMID 48037]; GO_process: GO:8152 - metabolic
+                     process"
                      /db_xref="InterPro:IPR000873"
                      /db_xref="InterPro:IPR001242"
                      /db_xref="InterPro:IPR006163"
@@ -144,11 +143,13 @@ FEATURES             Location/Qualifiers
                      VPVSSRWRGSLDFVPVETVADGIVGAVIRGGREHQQQQQQQETTPEEAGSVVPVKFLHH
                      SGGLVIPIERLQSHLEEEDGVEYRTVPLGQWIEMAVAEGLNVLVAAYLASVDEMDTDIV
                      FQAYVKG"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_DH, PKS_NRPS_MT, fPKS_KR,
+                     ACP_PCP, Condensation, AA-adenyl-dom, fPKS_R"
      CDS             complement(13391..14713)
                      /codon_start=1
                      /locus_tag="MYCTH_114667"
                      /product="Diels-Alderase MycB"
-                     /label=mycB
+                     /label="mycB"
                      /db_xref="JGIDB:Spoth2_114667"
                      /protein_id="AEO57198.1"
                      /translation="MGYLVKLACGLLLPLATADVNLAQQPFGEFEWQPKFDTPSGDHTS
@@ -159,11 +160,12 @@ FEATURES             Location/Qualifiers
                      SYWRPLSRLDDWVPYFAAHLFKHGRLVFTSQVGAPSQQVDYTQFHSDFSGNVSGSLADK
                      ATGRVLEFVSPSTGKTWRFHHRHFAKMFEMGFGGGRGLTGFLDEIVGGEVGTDEEFTGR
                      GFSEQVLLPDEIKQWQIWVVYGIGFLGRWKNTVTNLVLSIW"
+                     /Pfam="Fsa2"
      CDS             join(15344..15927,15996..16527)
                      /codon_start=1
                      /locus_tag="MYCTH_114666"
                      /product="trans-acting enoylreductase MycC"
-                     /label=mycC
+                     /label="mycC"
                      /note="Alcohol dehydrogenase-like protein"
                      /db_xref="InterPro:IPR013149"
                      /db_xref="InterPro:IPR013154"
@@ -176,6 +178,7 @@ FEATURES             Location/Qualifiers
                      YHSPNLGESIRAYTNNSLSFVMDIIASANSLRQCYASIGRAGGHYVGFELVPDELAGIR
                      KAVRASWVLGIRLLGYEIALDRGYGSPPDPELGMWGRAWFKRTEDLVWGGKIRPHPIEL
                      DTESGFDGIVAGVERLKRGEVSGKKLVYLIR"
+                     /Pfam="fPKS_ER, ADH_zinc_N"
 ORIGIN
         1 ttatcccttg acataggcct ggaagacaat gtccgtatcc atctcatcaa ccgaggccag
        61 gtatgcggct acgagcacgt tcaagccttc ggccacggcc atctcgatcc actggcccaa

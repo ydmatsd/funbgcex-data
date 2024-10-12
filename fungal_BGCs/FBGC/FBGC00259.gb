@@ -1,30 +1,30 @@
-LOCUS       FBGC00259       21153 bp DNA     linear   UNA 09-MAY-2023
+LOCUS       FBGC00259              21153 bp    DNA     linear   UNA 09-MAY-2023
 DEFINITION  stemphyloxin II.
 ACCESSION   FBGC00259
-VERSION     .
+VERSION     FBGC00259
 KEYWORDS    .
 SOURCE      Parastagonospora nodorum SN15
   ORGANISM  Parastagonospora nodorum SN15
+            .
 REFERENCE   1  (bases 1 to 21153)
   AUTHORS   Li H, Hu J, Wei H, Solomon PS, Stubbs KA, Chooi YH.
-  TITLE     Biosynthesis of a Tricyclo[6.2.2.02,7 ]dodecane System by a 
+  TITLE     Biosynthesis of a Tricyclo[6.2.2.02,7 ]dodecane System by a
             Berberine Bridge Enzyme-Like Aldolase.
   JOURNAL   Chem Eur J 2019;25:15062-15066
-  PUBMED    31553484
+   PUBMED   31553484
 REFERENCE   2  (bases 1 to 21153)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported May 9, 2023 from SnapGene 6.2.2
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1002/chem.201904360"; journalName: "Chem Eur J"; date: "2019"; 
+  JOURNAL   Exported May 9, 2023 from SnapGene 6.2.2 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1002/chem.201904360"; journalName: "Chem Eur J"; date: "2019";
             volume: "25"; pages: "15062-15066"
-COMMENT     This project was sequenced and assembled by the Broad Institute of 
-            Harvard/MIT, and Calhoun annotation was added to the scaffolds in 
+            This project was sequenced and assembled by the Broad Institute of
+            Harvard/MIT, and Calhoun annotation was added to the scaffolds in
             July 2006 by the Broad.  The annotation was updated in November 2007
-            by the Australian Centre for Necrotrophic Fungal Pathogens (ACNFP), 
-            based on additional EST evidence and retrained gene predictions.  
-            The ACNFP is responsible for the assembled genome sequence and 
+            by the Australian Centre for Necrotrophic Fungal Pathogens (ACNFP),
+            based on additional EST evidence and retrained gene predictions.
+            The ACNFP is responsible for the assembled genome sequence and
             annotation.
 FEATURES             Location/Qualifiers
      source          1..21153
@@ -36,7 +36,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="SNOG_07860"
                      /product="transcription factor SthR"
-                     /label=sthR
+                     /label="sthR"
                      /note="gene prediction version 1"
                      /protein_id="EAT85326.1"
                      /translation="MSTISFFATSKRTSCDRCRKQKLRCPPDKDDMGTCGRCLRAGVAC
@@ -47,11 +47,12 @@ FEATURES             Location/Qualifiers
                      NLTSCFFRIVDLFNVLLSSLALELATHSPLQRRSSSSSVTSALQILPDLKLAGLAVQEV
                      SLQTKILVLTITHHFETMERLLGLPADLRVSECKDDNGYGLLGASWTSVLSSGRREKFE
                      LGWRRTGNWVTSIESLKANMGTLTKGSC"
+                     /Pfam="EqxR"
      CDS             complement(join(2453..3920,3983..4078,4227..4267))
                      /codon_start=1
                      /locus_tag="SNOG_07861"
                      /product="FAD-linked oxidoreductase SthB"
-                     /label=sthB
+                     /label="sthB"
                      /note="gene prediction version 2"
                      /inference="ab initio prediction:same species:1.0"
                      /protein_id="EAT85327.2"
@@ -65,11 +66,12 @@ FEATURES             Location/Qualifiers
                      NWQFGCLGINAPSSSIPNAITPHWRSAIAICLEFSIYNWSVPEEVMVKRRMDLANVVHP
                      AIERVTVGGGAYLNEADPLVYSQGDHKKWQEAFYGGNYARLREVKKKWDPKGVFYAHTA
                      VGSEDWVTDIEGRLCRV"
+                     /Pfam="FAD_binding_4, BBE"
      CDS             join(4821..4955,5019..5790,5845..5978)
                      /codon_start=1
                      /locus_tag="SNOG_07862"
                      /product="short-chain dehydrogenase/reductase SthC"
-                     /label=sthC
+                     /label="sthC"
                      /note="gene prediction version 2"
                      /inference="ab initio prediction:same species:1.0"
                      /protein_id="EAT85328.2"
@@ -80,11 +82,12 @@ FEATURES             Location/Qualifiers
                      GLSKAGNWLHGVEFARRYAADGIASFPINPGHLKSDLYREGGALFKFALKPVLYPPTYG
                      AYVELFAALSPTLTLKDSGAWIVPWGRLYPIRSDLSDATKTEGEGGNGHARAFWNWSEE
                      QVKVFL"
+                     /Pfam="adh_short"
      CDS             complement(6048..7673)
                      /codon_start=1
                      /locus_tag="SNOG_07863"
                      /product="cytochrome P450 monooxygenase SthD"
-                     /label=sthD
+                     /label="sthD"
                      /note="gene prediction version 2"
                      /inference="ab initio prediction:same species:1.0"
                      /protein_id="EAT85329.1"
@@ -98,16 +101,17 @@ FEATURES             Location/Qualifiers
                      VINETLRLHPPASTIPRVTPPQGLVVADTFIPGDMTVFSSQYALGRSEAIYSKASDFIP
                      ERWCSRPDLIKDGSAYAPFSIGHHSCLGRPLALMEMRLVLAETLSRFDIAFAPGFDANH
                      FLQHVHDCMSWHIGKLGLTFTAIE"
+                     /Pfam="p450"
      CDS             join(7957..8510,8592..9132)
                      /codon_start=1
                      /locus_tag="SNOG_07864"
                      /product="trans-acting enoylreductase SthE"
-                     /label=sthE
+                     /label="sthE"
                      /note="gene prediction version 2"
                      /inference="ab initio prediction:same species:1.0"
-                     /inference="similar to RNA sequence, EST (same 
+                     /inference="similar to RNA sequence, EST (same
                      species):same species:EH388366.1"
-                     /inference="similar to RNA sequence, EST (same 
+                     /inference="similar to RNA sequence, EST (same
                      species):same species:EH389680.1"
                      /protein_id="EAT85330.1"
                      /translation="MLPANGQTAVIQSKTSSHGLPLVVAHGRPLPPLPTPYHVRVRVLA
@@ -117,11 +121,12 @@ FEATURES             Location/Qualifiers
                      KAIAKGSKIKHALDCITDVESMAICLASLSRTGGRYACLEAFPDAWLTRRAIAVKVVMG
                      FEGQNVDVDLGHPVYTRKANPALHAVAGEWARELQLLLNDGQIKTQPMQEIGGSFEGVI
                      KALEMLQRGDVKGKKLAIRIAYSK"
+                     /Pfam="fPKS_ER"
      CDS             complement(join(9870..10223,10287..11396,11445..11522))
                      /codon_start=1
                      /locus_tag="SNOG_07865"
                      /product="cytochrome P450 monooxygenase SthF"
-                     /label=sthF
+                     /label="sthF"
                      /note="gene prediction version 2"
                      /inference="ab initio prediction:same species:1.0"
                      /protein_id="EAT85331.1"
@@ -134,13 +139,13 @@ FEATURES             Location/Qualifiers
                      TFPSEDDINMRSVAQLTYTGAFIEESMRYYPPGPNTMWRITPPAGNTILGDYIPGNTIV
                      GIPHRVLYRSEAYWKDADGFRPERWLPDSQRPAEFDEDKREGFHPFSYGPRACIAMNLA
                      YAEMRYILARFLWHFDIEATKESKKWMDDQKAYLVWDKPGLFVHLKPRAGVKVAA"
+                     /Pfam="p450"
      CDS             join(12321..13299,13371..18942,18999..21153)
                      /codon_start=1
                      /locus_tag="SNOG_07866"
                      /product="polyketide synthase SthA"
-                     /label=sthA
-                     /note="gene prediction version 2
-                     revised sequence"
+                     /label="sthA"
+                     /note="gene prediction version 2 revised sequence"
                      /inference="ab initio prediction:same species:1.0"
                      /protein_id="EAT85332.2"
                      /translation="MSHNKPVNEPIVIIGSGCRFAGGANSPSKLWDLLRNPKDLRSDVT
@@ -193,6 +198,8 @@ FEATURES             Location/Qualifiers
                      VIQRPSTIIRSGEDAAVERAGFDWVNSLLHFAHQTQTVPRVDHNAGAFDLVSVDTCCSD
                      VARKLTRATKERITYVNNVGDVVIPMASMADVGLDRIGKRYNVLTMDEWTKTVVEAGMH
                      PAVAALIETFDEPGVEKYPMLLRE"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_DH, PKS_NRPS_MT, fPKS_KR,
+                     ACP_PCP, fPKS_R"
 ORIGIN
         1 tcagcaagat cccttcgtca gtgtccccat gttcgctttc agtgactcta tactagtcac
        61 ccaatttccc gttctgcgcc acccgagctc aaatttttcc ctcctgccgg agctcagcac

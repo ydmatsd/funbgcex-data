@@ -1,34 +1,34 @@
-LOCUS       FBGC00279       44928 bp DNA     linear   UNA 09-MAY-2023
+LOCUS       FBGC00279              44928 bp    DNA     linear   UNA 09-MAY-2023
 DEFINITION  oxopyrrolidines.
 ACCESSION   FBGC00279
-VERSION     .
+VERSION     FBGC00279
 KEYWORDS    .
 SOURCE      Penicillium oxalicum 114-2
   ORGANISM  Penicillium oxalicum 114-2
+            .
 REFERENCE   1  (bases 1 to 44928)
   AUTHORS   Li H, Zhang W, Zhang X, Tang S, Men P, Xiong M, Li Z, Zhang Y, Huang
             X, Lu X.
-  TITLE     Identification of PKS-NRPS Hybrid Metabolites in Marine-Derived 
+  TITLE     Identification of PKS-NRPS Hybrid Metabolites in Marine-Derived
             Penicillium oxalicum.
   JOURNAL   Mar Drugs 2022;20(8):523
-  PUBMED    36005526
+   PUBMED   36005526
 REFERENCE   2  (bases 1 to 44928)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported May 9, 2023 from SnapGene 6.2.2
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.3390/md20080523"; journalName: "Mar Drugs"; date: "2022"; 
-            volume: "20"; issue: "8"; pages: "523"
-COMMENT     Linkage information was determined using mate-pair reads sequenced 
-            by ABI SOLiD platform, the minimum number of mates was set 5. 
-            Annotation was added to the scaffolds in July 
-            2013.##Genome-Assembly-Data-START##
+  JOURNAL   Exported May 9, 2023 from SnapGene 6.2.2 https://www.snapgene.com
+COMMENT     ##Genome-Assembly-Data-START##
             Assembly Method       :: Newbler v. 2.3
             Assembly Name         :: pde_v1.0
             Genome Coverage       :: 28x
-            Sequencing Technology :: 454 GS-FLX Titanium; ABI SOLiD 
+            Sequencing Technology :: 454 GS-FLX Titanium; ABI SOLiD
             ##Genome-Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.3390/md20080523"; journalName: "Mar Drugs"; date: "2022";
+            volume: "20"; issue: "8"; pages: "523"
+            Linkage information was determined using mate-pair reads sequenced
+            by ABI SOLiD platform, the minimum number of mates was set 5.
+            Annotation was added to the scaffolds in July
 FEATURES             Location/Qualifiers
      source          1..44928
                      /chromosome="Unknown"
@@ -41,7 +41,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="PDE_01230"
                      /product="major facilitator superfamily transporter OpdF"
-                     /label=opdF
+                     /label="opdF"
                      /protein_id="EPS26294.1"
                      /translation="MSDTSLEKGNEGPTAEAPKVAPPTVPDGGLQAWLTVAGASVALFV
                      SFGWVNCIALFQSEYQTNQLKGYSSSDVSWITSMEFFFMLSTSPVSGRLFDSYGPHVPI
@@ -51,11 +51,12 @@ FEATURES             Location/Qualifiers
                      SFFGRTVPNYIADKAGRFNVMIVMTTLSAILVLALWLPARGNGALITFAALFGITSGAI
                      IGLGPVLIVQISPMSELGYRVGTVLAFAAVGTLTSPPIGGAIAASDGGSYTYTCVFSGV
                      SFLIGTLGLAALRVRLSGWGLTTKI"
+                     /Pfam="MFS_1"
      CDS             join(1804..2430,2496..4301)
                      /codon_start=1
                      /locus_tag="PDE_01231"
                      /product="transcription factor OpdR"
-                     /label=opdR
+                     /label="opdR"
                      /protein_id="EPS26295.1"
                      /translation="MAQDQNVPLVATSPPRKRRRPPKSCDPCRRRKVRCDRKFPCGQCE
                      RARTALQCNYAPIVTASSPSGGDISHLAAPSVREGDSPPSEPADPQRPSRPSAHSSHLL
@@ -71,11 +72,12 @@ FEATURES             Location/Qualifiers
                      GLEIITQLEEEASTRPSGSSPPFVADHLDKMAKANRVPLIRSLEHIQEQLLQIIALGNP
                      SLKRYNFLCAILSQIRAMESGQPIQPAIYATIKESLLKCYTLLKASHAASSPQESVESL
                      TTGPDSLPDFDVDALVSILLPICVSAINFIIKDPALGLEIPSLLFFPGLMDMSGTEW"
+                     /Pfam="CghF"
      CDS             join(4884..5044,5110..5254)
                      /codon_start=1
                      /locus_tag="PDE_01232"
                      /product="hypothetical protein OpdI"
-                     /label=opdI
+                     /label="opdI"
                      /protein_id="EPS26296.1"
                      /translation="MRGYRSSQRTFFRGFDPRHAYRFRGDGRHGGMGGALKIVFLGMMT
                      YFIAKKAFRSSQHPPTDFNAPVQSVPQRAQRPSDTRLQGPVLLASNHPSGDSASPE"
@@ -84,7 +86,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="PDE_01233"
                      /product="FAD-dependent monooxygenase OpdD"
-                     /label=opdD
+                     /label="opdD"
                      /note="revised sequence"
                      /protein_id="EPS26297.1"
                      /translation="MNDEFNVESENNSVVIVGGGPVGLVLALTLAHHGVHSVLLEKNRT
@@ -97,12 +99,13 @@ FEATURES             Location/Qualifiers
                      TLNATIIDASDARGEEMRQKIHEYVQSNDAHNQCFGVEHGHQHHSDITVTSASSHPPFD
                      PRSYTPTTHPGFRAPHVFLNDGSAIFDKFGKTLTLVEFIDAMPGPSSGGSFFRDTADEH
                      HIPLRIASLVGEANAQQIWGARLVLVRPDHFVSWCGNDVGSKDEAKRVLLQAAGHICR"
+                     /Pfam="FAD_binding_3"
      CDS             join(9627..9698,9764..10945,11031..11063,11122..11237,
                      11295..12477)
                      /codon_start=1
                      /locus_tag="PDE_01234"
                      /product="transcription factor OpdJ"
-                     /label=opdJ
+                     /label="opdJ"
                      /protein_id="EPS26298.1"
                      /translation="MKPNKPRYIACSHCSKAKARCDRKVPCSRCVSKQLVCHPRSARRA
                      IHTPTEQHLRWLEPGDVPRRDEQQTILLAQQTPVDADNTMVTGTHMRPDSPDVSSQLQS
@@ -119,12 +122,13 @@ FEATURES             Location/Qualifiers
                      RLMPPSDQPLWWSAVVYRIALITIFLSIKRHPHHWLPAVMLGQMVQDTASSSGTSTDGS
                      GVSLMSNPLFTDRVDAQPHHRPVILNNVAPNDNELLQFTKYREGEPCLAVRDGQLIELR
                      QPRDVMSFFIDLVDGGHLPALHATNFQASVKDSLERLADRWGFLSLHKT"
+                     /Pfam="CpaE"
      CDS             complement(join(13100..20770,20834..25147))
                      /codon_start=1
                      /locus_tag="PDE_01235"
-                     /product="polyketide synthase-nonribosomal peptide 
+                     /product="polyketide synthase-nonribosomal peptide
                      synthetase OpdA"
-                     /label=opdA
+                     /label="opdA"
                      /protein_id="EPS26299.1"
                      /translation="MSPSIPEPIAIVGSSCRFPGSSSSPSKLWDLLREPRDVRRNLSQN
                      LNLQRFYHPSGENHGSTDVKGLGYLLAEDSRLFDPAVFGISPYEAETIDPQQRILLEIV
@@ -194,11 +198,13 @@ FEATURES             Location/Qualifiers
                      YTASKWASEQFLQRMSNHASMRIEIHRPCVVIGDQAPASDALNAILRYSLKMKCLPKFS
                      RVEGFFDFKKVEEVAQDLVSSTVALGLGRGRSQTGREAKVHFQHHSSGKKVAFSAMAKH
                      MKEMYGEEFSEMEILDWLERALKEGMDPLISSYLESLVENGDTLQFPYLGEVHSS"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_DH, PKS_NRPS_MT, fPKS_KR,
+                     ACP_PCP, Condensation, AA-adenyl-dom, fPKS_R"
      CDS             join(25726..26313,26370..27209)
                      /codon_start=1
                      /locus_tag="PDE_01236"
                      /product="cytochrome P450 monooxygenase OpdE"
-                     /label=opdE
+                     /label="opdE"
                      /protein_id="EPS26300.1"
                      /translation="MLVQYQNLPVQNIPVLLLSCGFLAILFRSLVLRVRYYRKAQAWGC
                      KPVPSRFQWDPFWGLDLVWSQWKALRGHYYIPWLSDLHKGQPKTFQITFQGARVIHTIE
@@ -209,12 +215,13 @@ FEATURES             Location/Qualifiers
                      KVRAEVLAHGDAPLTFEALRGMKYLQASINETHRLNPNNVTQVRMCVNDTTLPLGGGTD
                      GRSPILIRKGDIVQVTKTVMQKDPLYWGEDPDVYRPERFEEKTHFWEFVPFGGGPRRCP
                      AHMMVQTESAYLIARLA"
+                     /Pfam="p450"
      CDS             complement(join(27863..28218,28274..28505,28576..28647,
                      28715..28897,28947..29373,29434..29657))
                      /codon_start=1
                      /locus_tag="PDE_01237"
                      /product="cytochrome P450 monooxygenase OpdB"
-                     /label=opdB
+                     /label="opdB"
                      /protein_id="EPS26301.1"
                      /translation="MATITLVQQFLGFGQEQEDGGMKTRYLGAMAGSVILLISAFTLSL
                      GRRSKDFTTDQGKRITEIPGDSRMSKFTRSRELSQQGEDAAGTEPYLLQSGPYRELVIS
@@ -225,11 +232,12 @@ FEATURES             Location/Qualifiers
                      KEIQEWKSRLDFDLPKYLAKHDTLLNRVLMESMRISPAFWFSMPECTADAKKIGQYNIP
                      AGTPVVIDTRRLNNDAVTWGTTGDVFNPDRFFKLPSQSLRCGFMRYGTGASSGRCLGKN
                      VADAVFKLTMIEVVERFRLESASESQEKGREGDIRLISL"
+                     /Pfam="p450"
      CDS             join(30246..30811,30872..31409)
                      /codon_start=1
                      /locus_tag="PDE_01238"
                      /product="trans-acting enoylreductase OpdC"
-                     /label=opdC
+                     /label="opdC"
                      /protein_id="EPS26302.1"
                      /translation="MGDLPTSQQALKVASSGRVILETGHPLPELGADEVLVRVACVALN
                      PYDAKSVDMSPSPGATAGLDFAGEIVALGEAVNSSTRLAVGKRVCGFVFGNNPDRRDNG
@@ -238,12 +246,13 @@ FEATURES             Location/Qualifiers
                      GSDLRDYTHNRLAFAIDCISSTDSMQICYEAIGTAGGRYVSLDPFPLNKHTRRSIRPVW
                      LFSFTIFGSAIKWDTPYNFPARPDDRESAERWYAEIEAILATGELVTHPFQEETGGLSS
                      VIDGIGAVRNGQITGYKLVYPIRNCAY"
+                     /Pfam="fPKS_ER, ADH_zinc_N"
      CDS             complement(join(32299..32728,32803..32905,32961..33255,
                      33330..33535,33605..33902))
                      /codon_start=1
                      /locus_tag="PDE_01239"
                      /product="major facilitator superfamily transporter OpdK"
-                     /label=opdK
+                     /label="opdK"
                      /protein_id="EPS26303.1"
                      /translation="MSETRDPRTHSESSLEKGTHPPHQDELATNSTTKDASPVITSTPK
                      KQGAKAWLSLAAGFMGMFASFGWVNCVAIFQAEYEMNQLRDYSSSQVGWISSVLFFFML
@@ -253,12 +262,13 @@ FEATURES             Location/Qualifiers
                      HYGMSVQMGYNLIPILNGISFFGRIVPQFWARKYGICNVFILAMIASMVIILGSWLPSR
                      SNAAIIVFTLLFGFVSGATIGLGPMIALTISPPNEVGYRMGTAFAVAGLGALTSPPIAG
                      ELITGNGGDYVYASVFSGVAYAVSTLVMVILRVRLGGWGLTTKV"
+                     /Pfam="MFS_1"
      CDS             join(34455..34564,34657..35151,35235..35465,35522..35802,
                      35870..36453)
                      /codon_start=1
                      /locus_tag="PDE_01240"
                      /product="transcription factor OpdL"
-                     /label=opdL
+                     /label="opdL"
                      /protein_id="EPS26304.1"
                      /translation="MESTMRSPLPYGNACATCARAKCRCVPRNGGRGRCERCHHLNKEC
                      RAPQGRRKIQPKTLSRSVQLERKMDGLMSLLTSFGGRTDLPTPVQRQSEVQGMWRTEVE
@@ -270,12 +280,13 @@ FEATURES             Location/Qualifiers
                      FSSQRLDHLYACLRVVKQFFDLFFTIPPAGYTSLALPYIAQVSHCLVILFRLSTLDYPG
                      WDKSTVKNTADILCIAEQISTRMAQVGDAIGMRSEGAYGDPFSKWGMMMQKLRSEWAIR
                      LPDCSEVVVDRSSAESSCPSIEMGDLDCFVNWSELGWVMEGAGAGGFIQ"
+                     /Pfam="HimD"
      CDS             join(36954..37172,37227..37303,37381..37631,37685..37756,
                      37819..38325,38381..38541,38600..38995)
                      /codon_start=1
                      /locus_tag="PDE_01241"
                      /product="major facilitator superfamily transporter OpdM"
-                     /label=opdM
+                     /label="opdM"
                      /protein_id="EPS26305.1"
                      /translation="MSEDSQPRLLESDPNPGDRDLKAVNSNPSDNRLNNQSDDYEPEWV
                      EGITLVMVISGITLVVFLMLLDMSIVSTAIPKITTQFDSLGDVAWYGSAYTISSAAFQP
@@ -287,11 +298,12 @@ FEATURES             Location/Qualifiers
                      LSTLSPTTSVPSWAGYESLVGFGRGAISQVPMIAIQNAVKGDDVSTAMAMMTCAQTFGG
                      AIFLAVGQVIFAQTLRQKIPEYAPSANVDEIIAAGATGFRENVSAQNLPGVLAAYAKSV
                      DSVFYLNVALSCAQFVFAWGVGWKSVKKEKQKDSEEEKVVESA"
+                     /Pfam="MFS_1"
      CDS             complement(40839..41774)
                      /codon_start=1
                      /locus_tag="PDE_01242"
                      /product="short-chain dehydrogenase/reductase OpdN"
-                     /label=opdN
+                     /label="opdN"
                      /protein_id="EPS26306.1"
                      /translation="MSDELKDNAAKEASFGAFLTRQLMKSVPAVTGNLDGKVAIVTGAN
                      VGLGLACARQLLSLQLSHLILAVRSLRKGEAAALELQASFPHARVEVWALEMESYASIQ
@@ -299,16 +311,18 @@ FEATURES             Location/Qualifiers
                      LGAKKEKKDAVFIPGRLTLVGSDTVYWVNARELKSRPLLQAANSSEGFDGFEQYKMSKL
                      FVLMFVAKLARDLVSPDQVIVNVACPGLCKGTAFVREPDSNWAKQAIVSSLIRLVGRTP
                      EQGARVYLAAAILQGPKSHGSMISEGDILP"
+                     /Pfam="adh_short"
      CDS             44320..44928
                      /codon_start=1
                      /locus_tag="PDE_01243"
                      /product="hypothetical protein OpdO"
-                     /label=opdO
+                     /label="opdO"
                      /protein_id="EPS26307.1"
                      /translation="MSRRLDLDALDLSTKTIPAQAAIGTYMSSTIIKAPASSVWQAVND
                      TDSWPIWNTFCPGATIREQPDTTKSRSGRLQLGTKMTLHLNWNPRGTKPKQMDVGLVVT
                      EFDPPIKGRETPGRIAWATDSSAKGFPSWLLYAERVTELHESEEWDGEECQSVTQVLSW
                      ESQRGPLAYVVRWFMGKNFKMCLRVQADDMTSFVEGQKL"
+                     /Pfam="Polyketide_cyc2"
 ORIGIN
         1 ttaaatcttc gtggtaagtc cccacccaga aaggcgtaca cgcagggcag caaggcccag
        61 ggtaccgatg aggaagctca cgccggaaaa tacacaggta taggtatagc tacccccatc

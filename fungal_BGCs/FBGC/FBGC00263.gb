@@ -1,39 +1,39 @@
-LOCUS       FBGC00263       72490 bp DNA     linear   UNA 28-JAN-2023
+LOCUS       FBGC00263              72490 bp    DNA     linear   UNA 28-JAN-2023
 DEFINITION  ACE1 cytochalasan.
 ACCESSION   FBGC00263
-VERSION     .
+VERSION     FBGC00263
 KEYWORDS    .
 SOURCE      Pyricularia oryzae 70-15
   ORGANISM  Pyricularia oryzae 70-15
+            .
 REFERENCE   1  (bases 1 to 72490)
-  AUTHORS   Song Z, Bakeer W, Marshall JW, Yakasai AA, Khalid RM, Collemare J, 
+  AUTHORS   Song Z, Bakeer W, Marshall JW, Yakasai AA, Khalid RM, Collemare J,
             Skellam E, Tharreau D, Lebrun MH, Lazarus CM, Bailey AM, Simpson TJ,
             Cox RJ.
-  TITLE     Heterologous expression of the avirulence gene ACE1 from the fungal 
+  TITLE     Heterologous expression of the avirulence gene ACE1 from the fungal
             rice pathogen Magnaporthe oryzae.
   JOURNAL   Chem Sci 2015;6:4837-4845
-  PUBMED    29142718
+   PUBMED   29142718
 REFERENCE   2  (bases 1 to 72490)
   AUTHORS   Wang C, Becker K, Pfutze S, Kuhnert E, Stadler M, Cox RJ, Skellam E.
-  TITLE     Investigating the Function of Cryptic Cytochalasan Cytochrome P450 
+  TITLE     Investigating the Function of Cryptic Cytochalasan Cytochrome P450
             Monooxygenases Using Combinatorial Biosynthesis.
   JOURNAL   Org Lett 2019;21:8756-8760
-  PUBMED    31644300
+   PUBMED   31644300
 REFERENCE   3  (bases 1 to 72490)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Jan 28, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1039/c4sc03707c"; journalName: "Chem Sci"; date: "2015"; volume:
-            "6"; pages: "4837-4845"
-COMMENT     SGRef: number: 2; type: "Journal Article"; doi: 
-            "10.1021/acs.orglett.9b03372"; journalName: "Org Lett"; date: 
-            "2019"; volume: "21"; pages: "8756-8760"
+  JOURNAL   Exported Jan 28, 2023 from SnapGene 6.2.1 https://www.snapgene.com
 COMMENT     ##Genome-Assembly-Data-START##
             Assembly Name         :: MG8
             Sequencing Technology :: Sanger ABI
             ##Genome-Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1039/c4sc03707c"; journalName: "Chem Sci"; date: "2015"; volume:
+            "6"; pages: "4837-4845"
+            SGRef: number: 2; type: "Journal Article"; doi:
+            "10.1021/acs.orglett.9b03372"; journalName: "Org Lett"; date:
+            "2019"; volume: "21"; pages: "8756-8760"
 FEATURES             Location/Qualifiers
      source          1..72490
                      /chromosome="2"
@@ -45,9 +45,9 @@ FEATURES             Location/Qualifiers
                      11501..12353))
                      /codon_start=1
                      /locus_tag="MGG_12447"
-                     /product="polyketide synthase-nonribosomal peptide 
+                     /product="polyketide synthase-nonribosomal peptide
                      synthetase ACE1"
-                     /label=ACE1
+                     /label="ACE1"
                      /protein_id="EHA55860.1"
                      /translation="MRDEMWNTATEPIAIIGSGCKFPGGSTTPSKLWELLKDPKDIVSE
                      IRPDRFDVDKYFHPDHKHHGTSNVRHSYFLEENFKHFDAKFFGIRPQEAMAMDPQQRFL
@@ -118,11 +118,13 @@ FEATURES             Location/Qualifiers
                      LEKAARAWGLPVVIHRPSSITGEGTNSLDLMGNMFKYIEQLEAVPESDSWKGNFDFVSV
                      ENVAADIVQAVVAANVVAAGGVKFIYEAGDIVYPLSMVKDMSEGGAKLPVKTMPLAKWV
                      EKAAEKGLDSMLAEYLIKAASTGTSLAFPRLLKDGN"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_DH, PKS_NRPS_MT, fPKS_KR,
+                     ACP_PCP, Condensation, AA-adenyl-dom, fPKS_R"
      CDS             complement(join(14138..14663,14733..15286))
                      /codon_start=1
                      /locus_tag="MGG_08391"
                      /product="trans-acting enoylreductase RAP1"
-                     /label=RAP1
+                     /label="RAP1"
                      /protein_id="EHA55861.1"
                      /translation="MAPFIPSSHTAIIQHDDAGGVKITPGLPLPVLEPGQVLVKTAAVA
                      LNPCDFKMPQRFSQAGTYNGCDYAGTVVQLTEEVEKNGLLKVGDRIFAACVGNNPHDKD
@@ -131,11 +133,12 @@ FEATURES             Location/Qualifiers
                      KKLTRNSLKYVVDPFSDLRTMALADEAMGRSGGKYVALESYQDTHDKKSKLIERELIMG
                      QMILGRAIKLPGDYGKPENPEMGRWGVECYKSVQRLVDDRKLRPHPLRILDGGLEAILD
                      GLEMLKRREVAAEKIVVRL"
+                     /Pfam="fPKS_ER"
      CDS             complement(17517..18791)
                      /codon_start=1
                      /locus_tag="MGG_08390"
                      /product="hydrolase ORFZ"
-                     /label=ORFZ
+                     /label="ORFZ"
                      /protein_id="EHA55862.1"
                      /translation="MHHFFKGQFFDFETCRILGTAVYGGADVAEVLEAVGQIRDGDPVS
                      WGRAWAIQAERALVLAEEACKSGDRTAARDAYLRGSNYTRASGYMLTGEGPNRPDPRSR
@@ -145,11 +148,12 @@ FEATURES             Location/Qualifiers
                      FINAWEAGWLKDGAVDAVVRMMMAMSFQMRWELSIAGTFFGQTSPARIMKEMKKFSLAG
                      GQLRRVQCPVLVSGASHSLYLEGNHHTMRIYNELVNHTKGDKQLWLTATPGQGSLQAKM
                      GALRLANQKTFKFLDEHFGIERPQL"
+                     /Pfam="Abhydrolase_6"
      CDS             join(19632..20569,20671..20782)
                      /codon_start=1
                      /locus_tag="MGG_08389"
                      /product="short-chain dehydrogenase/reductase OXR1"
-                     /label=OXR1
+                     /label="OXR1"
                      /protein_id="EHA55863.1"
                      /translation="MSVPSFITAPEFEGGPPQGLSIPFRLRWSKTHPPKEPIVTFKGRT
                      VLVTGANTGLGFEAAVKYAAFGADKIILAVRSIEKGEEAKKRIVERTGRDATDISVLKL
@@ -158,21 +162,23 @@ FEATURES             Location/Qualifiers
                      VKLLAMASVQGFARMEAGEDQQRVIVNSVCPDLCETDLGRKFTGFISSIGKAIFYYLFA
                      LSAEEGARCLIGATALGPESHGRFWHHDFLYPFGELAQDQALMKKTWNEIIEAVGRDEP
                      EILQLCRTT"
+                     /Pfam="adh_short"
      CDS             complement(join(20836..21315,21396..21491))
                      /codon_start=1
                      /locus_tag="MGG_15096"
                      /product="hypothetical protein MGG_15096"
-                     /label=MGG_15096
+                     /label="MGG_15096"
                      /protein_id="EHA55864.1"
                      /translation="MAAPDGTSILNMTGTWSLNSSLSDDLSPTFMAQNIPWIIRQVISY
                      ASLELTMVQKEPEPPERPTTVIDVKQTVRPGGFDTDNSYILDGETRTDKVPIFGAMSMR
                      AVYVPMSEITKEDTMGNVIEEPSTTDKRVALKEMTEGVNTGWKTTALWAFQEIDGERRF
                      CKYCTTTKGEGEEKVQARLVYDYKLPSQ"
+                     /Pfam="PydY"
      CDS             join(21850..22143,22223..22401,22503..23218,23322..23764)
                      /codon_start=1
                      /locus_tag="MGG_08387"
                      /product="cytochrome P450 monooxygenase CYP1"
-                     /label=CYP1
+                     /label="CYP1"
                      /protein_id="EHA55865.1"
                      /translation="MMTPTELITHYRIVQHSFAPLRLSWWETNRVIAVQIWRDSSFFTR
                      ILIAFIGLCLLSIFSRLTRPRSLRRLGIPGAVQPRFSTWSLDFKKVLEDSAKKYPNSPF
@@ -184,11 +190,12 @@ FEATURES             Location/Qualifiers
                      YRKLSIPTKLSMGPELPAGTNICVDAHHINTSPDLWDQPHTFDGLRHYRARQQPQNENR
                      YKFANLGSDAPSWGDGLQACPGRMFADNTIKIILTHLLLNYDVKLRPGESKPEKGAMPN
                      GSIVPDVWAKVLFRSRASSAVNEGKK"
+                     /Pfam="p450"
      CDS             complement(24363..25973)
                      /codon_start=1
                      /locus_tag="MGG_08386"
                      /product="transcription factor BC2"
-                     /label=BC2
+                     /label="BC2"
                      /note="revised sequence"
                      /protein_id="EHA55866.1"
                      /translation="MLMDSNYQLHSAQARRSACDRCHKHKLKCEREPSITDGHLAASLS
@@ -201,11 +208,12 @@ FEATURES             Location/Qualifiers
                      SSPSGTPESELTSPHKRATTCSPLPNKDTLPLNMPFVLGLRVQLEIMTHMLDRMRAAWA
                      TAMEDHPGHEDHQQQQEEVKQHDRLSHHKRATLATLKSMLALNGHELSNQDGGTGIGAV
                      GDLGDRVRRLLRNCDKGMY"
+                     /Pfam="EqxR"
      CDS             complement(28647..30401)
                      /codon_start=1
                      /locus_tag="MGG_15927"
                      /product="FAD-linked oxidoreductase OXR2"
-                     /label=OXR2
+                     /label="OXR2"
                      /protein_id="EHA55867.1"
                      /translation="MRSIISAFILSLNFCTQPLVRGAPSAADWQELQKAVEGRLFTAEP
                      LARPCFSTFQGKSVEPNVEECSTTKQHYLNSTFKTAAYAGFVHSYNEACASNVTDQCLL
@@ -218,12 +226,13 @@ FEATURES             Location/Qualifiers
                      PYEPGSNAVHPSWRDSYWLVGTSISWSSNDAGLEERMRVAAAVQEVSKNLTDLAPEGSM
                      YPNEADPWTRNWAKEFWGEENYARLVQVKRKYDPHGLIGCWKCVGFEDKLMETESAFRC
                      LGAFQKKR"
+                     /Pfam="FAD_binding_4, BBE"
      CDS             complement(join(30836..31248,31320..31925,31995..32063,
                      32263..32488,32559..32744))
                      /codon_start=1
                      /locus_tag="MGG_15928"
                      /product="cytochrome P450 monooxygenase CYP2"
-                     /label=CYP2
+                     /label="CYP2"
                      /note="revised sequence"
                      /protein_id="EHA55868.1"
                      /translation="MPDPILYFCAIFAIGFYWTVQYLQSRRRYDLEKLPFIKFEDDDSP
@@ -235,11 +244,12 @@ FEATURES             Location/Qualifiers
                      LDRLVKLDSFMKESQRYHPVGQVTVQRSNPRAYEFSDGLKIPANTQTCFLSYELNHDPD
                      VYPDPETFDADRFLRMREKVDPQKYHFAYVSEDSINFGAGAHSCPGRHFAANEIKLMLC
                      ELLLGYEMKWPDGQSRPPTMFHDFSSNPNPGFDICIRERRL"
+                     /Pfam="p450"
      CDS             complement(join(34694..36116,36216..36526))
                      /codon_start=1
                      /locus_tag="MGG_08384"
                      /product="major facilitator superfamily transporter MFS1"
-                     /label=MFS1
+                     /label="MFS1"
                      /protein_id="EHA55869.1"
                      /translation="MSNEGTNTVLKNPGSNQEEADPDSPSSLGDKSKLDELADSTSDGS
                      QANSGRGIAFWAIFISLSVTGFLSSMEGGIMSTALPAVSRAVNAESDYVWIINVYFLTS
@@ -252,11 +262,12 @@ FEATURES             Location/Qualifiers
                      SLATVFAVTIPAAIFNSRFDDLLSTSALDNDVKNSLDLGKAYQQASPDFLHSFPAPVQD
                      QIVGLYELSLKLVWQVLIGIAAVGVIASLLEKDLECRTEQTTEEFGLKDRDEKAPKKSE
                      V"
+                     /Pfam="MFS_1"
      CDS             complement(41101..42372)
                      /codon_start=1
                      /locus_tag="MGG_08381"
                      /product="Diels-Alderase ORF3"
-                     /label=ORF3
+                     /label="ORF3"
                      /note="revised sequence"
                      /protein_id="EHA55870.1"
                      /translation="MIVSHTLLTALSFSSALGSKVWHEPWPLHWKSPSSDMLAQEVQQV
@@ -267,11 +278,12 @@ FEATURES             Location/Qualifiers
                      GPYVLSFFRFESGLDEGHVHQSAVLFKDGVQIFRSTLGAESDTEDYVLAQKTYGGAVTG
                      DLKDKVTGFQVELVSPSKKQHYTFFIEHKNLAFEYLLGEGVGGSGFSAIAKGGHVGQLQ
                      YEGPSLTEALTFPKNSPLFKSNYV"
+                     /Pfam="Fsa2"
      CDS             join(42835..43370,43458..43983)
                      /codon_start=1
                      /locus_tag="MGG_08380"
                      /product="trans-acting enoylreductase RAP2"
-                     /label=RAP2
+                     /label="RAP2"
                      /protein_id="EHA55871.1"
                      /translation="MYIPSARTAIVQDDKGGLKIDRNAPMPQPRPNELLVQVKAVAINP
                      CDHKMYERFPTPGAVDGCDFAGIVVQLGSDVKTFQIGDRVCGAVHGSNPSRPESGTFAE
@@ -280,11 +292,12 @@ FEATURES             Location/Qualifiers
                      TLAYIIDPFTDVKSVALCYEAMGRAGGRYACLEMYPEFALERRSIKVFFALGMALLGHS
                      LDLAYGYERDEDPEMRSFGIGWYKVLQELLYQGKLRPHPLRELEGGFEGILKGVQMVKN
                      KEVSGQKLVVSLE"
+                     /Pfam="fPKS_ER"
      CDS             join(46696..47167,47243..47932,48017..48447)
                      /codon_start=1
                      /locus_tag="MGG_08379"
                      /product="cytochrome P450 monooxygenase CYP3"
-                     /label=CYP3
+                     /label="CYP3"
                      /protein_id="EHA55872.1"
                      /translation="MLDMSQPGLLTTKALFVLAVAGITLAVCRLLLRFNVLPFGNDVPP
                      ATADQLRHIPLLQFDGPNGVERYVSETRSLLRKGYEKYLRRGVPFQMRNPVEELGAQVV
@@ -296,11 +309,12 @@ FEATURES             Location/Qualifiers
                      FKDGFQLPAGVSFVFHSDGVHHDADNYPDPEKFDAYRHLHLRETVDPNRFHFASVSDSA
                      LGFGAGNHACPGRFLSAIIMKFFLIQFMTAYEMKYEHGGIERLPNHDNSNTTAPNRTVN
                      LLVRRCDGTSNNA"
+                     /Pfam="p450"
      CDS             join(51460..51747,51821..52718,52779..53197)
                      /codon_start=1
                      /locus_tag="MGG_08378"
                      /product="cytochrome P450 monooxygenase CYP4"
-                     /label=CYP4
+                     /label="CYP4"
                      /protein_id="EHA55873.1"
                      /translation="MLSLLETKIIEPFMVVRQTLAPLRLSRWQIFKHMTRILIFSSNTR
                      TIIFCVLMSLVGYIVSRIIWGRQEKYPDHGLPIVKTNDYHFDNIVAEGKRLYPNQAFMG
@@ -312,11 +326,12 @@ FEATURES             Location/Qualifiers
                      RYVKEPFQLSDGSRIPPGVMAVVDAQEINRSPEIWENPDEFDMDRFYRLREISGNDNRY
                      HFVTTSSNSPGWGDGTQACPGRFFATSTLKIVMAHIVMNYDVSLRKVAPLKSQPLVNGS
                      YSPDDSVEIFFKSRNVE"
+                     /Pfam="p450"
      CDS             complement(join(53786..53897,54104..54147))
                      /codon_start=1
                      /locus_tag="MGG_15929"
                      /product="hypothetical protein MGG_15929"
-                     /label=MGG_15929
+                     /label="MGG_15929"
                      /protein_id="EHA55874.1"
                      /translation="MDTFSSTNNVCRYIGVYSQFQIFLFNFVPQIMVQLMAVATVSTFL
                      IFQADK"
@@ -324,9 +339,9 @@ FEATURES             Location/Qualifiers
                      62647..64737,64843..67823)
                      /codon_start=1
                      /locus_tag="MGG_15097"
-                     /product="polyketide synthase-nonribosomal peptide 
+                     /product="polyketide synthase-nonribosomal peptide
                      synthetase SYN2"
-                     /label=SYN2
+                     /label="SYN2"
                      /protein_id="EHA55875.1"
                      /translation="MEAQNEPIAIIGTGCRFPGSCDSPSKLWELLEKPRDLLKKIPNDR
                      FSADGFYHPKNSHHGTSNVRHSYLLDEDLRTYDAQFFGVKAIEASSMDPQQRLLMETVY
@@ -399,12 +414,14 @@ FEATURES             Location/Qualifiers
                      SNLMHYSRELRCIPEVCAWNGWLDFVAVETAASEIVDEVYRDFSWPGHVCYLYQSGDEI
                      IPLPDLRSTLQREAGCEFEVLKMDEWVARAQAKGMSELLGDYLCASANAPVTLAMLQKG
                      EAWH"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_DH, PKS_NRPS_MT, fPKS_KR,
+                     ACP_PCP, Condensation, AA-adenyl-dom, fPKS_R"
      CDS             join(70593..71063,71158..71281,71386..71512,71609..72069,
                      72177..72490)
                      /codon_start=1
                      /locus_tag="MGG_08377"
                      /product="methyltransferase OME1"
-                     /label=OME1
+                     /label="OME1"
                      /protein_id="EHA55876.1"
                      /translation="MSTMALHRTASTKSDTTMACPNGLVKNLPLGGNTKCSACGSHRAE
                      KRRASSTSSVSTTPTSPSFSEADWSPLHNSSQEPQPEYTKVANSLMRAITDYVGHLQNE
@@ -415,6 +432,7 @@ FEATURES             Location/Qualifiers
                      AIMGAHRGAGLRSCIVQDAHAGDDAKKQPDVMEANRKLGVELQKHNFFDPQPVKGASVY
                      FLRHIFHDWPDRACVKILKQTVEAMGKDSTLLICDQVVDDEASPQATLYDIDMWSLFGG
                      KERNRSEWEALFRSADERLYIKKVWTTAEAPTTMLEVCLS"
+                     /Pfam="Methyltransf_2"
 ORIGIN
         1 tcagttcccg tccttcagca gtctgggaaa ggccagagag gtgcccgtgc tggctgcctt
        61 gatgaggtat tcagccagca tggagtccaa tcccttctct gccgccttct caacccactt

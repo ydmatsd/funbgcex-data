@@ -1,22 +1,22 @@
-LOCUS       FBGC00275       20364 bp DNA     linear   UNA 09-MAY-2023
+LOCUS       FBGC00275              20364 bp    DNA     linear   UNA 09-MAY-2023
 DEFINITION  ilicicolin H.
 ACCESSION   FBGC00275
-VERSION     .
+VERSION     FBGC00275
 KEYWORDS    .
 SOURCE      Neonectria sp. DH2
   ORGANISM  Neonectria sp. DH2
+            .
 REFERENCE   1  (bases 1 to 20364)
   AUTHORS   Lin X, Yuan S, Chen S, Chen B, Xu H, Liu L, Li H, Gao Z.
-  TITLE     Heterologous Expression of Ilicicolin H Biosynthetic Gene Cluster 
+  TITLE     Heterologous Expression of Ilicicolin H Biosynthetic Gene Cluster
             and Production of a New Potent Antifungal Reagent, Ilicicolin J.
   JOURNAL   Molecules 2019;24(12):2267
-  PUBMED    31216742
+   PUBMED   31216742
 REFERENCE   2  (bases 1 to 20364)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported May 9, 2023 from SnapGene 6.2.2
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
+  JOURNAL   Exported May 9, 2023 from SnapGene 6.2.2 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
             "10.3390/molecules24122267"; journalName: "Molecules"; date: "2019";
             volume: "24"; issue: "12"; pages: "2267"
 FEATURES             Location/Qualifiers
@@ -28,7 +28,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="NeoDH2__000354"
                      /product="epimerase IliE"
-                     /label=iliE
+                     /label="iliE"
                      /note="revised sequence"
                      /protein_id="NeoDH2_:cds.g354.t1"
                      /translation="MADLHTGKPITLKCGLTLPNRLVKAATAESMAPNNTLPDEKFQNL
@@ -39,12 +39,13 @@ FEATURES             Location/Qualifiers
                      TMFLGPEKSRKQAQLGQPLAHEPFFLDFAKAIRPHVPGVPLIVTGGFRSCQGIEETIAG
                      GDADLVGLARPAVVNPLLPKTTVLSPKTTEFGPEIEDGDVTLYAKKTEAPWILKQIGIR
                      AVEVHIDNAWYVEQLKMLATTKL"
+                     /Pfam="Oxidored_FMN"
      CDS             complement(join(2031..9794,9849..14195))
                      /codon_start=1
                      /locus_tag="NeoDH2__000355"
-                     /product="polyketide synthase-nonribosomal peptide 
+                     /product="polyketide synthase-nonribosomal peptide
                      synthetase IliA"
-                     /label=iliA
+                     /label="iliA"
                      /protein_id="NeoDH2_:cds.g355.t1"
                      /translation="MSQQRYPEPIAVIGSACRFPGASSSPSKLWSLLQEPRDVLKKFDP
                      DRLNLKRFHHTNGDTHGATDVNNKSYLLEENTRLFDASFFGISPLEAAGMDPQQRLLLE
@@ -115,11 +116,13 @@ FEATURES             Location/Qualifiers
                      VAHMQQVSRSPLTVAVHRPCVVVSEQAPNSDALNAILRYSVSMRCVPQLDNVEGYLDFG
                      KVEKIVDEIADSALQLAQAGSQDQEIRFRHHSGGAKVPVREFRAHMEDIYGGSFDEVDV
                      TEWMRRAADAGIDPLITAYLEGILDSGSPMVFPYLGEE"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_DH, PKS_NRPS_MT, fPKS_KR,
+                     ACP_PCP, Condensation, AA-adenyl-dom, fPKS_R"
      CDS             15074..16219
                      /codon_start=1
                      /locus_tag="NeoDH2__000356"
                      /product="trans-acting enoylreductase IliB"
-                     /label=iliB
+                     /label="iliB"
                      /protein_id="NeoDH2_:cds.g356.t1"
                      /translation="MALATPLPATQAAVKVTGPSTVDVSAATTLPVLEAFEVLVRVACV
                      SINHVDGKSADMSPTPGATSGVDFSGLIVALGSKVDSDEFRANNNMRALSIGDRVFGGV
@@ -128,11 +131,12 @@ FEATURES             Location/Qualifiers
                      LGAAATFDYRSPTCGADLREHTANGLELALDCITDTASMSICYEALGSAGGRYVALDAF
                      PLRGHTRRSVAAEWVCTYTQFGHAVAWVPPYNLDARPRDREIAEAWYVVAQQLVDEGLI
                      EPYPKEDRTGGLAAVGEGMRAVWKGEISGRKLAYPIAEECY"
+                     /Pfam="fPKS_ER, ADH_zinc_N"
      CDS             complement(join(16974..17706,17763..17950))
                      /codon_start=1
                      /locus_tag="NeoDH2__000357"
                      /product="SAM-dependent Diels-Alderase IliD"
-                     /label=iliD
+                     /label="iliD"
                      /note="revised sequence"
                      /protein_id="NeoDH2_:cds.g357.t1"
                      /translation="MTSTEAAGTGKAPAIRANPALQTYYESQESYLVYEVVLRGSHHFG
@@ -141,11 +145,12 @@ FEATURES             Location/Qualifiers
                      AATGFFRILKPGGRIAFFEAQRSRTSGDYDEGDELAGHLKLVNEYTAMPTNELSREDYF
                      KDLLEDAGFVDVEVRDYSENIRPQLRLFYSLVVVPWFFIRLLGLEKNFTNMICATSGYI
                      GQPRWKFVGISATKPGPDIEGAKTK"
+                     /Pfam="Methyltransf_25"
      CDS             join(18665..19240,19333..19858,19949..20364)
                      /codon_start=1
                      /locus_tag="NeoDH2__000358"
                      /product="cytochrome P450 monooxygenase IliC"
-                     /label=iliC
+                     /label="iliC"
                      /protein_id="NeoDH2_:cds.g358.t1"
                      /translation="MITNDLIAQHSLTLTIASSVLLVFLLSRLLRKDATGKAQGCRPVA
                      KRWQWDPILGLDIVLAQIGALKGNYYLPWLIELHSNMPKTFEINFFGKRQIYTSEPDNL
@@ -156,6 +161,7 @@ FEATURES             Location/Qualifiers
                      EVLAHGDAPLTFEALRNMKYLQCVLNETHRLTPNNVTQIRVCLNDSVLPVGGGKNAKEP
                      FFVRKGDVVSITKTVMYRDPEIWGNDAEEFKPERFDGRRVFWEFLPFGGGPRRCPAQMM
                      VQTEAAYMLARLARVYRRIEARDPAPYTAVMRIGPSNKTGVQIAVYK"
+                     /Pfam="p450"
 ORIGIN
         1 ttaaagcttt gtcgtcgcca acatcttcag ctgttcgaca taccacgcct gcggaaactg
        61 tcagaaaatc cctagcacca agggcaggtg tactcacatt gtctatatgc acttcgacag

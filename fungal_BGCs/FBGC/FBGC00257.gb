@@ -1,56 +1,58 @@
-LOCUS       FBGC00257       35137 bp DNA     linear   UNA 28-JAN-2023
+LOCUS       FBGC00257              35137 bp    DNA     linear   UNA 28-JAN-2023
 DEFINITION  calbistrin A.
 ACCESSION   FBGC00257
-VERSION     .
+VERSION     FBGC00257
 KEYWORDS    .
 SOURCE      Penicillium decumbens IBT 11843
   ORGANISM  Penicillium decumbens IBT 11843
+            .
 REFERENCE   1  (bases 1 to 35137)
-  AUTHORS   Grijseels S, Pohl C, Nielsen JC, Wasil Z, Nygard Y, Nielsen J, 
+  AUTHORS   Grijseels S, Pohl C, Nielsen JC, Wasil Z, Nygard Y, Nielsen J,
             Frisvad JC, Nielsen KF, Workman M, Larsen TO, Driessen AJM, Frandsen
             RJN.
-  TITLE     Identification of the decumbenone biosynthetic gene cluster in 
-            Penicillium decumbens and the importance for production of 
+  TITLE     Identification of the decumbenone biosynthetic gene cluster in
+            Penicillium decumbens and the importance for production of
             calbistrin.
   JOURNAL   Fungal Biol Biotechnol 2018;5:18
-  PUBMED    30598828
+   PUBMED   30598828
 REFERENCE   2  (bases 1 to 35137)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Jan 28, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1186/s40694-018-0063-4"; journalName: "Fungal Biol Biotechnol"; 
-            date: "2018"; volume: "5"; pages: "18"
+  JOURNAL   Exported Jan 28, 2023 from SnapGene 6.2.1 https://www.snapgene.com
 COMMENT     ##Genome-Assembly-Data-START##
             Assembly Method       :: ABySS v. 1.5.2
             Genome Coverage       :: 375.0x
             Sequencing Technology :: Illumina HiSeq ##Genome-Assembly-Data-END##
+            ##Genome-Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1186/s40694-018-0063-4"; journalName: "Fungal Biol Biotechnol";
+            date: "2018"; volume: "5"; pages: "18"
 FEATURES             Location/Qualifiers
      source          1..35137
                      /strain="IBT 11843"
                      /mol_type="genomic DNA"
                      /country="Denmark: Jutland"
                      /isolation_source="rye bread"
-                     /collection_date=Jun-1991
+                     /collection_date="Jun-1991"
                      /db_xref="taxon:69771"
                      /organism="Penicillium decumbens"
                      /submitter_seqid="PENDEC_contig013"
      CDS             join(1..55,118..630,715..1061)
                      /codon_start=1
                      /product="short-chain dehydrogenase/reductase CalM"
-                     /label=calM
+                     /label="calM"
                      /translation="MNPVNTKPYQLSADATWFVTGCSTGIGRAIASHVASQPGHRLIAT
                      ARDPSSLSYLDDDNPAILKLAMDVTNPSSVNAAFKAAADYFGDKYYIDVVVNNAGYSLS
                      GDTESVTEHEMHDEFETNFFGTVRVTLKAIEVMRQSKDHRGGLIFNISSLAGICAFPGH
                      AFYHASKFAVEGWSESVAREMHPDWNIHFCIVEPSAVKTNFETTSKKRTQPHEAYAGAD
                      MPARQLETFVKKGLEAGVGFEPSAVANVLYKVASRNEKVPLRLPLSATAVKLITAKLQV
                      QLQDLETVSELSAIDVHQVQFKV"
+                     /Pfam="adh_short"
      CDS             complement(join(1774..1994,2053..3242,3294..3484))
                      /codon_start=1
                      /locus_tag="PENDEC_c013G00617"
                      /product="cytochrome P450 monooxygenase CalL"
-                     /label=calL
+                     /label="calL"
                      /db_xref="GO:0005506"
                      /db_xref="GO:0016705"
                      /db_xref="GO:0020037"
@@ -68,11 +70,12 @@ FEATURES             Location/Qualifiers
                      DGHVLTPGSLIQAPSQIGQYSEVWGCDGHPASQFWAGRHLKHDSGRPEFTMAGRTASFF
                      PFGGGPSICPGRVFAKQEILMTVAALVTRFEIELIEWTHPDGSKSDRPAQNDQSYIGAV
                      GIPPDRDMKVRWKRLW"
+                     /Pfam="p450"
      CDS             join(3762..4342,4405..4939)
                      /codon_start=1
                      /locus_tag="PENDEC_c013G03312"
                      /product="trans-acting enoylreductase CalK"
-                     /label=calK
+                     /label="calK"
                      /db_xref="InterPro:IPR011032"
                      /protein_id="OQD73827.1"
                      /translation="MSSPIQTAIVQTSETSAARLPLRVDRSAPIPQVKSEHHVLVRVLA
@@ -82,10 +85,11 @@ FEATURES             Location/Qualifiers
                      TSKDCVDTVKSLAGKPIRRILDCITDAESAAICYSAMARSSGTYACLEECPDACRTRRI
                      IKVKEVMGFQVLGVDIKLGDSTYTRLGDQKLMAIGIQWANEIQALMESGQLKAHPLREL
                      PGGWEAIIEGLEMLRNGEVRGQKLVVRIPQE"
+                     /Pfam="fPKS_ER"
      CDS             complement(join(4958..6069,6124..6214))
                      /codon_start=1
                      /product="esterase CalJ"
-                     /label=calJ
+                     /label="calJ"
                      /note="revised sequence"
                      /translation="MSDFDALLANYTSKETPKVHGVICKCVDRHGNEIYSKVAGYDSVL
                      PGASPLREDVVLKVASATKLITSIALLQCIDKGLIDLDEPVTKVLPEFDQKQILTDVSG
@@ -95,11 +99,12 @@ FEATURES             Location/Qualifiers
                      PATIAEMFTPQLEAKSPGVQMLLGLRPAWDTVSGPIAENAINHGLGGVLCMDDVPEIDQ
                      PKGMLGWGGASNIVWWVNRELRVAGFFATQQAPFGNPSVTRLVNAWKKDFWAQFKTIDH
                      A"
+                     /Pfam="Beta-lactamase"
      CDS             6493..7533
                      /codon_start=1
                      /locus_tag="PENDEC_c013G00477"
                      /product="short-chain dehydrogenase/reductase CalI"
-                     /label=calI
+                     /label="calI"
                      /db_xref="GO:0008152"
                      /db_xref="GO:0016491"
                      /db_xref="InterPro:IPR002198"
@@ -112,12 +117,13 @@ FEATURES             Location/Qualifiers
                      ERRYGDRGVHALSLNPGIIMDTEISRGLPGTSASRREQYYKMEPLLAQYEKDVMQGAAT
                      QVWATVAKELEGKGGLYLDDVQVAREATHEGQFCRPGWKPWIWNEDNAVRLWKDSLNMV
                      GLESEN"
+                     /Pfam="adh_short"
      CDS             complement(join(7594..7782,7833..7858,7910..8006,
                      8063..8851))
                      /codon_start=1
                      /locus_tag="PENDEC_c013G02261"
                      /product="trans-acting methyltransferase CalH"
-                     /label=calH
+                     /label="calH"
                      /db_xref="InterPro:IPR013217"
                      /db_xref="InterPro:IPR029063"
                      /db_xref="PFAM:PF08242"
@@ -129,12 +135,13 @@ FEATURES             Location/Qualifiers
                      DAARRRFEGYSNIEYRALDISRNAVEQGFEAGAYDLVIASNVLHATPCLVDTLKNVRLL
                      LKPNGFLFNQELSPPGKYVDFMVGLLPGWWLGDADGRAEGPCIPPEEWHRRLEQAGFEG
                      LHAVGFDSDPPYYYNANMIARPAVNA"
+                     /Pfam="PKS_NRPS_MT"
      CDS             complement(join(9664..11910,11964..12656,12705..12740,
                      12788..12903,12960..13074))
                      /codon_start=1
                      /product="bifunctional cytochrome P450/NADPH-P450 reductase
                      CalG"
-                     /label=calG
+                     /label="calG"
                      /translation="MGESNNIPQPPGVPLFGNLFDIDMELPLQSLYDLADKHGEIYRMR
                      FPGHTFIIACSYDMVNEFCNEKRFPKTIFALKEMRHAMHDGLFTAIDGEVEPAWAIAHR
                      ILVPAFGPSSLRLMFDGMYDIASQMALKWARYGNEPITVTEDFTRLTLDTIALCSMDFR
@@ -154,11 +161,12 @@ FEATURES             Location/Qualifiers
                      IQERAGMQGAGRKIAPAMLYFGCREPGKDDLYRSELDQWEASGVVFVQRAYSRQVEASE
                      GCRHVQDRLWKDKEHVIKLWNQGALVYICGSRAVGESAKEMFIDILWDAKNQSEDTTRD
                      KVSTWFEGLKNTRYAVDVFD"
+                     /Pfam="p450, Flavodoxin_1, FAD_binding_1, NAD_binding_1"
      CDS             join(13475..13740,13791..13991,14045..15305)
                      /codon_start=1
                      /locus_tag="PENDEC_c013G03789"
                      /product="FAD-linked oxidoreductase CalF"
-                     /label=calF
+                     /label="calF"
                      /db_xref="GO:0003824"
                      /db_xref="GO:0008762"
                      /db_xref="GO:0016491"
@@ -181,12 +189,13 @@ FEATURES             Location/Qualifiers
                      GPGIAGAGPATVQLASRLIPRAAMYNATQKKVIVSALRAFIEDGEDLELGCHALNVGNI
                      EHPGNAVLPAWRNAIATCNVVNYWDWNITATEMQARKDLLVDRLIPGLEEATPGSGTYL
                      NEIDARWKGDWITELYGDNYDRLLQIKNKYDPEHRFYAWTAVGSDSWFTDGSGRLCRV"
+                     /Pfam="FAD_binding_4, BBE"
      CDS             complement(join(15684..16105,16167..16766,16826..16894,
                      16950..17049,17098..17460))
                      /codon_start=1
                      /locus_tag="PENDEC_c013G04259"
                      /product="cytochrome P450 monooxygenase CalE"
-                     /label=calE
+                     /label="calE"
                      /db_xref="GO:0005506"
                      /db_xref="GO:0016705"
                      /db_xref="GO:0020037"
@@ -204,11 +213,12 @@ FEATURES             Location/Qualifiers
                      TRLGVSSHASWDPKVFPNPEKFDPYRFVRLREQPGEENVWQLTTTRPEQIAFGHGQHAC
                      PGRFLAANEVKIALCHLLLKYDWELSSITMPTAISHGIMLDSDPTVKVNVRSRQSEVVL
                      "
+                     /Pfam="p450"
      CDS             join(18025..18252,18311..19567)
                      /codon_start=1
                      /locus_tag="PENDEC_c013G04601"
                      /product="acyltransferase CalD"
-                     /label=calD
+                     /label="calD"
                      /protein_id="OQD73799.1"
                      /translation="MFGLFRSKAPEAPPKHPTDTIIPLNAADDTEVLRSVVVVLSYRFD
                      DVLDPVKLKSSFEKLLDRPGWRKIGARLRLNDNGRLEYHIPERYDEKRPIVTWSHVSHN
@@ -219,11 +229,12 @@ FEATURES             Location/Qualifiers
                      EIYTFLSVRDFFTKPLSYAAYAIRRSMMEGGTREQVEALQAVKKQTLAREGHTWPIFGD
                      ASMEMMSYSNWTKGKYFETDFSAAIVKEGFAREARAEKPGFASMVQFNAWSTKFDLRNL
                      MPIMGKDAAGNYWLQGPLRDVVWKRIEKELREEPLQ"
+                     /Pfam="CalD"
      CDS             20503..21783
                      /codon_start=1
                      /locus_tag="PENDEC_c013G06298"
                      /product="transcription factor CalC"
-                     /label=calC
+                     /label="calC"
                      /db_xref="GO:0000981"
                      /db_xref="GO:0005634"
                      /db_xref="GO:0006355"
@@ -239,12 +250,13 @@ FEATURES             Location/Qualifiers
                      DLLTILSCYMLTLSIYDSIFSRFTEQASHNPGAVNVVLQSAPKLYLGGIAVPPRLEMLS
                      HLLCCLTSRQLRPIEMLLGLPDEYCIAWKRNGGSKEKQSGLFSGQSGQLLFSTLMRVET
                      ERAGEEKGGLGVIESLKETIRRIYEFD"
+                     /Pfam="EqxR"
      CDS             join(23126..23362,23426..23502,23556..23607,23664..23838,
                      23889..23912,23962..24701,24758..25141)
                      /codon_start=1
                      /locus_tag="PENDEC_c013G07044"
                      /product="major facilitator superfamily transporter CalB"
-                     /label=calB
+                     /label="calB"
                      /db_xref="GO:0016021"
                      /db_xref="GO:0055085"
                      /db_xref="InterPro:IPR011701"
@@ -261,11 +273,12 @@ FEATURES             Location/Qualifiers
                      AVGNGIVTLFSPTTPTAKWIGYQIVLGSGRGIGMQMGIIAIQNLLPPEKISVGIAFMIF
                      CQNFAGAIFVVVGEVIFTQQLVKQIQAHAPSVKVDAALAAGASSSSLRALVPPGSPELQ
                      GVLLAFSNSVDRVFYLLMSLSLAGFVAAFGMGWVDTRKKNKSETE"
+                     /Pfam="MFS_1"
      CDS             join(26247..26676,26728..26985,27044..33604,33654..35137)
                      /codon_start=1
                      /locus_tag="PENDEC_c013G00595"
                      /product="polyketide synthase CalA"
-                     /label=calA
+                     /label="calA"
                      /db_xref="GO:0003824"
                      /db_xref="GO:0008152"
                      /db_xref="InterPro:IPR009081"
@@ -337,6 +350,8 @@ FEATURES             Location/Qualifiers
                      LQRQHGVNVWIHRPSTIVREGADNENAAAQTDWMNALMAYMRKMQAVPVMKNLRGALDF
                      VYVKNAADSILTAVLENKPVGASYTHQVGDIVIPLDNLKEFIEDTGALNVEELPIEKWS
                      ARAVTVGLNRGVAALIDSMDDPGQPHYPRLLRQ"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_DH, PKS_NRPS_MT, fPKS_KR,
+                     ACP_PCP, fPKS_R"
 ORIGIN
         1 atgaacccag tcaacaccaa gccctatcaa ctttcagccg acgcgacatg gttcggtatg
        61 gcattctttc agtcatcgtg tagaacggga tagaaattga ctctactgct attctagtca

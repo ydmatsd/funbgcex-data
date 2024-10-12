@@ -1,53 +1,55 @@
-LOCUS       FBGC00290       26084 bp DNA     linear   UNA 08-FEB-2023
+LOCUS       FBGC00290              26084 bp    DNA     linear   UNA 08-FEB-2023
 DEFINITION  ilicicolin H.
 ACCESSION   FBGC00290
-VERSION     .
+VERSION     FBGC00290
 KEYWORDS    .
 SOURCE      Trichoderma reesei QM6a
   ORGANISM  Trichoderma reesei QM6a
+            .
 REFERENCE   1  (bases 1 to 26084)
   AUTHORS   Shenouda ML, Ambilika M, Cox RJ.
   TITLE     Trichoderma reesei Contains a Biosynthetic Gene Cluster That Encodes
             the Antifungal Agent Ilicicolin H.
   JOURNAL   J Fungi 2021;7(12):1034
-  PUBMED    34947016
+   PUBMED   34947016
 REFERENCE   2  (bases 1 to 26084)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Feb 8, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.3390/jof7121034"; journalName: "J Fungi"; date: "2021"; volume: 
-            "7"; issue: "12"; pages: "1034"
-COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final 
-            NCBI review. The reference sequence is identical to GL985060.
-            URL -- http://www.jgi.doe.gov/Treesei
-            JGI Project ID: 3435777
-            DNA was provided by Daniel Cullen (dcullen@facstaff.wisc.edui) Stock
-            culture and extracted DNA are available at ATCC: ATCC 13631 
-            (http://www.atcc.org)
-            Contacts: Diego Martinez (admar@unm.edu)
-                      Igor V. Grigoriev (ivgrigoriev@lbl.gov)
-            This assembly contains additional finishing reads since the original
-            submission.
-            Assembly and annotation done by JGI.
-            Finishing done by JGI-Los Alomos National Laboratory
-            Manual curation done by the Trichoderma reesei User Community 
-            Originally misnamed as strain QM9414.##Genome-Assembly-Data-START##
+  JOURNAL   Exported Feb 8, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     ##Genome-Assembly-Data-START##
             Assembly Method       :: Jazz
             Assembly Name         :: v2.0
             Genome Coverage       :: 9x
             Sequencing Technology :: Sanger
-            ##Genome-Assembly-Data-END####Metadata-START##
+            ##Genome-Assembly-Data-END##
+            ##Metadata-START##
             Organism Display Name :: Trichoderma reesei QM6a
             Culture Collection ID :: ATCC 13631
             GOLD Stamp ID         :: Gc00961
             Diseases              :: None
-            ##Metadata-END####Genome-Annotation-Data-START##
-            Annotation Provider :: INSDC submitter
-            Annotation Status   :: Full annotation
-            Annotation Pipeline :: Eukaryotic Annotation Propagation Pipeline 
+            ##Metadata-END##
+            ##Genome-Annotation-Data-START##
+            Annotation Provider   :: INSDC submitter
+            Annotation Status     :: Full annotation
+            Annotation Pipeline   :: Eukaryotic Annotation Propagation Pipeline
             ##Genome-Annotation-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.3390/jof7121034"; journalName: "J Fungi"; date: "2021"; volume:
+            "7"; issue: "12"; pages: "1034"
+            PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to GL985060.
+            URL -- http://www.jgi.doe.gov/Treesei
+            JGI Project ID: 3435777
+            DNA was provided by Daniel Cullen (dcullen@facstaff.wisc.edui) Stock
+            culture and extracted DNA are available at ATCC: ATCC 13631
+            (http://www.atcc.org)
+            Contacts: Diego Martinez (admar@unm.edu)
+            Igor V. Grigoriev (ivgrigoriev@lbl.gov)
+            This assembly contains additional finishing reads since the original
+            submission.
+            Assembly and annotation done by JGI.
+            Finishing done by JGI-Los Alomos National Laboratory
+            Manual curation done by the Trichoderma reesei User Community
 FEATURES             Location/Qualifiers
      source          1..26084
                      /chromosome="Unknown"
@@ -59,12 +61,11 @@ FEATURES             Location/Qualifiers
      CDS             complement(1..12156)
                      /codon_start=1
                      /locus_tag="TRIREDRAFT_58285"
-                     /product="polyketide synthase-nonribosomal peptide 
+                     /product="polyketide synthase-nonribosomal peptide
                      synthetase TriliA"
-                     /label=triliA
+                     /label="triliA"
                      /note="candidate polyketide synthase - non-ribosomal
-                     peptide synthase hybrid
-                     revised sequence"
+                     peptide synthase hybrid revised sequence"
                      /db_xref="GeneID:18486265"
                      /db_xref="InterPro:IPR000794"
                      /db_xref="InterPro:IPR000873"
@@ -143,11 +144,13 @@ FEATURES             Location/Qualifiers
                      TSEVFLENLVGHLLASSPRHQQNPWTVSVHRPSVIVSEHAPNSDALNAILRYSILMQSS
                      PRMDNVVGYLDLAQLDTVIAELRQSVIQLGSGQGKQESTNILFKHHSGGIKVPASELWS
                      HLGKVYGITFDEVELDEWLRRAARAGIDPLITAYLEAIQANGAKMIFPYMGSD"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_DH, PKS_NRPS_MT, fPKS_KR,
+                     ACP_PCP, Condensation, AA-adenyl-dom, fPKS_R"
      CDS             14005..15147
                      /codon_start=1
                      /locus_tag="TRIREDRAFT_58289"
                      /product="trans-acting enoylreductase TriliB"
-                     /label=triliB
+                     /label="triliB"
                      /note="revised sequence"
                      /db_xref="GeneID:18486266"
                      /db_xref="InterPro:IPR002085"
@@ -160,11 +163,12 @@ FEATURES             Location/Qualifiers
                      FDYKSPTCGADIREHTNDSLAFALDCITDTASMGICYEALGSAGGRYVALDAFPVRGHT
                      RRSVVPEWVCTPTQFGKAIRWTPPYDLEPRPYDLKCAELWYVVAQRLIDEGLIASHPLE
                      KRNGGLSAVPEGMEEVRRGQIKGKKLVYTILDSEPIAVSA"
+                     /Pfam="fPKS_ER"
      CDS             complement(join(15727..16086,16155..16822,16900..17077))
                      /codon_start=1
                      /locus_tag="TRIREDRAFT_76204"
                      /product="epimerase TriliE"
-                     /label=triliE
+                     /label="triliE"
                      /db_xref="GeneID:18488589"
                      /db_xref="InterPro:IPR001155"
                      /db_xref="JGIDB:Trire2_76204"
@@ -177,21 +181,23 @@ FEATURES             Location/Qualifiers
                      LMFLGPPKPSSSANMEHSEAYFVDFAKVVASKFPDVPLLLTGGFRCRESIEKAVTNGAC
                      SMVGIARPAAVNPLLPKTVMFNHEVKDSDATLYSPKIEAPWLIRQMGITALSVHMDNVS
                      SF"
+                     /Pfam="Oxidored_FMN"
      CDS             complement(join(18423..19155,19227..19408))
                      /codon_start=1
                      /product="SAM-dependent Diels-Alderase TriliD"
-                     /label=triliD
+                     /label="triliD"
                      /translation="MSSTQTTAAEPIMTDNVALRAYYESWDSRVVYQIIMGGTQHFGYW
                      DKDTYWPFPLGSKLRRMEQKLMEILALPKGSRVLDAGCGVGHVARYMAQHGMRVFGIDI
                      IDWAIEDARKAAKDAGLSKEMMSVEKMDYHHLDSLASESFDGVYTMQAFGHAVDPQKAM
                      AGFFRVVRPGGRIAMVEVERKTAAKHDDPNDRLTQELKMVNDYTVMPTNEAASEDYFKN
                      LLEEAGFVDVVVRDWQPNILPILRLFYSLVMIPYLFFRLFGNEKSFINMICARSGYAGR
                      SRWRFVAITATKAGEKLEDHKSK"
+                     /Pfam="Methyltransf_23"
      CDS             join(20110..20700,20803..21328,21391..21806)
                      /codon_start=1
                      /locus_tag="TRIREDRAFT_58953"
                      /product="cytochrome P450 monooxygenase TriliC"
-                     /label=triliC
+                     /label="triliC"
                      /note="revised sequence"
                      /db_xref="GeneID:18486391"
                      /db_xref="InterPro:IPR001128"
@@ -206,11 +212,12 @@ FEATURES             Location/Qualifiers
                      QKLRKEVLDYGDQPITFESLRSMPYLNGVLNETHRLTPNNIVQVRACLNDSVLPLGGGP
                      DGKSPLYVNKGDLVSVTKTVMYRDPDIWGPDVDVFRPERFFGVRGNWNFLPFGGGPRRC
                      PAQMMVQTESAYMLFQLAKRYSRLECRDPEPYTAVMRIGPSNINGVKIAFYK"
+                     /Pfam="p450"
      CDS             complement(23721..26084)
                      /codon_start=1
                      /locus_tag="TRIREDRAFT_72993"
                      /product="transcription factor TRIREDRAFT_72993"
-                     /label=TRIREDRAFT_72993
+                     /label="TRIREDRAFT_72993"
                      /note="This gene might be a part of the BGC."
                      /db_xref="GeneID:18488173"
                      /db_xref="InterPro:IPR007219"
@@ -230,6 +237,7 @@ FEATURES             Location/Qualifiers
                      PDAVSMTALATGTTISTGASAASAGPDALTALRIHCQGHLATLQWHAILALCLDMISEL
                      EDSFFPAINGASWRQLQETIQTYVTVLEQRVRTSAGAVSAREFLFCSCAEAYIGAMMRG
                      DREVDQVIASAGYSALTLCCEIMEQGLHQRCTVV"
+                     /Pfam="CghF"
 ORIGIN
         1 ttaatcgctt cccatataag ggaaaatcat ctttgccccg ttggcctgaa tagcctccag
        61 gtacgccgta atcaagggat cgatccccgc cctggccgca cggcgcagcc actcatccag

@@ -1,30 +1,30 @@
-LOCUS       FBGC00283       28336 bp DNA     linear   UNA 29-JAN-2023
+LOCUS       FBGC00283              28336 bp    DNA     linear   UNA 29-JAN-2023
 DEFINITION  tenellin.
 ACCESSION   FBGC00283
-VERSION     .
+VERSION     FBGC00283
 KEYWORDS    .
 SOURCE      Beauveria bassiana ARSEF 2860
   ORGANISM  Beauveria bassiana ARSEF 2860
+            .
 REFERENCE   1  (bases 1 to 28336)
-  AUTHORS   Eley KL, Halo LM, Song Z, Powles H, Cox RJ, Bailey AM, Lazarus CM, 
+  AUTHORS   Eley KL, Halo LM, Song Z, Powles H, Cox RJ, Bailey AM, Lazarus CM,
             Simpson TJ.
-  TITLE     Biosynthesis of the 2-pyridone tenellin in the insect pathogenic 
+  TITLE     Biosynthesis of the 2-pyridone tenellin in the insect pathogenic
             fungus Beauveria bassiana.
   JOURNAL   Chembiochem 2007;8:289-97
-  PUBMED    17216664
+   PUBMED   17216664
 REFERENCE   2  (bases 1 to 28336)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Jan 29, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1002/cbic.200600398"; journalName: "Chembiochem"; date: "2007"; 
-            volume: "8"; pages: "289-97"
+  JOURNAL   Exported Jan 29, 2023 from SnapGene 6.2.1 https://www.snapgene.com
 COMMENT     ##Genome-Assembly-Data-START##
             Assembly Method       :: Newbler v. 2.3
             Genome Coverage       :: 28X
             Sequencing Technology :: 454
             ##Genome-Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1002/cbic.200600398"; journalName: "Chembiochem"; date: "2007";
+            volume: "8"; pages: "289-97"
 FEATURES             Location/Qualifiers
      source          1..28336
                      /chromosome="Unknown"
@@ -38,7 +38,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="BBA_07334"
                      /product="transcription factor TenR"
-                     /label=tenR
+                     /label="tenR"
                      /protein_id="EJP63690.1"
                      /translation="MEPGPAHRRRRPAVACSECRRRKIRCDRGFPCGPCRKSLPALSCI
                      YHSQPRAYAASAPPRPHTAQHQPRPKVNNTHSVDLTKFNLPSFESDAFHGLDQFGIDWQ
@@ -56,11 +56,12 @@ FEATURES             Location/Qualifiers
                      AAAHSLALASLNRSSAREVKESVMSSVWMALHHCCQAMGEPAEAMLETEWGTEAVQQTA
                      TESQSVNRSVSDADKGYEIDAQLQGVKYMLQQQSDAASTADGEIADMWAFDDDESYLSV
                      GLPL"
+                     /Pfam="CghF"
      CDS             join(3978..4562,4630..5155,5219..5634)
                      /codon_start=1
                      /locus_tag="BBA_07335"
                      /product="cytochrome P450 monooxygenase TenA"
-                     /label=tenA
+                     /label="tenA"
                      /note="revised sequence"
                      /protein_id="EJP63691.1"
                      /translation="MLSLLDSVSLPYLILSACLSVILLRRFLAHDKGGSKSIAQGCLPE
@@ -72,11 +73,12 @@ FEATURES             Location/Qualifiers
                      LRDEVDAVGDAPITFEMLRNMKYLNGILNETHRLIPNNVTQVRAALSDVVLPLGGGPNG
                      KAPLDVRKGDIVSVTKTVMYRDPDQWGPDANEYRPERWDGMRGGWHFLPYGGGPRRCPA
                      QMMVQNESAYMLFRLAQKYSTIVARDPEPFRARMRIGPSSMHGVKIAFYK"
+                     /Pfam="p450"
      CDS             complement(join(6041..7419,7492..7729))
                      /codon_start=1
                      /locus_tag="BBA_07336"
                      /product="cytochrome P450 monooxygenase TenB"
-                     /label=tenB
+                     /label="tenB"
                      /protein_id="EJP63692.1"
                      /translation="MALSEVLSMVAQLGYYEKVTGILGVVSIILLFWKLNHEPFYPALP
                      LAGEPPQRRWFSLSNRLRYYNDCAALFDEAYHTATVLVPSMGVHTAMIMPESAMNWAMS
@@ -88,11 +90,12 @@ FEATURES             Location/Qualifiers
                      SPEGIKLQKGTTISWLASCAQVDADRFDNPQKFDPFRFSRASKDDDDDDDDDGRSTSSH
                      TKDAFVTTSPQYLPFGHGKHACPGRFMVDLMFKIILAQLLTHYDLGWPEDYQGKQPPSV
                      WQGELSEPPPGARILVKRRKV"
+                     /Pfam="p450"
      CDS             complement(8332..9498)
                      /codon_start=1
                      /locus_tag="BBA_07337"
                      /product="trans-acting enoylreductase TenC"
-                     /label=tenC
+                     /label="tenC"
                      /protein_id="EJP63693.1"
                      /translation="MAAISARPLTQKALKVASPDTLHLVADAPVPTLDQDDSVLIRVVC
                      VAINPVDGKSAELSPTPGATSGTDFAGIVVALHGDAKSRTETADTIKTGDRVMGFVFGN
@@ -101,12 +104,13 @@ FEATURES             Location/Qualifiers
                      ASRAKRLGAAATFDYQSATCGRDIRDYTNDSLTLAIDCLSESASMAICYEAIGSAGGRY
                      VSLDPFPVRGCVRRSIVPDWICSFTQFGQSIPWAPPYNLDERPDDHRLAEEWYHLAQKL
                      LDAELIEAPTLEIRSGGLLHVPEGVAAVKLGQIKRRKLVYHISEEALP"
+                     /Pfam="fPKS_ER, ADH_zinc_N"
      CDS             join(10172..11448,11572..14794,14892..23099)
                      /codon_start=1
                      /locus_tag="BBA_07338"
-                     /product="polyketide synthase-nonribosomal peptide 
+                     /product="polyketide synthase-nonribosomal peptide
                      synthetase TenS"
-                     /label=tenS
+                     /label="tenS"
                      /protein_id="EJP63694.1"
                      /translation="MSPMKQNESESHSVSEPIAIVGSAYRFPGGCNTPSKLWDLLQQPR
                      DILKELDPERLNLRRYYHPDGETHGSTDVSNKAYTLEEDISRFDASFFGISPLEAASMD
@@ -181,11 +185,13 @@ FEATURES             Location/Qualifiers
                      MRCVPSLPEHRAEGYLDFGQVDKVVEEMVGDILGLADERPQEGPAVVYRHHSGGVKVPI
                      HEFREHMESVYGGRFESVQLGQWIIRAVDAGMDPLISAYLETFLEGDASMVFPYMGEQA
                      V"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_DH, PKS_NRPS_MT, fPKS_KR,
+                     ACP_PCP, Condensation, AA-adenyl-dom, fPKS_R"
      CDS             complement(join(23305..25053,25124..25628,25687..25727))
                      /codon_start=1
                      /locus_tag="BBA_07339"
                      /product="transcription factor BBA_07339"
-                     /label=BBA_07339
+                     /label="BBA_07339"
                      /protein_id="EJP63695.1"
                      /translation="METTVKAGPGRPLVSCTVCRKRKLKCDRQHPCRNCLRSRSKNPER
                      DCVYEDVSTLDPARQSRRRSSMNQKRLTPLSTPRLISPAAGPLSSDEAEAVVVVPRTRA
@@ -201,12 +207,13 @@ FEATURES             Location/Qualifiers
                      VLEDAKHFTMQSIDAGETNVKGYLFICLITMQIYSLQQGMGPDDTRSAILGAVEDALDV
                      SLNSLENMRRAGAARRVSNSNLDSTFATAMATPPGMTEGYDSQVRCSDGRLASFTYESM
                      LDASYDVSIDE"
+                     /Pfam="CghF"
      CDS             join(26946..27245,27374..28336)
                      /codon_start=1
                      /locus_tag="BBA_07340"
-                     /product="major facilitator superfamily transporter 
+                     /product="major facilitator superfamily transporter
                      BBA_07340"
-                     /label=BBA_07340
+                     /label="BBA_07340"
                      /protein_id="EJP63696.1"
                      /translation="MATYDSQTASSPPTEKRTDSSQASAELGQPENHAATNGSADMSKA
                      PDGGLEAWLVAGGAFCVFFCCLGFSNSFGVLADYYIQHQLHGTSPSKLAWIGSLGIIQP
@@ -216,6 +223,7 @@ FEATURES             Location/Qualifiers
                      GRIIPGVMADKLGKLNVYSVGAVTTAIVIFCMNEAKSNAALIVYAVIFGFTSGTIISGA
                      SVAFTVCCPDVRDVGTYAGMGMAFAALGGLVGPPLDGVLVEHYKGNFFQAAVFSGSVCL
                      FGGCLAYANKWFFPQGLLGRA"
+                     /Pfam="MFS_1"
 ORIGIN
         1 tcacagcggc aggcctacgg aaaggtacga ttcgtcgtcg tcaaaagccc acatgtcggc
        61 gatttcgcca tcagccgtag acgcagcatc gctctgctgc tgcaacatgt acttgacgcc

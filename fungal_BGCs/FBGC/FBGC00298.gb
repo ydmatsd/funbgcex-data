@@ -1,23 +1,23 @@
-LOCUS       FBGC00298       29277 bp DNA     linear   UNA 09-FEB-2023
+LOCUS       FBGC00298              29277 bp    DNA     linear   UNA 09-FEB-2023
 DEFINITION  pyranterrone H.
 ACCESSION   FBGC00298
-VERSION     .
+VERSION     FBGC00298
 KEYWORDS    .
 SOURCE      Aspergillus terreus NIH2624
   ORGANISM  Aspergillus terreus NIH2624
+            .
 REFERENCE   1  (bases 1 to 29277)
   AUTHORS   Tang S, Zhang W, Li Z, Li H, Geng C, Huang X, Lu X.
-  TITLE     Discovery and Characterization of a PKS-NRPS Hybrid in Aspergillus 
+  TITLE     Discovery and Characterization of a PKS-NRPS Hybrid in Aspergillus
             terreus by Genome Mining.
   JOURNAL   J Nat Prod 2020;83:473-480
-  PUBMED    32077283
+   PUBMED   32077283
 REFERENCE   2  (bases 1 to 29277)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Feb 9, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1021/acs.jnatprod.9b01140"; journalName: "J Nat Prod"; date: 
+  JOURNAL   Exported Feb 9, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1021/acs.jnatprod.9b01140"; journalName: "J Nat Prod"; date:
             "2020"; volume: "83"; pages: "473-480"
 FEATURES             Location/Qualifiers
      source          1..29277
@@ -29,7 +29,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="ATEG_00912"
                      /product="methyltransferase PytC"
-                     /label=pytC
+                     /label="pytC"
                      /protein_id="EAU39558.1"
                      /translation="MTVLTAAEPPNRIEVDMDAPSLDTDSSCTSLSSSVQRYEYKHGRR
                      YHGYHAGSYPFPNDKREQDRLDMIHHVYTRILNDRLFLAPLDPRGKAILDIGTGTGIWA
@@ -37,24 +37,26 @@ FEATURES             Location/Qualifiers
                      KDWPRLIRQCYAHLRPGGWLELQESVNVMYSEDGTLPPDSFMARMMHGLIVACEKSGRT
                      MDPAPSMEKWVQEAGFDPITKHRFKIPVGSWPKDPRLKECGSLMRVNFVEGVEAFTASL
                      FTEVLGWTPEEVAVLNTGVREEAMRNDIHAIFDFVVIVAQKPY"
+                     /Pfam="Methyltransf_23"
      CDS             join(1542..1644,1705..2393)
                      /codon_start=1
                      /locus_tag="ATEG_00912"
                      /product="short-chain dehydrogenase/reductase PytE"
-                     /label=pytE
+                     /label="pytE"
                      /protein_id="EAU39558.1"
                      /translation="MSSSKPTIAFFGATGGSTISCLAPALKAGYRCAALARTPSRLRDL
                      LVQRGVPESTIADNLTIVSGTATDLQPVKQTLQMGQPASEMADLIVSGIGGKLIMSNPL
                      SPTLDNPTICQDVVQNILTAIRELRGAGTTKAPFLITLSTTGISDVKRDLPIAMMPMYH
                      WMLKVPHDDKKVMERLIVDDAERDPAARALGGYVIVRPSLLTDGDRDKGGDLKKIRVGV
                      EEKPAVGYTISREDVGRWVFEHLVKKGRESEYAGKAVTITY"
+                     /Pfam="NAD_binding_10"
      CDS             complement(join(2683..5397,5450..11412,11464..12251,
                      12306..14211,14269..14413,14470..14532))
                      /codon_start=1
                      /locus_tag="ATEG_00913"
-                     /product="polyketide synthase-nonribosomal peptide 
+                     /product="polyketide synthase-nonribosomal peptide
                      synthetase PytA"
-                     /label=pytA
+                     /label="pytA"
                      /note="similar to polyketide synthase"
                      /protein_id="EAU39559.1"
                      /translation="MPQDRFNVDAFYHPDGTHKGTTNAKYGYFLDQDLGLFDASFFNIS
@@ -123,13 +125,14 @@ FEATURES             Location/Qualifiers
                      ILSMLQAKAVPRLPVRERPFVVDFVPVDYITRGMHALAMHETLNEATEKAPIYHLSNPK
                      PLPVEELPAIMEEIGGERGQSLPVDEWLEAVARLDTAPEAQVRWGALKEYFGLGHLMFG
                      LDTAKTQRVLETVDIGSCSPVDVEYLRTMLARESQRVG"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_DH, fPKS_ER, fPKS_KR, ACP_PCP,
+                     Condensation, AA-adenyl-dom, fPKS_R"
      CDS             complement(15462..16355)
                      /codon_start=1
                      /locus_tag="ATEG_00914"
                      /product="alpha/beta hydrolase PytB1"
-                     /label=pytB1
-                     /note="similar to EstA
-                     revised sequence"
+                     /label="pytB1"
+                     /note="similar to EstA revised sequence"
                      /protein_id="EAU39560.1"
                      /translation="MLMTGSTVEQLFIDSDVNARKITSRYPIPPPDKSIKTEDITLQDC
                      WVRIYTPPSATSSGSVAVFIHGGGWIMGSPDIEDATCRRICRCSGMTVVSVGYRLAPKF
@@ -137,13 +140,13 @@ FEATURES             Location/Qualifiers
                      VPATVHPDAVPADKRDQYTAMHENANNTVNTLAAMDCFLDAYAAPPHDKYFSVLLHPRL
                      KDLKKVYLVECGTDTLRDDARLMRDALEEAGVPLMYDAYPGYPHYFWSYPSPVLAEASE
                      SFHENMLQALAWLDQE"
+                     /Pfam="Abhydrolase_3"
      CDS             complement(16705..18291)
                      /codon_start=1
                      /locus_tag="ATEG_00914"
                      /product="FAD-linked oxidoreductase PytB2"
-                     /label=pytB2
-                     /note="similar to EstA
-                     revised sequence"
+                     /label="pytB2"
+                     /note="similar to EstA revised sequence"
                      /protein_id="EAU39560.1"
                      /translation="MRFLGIAAVATFSTVVSAYPKSTALYNCVSSVFGPSAPQRIVTPN
                      DTTYLDSRLGETIQFDELPVLLAYAQESKEIAPLIRCAKTAGIKAVPRAGGHSFEAYSA
@@ -155,11 +158,12 @@ FEATURES             Location/Qualifiers
                      DRIASLDAKSQVWGEWHAWNISTPSKGSGNAFAWREKAYAHLEFQIHGAPDDKERQSTY
                      ENWLEDLESYLRPTVGGASYSGYLDADISTDPLTSYYGGNVCKLVSVKRKYDPEDFFTN
                      PLTIPVDRKGC"
+                     /Pfam="FAD_binding_4, BBE"
      CDS             complement(join(18525..18903,18958..19711,19762..19894))
                      /codon_start=1
                      /locus_tag="ATEG_00915"
                      /product="major facilitator superfamily transporter PytF"
-                     /label=pytF
+                     /label="pytF"
                      /note="revised sequence"
                      /protein_id="EAU39561.1"
                      /translation="MTTKEAIADMALEAQEEDDAGPPDGGFRAWLVVLGGFLAYFVTFG
@@ -170,11 +174,12 @@ FEATURES             Location/Qualifiers
                      VGRIVSGALADKLGRYNVAIVCSLLSGILVLVLHRVHTKGACVAFALLYGFTSGGLISL
                      QSACVAQITKNMRIIGVMIGVMMAVCSVGALTGNPIGGALTSMKVGGVSAWVDFGGVLL
                      LAGTLVLLAARLAIDPRLVQIV"
+                     /Pfam="MFS_1"
      CDS             join(20198..20500,20552..21166,21226..21774)
                      /codon_start=1
                      /locus_tag="ATEG_00916"
                      /product="cytochrome P450 monooxygenase PytD"
-                     /label=pytD
+                     /label="pytD"
                      /protein_id="EAU39562.1"
                      /translation="MLTQELQAIYANNAGFLITSLLAFALLALAVRSFLRSEKIPLVSA
                      GLPILGNLQKYSLDPVGFIASATRLHGECFAVPMLFGRTIWLRSPQLNKEYLETREDVW
@@ -185,11 +190,12 @@ FEATURES             Location/Qualifiers
                      RHYSGNSDVRWARKPKTLRTEVASVPESRITIPEGTIVSISPYLTHHDPATWDNADTYL
                      PERWLADPDLAKKMNEGGQLRYIPFGAGSHRCPGEKMAILIAKIAVARIVQSCDLAWGE
                      GSSENTLGGLDFSKVGSPWLKGDVQVRFQV"
+                     /Pfam="p450"
      CDS             complement(22003..23274)
                      /codon_start=1
                      /locus_tag="ATEG_00917"
                      /product="aspartic protease PytH"
-                     /label=pytH
+                     /label="pytH"
                      /protein_id="EAU39563.1"
                      /translation="MWLSVALLTLLDGALAAPARQHSGAFDMPLTWTPFGFTTDAIQIG
                      TPPQPLVCFVDWTWIGQYAFTPRCHGGSQGTYACLQHGQPLYNETESRTFANQSVLYPE
@@ -199,22 +205,24 @@ FEATURES             Location/Qualifiers
                      IGGNPGAIFDHASYGRGVPMSENSYRRLIEITGGRPVVLDANVAPNNGNQSFVSVDCEK
                      VSSFPNVKYVFEGHDRVWEVTPANYVERREVDGKEVCVLNVRTLGEGDWIIGNFGETFA
                      KDKVVLFDFDKLRVGLADVPAAAY"
+                     /Pfam="Asp"
      CDS             23541..24479
                      /codon_start=1
                      /product="thioesterase PytI"
-                     /label=pytI
+                     /label="pytI"
                      /translation="MDIVAHIQGDPGSSLTPLILIHAISGLALPYFALGPLSKDSDDGD
                      SDKSRPVYGLSSPIFESVSAFRRHGKSLPSLALEYVRIIRREIQPRGPYLLGGWSMGGM
                      LAIEMAAILVAQGETVKHVVMIDSLNPEVYPPFQDSQEHQVLSTIMYNAIAWRVQGLEE
                      AGMPALSDDASTATSSDNSRASTDDGADSEVESEADLDDFMQQQREHVHQGMRMLASYH
                      TLHRRVYLPDTTVTLIKCTMLGNMSPLLRASRKAFAKKNLLDPHNGWRTEQFKSFRSVP
                      FASTHDACFDAEASEELTTILRGVLKDTEEF"
+                     /Pfam="Thioesterase"
      CDS             join(24824..25342,25395..25713,25767..25862,25924..25955,
                      26013..26324)
                      /codon_start=1
                      /locus_tag="ATEG_00918"
                      /product="FAD-dependent monooxygenase PytG"
-                     /label=pytG
+                     /label="pytG"
                      /protein_id="EAU39564.1"
                      /translation="MSATTLPNVSVAIIGAGIGGLTLGAFLRRLGIPFVILERTAVLTP
                      LGAGISLAPNCLAALEQLGLYETIRQNAQELRGINVYREKRCWGTIDFGLAKQWFGYNV
@@ -224,11 +232,12 @@ FEATURES             Location/Qualifiers
                      NNSERVVASNVFEEADFPHMVRGRVALLGDAAHSMTSFFGQGACQAIEDATVLADSISL
                      FLAGDEAALETYGRIREKRAQQVASFSARYALLHTARLPLGMGKALRAFVYRILPSSAW
                      MWYLTWLYGFQPVSKRVCILLSFPVF"
+                     /Pfam="FAD_binding_3"
      CDS             complement(join(26488..28820,28980..29195,29250..29277))
                      /codon_start=1
                      /locus_tag="ATEG_00919"
                      /product="transcription factor PytR"
-                     /label=pytR
+                     /label="pytR"
                      /protein_id="EAU39565.1"
                      /translation="MAHFSRVASDPSLAPQPSAPSGLDSSTTSSSSTGLHRSCTFCRAR
                      KIRCSSGPICSACRERNINCIYSPEARKGRPRRRGTNTSNAQAKKGDQENPTLGRELDR
@@ -245,6 +254,7 @@ FEATURES             Location/Qualifiers
                      PGDLSLGSSACSIHDFIPQSPGFPPSQLVPPLEIPDPGFFSDNASFESLLGFPGMARSD
                      IYSRTSNSPSSHLTMGTLDGQAFGNLFLMSPDISAPDVDSMLQSNPFDTSNPVSNSGAE
                      RVCGTGAGLLGRSTGAQYDSHLHMDASKPFPAWNPGIAEEYGKYGE"
+                     /Pfam="EqxR"
 ORIGIN
         1 atgacagtcc tcaccgcagc agagccgcct aatcggatag aggtggacat ggacgcaccc
        61 agcctcgaca cggacagcag ctgcacctcg ctcagctcca gcgtgcagcg ctacgagtac

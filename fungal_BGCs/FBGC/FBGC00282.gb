@@ -1,37 +1,37 @@
-LOCUS       FBGC00282       24253 bp DNA     linear   CON 29-JAN-2023
+LOCUS       FBGC00282              24253 bp    DNA     linear   CON 29-JAN-2023
 DEFINITION  fujikurins.
 ACCESSION   FBGC00282
-VERSION     .
+VERSION     FBGC00282
 KEYWORDS    .
 SOURCE      Fusarium fujikuroi IMI 58289
   ORGANISM  Fusarium fujikuroi IMI 58289
+            .
 REFERENCE   1  (bases 1 to 24253)
-  AUTHORS   von Bargen KW, Niehaus EM, Krug I, Bergander K, Wurthwein EU, 
+  AUTHORS   von Bargen KW, Niehaus EM, Krug I, Bergander K, Wurthwein EU,
             Tudzynski B, Humpf HU.
-  TITLE     Isolation and Structure Elucidation of Fujikurins A-D: Products of 
+  TITLE     Isolation and Structure Elucidation of Fujikurins A-D: Products of
             the PKS19 Gene Cluster in Fusarium fujikuroi.
   JOURNAL   J Nat Prod 2015;78:1809-15
-  PUBMED    26192387
+   PUBMED   26192387
 REFERENCE   2  (bases 1 to 24253)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Jan 29, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: "10.1021/np5008137";
-            journalName: "J Nat Prod"; date: "2015"; volume: "78"; pages: 
+  JOURNAL   Exported Jan 29, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     ##Genome-Annotation-Data-START##
+            Annotation Provider :: INSDC submitter
+            Annotation Status   :: Full annotation
+            Annotation Pipeline :: Eukaryotic Annotation Propagation Pipeline
+            ##Genome-Annotation-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi: "10.1021/np5008137";
+            journalName: "J Nat Prod"; date: "2015"; volume: "78"; pages:
             "1809-15"
-COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final 
-            NCBI review. The reference sequence is identical to HF679030. 
-            Sequencing was performed by Eurofins MWG Operon, Germany Guldener 
-            U., Wiemann P., Sieber C., Munsterkotter M., Tudzynski B. 
+            PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to HF679030.
+            Sequencing was performed by Eurofins MWG Operon, Germany Guldener
+            U., Wiemann P., Sieber C., Munsterkotter M., Tudzynski B.
             Westfaelische Wilhelms-Universitaet Muenster
             Institut fuer Biologie und Biotechnologie der Pflanzen, Schlossplatz
             8, 48143 Muenster, Germany
-            tudzynsb@uni-muenster.de.##Genome-Annotation-Data-START##
-            Annotation Provider :: INSDC submitter
-            Annotation Status   :: Full annotation
-            Annotation Pipeline :: Eukaryotic Annotation Propagation Pipeline 
-            ##Genome-Annotation-Data-END##
 FEATURES             Location/Qualifiers
      source          1..24253
                      /chromosome="VIII"
@@ -44,7 +44,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="FFUJ_12239"
                      /product="polyketide synthase PKS19"
-                     /label=PKS19
+                     /label="PKS19"
                      /db_xref="EnsemblGenomes-Gn:FFUJ_12239"
                      /db_xref="EnsemblGenomes-Tr:CCT72377"
                      /db_xref="GeneID:35405695"
@@ -111,11 +111,13 @@ FEATURES             Location/Qualifiers
                      PRLLGYLGQQQLGNDSAKDQAAGMVSVETQLDAADDPAECLPILEKRFAQALGNMLEID
                      PEKVDGSMPVASLGIDSLVAIRIREWFMKELGVEVPVLKIMSVGHSLSRVCDDVLVDWR
                      RVKKEGELEDKK"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_DH, PKS_NRPS_MT, fPKS_KR,
+                     ACP_PCP"
      CDS             join(8285..8793,8848..9379)
                      /codon_start=1
                      /locus_tag="FFUJ_12240"
                      /product="trans-acting enoylreductase FFUJ_12240"
-                     /label=FFUJ_12240
+                     /label="FFUJ_12240"
                      /db_xref="EnsemblGenomes-Gn:FFUJ_12240"
                      /db_xref="EnsemblGenomes-Tr:CCT72378"
                      /db_xref="GeneID:35405696"
@@ -134,11 +136,12 @@ FEATURES             Location/Qualifiers
                      VDISTMKMSYDAIGSSGGAYVALEAIPTNIKYTRRDICANWLMAPSILGTPVNKKGAYG
                      RPSMPEHRQFGTYLFALAEKWLQDGSIKHHPIEIREGGLRSIREGIDDLRRGNVHAKKL
                      VYPLSA"
+                     /Pfam="fPKS_ER"
      CDS             join(10275..10391,10445..10567,10646..10791,10867..11368)
                      /codon_start=1
                      /locus_tag="FFUJ_12241"
                      /product="alpha/beta hydrolase fold protein FFUJ_12241"
-                     /label=FFUJ_12241
+                     /label="FFUJ_12241"
                      /db_xref="EnsemblGenomes-Gn:FFUJ_12241"
                      /db_xref="EnsemblGenomes-Tr:CCT72379"
                      /db_xref="GeneID:35405697"
@@ -152,13 +155,14 @@ FEATURES             Location/Qualifiers
                      GRLEGDDPMYLPYVNEDGSVPNGLQLAADMMPALDRLGIPVENRVTVQTYYRALTWSVL
                      NLVEYIAPTPAMMVTPEFDVSCPTKDQLKAYERMGEPKELDILKGKGHLDWIFGDVDII
                      LNRQLDFLKRQMNF"
+                     /Pfam="Hydrolase_4"
      CDS             complement(join(12858..13287,13346..13757,13823..14104,
                      14193..14466))
                      /codon_start=1
                      /locus_tag="FFUJ_12242"
-                     /product="major facilitator superfamily transporter 
+                     /product="major facilitator superfamily transporter
                      FFUJ_12242"
-                     /label=FFUJ_12242
+                     /label="FFUJ_12242"
                      /db_xref="EnsemblGenomes-Gn:FFUJ_12242"
                      /db_xref="EnsemblGenomes-Tr:CCT72380"
                      /db_xref="GeneID:35405698"
@@ -176,11 +180,12 @@ FEATURES             Location/Qualifiers
                      NMFIIACGVTGISNLAVWIPATKSSITIGYAIMFGFASGAFVSLVGALPVSVSPIPELG
                      YRMGIVFLVISIPALTMAPIGGAILQHASNGWVSLKVFAGVMCLVGSAIILGSRMLYTE
                      KRLIKAF"
+                     /Pfam="MFS_1"
      CDS             join(15420..15570,15684..16774)
                      /codon_start=1
                      /locus_tag="FFUJ_12243"
                      /product="transcription factor FFUJ_12243"
-                     /label=FFUJ_12243
+                     /label="FFUJ_12243"
                      /db_xref="EnsemblGenomes-Gn:FFUJ_12243"
                      /db_xref="EnsemblGenomes-Tr:CCT72381"
                      /db_xref="GeneID:35405699"
@@ -196,11 +201,12 @@ FEATURES             Location/Qualifiers
                      TSANQHRQQQQQRLHDGDIGPSSVAQFVMVLQLLTYLINRMDRNLAQVNGPHGHGLETS
                      LGGQATPITPSTGYQDIVQSMLIHRGDKNNTTGSSQSLPIIGQVVLGAIPDEHKRLRQV
                      IQELQTRIERSEIQ"
+                     /Pfam="EqxR"
      CDS             join(22522..23649,23705..24253)
                      /codon_start=1
                      /locus_tag="FFUJ_12244"
                      /product="cytochrome P450 monooxygenase FFUJ_12244"
-                     /label=FFUJ_12244
+                     /label="FFUJ_12244"
                      /db_xref="EnsemblGenomes-Gn:FFUJ_12244"
                      /db_xref="EnsemblGenomes-Tr:CCT72382"
                      /db_xref="GeneID:35405700"
@@ -220,6 +226,7 @@ FEATURES             Location/Qualifiers
                      GYHIPKGTSVIANVWHIHHSEQDYDDPDEFIPERFLHHPYGMKLDEAHNPARLQGSGPR
                      LTHAFGAGRRICPGMDSARQSLMLGLAKVLWAFEIMPAPGKEIDLNMETGFISDLALRP
                      KDFDVVLKLRDGRTKGDILDHYSQAYEAQAAVMGWENGLYR"
+                     /Pfam="p450"
 ORIGIN
         1 tcacttctta tcctcaagct caccttcttt cttaaccctg cgccagtcaa caagcacatc
        61 gtcacacacc cgagacaaag aatgtcccac agacataatc ttgagcaccg gcacttcaac

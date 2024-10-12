@@ -1,23 +1,23 @@
-LOCUS       FBGC00258       17066 bp DNA     linear   UNA 28-JAN-2023
-DEFINITION  betaenone.
+LOCUS       FBGC00258              17066 bp    DNA     linear   UNA 21-MAR-2024
+DEFINITION  betaenone B.
 ACCESSION   FBGC00258
-VERSION     .
+VERSION     FBGC00258
 KEYWORDS    .
 SOURCE      Phoma betae Fr. PS-13
   ORGANISM  Phoma betae Fr. PS-13
+            .
 REFERENCE   1  (bases 1 to 17066)
   AUTHORS   Ugai T, Minami A, Fujii R, Tanaka M, Oguri H, Gomi K, Oikawa H.
-  TITLE     Heterologous expression of highly reducing polyketide synthase 
+  TITLE     Heterologous expression of highly reducing polyketide synthase
             involved in betaenone biosynthesis.
   JOURNAL   Chem Commun (Camb) 2015;51:1878-81
-  PUBMED    25530455
+   PUBMED   25530455
 REFERENCE   2  (bases 1 to 17066)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Jan 28, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1039/c4cc09512j"; journalName: "Chem Commun (Camb)"; date: 
+  JOURNAL   Exported Mar 21, 2024 from SnapGene 7.1.2 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1039/c4cc09512j"; journalName: "Chem Commun (Camb)"; date:
             "2015"; volume: "51"; pages: "1878-81"
 FEATURES             Location/Qualifiers
      source          1..17066
@@ -28,7 +28,7 @@ FEATURES             Location/Qualifiers
      CDS             complement(join(1..1474,1538..1824))
                      /codon_start=1
                      /product="FAD-linked oxidoreductase ORF1"
-                     /label=orf1
+                     /label="orf1"
                      /note="orf1"
                      /protein_id="BAQ25462.1"
                      /translation="MKSFATTVLLVTPGIYAAALSGRQGQAINSSCKVIPGDTAWPSRQ
@@ -42,11 +42,12 @@ FEATURES             Location/Qualifiers
                      NVNSTRISHPDNAVAPHWRTAMAVCLEFSLYDWAIPEEEMVARRQHLADVIHPAIVKVT
                      PGSGAYLNEADPLVYPVGEDGWKDAFYGANYERLRGLKREWDPERVFYAYTAPGSEEWV
                      SDAEGRLCRV"
+                     /Pfam="FAD_binding_4, BBE"
      CDS             join(2413..2547,2626..3397,3459..3592)
                      /codon_start=1
                      /gene="bet4"
                      /product="short-chain dehydrogenase/reductase Bet4"
-                     /label=bet4
+                     /label="bet4"
                      /protein_id="BAQ25463.1"
                      /translation="MTPAKAPSHAKKPEAGSQPISSMWTQMFPPKPTYTEEHMPDLSGK
                      IYIVTGASSGVGKETSRMLYSKNAKVYMAMRSGAKAAAAMADIQRAVPKSSGALVILPL
@@ -55,11 +56,12 @@ FEATURES             Location/Qualifiers
                      GLSKAGNWLQGAECAKRYAGDGILSFPINPGHLKSELYREGGTLFKLALRPVLFPPAYG
                      SYVELFAALSPTLSTKDSGAWIVPWGRLYPIRSDLLDATKSAAEGGNGHASAFWDWCEE
                      QVKAFL"
+                     /Pfam="adh_short"
      CDS             join(4256..4815,4910..5444)
                      /codon_start=1
                      /gene="bet3"
                      /product="trans-acting enoylreductase Bet3"
-                     /label=bet3
+                     /label="bet3"
                      /protein_id="BAQ25464.1"
                      /translation="MPPTNGQTAIIQSKTCPTPTTLPLVVAHGRPLPPLPSSHHVRVRV
                      LAVGLNPTDHKMVTHFFMQDNTTGCDFCGIIEEVGSASALPLGLRVCGADFPYRPSNPY
@@ -68,12 +70,13 @@ FEATURES             Location/Qualifiers
                      DIKALANGQSIKHALDCITDPESTTVCLASLARIGGRYACLEAVSDACITRRSVAVKVV
                      MGFEGQNFDVDLGHPVYSRKANPALHAVAAQWAAELQPLLNAGIIKTQPLEEIEGRFEG
                      VIKALEMLQGGHIKGKKLVVNISS"
+                     /Pfam="fPKS_ER"
      CDS             complement(join(5690..5861,5923..6101,6182..7291,
                      7346..7450))
                      /codon_start=1
                      /gene="bet2"
                      /product="cytochrome P450 monooxygenase Bet2"
-                     /label=bet2
+                     /label="bet2"
                      /protein_id="BAQ25465.1"
                      /translation="MMDLFKTDIMPDLQSSMMASIGSNWRFALFVAATLLTSYIVIVRP
                      LKNVLFHPLRKYPGPKLFAGSSIPYGFWYMTGKWHTKIRQLHATYGPVVRIGPDELSYA
@@ -85,11 +88,12 @@ FEATURES             Location/Qualifiers
                      DYIPENTIIGIPHRVLYRSEAYWKHADEIHPERWLPDGQRPAEFDHDRREGFQPFSYGP
                      RACIAMNLAYAEMRYILARFLWNFDIQETEQSKHWMDNQKAYLVWDKPGLFVRLKPVAK
                      EEAQ"
+                     /Pfam="p450"
      CDS             join(8216..9197,9274..14830,14891..17066)
                      /codon_start=1
                      /gene="bet1"
                      /product="polyketide synthase Bet1"
-                     /label=bet1
+                     /label="bet1"
                      /protein_id="BAQ25466.1"
                      /translation="MSSSASFNEPIAIVGSGCRFAGGASSPSKLWDLLCKPKDIRSDIT
                      GRRFNAEGFYHPDGSHHGHMNVLQSYLLEEDTRLFDAEFFGTNPVEAKAMDPQQRLLLE
@@ -141,6 +145,8 @@ FEATURES             Location/Qualifiers
                      VIQRPSTIIRDGKDATVERAGFDWVNSLLHFAHKTQTVPRVEFNAGAFDLVSVETCCED
                      VVRELPNRGREGITYVNNVGDVVIPMAQMADVGLSKVEKRYSVLPMEEWTKIVVNAGMH
                      PAVAALIETFDEPGVEKYPALLRSEDA"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_DH, PKS_NRPS_MT, fPKS_KR,
+                     ACP_PCP, fPKS_R"
 ORIGIN
         1 ctaaacccta caaagcctcc cctccgcatc actcacccac tcctcactcc ccggcgccgt
        61 gtacgcataa aacaccctct cgggatccca ttcccgcttc agacccctca acctctcata

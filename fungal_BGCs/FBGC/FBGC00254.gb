@@ -1,34 +1,34 @@
-LOCUS       FBGC00254        4872 bp DNA     linear   UNA 28-JAN-2023
+LOCUS       FBGC00254               4872 bp    DNA     linear   UNA 28-JAN-2023
 DEFINITION  tenuazonic acid.
 ACCESSION   FBGC00254
-VERSION     .
+VERSION     FBGC00254
 KEYWORDS    WGS; RefSeq.
 SOURCE      Cordyceps militaris CM01
   ORGANISM  Cordyceps militaris CM01
+            .
 REFERENCE   1  (bases 1 to 4872)
-  AUTHORS   Motoyama T, Nogawa T, Shimizu T, Kawatani M, Kashiwa T, Yun CS, 
+  AUTHORS   Motoyama T, Nogawa T, Shimizu T, Kawatani M, Kashiwa T, Yun CS,
             Hashizume D, Osada H.
-  TITLE     Fungal NRPS-PKS Hybrid Enzymes Biosynthesize New gamma-Lactam 
-            Compounds, Taslactams A-D, Analogous to Actinomycete Proteasome 
+  TITLE     Fungal NRPS-PKS Hybrid Enzymes Biosynthesize New gamma-Lactam
+            Compounds, Taslactams A-D, Analogous to Actinomycete Proteasome
             Inhibitors.
   JOURNAL   ACS Chem Biol 2023
-  PUBMED    36692171
+   PUBMED   36692171
 REFERENCE   2  (bases 1 to 4872)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Jan 28, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1021/acschembio.2c00830"; journalName: "ACS Chem Biol"; date: 
-            "2023"
-COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final 
-            NCBI review. The reference sequence is identical to 
-            JH126400.##Genome-Assembly-Data-START##
+  JOURNAL   Exported Jan 28, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     ##Genome-Assembly-Data-START##
             Assembly Method       :: Newbler v. 2.3
             Assembly Name         :: CmilitarisCM01_v01
             Genome Coverage       :: 100x
             Sequencing Technology :: 454; Illumina
             ##Genome-Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1021/acschembio.2c00830"; journalName: "ACS Chem Biol"; date:
+            "2023"
+            PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to
 FEATURES             Location/Qualifiers
      source          1..4872
                      /chromosome="Unknown"
@@ -39,9 +39,9 @@ FEATURES             Location/Qualifiers
      CDS             join(1..226,293..3693,3751..4872)
                      /codon_start=1
                      /locus_tag="CCM_02437"
-                     /product="nonribosomal peptide synthetase-polyketide 
+                     /product="nonribosomal peptide synthetase-polyketide
                      synthase CmTAS1"
-                     /label=CmTAS1
+                     /label="CmTAS1"
                      /db_xref="GeneID:18164464"
                      /protein_id="XP_006667652.1"
                      /translation="MSIPAMPFITGPVAEPQEQLRLSPPRGRLSAIIPLSKVQEVLWVD
@@ -72,6 +72,7 @@ FEATURES             Location/Qualifiers
                      RCSSGAISPTGTEQQPSDTKQTPRTLFVGSNKGNFGNAEAASGLFSLIKASLAVSRGVV
                      PPLRQLGDCNELMGVAEGSTVQPLRKQLRLEKGDRVGVTALGYGGVNAHCILASLEAVE
                      ERE"
+                     /Pfam="Condensation, AA-adenyl-dom, ACP_PCP, PKS_KS"
 ORIGIN
         1 atgtccatcc cggctatgcc attcatcaca gggcccgttg ccgagcccca agagcagctg
        61 cgactatccc ctccccgagg gcgtctgtcc gccatcatcc ccctatccaa agtccaagag

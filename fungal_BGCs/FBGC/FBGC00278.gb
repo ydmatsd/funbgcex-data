@@ -1,23 +1,23 @@
-LOCUS       FBGC00278       39452 bp DNA     linear   UNA 29-JAN-2023
+LOCUS       FBGC00278              39452 bp    DNA     linear   UNA 29-JAN-2023
 DEFINITION  lovastatin.
 ACCESSION   FBGC00278
-VERSION     .
+VERSION     FBGC00278
 KEYWORDS    .
 SOURCE      Aspergillus terreus NIH2624
   ORGANISM  Aspergillus terreus NIH2624
+            .
 REFERENCE   1  (bases 1 to 39452)
   AUTHORS   Kennedy J, Auclair K, Kendrew SG, Park C, Vederas JC, Hutchinson CR.
-  TITLE     Modulation of polyketide synthase activity by accessory proteins 
+  TITLE     Modulation of polyketide synthase activity by accessory proteins
             during lovastatin biosynthesis.
   JOURNAL   Science 1999;284:1368-72
-  PUBMED    10334994
+   PUBMED   10334994
 REFERENCE   2  (bases 1 to 39452)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Jan 29, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1126/science.284.5418.1368"; journalName: "Science"; date: 
+  JOURNAL   Exported Jan 29, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1126/science.284.5418.1368"; journalName: "Science"; date:
             "1999"; volume: "284"; pages: "1368-72"
 FEATURES             Location/Qualifiers
      source          1..39452
@@ -29,7 +29,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="ATEG_09960"
                      /product="cytochrome P450 monooxygenase LovA"
-                     /label=lovA
+                     /label="lovA"
                      /note="similar to cytochrome P450"
                      /protein_id="EAU29409.1"
                      /translation="MTVDALTQPHHLLSLAWNDTQQHGSWFAPLVTTSAGLLCLLLYLC
@@ -42,12 +42,13 @@ FEATURES             Location/Qualifiers
                      GTFIPKGELVAVAADRMSNPEVWPEPAKYDPYRYMRLREDPAKAFSAQLENTNGDHIGF
                      GWHPRACPGRFFASKEIKMMLAYLLIRYDWKVVPNEPLQYYRHSFSVRIHPTTKLMMRR
                      RDEDIRLPGSL"
-     CDS             join(2216..2737,2800..3012,3066..3291,3347..3688,3762..9096,
-                     9160..9502,9562..9960,10146..11780)
+                     /Pfam="p450"
+     CDS             join(2216..2737,2800..3012,3066..3291,3347..3688,
+                     3762..9096,9160..9502,9562..9960,10146..11780)
                      /codon_start=1
                      /locus_tag="ATEG_09961"
                      /product="polyketide synthase LovB"
-                     /label=lovB
+                     /label="lovB"
                      /note="similar to polyketide synthase"
                      /protein_id="EAU29410.1"
                      /translation="MAQSMYPNEPIVVVGSGCRFPGDANTPSKLWELLQHPRDVQSRIP
@@ -102,11 +103,13 @@ FEATURES             Location/Qualifiers
                      IATRDLVREALQHARVPYGVLLDQLGLEVPVPTSNQPAPLLQAVFDYKQGQAESGTIGG
                      AKITEVIATRERTPYDVVLEMSDDPTKDPLLTAKLQSSRYEAHHPQAFLESYMSLLSMF
                      SMNPALKLA"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_DH, PKS_NRPS_MT, fPKS_KR,
+                     ACP_PCP, Condensation"
      CDS             complement(12014..12784)
                      /codon_start=1
                      /locus_tag="ATEG_09962"
                      /product="thioesterase LovG"
-                     /label=lovG
+                     /label="lovG"
                      /note="similar to oxidoreductase"
                      /protein_id="EAU29411.1"
                      /translation="MRYQASPALAKAPRALLCIHGAGCSPAIFRVQLSKLRAALREDFE
@@ -114,11 +117,12 @@ FEATURES             Location/Qualifiers
                      DWQTQHPHIPIVGAIGFSEGALVTTLLLWQQQMGRLPWLPRMSVAMLICPWYQDEASQY
                      MRNEVMENHDDDHDSKDTEWQEELVIRIPTLHLQGRDDFALAGSKMLVARHFSPREAQV
                      LEFAGQHQFPNRPRDVLEVINRFRKLCVTVQTLE"
+                     /Pfam="FSH1"
      CDS             join(13182..13741,13825..13936,14015..14434)
                      /codon_start=1
                      /locus_tag="ATEG_09963"
                      /product="trans-acting enoylreductase LovC"
-                     /label=lovC
+                     /label="lovC"
                      /note="similar to enoyl reductase"
                      /protein_id="EAU29412.1"
                      /translation="MGDQPFIPPPQQTALTVNDHDEVTVWNAAPCPILPRDQVYVRVEA
@@ -128,11 +132,12 @@ FEATURES             Location/Qualifiers
                      TIRTYTKNNLRYSLDCITNVESTTFCFAAIGRAGGHYVSLNPFPEHAATRKMVTTDWTL
                      GPTIFGEGSTWPAPYGRPGSEEERQFGEDLWRIAGQLVEDGRLAHHPLRVVQGGFDQIK
                      QGMELVRKGELSGEKLVVRLEGP"
+                     /Pfam="fPKS_ER, ADH_zinc_N, ADH_zinc_N_2"
      CDS             complement(join(14814..14942,15021..16009,16084..16207))
                      /codon_start=1
                      /locus_tag="ATEG_09964"
                      /product="acyltransferase LovD"
-                     /label=lovD
+                     /label="lovD"
                      /note="similar to transesterase"
                      /protein_id="EAU29413.1"
                      /translation="MGSIIDAAAAADPVVLMETAFRKAVKSRQIPGAVIMARDCSGNLN
@@ -143,11 +148,12 @@ FEATURES             Location/Qualifiers
                      VLHSLLKRDGLLLQPQTVDMMFQPALEPRLEEQMNQHMDASPHINYGGPMPMVLRRSFG
                      LGGIIALEDLDGEDWRRKGSLTFGGGPNIVWQIDPKAGLCTLAFFQLEPWNDPVCRDLT
                      RTFEHAIYAQYQQG"
+                     /Pfam="Beta-lactamase"
      CDS             complement(join(16762..17044,17128..19673,19754..20071))
                      /codon_start=1
                      /locus_tag="ATEG_09965"
                      /product="HMG-CoA reductase LovR"
-                     /label=lovR
+                     /label="lovR"
                      /protein_id="EAU29414.1"
                      /translation="MDPVVKKPSPGGVQHRVTKGLRAIVGHACRHPIHTLLVTALTAAT
                      THLHVLEGTYQAAHRGLAPWAKETPLNVQSFLCGSRTVTLGEASAWRWQIDDRPKVSED
@@ -168,11 +174,12 @@ FEATURES             Location/Qualifiers
                      AVFLATGQDPAQNVESSSCITTMKNIDGNLHIAVSMPSMEVGTIGGGTILEAQGAMLDL
                      LGVRGAHATEPGANARRLARIVAAAVLAGELSTCAALAAGHLVNAHMQHNRSAGATVKK
                      "
+                     /Pfam="HPIH, Sterol-sensing, HMG-CoA_red"
      CDS             21361..22872
                      /codon_start=1
                      /locus_tag="ATEG_09966"
                      /product="transcription factor LovE"
-                     /label=lovE
+                     /label="lovE"
                      /protein_id="EAU29415.1"
                      /translation="MAADQGTFTTSVTLSPVEGSRTGGILPRRAFRRSCDRCHAQKIKC
                      TGNKEVTARAPCQRCQQAGLRCVYSERCPKRKLRPSRAADLVSADPDPCLHMSSPPVPS
@@ -183,12 +190,13 @@ FEATURES             Location/Qualifiers
                      SESPSRDDTSSTSGHSSVDTIPDFSEDLPIGELFSYVDPLTHALFSACTTLHVGVQLLR
                      ENEITLGVHSAQGIAASISMSGGPGEDIARTGATNSARCEEQPTTPAARVLFMFLSDEG
                      ASQEVKSAGSRGRTIAALRRCYEDIFSLARKHKYGMLRDLNNIPP"
+                     /Pfam="EqxR"
      CDS             join(24439..24591,24658..24734,24809..25035,25104..25127,
                      25193..25264,25371..25904,25978..26138,26219..26599)
                      /codon_start=1
                      /locus_tag="ATEG_09967"
                      /product="major facilitator superfamily transporter LovT"
-                     /label=lovT
+                     /label="lovT"
                      /note="similar to efflux pump"
                      /protein_id="EAU29416.1"
                      /translation="MTSHHSESEKPQSNTAQMQINYVTGLRLGLVVVSVTLVAFLMLLD
@@ -201,12 +209,13 @@ FEATURES             Location/Qualifiers
                      VMYQFLGGIGRGCGMQTPVVAIQNALPPQTSPIGISLAMFGQTFGGSLFLTLTKLVFSN
                      GLYSGLHQYAPTLNAQEVTAAGATGFRQVVPAPLISRVLLAYSKGVDHAFYVAVGASGA
                      TFIFAWGMGRLTWRGWRMQEKGRSE"
+                     /Pfam="MFS_1"
      CDS             join(27479..27676,27758..27844,27919..27976,28034..28367,
                      28460..28967,29042..29621,29687..35520)
                      /codon_start=1
                      /locus_tag="ATEG_09968"
                      /product="polyketide synthase LovF"
-                     /label=lovF
+                     /label="lovF"
                      /note="similar to polyketide synthase"
                      /protein_id="EAU29417.1"
                      /translation="MTPLDAPGAPAPIAVVGMGCRFGGGATDPQKLWKLLEEGGSAWSK
@@ -253,12 +262,14 @@ FEATURES             Location/Qualifiers
                      HADWMQEARFAGIKYRDPLRDNNGALPLTLAEDDNLHARLNRATSQQASIAVIMEAMGR
                      KLISMFGLTDSEMSATQTLAGIGVDSLVAIELRNWITARFNVDISVFELMEGRTIAKVA
                      EVVLQRYKP"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_DH, PKS_NRPS_MT, fPKS_ER,
+                     fPKS_KR, ACP_PCP"
      CDS             complement(join(36974..37610,37668..38134,38190..38363,
                      38416..39220,39280..39452))
                      /codon_start=1
                      /locus_tag="ATEG_09969"
                      /product="transcription factor LovH"
-                     /label=lovH
+                     /label="lovH"
                      /protein_id="EAU29418.1"
                      /translation="MESAELSSKRQAFPACDECRIRKVRCSKEGSKCSHCLRYNLPCEF
                      SNKVTRVNQTAKLARDVEKLGSRVEDIEHALQRCLSFIDAHQGFRDLSRPQSQESGYTS
@@ -273,6 +284,7 @@ FEATURES             Location/Qualifiers
                      IYTNRLASNRSAASIPYKFSQVASRCSDIALLLQNLRERRFIPTTISRSPTPSWNEPTY
                      MDYDAANASTSTTSTGSSYNLNIGPLGVPGDGQVWDIYFNPREIPMDGTIATPSEDATQ
                      DLLSNEAGQCLDFPDFSLGIDNFPDFPLGIDMTSQSEFDLIMEEDIIRYKRLLDRPV"
+                     /Pfam="EqxR, Fungal_trans"
 ORIGIN
         1 ctatagtgaa ccaggaaggc ggatatcctc gtcgcgccgg cgcatcatga gcttcgtggt
        61 gggatgaatg cgcacgctga aagaatggcg gtagtactgc aacggttcgt tggggaccac

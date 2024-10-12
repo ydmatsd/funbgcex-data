@@ -1,37 +1,37 @@
-LOCUS       FBGC00293       37424 bp DNA     linear   UNA 08-FEB-2023
+LOCUS       FBGC00293              37424 bp    DNA     linear   UNA 08-FEB-2023
 DEFINITION  emericellamides.
 ACCESSION   FBGC00293
-VERSION     .
+VERSION     FBGC00293
 KEYWORDS    .
 SOURCE      Aspergillus nidulans FGSC A4
   ORGANISM  Aspergillus nidulans FGSC A4
+            .
 REFERENCE   1  (bases 1 to 37424)
-  AUTHORS   Chiang YM, Szewczyk E, Nayak T, Davidson AD, Sanchez JF, Lo HC, Ho 
+  AUTHORS   Chiang YM, Szewczyk E, Nayak T, Davidson AD, Sanchez JF, Lo HC, Ho
             WY, Simityan H, Kuo E, Praseuth A, Watanabe K, Oakley BR, Wang CC.
-  TITLE     Molecular genetic mining of the Aspergillus secondary metabolome: 
+  TITLE     Molecular genetic mining of the Aspergillus secondary metabolome:
             discovery of the emericellamide biosynthetic pathway.
   JOURNAL   Chem Biol 2008;15:527-32
-  PUBMED    18559263
+   PUBMED   18559263
 REFERENCE   2  (bases 1 to 37424)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Feb 8, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1016/j.chembiol.2008.05.010"; journalName: "Chem Biol"; date: 
+  JOURNAL   Exported Feb 8, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     ##Genome-Annotation-Data-START##
+            Annotation Provider :: INSDC submitter
+            Annotation Status   :: Full annotation
+            Annotation Pipeline :: Eukaryotic Annotation Propagation Pipeline
+            ##Genome-Annotation-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1016/j.chembiol.2008.05.010"; journalName: "Chem Biol"; date:
             "2008"; volume: "15"; pages: "527-32"
-COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final 
-            NCBI review. The reference sequence is identical to BN001307. 
+            PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to BN001307.
             Aspergillus nidulans FGSC A4 CADRE,
             updated by Eurofungbase with contributions from
             CADRE (http://www.cadre-genomes.org.uk),
             AspGD (http://www.aspergillusgenome.org) and
-              Ensembl Genomes 
-            (http://www.ensemblgenomes.org).##Genome-Annotation-Data-START##
-            Annotation Provider :: INSDC submitter
-            Annotation Status   :: Full annotation
-            Annotation Pipeline :: Eukaryotic Annotation Propagation Pipeline 
-            ##Genome-Annotation-Data-END##
+            Ensembl Genomes
 FEATURES             Location/Qualifiers
      source          1..37424
                      /chromosome="VII"
@@ -44,7 +44,7 @@ FEATURES             Location/Qualifiers
                      /locus_tag="ANIA_02545"
                      /old_locus_tag="AN2545.2; AN2545.4"
                      /product="nonribosomal peptide synthetase EasA"
-                     /label=easA
+                     /label="easA"
                      /note="transcript_id=CADANIAT00009275"
                      /db_xref="EnsemblGenomes-Gn:CADANIAG00009275"
                      /db_xref="EnsemblGenomes-Tr:CADANIAT00009275"
@@ -178,13 +178,14 @@ FEATURES             Location/Qualifiers
                      GTVFTSLLNHLDQASEWTLDLDDGKYNVSVAKTEGAGDVSDVSVTSTASTDYVEIAMAY
                      LEDGVTVEVAEKLLSQLCETVDAFMNGALDAELPTVDCVSELNAQGVNEAPKFEGDLVD
                      ASLVAFELQKRGHEVTVDEVVDRGLSLSGV"
+                     /Pfam="ACP_PCP, NRPS_E, NRPS_C, AA-adenyl-dom, NRPS_CT"
      CDS             complement(join(23140..23396,23521..23555,23640..23825,
                      23923..23939))
                      /codon_start=1
                      /locus_tag="ANIA_02546"
                      /old_locus_tag="AN2546.2; AN2546.4"
                      /product="hypothetical protein ANIA_02546"
-                     /label=ANIA_02546
+                     /label="ANIA_02546"
                      /note="transcript_id=CADANIAT00009276"
                      /db_xref="EnsemblGenomes-Gn:CADANIAG00009276"
                      /db_xref="EnsemblGenomes-Tr:CADANIAT00009276"
@@ -202,7 +203,7 @@ FEATURES             Location/Qualifiers
                      /locus_tag="ANIA_02547"
                      /old_locus_tag="AN2547.2; AN2547.4"
                      /product="polyketide synthase EasB"
-                     /label=easB
+                     /label="easB"
                      /note="transcript_id=CADANIAT00009277"
                      /db_xref="EnsemblGenomes-Gn:CADANIAG00009277"
                      /db_xref="EnsemblGenomes-Tr:CADANIAT00009277"
@@ -276,12 +277,14 @@ FEATURES             Location/Qualifiers
                      ESENGRDFLMTDRRFSQLVKHNGSKQKSAGEALDAITLLSAATQLDEAVHIVTNAILNQ
                      LSKLIVTPVEMLSPAQSLDSYGVDSLVAVELRNWIGAYLHANVQLMVIRGTGSISQLAA
                      IVAKESRVVKL"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_DH, PKS_NRPS_MT, fPKS_ER,
+                     fPKS_KR, ACP_PCP"
      CDS             33489..34928
                      /codon_start=1
                      /locus_tag="ANIA_02548"
                      /old_locus_tag="AN2548.2; AN2548.4"
                      /product="acyltransferase EasC"
-                     /label=easC
+                     /label="easC"
                      /note="transcript_id=CADANIAT00009278"
                      /db_xref="EnsemblGenomes-Gn:CADANIAG00009278"
                      /db_xref="EnsemblGenomes-Tr:CADANIAT00009278"
@@ -300,13 +303,14 @@ FEATURES             Location/Qualifiers
                      AEICRASTPESLTTLAEAVRAATENTTEQSMRTLIGLVNDAPAVTDVAWKYNYFPGPDL
                      GVTDISNIDAMKKNWGAGLGTPTCVRSYSRETGLLYLFPQDDDGGFEIQVQCEVEAVER
                      LKADETFTRYCEFKRASAYNA"
+                     /Pfam="Transferase"
      CDS             complement(join(35454..35756,35822..36147,36198..36360,
                      36407..36652,36703..37083,37146..37424))
                      /codon_start=1
                      /locus_tag="ANIA_02549"
                      /old_locus_tag="AN2549.2; AN2549.4"
                      /product="CoA ligase EasD"
-                     /label=easD
+                     /label="easD"
                      /note="transcript_id=CADANIAT00009279"
                      /db_xref="EnsemblGenomes-Gn:CADANIAG00009279"
                      /db_xref="EnsemblGenomes-Tr:CADANIAT00009279"
@@ -326,6 +330,7 @@ FEATURES             Location/Qualifiers
                      LDEPGEVHFNSPSCFLGYVGDDESNKNTFDEKGWLKSGDIGVFRKSPNGHAHLFILERI
                      KDMIKVKGEQVLPRDIESVLLSHPAVIDAAVIGVPDELSGERAKAYIVRSKTVMEDLDE
                      DDLADEIDEFVQGKLHESHWLHDRIVFLEKLPKSESGKVLKKDLKAMN"
+                     /Pfam="AA-adenyl-dom"
 ORIGIN
         1 tcagacacca gacagactaa ggcctcggtc aacaacttca tcaacagtta cttcatgacc
        61 tctcttctgg agttcaaagg caacaagact ggcatcaacc agatcgcctt caaactttgg

@@ -1,23 +1,23 @@
-LOCUS       FBGC00286       31281 bp DNA     linear   UNA 09-MAY-2023
+LOCUS       FBGC00286              31281 bp    DNA     linear   UNA 09-MAY-2023
 DEFINITION  15-deoxyoxalicine B.
 ACCESSION   FBGC00286
-VERSION     .
+VERSION     FBGC00286
 KEYWORDS    .
 SOURCE      Penicillium canescens ATCC 10419
   ORGANISM  Penicillium canescens ATCC 10419
+            .
 REFERENCE   1  (bases 1 to 31281)
   AUTHORS   Yaegashi J, Romsdahl J, Chiang YM, Wang CCC.
-  TITLE     Genome mining and molecular characterization of the biosynthetic 
-            gene cluster of a diterpenic meroterpenoid, 15-deoxyoxalicine B, in 
+  TITLE     Genome mining and molecular characterization of the biosynthetic
+            gene cluster of a diterpenic meroterpenoid, 15-deoxyoxalicine B, in
             Penicillium canescens.
   JOURNAL   Chem Sci 2015;6:6537-6544
-  PUBMED    30090271
+   PUBMED   30090271
 REFERENCE   2  (bases 1 to 31281)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported May 9, 2023 from SnapGene 6.2.2
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
+  JOURNAL   Exported May 9, 2023 from SnapGene 6.2.2 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
             "10.1039/c5sc01965f"; journalName: "Chem Sci"; date: "2015"; volume:
             "6"; pages: "6537-6544"
 FEATURES             Location/Qualifiers
@@ -28,8 +28,8 @@ FEATURES             Location/Qualifiers
      CDS             join(1..1131,1181..1525)
                      /codon_start=1
                      /product="cytochrome P450 monooxygenase OlcB"
-                     /label=olcB
-                     /label=jgi.p|Penca1|333321
+                     /label="olcB"
+                     /label="jgi.p|Penca1|333321"
                      /note="/ID=CDS_3763"
                      /note="/Parent=mRNA_3763"
                      /note="/frame=[3698425..3699555: 0, 3699605..3699949: 0]"
@@ -43,17 +43,18 @@ FEATURES             Location/Qualifiers
                      LACVNEGLRLYPSLPGELQRMSPDTPMKISGYDIPPRTRVSVHQYAAYSSPTNFHDPDR
                      FIPERWLPEAKTNPSSPYLFDNREVFQPFSVGPRGCIGKSLAYPLMRTIIARVLWNFDF
                      DLCEESRSWHIQKTFGLWEKPPLICKLTQRKQS"
+                     /Pfam="p450"
      CDS             complement(join(2440..2821,2876..3202,3263..3417,
                      3479..3616))
                      /codon_start=1
                      /product="geranylgeranyl pyrophosphate synthase OlcC"
-                     /label=olcC
-                     /label=jgi.p|Penca1|351326
+                     /label="olcC"
+                     /label="jgi.p|Penca1|351326"
                      /note="/ID=CDS_3764"
                      /note="/Parent=mRNA_3764"
-                     /note="/frame=[complement(3700864..3701245): 1, 
-                     complement(3701300..3701626): 1, 
-                     complement(3701687..3701841): 0, 
+                     /note="/frame=[complement(3700864..3701245): 1,
+                     complement(3701300..3701626): 1,
+                     complement(3701687..3701841): 0,
                      complement(3701903..3702040): 0]"
                      /note="/source=prediction"
                      /translation="MDQLPAAELTNFISPSGPESRPVFHSICGIHDTANVQQKQTLDQN
@@ -62,11 +63,12 @@ FEATURES             Location/Qualifiers
                      MDLYWRDSLTCPTEEEYLEMVSNKTGGLFRLAIKLMQLCSASEKDCVPLVEYLGIIFQI
                      RDDYQNLQSEKYIENKGFGEDLTEGKFSFPIIHSIRSNSDSFQLINILKQKSEDTTVKL
                      YAIKLLESTGSFEFCRQRIAQLTTQARSLLMEMGDPSQTAGIQGILAFLELK"
+                     /Pfam="GGPS"
      CDS             join(3929..4437,4499..4715)
                      /codon_start=1
                      /product="terpene cyclase OlcD"
-                     /label=olcD
-                     /label=jgi.p|Penca1|437321
+                     /label="olcD"
+                     /label="jgi.p|Penca1|437321"
                      /note="/ID=CDS_3765"
                      /note="/Parent=mRNA_3765"
                      /note="/frame=[3702353..3702861: 0, 3702923..3703139: 1]"
@@ -76,14 +78,15 @@ FEATURES             Location/Qualifiers
                      EKHYLPVLFVLAVGFWAWGHLALIEQLNPLPAFYYGGMACQLMTSAAALSGLVDQGSTQ
                      GASYTIWLSRVIGTSSALAGLFFRAHYWPSLWAWADNELMRWLAAAFGILDGVYGVQFW
                      RLRRSENQLTIDHAHRKTE"
+                     /Pfam="Pyr4"
      CDS             join(5647..5939,5989..6260,6343..6713,6763..7224)
                      /codon_start=1
                      /product="FAD-dependent monooxygenase OlcE"
-                     /label=olcE
-                     /label=jgi.p|Penca1|351329
+                     /label="olcE"
+                     /label="jgi.p|Penca1|351329"
                      /note="/ID=CDS_3766"
                      /note="/Parent=mRNA_3766"
-                     /note="/frame=[3704071..3704363: 0, 3704413..3704684: 1, 
+                     /note="/frame=[3704071..3704363: 0, 3704413..3704684: 1,
                      3704767..3705137: 2, 3705187..3705648: 0]"
                      /note="/source=prediction"
                      /translation="MEPKDFKVIIIGGSVAGLTLALSLNKIGIDYVVLEKRAHIAPQEG
@@ -95,15 +98,16 @@ FEATURES             Location/Qualifiers
                      TTERHCKPTTKELSTLLEGYTKRRFHRIKKIYQASRLVVRLQARETLLLRMMGRYYIPR
                      SGDVPADVASKMIAGAVALDFLPIPSRSGPGWISFKTMESRLRYWIVGGAIPVLLIMSM
                      WLWQVVL"
+                     /Pfam="FAD_binding_3"
      CDS             complement(join(8285..8511,8561..8647,8700..9162))
                      /codon_start=1
                      /product="short-chain dehydrogenase/reductase OlcF"
-                     /label=olcF
-                     /label=jgi.p|Penca1|367480
+                     /label="olcF"
+                     /label="jgi.p|Penca1|367480"
                      /note="/ID=CDS_3767"
                      /note="/Parent=mRNA_3767"
-                     /note="/frame=[complement(3706709..3706935): 2, 
-                     complement(3706985..3707071): 2, 
+                     /note="/frame=[complement(3706709..3706935): 2,
+                     complement(3706985..3707071): 2,
                      complement(3707124..3707586): 0]"
                      /note="/source=prediction"
                      /translation="MMGVLEDQVIIVTGAASGIGMATAIAALREGARVFGVDIAPQPAT
@@ -111,15 +115,16 @@ FEATURES             Location/Qualifiers
                      DRCIAINLTAPLKLMRAVIPTMRAHKRGNIINMSSRAGVSGAAAGVAYTASKHGLIGLS
                      KNVAWRFKGDNIRCNVVCPGGVATGIISNMDPSQFDHEALDTIKPILGAVYSNRPEGYT
                      QMLPEEVAETVIFLASDQSARINGAVLPVDDAWSTI"
+                     /Pfam="adh_short_C2"
      CDS             join(9664..9885,9947..10063,10124..10226,10409..11011,
                      11083..11519)
                      /codon_start=1
                      /product="cytochrome P450 monooxygenase OlcG"
-                     /label=olcG
-                     /label=jgi.p|Penca1|393266
+                     /label="olcG"
+                     /label="jgi.p|Penca1|393266"
                      /note="/ID=CDS_3768"
                      /note="/Parent=mRNA_3768"
-                     /note="/frame=[3708088..3708309: 0, 3708371..3708487: 0, 
+                     /note="/frame=[3708088..3708309: 0, 3708371..3708487: 0,
                      3708548..3708650: 0, 3708833..3709435: 2, 3709507..3709943:
                      2]"
                      /note="/source=prediction"
@@ -132,14 +137,15 @@ FEATURES             Location/Qualifiers
                      QRLKPIGLVNMRRRAENSVELADGLIIRKGDLLMISSANQWNPAIYPDPDQFDGYRFYN
                      MRQTPDKKNLSHFVSTNVNHIGFGHGRHACPGRFFAAAETKVALCHILLKYDFKLVGEA
                      PPKILAIGSITSANPFAKIAIRRREEEVSLGVSEP"
+                     /Pfam="p450"
      CDS             join(12636..12765,12825..13119,13179..13746)
                      /codon_start=1
                      /product="UbiA-like prenyltransferase OlcH"
-                     /label=olcH
-                     /label=jgi.p|Penca1|410812
+                     /label="olcH"
+                     /label="jgi.p|Penca1|410812"
                      /note="/ID=CDS_3769"
                      /note="/Parent=mRNA_3769"
-                     /note="/frame=[3711060..3711189: 0, 3711249..3711543: 2, 
+                     /note="/frame=[3711060..3711189: 0, 3711249..3711543: 2,
                      3711603..3712170: 1]"
                      /note="/source=prediction"
                      /translation="MVTKCIDPCEQQNQKRPVGHLVWDLIRISRYDKYNSFLALFSGVW
@@ -148,11 +154,12 @@ FEATURES             Location/Qualifiers
                      AQKFGIYPQYVLGLTAACPAVFGRAAIYNHEDSFQDLINASFPLCLFVFVWTLYFNTAY
                      SYQDVKDDSKMKINSSYVFAGQHIHLFLVLLTGLVLASIPWVLHPLQSGWLWVSWMGVW
                      SVGCAEQLVRFNANDPHTGGLVWRRNILLALWTIFACLVEVLLVWIHQI"
+                     /Pfam="UbiA_PT"
      CDS             join(15250..21665,21714..22629)
                      /codon_start=1
                      /product="polyketide synthase OlcA"
-                     /label=olcA
-                     /label=jgi.p|Penca1|400488
+                     /label="olcA"
+                     /label="jgi.p|Penca1|400488"
                      /note="/ID=CDS_3770"
                      /note="/Parent=mRNA_3770"
                      /note="/frame=[3713674..3720089: 0, 3720138..3721053: 1]"
@@ -199,14 +206,16 @@ FEATURES             Location/Qualifiers
                      AGDPNSTGNHEITAGLRPIKPEHTEMSWNRIPKMWNFVQHLAEFNSVSPSHSEVITMSV
                      LLERATSQREVTEILTSHLLTQLRTKLGLSTEAVLVPETQLSELGVDSLVAADLRTWFL
                      KELSVDVPILFMLSGSSIQEITSSAAAKLDASRIPHAQ"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_DH, PKS_NRPS_MT, fPKS_KR,
+                     ACP_PCP"
      CDS             join(22911..23105,23165..24282,24347..24674)
                      /codon_start=1
                      /product="CoA ligase OlcI"
-                     /label=olcI
-                     /label=jgi.p|Penca1|437327
+                     /label="olcI"
+                     /label="jgi.p|Penca1|437327"
                      /note="/ID=CDS_3771"
                      /note="/Parent=mRNA_3771"
-                     /note="/frame=[3721335..3721529: 0, 3721589..3722706: 0, 
+                     /note="/frame=[3721335..3721529: 0, 3721589..3722706: 0,
                      3722771..3723098: 1]"
                      /note="/source=prediction"
                      /translation="MDLVSFAFSGPATHADQAPLYIDAKRPSRSLSEAPFRRLVRSLVA
@@ -219,17 +228,18 @@ FEATURES             Location/Qualifiers
                      GRDDGIDAQGWFRTGDIAYSEDEHYHIVGRTKELIKVRGYSVAPAEIEAVLLKDPRVHD
                      TMVIGITLPDGSTEVPRAYVVCALGQARPTADEVSALALKNLASYKALDGGVIFVESLP
                      RTGIGKPHRSKLSHLDAQRTKLAALLSPV"
+                     /Pfam="AA-adenyl-dom"
      CDS             complement(join(25390..25817,25887..26655,26715..26840,
                      26905..27165))
                      /codon_start=1
                      /product="cytochrome P450 monooxygenase OlcJ"
-                     /label=olcJ
-                     /label=jgi.p|Penca1|333335
+                     /label="olcJ"
+                     /label="jgi.p|Penca1|333335"
                      /note="/ID=CDS_3772"
                      /note="/Parent=mRNA_3772"
-                     /note="/frame=[complement(3723814..3724241): 2, 
-                     complement(3724311..3725079): 0, 
-                     complement(3725139..3725264): 0, 
+                     /note="/frame=[complement(3723814..3724241): 2,
+                     complement(3724311..3725079): 0,
+                     complement(3725139..3725264): 0,
                      complement(3725329..3725589): 0]"
                      /note="/source=prediction"
                      /translation="MDPNTWSADLFQLASQWQEKGLLTRYNVFMAISITVTALYLIHKG
@@ -242,11 +252,12 @@ FEATURES             Location/Qualifiers
                      DGTALPKGTHISVPAAEVLQGKAFDSSFDGFRYSRRRQNSGEAHKYQFATTDKNSLHFG
                      HGKYACPGRFFAAYEIKMIISHLLMDYDFRFPPGTSRPKVFSADEVLLPDPSTRVLMHR
                      RTDSAHSNCH"
+                     /Pfam="p450"
      CDS             27773..28681
                      /codon_start=1
                      /product="2OG-Fe(II)-dependent dioxygenase OlcK"
-                     /label=olcK
-                     /label=jgi.p|Penca1|367485
+                     /label="olcK"
+                     /label="jgi.p|Penca1|367485"
                      /note="/ID=CDS_3773"
                      /note="/Parent=mRNA_3773"
                      /note="/frame=[3726197..3727105: 0]"
@@ -257,14 +268,15 @@ FEATURES             Location/Qualifiers
                      TEFREENGATRLVLGSHKWEDSTRYPSPEQTIPAEMQAGDAIVYLASLFHGAGQNRSQK
                      TRRGLSITTHPAHFTPMESHIDVPRAIIENMTPLAQKMIGWRTWSTNHGVPVWTVRDGR
                      MEDELKLKSLESPKQIQAAVI"
+                     /Pfam="PhyH"
      CDS             join(29418..29720,29786..30592,30652..31281)
                      /codon_start=1
                      /product="major facilitator superfamily transporter OlcL"
-                     /label=olcL
-                     /label=jgi.p|Penca1|351342
+                     /label="olcL"
+                     /label="jgi.p|Penca1|351342"
                      /note="/ID=CDS_3774"
                      /note="/Parent=mRNA_3774"
-                     /note="/frame=[3727842..3728144: 0, 3728210..3729016: 0, 
+                     /note="/frame=[3727842..3728144: 0, 3728210..3729016: 0,
                      3729076..3729705: 0]"
                      /note="/source=prediction"
                      /translation="MANIGGSNAVSSAQGSQISDSPTTVDDRLDEHKETSTQSIDHSEN
@@ -278,6 +290,7 @@ FEATURES             Location/Qualifiers
                      LSQPIVVIQAAIPLIDIPSAIAIVTFIQSLGGSVSVSIAQNVFRNELLRGLAQNAPKVD
                      AHKLITAGPTTLRYVVPAELLERVLVAYNSAITHAFYVGAAFSVLAMIGALPIQWISVK
                      GRE"
+                     /Pfam="MFS_1"
 ORIGIN
         1 atgttgaatt tacttttact aagcctaagc gtgtgcctct tgtatgtctt cataactgca
        61 ttttggaatt tgtacataca tcccttgcat catattcccg ggccgagaca atggattgcc

@@ -1,30 +1,30 @@
-LOCUS       FBGC00287       56379 bp DNA     linear   UNA 04-APR-2023
+LOCUS       FBGC00287              56379 bp    DNA     linear   UNA 04-APR-2023
 DEFINITION  fumagillin/pseurotin.
 ACCESSION   FBGC00287
-VERSION     .
+VERSION     FBGC00287
 KEYWORDS    .
 SOURCE      Aspergillus fumigatus Af293
   ORGANISM  Aspergillus fumigatus Af293
+            .
 REFERENCE   1  (bases 1 to 56379)
   AUTHORS   Wiemann P, Guo CJ, Palmer JM, Sekonyela R, Wang CC, Keller NP.
   TITLE     Prototype of an intertwined secondary-metabolite supercluster.
   JOURNAL   Proc Natl Acad Sci U S A 2013;110:17065-70
-  PUBMED    24082142
+   PUBMED   24082142
 REFERENCE   2  (bases 1 to 56379)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Apr 4, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1073/pnas.1313258110"; journalName: "Proc Natl Acad Sci U S A"; 
-            date: "2013"; volume: "110"; pages: "17065-70"
-COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final 
-            NCBI review. The reference sequence is identical to 
-            CM000176.##Genome-Annotation-Data-START##
+  JOURNAL   Exported Apr 4, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     ##Genome-Annotation-Data-START##
             Annotation Provider :: INSDC submitter
             Annotation Status   :: Full annotation
-            Annotation Pipeline :: Eukaryotic Annotation Propagation Pipeline 
+            Annotation Pipeline :: Eukaryotic Annotation Propagation Pipeline
             ##Genome-Annotation-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1073/pnas.1313258110"; journalName: "Proc Natl Acad Sci U S A";
+            date: "2013"; volume: "110"; pages: "17065-70"
+            PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to
 FEATURES             Location/Qualifiers
      source          1..56379
                      /chromosome="8"
@@ -38,9 +38,9 @@ FEATURES             Location/Qualifiers
                      /locus_tag="AFUA_8G00370"
                      /old_locus_tag="Afu8g00370"
                      /product="polyketide synthase Fma-PKS/FmaB"
-                     /label=fma-PKS/fmaB
-                     /note="encoded by transcript AFUA_8G00370A;
-                     similar to GB:AAR90246.1: polyketide synthase [Botryotinia 
+                     /label="fma-PKS/fmaB"
+                     /note="encoded by transcript AFUA_8G00370A; similar to
+                     GB:AAR90246.1: polyketide synthase [Botryotinia
                      fuckeliana]"
                      /db_xref="GeneID:3504549"
                      /protein_id="XP_747167.1"
@@ -86,15 +86,17 @@ FEATURES             Location/Qualifiers
                      LNVTSQGQMITSILVPQPEDSDLLRDCRFRGLRALGEHSPRSRRDPTKDKEIQSLLFLA
                      QSQDPDRAALRAAAITVVGARLAKQLRLTDAVDPARPLSYYGLDSLAAVELRTWVRMTL
                      AIELTTLDVMNAASLGELCEKVIGKMGFGM"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_DH, PKS_NRPS_MT, fPKS_ER,
+                     fPKS_KR, ACP_PCP"
      CDS             join(8086..8190,8238..9011)
                      /codon_start=1
                      /locus_tag="AFUA_8G00380"
                      /old_locus_tag="Afu8g00380"
                      /product="acyltransferase Fma-AT/FmaC"
-                     /label=fma-AT/fmaC
-                     /note="encoded by transcript AFUA_8G00380A;
-                     similar to PIR:B83167: hypothetical protein PA3829 
-                     [Pseudomonas aeruginosa]"
+                     /label="fma-AT/fmaC"
+                     /note="encoded by transcript AFUA_8G00380A; similar to
+                     PIR:B83167: hypothetical protein PA3829 [Pseudomonas
+                     aeruginosa]"
                      /db_xref="GeneID:3504548"
                      /protein_id="XP_747166.1"
                      /translation="MNREDVEFPTCDGLILRGWLYPGTIRGPAIVMNQGFNTPKEILLP
@@ -103,13 +105,14 @@ FEATURES             Location/Qualifiers
                      DPVYIPFVGDDGYNPAGWGNQYNMEQFRAFLGTSFFTNRTTVQSYYHVLAWQPYGAMRL
                      IKGTPVMMVTPAEDTISSPADQRAVFDMIPEPNKEFDLVAGRGHMDVINGEGAEEVLQR
                      QLAFMRKHLDF"
+                     /Pfam="Hydrolase_4"
      CDS             complement(join(9208..9518,9577..10037,10103..10232,
                      10286..10586))
                      /codon_start=1
                      /locus_tag="AFUA_8G00400"
                      /old_locus_tag="Afu8g00400"
                      /product="methyltransferase Fma-MT/fmaD"
-                     /label=fma-MT/fmaD
+                     /label="fma-MT/fmaD"
                      /note="encoded by transcript AFUA_8G00400A"
                      /db_xref="GeneID:3504500"
                      /protein_id="XP_747164.1"
@@ -121,6 +124,7 @@ FEATURES             Location/Qualifiers
                      TVAHDLFEEGVEQPIKGARAYFMHAVLHDWSDETSVKILRQIAAVMKPGYSKVLINDIV
                      IPSTGASCYQAAMDCLVLQASANERTEAVWSKVIKDAGLKLVKYYPDGRGYESVIEAEL
                      P"
+                     /Pfam="Methyltransf_2"
      CDS             complement(join(11015..11071,11122..11208,11264..12414,
                      12482..12529,12609..12951))
                      /codon_start=1
@@ -128,9 +132,9 @@ FEATURES             Location/Qualifiers
                      /old_locus_tag="Afu8g00410"
                      /product="methionine aminopeptidase 2 FpaII"
                      /EC_number="3.4.11.18"
-                     /label=fpaII
-                     /note="encoded by transcript AFUA_8G00410A;
-                     similar to GB:CAD71035.1: probable methionyl aminopeptidase
+                     /label="fpaII"
+                     /note="encoded by transcript AFUA_8G00410A; similar to
+                     GB:CAD71035.1: probable methionyl aminopeptidase
                      {Neurospora crassa;}"
                      /db_xref="GeneID:3504499"
                      /protein_id="XP_747163.1"
@@ -144,15 +148,16 @@ FEATURES             Location/Qualifiers
                      GKTYPIKAIRNLCGHTILPYSIHGTKNVPFVKSNDMTKMEEGDVFAIETFGSTGSGRYV
                      EGGEVSHYALRGDADRKDLTLSSARSLLTAIKKNFSTIPFCRRYLDRIGQEKYLLGLNY
                      LVKSGIVEDYPPLNEKPGTYTAQFEHTILLRPTVKEVISRGDDY"
+                     /Pfam="Peptidase_M24"
      CDS             join(13829..14035,14091..14358,14424..15817)
                      /codon_start=1
                      /locus_tag="AFUA_8G00420"
                      /old_locus_tag="Afu8g00420"
                      /product="transcription factor FapR"
-                     /label=fapR
-                     /note="encoded by transcript AFUA_8G00420A;
-                     similar to GB:AAK69383.1: transcription factor ACEII 
-                     {Hypocrea jecorina;}"
+                     /label="fapR"
+                     /note="encoded by transcript AFUA_8G00420A; similar to
+                     GB:AAK69383.1: transcription factor ACEII {Hypocrea
+                     jecorina;}"
                      /db_xref="GeneID:3504498"
                      /protein_id="XP_747162.1"
                      /translation="MDVNRKRMVRMASAQRSEMLVRLSGKAKRWTVGGGGEVETHTFHT
@@ -166,29 +171,31 @@ FEATURES             Location/Qualifiers
                      LVLSSYMCLLASYDRILQHIEAWLKVRLKMGVRGSAMTLDDDESSSCFPTQLPSLAVGS
                      FEVPKTSSIQSLVLTCIMETNVMHMHSLISEIMRPVSHPATGSASKTAASGPPAAEKRP
                      GNGAADAGDGLSTVAKVTLQAIEANEDSTLRLVHTVSRLALQRVML"
+                     /Pfam="EqxR"
      CDS             complement(join(15993..16304,16362..16523))
                      /codon_start=1
                      /locus_tag="AFUA_8G00430"
                      /old_locus_tag="Afu8g00430"
                      /product="EthD domain-containing protein AFUA_8G00430"
-                     /label=AFUA_8G00430
+                     /label="AFUA_8G00430"
                      /note="encoded by transcript AFUA_8G00430A"
                      /db_xref="GeneID:3504497"
                      /protein_id="XP_747161.1"
                      /translation="MAETLQKKRLLRMTVAHYRQPNVSEEEFYQWVTEQHAARAAKLHA
                      KNGIEGFCIYFTPQSFRDFTSELNNARGNPWRVRDFDAQVEFFFRDMETFYKGAADADF
                      QALQAEEGPFVSGERAEISLGWVETYVREGQVVNLDEAGKPTFLPFKDMSQAP"
+                     /Pfam="EthD"
      CDS             complement(16968..19685)
                      /codon_start=1
                      /locus_tag="AFUA_8G00440"
                      /old_locus_tag="Afu8g00440"
-                     /product="FAD-dependent monooxygenase/methyltransferase 
+                     /product="FAD-dependent monooxygenase/methyltransferase
                      PsoF"
                      /EC_number="1.-.-.-"
-                     /label=psoF
-                     /note="encoded by transcript AFUA_8G00440A;
-                     similar to GB:BAC52249.1: cyclohexanone monooxygenase 
-                     [Bradyrhizobium japonicum]"
+                     /label="psoF"
+                     /note="encoded by transcript AFUA_8G00440A; similar to
+                     GB:BAC52249.1: cyclohexanone monooxygenase [Bradyrhizobium
+                     japonicum]"
                      /db_xref="GeneID:3504496"
                      /protein_id="XP_747160.1"
                      /translation="MTRIRPDYDAIVIGAGFSGVRSLWELRRLGLTARCFDAGSDVGGT
@@ -207,14 +214,16 @@ FEATURES             Location/Qualifiers
                      FNAAKTTLKKWESHLAFQVLNIEDDPAGQGFKEHTYDLIIAANVIHATARLTNTLSNVH
                      KLLKPGGVFGLVELTRLTPFYNLTFGSLSGWWAGVDEGRTESPLQSPQQWNSLLKQTGF
                      SGVDLAAYDLPGPERHSCLLLSTALSNSVTTNGH"
+                     /Pfam="FMO-like, PKS_NRPS_MT"
      CDS             20320..20853
                      /codon_start=1
                      /product="hypothetical protein PsoG"
-                     /label=psoG
+                     /label="psoG"
                      /translation="MMASLFGSNNDGSQLGTALLRISPLIISSASLMFSWSQDISLGAF
                      LHPSLRHDAAHPSGKLLPRYLPAFMSPGIWGIGLTYPPATVLCVINGLSRQSREARNLY
                      FAGALFSIAHFCWGPTMFAILRRIGDVRTAGVRNEDALQEWLPKHRTRTLLVNVPAFLC
                      ILAATLVTVTEGLS"
+                     /Pfam="XenD"
      CDS             join(21633..21773,21832..21868,21930..22243,22302..22848,
                      22903..23057)
                      /codon_start=1
@@ -222,10 +231,9 @@ FEATURES             Location/Qualifiers
                      /old_locus_tag="Afu8g00460"
                      /product="methionine aminopeptidase 1 FpaI"
                      /EC_number="3.4.11.18"
-                     /label=fpaI
-                     /note="encoded by transcript AFUA_8G00460A;
-                     similar to methionine aminopeptidase 1 (SP:P53582) [Homo 
-                     sapiens]"
+                     /label="fpaI"
+                     /note="encoded by transcript AFUA_8G00460A; similar to
+                     methionine aminopeptidase 1 (SP:P53582) [Homo sapiens]"
                      /db_xref="GeneID:3504547"
                      /protein_id="XP_747159.1"
                      /translation="MTNSDPKNKCCGTDCDNEAGTLQCPTCLKLGVKGSYFCSQECFKK
@@ -235,12 +243,13 @@ FEATURES             Location/Qualifiers
                      YVGDKAKADPDSVRLVETTREALDMAIEIVKPGVPIREFGKIIEKHAASRGLVVIKTWG
                      GHGINSEFHPPPWIPHYAKNKAVGTCKPGMTFTIEPILALGGNREKYWPDEWTNVTVDG
                      KRTAQFEHTLLVTETGVEVLTARLENSPGGPIPIPEVANGKAHNGHANGDANGEVKN"
+                     /Pfam="zf-C6H2, Peptidase_M24"
      CDS             complement(join(23190..23942,24010..24084))
                      /codon_start=1
                      /locus_tag="AFUA_8G00470"
                      /old_locus_tag="Afu8g00470"
                      /product="ABM superfamily monoxygenase Fma-ABM/FmaE"
-                     /label=fma-ABM/fmaE
+                     /label="fma-ABM/fmaE"
                      /note="encoded by transcript AFUA_8G00470A"
                      /db_xref="GeneID:3504546"
                      /protein_id="XP_747158.1"
@@ -249,14 +258,15 @@ FEATURES             Location/Qualifiers
                      GREPGKGSVVVFHLGIQYNHPLGVFAPHMREISNRFLAMQQDILRRKDELGLLAVQNWR
                      GSERDSGNTTLIKYFFKDVESIHKFAHEPLHKETWTYYNQHHPGHVGIFHETFITKDGG
                      YESMYVNCHPILLGRGEVKVNNRKDGTEEWVGTLVSADTPGLKSFKARLGRDD"
+                     /Pfam="DUF4188"
      CDS             24481..25410
                      /codon_start=1
                      /locus_tag="AFUA_8G00480"
                      /old_locus_tag="Afu8g00480"
                      /product="2OG-Fe(II)-dependent dioxygenase Fma-C6H/FmaF"
-                     /label=fma-C6H/fmaF
-                     /note="encoded by transcript AFUA_8G00480A;
-                     contains a PhyH domain"
+                     /label="fma-C6H/fmaF"
+                     /note="encoded by transcript AFUA_8G00480A; contains a PhyH
+                     domain"
                      /db_xref="GeneID:3504545"
                      /protein_id="XP_747157.2"
                      /translation="MLGRHECTISESVSALDPTAQEPEYTLVPSTSRDLVRDMTLNMED
@@ -265,14 +275,15 @@ FEATURES             Location/Qualifiers
                      WLDVWAVNVIWCLTRMTKENGATLYIPGSNKWTTWEDVPDNAPDLLVPFEADAGDIVVI
                      DGRLWHTSGSNVTEDEDRAILFAYYSAPHMRPLTNWSAKLPKELQETLSPQLKELLALS
                      HIGYVVKGDLTYMAQKYPSEKGTTAVSA"
+                     /Pfam="PhyH"
      CDS             join(25811..28197,28245..28599,28654..28965)
                      /codon_start=1
                      /locus_tag="AFUA_8G00490"
                      /old_locus_tag="Afu8g00490"
                      /product="truncated polyketide synthase AFUA_8G00490"
-                     /label=AFUA_8G00490
-                     /note="encoded by transcript AFUA_8G00490A;
-                     similar to GB:AAR90242.1: polyketide synthase {Botryotinia 
+                     /label="AFUA_8G00490"
+                     /note="encoded by transcript AFUA_8G00490A; similar to
+                     GB:AAR90242.1: polyketide synthase {Botryotinia
                      fuckeliana;}"
                      /db_xref="GeneID:3504544"
                      /protein_id="XP_747156.1"
@@ -294,16 +305,17 @@ FEATURES             Location/Qualifiers
                      KVDGSLVLDEVFSSDDLDFFLLFSSISAVVGQPFQANYDAANNFMTGLVLQRRARNLPA
                      SVINLGPIIGLGFIQNIDSGGGSEAVIATLRSLDYMLVSERELHHILAEAILIGKSDET
                      PEIITGLETVSDNPAPFWHKSLLFSHII"
+                     /Pfam="fPKS_DH, PKS_NRPS_MT, fPKS_KR"
      CDS             complement(join(29013..29455,29517..31239))
                      /codon_start=1
                      /locus_tag="AFUA_8G00500"
                      /old_locus_tag="Afu8g00500"
                      /product="CoA ligase AFUA_8G00500"
                      /EC_number="6.2.1.1"
-                     /label=AFUA_8G00500
-                     /note="encoded by transcript AFUA_8G00500A;
-                     similar to acetyl-CoA synthetase AcoE (GI:32265895) 
-                     [Helicobacter hepaticus]"
+                     /label="AFUA_8G00500"
+                     /note="encoded by transcript AFUA_8G00500A; similar to
+                     acetyl-CoA synthetase AcoE (GI:32265895) [Helicobacter
+                     hepaticus]"
                      /db_xref="GeneID:3504543"
                      /protein_id="XP_747155.1"
                      /translation="MDHPYLQDEVLRQSLQNPDEFWSRQAERLHWHRKPDTALRTTQKS
@@ -319,16 +331,17 @@ FEATURES             Location/Qualifiers
                      IEEAISSHPQVAEACVVAIPDQLKGQLPFAFISLSVADHPDSAIPAPTIAAEVQSLVRS
                      RVGAFASLGGIVQGKGMIPKTRSGKTLRRVLRELLENGVYGDLDRSVEVPSTIEDATAV
                      QVARAQVREYFNRNKGKHKAIEARETA"
+                     /Pfam="ACAS_N, AA-adenyl-dom"
      CDS             complement(join(31648..32728,32783..33312))
                      /codon_start=1
                      /locus_tag="AFUA_8G00510"
                      /old_locus_tag="Afu8g00510"
                      /product="cytochrome P450 monooxygenase Fma-P450/FmaG"
-                     /label=fma-P450/fmaG
-                     /note="encoded by transcript AFUA_8G00510A;
-                     similar to O-methylsterigmatocystin oxidoreductase OrdA, 
-                     AflQ (Swiss-Prot:O13345) [Aspergillus parasiticus] 
-                     PubMed=9835571, 10855719, 15094053 similar to 
+                     /label="fma-P450/fmaG"
+                     /note="encoded by transcript AFUA_8G00510A; similar to
+                     O-methylsterigmatocystin oxidoreductase OrdA, AflQ
+                     (Swiss-Prot:O13345) [Aspergillus parasiticus]
+                     PubMed=9835571, 10855719, 15094053 similar to
                      O-methylsterigmatocystin oxidoreductase (Swiss-Prot:P79084)
                      [Aspergillus flavus] PubMed=9143099"
                      /db_xref="GeneID:3504542"
@@ -343,13 +356,14 @@ FEATURES             Location/Qualifiers
                      SYLLPSLWWFLNDPKEYPEPRVFKPERYMEPFNHPDPSEIAFGYGRRSCAGRYFADASV
                      YITVVQLLAVFNVRKARDDQGNEIPVTLQAIPGMVNRPAPFQFKVEPRSQHHIDLLRRI
                      ESEQIPEVSHASLLKPSTV"
+                     /Pfam="p450"
      CDS             join(33965..34063,34127..34219,34275..34286,34352..34625,
                      34688..34758,34817..35074,35135..35197)
                      /codon_start=1
                      /locus_tag="AFUA_8G00520"
                      /old_locus_tag="Afu8g00520"
                      /product="UbiA-like terpene synthase Fma-TC/FmaA"
-                     /label=fma-TC/fmaA
+                     /label="fma-TC/fmaA"
                      /note="encoded by transcript AFUA_8G00520A"
                      /db_xref="GeneID:3504512"
                      /protein_id="XP_747153.1"
@@ -359,12 +373,13 @@ FEATURES             Location/Qualifiers
                      ELHGLKAVAVLMIVGIFATTGHAQDFRDRTADATRGRKTIPLLLSQPVARWSLATITAA
                      WTIGLIALWKPPAIVTLAYVAASLRCLDGFLSSYDEKDDYVSYCWYGFWLLGSNILPIF
                      PRLRGELP"
+                     /Pfam="UbiA_TC"
      CDS             complement(35934..37271)
                      /codon_start=1
                      /locus_tag="AFUA_8G00530"
                      /old_locus_tag="Afu8g00530"
                      /product="alpha/beta hydrolase PsoB"
-                     /label=psoB
+                     /label="psoB"
                      /note="encoded by transcript AFUA_8G00530A"
                      /db_xref="GeneID:3504511"
                      /protein_id="XP_747152.1"
@@ -376,16 +391,17 @@ FEATURES             Location/Qualifiers
                      PGPLFNGFMSGWLSDWMFNGILGVLKKLAFQARWEFNHLRWATGSTTDADVMRSFGAYT
                      LQKADGTEYLADVKCPTLVTGAGASFYFDPATTTDKIYDCLTSLQDGVDKEKWIATDVA
                      YGGLQAKIGAFGYSAQKTFEWLDQRFGIQREPLAASSRLEDLVSRL"
+                     /Pfam="Abhydrolase_6"
      CDS             join(37734..38697,38753..38890,38955..44337,44395..44752,
                      44813..45277,45324..50039)
                      /codon_start=1
                      /locus_tag="AFUA_8G00540"
                      /old_locus_tag="Afu8g00540"
-                     /product="polyketide synthase-nonribosomal peptide 
+                     /product="polyketide synthase-nonribosomal peptide
                      synthetase PsoA"
-                     /label=psoA
-                     /note="encoded by transcript AFUA_8G00540A;
-                     non-consensus splice site"
+                     /label="psoA"
+                     /note="encoded by transcript AFUA_8G00540A; non-consensus
+                     splice site"
                      /db_xref="GeneID:3504510"
                      /protein_id="XP_747151.2"
                      /translation="MVYTHSPKEPIAIIGTGCRFPGGSTSPSKLWDLLYSPRDLTREVP
@@ -457,18 +473,20 @@ FEATURES             Location/Qualifiers
                      PDNDIAHSLLKFSRELGAVPELTGSGFFDFINVETVSNNIAASVVRSSEKSGGGLIYLH
                      QSGEQVIPVGDLQKYVEELEGRPLQVLPLKEWVDLSIRKGLDEVLGSYMLASKGVIRAP
                      LLQRGPHVE"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_DH, PKS_NRPS_MT, fPKS_KR,
+                     ACP_PCP, Condensation, AA-adenyl-dom, fPKS_R"
      CDS             complement(join(50274..50920,50975..51143))
                      /codon_start=1
                      /locus_tag="AFUA_8G00550"
                      /old_locus_tag="Afu8g00550"
                      /product="methyltransferase PsoC"
-                     /label=psoC
-                     /note="encoded by transcript AFUA_8G00550A;
-                     similar to methyltransferase GliN (GI:56609351) 
-                     [Aspergillus fumigatus] PMID: 15979823 similar to ubiE/COQ5
-                     family methyltransferase UmtA that negatively regulates 
-                     sexual development [Emericella nidulans] similar to 
-                     methyltransferase SirN (GI:46578134) [Leptosphaeria 
+                     /label="psoC"
+                     /note="encoded by transcript AFUA_8G00550A; similar to
+                     methyltransferase GliN (GI:56609351) [Aspergillus
+                     fumigatus] PMID: 15979823 similar to ubiE/COQ5 family
+                     methyltransferase UmtA that negatively regulates sexual
+                     development [Emericella nidulans] similar to
+                     methyltransferase SirN (GI:46578134) [Leptosphaeria
                      maculans] PMID: 15387811"
                      /db_xref="GeneID:3504509"
                      /protein_id="XP_747150.1"
@@ -477,18 +495,18 @@ FEATURES             Location/Qualifiers
                      YLGFFDLVHIRGSLAGSAPEGPAPVIQNLTTLLKPGGWVQLMEMNAFSPPPNGPAMTDF
                      AKMASEMFTGIGVGDFANNNKSMLEDAGLKNVQEKRVIVNLGKKAKPELHDQSIHGVTG
                      PIVPLTSVARTVKSSFTGEQLDALPARVKEELETEGGQVEMIIAFGQKA"
+                     /Pfam="GliN"
      CDS             join(51682..51737,51778..52118,52180..52984,53046..53430)
                      /codon_start=1
                      /locus_tag="AFUA_8G00560"
                      /old_locus_tag="Afu8g00560"
                      /product="cytochrome P450 monooxygenase PsoD"
                      /EC_number="1.14.-.-"
-                     /label=psoD
-                     /note="encoded by transcript AFUA_8G00560A;
-                     similar to GB:BAC21103.1: cytochrome P450 2 Le.CYP2 
-                     [Lentinula edodes] similar to SP:P79084: 
-                     O-methylsterigmatocystin oxidoreductase [Aspergillus 
-                     flavus]"
+                     /label="psoD"
+                     /note="encoded by transcript AFUA_8G00560A; similar to
+                     GB:BAC21103.1: cytochrome P450 2 Le.CYP2 [Lentinula edodes]
+                     similar to SP:P79084: O-methylsterigmatocystin
+                     oxidoreductase [Aspergillus flavus]"
                      /db_xref="GeneID:3504508"
                      /protein_id="XP_747149.2"
                      /translation="MIISSYHLLWLALVAFILQAPRCRRDQKVYNKSIHVLNTVAKGIK
@@ -501,14 +519,15 @@ FEATURES             Location/Qualifiers
                      FASILMDKDTYPDGKLFNPARWLEPSYPTYKEPLTTYPNCQGFPAFGYGRRACPGVDFA
                      ERTLVIMFAKLGWTMNIRWPRDEDGNELREELQYEPVPAPRPLKFGCRLEARDADRAKI
                      VEEAAKHLKLQ"
+                     /Pfam="p450"
      CDS             complement(join(53519..54312,54369..54732))
                      /codon_start=1
                      /locus_tag="AFUA_8G00570"
                      /old_locus_tag="Afu8g00570"
                      /product="alpha/beta hydrolase AFUA_8G00570"
-                     /label=AFUA_8G00570
-                     /note="encoded by transcript AFUA_8G00570A;
-                     similar to GB:AAN70113.1: hydrolase, alpha/beta fold family
+                     /label="AFUA_8G00570"
+                     /note="encoded by transcript AFUA_8G00570A; similar to
+                     GB:AAN70113.1: hydrolase, alpha/beta fold family
                      [Pseudomonas putida KT2440]"
                      /db_xref="GeneID:3504507"
                      /protein_id="XP_747148.1"
@@ -519,14 +538,15 @@ FEATURES             Location/Qualifiers
                      LRLFRESLEPRNGAACADVPGEMEDEDDVAFDDVPIAQDRPQVTVGDVIRWQLAANAGF
                      VRSYLSTLRSALVYRRHDRTWRVLADELARRRVADALPGLPGGKVCLIVAERDVIVVGD
                      ECASDAAEILGAEAVETHVLGGGHEIAISRARDVISIAVRFWNRR"
+                     /Pfam="Hydrolase_4"
      CDS             complement(join(55557..56059,56111..56291,56350..56379))
                      /codon_start=1
                      /locus_tag="AFUA_8G00580"
                      /old_locus_tag="Afu8g00580"
                      /product="glutathione S-transferase PsoE"
-                     /label=psoE
-                     /note="encoded by transcript AFUA_8G00580A;
-                     similar to GB:AAH07949.2: EEF1G protein [Homo sapiens]"
+                     /label="psoE"
+                     /note="encoded by transcript AFUA_8G00580A; similar to
+                     GB:AAH07949.2: EEF1G protein [Homo sapiens]"
                      /db_xref="GeneID:3504489"
                      /protein_id="XP_747147.1"
                      /translation="MVFGTLYTFPGDQCRTIAIKAVAKANGLDLDIRETPRTPDHLSIS
@@ -534,6 +554,7 @@ FEATURES             Location/Qualifiers
                      LMTQQLLPQLGVIPYDRDQVEFFANMTQRSVDVVEEYLQDRTFLVGDQLSLADLFCAGN
                      ISLGFQFFYGKAWRQQNPNVSRWYEMVCHQPIYAAVTDKFQLLDEPKLTNNPPEKKPET
                      VPKNGAAVAIEATQA"
+                     /Pfam="GST_N, GST_C"
 ORIGIN
         1 ctacatgcca aatcccattt tcccaatcac cttctcacac aattctccca ggctggctgc
        61 attcatcaca tccaaagtgg tgagctctat cgccagtgtc atacgcaccc aggtccgtag

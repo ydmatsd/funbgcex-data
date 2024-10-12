@@ -1,42 +1,43 @@
-LOCUS       FBGC00272       31620 bp DNA     linear   UNA 29-JAN-2023
+LOCUS       FBGC00272              31620 bp    DNA     linear   UNA 29-JAN-2023
 DEFINITION  leporin B.
 ACCESSION   FBGC00272
-VERSION     .
+VERSION     FBGC00272
 KEYWORDS    .
 SOURCE      Aspergillus flavus NRRL3357
   ORGANISM  Aspergillus flavus NRRL3357
+            .
 REFERENCE   1  (bases 1 to 31620)
   AUTHORS   Cary JW, Uka V, Han Z, Buyst D, Harris-Coward PY, Ehrlich KC, Wei Q,
             Bhatnagar D, Dowd PF, Martens SL, Calvo AM, Martins JC, Vanhaecke L,
             Coenye T, De Saeger S, Di Mavungu JD.
-  TITLE     An Aspergillus flavus secondary metabolic gene cluster containing a 
-            hybrid PKS-NRPS is necessary for synthesis of the 2-pyridones, 
+  TITLE     An Aspergillus flavus secondary metabolic gene cluster containing a
+            hybrid PKS-NRPS is necessary for synthesis of the 2-pyridones,
             leporins.
   JOURNAL   Fungal Genet Biol 2015;81:88-97
-  PUBMED    26051490
+   PUBMED   26051490
 REFERENCE   2  (bases 1 to 31620)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Jan 29, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1016/j.fgb.2015.05.010"; journalName: "Fungal Genet Biol"; date:
-            "2015"; volume: "81"; pages: "88-97"
-COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final 
-            NCBI review. The reference sequence is identical to 
-            CP059871.##Genome-Assembly-Data-START##
+  JOURNAL   Exported Jan 29, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     ##Genome-Assembly-Data-START##
             Assembly Date          :: 05-SEP-2019
             Assembly Method        :: MECAT v. SEPT-2019
             Assembly Name          :: UGA_Afla_NRRL3357
             Genome Representation  :: Full
             Expected Final Version :: Yes
             Genome Coverage        :: 70.0x
-            Sequencing Technology  :: PacBio RSII; Bionano Saphyr 
-            ##Genome-Assembly-Data-END####Genome-Annotation-Data-START##
-            Annotation Provider :: INSDC submitter
-            Annotation Status   :: Full annotation
-            Annotation Pipeline :: Eukaryotic Annotation Propagation Pipeline 
+            Sequencing Technology  :: PacBio RSII; Bionano Saphyr
+            ##Genome-Assembly-Data-END##
+            ##Genome-Annotation-Data-START##
+            Annotation Provider    :: INSDC submitter
+            Annotation Status      :: Full annotation
+            Annotation Pipeline    :: Eukaryotic Annotation Propagation Pipeline
             ##Genome-Annotation-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1016/j.fgb.2015.05.010"; journalName: "Fungal Genet Biol"; date:
+            "2015"; volume: "81"; pages: "88-97"
+            PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to
 FEATURES             Location/Qualifiers
      source          1..31620
                      /chromosome="6"
@@ -46,7 +47,7 @@ FEATURES             Location/Qualifiers
                      /country="USA: Dawson, Georgia"
                      /lat_lon="31.76 N 84.43 W"
                      /isolation_source="Moldy Peanuts"
-                     /collection_date=8-Sep-1982
+                     /collection_date="8-Sep-1982"
                      /db_xref="taxon:332952"
                      /organism="Aspergillus flavus NRRL3357"
      CDS             complement(join(1..314,372..820,887..1010,1086..1194,
@@ -54,7 +55,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="G4B84_010000"
                      /product="SAM-dependent hetero Diels-Alderase LepI"
-                     /label=lepI
+                     /label="lepI"
                      /db_xref="GeneID:64852232"
                      /protein_id="XP_041149537.1"
                      /translation="METVAAIKTLIQQLAQSTDQFGRAEINDALRELQYSLETPFDTVM
@@ -64,11 +65,12 @@ FEATURES             Location/Qualifiers
                      GMGHACIRLREKYPNQPGRVILQDLPPVLQAAQATLPLSGIESMPHNFHTPQPVQGAKF
                      YFLRLILRDFPDHQALEILQNIVPAMDAESRIVIDDGVPPEKGARWAETGTDICIMSAL
                      GSKERTQRQWEELAAKAGLQLQALYQYTWPVVNAAMVFSLQ"
+                     /Pfam="Methyltransf_2"
      CDS             join(1727..2299,2373..2904,2961..3379)
                      /codon_start=1
                      /locus_tag="G4B84_010001"
                      /product="cytochrome P450 monooxygenase LepH"
-                     /label=lepH
+                     /label="lepH"
                      /db_xref="GeneID:64852233"
                      /protein_id="XP_041149538.1"
                      /translation="MFTLTEYFIAACVWLVLYKVGNLLWNRHHYFKQQKARGCGEIKHY
@@ -80,11 +82,12 @@ FEATURES             Location/Qualifiers
                      EEVLALGDQEITFEKLRGLRYLRYVINETHRLYPNGIQMVRIALEDTTLPVGGGPDQSQ
                      PIFIQKGDIVHANRYLMHRDPDNWGPDAEVFRPERWGDVRPLWKFVPFGGGPRICPAHV
                      LVDTEASYVLLRFVQRFRTLEPRDERPYKAIMRIGPSNLHGVNVAVKTA"
+                     /Pfam="p450"
      CDS             complement(join(3591..4113,4182..4732))
                      /codon_start=1
                      /locus_tag="G4B84_010002"
                      /product="trans-acting enoylreductase LepG"
-                     /label=lepG
+                     /label="lepG"
                      /db_xref="GeneID:64852234"
                      /protein_id="XP_041149539.1"
                      /translation="MPASVHFEISATQRAIKIKGPGQASVEKGCPVPACQPEDILVRVV
@@ -94,11 +97,12 @@ FEATURES             Location/Qualifiers
                      EYTENSIKYAVDCITNIDSMKCCYTAIGSSGGQYVALDPFPIRGHTRRNVKARWIIGYT
                      IYGRPINWKHPFKRDAQPQDREFAKRWYPVAQRLLDEGKLQLHPLQVETGGLPGVIEGA
                      NRSRKHQVTGVKLVYCV"
+                     /Pfam="fPKS_ER"
      CDS             join(5092..5452,5508..6232)
                      /codon_start=1
                      /locus_tag="G4B84_010003"
                      /product="short-chain dehydrogenase/reductase LepF"
-                     /label=lepF
+                     /label="lepF"
                      /db_xref="GeneID:64852235"
                      /protein_id="XP_041149540.1"
                      /translation="MVSLREIRAHNAGLRDAWAGHRHVSLFVGATKGIGLATIMELIQR
@@ -108,11 +112,12 @@ FEATURES             Location/Qualifiers
                      HESPGKVQTDIVASFLQSPERTRSRLVLWRWLKGMLMLVLQAVLLPVFYVVAMPLAESG
                      ERRLYEATVDLSQQWQKQLQSPPYNGIVAAPGFYRMKHTSDIVMDDTVLQAYRALGMPE
                      RAWEHTMAVFRSVLDKGSGKK"
+                     /Pfam="SmbD"
      CDS             complement(join(6947..8788,8839..9483))
                      /codon_start=1
                      /locus_tag="G4B84_010004"
                      /product="transcription factor LepE"
-                     /label=lepE
+                     /label="lepE"
                      /db_xref="GeneID:64852236"
                      /protein_id="XP_041149541.1"
                      /translation="MDGSSRPLPQTAQRKRRRPVLACDRCRRRKIRCDRKVPCSHCLRT
@@ -130,12 +135,13 @@ FEATURES             Location/Qualifiers
                      QIKAAETGSPQDDAVLSAAVDSLEKCHIVLVDRYKSLAQSRESPQPLQVYGGSNVPCRL
                      GKGSNDILDINETGEGEAWSDFDVSQVCVMCHSRYDLTSDCIQAEWSLQVEYPDLDWNL
                      LNTWSACVPGSDSGAS"
+                     /Pfam="CghF"
      CDS             join(11759..11896,11962..12035,12092..12268,12326..12596,
                      12648..12830,12879..12947,12996..13227,13288..13670)
                      /codon_start=1
                      /locus_tag="G4B84_010005"
                      /product="cytochrome P450 monooxygenase LepD"
-                     /label=lepD
+                     /label="lepD"
                      /db_xref="GeneID:64852237"
                      /protein_id="XP_041149542.1"
                      /translation="MASPMKSDFLAGSHMKLPKIGIAAAVAVVASIVIYLALSSFFVGT
@@ -147,12 +153,13 @@ FEATURES             Location/Qualifiers
                      LRAEISAHRAQPGYTVGDYISKQNTLLHFSLLESIRVTPAMYFTLPECNASPKRIGGFH
                      IPAHTPTIVDVNRLNKNESIWGTEADAFRPERFFGLDPARYRFGFVRWGIGRDKCLGKN
                      MAEVILKLAILAVTDKYTLHVPPALPGQGEKSEAGFTINRDVEVEFRPAI"
+                     /Pfam="p450"
      CDS             complement(join(14269..14419,14479..14576,14632..15399,
                      15455..15671,15724..15779))
                      /codon_start=1
                      /locus_tag="G4B84_010006"
                      /product="major facilitator superfamily transporter LepC"
-                     /label=lepC
+                     /label="lepC"
                      /db_xref="GeneID:64852238"
                      /protein_id="XP_041149543.1"
                      /translation="MSATVDNTEANASPPKEFTLRSTIALIGAFMALFCTLGFQNAFGV
@@ -163,11 +170,12 @@ FEATURES             Location/Qualifiers
                      FYLVSMLNGASMVGRVSTGFLADRYGNFNLCFLTIASSGLIAMCWTKATNTVGIIFFAL
                      AYGYTSGAMFSLQTPCAAQLSTPESRGAAVGILFVAPAIPGLVGTPISGRLLKHGYLAL
                      SMYSGAALLAGAGLVLIARLRQNTKLMAKV"
+                     /Pfam="MFS_1"
      CDS             join(16412..16822,16900..17582,17664..18687)
                      /codon_start=1
                      /locus_tag="G4B84_010007"
                      /product="transcription factor LepB"
-                     /label=lepB
+                     /label="lepB"
                      /db_xref="GeneID:64852239"
                      /protein_id="XP_041149544.1"
                      /translation="MQRRRRRQLPVSCQLCRSMKLKCSRDQPCSNCVSRGVTCERAYRM
@@ -183,11 +191,12 @@ FEATURES             Location/Qualifiers
                      KEGGSSEDRRQEIVDACRVLQEAEATSPMASRFLKSLMDILQKYQIQVLPATTVPDVRP
                      LSANTGASGVPDPNLSDRDLVNPSQILPSTYDPLENANIDDLWQNFINLDQNCSPGSWD
                      HLFSALDSRIV"
+                     /Pfam="EqxR, Zn_clus, Fungal_trans"
      CDS             complement(join(19167..19186,19246..19495))
                      /codon_start=1
                      /locus_tag="G4B84_010008"
                      /product="hypothetical protein G4B84_010008"
-                     /label=G4B84_010008
+                     /label="G4B84_010008"
                      /db_xref="GeneID:64852240"
                      /protein_id="XP_041149545.1"
                      /translation="MDESAKPMTILWKRNEYRRYDVETDMTTRPAMVGPVKEQRTGRLV
@@ -195,9 +204,9 @@ FEATURES             Location/Qualifiers
      CDS             19780..31620
                      /codon_start=1
                      /locus_tag="G4B84_010009"
-                     /product="polyketide synthase-nonribosomal peptide 
+                     /product="polyketide synthase-nonribosomal peptide
                      synthetase LepA"
-                     /label=lepA
+                     /label="lepA"
                      /db_xref="GeneID:64852241"
                      /protein_id="XP_041149546.1"
                      /translation="MGSLSDVRVEPIAIVGSACRFPGGANSPSKLWDLLHSPRDVLMDF
@@ -268,6 +277,8 @@ FEATURES             Location/Qualifiers
                      ILRFSVLMKVVPQFPNVRGFFDFEKVGVVATNIVKKALQSVQVTRVHATSVASFAHHSS
                      GVKVPIDKIQDRMQDLYGGVFGRLALADWVQRARTLGIEPLVASYLEAMESRGEEMAFP
                      FLGMPSD"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_DH, PKS_NRPS_MT, fPKS_KR,
+                     ACP_PCP, Condensation, AA-adenyl-dom, fPKS_R"
 ORIGIN
         1 ctactgcagg ctaaacacca tggccgcatt caccactggc caggtgtact ggtagagagc
        61 ttgtagctgc agtccagcct ttgcagctag ctcctcccac tgccgctgag tccgctcctt

@@ -1,32 +1,32 @@
-LOCUS       FBGC00289       24833 bp DNA     linear   UNA 08-FEB-2023
+LOCUS       FBGC00289              24833 bp    DNA     linear   UNA 08-FEB-2023
 DEFINITION  flavipucine.
 ACCESSION   FBGC00289
-VERSION     .
+VERSION     FBGC00289
 KEYWORDS    .
 SOURCE      Aspergillus terreus NIH2624
   ORGANISM  Aspergillus terreus NIH2624
+            .
 REFERENCE   1  (bases 1 to 24833)
   AUTHORS   Gressler M, Zaehle C, Scherlach K, Hertweck C, Brock M.
-  TITLE     Multifactorial induction of an orphan PKS-NRPS gene cluster in 
+  TITLE     Multifactorial induction of an orphan PKS-NRPS gene cluster in
             Aspergillus terreus.
   JOURNAL   Chem Biol 2011;18:198-209
-  PUBMED    21236704
+   PUBMED   21236704
 REFERENCE   2  (bases 1 to 24833)
   AUTHORS   Wei G, Shu X, Yao Y, Zhang K, Zhang J, Gao SS.
-  TITLE     Heterologous Production of Unnatural Flavipucine Family Products 
+  TITLE     Heterologous Production of Unnatural Flavipucine Family Products
             Provides Insights into Flavipucines Biosynthesis.
   JOURNAL   Org Lett 2021;23:7708-7712
-  PUBMED    34554766
+   PUBMED   34554766
 REFERENCE   3  (bases 1 to 24833)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Feb 8, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1016/j.chembiol.2010.12.011"; journalName: "Chem Biol"; date: 
+  JOURNAL   Exported Feb 8, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1016/j.chembiol.2010.12.011"; journalName: "Chem Biol"; date:
             "2011"; volume: "18"; pages: "198-209"
-COMMENT     SGRef: number: 2; type: "Journal Article"; doi: 
-            "10.1021/acs.orglett.1c02566"; journalName: "Org Lett"; date: 
+            SGRef: number: 2; type: "Journal Article"; doi:
+            "10.1021/acs.orglett.1c02566"; journalName: "Org Lett"; date:
             "2021"; volume: "23"; pages: "7708-7712"
 FEATURES             Location/Qualifiers
      source          1..24833
@@ -38,9 +38,9 @@ FEATURES             Location/Qualifiers
                      11065..12014))
                      /codon_start=1
                      /locus_tag="ATEG_00325"
-                     /product="polyketide synthase-nonribosomal peptide 
+                     /product="polyketide synthase-nonribosomal peptide
                      synthetase FlvA"
-                     /label=flvA
+                     /label="flvA"
                      /note="similar to polyketide synthase"
                      /protein_id="EAU38971.1"
                      /translation="MSSNEPIAIIGSSCRFAGGASSPSKLWDLLLKPKDLSKPPPESRF
@@ -110,19 +110,22 @@ FEATURES             Location/Qualifiers
                      PVDGSDGYVAAKWASERILEQASERLGLPVFIHRPSNITGPDVGDRDIIHNVWRWSEVL
                      RAVPDLVAAGAKGAFDFVGVETCAKGITDTLFVQASAGHLAYIHQSGENVIPVEEFGEC
                      LQRNGGADVELVPFDQWVDKAVQAGLDDLVASFLRGTKGAFQMPFLPKGLRQ"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_DH, PKS_NRPS_MT, fPKS_KR,
+                     ACP_PCP, Condensation, AA-adenyl-dom, fPKS_R"
      CDS             12747..13247
                      /codon_start=1
                      /product="hypothetical protein FlvB"
-                     /label=flvB
+                     /label="flvB"
                      /translation="MAVLVGLKLLRVAPLITSTAGYMCAWDQQFAFSSWIDRGVPQEPA
                      GAVLPHWFPAIFRKLIWVVSILHPLGGVLGLLNGIGSPGASLDDQTRRLYFAGGLFAIG
                      HLVYGKFAMRIIGSIWDSSLPGKTNLGALPPWLRLNWWRIHTNNLPAVLLFLAALVNAI
                      EIR"
+                     /Pfam="XenD"
      CDS             complement(13420..14694)
                      /codon_start=1
                      /locus_tag="ATEG_00326"
                      /product="transcription factor FlvC"
-                     /label=flvC
+                     /label="flvC"
                      /protein_id="EAU38972.1"
                      /translation="MAKPNQRHACDRCHGQKLRCIHSGGGPCVRCAKAKATCSWSQSLR
                      SNRLKRHNVPISDVPLACAQLATQSTDPNTPQFGAYMSQPSSAGVDIDINLLQTQFTDS
@@ -132,11 +135,12 @@ FEATURES             Location/Qualifiers
                      PSGPPLDQGSCLLVLSCYTRLIETYDRIFANMQGCLDRSSVTAREDYVNMPSVQVGSFS
                      LPHSSSLQIVLILQLARQLLTRMGEIIKAVQPEKGTNSADVTLSESATGGLLLSSALET
                      VSAEEDRLMKRITKLRSTLIELNIL"
+                     /Pfam="EqxR"
      CDS             complement(16814..18133)
                      /codon_start=1
                      /locus_tag="ATEG_00327"
                      /product="alpha/beta hydrolase FlvD"
-                     /label=flvD
+                     /label="flvD"
                      /protein_id="EAU38973.1"
                      /translation="MFQFFKSPFFQFEFLRLLAMTPFEGGEIAEILDAASKIKDQDPES
                      WYSNWVEVGTKVEQIAQEAESTGDRVAARRAYLRASNYLRAAQFMLNEGPLGHDKRVLP
@@ -146,11 +150,12 @@ FEATURES             Location/Qualifiers
                      WLWKLFSGGYLSDGVFDTVIGAISGWTFQTRWEFNHMRWAMGRASDAQVIRRMLDYTLA
                      KPGGGEWLHEVKCPVLVTGAGSSFYFDPETTTRRVLRSLSHLPEHMKEEWVASDVVFGG
                      LQAKIGAFGYSMQRTFAYLDGKFGVQRERLVVKDATGRVY"
+                     /Pfam="FrsA-like, Abhydrolase_6"
      CDS             complement(join(18550..19607,19663..19906))
                      /codon_start=1
                      /locus_tag="ATEG_00328"
                      /product="transcription factor FlvE"
-                     /label=flvE
+                     /label="flvE"
                      /protein_id="EAU38974.1"
                      /translation="MANTPIDPIPFELIQLRRACDRCHSQKLRCKRTGGGNCDRCEKTG
                      VTCVFSPSRRMRKMSQPKDGDARLSVSGASSHIGLNDNMSLDDLLHWDLATTEWASQGA
@@ -160,30 +165,33 @@ FEATURES             Location/Qualifiers
                      FEPLQKLLPSPRYRPSSSSSHYPPSFVSTDSPSPFPERALDGRLPRFPVLRIGEFSLQT
                      SPSVHTLMTIQLAEQLLGLVNRAVQTITRNQSAANTPFRYEKQEYFMGEEHGLDRLRDS
                      SGMDVAELSLKAVEKRHMEVMAVVKAIKWALTSR"
+                     /Pfam="EqxR"
      CDS             complement(join(20754..21086,21139..21294))
                      /codon_start=1
                      /locus_tag="ATEG_00329"
                      /product="EthD domain-containing protein FlvF"
-                     /label=flvF
+                     /label="flvF"
                      /protein_id="EAU38975.1"
                      /translation="MSPVKQRLLRIAVSHNRHPSLSEEQFHQWATKEHCARAARIHSRH
                      GIEAYGMLFSPETARTTVQNLNRQLGGRWKIDEHDVTVEFYLHSLDELTSVLEDPEFKA
                      LQQEEEPYVSGEDIVATLGWVETYVQDGRVVNVDSEGVPTYPGFGVLADFSSEQVNQK"
+                     /Pfam="EthD"
      CDS             complement(join(21818..22153,22220..22366))
                      /codon_start=1
                      /locus_tag="ATEG_00330"
                      /product="EthD domain-containing protein FlvG"
-                     /label=flvG
+                     /label="flvG"
                      /protein_id="EAU38976.1"
                      /translation="MTQRLLRLSLAHYRKDSCTEESCHYFGTALHAKQAATLHAKHGTL
                      QYYQVYSTQAARDALDAFRRSLGADWTIDQHDLTVELYIRDLQTLRNIAADPEFASFYH
                      LEEPYLSRRHVVASLGWVEAYVEEGKVVNVTDEGSEYRPGFGEFVGSGGELEKALA"
+                     /Pfam="EthD"
      CDS             join(22929..22961,23012..23041,23094..23193,23244..23290,
                      23338..23501,23552..24833)
                      /codon_start=1
                      /locus_tag="ATEG_00331"
                      /product="major facilitator superfamily transporter FlvH"
-                     /label=flvH
+                     /label="flvH"
                      /protein_id="EAU38977.1"
                      /translation="MKAWLLVSSLCLSTFIAALEQTIISTAAESISRSLHTTELEFTWI
                      GTAYLLPAAASTPPWGKLSDIFGRKPVLMISIVVFFIGSLIGALAINIDMLIAGRVIQG
@@ -195,6 +203,7 @@ FEATURES             Location/Qualifiers
                      IAIFSLTKPADTASAAATVFFARDIATAMSIVFGGVIFQNRIRAFKSDIEGVVSPELTE
                      LITSGGATTASDQIRALPAAARSLVRDRYNTALRSEWIFYTALSGAALLLSVFISKQVL
                      SRDHKMNKTGLDVQEASRLEELEKEKKAAATDAV"
+                     /Pfam="MFS_1"
 ORIGIN
         1 tcactgcctc aatcccttag gcagaaacgg catctggaac gcaccctttg tcccgcgcag
        61 gaacgaggca acgagatcgt ccaatccagc ctgcacagcc ttatccaccc actgatcaaa

@@ -1,30 +1,30 @@
-LOCUS       FBGC00292       11695 bp DNA     linear   UNA 08-FEB-2023
+LOCUS       FBGC00292              11695 bp    DNA     linear   UNA 08-FEB-2023
 DEFINITION  cordypyrone B.
 ACCESSION   FBGC00292
-VERSION     .
+VERSION     FBGC00292
 KEYWORDS    .
 SOURCE      Cordyceps militaris CM01
   ORGANISM  Cordyceps militaris CM01
+            .
 REFERENCE   1  (bases 1 to 11695)
   AUTHORS   Gao YL, Yu C, Li L.
-  TITLE     Heterologous expression of a natural product biosynthetic gene 
+  TITLE     Heterologous expression of a natural product biosynthetic gene
             cluster from Cordyceps militaris.
   JOURNAL   J Antibiot (Tokyo) 2022;75:16-20
-  PUBMED    34548637
+   PUBMED   34548637
 REFERENCE   2  (bases 1 to 11695)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Feb 8, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1038/s41429-021-00478-3"; journalName: "J Antibiot (Tokyo)"; 
-            date: "2022"; volume: "75"; pages: "16-20"
+  JOURNAL   Exported Feb 8, 2023 from SnapGene 6.2.1 https://www.snapgene.com
 COMMENT     ##Genome-Assembly-Data-START##
             Assembly Method       :: Newbler v. 2.3
             Assembly Name         :: CmilitarisCM01_v01
             Genome Coverage       :: 100x
             Sequencing Technology :: 454; Illumina
             ##Genome-Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1038/s41429-021-00478-3"; journalName: "J Antibiot (Tokyo)";
+            date: "2022"; volume: "75"; pages: "16-20"
 FEATURES             Location/Qualifiers
      source          1..11695
                      /chromosome="Unknown"
@@ -37,7 +37,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="CCM_09344"
                      /product="cytochrome P450 monooxygenase MilC"
-                     /label=milC
+                     /label="milC"
                      /protein_id="EGX87722.1"
                      /translation="MAIHAAYIFIAATLIALYVARRMREQHARQKLARDQGCEPLTTAI
                      NKLPYGLDRKWQIVTHRGNILDDLITTRFAELGCYIYTDNQWGSPPIICAEPATMKAVL
@@ -49,11 +49,12 @@ FEATURES             Location/Qualifiers
                      IRDTVLPSGGGADGSKPVFVPKGTSLKYSPYVMHRREDLYGPDALLWNPDRWIGRAPGW
                      DYLPFNGGPRVCIGQKFALSSSAYVLARLAQQFDTCTALPTTGPIDSKLGAVLVPKAGV
                      PVSLTNSTT"
+                     /Pfam="p450"
      CDS             2289..3365
                      /codon_start=1
                      /locus_tag="CCM_09345"
                      /product="trans-acting enoylreductase MilB"
-                     /label=milB
+                     /label="milB"
                      /protein_id="EGX87723.1"
                      /translation="MTTVPTTQRAVVVGPEDGSVVVAESIPLPDIEPDAVLVQVSAVAL
                      NPVDTKMMPGFLNPGNVLGLDFAGTVVAVGPAQPAWRSLQVGDRVFGCTDGCDSRRPRV
@@ -62,11 +63,12 @@ FEATURES             Location/Qualifiers
                      LTKNALSFAFDCVTTQSSVLACEEAMGRLGGRYTALDPFDPTLVSRKAVKLDWILTLTL
                      MGRGSVWPKPFGCEPDEALLTWGTKLAEVAEGVLAEGDHVLKAHPMRIMEGGLDAIPSG
                      IDAIRQGQVRGFKLVYLL"
+                     /Pfam="fPKS_ER"
      CDS             join(4239..10690,10750..11695)
                      /codon_start=1
                      /locus_tag="CCM_09346"
                      /product="polyketide synthase MilA"
-                     /label=milA
+                     /label="milA"
                      /protein_id="EGX87724.1"
                      /translation="MEPIAIVGSACRFPGDATSPSKLWELLKAPRDLSQEVKRFNAKGF
                      YHENGHHHGASNVMAAYTLESDPMEFDPQFFNIQPGEAESMDPQHRLLLETTYEGLEQA
@@ -111,6 +113,8 @@ FEATURES             Location/Qualifiers
                      YLLDRQAPATNGAAGESDNGGHLSLDVLKAAPPAECYDMIFRAFQTVLQKLLRLPADQP
                      VPAEVQILDLGVDSLVAVKMRQWFLKELQVNMPVMKLIGGATVSQVVWSVVHQILPESA
                      K"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_DH, PKS_NRPS_MT, fPKS_KR,
+                     ACP_PCP"
 ORIGIN
         1 ctaagttgtg gaatttgtta gagaaaccgg cacgccagct ttgggaacaa gcaccgcgcc
        61 gagcttggag tcgataggcc ctgtagtggg cagggccgta cacgtgtcga attgttgcgc

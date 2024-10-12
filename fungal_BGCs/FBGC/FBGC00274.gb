@@ -1,28 +1,28 @@
-LOCUS       FBGC00274       31370 bp DNA     linear   UNA 29-JAN-2023
+LOCUS       FBGC00274              31370 bp    DNA     linear   UNA 29-JAN-2023
 DEFINITION  ilicicolin H.
 ACCESSION   FBGC00274
-VERSION     .
+VERSION     FBGC00274
 KEYWORDS    .
 SOURCE      Talaromyces variabilis HXQ-H-1
   ORGANISM  Talaromyces variabilis HXQ-H-1
+            .
 REFERENCE   1  (bases 1 to 31370)
   AUTHORS   Zhang Z, Jamieson CS, Zhao YL, Li D, Ohashi M, Houk KN, Tang Y.
   TITLE     Enzyme-Catalyzed Inverse-Electron Demand Diels-Alder Reaction in the
             Biosynthesis of Antifungal Ilicicolin H.
   JOURNAL   J Am Chem Soc 2019;141:5659-5663
-  PUBMED    30905148
+   PUBMED   30905148
 REFERENCE   2  (bases 1 to 31370)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Jan 29, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1021/jacs.9b02204"; journalName: "J Am Chem Soc"; date: "2019"; 
-            volume: "141"; pages: "5659-5663"
+  JOURNAL   Exported Jan 29, 2023 from SnapGene 6.2.1 https://www.snapgene.com
 COMMENT     ##Assembly-Data-START##
             Assembly Method       :: Abyss v. 1.5.2
             Sequencing Technology :: Illumina
             ##Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1021/jacs.9b02204"; journalName: "J Am Chem Soc"; date: "2019";
+            volume: "141"; pages: "5659-5663"
 FEATURES             Location/Qualifiers
      source          1..31370
                      /strain="HXQ-H-1"
@@ -34,9 +34,9 @@ FEATURES             Location/Qualifiers
      CDS             complement(join(1..7710,7758..12095))
                      /codon_start=1
                      /gene="iccA"
-                     /product="polyketide synthase-nonribosomal peptide 
+                     /product="polyketide synthase-nonribosomal peptide
                      synthetase IccA"
-                     /label=iccA
+                     /label="iccA"
                      /note="IccA; PKS-NRPS"
                      /protein_id="QBQ83704.1"
                      /translation="MAANDSNNQTKPQLPEEPVAIVGSSCRFPGSSNSPSKLWDLLRQP
@@ -108,11 +108,13 @@ FEATURES             Location/Qualifiers
                      SEHAPNSDALNAILRYSASMKCVPHLESATGYLDFASVESIVDSMAESAIEMATGNVTD
                      QPSIRFQHHSGGVKVPIGDFKVHMENVYGGNFEEVHLEEWMHRAAAAGLDPLITAYMEG
                      IIEAGAPIVFPYLGETV"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_DH, PKS_NRPS_MT, fPKS_KR,
+                     ACP_PCP, Condensation, AA-adenyl-dom, fPKS_R"
      CDS             join(13337..13906,13959..14487,14546..14961)
                      /codon_start=1
                      /gene="iccC"
                      /product="cytochrome P450 monooxygenase IccC"
-                     /label=iccC
+                     /label="iccC"
                      /note="IccC"
                      /protein_id="QBQ83705.1"
                      /translation="MITLQNLPWILLYTGFLAIFLSRLFSNGKQSRDEKANGCQPPARY
@@ -124,21 +126,23 @@ FEATURES             Location/Qualifiers
                      FALGEETPLTFEILRNMKYLNGVLNETHRVIPNNVTQVRACVQDTVLPVGGGPDGKWPV
                      QVRKGDIVSVTKTVMYRDPDYWGSDADEFRPERFDGLRGTWNFLPFGGGPRRCPAQMMS
                      QTEAAYMLCRLARTYSRIEARDPEPYTAVMRIGPSNKTGVKIALYK"
+                     /Pfam="p450"
      CDS             complement(15386..16189)
                      /codon_start=1
                      /product="hydrolase ORF1"
-                     /label=ORF1
+                     /label="ORF1"
                      /note="manually added sequence"
                      /translation="MRTKSTITTPDGINWYYEQEGSGPDIILVPDGLGECEMYSKPMSL
                      IAAQGFRVTTFDMPGMSRSTNAPAETYEAVTAQKLAKYVIGVLDALKIVGKVSFFGCSS
                      GASTVLTLLLDYPERVRNVIAHEAPTAQADELLALGKMDDETLIKTQSGMMREYLSGDP
                      VAWDALGDEAHARLRQNYIRWARGYPNTIPHSTPVARLLEDPTKQRPLDWTVGASSLTH
                      VFMDNIVTATKIGVDIGTLPGTHLPYVSHPGVFAQHVVDKTRKYL"
+                     /Pfam="Abhydrolase_1"
      CDS             complement(join(18062..18794,18849..19261,19309..19418,
                      19478..19778,19853..20065))
                      /codon_start=1
                      /product="major facilitator superfamily transporter ORF2"
-                     /label=ORF2
+                     /label="ORF2"
                      /note="manually added sequence"
                      /translation="MPTESPDTPSSGEKMVTGATHIEQTESRLDNPVYDDDDEEPQFHA
                      RTWLALVAMFFLNLVQVLALQGPPAVLTYIGKDLNNSERQTWIPNALSLVQAVLSPVIS
@@ -151,11 +155,12 @@ FEATURES             Location/Qualifiers
                      VAATTFTAIYSAAMTTRLTTYIPSYITAAATEAGLPATSLPSFIEALSGGDSAALAAIP
                      GVTPAIISAGASALKEAYADGLRVVYIIAAPFGALACIICYFLGDLKKTMDYHVDAPVE
                      ELHAKGRKQEGSA"
+                     /Pfam="TRI12"
      CDS             complement(join(20552..20954,21031..21254,21314..21784))
                      /codon_start=1
                      /gene="iccH"
                      /product="short-chain dehydrogenase/reductase IccH"
-                     /label=iccH
+                     /label="iccH"
                      /note="IccH"
                      /protein_id="QBQ83706.1"
                      /translation="MNQQGTVIVTGANGGLGNAIVSHILDRQDLNTNYYGIYTVRDTVR
@@ -165,11 +170,12 @@ FEATURES             Location/Qualifiers
                      AAKLCEIMMFRELSNRIEKDPELSAISVVAVDPGAMPSELNRRSIWVMFLLMKFVLPLL
                      APLAVWLQPNGTIRTTTKSARDVVRAAFDTATLGDHPNGIYLNGSEIADVGPEAKDAEK
                      SRTLWHDSLVYARLEKGDTILKAWE"
+                     /Pfam="adh_short"
      CDS             join(22279..22456,22642..23312,23374..23721,23786..23833)
                      /codon_start=1
                      /gene="iccE"
                      /product="epimerase IccE"
-                     /label=iccE
+                     /label="iccE"
                      /note="IccE"
                      /protein_id="QBQ83707.1"
                      /translation="MADLHLAKSITLRCGLTLPNRLAKTAIAESIAPRNMLIDEGFHRV
@@ -180,11 +186,12 @@ FEATURES             Location/Qualifiers
                      PSMFIGPEKRGKAYDWDNQEAFFLDFAQAIRPHLGTVPLLLTGGFRSCHAMEAAVKRGD
                      CDMIGLARPAVVNPLLPKTVVFNPEVNKSGDTKLHATRTPAPWYIKLFGITALNVHMDN
                      AWYVGRLQTLAKTGR"
+                     /Pfam="Oxidored_FMN"
      CDS             complement(join(24089..24791,24858..25033))
                      /codon_start=1
                      /gene="iccD"
                      /product="SAM-dependent Diels-Alderase IccD"
-                     /label=iccD
+                     /label="iccD"
                      /note="IccD"
                      /protein_id="QBQ83708.1"
                      /translation="MASSEVFTSEEAAQRAIKTYYESQESRMGYELVFGGTQHFGYYTP
@@ -193,11 +200,12 @@ FEATURES             Location/Qualifiers
                      FFRVLKPGGRFALVEVERRPNAEADKKNPRLTEQLSMINVGTGMPTNERSHDGFYKGLL
                      EEAGFVDIESRDISDNILPVVRMFYVVLLVPYLFVRLLGIEKHFVSMLAGTAGYVGYDR
                      WRFMVVTGRKP"
+                     /Pfam="Methyltransf_11"
      CDS             join(25514..25747,25799..27175)
                      /codon_start=1
                      /gene="iccF"
                      /product="cytochrome P450 monooxygenase IccF"
-                     /label=iccF
+                     /label="iccF"
                      /note="IccF"
                      /protein_id="QBQ83709.1"
                      /translation="MAPLATYLSQIDDYPKWALFTGGSIVLFFLYRIFLSPPSYPPGVP
@@ -210,11 +218,12 @@ FEATURES             Location/Qualifiers
                      VTPDGMKLPKNSLFSFFSEPVQHDPDKFEDPFKYDPFRTSREREAAADEEGKPGGHALT
                      VVSTSPNYLPWGHGKHACPGRFLVDCEMKMLLTYVLSNYDIEFPVEYNGQRPPTIWLAE
                      VGLPPRGAKIRVKRRKEAI"
+                     /Pfam="p450"
      CDS             complement(27757..28884)
                      /codon_start=1
                      /gene="iccB"
                      /product="trans-acting enoylreductase IccB"
-                     /label=iccB
+                     /label="iccB"
                      /note="IccB"
                      /protein_id="QBQ83710.1"
                      /translation="MDATLPSIHTALKILGPNNVSVSENTALPVIQPLDILVRVACISI
@@ -224,11 +233,12 @@ FEATURES             Location/Qualifiers
                      RSPTCGAELREHTGDTLTLALDCITDTASMNICYEALGSSGGRYVALDSFPLRAHTRRS
                      VVPDWVCTYSQFGHPIAWAAPYNLEARPEDLLTAEAWYVVAQKLIDQGLITPHPKEERL
                      GGLAAIGEGMEAVRRGQIKGKKLVYPISNELCAAA"
+                     /Pfam="fPKS_ER"
      CDS             join(29992..30169,30257..31245,31317..31370)
                      /codon_start=1
                      /gene="iccG"
                      /product="NADH-dependent flavin oxidoreductase IccG"
-                     /label=iccG
+                     /label="iccG"
                      /note="IccG"
                      /protein_id="QBQ83711.1"
                      /translation="MDLNLAKPITLRCGITLPNRLWKAAMTEEFADKRRLPGSEACLAT
@@ -239,6 +249,7 @@ FEATURES             Location/Qualifiers
                      QKAKVSTQTREAFFVDFAKSIRSELSGLPLMVTGGFRTRQGMETALVEDSCDVVGIARP
                      AVLSPYLPRNIIFNRDVVDAEAIAHAEKIDTPTIAKWMGIKAIGVGAETIWYIKKIQNL
                      GSIETEL"
+                     /Pfam="Oxidored_FMN"
 ORIGIN
         1 tcatacagtc tctcccaagt agggaaatac gataggcgct ccagcctcaa tgattccctc
        61 catatatgcg gtgatcaacg ggtcgaggcc agccgcggca gcacggtgca tccattcttc

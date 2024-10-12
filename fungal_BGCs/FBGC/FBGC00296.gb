@@ -1,23 +1,23 @@
-LOCUS       FBGC00296       17200 bp DNA     linear   UNA 08-FEB-2023
+LOCUS       FBGC00296              17200 bp    DNA     linear   UNA 08-FEB-2023
 DEFINITION  alternapyrone.
 ACCESSION   FBGC00296
-VERSION     .
+VERSION     FBGC00296
 KEYWORDS    .
 SOURCE      Alternaria solani 584
   ORGANISM  Alternaria solani 584
+            .
 REFERENCE   1  (bases 1 to 17200)
   AUTHORS   Fujii I, Yoshida N, Shimomaki S, Oikawa H, Ebizuka Y.
-  TITLE     An iterative type I polyketide synthase PKSN catalyzes synthesis of 
+  TITLE     An iterative type I polyketide synthase PKSN catalyzes synthesis of
             the decaketide alternapyrone with regio-specific octa-methylation.
   JOURNAL   Chem Biol 2005;12:1301-9
-  PUBMED    16356847
+   PUBMED   16356847
 REFERENCE   2  (bases 1 to 17200)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Feb 8, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1016/j.chembiol.2005.09.015"; journalName: "Chem Biol"; date: 
+  JOURNAL   Exported Feb 8, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1016/j.chembiol.2005.09.015"; journalName: "Chem Biol"; date:
             "2005"; volume: "12"; pages: "1301-9"
 FEATURES             Location/Qualifiers
      source          1..17200
@@ -30,7 +30,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="alt1"
                      /product="cytochrome P450 monooxygenase Alt1"
-                     /label=alt1
+                     /label="alt1"
                      /note="revised sequence"
                      /inference="non-experimental evidence, no additional
                      details recorded"
@@ -44,11 +44,12 @@ FEATURES             Location/Qualifiers
                      VAAGDLPYLKACIEETMRLSPPTPSALPRWVLEGGEEIDGKWVPGGVTVGVHNLAACHV
                      PWNWHRPLEFIPERWLQTKEGEFTHDDRALHARFLMVDIMSLTCFLSSMAMNEMRLALA
                      KLFWNFDISLSRNSGNWWITQKSYLVWEKKPLMVTIKPRH"
+                     /Pfam="p450"
      CDS             complement(2196..3809)
                      /codon_start=1
                      /gene="alt2"
                      /product="cytochrome P450 monooxygenase Alt2"
-                     /label=alt2
+                     /label="alt2"
                      /inference="non-experimental evidence, no additional
                      details recorded"
                      /protein_id="BAD83681.1"
@@ -62,11 +63,12 @@ FEATURES             Location/Qualifiers
                      CAARDTTLPVGGGPDGSMPVFVPKGTEVNFSTHVLHRRKDLWGEDADEFVPERWEKKRP
                      GMTWQYVPFNGGPRICIGQQFALTEAGYVLVRMVQRYDVIEGLDIDVERDWHNFTVVCS
                      PGSPVARDAAVMCRLRVAVE"
+                     /Pfam="p450"
      CDS             complement(join(4199..5249,5315..5697,5753..5848))
                      /codon_start=1
                      /gene="alt3"
                      /product="cytochrome P450 monooxygenase Alt3"
-                     /label=alt3
+                     /label="alt3"
                      /inference="non-experimental evidence, no additional
                      details recorded"
                      /protein_id="BAD83682.1"
@@ -79,11 +81,12 @@ FEATURES             Location/Qualifiers
                      LFKSRADMTLQAVTSCKYLRACLNEGMRLYPPTPGSLPRFVPGKGEMIEGKWVPGGYAV
                      GVNQLAAGHSERNFKKAREFHPERWLDEPDSEFKDDDRSAVQPFSYGQRGCIGRSMAYA
                      EMSLTMAKLVWYFDWELDEPDNDWWNQQGTYLVWEKLPLQVKLTPVSDVVE"
+                     /Pfam="p450"
      CDS             join(6688..7120,7171..7559,7607..8004,8062..8329)
                      /codon_start=1
                      /gene="alt4"
                      /product="FAD-linked oxidoreductase Alt4"
-                     /label=alt4
+                     /label="alt4"
                      /note="revised sequence"
                      /inference="non-experimental evidence, no additional
                      details recorded"
@@ -97,11 +100,12 @@ FEATURES             Location/Qualifiers
                      MMGAACVERFDLKTTREFFESVKSLSEEWEDRGWFSAMFECLPDQRVREISDDATAFPW
                      RAGSNHFLMLNATPKRMEDRKVFEDHLNYWKRRFIETSGYGRLQQYVSYGNGTSTMKDP
                      PEALYGYEPWRLEKLRNLKQKYDPDNVFRWYQPLLEP"
+                     /Pfam="FAD_binding_4, BBE"
      CDS             join(9369..9553,9614..10172,10239..10624,10675..17200)
                      /codon_start=1
                      /gene="alt5"
                      /product="polyketide synthase Alt5"
-                     /label=alt5
+                     /label="alt5"
                      /experiment="experimental evidence, no additional details
                      recorded"
                      /protein_id="BAD83684.1"
@@ -149,6 +153,8 @@ FEATURES             Location/Qualifiers
                      PSQHPGQVMCGLPFNEHDDAWYWMADARFAALRNVAAGSAANAGQAISLREELTRCGTV
                      NEEAVQLITAAIAQRLASLMMIPEADIDAGRPLSAYGVDSLVAVEVRNWVAREMAVEVS
                      VFDVMQNVPMTQLAQNLAEKSKLLLGQA"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_DH, PKS_NRPS_MT, fPKS_ER,
+                     fPKS_KR, ACP_PCP"
 ORIGIN
         1 ctaatgccgt ggctttatcg tgaccatgag cggcttcttc tcccacacca aatacgactt
        61 ttgtgtgatc caccaattcc cagagttgcg gctcaaggag atatcaaaat tccagaacag

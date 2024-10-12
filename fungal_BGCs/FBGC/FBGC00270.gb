@@ -1,32 +1,32 @@
-LOCUS       FBGC00270       55907 bp DNA     linear   UNA 10-FEB-2023
+LOCUS       FBGC00270              55907 bp    DNA     linear   UNA 10-FEB-2023
 DEFINITION  botcinin A/botrylactone.
 ACCESSION   FBGC00270
-VERSION     .
+VERSION     FBGC00270
 KEYWORDS    .
 SOURCE      Botrytis cinerea B05.10
   ORGANISM  Botrytis cinerea B05.10
+            .
 REFERENCE   1  (bases 1 to 55907)
-  AUTHORS   Dalmais B, Schumacher J, Moraga J, LE Pecheur P, Tudzynski B, 
+  AUTHORS   Dalmais B, Schumacher J, Moraga J, LE Pecheur P, Tudzynski B,
             Collado IG, Viaud M.
-  TITLE     The Botrytis cinerea phytotoxin botcinic acid requires two 
-            polyketide synthases for production and has a redundant role in 
+  TITLE     The Botrytis cinerea phytotoxin botcinic acid requires two
+            polyketide synthases for production and has a redundant role in
             virulence with botrydial.
   JOURNAL   Mol Plant Pathol 2011;12:564-79
-  PUBMED    21722295
+   PUBMED   21722295
 REFERENCE   2  (bases 1 to 55907)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Feb 10, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1111/j.1364-3703.2010.00692.x"; journalName: "Mol Plant Pathol";
-            date: "2011"; volume: "12"; pages: "564-79"
+  JOURNAL   Exported Feb 10, 2023 from SnapGene 6.2.1 https://www.snapgene.com
 COMMENT     ##Genome-Assembly-Data-START##
             Assembly Method        :: HGAP v. JAN-2015
             Expected Final Version :: yes
             Genome Coverage        :: 35.0x
             Sequencing Technology  :: PacBio
             ##Genome-Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1111/j.1364-3703.2010.00692.x"; journalName: "Mol Plant Pathol";
+            date: "2011"; volume: "12"; pages: "564-79"
 FEATURES             Location/Qualifiers
      source          1..55907
                      /chromosome="BCIN01"
@@ -34,7 +34,7 @@ FEATURES             Location/Qualifiers
                      /mol_type="genomic DNA"
                      /country="Germany: Munster"
                      /collected_by="P. Buettner"
-                     /collection_date=1995
+                     /collection_date="1995"
                      /db_xref="taxon:332648"
                      /mating_type="MAT1-1"
                      /organism="Botrytis cinerea B05.10"
@@ -43,7 +43,7 @@ FEATURES             Location/Qualifiers
                      /gene="Bcboa1"
                      /locus_tag="BCIN_01g00010"
                      /product="short-chain dehydrogenase/reductase BcBOA1"
-                     /label=BcBOA1
+                     /label="BcBOA1"
                      /protein_id="ATZ45177.1"
                      /translation="MVRVAVAGGTGGVGYAIVDALKAQTEHEFIVLSRTESPEYAAKNN
                      VKVVSIDYSDVSQISKILDEHHIHTVISALCIVSKEHSDSQLNLVRGAAGSQSVKRFVP
@@ -51,13 +51,14 @@ FEATURES             Location/Qualifiers
                      IRFFDIPSRTSVGIGSGTVPLVMTHTRDVGRFVVASLSLPKWENRSFIVGDRQSWHDVI
                      NIAGKITGEKWTITDEPSKILSGQVIEAPAHRAAYSASLKEHGDWFESGTFSFDPKAPD
                      SVYLNELFPEIIPLTVEDGLKTLISASSS"
-     CDS             join(1646..1898,2006..2202,2256..2582,2640..2949,3006..3104,
-                     3155..3417,3475..3615)
+                     /Pfam="NmrA"
+     CDS             join(1646..1898,2006..2202,2256..2582,2640..2949,
+                     3006..3104,3155..3417,3475..3615)
                      /codon_start=1
                      /gene="Bcboa2"
                      /locus_tag="BCIN_01g00020"
                      /product="FAD-dependent monooxygenase BcBOA2"
-                     /label=BcBOA2
+                     /label="BcBOA2"
                      /protein_id="ATZ45178.1"
                      /translation="MSSEKMPIETLQADEHRFAIILGAGAAGIIQGCTFIREKTLPLEE
                      FQILERQSAFGGVWWKNTYPGAACDIPSHEYQISFALNPYWSRTFAPQPEIQKYFEDVA
@@ -69,13 +70,14 @@ FEATURES             Location/Qualifiers
                      DDFPNYFNFLGPNSSSFETSVMELFELQAHHNSIATEYLFQKNVGTFRYAIMPKEERVR
                      SWTLSLRPGQAKLPPANPNCKSYYRSKIGHVYRYPYPYWQYKALIAKLDFKRDWVLLQQ
                      RIGQKEVKVLEF"
-     CDS             complement(join(4456..5351,5408..5453,5513..5853,5908..5957,
-                     6022..6134,6190..6264))
+                     /Pfam="FMO-like"
+     CDS             complement(join(4456..5351,5408..5453,5513..5853,
+                     5908..5957,6022..6134,6190..6264))
                      /codon_start=1
                      /gene="Bcboa3"
                      /locus_tag="BCIN_01g00030"
                      /product="cytochrome P450 monooxygenase BcBOA3"
-                     /label=BcBOA3
+                     /label="BcBOA3"
                      /protein_id="ATZ45179.1"
                      /translation="MFAVELLERLGLPTIYLWIGFVLVVLLAYPTYFAIYNLYFHPLRK
                      FPGPLIARSSYIWYAKNWIGGRWPHALSDLHEKYGQVVRIAPDELAFSSAQSWRDIYGH
@@ -86,13 +88,14 @@ FEATURES             Location/Qualifiers
                      FTDKSQINVEGTLPLEYLFAVIEETLRILPPVPFGLPRTCPGAVIDGHVVPEGTIVSVS
                      PYTASHDVRYWHDPEGWHPERWLPSDHPLHNPVFDQDNKEASKPFSTGPRVCLGVNLAY
                      IELRMTLARLLFEFDMELLSKPVDWNTELDFFQFWKKVETRVKFTSLH"
-     CDS             join(6653..6838,6892..7563,7615..7621,7682..7713,7776..7950,
-                     8008..8423)
+                     /Pfam="p450"
+     CDS             join(6653..6838,6892..7563,7615..7621,7682..7713,
+                     7776..7950,8008..8423)
                      /codon_start=1
                      /gene="Bcboa4"
                      /locus_tag="BCIN_01g00040"
                      /product="cytochrome P450 monooxygenase BcBOA4"
-                     /label=BcBOA4
+                     /label="BcBOA4"
                      /protein_id="ATZ45180.1"
                      /translation="MIHFADLGAISLANSNTVIAGCIVFALYYLFQFLNSKKLNFDAPV
                      IGDASDLRSALINGYNQCPNTPFLLPTAAHPTIILPIKYIDEIKSLPPDKISFLEEFRD
@@ -103,12 +106,13 @@ FEATURES             Location/Qualifiers
                      KMDSFLKESQRMNPLNLVTMNRKMMDTVQLSDGTILPKGSFLGMAAGSIGFDPRIFENP
                      DEFDGFRFEKLRQQEGAENKFQLVTTGKDSLAFGHGTHSCPGRFFASNEIKTMLIELLR
                      NYDFQLLPGTERPKNLKSDMSLVVDPTAQIQIKERCR"
+                     /Pfam="p450"
      CDS             complement(8792..9919)
                      /codon_start=1
                      /gene="Bcboa5"
                      /locus_tag="BCIN_01g00050"
                      /product="trans-acting enoylreductase BcBOA5"
-                     /label=BcBOA5
+                     /label="BcBOA5"
                      /protein_id="ATZ45181.1"
                      /translation="MQAVIQTGPGTLQLTENVPKPSVEPGSRKVLVKVHAVALNHSDWK
                      MVDFSAKPGAISGYDMAGVLEAIDDSMNSDLAVGDRVLGVTSIHGGAFAEYVVTDGDLL
@@ -117,12 +121,13 @@ FEATURES             Location/Qualifiers
                      CFDYHSQGCGAMIKQYTYNRLEYALDCITTASSMRLCYEAIGATGGKYVSLDPFNARVQ
                      RSRADVKPFFCYALTIFGLPIELSGEFARGAKPEDRKLAEKFVKIAEKLIEKGRLKAHP
                      TMLKSGGLGGIASSIDLLRKGKVSGSKLVFDVVGN"
+                     /Pfam="fPKS_ER, ADH_zinc_N"
      CDS             join(10359..11165,11221..16799,16868..17219,17277..17921)
                      /codon_start=1
                      /gene="Bcboa6"
                      /locus_tag="BCIN_01g00060"
                      /product="polyketide synthase BcBOA6"
-                     /label=BcBOA6
+                     /label="BcBOA6"
                      /protein_id="ATZ45182.1"
                      /translation="MVVPNEPIAVIGTGCRFPGGASSPSKLWNLLHHPYDLTQKVPSSR
                      FNIKAFYHPNGEHHGTTNATKSYFLNEDPTTFDAPFFNINPREAEALDPQQRLLLETVY
@@ -166,13 +171,15 @@ FEATURES             Location/Qualifiers
                      RSYNYLTIPEHEFLQVLSEAVQSGHPASNRCPEIIIGMVAPLTGEERDKPRWHANPRFA
                      FVMNDFTNEESDSQGEVEVPTKEQLAKAQTKDEVLGVMQKCFAKQLELILQADSGSIDE
                      SAPLTQLGIDSLIAVEIRSWFLKEAGVSLPVLKILGGAAAKDLCELACEEYKVTE"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_DH, PKS_NRPS_MT, fPKS_KR,
+                     ACP_PCP"
      CDS             complement(join(33967..34154,34215..34472,34534..35467,
                      35519..35746))
                      /codon_start=1
                      /gene="Bcboa7"
                      /locus_tag="BCIN_01g00070"
                      /product="cytochrome P450 monooxygenase BcBOA7"
-                     /label=BcBOA7
+                     /label="BcBOA7"
                      /protein_id="ATZ45183.1"
                      /translation="MYQRLKEINFRKPLELEWNSIFLILGFFVLAAILIAWTQRPDEEL
                      LLERLKDLDLPIVGVGPNINVSESLEIGTQTYPNSPYVVPADRVPIVILPNSAINIIKS
@@ -184,13 +191,14 @@ FEATURES             Location/Qualifiers
                      LPSGHILPSGTFCGVDAQMTNRTVPYYEASPITHQQTPFDTFDGFRFSKLRSVPGNENR
                      YQFVTSSTESLNFGHGTHACPGRFFASNEIKIAFAEVLLKWDVRLKPGEGRPANLYTDT
                      NVMPNMKGEVQMRRRELI"
+                     /Pfam="p450"
      CDS             complement(join(36203..36926,36984..37594,37653..38304,
                      38372..38754))
                      /codon_start=1
                      /gene="Bcboa8"
                      /locus_tag="BCIN_01g00080"
                      /product="FAD-dependent monooxygenase BcBOA8"
-                     /label=BcBOA8
+                     /label="BcBOA8"
                      /protein_id="ATZ45184.1"
                      /translation="MNISFVDHSINDKKKTISRPNPSINIAIMTQTSQMKVVIVGGSIA
                      GLTLAHCLSRYGIDYIILERRHDIAPQVGASVSLMPNGSRILDQLGMFDAVSENIEPCV
@@ -206,6 +214,7 @@ FEATURES             Location/Qualifiers
                      YLTMFLRILKFIVKDTTRLNRIYKPTADLSYLRISYSISILICAAFYLYGSLSSSTSIA
                      FLTQELQPPIQPIQAILGAFSELWAAKQTSLYGAAFYWTFLHFADLKFVGKSKQSWLLI
                      LTIFLSSTFLAGPGVGLIVMWAWREEIMAKKHVVPE"
+                     /Pfam="FAD_binding_3"
      CDS             complement(join(39722..40537,40593..40901,40953..41115,
                      41164..41858,41908..45764,45814..45937,45986..46508,
                      46562..47030,47085..47121))
@@ -213,7 +222,7 @@ FEATURES             Location/Qualifiers
                      /gene="Bcboa9"
                      /locus_tag="BCIN_01g00090"
                      /product="polyketide synthase BcBOA9"
-                     /label=BcBOA9
+                     /label="BcBOA9"
                      /protein_id="ATZ45185.1"
                      /translation="MSFPEPVAIIGMGCRFPGDSDTPDEFWKMLAEERSGLSRPPLSRW
                      NIDGFHANKARPGSLTPEGGYFINEDIWKFDPAFFGIVQEEAKAMDPQQRKLLECVYES
@@ -255,25 +264,27 @@ FEATURES             Location/Qualifiers
                      EAGVIDLIDTAMMKAPSSSWNLDPLANSFIVTGVEPLQLSANLDIDSIPFWRQPRIGPV
                      FNAVLAKKSGNETGPGQNKRRLLLPDILEMIVEKFSQTFNVAVEDIDPGTEVVRFGMDS
                      MIGTSLRTWCYKTLGADIAASDFMSLNLTADSLAKKIYDIRKG"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_DH, fPKS_ER, fPKS_KR, ACP_PCP"
      CDS             complement(join(47740..47856,47914..48091,48156..48420,
                      48471..48723))
                      /codon_start=1
                      /gene="Bcboa10"
                      /locus_tag="BCIN_01g00100"
                      /product="thioesterase BcBOA10"
-                     /label=BcBOA10
+                     /label="BcBOA10"
                      /protein_id="ATZ45186.1"
                      /translation="MENPVLIQKAPRRYKSAIPLFLFHDGGGTVLPYYFLESLNRNVWG
                      VSYPHLNDGGTFEHGIKGMGELYAGYIRGKVSRGKVLLGGWSAGGSIAIQVAKCLENIP
                      ELCVAGIILLDTPFPDFPDWRPKNSPPVQFHIPVVPDQTAKSRLAQQQAVNDIIHALSV
                      WELPTWENGRRPPPAVFIRALKVVPTEKVVEVDWFREEYALGWQKYPYNFIVEELRVDG
                      DHFSIFTPSYLPELSTKLREALDLLDSKPETGILLDSKLNSSIVISAL"
+                     /Pfam="Thioesterase"
      CDS             49093..50505
                      /codon_start=1
                      /gene="Bcboa11"
                      /locus_tag="BCIN_01g00110"
                      /product="acyltransferase BcBOA11"
-                     /label=BcBOA11
+                     /label="BcBOA11"
                      /protein_id="ATZ45188.1"
                      /translation="MASATKTLITELTPLDHLMPRTYVIGMNYIWPISRRSNIEDIHKH
                      LKRGLEQTIKEIPFLGGSVVPTGSPGKFCIETLPGDFEGNQLIFNDLRTGSGNSWPNSY
@@ -284,23 +295,25 @@ FEATURES             Location/Qualifiers
                      HPKSVFEAALAISESRNDFNDKHIRDIIGFLDGLGDITQERVSYAKTLNPILVISNLKD
                      MGFYEQDWGGSLGFPDALRMANPFLDYIPRVVPMPAQRNGNVYLIVWIEKSAAKRLRED
                      ETWNKWITPVFE"
+                     /Pfam="Transferase"
      CDS             51296..51958
                      /codon_start=1
                      /gene="Bcboa12"
                      /locus_tag="BCIN_01g00120"
                      /product="hypothetical protein BcBOA12"
-                     /label=BcBOA12
+                     /label="BcBOA12"
                      /protein_id="ATZ45189.1"
                      /translation="MTSHRSESKATIKVRPPPSFIGGVQDKSWTPTPENWLYGAWYMTH
                      TSQQYYWERTKNFVIQYEPVMNGVWPCTNQELVSLTPLNQPERIYTAFGIDSPIAGLDD
                      AWLCQCTGHLSHISDHVAFLAWGADLQNVDWVVLYSTPLPGATVGLPAQVAIMSRERFG
                      PDNTMVEAIKEALCAAGNSELTKLVDNLRPLLQEDLGSGRPTCEYHVVQNVDSLTRF"
+                     /Pfam="VidS"
      CDS             join(53620..53700,53755..53888,53957..55466)
                      /codon_start=1
                      /gene="Bcboa13"
                      /locus_tag="BCIN_01g00130"
                      /product="transcription factor BcBOA13"
-                     /label=BcBOA13
+                     /label="BcBOA13"
                      /protein_id="ATZ45191.1"
                      /translation="MLIMASNNRPQKPPKLRHACNECHASKVRCSGERTGCRRCVYNQQ
                      KCTYSVSMVGKVQGHRRRAAVTGTAPRSGAQSLNINTSTEIISVANADVIHDEANGNDL
@@ -312,6 +325,7 @@ FEATURES             Location/Qualifiers
                      ELAQMFDSTLASNTARSTSPEDFFSIHSEIQPSNTCDTSLSTDFIPLMVYMIALKCIHD
                      LYSQACFIFTQDDHRSRSLSTPSPRNTPSTSNSPFSNPFGLPQLDFGTFKIDIADQRRL
                      FSEIIARELGNCLSACTRLRSYFLMQPGDISTSTGLIEEMFLGIEEGLQSMIKRVKI"
+                     /Pfam="EqxR, Zn_clus"
 ORIGIN
         1 atggtcagag tggcagtcgc aggcggaact ggtggggttg gttacgctat cgttgacgcc
        61 ctcaaagcac aaacagaaca cgaattcatt gttttgagta gaacggtaat tcatcccaaa

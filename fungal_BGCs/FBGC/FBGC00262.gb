@@ -1,31 +1,31 @@
-LOCUS       FBGC00262       29929 bp DNA     linear   UNA 28-JAN-2023
+LOCUS       FBGC00262              29929 bp    DNA     linear   UNA 28-JAN-2023
 DEFINITION  phomacin D.
 ACCESSION   FBGC00262
-VERSION     .
+VERSION     FBGC00262
 KEYWORDS    .
 SOURCE      Parastagonospora nodorum SN15
   ORGANISM  Parastagonospora nodorum SN15
+            .
 REFERENCE   1  (bases 1 to 29929)
   AUTHORS   Li H, Wei H, Hu J, Lacey E, Sobolev AN, Stubbs KA, Solomon PS, Chooi
             YH.
-  TITLE     Genomics-Driven Discovery of Phytotoxic Cytochalasans Involved in 
+  TITLE     Genomics-Driven Discovery of Phytotoxic Cytochalasans Involved in
             the Virulence of the Wheat Pathogen Parastagonospora nodorum.
   JOURNAL   ACS Chem Biol 2020;15:226-233
-  PUBMED    31815421
+   PUBMED   31815421
 REFERENCE   2  (bases 1 to 29929)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Jan 28, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1021/acschembio.9b00791"; journalName: "ACS Chem Biol"; date: 
+  JOURNAL   Exported Jan 28, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1021/acschembio.9b00791"; journalName: "ACS Chem Biol"; date:
             "2020"; volume: "15"; pages: "226-233"
-COMMENT     This project was sequenced and assembled by the Broad Institute of 
-            Harvard/MIT, and Calhoun annotation was added to the scaffolds in 
+            This project was sequenced and assembled by the Broad Institute of
+            Harvard/MIT, and Calhoun annotation was added to the scaffolds in
             July 2006 by the Broad.  The annotation was updated in November 2007
-            by the Australian Centre for Necrotrophic Fungal Pathogens (ACNFP), 
-            based on additional EST evidence and retrained gene predictions.  
-            The ACNFP is responsible for the assembled genome sequence and 
+            by the Australian Centre for Necrotrophic Fungal Pathogens (ACNFP),
+            based on additional EST evidence and retrained gene predictions.
+            The ACNFP is responsible for the assembled genome sequence and
             annotation.
 FEATURES             Location/Qualifiers
      source          1..29929
@@ -37,7 +37,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="SNOG_00306"
                      /product="cytochrome P450 monooxygenase PhmB"
-                     /label=phmB
+                     /label="phmB"
                      /note="gene prediction version 2"
                      /inference="ab initio prediction:same species:1.0"
                      /protein_id="EAT91801.1"
@@ -51,11 +51,12 @@ FEATURES             Location/Qualifiers
                      TRKPLQLSTGPKLPAGTIFCVDVHHINNSSALFPAPTRYDPHRFLNKREQPGAEHRHQF
                      VSTGPMDPNFGDGTQACPGRFWANNTIKVCLVHVLTRYRLKLKEGHTRPQPVCMPNGSW
                      VPDLKAEVIFQSLD"
+                     /Pfam="p450"
      CDS             complement(join(2273..2325,2383..4024))
                      /codon_start=1
                      /locus_tag="SNOG_00307"
                      /product="transcription factor PhmR"
-                     /label=phmR
+                     /label="phmR"
                      /note="gene prediction version 2"
                      /inference="ab initio prediction:same species:1.0"
                      /protein_id="EAT91802.1"
@@ -69,12 +70,13 @@ FEATURES             Location/Qualifiers
                      WRILHSYLERRNESPNPLSFGSWLGDNLTYGLARKPDMTAKAAVLLCYTNLLWIYETVF
                      FVICHTLECSPSLAPAIKLPQTVPGLEINGFVLQNHPSLQIKILTQVSSYMLDSVEKAL
                      QNMLSDSTFQALLETVLQQEGLQYSPGEETGMISVRCLIDKVNKMLD"
+                     /Pfam="EqxR"
      CDS             join(5723..6174,6280..6710,6769..12972,13023..18064)
                      /codon_start=1
                      /locus_tag="SNOG_00308"
-                     /product="polyketide synthase-nonribosomal peptide 
+                     /product="polyketide synthase-nonribosomal peptide
                      synthetase PhmA"
-                     /label=phmA
+                     /label="phmA"
                      /note="gene prediction version 2"
                      /inference="ab initio prediction:same species:1.0"
                      /protein_id="EAT91803.2"
@@ -147,13 +149,14 @@ FEATURES             Location/Qualifiers
                      TGAEAPALDLMTNLLQFSKTMSKVPYSPTWSGTLDFVSVESVAHDIVEEVKNDSAHSSG
                      MVRFMYESGDLEIAVQDMQGSLAKQTGEEFDKVDVETWTREAVSEGLDELVAAYLSTAA
                      NLPIMFPRLIRDNKRRRIEQKVQEQPSRGSSLREVVGRWLWSRQ"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_DH, PKS_NRPS_MT, fPKS_KR,
+                     ACP_PCP, Condensation, AA-adenyl-dom, fPKS_R"
      CDS             19084..20835
                      /codon_start=1
                      /locus_tag="SNOG_00309"
                      /product="FAD-linked oxidoreductase PhmC"
-                     /label=phmC
-                     /note="gene prediction version 2
-                     revised sequence"
+                     /label="phmC"
+                     /note="gene prediction version 2 revised sequence"
                      /inference="ab initio prediction:same species:1.0"
                      /protein_id="EAT91804.2"
                      /translation="MLSSILLTIFCAFLSSTGAANVADWNSLNKTLKGQLKGATPLASP
@@ -167,13 +170,13 @@ FEATURES             Location/Qualifiers
                      KAYAYGPHSSTSTTQAWRSSAALLTHSVGWAYNASMSDKKKVARLLTEASDRASRLWPD
                      GASYANEAHPWVKDWKSAFWGGNYGKLKQIKEKYDSRGLLGCWHCVGSETGGTADTVGG
                      RCLGKLI"
+                     /Pfam="FAD_binding_4, BBE"
      CDS             complement(21229..22461)
                      /codon_start=1
                      /locus_tag="SNOG_00310"
                      /product="Diels-Alderase PhmD"
-                     /label=phmD
-                     /note="gene prediction version 2
-                     revised sequence"
+                     /label="phmD"
+                     /note="gene prediction version 2 revised sequence"
                      /inference="ab initio prediction:same species:1.0"
                      /protein_id="EAT91805.1"
                      /translation="MRLFRVFFFVSSVKAWSYGWPEEWGSKWLPTGSQTVIGSSDSCKT
@@ -184,13 +187,13 @@ FEATURES             Location/Qualifiers
                      KGREYPSIALFDNGEPVFSSQNTEESDVNDYFSFTKTYDGKVTGTLRDKVTGYELELVS
                      PGRQLHWTFLIDHANLAFEYILGRGTGGSGFSAWVNGGRMGREQFKGIALTEALTFPKK
                      SPLFRPQYSED"
+                     /Pfam="Fsa2"
      CDS             complement(join(22995..23529,23581..24158))
                      /codon_start=1
                      /locus_tag="SNOG_00311"
                      /product="trans-acting enoylreductase PhmE"
-                     /label=phmE
-                     /note="gene prediction version 2
-                     revised sequence"
+                     /label="phmE"
+                     /note="gene prediction version 2 revised sequence"
                      /inference="ab initio prediction:same species:1.0"
                      /protein_id="EAT91806.2"
                      /translation="MSRVRYNNSVALPATQTVIKQNEDGLLTIQKDFPLPEIRSDRLLV
@@ -200,11 +203,12 @@ FEATURES             Location/Qualifiers
                      SPTCAQDIRAYTKNRLAHIIDPIVEAKTMQLCYAAMGRAGGKYCALEAYADELCTRKVV
                      KPELVMGMAILGRKVALNHGYGSEADAGKRAFGIEWYREMQDLLDAGRLMTHPVRVVPG
                      RFDGIMKGLQMLKTKQVSGEKLIVQLGSNN"
+                     /Pfam="fPKS_ER"
      CDS             complement(join(24705..24822,24877..25775))
                      /codon_start=1
                      /locus_tag="SNOG_00312"
                      /product="short-chain dehydrogenase/reductase PhmF"
-                     /label=phmF
+                     /label="phmF"
                      /note="gene prediction version 2"
                      /inference="ab initio prediction:same species:1.0"
                      /protein_id="EAT91807.1"
@@ -214,11 +218,12 @@ FEATURES             Location/Qualifiers
                      GRAIGEPAYLEFVSSTGHGDVTTESVRDGKSILKKVNDPANFKFTAQYQITKLLEIWAM
                      EHIAAKTSPKEVIVNSACPGLCKSSIGRDFGIVLRGLDAVFKGIFAQTAEAGSRILVSA
                      VTAGTDSHGGFWALDAVSVPGELVTSDEGKALSKQFWAEVLDVLRKQNADVEAILNG"
+                     /Pfam="adh_short"
      CDS             complement(join(26223..26861,26881..27570))
                      /codon_start=1
                      /locus_tag="SNOG_00313"
                      /product="hydrolase PhmG"
-                     /label=phmG
+                     /label="phmG"
                      /note="gene prediction version 2"
                      /inference="ab initio prediction:same species:1.0"
                      /protein_id="EAT91808.1"
@@ -230,13 +235,13 @@ FEATURES             Location/Qualifiers
                      PFYDMWDFGTKHISGLFMSAWTGGWIGDDWVDRIIRLGMRTNFQLRWEVGVTAAFWGIA
                      SPAKILKEMSKYSLKGGYLEKVQCPVLVTGAGKSLYFDTEEHTMKVFDDLGHLEERWRR
                      VWMPNRPEEGGLQAKIGAFGLANMKAYGFLDEVFGIRRVTVES"
+                     /Pfam="Abhydrolase_6"
      CDS             complement(join(28097..29209,29262..29583,29637..29929))
                      /codon_start=1
                      /locus_tag="SNOG_00314"
                      /product="major facilitator superfamily transporter PhmH"
-                     /label=phmH
-                     /note="gene prediction version 2
-                     revised sequence"
+                     /label="phmH"
+                     /note="gene prediction version 2 revised sequence"
                      /inference="ab initio prediction:same species:1.0"
                      /protein_id="EAT91809.2"
                      /translation="MVSGTDTTEVGATTKAPPSEGTEGILDDHSSNSQPQAEKPAKTHY
@@ -249,6 +254,7 @@ FEATURES             Location/Qualifiers
                      QGSSKAEWVIWQLLFGVSGGMMISTTLQAVQAALPESEVATSVGTWSFVRSLGTIWGLS
                      IPAAIFNNRFDQLSTQFDPSIRALFTRGQAYEHGTAKFIQSFDPETRQIVIQAYIEALK
                      RVWQIGIVFGGVTFLSVFFEKEIHLRTELKTDFGLDEKKKGEVAKEENDVENNGTTVQ"
+                     /Pfam="MFS_1"
 ORIGIN
         1 ctaatctaag ctctggaata ttacttctgc tttgagatca ggcacccaac tcccgttcgg
        61 catgcacaca ggctgtggcc tagtatgccc ttccttcaac ttcagccgat acctcgtcaa

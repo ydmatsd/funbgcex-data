@@ -1,50 +1,51 @@
-LOCUS       FBGC00255        7191 bp DNA     linear   UNA 28-JAN-2023
+LOCUS       FBGC00255               7191 bp    DNA     linear   UNA 28-JAN-2023
 DEFINITION  tenuazonic acid.
 ACCESSION   FBGC00255
-VERSION     .
+VERSION     FBGC00255
 KEYWORDS    WGS; RefSeq.
 SOURCE      Gloeophyllum trabeum ATCC 11539
   ORGANISM  Gloeophyllum trabeum ATCC 11539
+            .
 REFERENCE   1  (bases 1 to 7191)
-  AUTHORS   Motoyama T, Nogawa T, Shimizu T, Kawatani M, Kashiwa T, Yun CS, 
+  AUTHORS   Motoyama T, Nogawa T, Shimizu T, Kawatani M, Kashiwa T, Yun CS,
             Hashizume D, Osada H.
-  TITLE     Fungal NRPS-PKS Hybrid Enzymes Biosynthesize New gamma-Lactam 
-            Compounds, Taslactams A-D, Analogous to Actinomycete Proteasome 
+  TITLE     Fungal NRPS-PKS Hybrid Enzymes Biosynthesize New gamma-Lactam
+            Compounds, Taslactams A-D, Analogous to Actinomycete Proteasome
             Inhibitors.
   JOURNAL   ACS Chem Biol 2023
-  PUBMED    36692171
+   PUBMED   36692171
 REFERENCE   2  (bases 1 to 7191)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Jan 28, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1021/acschembio.2c00830"; journalName: "ACS Chem Biol"; date: 
+  JOURNAL   Exported Jan 28, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     ##ata-START##
+            Assembly Method       :: Newbler v. 2.5
+            Assembly Name         :: Glotr1_1
+            Genome Coverage       :: 54x
+            Sequencing Technology :: Sanger; 454; Illumina
+            ##ata-END##
+            ##Metadata-START##
+            Organism Display Name :: Gloeophyllum trabeum ATCC 11539
+            GOLD Stamp ID         :: Gi04922
+            ##Metadata-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1021/acschembio.2c00830"; journalName: "ACS Chem Biol"; date:
             "2023"
-COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final 
+            PROVISIONAL REFSEQ: This record has not yet been subject to final
             NCBI review. The reference sequence is identical to KB469306.
             URL -- http://genome.jgi.doe.gov/Glotr1_1
             JGI Project ID: 64553
             The DNA was provided by Dimitrios Floudas(dfloudas@clarku.edu)
-            The strain is available from USDA Forest Products Laboratory 
+            The strain is available from USDA Forest Products Laboratory
             Contacts: David Hibbett (dhibbett@clarku.edu)
             Assembly and annotation done by JGI.
-            The JGI and collaborators endorse the principles for the 
-            distribution and use of large scale sequencing data adopted by the 
-            larger genome sequencing community and urge users of this data to 
+            The JGI and collaborators endorse the principles for the
+            distribution and use of large scale sequencing data adopted by the
+            larger genome sequencing community and urge users of this data to
             follow them. It is our intention to publish the work of this project
-            in a timely fashion and we welcome collaborative interaction on the 
-            project and analysis. 
+            in a timely fashion and we welcome collaborative interaction on the
+            project and analysis.
             (http://www.genome.gov/page.cfm?pageID=10506376).##Genome-Assembly-D
-            ata-START##
-            Assembly Method       :: Newbler v. 2.5
-            Assembly Name         :: Glotr1_1
-            Genome Coverage       :: 54x
-            Sequencing Technology :: Sanger; 454; Illumina 
-            ##Genome-Assembly-Data-END####Metadata-START##
-            Organism Display Name :: Gloeophyllum trabeum ATCC 11539
-            GOLD Stamp ID         :: Gi04922
-            ##Metadata-END##
 FEATURES             Location/Qualifiers
      source          1..7191
                      /chromosome="Unknown"
@@ -60,9 +61,9 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="pks-nrps1"
                      /locus_tag="GLOTRDRAFT_9220"
-                     /product="nonribosomal peptide synthetase-polyketide 
+                     /product="nonribosomal peptide synthetase-polyketide
                      synthase GtTAS1"
-                     /label=GtTAS1
+                     /label="GtTAS1"
                      /note="hypothetical polyketide synthase - nonribosomal
                      peptide synthetase"
                      /db_xref="GeneID:19309366"
@@ -109,6 +110,8 @@ FEATURES             Location/Qualifiers
                      LRNLFDVTSAEADAQIGPGSALEMSLSAHAAAVETLTAEITAALALVDGSQRAAVERRD
                      WKKLLTIYAENVLALGEYSQQGPIPGLETRAPSLYVRAGSRSSEHVDSWGGVLEGMRVE
                      EVDGGHAGVCSGERAGRVAAFLAEMAA"
+                     /Pfam="NRPS_C, AA-adenyl-dom, ACP_PCP, PKS_KS,
+                     Thioesterase"
 ORIGIN
         1 atgcagttca tcaccggtcc aaagctcaat ggtgcggctg cttcgacggg agcgctgtct
        61 ccagaagtca tcgccgtcta tccgatgacg aaggcgcaag agagcctttg gctcgcctac
