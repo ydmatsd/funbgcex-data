@@ -1,38 +1,38 @@
-LOCUS       FBGC00367       22168 bp DNA     linear   UNA 18-FEB-2023
+LOCUS       FBGC00367              22168 bp    DNA     linear   UNA 18-FEB-2023
 DEFINITION  fellutamide B.
 ACCESSION   FBGC00367
-VERSION     .
+VERSION     FBGC00367
 KEYWORDS    .
 SOURCE      Aspergillus nidulans FGSC A4
   ORGANISM  Aspergillus nidulans FGSC A4
+            .
 REFERENCE   1  (bases 1 to 22168)
-  AUTHORS   Yeh HH, Ahuja M, Chiang YM, Oakley CE, Moore S, Yoon O, Hajovsky H, 
+  AUTHORS   Yeh HH, Ahuja M, Chiang YM, Oakley CE, Moore S, Yoon O, Hajovsky H,
             Bok JW, Keller NP, Wang CC, Oakley BR.
-  TITLE     Resistance Gene-Guided Genome Mining: Serial Promoter Exchanges in 
+  TITLE     Resistance Gene-Guided Genome Mining: Serial Promoter Exchanges in
             Aspergillus nidulans Reveal the Biosynthetic Pathway for Fellutamide
             B, a Proteasome Inhibitor.
   JOURNAL   ACS Chem Biol 2016;11:2275-84
-  PUBMED    27294372
+   PUBMED   27294372
 REFERENCE   2  (bases 1 to 22168)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Feb 18, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1021/acschembio.6b00213"; journalName: "ACS Chem Biol"; date: 
+  JOURNAL   Exported Feb 18, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     ##Genome-Annotation-Data-START##
+            Annotation Provider :: INSDC submitter
+            Annotation Status   :: Full annotation
+            Annotation Pipeline :: Eukaryotic Annotation Propagation Pipeline
+            ##Genome-Annotation-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1021/acschembio.6b00213"; journalName: "ACS Chem Biol"; date:
             "2016"; volume: "11"; pages: "2275-84"
-COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final 
-            NCBI review. The reference sequence is identical to BN001302. 
+            PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to BN001302.
             Aspergillus nidulans FGSC A4 CADRE,
             updated by Eurofungbase with contributions from
             CADRE (http://www.cadre-genomes.org.uk),
             AspGD (http://www.aspergillusgenome.org) and
-              Ensembl Genomes 
-            (http://www.ensemblgenomes.org).##Genome-Annotation-Data-START##
-            Annotation Provider :: INSDC submitter
-            Annotation Status   :: Full annotation
-            Annotation Pipeline :: Eukaryotic Annotation Propagation Pipeline 
-            ##Genome-Annotation-Data-END##
+            Ensembl Genomes
 FEATURES             Location/Qualifiers
      source          1..22168
                      /chromosome="II"
@@ -45,7 +45,7 @@ FEATURES             Location/Qualifiers
                      /locus_tag="ANIA_03496"
                      /old_locus_tag="AN3496.2; AN3496.4"
                      /product="nonribosomal peptide synthetase InpB"
-                     /label=inpB
+                     /label="inpB"
                      /note="transcript_id=CADANIAT00005261"
                      /db_xref="EnsemblGenomes-Gn:CADANIAG00005261"
                      /db_xref="EnsemblGenomes-Tr:CADANIAT00005261"
@@ -100,12 +100,13 @@ FEATURES             Location/Qualifiers
                      LYIPVTEIPLTVSGKLDRRAIKQTVESMPTEELEQYFAGESSGTRVPPSTEMEKALQRI
                      WANSLGIEVDAIGADDNFFQLGGDSVVAMHISASSRQDQSVKGLAVGDIFMHPRLADLA
                      VLLEKRPREGEGGWDEEMRDDESPFALLQEVLDLDLKDI"
+                     /Pfam="ACP_PCP, NRPS_C, AA-adenyl-dom"
      CDS             7863..12362
                      /codon_start=1
                      /locus_tag="ANIA_03495"
                      /old_locus_tag="AN3495.2; AN3495.4"
                      /product="nonribosomal peptide synthetase InpA"
-                     /label=inpA
+                     /label="inpA"
                      /note="transcript_id=CADANIAT00005262"
                      /db_xref="EnsemblGenomes-Gn:CADANIAG00005262"
                      /db_xref="EnsemblGenomes-Tr:CADANIAT00005262"
@@ -147,12 +148,13 @@ FEATURES             Location/Qualifiers
                      GGDLWLAVADAEEVATRILATTFAASGESPSVDNVEIGTTVSRFWELIKVQTGMELTQM
                      SAEDWKQAAQDFAASQESEQTFLPVLAMLQDPQMEFGVQRPANGGPPSNVNAAIRSNIK
                      TLVETGFLSGSSVSSAGRNLSNVFSRTKVNEARQAFVR"
+                     /Pfam="NRPS_C, AA-adenyl-dom, ACP_PCP, NAD_binding_4"
      CDS             complement(12705..14018)
                      /codon_start=1
                      /locus_tag="ANIA_03494"
                      /old_locus_tag="AN3494.2; AN3494.4"
                      /product="alpha/beta hydrolase InpF"
-                     /label=inpF
+                     /label="inpF"
                      /note="transcript_id=CADANIAT00005263"
                      /db_xref="EnsemblGenomes-Gn:CADANIAG00005263"
                      /db_xref="EnsemblGenomes-Tr:CADANIAT00005263"
@@ -170,12 +172,13 @@ FEATURES             Location/Qualifiers
                      SLSSAVSTTSIPSSEATILATRRLDQWEKSRSPRSNIRPRSTRRTVFSGRRSTSSSAES
                      SAASQHSDHFEATRTPTSSTSTVQMIEPTVNKEPNLAVRVVEDDTIVSGSEYEGEGWQE
                      LLLSDLLNEMLRRHGRPGRFYFVPDGEGGRLENGMRLN"
+                     /Pfam="FSH1"
      CDS             complement(join(15325..15946,16008..16033))
                      /codon_start=1
                      /locus_tag="ANIA_03493"
                      /old_locus_tag="AN3493.2; AN3493.4"
                      /product="proteasome subunit beta InpE"
-                     /label=inpE
+                     /label="inpE"
                      /note="transcript_id=CADANIAT00005264"
                      /db_xref="EnsemblGenomes-Gn:CADANIAG00005264"
                      /db_xref="EnsemblGenomes-Tr:CADANIAT00005264"
@@ -190,12 +193,13 @@ FEATURES             Location/Qualifiers
                      PKVFTIQDARDRSIVISVIGFAADGRALKERLDAIVAMYKYQHGKNIGLRACAQRVSTM
                      LYEKRFFPYQLQTMVAGIDADGQGAIYYYDPAGCIEKRSHCAAGEASSLMLPFLDSQAP
                      RLQPLSLQTAQQLVRDAYTGATERHIEVGDHLQMLVVTREGVSEQLVDLKKD"
+                     /Pfam="Proteasome"
      CDS             complement(16651..17484)
                      /codon_start=1
                      /locus_tag="ANIA_03492"
                      /old_locus_tag="AN3492.2; AN3492.4"
                      /product="transcription factor ScpR"
-                     /label=scpR
+                     /label="scpR"
                      /note="transcript_id=CADANIAT00005265"
                      /db_xref="EnsemblGenomes-Gn:CADANIAG00005265"
                      /db_xref="EnsemblGenomes-Tr:CADANIAT00005265"
@@ -209,13 +213,14 @@ FEATURES             Location/Qualifiers
                      SDPRRPARRQQPCGVGTTRPLPGCPGQGQEPSRRRTTFTDSISNPDSTIRCWDHGCEGR
                      KFSSVGNYRRHLREKNGQAKMHPCPDCGRVFTRSTARNFHRQSGTCGLIPSQLMLQMGM
                      GMQLQVQMQPVSQHSLASGHPPAFNLAPPVLLEPLADWSEPSQMDLYAASGVVFD"
+                     /Pfam="Clz7"
      CDS             complement(join(17887..18519,18572..19145,19211..19443,
                      19489..19653))
                      /codon_start=1
                      /locus_tag="ANIA_03491"
                      /old_locus_tag="AN3491.2; AN3491.4"
                      /product="major facilitator superfamily transporter InpD"
-                     /label=inpD
+                     /label="inpD"
                      /note="transcript_id=CADANIAT00005266"
                      /db_xref="EnsemblGenomes-Gn:CADANIAG00005266"
                      /db_xref="EnsemblGenomes-Tr:CADANIAT00005266"
@@ -236,12 +241,13 @@ FEATURES             Location/Qualifiers
                      GFQVPAGVGLGCALQQTLVAAQTILPMNDIPIGVSLIVLAQTLGGTIALSAADTIYTGT
                      LSSSISSRFPQINRETVLTTGNREIRNLVPAESLSVIMDLCNKAIVKTWYLSIGLAAAS
                      IIGVLGMEWRRVTPPKK"
+                     /Pfam="MFS_1"
      CDS             join(20293..20571,20630..21013,21064..21472,21525..22168)
                      /codon_start=1
                      /locus_tag="ANIA_03490"
                      /old_locus_tag="AN3490.2; AN3490.4"
                      /product="CoA ligase InpC"
-                     /label=inpC
+                     /label="inpC"
                      /note="transcript_id=CADANIAT00005267"
                      /db_xref="EnsemblGenomes-Gn:CADANIAG00005267"
                      /db_xref="EnsemblGenomes-Tr:CADANIAT00005267"
@@ -261,6 +267,7 @@ FEATURES             Location/Qualifiers
                      AYNEPGELLLKSPSIMKGYLGQETATREVFDEQGWLRTGDIAVFRLTGQDGKVTPHLDI
                      VDRKKDIMKVKGLQVAPVEIESHLAAHPAVAEVAVVGVRDEDAGERPYAFIVRSPRTMA
                      DLDEEALKADLNRHVEATLSEPHWLRKNIRFVEEFPKSSNGKPLKYKLKESLVI"
+                     /Pfam="AA-adenyl-dom"
 ORIGIN
         1 ctatatgtct ttcaaatcca agtccaacac ctcctgcagc aatgcaaatg gactctcatc
        61 gtctctcatt tcctcgtccc agccaccctc accttcccgc ggtctcttct ccagcaagac

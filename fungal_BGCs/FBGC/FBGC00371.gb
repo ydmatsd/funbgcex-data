@@ -1,24 +1,24 @@
-LOCUS       FBGC00371       54066 bp DNA     linear   UNA 19-FEB-2023
+LOCUS       FBGC00371              54066 bp    DNA     linear   UNA 19-FEB-2023
 DEFINITION  fusaoctaxin A.
 ACCESSION   FBGC00371
-VERSION     .
+VERSION     FBGC00371
 KEYWORDS    .
 SOURCE      Fusarium graminearum PH-1
   ORGANISM  Fusarium graminearum PH-1
+            .
 REFERENCE   1  (bases 1 to 54066)
   AUTHORS   Jia LJ, Tang HY, Wang WQ, Yuan TL, Wei WQ, Pang B, Gong XM, Wang SF,
             Li YJ, Zhang D, Liu W, Tang WH.
-  TITLE     A linear nonribosomal octapeptide from Fusarium graminearum 
+  TITLE     A linear nonribosomal octapeptide from Fusarium graminearum
             facilitates cell-to-cell invasion of wheat.
   JOURNAL   Nat Commun 2019;10:922
-  PUBMED    30804501
+   PUBMED   30804501
 REFERENCE   2  (bases 1 to 54066)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Feb 19, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1038/s41467-019-08726-9"; journalName: "Nat Commun"; date: 
+  JOURNAL   Exported Feb 19, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1038/s41467-019-08726-9"; journalName: "Nat Commun"; date:
             "2019"; volume: "10"; pages: "922"
 FEATURES             Location/Qualifiers
      source          1..54066
@@ -33,7 +33,7 @@ FEATURES             Location/Qualifiers
                      /locus_tag="FGRAMPH1_01T20955"
                      /old_locus_tag="FGSG_13878; FGSG_17487"
                      /product="nonribosomal peptide synthetase NRPS5"
-                     /label=nrps5
+                     /label="nrps5"
                      /note="unnamed protein product"
                      /db_xref="EnsemblGenomes-Gn:FGRAMPH1_01T20955"
                      /db_xref="GOA:I1SAJ7"
@@ -244,12 +244,14 @@ FEATURES             Location/Qualifiers
                      TIDACMTTVSASATTTIPPSIRFVDGVPVKELWNLLIDEFDFSLRPMSGPEWLQALEND
                      MDSQGPSHPLFPVFEFLQLKQGAVGTLKPTNGDSICPQVETLYRLRQSVDYLNNIGFFA
                      SSDSVSPFASKAAFRRTGLRPAKTAHF"
+                     /Pfam="AA-adenyl-dom, NRPS_C, ACP_PCP, NRPS_E,
+                     NAD_binding_4"
      CDS             join(35635..36509,36566..36716)
                      /codon_start=1
                      /locus_tag="FGRAMPH1_01T20957"
                      /old_locus_tag="FGSG_10989"
                      /product="short-chain dehydrogenase/reductase FGM9"
-                     /label=fgm9
+                     /label="fgm9"
                      /note="unnamed protein product"
                      /db_xref="EnsemblGenomes-Gn:FGRAMPH1_01T20957"
                      /db_xref="InterPro:IPR002347"
@@ -263,12 +265,13 @@ FEATURES             Location/Qualifiers
                      PDSITFTAVDPGLCDTDLTRDIPLLIRIIHRIMKMLLARTAEVGGRCLVLGAADDEHSH
                      GAYFKDGVIGSPPVAVTDPEGVELKNRVFSQLKSLLYSVDPQIMDACPVMESDEEAIRL
                      N"
+                     /Pfam="adh_short"
      CDS             join(37956..38285,38340..40469)
                      /codon_start=1
                      /locus_tag="FGRAMPH1_01T20959"
                      /old_locus_tag="FGSG_10990"
                      /product="nonribosomal peptide synthetase NRPS9"
-                     /label=nrps9
+                     /label="nrps9"
                      /note="unnamed protein product"
                      /db_xref="EnsemblGenomes-Gn:FGRAMPH1_01T20959"
                      /db_xref="GOA:I1S2J4"
@@ -293,12 +296,13 @@ FEATURES             Location/Qualifiers
                      RRRLRELASTITTVQLEMINGVDDEKEQPRNERERLIQATWAAVLQRKASTIGIHDHFF
                      KIGGDSLSAMKVVAAARSRQLVINVGDILGHPTIASLAEFLSSSSTISYATKGMANRDI
                      QVTVTVL"
+                     /Pfam="AA-adenyl-dom, ACP_PCP"
      CDS             complement(join(40852..41178,41273..42463))
                      /codon_start=1
                      /locus_tag="FGRAMPH1_01T20961"
                      /old_locus_tag="FGSG_10991"
                      /product="cytochrome P450 monooxygenase FGM1"
-                     /label=fgm1
+                     /label="fgm1"
                      /note="unnamed protein product"
                      /db_xref="EnsemblGenomes-Gn:FGRAMPH1_01T20961"
                      /db_xref="GOA:I1S2J5"
@@ -316,12 +320,13 @@ FEATURES             Location/Qualifiers
                      GLPRDADGLPNWTLLNKAPILEACIRESYRLNPVASGRAERVLARDSRYGDIFIPQNTI
                      VSASTIALHLDPQVWLNPREFNPRRWLDATPDEILRLERSFIPFGYGARLCLGKAFANL
                      QIKMFVAAIYSKDNTGLEIPGQTMEQWGTQDALPKGLKCRLRFEERK"
+                     /Pfam="p450"
      CDS             complement(42952..43968)
                      /codon_start=1
                      /locus_tag="FGRAMPH1_01T20963"
                      /old_locus_tag="FGSG_10992"
                      /product="peptidoglycan deacetylase-like protein FGM2"
-                     /label=fgm2
+                     /label="fgm2"
                      /note="unnamed protein product"
                      /db_xref="EnsemblGenomes-Gn:FGRAMPH1_01T20963"
                      /db_xref="GOA:I1S2J6"
@@ -335,13 +340,14 @@ FEATURES             Location/Qualifiers
                      PLYRIDHDTISLLERKGFLYDTSLSGHDAQLYYLDSGFPLDVVDYSKSASTWMKPSPQP
                      RQLSVVEIPANWYMEDMTPMQFLPNVTNSHGFVSSEAIEKMWKDRFNWLWNWGPDGSGP
                      GDFVFPLVLHPDTSGMAHVAGTIEGMLRWLKEWGPQVEFVTYEEAAREFLLDKEVPA"
+                     /Pfam="Polysacc_deac_1"
      CDS             join(44877..45007,45056..45189,45248..45660,45728..46211,
                      46268..46314)
                      /codon_start=1
                      /locus_tag="FGRAMPH1_01T20965"
                      /old_locus_tag="FGSG_10993"
                      /product="aminotransferase FGM3"
-                     /label=fgm3
+                     /label="fgm3"
                      /note="unnamed protein product"
                      /db_xref="EnsemblGenomes-Gn:FGRAMPH1_01T20965"
                      /db_xref="GOA:A0A1C3YKE0"
@@ -359,12 +365,13 @@ FEATURES             Location/Qualifiers
                      FGENPKQTWDAIAEHEQKLQTRLIEYLVSKPQITVYGETSTDKAVRVPTVSFTVEGMSS
                      QSVVEAVEAVSHAGIRWGHFFSKRLVGSILGLSDDGVVRVSLVHYNTVEEVDQIIVALE
                      MVL"
+                     /Pfam="Aminotran_5"
      CDS             complement(join(47638..47934,48067..48420,48522..48791))
                      /codon_start=1
                      /locus_tag="FGRAMPH1_01T20967"
                      /old_locus_tag="FGSG_10994"
                      /product="transcription factor FGM4"
-                     /label=fgm4
+                     /label="fgm4"
                      /note="unnamed protein product"
                      /db_xref="EnsemblGenomes-Gn:FGRAMPH1_01T20967"
                      /db_xref="InterPro:IPR002110"
@@ -377,13 +384,14 @@ FEATURES             Location/Qualifiers
                      IFTNLSPGSSSSLSMQDSNVILCSPMTSPMTRHVMPSCSKDNYGVQRSKPGSPLHIASA
                      MGHLKVVKTLITYGANVNEVDAAGYSPIHYATRNNHTAIVALLLEKGADVYSRDPEGCT
                      PLFRASQEGNNEIVERLLKHGAQVC"
+                     /Pfam="Ank_2"
      CDS             join(49435..49644,49702..52700,52752..53198,53250..53369,
                      53424..54066)
                      /codon_start=1
                      /locus_tag="FGRAMPH1_01T20969"
                      /old_locus_tag="FGSG_10995"
                      /product="ABC transporter FGM5"
-                     /label=fgm5
+                     /label="fgm5"
                      /note="unnamed protein product"
                      /db_xref="EnsemblGenomes-Gn:FGRAMPH1_01T20969"
                      /db_xref="GOA:A0A1C3YKS5"
@@ -421,6 +429,7 @@ FEATURES             Location/Qualifiers
                      FATDHGSIHAGIRADELSAGQKQLFSLGRAVLRRRVKQRLFSIHGGVLLLDEVSSSVDS
                      ATDNLVQEIIKEEFADYTIVMVSHRLNIVMEYFDSVVVLDRGRVVETGDPRDLAKTEGS
                      WFSQLWAMEKK"
+                     /Pfam="ABC_tran, ABC_membrane"
 ORIGIN
         1 ttaaaaatga gccgttttag caggtctcaa gccagtacgt ctgaaagcag ccttagaggc
        61 aaagggagaa actgaatctg atgaagcaaa gaatccaatg ttgttgaggt agtcaacact

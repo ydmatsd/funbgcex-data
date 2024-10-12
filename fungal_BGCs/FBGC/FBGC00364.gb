@@ -1,30 +1,31 @@
-LOCUS       FBGC00364       21860 bp DNA     linear   UNA 18-FEB-2023
+LOCUS       FBGC00364              21860 bp    DNA     linear   UNA 18-FEB-2023
 DEFINITION  pyrrolopyrazine derivative.
 ACCESSION   FBGC00364
-VERSION     .
+VERSION     FBGC00364
 KEYWORDS    .
 SOURCE      Metarhizium rileyi RCEF 4871
   ORGANISM  Metarhizium rileyi RCEF 4871
+            .
 REFERENCE   1  (bases 1 to 21860)
   AUTHORS   Berry D, Mace W, Rehner SA, Grage K, Dijkwel PP, Young CA, Scott B.
   TITLE     Orthologous peramine and pyrrolopyrazine-producing biosynthetic gene
-            clusters in Metarhizium rileyi, Metarhizium majus and Cladonia 
+            clusters in Metarhizium rileyi, Metarhizium majus and Cladonia
             grayi.
   JOURNAL   Environ Microbiol 2019;21:928-939
-  PUBMED    30452111
+   PUBMED   30452111
 REFERENCE   2  (bases 1 to 21860)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Feb 18, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1111/1462-2920.14483"; journalName: "Environ Microbiol"; date: 
-            "2019"; volume: "21"; pages: "928-939"
+  JOURNAL   Exported Feb 18, 2023 from SnapGene 6.2.1 https://www.snapgene.com
 COMMENT     ##Genome-Assembly-Data-START##
             Assembly Method       :: SOAPdenovo v. 1.05
             Assembly Name         :: NOR 1.0
             Genome Coverage       :: 107.34x
             Sequencing Technology :: Illumina HiSeq ##Genome-Assembly-Data-END##
+            ##Genome-Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1111/1462-2920.14483"; journalName: "Environ Microbiol"; date:
+            "2019"; volume: "21"; pages: "928-939"
 FEATURES             Location/Qualifiers
      source          1..21860
                      /host="Noctuidae"
@@ -32,7 +33,7 @@ FEATURES             Location/Qualifiers
                      /mol_type="genomic DNA"
                      /country="China: Shandong"
                      /isolation_source="larva"
-                     /collection_date=Oct-2009
+                     /collection_date="Oct-2009"
                      /db_xref="taxon:1081105"
                      /organism="Metarhizium rileyi RCEF 4871"
                      /submitter_seqid="scaffold_30"
@@ -41,7 +42,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="NOR_07092"
                      /product="cytochrome P450 monooxygenase PpzG"
-                     /label=ppzG
+                     /label="ppzG"
                      /note="revised sequence"
                      /protein_id="OAA37393.1"
                      /translation="MDIRTIATVFFSILLAHRAFLVFYRLYLHPLATFPGPRLAAVSTL
@@ -53,11 +54,12 @@ FEATURES             Location/Qualifiers
                      KAIWPDLRSPAPSYNLLHQLPLLRGIIKESIRFTHGVATGPARLVGAGGARIGGYNAVV
                      AAPSYFVHMDKTVFSEPEKFEPRRWADDDYSKPLVAFSRGRRMCPAEHFSLILLFTTLA
                      TIFRRFHLQLHETTIKDFEWNQYISIRFSGRSLQAILRERTE"
+                     /Pfam="p450"
      CDS             2572..3594
                      /codon_start=1
                      /locus_tag="NOR_07093"
                      /product="hypothetical protein PpzF"
-                     /label=ppzF
+                     /label="ppzF"
                      /protein_id="OAA37394.1"
                      /translation="MSAHPGKPGRYYLISYPRTASNLLLKILALDSQPNFSSGEVDGGY
                      FFMPADDILIEPRIRARSIGDWTADERAQVKESFQACFEAQQQWLEATESQGRSVFVKE
@@ -66,12 +68,12 @@ FEATURES             Location/Qualifiers
                      EWPMILDADDIIAHPATVALYCNKIGMDPRKLCFHWDQFKSEELSQIEPNQLAMRMSLY
                      QSTGIDTSKSSRGINVDDEASKWRSEFGIAVGDHIEKLVRGAMADYEYLRARRLRADRG
                      "
-     CDS             complement(join(3855..3963,4063..4715,4813..4867,4917..5269,
-                     5345..5354,5426..5549,5618..5855))
+     CDS             complement(join(3855..3963,4063..4715,4813..4867,
+                     4917..5269,5345..5354,5426..5549,5618..5855))
                      /codon_start=1
                      /locus_tag="NOR_07094"
                      /product="cytochrome P450 monooxygenase PpzE"
-                     /label=ppzE
+                     /label="ppzE"
                      /protein_id="OAA37395.1"
                      /translation="MLSIIHVGWLELVWFVALYPFACWTLFAVLKSVYRITLHPLAKFP
                      GPKLAGASYCYEFWYEIVCGIQYTQKIIKLHEQYGPIVRINPDELHFNDIDFVDVVYTA
@@ -82,11 +84,12 @@ FEATURES             Location/Qualifiers
                      RSELMRKVSASKNLPTWSTLEELPYLTAVIHEGLRSMYDPSKERLPYDPSQERLPRVAT
                      EEELIYEGGSALGKSKYVIPRGYAISTSAHVVHSDESIFPNASQFDPERWLDRDGQRNK
                      ELERHLLSFSKGSRHCLGMHCRRATCLAIPASARNGTSGYQFTSGQLEYKVQERQ"
+                     /Pfam="p450"
      CDS             complement(7117..15513)
                      /codon_start=1
                      /locus_tag="NOR_07095"
                      /product="nonribosomal peptide synthetase PpzA"
-                     /label=ppzA
+                     /label="ppzA"
                      /note="revised sequence"
                      /protein_id="OAA37396.1"
                      /translation="MISETVRKSSADDGYTSFPIRSTLIDRPVLDKTLRCEFALFPPFC
@@ -137,11 +140,13 @@ FEATURES             Location/Qualifiers
                      NVDDSDKWIPLCDVGTIAAVIIHAALGHPSSSTTVTQVRGGLTMGEFWETLATAGYPLT
                      GTRVAECTAAIREDILANREKHPLGVLEDMLQDLDDTTNVQWAASWRKNGLCSPARLKA
                      ALCKSAEFLSGVSFLPLPNFVRERLVQETSMSAFTRSGF"
+                     /Pfam="NRPS_C, AA-adenyl-dom, ACP_PCP, PKS_NRPS_MT,
+                     NAD_binding_4"
      CDS             complement(join(16349..17065,17140..17304,17378..17557))
                      /codon_start=1
                      /locus_tag="NOR_07096"
                      /product="2OG-Fe(II)-dependent dioxygenase PpzD"
-                     /label=ppzD
+                     /label="ppzD"
                      /protein_id="OAA37397.1"
                      /translation="MARTPERRVRTLDFAQFCHGEPSSSHGFCRELVDCLRSLGFVKIR
                      NHGISGEEIEKVFVMNKLFFSLPQAAKAKAAHPPEANPHRGYSYVGQEKLSRVKDYEKG
@@ -150,11 +155,12 @@ FEATURES             Location/Qualifiers
                      GGLEIEDQNSPGTYFPVSSERKSDMIVNVGDCIQRWTNDKILSTSHRVVLPEDRDALIK
                      DRYSVAYFGKPSRSQLVSPLREFVKEGEKPKYSAISAWQYNQEKLVLTYGGDEEILVPK
                      PSSSVCTGVGQLQ"
+                     /Pfam="DIOX_N, 2OG-FeII_Oxy"
      CDS             18945..20069
                      /codon_start=1
                      /locus_tag="NOR_07097"
                      /product="2OG-Fe(II)-dependent dioxygenase PpzC"
-                     /label=ppzC
+                     /label="ppzC"
                      /protein_id="OAA37398.1"
                      /translation="MATDTAVTGAPETTELRLASGNGPVTRTVLRTPVRDALPSEVPLI
                      DISPIFSTCVADRKAVARKIHDAATNIGFFYIQNHRVPSQDIDLAYSASQDFFRQEMEV
@@ -163,11 +169,12 @@ FEATURES             Location/Qualifiers
                      ASLEINFYPPISTGHAVSAPGDADTRVSIGSHTDFLLFTILWQDSNGGLQVLNREGQWI
                      RAIPVEGTFVVNIGDYLQRVTNDKYVSTVHRAQNFSGRERVSMPFFWGFGMHESCQVLR
                      NCCGEDEKSKYDEVKCVDWVSRRLGNLFDLSDKG"
+                     /Pfam="DIOX_N, 2OG-FeII_Oxy"
      CDS             complement(join(20347..21345,21408..21860))
                      /codon_start=1
                      /locus_tag="NOR_07098"
                      /product="major facilitator superfamily transporter PpzB"
-                     /label=ppzB
+                     /label="ppzB"
                      /protein_id="OAA37399.1"
                      /translation="MPDNHGPWGLRWRAKPSFILTTVAMGLFTDLVLYGILLPALPFTM
                      RNRFDIPNAEIQHYTSAFLATYAGASVFFSVPAGWAASKLGSRQLFLGGLMFLVVATAI
@@ -178,6 +185,7 @@ FEATURES             Location/Qualifiers
                      GTKAAATSGYAFLVPCLMLLGLPEKNLVPKEANVALFCTILALNGIGLAVVTSPGYVEA
                      IDVTTKYQVANPGHFGENGPYAQLFGFSSLYFFTGLAVGPLLGGFLRANFGNAVMGAVY
                      AAISGVTAIVSFLFVGVRRFGPGLV"
+                     /Pfam="MFS_1"
 ORIGIN
         1 ctactctgtt ctctctcgca agattgcctg tagtgatcgt ccagaaaagc gaatagaaat
        61 atattgattc cactcaaaat ccttgattct attgtaagct attattagct actttactcc

@@ -1,43 +1,43 @@
-LOCUS       FBGC00362       14045 bp DNA     linear   UNA 18-FEB-2023
+LOCUS       FBGC00362              14045 bp    DNA     linear   UNA 18-FEB-2023
 DEFINITION  ditryptophenaline.
 ACCESSION   FBGC00362
-VERSION     .
+VERSION     FBGC00362
 KEYWORDS    .
 SOURCE      Aspergillus flavus CA14
   ORGANISM  Aspergillus flavus CA14
+            .
 REFERENCE   1  (bases 1 to 14045)
   AUTHORS   Saruwatari T, Yagishita F, Mino T, Noguchi H, Hotta K, Watanabe K.
-  TITLE     Cytochrome P450 as dimerization catalyst in diketopiperazine 
+  TITLE     Cytochrome P450 as dimerization catalyst in diketopiperazine
             alkaloid biosynthesis.
   JOURNAL   ChemBioChem 2014;15:656-9
-  PUBMED    24677498
+   PUBMED   24677498
 REFERENCE   2  (bases 1 to 14045)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Feb 18, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1002/cbic.201300751"; journalName: "ChemBioChem"; date: "2014"; 
-            volume: "15"; pages: "656-9"
-COMMENT     On Oct 8, 2021 this sequence version replaced 
-            CP061807.1.##Genome-Assembly-Data-START##
+  JOURNAL   Exported Feb 18, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     ##Genome-Assembly-Data-START##
             Assembly Date          :: 2020
             Assembly Method        :: Flye v. 2.5
             Genome Representation  :: Full
             Expected Final Version :: Yes
             Genome Coverage        :: 140.0x
             Sequencing Technology  :: PacBio Sequel ##Genome-Assembly-Data-END##
+            ##Genome-Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1002/cbic.201300751"; journalName: "ChemBioChem"; date: "2014";
+            volume: "15"; pages: "656-9"
+            On Oct 8, 2021 this sequence version replaced
 FEATURES             Location/Qualifiers
      source          1..14045
                      /chromosome="4"
                      /host="Pistacia vera"
                      /strain="CA14"
                      /mol_type="genomic DNA"
-                     /country="USA: CA, Winters, University of California
-                     Davis"
+                     /country="USA: CA, Winters, University of California Davis"
                      /lat_lon="38.502806 N 121.9795767 W"
                      /isolation_source="Pistachio bud"
-                     /collection_date=2006
+                     /collection_date="2006"
                      /db_xref="taxon:5059"
                      /organism="Aspergillus flavus"
      CDS             join(1..252,316..453,542..629,684..752,804..1442,
@@ -45,17 +45,15 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="AFCA_007886"
                      /product="cytochrome P450 monooxygenase DtpC"
-                     /label=dtpC
-                     /note="antiSMASH:Cluster_4.5;
-                     TransMembrane:1 (i12-36o);
-                     SMCOG1034:cytochrome P450;
-                     GO_function: GO:0005506 - iron ion binding [Evidence IEA]; 
-                     GO_function: GO:0016705 - oxidoreductase activity, acting 
-                     on paired donors, with incorporation or reduction of 
-                     molecular oxygen [Evidence IEA];
-                     GO_function: GO:0004497 - monooxygenase activity [Evidence 
-                     IEA];
-                     GO_function: GO:0020037 - heme binding [Evidence IEA]"
+                     /label="dtpC"
+                     /note="antiSMASH:Cluster_4.5; TransMembrane:1 (i12-36o);
+                     SMCOG1034:cytochrome P450; GO_function: GO:0005506 - iron
+                     ion binding [Evidence IEA]; GO_function: GO:0016705 -
+                     oxidoreductase activity, acting on paired donors, with
+                     incorporation or reduction of molecular oxygen [Evidence
+                     IEA]; GO_function: GO:0004497 - monooxygenase activity
+                     [Evidence IEA]; GO_function: GO:0020037 - heme binding
+                     [Evidence IEA]"
                      /db_xref="InterPro:IPR001128"
                      /db_xref="InterPro:IPR002403"
                      /db_xref="InterPro:IPR036396"
@@ -71,15 +69,14 @@ FEATURES             Location/Qualifiers
                      GLVEKPLQLRSTGRTLSPGTKFSLPAQQAHLDPDNYPNPNIFDGYRFCDPQSGACDIRG
                      TITPSAKWLIFGIGTSACPARLLATRISQTLFFKVLRKYDLRLKLDNGQPEVVYAATNM
                      FVNFNTQMYVKSASI"
+                     /Pfam="p450"
      CDS             join(3710..4029,4079..4832)
                      /codon_start=1
                      /locus_tag="AFCA_007887"
                      /product="methyltransferase DtpB"
-                     /label=dtpB
-                     /note="antiSMASH:Cluster_4.5;
-                     GO_function: GO:0008168 - methyltransferase activity 
-                     [Evidence IEA]
-                     revised sequence"
+                     /label="dtpB"
+                     /note="antiSMASH:Cluster_4.5; GO_function: GO:0008168 -
+                     methyltransferase activity [Evidence IEA] revised sequence"
                      /db_xref="InterPro:IPR017804"
                      /db_xref="InterPro:IPR017805"
                      /db_xref="InterPro:IPR019257"
@@ -92,17 +89,17 @@ FEATURES             Location/Qualifiers
                      SVDSCSAEDIVMGAYDTDSQPLKDFIMNGLKSANRILGKDVFCASDWTFGTVLDRVRHE
                      VQVFYAPTRDVTIHIDSHPCKITKGEKIAVISSGKWPEPYFRSMLEGIGLQVLDLWRDS
                      DQFYCMNPLPLICSFPG"
+                     /Pfam="Methyltransf_33"
      CDS             join(6084..13769,13866..14045)
                      /codon_start=1
                      /locus_tag="AFCA_007888"
                      /product="nonribosomal peptide synthetase DtpA"
-                     /label=dtpA
-                     /note="antiSMASH:Cluster_4.5;
-                     TransMembrane:3 (o499-517i629-649o1587-1605i); 
-                     SMCOG1002:AMP-dependent synthetase and ligase; GO_function:
-                     GO:0031177 - phosphopantetheine binding [Evidence IEA];
-                     GO_function: GO:0003824 - catalytic activity [Evidence 
-                     IEA]"
+                     /label="dtpA"
+                     /note="antiSMASH:Cluster_4.5; TransMembrane:3
+                     (o499-517i629-649o1587-1605i); SMCOG1002:AMP-dependent
+                     synthetase and ligase; GO_function: GO:0031177 -
+                     phosphopantetheine binding [Evidence IEA]; GO_function:
+                     GO:0003824 - catalytic activity [Evidence IEA]"
                      /db_xref="InterPro:IPR000873"
                      /db_xref="InterPro:IPR001242"
                      /db_xref="InterPro:IPR006162"
@@ -162,6 +159,7 @@ FEATURES             Location/Qualifiers
                      EDMVGPCFNILPCRLDLSPDRNIMETLQQNQQDMQRRTDHQHCSISEITRGVRQTTSTP
                      LFNTCLSVQVSLSSQMEEPSGDLGHDIQVSMVDIHDPTEYDICLAVLIYRTQIEIDLRY
                      WSFAFSEQDATRLLNNLRQAISHIVAHSARPIASIDWEA"
+                     /Pfam="NRPS_C, AA-adenyl-dom, ACP_PCP, NRPS_CT"
 ORIGIN
         1 atggacacga tgttttctga agcactttct agagcagtct tgcatgcccc gacagtgggt
        61 gtaatagcta ctctatcact aatagcctca tttctcataa tttttgtgtc ggatctcatt

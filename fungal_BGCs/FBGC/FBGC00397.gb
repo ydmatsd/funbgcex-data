@@ -1,44 +1,45 @@
-LOCUS       FBGC00397       43566 bp DNA     linear   UNA 08-MAY-2023
+LOCUS       FBGC00397              43566 bp    DNA     linear   UNA 08-MAY-2023
 DEFINITION  aspirochlorine.
 ACCESSION   FBGC00397
-VERSION     .
+VERSION     FBGC00397
 KEYWORDS    .
 SOURCE      Aspergillus oryzae RIB40
   ORGANISM  Aspergillus oryzae RIB40
+            .
 REFERENCE   1  (bases 1 to 43566)
-  AUTHORS   Chankhamjon P, Boettger-Schmidt D, Scherlach K, Urbansky B, Lackner 
+  AUTHORS   Chankhamjon P, Boettger-Schmidt D, Scherlach K, Urbansky B, Lackner
             G, Kalb D, Dahse HM, Hoffmeister D, Hertweck C.
-  TITLE     Biosynthesis of the halogenated mycotoxin aspirochlorine in koji 
+  TITLE     Biosynthesis of the halogenated mycotoxin aspirochlorine in koji
             mold involves a cryptic amino acid conversion.
   JOURNAL   Angew Chem Int Ed Engl 2014;53:13409-13
-  PUBMED    25302411
+   PUBMED   25302411
 REFERENCE   2  (bases 1 to 43566)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported May 8, 2023 from SnapGene 6.2.2
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1002/anie.201407624"; journalName: "Angew Chem Int Ed Engl"; 
+  JOURNAL   Exported May 8, 2023 from SnapGene 6.2.2 https://www.snapgene.com
+COMMENT     ##Genome-Assembly-Data-START##
+            Assembly Method     :: Phred/Phrap software
+            Assembly Name       :: Aoryzae_assembly02
+            ##Genome-Assembly-Data-END##
+            ##Genome-Annotation-Data-START##
+            Annotation Provider :: INSDC submitter
+            Annotation Status   :: Full annotation
+            Annotation Pipeline :: Eukaryotic Annotation Propagation Pipeline
+            ##Genome-Annotation-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1002/anie.201407624"; journalName: "Angew Chem Int Ed Engl";
             date: "2014"; volume: "53"; pages: "13409-13"
-COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final 
+            PROVISIONAL REFSEQ: This record has not yet been subject to final
             NCBI review. The reference sequence is identical to BA000050.
             This genome assembly has been updated so
             as to reflect the location and orientation of
             contigs on the chromosomes. Gap lengths were
             estimated using the results from Optical
-            Mapping (http://www.bio.nite.go.jp/dogan/project/view/AO). This 
-            Aspergillus oryzae RIB40 genome consists of a nuclear genome 
-            assembly represented by eight chromosomes (assembled from 24 
-            entries) and three unplaced contigs (AP007156, AP007160 and 
-            AP007177) and a complete mitochondrial genome 
-            (AP007176).##Genome-Assembly-Data-START##
-            Assembly Method :: Phred/Phrap software
-            Assembly Name   :: Aoryzae_assembly02
-            ##Genome-Assembly-Data-END####Genome-Annotation-Data-START##
-            Annotation Provider :: INSDC submitter
-            Annotation Status   :: Full annotation
-            Annotation Pipeline :: Eukaryotic Annotation Propagation Pipeline 
-            ##Genome-Annotation-Data-END##
+            Mapping (http://www.bio.nite.go.jp/dogan/project/view/AO). This
+            Aspergillus oryzae RIB40 genome consists of a nuclear genome
+            assembly represented by eight chromosomes (assembled from 24
+            entries) and three unplaced contigs (AP007156, AP007160 and
+            AP007177) and a complete mitochondrial genome
 FEATURES             Location/Qualifiers
      source          1..43566
                      /chromosome="2"
@@ -51,7 +52,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="AO090001000024"
                      /product="FAD-dependent halogenase AclH"
-                     /label=aclH
+                     /label="aclH"
                      /note="unnamed protein product; predicted protein"
                      /db_xref="GeneID:5990561"
                      /protein_id="XP_001818590.1"
@@ -65,14 +66,15 @@ FEATURES             Location/Qualifiers
                      NRAFDFFRPIIQGTADVDKNLTQAEIAQTIEFCVQAFQTASTDEQDAVMTKVAAINSQN
                      GTEGALRELHASLSADERRTLTTIQARQIIRSEDQMNIDNFTIDVIDGMVPRLERSSLG
                      LARFVPKAQTSREDGLRATLGLPEKQKSIFSY"
-     CDS             complement(join(2134..2383,2439..2643,2704..2881,2944..3255,
-                     3310..3410,3460..3736,3788..3946))
+                     /Pfam="Trp_halogenase"
+     CDS             complement(join(2134..2383,2439..2643,2704..2881,
+                     2944..3255,3310..3410,3460..3736,3788..3946))
                      /codon_start=1
                      /locus_tag="AO090001000025"
                      /product="cytochrome P450 monooxygenase AclO"
-                     /label=aclO
-                     /note="unnamed protein product; predicted protein
-                     revised sequence"
+                     /label="aclO"
+                     /note="unnamed protein product; predicted protein revised
+                     sequence"
                      /db_xref="GeneID:5990563"
                      /protein_id="XP_023089477.1"
                      /translation="MVNEVGTVYWPYVAALAVILMVAHRARRQHTIPAVGDANDSNLLE
@@ -84,13 +86,14 @@ FEATURES             Location/Qualifiers
                      GIVSVSRFALSPFRLPGGSTVPAGVSVSAPSMMVNLDDSLWTDPTSFDGYRFEKLRTIK
                      GNELKFQYASTSTSELNWGYGTHACPGRHYASNQIKLMIVSLLSRYEFQFDHEQTDKKA
                      IVERPPNVVDGVRIMPNPQTLVMVRSLGNVNEGCE"
-     CDS             join(4159..4197,4255..4486,4544..4636,4699..5133,5183..5296,
-                     5368..5767,5819..5978)
+                     /Pfam="p450"
+     CDS             join(4159..4197,4255..4486,4544..4636,4699..5133,
+                     5183..5296,5368..5767,5819..5978)
                      /codon_start=1
                      /locus_tag="AO090001000028"
                      /product="cytochrome P450 monooxygenase AclL"
-                     /label=aclL
-                     /note="unnamed protein product; cytochrome P450 
+                     /label="aclL"
+                     /note="unnamed protein product; cytochrome P450
                      CYP3/CYP5/CYP6/CYP9 subfamilies"
                      /db_xref="GeneID:5990564"
                      /protein_id="XP_023089478.1"
@@ -103,13 +106,14 @@ FEATURES             Location/Qualifiers
                      SMEYLHAVLQEAMRVYPPVPCTFPRTTPPGGAMVCGRFVPGGYIVGVNQLAAMTSEKNF
                      KDPLKFIPERWCGDERYQEDSRKAYQPFSYGPRNCLGKNLAYAEMRLVLTRLLWNFEFD
                      LLEESKDWHAKQKVWMMWDKGDLKVRLKPLRH"
+                     /Pfam="p450"
      CDS             complement(join(6082..7359,7414..7477,7535..7563))
                      /codon_start=1
                      /locus_tag="AO090001000029"
                      /product="transcription factor AclZ"
-                     /label=aclZ
-                     /note="unnamed protein product; predicted protein
-                     revised sequence"
+                     /label="aclZ"
+                     /note="unnamed protein product; predicted protein revised
+                     sequence"
                      /db_xref="GeneID:5990565"
                      /protein_id="XP_023089479.1"
                      /translation="MSSTTSTTERPGSSTKPVRWRSACNQCHAAKVRCSGERTGCDRCN
@@ -120,11 +124,12 @@ FEATURES             Location/Qualifiers
                      HYNYRSWTVLICNRIVEFLEHRIQGGVVALDVVMQTNKVTLGEISRILSKGAHKEGSNC
                      AMLLLIAIDQIVTLFECGVKQGSPGDSDRASIGGRDLSALGDDLTGGNVLPNLRFGLFQ
                      INQDEQLALRSYLLQRELQRCLQVLTNLRDAIPLEPNPCTALEARVKKLCSAIADSH"
+                     /Pfam="EqxR"
      CDS             complement(join(8868..9209,9287..9766))
                      /codon_start=1
                      /locus_tag="AO090001000030"
                      /product="gamma-glutamyl cyclotransferase AclK"
-                     /label=aclK
+                     /label="aclK"
                      /note="unnamed protein product; predicted protein"
                      /db_xref="GeneID:5990566"
                      /protein_id="XP_001818595.1"
@@ -133,11 +138,12 @@ FEATURES             Location/Qualifiers
                      KIVASEGGGIVYKEALLRGQPIQPQDQQRWGAELSVLTLVSTMERWPEPRPSQRYMGLI
                      LDGARAADFPASYIAQIRHKHPCYQPPSTTWERIGATLFLGFWTPVLTLLSLLTHAAAR
                      AGPGDDGHVPEGVRALVRFAMFTMWWVHDLIWSRIWGRGDGLFPGAMQLNG"
+                     /Pfam="GliK"
      CDS             10233..11888
                      /codon_start=1
                      /locus_tag="AO090001000031"
                      /product="major facilitator superfamily transporter AclA"
-                     /label=aclA
+                     /label="aclA"
                      /note="unnamed protein product; predicted transporter
                      (major facilitator superfamily)"
                      /db_xref="GeneID:5990567"
@@ -152,13 +158,14 @@ FEATURES             Location/Qualifiers
                      SVLPAIQAALPESDNAAATSAYAFLRSFGFVWGVEIPAVVFNGQVDRFISRVHDATVRN
                      KLAHGGAYSLAGTSFLSQLGDEADAVRSTYTDSLRTVWQVGMAFALLGFALVVVEKHIE
                      LRTTLETDFGLEGSENRAATSVEGVETGPVSKAQ"
+                     /Pfam="MFS_1"
      CDS             complement(join(12489..12672,12728..12870,12928..13428,
                      13486..13828,13886..14458,14509..14900,14950..15030,
                      15086..15283))
                      /codon_start=1
                      /locus_tag="AO090001000032"
                      /product="ABC transporter AclQ"
-                     /label=aclQ
+                     /label="aclQ"
                      /note="unnamed protein product; heavy metal exporter HMT1,
                      ABC superfamily"
                      /db_xref="GeneID:5990568"
@@ -177,13 +184,14 @@ FEATURES             Location/Qualifiers
                      ILFNDTLLYNLLYARPQATMEEVYAACRAASIHDRIMSFPDGYETKVGERGLRLSGGEK
                      QRIAIARTFLRSPQILLLDEATASLDSQTERQIQGALDNIAKGRTTITIAHRLSTITKA
                      NQIIVLHQGRIVEKGTHEELLAANGMYSQMWAKQTKAKEKKDSNATLVEVA"
+                     /Pfam="ABC_membrane, ABC_tran"
      CDS             join(15522..15722,15778..15982,16040..16452,16510..16953)
                      /codon_start=1
                      /locus_tag="AO090001000033"
                      /product="aminotransferase AclI"
-                     /label=aclI
-                     /note="unnamed protein product; 
-                     1-aminocyclopropane-1-carboxylate synthase, and related 
+                     /label="aclI"
+                     /note="unnamed protein product;
+                     1-aminocyclopropane-1-carboxylate synthase, and related
                      proteins"
                      /db_xref="GeneID:5990569"
                      /protein_id="XP_001818598.1"
@@ -195,13 +203,14 @@ FEATURES             Location/Qualifiers
                      EAMHVALALASNTESSSLSAVASTALLTSPRLPELLQLNAQRLQEAYCLMTNFLKKHQI
                      EYIPANSAPFLFARVAPQAQTWEDEKAVIAQLKEAGVNVSGGKAYHVNEDQKGWARLTF
                      ALETSRAEEAIKRMETVLGKQ"
+                     /Pfam="Aminotran_1_2"
      CDS             join(17108..17833,17889..17975,18033..18461)
                      /codon_start=1
                      /locus_tag="AO090001000034"
                      /product="acetyltransferase AclF"
-                     /label=aclF
-                     /note="unnamed protein product; predicted protein
-                     revised sequence"
+                     /label="aclF"
+                     /note="unnamed protein product; predicted protein revised
+                     sequence"
                      /db_xref="GeneID:5990570"
                      /protein_id="XP_001818599.3"
                      /translation="MSSTAFTSSLSNWDLYPTNGSITPHLLLVGAQILFLSGPHFHGRR
@@ -212,12 +221,13 @@ FEATURES             Location/Qualifiers
                      DVVGIRRGTNASSYTQLWLAFTISGMMHALSQLLMPRPGNVTTSEIAVGIFLFFPWQAL
                      VITTEDFVIWLWKQWYGSYQPRWAPVVGYLWVIVTFWIALPWPGDSLCHLKMGEVPPLP
                      FTVVAPLVQMIPVP"
+                     /Pfam="MBOAT_2"
      CDS             complement(join(18656..18866,18918..19140,19195..19803,
                      19873..19941,19992..20079,20139..20273,20325..20510))
                      /codon_start=1
                      /locus_tag="AO090001000035"
                      /product="cytochrome P450 monooxygenase AclB"
-                     /label=aclB
+                     /label="aclB"
                      /note="unnamed protein product; predicted protein"
                      /db_xref="GeneID:5990571"
                      /protein_id="XP_023089480.1"
@@ -230,24 +240,26 @@ FEATURES             Location/Qualifiers
                      LSQMALLDSFIRETMRLHPAGSLTVARTVMDDHFRFHDGLTLPKGTNIIAPALAIHYDP
                      DNYEDAHRFDGFRFARYRQKQGENHRWLASTIDQKFLQFGYGNHACPGRFYAIRKIKLV
                      LAKLIMDYDFKWAQPRPVHDRPEDFAIEAQLVAAPDAEILIRSRNLSN"
+                     /Pfam="p450"
      CDS             complement(join(20700..21267,21328..21749))
                      /codon_start=1
                      /product="thioredoxin reductase AclR"
-                     /label=aclR
+                     /label="aclR"
                      /translation="MASESSIPLYDCLIIGGGIAGLSSALSLVRTLHTAVVFDEGIHRN
                      DQAPHLATVPTWDSQDPKRFRDAAKLNILSKYSTVEFANVKLEKVNQLTDGPYKGYFCV
                      WDTKQRQWLGRKVILAMGVEDLLPTIDGFAECWTKGIFHCLVHRGYEERGSASGGVLAI
                      DGDATFFAARHLAFQARNLTDHVVIYTHGNDELAQEVESQLGPCGFRAESRRIEKLVQH
                      PERAQMEVHFEDGQSETVGFIVHRPRTSIRGPFAEQLGVEMTPEGHIKTQFPFNETTVS
                      GVFVAGDAGSQFKIGTQAVVMGAFAAGGVQMQVNAEKWSQPLNSVVSQ"
+                     /Pfam="Pyr_redox_2"
      CDS             join(22025..22441,22491..22504,22556..22642,22695..22936,
                      22992..23095)
                      /codon_start=1
                      /locus_tag="AO090001000036"
                      /product="2OG-Fe(II)-dependent dioxygenase AclN"
-                     /label=aclN
-                     /note="unnamed protein product; predicted protein
-                     revised sequence"
+                     /label="aclN"
+                     /note="unnamed protein product; predicted protein revised
+                     sequence"
                      /db_xref="GeneID:5990572"
                      /protein_id="XP_023089481.1"
                      /translation="MTSLAHYPAQMSFIAPRLASDEPPFYRSAADEGFEVCNFTQQPHN
@@ -256,11 +268,12 @@ FEATURES             Location/Qualifiers
                      LLKGRAQIVNVWRPLRGPVQDWPLAVMDCSTLAQAHIHPTKLYRNRFELRGETVSISHD
                      ESQRWYYLDGQQTDECTLIKIWDSKEGISGHMCAHCAFQHPNTPVDAPLRESVEVRCLV
                      FYENQE"
+                     /Pfam="NvfI"
      CDS             complement(join(23522..24068,24122..24519))
                      /codon_start=1
                      /locus_tag="AO090001000037"
                      /product="thioredoxin reductase AclD"
-                     /label=aclD
+                     /label="aclD"
                      /note="unnamed protein product; predicted protein"
                      /db_xref="GeneID:5990573"
                      /protein_id="XP_001818602.1"
@@ -270,11 +283,12 @@ FEATURES             Location/Qualifiers
                      AEHLSRLAHNLAKTVTIYTNGNEELAAQLRPSIEKDQWLTLDNRVIKQLHKTDGIPVRV
                      ELDDGTTKEEGFLVHAMKTTPRLDFEHNLNLELSAQGTEFVASPPFSETTTPGCFATGD
                      CGMAIKAASMSMSNGSLAAVGVVSQLAFDEKAK"
+                     /Pfam="Pyr_redox_2"
      CDS             complement(join(25483..26056,26110..26540))
                      /codon_start=1
                      /locus_tag="AO090001000038"
                      /product="thioredoxin reductase AclT"
-                     /label=aclT
+                     /label="aclT"
                      /note="unnamed protein product; predicted protein"
                      /db_xref="GeneID:5990574"
                      /protein_id="XP_001818603.1"
@@ -284,11 +298,12 @@ FEATURES             Location/Qualifiers
                      LAVGDLAELTMALHTVWQARQFAASVRVYTHGDEDLARALETRISPDARIAIQTTPIQS
                      LQPGSDSPSQVVVHLADGSSIVESHVYHRPASQLQGPFARQLNLELTESGAIRISARVP
                      YMTSLDGVYAGGDCASLGQRTLFKALAMGQGLAAAVAARLERGNWGNAVEEQD"
+                     /Pfam="Pyr_redox_2"
      CDS             join(26804..27056,27112..28160)
                      /codon_start=1
                      /locus_tag="AO090001000039"
                      /product="methyltransferase AclM"
-                     /label=aclM
+                     /label="aclM"
                      /note="unnamed protein product; predicted protein"
                      /db_xref="GeneID:5990575"
                      /protein_id="XP_023089482.1"
@@ -300,13 +315,14 @@ FEATURES             Location/Qualifiers
                      IEHACTLFHEPQGPYFDLRERVPRENLIAGDFLKAVPAFEIYTMKWVLHDWKDPDVLTI
                      LRCIRASLIPGPDSRLVILESNLSDGQMGRLSRYGDINMMMTANGQERSEEQWRALAAA
                      SGWEVSRIYPMRRAWVCAIDLRPSASESGDRKHS"
+                     /Pfam="Dimerisation2, Methyltransf_2"
      CDS             join(28301..28394,28444..28750,28810..28893,28953..29208)
                      /codon_start=1
                      /locus_tag="AO090001000040"
                      /product="glutathione S-transferase AclG"
-                     /label=aclG
-                     /note="unnamed protein product; predicted protein
-                     revised sequence"
+                     /label="aclG"
+                     /note="unnamed protein product; predicted protein revised
+                     sequence"
                      /db_xref="GeneID:5990576"
                      /protein_id="XP_023089483.1"
                      /translation="MSSNTISSDPNGAVVMGDMEYDGRVILYIIKADETSYINYIKPLI
@@ -314,13 +330,14 @@ FEATURES             Location/Qualifiers
                      FDTDGTWSGRTVAEKGAVLSWTAYQTAALGPTAKYWLYFKRGYPTRANPVQLPRTIEKL
                      HANTLRQWDILEKRLKEPGQQYIALKDRPTLADLSYFPFAMPWMFTFLGVDIKDWPHIQ
                      RWSERMLSRPAVARVLQRAPTLGH"
+                     /Pfam="GST_N_2, GST_C"
      CDS             complement(join(29339..30554,30605..30792,30840..30962))
                      /codon_start=1
                      /locus_tag="AO090001000041"
                      /product="cytochrome P450 monooxygenase AclC"
-                     /label=aclC
-                     /note="unnamed protein product; predicted protein
-                     revised sequence"
+                     /label="aclC"
+                     /note="unnamed protein product; predicted protein revised
+                     sequence"
                      /db_xref="GeneID:5990577"
                      /protein_id="XP_023089484.1"
                      /translation="MDCFSLDGQMLWILVAVVVIVGISSPFTRRITIEILSTILDRYLR
@@ -332,11 +349,12 @@ FEATURES             Location/Qualifiers
                      VRQEVLSATDHDAYLLSSSTLLAACISESARLKPLAAFTVPQSAPTDRIIGGYNIPAGT
                      NLVVDTYALNIRNGFWGADSQCYRPDRFLEHRATELRYQYWRFGFGPRQCMGRYVADLV
                      IRTLLAHLVAHYELGWVEPDPGKNSTWQRDLESWITIPDLQLRCVQRRND"
+                     /Pfam="p450"
      CDS             join(31218..31440,31492..31651,31703..32588)
                      /codon_start=1
                      /locus_tag="AO090001000042"
                      /product="dipeptidase AclJ"
-                     /label=aclJ
+                     /label="aclJ"
                      /note="unnamed protein product; renal dipeptidase"
                      /db_xref="GeneID:5990578"
                      /protein_id="XP_001818607.1"
@@ -348,14 +366,14 @@ FEATURES             Location/Qualifiers
                      SAYALCPHSRNVPDDLLQMLKENDGIVMISLYPEYTNCQDADAASLADVADHIQYVGNL
                      IGYRHVGLGSDFDGMSHGPKGLEDVSKYPDLIQELLDRGVSVDDLVGVTGGNVLRVLGD
                      VEHVARSLADTLPLEDDVKPFFE"
+                     /Pfam="Peptidase_M19"
      CDS             complement(join(32891..35188,35238..37673))
                      /codon_start=1
                      /locus_tag="AO090001000043"
                      /product="nonribosomal peptide synthetase AclP"
-                     /label=aclP
+                     /label="aclP"
                      /note="unnamed protein product; non-ribosomal peptide
-                     synthetase modules and related proteins
-                     revised sequence"
+                     synthetase modules and related proteins revised sequence"
                      /db_xref="GeneID:5990579"
                      /protein_id="XP_023089485.1"
                      /translation="MNPSSQLLVQQLAAVLEVDTAELDLNSGFVHNGGNSLSAVEFVSR
@@ -385,15 +403,15 @@ FEATURES             Location/Qualifiers
                      LEPLPVRISFGQETHNHEKASYLDTVQRSVRSSVGHAVHWDQLLEHLQVSTTPPDHPLF
                      DVVVTFHSQSHSNGLELSAPGLRTCYTYAEGAKFRLLCEFSALSEDRLLLRLEYDTDCF
                      TEENIQLLQARIPLALSLLVQNVPYDMIRQTLACPPETQPVKVLKPDVVFGTPLSDI"
+                     /Pfam="ACP_PCP, NRPS_C, AA-adenyl-dom"
      CDS             complement(join(38622..39238,39290..39369,39391..39565,
                      39620..40046,40119..40481))
                      /codon_start=1
                      /locus_tag="AO090001000044"
                      /product="transporter AclS"
-                     /label=aclS
-                     /note="unnamed protein product; uridine permease/thiamine 
-                     transporter/allantoin transport
-                     revised sequence"
+                     /label="aclS"
+                     /note="unnamed protein product; uridine permease/thiamine
+                     transporter/allantoin transport revised sequence"
                      /db_xref="GeneID:5990580"
                      /protein_id="XP_023089486.1"
                      /translation="MTTVIRYGTRLEHLHEAVKLSPHGQTALSVWINDDIRPLPPSRRT
@@ -406,11 +424,12 @@ FEATURES             Location/Qualifiers
                      SIFMAPFCGIHISDYWFIRQRRLKLSDLYHARPEGIYFYTMGFNWRGVLPWLVGWVPLL
                      PGFMHSINPAIKVSVGADHLYALGFPYGLLSSMAIHTLVNKCFPPPGIGEIDRDDTYGT
                      FTVEEAAKLGVNKDSTEEDSDRSLRRESREVVETKV"
+                     /Pfam="Transp_cyt_pur"
      CDS             join(40729..41160,41219..41339,41400..41947)
                      /codon_start=1
                      /locus_tag="AO090001000045"
                      /product="dehydrogenase AclE"
-                     /label=aclE
+                     /label="aclE"
                      /note="unnamed protein product; predicted protein"
                      /db_xref="GeneID:5990581"
                      /protein_id="XP_001818610.1"
@@ -421,11 +440,12 @@ FEATURES             Location/Qualifiers
                      LCDTDGNLKTGQFNDSPDTFTMHGKIGISEVPVSVCMYSHPPTTPNLFQWVITGEKGSL
                      KMEGPSLMIHAIPPKLMMTSFGSETVCWEEISLENTIVSGAEYQAWLDNDTERIVTLDE
                      AVVRYRMVDAILRSAESGQCTSYRYD"
+                     /Pfam="GFO_IDH_MocA, GFO_IDH_MocA_C"
      CDS             complement(join(42210..42919,42981..43301,43353..43566))
                      /codon_start=1
                      /locus_tag="AO090001000046"
                      /product="methyltransferase AclU"
-                     /label=aclU
+                     /label="aclU"
                      /note="unnamed protein product; predicted protein"
                      /db_xref="GeneID:5990582"
                      /protein_id="XP_023089487.1"
@@ -437,6 +457,7 @@ FEATURES             Location/Qualifiers
                      DVALRIPPERVIAGDFLQEVIPSEAYVMRWCLHDWNDEQACQILRNIRRSIINSPVSRL
                      IVLESVLADGRWGRMSRLGDINVMVTAEHGQERTETQWRQLAACTGWKVVSITQLPGAW
                      PSAIDMRPVERPENV"
+                     /Pfam="Methyltransf_2"
 ORIGIN
         1 ctaataggaa aatatggatt tctgcttttc cggcaagccc aaagtcgccc gcaggccatc
        61 ctcgcgactc gtctgcgcct tgggcacaaa tcgtgccagc cccagtgagc tgcgttccag

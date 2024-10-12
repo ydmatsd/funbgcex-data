@@ -1,36 +1,36 @@
-LOCUS       FBGC00387       15234 bp DNA     linear   UNA 20-FEB-2023
+LOCUS       FBGC00387              15234 bp    DNA     linear   UNA 20-FEB-2023
 DEFINITION  penicillin G.
 ACCESSION   FBGC00387
-VERSION     .
+VERSION     FBGC00387
 KEYWORDS    .
 SOURCE      Aspergillus nidulans FGSC A4
   ORGANISM  Aspergillus nidulans FGSC A4
+            .
 REFERENCE   1  (bases 1 to 15234)
   AUTHORS   MacCabe AP, Riach MB, Unkles SE, Kinghorn JR.
-  TITLE     The Aspergillus nidulans npeA locus consists of three contiguous 
+  TITLE     The Aspergillus nidulans npeA locus consists of three contiguous
             genes required for penicillin biosynthesis.
   JOURNAL   EMBO J 1990;9:279-87
-  PUBMED    2403928
+   PUBMED   2403928
 REFERENCE   2  (bases 1 to 15234)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Feb 20, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1002/j.1460-2075.1990.tb08106.x"; journalName: "EMBO J"; date: 
+  JOURNAL   Exported Feb 20, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     ##Genome-Annotation-Data-START##
+            Annotation Provider :: INSDC submitter
+            Annotation Status   :: Full annotation
+            Annotation Pipeline :: Eukaryotic Annotation Propagation Pipeline
+            ##Genome-Annotation-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1002/j.1460-2075.1990.tb08106.x"; journalName: "EMBO J"; date:
             "1990"; volume: "9"; pages: "279-87"
-COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final 
-            NCBI review. The reference sequence is identical to BN001306. 
+            PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to BN001306.
             Aspergillus nidulans FGSC A4 CADRE,
             updated by Eurofungbase with contributions from
             CADRE (http://www.cadre-genomes.org.uk),
             AspGD (http://www.aspergillusgenome.org) and
-              Ensembl Genomes 
-            (http://www.ensemblgenomes.org).##Genome-Annotation-Data-START##
-            Annotation Provider :: INSDC submitter
-            Annotation Status   :: Full annotation
-            Annotation Pipeline :: Eukaryotic Annotation Propagation Pipeline 
-            ##Genome-Annotation-Data-END##
+            Ensembl Genomes
 FEATURES             Location/Qualifiers
      source          1..15234
                      /chromosome="VI"
@@ -43,7 +43,7 @@ FEATURES             Location/Qualifiers
                      /locus_tag="ANIA_02623"
                      /old_locus_tag="AN2623.2; AN2623.4"
                      /product="acyltransferase PenDE"
-                     /label=penDE
+                     /label="penDE"
                      /note="transcript_id=CADANIAT00010503"
                      /db_xref="EnsemblGenomes-Gn:CADANIAG00010503"
                      /db_xref="EnsemblGenomes-Tr:CADANIAT00010503"
@@ -58,12 +58,13 @@ FEATURES             Location/Qualifiers
                      GLEFSPISLCKQVADTNGRIVHTNHCLLNHGPSAQELNPLPDSWSRHGRMEHLLSGFDG
                      TKEAFAKLWEDEDNYPLSICRAYKEGKSRGSTLFNIVFDHVGRKATVRLGRPNNPDETF
                      VMTFSNLDTKSAIQANI"
+                     /Pfam="AAT"
      CDS             complement(2054..3049)
                      /codon_start=1
                      /locus_tag="ANIA_02622"
                      /old_locus_tag="AN2622.2; AN2622.4"
                      /product="Fe(II)-dependent dioxygenase PcbC"
-                     /label=pcbC
+                     /label="pcbC"
                      /note="transcript_id=CADANIAT00010504"
                      /db_xref="EnsemblGenomes-Gn:CADANIAG00010504"
                      /db_xref="EnsemblGenomes-Tr:CADANIAT00010504"
@@ -120,12 +121,13 @@ FEATURES             Location/Qualifiers
                      LGKEENFFARHFKPDDTLASVVLIRYPYLDPYPEAAIKTAADGTKLSFEWHEDVSLITV
                      LYQSNVQNLQVETAAGYQDIEADDTGYLINCGSYMAHLTNNYYKAPIHRVKWVNAERQS
                      LPFFVNLGYDSVIDPFDPREPNGKSDREPLSYGDYLQNGLVSLINKNGQT"
+                     /Pfam="DIOX_N, 2OG-FeII_Oxy"
      CDS             3922..15234
                      /codon_start=1
                      /locus_tag="ANIA_02621"
                      /old_locus_tag="AN2621.2; AN2621.4"
                      /product="nonribosomal peptide synthetase PcbAB"
-                     /label=pcbAB
+                     /label="pcbAB"
                      /note="transcript_id=CADANIAT00010505"
                      /db_xref="EnsemblGenomes-Gn:CADANIAG00010505"
                      /db_xref="EnsemblGenomes-Tr:CADANIAT00010505"
@@ -207,6 +209,7 @@ FEATURES             Location/Qualifiers
                      LLGIIDTYFNVPGATRAIGLGDTEVLDPIHHISQPEPADFQCLPASTDYIILFKATRVN
                      DKFQSENQRRLYEYYDKTLLNDLDWLLPGASNIHLVRLEEDTHFSWATNPRQIAHVCST
                      IEKFLARY"
+                     /Pfam="Condensation, AA-adenyl-dom, ACP_PCP, Thioesterase"
 ORIGIN
         1 tcaaatgttg gcttggatcg cggacttggt atccagattg ctaaaggtca tgacaaaggt
        61 ctcatcaggg ttattgggcc ggcccagccg cactgttgcc ttccggccca catgatcgaa

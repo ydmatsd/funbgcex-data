@@ -1,42 +1,42 @@
-LOCUS       FBGC00374       19125 bp DNA     linear   UNA 19-FEB-2023
+LOCUS       FBGC00374              19125 bp    DNA     linear   UNA 19-FEB-2023
 DEFINITION  triacetylfusarinine C/hydroxyferricrocin.
 ACCESSION   FBGC00374
-VERSION     .
+VERSION     FBGC00374
 KEYWORDS    .
 SOURCE      Aspergillus fumigatus Af293
   ORGANISM  Aspergillus fumigatus Af293
+            .
 REFERENCE   1  (bases 1 to 19125)
-  AUTHORS   Schrettl M, Bignell E, Kragl C, Sabiha Y, Loss O, Eisendle M, 
+  AUTHORS   Schrettl M, Bignell E, Kragl C, Sabiha Y, Loss O, Eisendle M,
             Wallner A, Arst HN, Haynes K, Haas H.
-  TITLE     Distinct roles for intra- and extracellular siderophores during 
+  TITLE     Distinct roles for intra- and extracellular siderophores during
             Aspergillus fumigatus infection.
   JOURNAL   PLoS Pathog 2007;3:1195-207
-  PUBMED    17845073
+   PUBMED   17845073
 REFERENCE   2  (bases 1 to 19125)
-  AUTHORS   Yasmin S, Alcazar-Fuoli L, Grundlinger M, Puempel T, Cairns T, 
+  AUTHORS   Yasmin S, Alcazar-Fuoli L, Grundlinger M, Puempel T, Cairns T,
             Blatzer M, Lopez JF, Grimalt JO, Bignell E, Haas H.
-  TITLE     Mevalonate governs interdependency of ergosterol and siderophore 
+  TITLE     Mevalonate governs interdependency of ergosterol and siderophore
             biosyntheses in the fungal pathogen Aspergillus fumigatus.
   JOURNAL   Proc Natl Acad Sci U S A 2012;109:E497-504
-  PUBMED    22106303
+   PUBMED   22106303
 REFERENCE   3  (bases 1 to 19125)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Feb 19, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1371/journal.ppat.0030128"; journalName: "PLoS Pathog"; date: 
-            "2007"; volume: "3"; pages: "1195-207"
-COMMENT     SGRef: number: 2; type: "Journal Article"; doi: 
-            "10.1073/pnas.1106399108"; journalName: "Proc Natl Acad Sci U S A"; 
-            date: "2012"; volume: "109"; pages: "E497-504"
-COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final 
-            NCBI review. The reference sequence is identical to 
-            CM000171.##Genome-Annotation-Data-START##
+  JOURNAL   Exported Feb 19, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     ##Genome-Annotation-Data-START##
             Annotation Provider :: INSDC submitter
             Annotation Status   :: Full annotation
-            Annotation Pipeline :: Eukaryotic Annotation Propagation Pipeline 
+            Annotation Pipeline :: Eukaryotic Annotation Propagation Pipeline
             ##Genome-Annotation-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1371/journal.ppat.0030128"; journalName: "PLoS Pathog"; date:
+            "2007"; volume: "3"; pages: "1195-207"
+            SGRef: number: 2; type: "Journal Article"; doi:
+            "10.1073/pnas.1106399108"; journalName: "Proc Natl Acad Sci U S A";
+            date: "2012"; volume: "109"; pages: "E497-504"
+            PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to
 FEATURES             Location/Qualifiers
      source          1..19125
                      /chromosome="3"
@@ -49,7 +49,7 @@ FEATURES             Location/Qualifiers
                      /locus_tag="AFUA_3G03390"
                      /old_locus_tag="Afu3g03390"
                      /product="esterase SidJ"
-                     /label=sidJ
+                     /label="sidJ"
                      /note="encoded by transcript AFUA_3G03390A"
                      /db_xref="GeneID:3506151"
                      /protein_id="XP_748659.1"
@@ -60,16 +60,17 @@ FEATURES             Location/Qualifiers
                      PAHTPLSARRFLSLTSPESPESPSEDDLFSSDLSDEQLGKTFGMIREQGLLRGKLMVLF
                      SGADQSVPAWVDKDTLLSRWRNATDHNGEAAIWDENSGIIPNASHALSNDDQAEPRNFL
                      VNKVLGYLSALVKA"
+                     /Pfam="DUF1749"
      CDS             complement(2673..4061)
                      /codon_start=1
                      /locus_tag="AFUA_3G03400"
                      /old_locus_tag="Afu3g03400"
                      /product="acyltransferase SidF"
-                     /label=sidF
-                     /note="encoded by transcript AFUA_3G03400A;
-                     similar to acetylase AceI (GI:32400324) [Aspergillus 
-                     oryzae] similar to PvdZ (GI:59891934) [Pseudomonas 
-                     aeruginosa] PMID: 15743962"
+                     /label="sidF"
+                     /note="encoded by transcript AFUA_3G03400A; similar to
+                     acetylase AceI (GI:32400324) [Aspergillus oryzae] similar
+                     to PvdZ (GI:59891934) [Pseudomonas aeruginosa] PMID:
+                     15743962"
                      /db_xref="GeneID:3506152"
                      /protein_id="XP_748660.1"
                      /translation="MATQSSTELPQINMTTAEPTSANKRTYPWVKLPHPYLTSYAIHVV
@@ -81,13 +82,14 @@ FEATURES             Location/Qualifiers
                      DHYGAHYDAGDYDRGRHSLVGESSVRGAYRVNAWWSSLIHYIFLDEPRTMCVVGEPKAT
                      NTTVLSYENAHGLTVQKYVDLGHKRSVHVYCSREKWFQLCPLFWDGRERPLESSDRMAW
                      DAKL"
+                     /Pfam="Acetyltransf_8"
      CDS             join(4373..4598,4672..5258)
                      /codon_start=1
                      /locus_tag="AFUA_3G03410"
                      /old_locus_tag="Afu3g03410"
                      /product="enoyl-CoA hydratase SidH"
                      /EC_number="4.2.1.-"
-                     /label=sidH
+                     /label="sidH"
                      /note="encoded by transcript AFUA_3G03410A"
                      /db_xref="GeneID:3506153"
                      /protein_id="XP_748661.1"
@@ -96,21 +98,21 @@ FEATURES             Location/Qualifiers
                      PIIAAVNGYCLGGGFEMVANCDIVVASENATFGLPEVQRGIAAVAGSLPRLVRVLGKQR
                      AAEIALSGLSFSASQLERWGLVNRVVEHDQLLATAVEIATAISRNSPDSVRVTMEGLHY
                      GWEMASVEEASSALVDQWYAKLMAGENFHEGVRAFVEKRKPQWRPSKL"
+                     /Pfam="ECH_1"
      CDS             join(5967..6401,6457..12273)
                      /codon_start=1
                      /locus_tag="AFUA_3G03420"
                      /old_locus_tag="Afu3g03420"
                      /product="nonribosomal peptide synthetase SidD"
-                     /label=sidD
-                     /note="encoded by transcript AFUA_3G03420A;
-                     identical to nonribosomal peptide synthetase SidD 
-                     (GI:67107101) [Aspergillus fumigatus] PMID: 15953695 
-                     similar to peptide synthetase Sid2 (GI:32400320) 
-                     [Aspergillus oryzae] similar to nonribosomal peptide 
-                     synthetase NPS6 (GI:59896114) [Gibberella moniliformis] 
-                     PMID: 15755917 similar to nonribosomal peptide synthetase 
-                     NPS6 (GI:59876673) [Cochliobolus heterostrophus] PMID: 
-                     15755917"
+                     /label="sidD"
+                     /note="encoded by transcript AFUA_3G03420A; identical to
+                     nonribosomal peptide synthetase SidD (GI:67107101)
+                     [Aspergillus fumigatus] PMID: 15953695 similar to peptide
+                     synthetase Sid2 (GI:32400320) [Aspergillus oryzae] similar
+                     to nonribosomal peptide synthetase NPS6 (GI:59896114)
+                     [Gibberella moniliformis] PMID: 15755917 similar to
+                     nonribosomal peptide synthetase NPS6 (GI:59876673)
+                     [Cochliobolus heterostrophus] PMID: 15755917"
                      /db_xref="GeneID:3506154"
                      /protein_id="XP_748662.1"
                      /translation="MGSIQQDDVHNQIDHCNQSDDLPAARLNCNDVELFEVAGLACDET
@@ -149,16 +151,16 @@ FEATURES             Location/Qualifiers
                      GPCYQLTPVRVPFHPDWTASDLLNFVQTQSAESAAHDFLGFEKIAKLAGWASGRQGFDS
                      IVHHQDWEDFDMMPFGGGSCRVDIANPHGDAAYPVKAVSFVKEGEIHVGVVCSERDVMF
                      VDEVLGELAAAVVELAGQSTEVLLDSKLFSGQ"
+                     /Pfam="AA-adenyl-dom, ACP_PCP, NRPS_C, NRPS_CT"
      CDS             complement(join(12401..15414,15462..16395))
                      /codon_start=1
                      /locus_tag="AFUA_3G03430"
                      /old_locus_tag="Afu3g03430"
                      /product="ABC transporter SitT"
                      /EC_number="3.6.3.-"
-                     /label=sitT
-                     /note="encoded by transcript AFUA_3G03430A;
-                     similar to ABC transporter SitT (GI:32400322) [Aspergillus 
-                     oryzae]"
+                     /label="sitT"
+                     /note="encoded by transcript AFUA_3G03430A; similar to ABC
+                     transporter SitT (GI:32400322) [Aspergillus oryzae]"
                      /db_xref="GeneID:3506155"
                      /protein_id="XP_748663.1"
                      /translation="MKLVQKLSGYPRLLLAGNPSKIDLGRLLLGIISAVASGVPFPLIG
@@ -184,16 +186,17 @@ FEATURES             Location/Qualifiers
                      NVGLGARPDHEATMDEIVEACKLANIHDVIESLPDGYQTLCGPNGSQFSGGQKQRLSIA
                      RALVRKPKLLILDESTSALDAESEKLLQDGLERAAKGITVIAIAHRLHTIRKADVIFLI
                      EGGKCVDRGTHEELLQRSESYRANVMHQTVA"
+                     /Pfam="ABC_membrane, ABC_tran"
      CDS             join(17173..17426,17485..17755,17806..18148,18197..19125)
                      /codon_start=1
                      /locus_tag="AFUA_3G03440"
                      /old_locus_tag="Afu3g03440"
-                     /product="major facilitator superfamily transporter 
+                     /product="major facilitator superfamily transporter
                      AFUA_3G03440"
-                     /label=AFUA_3G03440
-                     /note="encoded by transcript AFUA_3G03440A;
-                     similar to major facilitator MirB (GI:30058790) [Emericella
-                     nidulans] PUBMED = 12487628"
+                     /label="AFUA_3G03440"
+                     /note="encoded by transcript AFUA_3G03440A; similar to
+                     major facilitator MirB (GI:30058790) [Emericella nidulans]
+                     PUBMED = 12487628"
                      /db_xref="GeneID:3506156"
                      /protein_id="XP_748664.2"
                      /translation="MLSSWQKKFFQTPEHPPAEGIAPPRDDGVPNPEPVTYPDTKYPSD
@@ -207,6 +210,7 @@ FEATURES             Location/Qualifiers
                      IFIAFAGGTMIICQQVAVLAASDHDHAASSLAFLNVFGTMGSAVGSSISGAIWTHTLPG
                      ALQRLLPDSVKADWQTIYDSLEEQLSYERGTLIRQAIALAYASTQSKMLIAGTAIMALS
                      LVWMFVIRDIKLTKTQTKGVLF"
+                     /Pfam="MFS_1"
 ORIGIN
         1 ctaagctttt actaaagccg aaagatatcc tagtaccttg ttgaccagaa agttccgagg
        61 ctcagcttga tcatcattac tcaatgcatg agacgcattc ggtatgatac cgctgttttc

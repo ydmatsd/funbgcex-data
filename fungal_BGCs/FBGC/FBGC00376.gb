@@ -1,32 +1,32 @@
-LOCUS       FBGC00376        6330 bp DNA     linear   UNA 19-FEB-2023
+LOCUS       FBGC00376               6330 bp    DNA     linear   UNA 19-FEB-2023
 DEFINITION  fumarylalanine.
 ACCESSION   FBGC00376
-VERSION     .
+VERSION     FBGC00376
 KEYWORDS    .
 SOURCE      Aspergillus fumigatus Af293
   ORGANISM  Aspergillus fumigatus Af293
+            .
 REFERENCE   1  (bases 1 to 6330)
-  AUTHORS   Steinchen W, Lackner G, Yasmin S, Schrettl M, Dahse HM, Haas H, 
+  AUTHORS   Steinchen W, Lackner G, Yasmin S, Schrettl M, Dahse HM, Haas H,
             Hoffmeister D.
-  TITLE     Bimodular peptide synthetase SidE produces fumarylalanine in the 
+  TITLE     Bimodular peptide synthetase SidE produces fumarylalanine in the
             human pathogen Aspergillus fumigatus.
   JOURNAL   Appl Environ Microbiol 2013;79:6670-6
-  PUBMED    23974138
+   PUBMED   23974138
 REFERENCE   2  (bases 1 to 6330)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Feb 19, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1128/AEM.02642-13"; journalName: "Appl Environ Microbiol"; date:
-            "2013"; volume: "79"; pages: "6670-6"
-COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final 
-            NCBI review. The reference sequence is identical to 
-            CM000171.##Genome-Annotation-Data-START##
+  JOURNAL   Exported Feb 19, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     ##Genome-Annotation-Data-START##
             Annotation Provider :: INSDC submitter
             Annotation Status   :: Full annotation
-            Annotation Pipeline :: Eukaryotic Annotation Propagation Pipeline 
+            Annotation Pipeline :: Eukaryotic Annotation Propagation Pipeline
             ##Genome-Annotation-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1128/AEM.02642-13"; journalName: "Appl Environ Microbiol"; date:
+            "2013"; volume: "79"; pages: "6670-6"
+            PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to
 FEATURES             Location/Qualifiers
      source          1..6330
                      /chromosome="3"
@@ -40,11 +40,11 @@ FEATURES             Location/Qualifiers
                      /old_locus_tag="Afu3g03350"
                      /product="nonribosomal peptide synthetase SidE"
                      /EC_number="6.3.2.-"
-                     /label=sidE
-                     /note="encoded by transcript AFUA_3G03350A;
-                     contains AMP-binding, pp-binding and condensation domains 
-                     similar to peptide synthetase (GI:2342601) [Metarhizium 
-                     anisopliae] PUBMED = 8964498"
+                     /label="sidE"
+                     /note="encoded by transcript AFUA_3G03350A; contains
+                     AMP-binding, pp-binding and condensation domains similar to
+                     peptide synthetase (GI:2342601) [Metarhizium anisopliae]
+                     PUBMED = 8964498"
                      /db_xref="GeneID:3506069"
                      /protein_id="XP_748654.2"
                      /translation="MAPVALRDLAESPELEGTEVVSMKARSSPPLTPPSPPCLVTDYIR
@@ -83,6 +83,7 @@ FEATURES             Location/Qualifiers
                      VAFDYLYTGRNIDLPDPQTINGTCANFLPMRSKVDPSMPVSEFLRQTQDEFWQYTENST
                      VGMDEIHEACETTREGFSNKTLFLFQPFEPAPATAKQYEKWIVMAKSQVTMPQPYAVVF
                      EVVKTADVNEYKLKFAFDKRVYEKEQVQGEAQVIEKLLAKVMENAEASVGDVLGSFRS"
+                     /Pfam="AA-adenyl-dom, ACP_PCP, NRPS_C, NRPS_CT"
 ORIGIN
         1 atggctccgg tcgcccttcg agatctcgcg gaaagccctg agcttgaggg aaccgaggtt
        61 gtctcgatga aggctcgctc atctcctcct ctcactcccc cgtctcctcc ttgcctcgtt

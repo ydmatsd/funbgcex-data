@@ -1,22 +1,22 @@
-LOCUS       FBGC00382       16159 bp DNA     linear   UNA 19-FEB-2023
+LOCUS       FBGC00382              16159 bp    DNA     linear   UNA 19-FEB-2023
 DEFINITION  penicillin G.
 ACCESSION   FBGC00382
-VERSION     .
+VERSION     FBGC00382
 KEYWORDS    .
 SOURCE      Penicillium rubens Wisconsin 54-1255
   ORGANISM  Penicillium rubens Wisconsin 54-1255
+            .
 REFERENCE   1  (bases 1 to 16159)
   AUTHORS   van den Berg MA, Westerlaken I, Leeflang C, Kerkman R, Bovenberg RA.
-  TITLE     Functional characterization of the penicillin biosynthetic gene 
+  TITLE     Functional characterization of the penicillin biosynthetic gene
             cluster of Penicillium chrysogenum Wisconsin54-1255.
   JOURNAL   Fungal Genet Biol 2007;44:830-44
-  PUBMED    17548217
+   PUBMED   17548217
 REFERENCE   2  (bases 1 to 16159)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Feb 19, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
+  JOURNAL   Exported Feb 19, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
             "10.1016/j.fgb.2007.03.008"; journalName: "Fungal Genet Biol"; date:
             "2007"; volume: "44"; pages: "830-44"
 FEATURES             Location/Qualifiers
@@ -30,7 +30,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="pcbAB"
                      /product="nonribosomal peptide synthetase PcbAB"
-                     /label=pcbAB
+                     /label="pcbAB"
                      /note="ACVS"
                      /protein_id="ABR12615.1"
                      /translation="MTQLKPPNGTTPIGFSATTSLNASGSSSVKNGTIKPSNGIFKPST
@@ -98,11 +98,13 @@ FEATURES             Location/Qualifiers
                      VASDEKIGFLGIIDTYFNVRGATRTIGLGDTEILDPIHHIYNPDPANFQRLPSATDRIV
                      LFKAMRPNNKYESENQRRLYEYYDALDSTDWTACYQAIPTSSWSRLRTIHTFPGSEIHN
                      RWSRCVRLSRNTSLAIDPSLAAQYIGRWK"
+                     /Pfam="Condensation, AA-adenyl-dom, ACP_PCP, NRPS_E,
+                     Thioesterase"
      CDS             12392..13387
                      /codon_start=1
                      /gene="pcbC"
                      /product="Fe(II)-dependent dioxygenase PcbC"
-                     /label=pcbC
+                     /label="pcbC"
                      /note="IPNS"
                      /protein_id="ABR12616.1"
                      /translation="MASTPKANVPKIDVSPLFGDNMEEKMKVARAIDAASRDTGFFYAV
@@ -111,11 +113,12 @@ FEATURES             Location/Qualifiers
                      LGKEEDFFSRHFKKEDALSSVVLIRYPYLNPYPPAAIKTAEDGTKLSFEWHEDVSLITV
                      LYQSDVANLQVEMPQGYLDIEADDNAYLVNCGSYMAHITNNYYPAPIHRVKWVNEERQS
                      LPFFVNLGFNDTVQPWDPSKEDGKTDQRPISYGDYLQNGLVSLINKNGQT"
+                     /Pfam="DIOX_N, 2OG-FeII_Oxy"
      CDS             join(14885..14920,14985..15159,15228..15379,15449..16159)
                      /codon_start=1
                      /gene="penDE"
                      /product="acyltransferase PenDE"
-                     /label=penDE
+                     /label="penDE"
                      /note="AAT"
                      /protein_id="ABR12617.1"
                      /translation="MLHILCQGTPFEIGYEHGSAAKAVIARSIDFAVDLIRGKTKKTDE
@@ -125,6 +128,7 @@ FEATURES             Location/Qualifiers
                      GLEFSPTSIRKQVLDANGRMVHTNHCLLQHGKNEKELDPLPDSWNRHQRMEFLLDGFDG
                      TKQAFAQLWADEDNYPFSICRAYEEGKSRGATLFNIIYDHARREATVRLGRPTNPDEMF
                      VMRFDEEDERSALNARL"
+                     /Pfam="AAT"
 ORIGIN
         1 tcacttccat cgtccgatat actgtgctgc tagtgacgga tcaatagcga gcgaggtgtt
        61 ccttgatagt cgaacacatc tgctccacct gttgtggatt tccgacccag gaaaagtgtg

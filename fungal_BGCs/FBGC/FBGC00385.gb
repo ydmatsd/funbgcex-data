@@ -1,26 +1,42 @@
-LOCUS       FBGC00385       18699 bp DNA     linear   UNA 19-FEB-2023
+LOCUS       FBGC00385              18699 bp    DNA     linear   UNA 19-FEB-2023
 DEFINITION  aculene A.
 ACCESSION   FBGC00385
-VERSION     .
+VERSION     FBGC00385
 KEYWORDS    .
 SOURCE      Aspergillus aculeatus ATCC 16872
   ORGANISM  Aspergillus aculeatus ATCC 16872
+            .
 REFERENCE   1  (bases 1 to 18699)
   AUTHORS   Lee CF, Chen LX, Chiang CY, Lai CY, Lin HC.
-  TITLE     The Biosynthesis of Norsesquiterpene Aculenes Requires Three 
-            Cytochrome P450 Enzymes to Catalyze a Stepwise Demethylation 
+  TITLE     The Biosynthesis of Norsesquiterpene Aculenes Requires Three
+            Cytochrome P450 Enzymes to Catalyze a Stepwise Demethylation
             Process.
   JOURNAL   Angew Chem Int Ed Engl 2019;58:18414-18418
-  PUBMED    31618514
+   PUBMED   31618514
 REFERENCE   2  (bases 1 to 18699)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Feb 19, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1002/anie.201910200"; journalName: "Angew Chem Int Ed Engl"; 
+  JOURNAL   Exported Feb 19, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     ##ata-START##
+            Assembly Method       :: Newbler v. 2.3
+            Assembly Name         :: Aspac1
+            Long Assembly Name    :: Aspergillus aculeatus ATCC16872 v1.1 Genome
+            Coverage              :: 32.17x
+            Sequencing Technology :: 454; Sanger dideoxy sequencing
+            ##ata-END##
+            ##Metadata-START##
+            Organism Display Name :: Aspergillus aculeatus ATCC 16872
+            GOLD Stamp ID         :: Gp0003551
+            ##Metadata-END##
+            ##Genome-Annotation-Data-START##
+            Annotation Provider   :: INSDC submitter
+            Annotation Status     :: Full annotation
+            Annotation Pipeline   :: Eukaryotic Annotation Propagation Pipeline
+            ##Genome-Annotation-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1002/anie.201910200"; journalName: "Angew Chem Int Ed Engl";
             date: "2019"; volume: "58"; pages: "18414-18418"
-COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final 
+            PROVISIONAL REFSEQ: This record has not yet been subject to final
             NCBI review. The reference sequence is identical to KV878977.
             URL -- http://genome.jgi.doe.gov/Aspac1
             JGI Project ID: 52394
@@ -28,27 +44,13 @@ COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
             The strain is available from David Culley
             Contacts: David Culley (David.Culley@pnnl.gov)
             Assembly and annotation done by JGI.
-            The JGI and collaborators endorse the principles for the 
-            distribution and use of large scale sequencing data adopted by the 
-            larger genome sequencing community and urge users of this data to 
+            The JGI and collaborators endorse the principles for the
+            distribution and use of large scale sequencing data adopted by the
+            larger genome sequencing community and urge users of this data to
             follow them. It is our intention to publish the work of this project
-            in a timely fashion and we welcome collaborative interaction on the 
-            project and analysis. 
+            in a timely fashion and we welcome collaborative interaction on the
+            project and analysis.
             (http://www.genome.gov/page.cfm?pageID=10506376).##Genome-Assembly-D
-            ata-START##
-            Assembly Method       :: Newbler v. 2.3
-            Assembly Name         :: Aspac1
-            Long Assembly Name    :: Aspergillus aculeatus ATCC16872 v1.1 Genome
-            Coverage       :: 32.17x
-            Sequencing Technology :: 454; Sanger dideoxy sequencing 
-            ##Genome-Assembly-Data-END####Metadata-START##
-            Organism Display Name :: Aspergillus aculeatus ATCC 16872
-            GOLD Stamp ID         :: Gp0003551
-            ##Metadata-END####Genome-Annotation-Data-START##
-            Annotation Provider :: INSDC submitter
-            Annotation Status   :: Full annotation
-            Annotation Pipeline :: Eukaryotic Annotation Propagation Pipeline 
-            ##Genome-Annotation-Data-END##
 FEATURES             Location/Qualifiers
      source          1..18699
                      /chromosome="Unknown"
@@ -63,7 +65,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="ASPACDRAFT_119783"
                      /product="2OG-Fe(II)-dependent dioxygenase AneA"
-                     /label=aneA
+                     /label="aneA"
                      /db_xref="GeneID:30970091"
                      /db_xref="InterPro:IPR008775"
                      /db_xref="JGIDB:Aspac1_119783"
@@ -74,11 +76,12 @@ FEATURES             Location/Qualifiers
                      FTDENGATRVIPGSHQWDDFTTDVTRCVPQTIPAEMEAGDCLLFSGKTVHGGGANRSKD
                      NVRRGMALGVQATYLTAEENYQHIPREIVESMTPLAQKMIHWRSSYCPGGAGLWQINGT
                      ELANEIGLKANQPKKTI"
+                     /Pfam="PhyH"
      CDS             1740..4976
                      /codon_start=1
                      /locus_tag="ASPACDRAFT_29371"
                      /product="nonribosomal peptide synthetase AneB"
-                     /label=aneB
+                     /label="aneB"
                      /db_xref="GeneID:30973450"
                      /db_xref="InterPro:IPR000873"
                      /db_xref="InterPro:IPR001242"
@@ -104,11 +107,12 @@ FEATURES             Location/Qualifiers
                      AILPDRIRLDPTQSLRANVDQDQENILTMMPYEGIRPSQVLDLSEAARAASQFQTILAV
                      QQDNSSVYPEMFRDHEMGYYGPVTAHNLMMQCFLSPDRASARVSLRLSERTMQETTAWD
                      RFLAHFEAVVDAIQEKPEIPVDRLRQHLGA"
+                     /Pfam="AA-adenyl-dom, ACP_PCP, NRPS_CT"
      CDS             complement(join(6052..6511,6618..6897,6970..7558))
                      /codon_start=1
                      /locus_tag="ASPACDRAFT_60731"
                      /product="terpene synthase AneC"
-                     /label=aneC
+                     /label="aneC"
                      /db_xref="GeneID:30977402"
                      /db_xref="JGIDB:Aspac1_60731"
                      /protein_id="XP_020056254.1"
@@ -120,11 +124,12 @@ FEATURES             Location/Qualifiers
                      FRELDIAYDFMITAVRFGAAILYDPAERPVFEWIEKLYIRHCLYINDLYSYEKEFREHQ
                      QEGAPLHNSVHMIEQVLSVPPGSAKAILRSVLWDCERQVREEYVRLMQLPELTHTQKVY
                      LQRLIESFAGNYMYSMSTYRYARLSGKLIGPPPEDCLLKNYVQ"
+                     /Pfam="Terpene_syn_C_2"
      CDS             8244..9788
                      /codon_start=1
                      /locus_tag="ASPACDRAFT_60732"
                      /product="cytochrome P450 monooxygenase AneD"
-                     /label=aneD
+                     /label="aneD"
                      /db_xref="GeneID:30977403"
                      /db_xref="InterPro:IPR001128"
                      /db_xref="JGIDB:Aspac1_60732"
@@ -138,11 +143,12 @@ FEATURES             Location/Qualifiers
                      FVDAFVNETMRWRPIAPEGVPHSLMKEDEYEGFTIPKNSIVIANQWHMAMDPATFTDPQ
                      AFRPERWLEDPKLPISAFGFGRRACPGRHIALNSMKIVMCRLLWAYDFDHAYENGRKVT
                      IDPDNFVREGVLSKPAPFKAALRVRSPAHEKTIQSALRESEQDEDKILAHIAAGLA"
+                     /Pfam="p450"
      CDS             join(10663..10788,10864..11694)
                      /codon_start=1
                      /locus_tag="ASPACDRAFT_78840"
                      /product="alpha/beta hydrolase AneE"
-                     /label=aneE
+                     /label="aneE"
                      /db_xref="GeneID:30979091"
                      /db_xref="JGIDB:Aspac1_78840"
                      /protein_id="XP_020056256.1"
@@ -152,13 +158,14 @@ FEATURES             Location/Qualifiers
                      EALVAARTAGQQSPQPTLVPMINQVGVSPMGFNAIHGKNFYEEMPWFKETAPNFRPHTT
                      TLTYYKMLRWHPLSNIRCLSPTPIQMLIPGKDDVCPTQEQLDFFEALPGPKRMEYYEDR
                      NHHGLLLGSAFEGVMEAQVRFVQDVLAGKFALKSGSQ"
+                     /Pfam="Abhydrolase_6"
      CDS             complement(join(12194..12359,12438..12598,12677..13117,
                      13182..13273,13348..13462,13537..13801,13879..13942,
                      14004..14268))
                      /codon_start=1
                      /locus_tag="ASPACDRAFT_78841"
                      /product="cytochrome P450 monooxygenase AneF"
-                     /label=aneF
+                     /label="aneF"
                      /db_xref="GeneID:30979092"
                      /db_xref="InterPro:IPR001128"
                      /db_xref="JGIDB:Aspac1_78841"
@@ -173,11 +180,12 @@ FEATURES             Location/Qualifiers
                      PPEGMKLDNKFVPGGTIISISSRCIMDDPKIYPEPEKFLPERWMGENAKSMDRNMIAFG
                      KGSRSCLGTNLAYLKMYTMLSTMFCRWDLRLVSPTDHKLRYLDHALIEMKSQVVVEILA
                      DHWTT"
+                     /Pfam="p450"
      CDS             join(14803..14961,15040..16313,16394..16553)
                      /codon_start=1
                      /locus_tag="ASPACDRAFT_119792"
                      /product="cytochrome P450 monooxygenase AneG"
-                     /label=aneG
+                     /label="aneG"
                      /db_xref="GeneID:30970092"
                      /db_xref="InterPro:IPR001128"
                      /db_xref="JGIDB:Aspac1_119792"
@@ -192,12 +200,13 @@ FEATURES             Location/Qualifiers
                      QLPRVVPGEGATVCNRWVPGGTKVYVAPYATFRSAENFYQPDAFLPQRWLPENGESFDV
                      DKKNAWRPFGLGAHECPGQVITNLITRLIMCKLLLSFDLELCADSQDWLSRQPVWIVWD
                      KPELLIKARPAAA"
+                     /Pfam="p450"
      CDS             complement(join(16890..17298,17367..17502,17677..17697,
                      17774..17938,18024..18109,18170..18699))
                      /codon_start=1
                      /locus_tag="ASPACDRAFT_43554"
                      /product="proline iminopeptidase AneH"
-                     /label=aneH
+                     /label="aneH"
                      /db_xref="GeneID:30975094"
                      /db_xref="InterPro:IPR000073"
                      /db_xref="JGIDB:Aspac1_43554"
@@ -210,6 +219,7 @@ FEATURES             Location/Qualifiers
                      FLTAPTLDLIENSGMAHNVIYSLLQEPMYCQGKAGGWCADKCRKADPRFSLNERNAQIW
                      FTGEAIFSDMFESYDELKDLKPVAELLARSSDWGQLYNEAQLARNEVPVYVATAVEDMY
                      VSYDLGCHTASKVKNLQQVVNNTWYHDAVETKASEVMPALFALKEDRID"
+                     /Pfam="Abhydrolase_1"
 ORIGIN
         1 atgacacgct catccccaaa gtccatcctg cgtcgagtgg cagctcacga gggtgcaccg
        61 aagatcttgc aggtcctgaa agaggatggg gcggtgatca tccgggggtt tctcaaccag

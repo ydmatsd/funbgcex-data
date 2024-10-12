@@ -1,30 +1,30 @@
-LOCUS       FBGC00356       20179 bp DNA     linear   UNA 17-FEB-2023
+LOCUS       FBGC00356              20179 bp    DNA     linear   UNA 17-FEB-2023
 DEFINITION  malbrancheamide.
 ACCESSION   FBGC00356
-VERSION     .
+VERSION     FBGC00356
 KEYWORDS    .
 SOURCE      Malbranchea aurantiaca RRC1813
   ORGANISM  Malbranchea aurantiaca RRC1813
+            .
 REFERENCE   1  (bases 1 to 20179)
-  AUTHORS   Li S, Anand K, Tran H, Yu F, Finefield JM, Sunderhaus JD, McAfoos 
+  AUTHORS   Li S, Anand K, Tran H, Yu F, Finefield JM, Sunderhaus JD, McAfoos
             TJ, Tsukamoto S, Williams RM, Sherman DH.
-  TITLE     Comparative analysis of the biosynthetic systems for fungal 
-            bicyclo[2.2.2]diazaoctane indole alkaloids: the (+)/(-)-notoamide, 
+  TITLE     Comparative analysis of the biosynthetic systems for fungal
+            bicyclo[2.2.2]diazaoctane indole alkaloids: the (+)/(-)-notoamide,
             paraherquamide and malbrancheamide pathways.
   JOURNAL   MedChemComm 2012;3:987-996
-  PUBMED    23213353
+   PUBMED   23213353
 REFERENCE   2  (bases 1 to 20179)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Feb 17, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1039/C2MD20029E"; journalName: "MedChemComm"; date: "2012"; 
-            volume: "3"; pages: "987-996"
+  JOURNAL   Exported Feb 17, 2023 from SnapGene 6.2.1 https://www.snapgene.com
 COMMENT     ##Assembly-Data-START##
             Assembly Method       :: Velvet v. 0.7.63
             Sequencing Technology :: Illumina
             ##Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1039/C2MD20029E"; journalName: "MedChemComm"; date: "2012";
+            volume: "3"; pages: "987-996"
 FEATURES             Location/Qualifiers
      source          1..20179
                      /strain="RRC1813"
@@ -35,7 +35,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="malA"
                      /product="FAD-dependent halogenase MalA"
-                     /label=malA
+                     /label="malA"
                      /note="MalA"
                      /protein_id="AGA37261.1"
                      /translation="MAPTPKYTFTERAAAGNLSDAEILNSNNPTGSELPDESDVVVGGA
@@ -50,13 +50,13 @@ FEATURES             Location/Qualifiers
                      VPEYQQVAQKCIEHIETVPLDERLPDAMVDELLAFSNRIKSAAVAADDFSLRWDAILRS
                      FDRSLNFVEGKTSRDIYTRQCSGCGAWLQLRPDWKKCHSCGLLGTEPQTAVTFDPPLTA
                      EEEALLYAAWNTAPKYDPSKELKLPTPTRPAA"
+                     /Pfam="Trp_halogenase"
      CDS             join(3051..4162,4221..4320)
                      /codon_start=1
                      /gene="malB"
                      /product="DMATS-type prenyltransferase MalB"
-                     /label=malB
-                     /note="MalB
-                     revised sequence"
+                     /label="malB"
+                     /note="MalB revised sequence"
                      /protein_id="AGA37262.1"
                      /translation="MMPSQSPYHALSRYFSFPNRDHQAWWTGKGPLLGNMLADAGYPEQ
                      QQYQYLTLFNLHLIPALGPSESHGAGIDGAEWKSLLSGSGKLEFSMTYRKSAVSLRIAF
@@ -66,12 +66,13 @@ FEATURES             Location/Qualifiers
                      SDKPTLKGLELAKILWDILGISTAPASPDSFPLLFTFELRPEQPYLRQKLGIPVSGLTE
                      SAIANACVAFFERLGWDDHAASYRTNLSAYYPDQDLNKPLGKQAWLAFSYVSEEGPSLT
                      VHHY"
+                     /Pfam="Trp_DMAT"
      CDS             4886..5680
                      /codon_start=1
                      /gene="malC"
-                     /product="short-chain 
+                     /product="short-chain
                      dehydrogenase/reductase/Diels-Alderase MalC"
-                     /label=malC
+                     /label="malC"
                      /note="MalC"
                      /protein_id="AGA37263.1"
                      /translation="MAPTRRSRDLLRGKNVLIIGGTSGIGFAVAQLVIEHGAMACIAGS
@@ -79,12 +80,13 @@ FEATURES             Location/Qualifiers
                      TAADMVQPPPLASVTIEQIQRVGTIRFTAPMLVAKLLPKYMELCPENSYTLTSGSHAKQ
                      PDPGWSLVTGYCGGVEGLMRGLAVDMMPLRVNVVSPGAVLTPVLRDILGDSLEIALDAA
                      RKKSTTGRIARPEDVAEAYLYIMKDQNITGTVLETSAGMLLR"
-     CDS             complement(join(5937..6202,6299..6628,6707..6860,6932..7149,
-                     7228..7270))
+                     /Pfam="adh_short_C2"
+     CDS             complement(join(5937..6202,6299..6628,6707..6860,
+                     6932..7149,7228..7270))
                      /codon_start=1
                      /gene="malD"
                      /product="short-chain dehydrogenase/reductase MalD"
-                     /label=malD
+                     /label="malD"
                      /note="MalD"
                      /protein_id="AGA37264.1"
                      /translation="MDTGKRLVTVFGGTGNQGSSVVRSLLAHKDKLFHVRVITRDPTSE
@@ -93,11 +95,12 @@ FEATURES             Location/Qualifiers
                      MEAFLAESFCQSLGGFPWFKRDTGEYLLATPPYGGDERMPWVSVEDDFGDIVHGIFLDP
                      DSYHLKTIQGSSELISFEKMVEDFMEVTGEKARYVRLKSWVDIPLDGTSCREEMRAIFH
                      SMYSNGGKWFVPDESEIDTATTLKKEAKLAQGVTDGSLTAFKDWIHKQWERRLPN"
+                     /Pfam="NmrA"
      CDS             join(8047..9200,9297..9459)
                      /codon_start=1
                      /gene="malE"
                      /product="DMATS-type prenyltransferase MalE"
-                     /label=malE
+                     /label="malE"
                      /note="MalE"
                      /protein_id="AGA37265.1"
                      /translation="MTAGPMGNKSTSDIDSVLVYKSLSRYLKFSENEEGWWHKTAPLLN
@@ -108,11 +111,12 @@ FEATURES             Location/Qualifiers
                      ATSGNVTKGLELLKELWTLIDLDEGERGYTGRFDDANDNGSNIQSPMVWNYELRPNNPW
                      PLAKFYFPVHGENDMKIVKGLARFFENRGWTELARSYVQTVSSFFPDRDLNQTQRLVSW
                      ISFAYTEKTGVYLSVYYHSSADYLWISESGEKRGQGDGA"
+                     /Pfam="Trp_DMAT"
      CDS             complement(join(10457..11437,11521..12047,12104..12368))
                      /codon_start=1
                      /gene="malF"
                      /product="FAD-linked oxidoreductase MalF"
-                     /label=malF
+                     /label="malF"
                      /note="MalF"
                      /protein_id="AGA37266.1"
                      /translation="MKYTATFALLILAIGIQTQRRSTICRCRQEDACWPTTAEWSSLNQ
@@ -126,11 +130,12 @@ FEATURES             Location/Qualifiers
                      QVVNNKNRINSAVHPDWRSALLSLTVGRGVPPGYTLETLKSIESELENDQLPRLRSLEG
                      GRKGAYLAVAYPNEVYFQDSFWGKNYDRLLKVKRAWDPEDLFITRVGVGSERWDDEGMC
                      TRADSGLWHALARF"
+                     /Pfam="FAD_binding_4, BBE"
      CDS             13142..20179
                      /codon_start=1
                      /gene="malG"
                      /product="nonribosomal peptide synthetase MalG"
-                     /label=malG
+                     /label="malG"
                      /note="MalG"
                      /protein_id="AGA37267.1"
                      /translation="MSDDPLLSSPTEAICLNHSVTDLRLAAALKLSWTFLLAHYSGSSE
@@ -173,6 +178,7 @@ FEATURES             Location/Qualifiers
                      GVANVGDYLWRVVSSAFSVGAYISEKGDAWIYIAAVDWVANQVIREALYESTTDLRIIN
                      VTDGLTVKEFWRAIQIASPRQLNALQSEDWLSLIRQQLDVTGKSHPLWPVISFLESSKG
                      CLGFSHNLPPQAHSLSSMIITALIKNVRYLASLGLVSWTTTGSNCDHSVQQRIFRRVL"
+                     /Pfam="NRPS_C, AA-adenyl-dom, ACP_PCP, NAD_binding_4"
 ORIGIN
         1 ctatgcagct ggcctggtag gggttggtag ctttaactcc ttcgaggggt cgtatttagg
        61 cgcagtattc caggcagcgt aaagtaacgc ttcttcttct gcggtcagcg ggggatcaaa

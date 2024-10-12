@@ -1,47 +1,47 @@
-LOCUS       FBGC00388        7235 bp DNA     linear   UNA 20-FEB-2023
+LOCUS       FBGC00388               7235 bp    DNA     linear   UNA 20-FEB-2023
 DEFINITION  grey-brown conidiophore pigments.
 ACCESSION   FBGC00388
-VERSION     .
+VERSION     FBGC00388
 KEYWORDS    .
 SOURCE      Aspergillus nidulans FGSC A4
   ORGANISM  Aspergillus nidulans FGSC A4
+            .
 REFERENCE   1  (bases 1 to 7235)
-  AUTHORS   Sung CT, Chang SL, Entwistle R, Ahn G, Lin TS, Petrova V, Yeh HH, 
+  AUTHORS   Sung CT, Chang SL, Entwistle R, Ahn G, Lin TS, Petrova V, Yeh HH,
             Praseuth MB, Chiang YM, Oakley BR, Wang CCC.
   TITLE     Overexpression of a three-gene conidial pigment biosynthetic pathway
-            in Aspergillus nidulans reveals the first NRPS known to acetylate 
+            in Aspergillus nidulans reveals the first NRPS known to acetylate
             tryptophan.
   JOURNAL   Fungal Genet Biol 2017;101:1-6
-  PUBMED    28108400
+   PUBMED   28108400
 REFERENCE   2  (bases 1 to 7235)
   AUTHORS   Hai Y, Jenner M, Tang Y.
-  TITLE     Complete Stereoinversion of l-Tryptophan by a Fungal Single-Module 
+  TITLE     Complete Stereoinversion of l-Tryptophan by a Fungal Single-Module
             Nonribosomal Peptide Synthetase.
   JOURNAL   J Am Chem Soc 2019;141:16222-16226
-  PUBMED    31573806
+   PUBMED   31573806
 REFERENCE   3  (bases 1 to 7235)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Feb 20, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
+  JOURNAL   Exported Feb 20, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     ##Genome-Annotation-Data-START##
+            Annotation Provider :: INSDC submitter
+            Annotation Status   :: Full annotation
+            Annotation Pipeline :: Eukaryotic Annotation Propagation Pipeline
+            ##Genome-Annotation-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
             "10.1016/j.fgb.2017.01.006"; journalName: "Fungal Genet Biol"; date:
             "2017"; volume: "101"; pages: "1-6"
-COMMENT     SGRef: number: 2; type: "Journal Article"; doi: 
-            "10.1021/jacs.9b08898"; journalName: "J Am Chem Soc"; date: "2019"; 
+            SGRef: number: 2; type: "Journal Article"; doi:
+            "10.1021/jacs.9b08898"; journalName: "J Am Chem Soc"; date: "2019";
             volume: "141"; pages: "16222-16226"
-COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final 
-            NCBI review. The reference sequence is identical to BN001303. 
+            PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to BN001303.
             Aspergillus nidulans FGSC A4 CADRE,
             updated by Eurofungbase with contributions from
             CADRE (http://www.cadre-genomes.org.uk),
             AspGD (http://www.aspergillusgenome.org) and
-              Ensembl Genomes 
-            (http://www.ensemblgenomes.org).##Genome-Annotation-Data-START##
-            Annotation Provider :: INSDC submitter
-            Annotation Status   :: Full annotation
-            Annotation Pipeline :: Eukaryotic Annotation Propagation Pipeline 
-            ##Genome-Annotation-Data-END##
+            Ensembl Genomes
 FEATURES             Location/Qualifiers
      source          1..7235
                      /chromosome="III"
@@ -54,7 +54,7 @@ FEATURES             Location/Qualifiers
                      /locus_tag="ANIA_10573"
                      /old_locus_tag="AN10573.4; AN4641.2"
                      /product="cytochrome P450 monooxygenase IvoC"
-                     /label=ivoC
+                     /label="ivoC"
                      /note="transcript_id=CADANIAT00005790"
                      /db_xref="EnsemblGenomes-Gn:CADANIAG00005790"
                      /db_xref="EnsemblGenomes-Tr:CADANIAT00005790"
@@ -74,13 +74,14 @@ FEATURES             Location/Qualifiers
                      DGALENMDILSMSDTAYLERLPYLSACIKEGLRISYGVTHRLQLIAEEPLIYSGVTIPA
                      GTPVGMTSIFMHDNPVVFPQPREFRPERWFEADFETVQAMNRHFVPFSKGSRMCLGMNL
                      AYAEIYLVLAVLFRRYEISLSGVTREDIEMAHDFFDPAPKEGARGLIVQLQKRG"
+                     /Pfam="p450"
      CDS             complement(join(2060..6733,6795..7235))
                      /codon_start=1
                      /gene="ivoA"
                      /locus_tag="ANIA_10576"
                      /old_locus_tag="AN10576.4"
                      /product="nonribosomal peptide synthetase IvoA"
-                     /label=ivoA
+                     /label="ivoA"
                      /note="transcript_id=CADANIAT00005791"
                      /db_xref="EnsemblGenomes-Gn:CADANIAG00005791"
                      /db_xref="EnsemblGenomes-Tr:CADANIAT00005791"
@@ -123,6 +124,7 @@ FEATURES             Location/Qualifiers
                      SLKNIARGLHAQCTFQSLSQSTQDGSSLELPSKATALQKYSTLVNIRNSGSDSLDLVSD
                      SGEWKWILQGFSDPWDYDLVFAVNVHAGKVTGWTVEYADGVVEHSAADEIAKDLNDVVE
                      RMVCEII"
+                     /Pfam="NRPS_C, AA-adenyl-dom, ACP_PCP, NRPS_E, NRPS_CT"
 ORIGIN
         1 tcaccccctc ttctgcagtt gaacgatcaa tcctcttgcc ccctcctttg gcgcaggatc
        61 gaaaaaatca tgtgccatct caatatcctc cctcgtcacc ccgctcagag aaatctcata

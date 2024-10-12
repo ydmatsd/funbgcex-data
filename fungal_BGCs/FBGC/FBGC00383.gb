@@ -1,27 +1,27 @@
-LOCUS       FBGC00383       24471 bp DNA     linear   UNA 19-FEB-2023
+LOCUS       FBGC00383              24471 bp    DNA     linear   UNA 19-FEB-2023
 DEFINITION  malpinins.
 ACCESSION   FBGC00383
-VERSION     .
+VERSION     FBGC00383
 KEYWORDS    .
 SOURCE      Mortierella alpina M136
   ORGANISM  Mortierella alpina M136
+            .
 REFERENCE   1  (bases 1 to 24471)
-  AUTHORS   Wurlitzer JM, Stanisic A, Ziethe S, Jordan PM, Gunther K, Werz O, 
+  AUTHORS   Wurlitzer JM, Stanisic A, Ziethe S, Jordan PM, Gunther K, Werz O,
             Kries H, Gressler M.
   TITLE     Macrophage-targeting oligopeptides from Mortierella alpina.
   JOURNAL   Chem Sci 2022;13:9091-9101
-  PUBMED    36091214
+   PUBMED   36091214
 REFERENCE   2  (bases 1 to 24471)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Feb 19, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
+  JOURNAL   Exported Feb 19, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
             "10.1039/d2sc00860b"; journalName: "Chem Sci"; date: "2022"; volume:
             "13"; pages: "9091-9101"
-COMMENT     ##Assembly-Data-START##
-            Sequencing Technology :: Sanger dideoxy sequencing 
-            ##Assembly-Data-END##
 FEATURES             Location/Qualifiers
      source          1..24471
                      /strain="M136"
@@ -36,8 +36,8 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="malA"
                      /product="nonribosomal peptide synthetase MalA"
-                     /label=malA
-                     /note="MalA; responsible for biosynthesis of nonribosomal 
+                     /label="malA"
+                     /note="MalA; responsible for biosynthesis of nonribosomal
                      peptides malpinin A-E"
                      /protein_id="UUB73712.1"
                      /translation="MNNIDHQNCERTVAADASEYRQGIAKVNSDFDLKAEKSRLFENPE
@@ -172,6 +172,8 @@ FEATURES             Location/Qualifiers
                      GLVAHTMAAYLEKQGEQVALVALMDTPADYRTMAPEDKDEKQREQSLIQAFSKNRDLYS
                      PEMINPVLRKALQTVNINNNKLGRLQAPRVTGGDLLIFRATVMEDEGRALLDPNAWKPY
                      VQGSIEVCDVDCAHDFMDTPEATVVVSQVLNQKLRQSHCCLQREE"
+                     /Pfam="Condensation, AA-adenyl-dom, ACP_PCP, NRPS_C,
+                     Thioesterase"
 ORIGIN
         1 atgaacaaca ttgaccatca ggtacgtcaa agcgttgagc gagatcccgg tcgctcatcc
        61 tgcgagtgat tccgaatcag caaactctta acactgtctt gtccttttga cgctaaccgt

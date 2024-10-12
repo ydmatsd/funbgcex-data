@@ -1,24 +1,24 @@
-LOCUS       FBGC00398       27623 bp DNA     linear   UNA 04-MAR-2023
+LOCUS       FBGC00398              27623 bp    DNA     linear   UNA 04-MAR-2023
 DEFINITION  acetylaranotin.
 ACCESSION   FBGC00398
-VERSION     .
+VERSION     FBGC00398
 KEYWORDS    .
 SOURCE      Aspergillus terreus NIH2624
   ORGANISM  Aspergillus terreus NIH2624
+            .
 REFERENCE   1  (bases 1 to 27623)
   AUTHORS   Guo CJ, Yeh HH, Chiang YM, Sanchez JF, Chang SL, Bruno KS, Wang CC.
-  TITLE     Biosynthetic pathway for the epipolythiodioxopiperazine 
-            acetylaranotin in Aspergillus terreus revealed by genome-based 
+  TITLE     Biosynthetic pathway for the epipolythiodioxopiperazine
+            acetylaranotin in Aspergillus terreus revealed by genome-based
             deletion analysis.
   JOURNAL   J Am Chem Soc 2013;135:7205-13
-  PUBMED    23586797
+   PUBMED   23586797
 REFERENCE   2  (bases 1 to 27623)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Mar 4, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
+  JOURNAL   Exported Mar 4, 2023 from SnapGene 6.2.1 https://www.snapgene.com
 COMMENT     SGRef: number: 1; type: "Journal Article"; doi: "10.1021/ja3123653";
-            journalName: "J Am Chem Soc"; date: "2013"; volume: "135"; pages: 
+            journalName: "J Am Chem Soc"; date: "2013"; volume: "135"; pages:
             "7205-13"
 FEATURES             Location/Qualifiers
      source          1..27623
@@ -30,7 +30,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="ATEG_03466"
                      /product="acetyltransferase AtaH"
-                     /label=ataH
+                     /label="ataH"
                      /note="revised sequence"
                      /protein_id="EAU36740.1"
                      /translation="MAFFPLVLFFSAQTLLTACVICYTTKGSLWRPAVAPIVLYFAYQT
@@ -41,12 +41,13 @@ FEATURES             Location/Qualifiers
                      LPRPSLAERYLKITLVFAISSCLHLAIDGRAGIMLPRSGALRCFLLQPVGIILEDGAQA
                      LYRRLRGDAPLSKWTRAVGYIWTWAFLSLVAPMYNFPLFRYQDPARNGVPVPVLRPAME
                      YFRVKG"
+                     /Pfam="MBOAT_2"
      CDS             complement(1513..3264)
                      /codon_start=1
                      /locus_tag="ATEG_03467"
-                     /product="major facilitator superfamily transporter 
+                     /product="major facilitator superfamily transporter
                      ATEG_03467"
-                     /label=ATEG_03467
+                     /label="ATEG_03467"
                      /note="revised sequence"
                      /protein_id="EAU36741.1"
                      /translation="MSSQSSAEKNPEAASKVSPGSSSHEGHHHLKEKSPGVARIEAIAA
@@ -60,12 +61,13 @@ FEATURES             Location/Qualifiers
                      TGLFLACHSIGDALGNSVAGAIWTQVLPSRLASNLSIQPNSALAAQVYGNPFAIVAQYP
                      IGTEVRTAIVDSYQYVQRYLCITGICLSIPLIGFAFCLRNPVLDQSQSLFEEKEESGRE
                      TLSGRDQ"
-     CDS             complement(join(3722..4314,4370..4616,4673..4975,5028..5104,
-                     5161..5220,5271..5421,5473..5598))
+                     /Pfam="MFS_1"
+     CDS             complement(join(3722..4314,4370..4616,4673..4975,
+                     5028..5104,5161..5220,5271..5421,5473..5598))
                      /codon_start=1
                      /locus_tag="ATEG_03468"
                      /product="cytochrome P450 monooxygenase AtaY"
-                     /label=ataY
+                     /label="ataY"
                      /note="revised sequence"
                      /protein_id="EAU36742.1"
                      /translation="MHPQDDPTGGLARKWMARLIEQSREVSPTVFLKWAALVLIVRFVT
@@ -78,21 +80,23 @@ FEATURES             Location/Qualifiers
                      SIDGYYFAPNVQVAIPTWTMHRTPEVYPDPQVFKPERWMVESEAELQRLRSSYYPFSMG
                      TRGCIGKNMAYHTIYLTVARLVFLFEIESRDELPLEFHVKDHFAAGSKDGPYLKFTRRE
                      L"
+                     /Pfam="p450"
      CDS             join(5865..6146,6242..6493)
                      /codon_start=1
                      /locus_tag="ATEG_03469"
                      /product="hypothetical protein AtaL"
-                     /label=ataL
+                     /label="ataL"
                      /note="revised sequence"
                      /protein_id="EAU36743.1"
                      /translation="MSTPTSFTFNIAYSVPINKDPSQPTLTLEEFWRGLHRGSEKPQLF
                      AEYVADTEVLPNSKSANEFQRKLIMANGAVHTAKGVELLQDVRNADGLLTEAITVGSGA
                      RSTMLISRGGHEDDGPDALYLTAVYELHVPDVEPGSERAKEIEREYAQLALGAARTVVE
                      TIRRWKVEGGLEDA"
+                     /Pfam="AtaL"
      CDS             join(7076..7098,7166..8489)
                      /codon_start=1
                      /product="transcription factor AtaZ"
-                     /label=ataZ
+                     /label="ataZ"
                      /note="manually added sequence"
                      /translation="MFDRTTSRSPTERRPCKPGRLRAACTSCHAAKVRCSGDKAGCTRC
                      RTLGHECVYLESRVGKTRGRRKRDQLGSAEPGQVAPVPQNENRTTLADIPDAGDSLGEA
@@ -102,11 +106,12 @@ FEATURES             Location/Qualifiers
                      TQRISELINSTKCTSSIGSSIVVVAAAHHVVCLFEEACSELYSSCSSGNRPSMSDDTQH
                      SNIPFGYTRRRLPGVTVGRANGPFPAPGIGFGSFLLDPQEQTVFRAQIISIELHRSLRM
                      VQSLSTPLQTGCFGPDPASLAMDGWLQDLKRRLRSLISVVESSERSWAR"
+                     /Pfam="EqxR"
      CDS             complement(join(8532..10790,10847..13255))
                      /codon_start=1
                      /locus_tag="ATEG_03470"
                      /product="nonribosomal peptide synthetase AtaP"
-                     /label=ataP
+                     /label="ataP"
                      /note="revised sequence"
                      /protein_id="EAU36744.1"
                      /translation="MQINIRNEIARELNVPTTELDDSLSFTALGGHSLSALRLVSICKR
@@ -136,11 +141,12 @@ FEATURES             Location/Qualifiers
                      FLQSVKCSSQAAISHAVPWQELVCHLGVTPEFPNHPLFETMVTFHTKGGGLSLQIDGIE
                      PLYTWSEGAKFGLMCEFTTLSNGDILLRLEYDQGIYAPRDISIIENRIMTALRLLIKNV
                      PWLDLIGELHEVDGATVCVTPGHKGSLFLSPLKRT"
+                     /Pfam="ACP_PCP, NRPS_C, AA-adenyl-dom"
      CDS             complement(join(13946..14364,14412..15279,15335..15517))
                      /codon_start=1
                      /locus_tag="ATEG_03471"
                      /product="cytochrome P450 monooxygenase AtaF"
-                     /label=ataF
+                     /label="ataF"
                      /note="similar to GliF"
                      /protein_id="EAU36745.1"
                      /translation="MSLASLDLNALWLEHSAVIATLFAFGTALFLVSRSQKQSLNLPRF
@@ -152,12 +158,13 @@ FEATURES             Location/Qualifiers
                      ESQRLSPPSLANMPRIVTNPRGLKLPSGHTIPCGMRIMVRAHTLNLDPNLWPNPTRFDG
                      FRFSKLREIPGNTFKYQHATTGTDNINFGHGLWACPGRHFASSQMKVVLAHLLLNYDIK
                      LPNRMEKPQQQHFGLAIVPDTEQMVLLKIRG"
+                     /Pfam="p450"
      CDS             complement(join(15706..15961,16009..16092,16163..16466,
                      16516..16603))
                      /codon_start=1
                      /locus_tag="ATEG_03472"
                      /product="glutathione S-transferase AtaG"
-                     /label=ataG
+                     /label="ataG"
                      /note="revised sequence"
                      /protein_id="EAU36746.1"
                      /translation="MASQIGAQSISVNHGDVGYNGKVILYVIKADETSYINYIKPLILA
@@ -165,11 +172,12 @@ FEATURES             Location/Qualifiers
                      DGTWTGRNAAERGSVLSWTAYQTAALGPTAKYWLYFLRGYPTRQSPVQLPRTIQKLHEN
                      CLRQWDILEKRLARDGQEYIALKDRPTIADLSYFPFSMPWMFQFLGVDIKDWPSIERWS
                      QRMLARPAVQAVMEMGPQIGH"
+                     /Pfam="GST_N_2, GST_C"
      CDS             complement(join(16683..17692,17747..17969))
                      /codon_start=1
                      /locus_tag="ATEG_03472"
                      /product="methyltransferase AtaM"
-                     /label=ataM
+                     /label="ataM"
                      /note="revised sequence"
                      /protein_id="EAU36746.1"
                      /translation="MEPTLKILGASLQEALSQLTGPLNKERLAALHDHSEGRLVDANLG
@@ -180,12 +188,13 @@ FEATURES             Location/Qualifiers
                      KYADVGDRVQEVGLIAGDFLESVPSFEFYTMKWCLHDWDDVKTAKVLSNIREAIRVTPE
                      SRLVVLESILADGRSSRLSRYGDLTMMVSADGQERTEAEWRTLAGRTGWEIRTIRKLRG
                      AWPCAIEMRPV"
+                     /Pfam="Dimerisation2, Methyltransf_2"
      CDS             complement(join(18164..18619,18694..19106,19171..19375,
                      19425..19628))
                      /codon_start=1
                      /locus_tag="ATEG_03472"
                      /product="aminotransferase AtaI"
-                     /label=ataI
+                     /label="ataI"
                      /note="revised sequence"
                      /protein_id="EAU36746.1"
                      /translation="MANLSGLSNRSRTTLASLRRFGFQTTQQAKPTESSKTPIDASVAE
@@ -196,12 +205,13 @@ FEATURES             Location/Qualifiers
                      NPELILGLRVPTSTEVSSLSTLCSTALLTSATLPDIIELNVKRLLLSYKAVIATLECHG
                      VEYIPATAGLCVFARLAPEAKTPDDEIGFQHRLRDSGLLVSSGSAYHIGPARLGWFRIT
                      FALEEGVLRRALNILDRYLGGDHTAN"
+                     /Pfam="Aminotran_1_2"
      CDS             join(20777..20849,20897..21050,21110..21411,21460..21679,
                      21730..22213)
                      /codon_start=1
                      /locus_tag="ATEG_03473"
                      /product="dipeptidase AtaJ"
-                     /label=ataJ
+                     /label="ataJ"
                      /note="similar to GliJ"
                      /protein_id="EAU36747.1"
                      /translation="MTTDLNQNPYLVRAQQLLCRVPLIDGHNDFPFIIRGLYQNNLTRA
@@ -212,11 +222,12 @@ FEATURES             Location/Qualifiers
                      DLVNSADDANTTGSRVVDHILYIAETIGYDHVGIGSDFDGMLEGPLGLDDVSRFPELVA
                      DLFRRGVSEERIEKIVGLNTLRVMKQVEDVAVREQAEGSTGVLCDVVKPIWTAEQRQML
                      AEQGRTRGLRP"
+                     /Pfam="Peptidase_M19"
      CDS             join(22473..22897,22961..23473,23530..23665)
                      /codon_start=1
                      /locus_tag="ATEG_03474"
                      /product="thioredoxin reductase AtaT"
-                     /label=ataT
+                     /label="ataT"
                      /note="revised sequence"
                      /protein_id="EAU36748.1"
                      /translation="MTIPAAYDALIIGSGPAGLSVALSLARVRRRAAIFTKPNNAGFRN
@@ -226,11 +237,12 @@ FEATURES             Location/Qualifiers
                      VPAVAPDIGVTVVVEGGKEYKLGYLGHKPYTVVAGKAMITRLGAEIEENPVMGEHVKTV
                      DPLGSTNVKGVFVAGDAATPMKAVANAIGTGERYCRSWDRAAVDNGGHGEDLSLEEVHI
                      NTRPSSTATGTDLNSMY"
+                     /Pfam="Pyr_redox_2"
      CDS             join(23848..24006,24069..24256,24311..25538)
                      /codon_start=1
                      /locus_tag="ATEG_03474"
                      /product="cytochrome P450 monooxygenase AtaC"
-                     /label=ataC
+                     /label="ataC"
                      /note="revised sequence"
                      /protein_id="EAU36748.1"
                      /translation="MYPLESVRHLVVEQSQLCYILFGAVLAYAGWRWVLRLDILNEAIT
@@ -243,11 +255,12 @@ FEATURES             Location/Qualifiers
                      PTARVLDGYVIAGGTNYIVDAYALNVEHEFWGPDRHEYRPGRFLGVKGADLRYHMWRFG
                      FGPRQCLGKYVADLILRVFLVHLVRNWRLGFEDGQIADSREWKRDLDAWITHPTIELTC
                      TPRGARA"
+                     /Pfam="p450"
      CDS             join(25876..26025,26091..26418,26471..26564,26615..27623)
                      /codon_start=1
                      /locus_tag="ATEG_03475"
                      /product="major facilitator superfamily transporter AtaA"
-                     /label=ataA
+                     /label="ataA"
                      /note="revised sequence"
                      /protein_id="EAU36749.1"
                      /translation="MSVEEGLQAPVSKEPVQDEFDNVSPGTELSGLRLAAVFTVLCLAV
@@ -260,6 +273,7 @@ FEATURES             Location/Qualifiers
                      LGSGVGMGIQLPIIAVQAVLPAADIPVGTAILTFCQTFGGAIFVSVAQAVFANRLQTGL
                      LRAVPGVSPGLVQEVGATNLDTVIDAQHMGAVKVVYNDALVSAWYLAVALFSVAVLGAV
                      GMSTKRKSA"
+                     /Pfam="MFS_1"
 ORIGIN
         1 ttaccccttc accctaaaat actccatcgc cggtctaagc accggaacgg gaacaccatt
        61 tcttgccggg tcctgatacc ggaacagggg gaagttatac atcggcgcca cgagtgacaa

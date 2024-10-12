@@ -1,32 +1,32 @@
-LOCUS       FBGC00375       10635 bp DNA     linear   UNA 19-FEB-2023
+LOCUS       FBGC00375              10635 bp    DNA     linear   UNA 19-FEB-2023
 DEFINITION  triacetylfusarinine C.
 ACCESSION   FBGC00375
-VERSION     .
+VERSION     FBGC00375
 KEYWORDS    .
 SOURCE      Aspergillus fumigatus Af293
   ORGANISM  Aspergillus fumigatus Af293
+            .
 REFERENCE   1  (bases 1 to 10635)
-  AUTHORS   Schrettl M, Bignell E, Kragl C, Sabiha Y, Loss O, Eisendle M, 
+  AUTHORS   Schrettl M, Bignell E, Kragl C, Sabiha Y, Loss O, Eisendle M,
             Wallner A, Arst HN, Haynes K, Haas H.
-  TITLE     Distinct roles for intra- and extracellular siderophores during 
+  TITLE     Distinct roles for intra- and extracellular siderophores during
             Aspergillus fumigatus infection.
   JOURNAL   PLoS Pathog 2007;3:1195-207
-  PUBMED    17845073
+   PUBMED   17845073
 REFERENCE   2  (bases 1 to 10635)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Feb 19, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1371/journal.ppat.0030128"; journalName: "PLoS Pathog"; date: 
-            "2007"; volume: "3"; pages: "1195-207"
-COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final 
-            NCBI review. The reference sequence is identical to 
-            CM000171.##Genome-Annotation-Data-START##
+  JOURNAL   Exported Feb 19, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     ##Genome-Annotation-Data-START##
             Annotation Provider :: INSDC submitter
             Annotation Status   :: Full annotation
-            Annotation Pipeline :: Eukaryotic Annotation Propagation Pipeline 
+            Annotation Pipeline :: Eukaryotic Annotation Propagation Pipeline
             ##Genome-Annotation-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1371/journal.ppat.0030128"; journalName: "PLoS Pathog"; date:
+            "2007"; volume: "3"; pages: "1195-207"
+            PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to
 FEATURES             Location/Qualifiers
      source          1..10635
                      /chromosome="3"
@@ -39,10 +39,10 @@ FEATURES             Location/Qualifiers
                      /locus_tag="AFUA_3G03640"
                      /old_locus_tag="Afu3g03640"
                      /product="major facilitator superfamily transporter MirB"
-                     /label=mirB
-                     /note="encoded by transcript AFUA_3G03640A;
-                     similar to major facilitator MirB (GI:30058790) [Emericella
-                     nidulans] PUBMED = 12487628"
+                     /label="mirB"
+                     /note="encoded by transcript AFUA_3G03640A; similar to
+                     major facilitator MirB (GI:30058790) [Emericella nidulans]
+                     PUBMED = 12487628"
                      /db_xref="GeneID:3505886"
                      /protein_id="XP_748684.1"
                      /translation="MATMKKFHSIVGEKPAQDAEAPSVDDPNVGQIRADDKEAAHAPAN
@@ -56,12 +56,13 @@ FEATURES             Location/Qualifiers
                      GSVFILCVQLAVLASVDHQHVAAVLALLFVMGSIGGSIGSAICGAIWTSTFLSRLERNL
                      PASAMPDLSLIYSSLPTQLSYPVGSATRTAIVEAYGYAQARMLIAGTAFMVLGFIWVGM
                      MRNLNVKNMTQTKGNVV"
+                     /Pfam="MFS_1"
      CDS             complement(2721..3428)
                      /codon_start=1
                      /locus_tag="AFUA_3G03650"
                      /old_locus_tag="Afu3g03650"
                      /product="acetyltransferase SidG"
-                     /label=sidG
+                     /label="sidG"
                      /note="encoded by transcript AFUA_3G03650A"
                      /db_xref="GeneID:3505887"
                      /protein_id="XP_748685.1"
@@ -70,15 +71,16 @@ FEATURES             Location/Qualifiers
                      GFRVSPKFWGQGYAKEGAREMVRYAFEELGLAEVIGETMTINMASRAVMAGCGLTHVET
                      FFNKYDTPPPGIEEGEVRYSITREEWLRMQKPSMTRSRWFPAFASWLPRLLLSRLWSYI
                      FQGRRLAAGAASP"
+                     /Pfam="Acetyltransf_3"
      CDS             complement(join(4891..5623,5688..5833))
                      /codon_start=1
                      /locus_tag="AFUA_3G03660"
                      /old_locus_tag="Afu3g03660"
                      /product="esterase EstB"
-                     /label=estB
-                     /note="encoded by transcript AFUA_3G03660A;
-                     similar to periplasmic siderophore esterase IroE protein 
-                     (GI:29897384) [Bacillus cereus]"
+                     /label="estB"
+                     /note="encoded by transcript AFUA_3G03660A; similar to
+                     periplasmic siderophore esterase IroE protein (GI:29897384)
+                     [Bacillus cereus]"
                      /db_xref="GeneID:3505888"
                      /protein_id="XP_748686.1"
                      /translation="MGDRPTPVPLPNSEQFYLENDRGEPYLIQVSWPLHWEDKQTGRGP
@@ -87,16 +89,17 @@ FEATURES             Location/Qualifiers
                      SFDCYIASSPSIWWNSLCILHEAKAFVETKKVSHDQSPSLMVSWGSWEQHPPRWADELL
                      DHYEARKRTAAELRMADNALDLCAMLHGCSRLHALIKTEYEGEDHTSVMSCSVSRGLTM
                      FFEDWPFHQSG"
+                     /Pfam="Esterase"
      CDS             join(6555..6608,6684..7605,7667..10635)
                      /codon_start=1
                      /locus_tag="AFUA_3G03670"
                      /old_locus_tag="Afu3g03670"
                      /product="ABC transporter AtrH"
                      /EC_number="3.6.3.-"
-                     /label=atrH
-                     /note="encoded by transcript AFUA_3G03670A;
-                     similar to SP:P36619: Leptomycin B resistance protein pmd1 
-                     [Schizosaccharomyces pombe] PMID: 1349418 similar to AtrH 
+                     /label="atrH"
+                     /note="encoded by transcript AFUA_3G03670A; similar to
+                     SP:P36619: Leptomycin B resistance protein pmd1
+                     [Schizosaccharomyces pombe] PMID: 1349418 similar to AtrH
                      (GI:44971113) [Emericella nidulans]"
                      /db_xref="GeneID:3505889"
                      /protein_id="XP_748687.1"
@@ -123,6 +126,7 @@ FEATURES             Location/Qualifiers
                      TLGARPGQTVSQEELEEACKAANIHDTIMQLPDGYDTLCGPNGDRLSGGQKQRLAIARA
                      LIRKPRLLLLDESTSALDAESERLLQDGLEKAAKHMTIIAIAHRLYTIRKADVIFLIEN
                      GRCVDQGTHAQLMERSESYRVNVLNQAVDS"
+                     /Pfam="ABC_membrane, ABC_tran"
 ORIGIN
         1 ctacacaaca ttacccttgg tctgagtcat gtttttcacg ttcaggttcc tcatcatgcc
        61 aacccagatg aagcccagaa ccatgaatgc agtaccggca atgagcatcc ttgcttgggc

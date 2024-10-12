@@ -1,24 +1,24 @@
-LOCUS       FBGC00366       20420 bp DNA     linear   UNA 18-FEB-2023
+LOCUS       FBGC00366              20420 bp    DNA     linear   UNA 18-FEB-2023
 DEFINITION  meleagrin.
 ACCESSION   FBGC00366
-VERSION     .
+VERSION     FBGC00366
 KEYWORDS    .
 SOURCE      Penicillium rubens Wisconsin 54-1255
   ORGANISM  Penicillium rubens Wisconsin 54-1255
+            .
 REFERENCE   1  (bases 1 to 20420)
-  AUTHORS   Ali H, Ries MI, Nijland JG, Lankhorst PP, Hankemeier T, Bovenberg 
+  AUTHORS   Ali H, Ries MI, Nijland JG, Lankhorst PP, Hankemeier T, Bovenberg
             RA, Vreeken RJ, Driessen AJ.
-  TITLE     A branched biosynthetic pathway is involved in production of 
+  TITLE     A branched biosynthetic pathway is involved in production of
             roquefortine and related compounds in Penicillium chrysogenum.
   JOURNAL   PLoS One 2013;8:e65328
-  PUBMED    23776469
+   PUBMED   23776469
 REFERENCE   2  (bases 1 to 20420)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Feb 18, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1371/journal.pone.0065328"; journalName: "PLoS One"; date: 
+  JOURNAL   Exported Feb 18, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1371/journal.pone.0065328"; journalName: "PLoS One"; date:
             "2013"; volume: "8"; pages: "e65328"
 FEATURES             Location/Qualifiers
      source          1..20420
@@ -33,7 +33,7 @@ FEATURES             Location/Qualifiers
                      /gene="Pc21g15420"
                      /locus_tag="PCH_Pc21g15420"
                      /product="major facilitator superfamily transporter RoqT"
-                     /label=roqT
+                     /label="roqT"
                      /note="Title: strong similarity to cercosporin transporter
                      CFP - Cercospora kikuchii"
                      /db_xref="GOA:B6HJU0"
@@ -55,15 +55,16 @@ FEATURES             Location/Qualifiers
                      LMGLGVGLGMQQPFMVVQNVLPDGDVPTGTAVITFAQTLGGAIFISVGQNIFQNQFAHT
                      MHLEDPSVNVATVLSAGTTTLRKYLPAEQLPAVLRSYNTAITQAFYVGVALASLSCIGT
                      IALEWKSVKKPRNTTPNDHSGS"
+                     /Pfam="MFS_1"
      CDS             join(2640..3808,3879..3978)
                      /codon_start=1
                      /gene="Pc21g15430"
                      /locus_tag="PCH_Pc21g15430"
                      /product="DMATS-type prenyltransferase RoqD"
-                     /label=roqD
-                     /note="unknown EC_number=2.5.1.34;
-                     Title: strong similarity to dimethylallyltryptophan 
-                     synthase dmaW - Claviceps purpurea"
+                     /label="roqD"
+                     /note="unknown EC_number=2.5.1.34; Title: strong similarity
+                     to dimethylallyltryptophan synthase dmaW - Claviceps
+                     purpurea"
                      /db_xref="GOA:B6HJU1"
                      /db_xref="InterPro:IPR012148"
                      /db_xref="InterPro:IPR017795"
@@ -78,13 +79,14 @@ FEATURES             Location/Qualifiers
                      EEHWTMGGKLNDEETLLGLKMLQELWVEFGIIEGMRNEPERPSLPGDPDTIVPFIMNYE
                      MSPGEALPKPKFYFPLVGIPELKIANVLTAFFERYGMPEQAAVYRNNLQTPSKDLVIAT
                      DHQAWLSFSYTKKKGPYLTMYYH"
+                     /Pfam="Trp_DMAT"
      CDS             complement(join(4335..4723,4769..4825,4881..4919,
                      4986..5367))
                      /codon_start=1
                      /gene="Pc21g15440"
                      /locus_tag="PCH_Pc21g15440"
                      /product="methyltransferase RoqN"
-                     /label=roqN
+                     /label="roqN"
                      /note="Title: weak similarity to hypothetical UbiE/COQ5
                      family methlytransferase - Caulobacter crescentus"
                      /db_xref="GOA:B6HJU2"
@@ -102,13 +104,14 @@ FEATURES             Location/Qualifiers
                      AVVEAAVAIIPADLPFPTTKEFMSCMNPGWDSEDYVHSRFEEAGFHSVQVTTISKQFET
                      SVEDLYKIAQPVIPIIVSKWWNQEQRDKYENDILPALQRHLNETYGENGLVPQEWTAVF
                      ATGQKGS"
-     CDS             join(5950..6159,6225..6341,6407..6506,6564..6632,6689..7282,
-                     7381..7802)
+                     /Pfam="Methyltransf_25"
+     CDS             join(5950..6159,6225..6341,6407..6506,6564..6632,
+                     6689..7282,7381..7802)
                      /codon_start=1
                      /gene="Pc21g15450"
                      /locus_tag="PCH_Pc21g15450"
                      /product="cytochrome P450 monooxygenase RoqO"
-                     /label=roqO
+                     /label="roqO"
                      /note="Title: strong similarity to cytochrome P450
                      monooxygenase P450I - Gibberella fujikuroi"
                      /db_xref="GOA:B6HJU3"
@@ -129,16 +132,16 @@ FEATURES             Location/Qualifiers
                      SLLKLTLMESVMKESQRLEPATLISMFRAAKKTVTLQDGTTIPKGTRLAFANDLRLDPE
                      LYPDPETFDGYRFERMRKDPEQAKLAPFTKTRTSHLAFGHGKHACPGRFLSCDEAKLIL
                      CHILLKYDFKALDGRVPDLHVRSMFIQRDTGGMLSVRRRQEEVTL"
+                     /Pfam="p450"
      CDS             complement(join(8150..8773,8837..9432,9488..9659))
                      /codon_start=1
                      /gene="Pc21g15460"
                      /locus_tag="PCH_Pc21g15460"
                      /product="FAD-dependent monooxygenase RoqM"
-                     /label=roqM
-                     /note="unknown EC_number=1.14.-.-;
-                     Title: strong similarity to maackiain detoxification 
-                     protein MAK1 - Nectria haematococca
-                     revised sequence"
+                     /label="roqM"
+                     /note="unknown EC_number=1.14.-.-; Title: strong similarity
+                     to maackiain detoxification protein MAK1 - Nectria
+                     haematococca revised sequence"
                      /db_xref="GOA:B6HJU4"
                      /db_xref="InterPro:IPR002938"
                      /db_xref="InterPro:IPR003042"
@@ -158,16 +161,16 @@ FEATURES             Location/Qualifiers
                      GQSVEDAATLAICLELAGKSRVNLALHVVERIRYQRTSIIQDSGNAIYSQMRDPDWETI
                      EKDPSMMKFPRPEWLFGYDVHRDVYEQFPYAMRAVQDNTGYRPRNIPSNSKYQVVHDYE
                      KPVAA"
+                     /Pfam="FAD_binding_3"
      CDS             complement(join(11020..12250,12300..12484,12549..12665))
                      /codon_start=1
                      /gene="Pc21g15470"
                      /locus_tag="PCH_Pc21g15470"
                      /product="cytochrome P450 monooxygenase RoqR"
-                     /label=roqR
-                     /note="Title: similarity to mitochondrial
-                     25-hydroxyvitamin D3 24-hydroxylase cP450cc24 - Gallus 
-                     gallus
-                     revised sequence"
+                     /label="roqR"
+                     /note="Title: similarity to mitochondrial 25-hydroxyvitamin
+                     D3 24-hydroxylase cP450cc24 - Gallus gallus revised
+                     sequence"
                      /db_xref="GOA:B6HJU5"
                      /db_xref="InterPro:IPR001128"
                      /db_xref="InterPro:IPR017972"
@@ -185,13 +188,14 @@ FEATURES             Location/Qualifiers
                      RKEISHARSDTAPESWVKYIGSNSTLLASCINESARLKPVTNYTYAQSMPTDRDVGGYR
                      IPRGTFMVVDTNALNIWDDAWGSDKTSYRPQRFLEESRASFRYRFWRFGFGPRQCIAQA
                      LADTILKVLVAYTVENYELKSTGKSAANEEDAHKQGEAWFKVAEQGIILEAL"
+                     /Pfam="p450"
      CDS             join(13202..13576,13630..20184,20241..20420)
                      /codon_start=1
                      /gene="Pc21g15480"
                      /locus_tag="PCH_Pc21g15480"
                      /product="nonribosomal peptide synthetase RoqA"
-                     /label=roqA
-                     /note="Title: strong similarity to cyclic peptide AM-toxin 
+                     /label="roqA"
+                     /note="Title: strong similarity to cyclic peptide AM-toxin
                      synthase like protein An03g00650 - Aspergillus niger
                      revised sequence"
                      /db_xref="GOA:B6HJU6"
@@ -249,6 +253,7 @@ FEATURES             Location/Qualifiers
                      PTRTVIDTLRQNQEDIQRRNDHQYCSIPDMIRKSGIRSLDNNQQLFNTVLTVQNPFSIQ
                      SSTAKDGSNEIDVKLIDLEDATEYDLCVAILPSPSHLKVELRYWSTTVSEGYASDILDR
                      LFSQLEQIVHHATKPVSVIASIG"
+                     /Pfam="AA-adenyl-dom, ACP_PCP, NRPS_C, NRPS_CT"
 ORIGIN
         1 atggagaagg aggtagcaac tgatcctcta ccgcaggaga tcccaagcga cgcacccgat
        61 gaaggggggt cgctatctcg ccccgcggcg aatacttgga cggtcgtctc tctcactatt

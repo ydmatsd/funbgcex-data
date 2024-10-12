@@ -1,29 +1,30 @@
-LOCUS       FBGC00381        3415 bp DNA     linear   UNA 19-FEB-2023
+LOCUS       FBGC00381               3415 bp    DNA     linear   UNA 19-FEB-2023
 DEFINITION  cephalosporin C.
 ACCESSION   FBGC00381
-VERSION     .
+VERSION     FBGC00381
 KEYWORDS    .
 SOURCE      Acremonium chrysogenum ATCC 11550
   ORGANISM  Acremonium chrysogenum ATCC 11550
+            .
 REFERENCE   1  (bases 1 to 3415)
   AUTHORS   Terfehr D, Dahlmann TA, Specht T, Zadra I, Kurnsteiner H, Kuck U.
-  TITLE     Genome Sequence and Annotation of Acremonium chrysogenum, Producer 
+  TITLE     Genome Sequence and Annotation of Acremonium chrysogenum, Producer
             of the beta-Lactam Antibiotic Cephalosporin C.
   JOURNAL   Genome Announc 2014;2(5):e00948-14
-  PUBMED    25291769
+   PUBMED   25291769
 REFERENCE   2  (bases 1 to 3415)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Feb 19, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1128/genomeA.00948-14"; journalName: "Genome Announc"; date: 
-            "2014"; volume: "2"; issue: "5"; pages: "e00948-14"
+  JOURNAL   Exported Feb 19, 2023 from SnapGene 6.2.1 https://www.snapgene.com
 COMMENT     ##Genome-Assembly-Data-START##
             Assembly Date         :: APR-2014
             Assembly Method       :: Velvet v. 1.2.10
             Genome Coverage       :: 137.0x
             Sequencing Technology :: Illumina HiSeq ##Genome-Assembly-Data-END##
+            ##Genome-Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1128/genomeA.00948-14"; journalName: "Genome Announc"; date:
+            "2014"; volume: "2"; issue: "5"; pages: "e00948-14"
 FEATURES             Location/Qualifiers
      source          1..3415
                      /strain="ATCC 11550"
@@ -36,7 +37,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="ACRE_042790"
                      /product="acetyltransferase CefG"
-                     /label=cefG
+                     /label="cefG"
                      /protein_id="KFH44925.1"
                      /translation="MLPSAQVARLKPDPFPPSLSPIPHGAVTFAALAPCHNLPIFSSRQ
                      MLRDSLTYSHTSPTMSPQIANRFEASLDAQDIARISLFTLESGVILRDVPVAYKSWGRM
@@ -46,11 +47,12 @@ FEATURES             Location/Qualifiers
                      LTYKSKPAMDERFHMAPGVQAGRNISSQDAKKEINGTDSGNSHRAGQPIEAVSSYLRYQ
                      AQKFAASFDANCYIAMTLKFDTHDISRGRAGSIPEALAMITQPALIICARSDGLYSFDE
                      HVEMGRSIPNSRLCVVDTNEGHDFFVMEADKVNDAVRGFLDQSLM"
+                     /Pfam="Abhydrolase_1"
      CDS             2417..3415
                      /codon_start=1
                      /locus_tag="ACRE_042800"
                      /product="2OG-Fe(II)-dependent dioxygenase CefEF"
-                     /label=cefEF
+                     /label="cefEF"
                      /protein_id="KFH44919.1"
                      /translation="MTSKVPVFRLDDLKSGKVLTELAEAVTTKGIFYLTESGLVDDDHT
                      SARETCVDFFKNGSEEEKRAVTLADRNARRGFSALEWESTAVVTETGKYSDYSTCYSMG
@@ -58,6 +60,7 @@ FEATURES             Location/Qualifiers
                      YFPEVPEDRVAEEEPLRMGPHYDLSTITLVHQTACANGFVSLQCEVDGEFVDLPTLPGA
                      MVVFCGAVGTLATGGKVKAPKHRVKSPGRDQRVGSSRTSSVFFLRPKPDFSFNVQQSRE
                      WGFNVRIPSERTTFREWLGGNYVNMRRDKPAAAEAAVPAAAPVSTAAPIAT"
+                     /Pfam="DIOX_N, 2OG-FeII_Oxy"
 ORIGIN
         1 tcacattaat gactgatcga ggaatcctct gacggcatca ttaaccttgt ccgcttccat
        61 tacaaagaag tcatgaccct cattcgtgtc caccacgcaa agacgactgt ttgggatact

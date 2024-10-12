@@ -1,38 +1,38 @@
-LOCUS       FBGC00386       43534 bp DNA     linear   UNA 19-FEB-2023
+LOCUS       FBGC00386              43534 bp    DNA     linear   UNA 19-FEB-2023
 DEFINITION  aspoquinolones.
 ACCESSION   FBGC00386
-VERSION     .
+VERSION     FBGC00386
 KEYWORDS    .
 SOURCE      Aspergillus nidulans FGSC A4
   ORGANISM  Aspergillus nidulans FGSC A4
+            .
 REFERENCE   1  (bases 1 to 43534)
-  AUTHORS   Ishikawa N, Tanaka H, Koyama F, Noguchi H, Wang CC, Hotta K, 
+  AUTHORS   Ishikawa N, Tanaka H, Koyama F, Noguchi H, Wang CC, Hotta K,
             Watanabe K.
-  TITLE     Non-heme dioxygenase catalyzes atypical oxidations of 6,7-bicyclic 
-            systems to form the 6,6-quinolone core of viridicatin-type fungal 
+  TITLE     Non-heme dioxygenase catalyzes atypical oxidations of 6,7-bicyclic
+            systems to form the 6,6-quinolone core of viridicatin-type fungal
             alkaloids.
   JOURNAL   Angew Chem Int Ed Engl 2014;53:12880-4
-  PUBMED    25251934
+   PUBMED   25251934
 REFERENCE   2  (bases 1 to 43534)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Feb 19, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1002/anie.201407920"; journalName: "Angew Chem Int Ed Engl"; 
+  JOURNAL   Exported Feb 19, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     ##Genome-Annotation-Data-START##
+            Annotation Provider :: INSDC submitter
+            Annotation Status   :: Full annotation
+            Annotation Pipeline :: Eukaryotic Annotation Propagation Pipeline
+            ##Genome-Annotation-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1002/anie.201407920"; journalName: "Angew Chem Int Ed Engl";
             date: "2014"; volume: "53"; pages: "12880-4"
-COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final 
-            NCBI review. The reference sequence is identical to BN001306. 
+            PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to BN001306.
             Aspergillus nidulans FGSC A4 CADRE,
             updated by Eurofungbase with contributions from
             CADRE (http://www.cadre-genomes.org.uk),
             AspGD (http://www.aspergillusgenome.org) and
-              Ensembl Genomes 
-            (http://www.ensemblgenomes.org).##Genome-Annotation-Data-START##
-            Annotation Provider :: INSDC submitter
-            Annotation Status   :: Full annotation
-            Annotation Pipeline :: Eukaryotic Annotation Propagation Pipeline 
-            ##Genome-Annotation-Data-END##
+            Ensembl Genomes
 FEATURES             Location/Qualifiers
      source          1..43534
                      /chromosome="VI"
@@ -45,7 +45,7 @@ FEATURES             Location/Qualifiers
                      /locus_tag="ANIA_09236"
                      /old_locus_tag="AN9236.2; AN9236.4"
                      /product="transcription factor AsqA"
-                     /label=asqA
+                     /label="asqA"
                      /note="transcript_id=CADANIAT00009354"
                      /db_xref="EnsemblGenomes-Gn:CADANIAG00009354"
                      /db_xref="EnsemblGenomes-Tr:CADANIAT00009354"
@@ -64,14 +64,14 @@ FEATURES             Location/Qualifiers
                      HHVCVNLFRSMICFPYQPASQVHISENSLPGELATRCAAHAIALTKLTHQVLEETSLLD
                      GWHEAFYCQWDAVMTLIGFVLAYPGSGTVTLEAKSAIHLAIAVSENFGFKFAVGTSASK
                      IVQGLCAKSETLTANEYASAYIGASTQNANIYRIYGGQICGVIDWQNS"
+                     /Pfam="Fungal_trans"
      CDS             complement(3115..3708)
                      /codon_start=1
                      /locus_tag="ANIA_09235"
                      /old_locus_tag="AN9235.2; AN9235.4"
                      /product="epoxide hydrolase AsqB"
-                     /label=asqB
-                     /note="transcript_id=CADANIAT00009355
-                     revised sequence"
+                     /label="asqB"
+                     /note="transcript_id=CADANIAT00009355 revised sequence"
                      /db_xref="EnsemblGenomes-Gn:CADANIAG00009355"
                      /db_xref="EnsemblGenomes-Tr:CADANIAT00009355"
                      /db_xref="GeneID:2867996"
@@ -83,12 +83,13 @@ FEATURES             Location/Qualifiers
                      SRKVIADLLSRYRTAGQHKNIVHVVHQTPAGAPVFTPDTPLAKEFPELSPAVGEKVITK
                      KWPSSFAQTDLHEYLQSLGAVGKKVVLVGYMAHVCVSTTARTGAELGYDVLVVRDGVSD
                      RAIPGVEANVLVDVALKEVTDAFGTVIASGEIKG"
+                     /Pfam="Isochorismatase"
      CDS             join(4346..4441,4485..5432)
                      /codon_start=1
                      /locus_tag="ANIA_09234"
                      /old_locus_tag="AN9234.2; AN9234.4"
                      /product="dehydratase AsqC"
-                     /label=asqC
+                     /label="asqC"
                      /note="transcript_id=CADANIAT00009356"
                      /db_xref="EnsemblGenomes-Gn:CADANIAG00009356"
                      /db_xref="EnsemblGenomes-Tr:CADANIAT00009356"
@@ -105,15 +106,15 @@ FEATURES             Location/Qualifiers
                      IPKTGHVLSIWTGDTDADRAAPITPVRFATVRNAYGAQTVCNITWIPDLSHIFHSDSTN
                      KSYPLAWTVEIPSYDAIIKVKSRTENQLNTGSHGSEPEAYNGFVTFAGQFQGTETEGFG
                      IVEIVYL"
-     CDS             complement(join(7752..8068,8128..8579,8643..8766,8819..8942,
-                     8995..9180))
+                     /Pfam="Lipocalin_9"
+     CDS             complement(join(7752..8068,8128..8579,8643..8766,
+                     8819..8942,8995..9180))
                      /codon_start=1
                      /locus_tag="ANIA_09233"
                      /old_locus_tag="AN9233.2; AN9233.4"
                      /product="methyltransferase AsqD"
-                     /label=asqD
-                     /note="transcript_id=CADANIAT00009357
-                     revised sequence"
+                     /label="asqD"
+                     /note="transcript_id=CADANIAT00009357 revised sequence"
                      /db_xref="EnsemblGenomes-Gn:CADANIAG00009357"
                      /db_xref="EnsemblGenomes-Tr:CADANIAT00009357"
                      /db_xref="GeneID:2868026"
@@ -132,12 +133,13 @@ FEATURES             Location/Qualifiers
                      KVPHDFLAEAQPVKGAKAYLCHHILHDWPDNYCVRILEGISSAMTPGYSKLLLHEGIVP
                      EKGVCQFQAMSDIATMACNGGMERTREQWRTLLHMAGLQLIRFWNSPDEGGDGIIEAAK
                      V"
+                     /Pfam="Methyltransf_2"
      CDS             9586..10401
                      /codon_start=1
                      /locus_tag="ANIA_09232"
                      /old_locus_tag="AN9232.2; AN9232.4"
                      /product="short-chain dehydrogenase/reductase AsqE"
-                     /label=asqE
+                     /label="asqE"
                      /note="transcript_id=CADANIAT00009358"
                      /db_xref="EnsemblGenomes-Gn:CADANIAG00009358"
                      /db_xref="EnsemblGenomes-Tr:CADANIAT00009358"
@@ -154,12 +156,13 @@ FEATURES             Location/Qualifiers
                      PSEAASVEELTLPVFQKVMQANAFAPISIISATMPHLPVSGGRVINISSAAAKLANPGP
                      VMTYGASKAALDSFTRSLAAEFATDKAATFNTVCVGPTVTDGFHVVGKLYPEGFMEELA
                      KAFTAAQRVGMPQDIAFIVGFLAGEEARWVNGACMSANGGFREVLPALS"
+                     /Pfam="adh_short_C2"
      CDS             join(11067..11334,11413..11945,12023..12949)
                      /codon_start=1
                      /locus_tag="ANIA_09231"
                      /old_locus_tag="AN9231.2; AN9231.4"
                      /product="FAD-linked oxidoreductase AsqF"
-                     /label=asqF
+                     /label="asqF"
                      /note="transcript_id=CADANIAT00009359"
                      /db_xref="EnsemblGenomes-Gn:CADANIAG00009359"
                      /db_xref="EnsemblGenomes-Tr:CADANIAT00009359"
@@ -181,13 +184,14 @@ FEATURES             Location/Qualifiers
                      GKISSFANPNEPTITEFFGSTILSRNFFESPNGPLVMAKRMAAINLDPGDGLLTSNLGG
                      RINNENSDLPLHPAWRSSAHLVSLVVNVDTSLRARERAMVRLTDELMPMLYAIDSSQWV
                      SYSNMGNPNEPDFKERYWGMRNYRRLVSIKKKWDPKDLFIARVGVRSDGWDSEGMCRT"
+                     /Pfam="FAD_binding_4, BBE"
      CDS             complement(join(13030..13786,13836..14416,14479..14849,
                      14915..15186,15249..15538))
                      /codon_start=1
                      /locus_tag="ANIA_09230"
                      /old_locus_tag="AN9230.2; AN9230.4"
                      /product="FAD-dependent monooxygenase AsqG"
-                     /label=asqG
+                     /label="asqG"
                      /note="transcript_id=CADANIAT00009360"
                      /db_xref="EnsemblGenomes-Gn:CADANIAG00009360"
                      /db_xref="EnsemblGenomes-Tr:CADANIAT00009360"
@@ -211,12 +215,13 @@ FEATURES             Location/Qualifiers
                      GSLGYSAIIHSLKNFDLPVDGARLICHSLTILAWSHFTLWDMRRTNIVQQPLLVASACL
                      FLGLLILGPAATLMGFWKWREERMELARAPSSTRKQYSPGWGQPARLKIDPETGEISVR
                      NLS"
+                     /Pfam="FAD_binding_3, CtvD"
      CDS             complement(join(17404..17530,17605..18743))
                      /codon_start=1
                      /locus_tag="ANIA_11202"
                      /old_locus_tag="AN11202.4"
                      /product="DMATS-type prenyltransferase AsqH2"
-                     /label=asqH2
+                     /label="asqH2"
                      /note="transcript_id=CADANIAT00009361"
                      /db_xref="EnsemblGenomes-Gn:CADANIAG00009361"
                      /db_xref="EnsemblGenomes-Tr:CADANIAT00009361"
@@ -234,14 +239,14 @@ FEATURES             Location/Qualifiers
                      WSWAKAEEVCTLGGKLNHHDIDLLKKLWHILKLDEFTPTMGFTWNYEIRPGQPKPEVRL
                      YLAICDRSDEEVAQAVVQWFELLGWHERAQSYPETLRYLHKTKSAHTWLSVTVSEKGVY
                      TSLYYHPLGNGSDDFKIRENWF"
+                     /Pfam="Trp_DMAT"
      CDS             complement(join(19106..20206,20289..20558))
                      /codon_start=1
                      /locus_tag="ANIA_11194"
                      /old_locus_tag="AN11194.4; AN9229.2"
                      /product="DMATS-type prenyltransferase AsqH1"
-                     /label=asqH1
-                     /note="transcript_id=CADANIAT00009362
-                     revised sequence"
+                     /label="asqH1"
+                     /note="transcript_id=CADANIAT00009362 revised sequence"
                      /db_xref="EnsemblGenomes-Gn:CADANIAG00009362"
                      /db_xref="EnsemblGenomes-Tr:CADANIAT00009362"
                      /db_xref="GeneID:2868058"
@@ -258,12 +263,13 @@ FEATURES             Location/Qualifiers
                      LYFFSNRTSYNSMREVLTLGGRIYSESYDMEEKLRTIYSLAQLLMGCPENNAEDADIPL
                      LPITHSQHTAAERATLLSGFQYYFDVAPGADLPSVKFYIPVRKEHANDRAVGSALTGWF
                      REQGRGKFCDNYMRMLERLAGGLELGECRGLHSFISCMIGGDGEIEVTSYLLPGSEA"
+                     /Pfam="Trp_DMAT"
      CDS             complement(join(21169..21762,21818..22139,22205..22386))
                      /codon_start=1
                      /locus_tag="ANIA_11201"
                      /old_locus_tag="AN11201.4; AN9228.2"
                      /product="quinolone epoxide rearrangement protein AsqO"
-                     /label=asqO
+                     /label="asqO"
                      /note="transcript_id=CADANIAT00009363"
                      /db_xref="EnsemblGenomes-Gn:CADANIAG00009363"
                      /db_xref="EnsemblGenomes-Tr:CADANIAT00009363"
@@ -279,12 +285,13 @@ FEATURES             Location/Qualifiers
                      LSWGSAPLESSVHSWYWGHGRLGRYSLVWFDVMGRDGKEYFSAWITEAGNVILCGCEPD
                      SVLVRPWGENSGFPPGRGTPAPSGYSLRYDLGQNQIFIANFTREVNIIDNDFTKHIIGL
                      FSGGFEGGEQYEGRAMADQFQFGDL"
+                     /Pfam="PenF"
      CDS             complement(join(22815..24995,25049..25090))
                      /codon_start=1
                      /locus_tag="ANIA_11193"
                      /old_locus_tag="AN11193.4"
                      /product="cyclopenase AsqI"
-                     /label=asqI
+                     /label="asqI"
                      /note="transcript_id=CADANIAT00009364"
                      /db_xref="EnsemblGenomes-Gn:CADANIAG00009364"
                      /db_xref="EnsemblGenomes-Tr:CADANIAT00009364"
@@ -310,12 +317,13 @@ FEATURES             Location/Qualifiers
                      PAPAPPFHHYHDPRGMGYPFNRAWTQLTEDSTGKASIRTIISNAELYPFITSTTFKIYR
                      TTKFETKQIIQPTTVTWFNTIRGYFKDADRACMRSEYGYDLYNYDHVMLHADAILDATA
                      SKRMPLQMGKYTQDNPDPEHPLWTVKMCENFRAWLLNGCPKGTDPA"
+                     /Pfam="Hemocyanin_M, Hemocyanin_C"
      CDS             26637..27563
                      /codon_start=1
                      /locus_tag="ANIA_09227"
                      /old_locus_tag="AN9227.2; AN9227.4"
                      /product="2OG-Fe(II)-dependent dioxygenase AsqJ"
-                     /label=asqJ
+                     /label="asqJ"
                      /note="transcript_id=CADANIAT00009365"
                      /db_xref="EnsemblGenomes-Gn:CADANIAG00009365"
                      /db_xref="EnsemblGenomes-Tr:CADANIAT00009365"
@@ -330,14 +338,14 @@ FEATURES             Location/Qualifiers
                      PFTAENGATHVILGSHKWQNLSNVSMDATVRALMNPGDALLITDSTIHCGGAETTGTET
                      RRLLTITMGISQLTPLESNLAVPRPVIESLTPLAQRLLGWASQRSAAPRDIGLLTIRGN
                      SIEKTMNLKAEQPLHDDEAEPLCRETI"
+                     /Pfam="PhyH"
      CDS             join(28119..28544,28590..36287)
                      /codon_start=1
                      /locus_tag="ANIA_09226"
                      /old_locus_tag="AN9226.2; AN9226.4"
                      /product="nonribosomal peptide synthetase AsqK"
-                     /label=asqK
-                     /note="transcript_id=CADANIAT00009366
-                     revised sequence"
+                     /label="asqK"
+                     /note="transcript_id=CADANIAT00009366 revised sequence"
                      /db_xref="EnsemblGenomes-Gn:CADANIAG00009366"
                      /db_xref="EnsemblGenomes-Tr:CADANIAT00009366"
                      /db_xref="GeneID:2868069"
@@ -399,15 +407,17 @@ FEATURES             Location/Qualifiers
                      ACVMTSRGVLAELAESVVGPCVNRCLLRVKVPDDSNPDSTALDFCRNLRDNQAQVSGHG
                      HLGFRDVVENCTSWASLGVDVGRIAFVTHLPAETALETFSLTLLDSPVSYDSTNVTINP
                      GNQILVRS"
+                     /Pfam="NRPS_C, AA-adenyl-dom, ACP_PCP, PKS_NRPS_MT,
+                     NRPS_CT"
      CDS             complement(join(37018..37383,37473..37895,37943..38358,
                      38532..38808))
                      /codon_start=1
                      /locus_tag="ANIA_09225"
                      /old_locus_tag="AN9225.2; AN9225.4"
                      /product="cytochrome P450 monooxygenase AsqL"
-                     /label=asqL
-                     /note="transcript_id=CADANIAT00009367
-                     revised sequence; might be a pseudo gene"
+                     /label="asqL"
+                     /note="transcript_id=CADANIAT00009367 revised sequence;
+                     might be a pseudo gene"
                      /db_xref="EnsemblGenomes-Gn:CADANIAG00009367"
                      /db_xref="EnsemblGenomes-Tr:CADANIAT00009367"
                      /db_xref="GeneID:2868090"
@@ -426,12 +436,13 @@ FEATURES             Location/Qualifiers
                      ETLRLYTPAPSPLPRTVPAEGIDVHGHFLPGGTILTHSLYLIHHNPVLFADPKSFKPER
                      WLGTQGKVLEQYYVPFSKGSRSCIGMALAYHEVYTYLSLLFSRFEMEIFETSQSDMDWR
                      EHFFVKRNGQLRIRIVRDRWTGEAFPTRAVEADLR"
+                     /Pfam="p450"
      CDS             39379..40710
                      /codon_start=1
                      /locus_tag="ANIA_09224"
                      /old_locus_tag="AN9224.2; AN9224.4"
                      /product="FAD-dependent monooxygenase AsqM"
-                     /label=asqM
+                     /label="asqM"
                      /note="transcript_id=CADANIAT00009368"
                      /db_xref="EnsemblGenomes-Gn:CADANIAG00009368"
                      /db_xref="EnsemblGenomes-Tr:CADANIAT00009368"
@@ -449,15 +460,15 @@ FEATURES             Location/Qualifiers
                      PSNPKTLQELLLTHDDFFASWSEDIKRLLRIAFESQVADAEIITRPMYMLPLVPYPYAH
                      QRGIALVGDAASLMTPFAGRGVNVAMADSLDLAEELERLHLVTVSSSASTPAAIFADKL
                      EGALSAYERTAYTRAKDAMELTWRNLCLSFSEKASDLFAAVMAS"
+                     /Pfam="FAD_binding_3"
      CDS             join(42026..42304,42367..42490,42540..42663,42718..43151,
                      43215..43534)
                      /codon_start=1
                      /locus_tag="ANIA_09223"
                      /old_locus_tag="AN9223.2; AN9223.4"
                      /product="methyltransferase AsqN"
-                     /label=asqN
-                     /note="transcript_id=CADANIAT00009369
-                     revised sequence"
+                     /label="asqN"
+                     /note="transcript_id=CADANIAT00009369 revised sequence"
                      /db_xref="EnsemblGenomes-Gn:CADANIAG00009369"
                      /db_xref="EnsemblGenomes-Tr:CADANIAT00009369"
                      /db_xref="GeneID:2867951"
@@ -474,6 +485,7 @@ FEATURES             Location/Qualifiers
                      PSSGLRCIVQDRYVVNASSPGPAVVEMQQHDFFEAQPVKGAAAYFFRHIFHDWPDKACA
                      AILKQTARAMDKDRSRILICDQVLQDDVPAEASLLYDIDMMSLFGGKERSLAEWKYLIA
                      SAEESLHIVNVIFSTESEAAILDVRIK"
+                     /Pfam="Methyltransf_2"
 ORIGIN
         1 atgcccaaaa gagttctgaa aggcgcagcc aagcgggccc gcgaggccaa gcatgcccgc
        61 gatgctgcca aagccagggt atgacaaata gtctttggct tggccctcct cactgtacgc

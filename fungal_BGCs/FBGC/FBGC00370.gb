@@ -1,51 +1,52 @@
-LOCUS       FBGC00370       18750 bp DNA     linear   UNA 09-MAY-2023
+LOCUS       FBGC00370              18750 bp    DNA     linear   UNA 09-MAY-2023
 DEFINITION  testoxin.
 ACCESSION   FBGC00370
-VERSION     .
+VERSION     FBGC00370
 KEYWORDS    .
 SOURCE      Alternaria alternata SRC1lrK2f
   ORGANISM  Alternaria alternata SRC1lrK2f
+            .
 REFERENCE   1  (bases 1 to 18750)
   AUTHORS   Li YH, Han WJ, Gui XW, Wei T, Tang SY, Jin JM.
-  TITLE     Putative Nonribosomal Peptide Synthetase and Cytochrome P450 Genes 
+  TITLE     Putative Nonribosomal Peptide Synthetase and Cytochrome P450 Genes
             Responsible for Tentoxin Biosynthesis in Alternaria alternata ZJ33.
   JOURNAL   Toxins 2016;8(8):234
-  PUBMED    27490569
+   PUBMED   27490569
 REFERENCE   2  (bases 1 to 18750)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported May 9, 2023 from SnapGene 6.2.2
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.3390/toxins8080234"; journalName: "Toxins"; date: "2016"; 
-            volume: "8"; issue: "8"; pages: "234"
-COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final 
-            NCBI review. The reference sequence is identical to KV441490.
-            URL -- http://genome.jgi.doe.gov/Altal1
-            JGI Project ID: 1029430
-            The DNA was provided by Cara Santelli, University of 
-            Minnesota(santelli@umn.edu)
-            The strain is available from Colleen Hansel, Woods Hole 
-            Oceanographic Institution, chansel@whoi.edu
-            Contacts: Colleen Hansel (chansel@whoi.edu)
-            Cara Santelli (santelli@umn.edu)
-            Assembly and annotation done by JGI.
-            The JGI and collaborators endorse the principles for the 
-            distribution and use of large scale sequencing data adopted by the 
-            larger genome sequencing community and urge users of this data to 
-            follow them. It is our intention to publish the work of this project
-            in a timely fashion and we welcome collaborative interaction on the 
-            project and analysis. 
-            (http://www.genome.gov/page.cfm?pageID=10506376).##Genome-Assembly-D
-            ata-START##
+  JOURNAL   Exported May 9, 2023 from SnapGene 6.2.2 https://www.snapgene.com
+COMMENT     ##ata-START##
             Assembly Method       :: Allpaths-LG v. R46652
             Assembly Name         :: Altal1
             Genome Coverage       :: 147.1x
             Sequencing Technology :: Illumina
-            ##Genome-Assembly-Data-END####Metadata-START##
+            ##ata-END##
+            ##Metadata-START##
             Organism Display Name :: Alternaria alternata
             GOLD Stamp ID         :: Gp0047507
             ##Metadata-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.3390/toxins8080234"; journalName: "Toxins"; date: "2016";
+            volume: "8"; issue: "8"; pages: "234"
+            PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to KV441490.
+            URL -- http://genome.jgi.doe.gov/Altal1
+            JGI Project ID: 1029430
+            The DNA was provided by Cara Santelli, University of
+            Minnesota(santelli@umn.edu)
+            The strain is available from Colleen Hansel, Woods Hole
+            Oceanographic Institution, chansel@whoi.edu
+            Contacts: Colleen Hansel (chansel@whoi.edu)
+            Cara Santelli (santelli@umn.edu)
+            Assembly and annotation done by JGI.
+            The JGI and collaborators endorse the principles for the
+            distribution and use of large scale sequencing data adopted by the
+            larger genome sequencing community and urge users of this data to
+            follow them. It is our intention to publish the work of this project
+            in a timely fashion and we welcome collaborative interaction on the
+            project and analysis.
+            (http://www.genome.gov/page.cfm?pageID=10506376).##Genome-Assembly-D
 FEATURES             Location/Qualifiers
      source          1..18750
                      /chromosome="Unknown"
@@ -57,7 +58,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="CC77DRAFT_1065195"
                      /product="nonribosomal peptide synthetase TES"
-                     /label=TES
+                     /label="TES"
                      /db_xref="GeneID:29114387"
                      /db_xref="InterPro:IPR000873"
                      /db_xref="InterPro:IPR001242"
@@ -153,12 +154,14 @@ FEATURES             Location/Qualifiers
                      VYGYMVAGRNANIPTISKIVGPCLNIIPVRAQLHAKTTSTELIRSIQEQYIALGEADSM
                      GFDEIVRTSTDWPADTEYDSVFQHQNLNEHPEFDFEGTSSRLHWFQNPDSVPCILTVVS
                      YPLEDGLRIVVRGNEHIITPESAERINKLLCETIGALSSSLQ"
+                     /Pfam="AA-adenyl-dom, ACP_PCP, NRPS_C, PKS_NRPS_MT,
+                     NRPS_CT"
      CDS             join(16914..17162,17211..17256,17297..17385,17435..17522,
                      17573..18241,18314..18750)
                      /codon_start=1
                      /locus_tag="CC77DRAFT_997367"
                      /product="cytochrome P450 monooxygenase TES1"
-                     /label=TES1
+                     /label="TES1"
                      /db_xref="GeneID:29122107"
                      /db_xref="JGIDB:Altal1_997367"
                      /protein_id="XP_018381586.1"
@@ -172,6 +175,7 @@ FEATURES             Location/Qualifiers
                      PPGVAIVIANPLVTDSKYDTFDGFRHYKLREASAQKDKPNHRWLIANEIEFRWGYDNHV
                      CPGRFYAHNLLKIIFARIVENYDIKMPGDVEGIEARYPMVEHGNVVMEPRDKPLLLRRI
                      KSHQGHVD"
+                     /Pfam="p450"
 ORIGIN
         1 ttactggagc gaagaagaca gcgccccgat cgtctcacag agcagtttgt tgattctctc
        61 cgcactctct ggcgttatga tgtgttcgtt acccctaacc acaatcctaa gcccgtcttc

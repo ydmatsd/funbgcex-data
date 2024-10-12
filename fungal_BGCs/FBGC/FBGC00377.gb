@@ -1,40 +1,41 @@
-LOCUS       FBGC00377       21552 bp DNA     linear   UNA 19-FEB-2023
+LOCUS       FBGC00377              21552 bp    DNA     linear   UNA 19-FEB-2023
 DEFINITION  flavunoidine.
 ACCESSION   FBGC00377
-VERSION     .
+VERSION     FBGC00377
 KEYWORDS    .
 SOURCE      Aspergillus flavus NRRL 3357
   ORGANISM  Aspergillus flavus NRRL 3357
+            .
 REFERENCE   1  (bases 1 to 21552)
-  AUTHORS   Yee DA, Kakule TB, Cheng W, Chen M, Chong CTY, Hai Y, Hang LF, Hung 
+  AUTHORS   Yee DA, Kakule TB, Cheng W, Chen M, Chong CTY, Hai Y, Hang LF, Hung
             YS, Liu N, Ohashi M, Okorafor IC, Song Y, Tang M, Zhang Z, Tang Y.
-  TITLE     Genome Mining of Alkaloidal Terpenoids from a Hybrid Terpene and 
+  TITLE     Genome Mining of Alkaloidal Terpenoids from a Hybrid Terpene and
             Nonribosomal Peptide Biosynthetic Pathway.
   JOURNAL   J Am Chem Soc 2020;142:710-714
-  PUBMED    31885262
+   PUBMED   31885262
 REFERENCE   2  (bases 1 to 21552)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Feb 19, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1021/jacs.9b13046"; journalName: "J Am Chem Soc"; date: "2020"; 
-            volume: "142"; pages: "710-714"
-COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final 
-            NCBI review. The reference sequence is identical to 
-            CP059868.##Genome-Assembly-Data-START##
+  JOURNAL   Exported Feb 19, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     ##Genome-Assembly-Data-START##
             Assembly Date          :: 05-SEP-2019
             Assembly Method        :: MECAT v. SEPT-2019
             Assembly Name          :: UGA_Afla_NRRL3357
             Genome Representation  :: Full
             Expected Final Version :: Yes
             Genome Coverage        :: 70.0x
-            Sequencing Technology  :: PacBio RSII; Bionano Saphyr 
-            ##Genome-Assembly-Data-END####Genome-Annotation-Data-START##
-            Annotation Provider :: INSDC submitter
-            Annotation Status   :: Full annotation
-            Annotation Pipeline :: Eukaryotic Annotation Propagation Pipeline 
+            Sequencing Technology  :: PacBio RSII; Bionano Saphyr
+            ##Genome-Assembly-Data-END##
+            ##Genome-Annotation-Data-START##
+            Annotation Provider    :: INSDC submitter
+            Annotation Status      :: Full annotation
+            Annotation Pipeline    :: Eukaryotic Annotation Propagation Pipeline
             ##Genome-Annotation-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1021/jacs.9b13046"; journalName: "J Am Chem Soc"; date: "2020";
+            volume: "142"; pages: "710-714"
+            PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to
 FEATURES             Location/Qualifiers
      source          1..21552
                      /chromosome="3"
@@ -44,15 +45,15 @@ FEATURES             Location/Qualifiers
                      /country="USA: Dawson, Georgia"
                      /lat_lon="31.76 N 84.43 W"
                      /isolation_source="Moldy Peanuts"
-                     /collection_date=8-Sep-1982
+                     /collection_date="8-Sep-1982"
                      /db_xref="taxon:332952"
                      /organism="Aspergillus flavus NRRL3357"
      CDS             complement(1..2550)
                      /codon_start=1
                      /locus_tag="G4B84_005461"
-                     /product="PLP-containing enzyme/2OG-Fe(II)-dependent 
+                     /product="PLP-containing enzyme/2OG-Fe(II)-dependent
                      dioxygenase FlvA"
-                     /label=flvA
+                     /label="flvA"
                      /db_xref="GeneID:64847693"
                      /protein_id="XP_041145129.1"
                      /translation="MTPKPLTLVNGYHDLDNTQISSPLSSMHDVWRTILSRFKQNTNAI
@@ -70,11 +71,12 @@ FEATURES             Location/Qualifiers
                      AHLDYSSPNFLCNVFNIRTFTEKNILGEPTLEGVHADGADHTMTTFLGCTNMRSDSGIT
                      FIHDQKEITGIPATEAQPSLIKHRFQHRHFLDSLLFADNEAKHSLTSVFQEDVSKRATR
                      DMLLFLTRKPKLAGHSSGSVDAMEPHKTLPMNVPLWL"
+                     /Pfam="Cys_Met_Meta_PP, 2OG-Fe_Oxy_2"
      CDS             join(3429..3752,3822..3916,3983..4502)
                      /codon_start=1
                      /locus_tag="G4B84_005462"
                      /product="short-chain dehydrogenase/reductase FlvB"
-                     /label=flvB
+                     /label="flvB"
                      /db_xref="GeneID:64847694"
                      /protein_id="XP_041145130.1"
                      /translation="SPPVTMRYLITGATGGLGGHILEYFIAQIPFSDFAASSSSPENRS
@@ -83,12 +85,13 @@ FEATURES             Location/Qualifiers
                      YPETTLLTLPRDGEIAFTSRVELAVCTARLMIQGGFENRIVLLTAGETITAKELVSVIN
                      ETTGRRVELRYVSPDEFVDAGPRNDRGGKSRAFFETLVSLWESAASGELRTMDGLMAEI
                      LGRDPIPPRDAVRQLLVENRDHTWHQMYAKK"
+                     /Pfam="NmrA"
      CDS             complement(join(4853..5905,5966..6175,6234..6262,
                      6348..6582))
                      /codon_start=1
                      /locus_tag="G4B84_005463"
                      /product="cytochrome P450 monooxygenase FlvC"
-                     /label=flvC
+                     /label="flvC"
                      /db_xref="GeneID:64847695"
                      /protein_id="XP_041145131.1"
                      /translation="MDFGGILLHLEARSMATVLIAGLLVYWVGSAIFLAVLHPLAKFPG
@@ -100,12 +103,13 @@ FEATURES             Location/Qualifiers
                      IVQVWPETDGPVPPIEVLEKLPLLTAVIKEALRLTHGVVTPLARVISAGGACIDGHHVP
                      GGTSVGTSHVFIHMSSDYYDAPDEFRPERWLGSSSDKHLVAFSKGPRGCMGINLAWCQL
                      YLVLATLVRTVQMEYPADLNDIKIKWKDCFQPLYYGRPLQVRCTRAEGHS"
-     CDS             complement(join(7443..7614,7696..7862,7924..8034,8151..9001,
-                     9063..9297))
+                     /Pfam="p450"
+     CDS             complement(join(7443..7614,7696..7862,7924..8034,
+                     8151..9001,9063..9297))
                      /codon_start=1
                      /locus_tag="G4B84_005463"
                      /product="cytochrome P450 monooxygenase FlvD"
-                     /label=flvD
+                     /label="flvD"
                      /db_xref="GeneID:64847695"
                      /protein_id="XP_041145131.1"
                      /translation="MLDTISESRPNGLATLGVVVATFATYLALKALYNLYLHPLRKFPG
@@ -117,11 +121,12 @@ FEATURES             Location/Qualifiers
                      DTLPGVSSGVYSHVQLECLPYLTGAVQESLRLSHGPAIRLPRVANDKALKYGDYIIPPG
                      TPVSLCTVLVHQDPCIFPDPHRFDPERWVKASKEGVNLDKFIAAFTKGTRQCLGINLAY
                      AEIYLTFAKLIRTFNMEIYDTTVDDLTVHHIRLTGAPKQGTGEVKVKVTEKIL"
+                     /Pfam="p450"
      CDS             9902..11074
                      /codon_start=1
                      /locus_tag="G4B84_005464"
                      /product="terpene synthase FlvE"
-                     /label=flvE
+                     /label="flvE"
                      /db_xref="GeneID:64847696"
                      /protein_id="XP_041145132.1"
                      /translation="MPGKQFPLKEYIAALAKFLDTIEYQDDNFSHEQRVESLRYVYQHT
@@ -131,12 +136,13 @@ FEATURES             Location/Qualifiers
                      LTLCNDLISFYKEYDSPRDQINLVSNLAHCNGVSWEIAFEELTRDTILYCEQLVTVFKG
                      KDPKVEATVRAFVHGYVTWHLCDPRFRMQEVYEQAGQSEADLKFRHFYEQATSIGVIDF
                      KLWASPSRLSSDKRKHEQAFGDDPQNGKTRVLESIGQANASEAVALAPLA"
+                     /Pfam="TRI5"
      CDS             complement(join(12384..12921,12981..13231,13322..13347,
                      13412..13697))
                      /codon_start=1
                      /locus_tag="G4B84_005465"
                      /product="terpene cyclase FlvF"
-                     /label=flvF
+                     /label="flvF"
                      /db_xref="GeneID:64847697"
                      /protein_id="XP_041145133.1"
                      /translation="MEGLRRHSVMLDCKLWKDDPIYFFKTLPPYISKYAQRADDASIQA
@@ -146,11 +152,12 @@ FEATURES             Location/Qualifiers
                      YVYDYYHYDKEAEIHSTYGKGRSMINSIPLLNRLKGLSVEEAKAWLKQRCFELEKEYLQ
                      RKEDYFSENPVEAVPVDLRRWFLSQEDLATGFAIWCATTYHNHPPFGEGYAAPYEKRRK
                      EGALWFEKVTESDQLMTGGFEVRYAN"
+                     /Pfam="Terpene_syn_C_2"
      CDS             complement(join(14630..14727,14808..15749,15826..16063))
                      /codon_start=1
                      /locus_tag="G4B84_005466"
                      /product="decarboxylase FlvG"
-                     /label=flvG
+                     /label="flvG"
                      /db_xref="GeneID:64847698"
                      /protein_id="XP_041145134.1"
                      /translation="MPYATEETSSVAWFPEGNLCHSKTCGPRTNGIVLEAMKGKLSQPS
@@ -161,11 +168,12 @@ FEATURES             Location/Qualifiers
                      PGRYFAAGALTLACGIIGRRDAAANDEDKENRHMLYLNDGVYGTFICNIFEPGPQPKVL
                      RASGDFYPLDSEDEYERYTIWGPTCDGTDCVAESVALPKSLAIDDWLYFPEMGAYSTCL
                      STGFNGFHSDRETIYMSSDPAADIYL"
+                     /Pfam="Orn_Arg_deC_N"
      CDS             16876..17412
                      /codon_start=1
                      /locus_tag="G4B84_005467"
                      /product="methyltransferase FlvH"
-                     /label=flvH
+                     /label="flvH"
                      /db_xref="GeneID:64847699"
                      /protein_id="XP_041145135.1"
                      /translation="MSEFIPTWKQPSHPETLQVIKGATPYTASARSLVALPAGALFSKI
@@ -176,7 +184,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="G4B84_005468"
                      /product="nonribosomal peptide synthetase FlvI"
-                     /label=flvI
+                     /label="flvI"
                      /db_xref="GeneID:64847700"
                      /protein_id="XP_041145136.1"
                      /translation="MAKDQSMSRTASLCQEITVPKTIPVCIQDVFYRRVLEQHDAPAVC
@@ -198,6 +206,7 @@ FEATURES             Location/Qualifiers
                      TLRYNLERDQDNILSLMLHEGIDDRDIEQLSPECEAVACKYGTLLAVQPDLATAYPEMF
                      RERDMQYYGPICALNALMQCYLSPESATISLRLSESTMDGVYHWGRFLDEFEAVFHFIQ
                      KNPDVKLCYLRRQLDIPNPRSPA"
+                     /Pfam="AA-adenyl-dom, ACP_PCP, NRPS_C"
 ORIGIN
         1 ctatagccac aacggaacgt tcatcggaag ggtcttgtga ggttccatgg catccacact
        61 tcccgatgaa tgacccgcca acttaggctt gcgggtgagg aagagcagca tatctcgcgt

@@ -1,22 +1,22 @@
-LOCUS       FBGC00396       32060 bp DNA     linear   UNA 03-MAR-2023
+LOCUS       FBGC00396              32060 bp    DNA     linear   UNA 03-MAR-2023
 DEFINITION  11'-deoxyverticillin A.
 ACCESSION   FBGC00396
-VERSION     .
+VERSION     FBGC00396
 KEYWORDS    .
 SOURCE      Clonostachys rogersoniana
   ORGANISM  Clonostachys rogersoniana
+            .
 REFERENCE   1  (bases 1 to 32060)
   AUTHORS   Wang Y, Hu P, Pan Y, Zhu Y, Liu X, Che Y, Liu G.
-  TITLE     Identification and characterization of the verticillin biosynthetic 
+  TITLE     Identification and characterization of the verticillin biosynthetic
             gene cluster in Clonostachys rogersoniana.
   JOURNAL   Fungal Genet Biol 2017;103:25-33
-  PUBMED    28376389
+   PUBMED   28376389
 REFERENCE   2  (bases 1 to 32060)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Mar 3, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
+  JOURNAL   Exported Mar 3, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
             "10.1016/j.fgb.2017.03.007"; journalName: "Fungal Genet Biol"; date:
             "2017"; volume: "103"; pages: "25-33"
 FEATURES             Location/Qualifiers
@@ -24,7 +24,7 @@ FEATURES             Location/Qualifiers
                      /strain="XZC04-CC-302"
                      /mol_type="genomic DNA"
                      /country="China: Linzhi, Tibet"
-                     /collection_date=Mar-2004
+                     /collection_date="Mar-2004"
                      /db_xref="taxon:1955101"
                      /organism="Gliocladium sp."
      CDS             complement(join(1..410,462..1109,1163..1234,1288..1369,
@@ -32,7 +32,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="verB"
                      /product="cytochrome P450 monooxygenase VerB"
-                     /label=verB
+                     /label="verB"
                      /note="revised sequence"
                      /protein_id="AQZ42168.1"
                      /translation="MNYTNIMSIQLFTMIQQDTLSTAMARPWLSASVLITAVILLVDYL
@@ -45,11 +45,12 @@ FEATURES             Location/Qualifiers
                      TLLSVTRTVMEPMQLKSGLSLQSGSIISSPSWLIHNDEDNYENAHQFDPYRFYNPSTNA
                      VTTKVTTASTNFLGYGYGTQMCPGRHLGIKMSQILFSKLLMRYDGEFADAKAGKPANIV
                      TSGQVLPPYYAKVILKRRGI"
+                     /Pfam="p450"
      CDS             complement(2413..3978)
                      /codon_start=1
                      /gene="verZ"
                      /product="transcription factor VerZ"
-                     /label=verZ
+                     /label="verZ"
                      /note="revised sequence"
                      /protein_id="AQZ42167.1"
                      /translation="MAGQNGISHAQGRRGPKYRTSCDRCQAAKVKCGHEKPSCRRCTYH
@@ -62,23 +63,25 @@ FEATURES             Location/Qualifiers
                      SSIHLLSLIGVRLMLDMLQKTVREEFITRPKRIKSGTTMMNSTDVLLIGSFKVSSKARC
                      RFLRKVVQARFCRLATLVEKGGKLIDCATARDCYSKSGALLLGDVSQALRTAMGWVELW
                      NLKH"
+                     /Pfam="EqxR"
      CDS             join(5892..6268,6349..6420,6481..6751)
                      /codon_start=1
                      /gene="verG"
                      /product="glutathione S-transferase VerG"
-                     /label=verG
+                     /label="verG"
                      /protein_id="AQZ42166.1"
                      /translation="MPINKFSARSLDNDVPNKPLIFVMEGRYQNWIKPIMLLECLEIDY
                      DAACIDGPTTRTDWFTRLHPQRYVPAMIDVEDGQRVSSWDSSQMLQYLSNKYDAKRMWN
                      GHNAAENLEICNWLTFETASLGPTAKYWVWYALRQGEEQNPKAQQKMYNDLRVQYSILD
                      KHLAQPGQNWVGLKDRPTIADLAIYPFADDPTMARMGIDKKDFPSLKAWSEALSKVPGV
                      AKAYAELDSRKEIAIGA"
-     CDS             join(7076..7139,7188..7341,7401..7704,7761..7837,7902..7991,
-                     8054..8516)
+                     /Pfam="GST_N_2, GST_C"
+     CDS             join(7076..7139,7188..7341,7401..7704,7761..7837,
+                     7902..7991,8054..8516)
                      /codon_start=1
                      /gene="verJ"
                      /product="dipeptidase VerJ"
-                     /label=verJ
+                     /label="verJ"
                      /note="revised sequence"
                      /protein_id="AQZ42165.1"
                      /translation="MALLDDNLSKALKLLADVPLIDGHNDFPYFIRGWFPEQIDSLDCR
@@ -88,11 +91,12 @@ FEATURES             Location/Qualifiers
                      VIFSHSSCASVTEHPRNSPDDVLDMLKANGGVFMITFIRKPTDAESPTLEKVADHVQHV
                      GDRIGYEHVGIGSDFDGVMLTASGLDDVSKFPLLIAELLKRGVSDHSIKNMIGLNVLRV
                      MDSVEEVSMKMKETGEEMLHEVFEEIWDEKMRDEVRKTRDIFD"
+                     /Pfam="Peptidase_M19"
      CDS             complement(join(8591..8917,8977..9468))
                      /codon_start=1
                      /gene="verK"
                      /product="gamma-glutamyl cyclotransferase VerK"
-                     /label=verK
+                     /label="verK"
                      /note="revised sequence"
                      /protein_id="AQZ42164.1"
                      /translation="MTNTERSSSWKASSIPDQPMWYFGYGSNMKASSMADRKVTPLSTK
@@ -100,12 +104,13 @@ FEATURES             Location/Qualifiers
                      PNDFHRLLVTEGSGVVYNLVEVQAYEMNKDGQPIPAPFTVHTLKAKWPQRPNGTPSARY
                      MNLFLQGAKDHNLPLRYIQYLETFPRYHKLEGSKRSYGQMIFDGAWRPFLKRLVRLTTW
                      NVDEDGNCPTYVANVIILLYQAMWKYHDVVHRHIFGEGDGGKLHYMPISE"
+                     /Pfam="GliK"
      CDS             complement(join(9789..12347,12413..12502,12559..15947,
                      16003..16612))
                      /codon_start=1
                      /gene="verP"
                      /product="nonribosomal peptide synthetase VerP"
-                     /label=verP
+                     /label="verP"
                      /note="revised sequence"
                      /protein_id="AQZ42163.1"
                      /translation="MTLPTSLCDLFAQAASRCPDNLAVDHTEGSLTYRQLDDVSNSLAN
@@ -146,12 +151,13 @@ FEATURES             Location/Qualifiers
                      FPLMLEWFEMDHDEWSLHIEHDTSRLQSSSINMIEQAIETILQAIADECSISQLRERLA
                      SLDSMALDAASSSSSSSGSSSRMSNIHSQSVEEVATSIQLEMEASLSTDGTVISPHTSF
                      FSAGADSEAVVTLRHRMQKLGIDIPLRSIFLAQSPFKLAEHLLLIS"
+                     /Pfam="AA-adenyl-dom, ACP_PCP, NRPS_C"
      CDS             join(16970..17089,17147..17325,17382..17973,18028..18256,
                      18314..18378,18441..18767)
                      /codon_start=1
                      /gene="verC"
                      /product="cytochrome P450 monooxygenase VerC"
-                     /label=verC
+                     /label="verC"
                      /note="revised sequence"
                      /protein_id="AQZ42162.1"
                      /translation="MLSEMLGEIAALPMVSLLGAALIVVSVLGRRLLVSNIAWAITGQT
@@ -163,11 +169,12 @@ FEATURES             Location/Qualifiers
                      NNNSEKSYENYVCRDDTLLAACVLETSRLHPVLPFSNPEAAEEDKIVGGYIIPRLTDVI
                      VDTHAINIDNPHWVDSNSFDPHRHLGQKDSSRRYNMWRFGFGPRQCLGKNVADIILRII
                      LCEMLNTYELGLLEEEGITGVKLQPDSWIGLPNGVVQMTPLKLDE"
+                     /Pfam="p450"
      CDS             complement(join(18991..19509,19564..20012,20072..20459))
                      /codon_start=1
                      /gene="verI"
                      /product="aminotransferase VerI"
-                     /label=verI
+                     /label="verI"
                      /note="revised sequence"
                      /protein_id="AQZ42161.1"
                      /translation="MLSRRARESNAWFLERFKRPLGRQGSKSNTNIDLATAENWLIRPE
@@ -178,11 +185,12 @@ FEATURES             Location/Qualifiers
                      LITQANKELRMSQAILNNAKLCNAASAMVAPILGSTSQLSTLVNLNVQRMRKAARTAIQ
                      FAQFHGLTFCEPVAGVYIWLRLSEDCHTRDDEEEIVQRCTKHGALVGSGSDYSESQPGW
                      FRLTFAIPDNEFLEGLNRIETAMGYKERFNGEMVQSSLGGFVSQLWKRFVLV"
+                     /Pfam="Aminotran_1_2"
      CDS             join(20951..21155,21223..21289,21358..21825,21892..22015)
                      /codon_start=1
                      /gene="vern"
                      /product="methyltransferase VerN"
-                     /label=verN
+                     /label="verN"
                      /protein_id="AQZ42160.1"
                      /translation="MTEHTVSHANGSDLENAKKTYMLANNQKEIERMKNQHEWIKGSFG
                      GLVKAPIDFDKKNQSILDSATADGTWLMDVRSLFPPETELIGFDIAPELYPPEGTRPRN
@@ -190,11 +198,12 @@ FEATURES             Location/Qualifiers
                      CAGENVSGPEPKWFLLLHKLANQFMRSAVPRDAILAILHEEGFVNINIESLDIVIGKHQ
                      RNKEMDARGRRSMRDSVSNMYPMITAEQLGMPKEEARAVLDKFEADMQKYRTAVRHVII
                      WAQRPE"
+                     /Pfam="GliN"
      CDS             complement(join(22342..23348,23423..23639))
                      /codon_start=1
                      /gene="verM"
                      /product="methyltransferase VerM"
-                     /label=verM
+                     /label="verM"
                      /protein_id="AQZ42159.1"
                      /translation="MEAALKKLNIALQEAIDSFEGPLNQERLNELQTTESLPNKEVWSL
                      ASQTIDLADKIIHRLQPPSLQLAESFLAYLDTKCLWAAVSHDIPDLITAGGPQTVQELA
@@ -204,11 +213,12 @@ FEATURES             Location/Qualifiers
                      FADVGDRMVDLHVGDFRVEVPAYEVYTMKWCLHNWLDEDVVKILSAVRRAIKVTPRARM
                      VVVESVLKDGRSSRIWRFGDLTMMAGANGQEREEEDWRGLAAKTGWNIHSISPLRNAWA
                      AAIDLRPC"
+                     /Pfam="Methyltransf_2"
      CDS             complement(join(23959..24409,24468..25606,25664..25708))
                      /codon_start=1
                      /gene="verL"
                      /product="cytochrome P450 monooxygenase VerL"
-                     /label=verL
+                     /label="verL"
                      /protein_id="AQZ42158.1"
                      /translation="MAVALFPILPIGCLLIYIIFKLWTRDERLKHLPPGPKGLPVIGNM
                      LDMADTDKMMKKSKDWADEYGEIFYTKVGLYNFVWLSSPNAVRELMDKKGSIYSSRPPS
@@ -220,11 +230,12 @@ FEATURES             Location/Qualifiers
                      NEKRWKDPERFDPTRYLEDTLTEAESMAQPNPELRDHFTFGAGRRNCPGVHIAHNSLFI
                      NIARIFWAFNKQKSKDADGKILEPSTAAQPGFLLTPVKFPCHFEARSDKHARIIEERWT
                      EAQEKGIDGWKGKKESSSEENRGVSSR"
+                     /Pfam="p450"
      CDS             join(26290..26705,26793..27280,27363..27442)
                      /codon_start=1
                      /gene="verT"
                      /product="thioredoxin reductase VerT"
-                     /label=verT
+                     /label="verT"
                      /protein_id="AQZ42157.1"
                      /translation="MATPMIYDALIIGGGPAGLAASLALARVCRTSMLFDSGEYRNEGA
                      KEMHTFLSRDGIPPHDFRATCLQQLEKYKDYAYVTNTKITDIANTDVAPGLKGFKAVDF
@@ -232,13 +243,14 @@ FEATURES             Location/Qualifiers
                      SYSHLALMLRPLNKDITIYSNGPVPTDEPTQTALKMVLAAGVKLDERPVRRLINNGDGP
                      ENGISIEFTSGATVKLGMLYHRPPTRSRAANLILQLGLETNAIGDVITDTMMLKTNVPG
                      CVSAGDTQENMKQASVAAATGTRAAASIVFQLADEDGKKALAEAHL"
+                     /Pfam="Pyr_redox_2"
      CDS             complement(join(27728..27871,27935..28257,28319..28720,
                      28774..30163,30224..30821,30886..31436,31495..31563,
                      31637..31788,31851..31929,31983..32060))
                      /codon_start=1
                      /gene="verA"
                      /product="ABC transporter VerA"
-                     /label=verA
+                     /label="verA"
                      /protein_id="AQZ42156.1"
                      /translation="MPIDAESEAELRSEAEAPPGGFGKLMRVFTFATAVDRLIQIGCAF
                      AAVCSGAAMPLMALILGRLTANFTDYGSSGDDKSTAEFMKSVQTNALWFVYLFIGKFTL
@@ -262,6 +274,7 @@ FEATURES             Location/Qualifiers
                      TVRDNVILGLDEDKVQEADVATACEAAGLGEFISSLPDGFNTQCRGQGVSFSGGQKQRV
                      AIARALIMHPELLLLDEPTSALDAESEQLVRETLGNIQEGRTMILVTHRLNIVRNAHVI
                      IVMDGGRIVEQGTHTELMAKQGNYFKMHESSNGGEA"
+                     /Pfam="ABC_membrane, ABC_tran"
 ORIGIN
         1 tcaaatgccc ctacgcttca gaattacctt ggcgtaatac ggagggagga cctgaccaga
        61 cgtgacgata ttggccggct taccagcctt tgcatcggca aactcaccat cgtacctcat

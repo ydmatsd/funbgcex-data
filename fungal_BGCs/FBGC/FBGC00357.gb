@@ -1,31 +1,31 @@
-LOCUS       FBGC00357       25440 bp DNA     linear   UNA 17-FEB-2023
+LOCUS       FBGC00357              25440 bp    DNA     linear   UNA 17-FEB-2023
 DEFINITION  (+)-notoamide A.
 ACCESSION   FBGC00357
-VERSION     .
+VERSION     FBGC00357
 KEYWORDS    .
 SOURCE      Aspergillus versicolor NRRL 35600
   ORGANISM  Aspergillus versicolor NRRL 35600
+            .
 REFERENCE   1  (bases 1 to 25440)
-  AUTHORS   Li S, Anand K, Tran H, Yu F, Finefield JM, Sunderhaus JD, McAfoos 
+  AUTHORS   Li S, Anand K, Tran H, Yu F, Finefield JM, Sunderhaus JD, McAfoos
             TJ, Tsukamoto S, Williams RM, Sherman DH.
-  TITLE     Comparative analysis of the biosynthetic systems for fungal 
-            bicyclo[2.2.2]diazaoctane indole alkaloids: the (+)/(-)-notoamide, 
+  TITLE     Comparative analysis of the biosynthetic systems for fungal
+            bicyclo[2.2.2]diazaoctane indole alkaloids: the (+)/(-)-notoamide,
             paraherquamide and malbrancheamide pathways.
   JOURNAL   MedChemComm 2012;3:987-996
-  PUBMED    23213353
+   PUBMED   23213353
 REFERENCE   2  (bases 1 to 25440)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Feb 17, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1039/C2MD20029E"; journalName: "MedChemComm"; date: "2012"; 
-            volume: "3"; pages: "987-996"
-COMMENT     GenBank staff is unable to verify sequence and/or annotation 
-            provided by the submitter.##Assembly-Data-START##
+  JOURNAL   Exported Feb 17, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     ##Assembly-Data-START##
             Assembly Method       :: Velvet v. 0.7.63
             Sequencing Technology :: Illumina
             ##Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1039/C2MD20029E"; journalName: "MedChemComm"; date: "2012";
+            volume: "3"; pages: "987-996"
+            GenBank staff is unable to verify sequence and/or annotation
 FEATURES             Location/Qualifiers
      source          1..25440
                      /strain="NRRL35600"
@@ -36,7 +36,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="notA'"
                      /product="short-chain dehydrogenase/reductase NotA'"
-                     /label=notA'
+                     /label="notA'"
                      /note="NotA'"
                      /protein_id="AGC83572.1"
                      /translation="MTNTNRRTITVYGATGAQGGPVVRSLLKNNAFKVRAITRKPESEA
@@ -46,11 +46,12 @@ FEATURES             Location/Qualifiers
                      LTPEDYNGRVVPTVSDIRTYPEMIDAFQSGMPSLFWFLVCRLTSVHALATGQKARYIPV
                      TDWEAHFGDSHHGKESLAIFKFGKFTNGKYFGDEPISTDISATLKAKAAEAQGKDPSDR
                      KLITLVEWFEKHVAPLL"
+                     /Pfam="NmrA"
      CDS             join(1772..1940,1999..2591,2649..2995,3076..3334)
                      /codon_start=1
                      /gene="notB'"
                      /product="FAD-dependent monooxygenase NotB'"
-                     /label=notB'
+                     /label="notB'"
                      /note="NotB'"
                      /protein_id="AGC83573.1"
                      /translation="MTKSQTNPRGPAILSPADLTVIIVGLGIAGLTAAIECHRKGYTVI
@@ -61,11 +62,12 @@ FEATURES             Location/Qualifiers
                      VGSKLAAGIARTPPGKCFQQSLRAMPPLKRWVSTGGRMIVIGDAAHSFLPYAGQGGNQA
                      IEDAAVLGICLELAGTSNVPLALRVVEKLRHKRVSLIQKGSAEAGDSFLNAAWESDNAA
                      EKPTAFTHQAWVYAHNCVDHAYEQFNAAAEAVMNGWEYTPTNIPANGKFRQEEGNI"
+                     /Pfam="FAD_binding_3"
      CDS             join(4233..5410,5481..5583)
                      /codon_start=1
                      /gene="notC'"
                      /product="DMATS-type prenyltransferase NotC'"
-                     /label=notC'
+                     /label="notC'"
                      /note="NotC'"
                      /protein_id="AGC83574.1"
                      /translation="MAIEESPTYAEPGPYEALSRFSSLTREDHRKWWEHTGPVLEKVLK
@@ -76,11 +78,12 @@ FEATURES             Location/Qualifiers
                      SLWTIGGRRLEDPSCAKGLALLKELWDLLAIPEGDRGDIWPNLVLGQPPTHLMTTMANY
                      TLSPASRFPEPQVYLTTFGMNDMAIMDALTAFYERAGLTDMAKSYKKNVQSYYPNLDLS
                      QTNWVHEAISFSYRNSKPYLSVYYSPF"
+                     /Pfam="Trp_DMAT"
      CDS             join(6448..6730,6784..7304,7370..8404)
                      /codon_start=1
                      /gene="notD'"
                      /product="FAD-linked oxidoreductase NotD'"
-                     /label=notD'
+                     /label="notD'"
                      /note="NotD'"
                      /protein_id="AGC83575.1"
                      /translation="MRDIRELLLVLFTSCLALGSVPSSFDGDRYCRCQPGEACWPSLAD
@@ -94,11 +97,12 @@ FEATURES             Location/Qualifiers
                      NTLGGQVMANKDVDNAMHSGWRTASVLLVGNRIFEPALKSQLDVQERLTAVEGPLLHSI
                      GQPAPEAIYLNEADADLENWQDWFWGEKYARLRDIKSKWDPDDLFLVRHGVGSEDWDED
                      GMCRMQLSPQECPVREHSRCTCKFFECAMLHVPGLL"
+                     /Pfam="FAD_binding_4, BBE"
      CDS             9103..15780
                      /codon_start=1
                      /gene="notE'"
                      /product="nonribosomal peptide synthetase NotE'"
-                     /label=notE'
+                     /label="notE'"
                      /note="NotE'"
                      /protein_id="AGC83576.1"
                      /translation="MDSTQITESNRECSVLQGKLATETVRESLSSSPSPLPSLASPVSS
@@ -139,11 +143,12 @@ FEATURES             Location/Qualifiers
                      VGQTVNGRSLPLPWVNEVVGPCVNYIPFRATLQQSMSTQDYLVDMQRQHNRCVPFDGAE
                      LDTIVKNCTDWEPTAEFGFILQHQNIDMDLSLTLDGNRCVSCASSGQLRPSNEVWICST
                      PSPSGVDLDVVASSHILTADAAKNLVDDIADMIQTLLYNLETPLRDAVELNWSDGS"
+                     /Pfam="AA-adenyl-dom, ACP_PCP, NRPS_C, NRPS_CT"
      CDS             complement(join(16002..16131,16200..17377))
                      /codon_start=1
                      /gene="notF'"
                      /product="DMATS-type prenyltransferase NotF'"
-                     /label=notF'
+                     /label="notF'"
                      /note="NotF'"
                      /protein_id="AGC83577.1"
                      /translation="MTAPELSAPAGHPQEPPARSSPAQALSSYHHFPTSDQERWYQETG
@@ -154,12 +159,13 @@ FEATURES             Location/Qualifiers
                      WTLGGRLIEEPEIMEGLARLKQIWSLLQIGEGSRAFKGGFDYGKASATDQIPSPIIWNY
                      EISPGSSFPVPKFYLPVHGENDLRVARSLAQFWDSLGWSEHACAYPDMLQQLYPDLDVS
                      RTSRLQSWISYSYTAKKGVYMSVYFHSQSTYLWEEG"
+                     /Pfam="Trp_DMAT"
      CDS             complement(join(17901..18088,18158..18259,18325..18623,
                      18678..18799,18863..19786))
                      /codon_start=1
                      /gene="notG'"
                      /product="cytochrome P450 monooxygenase NotG'"
-                     /label=notG'
+                     /label="notG'"
                      /note="NotG'"
                      /protein_id="AGC83578.1"
                      /translation="MELPFSAMSLLYLLVGIAGVISHQCYFRRGEHHLYPFAYLRWYTL
@@ -172,12 +178,13 @@ FEATURES             Location/Qualifiers
                      NGFINETLRLHPPVPSVIPRITPAEGVHVKGTHIPGGMAVFCPQWVIGRSDAAFIAPLS
                      FNPERWYKHPDLIKHRSAYAPFLTGPYSCIGKPLALMNIRTTIARLIMTFEIRFPAGED
                      GSHLMENVEDHFSMGIERMPVVLTRRG"
+                     /Pfam="p450"
      CDS             join(20439..20690,20750..20827,20895..20994,21054..21122,
                      21180..21758,21821..22242)
                      /codon_start=1
                      /gene="notH'"
                      /product="cytochrome P450 monooxygenase NotH'"
-                     /label=notH'
+                     /label="notH'"
                      /note="NotH'"
                      /protein_id="AGC83579.1"
                      /translation="MAQDTALHLPLGLEPAGWALALLTSSIIYLFLSPKSKSPRFPVVN
@@ -189,11 +196,12 @@ FEATURES             Location/Qualifiers
                      MFLMESVMQESQRLEPFILLSMFRYATETVTLPEGTTIPKGTLLAIANPSRLDPAIYPD
                      PHKFDGYRFVRMREDPRHAHLAPFTKTNSTNLNFGHGKQACPGRFIAVNQIKIALCHML
                      LKYDIELVEECPSQLVRSGLVTVRNPGAKIRVRRRQEEVCL"
+                     /Pfam="p450"
      CDS             join(22791..22950,23007..23925,23979..24201)
                      /codon_start=1
                      /gene="notI'"
                      /product="FAD-dependent monooxygenase NotI'"
-                     /label=notI'
+                     /label="notI'"
                      /note="NotI'"
                      /protein_id="AGC83580.1"
                      /translation="MAIDASGAAAPNSSGITVIIVGLGPTGLAAAIECHRRGHKVICFE
@@ -204,11 +212,12 @@ FEATURES             Location/Qualifiers
                      KTPSDNCLDQTLFTRSPLNKWVSRKGRMIVLGDAAHPFLPHAGQGANQGIEDAAVLALC
                      LQIAGKDDVPLALRVTEKLRYQRVAAIQKRGVEARDQSLSVDWENGGFTKKLTLYPAWL
                      HDQDCIKQVYEEFDKAVAAVTKGHECTFGGIPVD"
+                     /Pfam="FAD_binding_3"
      CDS             complement(24352..25440)
                      /codon_start=1
                      /gene="notJ'"
                      /product="hypothetical protein NotJ'"
-                     /label=notJ'
+                     /label="notJ'"
                      /protein_id="AGC83581.1"
                      /translation="MRNMATMLHLLTLILLTSPASTQTANAVPKRRLIGEDRESGRRWG
                      VAATDLGIPYDMHNGQVGYLFGDTVSTMWVQEAKDLRSPVMLLSGIHPGEDGGIFFESA
@@ -217,6 +226,7 @@ FEATURES             Location/Qualifiers
                      LQRVPWDKMTDKTEYQGWGWNGEDWGWQRPCSPILDGYFGEPSVRRLQDGTWAMVYLNA
                      STSTPHIVSRTARGPTGPWSEETVQVNQAGDESLLYGGFIHPWSTGERNQLYLMVSNWT
                      STSDAAPTPEGLVSVSQFTGTL"
+                     /Pfam="DUF4185"
 ORIGIN
         1 ctagagcagc ggtgccacat gcttttcaaa ccactcgaca agagttatga gtttacggtc
        61 gctggggtct ttgccctggg cctcagcagc ctttgccttc aaagtggccg agatgtccgt

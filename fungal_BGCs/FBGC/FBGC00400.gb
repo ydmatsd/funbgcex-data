@@ -1,12 +1,13 @@
-LOCUS       FBGC00400       50749 bp DNA     linear   UNA 04-MAR-2023
+LOCUS       FBGC00400              50749 bp    DNA     linear   UNA 04-MAR-2023
 DEFINITION  gliovirin.
 ACCESSION   FBGC00400
-VERSION     .
+VERSION     FBGC00400
 KEYWORDS    .
 SOURCE      Trichoderma virens IMI 304061
   ORGANISM  Trichoderma virens IMI 304061
+            .
 REFERENCE   1  (bases 1 to 50749)
-  AUTHORS   Sherkhane PD, Bansal R, Banerjee K, Chatterjee S, Oulkar D, Jain P, 
+  AUTHORS   Sherkhane PD, Bansal R, Banerjee K, Chatterjee S, Oulkar D, Jain P,
             Rosenfelder L, Elgavish S, Horwitz BA, Mukherjee PK.
   TITLE     Genomics-Driven Discovery of the Gliovirin Biosynthesis Gene Cluster
             in the Plant Beneficial Fungus Trichoderma Virens
@@ -14,22 +15,21 @@ REFERENCE   1  (bases 1 to 50749)
 REFERENCE   2  (bases 1 to 50749)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Mar 4, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1002/slct.201700262"; journalName: "ChemistrySelect"; date: 
+  JOURNAL   Exported Mar 4, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1002/slct.201700262"; journalName: "ChemistrySelect"; date:
             "2017"; volume: "2"; issue: "11"; pages: "3347-3352"
 FEATURES             Location/Qualifiers
      source          1..50749
                      /strain="IMI 304061"
                      /mol_type="genomic DNA"
                      /organism="Trichoderma virens"
-     CDS             join(1..160,219..313,373..415,484..800,856..1090,1154..1765,
-                     1818..1897)
+     CDS             join(1..160,219..313,373..415,484..800,856..1090,
+                     1154..1765,1818..1897)
                      /codon_start=1
                      /locus_tag="Trivir__000296"
                      /product="ATP synthase subunit beta Glv24"
-                     /label=glv24
+                     /label="glv24"
                      /note="manually added gene"
                      /protein_id="Trivir_:cds.g296.t1"
                      /translation="MLRQPYRLWRAALSPRIVPPSFAHAPRRNWRSYSATTAKNEHRHG
@@ -41,11 +41,12 @@ FEATURES             Location/Qualifiers
                      QAVYVPADDLTDPAPATTFIHLDATTELSRAISELGIYPAVDPLGSKSRLMDPRIVGQE
                      HYDTATRVQRTLQEYKSLQDIIAILGMDELSEADKITVERARKLQRFLSQPFAVAEVFT
                      GIKGQLVPLEATIQSFKAILDGQGDEMPENAFYMVGDFETAKAKSEKILSELESK"
+                     /Pfam="ATP-synt_ab_N, ATP-synt_ab"
      CDS             join(2212..2375,2444..3215)
                      /codon_start=1
                      /locus_tag="Trivir__000296"
                      /product="ATP11 protein Glv23"
-                     /label=glv23
+                     /label="glv23"
                      /note="manually added gene"
                      /protein_id="Trivir_:cds.g296.t1"
                      /translation="MFTLQNSVRSIQSSKKVIVTFYRHASIDTRELLVPSTTQQVYNRY
@@ -54,11 +55,12 @@ FEATURES             Location/Qualifiers
                      MANTARAHPRFVLPLPVVIDDQDSGPRNAASMHFVEWASHSPTVITVIITHLDEFKAKG
                      EYAIPHTVVTHHLDLQEEKGLVLLEGSVTDNCGVSVNDARWLLTMLQKFYGGVGVSTLT
                      HQRERLLQDFNTGSMEFDIQELLEVAETLS"
+                     /Pfam="ATP11"
      CDS             complement(join(4599..5638,5687..5909))
                      /codon_start=1
                      /locus_tag="Trivir__000297"
                      /product="methyltransferase Glv1"
-                     /label=glv1
+                     /label="glv1"
                      /protein_id="Trivir_:cds.g297.t1"
                      /translation="MDSLLQELNSNLRSVQGLLQGKLYDELQKRLHNHEEGVLPDKELG
                      HLATESIDLLHSIEQMLEPGHLVLADHFLGYVHAKCLCAAVDLRIADILQDQGPRTVEE
@@ -68,12 +70,13 @@ FEATURES             Location/Qualifiers
                      GQFADLADRVPRENLIAGDFFKAIPPATVYTMKWTLHDWKEPEAVTILRLIRQSIIPGP
                      KSRLVVLESLLANGRSARLSRYADMNMMITANGLERTEGDWRNLAEQSGWRIVRIIPLR
                      NAWPCAIEMRPDVPRANGWSI"
+                     /Pfam="Dimerisation2, Methyltransf_2"
      CDS             complement(join(6254..6718,6789..7201,7276..7480,
                      7536..7751))
                      /codon_start=1
                      /locus_tag="Trivir__000297"
                      /product="aminotransferase Glv2"
-                     /label=glv2
+                     /label="glv2"
                      /protein_id="Trivir_:cds.g297.t1"
                      /translation="MASLNDQHGCIGLSQRSNAVVQDIMPKIRTAVADRTQVDNPNIDL
                      STAENWLLRAELIDICKEAISQHMTTKHFSYPNGFSGDPTMMQALASFINNQFQPYQPV
@@ -83,12 +86,13 @@ FEATURES             Location/Qualifiers
                      ISQHNPEIIVGLSLASNTQTSSLAAIFTRSLLASNQISALIQLNQKRLSISYSLLTSWL
                      RMNEFDYIPSNAGIFVFVKLCKQALTWNDEAALVQTCKEYGVLISAGRSYHRLEAEKGW
                      ARITFAVEPNVLLKALGKLAVALGVRPPATHLT"
+                     /Pfam="Aminotran_1_2"
      CDS             complement(join(8033..8195,8244..9284,9343..9530,
                      9587..9733))
                      /codon_start=1
                      /locus_tag="Trivir__000297"
                      /product="cytochrome P450 monooxygenase Glv3"
-                     /label=glv3
+                     /label="glv3"
                      /protein_id="Trivir_:cds.g297.t1"
                      /translation="MLVDFLTHPSGPWVVVILCVIGVGVALVEAILPGLLPQPILNILS
                      AVLNKFLLWQYPIKSVNGNNALPACPYRWPNGQGDGAKFLDGIQNSLEWSKLYGPLYRI
@@ -99,11 +103,12 @@ FEATURES             Location/Qualifiers
                      AYPKCQQKLRQEIQNLPDQAALHKYLQSPSTYLQACILESSRLRPLAAFSVPQSAPTPR
                      VLDGYIIPASTNFIVDAYALNVRDSYWAPDNETFRPDRFLGRKNMELRYLFWRFGFGPR
                      QCMGKYVADSILRVTLAYLVQNFQLSLTTDDWVRDKQTWITHPDFLLRCERLKQ"
+                     /Pfam="p450"
      CDS             join(10107..10516,10575..10881,10951..11181)
                      /codon_start=1
                      /locus_tag="Trivir__000298"
                      /product="thioredoxin reductase Glv4"
-                     /label=glv4
+                     /label="glv4"
                      /protein_id="Trivir_:cds.g298.t1"
                      /translation="MLSRMMEKLSDVLIIGGGPAGLSTALGLARQLHTAVIFDSGVYRN
                      DRASEMHNVTTWDHRPPIEYRAAARNELLTRYKTIQIEDVTIKEVRCTSQGHFEAIDAR
@@ -111,12 +116,13 @@ FEATURES             Location/Qualifiers
                      SLGPAMHLARMARRLASKVTVYTDGAVELSQAIEEPLRAAGFELDSRHIARVSNGSGHS
                      EAKLEFDDGTIRTEGFLVHKPKSEVNGPFAQQLSLELTADGDISVKAPFYETTSIPGVF
                      AVGDCGSVGKAVAQATSTGLWCASGLVSQLQAQL"
+                     /Pfam="Pyr_redox_2"
      CDS             complement(join(11370..11773,11842..12739,12835..12993,
                      13059..13085))
                      /codon_start=1
                      /locus_tag="Trivir__000299"
                      /product="cytochrome P450 monooxygenase Glv5"
-                     /label=glv5
+                     /label="glv5"
                      /protein_id="Trivir_:cds.g299.t1"
                      /translation="MQDVSHPVLENWPLLFLLGITGIYILQNIQYRWTYKDYLNLPWVG
                      DSSTTDLRSAMEEGTRKYPDRPFILPLQDPTVILPHSVIDEVKSLPASQASIEGNNYRR
@@ -127,12 +133,13 @@ FEATURES             Location/Qualifiers
                      KLVLLDSFMKESLRASPPGGVVTLMREITSPISLSCGPVLPKGTLIAFANNRFDMSSHK
                      PWDPDDFDGFRFVQEDGGSRQQLIATSPDSLTWGYGSHACPGRQFAATELKVIIIHLLT
                      NFDLRMKDGAPRPANSSHDFQIMPDPHAIIEFRKRNI"
+                     /Pfam="p450"
      CDS             join(13629..13979,14027..14114,14164..14232,14287..14889,
                      14949..15201,15260..15455)
                      /codon_start=1
                      /locus_tag="Trivir__000300"
                      /product="cytochrome P450 monooxygenase Glv6"
-                     /label=glv6
+                     /label="glv6"
                      /protein_id="Trivir_:cds.g300.t1"
                      /translation="MMDAVLSTPIQTRPYVAVALVLALVFFSRLLLSSGHVYSSHRLGK
                      SRLISLLTGQPSVRWMIDELADKGYLEVNKALGKPFVLNWWAQDTLFMPTKYLDDIRKA
@@ -144,12 +151,13 @@ FEATURES             Location/Qualifiers
                      SRAIMCDSDSFENPYEFDGFRFARLSAAKQGPTAGADTGAGEQLYNSATVTKTNLPFGY
                      GKHACVGRFYAVRKIKLVFTRLIMEYEIEWDGNVTERPRDFCIEGQVAPNLDQKIRIRR
                      RF"
+                     /Pfam="p450"
      CDS             complement(join(16007..16189,16252..16376,16436..16893,
                      16964..17087,17143..17266,17322..17528))
                      /codon_start=1
                      /locus_tag="Trivir__000301"
                      /product="methyltransferase Glv7"
-                     /label=glv7
+                     /label="glv7"
                      /protein_id="Trivir_:cds.g301.t1"
                      /translation="MTQTKSQDEETVEIIDHIYALRNQFEASSHDSHHEQSRKNALAQL
                      QTYSQKLMLVGQDPNAAFWELVRRCSILSPIKVAQDMGVFRYLMDHGSATANELATISG
@@ -159,11 +167,12 @@ FEATURES             Location/Qualifiers
                      SMATKPDGIELMAHDILTEQPIKGARVYHMKRILHDWADDKCRIILKHTVSAMDRDWSI
                      LLIMDAVLPMRNASFSQAMGDHSMLTFGGKERSEKQWKELLASVGLEIVKIYRGPEPEA
                      VLECRKV"
+                     /Pfam="Methyltransf_2"
      CDS             21061..22737
                      /codon_start=1
                      /locus_tag="Trivir__000302"
                      /product="major facilitator superfamily transporter Glv8"
-                     /label=glv8
+                     /label="glv8"
                      /protein_id="Trivir_:cds.g302.t1"
                      /translation="MEPVAADDSVVSRGDEWAPEKVERQKNEADLEKEAQASHPSRDWR
                      FWIVFPTLCLSGLAVTMEGSIVVTALPAISRALNTTEYVWVINAYTFASAVFQPLTGWL
@@ -175,23 +184,25 @@ FEATURES             Location/Qualifiers
                      AATSTAVHAVLQIVIAAGNGLLLATLLPALQGCFSADDIWSVTALFNYLRSFAMVWGVT
                      IPSIIFDLTVDHHINQVPEGARGLLVHGGAYAHASQSFIRSFQGTARDQVIGLYVRSLR
                      ATWWGAMSFGLLGLVVVSLQWNRRTVAVKQENAENVPSTKS"
+                     /Pfam="MFS_1"
      CDS             join(23047..23143,23201..23507,23570..23653,23721..24018)
                      /codon_start=1
                      /locus_tag="Trivir__000303"
                      /product="glutathione S-transferase Glv9"
-                     /label=glv9
+                     /label="glv9"
                      /protein_id="Trivir_:cds.g303.t1"
                      /translation="MSLLSKPGNQSNGEVVVGDVEHDGRVVLYIIKADETSYINYIKPL
                      ILAQELNIPHVIALIDTTSQWAYQIHPERMVPALKDRDPQTGEQINVFEGTACLQYLAD
                      RFDVDGVWSGRTAAERAAVITWTAYQTAGIGPTAKYWLYFLRGYPTRQDPVQLPRTIAK
                      LHANVLRQWDILNNRLALPEQQYIALRDRPSLADLSYFPFAMPWMFTFLGVDIKDWPHI
                      QKWADRMLARPAIQDIMSRAKTFGHSMTAEQARILKDAI"
+                     /Pfam="GST_N_2, GST_C"
      CDS             join(24387..24800,24855..24868,24958..25044,25127..25368,
                      25425..25519)
                      /codon_start=1
                      /locus_tag="Trivir__000304"
                      /product="2OG-Fe(II)-dependent dioxygenase Glv10"
-                     /label=glv10
+                     /label="glv10"
                      /protein_id="Trivir_:cds.g304.t1"
                      /translation="MAVTYPTSMRFIEPWAGRGEIPFIRTNAPPGYDYMNFNWVEHDVN
                      VIDARPMKQEFQLDLHGFAYRDDPEGGSPSMLQLLRDNNVDEVKAQYYPHVKKLIQEVT
@@ -199,11 +210,12 @@ FEATURES             Location/Qualifiers
                      LKKRVVMINVWRPLRGPVEDWPLATMDYRSCEPDLIYPTDLLDKADGYRGQTVTFGHSK
                      QQKWYYLDGHRTDEVTLIKIWDNKNDVVGKLCPHAAFKHPNTPAEAPPRESVEVRCFAI
                      FD"
+                     /Pfam="NvfI"
      CDS             join(25842..26046,26103..26262,26326..27211)
                      /codon_start=1
                      /locus_tag="Trivir__000305"
                      /product="dipeptidase Glv11"
-                     /label=glv11
+                     /label="glv11"
                      /protein_id="Trivir_:cds.g305.t1"
                      /translation="MSEKTILLDDAEYTRDGPRTKRPAVSIYHVLLAAACFLGSMCVAF
                      NHYALTKPGPPTVEDVLRLAPLVDGHNDFAIWIRAFYQNHIYQQNFSGEIPLYGQVDFP
@@ -213,12 +225,13 @@ FEATURES             Location/Qualifiers
                      CPHERNVPNDVLHMLRENRGIIMITFYKEYSRCGDPDSANLADVADHIQYVGELIGYRY
                      IGLGSDFDGMPAGPQGLEDVSKYPDLISELLHRGVSKNDLAGVIGGNILRVMEEIERVA
                      ANSSEQLPLEDDVKPFF"
+                     /Pfam="Peptidase_M19"
      CDS             complement(join(27309..27445,27503..28042,28109..28651,
                      28706..28937,28991..29050))
                      /codon_start=1
                      /locus_tag="Trivir__000306"
                      /product="cytochrome P450 monooxygenase Glv12"
-                     /label=glv12
+                     /label="glv12"
                      /protein_id="Trivir_:cds.g306.t1"
                      /translation="MAIEQWNIGLGKACLIAIGSLCIFIFAKTLYNVFLHPLRSYPGPW
                      LSHATRLHYVYHQLNGDLPYKLKEWHDTYGEVVRIAPDELSYNSSAAYRDVHSWRTKEM
@@ -229,12 +242,13 @@ FEATURES             Location/Qualifiers
                      FSKESDLTFLSLQKLPFLNAVIEEALRLYVVVPSTFPRRTPHNGATIIGKFVPGDYAVG
                      VNGYAATLCEANFTRANEFHPDRWLGDARFERDDKKAHQAFSTGPRNCLGKNMAWAFAR
                      LTIARFIWNFDAELVPECMDWGVKQEIFVMFVKKPLIVKLQLVEH"
+                     /Pfam="p450"
      CDS             complement(join(29388..29444,29501..29908,29963..30078,
                      30140..30321,30372..30838))
                      /codon_start=1
                      /locus_tag="Trivir__000306"
                      /product="methyltransferase Glv13"
-                     /label=glv13
+                     /label="glv13"
                      /protein_id="Trivir_:cds.g306.t1"
                      /translation="MATKSGSQILQLGDKIQSLVKSLVEELEKEGETTHDKSADWNSLT
                      IDLQNSTEELLLRVVRPKTFLHNVQLSHYDLVAFQVAFEFHLFDSVPLSGNISLSELSK
@@ -244,12 +258,13 @@ FEATURES             Location/Qualifiers
                      RVKFQQHNFFEPQPVTNAKAYFMKHSLHNHPDADCVRILRSLVAALEKAGPATPLLINE
                      GVLPSPGEPMRRDQELTLRRGDMCMMVTLSAKERTRKQFQQLLKEADPRLQIVKIHGSA
                      VTKLIEVHLV"
+                     /Pfam="MdpA"
      CDS             join(31101..31271,31326..31371,31427..31968,32025..32312,
                      32379..32656,32718..32907)
                      /codon_start=1
                      /locus_tag="Trivir__000307"
                      /product="cytochrome P450 monooxygenase Glv14"
-                     /label=glv14
+                     /label="glv14"
                      /protein_id="Trivir_:cds.g307.t1"
                      /translation="MLGLSATEAIVVSAIVAAVYLIGLGLWRLFLHPLAKFPGPRIAAL
                      TRWYECYFDVYLGGQYFKEIDRLHSIYGPVVRISPEELHIKDPDWVTELYPLGNNRPRD
@@ -260,11 +275,12 @@ FEATURES             Location/Qualifiers
                      TALEELPYLRYIVMEAMRVTASVTGRLTRIATNEDLQYQNWLIPRGIPVSMDHHFTHLD
                      PVIFPEPRRFNPDRWRIAAESGESLEKYFLPFGRGSRMCIGINLAKAIIYVSIARLVRR
                      YNFELYETTREDVDVVRDNLLGAVKSTSKGVRVKLSRRVHTEAENS"
+                     /Pfam="p450"
      CDS             complement(join(33154..33594,33658..33744,33803..34528))
                      /codon_start=1
                      /locus_tag="Trivir__000308"
                      /product="acetyltransferase Glv15"
-                     /label=glv15
+                     /label="glv15"
                      /protein_id="Trivir_:cds.g308.t1"
                      /translation="MQDSSDYDRNFVFTPADGSITPHLLLFAVQMLALTAPPFAGRRVI
                      FSIAIVVLAIAASMNRFTTDPKLAQFFSLAWPHYLSVLEKLITSHYPGPEAALWRVDRP
@@ -274,11 +290,12 @@ FEATURES             Location/Qualifiers
                      DLLRLPPGTIRTYTQLWLSFSISGIMHSIAIYIIPSPLNISFRERSLGFFQFFMLQAAA
                      ITMEDFAQYVLASANLVNQNSRRWKRFLGHVWVVCWFGFSLPYFLDIMLKMKNMEQPML
                      PFSIVKNIVPHFAFCSTI"
+                     /Pfam="MBOAT_2"
      CDS             34896..35843
                      /codon_start=1
                      /locus_tag="Trivir__000309"
                      /product="thioredoxin reductase Glv16"
-                     /label=glv16
+                     /label="glv16"
                      /protein_id="Trivir_:cds.g309.t1"
                      /translation="MSIERPVVDVLIVGGGYAGLAAASTLYRATHSSIVFDSGVFRDAK
                      AKPIRLLPGWEGIDSSQYRALARAELEKTGLCSFVSTEVSTLLPEGSNLWMATTSDGQK
@@ -286,11 +303,12 @@ FEATURES             Location/Qualifiers
                      PQVMKLASDTHKFARQVYLYSNGDEHVTAKLQALAKETPFVVVIGQPIVQLVKESTRAV
                      VTVELADKTRHVQGFLVHQPYTKLAGQLPAQLGVETTPMGDIKVQHPFPATSVPGIYAA
                      GDCASPFKNASMAIASGVCAGNGLARELPSSFDC"
+                     /Pfam="Pyr_redox_2"
      CDS             complement(join(36369..37054,37114..37516))
                      /codon_start=1
                      /locus_tag="Trivir__000310"
                      /product="aldo-keto reductase Glv17"
-                     /label=glv17
+                     /label="glv17"
                      /protein_id="Trivir_:cds.g310.t1"
                      /translation="MALSLPAHYQKNVDETKCKYRQLGKSGLKVSVPILGCMGFGNKDW
                      VWDWVLEEEESMKMLKAAWDRGINTWDTANVFSNGDSERIIGKALKKYNIPRHKVVIIT
@@ -299,11 +317,12 @@ FEATURES             Location/Qualifiers
                      SLLYREEEREMNPFCDQTGVGIIPWSPLCRGWLTRRLHDSLSGGTARAMDEKTNGSRYI
                      MVNEHDQKIIQRVEELADRKGWTMVDVVLAWLNPRITSPVVGMTTEKMLDEVIAANDKT
                      LSAEEQKYLEELYQPKPISGHR"
+                     /Pfam="Aldo_ket_red"
      CDS             complement(join(37834..38726,38777..39203,39252..39605))
                      /codon_start=1
                      /locus_tag="Trivir__000310"
                      /product="transporter Glv18"
-                     /label=glv18
+                     /label="glv18"
                      /protein_id="Trivir_:cds.g310.t1"
                      /translation="MRKTLHFISSTLRLRLRNSPGIGESNAWINDDIRPLPPSRRKWTS
                      STYLGWWAIWMMGLSNFQIGSSMVAIGLSVWQTMIVVILGRILTAGTAVLNGYVGAEWH
@@ -315,11 +334,12 @@ FEATURES             Location/Qualifiers
                      ISSFTVFFGPICGSQVCEYFLVRQRRIKLSDLYIARPGAIYFYSYGLNWRAFASWIVGW
                      APLFPGLLHAIKPSISVASGAANLYNLSFIVGFLISFAAHYALNAIFPPRGLGEVDAID
                      VFGTFTPEEIVALRIETQSRLSDESQESSIEQIQDGVLKE"
+                     /Pfam="Transp_cyt_pur"
      CDS             complement(join(39849..41055,41110..41219,41279..41479))
                      /codon_start=1
                      /locus_tag="Trivir__000311"
                      /product="cytochrome P450 monooxygenase Glv19"
-                     /label=glv19
+                     /label="glv19"
                      /protein_id="Trivir_:cds.g311.t1"
                      /translation="METVQSVLEAIHDDDRRILLSSLLGPIVLIFCWIQWRHFSAPKPD
                      FPVVGSITESDFRKSLEEGARLYPNSPFILPTPMHPTIILPHSVINEIKNLPENVVSLR
@@ -330,18 +350,20 @@ FEATURES             Location/Qualifiers
                      HNTNLGKLSKMDSFIRESQRVNPPGLVTMLRHVTAPGGLRLSTGHVIPQGTVVGISNHA
                      VTQSYPDANVFDGFRFHKLRQQAGHETRHQLATTGLDALSFGHGNHACPGRFFAASEIK
                      VVLAYLLQHYDIKLEEGQGRPENHHRGAIVSPSAEGTVLLRKRQTSP"
+                     /Pfam="p450"
      CDS             join(41810..42055,42115..42354)
                      /codon_start=1
                      /product="hypothetical protein Glv20"
-                     /label=glv20
+                     /label="glv20"
                      /translation="MDRFHIAFTMPVNSAQVSPRLTLDDVWQGCVLLAQSPETFTSAIA
                      SCQTVSKEGERTVRTLRFENNALPPVEQEVILIDKHKFECTTLDTGNRVTTVIFHGVSG
                      DLDDLFLSLEYSIPYGRTDPDSTEGDKFRAQYAEKAKQNLTEGLETIRKLKIDGKLY"
+                     /Pfam="AtaL"
      CDS             42847..47592
                      /codon_start=1
                      /locus_tag="Trivir__000312"
                      /product="nonribosomal peptide synthetase Glv21"
-                     /label=glv21
+                     /label="glv21"
                      /protein_id="Trivir_:cds.g312.t1"
                      /translation="MMEDSLTSWVLAQISAIVDIPVSDIGMNQTFIEIGGNSLSAVKLV
                      AVCRQHGVQLSVKSVLGSRDIASILTCARQATPKSATPLADTLSSTDDDDERDDSDYIS
@@ -371,13 +393,14 @@ FEATURES             Location/Qualifiers
                      HLGVVADYPNHPLFDVMVTFHDHRGHQLFQLQGFEPLPVWAKGSKFKLMFEFTAVSADK
                      LMLRIEHDVESYPLKVIHQIAALLLTTLKLLVQGGSYTSLRTELRESFASMKTAQSGIH
                      KV"
+                     /Pfam="ACP_PCP, NRPS_C, AA-adenyl-dom"
      CDS             complement(join(47847..48003,48064..48206,48291..48791,
                      48852..49194,49268..49815,49918..50233,50305..50366,
                      50425..50505,50558..50749))
                      /codon_start=1
                      /locus_tag="Trivir__000313"
                      /product="ABC transporter Glv22"
-                     /label=glv22
+                     /label="glv22"
                      /protein_id="Trivir_:cds.g313.t1"
                      /translation="MASIPTVVRILDPVYPLALVGTYLTISIIVKIRRGRVDATTNREI
                      SVVRTKWAFRLILLFCFDLLSTILFILYSAAKIDTAQFVWASTSHLASQIAVFLFFAAS
@@ -393,6 +416,7 @@ FEATURES             Location/Qualifiers
                      PTASEEDVYNACKAASVHEKIMALPDGYETQVGERGLRLSGGEKQRIAIARAILKSPTM
                      ILMDEATASLDSATEKAIQTSLAKISEGRTSITIAHRLSTIVHCDQIVVLHDGRIIEQG
                      THVQLLSQNGQYKKMWDKQTQDIDQQP"
+                     /Pfam="ABC_membrane, ABC_tran"
 ORIGIN
         1 atgttgcgac agccctatcg actttggagg gctgccctct ccccccgaat tgtcccacct
        61 tcgtttgctc acgcacctcg ccgtaattgg cgttcatata gtgctactac tgcgaaaaat

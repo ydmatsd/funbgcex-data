@@ -1,34 +1,34 @@
-LOCUS       FBGC00392       27794 bp DNA     linear   UNA 20-FEB-2023
+LOCUS       FBGC00392              27794 bp    DNA     linear   UNA 20-FEB-2023
 DEFINITION  hancockiamide C.
 ACCESSION   FBGC00392
-VERSION     .
+VERSION     FBGC00392
 KEYWORDS    .
 SOURCE      Aspergillus hancockii FRR 3425
   ORGANISM  Aspergillus hancockii FRR 3425
+            .
 REFERENCE   1  (bases 1 to 27794)
-  AUTHORS   Li H, Lacey AE, Shu S, Kalaitzis JA, Vuong D, Crombie A, Hu J, 
+  AUTHORS   Li H, Lacey AE, Shu S, Kalaitzis JA, Vuong D, Crombie A, Hu J,
             Gilchrist CLM, Lacey E, Piggott AM, Chooi YH.
-  TITLE     Hancockiamides: phenylpropanoid piperazines from Aspergillus 
-            hancockii are biosynthesised by a versatile dual single-module NRPS 
+  TITLE     Hancockiamides: phenylpropanoid piperazines from Aspergillus
+            hancockii are biosynthesised by a versatile dual single-module NRPS
             pathway.
   JOURNAL   Org Biomol Chem 2021;19:587-595
-  PUBMED    33242032
+   PUBMED   33242032
 REFERENCE   2  (bases 1 to 27794)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Feb 20, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1039/d0ob02243h"; journalName: "Org Biomol Chem"; date: "2021"; 
-            volume: "19"; pages: "587-595"
-COMMENT     Annotated using funannotate 
-            v1.5.2-3129958.##Genome-Assembly-Data-START##
+  JOURNAL   Exported Feb 20, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     ##Genome-Assembly-Data-START##
             Assembly Method        :: SPAdes v. 3.13.0
             Genome Representation  :: Full
             Expected Final Version :: Yes
             Genome Coverage        :: 123.614x
-            Sequencing Technology  :: Illumina HiSeq 
+            Sequencing Technology  :: Illumina HiSeq
             ##Genome-Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1039/d0ob02243h"; journalName: "Org Biomol Chem"; date: "2021";
+            volume: "19"; pages: "587-595"
+            Annotated using funannotate
 FEATURES             Location/Qualifiers
      source          1..27794
                      /strain="FRR 3425"
@@ -36,7 +36,7 @@ FEATURES             Location/Qualifiers
                      /country="Australia: South Burnett Region, Queensland"
                      /isolation_source="Soil"
                      /collected_by="John Pitt"
-                     /collection_date=1984
+                     /collection_date="1984"
                      /db_xref="taxon:1873369"
                      /culture_collection="FRR:3425"
                      /type_material="holotype of Aspergillus hancockii"
@@ -46,16 +46,13 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="BBP40_009476"
                      /product="phenylalanine ammonia-lyase Hkm12"
-                     /label=hkm12
-                     /note="EggNog:ENOG410PHE8;
-                     COG:Q;
-                     GO_component: GO:0005737 - cytoplasm [Evidence IEA]; 
-                     GO_function: GO:0016841 - ammonia-lyase activity [Evidence 
-                     IEA];
-                     GO_function: GO:0003824 - catalytic activity [Evidence 
-                     IEA];
-                     GO_process: GO:0006559 - L-phenylalanine catabolic process 
-                     [Evidence IEA]"
+                     /label="hkm12"
+                     /note="EggNog:ENOG410PHE8; COG:Q; GO_component: GO:0005737
+                     - cytoplasm [Evidence IEA]; GO_function: GO:0016841 -
+                     ammonia-lyase activity [Evidence IEA]; GO_function:
+                     GO:0003824 - catalytic activity [Evidence IEA]; GO_process:
+                     GO:0006559 - L-phenylalanine catabolic process [Evidence
+                     IEA]"
                      /db_xref="InterPro:IPR001106"
                      /db_xref="InterPro:IPR005922"
                      /db_xref="InterPro:IPR008948"
@@ -75,18 +72,16 @@ FEATURES             Location/Qualifiers
                      GAIPSDRQQVDLLTSIGNWEEATCYKMLEAYKQTHERFCRTQNTVEYLGAGSKAIYHAI
                      RHKVGVPFHQGFVEQPSADDLDTTAIINGREKKTTGGWISLIYEALRDDSLTGVILEAV
                      QPVRSI"
+                     /Pfam="Lyase_aromatic"
      CDS             2841..6758
                      /codon_start=1
                      /locus_tag="BBP40_009477"
                      /product="nonribosomal peptide synthetase Hkm11"
-                     /label=hkm11
-                     /note="TransMembrane:1 (i312-335o);
-                     EggNog:ENOG41KOG1178;
-                     COG:I;
-                     GO_function: GO:0031177 - phosphopantetheine binding 
-                     [Evidence IEA];
-                     GO_function: GO:0003824 - catalytic activity [Evidence 
-                     IEA]"
+                     /label="hkm11"
+                     /note="TransMembrane:1 (i312-335o); EggNog:ENOG41KOG1178;
+                     COG:I; GO_function: GO:0031177 - phosphopantetheine binding
+                     [Evidence IEA]; GO_function: GO:0003824 - catalytic
+                     activity [Evidence IEA]"
                      /db_xref="InterPro:IPR000873"
                      /db_xref="InterPro:IPR001242"
                      /db_xref="InterPro:IPR009081"
@@ -119,15 +114,14 @@ FEATURES             Location/Qualifiers
                      QFAGLQTVEDLLRMLQQQHMRALMYETADWTDIVANASSWPEGTELDSVVLHENFGGLP
                      ALDLGDAIGEMADPIFSLSTSNPLTLVTWPSTQTLTSFLLTRENVFQKEYAEGLVTEFN
                      QTLVQFLDFPESSLCSISTCG"
+                     /Pfam="NRPS_C, AA-adenyl-dom, ACP_PCP, NRPS_CT"
      CDS             complement(8905..11967)
                      /codon_start=1
                      /locus_tag="BBP40_009478"
                      /product="NRPS-like carboxylic acid reductase Hkm10"
-                     /label=hkm10
-                     /note="EggNog:ENOG410Q2HE;
-                     COG:Q;
-                     GO_function: GO:0003824 - catalytic activity [Evidence 
-                     IEA]"
+                     /label="hkm10"
+                     /note="EggNog:ENOG410Q2HE; COG:Q; GO_function: GO:0003824 -
+                     catalytic activity [Evidence IEA]"
                      /db_xref="InterPro:IPR000873"
                      /db_xref="InterPro:IPR009081"
                      /db_xref="InterPro:IPR010080"
@@ -158,13 +152,13 @@ FEATURES             Location/Qualifiers
                      IGCYPGLPNQRKEFVPIDYVTSTMIHIASSSLSLGHAFHIVPPTREESPEMNDTMSLIG
                      ELTGTSIQPVSYREWIEQLSSTKDLSLQPLLPMLAEVVIDGMTRWEMYENMPTYENTNT
                      LRALASCPDLPKFPMVDEALLRKYLDYLADH"
+                     /Pfam="AA-adenyl-dom, ACP_PCP, NAD_binding_4"
      CDS             join(12969..13223,13296..13446,13500..13832,13885..14153)
                      /codon_start=1
                      /locus_tag="BBP40_009479"
                      /product="short-chain dehydrogenase/reductase Hkm9"
-                     /label=hkm9
-                     /note="EggNog:ENOG410PGQB;
-                     COG:G,M"
+                     /label="hkm9"
+                     /note="EggNog:ENOG410PGQB; COG:G,M"
                      /db_xref="InterPro:IPR008030"
                      /db_xref="InterPro:IPR036291"
                      /db_xref="PFAM:PF05368"
@@ -176,17 +170,16 @@ FEATURES             Location/Qualifiers
                      NFLVKEIAPLFGGFPFVADAEAFLTFRCPRWGGKEDVPFISISDDYGDIVQGLFLDPHR
                      WNGHVVHGCSDILTFDELVTHFQNVTGQKARFQPLESWETFDTFGVPELEDTKLMFGLT
                      QTTGGLYFGPEPSEKNTAAALKRATAAALGLPRDQQTLITVKGWFQKHFPVTPN"
+                     /Pfam="NmrA"
      CDS             complement(join(14828..15012,15061..15191,15245..15428,
                      15477..15687))
                      /codon_start=1
                      /locus_tag="BBP40_009480"
                      /product="methyltransferase Hkm8"
-                     /label=hkm8
-                     /note="EggNog:ENOG410PXNU;
-                     COG:S;
-                     GO_function: GO:0008171 - O-methyltransferase activity 
-                     [Evidence IEA]
-                     revised sequence"
+                     /label="hkm8"
+                     /note="EggNog:ENOG410PXNU; COG:S; GO_function: GO:0008171 -
+                     O-methyltransferase activity [Evidence IEA] revised
+                     sequence"
                      /db_xref="InterPro:IPR002935"
                      /db_xref="InterPro:IPR029063"
                      /db_xref="PFAM:PF01596"
@@ -199,17 +192,16 @@ FEATURES             Location/Qualifiers
                      YLQIAETAFRRHGATDRIQTIRGPCLEILPTITGEFDLIYIDAAEEEYEAYTRFVLDHK
                      LLSAEGVMLVDDVLLEGLVVDRSIVKEFPEEIQEPYLGIADQMNDFNRYARSDPRVEVT
                      MIPLFNGVTQITWK"
+                     /Pfam="Methyltransf_3"
      CDS             join(16952..16993,17049..17059,17133..17225,17274..17435,
                      17493..17840,17901..18090,18152..18174,18236..18364,
                      18417..19182)
                      /codon_start=1
                      /locus_tag="BBP40_009481"
                      /product="FAD-dependent monooxygenase Hkm7"
-                     /label=hkm7
-                     /note="EggNog:ENOG410PWBY;
-                     COG:C,H;
-                     GO_function: GO:0071949 - FAD binding [Evidence IEA]
-                     revised sequence"
+                     /label="hkm7"
+                     /note="EggNog:ENOG410PWBY; COG:C,H; GO_function: GO:0071949
+                     - FAD binding [Evidence IEA] revised sequence"
                      /db_xref="InterPro:IPR002938"
                      /db_xref="InterPro:IPR012941"
                      /db_xref="InterPro:IPR036188"
@@ -228,16 +220,14 @@ FEATURES             Location/Qualifiers
                      IIVWAGDVSRPSQMNLVQSLSRDMIELRDSLGKSGSMIDFFLIHCSAWPSVELADFPPL
                      FFPTTKTIGRPNGRIFVDEKAVYDGLHISRAEGGVAIVRPDKHIAWAGGLQEVDSLQRY
                      LRQVFRPQPES"
+                     /Pfam="FAD_binding_3, Phe_hydrox_dim"
      CDS             join(20253..20377,20437..20562,20616..20738,20794..21514)
                      /codon_start=1
                      /locus_tag="BBP40_009482"
                      /product="tyrosinase Hkm6"
-                     /label=hkm6
-                     /note="EggNog:ENOG410PXGJ;
-                     COG:G;
-                     GO_function: GO:0016491 - oxidoreductase activity [Evidence
-                     IEA]
-                     revised sequence"
+                     /label="hkm6"
+                     /note="EggNog:ENOG410PXGJ; COG:G; GO_function: GO:0016491 -
+                     oxidoreductase activity [Evidence IEA] revised sequence"
                      /db_xref="InterPro:IPR002227"
                      /db_xref="InterPro:IPR008922"
                      /db_xref="PFAM:PF00264"
@@ -249,23 +239,21 @@ FEATURES             Location/Qualifiers
                      MSSAFTSQADVDRLLNSPSITDLQANIDFSAWPELREARILGPHAAAHMSLGRTMDDFW
                      TAPQDPSFMLHHAQVDRIWSLWQARGPESRRWALNGTSTINNRPTSPEVTLDTELVWGS
                      LSESKTMREVMSTEAYHFCYEYGA"
+                     /Pfam="Tyrosinase"
      CDS             join(22441..22693,22767..22830,22888..23149,23209..23323,
                      23380..23462,23524..23853,23907..24017,24072..24232,
                      24287..24446)
                      /codon_start=1
                      /locus_tag="BBP40_009483"
                      /product="cytochrome P450 monooxygenase Hkm5"
-                     /label=hkm5
-                     /note="TransMembrane:1 (o20-38i);
-                     EggNog:ENOG410Q2V8;
-                     COG:Q;
-                     GO_function: GO:0020037 - heme binding [Evidence IEA]; 
-                     GO_function: GO:0016705 - oxidoreductase activity, acting 
-                     on paired donors, with incorporation or reduction of 
-                     molecular oxygen [Evidence IEA];
-                     GO_function: GO:0005506 - iron ion binding [Evidence IEA]; 
-                     GO_process: GO:0055114 - oxidation-reduction process 
-                     [Evidence IEA]"
+                     /label="hkm5"
+                     /note="TransMembrane:1 (o20-38i); EggNog:ENOG410Q2V8;
+                     COG:Q; GO_function: GO:0020037 - heme binding [Evidence
+                     IEA]; GO_function: GO:0016705 - oxidoreductase activity,
+                     acting on paired donors, with incorporation or reduction of
+                     molecular oxygen [Evidence IEA]; GO_function: GO:0005506 -
+                     iron ion binding [Evidence IEA]; GO_process: GO:0055114 -
+                     oxidation-reduction process [Evidence IEA]"
                      /db_xref="InterPro:IPR001128"
                      /db_xref="InterPro:IPR036396"
                      /db_xref="PFAM:PF00067"
@@ -279,13 +267,13 @@ FEATURES             Location/Qualifiers
                      LREELDESQLFLSKGTPIDFKKLGNLPYLNAVINESHRIWPALPGPLPRVVPPEGLQVG
                      SFFVPSGTILSSTHHCLHYNETVFPEPKKFKPERWLRTDKWEGDRYLNPYSRGSRACIG
                      INLAQMELRLTLGHLFSHYDLQLCEPTLSSLEWKDHFVAHPKAPVMIHIGFRKA"
+                     /Pfam="p450"
      CDS             complement(24795..25712)
                      /codon_start=1
                      /locus_tag="BBP40_009484"
                      /product="2OG-Fe(II)-dependent dioxygenase Hkm4"
-                     /label=hkm4
-                     /note="EggNog:ENOG410PWJA;
-                     COG:Q"
+                     /label="hkm4"
+                     /note="EggNog:ENOG410PWJA; COG:Q"
                      /db_xref="InterPro:IPR008775"
                      /db_xref="PFAM:PF05721"
                      /protein_id="KAF7597146.1"
@@ -295,16 +283,15 @@ FEATURES             Location/Qualifiers
                      TALTDFTAEAGATQFMHGSHKVVGIPDGDPNHPMLIAEMKAGDSVLLSGKLVHRGGLNN
                      TSDFFRRALSLAISPCVLTPYESSIHLSRPLVESMTPLAQRMIAWRSASIPPPYQIGMW
                      TLNMNEVGEEMGLKYNQPYDEDEE"
+                     /Pfam="PhyH"
      CDS             26340..27794
                      /codon_start=1
                      /locus_tag="BBP40_009485"
                      /product="acetyltransferase Hkm3"
-                     /label=hkm3
-                     /note="EggNog:ENOG410PY96;
-                     COG:S;
-                     GO_function: GO:0016747 - transferase activity, 
-                     transferring acyl groups other than amino-acyl groups 
-                     [Evidence IEA]"
+                     /label="hkm3"
+                     /note="EggNog:ENOG410PY96; COG:S; GO_function: GO:0016747 -
+                     transferase activity, transferring acyl groups other than
+                     amino-acyl groups [Evidence IEA]"
                      /db_xref="InterPro:IPR003480"
                      /db_xref="PFAM:PF02458"
                      /protein_id="KAF7597147.1"
@@ -317,6 +304,7 @@ FEATURES             Location/Qualifiers
                      STEEDFLRLIGVVASVLRSRLNRVDDQYVRDHLAQFTHAGDWAHTTIHEPDVAVTSLRG
                      MSVYSLDFGSVLSGIVDFETLPYMNPDGVCTIKPRRVIDPSWEVAVTLSREDMDRLRKN
                      ELFRWLVVGESYLHIFQSAQQVTTFA"
+                     /Pfam="Transferase"
 ORIGIN
         1 ttagatggaa cgaactggct gcaccgcctc caggatcaca ccggtgaggc tatcatcgcg
        61 caaggcctca taaatcaggg aaatccaccc gccagtcgtc ttcttttccc tgccgtttat

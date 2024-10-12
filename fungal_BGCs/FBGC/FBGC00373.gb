@@ -1,42 +1,42 @@
-LOCUS       FBGC00373       18053 bp DNA     linear   UNA 19-FEB-2023
+LOCUS       FBGC00373              18053 bp    DNA     linear   UNA 19-FEB-2023
 DEFINITION  triacetylfusarinine C/hydroxyferricrocin.
 ACCESSION   FBGC00373
-VERSION     .
+VERSION     FBGC00373
 KEYWORDS    .
 SOURCE      Aspergillus fumigatus Af293
   ORGANISM  Aspergillus fumigatus Af293
+            .
 REFERENCE   1  (bases 1 to 18053)
-  AUTHORS   Schrettl M, Bignell E, Kragl C, Sabiha Y, Loss O, Eisendle M, 
+  AUTHORS   Schrettl M, Bignell E, Kragl C, Sabiha Y, Loss O, Eisendle M,
             Wallner A, Arst HN, Haynes K, Haas H.
-  TITLE     Distinct roles for intra- and extracellular siderophores during 
+  TITLE     Distinct roles for intra- and extracellular siderophores during
             Aspergillus fumigatus infection.
   JOURNAL   PLoS Pathog 2007;3:1195-207
-  PUBMED    17845073
+   PUBMED   17845073
 REFERENCE   2  (bases 1 to 18053)
-  AUTHORS   Yasmin S, Alcazar-Fuoli L, Grundlinger M, Puempel T, Cairns T, 
+  AUTHORS   Yasmin S, Alcazar-Fuoli L, Grundlinger M, Puempel T, Cairns T,
             Blatzer M, Lopez JF, Grimalt JO, Bignell E, Haas H.
-  TITLE     Mevalonate governs interdependency of ergosterol and siderophore 
+  TITLE     Mevalonate governs interdependency of ergosterol and siderophore
             biosyntheses in the fungal pathogen Aspergillus fumigatus.
   JOURNAL   Proc Natl Acad Sci U S A 2012;109:E497-504
-  PUBMED    22106303
+   PUBMED   22106303
 REFERENCE   3  (bases 1 to 18053)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Feb 19, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1371/journal.ppat.0030128"; journalName: "PLoS Pathog"; date: 
-            "2007"; volume: "3"; pages: "1195-207"
-COMMENT     SGRef: number: 2; type: "Journal Article"; doi: 
-            "10.1073/pnas.1106399108"; journalName: "Proc Natl Acad Sci U S A"; 
-            date: "2012"; volume: "109"; pages: "E497-504"
-COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final 
-            NCBI review. The reference sequence is identical to 
-            CM000169.##Genome-Annotation-Data-START##
+  JOURNAL   Exported Feb 19, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     ##Genome-Annotation-Data-START##
             Annotation Provider :: INSDC submitter
             Annotation Status   :: Full annotation
-            Annotation Pipeline :: Eukaryotic Annotation Propagation Pipeline 
+            Annotation Pipeline :: Eukaryotic Annotation Propagation Pipeline
             ##Genome-Annotation-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1371/journal.ppat.0030128"; journalName: "PLoS Pathog"; date:
+            "2007"; volume: "3"; pages: "1195-207"
+            SGRef: number: 2; type: "Journal Article"; doi:
+            "10.1073/pnas.1106399108"; journalName: "Proc Natl Acad Sci U S A";
+            date: "2012"; volume: "109"; pages: "E497-504"
+            PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to
 FEATURES             Location/Qualifiers
      source          1..18053
                      /chromosome="1"
@@ -51,7 +51,7 @@ FEATURES             Location/Qualifiers
                      /old_locus_tag="Afu1g17190"
                      /product="CoA ligase SidI"
                      /EC_number="6.2.1.-"
-                     /label=sidI
+                     /label="sidI"
                      /note="encoded by transcript AFUA_1G17190A"
                      /db_xref="GeneID:3510119"
                      /protein_id="XP_753087.1"
@@ -66,18 +66,19 @@ FEATURES             Location/Qualifiers
                      CSITGRFKDIIIRGGENIYPLEIEERLAAHPAIEVASVIGIPDQKYGEVVGAFLALAAD
                      VSARPSDEELRAWTRETLGRHKAPQYFFVFGEEGVDRTIPVTGSGKVRKVDLRKIAASV
                      LERRLAKTAAIKEK"
+                     /Pfam="AA-adenyl-dom"
      CDS             join(3712..4245,4296..18053)
                      /codon_start=1
                      /locus_tag="AFUA_1G17200"
                      /old_locus_tag="Afu1g17200"
                      /product="nonribosomal peptide synthetase SidC"
                      /EC_number="6.3.2.-"
-                     /label=sidC
-                     /note="encoded by transcript AFUA_1G17200A;
-                     similar to peptide synthetase SidC (GI:32709395) 
-                     [Emericella nidulans] PMID: 12828635, 15953695 similar to 
-                     ferrichrome siderophore peptide synthetase Sid2 
-                     (GI:2731633) [Ustilago maydis] PMID: 11395469"
+                     /label="sidC"
+                     /note="encoded by transcript AFUA_1G17200A; similar to
+                     peptide synthetase SidC (GI:32709395) [Emericella nidulans]
+                     PMID: 12828635, 15953695 similar to ferrichrome siderophore
+                     peptide synthetase Sid2 (GI:2731633) [Ustilago maydis]
+                     PMID: 11395469"
                      /db_xref="GeneID:3510120"
                      /protein_id="XP_753088.1"
                      /translation="MAGTANPADEGLTGPTETTNHINSARSDVALGSSLSGIVPMTKIP
@@ -161,6 +162,7 @@ FEATURES             Location/Qualifiers
                      TPFTFPSPGAKAESNALDEVQAIQNSLAERVLYEQSCLRDILTNWASTKGKGPLFNTWV
                      NLLWMHQPSTRGDSKSHTDLDLFQPLRIGVPTDFIPATPLPDPSGETTSISALDTSYLP
                      DENLYIDIGPDYSTDTIGFGVRVEGGLLTEKEVRGMVDDVSGEIEGIMAAIQQGKSR"
+                     /Pfam="AA-adenyl-dom, ACP_PCP, NRPS_C, NRPS_CT"
 ORIGIN
         1 ctatttttcc tttattgctg ccgtttttgc caaccgtctt tccaaaacac tcgctgcaat
        61 cttgcgtaaa tccactttcc gaaccttgcc gctgccggtc acaggaatag tgcggtcgac

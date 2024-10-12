@@ -1,30 +1,30 @@
-LOCUS       FBGC00361       47884 bp DNA     linear   UNA 18-FEB-2023
+LOCUS       FBGC00361              47884 bp    DNA     linear   UNA 18-FEB-2023
 DEFINITION  paraherquamide.
 ACCESSION   FBGC00361
-VERSION     .
+VERSION     FBGC00361
 KEYWORDS    .
 SOURCE      Penicillium fellutanum ATCC 20841
   ORGANISM  Penicillium fellutanum ATCC 20841
+            .
 REFERENCE   1  (bases 1 to 47884)
-  AUTHORS   Li S, Anand K, Tran H, Yu F, Finefield JM, Sunderhaus JD, McAfoos 
+  AUTHORS   Li S, Anand K, Tran H, Yu F, Finefield JM, Sunderhaus JD, McAfoos
             TJ, Tsukamoto S, Williams RM, Sherman DH.
-  TITLE     Comparative analysis of the biosynthetic systems for fungal 
-            bicyclo[2.2.2]diazaoctane indole alkaloids: the (+)/(-)-notoamide, 
+  TITLE     Comparative analysis of the biosynthetic systems for fungal
+            bicyclo[2.2.2]diazaoctane indole alkaloids: the (+)/(-)-notoamide,
             paraherquamide and malbrancheamide pathways.
   JOURNAL   MedChemComm 2012;3:987-996
-  PUBMED    23213353
+   PUBMED   23213353
 REFERENCE   2  (bases 1 to 47884)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Feb 18, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1039/C2MD20029E"; journalName: "MedChemComm"; date: "2012"; 
-            volume: "3"; pages: "987-996"
+  JOURNAL   Exported Feb 18, 2023 from SnapGene 6.2.1 https://www.snapgene.com
 COMMENT     ##Assembly-Data-START##
             Assembly Method       :: Velvet v. 0.7.63
             Sequencing Technology :: Illumina
             ##Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1039/C2MD20029E"; journalName: "MedChemComm"; date: "2012";
+            volume: "3"; pages: "987-996"
 FEATURES             Location/Qualifiers
      source          1..47884
                      /strain="ATCC 20841"
@@ -36,7 +36,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="phqA"
                      /product="DMATS-type prenyltransferase PhqA"
-                     /label=phqA
+                     /label="phqA"
                      /note="PhqA"
                      /protein_id="AGA37268.1"
                      /translation="MGSINIVTPYMKIGQYLSFRNRDHFSWWHQKGPVLSQMLQACHYG
@@ -47,11 +47,12 @@ FEATURES             Location/Qualifiers
                      AQPETIQTEQNRALRVLWESLNVVEGNRGPNQFPIMMVLGLFAEEPFVRPQVAFPVVGM
                      TEGAIARSIGRFFDNMGWKESSQSYVDGLRSYFPNEDLDQPLGKQAWVALSLFDSENPA
                      LTVFYY"
+                     /Pfam="Trp_DMAT"
      CDS             complement(1606..8955)
                      /codon_start=1
                      /gene="phqB"
                      /product="nonribosomal peptide synthetase PhqB"
-                     /label=phqB
+                     /label="phqB"
                      /note="PhqB"
                      /protein_id="AGA37269.1"
                      /translation="MAKQGCIRVSVPFPLVYAPTTSDSTNLRASHQGRTTRLPLGSSLS
@@ -96,13 +97,13 @@ FEATURES             Location/Qualifiers
                      VAAVDWVASLIIHETLHARPSSHSVNDNANPLAPSAKAVSIGDGLNMSDFWKAIMLGLG
                      RDLIPSSSQRWMDTVEQQVNEVGTSHPLWPLMGFLRASGGCLGVAPTDPLPVPIYQPPS
                      LTNMIRQAVVRNAEYLASLEDLAASTMLFKRRNKVALGNGLINS"
+                     /Pfam="NRPS_C, AA-adenyl-dom, ACP_PCP, NAD_binding_4"
      CDS             join(9530..9739,9820..9975,10025..10696)
                      /codon_start=1
                      /gene="phqC"
                      /product="2OG-Fe(II)-dependent dioxygenase PhqC"
-                     /label=phqC
-                     /note="PhqC
-                     revised sequence"
+                     /label="phqC"
+                     /note="PhqC revised sequence"
                      /protein_id="AGA37270.1"
                      /translation="MSKTTEVKVVEVQLEDPLPGIVDASRFISGSPTEQRAFAVELVDS
                      VRRCGFVKVINHGLSDELIDELFAWNERFFAIDPEQKLAVVNPPGPSPQRGWSCVGAEK
@@ -111,11 +112,12 @@ FEATURES             Location/Qualifiers
                      GVITCLFQDGLGGLELEHRSHAGSFLPVPPGARSEMVVNISETFQLWTNNVITAGIHQV
                      TVPPEMKTRTEGRISARRSCAFFLKANGDASVAPLPQFVTQERPAAYSEMTALDYHQKR
                      LATAY"
+                     /Pfam="DIOX_N, 2OG-FeII_Oxy"
      CDS             complement(join(10913..11829,11925..11976))
                      /codon_start=1
                      /gene="phqD"
                      /product="pyrroline-5-carboxylate reductase PhqD"
-                     /label=phqD
+                     /label="phqD"
                      /note="PhqD"
                      /protein_id="AGA37271.1"
                      /translation="MALMSAVEYPNVAILGCGKLGQALLVGLLRSASGHPGRVKIRELK
@@ -124,12 +126,13 @@ FEATURES             Location/Qualifiers
                      DHTNDAESRRAVTELFASVGVVQWLPECQMHVASAVGASSLAFFAQMIEGLAQGVAEQH
                      SNGANNAQQLPLETALAITAQAARGTAALLQQSTSPADLVAQVATKGGATAAGLRVLEK
                      EKLVQTLRTCAAITAEATAALSQSAGSHGEDNTTDSKTSRA"
+                     /Pfam="F420_oxidored, P5CR_dimer"
      CDS             12804..13601
                      /codon_start=1
                      /gene="phqE"
-                     /product="short-chain 
+                     /product="short-chain
                      dehydrogenase/reductase/Diels-Alderase PhqE"
-                     /label=phqE
+                     /label="phqE"
                      /note="PhqE"
                      /protein_id="AGA37272.1"
                      /translation="MTPAPTPRTDQLHGSRVLVIGGTSGIGFAVCAAALGHGAIVTIVG
@@ -137,13 +140,13 @@ FEATURES             Location/Qualifiers
                      ITAADMTAPPPLEDLTVDSVQRPGIIRLVAPLMVAKHLPKYMNKCPQSSLTLTSGAHCL
                      RPDPGWTVISGYCGAVEAMSRGLAIDLKPLRVNVVAPGAVLTEAVKDILGDAYDAAVEM
                      AEAKSTVGQTGSPESVAQAYIYLMKDHYASGSVVSTNGGMLLV"
+                     /Pfam="adh_short_C2"
      CDS             join(14289..14438,14486..14865,14927..15359,15406..16065)
                      /codon_start=1
                      /gene="phqF"
                      /product="major facilitator superfamily transporter PhqF"
-                     /label=phqF
-                     /note="PhqF
-                     revised sequence"
+                     /label="phqF"
+                     /note="PhqF revised sequence"
                      /protein_id="AGA37273.1"
                      /translation="MHNTQSDTKCENASDTPESPTGEEESVGLARWKLGLLMFGNTLAV
                      FCVALDNTIMSNAIPRVTQTFDSLEDIGWYSSIYFFTNCSVVLLFGKLYTHYSMKWVFL
@@ -155,12 +158,13 @@ FEATURES             Location/Qualifiers
                      AMCGIGLGFGFQLPFIAVQTALPRSDIPVATAIVTFAQNLSEAVLVALAQTIFQNRLFA
                      HVKQLSTLVDPNALVHAGAANLDQHFSADVLPEIVRAYSAAVTETFYAATGIAALSFIG
                      LIRLQWLSVKKTKTNGNAAQTHL"
+                     /Pfam="MFS_1"
      CDS             join(17781..17826,17882..18099,18174..18327,18381..18713,
                      18799..19064)
                      /codon_start=1
                      /gene="phqG"
                      /product="short-chain dehydrogenase/reductase PhqG"
-                     /label=phqG
+                     /label="phqG"
                      /note="PhqG"
                      /protein_id="AGA37274.1"
                      /translation="MTIQVKRVVTVFGGTGNQGSSVARSLLAHKAKIFHVRVITRDPQS
@@ -169,11 +173,12 @@ FEATURES             Location/Qualifiers
                      FMECFFYDPFVDAFGGFPWIPEPETGEVVFRTPDYGGKGDMPWVSCEEDLGDIVHGIFL
                      NPCKYDQVLVQATSQQITMFDVAASYTQATGIPARYEELPSWSSIKLNGTRCRAETRQM
                      FWYMKHCGGRWFAEHESDMSTAVALKESAMLSQDRVGGLVTFQAWFKKAKVLKDQNV"
+                     /Pfam="NmrA"
      CDS             join(21682..21955,22023..22555,22628..23650)
                      /codon_start=1
                      /gene="phqH"
                      /product="FAD-linked oxidoreductase PhqH"
-                     /label=phqH
+                     /label="phqH"
                      /note="PhqH"
                      /protein_id="AGA37275.1"
                      /translation="MAFQLAGFFLILALGLGHYFSNDQESRCRCGPDDDCWPSPTAWKH
@@ -187,13 +192,13 @@ FEATURES             Location/Qualifiers
                      LSLEGMVGGPAVRGRETADRATHPSWQSAVMSLTLGHSLPSAPDWTAYSRAQRELAMTQ
                      LPALQALEQGTMGGYLGIPFPYESHPSRVFWGSHYDRLLTLKGRWDPDDLFLTRLGVGS
                      ERWDEEGMCRVGRAQAFLWWYSSIVDRVKSWTA"
+                     /Pfam="FAD_binding_4, BBE"
      CDS             complement(join(25396..25537,25598..26784))
                      /codon_start=1
                      /gene="phqI"
                      /product="DMATS-type prenyltransferase PhqI"
-                     /label=phqI
-                     /note="PhqI
-                     revised sequence"
+                     /label="phqI"
+                     /note="PhqI revised sequence"
                      /protein_id="AGA37276.1"
                      /translation="MTIEATEGHVSKGMLAKGDSTSPIPTIFDVLSRDHVFVDSHQKVW
                      WERTGQLLDKILASAGYNPARRLEALTFYIQVLIPFLGPHPHQFRSAITRSGLPLEFSV
@@ -203,13 +208,13 @@ FEATURES             Location/Qualifiers
                      VWSKVEEIWTLGGRAKSPVVQEGLVYLKELWELTKLSEGHREFNGGFDDGKDATATPMV
                      WNYEMKIGEAFPLTKFYFPIHGESDQNVIGGLAQFLSRIGLSKYGDNYEATVRHYFPER
                      DLSKTARLTSWISFAYTEKTGVYLSVYYHSSDEYPWLELEEIN"
+                     /Pfam="Trp_DMAT"
      CDS             join(29106..30053,30105..30292,30360..30465)
                      /codon_start=1
                      /gene="phqJ"
                      /product="DMATS-type prenyltransferase PhqJ"
-                     /label=phqJ
-                     /note="PhqJ
-                     revised sequence"
+                     /label="phqJ"
+                     /note="PhqJ revised sequence"
                      /protein_id="AGA37277.1"
                      /translation="MTVSTESNFPHGASTQKPQSAEPEIYSSLTKSLDFSNDAEEKWWT
                      RTAPLLSRILDSAGYTLPQQCQFLTLFNTLMIPNFGPHPHIWHSSITHSGLPVEFSVNY
@@ -219,11 +224,12 @@ FEATURES             Location/Qualifiers
                      VEEVWTLGARLVNSETNKEGLRYMRALWEYLTPGKERRPVGIWNYELLPGSEEPMPKFY
                      VDMNGENDFQNALGITKFLHHIGLTTTAEGLISKIQEYFPGVNLEETTEVIQYVSFAWS
                      KNGPYFSVYYLSSY"
+                     /Pfam="Trp_DMAT"
      CDS             complement(join(31443..32081,32133..32737,32799..32934))
                      /codon_start=1
                      /gene="phqK"
                      /product="FAD-dependent monooxygenase PhqK"
-                     /label=phqK
+                     /label="phqK"
                      /note="PhqK"
                      /protein_id="AGA37278.1"
                      /translation="MGSLGEEVQVIIVGLGIVGLAAAIECREKGHSVHAFEKSNILKSI
@@ -235,14 +241,14 @@ FEATURES             Location/Qualifiers
                      TSLSLAGRQRVSLALHVAERIRYARASAVQLISHRVNEGWRNQDWDAYEPNEQNIASLP
                      LETWIYGHDSQAYTEQEFEMVVRAVQEGEEYHATNLPDKLRVQLGIRNVDVKEPLQNKS
                      P"
+                     /Pfam="FAD_binding_3"
      CDS             complement(join(34979..35567,35630..35973,36029..36147,
                      36201..36798))
                      /codon_start=1
                      /gene="phqL"
                      /product="cytochrome P450 monooxygenase PhqL"
-                     /label=phqL
-                     /note="PhqL
-                     revised sequence"
+                     /label="phqL"
+                     /note="PhqL revised sequence"
                      /protein_id="AGA37279.1"
                      /translation="MLASNENFSRLTTAFVAGIAAHIIIFRRGEWDIAAARIPVGLFIL
                      QSCLFSYYLFVPGPPTSIYTALWLVGQITLGFIAGTTVSILSYRAFFHRLNSFPGPFPA
@@ -254,15 +260,15 @@ FEATURES             Location/Qualifiers
                      LNAVINETLRLHYPALSGFQRQTPPGGLHIAGRYIPGNTNIKIPFYTLFLDERNFAEPE
                      KFIPERWTTRKELVKNPEAFAPFLLGPYNCLGKSLALMQVRHVLVELIRRYEIVLAPGA
                      DPEKYWRERTDGFVMGLAPLDLAFTEREMAGF"
+                     /Pfam="p450"
      CDS             complement(join(37357..37564,37639..37799,37857..37967,
                      38043..38363,38413..38504,38556..38670,38741..39002,
                      39056..39119,39180..39432))
                      /codon_start=1
                      /gene="phqM"
                      /product="cytochrome P450 monooxygenase PhqM"
-                     /label=phqM
-                     /note="PhqM
-                     revised sequence"
+                     /label="phqM"
+                     /note="PhqM revised sequence"
                      /protein_id="AGA37280.1"
                      /translation="MDCHQTGCIQLGSKPPSINTVLGSFLLAIISYGFFIAVNRIFFQP
                      LSKVPGPKLAALTKWYGFYHNVIRDGQYSLSFSSLHKKYDSPVIRIGPNAVHVDDPSFY
@@ -274,13 +280,13 @@ FEATURES             Location/Qualifiers
                      SVYLPEGTIVSSSHLSIITNDTIFHDPYKFKPERWLGEEGKDLERWHVGFSRGPRRCIG
                      SSLAYLELFCVTAYVFSRFEMSLFETDESSMQWVDRISARNRKDVQVRILSDRWEKEAH
                      SIAGGTLLKEE"
+                     /Pfam="p450"
      CDS             complement(join(43471..44383,44447..44481,44542..44643))
                      /codon_start=1
                      /gene="phqN"
                      /product="methyltransferase PhqN"
-                     /label=phqN
-                     /note="PhqN
-                     revised sequence"
+                     /label="phqN"
+                     /note="PhqN revised sequence"
                      /protein_id="AGA37281.1"
                      /translation="MTMSQMNQDAEGYFRVWKPEEASPGHQESPEELDRRKAAQDALSV
                      QYYNLVTSIFQKSGRMCGHLCRLSPNEPMAQSLVRHEHYLAHRVNIQEGQRIIDLGCGI
@@ -289,14 +295,14 @@ FEATURES             Location/Qualifiers
                      GGLARIHTSAEAIAAMKAVGFEVLAIDDLGARPDQIPWETQLSDPFLEKQGLLSFALLS
                      VFFAARAMPLINRGLQAVVGKLEQMTVFPAGSQKVVDLVVTILDGMYRGGELGIFSPMF
                      LIVARKPEA"
+                     /Pfam="Methyltransf_11, Sterol_MT_C"
      CDS             join(46048..46275,46336..46452,46515..46608,46672..46740,
                      46813..47385,47463..47884)
                      /codon_start=1
                      /gene="phqO"
                      /product="cytochrome P450 monooxygenase PhqO"
-                     /label=phqO
-                     /note="PhqO
-                     revised sequence"
+                     /label="phqO"
+                     /note="PhqO revised sequence"
                      /protein_id="AGA37282.1"
                      /translation="MSKYLLMSFTEGSMSTWHYLAMLTTIWLVYQYLKPVPIVPGLPVI
                      NRAERWDFFSIKMKRRFLNNAAALMKEGFEQSPRGFTIMSVNGPKLVLSPDYADELKND
@@ -307,6 +313,7 @@ FEATURES             Location/Qualifiers
                      QMNLLDSTLKESQRLEPLASATMNRVTREEVTLSNGLWIPRNMYVLVSGHRMRDPTLYP
                      DPEKFDAYRFVKMREIEKKKSDCAYTAATVDHMGFGYGKHSCPGRFFAAHEVKIILCHL
                      ILKYEFKLPEDQARTYLLAGFFTSAGPENELLVRRRVEEIAL"
+                     /Pfam="p450"
 ORIGIN
         1 atgggttcta ttaatattgt taccccctat atgaagatag ggcaatatct gtcttttcga
        61 aatcgtgacc acttcagctg gtggcaccag aaaggtccag tcctttctca aatgcttcaa

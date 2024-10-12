@@ -1,23 +1,23 @@
-LOCUS       FBGC00353       19475 bp DNA     linear   UNA 19-APR-2023
+LOCUS       FBGC00353              19475 bp    DNA     linear   UNA 19-APR-2023
 DEFINITION  chrysogine.
 ACCESSION   FBGC00353
-VERSION     .
+VERSION     FBGC00353
 KEYWORDS    .
 SOURCE      Penicillium rubens Wisconsin 54-1255
   ORGANISM  Penicillium rubens Wisconsin 54-1255
+            .
 REFERENCE   1  (bases 1 to 19475)
-  AUTHORS   Viggiano A, Salo O, Ali H, Szymanski W, Lankhorst PP, Nygard Y, 
+  AUTHORS   Viggiano A, Salo O, Ali H, Szymanski W, Lankhorst PP, Nygard Y,
             Bovenberg RAL, Driessen AJM.
-  TITLE     Pathway for the Biosynthesis of the Pigment Chrysogine by 
+  TITLE     Pathway for the Biosynthesis of the Pigment Chrysogine by
             Penicillium chrysogenum.
   JOURNAL   Appl Environ Microbiol 2018;84(4):e02246-17
-  PUBMED    29196288
+   PUBMED   29196288
 REFERENCE   2  (bases 1 to 19475)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Apr 19, 2023 from SnapGene 6.2.2
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
+  JOURNAL   Exported Apr 19, 2023 from SnapGene 6.2.2 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
             "10.1128/AEM.02246-17"; journalName: "Appl Environ Microbiol"; date:
             "2018"; volume: "84"; issue: "4"; pages: "e02246-17"
 FEATURES             Location/Qualifiers
@@ -33,7 +33,7 @@ FEATURES             Location/Qualifiers
                      /gene="Pc21g12570"
                      /locus_tag="PCH_Pc21g12570"
                      /product="glutaminase ChyE"
-                     /label=chyE
+                     /label="chyE"
                      /note="Title: similarity to hypothetical protein
                      SPAC13C5.04 - Schizosaccharomyces pombe"
                      /db_xref="InterPro:IPR017926"
@@ -48,12 +48,13 @@ FEATURES             Location/Qualifiers
                      HQAVSRAFGGQVRPVPAGEITAIEDIRLTDAGMKFFPFAATSGSYRAIELHSGEVYTPP
                      PGFISLAENQECFINDTNNVLTFQAHPEISHELASKLILEEDKKHSRNSSAEVLGIDRP
                      TEGLKLLERVLQWLSE"
+                     /Pfam="GATase"
      CDS             complement(join(1217..1388,1485..1717))
                      /codon_start=1
                      /gene="Pc21g12580"
                      /locus_tag="PCH_Pc21g12580"
                      /product="hypothetical protein Pc21g12580"
-                     /label=Pc21g12580
+                     /label="Pc21g12580"
                      /db_xref="UniProtKB/TrEMBL:B6HLP4"
                      /protein_id="CAP96155.1"
                      /translation="MSRNSFRSSGSQLLSVSKPHTGEEPRPLGLGPQSQEVGQSWLCTW
@@ -64,10 +65,9 @@ FEATURES             Location/Qualifiers
                      /gene="Pc21g12590"
                      /locus_tag="PCH_Pc21g12590"
                      /product="FAD-linked oxidoreductase ChyH"
-                     /label=chyH
-                     /note="unknown EC_number=1.5.3.6;
-                     Title: similarity to 6-hydroxy-D-nicotine oxidase 6-HDNO - 
-                     Arthrobacter oxidans"
+                     /label="chyH"
+                     /note="unknown EC_number=1.5.3.6; Title: similarity to
+                     6-hydroxy-D-nicotine oxidase 6-HDNO - Arthrobacter oxidans"
                      /db_xref="GOA:B6HLP5"
                      /db_xref="InterPro:IPR006094"
                      /db_xref="InterPro:IPR012951"
@@ -86,13 +86,14 @@ FEATURES             Location/Qualifiers
                      EPCQKTGAMNPRFPIYLETYNPQAQKKAFELFSDAIRGDSIFNGSLFAFDGYSTQGVRA
                      IDEKSTAFAFRNQNVLTAPLISYMPDGPELDEKVAKLGNQLRQILHEGTGREHIPAYVN
                      YANGDEGPEQWYGSESWRQSKLQSLKKKYDPNGMFSFYGPIA"
+                     /Pfam="FAD_binding_4, BBE"
      CDS             complement(4685..5461)
                      /codon_start=1
                      /gene="Pc21g12600"
                      /locus_tag="PCH_Pc21g12600"
                      /product="short-chain dehydrogenase/reductase ChyC"
-                     /label=chyC
-                     /note="Title: strong similarity to hypothetical protein 
+                     /label="chyC"
+                     /note="Title: strong similarity to hypothetical protein
                      1465_scaffold_9.tfa_470wg - Fusarium graminearum"
                      /db_xref="GOA:B6HLP6"
                      /db_xref="InterPro:IPR002198"
@@ -107,15 +108,16 @@ FEATURES             Location/Qualifiers
                      LAPYILSCLLEQPKRLIFIASILHKEAKTDLKDIFWLERGEKEFQDFPAYCDSKFHVML
                      LANAVAKRFKGTSVTSVHPGYVATKLGGSGATDKMEDGVETYVMLAEGDYDQSLTGVYF
                      VPKKQIGEPLPETTQEDLQETVVKACEDITGIKLPA"
+                     /Pfam="adh_short"
      CDS             6798..7976
                      /codon_start=1
                      /gene="Pc21g12610"
                      /locus_tag="PCH_Pc21g12610"
                      /product="2OG-Fe(II)-dependent dioxygenase ChyM"
-                     /label=chyM
-                     /note="unknown EC_number=3.1.1.-;
-                     Title: weak similarity to 7alpha-cephem-methoxylase subunit
-                     cmcJ - Streptomyces lactamdurans"
+                     /label="chyM"
+                     /note="unknown EC_number=3.1.1.-; Title: weak similarity to
+                     7alpha-cephem-methoxylase subunit cmcJ - Streptomyces
+                     lactamdurans"
                      /db_xref="UniProtKB/TrEMBL:B6HLP7"
                      /inference="similar to AA sequence:same species:C56281"
                      /protein_id="CAP96158.1"
@@ -126,16 +128,16 @@ FEATURES             Location/Qualifiers
                      SDDGVPRFALFSIWRPLKPVHRDPLALASCASFPESDYVPSEQLEPMDHQISAHLSRII
                      DPNAPKLSVENERQVQGGTCQTYGYLAYGPRDKEQKAHGWHFVSEQQPSDVLIIQLFDN
                      EMEAHARAPQEGTNKMSNLGVGGAIHSAFELEGQDIDAEARESIEVRCAAFW"
+                     /Pfam="NvfI"
      CDS             complement(join(8434..9293,9357..9548,9605..9866,
                      9923..10006,10060..10538,10611..10752))
                      /codon_start=1
                      /gene="Pc21g12620"
                      /locus_tag="PCH_Pc21g12620"
                      /product="amidotransferase ChyD"
-                     /label=chyD
-                     /note="unknown EC_number=6.3.5.4;
-                     Title: strong similarity to asparagine synthase asnB - 
-                     Bacillus subtilis"
+                     /label="chyD"
+                     /note="unknown EC_number=6.3.5.4; Title: strong similarity
+                     to asparagine synthase asnB - Bacillus subtilis"
                      /db_xref="GOA:B6HLP8"
                      /db_xref="InterPro:IPR000583"
                      /db_xref="InterPro:IPR001962"
@@ -161,15 +163,15 @@ FEATURES             Location/Qualifiers
                      PHFILRYNGDNIDMVNQVESRCPFLDHHLTEYVNNVPPSLKLKYLPEEKSFREKYILRE
                      AVKPYVTDEIYNISKKAYMGPRKFWPGGPLHRKIKQLVTKENVESLGFVDWNATQEAVE
                      KAFTKQDPMGLRRTITVAQFIVLGKRFGVKPAGALPN"
+                     /Pfam="GATase_7, Asn_synthase"
      CDS             join(12122..12369,12431..12605,12666..19475)
                      /codon_start=1
                      /gene="Pc21g12630"
                      /locus_tag="PCH_Pc21g12630"
                      /product="nonribosomal peptide synthetase ChyA"
-                     /label=chyA
+                     /label="chyA"
                      /note="Title: similarity to peptide synthase pesA
-                     -Metarhizium anisopliae
-                     revised sequence"
+                     -Metarhizium anisopliae revised sequence"
                      /db_xref="GOA:B6HLP9"
                      /db_xref="InterPro:IPR000873"
                      /db_xref="InterPro:IPR001242"
@@ -226,6 +228,7 @@ FEATURES             Location/Qualifiers
                      VQQQHIQTMSVENLELGEITRNCTSWKAGTKFGSFIRFQNFTNNDDSTCSFDGSACETG
                      LYSLPNRPSNTANVLVVPHGPTLSITMTISNQVLDRGSADFVAGYFSDVIESLASEETV
                      CEYLE"
+                     /Pfam="NRPS_C, AA-adenyl-dom, ACP_PCP, NRPS_CT"
 ORIGIN
         1 ctattctgac agccactgca aaactctctc aagcaatttt agcccctcag ttggccggtc
        61 tattcccaat acctccgcag aagaattcct gctatgcttc ttgtcttctt ctaatatcag

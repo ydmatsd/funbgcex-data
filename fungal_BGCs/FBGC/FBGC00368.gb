@@ -1,47 +1,48 @@
-LOCUS       FBGC00368       33109 bp DNA     linear   UNA 18-FEB-2023
+LOCUS       FBGC00368              33109 bp    DNA     linear   UNA 18-FEB-2023
 DEFINITION  malformin C.
 ACCESSION   FBGC00368
-VERSION     .
+VERSION     FBGC00368
 KEYWORDS    .
 SOURCE      Aspergillus brasiliensis CBS 101740
   ORGANISM  Aspergillus brasiliensis CBS 101740
+            .
 REFERENCE   1  (bases 1 to 33109)
   AUTHORS   Theobald S, Vesth TC, Rendsvig JK, Nielsen KF, Riley R, de Abreu LM,
             Salamov A, Frisvad JC, Larsen TO, Andersen MR, Hoof JB.
-  TITLE     Uncovering secondary metabolite evolution and biosynthesis using 
+  TITLE     Uncovering secondary metabolite evolution and biosynthesis using
             gene cluster networks and genetic dereplication.
   JOURNAL   Sci Rep 2018;8:17957
-  PUBMED    30560908
+   PUBMED   30560908
 REFERENCE   2  (bases 1 to 33109)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Feb 18, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1038/s41598-018-36561-3"; journalName: "Sci Rep"; date: "2018"; 
-            volume: "8"; pages: "17957"
-COMMENT     URL -- http://genome.jgi.doe.gov/Aspbr1
-            JGI Project ID: 403144
-            The DNA was provided by Ronald P. de Vries(r.devries@cbs.knaw.nl) 
-            The strain is available from CBS-KNAW
-            Contacts: Ronald P. de Vries (r.devries@cbs.knaw.nl)
-            Assembly and annotation done by JGI.
-            The JGI and collaborators endorse the principles for the 
-            distribution and use of large scale sequencing data adopted by the 
-            larger genome sequencing community and urge users of this data to 
-            follow them. It is our intention to publish the work of this project
-            in a timely fashion and we welcome collaborative interaction on the 
-            project and analysis. 
-            (http://www.genome.gov/page.cfm?pageID=10506376).##Genome-Assembly-D
-            ata-START##
+  JOURNAL   Exported Feb 18, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     ##ata-START##
             Assembly Method       :: AllPathsLG v. R40295
             Assembly Name         :: Aspbr1
             Genome Coverage       :: 156.8x
             Sequencing Technology :: Illumina
-            ##Genome-Assembly-Data-END####Metadata-START##
+            ##ata-END##
+            ##Metadata-START##
             Organism Display Name :: Aspergillus brasiliensis CBS 101740
             GOLD Stamp ID         :: Gp0009965
             ##Metadata-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1038/s41598-018-36561-3"; journalName: "Sci Rep"; date: "2018";
+            volume: "8"; pages: "17957"
+            URL -- http://genome.jgi.doe.gov/Aspbr1
+            JGI Project ID: 403144
+            The DNA was provided by Ronald P. de Vries(r.devries@cbs.knaw.nl)
+            The strain is available from CBS-KNAW
+            Contacts: Ronald P. de Vries (r.devries@cbs.knaw.nl)
+            Assembly and annotation done by JGI.
+            The JGI and collaborators endorse the principles for the
+            distribution and use of large scale sequencing data adopted by the
+            larger genome sequencing community and urge users of this data to
+            follow them. It is our intention to publish the work of this project
+            in a timely fashion and we welcome collaborative interaction on the
+            project and analysis.
+            (http://www.genome.gov/page.cfm?pageID=10506376).##Genome-Assembly-D
 FEATURES             Location/Qualifiers
      source          1..33109
                      /chromosome="Unknown"
@@ -57,7 +58,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="ASPBRDRAFT_134974"
                      /product="transcription factor ASPBRDRAFT_134974"
-                     /label=ASPBRDRAFT_134974
+                     /label="ASPBRDRAFT_134974"
                      /note="revised sequence"
                      /db_xref="InterPro:IPR011701"
                      /db_xref="JGIDB:Aspbr1_134974"
@@ -73,13 +74,14 @@ FEATURES             Location/Qualifiers
                      RADMRRQIEDTYCLLQSWLGIFQTYNYSPNSPAGRSSGFGGEVETEIHFSSYFLTFLIH
                      GKWLHLAQQGLSPEETEAYERSETRCLAAARSVLEHCSQQTHAEMLGNMRFRSLPKIAA
                      CILVLMGQSHDRLDEDRMYLRMACGFYSRLAICMPVQLHLLMDLVDQMDTST"
-     CDS             join(2828..2892,2951..3149,3221..3530,3581..4151,4206..4210,
-                     4269..4338,4390..4516)
+                     /Pfam="Zn_clus, Fungal_trans"
+     CDS             join(2828..2892,2951..3149,3221..3530,3581..4151,
+                     4206..4210,4269..4338,4390..4516)
                      /codon_start=1
                      /locus_tag="ASPBRDRAFT_134974"
-                     /product="major facilitator superfamily transporter 
+                     /product="major facilitator superfamily transporter
                      ASPBRDRAFT_134974-2"
-                     /label=ASPBRDRAFT_134974-2
+                     /label="ASPBRDRAFT_134974-2"
                      /note="revised sequence"
                      /db_xref="InterPro:IPR011701"
                      /db_xref="JGIDB:Aspbr1_134974"
@@ -92,13 +94,14 @@ FEATURES             Location/Qualifiers
                      FTRIQANALAAIGSLLTLPVIVLFACLSDWTRKRGVAVMLAIAVYLAALVLLRVFQARV
                      NRWGRFGLWTTVNGLAVGYHPVHNAWIQVNCESPEERSVSVAMFVMSATAGLMAGTQIF
                      RHDDGLDGYPTGILIMIILALSGLILVAIQSVIYRVLNRSRKTSDIQET"
+                     /Pfam="MFS_1"
      CDS             complement(join(4548..5219,5289..5730,5822..6201,
                      6271..6429))
                      /codon_start=1
                      /locus_tag="ASPBRDRAFT_199881"
-                     /product="major facilitator superfamily transporter 
+                     /product="major facilitator superfamily transporter
                      ASPBRDRAFT_199881"
-                     /label=ASPBRDRAFT_199881
+                     /label="ASPBRDRAFT_199881"
                      /db_xref="InterPro:IPR011701"
                      /db_xref="JGIDB:Aspbr1_199881"
                      /protein_id="OJJ67650.1"
@@ -112,11 +115,12 @@ FEATURES             Location/Qualifiers
                      KWAGYQVIMGAGIGMGAQQTVLAMQASLPPKDVPVGTALMIFYQTLGGAVFLIVAQNLF
                      QHELVERLTARSIPGVDASNVAAAGATEVRNLVPAEYLGEALEAYNGAVVRTFYISVAL
                      AGVAVLATFVPEWKSVKTVKNGEDEEGIERGGS"
+                     /Pfam="MFS_1"
      CDS             complement(join(6798..7628,7694..7852))
                      /codon_start=1
                      /locus_tag="ASPBRDRAFT_161173"
                      /product="thioredoxin reductase ASPBRDRAFT_161173"
-                     /label=ASPBRDRAFT_161173
+                     /label="ASPBRDRAFT_161173"
                      /note="GO_function: GO:16491 - oxidoreductase activity"
                      /db_xref="InterPro:IPR006076"
                      /db_xref="JGIDB:Aspbr1_161173"
@@ -127,14 +131,15 @@ FEATURES             Location/Qualifiers
                      QANPSVGLILGQMVRRFAEKVTLFTHGNEDTAVALREAGAEAKGFTIESRPIRSFERVA
                      SDAEGSRDILRVWLEQSDEGEDTSYVDMGFLTHMPDTAVTNDWSSQLGLELEASGIYKQ
                      KDVTMETTVPGVFVAGDHASVAKDVPNAASNATFVASAVAVQLTVEHS"
+                     /Pfam="Pyr_redox_2"
      CDS             join(8393..8800,8871..12182,12242..23860)
                      /codon_start=1
                      /locus_tag="ASPBRDRAFT_34020"
                      /product="nonribosomal peptide synthetase MlfA"
-                     /label=mlfA
-                     /note="GO_function: GO:3824; cofactor binding - catalytic 
-                     activity [PMID 48037];
-                     GO_process: GO:8152 - metabolic process"
+                     /label="mlfA"
+                     /note="GO_function: GO:3824; cofactor binding - catalytic
+                     activity [PMID 48037]; GO_process: GO:8152 - metabolic
+                     process"
                      /db_xref="InterPro:IPR000873"
                      /db_xref="InterPro:IPR001242"
                      /db_xref="InterPro:IPR006163"
@@ -227,12 +232,13 @@ FEATURES             Location/Qualifiers
                      VIFGQVVHGRGIPLPGVEGIVGPCANITPVVARLSPQTTGLELLQALQDQHRSGLSYEA
                      VDLDDALAYTKGWQAGSPRVQTIVQHQNNVMTDGMGLSLGEVKCGVDVRAVDHVPREVW
                      VYSSVDENKPGMLEVKIMSSTLVLSEEVAEELMDLVVEKVVALLRDPRGVCV"
+                     /Pfam="NRPS_C, AA-adenyl-dom, ACP_PCP, NRPS_E, NRPS_CT"
      CDS             complement(join(24046..24564,24621..24770,24826..24846,
                      24905..25057))
                      /codon_start=1
                      /locus_tag="ASPBRDRAFT_78343"
                      /product="methyltransferase ASPBRDRAFT_78343"
-                     /label=ASPBRDRAFT_78343
+                     /label="ASPBRDRAFT_78343"
                      /db_xref="InterPro:IPR013217"
                      /db_xref="JGIDB:Aspbr1_78343"
                      /protein_id="OJJ67653.1"
@@ -241,12 +247,13 @@ FEATURES             Location/Qualifiers
                      IRHLVHQGAPQSQIYGSDLHPDFIELGYDLFADRDTLACEFITGDIFDDSSELLQRLGG
                      KVDMINAASFFHLFDWDTQVKLAKRVITLLKPKPGSIVVGRHVGDYNPGELEASELGSK
                      IWRHDLESWRRLWEQVGRETGSEWIVDVTAEEWMGIKKVAHNGETTFKMKFVVRRGGV"
+                     /Pfam="Trt5"
      CDS             join(26105..26385,26453..27641)
                      /codon_start=1
                      /locus_tag="ASPBRDRAFT_186232"
-                     /product="major facilitator superfamily transporter 
+                     /product="major facilitator superfamily transporter
                      ASPBRDRAFT_186232"
-                     /label=ASPBRDRAFT_186232
+                     /label="ASPBRDRAFT_186232"
                      /db_xref="InterPro:IPR011701"
                      /db_xref="JGIDB:Aspbr1_186232"
                      /protein_id="OJJ67654.1"
@@ -259,14 +266,14 @@ FEATURES             Location/Qualifiers
                      QFRYNRISAAADGAPVPEARLPPMMIGSVLLVLGLFWFAWTATPAYHWILPCLAAFCIG
                      AGFNCIFQQCLNFLIDVYRVYAASSTAAVTFLRSIMAAGLPLAAKPMIRALGIGPAISI
                      IGAVAAVLLPVPFLFMRYGPALRRASKMIDA"
+                     /Pfam="MFS_1"
      CDS             complement(join(27738..28509,28557..28683,28732..28873,
                      28922..29083))
                      /codon_start=1
                      /locus_tag="ASPBRDRAFT_78345"
                      /product="methyltransferase ASPBRDRAFT_78345"
-                     /label=ASPBRDRAFT_78345
-                     /note="GO_function: GO:8171 - O-methyltransferase
-                     activity"
+                     /label="ASPBRDRAFT_78345"
+                     /note="GO_function: GO:8171 - O-methyltransferase activity"
                      /db_xref="InterPro:IPR001077"
                      /db_xref="JGIDB:Aspbr1_78345"
                      /protein_id="OJJ67655.1"
@@ -278,13 +285,14 @@ FEATURES             Location/Qualifiers
                      ECQGYDFFTEQSVKGARGYMLRTVLHDWPDNEVVKILSRVREAMDEESVLLIVEKIMPD
                      SGCGLMAAIGDLSMMVSFAGAERTEGEYAELLCRAGLRLIECYVGRENEGLEMGVVEAR
                      I"
+                     /Pfam="Dimerisation, Methyltransf_2"
      CDS             complement(join(29712..30041,30114..30369,30427..30769,
                      30859..31549))
                      /codon_start=1
                      /locus_tag="ASPBRDRAFT_47697"
-                     /product="major facilitator superfamily transporter 
+                     /product="major facilitator superfamily transporter
                      ASPBRDRAFT_47697"
-                     /label=ASPBRDRAFT_47697
+                     /label="ASPBRDRAFT_47697"
                      /note="revised sequence"
                      /db_xref="InterPro:IPR011701"
                      /db_xref="JGIDB:Aspbr1_47697"
@@ -299,15 +307,16 @@ FEATURES             Location/Qualifiers
                      RMLDRESRLFFAQIGAPAIPIGLFWMGWTDYPSIAIWSPLAASIAVGFGVICVFLSAYM
                      YIIDSYQQYAASALTFVALVRYLAAGGMTVVGIPMYRNLGTHWTLTVLGIISAVAAPIP
                      YVLTFWGPSLRKRSKWAAAISA"
+                     /Pfam="MFS_1"
      CDS             complement(join(32020..32277,32347..32958,33017..33109))
                      /codon_start=1
                      /locus_tag="ASPBRDRAFT_199888"
-                     /product="short-chain dehydrogenase/reductase 
+                     /product="short-chain dehydrogenase/reductase
                      ASPBRDRAFT_199888"
-                     /label=ASPBRDRAFT_199888
+                     /label="ASPBRDRAFT_199888"
                      /note="GO_function: GO:16564 - transcription repressor
-                     activity;
-                     GO_process: GO:6808 - regulation of nitrogen utilization"
+                     activity; GO_process: GO:6808 - regulation of nitrogen
+                     utilization"
                      /db_xref="InterPro:IPR008030"
                      /db_xref="JGIDB:Aspbr1_199888"
                      /protein_id="OJJ67657.1"
@@ -317,6 +326,7 @@ FEATURES             Location/Qualifiers
                      AHSMYIDHRIVGDGNQKFGLMDMGDIGTYVARIISDTRTLNRRVFVYTEVLSMNEIWDT
                      MAAVSGEVPPKDYVSEAEIHEIIKLCGKRWQENGNQVDIMDIANYNMGQYRISWCIRGD
                      NTPEYADYLGYLDFWKLFPDFPRARSLKAFYQQVLTEGS"
+                     /Pfam="NmrA"
 ORIGIN
         1 atgaatggca ttcgcaaggg tattacacga cgaagaggcg cctgcgaacc gtgcaaggcg
        61 cgaaagactc gatgtcagtt actagcactg ccccgcctct tgctctgctc cttttctcat

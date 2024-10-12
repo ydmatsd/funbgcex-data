@@ -1,21 +1,21 @@
-LOCUS       FBGC00355       13540 bp DNA     linear   UNA 17-FEB-2023
+LOCUS       FBGC00355              13540 bp    DNA     linear   UNA 17-FEB-2023
 DEFINITION  ergot alkaloid.
 ACCESSION   FBGC00355
-VERSION     .
+VERSION     FBGC00355
 KEYWORDS    .
 SOURCE      Epichloe festucae var. lolii Lp19
   ORGANISM  Epichloe festucae var. lolii Lp19
+            .
 REFERENCE   1  (bases 1 to 13540)
   AUTHORS   Fleetwood DJ, Scott B, Lane GA, Tanaka A, Johnson RD.
   TITLE     A complex ergovaline gene cluster in epichloe endophytes of grasses.
   JOURNAL   Appl Environ Microbiol 2007;73:2571-9
-  PUBMED    17308187
+   PUBMED   17308187
 REFERENCE   2  (bases 1 to 13540)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Feb 17, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
+  JOURNAL   Exported Feb 17, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
             "10.1128/AEM.00257-07"; journalName: "Appl Environ Microbiol"; date:
             "2007"; volume: "73"; pages: "2571-9"
 FEATURES             Location/Qualifiers
@@ -29,17 +29,18 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="easH"
                      /product="partial 2OG-Fe(II)-dependent dioxygenase EasH"
-                     /label=easH
+                     /label="easH"
                      /protein_id="ABM91453.1"
                      /translation="YGAAIENGPGTQEQIWHRDQPDYALLKAGPGTAEAMLNFFTALTD
                      FTPDTGMTQYIWGSHKRVELGEPDAEHPVVFTKLKAGDTAVLSGKIVHRGSANATPDVF
                      RRALALMIIPAIMTPFDATCHLSRHMVETMTPLAQKMVGRRSVVIPPPHTVGAALGIWC
                      LNMREVGEQMGLKSNQPDKEEE"
+                     /Pfam="PhyH"
      CDS             complement(1019..2161)
                      /codon_start=1
                      /gene="easA"
                      /product="Probable inactive reductase EasA"
-                     /label=easA
+                     /label="easA"
                      /protein_id="ABM91449.1"
                      /translation="MSTSNLFTPLQFGKCLLQHKLVLSPMTRFRADNEGVPLPYVKTYY
                      CQRASLPGTLLLTEATAISRRARGFPNVPGIWSQEQIAGWKEVVDAVHAKGSYIWLQLW
@@ -48,11 +49,12 @@ FEATURES             Location/Qualifiers
                      KLSTWSTFQGMGTMDDLIPQFEHFIMRLREIGIAYLHLANSRWVEEEDPTIRTHPDIHN
                      ETFVRMWGKEKPVLLAGGYGPESAKLVVDETYSDHKNIGVVFGRHYISNPDLPFRLKMG
                      LPLQKYNRETFYIPFSDEGYLDYPYSEEYITENKKQAVLA"
+                     /Pfam="Oxidored_FMN"
      CDS             join(3580..3997,4075..4274,4327..4575)
                      /codon_start=1
                      /gene="easG"
                      /product="short-chain dehydrogenase/reductase EasG"
-                     /label=easG
+                     /label="easG"
                      /protein_id="ABM91452.1"
                      /translation="MTILLTGGRGKTASHIASLLQAAKVPFIVASRSSDPSSSSPYYQN
                      CFDWLDEKTYGDVLTSKDSMQPISTIWLVPPPIFDLAPLMIKFVDFASRKGVKRFVLLS
@@ -60,11 +62,12 @@ FEATURES             Location/Qualifiers
                      GDGKLPFVSVADIARVAFRTLTDEKSHNTDYVLLGPELITYDQVAETLSTVLGRTITHI
                      KLTEEELVKRLENSGMPAEDAKMLAGMDTSISDGAEDRLNNVVKHVTGADPRTFLDFAT
                      HQKATWG"
+                     /Pfam="NmrA"
      CDS             complement(join(4619..5387,5456..5721))
                      /codon_start=1
                      /gene="easF"
                      /product="methyltransferase EasF"
-                     /label=easF
+                     /label="easF"
                      /protein_id="ABM91451.1"
                      /translation="MSKPNVLDIRLATFEDSIVDLVINGLRKQPKTLPALLFYANEGLK
                      HWNHHSHQPEFYPRHQEVQILKKKAQEMAASIPMNSVVVDLGSASLDKVIHLLEALEVQ
@@ -73,11 +76,12 @@ FEATURES             Location/Qualifiers
                      VVPFALQSLTYANGLFSEKNKTQASGDVQHKVFNLDEWYYLSEWNFVLGRHEASLIPRS
                      KDIKLLPPLDGILVSKDEKVRFGCSYKYDQEERMELFAAAGVKNEVTWSDEGCDVAFYQ
                      LKLS"
+                     /Pfam="Methyltransf_33"
      CDS             complement(join(6190..7203,7263..7795,7870..8140))
                      /codon_start=1
                      /gene="easE"
                      /product="FAD-linked oxidoreductase EasE"
-                     /label=easE
+                     /label="easE"
                      /protein_id="ABM91450.1"
                      /translation="MRHFVTFVVGFLLSWGFLSSLQDPPSCRCRPWEPCWPDSHQWTSL
                      NASIDGNLVHVQPVGSVCHDPHYDAVACGDVLDLSRNSGWRASNPATLQDWIWETGSGD
@@ -90,11 +94,12 @@ FEATURES             Location/Qualifiers
                      FTSNLGGCIAANKGLDTAIHPAWRSSAHLVTYVRSVEPSIEAKKLALKEITNKYMPILY
                      SMQPSFKVSYRNLGDPNEKNYQEVFWGEKVYKRLASIKAKLDPDGLFISKLGVGSEDWD
                      TEGMCYQPQNRVSQPLRSLKYFLSVLKDT"
+                     /Pfam="FAD_binding_4, BBE"
      CDS             join(9411..10004,10079..13540)
                      /codon_start=1
                      /gene="lpsB"
                      /product="nonribosomal peptide synthetase LpsB"
-                     /label=lpsB
+                     /label="lpsB"
                      /protein_id="ABM91454.1"
                      /translation="MQSQVRLPSNGNPALSFPQNEIGGPVHWKTYLEGCSPCSFPSLRT
                      VCPSQSWPASVSITIGDSIFRRLEHFSDKTGISVATVFRASWGLVLRIYTGQDSVCFGD
@@ -120,6 +125,7 @@ FEATURES             Location/Qualifiers
                      PFEQLGLPHIRRLGEHAMLACSFQTLLSIQPALPPSTDAWFEQPGSTIDYRANATYAIN
                      LFFGLEGDKLKATALYDFNVVKKDKMQSMLVDFGNILQTMHKSPNSLIRDILAVPQQMR
                      GPINSASL"
+                     /Pfam="NRPS_C, AA-adenyl-dom, ACP_PCP"
 ORIGIN
         1 tatggcgctg ccatcgaaaa tggccctggc acacaggagc agatatggca tcgtgaccag
        61 cctgattacg ctttgcttaa agccggtcct ggcaccgccg aggctatgct taattttttc

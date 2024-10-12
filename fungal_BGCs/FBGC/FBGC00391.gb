@@ -1,23 +1,23 @@
-LOCUS       FBGC00391       13199 bp DNA     linear   UNA 20-FEB-2023
+LOCUS       FBGC00391              13199 bp    DNA     linear   UNA 20-FEB-2023
 DEFINITION  beauvericin.
 ACCESSION   FBGC00391
-VERSION     .
+VERSION     FBGC00391
 KEYWORDS    .
 SOURCE      Beauveria bassiana ATCC 7159
   ORGANISM  Beauveria bassiana ATCC 7159
+            .
 REFERENCE   1  (bases 1 to 13199)
   AUTHORS   Xu Y, Orozco R, Wijeratne EM, Gunatilaka AA, Stock SP, Molnar I.
-  TITLE     Biosynthesis of the cyclooligomer depsipeptide beauvericin, a 
+  TITLE     Biosynthesis of the cyclooligomer depsipeptide beauvericin, a
             virulence factor of the entomopathogenic fungus Beauveria bassiana.
   JOURNAL   Chem Biol 2008;15:898-907
-  PUBMED    18804027
+   PUBMED   18804027
 REFERENCE   2  (bases 1 to 13199)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Feb 20, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1016/j.chembiol.2008.07.011"; journalName: "Chem Biol"; date: 
+  JOURNAL   Exported Feb 20, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1016/j.chembiol.2008.07.011"; journalName: "Chem Biol"; date:
             "2008"; volume: "15"; pages: "898-907"
 FEATURES             Location/Qualifiers
      source          1..13199
@@ -29,7 +29,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="kivr"
                      /product="ketoisovalerate reductase KIVR"
-                     /label=kivr
+                     /label="kivr"
                      /note="similar to ketopantoate reductases"
                      /protein_id="ACI30654.1"
                      /translation="MPSPEHPSWLSTLLADTRPPPKLFAWSPANLDSPTAVKPDRADRG
@@ -41,11 +41,12 @@ FEATURES             Location/Qualifiers
                      NHDANIDMLTSYAETVHRLVPGSDDYGRNFANIRRKLTVRFSQPILKAKLYAFGLNIRE
                      HRSSMLQDAEAGRKTEIRDVNGWIVDMAEYLGLDLDVGIHRGLIELIEECVVLDKEELA
                      RRLL"
+                     /Pfam="ApbA, ApbA_C"
      CDS             3630..13199
                      /codon_start=1
                      /gene="Beas"
                      /product="nonribosomal peptide synthetase BbBeas"
-                     /label=bbBeas
+                     /label="bbBeas"
                      /protein_id="ACI30655.1"
                      /translation="MEPLKNVNTGQPCSTVPFPVSDETVEHLNGLYEEINRRFGLDRDA
                      IETILPCTPFQYDVLDCAANDARHAVGHAMYEISQHVHVQRFIAAWRETVRRTPALRAC
@@ -102,6 +103,8 @@ FEATURES             Location/Qualifiers
                      DDDDDNHRQMLRDMQDQYLLSLPFETLDFDEVRRSCTNWPATANNYACCVTYHDFSYHP
                      ESEMEQQRVEMGVLARKDALLKEEPVYDLGIAGEVEPDGVHLQVTVVAKTRLFSEERAA
                      YLMEEVCRLFESLNSAL"
+                     /Pfam="NRPS_C, AA-adenyl-dom, ACP_PCP, PKS_NRPS_MT,
+                     NRPS_CT"
 ORIGIN
         1 ttacaacagc cttctcgcca gttcctcttt atccaaaacc acacattctt caatcaactc
        61 aatcaaccct cgatgaatgc ctacatccag atccagaccc aagtactctg ccatgtccac

@@ -1,26 +1,26 @@
-LOCUS       FBGC00365       38141 bp DNA     linear   UNA 18-FEB-2023
+LOCUS       FBGC00365              38141 bp    DNA     linear   UNA 18-FEB-2023
 DEFINITION  pyrrolopyrazine derivative.
 ACCESSION   FBGC00365
-VERSION     .
+VERSION     FBGC00365
 KEYWORDS    .
 SOURCE      Metarhizium majus ARSEF 297
   ORGANISM  Metarhizium majus ARSEF 297
+            .
 REFERENCE   1  (bases 1 to 38141)
   AUTHORS   Berry D, Mace W, Rehner SA, Grage K, Dijkwel PP, Young CA, Scott B.
   TITLE     Orthologous peramine and pyrrolopyrazine-producing biosynthetic gene
-            clusters in Metarhizium rileyi, Metarhizium majus and Cladonia 
+            clusters in Metarhizium rileyi, Metarhizium majus and Cladonia
             grayi.
   JOURNAL   Environ Microbiol 2019;21:928-939
-  PUBMED    30452111
+   PUBMED   30452111
 REFERENCE   2  (bases 1 to 38141)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Feb 18, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1111/1462-2920.14483"; journalName: "Environ Microbiol"; date: 
+  JOURNAL   Exported Feb 18, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1111/1462-2920.14483"; journalName: "Environ Microbiol"; date:
             "2019"; volume: "21"; pages: "928-939"
-COMMENT     THIRD PARTY DATABASE: This TPA record uses data from 
+            THIRD PARTY DATABASE: This TPA record uses data from
             DDBJ/EMBL/GenBank entry AZNE01000054.1.
 FEATURES             Location/Qualifiers
      source          1..38141
@@ -33,7 +33,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="ppzB"
                      /product="major facilitator superfamily transporter PpzB"
-                     /label=ppzB
+                     /label="ppzB"
                      /note="revised sequence"
                      /protein_id="DAC76717.1"
                      /translation="MTDTHGPWGVRWRAKPSFILTTVTMGLFTDLVLYGIVLPALPFIM
@@ -45,11 +45,12 @@ FEATURES             Location/Qualifiers
                      KAAATSGYAFLVPCLLLLGLPEKKLVSKEANVALFCTILALNGIGLAVVTSPGYVEAID
                      VTTKYQVANPGHFGENGPYAQLFGFSSLYFFTGLAVGPLLGGVLRAKFGYAVMGAVYAA
                      ISGVTAIVSFLFVGTRRGVCWG"
+                     /Pfam="MFS_1"
      CDS             complement(1888..3012)
                      /codon_start=1
                      /gene="ppzC"
                      /product="2OG-Fe(II)-dependent dioxygenase PpzC"
-                     /label=ppzC
+                     /label="ppzC"
                      /note="PpzC"
                      /protein_id="DAC76718.1"
                      /translation="MATDTAVTGAPETMQLRLASGNGPVTRTVLRTPLRDALPSEVPLI
@@ -59,11 +60,12 @@ FEATURES             Location/Qualifiers
                      ASLEINFYPPISTGHAVSAPADPDTRVSIGSHTDFLLFTILWQDSNGGLQVLNREGQWI
                      RASPVEGTFVVNIGDYLQRITNDKYVSTVHRAQNWSGRQRVSMPFFWGFGMHESCQVLE
                      SCCGEDGKSKYDEVRCVDWVSRRLGNLFDLSDKG"
+                     /Pfam="DIOX_N, 2OG-FeII_Oxy"
      CDS             join(4203..4409,4483..4647,4686..5363)
                      /codon_start=1
                      /gene="ppzD"
                      /product="2OG-Fe(II)-dependent dioxygenase PpzD"
-                     /label=ppzD
+                     /label="ppzD"
                      /note="PpzD"
                      /protein_id="DAC76719.1"
                      /translation="MRSVSPQSTMARIPERRVRTLDFAQFRHGEPSGSRGFCRELVDCL
@@ -73,11 +75,12 @@ FEATURES             Location/Qualifiers
                      RISEHTDFGTVTLLFQDSVGGLEIEDQNTPGTYFPVLSERKSDIIVNIGDCIQRWTNDK
                      IHSTSHRVVLPEDTDALTKDRYSVAYFGKPSRSQLVGSLREFVKEGEKPKYNDISAWQY
                      NQEKLVLTY"
+                     /Pfam="DIOX_N, 2OG-FeII_Oxy"
      CDS             6333..14732
                      /codon_start=1
                      /gene="perA"
                      /product="nonribosomal peptide synthetase PpzA"
-                     /label=ppzA
+                     /label="ppzA"
                      /protein_id="DAC76720.1"
                      /translation="MISETFCKSSADEGYTSFPIRPTSIDRPVLDKTSQCEFALFPHFC
                      NIHTLSTLSNASWALIAGQLTNSTKIILGVPSSGESTPVHDIESRTALQPAAVPLLIDW
@@ -127,14 +130,15 @@ FEATURES             Location/Qualifiers
                      YNVDNSDKWVPLCDVSTTATVIIEAALGHPSTSRTVTQVRGGLTMGEFWETLAAAGYPL
                      VGTRVAECTAAIQEDILANGENHPLGALADMLQDLEDTTNVQWADSWRKNGLCSPARLK
                      AALCKSAEFLSRVEFLPSPNLVHGRVVQETNMRAFTRSGF"
+                     /Pfam="NRPS_C, AA-adenyl-dom, ACP_PCP, PKS_NRPS_MT,
+                     NAD_binding_4"
      CDS             join(32112..32349,32410..32533,32600..32609,32675..33027,
                      33076..33130,33223..33872,33972..34035)
                      /codon_start=1
                      /gene="ppzE"
                      /product="cytochrome P450 monooxygenase PpzE"
-                     /label=ppzE
-                     /note="PpzE
-                     revised sequence"
+                     /label="ppzE"
+                     /note="PpzE revised sequence"
                      /protein_id="DAC76721.1"
                      /translation="MLSIDHVDWLELIRFVALYPFACWTLFAVANSIYRVTLHPLAKFP
                      GPKLAGASYCYEFWYEVICGIQYTQKIIKLHEQYGPIVRINPDELHFNDVDFVDVVYTA
@@ -145,11 +149,12 @@ FEATURES             Location/Qualifiers
                      SELLGKVSDPKNLPRWSSLEELPYLTAVIHEGLRSMYDPSKERLPYDPSQERLPRIATE
                      EELIYKDGSTPGKSKYVIPRGYAIGTSAHVVHSDESIFPNASQFNPERWLGRDGQRNRE
                      LERHLLSFSKGSRYCLGMHCRCTTCLALPASVRNGTRGY"
+                     /Pfam="p450"
      CDS             complement(34347..35369)
                      /codon_start=1
                      /gene="ppzF"
                      /product="hypothetical protein PpzF"
-                     /label=ppzF
+                     /label="ppzF"
                      /note="PpzF"
                      /protein_id="DAC76722.1"
                      /translation="MSANTGKPARHYLISYPRTASNLLLKILALDSQPNFSSGGFDGGY
@@ -165,9 +170,8 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="ppzG"
                      /product="cytochrome P450 monooxygenase PpzG"
-                     /label=ppzG
-                     /note="PpzG
-                     revised sequence"
+                     /label="ppzG"
+                     /note="PpzG revised sequence"
                      /protein_id="DAC76723.1"
                      /translation="MDIRTIATALFSILLAHRAFLVFYRLYLHPLAKFPGPRLAAASTL
                      YRAYYQFWRDGKLLHKTIKLHKKYGPVIRISPNELDFCDPAAYFDIYSITFNGRKDPDF
@@ -178,6 +182,7 @@ FEATURES             Location/Qualifiers
                      RAVWPDLRSPVPSYNLLHQLPLLRGVVKESIRFTHGVATGPARLVGAGGARIGGYNAVV
                      AAPSYFVHMDETVFSEPEKFEPRRWADNDYSKSLVAFSRGRRMCPAEHFSLILLFATLA
                      TVFRRFHVEPYETTVEDFKWNQYISISFSGRPLRAVLRERTE"
+                     /Pfam="p450"
 ORIGIN
         1 atgacagaca cgcatgggcc ttggggtgtc cgatggcggg ccaagccgtc ctttatcctc
        61 acgacggtaa caatgggcct cttcacggat ctcgttctct atggcattgt gcttccggcg

@@ -1,31 +1,31 @@
-LOCUS       FBGC00360       28788 bp DNA     linear   UNA 17-FEB-2023
+LOCUS       FBGC00360              28788 bp    DNA     linear   UNA 17-FEB-2023
 DEFINITION  semivioxanthin.
 ACCESSION   FBGC00360
-VERSION     .
+VERSION     FBGC00360
 KEYWORDS    .
 SOURCE      Aspergillus sp. FM242
   ORGANISM  Aspergillus sp. FM242
+            .
 REFERENCE   1  (bases 1 to 28788)
-  AUTHORS   Wang F, Sarotti AM, Jiang G, Huguet-Tapia JC, Zheng SL, Wu X, Li C, 
+  AUTHORS   Wang F, Sarotti AM, Jiang G, Huguet-Tapia JC, Zheng SL, Wu X, Li C,
             Ding Y, Cao S.
-  TITLE     Waikikiamides A-C: Complex Diketopiperazine Dimer and 
-            Diketopiperazine-Polyketide Hybrids from a Hawaiian Marine Fungal 
+  TITLE     Waikikiamides A-C: Complex Diketopiperazine Dimer and
+            Diketopiperazine-Polyketide Hybrids from a Hawaiian Marine Fungal
             Strain Aspergillus sp. FM242.
   JOURNAL   Org Lett 2020;22:4408-4412
-  PUBMED    32433885
+   PUBMED   32433885
 REFERENCE   2  (bases 1 to 28788)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Feb 17, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1021/acs.orglett.0c01411"; journalName: "Org Lett"; date: 
-            "2020"; volume: "22"; pages: "4408-4412"
+  JOURNAL   Exported Feb 17, 2023 from SnapGene 6.2.1 https://www.snapgene.com
 COMMENT     ##Assembly-Data-START##
             Assembly Method       :: Spades v. V3.11
             Coverage              :: 74
             Sequencing Technology :: Illumina
             ##Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1021/acs.orglett.0c01411"; journalName: "Org Lett"; date:
+            "2020"; volume: "22"; pages: "4408-4412"
 FEATURES             Location/Qualifiers
      source          1..28788
                      /strain="FM242"
@@ -36,7 +36,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="SvioM"
                      /product="methyltransferase SvioM"
-                     /label=svioM
+                     /label="svioM"
                      /note="revised sequence"
                      /protein_id="QKG86290.1"
                      /translation="MAPTGVAAEPASPAHHADSQEELPRPSNGTTSESLLETLSTKIQD
@@ -47,12 +47,13 @@ FEATURES             Location/Qualifiers
                      VDVGGSTCAASIALARAFPDLKFIVQDLPENAANAQAALSEQPSSIASRITFQAHNFFE
                      DQPYKGANVYLLRMILHDWPMREATSILKRLLPALKKSTRIIIMDTVLPRPGSIPSAEE
                      RLLRARDMTMLQAFNSLERDLDDWKELLKGVDERLSLVNVVQPVGSVMSAMEVAFEA"
-     CDS             complement(join(2616..3720,3780..3905,3969..4100,4192..4251,
-                     4331..4441,4493..4548,4609..4806))
+                     /Pfam="MdpA"
+     CDS             complement(join(2616..3720,3780..3905,3969..4100,
+                     4192..4251,4331..4441,4493..4548,4609..4806))
                      /codon_start=1
                      /gene="SvioL"
                      /product="laccase SvioL"
-                     /label=svioL
+                     /label="svioL"
                      /protein_id="QKG86291.1"
                      /translation="MKLSCRYQAAVLLLALAGFVSAKVVKEELTLTWEWGAPNGQAREM
                      IMMNGQFPGPTFTWDEDDDVEVIVHNQMPFNTTIHWHGLMMQDTPWSDGVPGLTQKPIE
@@ -65,11 +66,12 @@ FEATURES             Location/Qualifiers
                      GTWVDLVIQVGSLPEQPQEFPHVMHKHTGKTWQIGAGEGIWNYTSVDEAIHAEPTKFNL
                      KNPNFRDTFITSFDGPSWVVLRYQVTNPGPWLMHCHFEIHLGGGMAVAILDGVDAWPEI
                      PPEYAPDQNGFYLDADKEP"
+                     /Pfam="Cu-oxidase_3, Cu-oxidase, Cu-oxidase_2"
      CDS             join(5179..6087,6154..6465)
                      /codon_start=1
                      /gene="SvioC"
                      /product="fasciclin-like protein SvioC1"
-                     /label=svioC1
+                     /label="svioC1"
                      /note="revised sequence"
                      /protein_id="QKG86292.1"
                      /translation="MRVNWKRCRQIVRWVTRATVVVATIALGIQFFMRNLLQGGVQPLR
@@ -80,11 +82,12 @@ FEATURES             Location/Qualifiers
                      MFTDVYFQENGKGEIPLQMGSTLDLPTLVPRYNLSISIEAGDSSRFSSPLINNEVRIAQ
                      PDLVVMDGVVHKLDTVLLPPRSPRDDTEWQQQSWFGSLVHWATSSSGVNVGELVRRLEE
                      FVDVAGT"
+                     /Pfam="Fasciclin"
      CDS             join(6893..7084,7140..7647,7716..7921)
                      /codon_start=1
                      /gene="SvioC"
                      /product="short-chain dehydrogenase/reductase SvioC2"
-                     /label=svioC2
+                     /label="svioC2"
                      /note="revised sequence"
                      /protein_id="QKG86292.1"
                      /translation="MTFKASEVPLQNNELFDVSDCVAVITGGGTGMGLMMAKALEANGA
@@ -93,11 +96,12 @@ FEATURES             Location/Qualifiers
                      NKVRAEQAKVKGRKDYVRSQVVMLSSVGGFGRDNSAFIYGASKAGTTQMTKNLSTYLIP
                      WKIRANVIAPGYFHTEMTEGFYKSTGGKLPASMAPEERFGDVQEIGGTILYLASKAGAY
                      CNGSVMLADGGYLGNHPSAY"
+                     /Pfam="adh_short"
      CDS             complement(join(8122..8323,8389..9101))
                      /codon_start=1
                      /gene="SvioX"
                      /product="hypothetical protein SvioX"
-                     /label=SvioX
+                     /label="SvioX"
                      /protein_id="QKG86293.1"
                      /translation="MLAPRPIHVSRIATTRRLVTARSRSLSPLGLQLRPLCRQLSMSSP
                      LQRQQLWANAPFALITDTGIDARPEIPRDHYAYELARMMAHIHNLLLRALNASYNQCLS
@@ -105,11 +109,12 @@ FEATURES             Location/Qualifiers
                      ELQNFRDYIFDTDPKAYSGTQLKSLLECLGPLVQEHLHHEIATLLDLHVVDSKALKGVF
                      GMAQRGSSGEPHDIFKDIPFTLTCEDTTLQLDGKVTPPFLGSFARQLLKWTVGWRYPGV
                      WRFAPSDFLGNPRPLLFPNPSNP"
+                     /Pfam="Hemerythrin"
      CDS             complement(join(9881..10922,10980..11413,11472..11630))
                      /codon_start=1
                      /gene="SvioT"
                      /product="major facilitator superfamily transporter SvioT1"
-                     /label=svioT1
+                     /label="svioT1"
                      /note="revised sequence"
                      /protein_id="QKG86294.1"
                      /translation="MTVSTETPPTAEANPSTKASDGETTQNENNHASGSRLALIMTAIL
@@ -122,12 +127,13 @@ FEATURES             Location/Qualifiers
                      VLYGLGLGVGMQQPSMAAQTVLQWKDVSIGVSIMFFMQSLGGSIFNCISQALFTNYIRA
                      HLAAIPGLDAEKVLATGAAELSKVIPADRLPQVVEIYNEGLRRAFIVVLAVSCLTILPA
                      LGMEWRSVKQKREQAKQEHQSDTKDDA"
+                     /Pfam="MFS_1"
      CDS             complement(join(12135..13064,13129..13255,13341..13635,
                      13700..13730,13788..13816,13877..14005,14106..14145))
                      /codon_start=1
                      /gene="SvioT"
                      /product="FAD-dependent monooxygenase SvioT2"
-                     /label=svioT2
+                     /label="svioT2"
                      /note="revised sequence"
                      /protein_id="QKG86294.1"
                      /translation="MSEKSPSVAVLGLGALGLVAMKNMLEEGFNVTGFDRNPYVGGLWH
@@ -140,12 +146,13 @@ FEATURES             Location/Qualifiers
                      MALAQVWKGRSPLPSKEEMRRSVDEQHKWIASLANNGPVTPGLVSGVDWLEWVDQAAGL
                      GLQANLGYGMKGWYFWLTDHELCNMVMDGLLLPFHYRLFDAGKRKPWKEARESIIKVNR
                      ELREKNWYP"
+                     /Pfam="FMO-like"
      CDS             join(14825..15114,15189..15471,15525..18938,19010..19216,
                      19274..19831,19896..21593,21667..21720)
                      /codon_start=1
                      /gene="SvioA"
                      /product="polyketide synthase SvioA"
-                     /label=svioA
+                     /label="svioA"
                      /note="revised sequence"
                      /protein_id="QKG86295.1"
                      /translation="MVDQLHVYLFGDQTFEVSTKLPPLLHSKTSPLLEAFFEQAYHALR
@@ -185,13 +192,15 @@ FEATURES             Location/Qualifiers
                      AYRAAQKLINAGETVHNLLLIDSPVPKGLDKLPQHFYDYCNKLQLFGQPTTTTSGSAAA
                      KPPAWLVPHFNATIDALHEYFATPLPVGKTPRTSIIWACESVMDGKIVPKMPPHPDDTE
                      GMKFLTETRTDFSASGWEALFPGGRIIVDRTEGSNHFSMMRREHGAKLAEFIAQALA"
+                     /Pfam="SAT2, PKS_KS, PKS_AT, fPKS_PT, ACP_PCP,
+                     Thioesterase"
      gap             22005..22014
                      /estimated_length=10
      CDS             24230..25588
                      /codon_start=1
                      /gene="SvioR1"
                      /product="transcription factor SvioR1"
-                     /label=svioR1
+                     /label="svioR1"
                      /protein_id="QKG86296.1"
                      /translation="MDVPCAERNASPASPQALPSKRVESIRASCDNCAKSKVRCSKEQP
                      RCQRCIYQGANCIYSPSQRARKRPLDAFHARPRRRDTSNGPMNAAATRDTALFGGDSIE
@@ -201,11 +210,12 @@ FEATURES             Location/Qualifiers
                      CSCAAKSDLVLLITMVCSQILCWYQASLDRSASNNKYSSGSSNSISSSNGSSATHSRGS
                      SAVTSTLRDDMPPSPFERVSIPSIRIGMYTLDHEHSDRMVAQLILTELMRMKEVVEVFS
                      RTYCYRGDYPTKYTSRGAVSEESRSHLHQALEAFLRSRLKKAVRTACERLNPR"
+                     /Pfam="AflR"
      CDS             join(26197..26660,26717..26744,26803..27282,27355..28788)
                      /codon_start=1
                      /gene="SvioR2"
                      /product="transcription factor SvioR2"
-                     /label=svioR2
+                     /label="svioR2"
                      /note="revised sequence"
                      /protein_id="QKG86297.1"
                      /translation="MADSQPLGPGSTITTPSSQGPNPPKSHSCVTCQRRKVKCSRQQPC
@@ -222,6 +232,7 @@ FEATURES             Location/Qualifiers
                      LHVAIRNLIFKAWKGHVVTCEQRGIPSQPCPDLVAPWLQLGLGESQSVAAAPPPPLSVP
                      LHQQETPSSRALYYVENTQQTLDRECSLAGNTHATSPPLQSSSTPFQQQQGPGTGIGVG
                      TSAEEMEFVAMGGVPALDVSPINWEQWDDLLQQFQQECWSENPLLSQL"
+                     /Pfam="EqxR, Fungal_trans"
 ORIGIN
         1 tcacgcctcg aaagcaactt ccatagccga catcacgctc ccaaccggtt gcaccacatt
        61 tacgagagag agtctctcgt cgacgccctt cagcaattcc ttccaatcat cgagatctcg

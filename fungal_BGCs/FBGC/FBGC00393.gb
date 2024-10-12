@@ -1,42 +1,43 @@
-LOCUS       FBGC00393       23873 bp DNA     linear   UNA 11-MAY-2023
+LOCUS       FBGC00393              23873 bp    DNA     linear   UNA 11-MAY-2023
 DEFINITION  14-deacetyl astellolide A.
 ACCESSION   FBGC00393
-VERSION     .
+VERSION     FBGC00393
 KEYWORDS    .
 SOURCE      Aspergillus oryzae RIB40
   ORGANISM  Aspergillus oryzae RIB40
+            .
 REFERENCE   1  (bases 1 to 23873)
   AUTHORS   Shinohara Y, Takahashi S, Osada H, Koyama Y.
-  TITLE     Identification of a novel sesquiterpene biosynthetic machinery 
+  TITLE     Identification of a novel sesquiterpene biosynthetic machinery
             involved in astellolide biosynthesis.
   JOURNAL   Sci Rep 2016;6:32865
-  PUBMED    27628599
+   PUBMED   27628599
 REFERENCE   2  (bases 1 to 23873)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported May 11, 2023 from SnapGene 6.2.2
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: "10.1038/srep32865";
+  JOURNAL   Exported May 11, 2023 from SnapGene 6.2.2 https://www.snapgene.com
+COMMENT     ##Genome-Assembly-Data-START##
+            Assembly Method     :: Phred/Phrap software
+            Assembly Name       :: Aoryzae_assembly02
+            ##Genome-Assembly-Data-END##
+            ##Genome-Annotation-Data-START##
+            Annotation Provider :: INSDC submitter
+            Annotation Status   :: Full annotation
+            Annotation Pipeline :: Eukaryotic Annotation Propagation Pipeline
+            ##Genome-Annotation-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi: "10.1038/srep32865";
             journalName: "Sci Rep"; date: "2016"; volume: "6"; pages: "32865"
-COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final 
+            PROVISIONAL REFSEQ: This record has not yet been subject to final
             NCBI review. The reference sequence is identical to BA000051.
             This genome assembly has been updated so
             as to reflect the location and orientation of
             contigs on the chromosomes. Gap lengths were
             estimated using the results from Optical
-            Mapping (http://www.bio.nite.go.jp/dogan/project/view/AO). This 
-            Aspergillus oryzae RIB40 genome consists of a nuclear genome 
-            assembly represented by eight chromosomes (assembled from 24 
-            entries) and three unplaced contigs (AP007156, AP007160 and 
-            AP007177) and a complete mitochondrial genome 
-            (AP007176).##Genome-Assembly-Data-START##
-            Assembly Method :: Phred/Phrap software
-            Assembly Name   :: Aoryzae_assembly02
-            ##Genome-Assembly-Data-END####Genome-Annotation-Data-START##
-            Annotation Provider :: INSDC submitter
-            Annotation Status   :: Full annotation
-            Annotation Pipeline :: Eukaryotic Annotation Propagation Pipeline 
-            ##Genome-Annotation-Data-END##
+            Mapping (http://www.bio.nite.go.jp/dogan/project/view/AO). This
+            Aspergillus oryzae RIB40 genome consists of a nuclear genome
+            assembly represented by eight chromosomes (assembled from 24
+            entries) and three unplaced contigs (AP007156, AP007160 and
+            AP007177) and a complete mitochondrial genome
 FEATURES             Location/Qualifiers
      source          1..23873
                      /chromosome="3"
@@ -48,7 +49,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="AO090026000585"
                      /product="nonribosomal peptide synthetase AstA"
-                     /label=astA
+                     /label="astA"
                      /note="unnamed protein product; non-ribosomal peptide
                      synthetase modules and related proteins"
                      /db_xref="GeneID:5994043"
@@ -76,11 +77,12 @@ FEATURES             Location/Qualifiers
                      GNTVVVFNEMLNGRDVVPLEDTEPVVGACHSIVPVCVHFPLPQSGRTPRELLSALQEQH
                      LASLTFTTLDRDYLIQNCTEWTSHQSGFILAYQNFPEICDLVIGEDLSCQWASQVLDLA
                      EPGEAWVTATPLPGALQISLRVSTAAMDEQEANAWISALGQTIIRFLDSPDSVL"
+                     /Pfam="NRPS_C, AA-adenyl-dom, ACP_PCP, NRPS_CT"
      CDS             complement(4989..6530)
                      /codon_start=1
                      /locus_tag="AO090026000584"
                      /product="cytochrome P450 monooxygenase AstB"
-                     /label=astB
+                     /label="astB"
                      /note="unnamed protein product; cytochrome P450 CYP2
                      subfamily"
                      /db_xref="GeneID:5994042"
@@ -94,12 +96,13 @@ FEATURES             Location/Qualifiers
                      FVKEVLRWRPLVLAATHSVTQDDDYRGYRIPRHAVILSNQWAMDMDREVWDSPEQFRPD
                      RWMSDRKRMPSAFGLGQRMCAGQYMAMESLLIMASRMLWAFTFEHAWEGGKRVEIDSWA
                      FHEESLFLVPKPYRARIQPRDPHRLHVIQSTWQAAEKDIDPLLDQIGREIHTASA"
+                     /Pfam="p450"
      CDS             complement(join(7346..7867,7932..8077,8133..8182,
                      8252..8976))
                      /codon_start=1
                      /locus_tag="AO090026000582"
                      /product="HAD-like terpene cyclase AstC"
-                     /label=astC
+                     /label="astC"
                      /note="unnamed protein product; predicted protein"
                      /db_xref="GeneID:5994041"
                      /protein_id="XP_023091084.1"
@@ -112,12 +115,13 @@ FEATURES             Location/Qualifiers
                      TLAWVRQVLIRRAYINGTAFYPMPEAFLYFFFRFLQHITHLPQLYDGLKVLLKERLQER
                      VGVPVDPISLSMRLIACNGVGIHDRMGLNALLSMQNPDGSWDLGTMYHYASKRLPIGNQ
                      GVSTAMAIKAIKQCQANQCAGI"
+                     /Pfam="AstC"
      CDS             join(9938..10021,10084..11190,11250..11416,11472..11652)
                      /codon_start=1
                      /locus_tag="AO090026000581"
                      /product="cytochrome P450 monooxygenase AstD"
-                     /label=astD
-                     /note="unnamed protein product; cytochrome P450 
+                     /label="astD"
+                     /note="unnamed protein product; cytochrome P450
                      CYP3/CYP5/CYP6/CYP9 subfamilies"
                      /db_xref="GeneID:5994040"
                      /protein_id="XP_001822012.3"
@@ -130,13 +134,14 @@ FEATURES             Location/Qualifiers
                      STFKEEQEINLLSVNQLKYLHAVIQEALRFCPPISNGFPRQTPPQGATVDGMFIPGKTV
                      VNINHWAAYRSPRNFTLPEQFLPERWLGDPRFDEDAKDVFQPFSVGPRNCIGKKFAYDS
                      MKLILAKFLWRFKPTLLDKSRSWLAHQPTFVSFHQPPLLVDLEIKGSDAFPVRE"
+                     /Pfam="p450"
      CDS             12716..13501
                      /codon_start=1
                      /locus_tag="AO090026000580"
                      /product="short-chain dehydrogenase/reductase AstE"
-                     /label=astE
+                     /label="astE"
                      /note="unnamed protein product; dehydrogenases with
-                     different specificities (related to short-chain alcohol 
+                     different specificities (related to short-chain alcohol
                      dehydrogenases)"
                      /db_xref="GeneID:5994039"
                      /protein_id="XP_001822011.1"
@@ -145,11 +150,12 @@ FEATURES             Location/Qualifiers
                      SPIAELHEDHWQKIIGVNLVGVAFCLKWELQQMIQQGGGGSIINISSATINRPQEKMSA
                      YIAAKHGITGLTQTAAVENGRHGIRVNALAPGGVATDLTMATMQELGLTEENEAARSSL
                      FKRFAKPEEIAQSVLWLASDAASYVTGATIAVDSGLSLI"
+                     /Pfam="adh_short_C2"
      CDS             complement(13922..15487)
                      /codon_start=1
                      /locus_tag="AO090026000579"
                      /product="cytochrome P450 monooxygenase AstF"
-                     /label=astF
+                     /label="astF"
                      /note="unnamed protein product; cytochrome P450 CYP2
                      subfamily"
                      /db_xref="GeneID:5994038"
@@ -164,13 +170,14 @@ FEATURES             Location/Qualifiers
                      TYQHADQFCPERWIERPDLPLGVFGYGRRACAGRRLALMSLETLIPKLLWAFDFRSPAG
                      TDHGKSRDPGTEHQGALIKPRSFPVSWHPVSNDRRLIIERLFQERDKDLDTVLDDIGKA
                      FERY"
+                     /Pfam="p450"
      CDS             16076..17548
                      /codon_start=1
                      /locus_tag="AO090026000578"
                      /product="acetyltransferase AstG"
-                     /label=astG
-                     /note="unnamed protein product; predicted protein
-                     revised sequence"
+                     /label="astG"
+                     /note="unnamed protein product; predicted protein revised
+                     sequence"
                      /db_xref="GeneID:5994037"
                      /protein_id="XP_023091083.1"
                      /translation="MGEQTEFEPIQLSPLDQAIPPVYIRILLCFSVVNVDRAISQLQTG
@@ -182,11 +189,12 @@ FEATURES             Location/Qualifiers
                      NVNVFRRTQVTNESIEGVDSKDIEHKQWLATICRVARNIRRGVNGMDDSYFRSVVSFLE
                      DSSDCRLFDYARCDFCVPSWRHLCVYHADFGEMGRPKSLEVFDVPGDGSFCILPQHYGA
                      AAPWEVCFSVNSQVLGRLRRDPILSRYISHEN"
+                     /Pfam="Transferase"
      CDS             join(18194..18448,18519..19325,19379..20011)
                      /codon_start=1
                      /locus_tag="AO090026000577"
                      /product="major facilitator superfamily transporter AstH"
-                     /label=astH
+                     /label="astH"
                      /note="unnamed protein product; predicted transporter
                      (major facilitator superfamily)"
                      /db_xref="GeneID:5994036"
@@ -201,11 +209,12 @@ FEATURES             Location/Qualifiers
                      PFMVIAPLIAAIGAGLLSTLRMDSNNASWIGYQILYGVGVGCGLQQPIVAVQGSLAPAD
                      LPTGTVIVMFMQTIGGAIFMSVGQNVFQNQLMRNLATQAPSVDAARVLQAGATMLRKTV
                      SSDLLPAALRAYNSAITEAFYVAVAMAVLALPGALVMQWISVKGRQL"
+                     /Pfam="MFS_1"
      CDS             20512..21117
                      /codon_start=1
                      /locus_tag="AO090026000576"
                      /product="phosphatase AstI"
-                     /label=astI
+                     /label="astI"
                      /note="unnamed protein product; predicted protein"
                      /db_xref="GeneID:5994035"
                      /protein_id="XP_001822007.1"
@@ -213,13 +222,14 @@ FEATURES             Location/Qualifiers
                      VYHSYERGQLSTEECHRLLGESLHVDPGQIKEAFDLARQSLRSNPALLDFIRQLKQTRG
                      VAVYAMSNIPQAEIEYLKESRAGDMEVFDEVFASGYVGSRKPETEFYRRVMGEIGLKAE
                      RVVFVDDKEENVDVARGLGLYGVCFGGVEELRGHLLGI"
+                     /Pfam="AstC"
      CDS             complement(join(21178..21349,21406..21581,21653..22762,
                      22818..22883))
                      /codon_start=1
                      /locus_tag="AO090026000575"
                      /product="cytochrome P450 monooxygenase AstJ"
-                     /label=astJ
-                     /note="unnamed protein product; cytochrome P450 
+                     /label="astJ"
+                     /note="unnamed protein product; cytochrome P450
                      CYP3/CYP5/CYP6/CYP9 subfamilies"
                      /db_xref="GeneID:5994034"
                      /protein_id="XP_023091082.1"
@@ -232,14 +242,16 @@ FEATURES             Location/Qualifiers
                      ETDINFLSAAQLPYMNGVIEESLRLFPPAPGIGPRVVPKGGARICGRYVPGGVSVSVGH
                      YSTFRSARNFTRPNEFLPQRWLDRDAESEFASDQTMALQPFSYGPRACIGRNLAYAEMR
                      TILAKILWHFDVQLDERSADWANSKSYIVWEKGPLWLKLHPRNVPQETD"
+                     /Pfam="p450"
      CDS             23283..23873
                      /codon_start=1
                      /product="phosphatase AstK"
-                     /label=astK
+                     /label="astK"
                      /translation="MCTTFKAAIFDMGGVLFTWNPIVDTQVSLKDLGTIINSETWEQFE
                      RGKIEPDDCYHQLGSQIGLPGSEIAATFRQTTGCLRPDARMTSLLRELKGQGVAVYMMT
                      NIPAPDFHQLREMHYEWDLFDGIFASALEGMRKPDLEFYEHVLKQIDTSAAETIFVDDK
                      LENVIAAQAVGMVGLHLTDSLATCMELRQLVGC"
+                     /Pfam="AstC"
 ORIGIN
         1 ttataaaaca ctatcaggag aatcaagaaa ccgaatgata gtttgaccca gcgctgaaat
        61 ccatgcattg gcctcttgct cgtccattgc tgcagtggac acgcgtagac tgatctgcaa

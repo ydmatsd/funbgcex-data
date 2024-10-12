@@ -1,24 +1,24 @@
-LOCUS       FBGC00352       17488 bp DNA     linear   UNA 19-APR-2023
+LOCUS       FBGC00352              17488 bp    DNA     linear   UNA 19-APR-2023
 DEFINITION  chrysogine.
 ACCESSION   FBGC00352
-VERSION     .
+VERSION     FBGC00352
 KEYWORDS    .
 SOURCE      Fusarium graminearum PH-1
   ORGANISM  Fusarium graminearum PH-1
+            .
 REFERENCE   1  (bases 1 to 17488)
-  AUTHORS   Wollenberg RD, Saei W, Westphal KR, Klitgaard CS, Nielsen KL, Lysøe 
+  AUTHORS   Wollenberg RD, Saei W, Westphal KR, Klitgaard CS, Nielsen KL, Lysøe
             E, Gardiner DM, Wimmer R, Sondergaard TE, Sørensen JL.
-  TITLE     Chrysogine Biosynthesis Is Mediated by a Two-Module Nonribosomal 
+  TITLE     Chrysogine Biosynthesis Is Mediated by a Two-Module Nonribosomal
             Peptide Synthetase.
   JOURNAL   J Nat Prod 2017;80:2131-2135
-  PUBMED    28708398
+   PUBMED   28708398
 REFERENCE   2  (bases 1 to 17488)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Apr 19, 2023 from SnapGene 6.2.2
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1021/acs.jnatprod.6b00822"; journalName: "J Nat Prod"; date: 
+  JOURNAL   Exported Apr 19, 2023 from SnapGene 6.2.2 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1021/acs.jnatprod.6b00822"; journalName: "J Nat Prod"; date:
             "2017"; volume: "80"; pages: "2131-2135"
 FEATURES             Location/Qualifiers
      source          1..17488
@@ -32,7 +32,7 @@ FEATURES             Location/Qualifiers
                      /locus_tag="FGRAMPH1_01T21957"
                      /old_locus_tag="FGSG_11394"
                      /product="glutaminase Chry6"
-                     /label=chry6
+                     /label="chry6"
                      /note="unnamed protein product"
                      /db_xref="EnsemblGenomes-Gn:FGRAMPH1_01T21957"
                      /db_xref="InterPro:IPR017926"
@@ -44,12 +44,13 @@ FEATURES             Location/Qualifiers
                      QQAIALALGGALGKSDKGQIVGIADIPLTPEGTKFFESPSLTIHKNHEILVTDIGPHLL
                      PLALNNEVLMSKDGQVLTFQGHPEMDSVLSRLFVASDNPVLVGAGSDSGLKPIDSPHDG
                      EIIFERIVRWASPETAHS"
+                     /Pfam="GATase"
      CDS             complement(join(1126..7860,7917..8076,8124..8374))
                      /codon_start=1
                      /locus_tag="FGRAMPH1_01T21959"
                      /old_locus_tag="FGSG_11395"
                      /product="nonribosomal peptide synthetase Chry1"
-                     /label=chry1
+                     /label="chry1"
                      /note="unnamed protein product"
                      /db_xref="EnsemblGenomes-Gn:FGRAMPH1_01T21959"
                      /db_xref="GOA:I1S3K7"
@@ -102,13 +103,14 @@ FEATURES             Location/Qualifiers
                      EDRIIGPCLNIIPVRVHFPSSPEKHDLLSQVQQQHVQTMAVQNLGLGEITRNCTTWESG
                      TRFGSFIRFQNFTNSQESTCDFDGHACETGLYSLPNRPSKTADVLVAPKGSRLSIAMTV
                      SSEVMDEEAADYVVRYFGDVMESLSRDEEACSYLC"
+                     /Pfam="NRPS_C, AA-adenyl-dom, ACP_PCP, NRPS_CT"
      CDS             join(9969..10134,10192..10649,10705..10788,10839..11100,
                      11148..11339,11390..12243)
                      /codon_start=1
                      /locus_tag="FGRAMPH1_01T21961"
                      /old_locus_tag="FGSG_11396"
                      /product="amidotransferase Chry2"
-                     /label=chry2
+                     /label="chry2"
                      /note="unnamed protein product"
                      /db_xref="EnsemblGenomes-Gn:FGRAMPH1_01T21961"
                      /db_xref="GOA:I1S3K8"
@@ -132,12 +134,13 @@ FEATURES             Location/Qualifiers
                      PHFILRYNGDNIDMVHQVESRCPFLDHHLTEYVNNVPPSLKMRYNAKDKSWREKHILRE
                      AVKPFVTDEVYNMSKKAYMGPRKFWPGGPLHKKISELVTKANVENLGFVDWQATQDAMD
                      GAFNKQEGLALRRIITVAQFVVLGQRFGVKRASGRR"
+                     /Pfam="GATase_7, Asn_synthase"
      CDS             complement(12479..13618)
                      /codon_start=1
                      /locus_tag="FGRAMPH1_01T21963"
                      /old_locus_tag="FGSG_11397"
                      /product="2OG-Fe(II)-dependent dioxygenase Chry3"
-                     /label=chry3
+                     /label="chry3"
                      /note="unnamed protein product"
                      /db_xref="EnsemblGenomes-Gn:FGRAMPH1_01T21963"
                      /db_xref="UniProtKB/TrEMBL:A0A098E171"
@@ -149,12 +152,13 @@ FEATURES             Location/Qualifiers
                      FALFSIWRPLKTVHRDPLALSSAASFPVSDYVPCDQREPTDHSIPSHLYRIVGRDDENI
                      DKNDDTYQTQSYLAYAPRDAEKTSHAWHYISEQQPSDVLVIQLFDNEMEGHARAPLEGG
                      KGKSDLGVGGAVHSAFELVDQDEDAEARESIEVRVAAFW"
+                     /Pfam="NvfI"
      CDS             14346..15125
                      /codon_start=1
                      /locus_tag="FGRAMPH1_01T21965"
                      /old_locus_tag="FGSG_11398"
                      /product="short-chain dehydrogenase/reductase Chry4"
-                     /label=chry4
+                     /label="chry4"
                      /note="unnamed protein product"
                      /db_xref="EnsemblGenomes-Gn:FGRAMPH1_01T21965"
                      /db_xref="InterPro:IPR002347"
@@ -166,15 +170,15 @@ FEATURES             Location/Qualifiers
                      VSPYIFAALLNPPKRLIFIASVLHHEADTSLKDIFWLERGEKEWKDFPAYCDAKFHVVL
                      LVNAIARRFKDTSVIAVHPGYVPTKLAGQDAPGKMEDGIETYVMLAEGDYDTSLTGVYF
                      DPKKERAQPHALTADLDKQEAVVKACEELTGIKLPSP"
+                     /Pfam="adh_short"
      CDS             complement(join(15741..16376,16431..16825,16895..17111,
                      17252..17488))
                      /codon_start=1
                      /locus_tag="FGRAMPH1_01T21967"
                      /old_locus_tag="FGSG_11399"
                      /product="FAD-linked oxidoreductase Chry5"
-                     /label=chry5
-                     /note="unnamed protein product
-                     revised sequence"
+                     /label="chry5"
+                     /note="unnamed protein product revised sequence"
                      /db_xref="EnsemblGenomes-Gn:FGRAMPH1_01T21967"
                      /db_xref="GOA:I1S3L1"
                      /db_xref="InterPro:IPR006094"
@@ -193,6 +197,7 @@ FEATURES             Location/Qualifiers
                      GAMNPRFPIYLQDYNPAAQKKAFNYFADNIRGDSIFNGSLVTFDGYSTEGVKAIDSKST
                      AFAYRNQNILVGPLLSYQSNGTATDEKASEIGHKVRDILHEGTGRDTVPVYVNYAFGDE
                      GPKEWYGSEAWRQSRLQELKEAYDPKGMFSFYAPIA"
+                     /Pfam="FAD_binding_4, BBE"
 ORIGIN
         1 tcaactgtgg gcagtctcgg gagacgccca tctaacgatt ctctcaaaaa tgatttcacc
        61 gtcgtgaggc gagtcaatgg gtttcaagcc gctgtcggat cctgctccca ccaagactgg
