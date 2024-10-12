@@ -1,45 +1,45 @@
-LOCUS       FBGC00626       18590 bp DNA     linear   UNA 14-APR-2023
+LOCUS       FBGC00626              18590 bp    DNA     linear   UNA 14-APR-2023
 DEFINITION  chamiside A.
 ACCESSION   FBGC00626
-VERSION     .
+VERSION     FBGC00626
 KEYWORDS    .
 SOURCE      Amesia nigricolor F5
   ORGANISM  Amesia nigricolor F5
+            .
 REFERENCE   1  (bases 1 to 18590)
   AUTHORS   Wang HH, Li G, Qiao YN, Sun Y, Peng XP, Lou HX.
-  TITLE     Chamiside A, a Cytochalasan with a Tricyclic Core Skeleton from the 
+  TITLE     Chamiside A, a Cytochalasan with a Tricyclic Core Skeleton from the
             Endophytic Fungus Chaetomium nigricolor F5.
   JOURNAL   Org Lett 2019;21:3319-3322
-  PUBMED    30983364
+   PUBMED   30983364
 REFERENCE   2  (bases 1 to 18590)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Apr 14, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1021/acs.orglett.9b01065"; journalName: "Org Lett"; date: 
-            "2019"; volume: "21"; pages: "3319-3322"
+  JOURNAL   Exported Apr 14, 2023 from SnapGene 6.2.1 https://www.snapgene.com
 COMMENT     ##Genome-Assembly-Data-START##
             Assembly Method        :: HGAP v. 2.3
             Genome Representation  :: Full
             Expected Final Version :: Yes
             Genome Coverage        :: 336.0x
-            Sequencing Technology  :: PacBio; Illumina HiSeq 
+            Sequencing Technology  :: PacBio; Illumina HiSeq
             ##Genome-Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1021/acs.orglett.9b01065"; journalName: "Org Lett"; date:
+            "2019"; volume: "21"; pages: "3319-3322"
 FEATURES             Location/Qualifiers
      source          1..18590
                      /strain="F5"
                      /mol_type="genomic DNA"
                      /country="China: Qingdao"
                      /isolation_source="root of Mahonia fortunei"
-                     /collection_date=4-Jan-2017
+                     /collection_date="4-Jan-2017"
                      /db_xref="taxon:1934353"
                      /organism="Amesia nigricolor"
                      /submitter_seqid="Scaffold3"
      CDS             join(1..327,396..574,639..1369,1438..1859)
                      /codon_start=1
                      /product="cytochrome P450 monooxygenase CseD"
-                     /label=cseD
+                     /label="cseD"
                      /translation="MLGSQFIQDVLEEWARLQESVLVARQALAGLRLSRWQLMRLLATQ
                      IWRELSPTSALVLVGVAALLAWTMSKTFGRASKSPVEEMGIPLIKKSIFDKVDFREMME
                      DNAKRFPDRPFGIRAFGADYVVFPSKFFNEVKRIPITHGSILYYARQTFDHKWSGIAAH
@@ -50,10 +50,11 @@ FEATURES             Location/Qualifiers
                      VMRESVRFNPFGSMVLFRRIMKPVKLSAGPDLPVGTIICVDSHNINFSPELWEEPHKFD
                      ALRHYRERQKPGKESRFKFANLGSDSPNWGDGPQACPGRMFADNTIKIILTHILTHYDM
                      RLVPGKGKPPKRWLPNGSAYPDSSAKVEFRSRRVV"
+                     /Pfam="p450"
      CDS             complement(2293..3555)
                      /codon_start=1
                      /product="Diels-Alderase CseC"
-                     /label=cseC
+                     /label="cseC"
                      /translation="MKARATGAVLLSLASLAASWEYSWPEEWNQDWPDNEEAWSSEECT
                      LSTMGQFEMQKGRKPVYFSTDPLDDPEAPKIFPLNSTGSEQYEFDGVSEDGLLAFCLGF
                      YRDPNYAVLGTGNLRLSAEFSRPGNATRFVRVDYATSSTIESCPWGTRGTWKGDDFSYT
@@ -62,10 +63,11 @@ FEATURES             Location/Qualifiers
                      IDKGRQTPTTVLAKDGEVIFSSTLHEESATEDYAIFTKTYDGRVRGNLKDKATGYDLIM
                      VSPSRQKQWSFSILNEGIGFEYMLGEGVGGTGFSGKAFGGSIGLKQYFGPAFAETLEFP
                      KKSYLFKSNYVDPVPEEKGEL"
+                     /Pfam="Fsa2"
      CDS             join(4061..4623,4686..5220)
                      /codon_start=1
                      /product="trans-acting enoylreductase CseB"
-                     /label=cseB
+                     /label="cseB"
                      /translation="MAPESFQIPETHGALLQGERGSRIIARDIPVPELGPGHILVKTAA
                      VALNPCDFKTPLAFPNPGHYIGCDFSGTVVALGAENVRDGGPWKIGDRVFGAIHGANPS
                      DRDSGAHSEYAKAASVWTWRIPDWMTFEEAAGLSPCCIATIGLTLFKVLELPGTFEEPA
@@ -73,11 +75,12 @@ FEATURES             Location/Qualifiers
                      QDIRKATRNCLKYAVDPFGEVKTMSICVDAIGRTGGRYASLEKFQEDVCNRKTVRRELV
                      LGPTIVGKGFDLGGGYTRPPEPELGAWGVKWYRGIQRLIDEKKFKPHPIHLMKGGLEAM
                      DMGLSMLQRKEVSAQKLVVSLGSSN"
+                     /Pfam="fPKS_ER"
      CDS             join(6405..7703,7811..13727,13792..18590)
                      /codon_start=1
-                     /product="polyketide synthase-nonribosomal peptide 
+                     /product="polyketide synthase-nonribosomal peptide
                      synthetase CseA"
-                     /label=cseA
+                     /label="cseA"
                      /translation="MSREPIAVIGSGCRFPGGADTPSKLWDVLRSTPDLKREIPNERFN
                      ANRYYHPDGAHHGTTNVRHSYFLDGDFKAFDAGFFGIKPAEALAMDPQHRLLLETVYES
                      LESAGLPFEDLRGSQTGVFVGNMSADFVDLMVQDMDTLPTYFGPGSARSILSNRISYVF
@@ -147,6 +150,8 @@ FEATURES             Location/Qualifiers
                      RFAKRLGAVPESRGWKGYLDLVSVGRVAEMVVETVVVAQEGGESGVRYRYESGEMVYPL
                      SGMREMKEFAVGGVQVKTLALEEWVEEAVKVGFNPLLGEYLKSSAVGDARAGWAFPKLV
                      SSRSMM"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_DH, PKS_NRPS_MT, fPKS_KR,
+                     ACP_PCP, Condensation, AA-adenyl-dom, fPKS_R"
 ORIGIN
         1 atgctgggct cccagttcat tcaggatgtg ctggaggagt gggctcgtct ccaggaaagc
        61 gttctcgtcg ctcgccaggc tcttgccggt cttcgcctga gccgatggca gttgatgcgc

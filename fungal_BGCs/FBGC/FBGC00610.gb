@@ -1,26 +1,26 @@
-LOCUS       FBGC00610       84810 bp DNA     linear   UNA 09-MAY-2023
+LOCUS       FBGC00610              84810 bp    DNA     linear   UNA 09-MAY-2023
 DEFINITION  BII-rafflesfungin.
 ACCESSION   FBGC00610
-VERSION     .
+VERSION     FBGC00610
 KEYWORDS    .
 SOURCE      Phoma sp. F3723
   ORGANISM  Phoma sp. F3723
+            .
 REFERENCE   1  (bases 1 to 84810)
   AUTHORS   Sinha S, Nge CE, Leong CY, Ng V, Crasta S, Alfatah M, Goh F, Low KN,
-            Zhang H, Arumugam P, Lezhava A, Chen SL, Kanagasundaram Y, Ng SB, 
+            Zhang H, Arumugam P, Lezhava A, Chen SL, Kanagasundaram Y, Ng SB,
             Eisenhaber F, Eisenhaber B.
-  TITLE     Genomics-driven discovery of a biosynthetic gene cluster required 
-            for the synthesis of BII-Rafflesfungin from the fungus Phoma sp. 
+  TITLE     Genomics-driven discovery of a biosynthetic gene cluster required
+            for the synthesis of BII-Rafflesfungin from the fungus Phoma sp.
             F3723.
   JOURNAL   BMC Genomics 2019;20:374
-  PUBMED    31088369
+   PUBMED   31088369
 REFERENCE   2  (bases 1 to 84810)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported May 9, 2023 from SnapGene 6.2.2
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1186/s12864-019-5762-6"; journalName: "BMC Genomics"; date: 
+  JOURNAL   Exported May 9, 2023 from SnapGene 6.2.2 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1186/s12864-019-5762-6"; journalName: "BMC Genomics"; date:
             "2019"; volume: "20"; pages: "374"
 FEATURES             Location/Qualifiers
      source          1..84810
@@ -32,7 +32,7 @@ FEATURES             Location/Qualifiers
      CDS             complement(join(1..395,446..1007))
                      /codon_start=1
                      /product="peroxidase Orf-k"
-                     /label=orf-k
+                     /label="orf-k"
                      /note="similar to Ascochyta rabiei KZM26722 heme binding"
                      /protein_id="QCC62988.1"
                      /translation="MYISNIFLTALAATSTAQAFSIKGEAHNASEISKRTLGKIFGTLS
@@ -41,14 +41,14 @@ FEATURES             Location/Qualifiers
                      SSTANALGVLPSGFAKGGDLIKLFASKGFSPIDLAALLGAHTAAKQRITAPNSPQELDS
                      TVGTWDNKYYSETKSGKAPFTLPSDKSVAQNPLTMLPFNTFALSKGAWDLAFVRAMTKM
                      SMLGVDQRGLIDCTSALPGGSKKRDIRNSNVFDRFRF"
-     CDS             complement(join(3190..3433,3506..3886,3950..4033,4090..4761,
-                     4821..4871,4931..5126,5199..5528,5583..5745,5796..6706,
-                     6762..7041,7100..7317,7376..7892,7972..8187))
+                     /Pfam="peroxidase"
+     CDS             complement(join(3190..3433,3506..3886,3950..4033,
+                     4090..4761,4821..4871,4931..5126,5199..5528,5583..5745,
+                     5796..6706,6762..7041,7100..7317,7376..7892,7972..8187))
                      /codon_start=1
                      /product="ABC transporter Orf-j"
-                     /label=orf-j
-                     /note="P-loop containing ABC transporter
-                     revised sequence"
+                     /label="orf-j"
+                     /note="P-loop containing ABC transporter revised sequence"
                      /protein_id="QCC62989.1"
                      /translation="MRGQCTRVIEDVFGPVVQGCLDDFDFTLFFEETVLFAVPASCLLL
                      LALAWRMPELIRANAVVRVSILGFLKMIIYPLIFISQVAFLVFVCMNNAANSRATIPVT
@@ -75,11 +75,12 @@ FEATURES             Location/Qualifiers
                      QVLKEYGLYDRFYEREGLDTIVDEDLLSYAEQQIFYIVRALLQKSHLILLDEPTSRADS
                      STQEIIDSAVMNGFEGSTILYIAHRLEILSQFDRVMVMDQGRIAEFGDPRTLLQNPESL
                      FASTFSKANSQISSTRTP"
+                     /Pfam="ABC_membrane, ABC_tran"
      CDS             complement(join(9161..9478,9552..9883,9933..10095,
                      10175..10420,10485..10865,10917..11198))
                      /codon_start=1
                      /product="CoA ligase Orf-i"
-                     /label=orf-i
+                     /label="orf-i"
                      /protein_id="QCC62990.1"
                      /translation="MIFTAPDFLPTLPTPLPLQETIGDFCLTENLAKTTRSHSADKRPP
                      FVEAAIDRAWDADKIGARVARVAATLFDLWKLVPGQEWNKVVAILASNSVDTLILSWAI
@@ -91,10 +92,11 @@ FEATURES             Location/Qualifiers
                      SLEEMGEIEIASPSVLRGYIHNANDAILPPAGDGEFWWPTGDVGLFRMAPSGETHLFVV
                      DRIRDMIKVKGNQVAPGQIEAHLSKHAAVAETAVVGVPDEAAGERALAFIVREPSFASS
                      TSDSDLKKSIREFNDLSLPEVCRLHDRIIFVDQIPKSPSGKVLKRELRKQLAAVAP"
+                     /Pfam="AA-adenyl-dom"
      CDS             13156..16779
                      /codon_start=1
                      /product="glycosyltransferase Orf-h"
-                     /label=orf-h
+                     /label="orf-h"
                      /protein_id="QCC62991.1"
                      /translation="MGRPVQEAAAHEAQAAAAVHTDSANSTIPHTFINEIDITNQDLAE
                      DDVPLPAYGEIYGEIRDEKDGTGTSASVTDDGRVNIRINHLNRRLSQIFIPALDQHIQD
@@ -117,12 +119,12 @@ FEATURES             Location/Qualifiers
                      SLAMQTTSAVEAQRCANGYETNSNLDLYHADEAEYDREYERERMEFEAISERAAALTNR
                      SPDYQQPPAYDSGHLAGTSRSDFEAEEKGQIRREKTAEEKTEEEIVMEYIKKQSLLEVH
                      HQNRGKGGGSAFADADDEDLQKALKLSMQEHVDRYGDASGT"
+                     /Pfam="Glyco_transf_28, UDPGT"
      CDS             18138..19814
                      /codon_start=1
                      /product="major facilitator superfamily transporter Orf-g"
-                     /label=orf-g
-                     /note="major facilitator superfamily
-                     revised sequence"
+                     /label="orf-g"
+                     /note="major facilitator superfamily revised sequence"
                      /protein_id="QCC62992.1"
                      /translation="MDIVCGADESDHPARHMSARQRSHHRPDYDSEHALLLDSPLPETD
                      DGNDSDEFTSDFAHLPWYHRPSIGWILIPYLIMALIFGGIITPRVNLVADLVCRQYYLD
@@ -134,20 +136,22 @@ FEATURES             Location/Qualifiers
                      LVILPAITYFVRHRGENRTARCKGVDSFDLSVIRVGIFCETLGWIGYSLARKDEHFVVA
                      GVIAAAGGVASPALQSALTKHVPSEKTGQLLGANGLLHALTLIVSPAVFNAIFATTVGR
                      FTQAVFVCLAFTLGLAFMLSWLVQPISECMPAVKPVNASKV"
+                     /Pfam="MFS_1"
      CDS             join(21053..21137,21200..21615)
                      /codon_start=1
                      /product="MARVEL domain-containing protein Orf-f"
-                     /label=orf-f
+                     /label="orf-f"
                      /protein_id="QCC62993.1"
                      /translation="MAENRTLNLALRALQVICALIVMGTDGYAINVYRGYSSEVDTHWG
                      GFTAWNGVPNAWGFLLFCAAWTIIVFIFQLVAGNATAHRPFLVGCISVGAELVAVISWF
                      AGWIAVAVNIGTRSCATGYVACDALKAATVFGAVEWLLFMVTAFLAVSLFLNSKRQKST
                      STN"
+                     /Pfam="MARVEL"
      CDS             complement(join(23736..24227,24278..25015,25070..25300,
                      25360..25455,25510..25545))
                      /codon_start=1
                      /product="transcription factor Orf-e"
-                     /label=orf-e
+                     /label="orf-e"
                      /note="revised sequence"
                      /protein_id="QCC62994.1"
                      /translation="MPRPTDTYTHSQFEEVDSVNLGGTVQCIHCRRWQGSARVLNRKKA
@@ -160,11 +164,12 @@ FEATURES             Location/Qualifiers
                      PSGTPATSYGGQTTPKNSHTTALREAVIENWKSENFGRFVDACRSIVDELAMAQTTGNG
                      RTELTACERVFKQAIWLWGQIFPEVISMEQLENLNNGQNNRDTEVNGAMNRNGAAEKPV
                      GVEDEDEAQASVD"
+                     /Pfam="FPSE_09189"
      CDS             complement(join(28062..28559,28609..28662,28715..29125,
                      29178..29254,29305..29788))
                      /codon_start=1
                      /product="FAD-linked oxidoreductase Orf-d"
-                     /label=orf-d
+                     /label="orf-d"
                      /protein_id="QCC62995.1"
                      /translation="MGKLASLALVTLVFAQSALTAPSDATTKACTELKNALPGKVLNPG
                      FLQLEYEHETQQYWATNLREVNPACIVQPSSAQDVSDAVKILNKYPTVQFATRSGGHDP
@@ -175,11 +180,12 @@ FEATURES             Location/Qualifiers
                      FRTYTIPHIPGRPQMYKDIRDKLADLTNVFLNTPPLIRAVQFSVDFQPLPALIGKISAT
                      KGGNAMGLSDSDPDRIILIFQGAWNFSGDDDLAFGIARQLTTWLEEVVPKWIAEAGMPN
                      NMYMPLFLNDAMWDQPVMQSYKDYNKFKTLQKQVDLAGLWSTQAGGFKY"
+                     /Pfam="FAD_binding_4"
      CDS             join(31726..31734,31791..31979,32037..32379,32440..33029,
                      33092..33223)
                      /codon_start=1
                      /product="transcription factor Orf-c"
-                     /label=orf-c
+                     /label="orf-c"
                      /note="revised sequence"
                      /protein_id="QCC62996.1"
                      /translation="MELPRYAVPESLLSPQPGTCIQGNHTAQEPLNGNDDQGRQSKTTS
@@ -190,10 +196,11 @@ FEATURES             Location/Qualifiers
                      DDAVVAYYAEFCKDDERLRQAQRLNRIRRLPVLLKELHLAAQGWGQWQRRSFQEQIMRS
                      AEDIVITELEEQLLAKRRDHYSPLEQQARDETDIEAELPNTWTLLTSLSTRYNAIASKE
                      GQDNVPKLISKFLDAATDLGT"
+                     /Pfam="TqaK"
      CDS             complement(join(35907..36567,36624..36919))
                      /codon_start=1
                      /product="RTA1 domain-containing protein Orf-b"
-                     /label=orf-b
+                     /label="orf-b"
                      /note="RTA1 domain containing protein"
                      /protein_id="QCC62997.1"
                      /translation="MTTDPFANCNFDIPPTERCTLDTCCLAQSSFLYRPSWGGNLFFII
@@ -202,10 +209,11 @@ FEATURES             Location/Qualifiers
                      TGPTRQTGTNIMVAGLLLQVVSLMVFLLYLSYFWLQCRRGSLDMDRAKIACRERGLFRV
                      FLISLLIATVAILVRSTYRVAELWQGFSGELWNNERDFMILDGAMMSFAALLLTVFHPG
                      PAFKEQWHAANWSFRSQPPAKASRRRSRRNSSHRPRV"
+                     /Pfam="RTA1"
      CDS             complement(join(38724..38801,38852..39288,39339..39576))
                      /codon_start=1
                      /product="thioesterase Orf-a"
-                     /label=orf-a
+                     /label="orf-a"
                      /note="alpha/beta hydrolase family"
                      /protein_id="QCC62998.1"
                      /translation="MICQLQKKPIGSTAIPLFLFHDASGTISSYYTLGPIGRDVYAIAD
@@ -213,10 +221,11 @@ FEATURES             Location/Qualifiers
                      GIIMVDSPFPDYRHVVYLAPESPISEDGPPPAVNKLETAIVQSVNMLHKWQPPVWRRQR
                      QPYTVMLCATERVVTGDHPALSFIDQFRDSPTLGWKERAASVIIDKRYSIQGHHFNIFD
                      PRNVTSVTDSLATVGSDLDMLACDDDED"
+                     /Pfam="Thioesterase"
      CDS             complement(join(42561..71891,71940..74741))
                      /codon_start=1
                      /product="nonribosomal peptide synthetase BIIRfg_NRPS"
-                     /label=BIIRfg_NRPS
+                     /label="BIIRfg_NRPS"
                      /note="revised sequence"
                      /protein_id="QCC62999.1"
                      /translation="MAYSDSIEAQSEPVKKLVLGKIIANLLDIEADELEWDKSFILLGG
@@ -401,11 +410,12 @@ FEATURES             Location/Qualifiers
                      AISCCARAVPCRVIFEPEWTLQKLLDHIRKQQIDSMKHEALEIQEIAQRCLGWSEAEAK
                      NLRVSMVNHQKAPKQDMSLNTKVYKHAVVGPKNPYASVDFAIETVEDGDGSLSAKIAYA
                      AERIPDEVATSLFGRFCDTLETILKNPDCSVGHLMEMMNGSAVRC"
+                     /Pfam="ACP_PCP, NRPS_E, NRPS_C, AA-adenyl-dom, NRPS_CT"
      CDS             join(76706..77905,77958..78007,78058..83509,83585..83911,
                      83971..84810)
                      /codon_start=1
                      /product="polyketide synthase BIIRfg_PKS"
-                     /label=BIIRfg_PKS
+                     /label="BIIRfg_PKS"
                      /protein_id="QCC63000.1"
                      /translation="MAPNMSSEPIAVIGMSCRFPGGASEPSRLWELLASGKSAWSEVPS
                      DRFNMKAFHHRGDPHPSTTNTAGGHFLETDVAAFDCSFFEIKPTEAQAMDPQQRLTLEL
@@ -452,6 +462,8 @@ FEATURES             Location/Qualifiers
                      AGSESSCQATVGLVPESGVSMADWLGQRRIAHLVQDSDLGGAGLVNGSSNGSEDLDQIK
                      HAKTAEEAIEAVRNALLGELSKLTVTPIDRILPHRTLDSYGVDSLVAVELRNWIVVMLT
                      ADVSLLLIRESRSIEELIRLIAGKSKLVPAKLQEAVATLV"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_DH, PKS_NRPS_MT, fPKS_ER,
+                     fPKS_KR, ACP_PCP"
 ORIGIN
         1 ctagaacctg aaacgatcga agacgttgct atttctgata tccctcttct tactaccacc
        61 aggcagggcc gaggtgcagt caataagacc ccgctggtcc acaccaagca tactcatctt

@@ -1,34 +1,33 @@
-LOCUS       FBGC00605       44033 bp DNA     linear   UNA 12-APR-2023
+LOCUS       FBGC00605              44033 bp    DNA     linear   UNA 12-APR-2023
 DEFINITION  melinacidin IV.
 ACCESSION   FBGC00605
-VERSION     .
+VERSION     FBGC00605
 KEYWORDS    .
 SOURCE      Escovopsis weberi
   ORGANISM  Escovopsis weberi
+            .
 REFERENCE   1  (bases 1 to 44033)
-  AUTHORS   Heine D, Holmes NA, Worsley SF, Santos ACA, Innocent TM, Scherlach 
+  AUTHORS   Heine D, Holmes NA, Worsley SF, Santos ACA, Innocent TM, Scherlach
             K, Patrick EH, Yu DW, Murrell JC, Vieria PC, Boomsma JJ, Hertweck C,
             Hutchings MI, Wilkinson B.
-  TITLE     Chemical warfare between leafcutter ant symbionts and a co-evolved 
+  TITLE     Chemical warfare between leafcutter ant symbionts and a co-evolved
             pathogen.
   JOURNAL   Nat Commun 2018;9:2208
-  PUBMED    29880868
+   PUBMED   29880868
 REFERENCE   2  (bases 1 to 44033)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Apr 12, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1038/s41467-018-04520-1"; journalName: "Nat Commun"; date: 
-            "2018"; volume: "9"; pages: "2208"
-COMMENT     THIRD PARTY DATABASE: This TPA record uses data from 
-            DDBJ/EMBL/GenBank entry LGSR01000002.1##Assembly-Data-START##
+  JOURNAL   Exported Apr 12, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     ##Assembly-Data-START##
             Assembly Method       :: Newbler v. 2.5
-            Assembly Name         :: Escovopsis_weberi_Epipolythiodiketopiperaz 
-                                    ine BGC
+            Assembly Name :: Escovopsis_weberi_Epipolythiodiketopiperaz ine BGC
             Coverage              :: 60
             Sequencing Technology :: 454
             ##Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1038/s41467-018-04520-1"; journalName: "Nat Commun"; date:
+            "2018"; volume: "9"; pages: "2208"
+            THIRD PARTY DATABASE: This TPA record uses data from
 FEATURES             Location/Qualifiers
      source          1..44033
                      /mol_type="genomic DNA"
@@ -38,7 +37,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="EtpT"
                      /product="thioredoxin reductase EtpT"
-                     /label=etpT
+                     /label="etpT"
                      /protein_id="DAB41654.1"
                      /translation="MLSKAAPVIHDALIIGGGPAGLSAALSLARVCRTSAVFDSGEFRN
                      RGAEAMHSFLSRDGIAPEEFRAIARSQIEDKYSEQVSFVRSKIVKVAPAEILPGYKGFE
@@ -46,11 +45,12 @@ FEATURES             Location/Qualifiers
                      FPNPSYLHFALMVMPFNKDVTIFSNGGVPSDEPTQAALKKVLAAGAKLDDRRVKRLVNN
                      GKGPENGITVEFETGPPAKLGMLLHRPPTRSRAQDLIEQLGLDTKPNGDVIADAMMLST
                      NVPGCVVAGDTYESIKQALMASSNGLRAAAVISFQLASEDGDRALAEQEAQKGESNL"
+                     /Pfam="Pyr_redox_2"
      CDS             join(2864..2905,2972..4140,4206..4617)
                      /codon_start=1
                      /gene="EtpE"
                      /product="cytochrome P450 monooxygenase EtpE"
-                     /label=etpE
+                     /label="etpE"
                      /protein_id="DAB41655.1"
                      /translation="MISSLLLSTSILTAAWILYRAWTRDPRMKQLPPGPKGLPIIGNML
                      DMADTDRMMTVAKQWADEHGDVFYTKVGLSHFVWLSSPTAVRDLMDKRGAIYSSRAPSP
@@ -62,11 +62,12 @@ FEATURES             Location/Qualifiers
                      VLNWWAIHMDEKRWKDPERFDPTRYLDDPLTEAESMAQSDPKLRDHFTFGAGRRNCPGV
                      HIAHNSLFINIARIFWAFDMRKSVDDNGRVIEPSTAAQPGFLLTPVKFPCHFEVRGEGR
                      RRIIEESWAAAEKEGLSWWKKSK"
+                     /Pfam="p450"
      CDS             join(4985..5201,5281..6275)
                      /codon_start=1
                      /gene="EtpM"
                      /product="methyltransferase EtpM"
-                     /label=etpM
+                     /label="etpM"
                      /protein_id="DAB41656.1"
                      /translation="MEEVLNKVNAALQEALEALEGPLKQQRLDTLLDADSLPDRQTWEL
                      ASKTVDLADNVVRLLRPPAEQLAESYLAYLDTKCLVAAVEHDIPDHLAAGPLTIAELAA
@@ -76,13 +77,14 @@ FEATURES             Location/Qualifiers
                      ADRLVELHAGDFLRDVPPAEVYTVKWTLHNWSDADCARVLANARGALIHTPRARLVIID
                      AVLRDGRSSRVWRFGDVLMAVTANGQERSEDEWRALAAQAGWTVSGIWPMRSTWASAIE
                      LRPI"
-     CDS             complement(join(7357..7500,7562..7621,7683..8392,8459..9845,
-                     9908..10499,10559..11109,11173..11241,11304..11340,
-                     11394..11508,11571..11649,11707..11871))
+                     /Pfam="Methyltransf_2"
+     CDS             complement(join(7357..7500,7562..7621,7683..8392,
+                     8459..9845,9908..10499,10559..11109,11173..11241,
+                     11304..11340,11394..11508,11571..11649,11707..11871))
                      /codon_start=1
                      /gene="EtpA"
                      /product="ABC transporter EtpA"
-                     /label=etpA
+                     /label="etpA"
                      /note="revised sequence"
                      /protein_id="DAB41657.1"
                      /translation="MEEEWAGLGTGKPPGGTLELGTTIGSSTPINEAAQEAEKEGEKEE
@@ -108,12 +110,13 @@ FEATURES             Location/Qualifiers
                      DVVNALDAANLTDLIASLPDGYNSDCGAKGTTLSGGQKQRVAIARALIRDPELLLLDEP
                      TSALDAESERQVSETLSQIQKGRTMILVTHRMNTVRNADVIIVMSAGQIIEQGSHSELM
                      ALQGQYFKMQQAARGEEL"
+                     /Pfam="ABC_membrane, ABC_tran"
      CDS             complement(join(13310..13716,13851..14513,14577..14648,
                      14716..14797,14875..15009,15103..15390))
                      /codon_start=1
                      /gene="EtpB"
                      /product="cytochrome P450 monooxygenase EtpB"
-                     /label=etpB
+                     /label="etpB"
                      /protein_id="DAB41658.1"
                      /translation="MEQVDLKDTFSYLLENYTDYVPQNLELPTTPGSIAGLGLAAFVLT
                      VTLFDYLNYQRQRRKLGNVDIVGDAPYLWRRLRWTENESNFRAVIQRGYDTFSKKAKPF
@@ -125,22 +128,24 @@ FEATURES             Location/Qualifiers
                      SFTRETLRFNGPTLFSVTRSVIQPMQLKSGLSLRPGTIISAPSWLIHNDEDNYARAGEF
                      NPYRFYDEATNTATTKATTASNKFLAYGYGSQMCPGRFLGVRMTQILFAKILMRYDAEF
                      AGGIKVKPDNIFMPGQVLPPYETEIVIKRRE"
+                     /Pfam="p450"
      CDS             join(24649..25025,25128..25199,25283..25553)
                      /codon_start=1
                      /gene="EtpG"
                      /product="glutathione S-transferase EtpG"
-                     /label=etpG
+                     /label="etpG"
                      /protein_id="DAB41659.1"
                      /translation="MPINVLSAQSLDTDVPSKPLVFVVTGRYQNWIKPIILLDCLQVDY
                      DAACIDGPTTRTDWYTKIHPQRYVPALIDEEDGKRVVSWDSSQILQYLADKYDGSKSWS
                      GRTPAERLEIGNWLTFETASLGPTAKYWVWYAIRKPEDQNPIAQAKMLADLRVQYGILD
                      KHLSQPGQQFIGLKDRPTIADISIYPFADDPTMKRMGIDKADYPALEAWGARFAALPGV
                      RKAYDEMDSRQELVIGD"
+                     /Pfam="GST_N_3, GST_C"
      CDS             complement(join(29029..29385,29524..30021))
                      /codon_start=1
                      /gene="EtpK"
                      /product="gamma-glutamyl cyclotransferase EtpK"
-                     /label=etpK
+                     /label="etpK"
                      /note="revised sequence"
                      /protein_id="DAB41660.1"
                      /translation="MELEKKLPSWKAAVKGKEALWYLGYGSNMKASSMKDRKVEPLATK
@@ -149,12 +154,13 @@ FEATURES             Location/Qualifiers
                      RYISLFIQGAKDNSLSPEYIEYLEKFPRFYKVEGAERTFGQYVFDNGWRPLLKMLIPLT
                      TWNVDEEGNCPAFIGLTIVWLYKAMWRYHDMLHRHIFGRGDGGKLLWVSMDKPDPTVPN
                      LST"
+                     /Pfam="GliK"
      CDS             complement(join(31042..33690,33781..33870,33945..37366,
                      37429..38050))
                      /codon_start=1
                      /gene="EtpP"
                      /product="nonribosomal peptide synthetase EtpP"
-                     /label=etpP
+                     /label="etpP"
                      /note="revised sequence"
                      /protein_id="DAB41661.1"
                      /translation="MSALPKNLCDLFDRSLDSHPQNLAIDHQDGPLTYAQLDRASSLLA
@@ -196,12 +202,13 @@ FEATURES             Location/Qualifiers
                      DTNHLLPSTVDIIEDALETILDAMGEECALAELESRLADLEVPDLDSRDDSLLSMSSRS
                      PSPRSSRTSAHSLSVEKVASTIQREMAACLDFTSSDKMSSCSSFFSAGADSAAVVSLRH
                      RLQKMGLDVSVRAIFVAQSPLKLAEYVVDSRE"
+                     /Pfam="AA-adenyl-dom, ACP_PCP, NRPS_C"
      CDS             join(38654..38776,38856..39016,39096..39702,39771..39999,
                      40058..40122,40172..40492)
                      /codon_start=1
                      /gene="EtpC"
                      /product="cytochrome P450 monooxygenase EtpC"
-                     /label=etpC
+                     /label="etpC"
                      /note="revised sequence"
                      /protein_id="DAB41662.1"
                      /translation="MLSDIASGVCGSHVLFGASLISTVTLILVCGVKLVARRSSQDGNN
@@ -213,11 +220,12 @@ FEATURES             Location/Qualifiers
                      HMSSEEEYLAYLAREDTLLAACILESSRLHPILPFSNPEAASIDKVIDGYLIPKNTDVI
                      VDAYAINVDNPYWKDSSTFDPYRHLGQKDQARRYNMWRFGFGPRQCLGKNVADVILRVI
                      VAELVGKYQLDLAKGEGTGDQVELQADSWIGLPDGMVELTPIE"
+                     /Pfam="p450"
      CDS             complement(join(40701..41237,41332..41792,41938..42325))
                      /codon_start=1
                      /gene="EtpI"
                      /product="aminotransferase EtpI"
-                     /label=etpI
+                     /label="etpI"
                      /protein_id="DAB41663.1"
                      /translation="MLSQRAKEQNAWFLKAFERPLKRQSSSCSHNIDLATAENWCIRPE
                      ILALLKRNLKESFKAGDLSYAGGLGGTPILLGSLAAFFNSFFNPRVQVKPEHIVTGAGM
@@ -228,11 +236,12 @@ FEATURES             Location/Qualifiers
                      LAVAFAEFHGLTYYEPAAGLYIWLRLAKERDILETEKMNDAGSSEADEEEAIVRACAKQ
                      GVLVGGGADYSETQPGWFRLTFSLPEEQFLEGLRRIEEAMGYEERFPKTPRSMRLLRSF
                      SCF"
+                     /Pfam="Aminotran_1_2"
      CDS             join(42954..43167,43225..43291,43363..43830,43910..44033)
                      /codon_start=1
                      /gene="EtpN"
                      /product="methyltransferase EtpN"
-                     /label=etpN
+                     /label="etpN"
                      /protein_id="DAB41664.1"
                      /translation="MAMAIEDIAASAFASDLDEAKKAYMLPNNCQEILRMKNQHEWIKG
                      SFGGLIKAPFEYEKKGQRILDSAAADGTWLVDLSTLLVPETELVGFDIAPELFPPTELL
@@ -240,6 +249,7 @@ FEATURES             Location/Qualifiers
                      VEPAADEMVSGPDPTAFNVLHKLASMYMKTPNPKDVILSTLHEGGFVNINVESADLVIG
                      KFQENKELGIRGRRSMRDAVKNMSGMSSPAALDLSQHEYDNLVERFDEDTEKYRTAVQH
                      TIIWAQRPQ"
+                     /Pfam="GliN"
 ORIGIN
         1 tcacaggttc gactccccct tttgagcttc ttgctcagcc aacgcccgat ctccgtcctc
        61 gctggccagt tggaatgaga ttacggcggc ggctcgcaag cctggatgga gtcagcctgg

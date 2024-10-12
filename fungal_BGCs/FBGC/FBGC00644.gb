@@ -1,47 +1,48 @@
-LOCUS       FBGC00644       21613 bp DNA     linear   UNA 09-MAY-2023
+LOCUS       FBGC00644              21613 bp    DNA     linear   UNA 09-MAY-2023
 DEFINITION  dendrothelin A.
 ACCESSION   FBGC00644
-VERSION     .
+VERSION     FBGC00644
 KEYWORDS    .
 SOURCE      Dendrothele bispora CBS 962.96
   ORGANISM  Dendrothele bispora CBS 962.96
+            .
 REFERENCE   1  (bases 1 to 21613)
-  AUTHORS   Matabaro E, Kaspar H, Dahlin P, Bader DLV, Murar CE, Staubli F, 
+  AUTHORS   Matabaro E, Kaspar H, Dahlin P, Bader DLV, Murar CE, Staubli F,
             Field CM, Bode JW, Kunzler M.
-  TITLE     Identification, heterologous production and bioactivity of 
-            lentinulin A and dendrothelin A, two natural variants of backbone 
+  TITLE     Identification, heterologous production and bioactivity of
+            lentinulin A and dendrothelin A, two natural variants of backbone
             N-methylated peptide macrocycle omphalotin A.
   JOURNAL   Sci Rep 2021;11:3541
-  PUBMED    33574430
+   PUBMED   33574430
 REFERENCE   2  (bases 1 to 21613)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported May 9, 2023 from SnapGene 6.2.2
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1038/s41598-021-83106-2"; journalName: "Sci Rep"; date: "2021"; 
-            volume: "11"; pages: "3541"
-COMMENT     URL -- http://genome.jgi.doe.gov/Denbi1
-            JGI Project ID: 1016303
-            The DNA was provided by Lazlo Nagy (lnagy@clarku.edu)
-            The strain is available from CBS-KNAW culture collection
-            Contacts: Lazlo Nagy (lnagy@clarku.edu)
-            Assembly and annotation done by JGI.
-            The JGI and collaborators endorse the principles for the 
-            distribution and use of large scale sequencing data adopted by the 
-            larger genome sequencing community and urge users of this data to 
-            follow them. It is our intention to publish the work of this project
-            in a timely fashion and we welcome collaborative interaction on the 
-            project and analysis. 
-            (http://www.genome.gov/page.cfm?pageID=10506376).##Metadata-START##
+  JOURNAL   Exported May 9, 2023 from SnapGene 6.2.2 https://www.snapgene.com
+COMMENT     ##Metadata-START##
             Organism Display Name :: Dendrothele bispora CBS 962.96
             GOLD Stamp ID         :: Gp0034229
-            ##Metadata-END####Genome-Assembly-Data-START##
+            ##Metadata-END##
+            ##Genome-Assembly-Data-START##
             Assembly Method       :: AllPathsLG v. R44849
             Assembly Name         :: Denbi1
             Genome Coverage       :: 103.6x
             Sequencing Technology :: Illumina
             ##Genome-Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1038/s41598-021-83106-2"; journalName: "Sci Rep"; date: "2021";
+            volume: "11"; pages: "3541"
+            URL -- http://genome.jgi.doe.gov/Denbi1
+            JGI Project ID: 1016303
+            The DNA was provided by Lazlo Nagy (lnagy@clarku.edu)
+            The strain is available from CBS-KNAW culture collection
+            Contacts: Lazlo Nagy (lnagy@clarku.edu)
+            Assembly and annotation done by JGI.
+            The JGI and collaborators endorse the principles for the
+            distribution and use of large scale sequencing data adopted by the
+            larger genome sequencing community and urge users of this data to
+            follow them. It is our intention to publish the work of this project
+            in a timely fashion and we welcome collaborative interaction on the
+            project and analysis.
 FEATURES             Location/Qualifiers
      source          1..21613
                      /chromosome="Unknown"
@@ -58,11 +59,10 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="K435DRAFT_871165"
                      /product="prolyl oligopeptidase DbiP"
-                     /label=DbiP
-                     /note="expressed protein;
-                     GO_function: GO:8236; serine-type endopeptidase activity - 
-                     serine-type peptidase activity [GO Ref 4252];
-                     GO_process: GO:6508 - proteolysis"
+                     /label="DbiP"
+                     /note="expressed protein; GO_function: GO:8236; serine-type
+                     endopeptidase activity - serine-type peptidase activity [GO
+                     Ref 4252]; GO_process: GO:6508 - proteolysis"
                      /db_xref="InterPro:IPR001375"
                      /db_xref="InterPro:IPR004106"
                      /db_xref="JGIDB:Denbi1_871165"
@@ -79,14 +79,15 @@ FEATURES             Location/Qualifiers
                      TTACANQAPGLYRCVITIGGIIDMLRFPKFTFGALWCSEYGDPEDPEAFDFIYKYSPYH
                      NIPSGETVMPAMLFFTAAYDDRVSPLHTFKHVAALQHSFPHGPNPILMRVDMNSGHYAG
                      KSTQKMLEETADEYSFIGKSMGLTMQVENKSDSNRWSCVVN"
-     CDS             complement(join(4006..4238,4317..4751,4816..5158,5212..5300,
-                     5364..5469,5529..5633,5686..5859))
+                     /Pfam="Peptidase_S9_N, Peptidase_S9"
+     CDS             complement(join(4006..4238,4317..4751,4816..5158,
+                     5212..5300,5364..5469,5529..5633,5686..5859))
                      /codon_start=1
                      /locus_tag="K435DRAFT_971512"
                      /product="cytochrome P450 monooxygenase K435DRAFT_971512"
-                     /label=K435DRAFT_971512
+                     /label="K435DRAFT_971512"
                      /note="GO_function: GO:4497; iron ion binding -
-                     monooxygenase activity [Evidence 20037] [GO Ref 5506; heme 
+                     monooxygenase activity [Evidence 20037] [GO Ref 5506; heme
                      binding]"
                      /db_xref="InterPro:IPR001128"
                      /db_xref="JGIDB:Denbi1_971512"
@@ -100,11 +101,12 @@ FEATURES             Location/Qualifiers
                      NQTVLRRNVGEALQIPGGKDDHVVSLPRGAFVVYNHADAHLNPEVYTDPWRFDPQRHTN
                      LSSPGHQKNSYEFLGWGAGRHRCAGVKIAKLAIKTIVSLFVMNYEYDAITTRRKTHSST
                      VPIPDYNKVNGVSTMAFFESIDPNGKLIDLVNPGAS"
+                     /Pfam="p450"
      CDS             join(6297..6970,7025..7052,7118..7528)
                      /codon_start=1
                      /locus_tag="K435DRAFT_733899"
                      /product="acyltransferase K435DRAFT_733899"
-                     /label=K435DRAFT_733899
+                     /label="K435DRAFT_733899"
                      /note="expressed protein"
                      /db_xref="JGIDB:Denbi1_733899"
                      /protein_id="THU83555.1"
@@ -115,12 +117,13 @@ FEATURES             Location/Qualifiers
                      WWGRVWHQQLRRIFSSHGKFLSQRVCGFRTGTLASSYTRLYLAFFLSGLIHITSLDPRP
                      IRFFLSQAVVITFEDSVIAAANRVGFKRSQAIIRVLGYFWVYFVLSFTFGPWLDSMNAT
                      GVGGYDGTLVLGRYRDSWWLKGLLTQLDRR"
+                     /Pfam="MBOAT_2"
      CDS             complement(join(7808..8500,8567..8884,8949..9191))
                      /codon_start=1
                      /locus_tag="K435DRAFT_765759"
                      /product="methyltransferase/dendrothelin proprotein DbiMA"
-                     /label=DbiMA
-                     /note="GO_function: GO:8168 - methyltransferase activity; 
+                     /label="DbiMA"
+                     /note="GO_function: GO:8168 - methyltransferase activity;
                      GO_process: GO:8152 - metabolic process"
                      /db_xref="InterPro:IPR000878"
                      /db_xref="JGIDB:Denbi1_765759"
@@ -133,14 +136,14 @@ FEATURES             Location/Qualifiers
                      PNQWEPDVPTLPPYGQNEQAAITRLEAHAPPEEYQPLATSKAMTDVMTKLALDPKALAE
                      YKADHRAFAQSVPDLTPQERAALELGDSWAIRCAMKNMPSSLLEAASQSVEEASMNGFP
                      WVIVTGIVGVIGSVVSSA"
+                     /Pfam="TP_methylase"
      CDS             join(11179..11463,11517..11621,11673..11778,11835..11923,
                      11990..12298,12378..12777,12835..12986,13051..13110)
                      /codon_start=1
                      /locus_tag="K435DRAFT_425347"
                      /product="hypothetical protein K435DRAFT_425347"
-                     /label=K435DRAFT_425347
-                     /note="expressed protein
-                     revised sequence"
+                     /label="K435DRAFT_425347"
+                     /note="expressed protein revised sequence"
                      /db_xref="JGIDB:Denbi1_425347"
                      /protein_id="THU83557.1"
                      /translation="MSSHPLSYHLVSPYIKADFNSTIISKETVTTWVQYSLGWLQLSVA
@@ -152,11 +155,12 @@ FEATURES             Location/Qualifiers
                      SVWDSSMPTIDLVMRETIRLVINHTALRRNVGESFDMPGGVGEIKRGSFLAYSLADAHL
                      DPGVYSRPHLFDPERFRPDREEDPSAFLGFGAGRHRCLASKLARLEIKSIVALFLMTYD
                      YEVVDANGNFLQTIPAPDYNDVQLARPKDMECFLRFKRMENHN"
+                     /Pfam="p450"
      CDS             join(13756..14429,14489..14516,14574..14963)
                      /codon_start=1
                      /locus_tag="K435DRAFT_784138"
                      /product="acyltransferase K435DRAFT_784138"
-                     /label=K435DRAFT_784138
+                     /label="K435DRAFT_784138"
                      /note="expressed protein"
                      /db_xref="JGIDB:Denbi1_784138"
                      /protein_id="THU83559.1"
@@ -167,17 +171,19 @@ FEATURES             Location/Qualifiers
                      FWGVTWHQQLRRIFSSHGRFLAHRVFGFPSGSIASSYTQLYVAFFLSSIIHVLSFDFRP
                      FRFFLLQAVVITFEDTIILIGREYRVQKKLTIPFRLLGYLWVYWTLTLTLGPWFDTMNV
                      AGVNEYNGAYVLGFLRDWLLSED"
+                     /Pfam="MBOAT_2"
      CDS             join(15980..16162,16223..16270,16325..16353,16407..16509)
                      /codon_start=1
                      /locus_tag="K435DRAFT_971516"
                      /product="hypothetical protein K435DRAFT_971516"
-                     /label=K435DRAFT_971516
+                     /label="K435DRAFT_971516"
                      /note="expressed protein"
                      /db_xref="JGIDB:Denbi1_971516"
                      /protein_id="THU83560.1"
                      /translation="MTDKVKIVRDYHDLLNAGQIAQANAHLAHNLTANFSVGGPQLNKE
                      EVGNVQQGVQNALNTTTLITEAKEVDGKVVVVGKSLLKLKVEEVPFKAVYEFNGNQIGA
                      VKFETDPSFQVKAFSI"
+                     /Pfam="OphC"
      CDS             complement(join(16875..17049,17106..17242,17321..17428,
                      17485..17658,17710..17829,17884..18007,18068..18164,
                      18225..18308,18373..18532,18612..18743,18794..18898,
@@ -185,9 +191,9 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="K435DRAFT_971517"
                      /product="cytochrome P450 monooxygenase K435DRAFT_971517"
-                     /label=K435DRAFT_971517
+                     /label="K435DRAFT_971517"
                      /note="GO_function: GO:4497; iron ion binding -
-                     monooxygenase activity [Evidence 20037] [GO Ref 5506; heme 
+                     monooxygenase activity [Evidence 20037] [GO Ref 5506; heme
                      binding]"
                      /db_xref="InterPro:IPR001128"
                      /db_xref="JGIDB:Denbi1_971517"
@@ -202,15 +208,16 @@ FEATURES             Location/Qualifiers
                      GSAKVTMSRKVMKDFTFSDGTTIPAGNTLGACGFSIHHDERNYPNPEEFDGFRHFRKHE
                      AENEPVRYQLASLSADYVVFGVGRHACPGRFLVAAILKTMLAHVLLTYDVKLETEGVRP
                      LDEWQGMLAAVPHQTAGVMFRRRGS"
+                     /Pfam="p450"
      CDS             join(19486..19578,19639..19746,19794..19922,19981..20140,
                      20194..20277,20340..20436,20492..20621,20679..20792,
                      20847..21021,21075..21181,21237..21373,21433..21613)
                      /codon_start=1
                      /locus_tag="K435DRAFT_843994"
                      /product="cytochrome P450 monooxygenase K435DRAFT_843994"
-                     /label=K435DRAFT_843994
+                     /label="K435DRAFT_843994"
                      /note="GO_function: GO:4497; iron ion binding -
-                     monooxygenase activity [Evidence 20037] [GO Ref 5506; heme 
+                     monooxygenase activity [Evidence 20037] [GO Ref 5506; heme
                      binding]"
                      /db_xref="InterPro:IPR001128"
                      /db_xref="JGIDB:Denbi1_843994"
@@ -224,6 +231,7 @@ FEATURES             Location/Qualifiers
                      SINKMYKLDSFIKESLRLRGGGKSSMPRKVLKDFTFSDGNTVYTGSTIIATGYAIHHDA
                      RHYPDPDEFDGFRFARLREAENDPVRYQMVSVGPTYMMFGNGRHACPGRFLVSALLKTM
                      LAHVLMTYDVKLEQDDGVRPPDKWFTFAPAPNETASLMFRKRANLA"
+                     /Pfam="p450"
 ORIGIN
         1 atgaaagcgc gaaaactaaa gttcgtgaaa aacccttagt gctgctgctt ttttgattct
        61 cagtagggaa tggtacatag gcctttgttc ttgcccaacg caaatttggg cgaatttatc

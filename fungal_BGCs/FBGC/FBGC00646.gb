@@ -1,25 +1,25 @@
-LOCUS       FBGC00646       20256 bp DNA     linear   UNA 19-APR-2023
+LOCUS       FBGC00646              20256 bp    DNA     linear   UNA 19-APR-2023
 DEFINITION  15G256alpha.
 ACCESSION   FBGC00646
-VERSION     .
+VERSION     FBGC00646
 KEYWORDS    .
 SOURCE      Talaromyces stipitatus ATCC 10500
   ORGANISM  Talaromyces stipitatus ATCC 10500
+            .
 REFERENCE   1  (bases 1 to 20256)
   AUTHORS   Al Fahad AJ.
-  TITLE     Putative Biosynthesis of Talarodioxadione & Talarooxime from 
+  TITLE     Putative Biosynthesis of Talarodioxadione & Talarooxime from
             Talaromyces stipitatus.
   JOURNAL   Molecules 2022 Jul 13;27. 2022;27(14):4473
-  PUBMED    35889347
+   PUBMED   35889347
 REFERENCE   2  (bases 1 to 20256)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Apr 19, 2023 from SnapGene 6.2.2
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.3390/molecules27144473"; journalName: "Molecules 2022 Jul 
+  JOURNAL   Exported Apr 19, 2023 from SnapGene 6.2.2 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
+            "10.3390/molecules27144473"; journalName: "Molecules 2022 Jul
             13;27."; date: "2022"; volume: "27"; issue: "14"; pages: "4473"
-COMMENT     Assembly name: JCVI-TSTA1-3.0
+            Assembly name: JCVI-TSTA1-3.0
             Genome coverage: 8.09x.
 FEATURES             Location/Qualifiers
      source          1..20256
@@ -36,7 +36,7 @@ FEATURES             Location/Qualifiers
                      /locus_tag="TSTA_008130"
                      /product="polyketide synthase TpeA"
                      /EC_number="2.3.1.161"
-                     /label=tpeA
+                     /label="tpeA"
                      /note="encoded by transcript TSTA_008130A"
                      /protein_id="EED11515.1"
                      /translation="MENSYDDQSIAVIGLSCRFPGDADNVERFWNLLREGQSAISTVPG
@@ -82,12 +82,14 @@ FEATURES             Location/Qualifiers
                      SEPEVHALIKGALLGQRGNWALDVPAQMINSIPTGGMVRSSGVSQPYYFDDPRFSIMAK
                      IGMDSENSDTQASVSLKELLADAESSDDAVLFVTGAVISKVAKLMQVAEEEIDTGKSLH
                      AYGVDSLVAVEYVSWAKKEVSADITVFDVMASKPIMSFARDLVGKGKWGAAIPACKS"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_DH, PKS_NRPS_MT, fPKS_ER,
+                     fPKS_KR, ACP_PCP"
      CDS             join(10576..10889,10943..11237,11305..17229,17282..17350)
                      /codon_start=1
                      /locus_tag="TSTA_008140"
                      /product="polyketide synthase TpeB"
                      /EC_number="2.3.1.94"
-                     /label=tpeB
+                     /label="tpeB"
                      /note="encoded by transcript TSTA_008140A"
                      /protein_id="EED11516.1"
                      /translation="MGSLSSARESAQRITFFGDQTVDTLLCIKDLANRSHQLPILRRYL
@@ -128,12 +130,14 @@ FEATURES             Location/Qualifiers
                      NVGVMEQVGWMNGIHNDEKNFHIPPAPPKIKFHALSVFKSLTRYFPKPMTPSQRPRNTY
                      ALWAGAGMEDLLGPSNAGFLPEFGIIDWQMGSRRENNGPAGWENFIGGPVRCATVPCDH
                      LSIMMSTDWVGTTANIIKDLLEDALSNPGTP"
+                     /Pfam="SAT2, PKS_KS, PKS_AT, fPKS_PT, ACP_PCP,
+                     Thioesterase"
      CDS             join(18366..18452,18527..19017,19095..19427,19511..19790,
                      19858..20024,20091..20256)
                      /codon_start=1
                      /locus_tag="TSTA_008150"
                      /product="cytochrome P450 monooxygenase TpeC"
-                     /label=tpeC
+                     /label="tpeC"
                      /note="encoded by transcript TSTA_008150B"
                      /protein_id="EED11518.1"
                      /translation="MSHTFHCPQPLLVMIALTIFRYATLAIALIVGFVILKAIYNVFFH
@@ -145,6 +149,7 @@ FEATURES             Location/Qualifiers
                      SSFKSDKEITLLSVQNLDYMLACLDEAFRLYPPVGIGLPRQIPKGGVKIAGIYVPEGSI
                      VDVPQYAIHRSPDHWTEPESFHPERFLGDSRFASDKVETLQPFAVGPRNCIGRNLAYAE
                      MRLILARVLYNFDLKMDPSCSGWLDGQKSHALWVKPPLKVQLTPTKATS"
+                     /Pfam="p450"
 ORIGIN
         1 ttaactcttg caagctggaa tcgctgcgcc ccatttcccc ttacctacaa gatcacgagc
        61 aaatgacatg atgggttttg aagccattac atcaaaaaca gtaatgtcgg ctgaaacctc

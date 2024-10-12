@@ -1,48 +1,49 @@
-LOCUS       FBGC00604       11082 bp DNA     linear   UNA 12-APR-2023
+LOCUS       FBGC00604              11082 bp    DNA     linear   UNA 12-APR-2023
 DEFINITION  basidioferrin.
 ACCESSION   FBGC00604
-VERSION     .
+VERSION     FBGC00604
 KEYWORDS    .
 SOURCE      Gelatoporia subvermispora B
   ORGANISM  Gelatoporia subvermispora B
+            .
 REFERENCE   1  (bases 1 to 11082)
-  AUTHORS   Brandenburger E, Gressler M, Leonhardt R, Lackner G, Habel A, 
+  AUTHORS   Brandenburger E, Gressler M, Leonhardt R, Lackner G, Habel A,
             Hertweck C, Brock M, Hoffmeister D.
-  TITLE     A Highly Conserved Basidiomycete Peptide Synthetase Produces a 
+  TITLE     A Highly Conserved Basidiomycete Peptide Synthetase Produces a
             Trimeric Hydroxamate Siderophore.
   JOURNAL   Appl Environ Microbiol 2017;83(21):e01478-17
-  PUBMED    28842536
+   PUBMED   28842536
 REFERENCE   2  (bases 1 to 11082)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Apr 12, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1128/AEM.01478-17"; journalName: "Appl Environ Microbiol"; date:
-            "2017"; volume: "83"; issue: "21"; pages: "e01478-17"
-COMMENT     URLS -- http://www.jgi.doe.gov/Ceriporiopsis
-                    http://www.jgi.doe.gov/fungi
-            JGI Project ID: 4086258
-            The DNA was provided by Dan Cullen (dcullen@facstaff.wisc.edu)
-            The strain is available from the USDA Forest Service Center for 
-            Forest Mycology Research, Forest Products Laboratory, One Gifford 
-            Pinchot Dr. Madison, WI 53726. Accession 105752 strain B. It is very
-            important that requestors ask for C. subvermispora 105752 strain B. 
-            Failure to mention 'B' will result in shipping the dikaryotic parent
-            (strain 105752). The derivation and characteristics of the 
-            monokaryon are published: Tello et al 2001 FEMS Microbiol Lett 199 
-            (1):91-96
-            Contacts: Daniel Cullen (dcullen@facstaff.wisc.edu)
-                      Igor Grigoriev 
-            (ivgrigoriev@lbl.gov).##Genome-Assembly-Data-START##
-            Assembly Method       :: Newbler assembler v. 2.4pre (091202_1007) 
+  JOURNAL   Exported Apr 12, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     ##Genome-Assembly-Data-START##
+            Assembly Method       :: Newbler assembler v. 2.4pre (091202_1007)
             Assembly Name         :: Ceriporiopsis subvermispora B v1.0
             Genome Coverage       :: 56.6x
             Sequencing Technology :: 454; Sanger
-            ##Genome-Assembly-Data-END####Metadata-START##
+            ##Genome-Assembly-Data-END##
+            ##Metadata-START##
             Organism Display Name :: Ceriporiopsis subvermispora B
             GOLD Stamp ID         :: Gi03291
             ##Metadata-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1128/AEM.01478-17"; journalName: "Appl Environ Microbiol"; date:
+            "2017"; volume: "83"; issue: "21"; pages: "e01478-17"
+            URLS -- http://www.jgi.doe.gov/Ceriporiopsis
+            http://www.jgi.doe.gov/fungi
+            JGI Project ID: 4086258
+            The DNA was provided by Dan Cullen (dcullen@facstaff.wisc.edu)
+            The strain is available from the USDA Forest Service Center for
+            Forest Mycology Research, Forest Products Laboratory, One Gifford
+            Pinchot Dr. Madison, WI 53726. Accession 105752 strain B. It is very
+            important that requestors ask for C. subvermispora 105752 strain B.
+            Failure to mention 'B' will result in shipping the dikaryotic parent
+            (strain 105752). The derivation and characteristics of the
+            monokaryon are published: Tello et al 2001 FEMS Microbiol Lett 199
+            (1):91-96
+            Contacts: Daniel Cullen (dcullen@facstaff.wisc.edu)
+            Igor Grigoriev
 FEATURES             Location/Qualifiers
      source          1..11082
                      /chromosome="Unknown"
@@ -57,7 +58,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="NPS2"
                      /product="nonribosomal peptide synthetase CsNPS2"
-                     /label=CsNPS2
+                     /label="CsNPS2"
                      /protein_id="AQX36215.1"
                      /translation="MSAHTRTDCDHPELPKLATVISGYRHCDLPDLSSDRFPASTTYSV
                      SACIKESLISTQVDVLDARAPFAVLVATIGRVLGAYCGCTDVILALTDQDCEDLRTARI
@@ -102,13 +103,14 @@ FEATURES             Location/Qualifiers
                      QSPLTLVDEVMGGTGRPLCNVFVNIVRAAPELHSTQQTIFTPIDVPYFIPEAPSRGKTA
                      MPELKVTGLIQDDIIVDIVDVSERGEVAMSIEFSEDTLDVETAEAMILQWVQLVKECLA
                      "
+                     /Pfam="AA-adenyl-dom, ACP_PCP, NRPS_C, NRPS_CT"
      CDS             join(9163..9273,9349..9449,9514..9800,9851..10177,
                      10229..10335,10390..11082)
                      /codon_start=1
                      /locus_tag="CERSUDRAFT_113443"
                      /product="L-ornithine N(5)-monooxygenase SMO1"
-                     /label=SMO1
-                     /note="putative siderophore L-ornithin N5-monooxygenase, 
+                     /label="SMO1"
+                     /note="putative siderophore L-ornithin N5-monooxygenase,
                      omo1-homologue; smo1"
                      /db_xref="JGIDB:Cersu1_113443"
                      /protein_id="EMD38274.1"
@@ -122,6 +124,7 @@ FEATURES             Location/Qualifiers
                      TSWLRMLTSSDIGKHFGLNLSSDPVQLVPSTEIPKGPDGSLFDASEEEATWRPASPITP
                      ASPSPPSTPTSSALSQSRMLGQLPITKLYITREYCLVPNSPQFKPRIYLQGCTEATHGL
                      SESLLSILGVRAGLVVDDLWKNSQ"
+                     /Pfam="Lys_Orn_oxgnase"
 ORIGIN
         1 ctaagcaagg cactccttga ctagctgaac ccactgtaat atcattgcct ccgctgtttc
        61 cacgtcgagt gtatcctccg agaattcgat agacatcgca acttcgccgc gctctgacac

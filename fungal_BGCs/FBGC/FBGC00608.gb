@@ -1,25 +1,22 @@
-LOCUS       FBGC00608       18548 bp DNA     linear   UNA 12-APR-2023
+LOCUS       FBGC00608              18548 bp    DNA     linear   UNA 12-APR-2023
 DEFINITION  mannosylerythritol lipids.
 ACCESSION   FBGC00608
-VERSION     .
+VERSION     FBGC00608
 KEYWORDS    .
 SOURCE      Ustilago maydis 521
   ORGANISM  Ustilago maydis 521
+            .
 REFERENCE   1  (bases 1 to 18548)
   AUTHORS   Hewald S, Linne U, Scherer M, Marahiel MA, Kamper J, Bolker M.
-  TITLE     Identification of a gene cluster for biosynthesis of 
-            mannosylerythritol lipids in the basidiomycetous fungus Ustilago 
+  TITLE     Identification of a gene cluster for biosynthesis of
+            mannosylerythritol lipids in the basidiomycetous fungus Ustilago
             maydis.
   JOURNAL   Appl Environ Microbiol 2006;72:5469-77
-  PUBMED    16885300
+   PUBMED   16885300
 REFERENCE   2  (bases 1 to 18548)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Apr 12, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1128/AEM.00506-06"; journalName: "Appl Environ Microbiol"; date:
-            "2006"; volume: "72"; pages: "5469-77"
+  JOURNAL   Exported Apr 12, 2023 from SnapGene 6.2.1 https://www.snapgene.com
 COMMENT     ##Genome-Assembly-Data-START##
             Assembly Date         :: 2014
             Assembly Method       :: Arachne v. May-2005
@@ -27,6 +24,9 @@ COMMENT     ##Genome-Assembly-Data-START##
             Genome Coverage       :: 10.0x
             Sequencing Technology :: Sanger
             ##Genome-Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1128/AEM.00506-06"; journalName: "Appl Environ Microbiol"; date:
+            "2006"; volume: "72"; pages: "5469-77"
 FEATURES             Location/Qualifiers
      source          1..18548
                      /chromosome="7"
@@ -39,7 +39,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="UMAG_03114"
                      /product="acyltransferase Mat1"
-                     /label=mat1
+                     /label="mat1"
                      /protein_id="KIS69143.1"
                      /translation="MKSNVDTVLDGYTSVPVGVLDSTLANTDILTRITLVFPSSLSLSA
                      LQESWYALVRSWPILAARVRATPSTPSGLSYLIPTPATLESLETRSRNSASKPLEKHIV
@@ -51,11 +51,12 @@ FEATURES             Location/Qualifiers
                      IRESITEQVDPENIRKSVVMALKHSMWKKPSGELLFFSQNPNTYWCGCTEWRSAKFHTI
                      DFSAAATPHHDAIQPTAAPAASVNPVAITTNMETPMTKRNRWALLGEANNGIWFTGGLT
                      ANEASNKNGFGRYIFVE"
+                     /Pfam="CalD"
      CDS             complement(1867..3726)
                      /codon_start=1
                      /locus_tag="UMAG_03115"
                      /product="major facilitator superfamily transporter Mmf1"
-                     /label=mmf1
+                     /label="mmf1"
                      /protein_id="KIS69144.1"
                      /translation="MADEKRTSIEEPGTPMSYSTAASPELLSSSNNASALPAYPSSQTK
                      QDKESLSHDQAVRVEPESSTPLTDSVEDNESGAKVKKDLHFWIIFSALMLIAFVAALDM
@@ -68,11 +69,12 @@ FEATURES             Location/Qualifiers
                      MFPITLPPIQAALPASRLESATAAYAFTRTFGAVWGITAATTIFSTQAAKNLRPYYDQL
                      NPLGLSDFTVVAFSEQLRNLPQPIQGVVKGVYADAISDSYWLFVPLAIIGFFTTFGMKE
                      LPLPDFIKSEAKLEQKQDVTPALKSSAAHAVVNVKTEVPSTLP"
+                     /Pfam="MFS_1"
      CDS             complement(6497..8272)
                      /codon_start=1
                      /locus_tag="UMAG_03116"
                      /product="acyltransferase Mac1"
-                     /label=mac1
+                     /label="mac1"
                      /protein_id="KIS69145.1"
                      /translation="MINNALRTLISSATEQSLDDVLEHEFRTAVQLQQMDQFEWHQVEA
                      DLWKRTCLGHEASASFNQNIAHGHTELSLMTSWRVHQPSSSRITGSELELDQLVARVRQ
@@ -85,11 +87,12 @@ FEATURES             Location/Qualifiers
                      VQSPSSSSSQKEIAGIIGAQAPGFSSVGMMRIRPRFEPVSANARASGLWLERTDFTHTG
                      RQINASPWISMFNVDGRIKLQLGFDTKFHEVEKMNQWLDRTVVWMRICAAAAATTSTSV
                      SSTSVDATAPVFARL"
+                     /Pfam="Tri3, LolU"
      CDS             complement(join(9975..11443,11533..11911))
                      /codon_start=1
                      /locus_tag="UMAG_03117"
                      /product="glycosyltransferase Emt1"
-                     /label=emt1
+                     /label="emt1"
                      /protein_id="KIS69146.1"
                      /translation="MKVALLANPARGEINVLLATAYELIRLGHDVTFLTGSSFANAIAE
                      FRSEQNDPILAARIHFSDLGNARAVEDFTRGMQSHLKGLRKPPGDYSSMEICQIVALVT
@@ -102,11 +105,12 @@ FEATURES             Location/Qualifiers
                      ALRVVIHHGGGNSFNEAVHYALPQMILSQWFDTHEYAILAERFGIGLRSKHAPKIDEND
                      LVNTMTRLLQGPEAEKIRRNAKVWSIRSRNAGGAPAAARLIEAQAMLFNQQKQLELAAS
                      EVRAAVDTLSGKSSVADLESETAFTPNMLSGAASTVGSD"
+                     /Pfam="SdnJ"
      CDS             join(16801..16911,17007..18548)
                      /codon_start=1
                      /locus_tag="UMAG_10636"
                      /product="acyltransferase Mac2"
-                     /label=mac2
+                     /label="mac2"
                      /protein_id="KIS69148.1"
                      /translation="MQADKHAWKEVSPNLAQRPLVGVEKLLNYAEYYQNGNFQLSAAIH
                      LETNLTTEKLQQRFGLAVWNVRCLLPEIGTWTVGTTGDAAVDLDNATFTAIQTVEEAQK
@@ -118,6 +122,7 @@ FEATURES             Location/Qualifiers
                      DTPHIISAMEQVGDEVSAMIADTAIKQRQAGTDPHVALFENSPAICPPTLTSQGDIAFK
                      RLYTAQGGSWDPEPAVAAGEYVYIGHSWNSGRTTDASVCFALVGFSGELRLTSYFDSRF
                      FDAKLIESILDDVLSNLRMIATTVPVDAPEAKL"
+                     /Pfam="LolU"
 ORIGIN
         1 atgaagagca acgtggatac tgtgctggac gggtacacga gcgtccccgt cggcgtgttg
        61 gacagcacac tggccaacac ggatatcctg actcgcatca cgcttgtgtt cccatcatcg

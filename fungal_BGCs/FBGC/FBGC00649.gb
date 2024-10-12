@@ -1,29 +1,29 @@
-LOCUS       FBGC00649       15571 bp DNA     linear   UNA 10-MAY-2023
+LOCUS       FBGC00649              15571 bp    DNA     linear   UNA 10-MAY-2023
 DEFINITION  1′-O-acetylpaxilline.
 ACCESSION   FBGC00649
-VERSION     .
+VERSION     FBGC00649
 KEYWORDS    .
 SOURCE      Aspergillus striatus ATCC 64988
   ORGANISM  Aspergillus striatus ATCC 64988
+            .
 REFERENCE   1  (bases 1 to 15571)
-  AUTHORS   Bundela R, Cameron RC, Singh AJ, McLellan RM, Richardson AT, Berry 
+  AUTHORS   Bundela R, Cameron RC, Singh AJ, McLellan RM, Richardson AT, Berry
             D, Nicholson MJ, Parker EJ.
-  TITLE     Generation of Alternate Indole Diterpene Architectures in Two 
+  TITLE     Generation of Alternate Indole Diterpene Architectures in Two
             Species of Aspergilli.
   JOURNAL   J Am Chem Soc 2023;145:2754-2758
-  PUBMED    36710518
+   PUBMED   36710518
 REFERENCE   2  (bases 1 to 15571)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported May 10, 2023 from SnapGene 6.2.2
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1021/jacs.2c11170"; journalName: "J Am Chem Soc"; date: "2023"; 
-            volume: "145"; pages: "2754-2758"
+  JOURNAL   Exported May 10, 2023 from SnapGene 6.2.2 https://www.snapgene.com
 COMMENT     ##Assembly-Data-START##
             Assembly Method       :: ABySS v. v. 16/11/2016
             Sequencing Technology :: Illumina
             ##Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1021/jacs.2c11170"; journalName: "J Am Chem Soc"; date: "2023";
+            volume: "145"; pages: "2754-2758"
 FEATURES             Location/Qualifiers
      source          1..15571
                      /strain="ATCC 64988"
@@ -35,7 +35,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="estG2"
                      /product="geranylgeranyl pyrophosphate synthase EstG2"
-                     /label=estG2
+                     /label="estG2"
                      /note="EstG2"
                      /protein_id="WGJ63579.1"
                      /translation="MGAAISLLRTVSTLAQRIFPSRKHHAQNPSSTPYSDRESRPPERN
@@ -45,11 +45,12 @@ FEATURES             Location/Qualifiers
                      EAEYMKICCIRVRLQSAVVLPAKADESSDCSKLADTLGIIYQIRDDYQNLRSDQGKGYG
                      EDLTEGKFSFPMIHSISSAPDNTCLIDILRQRTEDEALKLAAISYIESTGSFEYCRQRL
                      ESFQAEALRLVEQLEVNLGPGHSIRHILRRLVVTS"
+                     /Pfam="GGPS"
      CDS             complement(join(2149..2872,2926..3275))
                      /codon_start=1
                      /gene="estA2"
                      /product="hypothetical protein EstA2"
-                     /label=estA2
+                     /label="estA2"
                      /note="EstA2"
                      /protein_id="WGJ63580.1"
                      /translation="MDVRHSARITLGCLALLAVYAKYYLSLQNGFIPLLSSLKAKNSLP
@@ -59,14 +60,15 @@ FEATURES             Location/Qualifiers
                      VTYAREHIFAFAFLCSALPHWTMIGIVFLVQLGVPPSCHDGKSLIVPRLSWGGKHVASI
                      EEGIQHFLQWDYGISAVALLTWCVALYHHHAGIPAVWIKTVCGLMWVLVVACLCGPCSA
                      ALWLYYEAESIAFAKEA"
-     CDS             join(3648..3756,3810..3922,3981..4109,4163..4355,4414..4591,
-                     4646..4754,4815..4928,4987..5164,5212..5455,5513..5681)
+                     /Pfam="CtvD"
+     CDS             join(3648..3756,3810..3922,3981..4109,4163..4355,
+                     4414..4591,4646..4754,4815..4928,4987..5164,5212..5455,
+                     5513..5681)
                      /codon_start=1
                      /gene="estQ2"
                      /product="cytochrome P450 monooxygenase EstQ2"
-                     /label=estQ2
-                     /note="EstQ2
-                     revised sequence"
+                     /label="estQ2"
+                     /note="EstQ2 revised sequence"
                      /protein_id="WGJ63581.1"
                      /translation="MDQATLTASRWCLLTVVGAMIYLLLRWCTQNGSQSVPVSSTVPTV
                      GRPGILGPWIDAVTWAWDARDRIQKGYNQYSDYAFRVSTPNGWETCICNPEMIKEYKNL
@@ -77,14 +79,14 @@ FEATURES             Location/Qualifiers
                      ALAAHGGWNKTSLESMVKLDSFVKECQRYNPLDAASLSRQATCDFQFSNGLCLPKGTWL
                      FAPNGPMVGDSRLYPSAHEFDGLRFWKLGQKAQRLQDYRLVASSATYLQFGDGRHICPG
                      RFMAADEVRLLLAYSLWRYDIAIEGHQPRPQNTTFKRFCFPDMSARIELKTRL"
+                     /Pfam="p450"
      CDS             complement(join(5907..6395,6458..6828,6887..7155,
                      7215..7507))
                      /codon_start=1
                      /gene="estM2"
                      /product="FAD-dependent monooxygenase EstM2"
-                     /label=estM2
-                     /note="EstM2
-                     revised sequence"
+                     /label="estM2"
+                     /note="EstM2 revised sequence"
                      /protein_id="WGJ63582.1"
                      /translation="MEKSTFRVIIVGGSIAGLTLAHCLERVGIDYLILEKASEIAPQVG
                      ASVGILPNGSRILDQLRIYSEVEKQIEPLETATISYPDGFSFSSSYPRIIHQRFGFPIA
@@ -95,11 +97,12 @@ FEATURES             Location/Qualifiers
                      RTGQQPTATDVEAMLQDYRNSRYSRVQSIYNTSRFLVRFQARDGFFNTLFGRYYAPYAG
                      DLPADMASKTIAQGEVCAFLPLRSSTGAWEIYRSRKDGFFMASKEALVMIILLGLVAGY
                      SWTLVRPNLFSAQYH"
+                     /Pfam="FAD_binding_3"
      CDS             complement(join(8026..8233,8280..8797))
                      /codon_start=1
                      /gene="estB2"
                      /product="terpene cyclase EstB2"
-                     /label=estB2
+                     /label="estB2"
                      /note="EstB2"
                      /protein_id="WGJ63583.1"
                      /translation="MDGFDVSQAPPEYHAVKPIADLFILGMGLGWVINYIGMVYRSFQE
@@ -107,13 +110,13 @@ FEATURES             Location/Qualifiers
                      APLVRDNLPWIFLVGISGCLTGHLALAAEIGPSLAYSWGAVICQLLLSIGGLCQLLCRN
                      RTRGASYLLWLSRFLGSCCTVGFASLRWKYWPESFEWLNSPLVLWSLAVFLLVDGSYGI
                      FFWHVKRYEKMTLSQQKAK"
+                     /Pfam="Pyr4"
      CDS             join(9213..9557,9620..9972,10038..10356)
                      /codon_start=1
                      /gene="estC2"
                      /product="prenyltransferase EstC2"
-                     /label=estC2
-                     /note="EstC2
-                     revised sequence"
+                     /label="estC2"
+                     /note="EstC2 revised sequence"
                      /protein_id="WGJ63584.1"
                      /translation="MESGRNFIMAASSMSTATSIAALASLLGLCAIIVDRLPLRRWFSL
                      HDRLIGTQNPDKVTGIECPYAYLREAYGHHHWAPFISKLSPTLENEDPSKYHLVNEIMD
@@ -121,11 +124,12 @@ FEATURES             Location/Qualifiers
                      LLQDLEDILHGQDLSLIWRRDGPSSMPADPHQRAEMYRQMASLKTGSLFRLLGHLVLED
                      RTMDGPLTQVAWYSQLQNDCKNVFSSEYARMKGAAAEDLNNKELTYPIILALSAPGGEH
                      VIRALEYPSPRNVRRALHIIRSEAVYGPCMKELKQASVGIEDWLQLWGRKEKLDQQS"
+                     /Pfam="PaxC"
      CDS             complement(join(10948..11345,11420..12037,12099..12167,
                      12221..12305,12367..12492,12542..12754))
                      /codon_start=1
                      /product="cytochrome P450 monooxygenase EstP2"
-                     /label=estP2
+                     /label="estP2"
                      /translation="METQFTPQQTWFPWTTVVVLILVYLILPTPTYKTSVKVPTISYPV
                      PYMPRTITRLLFNWKARDIIDKGYKQHNAQGYKVLKADGDLVVLPTKYAEELRQLPSTT
                      LNALEATFSDHVGDYTTILTDSHLHTETIQKRLTPAIGRLIPRIISELDYAFNVEFPEC
@@ -135,13 +139,13 @@ FEATURES             Location/Qualifiers
                      WSSASQQDLTALRAMDSFLKESQRFNPPGELSFHRVVKHDLTLTDGLFLPRGTHICMAA
                      GPISRDPAIISDPDRFDAFRFMKEGKATSGLVSTGTTSMHFGLGRYACPGRFFAAVVMK
                      AILSRFLIEYEFKFGPGQKERPKNMVIGDKIVPNVSTPIFIKRA"
+                     /Pfam="p450"
      CDS             14132..15571
                      /codon_start=1
                      /gene="estV2"
                      /product="acetyltransferase EstV2"
-                     /label=estV2
-                     /note="EstV2
-                     revised sequence"
+                     /label="estV2"
+                     /note="EstV2 revised sequence"
                      /protein_id="WGJ63585.1"
                      /translation="MSSFEAFDLTLLDHTIPPCYVRFFLSFPLDNVPTAVSQLQAGTAS
                      LLKRLPFLAGDLAPSETPGATKGLLCIRPSALNTLDSEALCIRTHDCLLKHCTITASTS
@@ -152,6 +156,7 @@ FEATURES             Location/Qualifiers
                      EKDVSSRFCRGPAELQGWQFDLCQIASRIRCKLKHMDNAYVRSVISYLAEVEDLSTIAF
                      GPSDFYISSWRELGIYHADFGGSLGHPTDMRVCDGMTDGQFYIMPKRRQGEDFWEVHVT
                      IHRDTMAALCADKLWSTYTSA"
+                     /Pfam="Transferase"
 ORIGIN
         1 tcacgaagtc accaccagac ggcgtaatat gtggcgtata ctatgacctg gccctaggtt
        61 gacttccaat tgctccacaa gcctcagggc ctctgcctga aagctttcca gccgctgtcg

@@ -1,24 +1,24 @@
-LOCUS       FBGC00639       20266 bp DNA     linear   UNA 16-APR-2023
+LOCUS       FBGC00639              20266 bp    DNA     linear   UNA 16-APR-2023
 DEFINITION  fosfonochlorin.
 ACCESSION   FBGC00639
-VERSION     .
+VERSION     FBGC00639
 KEYWORDS    .
 SOURCE      Talaromyces islandicus WF-38-12
   ORGANISM  Talaromyces islandicus WF-38-12
+            .
 REFERENCE   1  (bases 1 to 20266)
-  AUTHORS   Gama SR, Stankovic T, Hupp K, Al Hejami A, McClean M, Evans A, 
+  AUTHORS   Gama SR, Stankovic T, Hupp K, Al Hejami A, McClean M, Evans A,
             Beauchemin D, Hammerschmidt F, Pallitsch K, Zechel DL.
   TITLE     Biosynthesis of the Fungal Organophosphonate Fosfonochlorin Involves
             an Iron(II) and 2-(Oxo)glutarate Dependent Oxacyclase.
   JOURNAL   Chembiochem 2022;23:e202100352
-  PUBMED    34375042
+   PUBMED   34375042
 REFERENCE   2  (bases 1 to 20266)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Apr 16, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1002/cbic.202100352"; journalName: "Chembiochem"; date: "2022"; 
+  JOURNAL   Exported Apr 16, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1002/cbic.202100352"; journalName: "Chembiochem"; date: "2022";
             volume: "23"; pages: "e202100352"
 FEATURES             Location/Qualifiers
      source          1..20266
@@ -30,10 +30,10 @@ FEATURES             Location/Qualifiers
      CDS             complement(join(1..194,263..1568,1627..1706,1767..2034))
                      /codon_start=1
                      /locus_tag="PISL3812_04803"
-                     /product="glucose-methanol-choline family oxidoreductase 
+                     /product="glucose-methanol-choline family oxidoreductase
                      PISL3812_04803"
-                     /label=PISL3812_04803
-                     /note="Choline dehydrogenase, Glucose-methanol-choline 
+                     /label="PISL3812_04803"
+                     /note="Choline dehydrogenase, Glucose-methanol-choline
                      oxidoreductase"
                      /protein_id="CRG87782.1"
                      /translation="MMLRLCVLSAVLSPAAASIISQFSNGRLTGNAFGRAGLNATYDYV
@@ -47,15 +47,16 @@ FEATURES             Location/Qualifiers
                      TISCMMGATTSRGNMTISSASNLDAPIIDPNWLRSSTDKEVAVLAFKRAREAFKAIPIL
                      VGQEVWPGPNVTSDADLLKAIEGNLVPTHHGSASCKMGKKGDSDAVVDSKGRVFGVENL
                      RVIDSSSMPFTPPGHTMGITYAHAEKLTQDVIDAYLESL"
-     CDS             join(3871..3925,3996..4203,4261..4452,4511..4656,4716..5844,
-                     5900..6860,6928..7182)
+                     /Pfam="GMC_oxred_N, GMC_oxred_C"
+     CDS             join(3871..3925,3996..4203,4261..4452,4511..4656,
+                     4716..5844,5900..6860,6928..7182)
                      /codon_start=1
                      /gene="aglU"
                      /locus_tag="PISL3812_04804"
                      /product="alpha-glucosidase PISL3812_04804"
                      /function="KOG: Maltase glucoamylase and related
                      hydrolases, glycosyl hydrolase family 31"
-                     /label=PISL3812_04804
+                     /label="PISL3812_04804"
                      /note="[EC:3.2.1.20], Alpha-glucosidase, Glycoside
                      hydrolase, family 31"
                      /protein_id="CRG87783.1"
@@ -76,11 +77,12 @@ FEATURES             Location/Qualifiers
                      DWYTLQEVDAQPRENVTLAAPLEHINVHARGGSIFVLQEPGYTTAATRNNSFALLATLD
                      DNQYAEGTVYLDDGVSMVQNATKTVSFKYDNGTIRASIHGTYHASSPLANVTIAGLQTE
                      PKGFQFRNNKTLYSKRTGNLSYKNGTAYITGLEQYTPSGAFEHSFELKLTY"
+                     /Pfam="NtCtMGAM_N, Glyco_hydro_31"
      CDS             complement(join(7486..8432,8481..8544))
                      /codon_start=1
                      /locus_tag="PISL3812_04805"
                      /product="aldo-keto reductase FfnC"
-                     /label=ffnC
+                     /label="ffnC"
                      /note="revised sequence"
                      /protein_id="CRG87784.1"
                      /translation="MGSEQKRKIDIVFGAMTFGRAGVEQARVHDLKDAAAMLDTFQSHG
@@ -89,11 +91,12 @@ FEATURES             Location/Qualifiers
                      CIREGWIRPTVYQGVYNAIHRTVELELFSCLRHYGITFYAFSPLAGSQLTGRYKRDTQD
                      SNIESMSRFDPNTFQGRKYRRRFWNDTIFDALDIIRESTTKHDLTEMEAALRWIVHHSQ
                      LDATRGDAVIIGASSLPQLEQNLADLDKGPLPSDVVEALDKAWRITKGIVNNYWH"
+                     /Pfam="Aldo_ket_red"
      CDS             complement(9047..10267)
                      /codon_start=1
                      /locus_tag="PISL3812_04806"
                      /product="phosphonopyruvate decarboxylase FfnB"
-                     /label=ffnB
+                     /label="ffnB"
                      /protein_id="CRG87785.1"
                      /translation="MTTIDPRLFYEQALVGNGITHAFGVPDSCLKGLLSYLYATKHAPE
                      HIVTASEGAAVALAAGYYLSTGKLAVAYMQNSGLANSLNPLQSLAAKEVFGIPLLLVIG
@@ -103,13 +106,14 @@ FEATURES             Location/Qualifiers
                      IGHSKGRVVCIEGDGSFLMHVSNVAVLAAHAPPSLIHVVIHNRIHCSTGNQPIPISTEN
                      LLSLAGSLPYKQKFFVDTAEGLIQACEWAQESTLIVVVVNQSVKKTLPRPTEHPYELRD
                      SYMSSFA"
+                     /Pfam="TPP_enzyme_N, TPP_enzyme_C"
      gap             11540..11564
                      /estimated_length=25
      CDS             complement(11773..12966)
                      /codon_start=1
                      /locus_tag="PISL3812_04807"
                      /product="phosphoenolpyruvate mutase FfnA"
-                     /label=ffnA
+                     /label="ffnA"
                      /protein_id="CRG87786.1"
                      /translation="MGSIQETPILKPSSVSVRSLLAKNNNKVLLCETHDSFSTEIIRNG
                      VGKDGQVFDGIWYSGLTQTTYLGLPDVELISPLQRASFLALNGNLKRTTSGRPLCAAFD
@@ -118,11 +122,12 @@ FEATURES             Location/Qualifiers
                      AIMIHSKSKSPDEVIAFLHAYRAFDPHTPLVVVPTSYSATTKETFYAAGANVIIYANHL
                      MRAKITAVGSISDKVFAQNPDLFNDDKEALACIQARNYGCLLRKLRERSYWGEETKEAR
                      LYRIVAETTASENIQAAVNELLDGDLAGCEADKRIITVKELLKINGQQVAPVAELFG"
+                     /Pfam="PEP_mutase"
      CDS             join(14941..15276,15334..15599,15662..15919,15978..16341)
                      /codon_start=1
                      /locus_tag="PISL3812_04808"
                      /product="2OG-Fe(II)-dependent dioxygenase FfnD"
-                     /label=ffnD
+                     /label="ffnD"
                      /note="Taurine catabolism dioxygenase TauD/TfdA"
                      /protein_id="CRG87787.1"
                      /translation="MASALVQGSVDYSHLPKTEFRTKLETKPKSKDFPDGIKTTGQQPP
@@ -133,12 +138,13 @@ FEATURES             Location/Qualifiers
                      GRVYSKFDPNYVRSLSRFSDKGIIPPLSEKQKEAIEYFDQLCLQESIRNVLKVGDVHFM
                      TNNHLYHSRTGYKDHPPPAPRRHLLRLWLSTPESEGGWKLPYHDSNWNKRGGVQVDDRP
                      AKVLLHAD"
+                     /Pfam="TauD"
      CDS             join(16795..16966,17028..18250)
                      /codon_start=1
                      /locus_tag="PISL3812_04809"
-                     /product="major facilitator superfamily transporter 
+                     /product="major facilitator superfamily transporter
                      PISL3812_04809"
-                     /label=PISL3812_04809
+                     /label="PISL3812_04809"
                      /note="Probable transporter MCH4, Major facilitator
                      superfamily domain, general substrate transporter"
                      /protein_id="CRG87788.1"
@@ -151,11 +157,12 @@ FEATURES             Location/Qualifiers
                      ATEGAIGILLVFSITFGFFSSGYSATWGGMLKQIERESAERNEAIDPGMLYGLFNGVRG
                      IGYVSGGIAGVGLLQAGFIPASQRFAYGTMYGPLILFTGLSSILGGWVVLWRWNPARLL
                      RRISKM"
+                     /Pfam="MFS_1"
      CDS             join(19377..19428,19512..20266)
                      /codon_start=1
                      /locus_tag="PISL3812_04810"
                      /product="glutathione S-transferase PISL3812_04810"
-                     /label=PISL3812_04810
+                     /label="PISL3812_04810"
                      /note="Glutathione S-transferase, C-terminal-like"
                      /protein_id="CRG87789.1"
                      /translation="MADPTPVHFFDLYSDQPGPSKSWSPNTLKTRAVLNFKGIHYTQSW

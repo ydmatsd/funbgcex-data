@@ -1,30 +1,31 @@
-LOCUS       FBGC00624       19428 bp DNA     linear   UNA 14-APR-2023
+LOCUS       FBGC00624              19428 bp    DNA     linear   UNA 14-APR-2023
 DEFINITION  biruloquinone.
 ACCESSION   FBGC00624
-VERSION     .
+VERSION     FBGC00624
 KEYWORDS    .
 SOURCE      Cladonia macilenta KoLRI003786
   ORGANISM  Cladonia macilenta KoLRI003786
+            .
 REFERENCE   1  (bases 1 to 19428)
   AUTHORS   Kim W, Jeong MH, Yun SH, Hur JS.
-  TITLE     Transcriptome Analysis Identifies a Gene Cluster for the 
-            Biosynthesis of Biruloquinone, a Rare Phenanthraquinone, in a 
+  TITLE     Transcriptome Analysis Identifies a Gene Cluster for the
+            Biosynthesis of Biruloquinone, a Rare Phenanthraquinone, in a
             Lichen-Forming Fungus Cladonia macilenta.
   JOURNAL   J Fungi (Basel) 2021 May 20;7. 2021;7(5):398
-  PUBMED    34065383
+   PUBMED   34065383
 REFERENCE   2  (bases 1 to 19428)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Apr 14, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.3390/jof7050398"; journalName: "J Fungi (Basel) 2021 May 20;7.";
-            date: "2021"; volume: "7"; issue: "5"; pages: "398"
+  JOURNAL   Exported Apr 14, 2023 from SnapGene 6.2.1 https://www.snapgene.com
 COMMENT     ##Genome-Assembly-Data-START##
             Assembly Method       :: AllPaths v. Jan-2013
             Assembly Name         :: Clmac_v1
             Genome Coverage       :: 540.0x
             Sequencing Technology :: Illumina HiSeq ##Genome-Assembly-Data-END##
+            ##Genome-Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.3390/jof7050398"; journalName: "J Fungi (Basel) 2021 May 20;7.";
+            date: "2021"; volume: "7"; issue: "5"; pages: "398"
 FEATURES             Location/Qualifiers
      source          1..19428
                      /strain="KoLRI003786"
@@ -32,14 +33,14 @@ FEATURES             Location/Qualifiers
                      /country="China: Yunnan Province"
                      /lat_lon="26.531306 N 100.037222 E"
                      /isolation_source="rotten bark at Mt. Cangshan"
-                     /collection_date=2005
+                     /collection_date="2005"
                      /db_xref="taxon:1353983"
                      /organism="Cladonia macilenta KoLRI003786"
                      /submitter_seqid="contig_52"
      CDS             complement(join(1..1065,1116..1580,1635..2117))
                      /codon_start=1
                      /product="transcription factor Brq1"
-                     /label=brq1
+                     /label="brq1"
                      /note="revised sequence"
                      /protein_id="QWW20877.1"
                      /translation="MANPYADQRELFDQHLMDESQAPPSPTTSVRHKRPDRSCLLCHQR
@@ -54,11 +55,12 @@ FEATURES             Location/Qualifiers
                      DTLAAACHILEINLQLQTEDLLRGFRWHFETYTQNHILTYLLWHLRVKPLGSGVDRAWT
                      AVEESFKVAGHRNISRDPGSRWKVLQLLKEKAMQIRESHNAESNAMDSGYGEPAVMNIM
                      TEGNEVTLDENFWDFAATNLDMRGFEGGYFPNYST"
+                     /Pfam="CpaE, Zn_clus, Fungal_trans"
      CDS             complement(join(2775..3201,3260..3362,3409..3909,
                      3969..4296))
                      /codon_start=1
                      /product="major facilitator superfamily transporter Brq2"
-                     /label=brq2
+                     /label="brq2"
                      /protein_id="QWW20878.1"
                      /translation="MAEPKTQPPNAMRDLTETGKISDTDGRHETTQRSLDDELVQKPAE
                      SPWMDPKAFPEGGTQAWLTVAGSSACLFVSFGWVNCVGVFQEYYQTHQLKEYSASDVAW
@@ -68,10 +70,11 @@ FEATURES             Location/Qualifiers
                      PFTFIVSEARSHGMSDRLANYLVPILNGASIFGRTVPNALADKVGRFNIMVIMASFTTI
                      VILGLWLPSTGNAPIILFAALFGIGSGAGIGLTPALCAGISPIKDIGVRTGTVFAISSI
                      AALTGSPLGGRIIADSEGSFKYTIVFSGVSCAIGTALFVAARITIGGVKMGKT"
+                     /Pfam="MFS_1"
      CDS             complement(join(5400..6428,6488..6736))
                      /codon_start=1
                      /product="methyltransferase Brq3"
-                     /label=brq3
+                     /label="brq3"
                      /protein_id="QWW20879.1"
                      /translation="MNTATTDLEALAELCLQSAKTIKGFLAANGPSKLAFDTQALPSFP
                      QGDEMTQRVRSDLRNAAKTLYDLVTGPQECLMESSLTSLQFIGSMRYICHFKVPDFVPE
@@ -81,11 +84,12 @@ FEATURES             Location/Qualifiers
                      SEVVQMAQESTIVPKDLQGRVTFEVHDFYQPQKTCADAYFYRKTLLNHTDKNAADIIGA
                      LSPALNPGNRLLIMDFVQADKPVETTATERYYRAVDLQMLLYYNCRYRTLDEWKELVKA
                      GDSRFEFERECSPRGSAMPILSFIVR"
-     CDS             complement(join(7674..8015,8073..8187,8239..8317,8371..8632,
-                     8690..8959,9006..9131,9199..9297))
+                     /Pfam="MdpA"
+     CDS             complement(join(7674..8015,8073..8187,8239..8317,
+                     8371..8632,8690..8959,9006..9131,9199..9297))
                      /codon_start=1
                      /product="FAD-dependent monooxygenase Brq4"
-                     /label=brq4
+                     /label="brq4"
                      /protein_id="QWW20880.1"
                      /translation="MASKSPLKIGVVGAGIAGLSAAIALKRAGHEIEVFERADFGREAG
                      ITLAVAPNAGKVYDHWGFDLKTVGGVEALQIRHLDGATAQTTWHDSLADLPERYGASLR
@@ -95,11 +99,12 @@ FEATURES             Location/Qualifiers
                      PEEGIFSYPLLVRDPLPRYVNGKVVVIGDAAHVMRPVQGQGASIAIESTGCLEVLFQDI
                      EKKDVQSRLKLFEKLRLSRCGPVHVFSNMPMGPDGYSWMLEKIKPFWDGSKPLPPLGSR
                      PVSKPFRDFIYSYNVHEETRKALAEAQRREH"
+                     /Pfam="Pyr_redox_2, FAD_binding_3"
      CDS             join(10458..10744,10798..11089,11138..14434,14492..14593,
                      14649..16733)
                      /codon_start=1
                      /product="polyketide synthase Brq5"
-                     /label=brq5
+                     /label="brq5"
                      /protein_id="QWW20881.1"
                      /translation="MAAPLSLYLFGDQDSQFRDDLGALLLVGGNPVLNTFFDRAALSLR
                      QEIQALPWSQRDQFPSFCNFLDLLAIDTSKPLHPALQLALSSVHHFAVFLCRKHSEIES
@@ -136,11 +141,13 @@ FEATURES             Location/Qualifiers
                      PVGLGKLPEAFFNYWRKIHQPGGMVEDRPLPSWLMDHFKAVNENLRWYNASPLPRGHSP
                      MTYLVWAAKGTDNLAAFPDRHLITPQEDKDLGFLMDDKTDFGPKGWEKLVEGEIKIERA
                      MTSNHFTITRGEGAKLVSEMIKKACVVE"
+                     /Pfam="SAT2, PKS_KS, PKS_AT, fPKS_PT, ACP_PCP,
+                     Thioesterase"
      CDS             join(17418..17669,17717..17817,17872..18028,18081..18225,
                      18276..18309,18357..19342,19397..19428)
                      /codon_start=1
                      /product="major facilitator superfamily transporter Brq6"
-                     /label=brq6
+                     /label="brq6"
                      /note="revised sequence"
                      /protein_id="QWW20882.1"
                      /translation="MDRHDATEESPLLGQSESPVNDAGEYRNGTITNSGDANGAQNGLV
@@ -153,6 +160,7 @@ FEATURES             Location/Qualifiers
                      YYWLTVIAYTTLTIGIIPILLCSGIVLNSTYGIAVGLVLCGFSNGIGVTTSLIGLIANA
                      STEDQAVATACSYLFRSLGSVIGLSLSATVVQQSLRTQLRDRLRSGKDADQIVKRVRES
                      LEYIKSLDPEIQVTVRHCYGIATRNGFALMLVLVSFAMISSWFIREKRLTR"
+                     /Pfam="MFS_1"
 ORIGIN
         1 tcaggttgaa taattgggga agtatccccc ttcaaagccg cgcatgtcaa gattagtggc
        61 ggcaaaatcc caaaaatttt catccagcgt aacttcgttt ccttcggtca taatattcat

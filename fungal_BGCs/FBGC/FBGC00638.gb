@@ -1,32 +1,32 @@
-LOCUS       FBGC00638       23003 bp DNA     linear   UNA 16-APR-2023
+LOCUS       FBGC00638              23003 bp    DNA     linear   UNA 16-APR-2023
 DEFINITION  fosfonochlorin.
 ACCESSION   FBGC00638
-VERSION     .
+VERSION     FBGC00638
 KEYWORDS    .
 SOURCE      Fusarium oxysporum f. sp. lycopersici 4287
   ORGANISM  Fusarium oxysporum f. sp. lycopersici 4287
+            .
 REFERENCE   1  (bases 1 to 23003)
-  AUTHORS   Gama SR, Stankovic T, Hupp K, Al Hejami A, McClean M, Evans A, 
+  AUTHORS   Gama SR, Stankovic T, Hupp K, Al Hejami A, McClean M, Evans A,
             Beauchemin D, Hammerschmidt F, Pallitsch K, Zechel DL.
   TITLE     Biosynthesis of the Fungal Organophosphonate Fosfonochlorin Involves
             an Iron(II) and 2-(Oxo)glutarate Dependent Oxacyclase.
   JOURNAL   Chembiochem 2022;23:e202100352
-  PUBMED    34375042
+   PUBMED   34375042
 REFERENCE   2  (bases 1 to 23003)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Apr 16, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1002/cbic.202100352"; journalName: "Chembiochem"; date: "2022"; 
+  JOURNAL   Exported Apr 16, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1002/cbic.202100352"; journalName: "Chembiochem"; date: "2022";
             volume: "23"; pages: "e202100352"
-COMMENT     Originally submitted as Fusarium oxysporum f. sp. lycopersici 4286.
+            Originally submitted as Fusarium oxysporum f. sp. lycopersici 4286.
 FEATURES             Location/Qualifiers
      source          1..23003
                      /chromosome="8"
                      /strain="4287"
                      /mol_type="genomic DNA"
-                     /label=forma_specialis: lycopersici
+                     /label="forma_specialis: lycopersici"
                      /note="forma_specialis: lycopersici"
                      /db_xref="taxon:426428"
                      /organism="Fusarium oxysporum f. sp. lycopersici 4287"
@@ -34,7 +34,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="FOXG_02660"
                      /product="glutathione S-transferase FOXG_02660"
-                     /label=FOXG_02660
+                     /label="FOXG_02660"
                      /protein_id="KNA98277.1"
                      /translation="MTDWKNAEYTLYSSPFSLYSMMARHTIQLGPTTHDATPPKSITLH
                      FINHKAHENLSEDYLINVNPRGQVPAMKGNLLNETLTESRAISLHLAEKHYPAMLGGKY
@@ -42,11 +42,12 @@ FEATURES             Location/Qualifiers
                      HNQHNAIAFQPGVVAKHRADLKAIFEEVVEHRRQSGSYEDYDEWTFGSDIGPTILDSHL
                      LPFALRCMEVGNDDLVPLELQRWAKVKEKSPSWQKVMHGKPTTYHPSMGPVAEMSEMMT
                      L"
+                     /Pfam="GST_N"
      CDS             complement(join(1550..2496,2544..2607))
                      /codon_start=1
                      /locus_tag="FOXG_02661"
                      /product="aldo-keto reductase FfnC"
-                     /label=ffnC
+                     /label="ffnC"
                      /protein_id="KNA98278.1"
                      /translation="MPQTQKARIPVIFGAMTFGREGVEQARIHDLKEAGAMLDLFQEHG
                      GTVVDTARVYAQGSSEEYLGQLDWQARGLRVDTKLYPNIHDGTGKITHSPDDLRKHLDE
@@ -54,11 +55,12 @@ FEATURES             Location/Qualifiers
                      CIREGWIRPTVYQGVYNAIHRTVEMELFPCLRHYGITFYAFSPLAGSQLTGRYKRDTQD
                      TDIESMSRFDPNTFQGRKYRRRFWNDVIFDAVELIRDEAGKHGLTEMDCAFRWIEHHSQ
                      LDPERGDAVIIGASSKSQLDQNLNLLEKGPLPKEIVDVLDKAWLITKGSVNNYWH"
+                     /Pfam="Aldo_ket_red"
      CDS             complement(3175..4377)
                      /codon_start=1
                      /locus_tag="FOXG_02662"
                      /product="phosphonopyruvate decarboxylase FfnB"
-                     /label=ffnB
+                     /label="ffnB"
                      /protein_id="KNA98279.1"
                      /translation="MATLDPHLFYEEALVDNGITHAFGVPDSCLKGFLAHLYATKKSPE
                      QIVTASEGAAAALAAGYYLSTQSLAVAYMQNSGLANALNPLQSLAAKEVFGIPMLLMVG
@@ -68,12 +70,13 @@ FEATURES             Location/Qualifiers
                      VVCVEGDGSFLMHVGNVAVLAASASDKLIHVVIHNGIHCSTGNQPVPISTNNLLSLCGS
                      LPYKQKFFVDSAEGLIQAFEWAEKTALIVVVVNQDVSKDLPRPSEHPFELRDAFISHFA
                      K"
-     CDS             join(5870..5918,5978..6179,6227..6418,6474..6619,6668..7796,
-                     7839..8808,8865..9119)
+                     /Pfam="TPP_enzyme_N, TPP_enzyme_C"
+     CDS             join(5870..5918,5978..6179,6227..6418,6474..6619,
+                     6668..7796,7839..8808,8865..9119)
                      /codon_start=1
                      /locus_tag="FOXG_02663"
                      /product="alpha-glucosidase FOXG_02663"
-                     /label=FOXG_02663
+                     /label="FOXG_02663"
                      /note="revised sequence"
                      /protein_id="KNA98280.1"
                      /translation="MLLYLLALILFIVLAQAESSISTVVQSKTASPEIAVAPSLTPTFR
@@ -93,12 +96,13 @@ FEATURES             Location/Qualifiers
                      WYTLNEVHAKPQENITLDAPLEHINLHIRGGTVFTLQKPGNTTAATRRNPFSLLLALDD
                      NEYAEGSVYFDDGVSLEPEATKTVAYTFRKGILRAETTGDYKVSPPLVNITVAGLRKAP
                      KRVEFHSDEGKQKGLSPKLEYSNGTAYVTELEHFTRNGAFRYDFQVTFKY"
+                     /Pfam="NtCtMGAM_N, Glyco_hydro_31"
      CDS             complement(join(9395..10614,10665..10870,10934..10941))
                      /codon_start=1
                      /locus_tag="FOXG_02664"
-                     /product="major facilitator superfamily transporter 
+                     /product="major facilitator superfamily transporter
                      FOXG_02664"
-                     /label=FOXG_02664
+                     /label="FOXG_02664"
                      /protein_id="KNA98282.1"
                      /translation="MARPEYQPVSRNHVDQILLVEPGASAGDDASDSDLENDIAISESE
                      LKHDHIPRRTLIRVLAANGVIQIPIWGFAISYGVLEEYYFNNWTLQGNKDITGAIGTTA
@@ -109,12 +113,13 @@ FEATURES             Location/Qualifiers
                      CITSGLAVFLFWGNTTQGGVFLLVLFSITFGFFSSGYSATWGGILKQMENDSAERGDSI
                      DAGLIYGLINGVRGIGYLVGGAASVWLINAGTISDCQHFGYGSTYGPLILFTGLVSLAG
                      GWVVIWSWWPDSWTCGRRS"
+                     /Pfam="MFS_1"
      CDS             complement(join(11868..12231,12294..12551,12601..12866,
                      12915..13250))
                      /codon_start=1
                      /locus_tag="FOXG_02665"
                      /product="2OG-Fe(II)-dependent dioxygenase FfnD"
-                     /label=ffnD
+                     /label="ffnD"
                      /protein_id="KNA98283.1"
                      /translation="MAPGLIETVSDFSHLPKTEYRTKLEVKPKSALFPDGYKTTGQQPP
                      LYEEIHPYSDFPKKITGITAWTKDDLSGSPEKEAIWKHPFTEEELEDLSTAAENYINSG
@@ -124,11 +129,12 @@ FEATURES             Location/Qualifiers
                      GRVYSKFDPNYVRSLKRFSDKGIIPPLSDAQAEAIEFFDQTCYKESIGNVLEVGDVHFM
                      TNNHLYHSRQAYTDHEPPAPRRHLLRLWVSTPESEGGWKLPYHDSDWKRRGGVQVDDRP
                      HKVLLHAD"
+                     /Pfam="TauD"
      CDS             complement(13979..15193)
                      /codon_start=1
                      /locus_tag="FOXG_02666"
                      /product="phosphoenolpyruvate mutase FfnA"
-                     /label=ffnA
+                     /label="ffnA"
                      /protein_id="KNA98284.1"
                      /translation="MGSLHTEPSPSPAFSSVRSALAQNNNRIILCESHDGTSTEIIRAT
                      VAKNGQKFDGIWYSGLCQTTYLGIPDSETLSPLQRASLLALDGELKRKTSNRSLCAAFD
@@ -138,12 +144,13 @@ FEATURES             Location/Qualifiers
                      HLMRAKISAVGSISDKILAKNLDLFYNDAEIRAMIQARNYGCLLRKLRNRSVWGEESNE
                      ARMYRIVAEATASENIQATVIDLLEGKLAGCEADTRIVSVKELLKINAKQVVPVGELVT
                      QVDVY"
+                     /Pfam="PEP_mutase"
      CDS             join(16896..17163,17215..17297,17349..18627,18680..18873)
                      /codon_start=1
                      /locus_tag="FOXG_02667"
-                     /product="glucose-methanol-choline family oxidoreductase 
+                     /product="glucose-methanol-choline family oxidoreductase
                      FOXG_02667"
-                     /label=FOXG_02667
+                     /label="FOXG_02667"
                      /protein_id="KNA98285.1"
                      /translation="MHILPVLCSLLVSALAEDVPPQFDDGQLTGNGFGIPGINATYDYV
                      IVGGGTAGALAAARLTEHSNATVALVEAGGFYELSNGNVSQLPFRINDWKGSGGASSWQ
@@ -156,12 +163,13 @@ FEATURES             Location/Qualifiers
                      TVSRGNMTISSASNLDPPIIDPNWLRADTDKEVALYALRRARQLWEHIPSKIGKEIYPG
                      ASITSDEHLLDLTYDNLDPTHHGTASCSMGKAGDPSAVVDSKGRVFGIKNLRVIDSSTM
                      PLTPPGHTMGPTYGNAEKLVQDILNAYHGLE"
+                     /Pfam="GMC_oxred_N, GMC_oxred_C"
      CDS             join(19564..19759,19811..21030)
                      /codon_start=1
                      /locus_tag="FOXG_18379"
-                     /product="major facilitator superfamily transporter 
+                     /product="major facilitator superfamily transporter
                      FOXG_18379"
-                     /label=FOXG_18379
+                     /label="FOXG_18379"
                      /protein_id="KNA98286.1"
                      /translation="MAETEKHGRSQDGPILQSSFQRDENSAEQASHSTNQTDSNLAIDN
                      DHKKKLGVLWGSALMQLPLWGFNLSYGIFEEYWTSNWTLDGDLSITGTVGTTSNGVMYI
@@ -172,12 +180,13 @@ FEATURES             Location/Qualifiers
                      SVLLLWGLSVDGSPALTLVFAIIFGFFAGGYSATWGGITKELEGEAEVHNETIDSSLTY
                      GLLNGARGIGFVSGGLVSIPLLSSGDTGWGGRFGYGTKYGPLMVFTGIAVAFGGLGLIR
                      ATRIRPHKSSTSG"
+                     /Pfam="MFS_1"
      CDS             complement(join(21278..21443,21494..21660,21718..21797,
                      21856..22876,22929..23003))
                      /codon_start=1
                      /locus_tag="FOXG_02668"
                      /product="cytochrome P450 monooxygenase FOXG_02668"
-                     /label=FOXG_02668
+                     /label="FOXG_02668"
                      /protein_id="KNA98287.1"
                      /translation="MGVLHTEALAELSLGSAMALSGIALLLYLFISSVYYAFFHPLAKV
                      PGPKLYAITQIPYLYYLSKGDWVFHLAKLHEQYGPAVRFTPKDVSFITAEASKKIYGHK
@@ -188,6 +197,7 @@ FEATURES             Location/Qualifiers
                      EEEITVTQVDQLKYMLAVFNEGFRMYPPVAVGLSRLSPAGGEFIDGYWIPENTAVSMPH
                      WPAYYSELNFRDPKKFVPERWLDDPRYASDNRAILSPFSLGPRDCIGKNLAYTEMRLLL
                      ARMLWKFDLEAVPADKDWYDQKIFFLWEKGGLPIKLKEVVREKV"
+                     /Pfam="p450"
 ORIGIN
         1 tcaaagagtc atcatctcag acatctctgc aacagggccc attgaaggat gatacgtagt
        61 tggctttcca tgcatgacct tctgccatga tgggctcttc tctttcacct tggcccaacg

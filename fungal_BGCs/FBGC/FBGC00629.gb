@@ -1,28 +1,28 @@
-LOCUS       FBGC00629       19681 bp DNA     linear   UNA 15-APR-2023
+LOCUS       FBGC00629              19681 bp    DNA     linear   UNA 15-APR-2023
 DEFINITION  binaphthalene.
 ACCESSION   FBGC00629
-VERSION     .
+VERSION     FBGC00629
 KEYWORDS    .
 SOURCE      Xylaria schweinitzii BCC 1337
   ORGANISM  Xylaria schweinitzii BCC 1337
+            .
 REFERENCE   1  (bases 1 to 19681)
   AUTHORS   Thiele W, Froede R, Steglich W, Muller M.
-  TITLE     Enzymatic Formation of Rufoschweinitzin, a Binaphthalene from the 
+  TITLE     Enzymatic Formation of Rufoschweinitzin, a Binaphthalene from the
             Basidiomycete Cortinarius rufoolivaceus.
   JOURNAL   Chembiochem 2020;21:1423-1427
-  PUBMED    32159919
+   PUBMED   32159919
 REFERENCE   2  (bases 1 to 19681)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Apr 15, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1002/cbic.201900742"; journalName: "Chembiochem"; date: "2020"; 
-            volume: "21"; pages: "1423-1427"
+  JOURNAL   Exported Apr 15, 2023 from SnapGene 6.2.1 https://www.snapgene.com
 COMMENT     ##Assembly-Data-START##
             Assembly Method       :: SPAdes v. 3.10
             Sequencing Technology :: Illumina
             ##Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1002/cbic.201900742"; journalName: "Chembiochem"; date: "2020";
+            volume: "21"; pages: "1423-1427"
 FEATURES             Location/Qualifiers
      source          1..19681
                      /strain="BCC 1337"
@@ -34,7 +34,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="shwC"
                      /product="cytochrome P450 monooxygenase ShwC"
-                     /label=shwC
+                     /label="shwC"
                      /protein_id="QLM00038.1"
                      /translation="MLVLYGIILIVMGWLLYRIFLDPLSRIPGPFMSKFLPLYYIRMTW
                      NGDHVFALKALHDTYGPVVRLGPNELSFATTTAFDSIYGFAADKTFVTGGSRRSLLVPE
@@ -45,11 +45,12 @@ FEATURES             Location/Qualifiers
                      LAKLPYLNACITESFRIMPPFNAGILERVSMGSTVDGIYVPAGTGVQVDQFTLARSKEH
                      WDAPEEFLPERWLDSSSRKNEKAFRPFLIGSRRCPGKNMAYQIFRLAIGKMFYLYEMEL
                      VNKDYHVNRHGESRLGLSNVKLIVEMNPRVPGVLGYSAS"
+                     /Pfam="p450"
      CDS             complement(join(3571..4116,4172..4684,4746..4958))
                      /codon_start=1
                      /gene="shwM2"
                      /product="methyltransferase ShwM2"
-                     /label=shwM2
+                     /label="shwM2"
                      /protein_id="QLM00039.1"
                      /translation="MELSRQITDWADQVATYARLISTHLDQQDGELTGLFAPELAVPRA
                      KLSGAAFELFNAIQDKGGFLAHLTADCQVIFALRWIYHFKIPCYVPLDGTVTHDELAHA
@@ -59,12 +60,13 @@ FEATURES             Location/Qualifiers
                      RRLPPTLASRIRFQAHTFFESQPVQGASVYLLRHILHDWPDREVVQILGNIIPALGPKS
                      KIVISDVVLPEPGSIPATEERLMRSTDMILHSCANSSERTIEDWKAVIAVASQRLRIQR
                      ISRASGSLLSVMELALVGENTVKQ"
+                     /Pfam="MdpA"
      CDS             join(7415..7462,7527..7662,7754..7768,7840..7966,
                      8025..8802)
                      /codon_start=1
                      /gene="shwM1"
                      /product="methyltransferase ShwM1"
-                     /label=shwM1
+                     /label="shwM1"
                      /protein_id="QLM00040.1"
                      /translation="MSFNEAREKFLKTVTIAPALGFVPIAVEFCLFDRLCEIGRPATAQ
                      DICKAHGERDGRNMNLSLQLTDDTLLMMGGIGFLDIVSNGMYQANDVTEFLATTPSSQH
@@ -73,30 +75,33 @@ FEATURES             Location/Qualifiers
                      ELKDAFPRLGADNLVLQEYNSEIGEVPGVTQMSWNFKDEDQEQPVKGALIYFLCCVLHN
                      LSDVEVVKLFKKVRDAMSSRSRILIKEPVKNTASSTTHGAMIVLYGGRERTSAEWQNLA
                      AGAGLMVAFEVYPQVGECVVEMRIARV"
+                     /Pfam="Methyltransf_2"
      CDS             complement(join(9396..9829,9913..10039))
                      /codon_start=1
                      /gene="shwD"
                      /product="DUF1772 protein ShwD"
-                     /label=shwD
+                     /label="shwD"
                      /protein_id="QLM00041.1"
                      /translation="MTIGRIEQFIDRGNVVDGVEDPDNSATGLLTVFALTAGCFLSGIM
                      MGASLFSIPAFLEAAHTASQLCTQWTSLHHYGATISSSISVATFLLYASAAIRNWSSHK
                      SNRWSCVLAGMVTATMIPFTWIVMTPTNDKLFTLEAEVKAGHLTASLEHVRALVTEWNL
                      MHMIRSCFPLAGALIGFLVHMRK"
+                     /Pfam="Anthrone_oxy"
      CDS             complement(join(10117..10341,10397..10582))
                      /codon_start=1
                      /gene="shwE"
                      /product="decarboxylase ShwE"
-                     /label=shwE
+                     /label="shwE"
                      /protein_id="QLM00042.1"
                      /translation="MSSSREYQPAVLHSEGQFLCVTICGYKKGNVSDEDFHHYMAQVCA
                      PLGRDLMMKYGIVRFTQRFLHLARQIYNTTEIRAAINQLYDPTLTKLADFDLFSQIVFK
                      KLEDFRKFKQDPIYKTRLTVHHDDFVDTKRSM"
+                     /Pfam="EthD"
      CDS             complement(join(11244..12020,12085..12243))
                      /codon_start=1
                      /gene="shwB"
                      /product="metallo-beta-lactamase-like thioesterase ShwB"
-                     /label=shwB
+                     /label="shwB"
                      /protein_id="QLM00043.1"
                      /translation="MNSVGGYQQINKSLNASAFEDYLSTQFDQLPKLSDVELLSSRVIR
                      VLGQNPGKFTLQGTNTYIIGSGSSRLIIDTGQGTPEWARLIASTLETLEIKLCYVLLTH
@@ -104,12 +109,13 @@ FEATURES             Location/Qualifiers
                      HMCFILEEEKAMFTGDNILGHGTAAFEDLDQIMVSWNKMQEEDCLLGYPAHGIVISDLR
                      WKIKREIALKTNRENRVLQALQRLRPGDKGRGESVSIRQLASLMYGEGVSNEVRNQAVE
                      PLTEEVLQKLAEDGKVGFEMRNGEKMWFGF"
+                     /Pfam="Lactamase_B"
      CDS             join(13607..13640,13720..14014,14103..14409,14661..15919,
                      16107..18285,18371..19681)
                      /codon_start=1
                      /gene="shwP"
                      /product="polyketide synthase ShwP"
-                     /label=shwP
+                     /label="shwP"
                      /protein_id="QLM00044.1"
                      /translation="MRISHLEGCANMRALYFGNELPHERLSSLARHLYLFSRQRAYPTL
                      NKFLASATDVLRAEIRHLPASLQALTPPFDHVLDLVDNEKLRNSPLGSSIDAVFIVVIQ
@@ -142,6 +148,7 @@ FEATURES             Location/Qualifiers
                      LSATSPTSNSGPSKESTTLLTAMSSKISESNVVSKKLPTATSLDASTSAPDSPPAKTKE
                      SSPSAVQPVHTPATDQVRIEKETVDSRAISLIAREAGLDRSDLRETATFAELGIDSLMS
                      LVISDKFRDELNITVTGSLFLEYPTIGDLRGWLSEYYS"
+                     /Pfam="SAT2, PKS_KS, PKS_AT, fPKS_PT, ACP_PCP"
 ORIGIN
         1 tcaagatgcc gaatacccga ggacgccagg cactcgaggg ttcatctcga cgatcagctt
        61 tacgttcgac aatcccaatc gtgattcccc gtggcggttg acgtgataat ccttgtttac

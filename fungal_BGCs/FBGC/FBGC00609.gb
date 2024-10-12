@@ -1,31 +1,32 @@
-LOCUS       FBGC00609       13259 bp DNA     linear   UNA 12-APR-2023
+LOCUS       FBGC00609              13259 bp    DNA     linear   UNA 12-APR-2023
 DEFINITION  1-(2,6-dihydroxyphenyl)but-2-en-1-one.
 ACCESSION   FBGC00609
-VERSION     .
+VERSION     FBGC00609
 KEYWORDS    .
 SOURCE      Daldinia eschscholzii IFB-TL01
   ORGANISM  Daldinia eschscholzii IFB-TL01
+            .
 REFERENCE   1  (bases 1 to 13259)
   AUTHORS   Zhou ZZ, Zhu HJ, Lin LP, Zhang X, Ge HM, Jiao RH, Tan RX.
-  TITLE     Dalmanol biosyntheses require coupling of two separate polyketide 
+  TITLE     Dalmanol biosyntheses require coupling of two separate polyketide
             gene clusters.
   JOURNAL   Chem Sci 2019;10:73-82
-  PUBMED    30746075
+   PUBMED   30746075
 REFERENCE   2  (bases 1 to 13259)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Apr 12, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1039/c8sc03697g"; journalName: "Chem Sci"; date: "2019"; volume:
-            "10"; pages: "73-82"
-COMMENT     Microbe available from: Wei Fang, Institute of Functional 
-            Biomolecules, Nanjing University, Nanjing, Jiangsu, 
-            China.##Genome-Assembly-Data-START##
+  JOURNAL   Exported Apr 12, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     ##Genome-Assembly-Data-START##
             Assembly Method       :: SOAPdenovo v. 1.05
             Assembly Name         :: D.eschs_IFB_TL01_1.0
             Genome Coverage       :: 50.0x
             Sequencing Technology :: Illumina HiSeq ##Genome-Assembly-Data-END##
+            ##Genome-Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1039/c8sc03697g"; journalName: "Chem Sci"; date: "2019"; volume:
+            "10"; pages: "73-82"
+            Microbe available from: Wei Fang, Institute of Functional
+            Biomolecules, Nanjing University, Nanjing, Jiangsu,
 FEATURES             Location/Qualifiers
      source          1..13259
                      /chromosome="Unknown"
@@ -39,7 +40,7 @@ FEATURES             Location/Qualifiers
      CDS             join(1..250,310..416,476..650,708..1480,1539..1604)
                      /codon_start=1
                      /product="major facilitator superfamily transporter Orf3"
-                     /label=orf3
+                     /label="orf3"
                      /translation="MKSNADIESQAPTVLDDSDEHKSEKSGNGVPENGYSSEPTSERAE
                      GTPPAGPDPNAFPDGGFQAWFCIAGGFCTVFSSFGWVNCIGVFQDYYQAHQLAAYTPSD
                      VAWIPAAESFMLFFLGLVSGKVADNYGPRWPILFGSILHVLGMMMISISKEYYQFFLAQ
@@ -48,10 +49,11 @@ FEATURES             Location/Qualifiers
                      AFLPFNFIIVEAKETGMSPDLANYLVPIINAASIFGRIFPAHLGDVYGVFNVCIIFTLF
                      SGIITLALWLPAASVAPIIVYAVLYGFASGLTLAIIPALVASISDIQKLGFRVGTLYAF
                      SSFGALFGSPIAGAIVTSQDGSYSGLKIFCGVSLLAGATAIILSRVRLVGPGLLVKK"
+                     /Pfam="MFS_1"
      CDS             complement(join(2898..3724,3783..3978))
                      /codon_start=1
                      /product="trans-acting ketoreductase ChrB"
-                     /label=chrB
+                     /label="chrB"
                      /translation="MTRVLLTGGSGFIAAHILESLLEHGYSVLTTVRSTQKGQQILDSH
                      KQYGKDKLDFVVVEDIEKPGAFDSAVVADPPLDAVVHCASPYHFNAKTRDEIQQLLSTA
                      INGTTGILKAIKAHAPTVKRVVITSSYAAMVDYGKPMTHIYTEADWNPITEEQAYSSAP
@@ -59,11 +61,12 @@ FEATURES             Location/Qualifiers
                      LKGSPTTPCPPTVNYLFVDVRDLAVAHVRALEKPEAAGQRFLVTAGNYSNAEAAQIIGE
                      EYPEYKDRMPVGEALKPGERPATGVNGYDNTKSIEVLGMKYRPFRESVVGVVESIKGLL
                      "
+                     /Pfam="Epimerase"
      CDS             join(6724..7238,7296..7716,7773..7989,8041..8153,
                      8205..12068,12120..13259)
                      /codon_start=1
                      /product="polyketide synthase ChrA"
-                     /label=chrA
+                     /label="chrA"
                      /translation="MSQPTGRYIEPVAICGMAMRLPGGVKTPEDYWDVLYNGKDQRSPV
                      PISRYNIKGFNSDMGKTNTIYQQQAYFLEDDLAAFDAGLFTMTRNELEKADPQQRLLLL
                      VVRECLESAGVTDYRGSLTGFFVGTFSEDWLQMQSKEEQHPTGYVLTGHLDPMLANRVA
@@ -100,6 +103,8 @@ FEATURES             Location/Qualifiers
                      HRGPSPIIMGLHSDTHLEDASNHVAWKKDRRMGLYHNIPKEDNAESGSGEGDALREFIA
                      NVTANPSELDKPESAEFLALEIGKRVYSFMLKPIEEVDVSVSLVDVGLDSLMAVELRRL
                      WTQMFGTTISVLEIMSLGALENFGKLAAQGLKQRLLEG"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_DH, PKS_NRPS_MT, fPKS_KR,
+                     ACP_PCP"
 ORIGIN
         1 atgaagtcga acgcagatat tgagtctcag gccccgactg tcctcgacga ctcggacgag
        61 cacaagtcag agaagtccgg aaacggtgta cccgaaaatg gatactcttc ggaacctaca

@@ -1,28 +1,28 @@
-LOCUS       FBGC00647       17599 bp DNA     linear   UNA 19-APR-2023
+LOCUS       FBGC00647              17599 bp    DNA     linear   UNA 19-APR-2023
 DEFINITION  chrysogine.
 ACCESSION   FBGC00647
-VERSION     .
+VERSION     FBGC00647
 KEYWORDS    .
 SOURCE      Fusarium tricinctum CGMCC 3.4731
   ORGANISM  Fusarium tricinctum CGMCC 3.4731
+            .
 REFERENCE   1  (bases 1 to 17599)
   AUTHORS   Chen XW, Rao L, Chen JL, Zou Y.
-  TITLE     Unexpected assembly machinery for 4(3H)-quinazolinone scaffold 
+  TITLE     Unexpected assembly machinery for 4(3H)-quinazolinone scaffold
             synthesis.
   JOURNAL   Nat Commun 2022;13:6522
-  PUBMED    36316336
+   PUBMED   36316336
 REFERENCE   2  (bases 1 to 17599)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Apr 19, 2023 from SnapGene 6.2.2
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1038/s41467-022-34340-3"; journalName: "Nat Commun"; date: 
-            "2022"; volume: "13"; pages: "6522"
+  JOURNAL   Exported Apr 19, 2023 from SnapGene 6.2.2 https://www.snapgene.com
 COMMENT     ##Assembly-Data-START##
             Assembly Method       :: SOAPdenovo v. 2.04
             Sequencing Technology :: Illumina
             ##Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1038/s41467-022-34340-3"; journalName: "Nat Commun"; date:
+            "2022"; volume: "13"; pages: "6522"
 FEATURES             Location/Qualifiers
      source          1..17599
                      /strain="CGMCC 3.4731"
@@ -32,7 +32,7 @@ FEATURES             Location/Qualifiers
      CDS             complement(join(1..288,340..402,453..824))
                      /codon_start=1
                      /product="glutaminase ftChyE"
-                     /label=ftchyE
+                     /label="ftchyE"
                      /note="ChyE"
                      /protein_id="WCD39069.1"
                      /translation="MAHQTFRVAILQNFILEETSGRPMIDRLSNLILQSKPNAKITLHA
@@ -40,10 +40,11 @@ FEATURES             Location/Qualifiers
                      QQAVALALGGSLEKSRRGHCIGVENITLNSDGALLFEAQSVNIQKNHEIAVADLGPHLS
                      CLAPNNEILLSKDNRVLTFQGHPEMDADLSRLFVTTDDKSPSPRPEISTDLRPIDAPHD
                      GEAIFAVVMKWASQNEAL"
+                     /Pfam="GATase"
      CDS             complement(join(1215..7961,8034..8184,8241..8488))
                      /codon_start=1
                      /product="nonribosomal peptide synthetase ftChyA"
-                     /label=ftchyA
+                     /label="ftchyA"
                      /note="ChyA"
                      /protein_id="WCD39066.1"
                      /translation="MAPPAVSPLVVPRTDLPLDFTEAETQLATVSAQCTSLSNKTLTSW
@@ -87,11 +88,13 @@ FEATURES             Location/Qualifiers
                      EDRIVGPCLNIIPVRVHFPKSADKHQLLSQVQQQHIQTMPVENLGLGEIARNCTSWEPG
                      TKFGSFVRFQNFTNNDDPTCDFDGRTCETGLFSLPNKPSGTANVLVVPRGSSLSITMTI
                      SSQVLDEELAGYVVRYFSDVIESLAKEDVCEYLVQ"
+                     /Pfam="Condensation, AA-adenyl-dom, ACP_PCP, NRPS_C,
+                     NRPS_CT"
      CDS             join(9991..10156,10216..10673,10729..10812,10863..11124,
                      11174..11365,11421..12277)
                      /codon_start=1
                      /product="amidotransferase ftChyD"
-                     /label=ftchyD
+                     /label="ftchyD"
                      /note="ChyD"
                      /protein_id="WCD39068.1"
                      /translation="MCGISAFLSHPGESALPVVNGEAKHVAAELESSLDLIAHRGPDAR
@@ -106,10 +109,11 @@ FEATURES             Location/Qualifiers
                      PHFILRYNGDNIDMVHQVESRCPFLDHHLTEYVNNIPPSLKMRYNAKDKSYREKHILRE
                      AVKPYVTDEVYNMSKKAYMGPRKFWPGGPLHRKITELVTKENVEKLGFVDWGAAQDAVD
                      RAFNQQEALALRRAITVAQFVVLGQRFGVKTAGVKSS"
+                     /Pfam="GATase_7, Asn_synthase"
      CDS             complement(12551..13729)
                      /codon_start=1
                      /product="2OG-Fe(II)-dependent dioxygenase ftChyM"
-                     /label=ftchyM
+                     /label="ftchyM"
                      /note="ChyM"
                      /protein_id="WCD39071.1"
                      /translation="MAATADSHLGKFRYLTRGTKPTPSKEAYLLPPLSEFGDLVTLPLT
@@ -119,10 +123,11 @@ FEATURES             Location/Qualifiers
                      SGGIPRFALFSIWRPLRTVHRDPLALASAASFPASDYVPSDQREPKDNRIPAHLSRIID
                      PNSPNVDNSTGDNEKDEATYLTEGYLAYAPQDKEQRSHDWHFISRQEPSDVLVIQLFDN
                      EMEAHARAPLGEGKGVSDLGVGGAVHSAFELVGQDETDEARESIEVRVAAFW"
+                     /Pfam="NvfI"
      CDS             14645..15430
                      /codon_start=1
                      /product="short-chain dehydrogenase/reductase ftChyC"
-                     /label=ftchyC
+                     /label="ftchyC"
                      /note="ChyC"
                      /protein_id="WCD39067.1"
                      /translation="MGRILITGSTDGFGFEAARQLIERKHEVYLHARSQERAEQVKEKC
@@ -130,11 +135,12 @@ FEATURES             Location/Qualifiers
                      VAPYILTCLLKHPKRLIFIASVLHHETKNTDIKDIFWLQRGEKEWADFQAYCDSKFHVV
                      LLANAVARRFKDTSVTSVHPGYVPTKLAGKEAPGKLEDGVETYVMLAEGDYDTSLTGAY
                      FDPKKERGQTHALTADENLQEAVVKACEDITGLKLDGPQ"
+                     /Pfam="adh_short"
      CDS             complement(join(15857..16492,16543..16937,17008..17224,
                      17363..17599))
                      /codon_start=1
                      /product="FAD-linked oxidoreductase ftChyH"
-                     /label=ftchyH
+                     /label="ftchyH"
                      /note="ChyH"
                      /protein_id="WCD39070.1"
                      /translation="MRFQVLTAVATLVGSSTCQTLWSRDVDYKTLSKELSSSAKVYFPG
@@ -146,6 +152,7 @@ FEATURES             Location/Qualifiers
                      GAMNPRFPLYLETFNATAQKEAFNFFAESMRVNSAFNNSLVTFDGYTQEGVRSIDTKST
                      AFAYRDQNILVGPLITYKPGGAELDAKAAKVGKQIRQILHQGTGRKHIPTYVNYAFGDE
                      GPKEWYGGESWRQDRLQSLKNAYDPEGMFSFYAPII"
+                     /Pfam="FAD_binding_4, BBE"
 ORIGIN
         1 ctataaagcc tcgttctgtg acgcccattt cataaccacc gcgaaaattg cctcgccatc
        61 atgtggtgca tcgataggcc tgaggtctgt tgaaatttcg ggacgaggtg atggagattt

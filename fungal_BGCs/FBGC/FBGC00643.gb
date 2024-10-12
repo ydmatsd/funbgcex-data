@@ -1,27 +1,41 @@
-LOCUS       FBGC00643       20461 bp DNA     linear   UNA 16-APR-2023
+LOCUS       FBGC00643              20461 bp    DNA     linear   UNA 16-APR-2023
 DEFINITION  lentinulin A.
 ACCESSION   FBGC00643
-VERSION     .
+VERSION     FBGC00643
 KEYWORDS    .
 SOURCE      Lentinula edodes Le(Bin) 0899 ss11
   ORGANISM  Lentinula edodes Le(Bin) 0899 ss11
+            .
 REFERENCE   1  (bases 1 to 20461)
-  AUTHORS   Matabaro E, Kaspar H, Dahlin P, Bader DLV, Murar CE, Staubli F, 
+  AUTHORS   Matabaro E, Kaspar H, Dahlin P, Bader DLV, Murar CE, Staubli F,
             Field CM, Bode JW, Kunzler M.
-  TITLE     Identification, heterologous production and bioactivity of 
-            lentinulin A and dendrothelin A, two natural variants of backbone 
+  TITLE     Identification, heterologous production and bioactivity of
+            lentinulin A and dendrothelin A, two natural variants of backbone
             N-methylated peptide macrocycle omphalotin A.
   JOURNAL   Sci Rep 2021;11:3541
-  PUBMED    33574430
+   PUBMED   33574430
 REFERENCE   2  (bases 1 to 20461)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Apr 16, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1038/s41598-021-83106-2"; journalName: "Sci Rep"; date: "2021"; 
+  JOURNAL   Exported Apr 16, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     ##Metadata-START##
+            Organism Display Name :: Lentinula edodes Le(Bin) 0899 ss11
+            ##Metadata-END##
+            ##Genome-Assembly-Data-START##
+            Assembly Method       :: Falcon v. 0.7.3
+            Assembly Name         :: Lenedo1
+            Genome Coverage       :: 99.39x
+            Sequencing Technology :: PacBio
+            ##Genome-Assembly-Data-END##
+            ##Genome-Annotation-Data-START##
+            Annotation Provider   :: INSDC submitter
+            Annotation Status     :: Full annotation
+            Annotation Pipeline   :: Eukaryotic Annotation Propagation Pipeline
+            ##Genome-Annotation-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1038/s41598-021-83106-2"; journalName: "Sci Rep"; date: "2021";
             volume: "11"; pages: "3541"
-COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final 
+            PROVISIONAL REFSEQ: This record has not yet been subject to final
             NCBI review. The reference sequence is identical to JABWDW010000010.
             URL -- http://genome.jgi.doe.gov/Lenedo1
             JGI Project ID: 1097928
@@ -29,24 +43,12 @@ COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
             The strain is available from David S. Hibbett
             Contacts: David S. Hibbett (dhibbett@clarku.edu)
             Assembly and annotation done by JGI.
-            The JGI and collaborators endorse the principles for the 
-            distribution and use of large scale sequencing data adopted by the 
-            larger genome sequencing community and urge users of this data to 
+            The JGI and collaborators endorse the principles for the
+            distribution and use of large scale sequencing data adopted by the
+            larger genome sequencing community and urge users of this data to
             follow them. It is our intention to publish the work of this project
-            in a timely fashion and we welcome collaborative interaction on the 
-            project and analysis. 
-            (http://www.genome.gov/page.cfm?pageID=10506376).##Metadata-START##
-            Organism Display Name :: Lentinula edodes Le(Bin) 0899 ss11 
-            ##Metadata-END####Genome-Assembly-Data-START##
-            Assembly Method       :: Falcon v. 0.7.3
-            Assembly Name         :: Lenedo1
-            Genome Coverage       :: 99.39x
-            Sequencing Technology :: PacBio
-            ##Genome-Assembly-Data-END####Genome-Annotation-Data-START##
-            Annotation Provider :: INSDC submitter
-            Annotation Status   :: Full annotation
-            Annotation Pipeline :: Eukaryotic Annotation Propagation Pipeline 
-            ##Genome-Annotation-Data-END##
+            in a timely fashion and we welcome collaborative interaction on the
+            project and analysis.
 FEATURES             Location/Qualifiers
      source          1..20461
                      /chromosome="Unknown"
@@ -66,7 +68,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="C8R40DRAFT_1095846"
                      /product="ABC transporter C8R40DRAFT_1095846"
-                     /label=C8R40DRAFT_1095846
+                     /label="C8R40DRAFT_1095846"
                      /db_xref="GeneID:70258086"
                      /db_xref="InterPro:IPR003439"
                      /db_xref="InterPro:IPR011527"
@@ -97,12 +99,13 @@ FEATURES             Location/Qualifiers
                      TVGDEGSNFSAGEKQLLALCRALVKKSRIIILDEATSSVDVETDGKLQRTIQTEFSTSS
                      LLCIAHRLNTIAYYDRIIVMDAGQVAEFDTVLNLFDREDSIFRSLCNEANLQRSDILRI
                      RASYGDVAPIEMPA"
-     CDS             join(6916..7027,7103..7226,7280..7323,7387..7585,7651..7838,
-                     7914..8002)
+                     /Pfam="ABC_membrane, ABC_tran"
+     CDS             join(6916..7027,7103..7226,7280..7323,7387..7585,
+                     7651..7838,7914..8002)
                      /codon_start=1
                      /locus_tag="C8R40DRAFT_1159784"
                      /product="isomerase C8R40DRAFT_1159784"
-                     /label=C8R40DRAFT_1159784
+                     /label="C8R40DRAFT_1159784"
                      /db_xref="GeneID:70260299"
                      /db_xref="InterPro:IPR000652"
                      /db_xref="JGIDB:Lenedo1_1159784"
@@ -112,12 +115,13 @@ FEATURES             Location/Qualifiers
                      SSEVVAQKTRAALDKGLNIILCIGETLNEREAGETAKVCEEQLKAVVDVSKESDWSKIV
                      VAYEPVWAIGTGKVATPQQAQEAHKDIRSYLSKAVSSGVAESTRIIYGGSVNAGNCKEL
                      STLPDVDGFLVGGASLKPEFVQIVNSKKL"
-     CDS             complement(join(8340..8405,8462..8613,8670..9083,9142..9484,
-                     9535..9623,9675..9777,9829..9933,9994..10176))
+                     /Pfam="TIM"
+     CDS             complement(join(8340..8405,8462..8613,8670..9083,
+                     9142..9484,9535..9623,9675..9777,9829..9933,9994..10176))
                      /codon_start=1
                      /locus_tag="C8R40DRAFT_1168743"
                      /product="cytochrome P450 monooxygenase C8R40DRAFT_1168743"
-                     /label=C8R40DRAFT_1168743
+                     /label="C8R40DRAFT_1168743"
                      /db_xref="GeneID:70261608"
                      /db_xref="InterPro:IPR001128"
                      /db_xref="JGIDB:Lenedo1_1168743"
@@ -131,11 +135,12 @@ FEATURES             Location/Qualifiers
                      VMNQTVLRRNIGEDVEIPGGQGHVPSGAFVAYSNADAHLEPEIYDDPWSFKPDRFEHGK
                      QKVLSNDFLGWGAGRHRCVGLGIAKLTIKTIVCLFVMTYDYDITRTKRKSNPTIPIPDH
                      NKVNEARPKGEVITLNYQRIEQSVSI"
+                     /Pfam="p450"
      CDS             complement(join(10937..11629,11683..12000,12061..12303))
                      /codon_start=1
                      /locus_tag="C8R40DRAFT_1040599"
                      /product="methyltransferase/lentinulin proprotein LedMA"
-                     /label=LedMA
+                     /label="LedMA"
                      /db_xref="GeneID:70254293"
                      /db_xref="InterPro:IPR000878"
                      /db_xref="JGIDB:Lenedo1_1040599"
@@ -148,12 +153,13 @@ FEATURES             Location/Qualifiers
                      PNQWEPEVPTVPAYGSNEHAAIAQLDTHTPPEQYQPLATSKAMTDVMTKLALDPKALAE
                      YKADHRAFAQSVPDLTANERTALEIGDSWAFRCAMKEMPISLLDNAKQSMEEASEQGFP
                      WIIVVGVVGVVGSVVSSA"
+                     /Pfam="TP_methylase"
      CDS             complement(join(13153..13255,13308..13339,13405..13452,
                      13510..13710))
                      /codon_start=1
                      /locus_tag="C8R40DRAFT_1235998"
                      /product="hypothetical protein C8R40DRAFT_1235998"
-                     /label=C8R40DRAFT_1235998
+                     /label="C8R40DRAFT_1235998"
                      /note="expressed protein"
                      /db_xref="GeneID:70263769"
                      /db_xref="JGIDB:Lenedo1_1235998"
@@ -161,13 +167,14 @@ FEATURES             Location/Qualifiers
                      /translation="MTDTKKIKTVRKFHDLLNEGKLDEAHELLAEDLSAHTTAHIAAGA
                      PPMSKAEVLESHQGIHQELEAKTTITDAKEVDGNVIVVGKSTFNHDTIKEVPFKATYEF
                      IGNQIGKVHFETDPNHKVKSFSL"
+                     /Pfam="OphC"
      CDS             join(14716..14811,14870..14974,15036..15164,15220..15514,
                      15570..15666,15722..15851,15905..16030,16086..16260,
                      16312..16418,16474..16610,16667..16847)
                      /codon_start=1
                      /locus_tag="C8R40DRAFT_1168746"
                      /product="cytochrome P450 monooxygenase C8R40DRAFT_1168746"
-                     /label=C8R40DRAFT_1168746
+                     /label="C8R40DRAFT_1168746"
                      /db_xref="GeneID:70261609"
                      /db_xref="InterPro:IPR001128"
                      /db_xref="JGIDB:Lenedo1_1168746"
@@ -182,6 +189,7 @@ FEATURES             Location/Qualifiers
                      GTTVFAGSSIIAPGYAIHHDARHYSNPADFDGFRFARLREEQDDPVRYQMVSVGPTFMM
                      FGNGRHACPGRFLVSALLKTMLAHVLMTYDIKLEHNGRRPTDKWYTFSPAPNQTAGLLF
                      RRRSAPSC"
+                     /Pfam="p450"
      CDS             complement(join(17313..17416,17467..17564,17617..17651,
                      17696..17743,17806..17891,17957..18074,18132..18168,
                      18223..18390,18444..18472,18525..18615,18664..19011,
@@ -191,7 +199,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="C8R40DRAFT_1040461"
                      /product="prolyl oligopeptidase LedP"
-                     /label=LedP
+                     /label="LedP"
                      /db_xref="GeneID:70254286"
                      /db_xref="InterPro:IPR001375"
                      /db_xref="InterPro:IPR023302"
@@ -210,6 +218,7 @@ FEATURES             Location/Qualifiers
                      RGGSNGGVLTTACANQAPELYRCVITIGGIIDMLRFPKFTFGALWRSEYGDPEDPEDFD
                      FIYKYSPYHNIPSGDVVLPAMLFFTAAYDDRVSPLHSFKHVAALQYNFPNGPNPVLMRI
                      DLNTGHFAGKV"
+                     /Pfam="Peptidase_S9_N, Peptidase_S9"
 ORIGIN
         1 ttatgcgggc atctctatcg gggctacatc tccataacta gctcgtatgc gtagaatatc
        61 agaacgttgt aggttggctt cattacagag ggatcggaaa atagagtctt cacggtcgaa

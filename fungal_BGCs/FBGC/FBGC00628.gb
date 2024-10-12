@@ -1,29 +1,29 @@
-LOCUS       FBGC00628       39646 bp DNA     linear   UNA 15-APR-2023
+LOCUS       FBGC00628              39646 bp    DNA     linear   UNA 15-APR-2023
 DEFINITION  lijiquinone.
 ACCESSION   FBGC00628
-VERSION     .
+VERSION     FBGC00628
 KEYWORDS    .
 SOURCE      Ascomycota sp. F53
   ORGANISM  Ascomycota sp. F53
+            .
 REFERENCE   1  (bases 1 to 39646)
   AUTHORS   Cain JW, Miller KI, Kalaitzis JA, Chau R, Neilan BA.
-  TITLE     Genome mining of a fungal endophyte of Taxus yunnanensis (Chinese 
-            yew) leads to the discovery of a novel azaphilone polyketide, 
+  TITLE     Genome mining of a fungal endophyte of Taxus yunnanensis (Chinese
+            yew) leads to the discovery of a novel azaphilone polyketide,
             lijiquinone.
   JOURNAL   Microb Biotechnol 2020;13:1415-1427
-  PUBMED    32281262
+   PUBMED   32281262
 REFERENCE   2  (bases 1 to 39646)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Apr 28, 2023 from SnapGene 6.2.2
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1111/1751-7915.13568"; journalName: "Microb Biotechnol"; date: 
-            "2020"; volume: "13"; pages: "1415-1427"
+  JOURNAL   Exported Apr 28, 2023 from SnapGene 6.2.2 https://www.snapgene.com
 COMMENT     ##Assembly-Data-START##
             Assembly Method       :: Soapdenovo v. 20/01/2012
             Sequencing Technology :: Illumina
             ##Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1111/1751-7915.13568"; journalName: "Microb Biotechnol"; date:
+            "2020"; volume: "13"; pages: "1415-1427"
             * NOTE: This is a 'working draft' sequence. It currently
             * consists of 20 contigs. Gaps between the contigs
             * are represented as runs of N. The order of the pieces
@@ -81,7 +81,7 @@ FEATURES             Location/Qualifiers
      CDS             complement(1..1443)
                      /codon_start=1
                      /product="acyltransferase LijO"
-                     /label=lijO
+                     /label="lijO"
                      /note="manually added"
                      /translation="MGETQVAITTSAIERPEKTEAKSENDSEDELYQDVVSQFPFLNGY
                      SHIVFLFQPDTNTSRETILSNLKDGLDKLTSKVPWLVGQVLHTPGPPGNSGHYTMAPWP
@@ -92,10 +92,11 @@ FEATURES             Location/Qualifiers
                      MSQVVSTPLSTIAQTLRRELNAANTPWAIRSFATFLAREPDKSRLVYAGLRNLDTDLGT
                      TAFTASQSGGQDDGSVMPENFGPVLGQLKFTRRPNSSPLTGGITVCPVEGGAIPVVMCM
                      PEVDLEGLKKDPEWKRFARYIG"
+                     /Pfam="CalD"
      CDS             join(1984..2440,2499..2887,2947..3338,3405..3663)
                      /codon_start=1
                      /product="FAD-linked oxidoreductase LijN"
-                     /label=lijN
+                     /label="lijN"
                      /note="manually added"
                      /translation="MFAKSTSLCLLAASLGLTVALPLSSGNLTTLYGPGLSSGAEIFYP
                      TDPDYSTDVTQRWNLHDAPTYTGAIKPATEEDIQFIVKTSAENNISFLATGRGHGTTIT
@@ -106,11 +107,12 @@ FEATURES             Location/Qualifiers
                      DCVDGQYYNSYTLGIQKTDPAAMTTLYNDFLEFSLANPAFVGFFSVDRYPNAVTMSVPD
                      SETAYPHREIKSQVTFQSAYKANATLEDLANDFFKSKRAAIQATSGFDQLRVYVNFANG
                      DEGPEVWYTPEKLDKLSQLKQTWDPEQLFSAYQPIPLGYS"
+                     /Pfam="FAD_binding_4, BBE"
      CDS             join(4110..4210,4327..4565,4630..5287,5408..5703,
                      5793..6457)
                      /codon_start=1
                      /product="transcription factor LijM"
-                     /label=lijM
+                     /label="lijM"
                      /note="manually added"
                      /translation="MAPRQVAPSGLACMQCFKSKCKCVSRPDGDGCERCYRLKKQCHPS
                      DSLRKSANAQRRLRSTARIGELEGKVDSLVRLLSLVAQSPALSGTLNDAIRDDDALNGY
@@ -124,11 +126,12 @@ FEATURES             Location/Qualifiers
                      HMAQLARCLMVLYRLSTFSHPGWDCHLVRSTVDLLLVLDGVADKLALASGEEGDQFMRI
                      SEMMRKFRIKAAIKMNPKVATVDDSAWINGGGAAGLDMGAGKGTAIQPQSVLQPLSPSN
                      DVFFEGIFRDFGDGWSM"
+                     /Pfam="HimD"
      CDS             join(6973..7392,7495..7765,7870..8373,8455..8615,
                      8729..9085)
                      /codon_start=1
                      /product="major facilitator superfamily transporter LijL"
-                     /label=lijL
+                     /label="lijL"
                      /note="manually added"
                      /translation="MPTDSPSPTSSVKSASQEKQQTDKMHTDPSSTDSHSLEPSVQSGS
                      QTEAGVEEKGPQAEQVKEEQQPNISGLTRALIIMPVTLVYFLVMLDNSIISTAIPQITD
@@ -140,10 +143,11 @@ FEATURES             Location/Qualifiers
                      QKLGYYLPWALSGTALTTIAYGLYSTLGPSTAVGNWIGYQIIGGVGNGAAASSSYIAIQ
                      NTVPRASIPTAMAILILCQNLGAAVYLTVAQAIFSNRLHEAITQDAPGVDADAVLAGGA
                      RMLRSLVSAEQLPGVVQAYSTAVDAAMYLGVGLGVLAFACAWGLGWKDIRKKE"
+                     /Pfam="MFS_1"
      CDS             complement(join(10584..11561,11619..11690))
                      /codon_start=1
                      /product="short-chain dehydrogenase/reductase LijK"
-                     /label=lijK
+                     /label="lijK"
                      /note="manually added"
                      /translation="MAPKYAKDMPAGFTNAIERAAIVGASGQMGAHIAKALVDTGKHTV
                      TALTRQGSKNELPAGVKAVPVDYNDEASLVAALRGQQFLIITLAATAPPDTHSKIVQAA
@@ -152,10 +156,11 @@ FEATURES             Location/Qualifiers
                      SWRNKPLVISSFLINQLGMFESWKRVSGDKDSDWTIEKEPSKERYAKGMEAMKNAQDPM
                      TARMGAAMASFVRTFYPNGGGDYESTRGLDNEKLGLPKEDIDERTAVAKEMVEQGYAAK
                      LFAKVAQQA"
+                     /Pfam="NmrA"
      CDS             join(12974..13163,13219..13732,13833..14391,14454..15242)
                      /codon_start=1
                      /product="transcription factor LijJ"
-                     /label=lijJ
+                     /label="lijJ"
                      /note="manually added"
                      /translation="MIQAHRQQPGLACEECRRRKARCDRLRPSCGSCQDSRTTCHYVDK
                      RPQRGPRKGQMMALKNLVAELEQRLGEQTGQRQLSQHDVALADAFQRSDAVQDSFTLLE
@@ -169,10 +174,11 @@ FEATURES             Location/Qualifiers
                      DSSDVSDDPMLTFVHALAACTAIYLYQSMAHSMAWMTVDHDVAVPAYEEQAVQAANELV
                      HFVKLMPRSISHLKAHPFLPILIHRAAVFLMGLSRPSSPTATGYGSREDDVNVLLGALR
                      DLQQVNNLSRGILSKLDTEKFAARQMGDQRDRSNSQAARKVAGPWTFD"
+                     /Pfam="EqxR, Zn_clus, Fungal_trans"
      CDS             15868..17304
                      /codon_start=1
                      /product="acetyltransferase LijI"
-                     /label=lijI
+                     /label="lijI"
                      /note="manually added"
                      /translation="MPWVEAEPGVYRAEFGGSEKIYQKVAGLFAHLGKEHYRVHCVCVL
                      DFGTGFEGRDPAAALKEAWRLLRIELPTLSVAADGLTHKVYKVLDAKAEQEWLEQTFFV
@@ -183,11 +189,12 @@ FEATURES             Location/Qualifiers
                      KILQSLRAIYKFNSDATPVQQKKGGVAAAVEGPPPAAAAVPPPPPSGITISSLGVVDNF
                      LAGVYSGEGGGMAVKVREYHFGIDMMTRQMIMYVGTFHGKLQLSISYNTGYYDSEVPLD
                      VLKRIEGVLEKELRVELETL"
+                     /Pfam="LolU"
      CDS             complement(join(17730..18632,18716..24324,24389..24972,
                      25029..25362,25415..25472,25536..25622,25652..25891))
                      /codon_start=1
                      /product="polyketide synthase LijA"
-                     /label=lijA
+                     /label="lijA"
                      /note="revised sequence"
                      /protein_id="AMJ52080.1"
                      /translation="MGSISTEPLSEPIAIIGLGCKFAGDARSPEELWKMLTAGRNGWSE
@@ -235,10 +242,12 @@ FEATURES             Location/Qualifiers
                      PGAHWNQDSSSQLGRDARFAALRYRQPRQQKDAGGKNDDESLPSQLSAVTSLHEAERLV
                      GLAIAQKLADIFTIPTDDVDMTKAPGAHGVDSLVAVEVRNMLRHRVGAEISSFEIMQSA
                      SLVALAGLAAGKSEFVKADGGS"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_DH, PKS_NRPS_MT, fPKS_ER,
+                     fPKS_KR, ACP_PCP"
      CDS             26679..27533
                      /codon_start=1
                      /product="alpha/beta hydrolase LijB"
-                     /label=lijB
+                     /label="lijB"
                      /protein_id="AMJ52081.1"
                      /translation="MSRSITPTSGTPTADDQTLHLPRILCLHGGGTNSRIFRAQCRIIR
                      RHLENSFRLVFPDAPYLSKPGPDVTSVYADWGPFRSWMKPQPGAASDNPFSTPLHRAND
@@ -246,10 +255,11 @@ FEATURES             Location/Qualifiers
                      RMELAGLTYQSMLKPKIVPTFRFAILLAGRGPLLTLDPDFQFYFGREEEIQEPILRLPT
                      VHVHGLQDEGIPMHRELQTRCCTKESTTLVEWDGNHRVPIKAGDVALVVTALREAYRQS
                      KEF"
+                     /Pfam="FSH1"
      CDS             complement(join(27826..28229,28286..28730))
                      /codon_start=1
                      /product="short-chain dehydrogenase/reductase LijC"
-                     /label=lijC
+                     /label="lijC"
                      /protein_id="AMJ52082.1"
                      /translation="MAKTTRQNVLVTGCSAGGLGSALAKAFRDKGFHVLATVRDARKAG
                      SLADEQDIEVLTLDVTSADSIASCVKQVQTATGGKLDILVNNAGAAIFGPLVHASIEEG
@@ -257,10 +267,11 @@ FEATURES             Location/Qualifiers
                      TLKMELAPLGVRVVTAMVGAIGTQLYDNHEVSLPEGSYYKPIEETIKKQSRGEMQEPFN
                      EPVDVTARSLVKDTLAGRRGQIWRGGEAGRASVLSWLVPTALRERILHSERGLYQLKYE
                      R"
+                     /Pfam="adh_short"
      CDS             join(29177..29732,29803..30005,30066..30680)
                      /codon_start=1
                      /product="FAD-dependent monooxygenase LijD"
-                     /label=lijD
+                     /label="lijD"
                      /protein_id="AMJ52083.1"
                      /translation="MESATAQPTTGIQPHEKTNGEATAKPSLDIVVVGAGIIGVLTALG
                      LLHAGHKVTIYERAIDYFEVGAAMAFTGVARECMKKLNPAILEALQRVGEANRHPMNRY
@@ -270,10 +281,11 @@ FEATURES             Location/Qualifiers
                      VSKSEVTEAIGKWGPSMRELVDKMPEQVFKWAMFDMADNPAPTYAQGRVCLAGDAAHAS
                      TPFHGAGACMGVEDALVLVSVLETALKNPRGLGKAEAVSAALQAYSAIRLERSQWLVQS
                      SREMGDIYEWRYLGTMNDPAKIKAEIEGRSRKLWDFDVEGLVADSKAECERRLKLGGK"
+                     /Pfam="ElcH"
      CDS             31589..39646
                      /codon_start=1
                      /product="polyketide synthase LijE"
-                     /label=lijE
+                     /label="lijE"
                      /note="revised sequence"
                      /protein_id="AMJ52084.1"
                      /translation="MGSIEHRDQQESTVLLFGPQALTFNRQFEKLRQSLSGNDVGQHWI
@@ -322,6 +334,8 @@ FEATURES             Location/Qualifiers
                      FAFLIKSAQTLRAWPDFDGVLQWVPVNDAAGVMADLCHVAELHNAPEPYPVYHIDNPVG
                      QPWKEMNPVLADALGIPADRIVPFHDWVNMVRRSPLPAETDNPAARLIDFLDENFERMS
                      CGGLILNTTKAKEHSATMASMGPVEGAVARKYVASWKKMGYLYA"
+                     /Pfam="SAT2, PKS_KS, PKS_AT, fPKS_PT, ACP_PCP, HTH_51,
+                     PKS_NRPS_MT, fPKS_R"
 ORIGIN
         1 ctaaccaata taccttgcga acctcttcca ctcggggtct ttcttcagcc cttccaaatc
        61 cacctctggc atacacataa caacaggaat cgcgccgcct tccacagggc aaactgtgat

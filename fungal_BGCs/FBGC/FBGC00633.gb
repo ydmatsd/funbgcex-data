@@ -1,24 +1,24 @@
-LOCUS       FBGC00633       26893 bp DNA     linear   UNA 15-APR-2023
+LOCUS       FBGC00633              26893 bp    DNA     linear   UNA 15-APR-2023
 DEFINITION  cladosins.
 ACCESSION   FBGC00633
-VERSION     .
+VERSION     FBGC00633
 KEYWORDS    .
 SOURCE      Cladosporium sphaerospermum UM 843
   ORGANISM  Cladosporium sphaerospermum UM 843
+            .
 REFERENCE   1  (bases 1 to 26893)
-  AUTHORS   Lee SR, Lee D, Eom HJ, Rischer M, Ko YJ, Kang KS, Kim CS, 
+  AUTHORS   Lee SR, Lee D, Eom HJ, Rischer M, Ko YJ, Kang KS, Kim CS,
             Beemelmanns C, Kim KH.
-  TITLE     Hybrid Polyketides from a Hydractinia-Associated Cladosporium 
+  TITLE     Hybrid Polyketides from a Hydractinia-Associated Cladosporium
             sphaerospermum SW67 and Their Putative Biosynthetic Origin.
   JOURNAL   Mar Drugs 2019;17(11):606
-  PUBMED    31653089
+   PUBMED   31653089
 REFERENCE   2  (bases 1 to 26893)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Apr 15, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.3390/md17110606"; journalName: "Mar Drugs"; date: "2019"; 
+  JOURNAL   Exported Apr 15, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
+            "10.3390/md17110606"; journalName: "Mar Drugs"; date: "2019";
             volume: "17"; issue: "11"; pages: "606"
 FEATURES             Location/Qualifiers
      source          1..26893
@@ -29,7 +29,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="Clasph__000047"
                      /product="gamma-glutamyltranspeptidase ClsF"
-                     /label=clsF
+                     /label="clsF"
                      /protein_id="Clasph_:cds.g47.t1"
                      /translation="MYRFGRFFAGLLLAELAAASPGRYPPSYGHHPGNGNDDTLGAVAS
                      ESSICSNIGTDILKDGGNAADSMIATVFCVGVVGMYHSGIAGGGFMLVRGSNGSYEFID
@@ -42,12 +42,13 @@ FEATURES             Location/Qualifiers
                      YIRPGKRPLSSISPSIVEHADGRLYFVVASAGGSRIITAVVQNIWHVLDQNATAPEALA
                      APRLHDQLVPNQVSFEYTYDNETVAFMKERGHNVTWTAPGGSTAQSLRLLRNGTFEAAG
                      EPRQRNSGGFAV"
-     CDS             complement(join(2718..2738,2808..2865,2929..3488,3552..3995,
-                     4051..4075,4134..4462,4521..4736))
+                     /Pfam="G_glu_transpept"
+     CDS             complement(join(2718..2738,2808..2865,2929..3488,
+                     3552..3995,4051..4075,4134..4462,4521..4736))
                      /codon_start=1
                      /locus_tag="Clasph__000048"
                      /product="major facilitator superfamily transporter ClsG"
-                     /label=clsG
+                     /label="clsG"
                      /protein_id="Clasph_:cds.g48.t1"
                      /translation="MTEQAPAQSTASSSLDGSNTPKENKESADVEIAKDEETAAPPSPR
                      NIHGFRWILAVVAVVSSILLYATDNTIVATIQPSIIEDLGDQDLLPWVSVGYMIGGLVF
@@ -59,11 +60,12 @@ FEATURES             Location/Qualifiers
                      VLFEQVDTSTSDAYLYGVQVLLGVGVGCYLQAGFAVILGVIEMKDMAYGVTFILFAQLL
                      GITVGLSVGGAVFTNTALRNLRPLLPDVPEDQLQEALSGAAGGFLKTLDEQTRMAILNV
                      ITVAINRAFILCITAGAISIVASLLLNNKKMRT"
+                     /Pfam="MFS_1"
      CDS             join(5183..5417,5480..5997,6049..6114)
                      /codon_start=1
                      /locus_tag="Clasph__000049"
                      /product="alpha/beta hydrolase ClsG2"
-                     /label=clsG2
+                     /label="clsG2"
                      /note="manually added"
                      /protein_id="Clasph_:cds.g49.t1"
                      /translation="METISRSRSGKAPLVLIHDGGGTTASYHALKNLDRDIYGIENPLF
@@ -71,11 +73,12 @@ FEATURES             Location/Qualifiers
                      VLLLDSVCPSSWKHSAALNDNHVASTLYASCLSSKLLVMSMMKYSALMAEQWQPPQWQG
                      SIMDPGELECCCPGLLSAPEVMAVSSRSGPLVVLVRCLGRLSSSDKAAARVDSSRSCET
                      LGWEHARPGLVSYTLQCSANHFNLFSKEYVRETTDKIREALIVMEDHGDY"
+                     /Pfam="Thioesterase"
      CDS             complement(join(6436..7182,7240..8343,8404..8481))
                      /codon_start=1
                      /locus_tag="Clasph__000050"
                      /product="transcription factor ClsH"
-                     /label=clsH
+                     /label="clsH"
                      /protein_id="Clasph_:cds.g50.t1"
                      /translation="MSLPTPLGKGRKTACEMCRARKRRCDGRLPSCSLCQKARFRCIYA
                      IRSPHAPDSGVMFHSVPRDIGHIRTNEGPSQTDASVTFGYDLSRYLAGDTDSRQHSVGM
@@ -89,12 +92,13 @@ FEATURES             Location/Qualifiers
                      KCLETSSPGGSAKIDTECVRAATSAAAAFSNALKGNLLALNNPFLLPVACTSARMLTLL
                      RNQMHEADRERVRGLIDEILRVVDHIALKFPGAAAKARETIMQRVQEMEHGTRRNSLSC
                      YIGLDCE"
+                     /Pfam="Zn_clus, Fungal_trans"
      CDS             complement(join(9621..12139,12195..12379,12446..20883))
                      /codon_start=1
                      /locus_tag="Clasph__000050"
-                     /product="polyketide synthase-nonribosomal peptide 
+                     /product="polyketide synthase-nonribosomal peptide
                      synthetase ClsI"
-                     /label=clsI
+                     /label="clsI"
                      /protein_id="Clasph_:cds.g50.t1"
                      /translation="MSISGEEIAIIGTSCRVAGAESPSELWRSMVAGEDWQSDTSARFS
                      GYYDEINGKTKGLTNVRHAYLLKNGIDRFDNSFFGIAPIEAAAIDPQQRLLLEICWEAF
@@ -160,11 +164,13 @@ FEATURES             Location/Qualifiers
                      GGGMSWIDASFLVRAMRALAAEATGEKARPAIHHLTATQHWTYAELASLLGPRVRLASP
                      QEWFSALRADGNAEMILQADVLEEWWDAGWRPFAIDGATSLGKARAALQISPPVVDAAF
                      LTQVVGDQAF"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_DH, fPKS_KR, ACP_PCP,
+                     Condensation, AA-adenyl-dom, fPKS_R"
      CDS             join(21282..21556,21603..21657,21715..22116)
                      /codon_start=1
                      /locus_tag="Clasph__000051"
                      /product="hypothetical protein ClsJ"
-                     /label=clsJ
+                     /label="clsJ"
                      /protein_id="Clasph_:cds.g51.t1"
                      /translation="MCFLSWPQNGVHKGQDLPEMAIGNKTKMMLVAMLALLSQRSVAED
                      WTQKLLFHGTSLILRPDYSHHEAANHTATAANFYCYFGQTGYISFGWWLPASADADSTP
@@ -176,7 +182,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="Clasph__000052"
                      /product="major facilitator superfamily transporter ClsJ2"
-                     /label=clsJ2
+                     /label="clsJ2"
                      /note="manually added"
                      /protein_id="Clasph_:cds.g52.t1"
                      /translation="MASDSQSLAVRRALFFTGLVVLAEPLAATMLLSFVVFMVRDFPAV
@@ -187,12 +193,13 @@ FEATURES             Location/Qualifiers
                      PIGLGFTSSEIARTLLFLSPIVLTVQFVGYPMLSQRLTYATLWRISSILFLVVYISFGF
                      VLELPNKSLLQWSCLYLLLGMRIAAVVIGYTSVAILLTLSAPPNHRGITVSFAQAAISA
                      SRAVGPTVAGALWSWGLLNGLKAPFDQNILFVFQCIVATLQLATSFGLSIESS"
+                     /Pfam="MFS_1"
      CDS             join(24946..25300,25365..25496,25552..25652,25714..25878,
                      25940..26107,26160..26734,26791..26893)
                      /codon_start=1
                      /locus_tag="Clasph__000053"
                      /product="cytochrome P450 monooxygenase ClsK"
-                     /label=clsK
+                     /label="clsK"
                      /protein_id="Clasph_:cds.g53.t1"
                      /translation="MSQIFLDHLAEKYVAIGVTIWLLTFTAVVWRRPAQSKIPEFGGES
                      AEVLQDVVKKQWSQVRQTIYRLRLPFRRIYVLPHKYINEYVWKPDNQISSNTDLQERLL
@@ -204,6 +211,7 @@ FEATURES             Location/Qualifiers
                      DADPETAARPFDGFRWWRQRSEQPDQSARYLSVSTNPQALEFGAGSHACPGRFLAVAVI
                      KTALAHAITHFDLKLPDAQKPQEPQYNHVLVYTPDTKQEIEVSPAVTLVDMNAGAKYVM
                      APDQDVRRTPDVICL"
+                     /Pfam="p450"
 ORIGIN
         1 ctacacagcg aaaccaccac tgttacgctg cctaggctca ccagcagcct cgaaagttcc
        61 attcctcaac agcctcagcg actgcgcagt cgagcctccc ggtgcagtcc aagtcacatt

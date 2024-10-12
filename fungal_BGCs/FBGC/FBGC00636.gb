@@ -1,28 +1,28 @@
-LOCUS       FBGC00636       57132 bp DNA     linear   UNA 09-MAY-2023
+LOCUS       FBGC00636              57132 bp    DNA     linear   UNA 09-MAY-2023
 DEFINITION  emerimicins.
 ACCESSION   FBGC00636
-VERSION     .
+VERSION     FBGC00636
 KEYWORDS    .
 SOURCE      Acremonium sp. PF
   ORGANISM  Acremonium sp. PF
+            .
 REFERENCE   1  (bases 1 to 57132)
   AUTHORS   Wu G, Dentinger BTM, Nielson JR, Peterson RT, Winter JM.
   TITLE     Emerimicins V-X, 15-Residue Peptaibols Discovered from an Acremonium
             sp. through Integrated Genomic and Chemical Approaches.
   JOURNAL   J Nat Prod 2021;84:1113-1126
-  PUBMED    33617244
+   PUBMED   33617244
 REFERENCE   2  (bases 1 to 57132)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported May 9, 2023 from SnapGene 6.2.2
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1021/acs.jnatprod.0c01186"; journalName: "J Nat Prod"; date: 
-            "2021"; volume: "84"; pages: "1113-1126"
+  JOURNAL   Exported May 9, 2023 from SnapGene 6.2.2 https://www.snapgene.com
 COMMENT     ##Assembly-Data-START##
             Assembly Method       :: SPAdes v. 3.13.0
             Sequencing Technology :: Illumina
             ##Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1021/acs.jnatprod.0c01186"; journalName: "J Nat Prod"; date:
+            "2021"; volume: "84"; pages: "1113-1126"
 FEATURES             Location/Qualifiers
      source          1..57132
                      /isolate="PF"
@@ -36,9 +36,8 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="emeB"
                      /product="nonribosomal peptide synthetase EmeB"
-                     /label=emeB
-                     /note="nonribosomal peptide synthetase
-                     revised sequence"
+                     /label="emeB"
+                     /note="nonribosomal peptide synthetase revised sequence"
                      /protein_id="QNN94286.1"
                      /translation="MDSASLVINNGGRRSAGYEAVAICGVGLHLPEDVCDGTILPEQFD
                      KDSNDALKSDMESDVEEKLLEVVYRALEDAGEMQYRGAEAGVGLYVSKYTTSDLGAAQE
@@ -349,14 +348,15 @@ FEATURES             Location/Qualifiers
                      SDITDVAASVLHQVFAPASVESYVPAMTYMPLAQFWDAVFAELGVAYKALPFDVWCDMA
                      MDSMDTVGETHPLWAVQHFVNPLGSDKPAAVPTEEEVEETERAVRASVRYLARVGFVRV
                      SEKDVGAAVKGALKRSNKTWPAV"
+                     /Pfam="ACP_PCP, NRPS_C, PKS_AT, AA-adenyl-dom,
+                     NAD_binding_4"
      CDS             join(55929..56219,56270..56434,56485..57132)
                      /codon_start=1
                      /gene="emeC"
                      /product="2OG-Fe(II)-dependent dioxygenase EmeC"
                      /EC_number="1.14.11.2"
-                     /label=emeC
-                     /note="oxidoreductase
-                     revised sequence"
+                     /label="emeC"
+                     /note="oxidoreductase revised sequence"
                      /protein_id="QNN94287.1"
                      /translation="MNIGKALVPAGWTLPVQPRATAVVKPLFAGIMAKRSLATEARTPS
                      VRRLDFSAFLKGDEKKKAQFCGDLVDALCMEGFVKLRNHGIDQESIDKVFEWNKRFFDL
@@ -365,6 +365,7 @@ FEATURES             Location/Qualifiers
                      RLNHYPACAASQIRAGAMRISEHTDFGTVTLLFQDSQGGLEIEDQENPGSYFPIMPEDR
                      YEMIINIGDCLQLWTNKRLRSTSHRVVTPPAASEWLPSRYSVAYFAKPNREQSVAPLPE
                      FLKNGEKAHYKDMTAWEYNQQKLTLTY"
+                     /Pfam="DIOX_N, 2OG-FeII_Oxy"
 ORIGIN
         1 tcagacagca ggccaggtct tgttggaccg cttgagggcc cccttgaccg ccgcaccaac
        61 atccttctcc gacacgcgga cgaagccaac acgggcgagg tagcggacgc tggcacgcac

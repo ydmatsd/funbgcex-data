@@ -1,23 +1,23 @@
-LOCUS       FBGC00637       32821 bp DNA     linear   UNA 15-APR-2023
+LOCUS       FBGC00637              32821 bp    DNA     linear   UNA 15-APR-2023
 DEFINITION  xylaroamide A.
 ACCESSION   FBGC00637
-VERSION     .
+VERSION     FBGC00637
 KEYWORDS    .
 SOURCE      Xylaria sp. 218_066
   ORGANISM  Xylaria sp. 218_066
+            .
 REFERENCE   1  (bases 1 to 32821)
   AUTHORS   Luo M, Chang S, Li Y, Xi X, Chen M, He N, Wang M, Zhao W, Xie Y.
-  TITLE     Molecular Networking-Based Screening Led to the Discovery of a 
+  TITLE     Molecular Networking-Based Screening Led to the Discovery of a
             Cyclic Heptadepsipeptide from an Endolichenic Xylaria sp.
   JOURNAL   J Nat Prod 2022;85:972-979
-  PUBMED    35385664
+   PUBMED   35385664
 REFERENCE   2  (bases 1 to 32821)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Apr 15, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1021/acs.jnatprod.1c01108"; journalName: "J Nat Prod"; date: 
+  JOURNAL   Exported Apr 15, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1021/acs.jnatprod.1c01108"; journalName: "J Nat Prod"; date:
             "2022"; volume: "85"; pages: "972-979"
 FEATURES             Location/Qualifiers
      source          1..32821
@@ -29,7 +29,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="Xyl218__000011"
                      /product="nonribosomal peptide synthetase XylA"
-                     /label=xylA
+                     /label="xylA"
                      /protein_id="Xyl218_:cds.g11.t1"
                      /translation="MAQSEENSRQKNRMLAMQDGSTALSSSPHDDVELRMSPGELHSRT
                      THELNVCIHELVQKTVARQPEATAVHAWDGQLRYGELDALSSSLAAHLRQRGVGPEVYV
@@ -184,11 +184,12 @@ FEATURES             Location/Qualifiers
                      YANMDFRDIMTKDTAWKSNTDFGSVLTHQDANADLSGSVGNHADGAQTSSSTGDGQGMA
                      AAAEASQWKTMDLGIQPQLYAVTYPVAAEGKLLVQLAVSSHRLHPADADLTIDAFCRAI
                      EELSSNPLGLVNL"
+                     /Pfam="AA-adenyl-dom, ACP_PCP, NRPS_C, NRPS_E, NRPS_CT"
      CDS             join(29311..29612,29677..30439)
                      /codon_start=1
                      /locus_tag="Xyl218__000012"
                      /product="trans-acting methyltransferase XylB"
-                     /label=xylB
+                     /label="xylB"
                      /protein_id="Xyl218_:cds.g12.t1"
                      /translation="MTTTTTLVASVESEDVAIIDIRQDVNTLDLRDEVISGLQADQLTL
                      PSMLMWDDRGQKLFDRLTQCPVYYPFHTEAEILNERGCELGESIPDQGVLVELGCGKIR
@@ -197,11 +198,12 @@ FEATURES             Location/Qualifiers
                      DDDKIARAYGGGLPEYRDFALNVPQAANRVLGREAFRLEDWEPDNWMEQHERTLHLYIA
                      AQHDVVVALQPEKGNSIRVAIERGQRVRFATTGKWRADAVADFCHRAGFLVQRQWTDQA
                      GNCGKCMDLISGFV"
+                     /Pfam="Methyltransf_33"
      CDS             join(30971..31141,31235..31614,31681..32821)
                      /codon_start=1
                      /locus_tag="Xyl218__000013"
                      /product="major facilitator superfamily transporter XylC"
-                     /label=xylC
+                     /label="xylC"
                      /protein_id="Xyl218_:cds.g13.t1"
                      /translation="MLSTASTAMVNPTAEEVAGAVTPPAAADDDDESQYPHGLKLFLVT
                      IALLSAMFLVSLDGTILATAIPNITDQFHSLNDVGWYGGSYLFAVGALQLLYGKLYIIY
@@ -213,6 +215,7 @@ FEATURES             Location/Qualifiers
                      WFGYQVLMAAGVGLGGQNVMLVGQVAVPHADMAMAISVMSFSQTLSSSIFLAVAQAVFQ
                      NSLESTLRAQVPEVDPRDVVNGGVTAIRTLVTAEQLPSVLQAYNSAIMQTIYIAVAASG
                      LSIAGPLVMDWLSLKKKTETEKEESPPTTTEEKVTADSASAKSSSH"
+                     /Pfam="MFS_1"
 ORIGIN
         1 tcacaaatta accaacccca gtggattgct agacaattcc tcgatggcgc ggcagaacgc
        61 gtcgatcgtg agatcagcat cggcggggtg caagcgatgg ctcgacacgg cgagctgcac

@@ -1,24 +1,24 @@
-LOCUS       FBGC00642       30729 bp DNA     linear   UNA 16-APR-2023
+LOCUS       FBGC00642              30729 bp    DNA     linear   UNA 16-APR-2023
 DEFINITION  cyclotryprostatins.
 ACCESSION   FBGC00642
-VERSION     .
+VERSION     FBGC00642
 KEYWORDS    .
 SOURCE      Penicillium brasilianum ZJ-7
   ORGANISM  Penicillium brasilianum ZJ-7
+            .
 REFERENCE   1  (bases 1 to 30729)
   AUTHORS   Zhang YH, Geng C, Zhang XW, Zhu HJ, Shao CL, Cao F, Wang CY.
-  TITLE     Discovery of Bioactive Indole-Diketopiperazines from the 
-            Marine-Derived Fungus Penicillium brasilianum Aided by Genomic 
+  TITLE     Discovery of Bioactive Indole-Diketopiperazines from the
+            Marine-Derived Fungus Penicillium brasilianum Aided by Genomic
             Information.
   JOURNAL   Mar Drugs 2019;17(9):514
-  PUBMED    31480589
+   PUBMED   31480589
 REFERENCE   2  (bases 1 to 30729)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Apr 16, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.3390/md17090514"; journalName: "Mar Drugs"; date: "2019"; 
+  JOURNAL   Exported Apr 16, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
+            "10.3390/md17090514"; journalName: "Mar Drugs"; date: "2019";
             volume: "17"; issue: "9"; pages: "514"
 FEATURES             Location/Qualifiers
      source          1..30729
@@ -29,7 +29,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="Penbra__000005"
                      /product="nonribosomal peptide synthetase CtpNRPS"
-                     /label=ctpNRPS
+                     /label="ctpNRPS"
                      /protein_id="Penbra_:cds.g5.t1"
                      /translation="MMPPIMTLKAAGSIGIPKASPQQPSNGHGFLPLATPKSDPTVSHI
                      ELTEQDKDGNDDFGFWNICVHQVIREHCLKSPDSPAVHAWDGSFTYAELNRLSDGIASI
@@ -70,12 +70,13 @@ FEATURES             Location/Qualifiers
                      HTTSLSYSSLDLNTIVSKSTTWPNSSHFNYVVQHQTVNTDLTLSLGNVVSLPMTSCGRI
                      FPQSEVWIGSTPHASGLKIDIIGLSTVISQKDAQSLAEQVCMALSGLLHRDDRPISDFI
                      DNTSAW"
+                     /Pfam="AA-adenyl-dom, ACP_PCP, NRPS_C, NRPS_CT"
      CDS             complement(join(9668..9855,9925..10026,10090..10388,
                      10462..10583,10646..11581))
                      /codon_start=1
                      /locus_tag="Penbra__000006"
                      /product="cytochrome P450 monooxygenase CtpP450-1"
-                     /label=ctpP450-1
+                     /label="ctpP450-1"
                      /protein_id="Penbra_:cds.g6.t1"
                      /translation="MVVMISRNLGAAVLCGILVHLGYFRRNEHHLYPWRYVKFHVYLMV
                      AIAISLLYAEGWPQYIRLVSKICEETCFLMLAYLAGLFSSLLLYRTLFHPLRHIPGPRL
@@ -87,11 +88,12 @@ FEATURES             Location/Qualifiers
                      LPHLNGFINEAFRLHPPIPGVIPRKTPPEGLHVKDILIPGNMTVYSPQWSMGRSQAAYV
                      DPLSFIPERWYKDTDLLKVKSAFAPFSIGSYSCIGKPLAMMNIRTTVARLIMTFDVRFP
                      QGDDGTRWMNAADEHFSMGIDQMPVILERRQ"
+                     /Pfam="p450"
      CDS             join(12136..12351,12408..12926,13037..13534)
                      /codon_start=1
                      /locus_tag="Penbra__000007"
                      /product="methyltransferase CtpOMT"
-                     /label=ctpOMT
+                     /label="ctpOMT"
                      /protein_id="Penbra_:cds.g7.t1"
                      /translation="MSILRELARRLSKSVEIYADELDKAGCDSDGGKLNLLSSEGLAIR
                      GEIITMAENLLQQARGPAPAVLNMLESAVDVGTIQTLIRLEVPDHVPSTGSITYDDLAR
@@ -101,11 +103,12 @@ FEATURES             Location/Qualifiers
                      EQHPQLTFEEHDFFTPQPRVADAYFLRLILHDWNDADCTRIITQISPALRPNAKLLIMD
                      AVLPEPNEGSPQSERQLRRSDIGMYTLFSAKERSLAQMRQLVEGCDSRLRFEKVYAPPG
                      SHASMLSWICE"
+                     /Pfam="Methyltransf_2"
      CDS             join(14947..16202,16261..16393)
                      /codon_start=1
                      /locus_tag="Penbra__000008"
                      /product="DMATS-type prenyltransferase CtpPT-1"
-                     /label=ctpPT-1
+                     /label="ctpPT-1"
                      /protein_id="Penbra_:cds.g8.t1"
                      /translation="MPPAPPDQKPSPAKPASYQALSETIIFSNPEEKLWWHSTAPILSK
                      LLISSNYDVDVQYKYMSLYRHLILPALGPYPTLDKETGVIATQWRSGMVLTGLPIEFSN
@@ -116,11 +119,12 @@ FEATURES             Location/Qualifiers
                      YTMPLDFCELGKPSAGFECPMMFHFHLDGSSAPFPEPQMYVCVFGMNSRDVVDGLTNFY
                      RRVGWEDMAKYYKSNFLANYPGEDFDQAAHLCAYVSFSYKNGGAYVTLYNHSFNPVAGL
                      QLPN"
+                     /Pfam="Trp_DMAT"
      CDS             complement(16722..18323)
                      /codon_start=1
                      /locus_tag="Penbra__000009"
                      /product="cytochrome P450 monooxygenase CtpP450-2"
-                     /label=ctpP450-2
+                     /label="ctpP450-2"
                      /protein_id="Penbra_:cds.g9.t1"
                      /translation="MIMDRLPVSPALLVLAISIPALCSWFVRTWLTSQHRKRLPLPPGP
                      KPLPIIGNLHQVPREVPWKIYKQWADTYGPIMTIHLAGTTTVVFSSWDVIKTHVERRNT
@@ -132,11 +136,12 @@ FEATURES             Location/Qualifiers
                      LVNVWAMNHDEEVFPDSFAFKPERWIENPHLPQMLYGIGQRACPGRHMGQDSLFLATAR
                      LFWAFDMSQPPDAAKIDQERFLDSGTTLASFVPDFEVQFTPRSREHQQVVEENWSLIST
                      DSLSLCDKIVPSAMPN"
+                     /Pfam="p450"
      CDS             19237..20103
                      /codon_start=1
                      /locus_tag="Penbra__000010"
                      /product="2OG-Fe(II)-dependent dioxygenase CtpOx"
-                     /label=ctpOx
+                     /label="ctpOx"
                      /protein_id="Penbra_:cds.g10.t1"
                      /translation="MTIPQKPQIQRLSADADVDLMCNLLEEDGGFILNGLFSPHIMQSF
                      NCELDVELAKPIPKGERLLAEKYPPHFTYVPDIPSKSETFRKIILNNSVIHAVCEAYFK
@@ -144,12 +149,13 @@ FEATURES             Location/Qualifiers
                      GATEVILGSHKWNEVGEPSRNEAVLATMDPGDVLILRQRVVHAGGGNNTTDEPPRRVVL
                      AYFNSVQLTPFETYRTMPREMIESCTPLAQKMLGWRTVKPADPNIVGVNLVDDKRLEVV
                      LDLKSNQ"
+                     /Pfam="PhyH"
      CDS             complement(join(22524..22951,23011..23601,23664..23732,
                      23793..23892,23953..24069,24119..24325))
                      /codon_start=1
                      /locus_tag="Penbra__000011"
                      /product="cytochrome P450 monooxygenase CtpP450-3"
-                     /label=ctpP450-3
+                     /label="ctpP450-3"
                      /protein_id="Penbra_:cds.g11.t1"
                      /translation="MDTFNAIRLAYPEVIYACLALILGALLFIPSLKNDFICINKHSWD
                      IFHSKAKKKFEYHAFTLLKEGLEKGRSAFRLVTNMGTYLVLTDNYAEEIKNDDRFSAFD
@@ -160,11 +166,12 @@ FEATURES             Location/Qualifiers
                      LKLTLMESVMKESQRLEPAVIISMFRVARENVTLKDGTVVPKGTSLAFANNLRFDPEMY
                      PSPEEFDGYRFQKMREDPKKSTLAPFTKTRMSHLAFGHGKSSCPGRFLACDEAKLILSH
                      LLLNFDIKAVDGQLPELQVQGMFIQLDPKAKMLIKHRESELSLHE"
+                     /Pfam="p450"
      CDS             join(25627..26807,26865..26967)
                      /codon_start=1
                      /locus_tag="Penbra__000012"
                      /product="DMATS-type prenyltransferase CtpPT-2"
-                     /label=ctpPT-2
+                     /label="ctpPT-2"
                      /protein_id="Penbra_:cds.g12.t1"
                      /translation="MTGVNETSVNSQEAFELLDKFSWFSSDDQRRWWKQTGSKLQKLLG
                      DAQYSEKDQVLYLYMLQQRIVPTLGVFPTPGQDSQRYWSQVTTYGVPYELSWNLLHNIV
@@ -174,12 +181,13 @@ FEATURES             Location/Qualifiers
                      VWTLGGRRQDDPQCGDGLILLRKLWDLLDIPEGNRDNVWPNLAFGEPPSCDYRATMMAN
                      WTLSPTKRFPDPQIYFLTFGMSDVVVMDALVTFYEMIGWTDLARTYRDKVTSYYPELDL
                      TKTNYVHSGISFSYRNSKPYLSVYYTPF"
+                     /Pfam="Trp_DMAT"
      CDS             join(28856..29164,29243..30049,30100..30729)
                      /codon_start=1
                      /locus_tag="Penbra__000013"
-                     /product="major facilitator superfamily transporter 
+                     /product="major facilitator superfamily transporter
                      CtpPT-MFS"
-                     /label=ctpPT-MFS
+                     /label="ctpPT-MFS"
                      /protein_id="Penbra_:cds.g13.t1"
                      /translation="MTKSVSGCKSSHIEVPFHEPEPKQHFHDQKDASDAIQASKSVDGF
                      DDTKDVSTDQVETRRVTLEVSDGNDQHKERDAPATYPAGWKLGAIIIGLCLACILVALD
@@ -192,6 +200,7 @@ FEATURES             Location/Qualifiers
                      AGMSQPMLAVQATLPPTDTPSATVIVMFMQSLGGAVFVSAAQNLFHNKLLENLTNIPEV
                      DANQVIDAGATMIQSVVSKEVLPKVLQAYSSAVTYSFYIAVAFSGLSIFGALPMQWLSM
                      RKKKT"
+                     /Pfam="MFS_1"
 ORIGIN
         1 ttaccaggcc gaagtattgt ctataaaatc agaaataggc cggtcatcac gatgaagcaa
        61 cccgctcaat gccatgcaca cctgctccgc cagggactga gcatcctttt ggctgatgac

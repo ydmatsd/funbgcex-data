@@ -1,27 +1,24 @@
-LOCUS       FBGC00619       39425 bp DNA     linear   UNA 14-APR-2023
+LOCUS       FBGC00619              39425 bp    DNA     linear   UNA 14-APR-2023
 DEFINITION  triticones.
 ACCESSION   FBGC00619
-VERSION     .
+VERSION     FBGC00619
 KEYWORDS    .
 SOURCE      Pyrenophora tritici-repentis M4
   ORGANISM  Pyrenophora tritici-repentis M4
+            .
 REFERENCE   1  (bases 1 to 39425)
-  AUTHORS   Rawlinson C, See PT, Moolhuijzen P, Li H, Moffat CS, Chooi YH, 
+  AUTHORS   Rawlinson C, See PT, Moolhuijzen P, Li H, Moffat CS, Chooi YH,
             Oliver RP.
-  TITLE     The identification and deletion of the polyketide 
-            synthase-nonribosomal peptide synthase gene responsible for the 
-            production of the phytotoxic triticone A/B in the wheat fungal 
+  TITLE     The identification and deletion of the polyketide
+            synthase-nonribosomal peptide synthase gene responsible for the
+            production of the phytotoxic triticone A/B in the wheat fungal
             pathogen Pyrenophora tritici-repentis.
   JOURNAL   Environ Microbiol 2019;21:4875-4886
-  PUBMED    31698543
+   PUBMED   31698543
 REFERENCE   2  (bases 1 to 39425)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Apr 14, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1111/1462-2920.14854"; journalName: "Environ Microbiol"; date: 
-            "2019"; volume: "21"; pages: "4875-4886"
+  JOURNAL   Exported Apr 14, 2023 from SnapGene 6.2.1 https://www.snapgene.com
 COMMENT     ##Genome-Assembly-Data-START##
             Assembly Date          :: 2016
             Assembly Method        :: Canu v. 1.0
@@ -29,6 +26,9 @@ COMMENT     ##Genome-Assembly-Data-START##
             Genome Coverage        :: 75.0x
             Sequencing Technology  :: PacBio
             ##Genome-Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1111/1462-2920.14854"; journalName: "Environ Microbiol"; date:
+            "2019"; volume: "21"; pages: "4875-4886"
 FEATURES             Location/Qualifiers
      source          1..39425
                      /host="Triticum aestivum"
@@ -38,7 +38,7 @@ FEATURES             Location/Qualifiers
                      /lat_lon="31.6261 S 117.0169 E"
                      /altitude="203 m"
                      /isolation_source="leaf"
-                     /collection_date=2009
+                     /collection_date="2009"
                      /db_xref="taxon:45151"
                      /organism="Pyrenophora tritici-repentis"
                      /submitter_seqid="Meck4_scaffold_00005"
@@ -47,7 +47,7 @@ FEATURES             Location/Qualifiers
                      /locus_tag="PtrM4_07712"
                      /old_locus_tag="PtrM4_gene7712"
                      /product="cytochrome P450 monooxygenase TtcT"
-                     /label=ttcT
+                     /label="ttcT"
                      /protein_id="PWO12369.1"
                      /translation="MNTFDINFIGNRASKSIALLFVVLSVVGYKIWCRQARRQKEDQYA
                      MQMGCKAPQRWAAKWPQGLDLLLKAGQHARAQTILQFFLDVVESSGPTHEQQLLGSRGI
@@ -59,12 +59,13 @@ FEATURES             Location/Qualifiers
                      PVGGGPDGKSPILVRKGEAVGYCVYAMHRRTDIYGEDALEFRPERWEDGQLLRNVGYGY
                      LPFNGGPRVCLGQEFALLEAGYTVARLVQKFPFLTVPHDDPVVATGKEKQVLTLVVASG
                      DGCRVHMRS"
+                     /Pfam="p450"
      CDS             complement(join(1819..2769,2824..2962,3018..3160))
                      /codon_start=1
                      /locus_tag="PtrM4_07713"
                      /old_locus_tag="PtrM4_gene7713"
                      /product="FAD-dependent monooxygenase TtcO"
-                     /label=ttcO
+                     /label="ttcO"
                      /protein_id="PWO12370.1"
                      /translation="MHVLIVGAGVGGLSLAQALRKLDISFEIFERDPSSDARFQGWAIA
                      MHSIVDDLISIFPDDLPDLKASTNHLIPLELPAQLSMYMAGRDDRWGFQDSPDFPLIRA
@@ -74,12 +75,13 @@ FEATURES             Location/Qualifiers
                      HIQGETRVWRDLELDPSIVPECRVILVGDAAHAMVPFRGEGGYHTLVDTLVLSKVLGQM
                      AQSGDYKDIARVRSTMGDFTRAMLKRAGQAVRDSRNLHADAQRFGPDGKPLTLKIVPLP
                      DTEIRLGTNAP"
+                     /Pfam="FAD_binding_3"
      CDS             join(3648..3959,4024..4680)
                      /codon_start=1
                      /locus_tag="PtrM4_07714"
                      /old_locus_tag="PtrM4_gene7714"
                      /product="2OG-Fe(II)-dependent dioxygenase TtcP"
-                     /label=ttcP
+                     /label="ttcP"
                      /protein_id="PWO12371.1"
                      /translation="MATEELKLPLIDISGYVSPKSPEDKQRVIEEVSQAARKYGFFQIK
                      GHGIPLGLQQDLVKCMTNVFDLPYEEKMKMSFLNNPCRRGYEASGMSHRPGDTLPDAKE
@@ -87,13 +89,14 @@ FEATURES             Location/Qualifiers
                      PETVEKFSKRPIVPMKMIRYPPATTVQAGQYGIGAHTDFGGVTILFQQPGKDGLEVWVE
                      DRQAWIEVPALEDVYVINCGDMIQRWSDGVYKSAKHRVINKVENGERMSCATFWHGDVR
                      ATNPLNPLDKDRETVGMLLAKRLGGQYSFSDELLAEIGAAA"
+                     /Pfam="DIOX_N, 2OG-FeII_Oxy"
      CDS             complement(join(5331..15658,15712..16602,16675..17083))
                      /codon_start=1
                      /gene="T1PKS-NRPS"
                      /locus_tag="PtrM4_14012"
-                     /product="polyketide synthase-nonribosomal peptide 
+                     /product="polyketide synthase-nonribosomal peptide
                      synthetase TtcA"
-                     /label=ttcA
+                     /label="ttcA"
                      /note="revised sequence"
                      /protein_id="RIB12012.1"
                      /translation="MTTNGRDIPTTPEPIAIVGSGCRFPGGASSASSLWKLLQTAPDLC
@@ -162,12 +165,14 @@ FEATURES             Location/Qualifiers
                      VSSKWACERILERSAASPEVAVPSFIYRLLPSSSTVTPAQKNTALDEFERCMKLADAVP
                      DTTGWQGRMDLIRGEDIATWLCGSIAASTSRATETPANATFLHYECPITISVEDLDERA
                      ELFKAGKPQEEATISSMPLLKWMGKIKALGFSYILASQDATVRRGTGELESTKR"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_DH, PKS_NRPS_MT, fPKS_KR,
+                     ACP_PCP, Condensation, AA-adenyl-dom, fPKS_R"
      CDS             complement(join(17733..19161,19215..19462))
                      /codon_start=1
                      /locus_tag="PtrM4_07715"
                      /old_locus_tag="PtrM4_gene7715"
                      /product="FAD-linked oxidoreductase TtcB"
-                     /label=ttcB
+                     /label="ttcB"
                      /protein_id="PWO12372.1"
                      /translation="MELIKILFLLVSSLVYGLVEPETCRCFPGDACWPSDEQWSDLNKT
                      VSGRLIKTVPLGYLCHGLEYDEAECKALASVWKKPTVHINSSSSIQAPIFANASCDPFT
@@ -179,13 +184,14 @@ FEATURES             Location/Qualifiers
                      GSDLIGGRFLLRDALQGVGTAINASVLSKGGMFIGQSMNVSRFASATRAVHPQWRHAVV
                      MSSYSLPYSFDVPFANMQVQQDRITQDIMPAIEAVTPDAGAYINEADYQQPNWQNIFYG
                      SNYARLEQVKMRYDPKGLFWNSIAVGSEEWKVAADGRLCKA"
+                     /Pfam="FAD_binding_4, BBE"
      CDS             join(19963..20049,20108..20301,20356..20977,21041..21260,
                      21332..21396,21454..21561,21613..21840)
                      /codon_start=1
                      /locus_tag="PtrM4_07716"
                      /old_locus_tag="PtrM4_gene7716"
                      /product="cytochrome P450 monooxygenase TtcC"
-                     /label=ttcC
+                     /label="ttcC"
                      /note="revised sequence"
                      /protein_id="PWO12373.1"
                      /translation="MFALMNAVYLLSFASLYCLFHFRGKQVFETFVSLLLPRINSGVLR
@@ -197,12 +203,13 @@ FEATURES             Location/Qualifiers
                      EIAANRENLHDYIASTSTHLHRSFIESMRIRPFGVFTIGESSASTKNFHGVLVKPNTQI
                      LVDVLAINVRNPFWGRNSEAYDPDRLKDIKPSNLRYNLHSFGIGSRKCMGQFVAGHIVK
                      SLVVHLFDRFEVEPVREGETEKADAGADMGSWTPKSDALLRLWRREGVL"
+                     /Pfam="p450"
      CDS             complement(22070..23536)
                      /codon_start=1
                      /locus_tag="PtrM4_07717"
                      /old_locus_tag="PtrM4_gene7717"
                      /product="transcription factor TtcD"
-                     /label=ttcD
+                     /label="ttcD"
                      /note="revised sequence"
                      /protein_id="PWO12374.1"
                      /translation="MGPGPSMSVLPPTRQSCDRCHKQKLRCKRPDNSETDSCERCLRKG
@@ -214,12 +221,13 @@ FEATURES             Location/Qualifiers
                      PPPSTRDTPPETLSESSRHTYSTVRYLVVVCVTLLLNTYIGIVVSLQHSAEALKAYQWA
                      CAQTQPRRSTNSVCTWNTTDCIKLQFVGMVQMCSSFMRRQIEVSELLMPSHISSSELSG
                      GNSCWDAVGKLKLELEQRLKQLQKCLGMVD"
+                     /Pfam="EqxR"
      CDS             join(24724..24781,24843..25837,25892..26007,26063..26453)
                      /codon_start=1
                      /locus_tag="PtrM4_07718"
                      /old_locus_tag="PtrM4_gene7718"
                      /product="transcription factor TtcE"
-                     /label=ttcE
+                     /label="ttcE"
                      /note="revised sequence"
                      /protein_id="PWO12375.1"
                      /translation="MADQVHVLWCGQCNKPFTKQSALKRHGYYCRSNTRASVPRRRSCV
@@ -232,12 +240,13 @@ FEATURES             Location/Qualifiers
                      KLIFFGPAAMCDMPAEFVIAPLPAKRQLWEAKNAEEWKLESQKEPREQVSYALAVDGEI
                      VKLDQRRLSCRDAWLPYTPSDEYRNLQNLQNRNSNSAAWWAEWCSGMDSMGGLILLAAS
                      MA"
+                     /Pfam="CpaE"
      CDS             join(27066..27164,27226..27657,27707..28978)
                      /codon_start=1
                      /locus_tag="PtrM4_07719"
                      /old_locus_tag="PtrM4_gene7719"
                      /product="FAD-linked oxidoreductase TtcF"
-                     /label=ttcF
+                     /label="ttcF"
                      /protein_id="PWO12376.1"
                      /translation="MYGIFSLLSFLSVVVAAHGRFDRRHISNKTCKAVPGDLTWPSENT
                      WKALSRQVSGRLIKTTPIAKSCYPGSGYDSVECDNVVEEWPILDFTTTNVIGRSLPYYI
@@ -250,12 +259,13 @@ FEATURES             Location/Qualifiers
                      TISDAPGQDNSNCILFAGGEKVASDGNDPFAGYHPAWRKASFGVVTIRVLPHNITDIER
                      AAVEKDILSKTSAMEAFAPGTGAYMNEADRLDPNYIENFYGANYQRHLRTKKKYDPENL
                      FYCGTCVGAEEWVERKDGPLCRKV"
+                     /Pfam="FAD_binding_4, BBE"
      CDS             join(29299..29402,29451..29584,29641..30626)
                      /codon_start=1
                      /locus_tag="PtrM4_07720"
                      /old_locus_tag="PtrM4_gene7720"
                      /product="dehydrogenase TtcG"
-                     /label=ttcG
+                     /label="ttcG"
                      /protein_id="PWO12377.1"
                      /translation="MFTLLNRVFTSFSPPKAEKKDGAIRFGILGASKIAPMALITPATS
                      HSEVIIQAIAARDRSRAEEFAKKHGIPEVKETYEDLFSDPNIDAVFIPLPNGLHYEWSV
@@ -265,24 +275,26 @@ FEATURES             Location/Qualifiers
                      EDGLEKVMTRVVTLHGCMHAVLWHRIDVRDEYRMRVKETGEVVKRWKEEKLHKAYTHRE
                      AGGDQAERQGEDWWMSYRYQLEAFVDRVKGRGVPYWVTGEDSTKQMRMVDMAYEKSGLG
                      LRPTSEFR"
+                     /Pfam="GFO_IDH_MocA, GFO_IDH_MocA_C"
      CDS             complement(join(30828..30866,30926..31396))
                      /codon_start=1
                      /locus_tag="PtrM4_07721"
                      /old_locus_tag="PtrM4_gene7721"
                      /product="DUF3237 protein TtcH"
-                     /label=ttcH
+                     /label="ttcH"
                      /protein_id="PWO12378.1"
                      /translation="MKYLSNPLFFLATAAFSLAQAPPSPEFNWILSANVTPGTPIIIGP
                      VPGLGIRTALPIAGGIFWGPFFNGTLAPVGVDAGIVTSDGKFYPGGTAILQTNDGANII
                      FRDNGYQTGDTIYGAVTFETGAVGLEWLNKLVLVSSASFADGAGSGVTLNIFAAGPIPE
                      GAKKSR"
+                     /Pfam="DUF3237"
      CDS             complement(join(32019..32353,32406..33145,33203..33606,
                      33662..33856))
                      /codon_start=1
                      /locus_tag="PtrM4_07722"
                      /old_locus_tag="PtrM4_gene7722"
                      /product="major facilitator superfamily transporter TtcI"
-                     /label=ttcI
+                     /label="ttcI"
                      /protein_id="PWO12379.1"
                      /translation="MATIKDEHSVGEVPESSRSSHHSLSAAGDAVESKNDTTVIYPTGF
                      RMWLLSGASIFGVFLISLDQTILGTAVPKITTDFGGLNDVSWYSAAYFMTFGGLEASWG
@@ -294,12 +306,13 @@ FEATURES             Location/Qualifiers
                      VDTPATKWIGYQILVGSAIAFSVQNGLNIAQSSVDPEDLPAVTANLYFFQTVGGAFTVS
                      SAQAAFINQALDNLRTTAPEIDSSKLLTTGASELRKVFTQAEIPIVIEAYMHGLKAAFA
                      VSIAFCGLAFVATWFVPWEQLATHRPAEPTDTEQQGTTTK"
+                     /Pfam="MFS_1"
      CDS             join(34328..35039,35095..35276)
                      /codon_start=1
                      /locus_tag="PtrM4_07723"
                      /old_locus_tag="PtrM4_gene7723"
                      /product="short-chain dehydrogenase/reductase TtcJ"
-                     /label=ttcJ
+                     /label="ttcJ"
                      /protein_id="PWO12380.1"
                      /translation="MSDAPPFPSPVKRWHDKSQPAGDPSLPALSQKGKSILVTGGGNTG
                      IGGETARYFARAGAARIGLIGRREGPLLENKAAIEKECPGTKVFIQSADVTDEASVNSA
@@ -307,13 +320,14 @@ FEATURES             Location/Qualifiers
                      AHVVAINSWGSHLSLNDAFASYCVAKMAVYRLWDTVLLANPNLSVFHTQPGVVLTEMNL
                      TVGGADSFKNVKTDDVTLPASFNLWLSTPEARFLKGKFLWCNWDIEELKSRAKEIESGR
                      LLNLDLNGWPFASASS"
+                     /Pfam="adh_short"
      CDS             complement(join(35533..35855,35913..36364,36429..36552,
                      36617..36740,36806..36988))
                      /codon_start=1
                      /locus_tag="PtrM4_07724"
                      /old_locus_tag="PtrM4_gene7724"
                      /product="methyltransferase TtcK"
-                     /label=ttcK
+                     /label="ttcK"
                      /protein_id="PWO12381.1"
                      /translation="MGSIGAEDVNPRVIAEAEKLLLSLKTHNGGAKDQAKALRHLEKLR
                      CMIHTGFDALLFHAQPFQILPAVNVLIEHGVFDAVPPEGKMSIEDIASKVKLDATILNR
@@ -323,12 +337,13 @@ FEATURES             Location/Qualifiers
                      IMPHNFYDPQPVKNAHVYYLRNVLHNHYDVLSEIILRQIVGAMEPDSRVLIGEMILPST
                      VTAGSDPMPYFMDLNMFMEGGIERTEEQWIELLDAVGLEIVKIWRLTVNPVQATIEARL
                      KG"
+                     /Pfam="MdpA, Methyltransf_2"
      CDS             join(37550..37842,37895..38095,38150..39425)
                      /codon_start=1
                      /locus_tag="PtrM4_07725"
                      /old_locus_tag="PtrM4_gene7725"
                      /product="FAD-linked oxidoreductase TtcL"
-                     /label=ttcL
+                     /label="ttcL"
                      /note="revised sequence"
                      /protein_id="PWO12382.1"
                      /translation="MAFRFALIRVLFACLHFTNGATAGRQYPPKPACRYIPTDREWPSQ
@@ -342,6 +357,7 @@ FEATURES             Location/Qualifiers
                      SILNVDDRPGSSRPPHPPNSVLPAWRNAIAYCNPQTHTPYPFTDPAQARALRRKLIEDI
                      FPRLEAATPGGGNLNEIDPTYKGDWKEVFYGENYERLLEIKHKYDSASVLYGLFAVGSD
                      EFRIDGEGRLCSV"
+                     /Pfam="FAD_binding_4, BBE"
 ORIGIN
         1 atgaatacct ttgatatcaa ctttataggc aacagagcct ctaaatccat agccttatta
        61 ttcgtcgttc tcagcgttgt ggggtacaag atttggtgtc gccaggctcg acgtcaagta

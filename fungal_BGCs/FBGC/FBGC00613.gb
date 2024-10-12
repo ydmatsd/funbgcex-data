@@ -1,32 +1,32 @@
-LOCUS       FBGC00613       10611 bp DNA     linear   UNA 28-APR-2023
+LOCUS       FBGC00613              10611 bp    DNA     linear   UNA 28-APR-2023
 DEFINITION  coprinoferrin.
 ACCESSION   FBGC00613
-VERSION     .
+VERSION     FBGC00613
 KEYWORDS    .
 SOURCE      Coprinopsis cinerea okayama7#130
   ORGANISM  Coprinopsis cinerea okayama7#130
+            .
 REFERENCE   1  (bases 1 to 10611)
   AUTHORS   Tsunematsu Y, Takanishi J, Asai S, Masuya T, Nakazawa T, Watanabe K.
-  TITLE     Genomic Mushroom Hunting Decrypts Coprinoferrin, A Siderophore 
+  TITLE     Genomic Mushroom Hunting Decrypts Coprinoferrin, A Siderophore
             Secondary Metabolite Vital to Fungal Cell Development.
   JOURNAL   Org Lett 2019;21:7582-7586
-  PUBMED    31496254
+   PUBMED   31496254
 REFERENCE   2  (bases 1 to 10611)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Apr 28, 2023 from SnapGene 6.2.2
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1021/acs.orglett.9b02861"; journalName: "Org Lett"; date: 
-            "2019"; volume: "21"; pages: "7582-7586"
-COMMENT     The VEuPathDB Bioinformatics Resource Center (www.veupathdb.org) may
-            also have contributed to the annotation of this genome. Annotation 
-            and related data can be viewed and updated at http://veupathdb.org 
-            and inquiries can be sent to 
-            help@veupathdb.org.##Genome-Assembly-Data-START##
+  JOURNAL   Exported Apr 28, 2023 from SnapGene 6.2.2 https://www.snapgene.com
+COMMENT     ##Genome-Assembly-Data-START##
             Assembly Name         :: CC3
-            Sequencing Technology :: ABI; lab finishing 
+            Sequencing Technology :: ABI; lab finishing
             ##Genome-Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1021/acs.orglett.9b02861"; journalName: "Org Lett"; date:
+            "2019"; volume: "21"; pages: "7582-7586"
+            The VEuPathDB Bioinformatics Resource Center (www.veupathdb.org) may
+            also have contributed to the annotation of this genome. Annotation
+            and related data can be viewed and updated at http://veupathdb.org
+            and inquiries can be sent to
 FEATURES             Location/Qualifiers
      source          1..10611
                      /chromosome="2"
@@ -42,7 +42,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="CC1G_04210"
                      /product="nonribosomal peptide synthetase Cpf1"
-                     /label=cpf1
+                     /label="cpf1"
                      /protein_id="EAU88504.2"
                      /translation="MALRDTAGVPPLLQGYSIVEWPDLTCDRHPSPTPYTSTQPLSSFN
                      VQSRGSLLLAAISRMLGAYCGASDILLAVQVPNKRDYVFVRVNWSDNETWQEVAARTAS
@@ -86,12 +86,13 @@ FEATURES             Location/Qualifiers
                      IEHSDLVNISKWTGMSGETPIFNVNVNVVKLPVTLKRDGLVEPVKAPYYIPRIAVPTVT
                      PTLDRLAVSPLCQNDVVVDIIVYEESDSILMSIEAVDNIMTEGQAKDIIQEWASVVSTT
                      LSYKD"
-     CDS             join(8697..8798,8855..8949,9005..9291,9352..9675,9731..9837,
-                     9898..10611)
+                     /Pfam="AA-adenyl-dom, ACP_PCP, NRPS_C, NRPS_CT"
+     CDS             join(8697..8798,8855..8949,9005..9291,9352..9675,
+                     9731..9837,9898..10611)
                      /codon_start=1
                      /locus_tag="CC1G_04211"
                      /product="L-ornithine N(5)-monooxygenase Cpf2"
-                     /label=cpf2
+                     /label="cpf2"
                      /protein_id="EAU88505.1"
                      /translation="MSADDVVYDLVGLGFGPANIAIGAALTEKWQQDPTFSIKNTLFIE
                      KHEVFRWHPGMLLPDAKMQISFLKDLATLRTPNSPYTFLSYLHSEDRLLSFINRGSTVP
@@ -103,6 +104,7 @@ FEATURES             Location/Qualifiers
                      QRTAWVELFKNTGIAKHFGITPSTSKVVLRPSADLVGGRQHQEFFHDSSPSTASSSTVS
                      TPPTSPETSRFSSPISSRIVSQDLYLSRSYQLLPKDGENTLRPRVYLQGVEEATHGLSD
                      TLLSVLGVRAGEVVADLASRYHSSA"
+                     /Pfam="Lys_Orn_oxgnase"
 ORIGIN
         1 ctaatccttg tacgaaaggg tggtcgaaac aacggaagcc cattcttgga tgatgtcctt
        61 cgcctggcct tcagtcatga tgttatccac agcttcaatg gacatcaaga tagaatccga

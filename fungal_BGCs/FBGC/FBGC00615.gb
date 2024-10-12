@@ -1,38 +1,38 @@
-LOCUS       FBGC00615       10226 bp DNA     linear   UNA 13-APR-2023
+LOCUS       FBGC00615              10226 bp    DNA     linear   UNA 13-APR-2023
 DEFINITION  YWA1 derivative.
 ACCESSION   FBGC00615
-VERSION     .
+VERSION     FBGC00615
 KEYWORDS    .
 SOURCE      Aspergillus oryzae RIB40
   ORGANISM  Aspergillus oryzae RIB40
+            .
 REFERENCE   1  (bases 1 to 10226)
   AUTHORS   Tamano K, Kuninaga M, Kojima N, Umemura M, Machida M, Koike H.
-  TITLE     Use of the kojA promoter, involved in kojic acid biosynthesis, for 
-            polyketide production in Aspergillus oryzae: implications for 
+  TITLE     Use of the kojA promoter, involved in kojic acid biosynthesis, for
+            polyketide production in Aspergillus oryzae: implications for
             long-term production.
   JOURNAL   BMC Biotechnol 2019;19:70
-  PUBMED    31655589
+   PUBMED   31655589
 REFERENCE   2  (bases 1 to 10226)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Apr 13, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1186/s12896-019-0567-x"; journalName: "BMC Biotechnol"; date: 
-            "2019"; volume: "19"; pages: "70"
-COMMENT     This genome assembly has been updated so
-            as to reflect the location and orientation of
-            contigs on the chromosomes. Gap lengths were
-            estimated using the results from Optical
-            Mapping (http://www.bio.nite.go.jp/dogan/project/view/AO). This 
-            Aspergillus oryzae RIB40 genome consists of a nuclear genome 
-            assembly represented by eight chromosomes (assembled from 24 
-            entries) and three unplaced contigs (AP007156, AP007160 and 
-            AP007177) and a complete mitochondrial genome 
-            (AP007176).##Genome-Assembly-Data-START##
+  JOURNAL   Exported Apr 13, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     ##Genome-Assembly-Data-START##
             Assembly Method :: Phred/Phrap software
             Assembly Name   :: Aoryzae_assembly02
             ##Genome-Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1186/s12896-019-0567-x"; journalName: "BMC Biotechnol"; date:
+            "2019"; volume: "19"; pages: "70"
+            This genome assembly has been updated so
+            as to reflect the location and orientation of
+            contigs on the chromosomes. Gap lengths were
+            estimated using the results from Optical
+            Mapping (http://www.bio.nite.go.jp/dogan/project/view/AO). This
+            Aspergillus oryzae RIB40 genome consists of a nuclear genome
+            assembly represented by eight chromosomes (assembled from 24
+            entries) and three unplaced contigs (AP007156, AP007160 and
+            AP007177) and a complete mitochondrial genome
 FEATURES             Location/Qualifiers
      source          1..10226
                      /chromosome="4"
@@ -45,7 +45,7 @@ FEATURES             Location/Qualifiers
                      /locus_tag="AO090102000546"
                      /old_locus_tag="AO070310000108"
                      /product="laccase AO090102000546"
-                     /label=AO090102000546
+                     /label="AO090102000546"
                      /note="unnamed protein product; multicopper oxidases"
                      /protein_id="BAE61568.1"
                      /translation="MAPLKTLVALLSANVLTSVLAELVKFEVDLTWAKGSPDGNLRDMI
@@ -59,15 +59,16 @@ FEATURES             Location/Qualifiers
                      KVTVQTQNGTWVDVLLQVGIMPNTPPIQAPHIIHKHSNKAFIVGEGDGFFNWTSVAEAA
                      TERPELFEFERPRLRDTFMVLGLLGPRWMVIRYQVVNPGPFLIHCHIETHLANGMGVAL
                      LDGVDEWPEVPPEYAL"
+                     /Pfam="Cu-oxidase_3, Cu-oxidase, Cu-oxidase_2"
      CDS             join(3576..3862,3915..4206,4265..7696,7761..8516,
                      8568..10226)
                      /codon_start=1
                      /locus_tag="AO090102000545"
                      /old_locus_tag="AO070310000109"
                      /product="polyketide synthase wA"
-                     /label=wA
-                     /note="unnamed protein product; polyketide synthase
-                     modules and related proteins"
+                     /label="wA"
+                     /note="unnamed protein product; polyketide synthase modules
+                     and related proteins"
                      /protein_id="BAE61567.1"
                      /translation="MEGPRGVYLFGDQTSDFDAGLRRLLQVKNNTIVASFFQRCFHALR
                      QEIARLSPSERKIFPRFTSIVDLLARHRESDPNPALESALTCIYQLGCFINYYGDLGNV
@@ -106,6 +107,8 @@ FEATURES             Location/Qualifiers
                      LEKLPQRLYGFFNSIGLFGEGKTAPPSWLLPHFLAFIDALDAYKAAPLPFKDEKWAKKL
                      PKTYIIWAKDGVCGKPGDPRPDPPTDGSKDPKEMVWLLNDRTDLGPNKWDTLVGPENIG
                      GITVMEDANHFTMTKGEKAKELSTFMANAMA"
+                     /Pfam="SAT2, PKS_KS, PKS_AT, fPKS_PT, ACP_PCP,
+                     Thioesterase"
 ORIGIN
         1 atggcgcctt taaaaaccct cgtggccttg cttagtgcca atgtgcttac ttcggtattg
        61 gcagagcttg ttaaattcga ggtggatctg acttgggcga aaggctctcc agacggcaac

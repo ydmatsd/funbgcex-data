@@ -1,40 +1,23 @@
-LOCUS       FBGC00601       45182 bp DNA     linear   UNA 12-APR-2023
+LOCUS       FBGC00601              45182 bp    DNA     linear   UNA 12-APR-2023
 DEFINITION  UCS1025A.
 ACCESSION   FBGC00601
-VERSION     .
+VERSION     FBGC00601
 KEYWORDS    .
 SOURCE      Myceliophthora thermophila ATCC 42464
   ORGANISM  Myceliophthora thermophila ATCC 42464
+            .
 REFERENCE   1  (bases 1 to 45182)
-  AUTHORS   Li L, Tang MC, Tang S, Gao S, Soliman S, Hang L, Xu W, Ye T, 
+  AUTHORS   Li L, Tang MC, Tang S, Gao S, Soliman S, Hang L, Xu W, Ye T,
             Watanabe K, Tang Y.
-  TITLE     Genome Mining and Assembly-Line Biosynthesis of the UCS1025A 
+  TITLE     Genome Mining and Assembly-Line Biosynthesis of the UCS1025A
             Pyrrolizidinone Family of Fungal Alkaloids.
   JOURNAL   J Am Chem Soc 2018;140:2067-2071
-  PUBMED    29373009
+   PUBMED   29373009
 REFERENCE   2  (bases 1 to 45182)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Apr 12, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1021/jacs.8b00056"; journalName: "J Am Chem Soc"; date: "2018"; 
-            volume: "140"; pages: "2067-2071"
-COMMENT     URL -- http://www.jgi.doe.gov/fungi
-            JGI Project ID: 4043098
-            The DNA was provided by Adrian Tsang (tsang@gene.concordia.ca)
-            The strain is available from the American Type Culture Collection 
-            under ATCC 42464
-            Contacts: Adrian Tsang (tsang@gene.concordia.ca)
-                      Igor Grigoriev (ivgrigoriev@lbl.gov)
-            Assembly and annotation done by JGI.
-            The JGI and collaborators endorse the principles for the 
-            distribution and use of large scale sequencing data adopted by the 
-            larger genome sequencing community and urge users of this data to 
-            follow them. It is our intention to publish the work of this project
-            in a timely fashion and we welcome collaborative interaction on the 
-            project and analysis. 
-            (http://www.genome.gov/page.cfm?pageID=10506376).##Metadata-START##
+  JOURNAL   Exported Apr 12, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     ##Metadata-START##
             Organism Display Name :: Myceliophthora thermophila ATCC 42464
             GOLD Stamp ID         :: Gi01755
             Assembly Method       :: Arachne v.20071016
@@ -42,6 +25,23 @@ COMMENT     URL -- http://www.jgi.doe.gov/fungi
             Sequencing Technology :: Sanger
             Sequencing Depth      :: 7.66x
             ##Metadata-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1021/jacs.8b00056"; journalName: "J Am Chem Soc"; date: "2018";
+            volume: "140"; pages: "2067-2071"
+            URL -- http://www.jgi.doe.gov/fungi
+            JGI Project ID: 4043098
+            The DNA was provided by Adrian Tsang (tsang@gene.concordia.ca)
+            The strain is available from the American Type Culture Collection
+            under ATCC 42464
+            Contacts: Adrian Tsang (tsang@gene.concordia.ca)
+            Igor Grigoriev (ivgrigoriev@lbl.gov)
+            Assembly and annotation done by JGI.
+            The JGI and collaborators endorse the principles for the
+            distribution and use of large scale sequencing data adopted by the
+            larger genome sequencing community and urge users of this data to
+            follow them. It is our intention to publish the work of this project
+            in a timely fashion and we welcome collaborative interaction on the
+            project and analysis.
 FEATURES             Location/Qualifiers
      source          1..45182
                      /chromosome="3"
@@ -54,12 +54,11 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="MYCTH_2303692"
                      /product="transcription factor UcsR"
-                     /label=ucsR
-                     /note="GO_component: GO:5634 - nucleus;
-                     GO_function: GO:3700; zinc ion binding - transcription 
-                     factor activity [PMID 8270];
-                     GO_process: GO:6355 - regulation of transcription, 
-                     DNA-dependent"
+                     /label="ucsR"
+                     /note="GO_component: GO:5634 - nucleus; GO_function:
+                     GO:3700; zinc ion binding - transcription factor activity
+                     [PMID 8270]; GO_process: GO:6355 - regulation of
+                     transcription, DNA-dependent"
                      /db_xref="InterPro:IPR001138"
                      /db_xref="JGIDB:Spoth2_2303692"
                      /protein_id="AEO57478.1"
@@ -71,11 +70,12 @@ FEATURES             Location/Qualifiers
                      VTRIRAQEEAAAQGQERYDRSTALIALSCYTRLDVLYSRALDILVRIRNNGPIPEGSHH
                      LMPELVIDGFSMKRCLDLQLNFLIYLHGQARERIRSCIRSAEGTARVGRDRRDSARQGS
                      PAPARFDL"
+                     /Pfam="EqxR"
      CDS             complement(4058..5023)
                      /codon_start=1
                      /locus_tag="MYCTH_2303693"
                      /product="hypothetical protein MYCTH_2303693"
-                     /label=MYCTH_2303693
+                     /label="MYCTH_2303693"
                      /db_xref="JGIDB:Spoth2_2303693"
                      /protein_id="AEO57479.1"
                      /translation="MHPKRTYFLAPTRDQAPTGPIALGNLIRSPREPDFPLNDPNSPTV
@@ -88,7 +88,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="MYCTH_2303695"
                      /product="peptidase MYCTH_2303695"
-                     /label=MYCTH_2303695
+                     /label="MYCTH_2303695"
                      /note="GO_function: GO:4289 - subtilase activity;
                      GO_process: GO:6508 - proteolysis"
                      /db_xref="InterPro:IPR000209"
@@ -104,18 +104,18 @@ FEATURES             Location/Qualifiers
                      SAWITTTPTATTTASTTDMSGPDDAGAPEAAAAAVDLAATRRMSGTSVATPIAAGLVAL
                      LFEFAMVEVPNDPVTQATLNDVLPNIKRQTGLNALLMGKAARTGDFHNIVPMNLLNPNL
                      TLGENAAVIKGVLARWFGFRRPIKGTDGV"
+                     /Pfam="Peptidase_S8"
      CDS             complement(join(9646..12156,12229..12740,12799..14700,
                      14773..15479,15557..21660,21736..22182))
                      /codon_start=1
                      /locus_tag="MYCTH_68164"
-                     /product="polyketide synthase-nonribosomal peptide 
+                     /product="polyketide synthase-nonribosomal peptide
                      synthetase UcsA"
-                     /label=ucsA
-                     /note="polyketide synthase/non-ribosomal peptide
-                     synthetase hybrid;
-                     GO_function: GO:3824; cofactor binding - catalytic activity
-                     [PMID 48037];
-                     GO_process: GO:8152 - metabolic process"
+                     /label="ucsA"
+                     /note="polyketide synthase/non-ribosomal peptide synthetase
+                     hybrid; GO_function: GO:3824; cofactor binding - catalytic
+                     activity [PMID 48037]; GO_process: GO:8152 - metabolic
+                     process"
                      /db_xref="InterPro:IPR000873"
                      /db_xref="InterPro:IPR001242"
                      /db_xref="InterPro:IPR006163"
@@ -197,12 +197,14 @@ FEATURES             Location/Qualifiers
                      QFVPVEDVAGGILSAVLSSGATTTTTTTTTTTTPQQSSGQLVQYRNHNGRPEDTVDVHG
                      LAPYLTKQLRRTVTVTPDAEWIAEAKAAGMPDEVVEYMKGVNLTDRKGQKWRFPKALNG
                      PRP"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_DH, PKS_NRPS_MT, fPKS_KR,
+                     ACP_PCP, Condensation, AA-adenyl-dom, fPKS_R"
      CDS             join(23113..23125,23200..23576,23648..24094)
                      /codon_start=1
                      /locus_tag="MYCTH_50128"
                      /product="methyltransferase UcsB"
-                     /label=ucsB
-                     /note="GO_function: GO:8168 - methyltransferase activity; 
+                     /label="ucsB"
+                     /note="GO_function: GO:8168 - methyltransferase activity;
                      GO_process: GO:8152 - metabolic process"
                      /db_xref="InterPro:IPR013216"
                      /db_xref="JGIDB:Spoth2_50128"
@@ -212,11 +214,12 @@ FEATURES             Location/Qualifiers
                      VDARVLDALDLRGIGDNSLSHVAAGLLYNLTTDPHKCLTECRRVLQPNGVLAASAWEGN
                      EWLEMMQVLPIIKPELKSAVKAKWTSVSAMKADLAAAGFRDVEVESVPVQVPFESHDLF
                      VDTLLTYQPRMTALLRDFTEQEKATLRKLLIEEMKVYCPTEPGALNGVVLVATGCK"
+                     /Pfam="Methyltransf_11"
      CDS             join(25333..25491,25571..25735,25834..26517)
                      /codon_start=1
                      /locus_tag="MYCTH_115957"
                      /product="2OG-Fe(II)-dependent dioxygenase UcsF"
-                     /label=ucsF
+                     /label="ucsF"
                      /db_xref="InterPro:IPR005123"
                      /db_xref="JGIDB:Spoth2_115957"
                      /protein_id="AEO57483.1"
@@ -226,11 +229,12 @@ FEATURES             Location/Qualifiers
                      RGTFNNLVTHEKNASELRLNHYPPVPASQLLSGQVSRIWPHFDLGVITLLFTSGVGGLE
                      VEDRKAPGPQTFIPVEAETQDELIVNISETLQRWTDDKLPAGLHRVSTPKELEERIKTD
                      SSVEIPRRYSIAYLCKADRHASVGTLPAFQTEEKPHYQEMTAAEYHRQRLLTAY"
+                     /Pfam="DIOX_N, 2OG-FeII_Oxy"
      CDS             complement(join(27051..27934,28032..28128))
                      /codon_start=1
                      /locus_tag="MYCTH_2303701"
                      /product="pyrroline-5-carboxylate reductase UcsG"
-                     /label=ucsG
+                     /label="ucsG"
                      /db_xref="InterPro:IPR004455"
                      /db_xref="JGIDB:Spoth2_2303701"
                      /protein_id="AEO57484.1"
@@ -240,11 +244,12 @@ FEATURES             Location/Qualifiers
                      RRSESPGLRPCHILQAIPNVAAARQKSVTVVGGQSASIPGEVLELGHEVLRRIGTPVPV
                      STNQMPAATALCASGTAFFSWFLEAMVDAAVAQGIERSKATHLAALTMAGAAELVVSGQ
                      DPAAVTARVTTPGGATARGLATLERGEAKETVVKALQATTSKICS"
+                     /Pfam="F420_oxidored, P5CR_dimer"
      CDS             join(28722..29868,29940..30028)
                      /codon_start=1
                      /locus_tag="MYCTH_2303702"
                      /product="Diels-Alderase UcsH"
-                     /label=ucsH
+                     /label="ucsH"
                      /db_xref="JGIDB:Spoth2_2303702"
                      /protein_id="AEO57485.1"
                      /translation="MARINRQTAYQKADEIEFSTSSADPLAAWRISGIKGPVWEQWYFD
@@ -255,12 +260,13 @@ FEATURES             Location/Qualifiers
                      LRYTGAGKDERKPKHTVRWTPTYNTGFAGRFGDSSTGAILRFAAAEGEEYQFELVHRRK
                      AFEYLFGSSDTGLTAFLGEIKGGKVGEEVYRGVQFSDVCVLPQGITKVYFFICMLIAVL
                      TFGYINILETNT"
+                     /Pfam="Fsa2"
      CDS             join(31070..31154,31226..31280,31379..31528,31600..32164,
                      32248..32276,32355..32447,32521..32656)
                      /codon_start=1
                      /locus_tag="MYCTH_2138881"
                      /product="dehydrogenase UcsI"
-                     /label=ucsI
+                     /label="ucsI"
                      /db_xref="InterPro:IPR013149"
                      /db_xref="InterPro:IPR013154"
                      /db_xref="JGIDB:Spoth2_2138881"
@@ -272,11 +278,12 @@ FEATURES             Location/Qualifiers
                      LGAEPLNVADGQENIVKRIGELTEGRGADVVVEAVGLSPALRTAYDIVRPFGSISSIGV
                      HNSSMPFTATEGYDKNVKIQMGRCPVRSIFPEALPVLAKAQHRFGFMFEKLVPLSEAVE
                      SYALFSEMQVQKVIFKPWQRFERENRNTRL"
+                     /Pfam="ADH_N, fPKS_ER, ADH_zinc_N"
      CDS             complement(join(33088..33908,33979..34201))
                      /codon_start=1
                      /locus_tag="MYCTH_2303707"
                      /product="short-chain dehydrogenase/reductase UcsJ"
-                     /label=ucsJ
+                     /label="ucsJ"
                      /db_xref="JGIDB:Spoth2_2303707"
                      /protein_id="AEO57487.1"
                      /translation="MTKIFATGVTGYLGGDAVYAILQAHPEYEISCLVRDKAKGALVSE
@@ -286,14 +293,15 @@ FEATURES             Location/Qualifiers
                      SELYLKLVEHAAAGGEETGSGPAVWGGSEGFYFAEGGEHVWSELARSVSAEAAAQGFLT
                      QVEEPESIEPTEASKIMPMGQFFWGCNARVEGRRARQALNWQPHHPSLKEELGSIIATE
                      AKKLGLV"
+                     /Pfam="Epimerase"
      CDS             join(34773..35355,35482..36509)
                      /codon_start=1
                      /locus_tag="MYCTH_81364"
                      /product="cytochrome P450 monooxygenase UcsK"
-                     /label=ucsK
-                     /note="Cytochrome P450-like protein;
-                     GO_function: GO:4497; iron ion binding - monooxygenase 
-                     activity [Evidence 20037] [PMID 5506]"
+                     /label="ucsK"
+                     /note="Cytochrome P450-like protein; GO_function: GO:4497;
+                     iron ion binding - monooxygenase activity [Evidence 20037]
+                     [PMID 5506]"
                      /db_xref="InterPro:IPR001128"
                      /db_xref="JGIDB:Spoth2_81364"
                      /protein_id="AEO57488.1"
@@ -307,11 +315,12 @@ FEATURES             Location/Qualifiers
                      RIAPEEDLEYYSPFDGRRYTIPRGTTFGQSSYLVHTDESIYPNPAEFDPDRYWTDDGRP
                      TDAQRYLVPFGKGTRMCVGINLAWAELYLTIAALIGTVDMRIAPGTTEHDVTMVQDLFV
                      GVLPENPGVRVNVVGHLQA"
+                     /Pfam="p450"
      CDS             complement(37560..39026)
                      /codon_start=1
                      /locus_tag="MYCTH_2303709"
                      /product="alpha/beta hydrolase UcsC"
-                     /label=ucsC
+                     /label="ucsC"
                      /db_xref="JGIDB:Spoth2_2303709"
                      /protein_id="AEO57489.1"
                      /translation="MYPFFTYSPNRHYFEYKWYNLELLRLLGAAPYGGCDAAEFLELVA
@@ -323,11 +332,12 @@ FEATURES             Location/Qualifiers
                      PAQMIRDMKQYTFRLDRTVTADNKNRGRANRDYLEWVRCPVLVTGAGGDPKLFLAEMST
                      SAIMRNLVNVPEGQKELWVPKAWSEGGAQAKSGAWPLLQYRTFKFLDEKLGIQRPSSPK
                      RVYENGYENGYTNGFVKNGYENGFVTNGYH"
+                     /Pfam="FrsA-like, Abhydrolase_6"
      CDS             join(40143..40561,40649..40854,40930..41831,41893..42123)
                      /codon_start=1
                      /locus_tag="MYCTH_50920"
                      /product="major facilitator superfamily transporter UcsD"
-                     /label=ucsD
+                     /label="ucsD"
                      /db_xref="InterPro:IPR011701"
                      /db_xref="JGIDB:Spoth2_50920"
                      /protein_id="AEO57490.1"
@@ -342,11 +352,12 @@ FEATURES             Location/Qualifiers
                      EVAKKAAASLTDQSLVGYLTGGKAYQFATQEFLDSIRDPASRSEVIDIFTSSIKIVWYV
                      GTAFAGLGWLLVWLEKEVTLRSKLNTKFGIEEKKKQEEDEEKAKNEGENKDGEESKAAD
                      GAKRAELSA"
+                     /Pfam="MFS_1"
      CDS             join(43790..44386,44453..44538,44636..45182)
                      /codon_start=1
                      /locus_tag="MYCTH_48716"
                      /product="trans-acting enoylreductase UcsL"
-                     /label=ucsL
+                     /label="ucsL"
                      /note="Alcohol dehydrogenase-like protein"
                      /db_xref="InterPro:IPR013149"
                      /db_xref="InterPro:IPR013154"
@@ -360,6 +371,7 @@ FEATURES             Location/Qualifiers
                      TAQSAALCYAALGRAGGRYVALEKYPDSVAALRKVVKPTWVMGPVMFGRDLQLGEGYSQ
                      PADPSARAFARIWYPLAEALLGSGALKNHPVKVVAPEGREEWPEAVIRGLGGLRDGKVS
                      AQKLTVTIAA"
+                     /Pfam="fPKS_ER, ADH_zinc_N"
 ORIGIN
         1 atggccaaag cgaattcaca gaaggctgcc tgcgaccgct gccgcggaca gaaactccga
        61 tgtatctggg atcccaagga gccgcagtgc cagcgctgtg cgagggcaaa tgccgtctgc

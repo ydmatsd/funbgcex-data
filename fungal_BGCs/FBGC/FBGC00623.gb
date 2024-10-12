@@ -1,48 +1,49 @@
-LOCUS       FBGC00623       10685 bp DNA     linear   UNA 14-APR-2023
+LOCUS       FBGC00623              10685 bp    DNA     linear   UNA 14-APR-2023
 DEFINITION  acu-dioxomorpholine A.
 ACCESSION   FBGC00623
-VERSION     .
+VERSION     FBGC00623
 KEYWORDS    .
 SOURCE      Aspergillus aculeatus ATCC 16872
   ORGANISM  Aspergillus aculeatus ATCC 16872
+            .
 REFERENCE   1  (bases 1 to 10685)
-  AUTHORS   Robey MT, Ye R, Bok JW, Clevenger KD, Islam MN, Chen C, Gupta R, 
+  AUTHORS   Robey MT, Ye R, Bok JW, Clevenger KD, Islam MN, Chen C, Gupta R,
             Swyers M, Wu E, Gao P, Thomas PM, Wu CC, Keller NP, Kelleher NL.
-  TITLE     Identification of the First Diketomorpholine Biosynthetic Pathway 
+  TITLE     Identification of the First Diketomorpholine Biosynthetic Pathway
             Using FAC-MS Technology.
   JOURNAL   ACS Chem Biol 2018;13:1142-1147
-  PUBMED    29631395
+   PUBMED   29631395
 REFERENCE   2  (bases 1 to 10685)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Apr 14, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1021/acschembio.8b00024"; journalName: "ACS Chem Biol"; date: 
+  JOURNAL   Exported Apr 14, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     ##ata-START##
+            Assembly Method       :: Newbler v. 2.3
+            Assembly Name         :: Aspac1
+            Long Assembly Name    :: Aspergillus aculeatus ATCC16872 v1.1 Genome
+            Coverage              :: 32.17x
+            Sequencing Technology :: 454; Sanger dideoxy sequencing
+            ##ata-END##
+            ##Metadata-START##
+            Organism Display Name :: Aspergillus aculeatus ATCC 16872
+            GOLD Stamp ID         :: Gp0003551
+            ##Metadata-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1021/acschembio.8b00024"; journalName: "ACS Chem Biol"; date:
             "2018"; volume: "13"; pages: "1142-1147"
-COMMENT     URL -- http://genome.jgi.doe.gov/Aspac1
+            URL -- http://genome.jgi.doe.gov/Aspac1
             JGI Project ID: 52394
             The DNA was provided by David Culley (David.Culley@pnnl.gov)
             The strain is available from David Culley
             Contacts: David Culley (David.Culley@pnnl.gov)
             Assembly and annotation done by JGI.
-            The JGI and collaborators endorse the principles for the 
-            distribution and use of large scale sequencing data adopted by the 
-            larger genome sequencing community and urge users of this data to 
+            The JGI and collaborators endorse the principles for the
+            distribution and use of large scale sequencing data adopted by the
+            larger genome sequencing community and urge users of this data to
             follow them. It is our intention to publish the work of this project
-            in a timely fashion and we welcome collaborative interaction on the 
-            project and analysis. 
+            in a timely fashion and we welcome collaborative interaction on the
+            project and analysis.
             (http://www.genome.gov/page.cfm?pageID=10506376).##Genome-Assembly-D
-            ata-START##
-            Assembly Method       :: Newbler v. 2.3
-            Assembly Name         :: Aspac1
-            Long Assembly Name    :: Aspergillus aculeatus ATCC16872 v1.1 Genome
-            Coverage       :: 32.17x
-            Sequencing Technology :: 454; Sanger dideoxy sequencing 
-            ##Genome-Assembly-Data-END####Metadata-START##
-            Organism Display Name :: Aspergillus aculeatus ATCC 16872
-            GOLD Stamp ID         :: Gp0003551
-            ##Metadata-END##
 FEATURES             Location/Qualifiers
      source          1..10685
                      /chromosome="Unknown"
@@ -59,10 +60,10 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="ASPACDRAFT_46595"
                      /product="nonribosomal peptide synthetase AdxA"
-                     /label=adxA
-                     /note="GO_function: GO:3824; cofactor binding - catalytic 
-                     activity [PMID 48037];
-                     GO_process: GO:8152 - metabolic process"
+                     /label="adxA"
+                     /note="GO_function: GO:3824; cofactor binding - catalytic
+                     activity [PMID 48037]; GO_process: GO:8152 - metabolic
+                     process"
                      /db_xref="InterPro:IPR000873"
                      /db_xref="InterPro:IPR001242"
                      /db_xref="InterPro:IPR006163"
@@ -104,15 +105,16 @@ FEATURES             Location/Qualifiers
                      DAVFDCAVTFPDERSVEDDQRLPHIDGLIPRAVSPDGAIFALLFEWHFTADEQGVSLRL
                      GYDTDIFSSSVMNVLVRLLCVALDNMLDLNLTQTRLRHVLRQALDDACLRAGMEPDQVQ
                      DLARKSLIGAVPVDV"
+                     /Pfam="AA-adenyl-dom, ACP_PCP, NRPS_C"
      CDS             join(7056..7313,7443..7623,7685..7893,7950..8049,
                      8153..8466)
                      /codon_start=1
                      /locus_tag="ASPACDRAFT_46596"
                      /product="short-chain dehydrogenase/reductase AdxB"
-                     /label=adxB
-                     /note="GO_function: GO:3824; coenzyme binding - catalytic 
-                     activity [PMID 50662];
-                     GO_process: GO:44237 - cellular metabolic process"
+                     /label="adxB"
+                     /note="GO_function: GO:3824; coenzyme binding - catalytic
+                     activity [PMID 50662]; GO_process: GO:44237 - cellular
+                     metabolic process"
                      /db_xref="InterPro:IPR001509"
                      /db_xref="JGIDB:Aspac1_46596"
                      /protein_id="OJJ96434.1"
@@ -123,11 +125,12 @@ FEATURES             Location/Qualifiers
                      DEIPGSTMNWVRGLLHGDCTPMTLVPPKWFVDVEDIARLFVIALLEPTVASERLFAFGE
                      SANWTDVLTILEQLQPENPLIPRPMPGELHDCADIQPRGRAMQLLREFYGQPGMTPIAM
                      SIARGIGCEPLKN"
+                     /Pfam="Epimerase"
      CDS             complement(join(9347..9446,9517..10685))
                      /codon_start=1
                      /locus_tag="ASPACDRAFT_1890851"
                      /product="DMATS-type prenyltransferase AdxC"
-                     /label=adxC
+                     /label="adxC"
                      /db_xref="JGIDB:Aspac1_1890851"
                      /protein_id="OJJ96435.1"
                      /translation="MTGSSTTKDVKEGGAGAKPYLHLSKSLRFSNLDEHQYWHHHGPML
@@ -138,6 +141,7 @@ FEATURES             Location/Qualifiers
                      TMGDRLAKEDPDITEGLSMLEELWRALDIVEGPRAYPTRPSQPGDPPTYLPLMLNYEIH
                      PGRRAPIPKFYFPISGIPDTKIAAVLTDFFERHDMSDQAAVYAANLQNYFAGENLDETT
                      HHQAWLSFSYARSKGPYLTVYYH"
+                     /Pfam="Trp_DMAT"
 ORIGIN
         1 tcagacatca accggaacag ccccgatcaa acttttacgc gccaaatcct gcacctggtc
        61 aggctccatc cccgcgcgca gacaagcgtc atccagggct tgtcgtagca cgtgtcgcaa

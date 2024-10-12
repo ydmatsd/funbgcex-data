@@ -1,29 +1,29 @@
-LOCUS       FBGC00635       16065 bp DNA     linear   UNA 15-APR-2023
+LOCUS       FBGC00635              16065 bp    DNA     linear   UNA 15-APR-2023
 DEFINITION  chaetolivacine A.
 ACCESSION   FBGC00635
-VERSION     .
+VERSION     FBGC00635
 KEYWORDS    .
 SOURCE      Chaetomium olivaceum SD-80A
   ORGANISM  Chaetomium olivaceum SD-80A
+            .
 REFERENCE   1  (bases 1 to 16065)
-  AUTHORS   Wang X, Zhao L, Liu C, Qi J, Zhao P, Liu Z, Li C, Hu Y, Yin X, Liu 
+  AUTHORS   Wang X, Zhao L, Liu C, Qi J, Zhao P, Liu Z, Li C, Hu Y, Yin X, Liu
             X, Liao Z, Zhang L, Xia X.
-  TITLE     New Tetramic Acids Comprising of Decalin and Pyridones From 
+  TITLE     New Tetramic Acids Comprising of Decalin and Pyridones From
             Chaetomium olivaceum SD-80A With Antimicrobial Activity.
   JOURNAL   Front Microbiol 2019;10:2958
-  PUBMED    32010075
+   PUBMED   32010075
 REFERENCE   2  (bases 1 to 16065)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Apr 15, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.3389/fmicb.2019.02958"; journalName: "Front Microbiol"; date: 
-            "2019"; volume: "10"; pages: "2958"
+  JOURNAL   Exported Apr 15, 2023 from SnapGene 6.2.1 https://www.snapgene.com
 COMMENT     ##Assembly-Data-START##
             Assembly Method       :: SOAPdenovo v. v2.04
             Sequencing Technology :: Illumina
             ##Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.3389/fmicb.2019.02958"; journalName: "Front Microbiol"; date:
+            "2019"; volume: "10"; pages: "2958"
 FEATURES             Location/Qualifiers
      source          1..16065
                      /strain="SD-80A"
@@ -34,9 +34,8 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="chaC"
                      /product="trans-acting enoylreductase ChaC"
-                     /label=chaC
-                     /note="alcohol dehydrogenase-like protein
-                     revised sequence"
+                     /label="chaC"
+                     /note="alcohol dehydrogenase-like protein revised sequence"
                      /protein_id="QJX57336.1"
                      /translation="MPSFQRALIQSSTPGILAFTRTRPIPMPLPGQVLVHVAAVALNPC
                      DWKMPTNFPCPGAGVGSDFSGTIIQLGEGVSLETYGVKVGDRVAGAAHASNRLEPQGGA
@@ -45,11 +44,12 @@ FEATURES             Location/Qualifiers
                      MESIRAYTNNSLRYVMDIIASAKSLRQCYASIGRAGGRYVGFELVPDELTEIRKAVQAS
                      WVLGIRMFGTEIALDGGYGSPANPELRVWGCELFKRLEKLIWEGKIRPHPVELDDKSGF
                      DGIVRGVEKLKRGEVSGKKLVFMLD"
+                     /Pfam="fPKS_ER"
      CDS             1646..2971
                      /codon_start=1
                      /gene="chaB"
                      /product="Diels-Alderase ChaB"
-                     /label=chaB
+                     /label="chaB"
                      /note="revised sequence"
                      /protein_id="QJX57337.1"
                      /translation="MGLAARKLFLALLPLVVGDLHLAQQPLEGLLSGHWQHEFDTLDQH
@@ -60,14 +60,15 @@ FEATURES             Location/Qualifiers
                      ITYWQPLSRVNDWVSYFSANLFKDGELVVGTQVGTGSRDTDHVLFGPEFSGNISGSLAD
                      KATGHMLEFVSSVSGRRWRFKHSHQIKMFEMGLGGGRGLTGFVDDVAGGEVGTDEHFEG
                      KGISEQVSLPDKVKQWQIWVVYGIGFLGRWKNSLASFVPSLW"
+                     /Pfam="Fsa2"
      CDS             join(3651..4649,4716..10315,10383..12982,13073..16065)
                      /codon_start=1
                      /gene="chaA"
-                     /product="polyketide synthase-nonribosomal peptide 
+                     /product="polyketide synthase-nonribosomal peptide
                      synthetase ChaA"
-                     /label=chaA
-                     /note="Hybrid PKS-NRPS biosynthetic cluster
-                     revised sequence"
+                     /label="chaA"
+                     /note="Hybrid PKS-NRPS biosynthetic cluster revised
+                     sequence"
                      /protein_id="QJX57338.1"
                      /translation="MRQSSEERFINEPIAIIGSACRFPGSLDNPSKLWDFLREPKDLLS
                      KIPTGRFNADAFFHPDSAHHGTSNVTKSYFLEEDPRLFDAAFFNIKPVEAHSIDPQHRI
@@ -139,6 +140,8 @@ FEATURES             Location/Qualifiers
                      LRAVPVSARWRGALDFVGVQAVADGVVNTVIKGRDGGNQEPEGSMKFLHHSGDVVIPID
                      VLKEYLEKEDAVEYKKVQLGEWIEMAVSEGLNVLVAAYLASVDEMDLDIVFQSYVKGDI
                      VASVEG"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_DH, PKS_NRPS_MT, fPKS_KR,
+                     ACP_PCP, Condensation, AA-adenyl-dom, fPKS_R"
 ORIGIN
         1 ttaatcaagc ataaaaacta atttcttccc cgaaacctct cctctcttca acttctccac
        61 ccctcggaca atcccatcaa acccactctt atcatccaac tccactgggt gtggccggat

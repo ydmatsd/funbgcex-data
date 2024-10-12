@@ -1,29 +1,29 @@
-LOCUS       FBGC00648        7139 bp DNA     linear   UNA 10-MAY-2023
+LOCUS       FBGC00648               7139 bp    DNA     linear   UNA 10-MAY-2023
 DEFINITION  emindole SA.
 ACCESSION   FBGC00648
-VERSION     .
+VERSION     FBGC00648
 KEYWORDS    .
 SOURCE      Aspergillus striatus ATCC 64988
   ORGANISM  Aspergillus striatus ATCC 64988
+            .
 REFERENCE   1  (bases 1 to 7139)
-  AUTHORS   Bundela R, Cameron RC, Singh AJ, McLellan RM, Richardson AT, Berry 
+  AUTHORS   Bundela R, Cameron RC, Singh AJ, McLellan RM, Richardson AT, Berry
             D, Nicholson MJ, Parker EJ.
-  TITLE     Generation of Alternate Indole Diterpene Architectures in Two 
+  TITLE     Generation of Alternate Indole Diterpene Architectures in Two
             Species of Aspergilli.
   JOURNAL   J Am Chem Soc 2023;145:2754-2758
-  PUBMED    36710518
+   PUBMED   36710518
 REFERENCE   2  (bases 1 to 7139)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported May 10, 2023 from SnapGene 6.2.2
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1021/jacs.2c11170"; journalName: "J Am Chem Soc"; date: "2023"; 
-            volume: "145"; pages: "2754-2758"
+  JOURNAL   Exported May 10, 2023 from SnapGene 6.2.2 https://www.snapgene.com
 COMMENT     ##Assembly-Data-START##
             Assembly Method       :: ABySS v. v. 16/11/2016
             Sequencing Technology :: Illumina
             ##Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1021/jacs.2c11170"; journalName: "J Am Chem Soc"; date: "2023";
+            volume: "145"; pages: "2754-2758"
 FEATURES             Location/Qualifiers
      source          1..7139
                      /strain="ATCC 64988"
@@ -35,7 +35,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="estC1"
                      /product="prenyltransferase EstC1"
-                     /label=estC1
+                     /label="estC1"
                      /note="EstC1"
                      /protein_id="WGJ63575.1"
                      /translation="MQGEHSFSLAASSTSTGMFIASLILMFGLGAVAVDRLPLRGWFSQ
@@ -44,11 +44,12 @@ FEATURES             Location/Qualifiers
                      LLQDLEDILHGQDLSLNWRRDGLSSLPADPAERAESYKQMASLKTGSLFRLLGHLALED
                      RTMDGLLTQVAWYSQLQNDCKDVFSSEYGKLKGSAAEDLSNKEFTYPIMLALGAPGGHN
                      VAQALESPTPRNLRRALRVIQSNEVYGRCMHELKQASVGIEDWLRLWGRKEKLDGGR"
+                     /Pfam="PaxC"
      CDS             join(1485..2002,2051..2258)
                      /codon_start=1
                      /gene="estB1"
                      /product="terpene cyclase EstB1"
-                     /label=estB1
+                     /label="estB1"
                      /note="EstB1"
                      /protein_id="WGJ63576.1"
                      /translation="MDGYDVSQAPPEYHAVKPLVDSLILGMGLGWMINYLGMVYQSFRE
@@ -56,13 +57,14 @@ FEATURES             Location/Qualifiers
                      APLVRDNLRWIFLVGILVFLTGHLALVAEMGFSLAYLWSAAFCQVVLSLGGLCQLLCRN
                      RTRGASYLLWGSRTFGTFSGVVALFIRWKYWPESFEWLNSPLMLWCLTVSLLFDGSYGV
                      CFWYVKRSEEMLLAQRKER"
+                     /Pfam="Pyr4"
      gap             2490..2609
                      /estimated_length=120
      CDS             join(2774..3066,3130..3775,3832..4326)
                      /codon_start=1
                      /gene="estM1"
                      /product="FAD-dependent monooxygenase EstM1"
-                     /label=estM1
+                     /label="estM1"
                      /note="EstM1"
                      /protein_id="WGJ63577.1"
                      /translation="MGEQTFKVIIVGGSIAGLTLAHCLERIGIDYLVLEKASEIAPQVG
@@ -74,11 +76,12 @@ FEATURES             Location/Qualifiers
                      DGGDGQRLTREGIEAMLRQYRDSRYSRVRAVYNTSRFLVRFQARNGLFNTLFGRYYAPY
                      AGDLPADIGSKTIAGAEVCSFLPIPSSADAWDRYRSRGWRESIGAKEVFGLVIIIGLAL
                      QYFGPIGCPGAFCASSRLT"
+                     /Pfam="FAD_binding_3"
      CDS             join(5832..6014,6165..6319,6372..6698,6752..7139)
                      /codon_start=1
                      /gene="estG1"
                      /product="geranylgeranyl pyrophosphate synthase EstG1"
-                     /label=estG1
+                     /label="estG1"
                      /note="EstG1"
                      /protein_id="WGJ63578.1"
                      /translation="MGSTVSLPQSVSALWERLSFPFRVDYATKSPSSTPCNEINSPITK
@@ -88,6 +91,7 @@ FEATURES             Location/Qualifiers
                      DCRALADTLGVIYQIRDDYLNLQSDQYAKSKGFGEDLTEGKFSFPIVHSILSAPENTTL
                      IDILGQRTEDEAVKLSAIRHMESTGSFEYCRQRLNTLQTEAISMIEQIEDIQGPGHGIR
                      RILRCLMLTS"
+                     /Pfam="GGPS"
 ORIGIN
         1 tcagcgcccc ccgtcaagtt tttctttccg gccccatagc cgaagccagt cctcgattcc
        61 cacgctcgcc tgcttgagct catgcatgca tcggccataa acctcgttgc tctgaatgac

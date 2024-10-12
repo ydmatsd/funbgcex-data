@@ -1,29 +1,29 @@
-LOCUS       FBGC00645       24715 bp DNA     linear   UNA 18-APR-2023
+LOCUS       FBGC00645              24715 bp    DNA     linear   UNA 18-APR-2023
 DEFINITION  epicospirocins.
 ACCESSION   FBGC00645
-VERSION     .
+VERSION     FBGC00645
 KEYWORDS    .
 SOURCE      Epicoccum nigrum 40.3
   ORGANISM  Epicoccum nigrum 40.3
+            .
 REFERENCE   1  (bases 1 to 24715)
   AUTHORS   Zhu G, Hou C, Yuan W, Wang Z, Zhang J, Jiang L, Karthik L, Li B, Ren
             B, Lv K, Lu W, Cong Z, Dai H, Hsiang T, Zhang L, Liu X.
   TITLE     Molecular networking assisted discovery and biosynthesis elucidation
             of the antimicrobial spiroketals epicospirocins.
   JOURNAL   Chem Commun (Camb) 2020;56:10171-10174
-  PUBMED    32748904
+   PUBMED   32748904
 REFERENCE   2  (bases 1 to 24715)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Apr 18, 2023 from SnapGene 6.2.2
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1039/d0cc03990j"; journalName: "Chem Commun (Camb)"; date: 
-            "2020"; volume: "56"; pages: "10171-10174"
+  JOURNAL   Exported Apr 18, 2023 from SnapGene 6.2.2 https://www.snapgene.com
 COMMENT     ##Assembly-Data-START##
-            Assembly Method       :: Illumina HiSeq 2000 v. 2018-9-31 Sequencing
-            Technology :: Illumina
+            Assembly Method :: Illumina HiSeq 2000 v. 2018-9-31 Sequencing
+            Technology      :: Illumina
             ##Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1039/d0cc03990j"; journalName: "Chem Commun (Camb)"; date:
+            "2020"; volume: "56"; pages: "10171-10174"
 FEATURES             Location/Qualifiers
      source          1..24715
                      /strain="40.3"
@@ -33,19 +33,19 @@ FEATURES             Location/Qualifiers
      CDS             complement(1..576)
                      /codon_start=1
                      /product="DUF1993 protein Esp2"
-                     /label=esp2
+                     /label="esp2"
                      /note="orf5"
                      /protein_id="QTA73095.1"
                      /translation="MSDPVTYNFYGTTVPVLKSISSSAISTLRAAKDEQSKGGFPSDQE
                      ILDSTFGDMLPFRVQPVILVKFGVAALEFLKLSKVDSPTLDPGFKSLDEVVAFFEGYVK
                      VLDSIDEKEYNAAAGKGCDVSIGTGKPTLHMTGLADYFHTFVVPNSYFHLNAIYMLLRS
                      KGFKLGKGQYIGAFMSEQQQKDWAPLRG"
+                     /Pfam="DUF1993"
      CDS             complement(join(1791..2722,2801..9077,9131..9763))
                      /codon_start=1
                      /product="polyketide synthase Esp3"
-                     /label=esp3
-                     /note="orf6
-                     revised sequence"
+                     /label="esp3"
+                     /note="orf6 revised sequence"
                      /protein_id="QTA73096.1"
                      /translation="MINTFTPPSLVVFGPQTPHPTADQLERIRATLLNNAHLQSFAAAI
                      EDLDSFWELLVNADPNLANLAGSEQLHLLRTWLDQGTFPPTSSNPLSNAVLTPLTVIVH
@@ -92,10 +92,12 @@ FEATURES             Location/Qualifiers
                      DQGAVAGWMTLKDPRSRIALHMNWKGQSLPTLLDGLPCGSTVDPAEAKQYLSRPQPSSE
                      RIREVSPFAQVALGNYQTPTFFVHGTLDDLVPCDHTEKISAGLAARGVATGLSIVEGAH
                      HYFDLYPETERRFRDAVARGYDFLCDQLGMV"
+                     /Pfam="SAT2, PKS_KS, PKS_AT, fPKS_PT, ACP_PCP, HTH_51,
+                     PKS_NRPS_MT, BD-FAE, Peptidase_S9"
      CDS             complement(join(10834..11238,11286..13670,13750..14070))
                      /codon_start=1
                      /product="NRPS-like carboxylic acid reductase Esp4"
-                     /label=esp4
+                     /label="esp4"
                      /note="orf7"
                      /protein_id="QTA73097.1"
                      /translation="MTTFKRPPVTLLPASAEQPIRTIPELIDYNATHNPDVLFCVQAVK
@@ -116,22 +118,24 @@ FEATURES             Location/Qualifiers
                      SRGSGYWNSKEHFPSLVRLSQKLGALPSIRGTLSWLPVDTAAETLIEIMLSVSPLELIY
                      HLENPIRQPWHDVLVILSEELDLDGNAFTSLDKWLISIKAMTDDAASTDLLIEFFEKDF
                      QHMSGGGVVLDTRVSRAVSPTLQQVDIVEDELVATYIKQWKRRGVLV"
+                     /Pfam="AA-adenyl-dom, ACP_PCP, fPKS_R"
      CDS             complement(join(14804..14925,14976..15113,15229..15289,
                      15360..15484,15542..15749))
                      /codon_start=1
                      /product="hypothetical protein Esp5"
-                     /label=esp5
+                     /label="esp5"
                      /note="orf8"
                      /protein_id="QTA73098.1"
                      /translation="MLANLALLFLAIAGASTAAPYEAESSKKLPPCTIEDRRCRCPPGS
                      TFKNFTSFGIVGAPAIEVQKIMGPFLNIEFQGGLIPASVSGKEGKPGASRTFHFTNNVG
                      SYDITEVLTKFEAFPDGSFAQTYQQAPKPQSVSIPGQGTYWGNWIVIKGQQTLIANETV
                      VAWRNWRCDQGETFPAATSHEGGIANTSAILTKAGKKTGVDVAPFTIFYEVRND"
+                     /Pfam="ATEG_03636"
      CDS             complement(join(17226..18141,18199..18265,18321..18523,
                      18579..18641,18694..19225,19274..19339,19393..19765))
                      /codon_start=1
                      /product="FAD-dependent monooxygenase Esp6"
-                     /label=esp6
+                     /label="esp6"
                      /note="orf9"
                      /protein_id="QTA73099.1"
                      /translation="MARNQPSFTWANGFQEPLSHSTQPSWADQQYYTDIDGTKAHYTVP
@@ -147,13 +151,13 @@ FEATURES             Location/Qualifiers
                      TSLHNGVRIPNPRVCFSFSETGYLYDKMTGVARFHILLFASDLRGPVRTHLVEFAKAAF
                      GAGGFYERYGGSERFNVLLVAKVLPDVSDALLKSGSELEMLRRAATVVYDDRAPDEDAH
                      YWFGVNHARGCVVLGRPDLRVGVSAALNEGAGAVDGYLGGFLVGK"
+                     /Pfam="FAD_binding_3"
      CDS             complement(join(20610..20714,20784..20873,20928..21596,
                      21684..22046,22129..22437))
                      /codon_start=1
                      /product="cytochrome P450 monooxygenase Esp7"
-                     /label=esp7
-                     /note="orf10
-                     revised sequence"
+                     /label="esp7"
+                     /note="orf10 revised sequence"
                      /protein_id="QTA73100.1"
                      /translation="MATPLISLALAQPFLSLLSLALFYLFLSTARSYFRLSHIPGPFLA
                      RFTNIPRFLWVWSNNAHNVHIALHRKYGPVVRFGPNMISVASPEEIGQIYGFKKPWLKS
@@ -164,10 +168,11 @@ FEATURES             Location/Qualifiers
                      DTAASQGSLSTLATWGETSKLPYLDACIKEAGRLHPPFALPYERVVPTGGATLCGARVG
                      EGTVVGMSAWAVHRDEELFGGDSDCWRPERWLEVGPERKREMENGLLMFSAGTRVCMGK
                      HIAYLEMYKVVATLLRRFEFELVGPEEGGCWKVENRWFAMQEGLLVKIRERKE"
+                     /Pfam="p450"
      CDS             join(23321..23563,23606..23913,23965..24715)
                      /codon_start=1
                      /product="major facilitator superfamily transporter Esp8"
-                     /label=esp8
+                     /label="esp8"
                      /note="orf11"
                      /protein_id="QTA73101.1"
                      /translation="MSTNSDPESEKSTIQPPSSPPTSSPPPDGGFKAWIVVAGAWCCLF
@@ -178,6 +183,7 @@ FEATURES             Location/Qualifiers
                      MISVLNAASIFGRIVPGYLGDRVGRFNVMVVTTLMSAVFVLALWLPSPQGSNAATVAFA
                      IVFGVSSGTFVGMTPALVQTLSPVDEIGARMGATFALMSGAVLTGNPIAGALVQRDGGG
                      YAYLKVFCGCAMAVGSGLLFAARIKLGGWGWKRV"
+                     /Pfam="MFS_1"
 ORIGIN
         1 ctaacccctg agaggcgccc aatccttctg ctgctgctcg ctcatgaaag cgccgatata
        61 ctgaccctta cccagcttga atcccttact cctcaggagc atgtaaatgg cgttcaggtg

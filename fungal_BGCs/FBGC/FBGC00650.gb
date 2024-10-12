@@ -1,28 +1,28 @@
-LOCUS       FBGC00650       25166 bp DNA     linear   UNA 15-MAY-2023
+LOCUS       FBGC00650              25166 bp    DNA     linear   UNA 15-MAY-2023
 DEFINITION  speradine F.
 ACCESSION   FBGC00650
-VERSION     .
+VERSION     FBGC00650
 KEYWORDS    .
 SOURCE      Penicillium palitans NRRL 2033
   ORGANISM  Penicillium palitans NRRL 2033
+            .
 REFERENCE   1  (bases 1 to 25166)
   AUTHORS   Zhang ZX, Li ZH, Li SM.
   TITLE     Formation of the Fungal Indole Alkaloid Speradine F Implies Multiple
             Nonenzymatic Oxidation Steps.
   JOURNAL   J Nat Prod 2023;86:1053-1060
-  PUBMED    37043818
+   PUBMED   37043818
 REFERENCE   2  (bases 1 to 25166)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported May 15, 2023 from SnapGene 6.2.2
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1021/acs.jnatprod.3c00155"; journalName: "J Nat Prod"; date: 
-            "2023"; volume: "86"; pages: "1053-1060"
+  JOURNAL   Exported May 15, 2023 from SnapGene 6.2.2 https://www.snapgene.com
 COMMENT     ##Assembly-Data-START##
             Assembly Method       :: Canu v. 1.5
             Sequencing Technology :: Nanopore
             ##Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1021/acs.jnatprod.3c00155"; journalName: "J Nat Prod"; date:
+            "2023"; volume: "86"; pages: "1053-1060"
 FEATURES             Location/Qualifiers
      source          1..25166
                      /strain="NRRL 2033"
@@ -32,9 +32,9 @@ FEATURES             Location/Qualifiers
      CDS             complement(1..11802)
                      /codon_start=1
                      /gene="speA"
-                     /product="polyketide synthase-nonribosomal peptide 
+                     /product="polyketide synthase-nonribosomal peptide
                      synthetase SpeA"
-                     /label=speA
+                     /label="speA"
                      /protein_id="WGH00044.1"
                      /translation="MKEPIAIVGTACRFPGSASSPAKLWELLRNPTDVRSDFDVGKLNL
                      SSFYHPNGDHHGSTNVANKSYLLDDDHRNFDASFFNINPAEADGMDPQQRILLETTYEA
@@ -103,11 +103,13 @@ FEATURES             Location/Qualifiers
                      DGSEGLTATKWASEAFLERYAEHTGLSVCIHRPCTPIGDNAPHQDALNSMLRYSDIMGA
                      TPQMTNMDGYLDFQKVEIIADEIATQVMDGIRNPLSSVVFRHHSSHDMVSVKSFREYME
                      RVHSRPFGELSLRDWSTRALELGIEPLIPSFLEAVAENTETMFFPYLGSQHGE"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_DH, PKS_NRPS_MT, fPKS_KR,
+                     ACP_PCP, Condensation, AA-adenyl-dom, fPKS_R"
      CDS             join(12788..13929,13994..14141)
                      /codon_start=1
                      /gene="speB"
                      /product="DMATS-type prenyltransferase SpeB"
-                     /label=speB
+                     /label="speB"
                      /protein_id="WGH00045.1"
                      /translation="MTREQNEIQTPLQVLSRSFNFASTDEAKWWHSTAPMFATLMEKSS
                      YDVHAQYQFLCLHREFVIPALGSYPTKGTPMHWKSTLTRFGLPFELSYNYTKSLVRFAF
@@ -117,11 +119,12 @@ FEATURES             Location/Qualifiers
                      PETQSGLGWLKDIWELLPVAKGRAALPNRFYELGESPVEQLPFIINFALYPNKALPEPQ
                      IYFPVFGNNDKATAEGLATFFDRVGVSSSPKFYAPDLAAYYPDQDLAQTNHHQAWISYA
                      TKANKPYMSVYMHSFEAMGKPFGTFGKSTS"
+                     /Pfam="Trp_DMAT"
      CDS             15744..17114
                      /codon_start=1
                      /gene="speC"
                      /product="FAD-linked oxidoreductase SpeC"
-                     /label=speC
+                     /label="speC"
                      /protein_id="WGH00046.1"
                      /translation="MRHTSFGLGGLLSFALLNSPFLHAQATPNVITRDVVIVGGGASGT
                      YAAVRLKEMGKTFTLIERNSLLGGHGETFYTNDNKPINYGVEGYFNTSVTLDYLAKLQV
@@ -131,11 +134,12 @@ FEATURES             Location/Qualifiers
                      PPTTRHLTGFSLDNREASLFTKWHYQSYYAVLINETGIPDGHNLINIDPSNPFSVPYEP
                      FIWRVDAQRVPGYHTIKLVGNEQFSEKDARELLESSIERLGQVGTFPANKPRIVKWGDH
                      TPVTMSASAEDIRAGFYKNLYALQGHQNTFYTGASWCSDYSTLLWGFTEEVLKKMFA"
+                     /Pfam="Amino_oxidase"
      CDS             complement(join(18845..19780,19835..20308,20365..20481))
                      /codon_start=1
                      /gene="speD"
                      /product="cytochrome P450 monooxygenase SpeD"
-                     /label=speD
+                     /label="speD"
                      /protein_id="WGH00047.1"
                      /translation="MGHIVEGIVHYLANNANHPAFETLSAGMVAKSLLFTWASYYILSI
                      IYSLTFHPLAKYPGPKLAAVTRLWHSYQLCTGGIVSTLSKAHEKYGPVLRIAPDELLFT
@@ -146,11 +150,12 @@ FEATURES             Location/Qualifiers
                      DEIRSMFTSADDINSVSTNQLKYLNACINEALRIFPPGPAVFPRRVPRGGGVIDGHWIP
                      GGTQVGIAHFCINHSKENFVDPGSYIPERWLGDGAYENDDRHAMQAFSYGPRNCIAINL
                      ARLEIRWVLARLIWEFDWELTPGSERWEEALVFNVWSTKLLNIKFVPVAR"
+                     /Pfam="p450"
      CDS             join(21461..21502,21567..21707,21759..22613,22671..22997)
                      /codon_start=1
                      /gene="speE"
                      /product="methyltransferase SpeE"
-                     /label=speE
+                     /label="speE"
                      /protein_id="WGH00048.1"
                      /translation="MKIGLLILRQDVQHGGNAVDARYYISHARHEFRTCYISKSNAEAD
                      IDEICSNGYDRFLNYMVAESEDTVRVAAITKYLEAKGVPLLNDQTGANQDMKMSVVRNI
@@ -160,11 +165,12 @@ FEATURES             Location/Qualifiers
                      RDYDFSGTVLDLACGSGEFGAILHDRGVAAKITGSDLSPGMTQSPYIQNHYEKPLLIGP
                      MDELVMSVNAFDNVVCFAAFQFLDPVHLTAFLARMFMVAKRSVTAIHEDLTEAYIENMK
                      KRHGELCTNFNHVSTLEEFGVPEGWKQVRMERFSLYDNPNLGETVYGFVIRFERL"
+                     /Pfam="Methyltransf_25"
      CDS             join(23554..24222,24281..24506,24562..25166)
                      /codon_start=1
                      /gene="speF"
                      /product="major facilitator superfamily transporter SpeF"
-                     /label=speF
+                     /label="speF"
                      /protein_id="WGH00049.1"
                      /translation="MGYQEDLPRHNHNLKSDDEEALAEKTSHSPLNNTTPDLGWDGPTD
                      PARPVNWSKKKKWLNMFSIGYLTFLTPLTSSIVAPAQGLVLKEFHTTNKTLSSFVVSIY
@@ -175,6 +181,7 @@ FEATURES             Location/Qualifiers
                      GLIFFGALSDKIQNHLIAKNNGQAEPEFRLPILILASFLVPIGLFWYGWSAHMNAHWIM
                      PIIGLGWIGCGIIATLMPIQAYLVDAFGEYAASAVAANTVVRSVVGAFLPLAGPSMYAT
                      LGQGWGNSLLGFIALCMLPVPVVFYIYGKRIRMSPRSQISL"
+                     /Pfam="MFS_1"
 ORIGIN
         1 tcactctcca tgctgcgagc ccagataagg gaagaacatc gtctccgtat tttcagcaac
        61 agcttctaga aaactaggaa taaggggttc aatccccagc tcaagcgctc gggtgctcca

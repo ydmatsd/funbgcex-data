@@ -1,45 +1,43 @@
-LOCUS       FBGC00634       10297 bp DNA     linear   UNA 15-APR-2023
+LOCUS       FBGC00634              10297 bp    DNA     linear   UNA 15-APR-2023
 DEFINITION  usnic acid.
 ACCESSION   FBGC00634
-VERSION     .
+VERSION     FBGC00634
 KEYWORDS    .
 SOURCE      Cladonia uncialis subsp. uncialis
   ORGANISM  Cladonia uncialis subsp. uncialis
+            .
 REFERENCE   1  (bases 1 to 10297)
   AUTHORS   Abdel-Hameed M, Bertrand RL, Piercey-Normore MD, Sorensen JL.
-  TITLE     Putative identification of the usnic acid biosynthetic gene cluster 
+  TITLE     Putative identification of the usnic acid biosynthetic gene cluster
             by de novo whole-genome sequencing of a lichen-forming fungus.
   JOURNAL   Fungal Biol 2016;120:306-16
-  PUBMED    26895859
+   PUBMED   26895859
 REFERENCE   2  (bases 1 to 10297)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Apr 15, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1016/j.funbio.2015.10.009"; journalName: "Fungal Biol"; date: 
-            "2016"; volume: "120"; pages: "306-16"
+  JOURNAL   Exported Apr 15, 2023 from SnapGene 6.2.1 https://www.snapgene.com
 COMMENT     ##Assembly-Data-START##
-            Assembly Method       :: Seq Man Pro-software SeqMan NGEN program
-                                     v. 2014
-            Assembly Name         :: Cladonia uncialis subsp. uncialis genome
-                                     assembly
+            Assembly Method :: Seq Man Pro-software SeqMan NGEN program v. 2014
+            Assembly Name :: Cladonia uncialis subsp. uncialis genome assembly
             Coverage              :: 43x
             Sequencing Technology :: Illumina
             ##Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1016/j.funbio.2015.10.009"; journalName: "Fungal Biol"; date:
+            "2016"; volume: "120"; pages: "306-16"
 FEATURES             Location/Qualifiers
      source          1..10297
                      /sub_species="uncialis"
                      /mol_type="genomic DNA"
                      /clone="DNAstar1"
-                     /label=contig 1
+                     /label="contig 1"
                      /note="contig 1"
                      /db_xref="taxon:180999"
                      /organism="Cladonia uncialis subsp. uncialis"
      CDS             complement(join(1..271,326..1476,1528..1659))
                      /codon_start=1
                      /product="cytochrome P450 monooxygenase MPAO"
-                     /label=mpao
+                     /label="mpao"
                      /protein_id="ANM86330.1"
                      /translation="MISPVSSILASIWDNSKLLLDHTSVLSIALIGVACAISIRSILYR
                      LRLAYSTPLRHVPGPWYAKFTALGLRANDVAGNRWYYVQGLHKKYGSIVRIAPEEVAIS
@@ -51,12 +49,13 @@ FEATURES             Location/Qualifiers
                      GYVIPPGTAVTTHTGALHRNPAAWDDPEKFDHTRWLSPSQSKTLVQDKFQPFSSGARAC
                      IAIHLVMIELRVFVSVFFRECAGVKLAPSTTDASMRVLDRFHISPNAKRCEVIVPDEKA
                      "
+                     /Pfam="p450"
      CDS             join(2348..2968,3110..9191,9244..9612,9674..9759,
                      9818..10297)
                      /codon_start=1
                      /gene="nr-pks-1"
                      /product="polyketide synthase MPAS"
-                     /label=mpas
+                     /label="mpas"
                      /protein_id="ANM86331.1"
                      /translation="MALPSLIAFGALAPWPASDRLDQLRNALQHHNSLKPITKAIQELP
                      LLWKALSNQDQSLHSIAGEAAADQLAQWISGAGTAQLVDDKGNVTRMPLTTIAQIAQYV
@@ -102,6 +101,8 @@ FEATURES             Location/Qualifiers
                      KDDRASIILHMCWKSQTVPILVHGLPYKKNLPDTDKTDWKYRPPASAEQVQAISPLWQI
                      RQGNYKTPTFIVHGNGDDWLPLSMSERTVEELKRRGIPASLAVPEQCGHAFDLFPVGDP
                      LGVGWTSLEQGYDFICRQLGMS"
+                     /Pfam="SAT2, PKS_KS, PKS_AT, fPKS_PT, ACP_PCP, HTH_51,
+                     PKS_NRPS_MT, BD-FAE, Peptidase_S9"
 ORIGIN
         1 tcaagccttt tcatccggaa ctatgacctc gcaacgctta gcgttcgggc tgatatggaa
        61 gcgatcaagg accctcatgc tcgcatctgt agtcgagggt gccaacttga cgccggcaca

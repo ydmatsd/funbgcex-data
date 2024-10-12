@@ -1,33 +1,32 @@
-LOCUS       FBGC00612        8883 bp DNA     linear   UNA 13-APR-2023
+LOCUS       FBGC00612               8883 bp    DNA     linear   UNA 13-APR-2023
 DEFINITION  fusatinic acid.
 ACCESSION   FBGC00612
-VERSION     .
+VERSION     FBGC00612
 KEYWORDS    .
 SOURCE      Fusarium pseudograminearum CS3096
   ORGANISM  Fusarium pseudograminearum CS3096
+            .
 REFERENCE   1  (bases 1 to 8883)
-  AUTHORS   Sørensen JL, Benfield AH, Wollenberg RD, Westphal K, Wimmer R, 
-            Nielsen MR, Nielsen KF, Carere J, Covarelli L, Beccari G, Powell J, 
+  AUTHORS   Sørensen JL, Benfield AH, Wollenberg RD, Westphal K, Wimmer R,
+            Nielsen MR, Nielsen KF, Carere J, Covarelli L, Beccari G, Powell J,
             Yamashino T, Kogler H, Sondergaard TE, Gardiner DM.
-  TITLE     The cereal pathogen Fusarium pseudograminearum produces a new class 
+  TITLE     The cereal pathogen Fusarium pseudograminearum produces a new class
             of active cytokinins during infection.
   JOURNAL   Mol Plant Pathol 2018;19:1140-1154
-  PUBMED    28802024
+   PUBMED   28802024
 REFERENCE   2  (bases 1 to 8883)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Apr 13, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: "10.1111/mpp.12593";
-            journalName: "Mol Plant Pathol"; date: "2018"; volume: "19"; pages: 
-            "1140-1154"
+  JOURNAL   Exported Apr 13, 2023 from SnapGene 6.2.1 https://www.snapgene.com
 COMMENT     ##Genome-Assembly-Data-START##
-            Assembly Method       :: CLCBio Genomics Workbench v. 3 (April
-                                     2010)
+            Assembly Method       :: CLCBio Genomics Workbench v. 3 (April 2010)
             Assembly Name         :: FP7
             Genome Coverage       :: 180X
-            Sequencing Technology :: Illumina GA; Illumina GAIIx 
+            Sequencing Technology :: Illumina GA; Illumina GAIIx
             ##Genome-Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi: "10.1111/mpp.12593";
+            journalName: "Mol Plant Pathol"; date: "2018"; volume: "19"; pages:
+            "1140-1154"
 FEATURES             Location/Qualifiers
      source          1..8883
                      /chromosome="3"
@@ -38,7 +37,7 @@ FEATURES             Location/Qualifiers
      CDS             complement(join(1..1417,1465..1520))
                      /codon_start=1
                      /product="alcohol acetyltransferase FCK4"
-                     /label=FCK4
+                     /label="FCK4"
                      /translation="MTDSIHGGHPNIIRSCGASESMWTASHALGLYLRVSNIATLTIPT
                      WKAKFKKSSASHFIRTAVVQVMLKQPAMRVGIIGENSKQPRFVALSSVDFSQQVEYAEA
                      PSVDSVARSLEKLLLQPWPNLSKRPGWHVRVFHEPSSADKDVCRLRICLTVHHAIFDGE
@@ -48,12 +47,13 @@ FEATURES             Location/Qualifiers
                      LAKIRQAEDATIWELAVKLRQDMKRRTDTMPHNEFSYLLRYAGDWRDIFQARYGKPRRE
                      LWTLSNLGSIATPASKGPWELESVLFAQFAPVVSCALAVNAASVEGGDMMVSLVWQDGI
                      LETDLVEGVRDDLEMWLLGLGNEGNLGISSSM"
+                     /Pfam="AATase"
      CDS             join(2991..3844,3896..4505)
                      /codon_start=1
                      /locus_tag="FPSE_06372"
-                     /product="adenylate 
+                     /product="adenylate
                      isopentenyltransferase/phosphoribohydrolase FCK1"
-                     /label=FCK1
+                     /label="FCK1"
                      /protein_id="EKJ73454.1"
                      /translation="MESTNRFMIGVFGPTGVGKTKLGVSIAKSVHGQVISVDSLQCYSP
                      GGIVTAKPTPEEMDGIEHHMIGYLEAEEEPTNFVAEAVERLEKLCDHGAIPVVVGGSTS
@@ -64,11 +64,12 @@ FEATURES             Location/Qualifiers
                      HGIIPEALLKYEAKESGRHAQDSAFARYGRRTVVKDMHTRKRLMIQEVIDGGDGSGFVG
                      LSGGYGTLEELFEVITWHQLGIHDRGVCLLNMDGFFDGLVNWLGNVVKKGFIGLQDAAI
                      LSIASTAEGVVKCLDQKPGFSRKGELEWV"
-     CDS             join(4748..5171,5239..5421,5470..5804,5871..5995,6048..6343,
-                     6409..6510,6570..6760)
+                     /Pfam="IPPT, Lysine_decarbox"
+     CDS             join(4748..5171,5239..5421,5470..5804,5871..5995,
+                     6048..6343,6409..6510,6570..6760)
                      /codon_start=1
                      /product="cytochrome P450 monooxygenase FCK2"
-                     /label=FCK2
+                     /label="FCK2"
                      /translation="MATLHAYFDPANYSLFFVLGVLTHVFIFRRGEWDLHVFNILQAFA
                      VLESSLVYIVTRAVQAQGLSLWKVTTISSCFTLSTLMGLLISILMYRSWFHRLRRFPGP
                      FCARLSNLYITFRAFKKNRLYEEVQQLHRRYGDIVRIGPNELSIIDPHALRALHSNSSP
@@ -79,11 +80,12 @@ FEATURES             Location/Qualifiers
                      SKLRYLQACIDESMRLYPAIPSGLQRMTPPEGLDIGNTYLPGDTIVTIPTYTFNRDERL
                      FTHADKFIPERWTTKKELTKDPSNFVPFSIGQYSCVGKQLGLMETRFVASQILVKYNVR
                      LAHEDVARDFVAGLRDGFTLAMPSLSLVFTQRTT"
+                     /Pfam="p450"
      CDS             join(7647..8203,8256..8883)
                      /codon_start=1
                      /locus_tag="FPSE_06371"
                      /product="glycosyltransferase FCK3"
-                     /label=FCK3
+                     /label="FCK3"
                      /protein_id="EKJ73453.1"
                      /translation="MHFAIPLEYQSELEATEPVDVGTDEEIISSIEQYRPVTSEKNIWA
                      FWDSGILSMPSWCKRNVIGWARICGADWTIRVLDMKPNSPNHVLKFIDRDMLPEAFLSG
@@ -92,6 +94,7 @@ FEATURES             Location/Qualifiers
                      FHWDWSVPVPQFLEYIAQVLCWQRLCLIRDTGDGFKSSEYWQRNVLCIDSLNEVWGGEK
                      TLGFDGIGPRMYNLLTTRLDADPDSTAYKDAYKLVWRLLTRSSFQKVTRAKNLTYTPHL
                      GTLWDQNEGKDCIPGSFGELLRYGPVHFRQKRENIEQLEASEPRTLIEKGLLEV"
+                     /Pfam="Caps_synth"
 ORIGIN
         1 ctacattgat gaagaaatgc ctaggttccc ctcgttccct agtccgagta gccacatttc
        61 caagtcgtcc ctcacccctt ctacaaggtc cgtctctagg attccatctt gccatacaag

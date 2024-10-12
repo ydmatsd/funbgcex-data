@@ -1,41 +1,41 @@
-LOCUS       FBGC00621       24071 bp DNA     linear   UNA 14-APR-2023
+LOCUS       FBGC00621              24071 bp    DNA     linear   UNA 14-APR-2023
 DEFINITION  FR901512.
 ACCESSION   FBGC00621
-VERSION     .
+VERSION     FBGC00621
 KEYWORDS    .
 SOURCE      Xylariales sp. No.14919
   ORGANISM  Xylariales sp. No.14919
+            .
 REFERENCE   1  (bases 1 to 24071)
-  AUTHORS   Itoh H, Matsui M, Miyamura Y, Takeda I, Ishii J, Kumagai T, Machida 
+  AUTHORS   Itoh H, Matsui M, Miyamura Y, Takeda I, Ishii J, Kumagai T, Machida
             M, Shibata T, Arita M.
-  TITLE     Biosynthesis of Novel Statins by Combining Heterologous Genes from 
+  TITLE     Biosynthesis of Novel Statins by Combining Heterologous Genes from
             Xylaria and Aspergillus.
   JOURNAL   ACS Synth Biol 2018;7:2783-2789
-  PUBMED    30403849
+   PUBMED   30403849
 REFERENCE   2  (bases 1 to 24071)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Apr 14, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1021/acssynbio.8b00392"; journalName: "ACS Synth Biol"; date: 
-            "2018"; volume: "7"; pages: "2783-2789"
-COMMENT     This work was supported by the commission for Development of 
-            Artificial Gene Synthesis Technology for Creating Innovative 
-            Biomaterial from the Ministry of Economy, Trade and Industry (METI),
-            Japan.##Genome-Assembly-Data-START##
+  JOURNAL   Exported Apr 14, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     ##Genome-Assembly-Data-START##
             Assembly Method       :: MaSuRCA v. 3.2.1_12132016
             Assembly Name         :: fungal sp. No.14919_ver1.0
             Genome Coverage       :: 274x
-            Sequencing Technology :: Miseq; PacBio RS-II 
+            Sequencing Technology :: Miseq; PacBio RS-II
             ##Genome-Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1021/acssynbio.8b00392"; journalName: "ACS Synth Biol"; date:
+            "2018"; volume: "7"; pages: "2783-2789"
+            This work was supported by the commission for Development of
+            Artificial Gene Synthesis Technology for Creating Innovative
+            Biomaterial from the Ministry of Economy, Trade and Industry (METI),
 FEATURES             Location/Qualifiers
      source          1..24071
                      /strain="No.14919"
                      /mol_type="genomic DNA"
                      /country="Japan:Chiba, Kamogawa"
                      /isolation_source="soil"
-                     /label=contig: Contig0041
+                     /label="contig: Contig0041"
                      /note="contig: Contig0041"
                      /db_xref="taxon:1813822"
                      /culture_collection="FERM:BP-3752"
@@ -44,7 +44,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="ANO14919_109940"
                      /product="acyltransferase FrlD"
-                     /label=frlD
+                     /label="frlD"
                      /protein_id="GAW21475.1"
                      /translation="MQDIERAFEQAVESGQIPGVVLMAKDRSGAKINYTRCYGSRTARL
                      DNAPAETTIMEVDSPMRLASACKIITTVMAMQCVERKLLRLDEDVSGILPEVGNMMVLE
@@ -54,22 +54,24 @@ FEATURES             Location/Qualifiers
                      LAAGTIETMFQPQLDAVCEQSLNDEIDARQQTNHGGLLPRTGIRRSHGLGGLMILENCD
                      GMDWRRQGSMSWGGFPNLYWCIDPEAGICILIAFQLIPWADPQCVELGCAFERAIYQQL
                      RND"
+                     /Pfam="Beta-lactamase"
      CDS             complement(1995..2726)
                      /codon_start=1
                      /locus_tag="ANO14919_109950"
                      /product="thioesterase FrlG"
-                     /label=frlG
+                     /label="frlG"
                      /protein_id="GAW21476.1"
                      /translation="MTAQQVEPLGNRGDPIPHKTLLCIHGAGSSGDIFRIQLTKLRTAL
                      QHEFDFVFANGPHLSAPGPGVLPWFEGAGPYYSWFKEEDVTMEQRVEQINDAVHHAISQ
                      WDANKKSPHSRIVGVLAFSEGSLATTLLLWQQKMSRVSWLPTLHFAVLICCFFRREATQ
                      YISADVGEGEKPLINVPTLHIHGRRDFCLAGARRLVANHYLPEYARVIEFDGSHHVPSM
                      RHDVETAVKGILDYTRVIPNE"
+                     /Pfam="FSH1"
      CDS             join(3177..3724,3794..3905,3979..4392)
                      /codon_start=1
                      /locus_tag="ANO14919_109960"
                      /product="trans-acting enoylreductase FrlC"
-                     /label=frlC
+                     /label="frlC"
                      /protein_id="GAW21477.1"
                      /translation="MGSSAPDFTPPATQKAVVVDDQGRFVVWDEAPCPTMGPNQIYVRT
                      EAVAINPSDTKMRGSFVTPFGILGTDYAGTVVAVGSAVTGVAIGDRVCGAQNAMHASTP
@@ -78,12 +80,13 @@ FEATURES             Location/Qualifiers
                      FTKGNLRFALDCITTVESTTFCFNAIGRAGGKYVALDPIPAHAVSRKVVKTDWVLGPSI
                      FGEGSTWPEPYGRPPSDEMRQFGAELFAMAQQLVDEGKLKHHPLRILHGGIDAILEGLD
                      AVREGAYSGEKIVVRVA"
+                     /Pfam="fPKS_ER"
      CDS             complement(join(5179..5600,5672..6274,6341..6512,
                      6580..6939))
                      /codon_start=1
                      /locus_tag="ANO14919_109970"
                      /product="cytochrome P450 monooxygenase FrlA"
-                     /label=frlA
+                     /label="frlA"
                      /protein_id="GAW21478.1"
                      /translation="MEAFNTLDHVLPGSNPTIAVAPNIAILVSFLLIIFFFSRSGNKSD
                      IPFLNPDGIFGLNHSRVKKEFEADGKDMLAAWFAANPDKPIRLNCDTGTATVLPPKYAT
@@ -95,12 +98,14 @@ FEATURES             Location/Qualifiers
                      GDVVAVSSHRMWDSELFPSPDKFDPYRFYHRRQEPGKEAASQLANTSVDQYGFGLGRRA
                      CPGRFFATNSAKIVLTHILMKYDWKLQDGFEPKPVYRAFGIRFDPRTVIEAKRRKEEFH
                      V"
-     CDS             join(7672..8190,8260..8380,8438..8529,8619..8844,8962..9291,
-                     9396..12216,12309..15078,15155..15654,15717..17364)
+                     /Pfam="p450"
+     CDS             join(7672..8190,8260..8380,8438..8529,8619..8844,
+                     8962..9291,9396..12216,12309..15078,15155..15654,
+                     15717..17364)
                      /codon_start=1
                      /locus_tag="ANO14919_109980"
                      /product="polyketide synthase FrlB"
-                     /label=frlB
+                     /label="frlB"
                      /protein_id="GAW21479.1"
                      /translation="MAPSIPNEPIAVIGSGCRFPGGINTPSKLWEQLKVPTDLQRPIPQ
                      SRFNIESFYNPDGSHPGRTNAKHAYTLSEDTHAFDAPFFNIQPHEAEAIDPQQRLLLET
@@ -154,12 +159,14 @@ FEATURES             Location/Qualifiers
                      VPYGVVLERLGLASPPAQEEPAAAAAAAAPLFQAVFDYRQGQAESGSIGAAKITEVVAS
                      RERTPHDVVLEISDDPTKTPLITFKLKDAMYGPGDVQYIANAYLAVLSVFSRNPALKVN
                      EGRLDQTAKGVAG"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_DH, PKS_NRPS_MT, fPKS_KR,
+                     ACP_PCP, Condensation"
      CDS             complement(join(18102..18367,18438..18508,18560..19286,
                      19355..21701))
                      /codon_start=1
                      /locus_tag="ANO14919_109990"
                      /product="HMG-CoA reductase FrlH"
-                     /label=frlH
+                     /label="frlH"
                      /protein_id="GAW21480.1"
                      /translation="MFGRGIVDEACHASTRRILHILRRLTSLHPIPIVTFVTVLASVAY
                      VVLSHDAWEGDVRLSSHPGTPSEWASLVKGSRRLQTTSEPYWKWRESDSKPLSSDSHHL
@@ -181,11 +188,12 @@ FEATURES             Location/Qualifiers
                      GFNAQAANIVAAIFIATGQDPAQVVESANCITIMKRMGDSLRISVSMPSIEVGTLGGGT
                      ILEPQGAMLDLLGVRGPHPTEPGGNARGLARIIAAAVMAGELSLCSALAAGHLVRAHMQ
                      HNRSTVPTRTNTPGPPASHGSSPAPPAGA"
+                     /Pfam="HPIH, Sterol-sensing, HMG-CoA_red"
      CDS             complement(join(22741..23378,23441..24071))
                      /codon_start=1
                      /locus_tag="ANO14919_110000"
                      /product="transcription factor FrlE"
-                     /label=frlE
+                     /label="frlE"
                      /protein_id="GAW21481.1"
                      /translation="MDAGENSLQSLGDETQSALGTNSAQAVRKSCDRCYVQKIKCSRST
                      RSPTQCQRCERAGLKCVFGRRNPRQAARTKASVPTTPSIPSSQDEVNQPYQPMMEPIIG
@@ -195,6 +203,7 @@ FEATURES             Location/Qualifiers
                      TWHPPAADVSGNGSKTDLLVSESFSQLYPLASYLMSACTTLQVGASILSEIEVEFGVPQ
                      GSGIAATNTSTAPMAVGGDMTPLESDKMDQKGFSRVFRLLEAMMEGKGGGSEVSTTLQN
                      FQRDHAKIVRLTKQQTSSLLAPS"
+                     /Pfam="EqxR"
 ORIGIN
         1 tcaatcgttc ctcagctgct ggtatattgc tctctcaaat gcgcaaccaa gttcgacaca
        61 ttgggggtct gcccagggta taagctggaa ggctatcagg atacagatac ccgcctctgg

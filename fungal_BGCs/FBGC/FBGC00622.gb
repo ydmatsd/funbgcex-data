@@ -1,31 +1,31 @@
-LOCUS       FBGC00622       15242 bp DNA     linear   UNA 14-APR-2023
+LOCUS       FBGC00622              15242 bp    DNA     linear   UNA 14-APR-2023
 DEFINITION  epipyrone A.
 ACCESSION   FBGC00622
-VERSION     .
+VERSION     FBGC00622
 KEYWORDS    .
 SOURCE      Epicoccum nigrum ICMP 19927
   ORGANISM  Epicoccum nigrum ICMP 19927
+            .
 REFERENCE   1  (bases 1 to 15242)
   AUTHORS   Lim YJ, Choi E, Park SH, Kwon HJ.
-  TITLE     Genetic localization of the orevactaene/epipyrone biosynthetic gene 
+  TITLE     Genetic localization of the orevactaene/epipyrone biosynthetic gene
             cluster in Epicoccum nigrum.
   JOURNAL   Bioorg Med Chem Lett 2020;30:127242
-  PUBMED    32527544
+   PUBMED   32527544
 REFERENCE   2  (bases 1 to 15242)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Apr 14, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1016/j.bmcl.2020.127242"; journalName: "Bioorg Med Chem Lett"; 
-            date: "2020"; volume: "30"; pages: "127242"
+  JOURNAL   Exported Apr 14, 2023 from SnapGene 6.2.1 https://www.snapgene.com
 COMMENT     ##Genome-Assembly-Data-START##
             Assembly Method        :: SPAdes v. 3.10.0
             Genome Representation  :: Full
             Expected Final Version :: Yes
             Genome Coverage        :: 75.0x
-            Sequencing Technology  :: Illumina MiSeq; Illumina HiSeq 
+            Sequencing Technology  :: Illumina MiSeq; Illumina HiSeq
             ##Genome-Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1016/j.bmcl.2020.127242"; journalName: "Bioorg Med Chem Lett";
+            date: "2020"; volume: "30"; pages: "127242"
 FEATURES             Location/Qualifiers
      source          1..15242
                      /chromosome="Unknown"
@@ -33,7 +33,7 @@ FEATURES             Location/Qualifiers
                      /mol_type="genomic DNA"
                      /country="New Zealand: Auckland"
                      /lat_lon="36.8485 S 174.763 E"
-                     /collection_date=Jan-2007
+                     /collection_date="Jan-2007"
                      /db_xref="taxon:105696"
                      /culture_collection="ICMP:19927"
                      /organism="Epicoccum nigrum"
@@ -42,7 +42,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="B5807_07929"
                      /product="polyketide synthase EpnA"
-                     /label=epnA
+                     /label="epnA"
                      /note="EggNog:ENOG410PJA1"
                      /db_xref="PFAM:PF00109"
                      /db_xref="PFAM:PF00698"
@@ -91,13 +91,14 @@ FEATURES             Location/Qualifiers
                      IKEQEMQLILSSAITGSSMPGQPALAPHMITGLPTAAMINAQGLKFPSWSNDAKFTHLR
                      DVDPDNAKASVDEDGAQVQSLLRAAKSLDEAIDVVSNAIVNKLAKSMMVDVQDIEKTQT
                      ITKYGVDSLLAVELRSWIYTELQVDISIFELLKTVPILDLAAQIASKSKLLPAGLA"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_DH, PKS_NRPS_MT, fPKS_ER,
+                     fPKS_KR, ACP_PCP"
      CDS             complement(join(8274..9470,9528..9856,9927..9990))
                      /codon_start=1
                      /locus_tag="B5807_07930"
                      /product="glycosyltransferase EpnB"
-                     /label=epnB
-                     /note="CAZy:GT1;
-                     EggNog:ENOG410PFEC"
+                     /label="epnB"
+                     /note="CAZy:GT1; EggNog:ENOG410PFEC"
                      /protein_id="OSS48491.1"
                      /translation="MTEPVQAKILVIITAGGKSNAAPMLEVARILHSRGHTIELATLAG
                      NEGWAAECSFVTRTYKLGPGVPEDVEEREYLAMSTWENSRYTTDYSAMFRSRRFMAHSW
@@ -109,19 +110,19 @@ FEATURES             Location/Qualifiers
                      ALRLRDAGVAVILDKTLFSPDDIREALRQVSTDENGTFKANCRRLQRIARIASKRKFHA
                      ADLIEEVLIHADAKAELGQLGPPLHLQTADTRLPRWKANAWDIKLIKLVSVACVCGVLR
                      LAYCGILGAGSN"
+                     /Pfam="UDPGT"
      CDS             complement(join(11024..11270,11331..11878,11923..12137,
                      12183..12586,12631..12803))
                      /codon_start=1
                      /locus_tag="B5807_07931"
                      /product="cytochrome P450 monooxygenase EpnC"
-                     /label=epnC
-                     /note="EggNog:ENOG410PW4T;
-                     GO_function: GO:0005506 - iron ion binding [Evidence IEA]; 
-                     GO_function: GO:0020037 - heme binding [Evidence IEA]; 
-                     GO_function: GO:0016705 - oxidoreductase activity, acting 
-                     on paired donors, with incorporation or reduction of 
-                     molecular oxygen [Evidence IEA];
-                     GO_process: GO:0055114 - oxidation-reduction process 
+                     /label="epnC"
+                     /note="EggNog:ENOG410PW4T; GO_function: GO:0005506 - iron
+                     ion binding [Evidence IEA]; GO_function: GO:0020037 - heme
+                     binding [Evidence IEA]; GO_function: GO:0016705 -
+                     oxidoreductase activity, acting on paired donors, with
+                     incorporation or reduction of molecular oxygen [Evidence
+                     IEA]; GO_process: GO:0055114 - oxidation-reduction process
                      [Evidence IEA]"
                      /db_xref="InterPro:IPR001128"
                      /db_xref="InterPro:IPR017972"
@@ -136,17 +137,16 @@ FEATURES             Location/Qualifiers
                      RDTGKTWSVPAGTPMSMSHLLLFRNERIFPDHERFDPERWLGKPGMDRYQFAFSKGTRN
                      CIGINLAMAEMMLMLAGIFRSCQNSNGLKFQDYLTHIELFDTSVRDVETVGDGGVPFQH
                      PESKGVRVMLS"
+                     /Pfam="p450"
      CDS             join(13331..13404,13450..13707,13752..13958,14002..14343,
                      14390..15242)
                      /codon_start=1
                      /locus_tag="B5807_07932"
                      /product="major facilitator superfamily transporter EpnD"
-                     /label=epnD
-                     /note="EggNog:ENOG410PH0T;
-                     GO_component: GO:0016021 - integral component of membrane 
-                     [Evidence IEA];
-                     GO_process: GO:0055085 - transmembrane transport [Evidence 
-                     IEA]"
+                     /label="epnD"
+                     /note="EggNog:ENOG410PH0T; GO_component: GO:0016021 -
+                     integral component of membrane [Evidence IEA]; GO_process:
+                     GO:0055085 - transmembrane transport [Evidence IEA]"
                      /db_xref="InterPro:IPR011701"
                      /db_xref="InterPro:IPR020846"
                      /protein_id="OSS48493.1"
@@ -161,6 +161,7 @@ FEATURES             Location/Qualifiers
                      ARLQSSVENIHTLSKEQQDTVRRFYGRGYRQQIIVSLSTAALGLVLALAMTATRGATVE
                      KDTPDETPSEDSELRRLPPLETYQIDQVGHVSDPSDVGSLTTAPTIRNPKNSPQELLES
                      V"
+                     /Pfam="MFS_1"
 ORIGIN
         1 ctaagccagt ccagctggca aaagcttact tttacttgcg atctgtgctg ccaagtctaa
        61 gattggcaca gtcttcaaca actcgaaaat cgagatatcg acctgcaact ctgtgtaaat

@@ -1,25 +1,25 @@
-LOCUS       FBGC00620       44728 bp DNA     linear   UNA 14-APR-2023
+LOCUS       FBGC00620              44728 bp    DNA     linear   UNA 14-APR-2023
 DEFINITION  astins.
 ACCESSION   FBGC00620
-VERSION     .
+VERSION     FBGC00620
 KEYWORDS    .
 SOURCE      Cyanodermella asteris A1
   ORGANISM  Cyanodermella asteris A1
+            .
 REFERENCE   1  (bases 1 to 44728)
-  AUTHORS   Schafhauser T, Jahn L, Kirchner N, Kulik A, Flor L, Lang A, Caradec 
+  AUTHORS   Schafhauser T, Jahn L, Kirchner N, Kulik A, Flor L, Lang A, Caradec
             T, Fewer DP, Sivonen K, van Berkel WJH, Jacques P, Weber T, Gross H,
             van Pee KH, Wohlleben W, Ludwig-Muller J.
-  TITLE     Antitumor astins originate from the fungal endophyte Cyanodermella 
+  TITLE     Antitumor astins originate from the fungal endophyte Cyanodermella
             asteris living within the medicinal plant Aster tataricus.
   JOURNAL   Proc Natl Acad Sci U S A 2019;116:26909-26917
-  PUBMED    31811021
+   PUBMED   31811021
 REFERENCE   2  (bases 1 to 44728)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Apr 14, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1073/pnas.1910527116"; journalName: "Proc Natl Acad Sci U S A"; 
+  JOURNAL   Exported Apr 14, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1073/pnas.1910527116"; journalName: "Proc Natl Acad Sci U S A";
             date: "2019"; volume: "116"; pages: "26909-26917"
 FEATURES             Location/Qualifiers
      source          1..44728
@@ -30,7 +30,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="Cyaast__000086"
                      /product="nonribosomal peptide synthetase AstN"
-                     /label=astN
+                     /label="astN"
                      /note="revised sequence"
                      /protein_id="Cyaast_:cds.g86.t1"
                      /translation="MMKSTCTAKLGRNLSTGEIACAWVLLLRDYIGSPDVSFYAEVSER
@@ -130,11 +130,12 @@ FEATURES             Location/Qualifiers
                      FNLESNSNALSRKDMLRKLVSSSAQQVDERTSFEGLDWPDMVKNCTQWPEDAKYKSAVH
                      FRNMAFYPELRFGEDTLKLGWYELVATPEWTTVLVYPENEVLRLWLIADPSKIGNEGAD
                      ELLQMLGGFAEEIVGALHE"
+                     /Pfam="NRPS_C, AA-adenyl-dom, ACP_PCP, NRPS_CT"
      CDS             complement(18478..23127)
                      /codon_start=1
                      /locus_tag="Cyaast__000087"
                      /product="ABC transporter AstO"
-                     /label=astO
+                     /label="astO"
                      /protein_id="Cyaast_:cds.g87.t1"
                      /translation="MAASTCDHGHSIFCTAFNCMDDLLQLSASYVSLIVLIIAHFGSRR
                      YQYDFFGIHISALDNEKDGAYPRLHPDSLCLIDSLQSIILETCGLLVDLGFAVVLYTRG
@@ -163,11 +164,12 @@ FEATURES             Location/Qualifiers
                      VLRTVRMFSSVSSDQSVKYSDLDRPAESLSRGQRQLLCIARGLLRNSRILILDEATANI
                      DHETDEKVQTGLRASLAVGTTVLTIAHRLLSIADYDHVVVLESGCVVEQGAPAELLSRK
                      GEDARFRRMCTDSGDFERIQAVAFTKTRS"
+                     /Pfam="ABC_membrane, ABC_tran"
      CDS             join(24395..24525,24578..24684,24735..25285,25344..26603)
                      /codon_start=1
                      /locus_tag="Cyaast__000089"
                      /product="phenylalanine ammonia-lyase AstP"
-                     /label=astP
+                     /label="astP"
                      /protein_id="Cyaast_:cds.g89.t1"
                      /translation="MVSPSPHFDKAYSLWQSLRKTLSDGACQVDGRNLQIADVEAIARY
                      GCKAPFSQDPEINRGLQDSVDVLFDHLAKGWYVYGVNTGFGGSADSRTNEIVKLQAALM
@@ -181,11 +183,12 @@ FEATURES             Location/Qualifiers
                      LGLGPEQMNTLQDALDAYVRPAWNSSGKQDLHIRCTKLADATLPIVVSHCSQFTTACVL
                      RWKDDTARELCTLWDKTFKAFCAEPHTAELLGKGSKALYVFVRQELGVPFHQGFIEHPT
                      IDSYQLNGRAKKTTGGWISVIHDALKSGDLHDALMPVLAEGLYGCRN"
+                     /Pfam="Lyase_aromatic"
      CDS             complement(27387..28739)
                      /codon_start=1
                      /locus_tag="Cyaast__000090"
                      /product="aminotransferase AstR"
-                     /label=astR
+                     /label="astR"
                      /protein_id="Cyaast_:cds.g90.t1"
                      /translation="MAPSTTTTTMIDGLSGENLKPTKIAMDGMAETLRKSAPWLTENTD
                      IRARELDSSQLTYSFTTKPRTVPLPNSAEVWQSGHASDHMITCKWRASSGWERPELKPY
@@ -195,11 +198,12 @@ FEATURES             Location/Qualifiers
                      GYDQILWLFGQEGWVTEAGASNFFVVLRAKDNGRKQLITAPLGEGIILPGVNRASVLEI
                      ARERFYGEELDVVERRFTIHEIAEAAAEGRLVEAFAAGTVYFIAAVEEIHFGGNAIQVP
                      VGHSEDRVSSRVSSWLKEIQYEQTDHPWAYVVDEKLRTPGRRAVKPRIYDG"
+                     /Pfam="Aminotran_4"
      CDS             join(30875..31100,31147..31379,31431..31544,31595..31984)
                      /codon_start=1
                      /locus_tag="Cyaast__000091"
                      /product="DUF3328 protein AstS"
-                     /label=astS
+                     /label="astS"
                      /protein_id="Cyaast_:cds.g91.t1"
                      /translation="MDTKEGSSRDFERRDSESFGDENDGLISGSRGFARQRKGTLIAKL
                      IPILFLISIGLNIFQLVYVAVREPEYKSLYVKMPEREKDIAFWYGTEYSEGHEDDKEAL
@@ -207,11 +211,12 @@ FEATURES             Location/Qualifiers
                      HLGKQPIVSYHHIEHCLDLLRQDVMCYADDVPDYTPGHGSQYKTGDNQHKKCRDWSKLQ
                      SWVRERSACYKTINITRAGEDHGVEHQLDRYTYCPEGSPYQSVIDAWKNMNRKNPGNLD
                      PEAIAVSSDAELKAIQDFVDKHNADVINGNGIQPEQPLW"
+                     /Pfam="UstYa"
      CDS             complement(32299..33957)
                      /codon_start=1
                      /locus_tag="Cyaast__000092"
                      /product="major facilitator superfamily transporter AstT"
-                     /label=astT
+                     /label="astT"
                      /protein_id="Cyaast_:cds.g92.t1"
                      /translation="MSNPAPTSSGSLSPIRGESGRCSSETLLALPSPQLPISVFEVDQR
                      ICCQQRPVAWCRLTALTCSILGVQMFWSILMAHGTPYLQSLGFPPALTSLVWMAGPLGG
@@ -223,12 +228,13 @@ FEATURES             Location/Qualifiers
                      VTRYLRCMTLQRLWLMSHSLQATILFLTVFVRSLAQGTTLVACLGFSWAVSQWVPFALI
                      AHENSQPDASAEDGYRHEEHDDSGVTGRNTLRGGAVFGLHNVAIAGPQVIAAVQSAGIF
                      KILHGLHTENEVGWVLCWANLTALGAVWLSMGLFK"
+                     /Pfam="MFS_1"
      CDS             complement(join(34444..34782,34832..34968,35019..35141,
                      35210..35284,35506..35725))
                      /codon_start=1
                      /locus_tag="Cyaast__000093"
                      /product="DUF3328 protein AstU"
-                     /label=astU
+                     /label="astU"
                      /protein_id="Cyaast_:cds.g93.t1"
                      /translation="MSKYDPVSQADADSEGGTYARKGHCTECGSRDGGFWQRSTLRDKA
                      HLTYVLFAIVVLLAANLAISATTYLKAHTPSSAPSVIPAKITTDDVVKRVSAYTPALEA
@@ -236,22 +242,24 @@ FEATURES             Location/Qualifiers
                      APSEQGDGYLAWSEMHRQLGCLNLLRQYTWFIEGAYFPEEVPGEMRFPPRVLRSRINHC
                      IESIRLNLICHGDMTPALVVKERNPAGWQNDFSGHHVCRNFSKLQEWTVSHAAQNWGPE
                      QGHHIHVNGSWDTPPF"
+                     /Pfam="UstYa"
      CDS             complement(join(39245..39454,39572..40045))
                      /codon_start=1
                      /locus_tag="Cyaast__000094"
                      /product="DUF3328 protein AstV"
-                     /label=astV
+                     /label="astV"
                      /protein_id="Cyaast_:cds.g94.t1"
                      /translation="MPCWACALIIGLLLSNTVQTGLLTWYKYHSTDVATTDEAGSNEAR
                      VPEIRERYRQFWWNTDYSSTNKTEQDDMWNGILWTHGMIQADKTWAKEQNWPDTMTHPR
                      DHTKGVWLLEGYHEVHCLGVLRKYLNDTFAGSPPSADDPVVTAHVAHCFDYLLQAAMCN
                      ADSTPLYVTGGTKVGHGQVHKCKDWGMLRDYATQKSACFDEFKGGDDLNRHFDWCGDGD
                      GLVIL"
+                     /Pfam="UstYa"
      CDS             complement(join(40630..40990,41073..44728))
                      /codon_start=1
                      /locus_tag="Cyaast__000095"
                      /product="ABC transporter AstW"
-                     /label=astW
+                     /label="astW"
                      /protein_id="Cyaast_:cds.g95.t1"
                      /translation="MGPSFPEIDLERSTHQLLPQLHIKRRSHRPQPSELTEKTSYPDEE
                      RPPGAIMSTSAANPRNAASTTLSEREHAQLRRQIDIEEAKISYFTLFRFATYADIVVLV
@@ -276,6 +284,7 @@ FEATURES             Location/Qualifiers
                      HLALVSQEPTLYQGTIRDNILLGSAGDDENIDKDQIRQACKDANIYDFILSLPDGFATL
                      VGSKGNMLSGGQKQRLAIARALLRNPRILLLDEATSALDSDSERVVQAALDKAAQGRTT
                      IAIAHRLSTIQKANVIYAFDAGRIVECGTHEELIRRNGRYAELVSLQNLDRRRS"
+                     /Pfam="ABC_membrane, ABC_tran"
 ORIGIN
         1 tcattcgtgc agagcaccaa caatttcctc cgcaaaacct cccaacatct gcaaaagttc
        61 atccgcacct tcattcccaa tcttcgacgg atccgcgatc aaccacaagc gcagaacctc

@@ -1,44 +1,30 @@
-LOCUS       FBGC00607       11955 bp DNA     linear   UNA 12-MAY-2023
+LOCUS       FBGC00607              11955 bp    DNA     linear   UNA 12-MAY-2023
 DEFINITION  ochrindoles.
 ACCESSION   FBGC00607
-VERSION     .
+VERSION     FBGC00607
 KEYWORDS    .
 SOURCE      Aspergillus steynii IBT 23096
   ORGANISM  Aspergillus steynii IBT 23096
+            .
 REFERENCE   1  (bases 1 to 11955)
-  AUTHORS   Kjærbølling I, Vesth TC, Frisvad JC, Nybo JL, Theobald S, Kuo A, 
-            Bowyer P, Matsuda Y, Mondo S, Lyhne EK, Kogle ME, Clum A, Lipzen A, 
-            Salamov A, Ngan CY, Daum C, Chiniquy J, Barry K, LaButti K, Haridas 
-            S, Simmons BA, Magnuson JK, Mortensen UH, Larsen TO, Grigoriev IV, 
+  AUTHORS   Kjærbølling I, Vesth TC, Frisvad JC, Nybo JL, Theobald S, Kuo A,
+            Bowyer P, Matsuda Y, Mondo S, Lyhne EK, Kogle ME, Clum A, Lipzen A,
+            Salamov A, Ngan CY, Daum C, Chiniquy J, Barry K, LaButti K, Haridas
+            S, Simmons BA, Magnuson JK, Mortensen UH, Larsen TO, Grigoriev IV,
             Baker SE, Andersen MR.
-  TITLE     Linking secondary metabolites to gene clusters through genome 
+  TITLE     Linking secondary metabolites to gene clusters through genome
             sequencing of six diverse Aspergillus species.
   JOURNAL   Proc Natl Acad Sci U S A 2018;115:E753-E761
-  PUBMED    29317534
+   PUBMED   29317534
 REFERENCE   2  (bases 1 to 11955)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported May 12, 2023 from SnapGene 6.2.2
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1073/pnas.1715954115"; journalName: "Proc Natl Acad Sci U S A"; 
-            date: "2018"; volume: "115"; pages: "E753-E761"
-COMMENT     URL -- http://genome.jgi.doe.gov/Aspste1
-            JGI Project ID: 1021609
-            The DNA was provided by Mikael Andersen(mr@bio.dtu.dk)
-            The strain is available from Mikael Andersen
-            Contacts: Mikael Andersen (mr@bio.dtu.dk)
-            Assembly and annotation done by JGI.
-            The JGI and collaborators endorse the principles for the 
-            distribution and use of large scale sequencing data adopted by the 
-            larger genome sequencing community and urge users of this data to 
-            follow them. It is our intention to publish the work of this project
-            in a timely fashion and we welcome collaborative interaction on the 
-            project and analysis. 
-            (http://www.genome.gov/page.cfm?pageID=10506376).##Metadata-START##
+  JOURNAL   Exported May 12, 2023 from SnapGene 6.2.2 https://www.snapgene.com
+COMMENT     ##Metadata-START##
             Organism Display Name :: Aspergillus steynii IBT 23096 v1.0
             GOLD Stamp ID         :: Gp0040453
-            ##Metadata-END####Genome-Assembly-Data-START##
+            ##Metadata-END##
+            ##Genome-Assembly-Data-START##
             Assembly Date         :: 10-JAN-2014
             Assembly Method       :: HBAR v. Jan-2014
             Assembly Name         :: Aspste1
@@ -46,6 +32,21 @@ COMMENT     URL -- http://genome.jgi.doe.gov/Aspste1
             Genome Coverage       :: 29.13x
             Sequencing Technology :: PacBio
             ##Genome-Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1073/pnas.1715954115"; journalName: "Proc Natl Acad Sci U S A";
+            date: "2018"; volume: "115"; pages: "E753-E761"
+            URL -- http://genome.jgi.doe.gov/Aspste1
+            JGI Project ID: 1021609
+            The DNA was provided by Mikael Andersen(mr@bio.dtu.dk)
+            The strain is available from Mikael Andersen
+            Contacts: Mikael Andersen (mr@bio.dtu.dk)
+            Assembly and annotation done by JGI.
+            The JGI and collaborators endorse the principles for the
+            distribution and use of large scale sequencing data adopted by the
+            larger genome sequencing community and urge users of this data to
+            follow them. It is our intention to publish the work of this project
+            in a timely fashion and we welcome collaborative interaction on the
+            project and analysis.
 FEATURES             Location/Qualifiers
      source          1..11955
                      /strain="IBT 23096"
@@ -58,11 +59,11 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="P170DRAFT_365047"
                      /product="NRPS-like enzyme P170DRAFT_365047"
-                     /label=P170DRAFT_365047
-                     /note="GO_function: GO:3824; cofactor binding - catalytic 
-                     activity [Evidence 16788] [PMID 48037];
-                     GO_process: GO:8152; biosynthetic process - metabolic 
-                     process [PMID 9058]"
+                     /label="P170DRAFT_365047"
+                     /note="GO_function: GO:3824; cofactor binding - catalytic
+                     activity [Evidence 16788] [PMID 48037]; GO_process:
+                     GO:8152; biosynthetic process - metabolic process [PMID
+                     9058]"
                      /db_xref="InterPro:IPR000873"
                      /db_xref="InterPro:IPR001031"
                      /db_xref="InterPro:IPR006163"
@@ -85,11 +86,12 @@ FEATURES             Location/Qualifiers
                      MDEATAYTHKPTLCAFERENRRLDAIRYLRKHSDAARWDELGLSEEYYLLWVGLASNMQ
                      GMAIDYDPQGSVKCMDVFVADPLSHVAKDRKDWVESRLAAWKDFVRQDVRFHDVQGAHY
                      TMLNPEYVASFADTLRAALKERGL"
+                     /Pfam="AA-adenyl-dom, ACP_PCP, Thioesterase"
      CDS             join(3826..4511,4563..5039,5098..5242)
                      /codon_start=1
                      /locus_tag="P170DRAFT_415228"
                      /product="DMATS-type prenyltransferase P170DRAFT_415228"
-                     /label=P170DRAFT_415228
+                     /label="P170DRAFT_415228"
                      /db_xref="JGIDB:Aspste1_415228"
                      /protein_id="PLB46277.1"
                      /translation="MPIMQTTIPPPEVESQEAGKSLAVQYWREYIRSVMVPLFHATGSY
@@ -100,12 +102,13 @@ FEATURES             Location/Qualifiers
                      LDDETSRARIELLRSIWSILRNEPDDVPMDEEWSKPDRIGSTGYSGLQFTIEIAPGHTF
                      PDTKIYVPVFQYAETTQEVERNVELMLQKLGNEWGLTGRYRKTMQTIFGSETDYGQTYV
                      SFAYSKTKGAYTTSYFARPIRQVDTKLAGYFGIRLN"
+                     /Pfam="Trp_DMAT"
      CDS             6159..7253
                      /codon_start=1
                      /locus_tag="P170DRAFT_429405"
-                     /product="medium-chain dehydrogenase/reductase 
+                     /product="medium-chain dehydrogenase/reductase
                      P170DRAFT_429405"
-                     /label=P170DRAFT_429405
+                     /label="P170DRAFT_429405"
                      /note="revised sequence"
                      /db_xref="JGIDB:Aspste1_429405"
                      /protein_id="PLB46278.1"
@@ -116,16 +119,16 @@ FEATURES             Location/Qualifiers
                      DGLDERVILREPFVLPPSAGPIHIILDYVGGSAAAGILQNAEVEPGENLQYIQVGGLAS
                      EDTHMLQVLPPYLINTKPICIMGSGLGSVRLQDLKDEMPDMVRAMMQMPSPFELETVSL
                      SNIQSVWDSANASKRLVVIPTAKD"
-     CDS             join(8304..8388,8447..8500,8563..8708,8764..8906,8966..8977,
-                     9037..9234,9302..9550,9611..10034)
+                     /Pfam="TdiC"
+     CDS             join(8304..8388,8447..8500,8563..8708,8764..8906,
+                     8966..8977,9037..9234,9302..9550,9611..10034)
                      /codon_start=1
                      /locus_tag="P170DRAFT_479193"
                      /product="aminotransferase P170DRAFT_479193"
-                     /label=P170DRAFT_479193
-                     /note="GO_function: GO:16769; pyridoxal phosphate binding
-                     - transferase activity, transferring nitrogenous groups 
-                     [PMID 30170];
-                     GO_process: GO:9058 - biosynthetic process"
+                     /label="P170DRAFT_479193"
+                     /note="GO_function: GO:16769; pyridoxal phosphate binding -
+                     transferase activity, transferring nitrogenous groups [PMID
+                     30170]; GO_process: GO:9058 - biosynthetic process"
                      /db_xref="InterPro:IPR004839"
                      /db_xref="JGIDB:Aspste1_479193"
                      /protein_id="PLB46279.1"
@@ -137,13 +140,14 @@ FEATURES             Location/Qualifiers
                      LPAVQKVIRITENINLQPSSTTQMMALTLFNHWGHAGFLQHCERAAEFYRQRRDAFAAA
                      AERYLQGRATWELPSAGMFFWLTLLLPPGRDSFEVLSRQGRENGILAIPGVAFLPNQRT
                      SCQLRVSYSLLPEKQMAEACRRIAKLVDNAWRFEILM"
+                     /Pfam="Aminotran_1_2"
      CDS             complement(join(10524..10575,10641..11060,11125..11256,
                      11332..11392,11447..11569,11623..11641,11717..11730,
                      11795..11880,11930..11955))
                      /codon_start=1
                      /locus_tag="P170DRAFT_365428"
                      /product="methyltransferase P170DRAFT_365428"
-                     /label=P170DRAFT_365428
+                     /label="P170DRAFT_365428"
                      /note="revised sequence"
                      /db_xref="JGIDB:Aspste1_365428"
                      /protein_id="PLB46280.1"
@@ -153,6 +157,7 @@ FEATURES             Location/Qualifiers
                      MQELCNPLRSDDGTLTADSALSRWGQLLVEASTKMDRPADNPTRYASWMQAAGFTNVET
                      IVYKWPTNPWSQDEREKLKGLWNLYNVLERLREFTSMLLTKVLGWSQEDVDSLLVDVRT
                      ELQDPNVHVYWPVYVVYGQKPLVEEADQA"
+                     /Pfam="GliN"
 ORIGIN
         1 ttacagtccc cgttccttca gagcggccct caacgtgtcg gcaaagctag ccacgtattc
        61 cgggttcagc atagtataat gtgccccttg cacatcgtga aaccgaacat cctgtcgcac
