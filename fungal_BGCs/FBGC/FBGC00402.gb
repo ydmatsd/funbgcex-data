@@ -1,25 +1,40 @@
-LOCUS       FBGC00402       22820 bp DNA     linear   UNA 04-MAR-2023
+LOCUS       FBGC00402              22820 bp    DNA     linear   UNA 04-MAR-2023
 DEFINITION  echinulin.
 ACCESSION   FBGC00402
-VERSION     .
+VERSION     FBGC00402
 KEYWORDS    .
 SOURCE      Aspergillus ruber CBS 135680
   ORGANISM  Aspergillus ruber CBS 135680
+            .
 REFERENCE   1  (bases 1 to 22820)
   AUTHORS   Wohlgemuth V, Kindinger F, Xie X, Wang BG, Li SM.
-  TITLE     Two Prenyltransferases Govern a Consecutive Prenylation Cascade in 
+  TITLE     Two Prenyltransferases Govern a Consecutive Prenylation Cascade in
             the Biosynthesis of Echinulin and Neoechinulin.
   JOURNAL   Org Lett 2017;19:5928-5931
-  PUBMED    29072465
+   PUBMED   29072465
 REFERENCE   2  (bases 1 to 22820)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Mar 4, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1021/acs.orglett.7b02926"; journalName: "Org Lett"; date: 
+  JOURNAL   Exported Mar 4, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     ##ata-START##
+            Assembly Method       :: Allpaths-LG v. R39750
+            Assembly Name         :: Eurhe1
+            Genome Coverage       :: 39.7x
+            Sequencing Technology :: Illumina
+            ##ata-END##
+            ##Metadata-START##
+            Organism Display Name :: Eurotium rubrum
+            GOLD Stamp ID         :: Gi08792
+            ##Metadata-END##
+            ##Genome-Annotation-Data-START##
+            Annotation Provider   :: INSDC submitter
+            Annotation Status     :: Full annotation
+            Annotation Pipeline   :: Eukaryotic Annotation Propagation Pipeline
+            ##Genome-Annotation-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1021/acs.orglett.7b02926"; journalName: "Org Lett"; date:
             "2017"; volume: "19"; pages: "5928-5931"
-COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final 
+            PROVISIONAL REFSEQ: This record has not yet been subject to final
             NCBI review. The reference sequence is identical to KK088413.
             URL -- http://genome.jgi.doe.gov/Eurhe1
             JGI Project ID: 404126
@@ -27,26 +42,13 @@ COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
             The strain is available from CBS
             Contacts: Tamar Kis-Papo (kispapo@research.haifa.ac.il)
             Assembly and annotation done by JGI.
-            The JGI and collaborators endorse the principles for the 
-            distribution and use of large scale sequencing data adopted by the 
-            larger genome sequencing community and urge users of this data to 
+            The JGI and collaborators endorse the principles for the
+            distribution and use of large scale sequencing data adopted by the
+            larger genome sequencing community and urge users of this data to
             follow them. It is our intention to publish the work of this project
-            in a timely fashion and we welcome collaborative interaction on the 
-            project and analysis. 
+            in a timely fashion and we welcome collaborative interaction on the
+            project and analysis.
             (http://www.genome.gov/page.cfm?pageID=10506376).##Genome-Assembly-D
-            ata-START##
-            Assembly Method       :: Allpaths-LG v. R39750
-            Assembly Name         :: Eurhe1
-            Genome Coverage       :: 39.7x
-            Sequencing Technology :: Illumina
-            ##Genome-Assembly-Data-END####Metadata-START##
-            Organism Display Name :: Eurotium rubrum
-            GOLD Stamp ID         :: Gi08792
-            ##Metadata-END####Genome-Annotation-Data-START##
-            Annotation Provider :: INSDC submitter
-            Annotation Status   :: Full annotation
-            Annotation Pipeline :: Eukaryotic Annotation Propagation Pipeline 
-            ##Genome-Annotation-Data-END##
 FEATURES             Location/Qualifiers
      source          1..22820
                      /chromosome="Unknown"
@@ -60,7 +62,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="EURHEDRAFT_448612"
                      /product="DMATS-type prenyltransferase EchPT1"
-                     /label=EchPT1
+                     /label="EchPT1"
                      /note="reverse prenyltransferase"
                      /db_xref="GeneID:63698875"
                      /db_xref="JGIDB:Eurhe1_448612"
@@ -73,13 +75,14 @@ FEATURES             Location/Qualifiers
                      GGRIENNATIKTGLELLQHMWSLLQINEGDRDYKGGFAADNGGKTLPIIWNYELNKGSP
                      HPAPKFYFPVHGENDLQVSKSISEFFTHLGWQDHARQYPHLLRQIYPNQNISQTERLQA
                      WISFAYNERTGPYLSVYYYSAERPPWGSDQVK"
-     CDS             complement(join(1847..1936,1989..2180,2231..2575,2625..2986,
-                     3034..3118,3172..3282,3341..3598))
+                     /Pfam="Trp_DMAT"
+     CDS             complement(join(1847..1936,1989..2180,2231..2575,
+                     2625..2986,3034..3118,3172..3282,3341..3598))
                      /codon_start=1
                      /locus_tag="EURHEDRAFT_383835"
-                     /product="major facilitator superfamily transporter 
+                     /product="major facilitator superfamily transporter
                      EYE98743"
-                     /label=EYE98743
+                     /label="EYE98743"
                      /db_xref="GeneID:63694721"
                      /db_xref="InterPro:IPR005828"
                      /db_xref="JGIDB:Eurhe1_383835"
@@ -93,12 +96,13 @@ FEATURES             Location/Qualifiers
                      TEASELGVSGQIGGVAMIFLFFIIYCTTWGPLSWVYASEIFPTQIRSKGYSMASAVNWS
                      VTLLFNQTGPIALDHSGWKFYFLFVATNFVSALILLFLYPETSGKSLEAIDSLFDEHNA
                      MHRSTSEANEVRRTSIELDVKG"
+                     /Pfam="Sugar_tr"
      CDS             complement(join(4747..7137,7221..7310,7366..7643,
                      7700..10735,10791..11400))
                      /codon_start=1
                      /locus_tag="EURHEDRAFT_472053"
                      /product="nonribosomal peptide synthetase EchPS"
-                     /label=EchPS
+                     /label="EchPS"
                      /db_xref="GeneID:63700466"
                      /db_xref="InterPro:IPR000873"
                      /db_xref="InterPro:IPR001242"
@@ -142,11 +146,12 @@ FEATURES             Location/Qualifiers
                      ELMSHLGLPFPSAQPQLFSCCVTFHDDRGTEPPLAIQGVEGQYVSAEGAKFPLLFEWQA
                      TRASEHEQLTVRLEYDTDWLSAEFVEILEALLLECFRILLEEEDSHHGEVKERLGEVLR
                      SEATRIGVGVNEICEMARQHLMVV"
+                     /Pfam="AA-adenyl-dom, ACP_PCP, NRPS_C"
      CDS             12514..14118
                      /codon_start=1
                      /locus_tag="EURHEDRAFT_409075"
                      /product="cytochrome P450 monooxygenase EchP450"
-                     /label=EchP450
+                     /label="EchP450"
                      /db_xref="GeneID:63696121"
                      /db_xref="InterPro:IPR001128"
                      /db_xref="JGIDB:Eurhe1_409075"
@@ -161,11 +166,12 @@ FEATURES             Location/Qualifiers
                      VNQWALDYNEDMFPEPFSFLPERWVANPNLPFSTFGFGQRGCPGRYFAQDSLFISTARL
                      LWAFNIRTASPVEVEDMLRNPSAGAFLSPIPEFDATFTARDAQRKALIEKEWEISPKES
                      YAILQEVEKELISEGAE"
+                     /Pfam="p450"
      CDS             complement(join(15162..15264,15315..16441))
                      /codon_start=1
                      /locus_tag="EURHEDRAFT_448141"
                      /product="DMATS-type prenyltransferase EchPT2"
-                     /label=EchPT2
+                     /label="EchPT2"
                      /db_xref="GeneID:63698847"
                      /db_xref="JGIDB:Eurhe1_448141"
                      /protein_id="XP_040642434.1"
@@ -177,13 +183,14 @@ FEATURES             Location/Qualifiers
                      GLELLLELWDLLQIPAGPRSVAISHCSVGQPPEYMLPTLVNWTLLPGHSDPMPQVYLVP
                      FGLPDSHISDCLVTFFERRGWTDLARDYKKNLASYFPDIDFTQSRHVQEAISFSFRKGK
                      PYLSIYMSLF"
+                     /Pfam="Trp_DMAT"
      CDS             complement(join(17248..18547,18601..19013,19071..19293,
                      19343..19395,19446..19639,19691..19811))
                      /codon_start=1
                      /locus_tag="EURHEDRAFT_528589"
                      /product="glycosyl hydrolase EYE98747"
-                     /label=EYE98747
-                     /note="Beta-D-glucoside glucohydrolase M; Cellobiase M; 
+                     /label="EYE98747"
+                     /note="Beta-D-glucoside glucohydrolase M; Cellobiase M;
                      Gentiobiase M; beta-glucosidase"
                      /db_xref="GeneID:63702193"
                      /db_xref="InterPro:IPR001764"
@@ -204,11 +211,12 @@ FEATURES             Location/Qualifiers
                      TTFDYSDLQTRRSNVSTTAYPPNATIEQGGNPHLWDEILTVSARVSNTGVVDGDEVPQL
                      YLGIPNGPVRQLRGFDKVRIVAGESTPVAFPLTRRDLSVWDVDAQQWHLQEGEYKVYLG
                      SSSRDLPLSGTFSI"
+                     /Pfam="Glyco_hydro_3, Glyco_hydro_3_C, Fn3-like"
      CDS             join(21500..21670,21726..22820)
                      /codon_start=1
                      /locus_tag="EURHEDRAFT_409077"
                      /product="dehydrogenase EYE98748"
-                     /label=EYE98748
+                     /label="EYE98748"
                      /note="unnamed protein product"
                      /db_xref="GeneID:63696122"
                      /db_xref="InterPro:IPR001155"
@@ -222,6 +230,7 @@ FEATURES             Location/Qualifiers
                      EESWRVEDSVRFAEALVAQGAVDLIDISSGGVHAAQKVKSGPGFQAPFAVAVKKAVGDK
                      LVVATVGAITNGKQANRLLEEEGLDVALVGRGFQKDTATVWTFAQHLNAEISMANQIRW
                      GFTRRGGTPYIDPSVYKSSIFD"
+                     /Pfam="Oxidored_FMN"
 ORIGIN
         1 ttatttgacc tgatcacttc cccaaggtgg acgctcagca gagtagtaat agacactcaa
        61 gtatggtccg gtgcgttcgt tgtatgcaaa cgaaatccac gcttgcaggc gctcagtttg

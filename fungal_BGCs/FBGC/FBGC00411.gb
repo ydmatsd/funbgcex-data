@@ -1,46 +1,47 @@
-LOCUS       FBGC00411       24563 bp DNA     linear   UNA 05-MAR-2023
-DEFINITION  ophiobolins.
+LOCUS       FBGC00411              24563 bp    DNA     linear   UNA 21-MAR-2024
+DEFINITION  ophiobolin A.
 ACCESSION   FBGC00411
-VERSION     .
+VERSION     FBGC00411
 KEYWORDS    .
 SOURCE      Bipolaris maydis C5
   ORGANISM  Bipolaris maydis C5
+            .
 REFERENCE   1  (bases 1 to 24563)
   AUTHORS   Narita K, Chiba R, Minami A, Kodama M, Fujii I, Gomi K, Oikawa H.
-  TITLE     Multiple Oxidative Modifications in the Ophiobolin Biosynthesis: 
+  TITLE     Multiple Oxidative Modifications in the Ophiobolin Biosynthesis:
             P450 Oxidations Found in Genome Mining.
   JOURNAL   Org Lett 2016;18:1980-3
-  PUBMED    27116000
+   PUBMED   27116000
 REFERENCE   2  (bases 1 to 24563)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Mar 5, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1021/acs.orglett.6b00552"; journalName: "Org Lett"; date: 
+  JOURNAL   Exported Mar 21, 2024 from SnapGene 7.1.2 https://www.snapgene.com
+COMMENT     ##ata-START##
+            Assembly Method       :: Phrap v. 0.990319
+            Assembly Name         :: CocheC5_3
+            Genome Coverage       :: 36.46x
+            Sequencing Technology :: Sanger
+            ##ata-END##
+            ##Metadata-START##
+            Organism Display Name :: Cochliobolus heterostrophus C5
+            GOLD Stamp ID         :: Gi01754
+            ##Metadata-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1021/acs.orglett.6b00552"; journalName: "Org Lett"; date:
             "2016"; volume: "18"; pages: "1980-3"
-COMMENT     URL -- http://genome.jgi.doe.gov/CocheC5_3
+            URL -- http://genome.jgi.doe.gov/CocheC5_3
             JGI Project ID: 42739
             The DNA was provided by Gillian Turgeon(bgt1@cornell.edu)
             The strain is available from Gillian Turgeon
             Contacts: B. Gillian Turgeon (bgt1@cornell.edu)
             Assembly and annotation done by JGI.
-            The JGI and collaborators endorse the principles for the 
-            distribution and use of large scale sequencing data adopted by the 
-            larger genome sequencing community and urge users of this data to 
+            The JGI and collaborators endorse the principles for the
+            distribution and use of large scale sequencing data adopted by the
+            larger genome sequencing community and urge users of this data to
             follow them. It is our intention to publish the work of this project
-            in a timely fashion and we welcome collaborative interaction on the 
-            project and analysis. 
+            in a timely fashion and we welcome collaborative interaction on the
+            project and analysis.
             (http://www.genome.gov/page.cfm?pageID=10506376).##Genome-Assembly-D
-            ata-START##
-            Assembly Method       :: Phrap v. 0.990319
-            Assembly Name         :: CocheC5_3
-            Genome Coverage       :: 36.46x
-            Sequencing Technology :: Sanger
-            ##Genome-Assembly-Data-END####Metadata-START##
-            Organism Display Name :: Cochliobolus heterostrophus C5
-            GOLD Stamp ID         :: Gi01754
-            ##Metadata-END##
 FEATURES             Location/Qualifiers
      source          1..24563
                      /chromosome="Unknown"
@@ -53,10 +54,10 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="COCHEDRAFT_1167261"
                      /product="terpene synthase OblA"
-                     /label=oblA
-                     /note="GO_function: GO:287; lyase activity - magnesium ion 
-                     binding [PMID 16829];
-                     GO_process: GO:8299 - isoprenoid biosynthetic process"
+                     /label="oblA"
+                     /note="GO_function: GO:287; lyase activity - magnesium ion
+                     binding [PMID 16829]; GO_process: GO:8299 - isoprenoid
+                     biosynthetic process"
                      /db_xref="InterPro:IPR000092"
                      /db_xref="InterPro:IPR005630"
                      /db_xref="JGIDB:CocheC5_3_1167261"
@@ -74,12 +75,13 @@ FEATURES             Location/Qualifiers
                      NGQISDSELNPLGCLIGRFFQIRDDYQNLVSAEYAQQKGFAEDLDEGKYSFTLIHCIRT
                      LEANPSLAGEQMQLRALLMKRRVEGKLTNEAKREILDTMKKTQSLEYTLEVLRELHTKL
                      DNEVGRLEKKFGDDNFALRLMMEMLKV"
-     CDS             join(3078..3330,3433..3907,3957..4032,4092..4450,4530..4775,
-                     4839..5004)
+                     /Pfam="Terpene_syn_C_2, GGPS"
+     CDS             join(3078..3330,3433..3907,3957..4032,4092..4450,
+                     4530..4775,4839..5004)
                      /codon_start=1
                      /locus_tag="COCHEDRAFT_1201083"
                      /product="cytochrome P450 monooxygenase OblB"
-                     /label=oblB
+                     /label="oblB"
                      /note="GO_function: GO:4497; iron ion binding -
                      monooxygenase activity [Evidence 20037] [PMID 5506]"
                      /db_xref="InterPro:IPR001128"
@@ -95,11 +97,12 @@ FEATURES             Location/Qualifiers
                      VSPNQPLQFKEWVIPAGVPVGMSAYFQHTDPKIFPNPHEFNPDRWLSNVTPAMKKNYVP
                      FSKGSRHCLGMNLAYCELNYIIATMFRPGAVDFDLFETTELDVKPTHDMVVPLPSLKSK
                      GFKVKFN"
+                     /Pfam="p450"
      CDS             complement(join(5707..6758,6843..7011))
                      /codon_start=1
                      /locus_tag="COCHEDRAFT_1019608"
                      /product="transcription factor COCHEDRAFT_1019608"
-                     /label=COCHEDRAFT_1019608
+                     /label="COCHEDRAFT_1019608"
                      /db_xref="JGIDB:CocheC5_3_1019608"
                      /protein_id="EMD96234.1"
                      /translation="MLTTPAQLPSPVESQENNVSTNNNNNNDAASTDKRKPVRRDQEKR
@@ -110,16 +113,16 @@ FEATURES             Location/Qualifiers
                      KSLKPDLRPIKEQIMIRHHPIIDLLPFPTLRKNLISKQDSFYNQELYYDLISGLVCWAG
                      VGRSAGNSAPGIPSTITPWDGRSWEARTWFLQKYWTEVGGEEGELVRQSEWWRRMRGED
                      TSLWLGA"
+                     /Pfam="TqaK, DUF3425"
      CDS             join(9263..9379,9470..10792)
                      /codon_start=1
                      /locus_tag="COCHEDRAFT_1167269"
                      /product="transcription factor COCHEDRAFT_1167269"
-                     /label=COCHEDRAFT_1167269
-                     /note="GO_component: GO:5634 - nucleus;
-                     GO_function: GO:3700; zinc ion binding - transcription 
-                     factor activity [PMID 8270];
-                     GO_process: GO:6355 - regulation of transcription, 
-                     DNA-dependent"
+                     /label="COCHEDRAFT_1167269"
+                     /note="GO_component: GO:5634 - nucleus; GO_function:
+                     GO:3700; zinc ion binding - transcription factor activity
+                     [PMID 8270]; GO_process: GO:6355 - regulation of
+                     transcription, DNA-dependent"
                      /db_xref="InterPro:IPR001138"
                      /db_xref="JGIDB:CocheC5_3_1167269"
                      /protein_id="EMD96235.1"
@@ -132,11 +135,12 @@ FEATURES             Location/Qualifiers
                      RMEDGGLRNNTHNHSGTTTVAPAQLACLPGPHLSGSTTDMDMDSQCLTAATASAAASSS
                      PSRPTTSGWQQLLLGDYKINSALEWDHLVRALINFQLRAVKALLCDVKSIGTMILGDAQ
                      KESLARAETIVNKLEQDIYII"
+                     /Pfam="EqxR"
      CDS             complement(14719..16170)
                      /codon_start=1
                      /locus_tag="COCHEDRAFT_1167272"
                      /product="FAD-linked oxidoreductase OblC"
-                     /label=oblC
+                     /label="oblC"
                      /note="GO_function: GO:16491 - oxidoreductase activity"
                      /db_xref="InterPro:IPR006076"
                      /db_xref="JGIDB:CocheC5_3_1167272"
@@ -150,11 +154,12 @@ FEATURES             Location/Qualifiers
                      LITNSAQDTPYNLPVLPAVNIMNPTAIDGVWTVFSSSLQSKASFPWADDAVKADIIRSI
                      KALQTANPDKFQQTEPEIIEWHSHAPYFLQVSSEEIKNGFYAKLYALQGLRNTHFTGAA
                      WRVHDSSQIWKYTDTQVLPKLLAGL"
+                     /Pfam="Amino_oxidase"
      CDS             join(16867..16915,16968..17057,17113..17144)
                      /codon_start=1
                      /locus_tag="COCHEDRAFT_1019610"
                      /product="hypothetical protein COCHEDRAFT_1019610"
-                     /label=COCHEDRAFT_1019610
+                     /label="COCHEDRAFT_1019610"
                      /db_xref="JGIDB:CocheC5_3_1019610"
                      /protein_id="EMD96237.1"
                      /translation="MTAQAEENMRRVCQGRPSLTLHGLPRTRCMRQNGRPRRAATPLPW
@@ -162,9 +167,9 @@ FEATURES             Location/Qualifiers
      CDS             join(18099..18654,18721..18911)
                      /codon_start=1
                      /locus_tag="COCHEDRAFT_1127874"
-                     /product="short-chain dehydrogenase/reductase 
+                     /product="short-chain dehydrogenase/reductase
                      COCHEDRAFT_1127874"
-                     /label=COCHEDRAFT_1127874
+                     /label="COCHEDRAFT_1127874"
                      /db_xref="JGIDB:CocheC5_3_1127874"
                      /protein_id="EMD96238.1"
                      /translation="MTTAAVFGSTGAVGSHILGALIANETYVSIKTISRRLPRAQSSKL
@@ -172,15 +177,16 @@ FEATURES             Location/Qualifiers
                      AGASIYVFISAGLIRSFVGRNLPYSKMKIGVEDAIRDLDFEHAIVLRPGMIVGDRERPK
                      SIFLETTIGNIHKISQGLQDLIGVDQKILGQAAVNAARIAREGKAPSKYWVLEQADIIK
                      YGRDEWKEEYKNESKDESIRQSGTEL"
+                     /Pfam="LcsT"
      CDS             complement(join(19986..23899,23951..24563))
                      /codon_start=1
                      /locus_tag="COCHEDRAFT_98522"
                      /product="ABC transporter OblD"
-                     /label=oblD
-                     /note="GO_component: GO:16021 - integral to membrane; 
-                     GO_function: GO:5524; ATPase activity - ATP binding 
-                     [Evidence 42626] [PMID 16887];
-                     GO_process: GO:6810 - transport"
+                     /label="oblD"
+                     /note="GO_component: GO:16021 - integral to membrane;
+                     GO_function: GO:5524; ATPase activity - ATP binding
+                     [Evidence 42626] [PMID 16887]; GO_process: GO:6810 -
+                     transport"
                      /db_xref="InterPro:IPR003439"
                      /db_xref="InterPro:IPR010929"
                      /db_xref="InterPro:IPR013525"
@@ -212,6 +218,8 @@ FEATURES             Location/Qualifiers
                      EQMPRFWIFMYRVSPFTYLVGGMMAVGVADSSVTCAANEYLHFDPVNGTCGEYMAQYQA
                      MAGGYVQNPSATSNCAFCPMGDTNVFLKTVHAEYSNVWRNFGLMWVFVVFNAFAACGLY
                      YWARVPKRPTIEKEAAPIRAEGSLDSETVVGRTSAVEQQDAEKRAAF"
+                     /Pfam="ABC_trans_N, ABC_tran, ABC2_membrane_7,
+                     ABC2_membrane, PDR_CDR"
 ORIGIN
         1 ttacacctta agcatctcca tcataagtct cagcgcaaag ttatcatcgc caaacttctt
        61 ctccaaacga ccaacctcgt tgtcaagctt ggtgtgaagc tcacggagca cctcaagggt

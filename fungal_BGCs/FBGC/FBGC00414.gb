@@ -1,38 +1,39 @@
-LOCUS       FBGC00414       32610 bp DNA     linear   UNA 08-MAY-2023
+LOCUS       FBGC00414              32610 bp    DNA     linear   UNA 08-MAY-2023
 DEFINITION  fusicoccin A.
 ACCESSION   FBGC00414
-VERSION     .
+VERSION     FBGC00414
 KEYWORDS    .
 SOURCE      Diaporthe amygdali CAA958
   ORGANISM  Diaporthe amygdali CAA958
+            .
 REFERENCE   1  (bases 1 to 32610)
   AUTHORS   Hilario S, Goncalves MFM, Fidalgo C, Tacao M, Alves A.
   TITLE     Genome Analyses of Two Blueberry Pathogens: Diaportheamygdali CAA958
             and Diaporthe eres CBS 160.32.
   JOURNAL   J Fungi 2022;8(8):804
-  PUBMED    36012791
+   PUBMED   36012791
 REFERENCE   2  (bases 1 to 32610)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported May 8, 2023 from SnapGene 6.2.2
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.3390/jof8080804"; journalName: "J Fungi"; date: "2022"; volume: 
-            "8"; issue: "8"; pages: "804"
-COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final 
-            NCBI review. The reference sequence is identical to 
-            JAJATV010000004.##Genome-Assembly-Data-START##
+  JOURNAL   Exported May 8, 2023 from SnapGene 6.2.2 https://www.snapgene.com
+COMMENT     ##Genome-Assembly-Data-START##
             Assembly Date          :: 30-NOV-2020
             Assembly Method        :: SPAdes v. 3.14
             Genome Representation  :: Full
             Expected Final Version :: No
             Genome Coverage        :: 71.0x
-            Sequencing Technology  :: Illumina HiSeq 
-            ##Genome-Assembly-Data-END####Genome-Annotation-Data-START##
-            Annotation Provider :: INSDC submitter
-            Annotation Status   :: Full annotation
-            Annotation Pipeline :: Eukaryotic Annotation Propagation Pipeline 
+            Sequencing Technology  :: Illumina HiSeq
+            ##Genome-Assembly-Data-END##
+            ##Genome-Annotation-Data-START##
+            Annotation Provider    :: INSDC submitter
+            Annotation Status      :: Full annotation
+            Annotation Pipeline    :: Eukaryotic Annotation Propagation Pipeline
             ##Genome-Annotation-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.3390/jof8080804"; journalName: "J Fungi"; date: "2022"; volume:
+            "8"; issue: "8"; pages: "804"
+            PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to
 FEATURES             Location/Qualifiers
      source          1..32610
                      /chromosome="Unknown"
@@ -49,7 +50,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="J7T55_008511"
                      /product="cytochrome P450 monooxygenase PaP450-5"
-                     /label=PaP450-5
+                     /label="PaP450-5"
                      /db_xref="GeneID:77778706"
                      /protein_id="XP_052997786.1"
                      /translation="MVVDDLHRLASSQFKLPVAPILFTALAATLGAFLLSSLRSYISYH
@@ -62,11 +63,12 @@ FEATURES             Location/Qualifiers
                      AFVAVSNHGMWDPHNYTDPDKFDAYRFARMSDNKSSAFSTVSVEHTGFGFGKNSCPGRN
                      YVALQLKIILAHLLLKYEWKLPDNYTPATFNNGFDLIADPFAQVLVRRRLEAPEVSLRQ
                      NT"
+                     /Pfam="p450"
      CDS             join(2853..3050,3121..4395)
                      /codon_start=1
                      /locus_tag="J7T55_008512"
                      /product="acetyltransferase PaAT-1"
-                     /label=PaAT-1
+                     /label="PaAT-1"
                      /db_xref="GeneID:77778707"
                      /protein_id="XP_052997787.1"
                      /translation="MSQTTVPVDRIVPFHRFDDAIGLRNSILVWTLRFDDVLDAAKLRD
@@ -78,11 +80,12 @@ FEATURES             Location/Qualifiers
                      AFALFTTTTVGRVMSTSLGELAHTVRQSLLEQAPQAQIRAMFQELRKTRMGALVVGTAT
                      SSPLIFSNWSKTKICEVVDFSPAVIRRGKQGPVISAPGKPVYHHSLHTKRSQTARDAFN
                      ILGKDPAGNYWIAAWLPPRAWPRIEEEMQKLP"
+                     /Pfam="CalD"
      CDS             complement(4629..5981)
                      /codon_start=1
                      /locus_tag="J7T55_008513"
                      /product="DMATS-type prenyltransferase PaPT"
-                     /label=PaPT
+                     /label="PaPT"
                      /db_xref="GeneID:77778708"
                      /protein_id="XP_052997788.1"
                      /translation="MANVVLDGSAAPAKAGLPLDCSFPSKQTNFPTELESNSNADFWWR
@@ -93,12 +96,13 @@ FEATURES             Location/Qualifiers
                      LYVSSQQHNSFNFIRTVFTLGGIAKDEATLRGLEFLRSIWHLLVNVDEGELPDSSDRPA
                      KQLPFFLGCLYFSFEWRTGDRLPLVKLYVPQWQYAQSDRKIARNISASLRKLGRDEAAD
                      EYLTHIKQTFPRADLDGNISIHNQVSYAYSAETGAYLTIYYSVNSKAVTRD"
+                     /Pfam="Trp_DMAT"
      CDS             join(6711..6929,6991..7107,7217..7391,7467..8081,
                      8147..8577)
                      /codon_start=1
                      /locus_tag="J7T55_008514"
                      /product="cytochrome P450 monooxygenase PaP450-4"
-                     /label=PaP450-4
+                     /label="PaP450-4"
                      /db_xref="GeneID:77778709"
                      /protein_id="XP_052997789.1"
                      /translation="MAKFTVTSLERHLLLISTVIAVLAALIVSRGCNYLLKRWRLSAYP
@@ -111,11 +115,12 @@ FEATURES             Location/Qualifiers
                      FVVSGHWMHDPAIYPEPEKFDPGRHLRHAEESKPNKPKQFTAVSPEHMGWGYGKHSCPG
                      RFFAATVAKMLLTHILFKYEFKLPDGELNQHAYDFTTEILVRRRIEEGALNLDSFDSID
                      R"
+                     /Pfam="p450"
      CDS             complement(join(8979..10279,10346..10538))
                      /codon_start=1
                      /locus_tag="J7T55_008515"
                      /product="acetyltransferase PaAT-2"
-                     /label=PaAT-2
+                     /label="PaAT-2"
                      /db_xref="GeneID:77778710"
                      /protein_id="XP_052997790.1"
                      /translation="MIELGQSYSTMQAMTKQKPLKSWRQRVKENQTSPNRSQNHLGILR
@@ -127,12 +132,13 @@ FEATURES             Location/Qualifiers
                      ALSTPHLAFGGREAPGFVTLASMIPERFGDQLLMPVAAIGLVLTLDHHPFLQVLFTNSF
                      AQYMGRISFALFLVHGPLLNTLGHALGRRFIALIGGDTEERYLVAISLTAMVFWLMTIL
                      LADFVYRYVDLASVQVSKWAYQKLLRTEEQPGKYEWKSR"
+                     /Pfam="Acyl_transf_3"
      CDS             join(11171..11428,11509..11787,11852..11902,11968..12500,
                      12565..12727)
                      /codon_start=1
                      /locus_tag="J7T55_008516"
                      /product="methyltransferase PaMT"
-                     /label=PaMT
+                     /label="PaMT"
                      /db_xref="GeneID:77778711"
                      /protein_id="XP_052997791.1"
                      /translation="MGDSKTNGRQNTSRIVALANTIQKSVAELQAVLDSKGLPAPSFAE
@@ -143,12 +149,13 @@ FEATURES             Location/Qualifiers
                      MEMNEADAHAAVPSALKDRVHFMSRDIFTTQPVRADVYYIRQIFHDWSDKYCTKLLRAH
                      TSQLEAGSSVLIHDCILPEVPGSSLPLWKERDMRAMDLGLVAHMNGRERSVDEWHKLVT
                      EADPRFKIRQISQPEGSMLALIEVVFNA"
+                     /Pfam="Methyltransf_2"
      CDS             complement(join(13375..13585,13648..13867,13930..14529,
                      14594..14662,14749..14851,14922..15038,15102..15317))
                      /codon_start=1
                      /locus_tag="J7T55_008517"
                      /product="cytochrome P450 monooxygenase PaP450-3"
-                     /label=PaP450-3
+                     /label="PaP450-3"
                      /db_xref="GeneID:77778712"
                      /protein_id="XP_052997792.1"
                      /translation="MLSTMDTVAALAAVFVAGTLLSRLASWIRYHFKIRKIPLAHNLGL
@@ -160,11 +167,12 @@ FEATURES             Location/Qualifiers
                      GWNQTALSQLKLMESIMKESQRLKPINRVINKRIVTEDLHLSNDVFLPKGSYVAVSGER
                      MHNPSVYEDPEQYDAYRFIKKAEEGPESARFSGYTSITTDSVGFGYGKHSCPGRGYVSQ
                      EMKVILSHILLKYDFRFPEGYQPKGVNNGFDSITDIMASCMIRRRAEEVKLPG"
+                     /Pfam="p450"
      CDS             complement(16741..17961)
                      /codon_start=1
                      /locus_tag="J7T55_008518"
                      /product="glycosyltransferase PaGT"
-                     /label=PaGT
+                     /label="PaGT"
                      /db_xref="GeneID:77778713"
                      /protein_id="XP_052997793.1"
                      /translation="MSPPTQIKPPQGTTPVPPSELDPRSDEEIVRSISAHVKPTDSEKN
@@ -175,12 +183,13 @@ FEATURES             Location/Qualifiers
                      LDEMWYYQPKTDYLGSRQFELLTTRYDAPEPQRGDAEEFVNDMLANTMLMKFCHGLKDA
                      MVSSLADIWDDPKHDGTDCAPGTFAEYLRWGTLHLRQTRTLEPVKLTAPAGKLHHVAMF
                      EPFPSTN"
+                     /Pfam="Caps_synth"
      CDS             complement(join(18275..18443,18498..18658,18723..19172,
                      19235..19310,19388..19727,19796..19927,19994..20240))
                      /codon_start=1
                      /locus_tag="J7T55_008518"
                      /product="cytochrome P450 monooxygenase PaP450-2"
-                     /label=PaP450-2
+                     /label="PaP450-2"
                      /db_xref="GeneID:77778713"
                      /protein_id="XP_052997793.1"
                      /translation="MSTLQGLLDALQHHKLQLLCIGPLVYACVSFIIKIVYRIYFHPLA
@@ -193,13 +202,14 @@ FEATURES             Location/Qualifiers
                      SPHEELIYKDWVIPRNTPVGMSALFMHMDPLVYKDPTEYHPERWLEDVTPEMHRNYVPF
                      TKGSRRCLGVELSYAEITLVFASLFGPKGPKLKLYETNESDGDPACHFLLPLPRLDSKG
                      IRVTVEA"
+                     /Pfam="p450"
      CDS             join(22517..22793,22894..22922,22992..23269,23353..24022,
                      24115..24275,24345..24508,24585..24686,24744..24904,
                      24979..25296)
                      /codon_start=1
                      /locus_tag="J7T55_008519"
                      /product="terpene synthase PaFS"
-                     /label=PaFS
+                     /label="PaFS"
                      /db_xref="GeneID:77778714"
                      /protein_id="XP_052997794.1"
                      /translation="MEFKYSEVVEPSTYYTEGLCEGIDVRKSKFTTLEDRGAIRAHEDW
@@ -215,12 +225,13 @@ FEATURES             Location/Qualifiers
                      ADNEIPRTKIQSCLHRLTRLLGRCFQIRDDYQNLVSADYTKQKGFCEDLDEGKWSLALI
                      HMIHKQRSHMALLNVLSTGRKHGGMTLEQKQFVLDIIEEEKSLDYTRSVMMGLHVQLRA
                      EIGRIEVLLDSPNPAMRLLLELLRV"
+                     /Pfam="Terpene_syn_C_2, GGPS"
      CDS             join(26876..26929,26998..27040,27111..27298,27372..27908,
                      27989..28366)
                      /codon_start=1
                      /locus_tag="J7T55_008520"
                      /product="2OG-Fe(II)-dependent dioxygenase Fc-dox"
-                     /label=fc-dox
+                     /label="fc-dox"
                      /db_xref="GeneID:77778715"
                      /protein_id="XP_052997795.1"
                      /translation="MGSTAEDFVIKPMKGEHGFGAEIYGLDVNNITDEQVDRLRDTIQR
@@ -231,12 +242,13 @@ FEATURES             Location/Qualifiers
                      PVTGGKHFHVQPNIVRRVFVRSGPDEEPKVIDDVKEVRDFFTKFQYRIIRPENIYVGPE
                      EEGDQLLFFNWGVMHSKIDYPIEMGTRTTHQGWLAGDRPPKGPVPIPDPRARSNIYYQK
                      "
+                     /Pfam="TauD"
      CDS             complement(join(28973..29132,29185..29377,29429..30340,
                      30394..30592,30661..30732))
                      /codon_start=1
                      /locus_tag="J7T55_008521"
                      /product="cytochrome P450 monooxygenase PaP450-1"
-                     /label=PaP450-1
+                     /label="PaP450-1"
                      /db_xref="GeneID:77778716"
                      /protein_id="XP_052997796.1"
                      /translation="MYTVSLPHGPFLGSRAQAAFVSFSVLGLTLLFSKLFYNAYLHPLR
@@ -248,13 +260,14 @@ FEATURES             Location/Qualifiers
                      LTSMIRKDFQTPQEINSKHLAQNSYLTAVLNEALRIYPPVAGATPRVTPPEGSQIDGRY
                      VPGNMSVAVNQVAMNRSPKNFTNPDQFVPGRWLGDGCFPDDQLQLCQPFSHGPRACLGR
                      NLAWAEMRLIMGHLLWNFDVELSSESANWNSQKTWFIWDKPDLMIRFKSREGQ"
+                     /Pfam="p450"
      CDS             join(31517..32387,32477..32610)
                      /codon_start=1
                      /locus_tag="J7T55_008522"
                      /product="short-chain dehydrogenase/reductase PaSDR"
-                     /label=PaSDR
-                     /note="revised sequence
-                     The gene was tentatively named PaSDR."
+                     /label="PaSDR"
+                     /note="revised sequence The gene was tentatively named
+                     PaSDR."
                      /db_xref="GeneID:77778717"
                      /protein_id="XP_052997797.1"
                      /translation="MFGSFNSLKNAWAQVFPQAPDFTESSIPDLLGKVYIVTGANSGLG
@@ -263,6 +276,7 @@ FEATURES             Location/Qualifiers
                      SSPKDSVRVIWVSSIAVNFSEQGGLDMDNLDYHEDKSAVTKYAVSKVGNFLHSVELARR
                      HGASSDGVVSVALNPGNLDTELGRDRSWLETKILRTFVLYLPVFGAYTELFAGLSDPIT
                      AEMVRDNNWIGPWGRFCRIREDIDQAARPRSEGGHGLAERFWRWTEEQVKPYV"
+                     /Pfam="adh_short"
 ORIGIN
         1 tcatgtattt tgtctcaaag agacttcagg tgcctccaat cgtcggcgca caagaacctg
        61 ggcaaatgga tcggcgatca agtcgaaccc attattaaac gtggctggtg tatagttgtc

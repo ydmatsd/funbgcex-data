@@ -1,31 +1,31 @@
-LOCUS       FBGC00422       11850 bp DNA     linear   UNA 06-MAR-2023
+LOCUS       FBGC00422              11850 bp    DNA     linear   UNA 06-MAR-2023
 DEFINITION  fusaproliferin.
 ACCESSION   FBGC00422
-VERSION     .
+VERSION     FBGC00422
 KEYWORDS    .
 SOURCE      Fusarium proliferatum NRRL 62905
   ORGANISM  Fusarium proliferatum NRRL 62905
+            .
 REFERENCE   1  (bases 1 to 11850)
   AUTHORS   Ceranic A, Svoboda T, Berthiller F, Sulyok M, Samson JM, Guldener U,
             Schuhmacher R, Adam G.
-  TITLE     Identification and Functional Characterization of the Gene Cluster 
-            Responsible for Fusaproliferin Biosynthesis in Fusarium 
+  TITLE     Identification and Functional Characterization of the Gene Cluster
+            Responsible for Fusaproliferin Biosynthesis in Fusarium
             proliferatum.
   JOURNAL   Toxins 2021;13(7):468
-  PUBMED    34357940
+   PUBMED   34357940
 REFERENCE   2  (bases 1 to 11850)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Mar 6, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.3390/toxins13070468"; journalName: "Toxins"; date: "2021"; 
+  JOURNAL   Exported Mar 6, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
+            "10.3390/toxins13070468"; journalName: "Toxins"; date: "2021";
             volume: "13"; issue: "7"; pages: "468"
 FEATURES             Location/Qualifiers
      source          1..11850
                      /strain="NRRL62905"
                      /mol_type="genomic DNA"
-                     /label=contig: FPRN_scaffold003
+                     /label="contig: FPRN_scaffold003"
                      /note="contig: FPRN_scaffold003"
                      /db_xref="taxon:948311"
                      /organism="Fusarium proliferatum"
@@ -34,7 +34,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="FPRN_05484"
                      /product="cytochrome P450 monooxygenase FUP2"
-                     /label=FUP2
+                     /label="FUP2"
                      /protein_id="CVK87169.1"
                      /translation="MAFTSPLSTWSLGQQFGLALVISALALVSVIIYGCFLHPLRHIPG
                      PFLAKFSPLWIMRALHRMRFNSELQALHQQYGNVVRIGPNEVSFASLEAETAIYAKQED
@@ -45,11 +45,12 @@ FEATURES             Location/Qualifiers
                      TFVSDEEITGARLGRLPFLNACIRETLRLLPPANGKTAQRTASSCTIDGVHISAGTTVS
                      ADLYTIQRSPKYFADPAAFRPERWLDVAEDSEFKRDNRAAYRPFLIGSRACIGREMAQQ
                      SIRLIVGNLLWKYDFQQLDQDGFVWERDAGSSLIYTDYKVMVHVMKASGRS"
+                     /Pfam="p450"
      CDS             join(2735..3023,3079..3370,3421..5101)
                      /codon_start=1
                      /locus_tag="FPRN_05485"
                      /product="terpene synthase FUP1"
-                     /label=FUP1
+                     /label="FUP1"
                      /protein_id="CVK87172.1"
                      /translation="MDPLLYRSRHIPAEEAQETGCFTTLPIRIHLRDDLADAASRRFVG
                      DWAREMGDGREKKTYFSFSPVGNWASLIYPEAIPERLGVLAYLSDLGLIHDDTGEGLSI
@@ -65,11 +66,12 @@ FEATURES             Location/Qualifiers
                      YAAQKGLCEDLDEGKFSYPIVYCLANHPEYRGHILGVFRQRPTVATTTASPLSTESKAH
                      LVSCLRKCGAFEKTLSCLRDVERELELEIDRLERLTGEANPMLRLCLAKLSTKGITTLG
                      "
+                     /Pfam="Terpene_syn_C_2, GGPS"
      CDS             join(5931..6029,6084..6593,6662..7340,7405..7676)
                      /codon_start=1
                      /locus_tag="FPRN_05486"
                      /product="FAD-linked oxidoreductase FUP4"
-                     /label=FUP4
+                     /label="FUP4"
                      /protein_id="CVK87175.1"
                      /translation="MRQSSTLTWTSVLLAPLAASKGLIADYDSCHSACVSLSSQLSVES
                      VGDYIAEFEQQPIAGAGVEAGSLYWSQQQQAVRPACLVHAREAQDVALVVQTSRSTGCP
@@ -81,11 +83,12 @@ FEATURES             Location/Qualifiers
                      IQPLTKNILRAQSKRGGNVMGLDEESGPLIVCSFGWEWFRETDDAVVIAGIKSVLEKSV
                      AAAKEKGLYHPFKYMNYAAEDQDPIASYGAENVEFLKKVRHTYDSDGLFTELVPGGHKI
                      EW"
+                     /Pfam="FAD_binding_4"
      CDS             complement(join(7782..8764,8823..9012))
                      /codon_start=1
                      /locus_tag="FPRN_05487"
                      /product="acetyltransferase FUP5"
-                     /label=FUP5
+                     /label="FUP5"
                      /protein_id="CVK87178.1"
                      /translation="MPLERADFVGAIWLTTPILVLLGSKTPRHLRWILLLPFGGSCLLV
                      AFAFPFGPDVAKNYTFGTVFYVALVNFNLLVLEDPYLEHKWTQTTSDGKERQQPFHSLG
@@ -94,11 +97,12 @@ FEATURES             Location/Qualifiers
                      DVHPVNGPWVECYTLSRFWNRTWHQNFRRGLQIPSRVVARRVVRAPRGSMLSRQTQSYF
                      AFTLSGLYHWAAAKMAAPSESFTRTLTFFLLMPNILLLEDLVIRFAQEKLGWRGSWWRI
                      VGLVWTFLALNILGTGFVNDLVAPGLVTAFPALRMSPTYYMLNTMVENRG"
+                     /Pfam="MBOAT_2"
      CDS             join(10140..10383,10447..10776,10835..11850)
                      /codon_start=1
                      /locus_tag="FPRN_05488"
                      /product="cytochrome P450 monooxygenase FUP3"
-                     /label=FUP3
+                     /label="FUP3"
                      /protein_id="CVK87181.1"
                      /translation="MSLFIFPVETARPLLVLAAAALLIFPILYFLYLTVYRLFLSPISQ
                      FPGPKLAAWTYWYEFWYDVVAEPEYTFKIGRLHKQYGPIVRINPDEIHIADPDFYNTIY
@@ -110,6 +114,7 @@ FEATURES             Location/Qualifiers
                      DDREWRIPPGTPLSMTSNLVHHDERVFPDSHTFKPERWVNDPLLDRYLVAFGKGGRACL
                      GINLAYAELYLTLAALFRVYGTEEVQGKDDIGTLKLFETTAADLVITSDTVVPVMPEDS
                      KGLRVTVHQRPE"
+                     /Pfam="p450"
 ORIGIN
         1 ttatgatctg ccgctggctt tcatcacatg taccatgacc ttgtagtccg tgtaaatgag
        61 gctacttcca gcgtcgcgct cccaaacaaa cccatcctga tccagctgct gaaagtcata

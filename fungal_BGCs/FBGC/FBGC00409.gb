@@ -1,22 +1,22 @@
-LOCUS       FBGC00409       21771 bp DNA     linear   UNA 09-MAY-2023
+LOCUS       FBGC00409              21771 bp    DNA     linear   UNA 09-MAY-2023
 DEFINITION  psilocybin.
 ACCESSION   FBGC00409
-VERSION     .
+VERSION     FBGC00409
 KEYWORDS    .
 SOURCE      Psilocybe cubensis CBS 102434
   ORGANISM  Psilocybe cubensis CBS 102434
+            .
 REFERENCE   1  (bases 1 to 21771)
   AUTHORS   Fricke J, Blei F, Hoffmeister D.
   TITLE     Enzymatic Synthesis of Psilocybin.
   JOURNAL   Angew Chem Int Ed Engl 2017;56:12352-12355
-  PUBMED    28763571
+   PUBMED   28763571
 REFERENCE   2  (bases 1 to 21771)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported May 9, 2023 from SnapGene 6.2.2
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1002/anie.201705489"; journalName: "Angew Chem Int Ed Engl"; 
+  JOURNAL   Exported May 9, 2023 from SnapGene 6.2.2 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1002/anie.201705489"; journalName: "Angew Chem Int Ed Engl";
             date: "2017"; volume: "56"; pages: "12352-12355"
 FEATURES             Location/Qualifiers
      source          1..21771
@@ -27,7 +27,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="psiR"
                      /product="transcription factor PsiR"
-                     /label=psiR
+                     /label="psiR"
                      /note="PsiR"
                      /protein_id="ASU62243.1"
                      /translation="MAPATPATHDPALSHGAPPAPGAPAPANAPPNASGDIAGMQLSGL
@@ -37,12 +37,13 @@ FEATURES             Location/Qualifiers
                      GRIVPSGSGEKAKGAILSRAVQYIHHLKENEARNIEKWTLEKLLMDQAMGDLQAQLEEV
                      KRLWEEERMARTRLEAELEVLRNMNGVNAGSAPASKDESAAGTKRRSTDGAEAATAATE
                      SSTANAEGERDGKRQRTE"
-     CDS             join(7715..8078,8138..8381,8444..8484,8537..8943,8995..9295,
-                     9357..9440,9497..9578,9652..9694,9757..9837)
+                     /Pfam="HLH"
+     CDS             join(7715..8078,8138..8381,8444..8484,8537..8943,
+                     8995..9295,9357..9440,9497..9578,9652..9694,9757..9837)
                      /codon_start=1
                      /locus_tag="Psicub_002388"
                      /product="major facilitator superfamily transporter PsiT1"
-                     /label=psiT1
+                     /label="psiT1"
                      /protein_id="Psicub:CDS_7674"
                      /translation="MNPTTATDAHERTSLLSGRPQSAANSTAPYERQVQPSRKSQCFTP
                      VTVITIITLIYRLATTMVITTNIRVLHTVACQLWYHVNDPDVFPGGNIPEKYCALPGVD
@@ -54,11 +55,12 @@ FEATURES             Location/Qualifiers
                      ATDSGEAGVHTQEVVVSETSDRMDVHITVISWTIESLAYIVLGTVGSFYAQLLAVASIG
                      FGSGRIPGIRSLVAASVDPLKQGEALASVEIISNVGKILSPIVMGAIMTSTISTHSQTV
                      FYVHAVIVAIGASVLFLVRDSDRYRKPGVNL"
+                     /Pfam="Spd14"
      CDS             join(10334..10561,10625..11485)
                      /codon_start=1
                      /locus_tag="Psicub_002398"
                      /product="phosphotransferase PsiK"
-                     /label=psiK
+                     /label="psiK"
                      /protein_id="Psicub:CDS_7675"
                      /translation="MAFDLKTEDGLITYLTKHLSLDVDTSGVKRLSGGFVNVTWRIKLN
                      APYQGHTSIILKHAQPHMSTDEDFKIGVERSVYEYQAIKLMMANREVLGGVDGIVSVPE
@@ -67,13 +69,14 @@ FEATURES             Location/Qualifiers
                      ADLWSGNILLQLEEGNPSKLQKIYILDWELCKYGPASLDLGYFLGDCYLISRFQDEQVG
                      TTMRQAYLQSYARTSKHSINYAKVTAGIAAHIVMWTDFMQWGSEEERINFVKKGVAAFH
                      DARGNNDNGEITSTLLKESSTA"
+                     /Pfam="FrzJ"
      CDS             join(11802..11985,12038..12146,12199..12414,12472..12617,
                      12668..12783,12839..12956,13020..13033,13096..13370,
                      13432..13569,13682..13819,13884..13956)
                      /codon_start=1
                      /gene="psiH"
                      /product="cytochrome P450 monooxygenase PsiH"
-                     /label=psiH
+                     /label="psiH"
                      /note="PsiH"
                      /protein_id="ASU62246.1"
                      /translation="MIAVLFSFVIAGCIYYIVSRRVRRSRLPPGPPGIPIPFIGNMFDM
@@ -85,13 +88,14 @@ FEATURES             Location/Qualifiers
                      EEDDSLPYLTACIKELFRWNQIAPLAIPHKLMKDDVYRGYLIPKNTLVFANTWAVLNDP
                      EVYPDPSVFRPERYLGPDGKPDNTVRDPRKAAFGYGRRNCPGIHLAQSTVWIAGATLLS
                      AFNIERPVDQNGKPIDIPADFTTGFFRHPVPFQCRFVPRTEQVSQSVSGP"
+                     /Pfam="p450"
      CDS             complement(join(14523..14661,14721..14834,14889..15172,
                      15228..15530,15587..15743,15799..16036,16094..16151,
                      16203..16293,16349..16536))
                      /codon_start=1
                      /gene="psiT2"
                      /product="major facilitator superfamily transporter PsiT2"
-                     /label=psiT2
+                     /label="psiT2"
                      /note="PsiT2"
                      /protein_id="ASU62245.1"
                      /translation="MSLERSTSPNPTERTSLLSDTASTISSRDDVEQSSLKQRRTPIPT
@@ -104,6 +108,7 @@ FEATURES             Location/Qualifiers
                      PLAQTGYSEINKTLHPTTTGLLYAAIAILLLLARVCVMAFPISMMLVKQTADKHSLATA
                      NGLVQVAMTLARAFCPTISSSVFAYSTSHNILGGHFWVVVMVFISLVGVWQSTKIARVT
                      KTKEQL"
+                     /Pfam="MFS_1"
      CDS             complement(join(17650..17694,17750..17839,17917..17986,
                      18049..18149,18203..18317,18395..18512,18588..18661,
                      18717..18809,18864..18874,18928..19003,19050..19109,
@@ -111,7 +116,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="Psicub_002399"
                      /product="methyltransferase PsiM"
-                     /label=psiM
+                     /label="psiM"
                      /protein_id="Psicub:CDS_7678"
                      /translation="MHIRNPYRTPIDYQALSEAFPPLKPFVSVNADGTSSVDLTIPEAQ
                      RAFTAALLHRDFGLTMTIPEDRLCPTVPNRLNYVLWIEDIFNYTNKTLGLSDDRPIKGV
@@ -119,11 +124,12 @@ FEATURES             Location/Qualifiers
                      ILVPIFEATEEYEYEFTMCNPPFYDGAADMQTSDAAKGFGFGVGAPHSGTVIEMSTEGG
                      ESAFVAQMVRESLKLRTRCRWYTSNLGKLKSLKEIVGLLKELEISNYAINEYVQGSTRR
                      YAVAWSFTDIQLPEELSRPSNPELSSLF"
+                     /Pfam="Methyltransf_10"
      CDS             complement(join(20346..21401,21451..21685,21743..21771))
                      /codon_start=1
                      /locus_tag="Psicub_002410"
                      /product="decarboxylase PsiD"
-                     /label=psiD
+                     /label="psiD"
                      /protein_id="Psicub:CDS_7679"
                      /translation="MQVIPACNSAAIRSLCPTPESFRNMGWLSVSDAVYSEFIGELATR
                      ASNRNYSNEFGLMQPIQEFKAFIESDPVVHQEFIDMFEGIQDSPRNYQELCNMFNDIFR
@@ -133,6 +139,7 @@ FEATURES             Location/Qualifiers
                      HGSILQGFLNVTAYHRWHAPVNGTIVKIINVPGTYFAQAPSTIGDPIPDNDYDPPPYLK
                      SLVYFSNIAARQIMFIEADNKEIGLIFLVFIGMTEISTCEATVSEGQHVNRGDDLGMFH
                      FGGSSFALGLRKDCRAEIVEKFTEPGTVIRINEVVAALKA"
+                     /Pfam="PSDC, PS_Dcarbxylase"
 ORIGIN
         1 tcactcggtt ctttgtcgct tgccgtcgcg ttcgccctcg gcattggcgg tgctgctttc
        61 agtggcggcg gtggcggcct ctgctccatc ggtactcctc ctcttagtac ctgcagcact

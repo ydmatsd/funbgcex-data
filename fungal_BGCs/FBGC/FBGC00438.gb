@@ -1,24 +1,24 @@
-LOCUS       FBGC00438        9613 bp DNA     linear   UNA 09-MAR-2023
+LOCUS       FBGC00438               9613 bp    DNA     linear   UNA 09-MAR-2023
 DEFINITION  aspterric acid.
 ACCESSION   FBGC00438
-VERSION     .
+VERSION     FBGC00438
 KEYWORDS    .
 SOURCE      Aspergillus terreus NIH2624
   ORGANISM  Aspergillus terreus NIH2624
+            .
 REFERENCE   1  (bases 1 to 9613)
   AUTHORS   Yan Y, Liu Q, Zang X, Yuan S, Bat-Erdene U, Nguyen C, Gan J, Zhou J,
             Jacobsen SE, Tang Y.
-  TITLE     Resistance-gene-directed discovery of a natural-product herbicide 
+  TITLE     Resistance-gene-directed discovery of a natural-product herbicide
             with a new mode of action.
   JOURNAL   Nature 2018;559:415-418
-  PUBMED    29995859
+   PUBMED   29995859
 REFERENCE   2  (bases 1 to 9613)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Mar 9, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1038/s41586-018-0319-4"; journalName: "Nature"; date: "2018"; 
+  JOURNAL   Exported Mar 9, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1038/s41586-018-0319-4"; journalName: "Nature"; date: "2018";
             volume: "559"; pages: "415-418"
 FEATURES             Location/Qualifiers
      source          1..9613
@@ -30,7 +30,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="ATEG_04415"
                      /product="dihydroxyacid dehydratase AstD"
-                     /label=astD
+                     /label="astD"
                      /protein_id="EAU34862.1"
                      /translation="MFASRIRSRALGLHPRARFENTRLPASTTGRRYKSDETLNRVSSK
                      ITQPKSQGASQAMLYATGLTEEDMSKPQVGISSVWFEGNPCNMHLHDLSAIVRDSVHRA
@@ -43,11 +43,12 @@ FEATURES             Location/Qualifiers
                      RGEIKKGEKTVVIIRYEGPKGGPGMPEMLKPSAAIMGAGLGQDVALLTDGRFSGGSHGF
                      LIGHIVPEAMEGGPIALARDGDRIVIDAEERVVDLDIPTEELEKRRKEWKAPPLRYQKG
                      TLKKYCTLVSDASHGCVTDGPI"
+                     /Pfam="ILVD_EDD"
      CDS             complement(3152..4381)
                      /codon_start=1
                      /locus_tag="ATEG_04416"
                      /product="terpene synthase AstA"
-                     /label=astA
+                     /label="astA"
                      /note="similar to trichodiene synthase"
                      /protein_id="EAU34863.1"
                      /translation="MDMNTFPASTYCESIVRFLDAIEYHDDNLTHEERVEGLRHVHSKT
@@ -58,12 +59,13 @@ FEATURES             Location/Qualifiers
                      KDPDMLATIRGFIHGYATWHICDFRYRLREIYDREDLQESGARFREYFDKAIDVGWVDV
                      EEWTCQVQGFEVEGPAPSGSEVQAYQANAFGFSVDTQRHHNIDYVGSSILGLFEWATRY
                      LRGKLPLGNA"
+                     /Pfam="TRI5"
      CDS             join(5482..5704,5761..6626,6677..6787,6841..7007,
                      7070..7241)
                      /codon_start=1
                      /locus_tag="ATEG_04417"
                      /product="cytochrome P450 monooxygenase AstB"
-                     /label=astB
+                     /label="astB"
                      /protein_id="EAU34864.1"
                      /translation="MLFQDLSFPAAIGAVFGAVAISVAARCIYDLFFHPLRNFPGPKRA
                      AIWSFYEFYYDVIRDGTYLWEIEKMHQKYGPIVRINSRSLHIHDPEYFNTIYAGSGRKV
@@ -74,11 +76,12 @@ FEATURES             Location/Qualifiers
                      LQAVAKPDGQQWTTTELEAVPYMRGVVQEAIRLAYGLVVRIPRISPHEALRYNGFVIPP
                      GTPVSQSTYLVNNDPSVFPNPQVFDPERWVKAAQDGVSLDKYMVSFSKGSRGCLGINLA
                      YAKLYLGIARVATSLDMELFETTAKAISVYHTRGFAFPKEGDGAVKARVMGLCK"
+                     /Pfam="p450"
      CDS             join(7898..8131,8180..8564,8616..9613)
                      /codon_start=1
                      /locus_tag="ATEG_04418"
                      /product="cytochrome P450 monooxygenase AstC"
-                     /label=astC
+                     /label="astC"
                      /protein_id="EAU34865.1"
                      /translation="MGASTFSQSFAEGYAAWALMLPALVGCALLIYRAFFAIRYPANLP
                      LAGEPDGKRTFSWRTRWRYYIDCEALYKETYDNYTKHGKTVLLPGLGFRHDIVLPQSAM
@@ -90,6 +93,7 @@ FEATURES             Location/Qualifiers
                      VEGIKTEDGIELPKGAYVSFLGRPLQCDPETFEDPFEYNPFRFSRIREQAPRDTKGRSS
                      ASHLSFVSTSPEHLPFGHGGHSCPGRFLVDFEVKMIVAYLLMNYDVEFPAEYKGQRPAN
                      RWMAEALMPPSGARIRIKRRS"
+                     /Pfam="p450"
 ORIGIN
         1 atgttcgcgt cgaggatccg atcgagagct ctggggttgc acccacgagc ccggtttgag
        61 aatacgtacg taaaatcttc cctcgcaatg cttctcattc cctcctcaaa aaaagacaaa

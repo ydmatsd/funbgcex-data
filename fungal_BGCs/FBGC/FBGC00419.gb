@@ -1,25 +1,25 @@
-LOCUS       FBGC00419        7128 bp DNA     linear   UNA 05-MAR-2023
+LOCUS       FBGC00419               7128 bp    DNA     linear   UNA 05-MAR-2023
 DEFINITION  conidiogenone.
 ACCESSION   FBGC00419
-VERSION     .
+VERSION     FBGC00419
 KEYWORDS    .
 SOURCE      Penicillium rubens Wisconsin 54-1255
   ORGANISM  Penicillium rubens Wisconsin 54-1255
+            .
 REFERENCE   1  (bases 1 to 7128)
-  AUTHORS   Shiina T, Nakagawa K, Fujisaki Y, Ozaki T, Liu C, Toyomasu T, 
+  AUTHORS   Shiina T, Nakagawa K, Fujisaki Y, Ozaki T, Liu C, Toyomasu T,
             Hashimoto M, Koshino H, Minami A, Kawaide H, Oikawa H.
-  TITLE     Biosynthetic study of conidiation-inducing factor conidiogenone: 
-            heterologous production and cyclization mechanism of a key 
+  TITLE     Biosynthetic study of conidiation-inducing factor conidiogenone:
+            heterologous production and cyclization mechanism of a key
             bifunctional diterpene synthase.
   JOURNAL   Biosci Biotechnol Biochem 2019;83:192-201
-  PUBMED    30343633
+   PUBMED   30343633
 REFERENCE   2  (bases 1 to 7128)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Mar 5, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1080/09168451.2018.1536518"; journalName: "Biosci Biotechnol 
+  JOURNAL   Exported Mar 5, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1080/09168451.2018.1536518"; journalName: "Biosci Biotechnol
             Biochem"; date: "2019"; volume: "83"; pages: "192-201"
 FEATURES             Location/Qualifiers
      source          1..7128
@@ -28,16 +28,17 @@ FEATURES             Location/Qualifiers
                      /clone="Pc00c20"
                      /db_xref="taxon:500485"
                      /organism="Penicillium rubens Wisconsin 54-1255"
-     CDS             complement(join(1..468,527..611,665..725,778..885,933..1093,
-                     1148..1302,1414..2047,2097..2362,2421..2452,2504..2795))
+     CDS             complement(join(1..468,527..611,665..725,778..885,
+                     933..1093,1148..1302,1414..2047,2097..2362,2421..2452,
+                     2504..2795))
                      /codon_start=1
                      /gene="Pc20g10860"
                      /locus_tag="PCH_Pc20g10860"
                      /product="terpene synthase PchDS"
-                     /label=PchDS
+                     /label="PchDS"
                      /note="Title: strong similarity to geranylgeranyl
-                     pyrophosphate synthase al-3 - Neurospora crassa
-                     revised sequence"
+                     pyrophosphate synthase al-3 - Neurospora crassa revised
+                     sequence"
                      /db_xref="GOA:B6HFX8"
                      /db_xref="InterPro:IPR000092"
                      /db_xref="InterPro:IPR008949"
@@ -61,16 +62,17 @@ FEATURES             Location/Qualifiers
                      FKGSQKGQTLSLEMKQYMLEEITARGAFSETKAVLRKLHTELLRLLIETEKKAGGVENW
                      ALRLLIMKLDIAEEKKVAPPKSDSHWGVNQRRAWKGCQKNGRPIDKACFLRAMEETLQK
                      "
+                     /Pfam="Terpene_syn_C_2, GGPS"
      CDS             join(5441..5630,5676..6511,6570..6677,6734..6900,
                      6954..7128)
                      /codon_start=1
                      /gene="Pc20g10870"
                      /locus_tag="PCH_Pc20g10870"
                      /product="cytochrome P450 monooxygenase PchP450"
-                     /label=PchP450
-                     /note="unknown EC_number=1.14.-.-;
-                     Title: strong similarity to cytochrome P450 trichodiene 
-                     oxygenase TRI4 - Fusarium sporotrichioides"
+                     /label="PchP450"
+                     /note="unknown EC_number=1.14.-.-; Title: strong similarity
+                     to cytochrome P450 trichodiene oxygenase TRI4 - Fusarium
+                     sporotrichioides"
                      /db_xref="GOA:B6HFX9"
                      /db_xref="InterPro:IPR001128"
                      /db_xref="InterPro:IPR002401"
@@ -89,6 +91,7 @@ FEATURES             Location/Qualifiers
                      YMRGVMNEGLRLSGVITRLPRRAPDEALRYKQWTIPPNSLMSTSSHFVHTNSDLFPDPL
                      VFDPERWIRAEAAGQRLEHMIVTFSKGSRQCMGNHLALAELYLVISTLVREFDMDLYGV
                      TADNIVTHREYGFGVPKERGGGLRVSISRVRTP"
+                     /Pfam="p450"
 ORIGIN
         1 tcatttctga agcgtctctt ccatcgccct caaaaagcaa gccttgtcaa taggccgccc
        61 attcttctga catcctttcc acgctcgtcg ctggttgacc ccccagtgag aatcactctt

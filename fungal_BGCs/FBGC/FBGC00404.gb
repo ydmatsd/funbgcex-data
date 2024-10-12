@@ -1,40 +1,41 @@
-LOCUS       FBGC00404       14064 bp DNA     linear   UNA 04-MAR-2023
+LOCUS       FBGC00404              14064 bp    DNA     linear   UNA 04-MAR-2023
 DEFINITION  piperazine derivatives.
 ACCESSION   FBGC00404
-VERSION     .
+VERSION     FBGC00404
 KEYWORDS    .
 SOURCE      Aspergillus flavus NRRL3357
   ORGANISM  Aspergillus flavus NRRL3357
+            .
 REFERENCE   1  (bases 1 to 14064)
-  AUTHORS   Forseth RR, Amaike S, Schwenk D, Affeldt KJ, Hoffmeister D, 
+  AUTHORS   Forseth RR, Amaike S, Schwenk D, Affeldt KJ, Hoffmeister D,
             Schroeder FC, Keller NP.
-  TITLE     Homologous NRPS-like gene clusters mediate redundant small-molecule 
+  TITLE     Homologous NRPS-like gene clusters mediate redundant small-molecule
             biosynthesis in Aspergillus flavus.
   JOURNAL   Angew Chem Int Ed Engl 2013;52:1590-4
-  PUBMED    23281040
+   PUBMED   23281040
 REFERENCE   2  (bases 1 to 14064)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Mar 4, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1002/anie.201207456"; journalName: "Angew Chem Int Ed Engl"; 
-            date: "2013"; volume: "52"; pages: "1590-4"
-COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final 
-            NCBI review. The reference sequence is identical to 
-            CP059873.##Genome-Assembly-Data-START##
+  JOURNAL   Exported Mar 4, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     ##Genome-Assembly-Data-START##
             Assembly Date          :: 05-SEP-2019
             Assembly Method        :: MECAT v. SEPT-2019
             Assembly Name          :: UGA_Afla_NRRL3357
             Genome Representation  :: Full
             Expected Final Version :: Yes
             Genome Coverage        :: 70.0x
-            Sequencing Technology  :: PacBio RSII; Bionano Saphyr 
-            ##Genome-Assembly-Data-END####Genome-Annotation-Data-START##
-            Annotation Provider :: INSDC submitter
-            Annotation Status   :: Full annotation
-            Annotation Pipeline :: Eukaryotic Annotation Propagation Pipeline 
+            Sequencing Technology  :: PacBio RSII; Bionano Saphyr
+            ##Genome-Assembly-Data-END##
+            ##Genome-Annotation-Data-START##
+            Annotation Provider    :: INSDC submitter
+            Annotation Status      :: Full annotation
+            Annotation Pipeline    :: Eukaryotic Annotation Propagation Pipeline
             ##Genome-Annotation-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1002/anie.201207456"; journalName: "Angew Chem Int Ed Engl";
+            date: "2013"; volume: "52"; pages: "1590-4"
+            PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to
 FEATURES             Location/Qualifiers
      source          1..14064
                      /chromosome="8"
@@ -44,14 +45,14 @@ FEATURES             Location/Qualifiers
                      /country="USA: Dawson, Georgia"
                      /lat_lon="31.76 N 84.43 W"
                      /isolation_source="Moldy Peanuts"
-                     /collection_date=8-Sep-1982
+                     /collection_date="8-Sep-1982"
                      /db_xref="taxon:332952"
                      /organism="Aspergillus flavus NRRL3357"
      CDS             complement(join(1..645,711..1517,1593..1796))
                      /codon_start=1
                      /locus_tag="G4B84_011777"
                      /product="major facilitator superfamily transporter InbF"
-                     /label=inbF
+                     /label="inbF"
                      /db_xref="GeneID:64854009"
                      /protein_id="XP_041151251.1"
                      /translation="MDPCHEKSDSRGSTAFSTNVTNSIGEQNEPSENDGNERAEERTEQ
@@ -64,11 +65,12 @@ FEATURES             Location/Qualifiers
                      STLKVDSGPAQWIGYQIPFGIGLGIGLSQPMVVVQAVLEPDDIPLAIAITAFMESLGGS
                      VAISVAQSVFRSQLVKNMALEAPQANAHGNITTAMTTLRDTVPPEMLSGVLRAYNLAIT
                      QALYVGVALSSLAIVGALPIRWTSVNEKKTEGCP"
+                     /Pfam="MFS_1"
      CDS             complement(2806..3939)
                      /codon_start=1
                      /locus_tag="G4B84_011778"
                      /product="alcohol dehydrogenase InbE"
-                     /label=inbE
+                     /label="inbE"
                      /db_xref="GeneID:64854010"
                      /protein_id="XP_041151252.1"
                      /translation="MMSKLFTPLQVGFCQLKHRVIMAPLTRFRADDNNVPLPIAKEYYS
@@ -78,11 +80,12 @@ FEATURES             Location/Qualifiers
                      TPWNDQQGMKMKDMEQQFLHLITSLKELKLAYLHLTNPRVSVDEDVPLQGPPDGHPLED
                      NAGFVKAWGETSPVFLGGGYTPQSAKHTLDVDYPLNEIGAVFGRLFISNPDLPLRLRDG
                      LPFTPYDRDSFYTPLSPIGYSDYPFSDQAVDLIPVRV"
+                     /Pfam="Oxidored_FMN"
      CDS             4669..7758
                      /codon_start=1
                      /locus_tag="G4B84_011779"
                      /product="NRPS-like carboxylic acid reductase InbA"
-                     /label=inbA
+                     /label="inbA"
                      /db_xref="GeneID:64854011"
                      /protein_id="XP_041151253.1"
                      /translation="MLSNLLPSPEPLGADEYGLCVASNLGLGQLFYRQVRQSPSSIAVV
@@ -103,12 +106,13 @@ FEATURES             Location/Qualifiers
                      RLMIACEQMKSYPMLPNQRKEFVPVDYVNSVILHIAASEHAVGRAYHIVPPNRDMSIDM
                      DATMDLLGDAVNSRIHALPYMEWIDRLAANPPVALQPLQPMLAEKVHDGKTRWELYANM
                      PIYQTTNTDRMLANYPGGLKFPTLDCSLLKKYIAHLRSAC"
-     CDS             join(8922..8936,8986..8992,9049..9068,9143..9161,9227..9346,
-                     9403..9425,9480..9517,9575..9712,9781..10204)
+                     /Pfam="AA-adenyl-dom, ACP_PCP, NAD_binding_4"
+     CDS             join(8922..8936,8986..8992,9049..9068,9143..9161,
+                     9227..9346,9403..9425,9480..9517,9575..9712,9781..10204)
                      /codon_start=1
                      /locus_tag="G4B84_011780"
                      /product="methyltransferase G4B84_011780"
-                     /label=G4B84_011780
+                     /label="G4B84_011780"
                      /note="revised sequence"
                      /db_xref="GeneID:64854012"
                      /protein_id="XP_041151254.1"
@@ -117,12 +121,13 @@ FEATURES             Location/Qualifiers
                      YIYIRGLAACIIDWPGLFRQCWKALRPGGYMEISDFGYSSKSETDSLDRTSGLLRWEQL
                      INEAGDRSPRKVAIASAFLGLMREAGFSDITELIKQVPYSGWSTNPLARKIGQLSNPLH
                      KLGLKNLGLAVLCSVSGMSPADVDREFDAACADMDNPDRQCWMPL"
+                     /Pfam="Methyltransf_23"
      CDS             complement(join(10701..10863,10940..11106,11175..12293,
                      12363..12425))
                      /codon_start=1
                      /locus_tag="G4B84_011781"
                      /product="cytochrome P450 monooxygenase InbC"
-                     /label=inbC
+                     /label="inbC"
                      /db_xref="GeneID:64854013"
                      /protein_id="XP_041151255.1"
                      /translation="MAARLLSSVSLTDVVLLLSSVWIAVHLVLAAYNVYLHPLRRYPGP
@@ -134,11 +139,12 @@ FEATURES             Location/Qualifiers
                      SAEGEITLAAVAALPYLKAVIQEAMRIHPPVPIGLFRVAPAAGAFIDGQWVPGNTWVSV
                      ANLAASRSPTYWRDPERFTPERWLGDAKYESDVREASAPFSIGTRNCIGLNLANANMRI
                      ILARLLWNFDFEAQPDNIDPHELDEYGIWETKPLNLKIKERVQTT"
+                     /Pfam="p450"
      CDS             join(12875..13138,13209..13365,13428..13760,13811..14064)
                      /codon_start=1
                      /locus_tag="G4B84_011782"
                      /product="short-chain dehydrogenase/reductase InbB"
-                     /label=inbB
+                     /label="inbB"
                      /db_xref="GeneID:64854014"
                      /protein_id="XP_041151256.1"
                      /translation="MTVTATERIVTVFGTGNQAGAVARALLADKTSQFKVRAISRHPDS
@@ -147,6 +153,7 @@ FEATURES             Location/Qualifiers
                      AWYYEQFLDKATADVFGGFPTTPDEEGYITFRAPLWGDDEHPSFVSITHDFGDMVHGIL
                      LEPEQWDGKSVPAASDVMTFEQLAQTLQNATGRKSRYIPLPSWEDFGRGIPELDDHKLL
                      FAFTQATGGRYFGDVPTETKTALRLKRRAAEAQGKSGNEANLLSMEEWFKTNFA"
+                     /Pfam="NmrA"
 ORIGIN
         1 tcatggacag ccctccgtct tcttctcatt cactgaagtc caccgaattg gcaaagcccc
        61 cacgattgct agtgacgaaa gagcaactcc aacatacaac gcctgggtga tagctaagtt

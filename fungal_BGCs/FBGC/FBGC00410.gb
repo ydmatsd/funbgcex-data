@@ -1,26 +1,36 @@
-LOCUS       FBGC00410       30094 bp DNA     linear   UNA 05-MAR-2023
+LOCUS       FBGC00410              30094 bp    DNA     linear   UNA 27-MAR-2024
 DEFINITION  penilumamide A.
 ACCESSION   FBGC00410
-VERSION     .
+VERSION     FBGC00410
 KEYWORDS    .
 SOURCE      Aspergillus flavipes CNL-338
   ORGANISM  Aspergillus flavipes CNL-338
+            .
 REFERENCE   1  (bases 1 to 30094)
+  AUTHORS   Heard SC, Diehl KL, Winter JM.
+  TITLE     Biosynthesis of the fungal nonribosomal peptide penilumamide A and
+            biochemical characterization of a pterin-specific adenylation
+            domain.
+  JOURNAL   RSC Chem Biol 2023;4:748-753
+   PUBMED   37799585
+REFERENCE   2  (bases 1 to 30094)
   AUTHORS   Heard SC, Winter JM.
-  TITLE     Biosynthesis of the Fungal Nonribosomal Peptide Penilumamide A and 
+  TITLE     Biosynthesis of the Fungal Nonribosomal Peptide Penilumamide A and
             Biochemical Characterization of a Pterin-Specific Adenylation Domain
   JOURNAL   bioRxiv 2022
-REFERENCE   2  (bases 1 to 30094)
+REFERENCE   3  (bases 1 to 30094)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Mar 5, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1101/2022.08.30.505926"; journalName: "bioRxiv"; date: "2022"
+  JOURNAL   Exported Mar 27, 2024 from SnapGene 7.2.0 https://www.snapgene.com
 COMMENT     ##Assembly-Data-START##
-            Assembly Method       :: SOAPdenovo v. SOAPdenovo2; IDBA-UD v. 2012 
+            Assembly Method       :: SOAPdenovo v. SOAPdenovo2; IDBA-UD v. 2012
             Sequencing Technology :: Illumina
             ##Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1039/d3cb00088e"; journalName: "RSC Chem Biol"; date: "2023";
+            volume: "4"; pages: "748-753"
+            SGRef: number: 2; type: "Journal Article"; doi:
+            "10.1101/2022.08.30.505926"; journalName: "bioRxiv"; date: "2022"
 FEATURES             Location/Qualifiers
      source          1..30094
                      /strain="CNL-338"
@@ -32,7 +42,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="plmA"
                      /product="nonribosomal peptide synthetase PlmA"
-                     /label=plmA
+                     /label="plmA"
                      /note="Nonribosomal peptide synthetase"
                      /protein_id="WBQ01555.1"
                      /translation="MATKKSAGPAPPCIVSEHDIAPKQEEGLATIRVQETGLCRDNTLY
@@ -59,12 +69,13 @@ FEATURES             Location/Qualifiers
                      INLQRSWTVLQLLNHVQEQYIRTLQYDYLELADIVDRCTDWAPDTDFGCIVHHQNIQLV
                      QELPLDDAREVEYSLLTRLGLHKEMLLVTEPYKDHMSIEVRANTQILSPEGGRQLAQSV
                      CEMIETLSHSPDMRLEEILHF"
+                     /Pfam="NRPS_C, AA-adenyl-dom, ACP_PCP, NRPS_CT"
      CDS             join(6055..6112,6168..6349,6410..7945)
                      /codon_start=1
                      /gene="plmB"
-                     /product="glucose-methanol-choline family oxidoreductase 
+                     /product="glucose-methanol-choline family oxidoreductase
                      PlmB"
-                     /label=plmB
+                     /label="plmB"
                      /note="GMC oxidoreductase"
                      /protein_id="WBQ01554.1"
                      /translation="MSTTASIETFLRTQFDYLIVGGGTAGLVLAARLSEDEQVQVGVIE
@@ -78,11 +89,12 @@ FEATURES             Location/Qualifiers
                      GLLSYVEDAELLAAGIEFANRVFQSAGLTSPSRLNPPPEMDVDDAAQVRTYVQAATSSF
                      HHLAGTCSMGRVVDERFRVRGISRLRVVDASVMPSPISGNIMATVYGIAERAVEFILED
                      RRMGMCRGNYYSWVG"
+                     /Pfam="GMC_oxred_N, GMC_oxred_C"
      CDS             complement(join(8085..8372,8441..8805,8871..8967))
                      /codon_start=1
                      /gene="plmC"
                      /product="GTP cyclohydrolase PlmC"
-                     /label=plmC
+                     /label="plmC"
                      /note="GTP cyclohydrolase I"
                      /protein_id="WBQ01556.1"
                      /translation="MASYTFPDQENLPLWAKQPQVSEVPVKPTPDEVRPTLASPELSNG
@@ -90,24 +102,25 @@ FEATURES             Location/Qualifiers
                      MLFFTQGYTSAVHEVVNNAIFTVDSSELVLVKDIDIFSLCEHHLVPFQGKVHIGYIPNG
                      RVLGLSKLARVADVFARRLQIQERLTQEIAHAVEEILQPAGVAVVIESTHMCMVMRGVQ
                      KSGAITTTACMTGVLRKDQEMKKHFWS"
+                     /Pfam="GTP_cyclohydroI"
      CDS             join(9280..9598,9656..9789,9866..10141)
                      /codon_start=1
                      /gene="plmD"
                      /product="deaminase PlmD"
-                     /label=plmD
-                     /note="cytidine deaminase-like
-                     revised sequence"
+                     /label="plmD"
+                     /note="cytidine deaminase-like revised sequence"
                      /protein_id="WBQ01557.1"
                      /translation="MRLLLLTVSPVLVIAGGFGMCPVVPRDSCVQPVESLMDTKGIPMS
                      TREYWMRQVQSVLHAAYHPRVCPQYPFAAVLVNHTAGDGDLGDPICTGKNQALQTGNAM
                      LHGEISAMMNCSTLLQDPHGRFRLSPDEARIAMSRLTLYSNAESCPMCAAAMRWAGIRD
                      YVYGTSIETLINAGWQQIDIASAEIWARSTALDGLDGGGSEAPIGPVLAHETDPYFTWQ
                      YDASVACPGGCSRGGDGQCT"
+                     /Pfam="dCMP_cyt_deam_1"
      CDS             join(10408..10537,10607..11040,11092..11991)
                      /codon_start=1
                      /gene="plmE"
                      /product="aldehyde dehydrogenase PlmE"
-                     /label=plmE
+                     /label="plmE"
                      /note="Aldehyde dehydrogenase"
                      /protein_id="WBQ01562.1"
                      /translation="MGKENLCNDHWETRLLINGEFRASSDGKRFNVTNPYTGDVLAQVH
@@ -119,11 +132,12 @@ FEATURES             Location/Qualifiers
                      LVGKAIEAAHRDGRVVVGGEMGEVAGGRLFVQPTIVEDVASDSLLMQAQAWGPVVVVNR
                      FETEEDGVRMSNAYPFGLYAAVYTRDSGRVHRLVRQLDVGNVAVNCAGPTMAFDLPFGG
                      RKLTGGASNGLLYAMGNYLQNKAVLWKTS"
+                     /Pfam="Aldedh"
      CDS             complement(join(12119..13033,13083..13508))
                      /codon_start=1
                      /gene="plmF"
                      /product="FAD-linked oxidoreductase PlmF"
-                     /label=plmF
+                     /label="plmF"
                      /note="FAD-dependent oxidoreductase"
                      /protein_id="WBQ01563.1"
                      /translation="MSITWRENTNADAYAALSRDRVYNGRLPLCLPRAIVRVLGLEDVL
@@ -134,11 +148,12 @@ FEATURES             Location/Qualifiers
                      MESPVQPSSMDSLFAVQAAANVPGHRCSSDNAFLRDGVDVISLLEPAFQTLPHRRSFAF
                      WSPMVPRSRSPLKDMALSIQSDHYVSLYAVWEDAVDDERCRQWAHGFVQSIEAQSVGSY
                      IGEGDPERRPGRFWTEECFRTLMEVRQRWDPECRLSVCPHLIPKDQS"
+                     /Pfam="FAD_binding_4"
      CDS             join(13927..14337,14405..14746,14804..14992)
                      /codon_start=1
                      /gene="plmG"
                      /product="aldolase PlmG"
-                     /label=plmG
+                     /label="plmG"
                      /note="Dihydroneopterin aldolase/epimerase"
                      /protein_id="WBQ01564.1"
                      /translation="MGDSHPQIRLPTRPSLVDVVELRQVEFPLPVADEAWHRQGKSQPC
@@ -147,11 +162,12 @@ FEATURES             Location/Qualifiers
                      PKAVLRANDGLRYRSLVSLAQQGPAFVILEEEIQINGIQCYCVVGINPHERREKQGVMI
                      NLGFKGPGNGPWVSTVLDSYQEMTRAITDEVEVSSFGSVEALATLVAKVATVGFGNEQV
                      TVRLEKSHALAFVEGSGLEITRSKSFFEEEER"
+                     /Pfam="FolB"
      CDS             15322..16056
                      /codon_start=1
                      /gene="plmH"
                      /product="methyltransferase PlmH"
-                     /label=plmH
+                     /label="plmH"
                      /note="SAM-dependent methyltransferase"
                      /protein_id="WBQ01561.1"
                      /translation="MSTQYDSFAKEYNTLKYLPAGLLEQATVEAHLGDVQGLDVLDLAC
@@ -159,11 +175,12 @@ FEATURES             Location/Qualifiers
                      VLAIWLLNYATTEAELLTMWRNIFNNLRPGGRCLGITSNPDMLTSVFPSGPRYGLTITN
                      LENPVYGAVRARVDAHTSPPITFEAYTRQRALYEKTAHAAGFCRLRWLPAQVPDDPCLD
                      YTDLLRCPHLAAFEVSRPQESP"
+                     /Pfam="Methyltransf_25"
      CDS             16928..17701
                      /codon_start=1
                      /gene="plmI"
                      /product="methyltransferase PlmI"
-                     /label=plmI
+                     /label="plmI"
                      /note="SAM-dependent methyltransferase"
                      /protein_id="WBQ01560.1"
                      /translation="MTITKDHAHPDEPTQYDQIGTKNNANLFLPLYPLSIQFVKAQLGD
@@ -171,13 +188,13 @@ FEATURES             Location/Qualifiers
                      QPLQKGSFDVVTALWLLNYAKDRQELSRMWSNIYNNLKPGGRFFGMIPNFDLRNASNLS
                      LFETGTYRYGGVGMKILDRVPDGVRMETTFNLQTPVNVVNYMLDQDLHEECAQQAGMRN
                      VEWIQMPAVDIMALDEKSTSQSPVFQAVTAIRPLL"
+                     /Pfam="Methyltransf_25"
      CDS             complement(join(18499..25161,25213..25683))
                      /codon_start=1
                      /gene="plmJ"
                      /product="nonribosomal peptide synthetase PlmJ"
-                     /label=plmJ
-                     /note="Nonribosomal peptide synthetase
-                     revised sequence"
+                     /label="plmJ"
+                     /note="Nonribosomal peptide synthetase revised sequence"
                      /protein_id="WBQ01559.1"
                      /translation="MGSNESQQPPNLRMSATPCTFPRLSNASENPSNSDRTEKLEIEAA
                      NLCASSNSSNIEPWVFAVAVWAVVLQCFTETECVQLWLCTNQGAITDLEQLLVIPVKKG
@@ -220,11 +237,12 @@ FEATURES             Location/Qualifiers
                      PCLNSIPLRVTLQDKWTAQDLMRHVQAQSMSTLAYDYLDSPEIIRQSTDWPAETRFSCV
                      IQHQNLERTLGIRLGETTATLVGWAHFVPDSGLWIISTPGESSLDVMLCTSQGVMSMET
                      ARGLVEKICATIQSFVSSPGDRLDLNSGNIV"
+                     /Pfam="NRPS_C, AA-adenyl-dom, ACP_PCP, NRPS_CT"
      CDS             join(26066..26530,26618..30094)
                      /codon_start=1
                      /gene="plmK"
                      /product="nonribosomal peptide synthetase PlmK"
-                     /label=plmK
+                     /label="plmK"
                      /note="Nonribosomal peptide synthetase"
                      /protein_id="WBQ01558.1"
                      /translation="MTLSDLSDSCIFPSLNDTNPKGEKWGTSEIPASFTTKILEHCHQR
@@ -250,6 +268,7 @@ FEATURES             Location/Qualifiers
                      SWTVNEYLRHVQEQYVKTGDYDWMDMAKIIRNSTSWDANTVFSCEHSHQNMDLRREIPF
                      EKIRTTSFRQLWKRGRPKATYLFSVPLPDRMDLVLVAASDIMTEEQAPSILKRVADLLQ
                      VLQKCPDMVLAEVFATIRDEDTVELRKTV"
+                     /Pfam="NRPS_C, AA-adenyl-dom, ACP_PCP, NRPS_CT"
 ORIGIN
         1 ctaaaagtgt aatatctcct ccaaacgcat gtctggtgaa tgggaaaggg tttcgatcat
        61 ctcacataca gattgggcca gctgacggcc accctcgggc gatagtatct gcgtgtttgc

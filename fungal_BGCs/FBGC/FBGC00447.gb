@@ -1,34 +1,35 @@
-LOCUS       FBGC00447        7441 bp DNA     linear   UNA 13-APR-2023
+LOCUS       FBGC00447               7441 bp    DNA     linear   UNA 13-APR-2023
 DEFINITION  alpha-cuprenene.
 ACCESSION   FBGC00447
-VERSION     .
+VERSION     FBGC00447
 KEYWORDS    .
 SOURCE      Coprinopsis cinerea okayama7#130
   ORGANISM  Coprinopsis cinerea okayama7#130
+            .
 REFERENCE   1  (bases 1 to 7441)
   AUTHORS   Agger S, Lopez-Gallego F, Schmidt-Dannert C.
-  TITLE     Diversity of sesquiterpene synthases in the basidiomycete Coprinus 
+  TITLE     Diversity of sesquiterpene synthases in the basidiomycete Coprinus
             cinereus.
   JOURNAL   Mol Microbiol 2009;72:1181-95
-  PUBMED    19400802
+   PUBMED   19400802
 REFERENCE   2  (bases 1 to 7441)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Apr 13, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1111/j.1365-2958.2009.06717.x"; journalName: "Mol Microbiol"; 
-            date: "2009"; volume: "72"; pages: "1181-95"
-COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final 
-            NCBI review. The reference sequence is identical to 
-            AACS02000009.##Genome-Assembly-Data-START##
+  JOURNAL   Exported Apr 13, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     ##Genome-Assembly-Data-START##
             Assembly Name         :: CC3
-            Sequencing Technology :: ABI; lab finishing 
-            ##Genome-Assembly-Data-END####Genome-Annotation-Data-START##
-            Annotation Provider :: INSDC submitter
-            Annotation Status   :: Full annotation
-            Annotation Pipeline :: Eukaryotic Annotation Propagation Pipeline 
+            Sequencing Technology :: ABI; lab finishing
+            ##Genome-Assembly-Data-END##
+            ##Genome-Annotation-Data-START##
+            Annotation Provider   :: INSDC submitter
+            Annotation Status     :: Full annotation
+            Annotation Pipeline   :: Eukaryotic Annotation Propagation Pipeline
             ##Genome-Annotation-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1111/j.1365-2958.2009.06717.x"; journalName: "Mol Microbiol";
+            date: "2009"; volume: "72"; pages: "1181-95"
+            PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to
 FEATURES             Location/Qualifiers
      source          1..7441
                      /chromosome="9"
@@ -42,7 +43,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="CC1G_03562"
                      /product="cytochrome P450 monooxygenase Cox1"
-                     /label=cox1
+                     /label="cox1"
                      /db_xref="GeneID:6009035"
                      /protein_id="XP_001832548.2"
                      /translation="MTSTTQVLIALSSIVVAYFVKTALAKRKLNPRGLPYPPGPKGLPV
@@ -55,12 +56,13 @@ FEATURES             Location/Qualifiers
                      IFVNTWAIMHDPDVFKNPLQFNPERYLKNGQIDTSVLDPEAATFGFGRRICPGRWLSND
                      SLFLMAASLLATFNIAAPKDRTGKPIPLSLDTSSHLITAPLPYDCEFQLRSPKYAALLQ
                      K"
-     CDS             complement(join(3059..3365,3419..3456,3517..3630,3688..4196,
-                     4252..4321))
+                     /Pfam="p450"
+     CDS             complement(join(3059..3365,3419..3456,3517..3630,
+                     3688..4196,4252..4321))
                      /codon_start=1
                      /locus_tag="CC1G_03563"
                      /product="terpene synthase Cop6"
-                     /label=cop6
+                     /label="cop6"
                      /db_xref="GeneID:6009036"
                      /protein_id="XP_001832549.1"
                      /translation="MYTQVQSIAFSLTNSIRNATMPAALPYNVSRDNKWDIKKIIQDFF
@@ -70,13 +72,14 @@ FEATURES             Location/Qualifiers
                      DLPRSTYIQAFPEQIDYINGTNDLLSFYKEELDCETVNFISAAATSQQVSKLEVLRNAA
                      EKAAYSYDVVVNVLKPYPEALAAWKSFARGFCYFHTSSPRYRLGEMFHDFEHDLVCKCA
                      SCTEI"
-     CDS             join(5327..5543,5594..5726,5781..5969,6025..6289,6339..6462,
-                     6524..6537,6591..6780,6836..6917,6969..7097,7151..7294,
-                     7348..7441)
+                     /Pfam="TRI5"
+     CDS             join(5327..5543,5594..5726,5781..5969,6025..6289,
+                     6339..6462,6524..6537,6591..6780,6836..6917,6969..7097,
+                     7151..7294,7348..7441)
                      /codon_start=1
                      /locus_tag="CC1G_03564"
                      /product="cytochrome P450 monooxygenase Cox2"
-                     /label=cox2
+                     /label="cox2"
                      /db_xref="GeneID:6009037"
                      /protein_id="XP_001832550.1"
                      /translation="MNIVNSLDLSNITTNHVAAAVCAGIAVYAIVAGRNRGKKYPPGPK
@@ -89,6 +92,7 @@ FEATURES             Location/Qualifiers
                      VMTNAWSILTDPVTYPDPFAFKPERYLKNGVMNPDAPRPEDLAFGRGRRICPGRYLADE
                      TLFMTSVGVLAGFNISPPLDKSGKPIKLKNERVGTITLTPPKFECRIEPRSPAIRTMIH
                      DTAESISAL"
+                     /Pfam="p450"
 ORIGIN
         1 atgacttcta caacgcaggt tctcattgcg ctctcgagta tcgttgtggc gtatttcgtc
        61 aagactgcgc tggcgaagcg caagttgaac ccccgtggct tgccttaccc tcctggaccc

@@ -1,33 +1,33 @@
-LOCUS       FBGC00420       21715 bp DNA     linear   UNA 05-MAR-2023
+LOCUS       FBGC00420              21715 bp    DNA     linear   UNA 05-MAR-2023
 DEFINITION  betaestacins.
 ACCESSION   FBGC00420
-VERSION     .
+VERSION     FBGC00420
 KEYWORDS    .
 SOURCE      Colletotrichum orbiculare MAFF 240422
   ORGANISM  Colletotrichum orbiculare MAFF 240422
+            .
 REFERENCE   1  (bases 1 to 21715)
-  AUTHORS   Gao, L., Narita, K., Ozaki, T., Kumakura, N., Gan, P., Minami, A., 
+  AUTHORS   Gao, L., Narita, K., Ozaki, T., Kumakura, N., Gan, P., Minami, A.,
             Liu, C., Lei, X., Shirasu, K., Oikawa, H.
-  TITLE     Identification of novel sesterterpenes by genome mining of 
+  TITLE     Identification of novel sesterterpenes by genome mining of
             phytopathogenic fungi Phoma and Colletotrichum sp.
   JOURNAL   Tetrahedron Lett 2018;59(12):1136-1139
 REFERENCE   2  (bases 1 to 21715)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Mar 5, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1016/j.tetlet.2018.02.022"; journalName: "Tetrahedron Lett"; 
-            date: "2018"; volume: "59"; issue: "12"; pages: "1136-1139"
+  JOURNAL   Exported Mar 5, 2023 from SnapGene 6.2.1 https://www.snapgene.com
 COMMENT     ##Genome-Assembly-Data-START##
-            Assembly Method        :: SSPACE long read v. 1.1; GS De Novo
-                                      Assembler v. 2010
+            Assembly Method :: SSPACE long read v. 1.1; GS De Novo Assembler v.
+            2010
             Assembly Name          :: KSG_Corb_v2
             Genome Representation  :: Full
             Expected Final Version :: Yes
             Genome Coverage        :: 83.0x
-            Sequencing Technology  :: PacBio RSII; Illumina GAIIx; 454 
+            Sequencing Technology  :: PacBio RSII; Illumina GAIIx; 454
             ##Genome-Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1016/j.tetlet.2018.02.022"; journalName: "Tetrahedron Lett";
+            date: "2018"; volume: "59"; issue: "12"; pages: "1136-1139"
 FEATURES             Location/Qualifiers
      source          1..21715
                      /host="Cucumis sativus"
@@ -35,7 +35,7 @@ FEATURES             Location/Qualifiers
                      /mol_type="genomic DNA"
                      /country="Japan: Kyoto"
                      /isolation_source="infected leaf"
-                     /collection_date=1951
+                     /collection_date="1951"
                      /db_xref="taxon:1213857"
                      /culture_collection="MAFF:240422"
                      /organism="Colletotrichum orbiculare MAFF 240422"
@@ -44,7 +44,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="Cob_v004818"
                      /product="terpene synthase BtcA"
-                     /label=btcA
+                     /label="btcA"
                      /protein_id="TDZ21940.1"
                      /translation="MTTIWEHCVDVDGEVAASTGCFTTLPIRIHRRNDIADDATKQSIH
                      DWGAYVGDGWEQRSGSSWSPVGNWGAFIFPESLPDRLGVITYLANMGNIHDDLCDELPF
@@ -59,13 +59,14 @@ FEATURES             Location/Qualifiers
                      RFFQIRDDFMNLYSTEYSDQKGFCEDLDEGKMSYPLIMLLWQNPGQRDQIMGIFRQQAS
                      NTSRGPTSDRSRLPLETKRYVMSLLKGSDIMASTLRKLRDLEAAVDYSISGLEKALGDA
                      NPVMRIVLSRLSVRDVSL"
-     CDS             complement(join(4141..4494,4549..5105,5153..5595,5643..5688,
-                     5738..5804,5859..5915))
+                     /Pfam="Terpene_syn_C_2, GGPS"
+     CDS             complement(join(4141..4494,4549..5105,5153..5595,
+                     5643..5688,5738..5804,5859..5915))
                      /codon_start=1
                      /gene="BOA3-1"
                      /locus_tag="Cob_v004819"
                      /product="cytochrome P450 monooxygenase BtcC"
-                     /label=btcC
+                     /label="btcC"
                      /note="revised sequence"
                      /protein_id="TDZ22090.1"
                      /translation="MIFLLTLAGLKVLSIVILFGIIYLFASSIYNLYFHPLSRFPGPFL
@@ -77,11 +78,12 @@ FEATURES             Location/Qualifiers
                      HSEIDGESTKSLKYLNAAIEEGMRIFAPAPFGLPRVSPGAMVSGEWIPKGSIIATAAHV
                      TSRDERWFFKSKEFHPERWLPLDHPHYDHIFSKDRKDASKPFSIGSRSCIGIHLSYMEV
                      RICVSKLAWSFDWEQVSAHEDFVKDARLLGLWKAAPFHVRYQPYPGAEV"
+                     /Pfam="p450"
      CDS             join(7014..7323,7384..8039)
                      /codon_start=1
                      /locus_tag="Cob_v004820"
                      /product="hypothetical protein BtcE"
-                     /label=btcE
+                     /label="btcE"
                      /protein_id="TDZ21876.1"
                      /translation="MARFVDFKRPAADYDALPSADSEKELHESRSSQESDVPLMEKELL
                      ATKRLSRFRRAFTAFKSAMKNPVFMISLMLFQIGVGSLYLSWSHSHRFNARVKDVSLPS
@@ -89,13 +91,14 @@ FEATURES             Location/Qualifiers
                      KDPSVVVPMPDKYKMDGEATYMAKSALFHNIHCLDYIRKAVYKEHYYPNGTDDNPFHAY
                      HTAHCIMILFEHLTCSGDPGVYLYRWMDEFNRPIADTNIWRKCWDFESVLEEHNEKAVK
                      DMMETDVRKPHDVKTVPAPEGVMNIIRNYQKTHPDYNPGQ"
-     CDS             complement(join(8473..9058,9110..9223,9272..9443,9520..9927,
-                     9972..10059,10119..10211,10269..10412))
+                     /Pfam="UstYa"
+     CDS             complement(join(8473..9058,9110..9223,9272..9443,
+                     9520..9927,9972..10059,10119..10211,10269..10412))
                      /codon_start=1
                      /gene="alt3-2"
                      /locus_tag="Cob_v004821"
                      /product="cytochrome P450 monooxygenase BtcB"
-                     /label=btcB
+                     /label="btcB"
                      /protein_id="TDZ21877.1"
                      /translation="MASSSIASFAPFESYSPPLNTSETSLISVQLTQDGLDYHGALAFL
                      CGALLFGFVYSVFYNLYLSPIARVPGPLIAQVSPLWLMRAVCRKQLNCDIKKLHEKYGK
@@ -107,12 +110,13 @@ FEATURES             Location/Qualifiers
                      SLRLFPPANGKGTNRTSPGTMIDGVYIPRGVNVSADMYTIQRSPTYWSRPNEFCPDRWF
                      DNGPGTEFAQDVRSSHNPFLLGPRMCIGRAVALQSMRMLIAKLVYTFDLEAVEDYSWDL
                      HVANSYLWTGYRCNARV"
+                     /Pfam="p450"
      CDS             complement(11266..12642)
                      /codon_start=1
                      /gene="alt3-2"
                      /locus_tag="Cob_v004821"
                      /product="hypothetical protein BtcF"
-                     /label=btcF
+                     /label="btcF"
                      /protein_id="TDZ21877.1"
                      /translation="MGGFIPTAEDLHPCEWRSASLNHYVREQDTREKLVMRQVKSVPGH
                      INYYLIFSVKLHHPSSGFDPETRIRQAWAMLRCAQPSVGVVTAGTKVHFTAVDRDELGV
@@ -123,12 +127,13 @@ FEATURES             Location/Qualifiers
                      EALQLLLPMLAMTGDPTDKVQQSQPRANSRCLVEYSGLGSVDELLRHTHGEVQVEDFWV
                      TVGHCGSSIGIYGYFYRKQLNFTLSYNNGFHSRERMSRLLDTLKNVVKDCGGCRVLALL
                      "
+                     /Pfam="LolU"
      CDS             join(13148..13334,13450..13608,13678..13733,13790..13913,
                      13972..14330,14383..14958)
                      /codon_start=1
                      /locus_tag="Cob_v004822"
                      /product="major facilitator superfamily transporter BtcG"
-                     /label=btcG
+                     /label="btcG"
                      /note="revised sequence"
                      /protein_id="TDZ21874.1"
                      /translation="MKKTSAADDIVVLSSEVNNCHSKWWKDPGLRQLNLRLLPVFISPL
@@ -140,10 +145,11 @@ FEATURES             Location/Qualifiers
                      LVDRAGRRMLFLFSTTTMLLAMIGLTVATQKFSVNPKPAAGYAVVVLFFIFQLGFDSGY
                      APLGTTYLAEISSFHLRAKSIALHYFITMASAAIGQYANPVAMANLGWRYYLVYVAILT
                      LGWALAWFAFPETKGYTVEEIAGIFDGN"
+                     /Pfam="Sugar_tr"
      CDS             15211..16503
                      /codon_start=1
                      /product="HAD-like hydrolase BtcH"
-                     /label=btcH
+                     /label="btcH"
                      /translation="MTSTQGKGAAVLFDLDNTIFDHYHSLKSAISSIERNFDGIEQHDT
                      QDLISKYNASLQKAYNEYLQNEITYEEADLNKVCLFFSEIGLPEPDYEKIIKFRNIYKP
                      AYQSSRRATPDSVEILVRLREQGFRLAIVTNGQAIDQLEKADAIGVRHLVDKIITSEEA
@@ -152,12 +158,13 @@ FEATURES             Location/Qualifiers
                      VRILAKEMASVFRGISENDNVVAISRVATMVRLIAKVATSVDENSIQISYTGQTRGLVA
                      GNVDPPILITDRPHSIRIEYNKQVFASTSNDESQLRELLGLVQGHFDNLMRGHPRAAIQ
                      KLRSVMLILGGFAGIQASMVVEADGVGLERG"
+                     /Pfam="HAD_2"
      CDS             join(17665..17874,17953..18829,18884..19323)
                      /codon_start=1
                      /gene="BOA7-1"
                      /locus_tag="Cob_v004823"
                      /product="cytochrome P450 monooxygenase BtcI"
-                     /label=btcI
+                     /label="btcI"
                      /note="revised sequence"
                      /protein_id="TDZ21875.1"
                      /translation="MIDATSFLIFTAFLRRQTTNLGGLLFFIAVIATVLLAKLEIRPRR
@@ -169,13 +176,14 @@ FEATURES             Location/Qualifiers
                      LRSMSKLDSLLRESARLWAPFLLAMGRITTSPLRLDDGTVVPKDTTVYFDMYNAHRTPD
                      KSHIEDMTSFNGLRFSEWRERDKLPNKYLAATTGADNLPFGHGAHSCPGRFFAVAEMKV
                      VLCHLLLEYEFKLPSGKRPPTGYWGVATVMDRQAKMMIRRRRSVSEQGGY"
+                     /Pfam="p450"
      CDS             join(20312..20362,20428..20470,20527..20708,20759..21298,
                      21368..21715)
                      /codon_start=1
                      /gene="BOA7-1"
                      /locus_tag="Cob_v004823"
                      /product="2OG-Fe(II)-dependent dioxygenase BtcD"
-                     /label=btcD
+                     /label="btcD"
                      /protein_id="TDZ21875.1"
                      /translation="MGFNIEVMTAEPGKKTKFGATITGLDINNISDEDLLSLRRAVWRH
                      KLVIIKGQHDLKPIKHWELVTRLDPDAGPQNPELFMKDFHPRGGGILASRGVTGVPGAE
@@ -184,6 +192,7 @@ FEATURES             Location/Qualifiers
                      NSWVEYAALPYEWNRNCKFKSTGLGIVSQGRELSDEELLRMGSEKEKIKRYPMVWINPE
                      TGRKSFQVQANAAKKLFIRRSADEKPQVVDDVAEVRRILLEMQSRILRPEYIMAPPEEE
                      GDLLLWDNCATMHTRVDYPAHYGIKTCHQAATNASQGPIAPSPMPAV"
+                     /Pfam="TauD"
 ORIGIN
         1 ttacagacta acatctctga cactcaacct actgagtaca atccgcatga cgggatttgc
        61 gtccccgagc gccttttcta agccgctgat gctgtagtca actgctgcct caagatccct

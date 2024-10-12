@@ -1,29 +1,29 @@
-LOCUS       FBGC00424        2289 bp DNA     linear   UNA 06-MAR-2023
+LOCUS       FBGC00424               2289 bp    DNA     linear   UNA 06-MAR-2023
 DEFINITION  fusoxypenes.
 ACCESSION   FBGC00424
-VERSION     .
+VERSION     FBGC00424
 KEYWORDS    .
 SOURCE      Fusarium oxysporum 14005
   ORGANISM  Fusarium oxysporum 14005
+            .
 REFERENCE   1  (bases 1 to 2289)
-  AUTHORS   Jiang L, Zhang X, Sato Y, Zhu G, Minami A, Zhang W, Ozaki T, Zhu B, 
+  AUTHORS   Jiang L, Zhang X, Sato Y, Zhu G, Minami A, Zhang W, Ozaki T, Zhu B,
             Wang Z, Wang X, Lv K, Zhang J, Wang Y, Gao S, Liu C, Hsiang T, Zhang
             L, Oikawa H, Liu X.
-  TITLE     Genome-Based Discovery of Enantiomeric Pentacyclic Sesterterpenes 
+  TITLE     Genome-Based Discovery of Enantiomeric Pentacyclic Sesterterpenes
             Catalyzed by Fungal Bifunctional Terpene Synthases.
   JOURNAL   Org Lett 2021;23:4645-4650
-  PUBMED    34085529
+   PUBMED   34085529
 REFERENCE   2  (bases 1 to 2289)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Mar 6, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1021/acs.orglett.1c01361"; journalName: "Org Lett"; date: 
-            "2021"; volume: "23"; pages: "4645-4650"
+  JOURNAL   Exported Mar 6, 2023 from SnapGene 6.2.1 https://www.snapgene.com
 COMMENT     ##Assembly-Data-START##
-            Sequencing Technology :: Sanger dideoxy sequencing 
+            Sequencing Technology :: Sanger dideoxy sequencing
             ##Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1021/acs.orglett.1c01361"; journalName: "Org Lett"; date:
+            "2021"; volume: "23"; pages: "4645-4650"
 FEATURES             Location/Qualifiers
      source          1..2289
                      /strain="14005"
@@ -34,7 +34,7 @@ FEATURES             Location/Qualifiers
      CDS             join(1..289,365..656,720..2289)
                      /codon_start=1
                      /product="terpene synthase FoFS"
-                     /label=FoFS
+                     /label="FoFS"
                      /protein_id="UPT51558.1"
                      /translation="MDQLSYQSRLIPPEEAQQTGCFTSLPIRIHPRNDIADAATAKFIA
                      DWAKHVGDGREKRTHFCPSRVGNWNSLLYPEGLPERLGSVSYLLDLGLIHDDVNEELSV
@@ -49,6 +49,7 @@ FEATURES             Location/Qualifiers
                      RLMRLLGRFYQIRDDYMNFSAYSAQKGFAEDLDEGKFSFPVVCGFERDPELRGQILAIF
                      RQRPTSGAGEATQLSRKVKEHLIRCIAASGGFDETLKCLRSLENELDTEIAELEKKLGQ
                      VNPLLRLCLATLSMEGCEKICW"
+                     /Pfam="Terpene_syn_C_2, GGPS"
 ORIGIN
         1 atggatcaac taagctatca gtcgagactc attccgccag aggaggcaca gcagacaggc
        61 tgcttcacat ctttgcccat ccgcatccat ccacgcaacg acatcgcaga cgcggcgacc

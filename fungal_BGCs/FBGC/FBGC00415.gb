@@ -1,23 +1,23 @@
-LOCUS       FBGC00415       13194 bp DNA     linear   UNA 05-MAR-2023
+LOCUS       FBGC00415              13194 bp    DNA     linear   UNA 05-MAR-2023
 DEFINITION  ophiobolins.
 ACCESSION   FBGC00415
-VERSION     .
+VERSION     FBGC00415
 KEYWORDS    .
 SOURCE      Aspergillus calidoustus
   ORGANISM  Aspergillus calidoustus
+            .
 REFERENCE   1  (bases 1 to 13194)
   AUTHORS   Quan Z, Dickschat JS.
-  TITLE     On the mechanism of ophiobolin F synthase and the absolute 
+  TITLE     On the mechanism of ophiobolin F synthase and the absolute
             configuration of its product by isotopic labelling experiments.
   JOURNAL   Org Biomol Chem 2020;18:6072-6076
-  PUBMED    32725018
+   PUBMED   32725018
 REFERENCE   2  (bases 1 to 13194)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Mar 5, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1039/d0ob01470b"; journalName: "Org Biomol Chem"; date: "2020"; 
+  JOURNAL   Exported Mar 5, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1039/d0ob01470b"; journalName: "Org Biomol Chem"; date: "2020";
             volume: "18"; pages: "6072-6076"
 FEATURES             Location/Qualifiers
      source          1..13194
@@ -28,7 +28,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="ASPCAL05226"
                      /product="terpene synthase AcldOS"
-                     /label=acldOS
+                     /label="acldOS"
                      /protein_id="CEL04094.1"
                      /translation="MEYKYSTIVDSSKWDPEGLIEGIPLRKHEAGDLEEVGSFRVQEDW
                      RRLVGPVENPFRGSLGPEISFITYTVPECLPERLEAISYGLDYGFLHDDEIDTKIEEAE
@@ -43,12 +43,13 @@ FEATURES             Location/Qualifiers
                      ESPARSSILDQTLYPLSHLIGRFFQIRDDYQNLASAEYARQKGYAEDLDEGKYSFTLIH
                      CINTLEAEASLASEKMALRAFLIKRRVDSSLSNESKREVLDIMKKTKSLEYTLGVLRAL
                      QAELEKEVDSLEAKFGEENFSLRMMLELLKV"
-     CDS             join(3064..3376,3431..3908,3973..4048,4106..4461,4539..4784,
-                     4993..5158)
+                     /Pfam="Terpene_syn_C_2, GGPS"
+     CDS             join(3064..3376,3431..3908,3973..4048,4106..4461,
+                     4539..4784,4993..5158)
                      /codon_start=1
                      /locus_tag="ASPCAL05227"
                      /product="cytochrome P450 monooxygenase OblB"
-                     /label=oblB
+                     /label="oblB"
                      /protein_id="CEL04095.1"
                      /translation="MEAYLPQASREALARLLPSQASTARLAEVQAYLTRDVAVRAGLAV
                      AAIYMVYLSGLVIYRLYFSPLAKFPGPRIAAVTGYYELYYDVIHKGQYIFQIEKMHDKY
@@ -60,11 +61,12 @@ FEATURES             Location/Qualifiers
                      QAVIKEGLRLSYGTMHRRPRVSPTQPLLFKDWVIPAGVPVGMSAYFQHRDPNVYPRPME
                      FLPERWLGEVTPAMYKNYIPFSKGSRHCLGMNLAYCELNLIIAALFRPGAPKFDLYGTD
                      ESDVRPAHDLIVPMPRLDSLGVRVVYH"
+                     /Pfam="p450"
      CDS             complement(join(6092..7255,7315..7431))
                      /codon_start=1
                      /locus_tag="ASPCAL05228"
                      /product="transcription factor ASPCAL05228"
-                     /label=ASPCAL05228
+                     /label="ASPCAL05228"
                      /protein_id="CEL04096.1"
                      /translation="MFGTLHLASQDKEAMFIERPHGSSNLEKNSACNRCRAKKVKCNPT
                      EDGCTRCKRLGKKCTSNPAKHIGANRRIRKGSINMTQHEHLLDLFAHTTADSSRNLQTT
@@ -74,11 +76,12 @@ FEATURES             Location/Qualifiers
                      EKLVSASSQIVLIYQNRDSIAGAGQSDHKKDCASPSIPPFHHDTFDELLNNFNTYSLTT
                      HIGTDPDRKYMPPGWREMLLGDYEISSVTEWQQIMRVLIVLQIRGVVELLGDLRNVCGE
                      ALGESRMASLARSERILAQLRRELYTP"
+                     /Pfam="EqxR"
      CDS             join(8708..9272,9319..11719,11766..13194)
                      /codon_start=1
                      /locus_tag="ASPCAL05229"
                      /product="ABC transporter OblD"
-                     /label=oblD
+                     /label="oblD"
                      /protein_id="CEL04097.1"
                      /translation="MATSNDFDDGIDFADESTSKSSPSTDKREAEVHRLAREFTQQSVY
                      STDGQNPFTADVGSPLNPNGESFSARAWCKAMLQLQTQDDQAHPPRTLGVAFNDLNVHG
@@ -106,6 +109,8 @@ FEATURES             Location/Qualifiers
                      TYLVSGMLSVGLANTLVTCADNEYLHFDPVNGTCGEYMEPYRAANGGYVLNEAATADCL
                      FCPIRDTNTYLATVSASYGDVWRNWGLMWVYIVFNIVAACGLYWYVRVPKKTDVKKSDG
                      KKE"
+                     /Pfam="ABC_trans_N, ABC_tran, ABC2_membrane_7,
+                     ABC2_membrane, PDR_CDR"
 ORIGIN
         1 tcaaaccttc agcagctcca gcatcatcct gagcgaaaag ttctcctcgc caaacttggc
        61 ctcgaggcta tccacctcct tctcgagctc cgcctgcaac gcccgcaaca cccccagggt

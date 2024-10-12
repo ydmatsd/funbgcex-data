@@ -1,37 +1,37 @@
-LOCUS       FBGC00430       18945 bp DNA     linear   UNA 08-MAR-2023
+LOCUS       FBGC00430              18945 bp    DNA     linear   UNA 08-MAR-2023
 DEFINITION  ent-pimara-8(14),15-diene.
 ACCESSION   FBGC00430
-VERSION     .
+VERSION     FBGC00430
 KEYWORDS    .
 SOURCE      Aspergillus nidulans FGSC A4
   ORGANISM  Aspergillus nidulans FGSC A4
+            .
 REFERENCE   1  (bases 1 to 18945)
-  AUTHORS   Bromann K, Toivari M, Viljanen K, Vuoristo A, Ruohonen L, 
+  AUTHORS   Bromann K, Toivari M, Viljanen K, Vuoristo A, Ruohonen L,
             Nakari-Setala T.
-  TITLE     Identification and characterization of a novel diterpene gene 
+  TITLE     Identification and characterization of a novel diterpene gene
             cluster in Aspergillus nidulans.
   JOURNAL   PLoS One 2012;7:e35450
-  PUBMED    22506079
+   PUBMED   22506079
 REFERENCE   2  (bases 1 to 18945)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Mar 8, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1371/journal.pone.0035450"; journalName: "PLoS One"; date: 
+  JOURNAL   Exported Mar 8, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     ##Genome-Annotation-Data-START##
+            Annotation Provider :: INSDC submitter
+            Annotation Status   :: Full annotation
+            Annotation Pipeline :: Eukaryotic Annotation Propagation Pipeline
+            ##Genome-Annotation-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1371/journal.pone.0035450"; journalName: "PLoS One"; date:
             "2012"; volume: "7"; pages: "e35450"
-COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final 
-            NCBI review. The reference sequence is identical to BN001307. 
+            PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to BN001307.
             Aspergillus nidulans FGSC A4 CADRE,
             updated by Eurofungbase with contributions from
             CADRE (http://www.cadre-genomes.org.uk),
             AspGD (http://www.aspergillusgenome.org) and
-              Ensembl Genomes 
-            (http://www.ensemblgenomes.org).##Genome-Annotation-Data-START##
-            Annotation Provider :: INSDC submitter
-            Annotation Status   :: Full annotation
-            Annotation Pipeline :: Eukaryotic Annotation Propagation Pipeline 
-            ##Genome-Annotation-Data-END##
+            Ensembl Genomes
 FEATURES             Location/Qualifiers
      source          1..18945
                      /chromosome="VII"
@@ -44,7 +44,7 @@ FEATURES             Location/Qualifiers
                      /locus_tag="ANIA_01592"
                      /old_locus_tag="AN1592.2; AN1592.4"
                      /product="geranylgeranyl pyrophosphate synthase ANIA_01592"
-                     /label=ANIA_01592
+                     /label="ANIA_01592"
                      /note="transcript_id=CADANIAT00008225"
                      /db_xref="EnsemblGenomes-Gn:CADANIAG00008225"
                      /db_xref="EnsemblGenomes-Tr:CADANIAT00008225"
@@ -62,12 +62,13 @@ FEATURES             Location/Qualifiers
                      GMELFWRDNLLPPSMDDYLQMIANKTGGLFRMIVRLLQTSSRQVIDVEQLVDVLGLYFQ
                      ILDDYKNIREEKMAAQKGFFEDLTEGKFSFPICHAIGEGAKNRTALLHMLRLKTDDMKI
                      KQEAVCILDNAGSLDYTREVLYGLDRKARSLLREFKTPNPFMEALLDAMLSSLQACH"
+                     /Pfam="GGPS"
      CDS             join(2202..2518,2576..4108,4168..4435)
                      /codon_start=1
                      /locus_tag="ANIA_01593"
                      /old_locus_tag="AN1593.2; AN1593.4"
                      /product="HMG-CoA reductase ANIA_01593"
-                     /label=ANIA_01593
+                     /label="ANIA_01593"
                      /note="transcript_id=CADANIAT00008226"
                      /db_xref="EnsemblGenomes-Gn:CADANIAG00008226"
                      /db_xref="EnsemblGenomes-Tr:CADANIAT00008226"
@@ -95,12 +96,13 @@ FEATURES             Location/Qualifiers
                      AGALGGFNAHAANVVTAIYLATGQDPAQNVQSSNTLTVMKNVNGDLQISVFMPSIEVGT
                      VGGGTVLGPQKAMLHMMGVQGADPEQPGRNAQELALLVAAGVLAGELSLCSALSAGSLV
                      KSHLTHNRKKG"
+                     /Pfam="HMG-CoA_red"
      CDS             complement(join(4775..6463,6518..6804,6867..7830))
                      /codon_start=1
                      /locus_tag="ANIA_01594"
                      /old_locus_tag="AN1594.2; AN1594.4"
                      /product="terpene synthase PbcA"
-                     /label=pbcA
+                     /label="pbcA"
                      /note="transcript_id=CADANIAT00008227"
                      /db_xref="EnsemblGenomes-Gn:CADANIAG00008227"
                      /db_xref="EnsemblGenomes-Tr:CADANIAT00008227"
@@ -127,12 +129,13 @@ FEATURES             Location/Qualifiers
                      SDHTSCPYSFAFYQCLLGFEQASHNAACFQTCEEKYVAEAMCRHLAVMCRMYNDYGSLA
                      RDRDEKNLNCVNFPEFAQAGPKSDAVRQKQLFSLAEFERSNMKRGLEVLTEMAAQDRAK
                      MRMLEKVQMFCDVTDVYGQIYALEILRVGCDLAHDCFMLELPAQWSNST"
+                     /Pfam="PbcA"
      CDS             join(8718..8825,8899..9088,9155..9612)
                      /codon_start=1
                      /locus_tag="ANIA_01595"
                      /old_locus_tag="AN1595.2; AN1595.4"
                      /product="glutathione S-transferase ANIA_01595"
-                     /label=ANIA_01595
+                     /label="ANIA_01595"
                      /note="transcript_id=CADANIAT00008228"
                      /db_xref="EnsemblGenomes-Gn:CADANIAG00008228"
                      /db_xref="EnsemblGenomes-Tr:CADANIAT00008228"
@@ -149,12 +152,13 @@ FEATURES             Location/Qualifiers
                      STTTLLGSSSLDFVQIIRWISFTNTDVVTRMASWVRPLIGYTPYSKEEVLKAQQQTTQA
                      IGVFEDSLRDRKYLVGDRLTLADIMCVSLVSFGFAQIFDKEWREAFPYFSGWYMMVMHL
                      PIMKAVVEEVPFVEEGLPNAPPTEPFRAP"
+                     /Pfam="GST_N, GST_C"
      CDS             complement(join(9838..10487,10542..10893))
                      /codon_start=1
                      /locus_tag="ANIA_01596"
                      /old_locus_tag="AN1596.2; AN1596.4"
                      /product="short-chain dehydrogenase/reductase ANIA_01596"
-                     /label=ANIA_01596
+                     /label="ANIA_01596"
                      /note="transcript_id=CADANIAT00008229"
                      /db_xref="EnsemblGenomes-Gn:CADANIAG00008229"
                      /db_xref="EnsemblGenomes-Tr:CADANIAT00008229"
@@ -170,12 +174,13 @@ FEATURES             Location/Qualifiers
                      SINTADLDLKHNFSLLNAYKHSITMTSLSMEHLARTHPAVSFIHVYPGLVGTNIYTNSF
                      PAPVSTFYNYLVWPFMKPFSVDLGESGERHLFHLSSAHYPAKQGIVPQGVPLEAGEVAK
                      GITGEPGSGAYLLNWKGDVRPSTKILAQYREQKIPQLVWDHTESLMDQAVHR"
+                     /Pfam="SmbD"
      CDS             join(11163..11452,11510..12021,12113..12198)
                      /codon_start=1
                      /locus_tag="ANIA_01597"
                      /old_locus_tag="AN1597.2; AN1597.4"
                      /product="2OG-Fe(II)-dependent dioxygenase ANIA_01597"
-                     /label=ANIA_01597
+                     /label="ANIA_01597"
                      /note="transcript_id=CADANIAT00008230"
                      /db_xref="EnsemblGenomes-Gn:CADANIAG00008230"
                      /db_xref="EnsemblGenomes-Tr:CADANIAT00008230"
@@ -189,12 +194,13 @@ FEATURES             Location/Qualifiers
                      SFQVINVWRPLTRVQRDPLMVADAAEMPPEDLLLISRKYYNGLHSSNFVIKYDGRMAAG
                      EGPTDGLSGDGKHSWWYIGDQEPTEALVFSSSGFRNGKAIIGTAHDLYSAEPMINAYER
                      KNASSLYGHDESQI"
+                     /Pfam="NvfI"
      CDS             join(13766..14017,14067..14961,15014..15471)
                      /codon_start=1
                      /locus_tag="ANIA_01598"
                      /old_locus_tag="AN1598.2; AN1598.4"
                      /product="cytochrome P450 monooxygenase ANIA_01598"
-                     /label=ANIA_01598
+                     /label="ANIA_01598"
                      /note="transcript_id=CADANIAT00008231"
                      /db_xref="EnsemblGenomes-Gn:CADANIAG00008231"
                      /db_xref="EnsemblGenomes-Tr:CADANIAT00008231"
@@ -214,13 +220,14 @@ FEATURES             Location/Qualifiers
                      LLPKGTHFSMPSAAILQDNGVEPGADQFDGFRYYKKRLNPEEANKHQFAMTDNNNLHFG
                      HGKYSCPGRFFASNEIKIIMAHLLTDYEFKYPRGATRPRNLTADENLYPDPSARLLMRR
                      RVVAPPQASITPQLVSA"
+                     /Pfam="p450"
      CDS             join(16381..16502,16591..16919,16997..17582,17633..17913,
                      18023..18945)
                      /codon_start=1
                      /locus_tag="ANIA_01599"
                      /old_locus_tag="AN1599.2; AN1599.4"
                      /product="transcription factor PbcR"
-                     /label=pbcR
+                     /label="pbcR"
                      /note="transcript_id=CADANIAT00008232"
                      /db_xref="EnsemblGenomes-Gn:CADANIAG00008232"
                      /db_xref="EnsemblGenomes-Tr:CADANIAT00008232"
@@ -242,6 +249,7 @@ FEATURES             Location/Qualifiers
                      CQRLQQAAAWLTGWELKPPSQGRDAHAMNMAEVVSDDGSIVASSSRGPASWVPSLASTD
                      VDTLAFSHEPPLGTEFSIAPPPFRSMSCATKSCSPQAGAAEFMHDEEVPLEGQRLGDLP
                      NIDQMDDVGMDWSQYTNMGFDLYNLDAPFLPNPPSGFDPDAAMKDNCADRNT"
+                     /Pfam="HimD"
 ORIGIN
         1 atgtcacccc cacttgactc tgccctggag ccactgtccg aatacaagga aacagccttt
        61 cccagaactg aaaaagaccc gtcgcagtac aaagagcacg accttgtaac gcctgaaaaa

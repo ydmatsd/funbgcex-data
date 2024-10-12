@@ -1,41 +1,42 @@
-LOCUS       FBGC00431       31503 bp DNA     linear   UNA 09-MAR-2023
+LOCUS       FBGC00431              31503 bp    DNA     linear   UNA 09-MAR-2023
 DEFINITION  phyllocladan-16alpha-ol.
 ACCESSION   FBGC00431
-VERSION     .
+VERSION     FBGC00431
 KEYWORDS    .
 SOURCE      Diaporthe amygdali CAA958
   ORGANISM  Diaporthe amygdali CAA958
+            .
 REFERENCE   1  (bases 1 to 31503)
-  AUTHORS   Toyomasu T, Niida R, Kenmoku H, Kanno Y, Miura S, Nakano C, Shiono 
-            Y, Mitsuhashi W, Toshima H, Oikawa H, Hoshino T, Dairi T, Kato N, 
+  AUTHORS   Toyomasu T, Niida R, Kenmoku H, Kanno Y, Miura S, Nakano C, Shiono
+            Y, Mitsuhashi W, Toshima H, Oikawa H, Hoshino T, Dairi T, Kato N,
             Sassa T.
-  TITLE     Identification of diterpene biosynthetic gene clusters and 
-            functional analysis of labdane-related diterpene cyclases in 
+  TITLE     Identification of diterpene biosynthetic gene clusters and
+            functional analysis of labdane-related diterpene cyclases in
             Phomopsis amygdali.
   JOURNAL   Biosci Biotechnol Biochem 2008;72:1038-47
-  PUBMED    18391465
+   PUBMED   18391465
 REFERENCE   2  (bases 1 to 31503)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Mar 9, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: "10.1271/bbb.70790";
-            journalName: "Biosci Biotechnol Biochem"; date: "2008"; volume: 
-            "72"; pages: "1038-47"
-COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final 
-            NCBI review. The reference sequence is identical to 
-            JAJATV010000017.##Genome-Assembly-Data-START##
+  JOURNAL   Exported Mar 9, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     ##Genome-Assembly-Data-START##
             Assembly Date          :: 30-NOV-2020
             Assembly Method        :: SPAdes v. 3.14
             Genome Representation  :: Full
             Expected Final Version :: No
             Genome Coverage        :: 71.0x
-            Sequencing Technology  :: Illumina HiSeq 
-            ##Genome-Assembly-Data-END####Genome-Annotation-Data-START##
-            Annotation Provider :: INSDC submitter
-            Annotation Status   :: Full annotation
-            Annotation Pipeline :: Eukaryotic Annotation Propagation Pipeline 
+            Sequencing Technology  :: Illumina HiSeq
+            ##Genome-Assembly-Data-END##
+            ##Genome-Annotation-Data-START##
+            Annotation Provider    :: INSDC submitter
+            Annotation Status      :: Full annotation
+            Annotation Pipeline    :: Eukaryotic Annotation Propagation Pipeline
             ##Genome-Annotation-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi: "10.1271/bbb.70790";
+            journalName: "Biosci Biotechnol Biochem"; date: "2008"; volume:
+            "72"; pages: "1038-47"
+            PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to
 FEATURES             Location/Qualifiers
      source          1..31503
                      /chromosome="Unknown"
@@ -51,7 +52,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="J7T55_005008"
                      /product="FAD-dependent monooxygenase J7T55_005008"
-                     /label=J7T55_005008
+                     /label="J7T55_005008"
                      /db_xref="GeneID:77775247"
                      /protein_id="XP_052992732.1"
                      /translation="MSPLKVLIVGGGITGPALGHWLSKVDCDITIVERAPNLRASGQQI
@@ -62,12 +63,13 @@ FEATURES             Location/Qualifiers
                      KIGQVKMDKWSRGRIVLVGDAGYTPSPLTGKGTSLGLIGAYVLGGEIAKHLENSKDPGQ
                      ALDAAIASYDKVLRPCVEKAQSLMKGIPAIAYPESEWGVWVIQLILKIVCTFRINKLIE
                      RFASDNFAGDWKLPDYPELQYEEVKGGM"
+                     /Pfam="FAD_binding_3"
      CDS             complement(join(1998..2237,2316..3119,3235..3816))
                      /codon_start=1
                      /locus_tag="J7T55_005009"
-                     /product="major facilitator superfamily transporter 
+                     /product="major facilitator superfamily transporter
                      J7T55_005009"
-                     /label=J7T55_005009
+                     /label="J7T55_005009"
                      /note="revised sequence"
                      /db_xref="GeneID:77775248"
                      /protein_id="XP_052992733.1"
@@ -81,12 +83,13 @@ FEATURES             Location/Qualifiers
                      MLCGGLGVYGTPAAIRGTVAMFLLYNLVFNVTIGATAYTLLCEVATSRLRGHTISLGIA
                      TQHLIYVMWAFTLPLLFNPDKANLGAKTAFIFGGIGVFSLVYLWFYQVETRGRSYKDLD
                      ELFSKGINTRDFGNYVTDSQREEE"
-     CDS             complement(join(4916..5355,5434..5959,6016..6167,6264..6366,
-                     6484..6852))
+                     /Pfam="Sugar_tr"
+     CDS             complement(join(4916..5355,5434..5959,6016..6167,
+                     6264..6366,6484..6852))
                      /codon_start=1
                      /locus_tag="J7T55_005010"
                      /product="cytochrome P450 monooxygenase J7T55_005010"
-                     /label=J7T55_005010
+                     /label="J7T55_005010"
                      /db_xref="GeneID:77775249"
                      /protein_id="XP_052992734.1"
                      /translation="MAKRAFIQDWFDTSPVNFATDDSMPFLLVSLVTLLLYVFANSNGR
@@ -99,12 +102,13 @@ FEATURES             Location/Qualifiers
                      FHIKKGEKIVVSLTDMWSAERFERPLEFNGHRWLKLRNVPGKEHSAHLVAVTRDHIGFG
                      LGEHACPGRFFAANELKIVLSYLLLKYDWELVAGARPTVLANGFSLTLDPKAKIRMRRR
                      SEEINLETLSVE"
-     CDS             complement(join(7678..7780,7851..7877,7968..8046,8131..8252,
-                     8331..8594,8653..8929,9007..9241))
+                     /Pfam="p450"
+     CDS             complement(join(7678..7780,7851..7877,7968..8046,
+                     8131..8252,8331..8594,8653..8929,9007..9241))
                      /codon_start=1
                      /locus_tag="J7T55_005011"
                      /product="2OG-Fe(II)-dependent dioxygenase Orf7"
-                     /label=orf7
+                     /label="orf7"
                      /db_xref="GeneID:77775250"
                      /protein_id="XP_052992735.1"
                      /translation="MAPSATQADLISVEPMNGLHCKSQSSTASRLSRPLTYSGSLDSYR
@@ -114,11 +118,12 @@ FEATURES             Location/Qualifiers
                      THYQPDFLEVKNKYGEELIDDYRGSPENTGLEFKAEHPVIRTNPVTGWKSLFGACHQVK
                      FGWYNDVTPRESDILKAYFNQLIYENHDLQVRFRWNKNDIAIWDNRSTFHTATHGKRKG
                      NRVVSLGERPYFDPESVSRRQALGQAIK"
+                     /Pfam="TauD"
      CDS             join(9908..9973,10075..10182,10248..10662,10722..11638)
                      /codon_start=1
                      /locus_tag="J7T55_005012"
                      /product="cytochrome P450 monooxygenase Orf6"
-                     /label=orf6
+                     /label="orf6"
                      /db_xref="GeneID:77775251"
                      /protein_id="XP_052992736.1"
                      /translation="MANLLRTGDVSSGGLILAGFIAATSCAAALYVFGISIYRLFFHPI
@@ -130,11 +135,12 @@ FEATURES             Location/Qualifiers
                      FTSDQEITGETTSRLEYLNGVIEEGIRLFPPSVVVLARYSPGATIGGHYVPPGVSVFNN
                      GYTMSRDPRYWEKPEAFRPERWIGDSRDERRASQPFSTGPRGCLGINLVYLDVRLTMAK
                      LVLHYDWELESKDLVWERDVVLQGVWKKPAQWIKFHRVTTSVS"
+                     /Pfam="p450"
      CDS             complement(11843..12826)
                      /codon_start=1
                      /locus_tag="J7T55_005013"
                      /product="short-chain dehydrogenase/reductase Orf5"
-                     /label=orf5
+                     /label="orf5"
                      /db_xref="GeneID:77775252"
                      /protein_id="XP_052992737.1"
                      /translation="MGICTSKHASFNLDKDIPPLFGKVILVTGGNTGLGKKSIIEFAKH
@@ -143,12 +149,13 @@ FEATURES             Location/Qualifiers
                      CNSQASDVRIVILTSAMMSCVPEGGIQFDKLKGTQSDIGTSFTHYGQSKLANALFARRL
                      AREYPQLTVTAVHPGIVKTGIEDKTAQHNVWAKLLLPLASPFMLVVDEGVKNQLWAATS
                      EDVISGEYYVPVGVTGKLPRLAADGELAERLWEWTESELRSHNLDL"
+                     /Pfam="adh_short"
      CDS             complement(join(13263..13425,13511..13674,13744..14058,
                      14137..14907,14983..15069))
                      /codon_start=1
                      /locus_tag="J7T55_005013"
                      /product="cytochrome P450 monooxygenase Orf4"
-                     /label=orf4
+                     /label="orf4"
                      /db_xref="GeneID:77775252"
                      /protein_id="XP_052992737.1"
                      /translation="MPPPTQAHLLVGAGPAIGILFLSGLIFYLVYIAVYNVYFHPLSKY
@@ -160,12 +167,13 @@ FEATURES             Location/Qualifiers
                      ADINIVNTSKLEYTLAVLEETLRRYPPVAACTPRQTPPGGNMILGEYIPANTVLGVWHW
                      PMYHSETNFKRPFDFCPERWLGDPEFNDRKEAFQPFSFGPRNCLGRNLAYAEMRTILAR
                      LIWNFDIKLADGCDNWMNKQKVWNLWDKPDLHVYLTPRMKY"
+                     /Pfam="p450"
      CDS             join(15773..16042,16094..16216,16308..16407,16481..17152,
                      17247..17668)
                      /codon_start=1
                      /locus_tag="J7T55_005014"
                      /product="cytochrome P450 monooxygenase Orf3"
-                     /label=orf3
+                     /label="orf3"
                      /db_xref="GeneID:77775253"
                      /protein_id="XP_052992738.1"
                      /translation="MESLLLNSTSLHQAESPPIVMLHMLLAPGYVPYIFTIALISIIAY
@@ -178,12 +186,13 @@ FEATURES             Location/Qualifiers
                      TLPDGTLLKKGEAIGVASHCMRDQETWDQPNVFDPYRFVRMREDPKEENSWQFASTSSR
                      HLGFGHGDHGCPGRFFVSHELKIALCHLLLKYDWKLAPGCKPQIEEAGYFLNSDSKARV
                      MLRRRKEEIPL"
+                     /Pfam="p450"
      CDS             complement(join(18296..18640,18719..18870,18954..19055,
                      19148..19311,19364..19518,19592..19843))
                      /codon_start=1
                      /locus_tag="J7T55_005015"
                      /product="geranylgeranyl pyrophosphate synthase PaGGS1"
-                     /label=PaGGS1
+                     /label="PaGGS1"
                      /db_xref="GeneID:77775254"
                      /protein_id="XP_052992739.1"
                      /translation="MTSGSKAHPVPATCTMESPPFHLDMGAARSSVCTELTTMPRPLAK
@@ -193,12 +202,13 @@ FEATURES             Location/Qualifiers
                      DGKTGGLFRMASKLMIAQSESSNINSTDLDALMTLLGRYFQIRDDYMNLTSQEYTKSKG
                      FCEDLDEGKYSLILIHALENCDHKSRVLLDSMLLERRATGAAGLGHKELILSMMQQTGS
                      LQYAVEILSVLFNEIFELVDLIDRRTGKVNKPIRDLLAALEIKKDSPRK"
+                     /Pfam="GGPS"
      CDS             complement(join(20920..22704,22793..23079,23146..23266,
                      23344..24165))
                      /codon_start=1
                      /locus_tag="J7T55_005016"
                      /product="terpene synthase PaDC1"
-                     /label=PaDC1
+                     /label="PaDC1"
                      /db_xref="GeneID:77775255"
                      /protein_id="XP_052992740.1"
                      /translation="MTIMDIDDHSRLRDLAVSLIRQAAEGYSPKYGYGSMSCAAYDTAW
@@ -219,12 +229,13 @@ FEATURES             Location/Qualifiers
                      NDCGSVVRDATEKNLNSVNFPEFAVTASGSEKQALHAMGEYERACCQAAFQRLEEASLQ
                      TATTEAERAKRRRRLDVWKVFLDTADLYGQIYVVRDFTARSVHVRETGIASTAKDVPLV
                      SSSVPLVGGGPMLVT"
+                     /Pfam="PbcA"
      CDS             join(24795..24866,24943..25743,25857..26174,26248..26374,
                      26430..26469,26533..26815)
                      /codon_start=1
                      /locus_tag="J7T55_005017"
                      /product="cytochrome P450 monooxygenase Orf2"
-                     /label=orf2
+                     /label="orf2"
                      /note="revised sequence"
                      /db_xref="GeneID:77775256"
                      /protein_id="XP_052992741.1"
@@ -238,12 +249,13 @@ FEATURES             Location/Qualifiers
                      VSVWQWPLYHNPDYFTLPDSFIPERWIDDERFAQDKTHAFMPFSHGPRDCIGRNLAYAE
                      MRLILARLVWNFDLKLADESRGWAEASKVFLLWEKGPLMVHLTPRKIIAVAKTSLTVIR
                      EDITETAHIERAPEDSVSVDESRVQRSQE"
+                     /Pfam="p450"
      CDS             join(27853..28248,28330..28435,28522..28590,28678..29259,
                      29326..29747)
                      /codon_start=1
                      /locus_tag="J7T55_005018"
                      /product="cytochrome P450 monooxygenase Orf1"
-                     /label=orf1
+                     /label="orf1"
                      /db_xref="GeneID:77775257"
                      /protein_id="XP_052992742.1"
                      /translation="MEFTLNGGGSFVDTTPHVTSFIAKADPSHVPIVYVFVASALCLLF
@@ -256,11 +268,12 @@ FEATURES             Location/Qualifiers
                      GTVIPKGGMLAVSTHRFWDPSVHANPDVFDAYRWLRMGEQPGKTNFAQLISTSPDHLGF
                      SHGLHACPGRFFAAKEVKVAIIHLLSKYEWKTPDDWVETNPENSFNIATDPWLKIQIRR
                      REDKITV"
+                     /Pfam="p450"
      CDS             complement(join(29862..30850,30927..31230,31375..31503))
                      /codon_start=1
                      /locus_tag="J7T55_005019"
                      /product="transcription factor J7T55_005019"
-                     /label=J7T55_005019
+                     /label="J7T55_005019"
                      /db_xref="GeneID:77775258"
                      /protein_id="XP_052992743.1"
                      /translation="MFSTLKYNDSTTGLETLRVRNRIKEKRRGPLAQNACVHCRVKKLR
@@ -272,6 +285,7 @@ FEATURES             Location/Qualifiers
                      TAPLAAPTANVAFGGGDTTTSVARGSDQISTHATGKLNGGARSQQFRRGSDLSSYLRGT
                      GTGLKIGKWRLDNEDEEQVIQSLLIARMTRLDGLTTKIQRAVQLNEWPAHDARIRSLRE
                      RLVTAIFMTRRRSLS"
+                     /Pfam="EqxR"
 ORIGIN
         1 ttacatgcca cctttgactt cttcatactg caattcagga taatccggga gcttccagtc
        61 tcctgcaaaa ttgtctgacg caaaacgttc aatgagcttg ttaatgcgga aggtgcagac

@@ -1,32 +1,32 @@
-LOCUS       FBGC00426        5465 bp DNA     linear   UNA 08-MAR-2023
+LOCUS       FBGC00426               5465 bp    DNA     linear   UNA 08-MAR-2023
 DEFINITION  sesterfisheric acid.
 ACCESSION   FBGC00426
-VERSION     .
+VERSION     FBGC00426
 KEYWORDS    .
 SOURCE      Aspergillus fischeri NRRL 181
   ORGANISM  Aspergillus fischeri NRRL 181
+            .
 REFERENCE   1  (bases 1 to 5465)
-  AUTHORS   Ye Y, Minami A, Mandi A, Liu C, Taniguchi T, Kuzuyama T, Monde K, 
+  AUTHORS   Ye Y, Minami A, Mandi A, Liu C, Taniguchi T, Kuzuyama T, Monde K,
             Gomi K, Oikawa H.
-  TITLE     Genome Mining for Sesterterpenes Using Bifunctional Terpene 
+  TITLE     Genome Mining for Sesterterpenes Using Bifunctional Terpene
             Synthases Reveals a Unified Intermediate of Di/Sesterterpenes.
   JOURNAL   J Am Chem Soc 2015;137:11846-53
-  PUBMED    26332841
+   PUBMED   26332841
 REFERENCE   2  (bases 1 to 5465)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Mar 8, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1021/jacs.5b08319"; journalName: "J Am Chem Soc"; date: "2015"; 
-            volume: "137"; pages: "11846-53"
-COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final 
-            NCBI review. The reference sequence is identical to 
-            DS027698.##Genome-Annotation-Data-START##
+  JOURNAL   Exported Mar 8, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     ##Genome-Annotation-Data-START##
             Annotation Provider :: INSDC submitter
             Annotation Status   :: Full annotation
-            Annotation Pipeline :: Eukaryotic Annotation Propagation Pipeline 
+            Annotation Pipeline :: Eukaryotic Annotation Propagation Pipeline
             ##Genome-Annotation-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1021/jacs.5b08319"; journalName: "J Am Chem Soc"; date: "2015";
+            volume: "137"; pages: "11846-53"
+            PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to
 FEATURES             Location/Qualifiers
      source          1..5465
                      /chromosome="Unknown"
@@ -41,9 +41,9 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="NFIA_055490"
                      /product="cytochrome P450 monooxygenase NfP450"
-                     /label=NfP450
-                     /note="encoded by transcript NFIA_055490A;
-                     predicted by EVM"
+                     /label="NfP450"
+                     /note="encoded by transcript NFIA_055490A; predicted by
+                     EVM"
                      /db_xref="GeneID:4584612"
                      /protein_id="XP_001258097.1"
                      /translation="MDAQHLMTMSGISLEQVAIMGCSLGTGLLVSMIIYNYFFHPLARV
@@ -56,13 +56,14 @@ FEATURES             Location/Qualifiers
                      NGCVNESLRLTPAVAGKFASRRSPGAIIEGFYVPSGTEVYTETYTMQRSPQYWHAPDEY
                      RPERWFERGEGSPYAQDVHEAFKPFSSGPRACLGREMALQTLRLTAALLVYRFHLKIVN
                      EDRFVWEQDTDSRMIYSKYHIKAIVQERLT"
+                     /Pfam="p450"
      CDS             join(2989..3274,3329..3623,3692..4436,4497..5465)
                      /codon_start=1
                      /locus_tag="NFIA_055500"
                      /product="terpene synthase NfSS"
-                     /label=NfSS
-                     /note="encoded by transcript NFIA_055500A;
-                     predicted by EVM"
+                     /label="NfSS"
+                     /note="encoded by transcript NFIA_055500A; predicted by
+                     EVM"
                      /db_xref="GeneID:4584613"
                      /protein_id="XP_001258098.1"
                      /translation="MEVWEHSRPIADDTIKKTPSFTTLPIRINKQNDVADAATRRALRD
@@ -79,6 +80,7 @@ FEATURES             Location/Qualifiers
                      FFQIRDDYMNLRSGLYTEQKGFCEDLDEGKFSYPIVVCVANHADFRDLIDGVFRQRPTA
                      ITSGMQPLAPEIKRYVVEYLNTSGTFQHCREFLMQLESLIESEIDRIEKVTNEANPMLR
                      LLLEKLSVKEN"
+                     /Pfam="Terpene_syn_C_2, GGPS"
 ORIGIN
         1 ctaagtcagg cgctcttgca caatggcttt tatgtgatat ttagagtata tcattctgga
        61 gtcagtatcc tgctcccata caaaccggtc ctcgttgact atcttcaaat gaaagcggta

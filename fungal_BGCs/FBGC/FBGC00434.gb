@@ -1,24 +1,24 @@
-LOCUS       FBGC00434       17262 bp DNA     linear   UNA 09-MAR-2023
+LOCUS       FBGC00434              17262 bp    DNA     linear   UNA 09-MAR-2023
 DEFINITION  pleuromutilin.
 ACCESSION   FBGC00434
-VERSION     .
+VERSION     FBGC00434
 KEYWORDS    .
 SOURCE      Rhodocybe pseudopiperita ATCC 20527
   ORGANISM  Rhodocybe pseudopiperita ATCC 20527
+            .
 REFERENCE   1  (bases 1 to 17262)
-  AUTHORS   Yamane M, Minami A, Liu C, Ozaki T, Takeuchi I, Tsukagoshi T, 
+  AUTHORS   Yamane M, Minami A, Liu C, Ozaki T, Takeuchi I, Tsukagoshi T,
             Tokiwano T, Gomi K, Oikawa H.
-  TITLE     Biosynthetic Machinery of Diterpene Pleuromutilin Isolated from 
+  TITLE     Biosynthetic Machinery of Diterpene Pleuromutilin Isolated from
             Basidiomycete Fungi.
   JOURNAL   Chembiochem 2017;18:2317-2322
-  PUBMED    28924980
+   PUBMED   28924980
 REFERENCE   2  (bases 1 to 17262)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Mar 9, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1002/cbic.201700434"; journalName: "Chembiochem"; date: "2017"; 
+  JOURNAL   Exported Mar 9, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1002/cbic.201700434"; journalName: "Chembiochem"; date: "2017";
             volume: "18"; pages: "2317-2322"
 FEATURES             Location/Qualifiers
      source          1..17262
@@ -27,12 +27,13 @@ FEATURES             Location/Qualifiers
                      /db_xref="taxon:693819"
                      /culture_collection="ATCC:20527"
                      /organism="Rhodocybe pseudopiperita"
-     CDS             join(1..202,272..380,431..457,512..700,754..1018,1074..1191,
-                     1246..1423,1480..1584,1632..1763,1828..1971,2022..2124)
+     CDS             join(1..202,272..380,431..457,512..700,754..1018,
+                     1074..1191,1246..1423,1480..1584,1632..1763,1828..1971,
+                     2022..2124)
                      /codon_start=1
                      /gene="ple1"
                      /product="cytochrome P450 monooxygenase Ple1"
-                     /label=ple1
+                     /label="ple1"
                      /note="intron (2767..2830) does not follow gt-ag rule"
                      /protein_id="BCI98769.1"
                      /translation="MAPSNTERALPVLAIWAAIGLAYWIDSQKKKKHHLPPGPKKLPII
@@ -45,12 +46,13 @@ FEATURES             Location/Qualifiers
                      MSNDENDYPQPGEFRPERYLTEDGKPNKAVRDPFDIAFGFGRRICAGRYLAHSTITLAA
                      ASVLSLFDLLKAVDENGKEIEPTREYHQAMISRPLEFPCRIKPRNKEAEEVIRACPLTF
                      TKPTSA"
+                     /Pfam="p450"
      CDS             complement(join(2410..2835,2887..2914,2968..3026,
                      3088..3708))
                      /codon_start=1
                      /gene="ple2"
                      /product="acetyltransferase Ple2"
-                     /label=ple2
+                     /label="ple2"
                      /protein_id="BCI98770.1"
                      /translation="MKPFSPELLVLSFILLVLSCAIRPAKGRWILWVIIVALNTYLTMT
                      TTGDSTLDYDIANNLFVITLTATDYILLTDVQRELQFRNQKGVEQASLLERIKWATWLV
@@ -59,12 +61,13 @@ FEATURES             Location/Qualifiers
                      RRFWGRSWHQLVRRCLSSPGKYLSTKVLGLKPGSNPALYVQLYAAFFLSGVLHAIGDFK
                      VHEDWYKAGTMEFFCVQAVIIQMEDGVLWVGRKLGIKETWYWRALGHLWTVAWFVYSCP
                      NWLGATISGRGKASMALESSLVLGLYRGEWHPPRVAQ"
+                     /Pfam="MBOAT_2"
      CDS             complement(join(4681..6366,6419..6705,6761..6881,
                      6934..7719))
                      /codon_start=1
                      /gene="ple3"
                      /product="terpene synthase Ple3"
-                     /label=ple3
+                     /label="ple3"
                      /protein_id="BCI98771.1"
                      /translation="MGLSEDLHARARTLMQTLESALNTPGSRGIGTANPTIYDTAWVAM
                      VSREIDGKQVFVFPETFTYIYEHQEADGSWSGDGSLIDSIVNTLACLLALKMHESNASK
@@ -83,12 +86,13 @@ FEATURES             Location/Qualifiers
                      VMHFGAFSRLANDLHSISRDFNEVNLNSIMFSEFTGPKSGTDTEKAREAALLELVKYER
                      KETDDAFEYLVQQLTPHVGAKRARDYINIIRVTYLHTALYDDLGRLTRADISNANREVS
                      KGANGVKKTNGLTTNGTKATANGSNGIHH"
+                     /Pfam="PbcA"
      CDS             join(8657..8794,8853..9022,9078..9367,9427..9672,
                      9733..9941)
                      /codon_start=1
                      /gene="ple4"
                      /product="geranylgeranyl pyrophosphate synthase Ple4"
-                     /label=ple4
+                     /label="ple4"
                      /protein_id="BCI98772.1"
                      /translation="MRIPNIFLSYLRQVAVDGTLSSCSGVKSRKPVIAFGFDDSQDSLV
                      DENDEKILEPFGYYRHLLKGKSARTVLMHCFNAFLGLPEDWVLGVTKAIEDLHNASLLI
@@ -97,6 +101,7 @@ FEATURES             Location/Qualifiers
                      DLSAIALRIGVYYQLRDDYINLMSTSYHDERGFAEDITEGKYTFPMLHSLKRSPDSGLR
                      EILDLKPADIALKKKAIAIMQETGSLIATRNLLGAVKNDLSGLVAEQRGDDYAMSAGLE
                      RFLEKLYIAE"
+                     /Pfam="GGPS"
      CDS             complement(join(10354..10452,10523..10627,10685..10723,
                      10776..10891,10950..10970,11022..11070,11129..11191,
                      11248..11446,11501..11865,11923..12053,12109..12174,
@@ -104,7 +109,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="ple5"
                      /product="cytochrome P450 monooxygenase Ple5"
-                     /label=ple5
+                     /label="ple5"
                      /protein_id="BCI98773.1"
                      /translation="MLSVDLPSVANLDPRIAAAAAGSAVAVYKLLQLGSRESFLPPGPP
                      TRPVLGNAHLMTKMWLPMQLTEWAREYGEVYSLKLMNRTVIVLNSPKAVRTILDKQGNI
@@ -116,6 +121,7 @@ FEATURES             Location/Qualifiers
                      MGHDPELFDEPEAFKPERYLLTSNGTKPGLSEDVNPDFLFGAGRRVCPGDKLAKRSTGL
                      FIMRLCWAFNFYPDSSNKDTVKNMNMEDCYDKSVSLETLPLPFACKIEPRDKMKEDLIK
                      EAFAAL"
+                     /Pfam="p450"
      CDS             complement(join(13503..13595,13648..13737,13789..13946,
                      13998..14018,14070..14118,14169..14231,14287..14494,
                      14559..14932,14985..15115,15167..15320,15378..15417,
@@ -123,7 +129,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="ple6"
                      /product="cytochrome P450 monooxygenase Ple6"
-                     /label=ple6
+                     /label="ple6"
                      /protein_id="BCI98774.1"
                      /translation="MNLSEIKAALLERNMFAPVAIPVACYLVYKLLRMGSREKTLPPGP
                      PTKPVLGNLHQMPAMNDMHLQLSKWAQEYGGIYSLKIFFKNVVILTDSASVTGILDKLN
@@ -135,17 +141,19 @@ FEATURES             Location/Qualifiers
                      VIVMNLYGIQRDPKVFDAPDEFRPERYMESEFGTKPGVDLTGYRHTFTFGAGRRICPGL
                      KMAEIFKRTVSLNIIWGFDIKPLPNSPKSMKDDVVVPGPVSMPKPFECEMVPRSQAVVQ
                      VIHEVADY"
+                     /Pfam="p450"
      CDS             join(16305..16316,16389..16841,16902..17044,17109..17262)
                      /codon_start=1
                      /gene="ple7"
                      /product="short-chain dehydrogenase/reductase Ple7"
-                     /label=ple7
+                     /label="ple7"
                      /protein_id="BCI98775.1"
                      /translation="MEGKIVIVTGASHGIGLATVNLLLAAGASVFGVDLAPTPPSVTSE
                      KFKFLQLNICDKDAPAKIVLGSKDAFGSDRIDALLNVAGISDYFQTALTFEDDVWDSVI
                      DVNLAAQVRLMREVLKVMKVQKSGSIVNVVSKLALSGACGGVAYVASKHALLGVTKNTA
                      WMFKDDGIRCNAVAPGSTDTNIRNTTDATKIDYDAFTRAMPVIGVHCNLQTGEGMMSPE
                      PAAQAIFFLASDLSKGMNGVVIPVDNAWSVI"
+                     /Pfam="adh_short"
 ORIGIN
         1 atggcaccgt ctaatacaga acgtgctcta ccggtccttg caatatgggc cgctataggc
        61 ttggcctact ggatagactc tcaaaagaag aaaaagcacc acttgccgcc tgggccgaag

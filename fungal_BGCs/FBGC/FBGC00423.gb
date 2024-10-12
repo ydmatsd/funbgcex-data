@@ -1,25 +1,25 @@
-LOCUS       FBGC00423        7748 bp DNA     linear   UNA 06-MAR-2023
+LOCUS       FBGC00423               7748 bp    DNA     linear   UNA 06-MAR-2023
 DEFINITION  preaspterpenacid II.
 ACCESSION   FBGC00423
-VERSION     .
+VERSION     FBGC00423
 KEYWORDS    .
 SOURCE      Aspergillus terreus NIH2624
   ORGANISM  Aspergillus terreus NIH2624
+            .
 REFERENCE   1  (bases 1 to 7748)
-  AUTHORS   Jiang L, Zhang X, Sato Y, Zhu G, Minami A, Zhang W, Ozaki T, Zhu B, 
+  AUTHORS   Jiang L, Zhang X, Sato Y, Zhu G, Minami A, Zhang W, Ozaki T, Zhu B,
             Wang Z, Wang X, Lv K, Zhang J, Wang Y, Gao S, Liu C, Hsiang T, Zhang
             L, Oikawa H, Liu X.
-  TITLE     Genome-Based Discovery of Enantiomeric Pentacyclic Sesterterpenes 
+  TITLE     Genome-Based Discovery of Enantiomeric Pentacyclic Sesterterpenes
             Catalyzed by Fungal Bifunctional Terpene Synthases.
   JOURNAL   Org Lett 2021;23:4645-4650
-  PUBMED    34085529
+   PUBMED   34085529
 REFERENCE   2  (bases 1 to 7748)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Mar 6, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1021/acs.orglett.1c01361"; journalName: "Org Lett"; date: 
+  JOURNAL   Exported Mar 6, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1021/acs.orglett.1c01361"; journalName: "Org Lett"; date:
             "2021"; volume: "23"; pages: "4645-4650"
 FEATURES             Location/Qualifiers
      source          1..7748
@@ -32,7 +32,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="ATEG_03567"
                      /product="cytochrome P450 monooxygenase AtP450"
-                     /label=AtP450
+                     /label="AtP450"
                      /protein_id="EAU36841.1"
                      /translation="MSISNMTSTVWPDLQVPAIEHNHLPILTVALLTGIASAVYINVSS
                      VQDPCKVGSIPTVKRPRLLDAYRSGVWWRIFVPRLVPYIEEGYHKYNKNDQPFRIWLGG
@@ -44,28 +44,29 @@ FEATURES             Location/Qualifiers
                      GSGFRLDDNTVLPRDSFIAIPTRNILYDPEVFPEPEKFDPFRFYKIKEDEKNAGSRSNR
                      RDIRASWLAFGYGRQACPGRFYAINAMKTILGEILLKYDIRLAEKQAPRIDIDLDPMLA
                      PVRSTDLEFRVRA"
+                     /Pfam="p450"
      gene            complement(1..1530)
                      /locus_tag="ATEG_03567"
-                     /label=ATEG_03567
+                     /label="ATEG_03567"
      mRNA            complement(join(1..193,255..279,345..545,616..1299,
                      1355..1436,1489..1530))
                      /locus_tag="ATEG_03567"
                      /product="predicted protein"
-                     /label=ATEG_03567 mRNA
+                     /label="ATEG_03567 mRNA"
      gene            2444..5054
                      /locus_tag="ATEG_03568"
-                     /label=ATEG_03568
-     mRNA            join(2444..3096,3158..3938,3987..4141,4190..4333,4410..4668,
-                     4725..5054)
+                     /label="ATEG_03568"
+     mRNA            join(2444..3096,3158..3938,3987..4141,4190..4333,
+                     4410..4668,4725..5054)
                      /locus_tag="ATEG_03568"
                      /product="predicted protein"
-                     /label=ATEG_03568 mRNA
-     CDS             join(2444..3096,3158..3938,3987..4141,4190..4333,4410..4668,
-                     4725..5054)
+                     /label="ATEG_03568 mRNA"
+     CDS             join(2444..3096,3158..3938,3987..4141,4190..4333,
+                     4410..4668,4725..5054)
                      /codon_start=1
                      /locus_tag="ATEG_03568"
                      /product="terpene synthase AtAS"
-                     /label=AtAS
+                     /label="AtAS"
                      /protein_id="EAU36842.1"
                      /translation="MDTISDVMKHCVPINYDDYDPLPADHFSTYPVFCSKATAEAIEAS
                      AEFTRKWKRACEVDGLHQDKLNFQACTTHLGHYNQWAYPDCLPERVSLNAVLSDCAFFW
@@ -81,18 +82,19 @@ FEATURES             Location/Qualifiers
                      LDTALCRLLTLTGRYYQIRDDYLNLASADYESKKGFCEDFDEGKFSLPLIHLLSHTRYP
                      DRITSALFNRKPGTNLPYEMKRYILAEMEEVQTLAYSQDVLKYLHEELMHALDETENRL
                      GANDGIRMMLLGMGPKLLLC"
+                     /Pfam="Terpene_syn_C_2, GGPS"
      gene            6797..7748
                      /locus_tag="ATEG_03569"
-                     /label=ATEG_03569
+                     /label="ATEG_03569"
      mRNA            join(6797..6991,7044..7748)
                      /locus_tag="ATEG_03569"
                      /product="conserved hypothetical protein"
-                     /label=ATEG_03569 mRNA
+                     /label="ATEG_03569 mRNA"
      CDS             join(6797..6991,7044..7748)
                      /codon_start=1
                      /locus_tag="ATEG_03569"
                      /product="acetyltransferase ATEG_03569"
-                     /label=ATEG_03569
+                     /label="ATEG_03569"
                      /protein_id="EAU36843.1"
                      /translation="MYFFRALLSPVVMWPALVSGKSNSNTANYTVEELWDLEVTFWDNF
                      LYPANVKQVEAINSTLFTTEVQGRVDITRVFNGSELNTEYIFGLFSDPNHLSLVGVPIA

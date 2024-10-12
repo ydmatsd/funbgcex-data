@@ -1,31 +1,32 @@
-LOCUS       FBGC00401       26930 bp DNA     linear   UNA 04-MAR-2023
+LOCUS       FBGC00401              26930 bp    DNA     linear   UNA 04-MAR-2023
 DEFINITION  echinulin.
 ACCESSION   FBGC00401
-VERSION     .
+VERSION     FBGC00401
 KEYWORDS    .
 SOURCE      Aspergillus cristatus GZAAS20.1005
   ORGANISM  Aspergillus cristatus GZAAS20.1005
+            .
 REFERENCE   1  (bases 1 to 26930)
-  AUTHORS   Qi J, Han H, Sui D, Tan S, Liu C, Wang P, Xie C, Xia X, Gao JM, Liu 
+  AUTHORS   Qi J, Han H, Sui D, Tan S, Liu C, Wang P, Xie C, Xia X, Gao JM, Liu
             C.
-  TITLE     Efficient production of a cyclic dipeptide (cyclo-TA) using 
-            heterologous expression system of filamentous fungus Aspergillus 
+  TITLE     Efficient production of a cyclic dipeptide (cyclo-TA) using
+            heterologous expression system of filamentous fungus Aspergillus
             oryzae.
   JOURNAL   Microb Cell Fact 2022;21:146
-  PUBMED    35843946
+   PUBMED   35843946
 REFERENCE   2  (bases 1 to 26930)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Mar 4, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1186/s12934-022-01872-8"; journalName: "Microb Cell Fact"; date:
-            "2022"; volume: "21"; pages: "146"
+  JOURNAL   Exported Mar 4, 2023 from SnapGene 6.2.1 https://www.snapgene.com
 COMMENT     ##Genome-Assembly-Data-START##
             Assembly Date         :: 2013
             Assembly Method       :: SOAPdenovo v. 1.04
             Genome Coverage       :: 100.0x
             Sequencing Technology :: Illumina HiSeq ##Genome-Assembly-Data-END##
+            ##Genome-Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1186/s12934-022-01872-8"; journalName: "Microb Cell Fact"; date:
+            "2022"; volume: "21"; pages: "146"
 FEATURES             Location/Qualifiers
      source          1..26930
                      /strain="GZAAS20.1005"
@@ -40,7 +41,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="SI65_10008"
                      /product="dehydrogenase CriG"
-                     /label=criG
+                     /label="criG"
                      /protein_id="ODM14522.1"
                      /translation="MSLPDVDVKPAEGISYFTPAQEPPAGTAANPQTSGQAIPKLFQPL
                      TIRGVTFPNRIGLAPLCQYSAQDGHMTDWHVAHLGGIAQRGPGMMMIEATAVVPEGRIT
@@ -50,12 +51,13 @@ FEATURES             Location/Qualifiers
                      EESWRVEDSVRFAEALAAQGAVDLIDVSSGGVHSAQKIKSGPGFQAPFAVAIKKAVGDK
                      LVVAAVGAITNGKQANQLLEGEGLDVTLVGRGFQKDTATAWTFAQHLNVEISMANQIRW
                      GFTRRGGTPYIDPSVYKGSIFD"
-     CDS             join(3036..3156,3209..3402,3453..3505,3560..3782,3846..4258,
-                     4309..5608)
+                     /Pfam="Oxidored_FMN"
+     CDS             join(3036..3156,3209..3402,3453..3505,3560..3782,
+                     3846..4258,4309..5608)
                      /codon_start=1
                      /locus_tag="SI65_10009"
                      /product="glycosyl hydrolase SI65_10009"
-                     /label=SI65_10009
+                     /label="SI65_10009"
                      /protein_id="ODM14523.1"
                      /translation="MVRSSITALLGGLMLSSAVRAENITSDAHFYGESPPVYPSPEATG
                      TGPWAIAYGKARDFVANLTVEEKVNLTAGITADSSCSGIIPAIPRVGFPGLCVTDAGNG
@@ -71,11 +73,12 @@ FEATURES             Location/Qualifiers
                      TTFDYSDLQTRRSNVSTTAYPPNATIEQGGNPRLWDEILTVSAKVSNTGAVDGDEVPQL
                      YLGIPNGPVRQLRGFDKLRIVAGESAPVAFPLTRRDLSVWDVSAQQWHLQEGEYKVYVG
                      RSSRDLPLSGTFSI"
+                     /Pfam="Glyco_hydro_3, Glyco_hydro_3_C, Fn3-like"
      CDS             join(6442..7565,7621..7723)
                      /codon_start=1
                      /locus_tag="SI65_10010"
                      /product="DMATS-type prenyltransferase CriF"
-                     /label=criF
+                     /label="criF"
                      /protein_id="ODM14524.1"
                      /translation="MQPFHTLSRILPFPDATQKAWWDKLAPMLLKAMQAQGYDTEAQYA
                      QLGMVYKCVLPYLGQYPTVENDATRWKSFLCPYGIPIEPSLNISQGILRYAFEPIGPDV
@@ -85,11 +88,12 @@ FEATURES             Location/Qualifiers
                      LQLLRELWDLLQIPPGVRDIEVDHCSVGQPPKYLLPSLVNWTFLPGHSDPMPQVYLVPF
                      GLPDAHISDALVTFFERRGWTDLARSYKSNLASYFPDVDFSQSRHVQEAISFSFRKGKP
                      YLSVYMSLF"
+                     /Pfam="Trp_DMAT"
      CDS             complement(8775..10373)
                      /codon_start=1
                      /locus_tag="SI65_10011"
                      /product="cytochrome P450 monooxygenase CriE"
-                     /label=criE
+                     /label="criE"
                      /protein_id="ODM14525.1"
                      /translation="MWDSPIIFTRMRELVQSVSPAALSWAVVAVYIGTFFWLKSRSSKQ
                      RLPLPPGPRGLPLIGNSFQTPAVNPWEKYKEWSDEYGPVMTLSLGLTTTIILSSHQVAN
@@ -101,12 +105,13 @@ FEATURES             Location/Qualifiers
                      VNQWALDYNEDVFPEPFSFLPERWIANPDLPFSTFGFGQRGCPGRYFAQDSLFISTARL
                      LWAFNIRTASPVEVEDMLRNPSAGAFLSPIPEFDATFAARDAQRKALIEKEWEIAPKES
                      YAILREVEKELTSEA"
+                     /Pfam="p450"
      CDS             join(11479..11774,11820..11878,12210..12823,12882..13659,
                      13709..14325)
                      /codon_start=1
                      /locus_tag="SI65_10012"
                      /product="hypothetical protein CriD"
-                     /label=criD
+                     /label="criD"
                      /protein_id="ODM14526.1"
                      /translation="MSQSQASGSQYEASHYANSFIDPELLQSDDFTDTLGSETPSSTHF
                      SDFPIPPRYHHAPDSLERVGKPLQQHYILYNSDSTNPKMGESRREFVEWWLKTDNLKKS
@@ -122,12 +127,13 @@ FEATURES             Location/Qualifiers
                      GQLKPDTIKGLMLHLFSSKFELEQSELEMIKEHLSSGEAAMLDQIWKPVSSLNEVEPIS
                      DDEEEGCKGDDLSDDLNSSDDDNSEEELTLTQITTQRKQAQRKRSWNKTSELQDDGENG
                      LPLPEMATERSTQARSGRIRKKPKLPDGFEIDRL"
+                     /Pfam="DUF659, DUF4413, Dimer_Tnp_hAT"
      CDS             join(15744..16353,16410..19445,19499..19776,19832..19921,
                      19994..22375)
                      /codon_start=1
                      /locus_tag="SI65_10013"
                      /product="nonribosomal peptide synthetase CriC"
-                     /label=criC
+                     /label="criC"
                      /protein_id="ODM14527.1"
                      /translation="MGSIESDSVLSFFSQQCFQHPDNTAIDDGPNGNLSYSQLDQQSST
                      LAHCLRQNGIKAGQVVPLLTTSRLEMVIAVLGILKAGGVYVPVDIDQWPADRINYVLGR
@@ -166,12 +172,13 @@ FEATURES             Location/Qualifiers
                      HLGLPFPSAQPQVFSCCVTFHDDRGTDPPLAINGVEGQYISAEGAKFPLLFEWQATRAT
                      GQHEQLTVRLEYDTDWFSAEFTEILEALLLECFRMLLEEEGSRHGEVKGRLGEVLQSEA
                      TRIGVAVDEIYETARQYLTVV"
+                     /Pfam="AA-adenyl-dom, ACP_PCP, NRPS_C"
      CDS             join(23302..23559,23618..23728,23783..23867,23915..24276,
                      24327..24671,24721..24912,24964..25053)
                      /codon_start=1
                      /locus_tag="SI65_10014"
                      /product="major facilitator superfamily transporter CriB"
-                     /label=criB
+                     /label="criB"
                      /note="revised sequence"
                      /protein_id="ODM14528.1"
                      /translation="MGLSLVLSCGVIAGISGFLFGYDSGIMTTTIAQEQFLQQFKPKES
@@ -183,11 +190,12 @@ FEATURES             Location/Qualifiers
                      TAASELGKSGQMGGVAMIFLFFVIYCSTWGPLSWVYASEIFPTQIRSKGYSMASAVNWL
                      VTLLFNQVSPIALKKSEWRFYFLFVATNFISALVLLFLYPETSGKSLEAIDLLFDDHQT
                      IHRSTLEENEVRRTSESVNAKH"
+                     /Pfam="Sugar_tr"
      CDS             join(25585..26741,26792..26930)
                      /codon_start=1
                      /locus_tag="SI65_10015"
                      /product="DMATS-type prenyltransferase CriA"
-                     /label=criA
+                     /label="criA"
                      /protein_id="ODM14529.1"
                      /translation="MTSYTESSEESGSRMPSEILTSYYDYPTHDQESWWRDTGPLFGRF
                      LKGAGYDVHTQYQYLVFFIKNILPSLGPYPARWRSTITPTGLPIEYSLNFQKNSRPLLR
@@ -197,6 +205,7 @@ FEATURES             Location/Qualifiers
                      GGRIEEDATIKAGLELLQHMWSLLRIDEGNRDYKGGFAADNGGKTLPIIWNYEINKGSP
                      HPAPKFYFPVHGENDLQVSKSISEFFSHLGWDDHARQYPHLLRQIYPNQNISLTERLQA
                      WISFAYHEHTGPYLSVYYYAAERPPWGSDQVK"
+                     /Pfam="Trp_DMAT"
 ORIGIN
         1 ttagtcgaag atcgagccct tgtacacgga ggggtcgatg taaggagtac cgccccgtct
        61 ggtgaatccc catcggattt ggttggccat ggagatctca acattcagat gctgggcgaa

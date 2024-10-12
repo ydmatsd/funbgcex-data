@@ -1,36 +1,36 @@
-LOCUS       FBGC00408        9758 bp DNA     linear   UNA 12-MAY-2023
+LOCUS       FBGC00408               9758 bp    DNA     linear   UNA 12-MAY-2023
 DEFINITION  terrequinone A.
 ACCESSION   FBGC00408
-VERSION     .
+VERSION     FBGC00408
 KEYWORDS    .
 SOURCE      Aspergillus nidulans FGSC A4
   ORGANISM  Aspergillus nidulans FGSC A4
+            .
 REFERENCE   1  (bases 1 to 9758)
   AUTHORS   Balibar CJ, Howard-Jones AR, Walsh CT.
-  TITLE     Terrequinone A biosynthesis through L-tryptophan oxidation, 
+  TITLE     Terrequinone A biosynthesis through L-tryptophan oxidation,
             dimerization and bisprenylation.
   JOURNAL   Nat Chem Biol 2007;3:584-92
-  PUBMED    17704773
+   PUBMED   17704773
 REFERENCE   2  (bases 1 to 9758)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported May 12, 2023 from SnapGene 6.2.2
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1038/nchembio.2007.20"; journalName: "Nat Chem Biol"; date: 
+  JOURNAL   Exported May 12, 2023 from SnapGene 6.2.2 https://www.snapgene.com
+COMMENT     ##Genome-Annotation-Data-START##
+            Annotation Provider :: INSDC submitter
+            Annotation Status   :: Full annotation
+            Annotation Pipeline :: Eukaryotic Annotation Propagation Pipeline
+            ##Genome-Annotation-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1038/nchembio.2007.20"; journalName: "Nat Chem Biol"; date:
             "2007"; volume: "3"; pages: "584-92"
-COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final 
-            NCBI review. The reference sequence is identical to BN001305. 
+            PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to BN001305.
             Aspergillus nidulans FGSC A4 CADRE,
             updated by Eurofungbase with contributions from
             CADRE (http://www.cadre-genomes.org.uk),
             AspGD (http://www.aspergillusgenome.org) and
-            Ensembl Genomes 
-            (http://www.ensemblgenomes.org).##Genome-Annotation-Data-START##
-            Annotation Provider :: INSDC submitter
-            Annotation Status   :: Full annotation
-            Annotation Pipeline :: Eukaryotic Annotation Propagation Pipeline 
-            ##Genome-Annotation-Data-END##
+            Ensembl Genomes
 FEATURES             Location/Qualifiers
      source          1..9758
                      /chromosome="V"
@@ -43,7 +43,7 @@ FEATURES             Location/Qualifiers
                      /locus_tag="ANIA_08513"
                      /old_locus_tag="AN8513.2; AN8513.4"
                      /product="NRPS-like enzyme TdiA"
-                     /label=tdiA
+                     /label="tdiA"
                      /note="transcript_id=CADANIAT00003005"
                      /db_xref="GeneID:2868849"
                      /db_xref="GOA:Q5AT67"
@@ -71,12 +71,13 @@ FEATURES             Location/Qualifiers
                      LVWEECVIHLFYFVGLMTELAAYTHKPTLQEFNRANRRLDAIRYLRQHCDAARWDELGL
                      SEEYYLLWVGLASNMQSLAVDYEPSGSVKCMDVFVADPLSHVAKDRIDWVEGRLSAWKE
                      FVREDVRFHDVQGAHYTMLNREYVEAFAGTLKNVLRERGL"
+                     /Pfam="AA-adenyl-dom, Thioesterase"
      CDS             join(3303..3925,3990..4481,4551..4695)
                      /codon_start=1
                      /locus_tag="ANIA_08514"
                      /old_locus_tag="AN8514.2; AN8514.4"
                      /product="DMATS-type prenyltransferase TdiB"
-                     /label=tdiB
+                     /label="tdiB"
                      /note="transcript_id=CADANIAT00003006"
                      /db_xref="EnsemblGenomes-Gn:CADANIAG00003006"
                      /db_xref="EnsemblGenomes-Tr:CADANIAT00003006"
@@ -93,12 +94,13 @@ FEATURES             Location/Qualifiers
                      NELEGPQSDAATMDESWSKPERLNRTGYSGIQYTIEITPGQAIPDTKIYVPLFQYTDSS
                      EVAERNFESALKKLGNEWGLSGKYRSVMQEIFKDVENYGQTYASFSYTEGKGVYTTSYV
                      AMPIKDEGGGSLAGDFGFRN"
+                     /Pfam="Trp_DMAT"
      CDS             5346..6413
                      /codon_start=1
                      /locus_tag="ANIA_08518"
                      /old_locus_tag="AN8515.2; AN8518.4"
                      /product="medium-chain dehydrogenase/reductase TdiC"
-                     /label=tdiC
+                     /label="tdiC"
                      /note="transcript_id=CADANIAT00003007"
                      /db_xref="EnsemblGenomes-Gn:CADANIAG00003007"
                      /db_xref="EnsemblGenomes-Tr:CADANIAT00003007"
@@ -116,13 +118,14 @@ FEATURES             Location/Qualifiers
                      VRFALPDWVGPVHIVLDYVGGSVAAGVLGSAEIEEGRELQYVQVGNLALELGTGEKHMF
                      ETLPGHLISRKPICIRGSGMGSFSRRDLVREMPGLVAFLARMKAPFGIASAPMCEVASV
                      WQDEDTKGSRVVIVP"
-     CDS             join(6630..6714,6766..6971,7023..7165,7226..7237,7301..7501,
-                     7569..7817,7888..8302)
+                     /Pfam="TdiC"
+     CDS             join(6630..6714,6766..6971,7023..7165,7226..7237,
+                     7301..7501,7569..7817,7888..8302)
                      /codon_start=1
                      /locus_tag="ANIA_08516"
                      /old_locus_tag="AN8516.2; AN8516.4"
                      /product="aminotransferase TdiD"
-                     /label=tdiD
+                     /label="tdiD"
                      /note="transcript_id=CADANIAT00003008"
                      /db_xref="EnsemblGenomes-Gn:CADANIAG00003008"
                      /db_xref="EnsemblGenomes-Tr:CADANIAT00003008"
@@ -142,13 +145,14 @@ FEATURES             Location/Qualifiers
                      TAQAAVVDKVVRITENINLQPSSTTQLLALSLLRHWGQAGFLKHCAEAAEVYRRRRDVF
                      VSAAERHLQGRATWVVPTAGMFVWLELKLPPEMDSFELLKSQGMKNGVLAIPGVAFMPG
                      NEQTCYIRVSFSLVPERDMDEACRRIAGLVDRCACHS"
-     CDS             complement(join(8374..8437,8502..8921,8972..9167,9223..9345,
-                     9432..9444,9513..9526,9582..9679,9733..9758))
+                     /Pfam="Aminotran_1_2"
+     CDS             complement(join(8374..8437,8502..8921,8972..9167,
+                     9223..9345,9432..9444,9513..9526,9582..9679,9733..9758))
                      /codon_start=1
                      /locus_tag="ANIA_08520"
                      /old_locus_tag="AN8517.2; AN8520.4"
                      /product="methyltransferase TdiE"
-                     /label=tdiE
+                     /label="tdiE"
                      /note="transcript_id=CADANIAT00003009"
                      /db_xref="EnsemblGenomes-Gn:CADANIAG00003009"
                      /db_xref="EnsemblGenomes-Tr:CADANIAT00003009"
@@ -163,6 +167,7 @@ FEATURES             Location/Qualifiers
                      WLEMQELSNPVTSDDGTLSENNPLSQWGRLLIEASKKMNRPVDNPAKYETWMREAGFVN
                      CHTVAYNWPTNPWPADEKGKTLGLWNLYNVLQRFEEFSVALLVKVLGWEMDDAKTFLGN
                      VKEELMNEGVHGYWPVYVVYGQKPAAPGSDVITDSE"
+                     /Pfam="GliN"
 ORIGIN
         1 ctacaggccc cgctccctca gtacattctt caatgtccct gcaaaagcct caacatactc
        61 ccgattcaac atggtgtaat gtgctccttg cacatcgtgg aaacgcacgt cctcccgcac

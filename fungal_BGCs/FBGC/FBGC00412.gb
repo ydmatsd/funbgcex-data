@@ -1,23 +1,23 @@
-LOCUS       FBGC00412       16641 bp DNA     linear   UNA 05-MAR-2023
+LOCUS       FBGC00412              16641 bp    DNA     linear   UNA 05-MAR-2023
 DEFINITION  ophiobolins.
 ACCESSION   FBGC00412
-VERSION     .
+VERSION     FBGC00412
 KEYWORDS    .
 SOURCE      Aspergillus clavatus NRRL 1
   ORGANISM  Aspergillus clavatus NRRL 1
+            .
 REFERENCE   1  (bases 1 to 16641)
   AUTHORS   Narita K, Chiba R, Minami A, Kodama M, Fujii I, Gomi K, Oikawa H.
-  TITLE     Multiple Oxidative Modifications in the Ophiobolin Biosynthesis: 
+  TITLE     Multiple Oxidative Modifications in the Ophiobolin Biosynthesis:
             P450 Oxidations Found in Genome Mining.
   JOURNAL   Org Lett 2016;18:1980-3
-  PUBMED    27116000
+   PUBMED   27116000
 REFERENCE   2  (bases 1 to 16641)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Mar 5, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1021/acs.orglett.6b00552"; journalName: "Org Lett"; date: 
+  JOURNAL   Exported Mar 5, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1021/acs.orglett.6b00552"; journalName: "Org Lett"; date:
             "2016"; volume: "18"; pages: "1980-3"
 FEATURES             Location/Qualifiers
      source          1..16641
@@ -32,11 +32,10 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="ACLA_076840"
                      /product="cytochrome P450 monooxygenase OblB"
-                     /label=oblB
-                     /note="encoded by transcript ACLA_076840A;
-                     predicted by EVM2 similar to RF:XP_383711.1: TRI4_FUSSP 
-                     Trichodiene oxygenase (Cytochrome P450 58) [Gibberella zeae
-                     PH-1]"
+                     /label="oblB"
+                     /note="encoded by transcript ACLA_076840A; predicted by
+                     EVM2 similar to RF:XP_383711.1: TRI4_FUSSP Trichodiene
+                     oxygenase (Cytochrome P450 58) [Gibberella zeae PH-1]"
                      /protein_id="EAW14643.1"
                      /translation="MEASLHFPIDASLRAAVAVISAGAFYLLNLVIYRLFLSPLAKFPG
                      PKLAAVTSWYELYYDLVHKGKYLFEIEKMHDKYGPIVRINPFELSIRDSEYYDELYVAG
@@ -48,13 +47,14 @@ FEATURES             Location/Qualifiers
                      QPLQFRQWTIPAGVPVGMSAYYAHRDPSVFPRPDEFLPERWLSNVTPEMSRNYVPFSRG
                      SRRCLGMNLAYAEINHVIATLFRPGGPDFKLYETSEKDVKPAHDLIVPLPSLESKGFRV
                      IFR"
+                     /Pfam="p450"
      CDS             join(2362..2641,2689..3650,3704..3858,3914..4673)
                      /codon_start=1
                      /locus_tag="ACLA_076850"
                      /product="terpene synthase OblA"
-                     /label=oblA
-                     /note="encoded by transcript ACLA_076850A;
-                     predicted by EVM2"
+                     /label="oblA"
+                     /note="encoded by transcript ACLA_076850A; predicted by
+                     EVM2"
                      /protein_id="EAW14644.1"
                      /translation="MACKYSTLIDSSLYDREGLCPGIDLRRHVAGELEEVGAFRAQEDW
                      RRLVGPLPKPYAGLLGPDFSFITGAVPECHPDRMEIVAYALEFGFMHDDVIDTDVNHAS
@@ -69,11 +69,12 @@ FEATURES             Location/Qualifiers
                      VPNSDMNLFSCLIGRFFQIRDDYQNLASADYAKAKGFAEDLDEGKYSFTLIHCIQTLES
                      KPELAGEMMQLRAFLMKRRHEGKLSQEAKQEVLVTMKKTESLQYTLSVLRELHSELEKE
                      VENLEAKFGEENFTLRVMLELLKV"
+                     /Pfam="Terpene_syn_C_2, GGPS"
      CDS             complement(join(4707..5881,5977..6091))
                      /codon_start=1
                      /locus_tag="ACLA_076860"
                      /product="transcription factor ACLA_076860"
-                     /label=ACLA_076860
+                     /label="ACLA_076860"
                      /note="encoded by transcript ACLA_076860A"
                      /protein_id="EAW14645.1"
                      /translation="MPRDTTEEKAPSGSMGKEKRKPVRRDPEKRRQQNIRAQREKLRER
@@ -84,13 +85,14 @@ FEATURES             Location/Qualifiers
                      RASADDIVKENMICTVQRIFMTLKPDLRPTIEQITVRHPPYIDVLPFQTLRKNLILYQH
                      EVDEDEFLRDAITGLVCWGGAGAGRRDQDTSTGYASTGTPWDNRSWEAKEWFLKKYWSL
                      LGGEEGELVRQSEWWRNIRGEDPLGIEALA"
+                     /Pfam="TqaK, DUF3425"
      CDS             7046..8494
                      /codon_start=1
                      /locus_tag="ACLA_076870"
                      /product="FAD-linked oxidoreductase OblC"
-                     /label=oblC
-                     /note="encoded by transcript ACLA_076870A;
-                     predicted by EVM2"
+                     /label="oblC"
+                     /note="encoded by transcript ACLA_076870A; predicted by
+                     EVM2"
                      /protein_id="EAW14646.1"
                      /translation="MHLSFGSLFACLLASSTAVASAPPSNFDVANFKSADIIKRDVAVI
                      GGGSAGTYSAISLKDKGKSVILIEKKGRLGGHAETYIDPATGTPVDMGVLVFHNITVVK
@@ -101,14 +103,14 @@ FEATURES             Location/Qualifiers
                      SNAAQGHTDFTFPYLPAAYSFAPSAVPGLQLVTYATGQTTKSLPLSDEAVKADIINTIK
                      RIQKQNPDKFTSTEPEFVTFASHAPYNLQVRAEDIRDGFYDKLYTLQGQRNTHWTGAAW
                      KGEDSSLLWTYSEEIVVPQVIEGL"
+                     /Pfam="NAD_binding_8, Amino_oxidase"
      CDS             join(10113..10229,10293..11477)
                      /codon_start=1
                      /locus_tag="ACLA_076880"
                      /product="transcription factor ACLA_076880"
-                     /label=ACLA_076880
-                     /note="encoded by transcript ACLA_076880A;
-                     predicted by EVM2
-                     revised sequence"
+                     /label="ACLA_076880"
+                     /note="encoded by transcript ACLA_076880A; predicted by
+                     EVM2 revised sequence"
                      /protein_id="EAW14647.1"
                      /translation="MFGTLHWNSGHKEAEFIEGPHGSSNLQRNAACDRCRAKKVKCRTV
                      KGGCYRCKRLEKLCTFSSLKQGGNQRTRKESANLSEHECQLDFLIQPSASLATDDTSQE
@@ -118,11 +120,12 @@ FEATURES             Location/Qualifiers
                      TSKRENFVLLVFITEKIVAVCGQIVVLYSAKDGTPCTQAAPGPSSLRGYDRLLEDWDLD
                      TSTSSRSSGSLRPVSRSTFSDWRELRLGDYEVSSRLEWEYLVRVLILLQLRAVTELLAD
                      MKKVGGDVLGEMQKASLARAERSVCELEENVSIL"
+                     /Pfam="EqxR"
      CDS             11680..11976
                      /codon_start=1
                      /locus_tag="ACLA_076890"
                      /product="hypothetical protein ACLA_076890"
-                     /label=ACLA_076890
+                     /label="ACLA_076890"
                      /note="encoded by transcript ACLA_076890A"
                      /protein_id="EAW14648.1"
                      /translation="MEQRELVVRTREASCTFVGDFYTSREKTCTTYNGNLRSTQLPGLV
@@ -131,9 +134,9 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="ACLA_076900"
                      /product="ABC transporter OblD"
-                     /label=oblD
-                     /note="encoded by transcript ACLA_076900A;
-                     predicted by EVM2"
+                     /label="oblD"
+                     /note="encoded by transcript ACLA_076900A; predicted by
+                     EVM2"
                      /protein_id="EAW14649.1"
                      /translation="MNEDHEAGNSSREAEVHQLARQFTDQSNYSAAGQNPFAVEAGSAL
                      DPNGEHFNARAWCKAMLQMHTGDKQAHPLRTLGVAFSNLNVHGFGSDTDYQKSVGNVWL
@@ -160,6 +163,8 @@ FEATURES             Location/Qualifiers
                      FDAAENAGNLGNLLFLLCLIFCGVLATPGQLPGFWIFMYRVSPFTYLVSGMLSVGISNT
                      NATCADNEYLRFDPVNGTCGKYMDSYISNMGGYLEDEMATSDCSFCPIKETNVFLSSVS
                      SSYSEIWRNFGLMWVFIVFNIFAACLLYWWVRVPRVKKPVAKTE"
+                     /Pfam="ABC_trans_N, ABC_tran, ABC2_membrane, PDR_CDR,
+                     ABC2_membrane_7"
 ORIGIN
         1 ttaacgaaaa ataacccgaa atcccttcga ctccagactc ggcagcggca caatcaaatc
        61 gtgagcgggc ttgacatcct tctcactcgt ctcataaagc ttgaagtctg gccccccagg

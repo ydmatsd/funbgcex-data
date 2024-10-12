@@ -1,37 +1,38 @@
-LOCUS       FBGC00435       19279 bp DNA     linear   UNA 09-MAR-2023
+LOCUS       FBGC00435              19279 bp    DNA     linear   UNA 09-MAR-2023
 DEFINITION  abscisic acid.
 ACCESSION   FBGC00435
-VERSION     .
+VERSION     FBGC00435
 KEYWORDS    .
 SOURCE      Botrytis cinerea B05.10
   ORGANISM  Botrytis cinerea B05.10
+            .
 REFERENCE   1  (bases 1 to 19279)
   AUTHORS   Takino J, Kozaki T, Sato Y, Liu C, Ozaki T, Minami A, Oikawa H.
-  TITLE     Unveiling Biosynthesis of the Phytohormone Abscisic Acid in Fungi: 
-            Unprecedented Mechanism of Core Scaffold Formation Catalyzed by an 
+  TITLE     Unveiling Biosynthesis of the Phytohormone Abscisic Acid in Fungi:
+            Unprecedented Mechanism of Core Scaffold Formation Catalyzed by an
             Unusual Sesquiterpene Synthase.
   JOURNAL   J Am Chem Soc 2018;140:12392-12395
-  PUBMED    30226766
+   PUBMED   30226766
 REFERENCE   2  (bases 1 to 19279)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Mar 9, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1021/jacs.8b08925"; journalName: "J Am Chem Soc"; date: "2018"; 
-            volume: "140"; pages: "12392-12395"
-COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final 
-            NCBI review. The reference sequence is identical to 
-            CP009812.##Genome-Assembly-Data-START##
+  JOURNAL   Exported Mar 9, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     ##Genome-Assembly-Data-START##
             Assembly Method        :: HGAP v. JAN-2015
             Expected Final Version :: yes
             Genome Coverage        :: 35.0x
             Sequencing Technology  :: PacBio
-            ##Genome-Assembly-Data-END####Genome-Annotation-Data-START##
-            Annotation Provider :: INSDC submitter
-            Annotation Status   :: Full annotation
-            Annotation Pipeline :: Eukaryotic Annotation Propagation Pipeline 
+            ##Genome-Assembly-Data-END##
+            ##Genome-Annotation-Data-START##
+            Annotation Provider    :: INSDC submitter
+            Annotation Status      :: Full annotation
+            Annotation Pipeline    :: Eukaryotic Annotation Propagation Pipeline
             ##Genome-Annotation-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1021/jacs.8b08925"; journalName: "J Am Chem Soc"; date: "2018";
+            volume: "140"; pages: "12392-12395"
+            PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to
             COMPLETENESS: full length.
 FEATURES             Location/Qualifiers
      source          1..19279
@@ -40,7 +41,7 @@ FEATURES             Location/Qualifiers
                      /mol_type="genomic DNA"
                      /country="Germany: Munster"
                      /collected_by="P. Buettner"
-                     /collection_date=1995
+                     /collection_date="1995"
                      /db_xref="taxon:332648"
                      /mating_type="MAT1-1"
                      /organism="Botrytis cinerea B05.10"
@@ -50,7 +51,7 @@ FEATURES             Location/Qualifiers
                      /locus_tag="BCIN_08g03830"
                      /old_locus_tag="BC1G_07529"
                      /product="short-chain dehydrogenase/reductase BcABA4"
-                     /label=bcABA4
+                     /label="bcABA4"
                      /db_xref="GeneID:5434516"
                      /protein_id="XP_001553969.2"
                      /translation="MSSQPFTNKVIALTGSASGIGLETAKLLASRGARLSLADIQEDKL
@@ -58,14 +59,15 @@ FEATURES             Location/Qualifiers
                      GIVEQDLDEWEFVLGVNLTGTMNSLKAQLKVMANNGSIVNASSIRGLTGAAKNASYSSA
                      KHGIIGLTRTAAKEVGGKGIRVNAICPGRISTPMLKTAENSIGLHLQPGSANYPPIALG
                      RDGEAKEVAQLVAFLLSDESTYISGADISIDGGWRC"
-     CDS             complement(join(1346..2349,2410..2656,2707..2783,2850..3012,
-                     3063..3155))
+                     /Pfam="adh_short_C2"
+     CDS             complement(join(1346..2349,2410..2656,2707..2783,
+                     2850..3012,3063..3155))
                      /codon_start=1
                      /gene="Bcaba2"
                      /locus_tag="BCIN_08g03840"
                      /old_locus_tag="BC1G_07530"
                      /product="cytochrome P450 monooxygenase BcABA2"
-                     /label=bcABA2
+                     /label="bcABA2"
                      /db_xref="GeneID:5434515"
                      /protein_id="XP_024550390.1"
                      /translation="MLLSIKDLSEKYIMLLDVKDLSTLKTTVAVLVTVALIAQVLWKIF
@@ -78,14 +80,15 @@ FEATURES             Location/Qualifiers
                      IDGHFVPGKTTVAVAPWAAINSSLNFKDPQKFIPERWLGDERFVNDKLNASQPFSLGPR
                      GCIGKNLSFFEMRLITSRLLWNFDVSLVTTGEHGETNKLWDMDGAGKYMKVYQTWNKPD
                      MWVMLKEVPR"
-     CDS             complement(join(5326..5454,5514..5834,5918..6151,6201..6264,
-                     6313..7094))
+                     /Pfam="p450"
+     CDS             complement(join(5326..5454,5514..5834,5918..6151,
+                     6201..6264,6313..7094))
                      /codon_start=1
                      /gene="Bcaba1"
                      /locus_tag="BCIN_08g03850"
                      /old_locus_tag="BC1G_07531"
                      /product="cytochrome P450 monooxygenase BcABA1"
-                     /label=bcABA1
+                     /label="bcABA1"
                      /db_xref="GeneID:5434514"
                      /protein_id="XP_024550391.1"
                      /translation="MSNSILNLGSFACLLSLGSIVLWYTISAVLAWYPLRKIPAPSFLA
@@ -97,13 +100,14 @@ FEATURES             Location/Qualifiers
                      EGKVSSPIKLEEAKLLPFLQAVIYEGIRMRPPLLGLFPKIVPDGGEEFHGMFIPAGTAI
                      CMNTSSLLRSTALFGDDAEVYRPERFMELEKSKRGEMERNVELAFGYGQYMCVGKTVAF
                      MELNKSIFEILRAFDLQLLSPAKPCDVLSYGIFLESNMLVKVTESEGTEYK"
+                     /Pfam="p450"
      CDS             17957..19279
                      /codon_start=1
                      /gene="Bcaba3"
                      /locus_tag="BCIN_08g03880"
                      /old_locus_tag="BC1G_07534"
                      /product="terpene synthase BcABA3"
-                     /label=bcABA3
+                     /label="bcABA3"
                      /db_xref="GeneID:5434511"
                      /protein_id="XP_024550392.1"
                      /translation="MQQVITQTLVDDRFIQISDSKKSEGLATDSTKRQSQEQPIHDKDP
@@ -114,6 +118,7 @@ FEATURES             Location/Qualifiers
                      LDAAWARNPKLANVINFVRFFGGPIHMMMRRYRFVEENLTIGKSETDKVVDQTRKNFKL
                      WNRVDANKRSVLNTQRYKALIARSEELMFPGLAEFLEMGGDGICDKCKYRESYGAELSH
                      QFGGVELCSECRLSWRKYLECFVERATKVFPELKTHFEVPV"
+                     /Pfam="ABA3"
 ORIGIN
         1 ctaacatctc catccgccat caatgctaat gtcagctcct gagatatacg tcgactcatc
        61 actcaacaga aatgcaacca gctgagcaac ctccttagct tctccgtctc tccccagtgc

@@ -1,24 +1,24 @@
-LOCUS       FBGC00437       16806 bp DNA     linear   UNA 09-MAR-2023
+LOCUS       FBGC00437              16806 bp    DNA     linear   UNA 09-MAR-2023
 DEFINITION  (-)-antrocin/(+)-isoantrocin/(R)-trans-gamma-monocyclofarnesol.
 ACCESSION   FBGC00437
-VERSION     .
+VERSION     FBGC00437
 KEYWORDS    .
 SOURCE      Antrodia cinnamomea S27
   ORGANISM  Antrodia cinnamomea S27
+            .
 REFERENCE   1  (bases 1 to 16806)
-  AUTHORS   Chen TH, Chen CT, Lee CF, Huang RJ, Chen KL, Lu YC, Liang SY, Pham 
+  AUTHORS   Chen TH, Chen CT, Lee CF, Huang RJ, Chen KL, Lu YC, Liang SY, Pham
             MT, Rao YK, Wu SH, Chein RJ, Lin HC.
-  TITLE     The Biosynthetic Gene Cluster of Mushroom-Derived Antrocin Encodes 
+  TITLE     The Biosynthetic Gene Cluster of Mushroom-Derived Antrocin Encodes
             Two Dual-Functional Haloacid Dehalogenase-like Terpene Cyclases.
   JOURNAL   Angew Chem Int Ed Engl 2023;62:e202215566
-  PUBMED    36583947
+   PUBMED   36583947
 REFERENCE   2  (bases 1 to 16806)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Mar 9, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1002/anie.202215566"; journalName: "Angew Chem Int Ed Engl"; 
+  JOURNAL   Exported Mar 9, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1002/anie.202215566"; journalName: "Angew Chem Int Ed Engl";
             date: "2023"; volume: "62"; pages: "e202215566"
 FEATURES             Location/Qualifiers
      source          1..16806
@@ -30,7 +30,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="Antcin__000052"
                      /product="HAD-like terpene cyclase AncA"
-                     /label=ancA
+                     /label="ancA"
                      /protein_id="Antcin_:cds.g52.t1"
                      /translation="MRRNVLNKATHSQSPLKPNITTLIFDLGDVLLTWSDSTPKSPLPP
                      KIVKGILRSLTWFEYEKGNLTESQTYGQVAQEFGVDASEVKASFEAARDSLKSNPMLLQ
@@ -41,14 +41,15 @@ FEATURES             Location/Qualifiers
                      VLTLFYRYGRGHQLQKTLDWVEQVLINRACASGTFYYATEEQFLFFLSRLIQSSPDVRQ
                      RLEGVFKRRVVERFGADGDALAMAMRIHTAASVGLVDHVDLDKLFALQQNDGSWRDSAF
                      YRFPSARQLASNDGLTTAIAIQAIQAAERLREDGNVL"
-     CDS             complement(join(4069..4140,4203..4348,4401..4429,4495..4527,
-                     4584..4826,4888..5003,5060..5180,5235..5301,5359..5494,
-                     5540..5678,5744..5925,5974..6071,6173..6180,6253..6350,
-                     6418..6518,6582..6729))
+                     /Pfam="AstC"
+     CDS             complement(join(4069..4140,4203..4348,4401..4429,
+                     4495..4527,4584..4826,4888..5003,5060..5180,5235..5301,
+                     5359..5494,5540..5678,5744..5925,5974..6071,6173..6180,
+                     6253..6350,6418..6518,6582..6729))
                      /codon_start=1
                      /locus_tag="Antcin__000053"
                      /product="cytochrome P450 monooxygenase AncB"
-                     /label=ancB
+                     /label="ancB"
                      /protein_id="Antcin_:cds.g53.t1"
                      /translation="MIVLSFNLSWPILTSISLMAAVVCARALKMMFKKSSYAYLPCPKP
                      KTWMGYLPDMHDMDSLEYHYTMCDKYGHAVRLQGGLGGLQKDALYITDPLALNSILVRD
@@ -61,12 +62,13 @@ FEATURES             Location/Qualifiers
                      FKPERWFNKMGTETTENSIKMPGIYGNMMTFLGGGRACPGMKFALLEMKLVLSVILPAF
                      SFEEAEEIVWRLGITVVPLIKGKEDKGLSVPMKVKSLLLVSLDLREDVELRPGNRLATM
                      LV"
-     CDS             join(8502..8505,8558..8996,9050..9332,9396..9436,9491..9540,
-                     9594..9627,9680..9828,9886..10373)
+                     /Pfam="p450"
+     CDS             join(8502..8505,8558..8996,9050..9332,9396..9436,
+                     9491..9540,9594..9627,9680..9828,9886..10373)
                      /codon_start=1
                      /locus_tag="Antcin__000054"
                      /product="HAD-like terpene cyclase AncC"
-                     /label=ancC
+                     /label="ancC"
                      /protein_id="Antcin_:cds.g54.t1"
                      /translation="MRRNVLNKATHPQSPLKPNITTLIFDLGDVLFTWSDSTPKSPLPP
                      TIVKGILRSLTWFEYEKGNLTESQTYGQVAQEFGVDASEVKASFEAARDSLKSNPMLLQ
@@ -77,6 +79,7 @@ FEATURES             Location/Qualifiers
                      VLTLFYRYGRGHQLQKTLDWVEQVLINRACASGTLYYVTEEQFLFFLSRLIQSSPDVRK
                      RLEGVFKRRVVERFGADGDALAMAMRIHAAASVGLVDHIDLEKLFAMQQNDGSWKNSAF
                      YKFPSARQLASNDGLTTAVAIQAIQAVERLGEDGNVL"
+                     /Pfam="AstC"
      CDS             complement(join(10994..11167,11219..11317,11373..11411,
                      11463..11581,11635..11683,11739..11801,11853..12051,
                      12114..12481,12531..12658,12716..12726,12779..12967,
@@ -84,7 +87,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="Antcin__000055"
                      /product="cytochrome P450 monooxygenase AncD"
-                     /label=ancD
+                     /label="ancD"
                      /protein_id="Antcin_:cds.g55.t1"
                      /translation="MALLQITSMTTLLAAVVFAFFFLIFKLIRLGRRESFLPPGPPTVP
                      LLGNLHLFPKKDVHFQFAKWAQEYGEIYSLKLGPSSTAVVLTSPSAIRELLDKNSSLTA
@@ -96,12 +99,13 @@ FEATURES             Location/Qualifiers
                      YHDERLFPDPDKFYPERFLDPESEAVKIIALAFGNGRRACPGIHLARNAVMINAMNLLW
                      GFNLDKARNENGQVIEPDTTDYAVGISYSPNPFKCNITPRSAQHAETIRRELHTCSEAF
                      APFERDLTYEDAMYVRELRQNL"
+                     /Pfam="p450"
      CDS             complement(join(15669..16259,16313..16410,16464..16700,
                      16758..16806))
                      /codon_start=1
                      /locus_tag="Antcin__000057"
                      /product="short-chain dehydrogenase/reductase AncE"
-                     /label=ancE
+                     /label="ancE"
                      /protein_id="Antcin_:cds.g57.t1"
                      /translation="MSLGSNTLNANSRVWFITGSSQGIGRALLEELLVSRERVVATLRK
                      PAVLASLTQKYPPSQLLVLPLDVTKPDQIKSAFEEVKKHFGRLDVVVNNAGQGLMAEIE
@@ -109,6 +113,7 @@ FEATURES             Location/Qualifiers
                      SAGKFGELRAVLRCVPRAESRHATALEGLTESFTKEMDPSWNIKGVIVELGGFRTDWLS
                      SSMTIKPPLPPYAHIDSPCALFRHMSLNIPYIGDPAKAPKALIAVAGLPDPPLRIQLGT
                      DSMAMVKTSAKKTLKDAEKWADFAHQTNMDGVDKNQVLAMFNM"
+                     /Pfam="adh_short"
 ORIGIN
         1 tcaaagcacg ttcccatcct ccctgagcct ctccgcagct tgaatggcct gaatagcgat
        61 tgcagtcgtc aagccgtcgt tactagccag ttgcctggcc gacggaaatc tgtagaaagc

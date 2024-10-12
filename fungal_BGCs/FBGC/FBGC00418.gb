@@ -1,41 +1,42 @@
-LOCUS       FBGC00418       12558 bp DNA     linear   UNA 05-MAR-2023
+LOCUS       FBGC00418              12558 bp    DNA     linear   UNA 05-MAR-2023
 DEFINITION  methyl phomopsenonate.
 ACCESSION   FBGC00418
-VERSION     .
+VERSION     FBGC00418
 KEYWORDS    .
 SOURCE      Diaporthe amygdali CAA958
   ORGANISM  Diaporthe amygdali CAA958
+            .
 REFERENCE   1  (bases 1 to 12558)
-  AUTHORS   Toyomasu T, Kaneko A, Tokiwano T, Kanno Y, Kanno Y, Niida R, Miura 
-            S, Nishioka T, Ikeda C, Mitsuhashi W, Dairi T, Kawano T, Oikawa H, 
+  AUTHORS   Toyomasu T, Kaneko A, Tokiwano T, Kanno Y, Kanno Y, Niida R, Miura
+            S, Nishioka T, Ikeda C, Mitsuhashi W, Dairi T, Kawano T, Oikawa H,
             Kato N, Sassa T.
-  TITLE     Biosynthetic gene-based secondary metabolite screening: a new 
-            diterpene, methyl phomopsenonate, from the fungus Phomopsis 
+  TITLE     Biosynthetic gene-based secondary metabolite screening: a new
+            diterpene, methyl phomopsenonate, from the fungus Phomopsis
             amygdali.
   JOURNAL   J Org Chem 2009;74:1541-8
-  PUBMED    19161275
+   PUBMED   19161275
 REFERENCE   2  (bases 1 to 12558)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Mar 5, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: "10.1021/jo802319e";
-            journalName: "J Org Chem"; date: "2009"; volume: "74"; pages: 
-            "1541-8"
-COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final 
-            NCBI review. The reference sequence is identical to 
-            JAJATV010000001.##Genome-Assembly-Data-START##
+  JOURNAL   Exported Mar 5, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     ##Genome-Assembly-Data-START##
             Assembly Date          :: 30-NOV-2020
             Assembly Method        :: SPAdes v. 3.14
             Genome Representation  :: Full
             Expected Final Version :: No
             Genome Coverage        :: 71.0x
-            Sequencing Technology  :: Illumina HiSeq 
-            ##Genome-Assembly-Data-END####Genome-Annotation-Data-START##
-            Annotation Provider :: INSDC submitter
-            Annotation Status   :: Full annotation
-            Annotation Pipeline :: Eukaryotic Annotation Propagation Pipeline 
+            Sequencing Technology  :: Illumina HiSeq
+            ##Genome-Assembly-Data-END##
+            ##Genome-Annotation-Data-START##
+            Annotation Provider    :: INSDC submitter
+            Annotation Status      :: Full annotation
+            Annotation Pipeline    :: Eukaryotic Annotation Propagation Pipeline
             ##Genome-Annotation-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi: "10.1021/jo802319e";
+            journalName: "J Org Chem"; date: "2009"; volume: "74"; pages:
+            "1541-8"
+            PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to
 FEATURES             Location/Qualifiers
      source          1..12558
                      /chromosome="Unknown"
@@ -52,7 +53,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="J7T55_006627"
                      /product="terpene synthase PaPS"
-                     /label=PaPS
+                     /label="PaPS"
                      /db_xref="GeneID:77776851"
                      /protein_id="XP_053001391.1"
                      /translation="MEYRYSYVIDPSSYDNQGLCNGIPLRVHRNADIEEYATISLRNDW
@@ -68,12 +69,13 @@ FEATURES             Location/Qualifiers
                      NMLARLMTAKSSSSSSPDLTALVGLLGRYFQIRDDYMNLTSADYTVEKGFCEDLDEGKF
                      SITLLHALSAAPEPEALLLRNLMSGRRNDGKLSVVQKNLALSIIEGARSLEYTAAVLQK
                      LYKAIVRELESTERQFGENKPFRFLLSLLKV"
-     CDS             join(4261..4516,4579..4704,4759..5063,5146..5163,5231..5296,
-                     5357..5863,5929..6089,6177..6342)
+                     /Pfam="Terpene_syn_C_2, GGPS"
+     CDS             join(4261..4516,4579..4704,4759..5063,5146..5163,
+                     5231..5296,5357..5863,5929..6089,6177..6342)
                      /codon_start=1
                      /locus_tag="J7T55_006628"
                      /product="cytochrome P450 monooxygenase J7T55_006628"
-                     /label=J7T55_006628
+                     /label="J7T55_006628"
                      /note="revised sequence"
                      /db_xref="GeneID:77776852"
                      /protein_id="XP_053001392.1"
@@ -87,11 +89,12 @@ FEATURES             Location/Qualifiers
                      IGRTFRRNGRISPDQELQYKGYTIPKNTLVSMSLSLQHVDPAVFPEPNRFRPERWLGEY
                      DPRMDDYMQPFSKGSRDCLGKNLARAELYIAIGTLFRPGGPRLTISGCDESDIFPVNDK
                      EWGVPKTDSRGLSVCVG"
+                     /Pfam="p450"
      CDS             join(7159..7401,7463..8326)
                      /codon_start=1
                      /locus_tag="J7T55_006629"
                      /product="hypothetical protein J7T55_006629"
-                     /label=J7T55_006629
+                     /label="J7T55_006629"
                      /note="revised sequence"
                      /db_xref="GeneID:77776853"
                      /protein_id="XP_053001393.1"
@@ -102,12 +105,14 @@ FEATURES             Location/Qualifiers
                      TLTPWDFRPMNTLLRVKEGEGDAAVHDLTIVDWEFCHYGEPSNDLRLWVAEAMVLEVKH
                      GERGLLSSFLKAYKDKAGAVIIDEDFVCKVAVAVGTFLLLFMPAKIWDCTEEDREPWTE
                      TAIQYVKAGAERNMAWLSQSVLKPLLDR"
-     CDS             complement(join(8481..8646,8729..8983,9070..9428,9499..9574,
-                     9639..9704,9770..10069,10129..10268,10337..10621))
+                     /Pfam="FrzJ"
+     CDS             complement(join(8481..8646,8729..8983,9070..9428,
+                     9499..9574,9639..9704,9770..10069,10129..10268,
+                     10337..10621))
                      /codon_start=1
                      /locus_tag="J7T55_006630"
                      /product="cytochrome P450 monooxygenase J7T55_006630"
-                     /label=J7T55_006630
+                     /label="J7T55_006630"
                      /note="revised sequence"
                      /db_xref="GeneID:77776854"
                      /protein_id="XP_053001394.1"
@@ -121,11 +126,12 @@ FEATURES             Location/Qualifiers
                      LSAVIKEGLRLGHGSSHRLARVFPDYDLPYGDLIIPRNTPIGMSGAFMQEHPVIFENPT
                      DFDPERWLRASPEELVEMNRCNVPFGKGSRGCMGINLAHAELFNVIAAIFRPGWLEMEL
                      FETTEKDVRRKHDFMADQPDLNSKGVRVLIK"
+                     /Pfam="p450"
      CDS             join(11417..11710,11860..12019,12083..12558)
                      /codon_start=1
                      /locus_tag="J7T55_006631"
                      /product="methyltransferase J7T55_006631"
-                     /label=J7T55_006631
+                     /label="J7T55_006631"
                      /note="revised sequence"
                      /db_xref="GeneID:77776855"
                      /protein_id="XP_053001395.1"
@@ -135,6 +141,7 @@ FEATURES             Location/Qualifiers
                      LTGPNEYSEGWLTDLKIPGDRPVLIIMEGLSMYLSEAENIANFKQLTQHFQYGGEIVFD
                      VLGSFPVWAVNSVLPLFGKMTYNHGWHLNEPKALEEKMQGALQVQEYIPWAEYPATNRL
                      PPLTRLWFRVLAFTRISGYVTAIIRCRF"
+                     /Pfam="LCM"
 ORIGIN
         1 ctaaactttg agtaagctga gtaagaaacg gaaaggtttg ttttcgccga actgccgttc
        61 agtgctctcc agctctctga caattgcctt gtagagcttc tgcaatactg ccgcagtgta

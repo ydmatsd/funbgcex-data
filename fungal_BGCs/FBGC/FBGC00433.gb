@@ -1,24 +1,24 @@
-LOCUS       FBGC00433       13965 bp DNA     linear   UNA 09-MAR-2023
+LOCUS       FBGC00433              13965 bp    DNA     linear   UNA 09-MAR-2023
 DEFINITION  aphidicolin.
 ACCESSION   FBGC00433
-VERSION     .
+VERSION     FBGC00433
 KEYWORDS    .
 SOURCE      Phoma betae Frank PS-16
   ORGANISM  Phoma betae Frank PS-16
+            .
 REFERENCE   1  (bases 1 to 13965)
-  AUTHORS   Toyomasu T, Nakaminami K, Toshima H, Mie T, Watanabe K, Ito H, 
+  AUTHORS   Toyomasu T, Nakaminami K, Toshima H, Mie T, Watanabe K, Ito H,
             Matsui H, Mitsuhashi W, Sassa T, Oikawa H.
-  TITLE     Cloning of a gene cluster responsible for the biosynthesis of 
+  TITLE     Cloning of a gene cluster responsible for the biosynthesis of
             diterpene aphidicolin, a specific inhibitor of DNA polymerase alpha.
   JOURNAL   Biosci Biotechnol Biochem 2004;68:146-52
-  PUBMED    14745177
+   PUBMED   14745177
 REFERENCE   2  (bases 1 to 13965)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Mar 9, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1271/bbb.68.146"; journalName: "Biosci Biotechnol Biochem"; 
+  JOURNAL   Exported Mar 9, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1271/bbb.68.146"; journalName: "Biosci Biotechnol Biochem";
             date: "2004"; volume: "68"; pages: "146-52"
 FEATURES             Location/Qualifiers
      source          1..13965
@@ -29,7 +29,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="PbGGS"
                      /product="geranylgeranyl pyrophosphate synthase PbGGS"
-                     /label=PbGGS
+                     /label="PbGGS"
                      /protein_id="BAD29970.1"
                      /translation="MAYTVEPREHSKNTTLPTVAMPPSPPSSFSASFGPFRYDTKEVNF
                      DHWTSTKEKVVTGPYDYIAAKPGKEVRTLLLACFDEWLQVPPESLEVIGQVVRMLHTAS
@@ -38,11 +38,12 @@ FEATURES             Location/Qualifiers
                      LLGVIFQVLDDYKNLCSREYGKLKGFGEDLTEGKFSFPVIHSIRSNPEDLQLLHVLQQK
                      SSNEHVKLYAIEIMESTGSLEYTKHVVENIVSQIQEIIYSTDEGQGRGKGILDLLHKIT
                      RLS"
+                     /Pfam="GGPS"
      CDS             join(2672..3499,3560..3680,3738..4024,4081..5679)
                      /codon_start=1
                      /gene="ACS"
                      /product="terpene synthase PbACS"
-                     /label=PbACS
+                     /label="PbACS"
                      /protein_id="BAD29971.1"
                      /translation="MVPISTRSEVQDGLIAQARSLITRIVHNSDDVYGFGTLSCTVYDT
                      AWVALVTKHVNGIKHWLFPESFHYILASQCDDGTWCEDKTAQFDGVLNTIAGLLVLKRY
@@ -61,12 +62,13 @@ FEATURES             Location/Qualifiers
                      KSSQKYLAAATCRHLSCMCRMYNDIGSWNRDHREGNLNCLHFPEFSETTSDDAERKASL
                      LTLAQYERKQWCNALQQLEKEMVHGASEPAAARLAKRRACLIDMFCKVTDLYGQIYVLR
                      DVSSVIKDVVRNGE"
+                     /Pfam="PbcA"
      CDS             join(6078..6119,6181..6963,7020..7328,7424..7590,
                      7649..7808)
                      /codon_start=1
                      /gene="PbP450-1"
                      /product="cytochrome P450 monooxygenase PbP450-1"
-                     /label=PbP450-1
+                     /label="PbP450-1"
                      /protein_id="BAD29972.1"
                      /translation="MSHFLPTLILTSLTLVAYVLARMIYNVFYHPLSAFPGDAFFCATG
                      LTKAYHMIAGDLQLKVKDMHDKYGSVVRIAPTELSFSYCSAWKDIYGSRGGRELSKFYD
@@ -77,12 +79,13 @@ FEATURES             Location/Qualifiers
                      MLACLNETFRYYPPVTNGMPRVTPKEGAIIGGRLVPGNTVVAIWQWAICHDPALWKDPY
                      TFRPERFLEAPEFSTDVREALNPFSVGTRNCIGRNLSYAETRLILARLFYYFDLELADP
                      DQDWFGAQKAYLVWDAPALNMYLKPVVR"
+                     /Pfam="p450"
      CDS             complement(join(8336..9470,9536..9785,9851..9930,
                      9996..10225))
                      /codon_start=1
                      /gene="PbTP"
                      /product="major facilitator superfamily transporter PbTP"
-                     /label=PbTP
+                     /label="PbTP"
                      /protein_id="BAD29973.1"
                      /translation="MHPDQADTAAMQQQTTTECSDRSRPEKAEEGHAREHTVTRTCSRE
                      PEQTATATKPTGLKLICLTTAICLTIFLISVDFSILATAIPAITAEFKSVADIGWYGSS
@@ -94,11 +97,12 @@ FEATURES             Location/Qualifiers
                      ILASVGAGLLLLFTPNVTAASWIGYQAIVGLGIGFGWQQPFVAVQTVLDIKDVPIATAT
                      LSFAQTLGGTLFVSVAQTAFSTKLTQELVSQVPQLDPASILHEGGAAELDKLVPEQYLP
                      DVVLSYNNSLLSAFFVATIMAIMSLVGCTFVEWNSVKGKKADAVPAA"
+                     /Pfam="MFS_1"
      CDS             join(10861..11124,11188..12085,12146..12609)
                      /codon_start=1
                      /gene="PbP450-2"
                      /product="cytochrome P450 monooxygenase PbP450-2"
-                     /label=PbP450-2
+                     /label="PbP450-2"
                      /protein_id="BAD29974.1"
                      /translation="MIKHSLSDCLADPDHLIRIKSYVEANVRFLGLSLVTLLVTIQMFR
                      ALGSPLRLNKPLVGRRSILEPRWLVGLRFTKGGRELLRQAYKKYKDEIFKVQCNDTEIC
@@ -110,11 +114,12 @@ FEATURES             Location/Qualifiers
                      LSDGTQIPVGTHLAMPTDAMLQDSSLLPQGGVAPDQFDPFRYARAREDPENAQRFQLAT
                      TEAKSLVFGHGKHACPGRFFASSEAKIILSHLLLLYDFRYPEGKGRPESWLFSENVAID
                      PNARLLIKKRNDAASNLAMLAKAL"
+                     /Pfam="p450"
      CDS             complement(join(12830..13786,13837..13965))
                      /codon_start=1
                      /gene="PbTF"
                      /product="transcription factor PbTF"
-                     /label=PbTF
+                     /label="PbTF"
                      /note="revised sequence"
                      /protein_id="BAD29975.1"
                      /translation="MFCTLRRSKDANKSYAIHMDDPPFARTKGRLSAIACVDCRASKTR
@@ -124,6 +129,7 @@ FEATURES             Location/Qualifiers
                      MGLLQQQKNTISDCERLLDCVQCIEKSAFVVLLISICGKVLRSVEDASRELRPRDSVTE
                      PTTKSKDPSQACLNIDANSISRHQLDDDDRLVVLGSLFLNRVTKLRSLIAAIEMLVMKR
                      NWHIQRDMVRQLKSRVRLIDT"
+                     /Pfam="EqxR"
 ORIGIN
         1 ttacgacagc ctagtaatct tatgcagtag atcaagtatt ccttttcccc ttccttgacc
        61 ctcatcggtc gagtagataa tctcttgtat ctgagatact atgttttcaa caacatgctt
