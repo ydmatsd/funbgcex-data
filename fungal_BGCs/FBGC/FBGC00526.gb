@@ -1,48 +1,49 @@
-LOCUS       FBGC00526       26040 bp DNA     linear   UNA 09-MAY-2023
+LOCUS       FBGC00526              26040 bp    DNA     linear   UNA 09-MAY-2023
 DEFINITION  S,N-diacylated homocysteines.
 ACCESSION   FBGC00526
-VERSION     .
+VERSION     FBGC00526
 KEYWORDS    .
 SOURCE      Punctularia strigosozonata HHB-11173 SS5
   ORGANISM  Punctularia strigosozonata HHB-11173 SS5
+            .
 REFERENCE   1  (bases 1 to 26040)
-  AUTHORS   Tang MC, Fischer CR, Chari JV, Tan D, Suresh S, Chu A, Miranda M, 
+  AUTHORS   Tang MC, Fischer CR, Chari JV, Tan D, Suresh S, Chu A, Miranda M,
             Smith J, Zhang Z, Garg NK, St Onge RP, Tang Y.
-  TITLE     Thioesterase-Catalyzed Aminoacylation and Thiolation of Polyketides 
+  TITLE     Thioesterase-Catalyzed Aminoacylation and Thiolation of Polyketides
             in Fungi.
   JOURNAL   J Am Chem Soc 2019;141:8198-8206
-  PUBMED    31051070
+   PUBMED   31051070
 REFERENCE   2  (bases 1 to 26040)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported May 9, 2023 from SnapGene 6.2.2
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1021/jacs.9b01083"; journalName: "J Am Chem Soc"; date: "2019"; 
-            volume: "141"; pages: "8198-8206"
-COMMENT     URL -- http://genome.jgi.doe.gov/Punst1
-            JGI Project ID: 52407
-            The DNA was provided by Dimitrios Floudas(dfloudas@clarku.edu)
-            The strain is available from USDA Forest Products Laboratory 
-            Contacts: Igor V. Grigoriev (ivgrigoriev@lbl.gov)
-            David S. Hibbett (dhibbett@clarku.edu)
-            Assembly and annotation done by JGI.
-            The JGI and collaborators endorse the principles for the 
-            distribution and use of large scale sequencing data adopted by the 
-            larger genome sequencing community and urge users of this data to 
-            follow them. It is our intention to publish the work of this project
-            in a timely fashion and we welcome collaborative interaction on the 
-            project and analysis. 
-            (http://www.genome.gov/page.cfm?pageID=10506376).##Genome-Assembly-D
-            ata-START##
+  JOURNAL   Exported May 9, 2023 from SnapGene 6.2.2 https://www.snapgene.com
+COMMENT     ##ata-START##
             Assembly Method       :: Newbler v. 2.5
             Assembly Name         :: Punctularia strigosozonata v1.0
             Genome Coverage       :: 46x
-            Sequencing Technology :: Sanger; 454; Illumina 
-            ##Genome-Assembly-Data-END####Metadata-START##
-            Organism Display Name :: Punctularia strigosozonata HHB-11173 SS5 
+            Sequencing Technology :: Sanger; 454; Illumina
+            ##ata-END##
+            ##Metadata-START##
+            Organism Display Name :: Punctularia strigosozonata HHB-11173 SS5
             GOLD Stamp ID         :: Gi06087
             ##Metadata-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1021/jacs.9b01083"; journalName: "J Am Chem Soc"; date: "2019";
+            volume: "141"; pages: "8198-8206"
+            URL -- http://genome.jgi.doe.gov/Punst1
+            JGI Project ID: 52407
+            The DNA was provided by Dimitrios Floudas(dfloudas@clarku.edu)
+            The strain is available from USDA Forest Products Laboratory
+            Contacts: Igor V. Grigoriev (ivgrigoriev@lbl.gov)
+            David S. Hibbett (dhibbett@clarku.edu)
+            Assembly and annotation done by JGI.
+            The JGI and collaborators endorse the principles for the
+            distribution and use of large scale sequencing data adopted by the
+            larger genome sequencing community and urge users of this data to
+            follow them. It is our intention to publish the work of this project
+            in a timely fashion and we welcome collaborative interaction on the
+            project and analysis.
+            (http://www.genome.gov/page.cfm?pageID=10506376).##Genome-Assembly-D
 FEATURES             Location/Qualifiers
      source          1..26040
                      /chromosome="Unknown"
@@ -56,7 +57,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="PUNSTDRAFT_101387"
                      /product="cytochrome P450 monooxygenase KU42-P450-1"
-                     /label=KU42-P450-1
+                     /label="KU42-P450-1"
                      /note="GO_function: GO:4497; iron ion binding -
                      monooxygenase activity [Evidence 20037] [PMID 5506]"
                      /db_xref="InterPro:IPR001128"
@@ -71,12 +72,14 @@ FEATURES             Location/Qualifiers
                      PLAKLREELDEALSPGGLQGPTSDLNDLPYLNACIHEAIRLHSPTGMGLPRIVPEGGLT
                      YRDYYFPPGTDVSVPTWTMSRDRAAWGEDADVFRPERWIEDPSLTKYFMAFSSGTRGCL
                      GKSLAILELKMIVATLLQRYDITPQSLVLQTTEKLMHKPTHDWVRLRRRNVD"
-     CDS             complement(join(2444..2801,2867..2896,2949..3035,3095..3260,
-                     3316..3394,3446..3674,3727..3970,4024..4429,4483..4527))
+                     /Pfam="p450"
+     CDS             complement(join(2444..2801,2867..2896,2949..3035,
+                     3095..3260,3316..3394,3446..3674,3727..3970,4024..4429,
+                     4483..4527))
                      /codon_start=1
                      /locus_tag="PUNSTDRAFT_85939"
                      /product="cytochrome P450 monooxygenase KU42-P450-2"
-                     /label=KU42-P450-2
+                     /label="KU42-P450-2"
                      /note="GO_function: GO:4497; iron ion binding -
                      monooxygenase activity [Evidence 20037] [PMID 5506]"
                      /db_xref="InterPro:IPR001128"
@@ -92,15 +95,16 @@ FEATURES             Location/Qualifiers
                      VPSGAQRSTQYTDGKMAGTHWIPKGTQVQINTYSIQRDPRYFWPAPEGFWPDRWLDHAQ
                      RKSNEVVEYKDPNSIILETRAFIPFSFGPAMCVAKKFATMEMKMVVCLVLHTFQLRFAD
                      GWNANEWEEKIGDYFTATRGPMPVVLTPRA"
-     CDS             join(6012..6044,6096..6229,6284..6530,6586..6698,6753..6845,
-                     6906..6933,6990..7045,7097..7181,7239..7483,7541..8100,
-                     8153..9552,9603..9714,9772..9898,9947..10149,10199..11598,
-                     11650..12047,12100..12263,12316..13646)
+                     /Pfam="p450"
+     CDS             join(6012..6044,6096..6229,6284..6530,6586..6698,
+                     6753..6845,6906..6933,6990..7045,7097..7181,7239..7483,
+                     7541..8100,8153..9552,9603..9714,9772..9898,9947..10149,
+                     10199..11598,11650..12047,12100..12263,12316..13646)
                      /codon_start=1
                      /gene="pks1"
                      /locus_tag="PUNSTDRAFT_143067"
                      /product="polyketide synthase KU42-HKPKS-TE"
-                     /label=KU42-HKPKS-TE
+                     /label="KU42-HKPKS-TE"
                      /db_xref="InterPro:IPR013968"
                      /db_xref="InterPro:IPR014030"
                      /db_xref="InterPro:IPR014031"
@@ -146,15 +150,17 @@ FEATURES             Location/Qualifiers
                      MKAGLGEKVQPHVKKLYENTMVFIEAHASWLASHLLKEGEEVDGTILRERLIAYLSTFD
                      FPATVYAAKDGMQKIFTDEQQAQWAHMGATMCTNPIRVAEIEASHFDILSNLDFIHRLD
                      TEVTLTASNVMKAM"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_DH, fPKS_KR, ACP_PCP,
+                     Thioesterase"
      CDS             join(14241..14413,14463..14529,14586..14683,14732..14791,
                      14839..14898,14946..15052,15102..15183,15234..15383,
                      15433..15467,15520..15581,15636..15717,15775..15888,
                      15938..15995,16057..16177,16234..16314)
                      /codon_start=1
                      /locus_tag="PUNSTDRAFT_51778"
-                     /product="major facilitator superfamily transporter 
+                     /product="major facilitator superfamily transporter
                      KU42-MFS"
-                     /label=KU42-MFS
+                     /label="KU42-MFS"
                      /db_xref="InterPro:IPR011701"
                      /db_xref="JGIDB:Punst1_51778"
                      /protein_id="EIN09537.1"
@@ -166,11 +172,12 @@ FEATURES             Location/Qualifiers
                      QLFAALHGVPAHVTDYTLAILFASGTLFGRMLPGILADKFGVLNVMLPYTIVGGGLIFA
                      MFGATNTAGLVVFAVLYGPCGGAFNSLFAASIGSYMYDISEFGLRLGLCGGIFGIGYLI
                      GSPITGALLQPPKYTWKPAIIFSGVTVLAGCAIILVSRQMLVRRKGSQKV"
+                     /Pfam="MFS_1"
      CDS             17423..17683
                      /codon_start=1
                      /locus_tag="PUNSTDRAFT_51779"
                      /product="hypothetical protein KU42-HP"
-                     /label=KU42-HP
+                     /label="KU42-HP"
                      /db_xref="JGIDB:Punst1_51779"
                      /protein_id="EIN09538.1"
                      /translation="MGSHPAYFPWKSYPQPSSSKVSRTRVLSPIPTAHLDARRILSLLT
@@ -181,10 +188,10 @@ FEATURES             Location/Qualifiers
                      20214..20261,20316..20360)
                      /codon_start=1
                      /locus_tag="PUNSTDRAFT_143069"
-                     /product="glucose-methanol-choline family oxidoreductase 
+                     /product="glucose-methanol-choline family oxidoreductase
                      KU42-oxidoreductase"
-                     /label=KU42-oxidoreductase
-                     /note="GO_function: GO:16614; FAD binding - oxidoreductase 
+                     /label="KU42-oxidoreductase"
+                     /note="GO_function: GO:16614; FAD binding - oxidoreductase
                      activity, acting on CH-OH group of donors [PMID 50660]"
                      /db_xref="InterPro:IPR000172"
                      /db_xref="InterPro:IPR007867"
@@ -201,13 +208,14 @@ FEATURES             Location/Qualifiers
                      PFDQPLINPNLLGTDFDVGVMTRALESARHFVEGDPVAWKSDMAAEFGGFSNATSSEAM
                      LEYIRSNSDTIWHAVGSAQMSARNATTGVVDPDLKVKGAKGLRVVDASVFPFVPAAHTQ
                      APVYVVAERGAAMIKSDWNLA"
+                     /Pfam="GMC_oxred_N, GMC_oxred_C"
      CDS             join(22037..22226,22282..22390,22448..22474,22536..22727,
                      22782..22930,22993..23108,23167..23307,23361..23544,
                      23600..23681,23735..23845,23908..24054,24113..24200)
                      /codon_start=1
                      /locus_tag="PUNSTDRAFT_143070"
                      /product="cytochrome P450 monooxygenase KU42-P450-3"
-                     /label=KU42-P450-3
+                     /label="KU42-P450-3"
                      /note="GO_function: GO:4497; iron ion binding -
                      monooxygenase activity [Evidence 20037] [PMID 5506]"
                      /db_xref="InterPro:IPR001128"
@@ -222,11 +230,12 @@ FEATURES             Location/Qualifiers
                      GRLPDFSDDLPYIRAIAKECLRWRPPVPLGIPHRVTQDDVGLGYRIPKGSIVAGNIWAI
                      LHDEHVYPHTSEFDPNRFMGSDPNPDPDAVFGFGRRICPGRFFAIDALWIMIATTVAAF
                      DIEKALDADGRVEEPTAQYTSGFQSRPLPFKCTIKPRTLEMALLVRLTAPDST"
+                     /Pfam="p450"
      CDS             complement(join(24848..25669,25756..26040))
                      /codon_start=1
                      /locus_tag="PUNSTDRAFT_143071"
                      /product="PAP2-like protein KU42-PAP2-like-protein"
-                     /label=KU42-PAP2-like-protein
+                     /label="KU42-PAP2-like-protein"
                      /db_xref="JGIDB:Punst1_143071"
                      /protein_id="EIN09541.1"
                      /translation="MSTSEHISPLSYVLEPAIVAGLLTAGCLLNRRRASELKLLDAGPN
@@ -236,6 +245,7 @@ FEATURES             Location/Qualifiers
                      HKHASAWTTNKFQNQLAAMPSLHFGYSFVIGMSLFFFSPHKWVARAGPFYPALILLAIV
                      STANHYILDAVAGFFVSVIAWKINWVLLNLRPLEEWGFWLCRTEKPMDKEIFVRLTGLD
                      KHLPYPVMAEGRRSDDLQRRLLSESESS"
+                     /Pfam="PAP2_3"
 ORIGIN
         1 tcaatccaca ttgcgccgcc tcagtcgtac ccagtcatga gtgggcttat gcataagctt
        61 ctccgtggtc tgtagcacaa gggactgggg agtgatgtcg tatcgctgga gtaacgtggc

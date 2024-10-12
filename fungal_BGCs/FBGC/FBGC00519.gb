@@ -1,38 +1,39 @@
-LOCUS       FBGC00519       10921 bp DNA     linear   UNA 28-MAR-2023
+LOCUS       FBGC00519              10921 bp    DNA     linear   UNA 28-MAR-2023
 DEFINITION  pseudofisnin A.
 ACCESSION   FBGC00519
-VERSION     .
+VERSION     FBGC00519
 KEYWORDS    .
 SOURCE      Aspergillus thermomutatus HMR AF 39
   ORGANISM  Aspergillus thermomutatus HMR AF 39
+            .
 REFERENCE   1  (bases 1 to 10921)
   AUTHORS   Xue XX, Chen L, Tang MC.
   TITLE     Genome Mining Discovery of a New Benzazepine Alkaloid Pseudofisnin A
             from the Marine Fungus Neosartorya pseudofischeri F27-1.
   JOURNAL   Antibiotics 2022;11(10):1444
-  PUBMED    36290102
+   PUBMED   36290102
 REFERENCE   2  (bases 1 to 10921)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Mar 28, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.3390/antibiotics11101444"; journalName: "Antibiotics"; date: 
-            "2022"; volume: "11"; issue: "10"; pages: "1444"
-COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final 
-            NCBI review. The reference sequence is identical to NKHU02000007. 
-            Annotated using funannotate v. 
-            1.4.2-b1d62e5.##Genome-Assembly-Data-START##
+  JOURNAL   Exported Mar 28, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     ##Genome-Assembly-Data-START##
             Assembly Date          :: 25-OCT-2017
             Assembly Method        :: SPAdes v. 3.11.1
             Expected Final Version :: yes
             Genome Coverage        :: 5x
-            Sequencing Technology  :: Illumina MiSeq 
-            ##Genome-Assembly-Data-END####Genome-Annotation-Data-START##
-            Annotation Provider :: INSDC submitter
-            Annotation Status   :: Full annotation
-            Annotation Pipeline :: Eukaryotic Annotation Propagation Pipeline 
+            Sequencing Technology  :: Illumina MiSeq
+            ##Genome-Assembly-Data-END##
+            ##Genome-Annotation-Data-START##
+            Annotation Provider    :: INSDC submitter
+            Annotation Status      :: Full annotation
+            Annotation Pipeline    :: Eukaryotic Annotation Propagation Pipeline
             ##Genome-Annotation-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.3390/antibiotics11101444"; journalName: "Antibiotics"; date:
+            "2022"; volume: "11"; issue: "10"; pages: "1444"
+            PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to NKHU02000007.
+            Annotated using funannotate v.
 FEATURES             Location/Qualifiers
      source          1..10921
                      /chromosome="Unknown"
@@ -49,7 +50,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="CDV56_102390"
                      /product="nonribosomal peptide synthetase PseA"
-                     /label=pseA
+                     /label="pseA"
                      /db_xref="GeneID:38124364"
                      /protein_id="XP_026618556.1"
                      /translation="MDNCKMPDYMASSNGSLISSFLTNPATGISPTKGTRAQTFPIMTT
@@ -95,12 +96,13 @@ FEATURES             Location/Qualifiers
                      YVIIEEHRTRVELWHCTSTISLGQAATIQTCFRNAVSQILHNAEQPATSLTVLTPEQKG
                      LIWSPSPGSITSRVRKMQEIWAGVLNRSPSDVSPDDQFFRLGGDSMKAMRVIALARREG
                      MNIRLADFFNDYRLITLIEVSEHHQQE"
+                     /Pfam="NRPS_C, AA-adenyl-dom, ACP_PCP"
      CDS             join(8043..8358,8408..8531,8579..8688,8744..9125,
                      9176..9449)
                      /codon_start=1
                      /locus_tag="CDV56_103356"
                      /product="methyltransferase PseC"
-                     /label=pseC
+                     /label="pseC"
                      /db_xref="GeneID:38125330"
                      /protein_id="XP_026618557.1"
                      /translation="MTREISQIELLGSHISRQIQRYADKLQAGETPTEEMATISSACRE
@@ -111,11 +113,12 @@ FEATURES             Location/Qualifiers
                      WQDHDFHTEQPVKGADLYLASCILMDHTSEDCCTILGHLADAMTPHRSILLVDDAIDVG
                      SQGGLSMANGMNMHLLACFGTLSRTMGEWHTLIERVPGSLSIVNSWMSDPGRVTFALKR
                      VG"
+                     /Pfam="Methyltransf_2"
      CDS             complement(join(9607..10560,10628..10921))
                      /codon_start=1
                      /locus_tag="CDV56_103525"
                      /product="indoleamine 2,3-dioxygenase PseB"
-                     /label=pseB
+                     /label="pseB"
                      /db_xref="GeneID:38125499"
                      /protein_id="XP_026618558.1"
                      /translation="MPGLGGIDLKRYQISRQLGFLPAQPPLTRLPHSCYQIWEDTLGKF
@@ -126,6 +129,7 @@ FEATURES             Location/Qualifiers
                      QSGSGAGAAGNGGKGACKPHGSFHRHMRDYMPGPHRDFLQLMSRVANIRLFVLGHSPGS
                      DIRAAYNRAVGALVEIRQKHMVMAARYIIAPSLREKGEGGLEGVRGTGGTEFMPLLKGA
                      RDRTMESISLTGCRDC"
+                     /Pfam="IDO"
 ORIGIN
         1 ctactcctgc tgatgatgct ccgacacctc gatcagcgtt atcaatctat agtcgttgaa
        61 aaagtccgcc agccgaatat tcatcccctc ccttctcgct aacgcaataa ccctcatcgc

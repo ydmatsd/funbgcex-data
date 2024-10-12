@@ -1,43 +1,44 @@
-LOCUS       FBGC00517       46504 bp DNA     linear   UNA 27-MAR-2023
+LOCUS       FBGC00517              46504 bp    DNA     linear   UNA 27-MAR-2023
 DEFINITION  oryzine A.
 ACCESSION   FBGC00517
-VERSION     .
+VERSION     FBGC00517
 KEYWORDS    .
 SOURCE      Aspergillus oryzae RIB40
   ORGANISM  Aspergillus oryzae RIB40
+            .
 REFERENCE   1  (bases 1 to 46504)
   AUTHORS   Wasil Z, Kuhnert E, Simpson TJ, Cox RJ.
-  TITLE     Oryzines A & B, Maleidride Congeners from Aspergillus oryzae and 
+  TITLE     Oryzines A & B, Maleidride Congeners from Aspergillus oryzae and
             Their Putative Biosynthesis.
   JOURNAL   J Fungi 2018;13(4):96
-  PUBMED    30104550
+   PUBMED   30104550
 REFERENCE   2  (bases 1 to 46504)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Mar 27, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.3390/jof4030096"; journalName: "J Fungi"; date: "2018"; volume: 
+  JOURNAL   Exported Mar 27, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     ##Genome-Assembly-Data-START##
+            Assembly Method     :: Phred/Phrap software
+            Assembly Name       :: Aoryzae_assembly02
+            ##Genome-Assembly-Data-END##
+            ##Genome-Annotation-Data-START##
+            Annotation Provider :: INSDC submitter
+            Annotation Status   :: Full annotation
+            Annotation Pipeline :: Eukaryotic Annotation Propagation Pipeline
+            ##Genome-Annotation-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.3390/jof4030096"; journalName: "J Fungi"; date: "2018"; volume:
             "13"; issue: "4"; pages: "96"
-COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final 
+            PROVISIONAL REFSEQ: This record has not yet been subject to final
             NCBI review. The reference sequence is identical to BA000056.
             This genome assembly has been updated so
             as to reflect the location and orientation of
             contigs on the chromosomes. Gap lengths were
             estimated using the results from Optical
-            Mapping (http://www.bio.nite.go.jp/dogan/project/view/AO). This 
-            Aspergillus oryzae RIB40 genome consists of a nuclear genome 
-            assembly represented by eight chromosomes (assembled from 24 
-            entries) and three unplaced contigs (AP007156, AP007160 and 
-            AP007177) and a complete mitochondrial genome 
-            (AP007176).##Genome-Assembly-Data-START##
-            Assembly Method :: Phred/Phrap software
-            Assembly Name   :: Aoryzae_assembly02
-            ##Genome-Assembly-Data-END####Genome-Annotation-Data-START##
-            Annotation Provider :: INSDC submitter
-            Annotation Status   :: Full annotation
-            Annotation Pipeline :: Eukaryotic Annotation Propagation Pipeline 
-            ##Genome-Annotation-Data-END##
+            Mapping (http://www.bio.nite.go.jp/dogan/project/view/AO). This
+            Aspergillus oryzae RIB40 genome consists of a nuclear genome
+            assembly represented by eight chromosomes (assembled from 24
+            entries) and three unplaced contigs (AP007156, AP007160 and
+            AP007177) and a complete mitochondrial genome
 FEATURES             Location/Qualifiers
      source          1..46504
                      /chromosome="8"
@@ -50,7 +51,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="AO090010000172"
                      /product="major facilitator superfamily transporter OryC"
-                     /label=oryC
+                     /label="oryC"
                      /note="unnamed protein product; predicted transporter
                      (major facilitator superfamily)"
                      /db_xref="GeneID:5999341"
@@ -65,12 +66,13 @@ FEATURES             Location/Qualifiers
                      YPTEINSLPMRTKGAAVATATDWITNFVVVEITPIGIKNIDWKFWIVWTVTNAAFLPIL
                      YFLYPETANRSLEDMDEYYRSNPALVVTKDPDAICRRRPQKYLQREEEEIERAAAAVDK
                      RALSVGAVEHAEWTNAMGNKS"
-     CDS             complement(join(4234..4350,4399..9065,9118..9572,9626..9652,
-                     9700..9767))
+                     /Pfam="Sugar_tr"
+     CDS             complement(join(4234..4350,4399..9065,9118..9572,
+                     9626..9652,9700..9767))
                      /codon_start=1
                      /locus_tag="AO090010000171"
                      /product="fatty acid synthase subunit alpha OryfasA"
-                     /label=oryfasA
+                     /label="oryfasA"
                      /note="unnamed protein product; 3-oxoacyl-[acyl-carrier
                      protein] reductase"
                      /db_xref="GeneID:5999340"
@@ -106,11 +108,12 @@ FEATURES             Location/Qualifiers
                      RSSDQWLRDSISKEQGNVSVGVDIESISSVNIEDEIFLERNFTPGELKYCQGSPDKQAS
                      LSGRWAAKEAIFKSLQIPSEGAGAAMRDIEIVSNGAQPPTVLLHNRAKSAADAQKVEEV
                      QVSITHSPESAMAIALARRRL"
+                     /Pfam="Fas_alpha_ACP, FAS_I_H, adh_short, ACPS"
      CDS             join(10444..10877,10933..11688,11745..11827,11885..11955)
                      /codon_start=1
                      /locus_tag="AO090010000170"
                      /product="citrate synthase-like protein OryE"
-                     /label=oryE
+                     /label="oryE"
                      /note="unnamed protein product; citrate synthase"
                      /db_xref="GeneID:5999339"
                      /protein_id="XP_001827205.1"
@@ -122,13 +125,14 @@ FEATURES             Location/Qualifiers
                      SAISALYGPLHGGAIEVAYKNIESIGSISNVPAKIARVKAGKERLYGYGHRVYRVTDPR
                      FVFIREILNELSEEVEKDPLLKVAFEVDRVASEDEYFTSRNLRPNADLFAAFVYKALGF
                      PPEFILPLSILSRTQGFMAHWREAMGNPPRIWRPGQIYTGDLNKSMDE"
+                     /Pfam="Citrate_synt"
      CDS             join(12539..12586,12636..13034,13083..13628,13681..14130)
                      /codon_start=1
                      /locus_tag="AO090010000169"
                      /product="major facilitator superfamily transporter OryF"
-                     /label=oryF
+                     /label="oryF"
                      /note="unnamed protein product; synaptic vesicle
-                     transporter SVOP and related transporters (major 
+                     transporter SVOP and related transporters (major
                      facilitator superfamily)"
                      /db_xref="GeneID:5999338"
                      /protein_id="XP_001827204.1"
@@ -141,14 +145,15 @@ FEATURES             Location/Qualifiers
                      PAKGTPELRTILMLPAALLVPTGLLIYGWSAQTHSHWIMPNIGIGIYALGLIMSYQCIQ
                      AYVLDCYAVYAASAMGALTILRSLLGFVLPILAPLIYRTLGYGWGSSLLALWALVMGGL
                      VPILLWRYGAVLRKRSGILEEM"
+                     /Pfam="MFS_1"
      CDS             complement(join(15172..15329,15385..15568,15621..15814,
                      15865..16179,16240..16414))
                      /codon_start=1
                      /locus_tag="AO090010000168"
                      /product="2OG-Fe(II)-dependent dioxygenase OryG"
-                     /label=oryG
-                     /note="unnamed protein product; probable taurine
-                     catabolism dioxygenase"
+                     /label="oryG"
+                     /note="unnamed protein product; probable taurine catabolism
+                     dioxygenase"
                      /db_xref="GeneID:5999337"
                      /protein_id="XP_001827203.1"
                      /translation="MHSTKVTYPEPMQLSGILDQYESFQVTPCIGTEFPKANLAEWLHS
@@ -158,11 +163,12 @@ FEATURES             Location/Qualifiers
                      QFKQSHPMVRTHPVTGWKTLFAGGLHCRRVNDVTDFESEQLLSKIISLVGDNHDLQVRF
                      RWNNPGDVAIWDNRCVLHCPTQDHYGLGGRMGYRTMGIAEKPYLDPNSPSRQEALAAAA
                      K"
+                     /Pfam="TauD"
      CDS             join(17220..17870,17975..18026,18079..18629)
                      /codon_start=1
                      /locus_tag="AO090010000167"
                      /product="gluconolactonase OryH"
-                     /label=oryH
+                     /label="oryH"
                      /note="unnamed protein product; predicted protein"
                      /db_xref="GeneID:5999336"
                      /protein_id="XP_023094065.1"
@@ -174,11 +180,12 @@ FEATURES             Location/Qualifiers
                      YKTLYLTDTDAGVPMIDPRVPLSEVPSLQYNSTNRRTVYAFDVSEDGSYLKNRRPIYTA
                      KDFVPDGLKVASNGYVITGAGKGVDILDTTGTPLLSIQTNFTAVNMVFGGKNLDELWIV
                      GHGAVARARLNLTGPALE"
+                     /Pfam="SGL"
      CDS             19534..20073
                      /codon_start=1
                      /locus_tag="AO090010000166"
                      /product="cupin domain-containing protein OryJ"
-                     /label=oryJ
+                     /label="oryJ"
                      /note="unnamed protein product; predicted protein"
                      /db_xref="GeneID:5999335"
                      /protein_id="XP_023094064.1"
@@ -186,11 +193,12 @@ FEATURES             Location/Qualifiers
                      FFLAYTLGSFPAPLSHDADLNQYKDHLVNHPPFMIPGGAVVRYVDYHPGCEPMWHRTVT
                      VDFGVVIEGELELEVEGGEKRLMKRGDVAVQRGTNHCWRNPSKTQFARALYIALDAKPV
                      IVNGQELGESLGEVKH"
+                     /Pfam="SrdD"
      CDS             join(21206..22441,22550..23191)
                      /codon_start=1
                      /locus_tag="AO090010000165"
                      /product="ankyrin repeat domain-containing protein OryK"
-                     /label=oryK
+                     /label="oryK"
                      /note="unnamed protein product; predicted protein"
                      /db_xref="GeneID:5999334"
                      /protein_id="XP_001827200.3"
@@ -205,11 +213,12 @@ FEATURES             Location/Qualifiers
                      ISLRSALPSASPNPSNPHLYSYQMELIRLEQQNKRRLFFAGDTRCPLSWAAKSHNAPLV
                      NALLRSPQVNVNFQDPSDRTPLLYAIAVNDRPIVERLLNHRDIDLNLRDAEGRTAIFYA
                      AQGGDLSIVQLLIGTQNVDFSIRNKNGKNVKEFAKKAKLKQDIVAALSN"
+                     /Pfam="Ank_4, Ank_2"
      CDS             complement(join(24324..24868,24964..25729))
                      /codon_start=1
                      /locus_tag="AO090010000162"
                      /product="gluconolactonase OryL"
-                     /label=oryL
+                     /label="oryL"
                      /note="unnamed protein product; predicted protein"
                      /db_xref="GeneID:5999331"
                      /protein_id="XP_023094061.1"
@@ -221,11 +230,12 @@ FEATURES             Location/Qualifiers
                      GLVTMVDDTLLEPNGLTFSPDNKTVYLTDTGAGSAIIDPNIYPAPHIAYNSTRKGRTIY
                      AYDVAPSRKALLNKRPVYLSMEYAPDGIKTSREGYLVSATGKGVVVLTDEGEPLVRVQT
                      NFTVINIAFAGAERDELWAIGKGGVARIRWGLKGSYA"
+                     /Pfam="SGL"
      CDS             join(26077..26313,26365..27576)
                      /codon_start=1
                      /locus_tag="AO090010000161"
                      /product="aconitate decarboxylase OryM"
-                     /label=oryM
+                     /label="oryM"
                      /note="unnamed protein product; uncharacterized protein
                      involved in propionate catabolism"
                      /db_xref="GeneID:5999330"
@@ -239,13 +249,14 @@ FEATURES             Location/Qualifiers
                      PEERPLTATGGQMNAAYIGAAQLVYGQVLLDQFEPHALDSDAVWSLIDKTTCVHSSEFD
                      KPGHLCGARIVVEFNDGETVEDVVAMPKGFDPPITDDEIREKWRKLASSVIDSERLQRI
                      ENSVLSLETSADVSELLALISGEL"
+                     /Pfam="MmgE_PrpD, MmgE_PrpD_C"
      CDS             join(28827..29174,29230..29761,29811..29857,29913..30503)
                      /codon_start=1
                      /locus_tag="AO090010000160"
                      /product="major facilitator superfamily transporter OryN"
-                     /label=oryN
+                     /label="oryN"
                      /note="unnamed protein product; synaptic vesicle
-                     transporter SVOP and related transporters (major 
+                     transporter SVOP and related transporters (major
                      facilitator superfamily)"
                      /db_xref="GeneID:5999329"
                      /protein_id="XP_001827195.1"
@@ -258,11 +269,12 @@ FEATURES             Location/Qualifiers
                      PYIGMMVGILIGCAIVVIQTRRNYDGNKAVVPEQRLPLMIAGGCLLPVGLFIFAWTSNP
                      NIHWAGMVIGSAPVGTGMYMVFVQCLNYLVDVYPTIANSAIGANTFVRSFFGAGFPLFG
                      PFMYHNLGVAWASSTLGFISIAMIPIPVLFYRYGARIRSWSKNSKHT"
+                     /Pfam="MFS_1"
      CDS             complement(join(31238..31838,31891..32543,32624..33775))
                      /codon_start=1
                      /locus_tag="AO090010000159"
                      /product="transcription factor OryO"
-                     /label=oryO
+                     /label="oryO"
                      /note="unnamed protein product; predicted protein"
                      /db_xref="GeneID:5999328"
                      /protein_id="XP_023094060.1"
@@ -280,11 +292,12 @@ FEATURES             Location/Qualifiers
                      ETRRHLELLHYADFPQAYFARLEVGLKWCTDMLDTIKDCLSRSAVAGDWGPMDGSSTGL
                      SDRTPPSESELSSIPPDAWASLNLPMSRDEMLCGLSPSVPSEGLLDPQFSAFGLTTSST
                      GDSTVPAFAQGGDNPAVTMHPSMWVPAEVPCNSSEPLFDPEFTRSIMS"
+                     /Pfam="Zn_clus, Fungal_trans"
      CDS             complement(join(34240..34658,34751..34872,34982..35076,
                      35149..35909,35977..36244))
                      /codon_start=1
                      /product="CoA ligase OryP"
-                     /label=oryP
+                     /label="oryP"
                      /translation="MILPADPIFSQLLLIARNSPDEVVIDDRNLHVQAGYSHLLHDAVQ
                      LAQQLRDSLSQGPSTVGSAFIGILAPTSYESTVASLAILAVGGVCQQIITAAGASLEEL
                      AYTLKQCSATCVLVGSQHQQTKLATQLQEQTGILKLAIPVLSPGRPPIESYTLDEDSIP
@@ -295,13 +308,14 @@ FEATURES             Location/Qualifiers
                      ERQGKNFIFRGRYKADFFKFWDHKIPRLHVESCLSSLPYIEEAHILPVADARCDNRVAA
                      LVRLRQDHTCVTLQSIRKDLSTMLPVYQMPTLLRILGKGDEVPRTFSEKVAMKKTVERF
                      FPRWNNDHFMDDSIEVLGIKEILQFDTTGPLELVELW"
+                     /Pfam="AA-adenyl-dom"
      CDS             complement(join(38207..38638,38689..38804,38856..39344,
                      39437..44480))
                      /codon_start=1
                      /locus_tag="AO090010000156"
                      /product="fatty acid synthase subunit beta OryfasB"
-                     /label=oryfasB
-                     /note="unnamed protein product; enoyl reductase domain of 
+                     /label="oryfasB"
+                     /note="unnamed protein product; enoyl reductase domain of
                      yeast-type FAS1"
                      /db_xref="GeneID:5999327"
                      /protein_id="XP_001827193.1"
@@ -340,11 +354,13 @@ FEATURES             Location/Qualifiers
                      AEQYVCAGHVRNIYILSGILDLLSRSATGPQLVASLRSASDPAITDVAKEIAVYLEKAP
                      QLNNPTELKRGRATIPLQGIDVPFHSSHLRSGVSVYRRFLEERIQAENVQVDRLVGKFI
                      PNVMGKPFAIDRSYLEEAAAVTGSSVLRELALAA"
+                     /Pfam="SAT2, DUF1729, FAS_meander, MaoC_dehydrat_N,
+                     MaoC_dehydratas, Acyl_transf_1"
      CDS             join(44965..45319,45369..46504)
                      /codon_start=1
                      /locus_tag="AO090010000155"
                      /product="2-methylcitrate dehydratase OryR"
-                     /label=oryR
+                     /label="oryR"
                      /note="unnamed protein product; uncharacterized protein
                      involved in propionate catabolism"
                      /db_xref="GeneID:5999326"
@@ -358,6 +374,7 @@ FEATURES             Location/Qualifiers
                      KGPLHNAADRDHCLRYMVAVVLLKGSQITTADYQDSSPWARDPRVETLRSITTMEEDPS
                      FTRDYHDPQCRSVANALEVTLRDGTKLEELVPFPLGHVRRPETLQLVREKAQQNLGLKL
                      SSERVGQILDTVDQPKFEKMAASDFVDLFIPQPASSAA"
+                     /Pfam="MmgE_PrpD, MmgE_PrpD_C"
 ORIGIN
         1 atgaccgtgt taaccaggga aaaaaagcct tattttggct tgactggagg atggctcaca
        61 ttctgggtta cggtatggca attttagcac cttcgtcgat cacgatgggc tgacaattca

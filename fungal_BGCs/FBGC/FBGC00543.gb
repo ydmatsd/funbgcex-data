@@ -1,30 +1,30 @@
-LOCUS       FBGC00543       27897 bp DNA     linear   UNA 06-APR-2023
+LOCUS       FBGC00543              27897 bp    DNA     linear   UNA 06-APR-2023
 DEFINITION  annullatin D.
 ACCESSION   FBGC00543
-VERSION     .
+VERSION     FBGC00543
 KEYWORDS    .
 SOURCE      Penicillium roqueforti FM164
   ORGANISM  Penicillium roqueforti FM164
+            .
 REFERENCE   1  (bases 1 to 27897)
   AUTHORS   Xiang P, Kemmerich B, Yang L, Li SM.
-  TITLE     Biosynthesis of Annullatin D in Penicillium roqueforti Implies 
-            Oxidative Lactonization between Two Hydroxyl Groups Catalyzed by a 
+  TITLE     Biosynthesis of Annullatin D in Penicillium roqueforti Implies
+            Oxidative Lactonization between Two Hydroxyl Groups Catalyzed by a
             BBE-like Enzyme.
   JOURNAL   Org Lett 2022;24:6072-6077
-  PUBMED    35939524
+   PUBMED   35939524
 REFERENCE   2  (bases 1 to 27897)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Apr 6, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1021/acs.orglett.2c02438"; journalName: "Org Lett"; date: 
+  JOURNAL   Exported Apr 6, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1021/acs.orglett.2c02438"; journalName: "Org Lett"; date:
             "2022"; volume: "24"; pages: "6072-6077"
 FEATURES             Location/Qualifiers
      source          1..27897
                      /strain="FM164"
                      /mol_type="genomic DNA"
-                     /label=ProqFM164S03
+                     /label="ProqFM164S03"
                      /note="ProqFM164S03"
                      /db_xref="taxon:1365484"
                      /organism="Penicillium roqueforti FM164"
@@ -32,9 +32,8 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="PROQFM164_S03g001173"
                      /product="transcription factor AnuK"
-                     /label=anuK
-                     /note="Corresponds to Proq03g054140
-                     revised sequence"
+                     /label="anuK"
+                     /note="Corresponds to Proq03g054140 revised sequence"
                      /db_xref="PSEUDO:CDM34449.1"
                      /inference="profile:same species:0000981"
                      /inference="profile:same species:0003700"
@@ -52,19 +51,19 @@ FEATURES             Location/Qualifiers
                      LKQHMWLLQFKKFRPVLNQFNTYIGRLGGTYGFGDSAQVKAYQCIHMWLAQKMDNVNHQ
                      YKAQEKCEGQLDRLDTVNQVAR"
                      /pseudogene="unknown"
+                     /Pfam="EqxR"
      gap             1025..1245
                      /estimated_length=221
-     CDS             complement(join(1864..3582,3642..7729,7786..8201,8265..8573,
-                     8641..8724,8785..9175,9233..9305))
+     CDS             complement(join(1864..3582,3642..7729,7786..8201,
+                     8265..8573,8641..8724,8785..9175,9233..9305))
                      /codon_start=1
                      /locus_tag="PROQFM164_S03g001174"
                      /product="polyketide synthase AnuA"
-                     /label=anuA
-                     /note="Alcohol dehydrogenase GroES-like; Leukotriene B4 
-                     12-hydroxydehydrogenase/15-oxo-prostaglandin 13-reductase; 
-                     Fatty acid synthase, alpha subunit, fungi Corresponds to 
-                     Proq03g054150
-                     revised sequence"
+                     /label="anuA"
+                     /note="Alcohol dehydrogenase GroES-like; Leukotriene B4
+                     12-hydroxydehydrogenase/15-oxo-prostaglandin 13-reductase;
+                     Fatty acid synthase, alpha subunit, fungi Corresponds to
+                     Proq03g054150 revised sequence"
                      /db_xref="GOA:W6QDA2"
                      /db_xref="InterPro:IPR001227"
                      /db_xref="InterPro:IPR011032"
@@ -139,15 +138,16 @@ FEATURES             Location/Qualifiers
                      FEGSHPALDDPRANLLASALDGGSDESSQAQNGSLPAEVTTLMQSGHTLDEAVLDHIRR
                      RFGNLVLLKYEVVDVKKPLLQYGMDSMIGAEFRTWFYQSLTTDVPLVMLLGSSCTLESL
                      RDLAMTSLEVGKS"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_DH, PKS_NRPS_MT, fPKS_ER,
+                     fPKS_KR, ACP_PCP"
      CDS             join(9839..9882,9936..9988,10041..10209,10270..10277,
                      10327..10476,10560..10632,10685..10821,10881..11017,
                      11083..11130)
                      /codon_start=1
                      /locus_tag="PROQFM164_S03g001175"
                      /product="short-chain dehydrogenase/reductase AnuB"
-                     /label=anuB
-                     /note="Corresponds to Proq03g054160a
-                     revised sequence"
+                     /label="anuB"
+                     /note="Corresponds to Proq03g054160a revised sequence"
                      /db_xref="GOA:W6QEJ5"
                      /db_xref="InterPro:IPR002198"
                      /db_xref="InterPro:IPR002347"
@@ -164,27 +164,27 @@ FEATURES             Location/Qualifiers
                      VEKMFGVNVFGPMRMVHIFHPLLIKARGKIVNIGSVGASYNATKAALHHWGNTLRVEMK
                      PLGVEVVNVISGEVGTNILKRDHNRKLPEDSFYRPLEKEFMNHVTRTPRTTTPAEYSRS
                      VVIEVMKQHSTAWFWTGASSGIVRFSEQFFPRTLWDWIFTRQFNLNKLRM"
+                     /Pfam="adh_short"
      CDS             complement(join(11918..12081,12142..12313,12395..12631))
                      /codon_start=1
                      /locus_tag="PROQFM164_S03g001176"
                      /product="cupin domain-containing protein AnuC"
-                     /label=anuC
+                     /label="anuC"
                      /note="unnamed protein product; Corresponds to
-                     Proq03g054170
-                     revised sequence"
+                     Proq03g054170 revised sequence"
                      /db_xref="UniProtKB/TrEMBL:W6QY25"
                      /protein_id="CDM34452.1"
                      /translation="MSAPKGPITKFPAEGLRHARRFITTHNKEGKGVFAVDDDGDHHRI
                      MVDGLAVANIIYSTSGNPVDMNDDNDLVYARDNEPPIHVSNGSVVRLIDFGPGVESPIH
                      RALSIDYGIVVEGAFELTLDSGEKKLMLPGDMSVNRGCMHMWKNLDENRPGRMLFVLLD
                      VTPTKVNGEEITEHLGILEKDYADVKQ"
+                     /Pfam="SrdD"
      CDS             complement(join(13113..13242,13317..13604,13673..14256))
                      /codon_start=1
                      /locus_tag="PROQFM164_S03g001177"
                      /product="short-chain dehydrogenase/reductase AnuD"
-                     /label=anuD
-                     /note="Corresponds to Proq03g054180
-                     revised sequence"
+                     /label="anuD"
+                     /note="Corresponds to Proq03g054180 revised sequence"
                      /db_xref="GOA:W6QCM8"
                      /db_xref="InterPro:IPR002198"
                      /db_xref="InterPro:IPR002347"
@@ -201,14 +201,14 @@ FEATURES             Location/Qualifiers
                      SDRHVMYDLPEWKTQNTFQVLNDRQQARMHERYPISKLLEILLARAMAKQLDSNPPNGT
                      GNIIVNSFTPGYCTSGLIENVHGITGFALWLLSKATARTTEVGGRTLVAAIAQGDKSHG
                      KYLNDGHIDESALSPFVRSQEGILAMEKLWEELMEILEQKRPGIGLLLSPVP"
+                     /Pfam="adh_short"
      CDS             join(14595..14688,14748..14811,14871..15253,15307..15879,
                      15944..16413)
                      /codon_start=1
                      /locus_tag="PROQFM164_S03g001178"
                      /product="cytochrome P450 monooxygenase AnuE"
-                     /label=anuE
-                     /note="Corresponds to Proq03g054190
-                     revised sequence"
+                     /label="anuE"
+                     /note="Corresponds to Proq03g054190 revised sequence"
                      /db_xref="GOA:W6QJR1"
                      /db_xref="InterPro:IPR001128"
                      /db_xref="InterPro:IPR002401"
@@ -230,11 +230,12 @@ FEATURES             Location/Qualifiers
                      YPSPETFEPSRFAEQTRLASVYANAGDAQKRDHFGYGAGRRICPGIHLAERALFIAMAK
                      LLWGFTVQQKLDSSGNPIPVDVNPATAYRDGFLNQCLPFDIDIKPRLGRQEMIMVAAAK
                      AENDVLSAYE"
+                     /Pfam="p450"
      CDS             complement(join(17034..17293,17351..17878,17928..17970))
                      /codon_start=1
                      /locus_tag="PROQFM164_S03g001179"
                      /product="short-chain dehydrogenase/reductase AnuF"
-                     /label=anuF
+                     /label="anuF"
                      /note="Corresponds to Proq03g054200"
                      /db_xref="GOA:W6QDA7"
                      /db_xref="InterPro:IPR002198"
@@ -252,12 +253,13 @@ FEATURES             Location/Qualifiers
                      PVYKAEVSEMNAFWQVNVLGTLNCIKSVTKVMKSQSVSTLNKQGKSRQVGRGVILNVGS
                      CNSYIATPDIVPYTTTKHAVMGLTKSAALDLAPHEIRVNAICPGWVNTPMVTAAINGNP
                      DLPEMMRTIIPMSRIAEPEEIADVVLFMTSPRSSYVTGVGWVVDGGTTLQVQTC"
+                     /Pfam="adh_short_C2"
      CDS             join(19120..19404,19454..19667,19744..20144,20209..20585,
                      20664..20916)
                      /codon_start=1
                      /locus_tag="PROQFM164_S03g001180"
                      /product="FAD-linked oxidoreductase AnuG"
-                     /label=anuG
+                     /label="anuG"
                      /note="Corresponds to Proq03g054210 FAD-binding, type 2"
                      /db_xref="GOA:W6QEK0"
                      /db_xref="InterPro:IPR006094"
@@ -283,11 +285,12 @@ FEATURES             Location/Qualifiers
                      VPNVQGTGINNATCDKGLERIVGPAGLQVYNATAQRQIYDLFNRNVKSYPELAASAVVM
                      EGYSVEAVRKVDSDSSAYPMRDDYLLMQTTVSYSPNSTLDNVAIDWVTENQKFWNEGQP
                      TRKPTAYVNYASGRESLEAMYGYEPWRLERLRKLKAKYDPEGRFSYYNPIV"
+                     /Pfam="FAD_binding_4, BBE"
      CDS             complement(join(21739..22369,22441..22979,23065..23250))
                      /codon_start=1
                      /locus_tag="PROQFM164_S03g001181"
                      /product="DMATS-type prenyltransferase AnuH"
-                     /label=anuH
+                     /label="anuH"
                      /note="Corresponds to Proq03g054220"
                      /db_xref="GOA:W6QY29"
                      /db_xref="InterPro:IPR012148"
@@ -305,11 +308,12 @@ FEATURES             Location/Qualifiers
                      VPESQLQELRSLIAAVTGLDSDFPEDSEVPCISEYNPAAKDNFVEIDLLLSGYLYYFDI
                      APGATVPDIKFYTPVRRYGPDDGALAKGIADWMTSRGRGEYSQRYLDMLADLTEHRKLE
                      DGKGMQTYVSCLFKKSHLDVTSYIGPEAFDPARFLKHKAHTTRSTRRRSDSH"
+                     /Pfam="Trp_DMAT"
      CDS             23754..24512
                      /codon_start=1
                      /locus_tag="PROQFM164_S03g001182"
                      /product="short-chain dehydrogenase/reductase AnuI"
-                     /label=anuI
+                     /label="anuI"
                      /note="Corresponds to Proq03g054230"
                      /db_xref="GOA:W6QCN3"
                      /db_xref="InterPro:IPR002198"
@@ -326,11 +330,12 @@ FEATURES             Location/Qualifiers
                      LRESYRAVFETNVFGVAVMTATFLPLLRASKYHDRRIVNVTSGLGQIGIAYSPTSEYSA
                      KIWELPIYRSSKSAINMISAVDAVSLEKENILVVLAAPGFCRTNFGGGQGVKSAEEGAR
                      PIVRAATEGSPKELFGKLVDDENTLVEFGW"
+                     /Pfam="adh_short"
      CDS             join(25311..25929,25998..27096,27159..27897)
                      /codon_start=1
                      /locus_tag="PROQFM164_S03g001183"
                      /product="FAD-dependent monooxygenase AnuJ"
-                     /label=anuJ
+                     /label="anuJ"
                      /note="Corresponds to Proq03g054240"
                      /db_xref="GOA:W6QJR3"
                      /db_xref="InterPro:IPR002938"
@@ -355,6 +360,7 @@ FEATURES             Location/Qualifiers
                      ILGLCAVSTAVWQYTVWCSEDSLVNIFIPILSSAQGQTFEQLFAEFLKWDQVFFAIPNL
                      FWIILLFADLRAAGLIHAGWLKISFSALGLIIAGGNGTMLGLMWLYREEVLATRRDRGA
                      VVRPIA"
+                     /Pfam="FAD_binding_3, CtvD"
 ORIGIN
         1 atgaaagcca gtaaactcac cagaccggat ggcaaagtag cccggctgcg agcatcctgt
        61 gatgcttgca acgaatccaa agtccgatgc agtcaagcca agccaacttg cgcccgctgc

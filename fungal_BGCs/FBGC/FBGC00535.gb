@@ -1,24 +1,24 @@
-LOCUS       FBGC00535       52355 bp DNA     linear   UNA 04-APR-2023
+LOCUS       FBGC00535              52355 bp    DNA     linear   UNA 04-APR-2023
 DEFINITION  21R-citrinadin A.
 ACCESSION   FBGC00535
-VERSION     .
+VERSION     FBGC00535
 KEYWORDS    .
 SOURCE      Penicillium citrinum ATCC 9849
   ORGANISM  Penicillium citrinum ATCC 9849
+            .
 REFERENCE   1  (bases 1 to 52355)
-  AUTHORS   Liu Z, Zhao F, Zhao B, Yang J, Ferrara J, Sankaran B, Venkataram 
+  AUTHORS   Liu Z, Zhao F, Zhao B, Yang J, Ferrara J, Sankaran B, Venkataram
             Prasad BV, Kundu BB, Phillips GN, Gao Y, Hu L, Zhu T, Gao X.
-  TITLE     Structural basis of the stereoselective formation of the 
+  TITLE     Structural basis of the stereoselective formation of the
             spirooxindole ring in the biosynthesis of citrinadins.
   JOURNAL   Nat Commun 2021;12:4158
-  PUBMED    34230497
+   PUBMED   34230497
 REFERENCE   2  (bases 1 to 52355)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Apr 4, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1038/s41467-021-24421-0"; journalName: "Nat Commun"; date: 
+  JOURNAL   Exported Apr 4, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1038/s41467-021-24421-0"; journalName: "Nat Commun"; date:
             "2021"; volume: "12"; pages: "4158"
 FEATURES             Location/Qualifiers
      source          1..52355
@@ -29,7 +29,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="Pencit__000074"
                      /product="methyltransferase CtdC"
-                     /label=ctdC
+                     /label="ctdC"
                      /protein_id="Pencit_:cds.g74.t1"
                      /translation="MKDGYHSPYWVELYDIGQEYFDFLNEDANVFLEAYKDMRAKRTLN
                      GPEDEFIFLDIACGSGRVFIQLADNLVQSGEPSDQTKFLGLDYSAHMVRRANERLPKAL
@@ -37,11 +37,12 @@ FEATURES             Location/Qualifiers
                      TGRVFISVRYGFDDSRKAERKRLEERMDDGNYSQDIPSALFPGIVYRQGRITQRREGNL
                      AFWDLPGQVIKKDGNGVESIIDEDVASMGGRVWQDGEVLLAATTAGLELVSTHSTSNET
                      IYVFKKA"
+                     /Pfam="Methyltransf_25"
      CDS             join(2320..2391,2449..6333)
                      /codon_start=1
                      /locus_tag="Pencit__000075"
                      /product="nonribosomal peptide synthetase CtdD"
-                     /label=ctdD
+                     /label="ctdD"
                      /protein_id="Pencit_:cds.g75.t1"
                      /translation="MTVTVQKREDGVLPPDESEKHFLKSGATLFQELTTSVVPGILQKR
                      ECILLPIPEQLSQKDLFYHTLLSWAVVQVQYEGQSQIIFDVQIPTVGLTSEGQPDDDLG
@@ -66,11 +67,12 @@ FEATURES             Location/Qualifiers
                      NKLPFRIAINATDSVQEFLTQVQEQQSKALRYDYLEMPEILQRCTPWPKDTRMAWHLLH
                      QNFDATWNCRLDGVDSLGQEFFDGRAPKSESGLGICTVQGKSLHLVITEVATPGDSGRA
                      EMLLRRWTQLVETLAVSMTCQLESIIELQSAEVA"
+                     /Pfam="AA-adenyl-dom, ACP_PCP, NRPS_CT"
      CDS             join(7453..7627,7680..8269,8325..8873)
                      /codon_start=1
                      /locus_tag="Pencit__000076"
                      /product="FAD-dependent monooxygenase CtdE"
-                     /label=ctdE
+                     /label="ctdE"
                      /protein_id="Pencit_:cds.g76.t1"
                      /translation="MTKTPEAPVPRTMEKDHTQQINVIIVGLGIAGLTAAIECHRKGHK
                      VIAFEKTPKMMHIGDIFSIGPNAESVIRQWKDGAISRALNEARCAIDEIKVFDETGKLQ
@@ -80,12 +82,13 @@ FEATURES             Location/Qualifiers
                      VRDRLEPIMACTPQGKCFDHLVMTMDQLPSWVSPKHRMIVLGDAAHPFLPNTGQGANQA
                      IEDGATVAICLELAGKNQVTKGVQVAERLRYQRVAKIQELGHRMLKTLQNADWDGEKDE
                      DAPTMITRPAWIYSHDCQQYAYNEFQTVAQLVSERRDF"
+                     /Pfam="FAD_binding_3"
      CDS             join(9630..9740,9796..9900,9959..10461,10518..10623,
                      10681..10803,10853..11030,11080..11323,11383..11545)
                      /codon_start=1
                      /locus_tag="Pencit__000076"
                      /product="cytochrome P450 monooxygenase CtdY"
-                     /label=ctdY
+                     /label="ctdY"
                      /protein_id="Pencit_:cds.g76.t1"
                      /translation="MSSLVSFCGASPIYLAFAGIIFSWYLITRWRRLHRSWVNVPVVGE
                      RGLLGFWRNVPDYSDKLNEILKVGYDKHRDFAFQVATVRGWDVCICNEKMVAEMQALPD
@@ -96,12 +99,13 @@ FEATURES             Location/Qualifiers
                      ASLQSHLGWKKETIESLPKIDSFIKESHRHNPIGAASLFRLAKKDFSFRNGLKIPAGTF
                      LYTPNSPLLNDPIYYENGGVFDGMRFYKLGLQSGSPDDYKIAGQLPKSRQFGAGRHACP
                      GKQLAADSMRLILAYILVNCEIERDGGSKTSKGFSFSSTIRVRVHKESGQKK"
+                     /Pfam="p450"
      CDS             join(14026..14288,14341..14602,14652..14781,14835..14926,
                      14973..15293,15354..15464,15517..15837)
                      /codon_start=1
                      /locus_tag="Pencit__000078"
                      /product="cytochrome P450 monooxygenase CtdG"
-                     /label=ctdG
+                     /label="ctdG"
                      /protein_id="Pencit_:cds.g78.t1"
                      /translation="MMASPQIILLLIFVWVATCIFQRLFFHPLSHVPGPRLAAVSRLYG
                      FYYNVFGEGYSKQFSGLHERYKSLVIRISPDAVHVNDPDFYQMVFASKTNYRKDPQFYH
@@ -112,11 +116,12 @@ FEATURES             Location/Qualifiers
                      SLDSMDLKKIQNLPYLTAVIKESLRLSTGQPGFLPRVVPSEGAHIGSTFIPGGVKITIT
                      SQVVQLDPKIFPEPLVFRPERWLDNKSLDRWHVGFSKGPRKCIGMNLANLQLYSCLAYI
                      FARYDMQLFKTDKRSLEWVDSLIAQTVGPPINVKILKDRWE"
+                     /Pfam="p450"
      CDS             complement(join(16259..16427,16485..17629))
                      /codon_start=1
                      /locus_tag="Pencit__000079"
                      /product="DMATS-type prenyltransferase CtdH"
-                     /label=ctdH
+                     /label="ctdH"
                      /protein_id="Pencit_:cds.g79.t1"
                      /translation="MTQHGKATEKSSFDILDRYLLFADDHQRGWWEKTGRLLERVLASA
                      DYDAGRRLEALTFFSQVMIPSLGPYPFSFRSAITRSGLPIEFSVNYQQRGEAAPVVRVG
@@ -126,11 +131,12 @@ FEATURES             Location/Qualifiers
                      AKSPVVQKGLKYLEELWQLLGISEGQHEFTGGFDDGKDSTPTPMVWNYELKKGETTPLT
                      KFYFPVHGESDERIIRGLSRFLTRIGLGKYGKGYEATVQHYFPERNLSKSARLTSWISF
                      AYTEKTGVYLSVYYHSSEDYPWSAQEQAEEVARGSTTI"
+                     /Pfam="Trp_DMAT"
      CDS             complement(join(20080..20840,20890..21263,21308..21462))
                      /codon_start=1
                      /locus_tag="Pencit__000080"
                      /product="major facilitator superfamily transporter CtdI"
-                     /label=ctdI
+                     /label="ctdI"
                      /protein_id="Pencit_:cds.g80.t1"
                      /translation="MGINRNSDDVPLEPTGSSASGSCPGNEKLIFGQGYRAWAQAFGSF
                      MVFFSIGGMINMYGVYQQAYQVEGKLGASESAISWIGSVQSSLCLVLGIIAGPLCDHGY
@@ -140,11 +146,12 @@ FEATURES             Location/Qualifiers
                      LPIYMAAYTCGCFGLNALAKWLGPFNVTSVAVLLSGALSWALVDLRNEGGLVFLVFCFG
                      FLSAAVSSLPPACYVKMCPDLSRVGSRMGCGYVASTIGSLVGAPIAGAILDRYRYNALW
                      MFTASMSLAGGALFFISRGLYGGWRMRITA"
+                     /Pfam="MFS_1"
      CDS             join(22444..22639,22694..22824,22880..23509)
                      /codon_start=1
                      /locus_tag="Pencit__000081"
                      /product="2OG-Fe(II)-dependent dioxygenase CtdJ"
-                     /label=ctdJ
+                     /label="ctdJ"
                      /protein_id="Pencit_:cds.g81.t1"
                      /translation="MLKAQHQLPEVDLRDHEKMEDITSRVIEAMKISGACIVRNMFSEA
                      MASRVRQELEQHVPDAGNFGGQRPTSIVTGLLAKSNDYAIGMVGHEVFQKVVEYFLTEQ
@@ -152,11 +159,12 @@ FEATURES             Location/Qualifiers
                      TNVTMLSALTATTRANGATQVIPGSHLWDYNRPIPDAGDSSLVDAELGPGDSLFILGSV
                      IHGAGGNSTGATRAKVAVFATRGRLRQMENQFLACDRDKVSTFPSWLQKFMGYSIGQPA
                      TGWVDKKDPRRVVSSQGMHFEELWDPSLTAFHEARTT"
+                     /Pfam="PhyH"
      CDS             complement(join(24167..24620,24673..25112))
                      /codon_start=1
                      /locus_tag="Pencit__000082"
                      /product="HMG-CoA lyase CtdK"
-                     /label=ctdK
+                     /label="ctdK"
                      /protein_id="Pencit_:cds.g82.t1"
                      /translation="MTITESPFVRIVEVGPRDGLQNLSQWIPTTTKLDLIHRLERSGLR
                      TIELTSLVSHRAVPQMADATNLLQDLDVQAMLAKTNVRLPVLVPNLRGLRIAHANGVKE
@@ -164,12 +172,13 @@ FEATURES             Location/Qualifiers
                      SSVLSCVRELLDMGCYEVSLGDTLGTGNPAAVRALLGYLKQHGIPMSGIAGHFHDTNNH
                      ALENAWAAYECGVRTLDSSIGGLGGCPFVPGAQGNVATEVLVASFEKAGIETGVNRKTL
                      QETATWVRDVMLRVEN"
+                     /Pfam="HMGL-like"
      CDS             complement(join(26550..27117,27173..27511,27561..28169,
                      28224..28318,28378..28467))
                      /codon_start=1
                      /locus_tag="Pencit__000083"
                      /product="PLP-containing enzyme CtdL"
-                     /label=ctdL
+                     /label="ctdL"
                      /protein_id="Pencit_:cds.g83.t1"
                      /translation="MRDPNFQNIDKVALFGAQPLGSSHPPGDPHAVSFSLPTWASVAGN
                      MAGEAWVRGKKKTTYPRMGFCPIVGGLTEAALIRVKRPTGVKARIFISREAASRLEHTV
@@ -181,11 +190,12 @@ FEATURES             Location/Qualifiers
                      EDLLFPADAVVLSENCIDYPERVKRCSATARAIAHFLAAHPSIDYVNYPTLVPSREEYE
                      RYRRDGEGYGYLLSIVFREPDFAVRFFDALDIWKGPSIGTNSSIALPYSVLAHWEEQDW
                      AAEYGVPKHIVRLSVGLESEAWLRDRVTEALAKATPATLCRTTLCKSER"
+                     /Pfam="Cys_Met_Meta_PP"
      CDS             join(29157..29471,29538..29632,29686..30199)
                      /codon_start=1
                      /locus_tag="Pencit__000084"
                      /product="short-chain dehydrogenase/reductase CtdM"
-                     /label=ctdM
+                     /label="ctdM"
                      /protein_id="Pencit_:cds.g84.t1"
                      /translation="MTLKYLITGATGGLGGLVLEYFIANVPLGDFAVSSSRIENRSLFE
                      RRGVQFRHLDYEDSATLEVGLRHVQNLLFVSTNTNVIHIDRILRHHGNMVSAAAKAHVG
@@ -193,23 +203,25 @@ FEATURES             Location/Qualifiers
                      TTHIMLPCDGEIAFTSREDLAEGTARLMLSGGYANQTVLFTAGKTISAREMVDIIHQST
                      GQKLQIRYVSEEEYLTHNTHHDRGGKPAELFKTVSSWWMAAARGELKTMDGLLGEILGR
                      EPLAPQDAVRQLLQKEGDHVWHQNYA"
+                     /Pfam="NmrA"
      CDS             30598..31398
                      /codon_start=1
                      /locus_tag="Pencit__000085"
                      /product="short-chain dehydrogenase/reductase CtdN"
-                     /label=ctdN
+                     /label="ctdN"
                      /protein_id="Pencit_:cds.g85.t1"
                      /translation="MTQGVRKYTGLLYGKRVLIIGGTSGIGYGIAEGALEHGAVVTVVG
                      SNKTKLENALARLRQSYPSEISNGHLRGMQADLSCAEELEIRIPAILEYAADGAEINHL
                      IVTAADMTVPPRIADITVKNIEKTHTLRLLLPLILIKHLPRFMKSTAENSVTLTSGAHG
                      QKADPGWSIIASYCGAIEGLMRGMAVEMKPIRFNVVSPGPIVTQAVKDILGEHYDAAIK
                      VAEQKGLVGKVGSPENVAQTYLYLMKDSFATGTVVESNGGFLLT"
+                     /Pfam="adh_short_C2"
      CDS             complement(join(31530..31795,31849..32181,32243..32399,
                      32462..32679,32740..32782))
                      /codon_start=1
                      /locus_tag="Pencit__000086"
                      /product="short-chain dehydrogenase/reductase CtdO"
-                     /label=ctdO
+                     /label="ctdO"
                      /protein_id="Pencit_:cds.g86.t1"
                      /translation="MTIQQKSVAVFGGTGNQGSAVVRSLLLNKENTFEVRVITRDINST
                      VAKELHGLGAKIVCADGRDHDQLTAAFLGAWGAFINSNSDHHGAENELNLPNVFDFDTA
@@ -217,12 +229,13 @@ FEATURES             Location/Qualifiers
                      SFMECWTAEPFCETWGGFPLVPKDTGELVLAVPPYGGDGRMPWVSVQDDFGDIVHGILL
                      DPVKYDKGRVQAISSLITFQDLALAFTRATGKSVEFQPLSSWRDIPQDGGEMRRECSLM
                      FFYMEFCGGRWFAEYPSDDTLPRECKEAAAKARGCLKSSPITFEDWFSRTFKGNLTT"
+                     /Pfam="NmrA"
      CDS             join(33236..33278,33330..33692,33766..34098,34174..34487)
                      /codon_start=1
                      /locus_tag="Pencit__000087"
-                     /product="short-chain 
+                     /product="short-chain
                      dehydrogenase/reductase/Diels-Alderase CtdP"
-                     /label=ctdP
+                     /label="ctdP"
                      /protein_id="Pencit_:cds.g87.t1"
                      /translation="MTHEIKTISVIGATGQQGGSVARSLLQNPEFHVRCITRDTSSIKA
                      KELKELGIEIVQADGNDPTAMATALKGSWGIFINNGYTLTPAVQNGKYEEDFGNVILQS
@@ -231,11 +244,12 @@ FEATURES             Location/Qualifiers
                      WSKRTVQAVGDILSYGDLCTTFADVTQRKARYIPYYDLDDMPADRPYLQESRQVFAFYQ
                      MRDGELFGNGITEKRTASLLKAAAFQAKGQKGRETLITAREWFERHCRANKTSEKIERS
                      GPIVREDPGE"
+                     /Pfam="NmrA"
      CDS             35094..42308
                      /codon_start=1
                      /locus_tag="Pencit__000088"
                      /product="nonribosomal peptide synthetase CtdQ"
-                     /label=ctdQ
+                     /label="ctdQ"
                      /protein_id="Pencit_:cds.g88.t1"
                      /translation="MHSTAIASEALRVQDGCSIIRATTLSPFTTIHDPLHPQRTIEITD
                      PISIPTSGLQNGVLTLAWAILLSSFSASTTLNIDTNFWRIDGSAVTADTIELQLHAGQT
@@ -278,11 +292,12 @@ FEATURES             Location/Qualifiers
                      RTVSAALDVAGYNGQEDDSWIYISPVDWVASAVIHATFHHAFRSSSDSDDALIVSVDDG
                      LHVKEFWNAIMKATSRPLNPMNGSHWLDLVQERVATMGSHHPLSTVIEFAIATSGCIGS
                      SLLTQHRDAQKSWYSAQSMLWLAVVRNAEYLTSLDFWKSGPHEAGQRSAPSRTNFLVS"
+                     /Pfam="AA-adenyl-dom, ACP_PCP, NRPS_C, NAD_binding_4"
      CDS             join(44044..44086,44144..44349,44403..44880,44959..45206)
                      /codon_start=1
                      /locus_tag="Pencit__000089"
                      /product="short-chain dehydrogenase/reductase CtdR"
-                     /label=ctdR
+                     /label="ctdR"
                      /protein_id="Pencit_:cds.g89.t1"
                      /translation="MTVERKIVSIVGATGAQGGSVARSLVQNPHFEVRCITRDADSLAA
                      KKLMNEGLKVIQADGTKVGEMEAALTGSWGVFINVATEGLDFEIAVAQQKSILSSASTA
@@ -290,11 +305,12 @@ FEATURES             Location/Qualifiers
                      PILAELLGGFPIHQDQDGYLSCRVPLWGGKEEVPFISVKDDFGDLVHGVFLNPIRWNRA
                      VIQCNGELMSWADMVQAYVAVTGKKARFLPYIPAEEMPTHECGGIQDLFIYSQLRGGDY
                      YGNGPSETRTACQLKRDAWKAKGETGRETLMTVKEYFKRLNAS"
+                     /Pfam="NmrA"
      CDS             complement(45299..46183)
                      /codon_start=1
                      /locus_tag="Pencit__000090"
                      /product="methyltransferase CtdS"
-                     /label=ctdS
+                     /label="ctdS"
                      /protein_id="Pencit_:cds.g90.t1"
                      /translation="MASVANQPLDFYSSPYLAEHYDLICAQEGSFFEDIEVFYAELMKI
                      RALKHAKAQDPDALTIIDAGTGTGRALFSLTQRVLQSGLNLSKMKLLGFDPSQDMVDRA
@@ -302,11 +318,12 @@ FEATURES             Location/Qualifiers
                      GLKTSLTPGVGRACVSITSRESVDDLHYYDTGAPGKDVVEYASQQYPTFIYRNTLTGME
                      EAGTVGVSSFQFEVWKVHEDGRRELVESQATRLAGRWWTQNEMKDLIKDVPGIQLIEVA
                      APDHRQTFYTIGV"
+                     /Pfam="Methyltransf_25"
      CDS             join(46512..46779,46833..48409)
                      /codon_start=1
                      /locus_tag="Pencit__000091"
                      /product="FAD-linked oxidoreductase CtdT"
-                     /label=ctdT
+                     /label="ctdT"
                      /protein_id="Pencit_:cds.g91.t1"
                      /translation="MWIHLSALALTLAIALNLVAPWREECRCRPYESCWPSPSDWNALN
                      GTLDGRLVALKPSGHDCVPDGQDSKNCQELVSNFHNTTWRVQNPATLQVVNWEYSRLRK
@@ -319,11 +336,12 @@ FEATURES             Location/Qualifiers
                      SFEGMVGRQAMGTDHLVDNALHPDWKKALISLTLGRALPPSPNWKVYEQIEQELSETQV
                      PLLQSIDSAVGGAGYLGVPFAYERDPVMTYWGSNYARLLSIKHLWDPMGLFITRLGVGS
                      EDWDDEGMCRASSTYMMIPSFLNDCFRRMAVALWELCT"
+                     /Pfam="FAD_binding_4, BBE"
      CDS             join(48979..49905,49967..50154,50215..50335)
                      /codon_start=1
                      /locus_tag="Pencit__000091"
                      /product="DMATS-type prenyltransferase CtdU"
-                     /label=ctdU
+                     /label="ctdU"
                      /protein_id="Pencit_:cds.g91.t1"
                      /translation="MTVINTQYHEHIHSTGDFNPNKYFVFENEDQRAWWQHTAPLLARV
                      FRSARYPVEQQYLYMTLYKTLIVPLLGPHPNTWDSFISYSGIPIEFSTNYQENGPPTCR
@@ -333,11 +351,12 @@ FEATURES             Location/Qualifiers
                      GGKFAENPTIKRGLDAAQELWRLLTGETDRMAVGIYNYELAPGNPVPMTKWYFILNGQN
                      DLANAQAIVAFYQHLGWHDLADSFVPNFRSYFPDSDLNETDNLLQYVSLAYSEKTGVYF
                      SVYYHSSVNFGN"
+                     /Pfam="Trp_DMAT"
      CDS             join(51282..51504,51580..51713,51777..52355)
                      /codon_start=1
                      /locus_tag="Pencit__000092"
                      /product="2OG-Fe(II)-dependent dioxygenase CtdV"
-                     /label=ctdV
+                     /label="ctdV"
                      /protein_id="Pencit_:cds.g92.t1"
                      /translation="MTVILNQPDSDSRKKVPLLEVDARSCDVANIVKKAIGHIEVAGGC
                      VVRNLLLPDTVNQIVKDLQPHLDDPETFLKFRPGTTSAAGLVGKSTTFCMDVIGNEIWQ
@@ -345,6 +364,7 @@ FEATURES             Location/Qualifiers
                      AREYALGRDVMSVLFIALSKTTKANGATRVIPGSHLWDYSEPPTEDLAVHVELAPGDAF
                      ISLGGLYHAGSANTTADEDRLIAIASGIRTELRQEENAYLSYTKEEIERLPLHLQRFCG
                      YTTGEPLLGHVDMRDPGHLYNPAVCSERAI"
+                     /Pfam="PhyH"
 ORIGIN
         1 ttatgccttc ttgaatacgt atatggtttc gttgctggta gagtgcgtgg aaacaagctc
        61 cagtcccgcc gttgtcgctg caagcagtac ttcaccatcc tgccacaccc gtccacccat

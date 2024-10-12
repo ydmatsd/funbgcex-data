@@ -1,23 +1,23 @@
-LOCUS       FBGC00537       26808 bp DNA     linear   UNA 04-APR-2023
+LOCUS       FBGC00537              26808 bp    DNA     linear   UNA 04-APR-2023
 DEFINITION  bisabolene derivatives.
 ACCESSION   FBGC00537
-VERSION     .
+VERSION     FBGC00537
 KEYWORDS    .
 SOURCE      Antrodia cinnamomea S27
   ORGANISM  Antrodia cinnamomea S27
+            .
 REFERENCE   1  (bases 1 to 26808)
   AUTHORS   Hewage RT, Tseng CC, Liang SY, Lai CY, Lin HC.
-  TITLE     Genome mining of cryptic bisabolenes that were biosynthesized by 
+  TITLE     Genome mining of cryptic bisabolenes that were biosynthesized by
             intramembrane terpene synthases from Antrodia cinnamomea.
   JOURNAL   Philos Trans R Soc Lond B Biol Sci 2023;378:20220033
-  PUBMED    36633275
+   PUBMED   36633275
 REFERENCE   2  (bases 1 to 26808)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Apr 5, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1098/rstb.2022.0033"; journalName: "Philos Trans R Soc Lond B 
+  JOURNAL   Exported Apr 5, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1098/rstb.2022.0033"; journalName: "Philos Trans R Soc Lond B
             Biol Sci"; date: "2023"; volume: "378"; pages: "20220033"
 FEATURES             Location/Qualifiers
      source          1..26808
@@ -30,7 +30,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="Antrod__000049"
                      /product="cytochrome P450 monooxygenase Tps1B"
-                     /label=tps1B
+                     /label="tps1B"
                      /protein_id="Antrod_:cds.g49.t1"
                      /translation="MISAQVLILVSFVICLFGARALKQLRRLPLPPGPGSRSKSYEQPW
                      RNYASWSKDLGPLISLRTLGQNIVVINTSDAAIDLLEKRSTFACKPRWPMAELLGRQKN
@@ -41,12 +41,13 @@ FEATURES             Location/Qualifiers
                      IQEVHRFNPAIPLVTHSNTVEEEYLDYRIPKKTWIMANVWAMLHDEKEYSEPDKFLPER
                      FIHSNSHPAPRDPRTLVYGFGRRLCPGLHFANALLYLIVARTIALFEIKPEMKGGRPRP
                      PPLDFIIGLVPAPKPFNCVLEPRAKAAELLTLTEIQ"
-     CDS             complement(join(2873..3093,3153..3255,3302..3436,3490..3700,
-                     3754..4070))
+                     /Pfam="p450"
+     CDS             complement(join(2873..3093,3153..3255,3302..3436,
+                     3490..3700,3754..4070))
                      /codon_start=1
                      /locus_tag="Antrod__000050"
                      /product="alpha/beta hydrolase Tps1C"
-                     /label=tps1C
+                     /label="tps1C"
                      /protein_id="Antrod_:cds.g50.t1"
                      /translation="MNHSNYKDLDVKRGHHYHYYYARASSGKPTLMFLHGFPSTSYDWH
                      RQIEHFQAMGYGILAPDLLGAGGTSKPLDAREFRLNLMAADIVEILDTENLHKVVGIAH
@@ -54,12 +55,13 @@ FEATURES             Location/Qualifiers
                      FRRDDAPEIIERNVDSFLQLLYPKDPACWNPYLVLPGKTAEWIETNMQPGRADYLTEEE
                      YNTLRRELLEGDVRSSLNWYKSQLQNNDLEDNKNISEERWKIQKPSFFAAALKDCVCTP
                      VRGKATMEKFGTEVTYTEFEAGHWLQLECSEGVNVELERWILTLPLN"
-     CDS             join(4649..4705,4760..4791,4841..4939,5000..5017,5070..5141,
-                     5190..5295,5353..5632,5687..5880)
+                     /Pfam="Abhydrolase_1"
+     CDS             join(4649..4705,4760..4791,4841..4939,5000..5017,
+                     5070..5141,5190..5295,5353..5632,5687..5880)
                      /codon_start=1
                      /locus_tag="Antrod__000051"
                      /product="methyltransferase Tps1D"
-                     /label=tps1D
+                     /label="tps1D"
                      /protein_id="Antrod_:cds.g51.t1"
                      /translation="MSTNAELSQPGEAKTYAFQPAYKVPEETARLDELHAGITEYFGNR
                      LSLAPLETISPVKILELGAGSGAWAIQAATEFPGAHVLAVDISPIPPRPLPSNLSFQQV
@@ -67,12 +69,13 @@ FEATURES             Location/Qualifiers
                      KPLGPGMSAFVGAWLKIVRSRGAEPSLGRELERILQSSSAFSEVNVMKVTIPISGKSQD
                      PKENKLGLTWKTNMLRVARDLPGRFAEQGITEEVARKHLEELEDPDRDITTDMYFSWSR
                      KRIV"
-     CDS             join(6332..6506,6563..6691,6744..6834,6888..6948,6996..7189,
-                     7237..7316,7377..7548,7604..7712)
+                     /Pfam="GliN"
+     CDS             join(6332..6506,6563..6691,6744..6834,6888..6948,
+                     6996..7189,7237..7316,7377..7548,7604..7712)
                      /codon_start=1
                      /locus_tag="Antrod__000052"
                      /product="alpha/beta hydrolase Tps1E"
-                     /label=tps1E
+                     /label="tps1E"
                      /protein_id="Antrod_:cds.g52.t1"
                      /translation="MAQYSHLSTPDPEFAALLAHLPSIPPWYEVEDAALLRQQFNAGFI
                      GIIQNNLRPKLPPESAYRLQDYQVPVEGDVISVRCLTPTSQEKEAVFPLLFWIHGGGWN
@@ -80,11 +83,12 @@ FEATURES             Location/Qualifiers
                      LSRGFLIGGQSSGANLAAVIAHRARDDAFFAGRRLTGQVLQVPIVLHPDAYPEKYKSEL
                      LSMEQNKDAPFLDRKQLDEFYRRVQVQPSNPECSPLLFPSHNGLPPTYIQVCGLDPLRD
                      EGLLYEKVLREEGVKTKVDVYPGVAHGFQLSFPALDAAVKLDSDFKNGIRLLLMS"
+                     /Pfam="Abhydrolase_3"
      CDS             join(8478..8660,8711..9346,9399..9995)
                      /codon_start=1
                      /locus_tag="Antrod__000053"
                      /product="hypothetical protein Tps1F"
-                     /label=tps1F
+                     /label="tps1F"
                      /protein_id="Antrod_:cds.g53.t1"
                      /translation="MTATVTIQPAGVLDSSHATDSIILTGWVLDQPLEPARLEKAWSVL
                      IATWPILVARLRRDRKTLRWEYHIPTTPSVARSFASLHIPESIHSHYAYSKPSESIRCT
@@ -95,6 +99,7 @@ FEATURES             Location/Qualifiers
                      TTKPAVERWLRWRLQNAHRRKVFFEPWRGQWDVVTNWRDMELMSVDFSGALPDEGAEQV
                      GESGGSDKTNEPVAQRRKVRCVYMWGTGVQPIPLRNWLGIWANDPSGGVWVSGFLPRRI
                      WQDKRGYGAFIEQ"
+                     /Pfam="CalD"
      CDS             complement(join(10348..10494,10558..10574,10634..10811,
                      10882..11011,11076..11249,11308..11321,11378..11427,
                      11477..11567,11624..11713,11777..11881,11933..11954,
@@ -103,7 +108,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="Antrod__000054"
                      /product="cytochrome P450 monooxygenase Tps1G"
-                     /label=tps1G
+                     /label="tps1G"
                      /protein_id="Antrod_:cds.g54.t1"
                      /translation="MVAVDSLLANPVAQIALAVVALWAVSKLLTPKSSVEKLPLPSGAE
                      WVWGHEKTVFMNEPGRAFRNWVRECGLTFRIKAAFGARDVLVLSDPGGISYILQKKIYD
@@ -115,6 +120,7 @@ FEATURES             Location/Qualifiers
                      PNGDTIMELPVYPGQTVLIPIIAIHRLDSVWKDGDTFRPERWLGDLPPNEQLCSGWANT
                      LSFSDGPRNCIGMRLAIFQYKVILTYLLQRFKLKDAGANITLKVASSLQAWVEEKMEQG
                      PRLPVILEAL"
+                     /Pfam="p450"
      CDS             join(13410..13644,13697..13845,13904..14076,14133..14196,
                      14250..14334,14392..14498,14555..14663,14723..14736,
                      14800..14989,15042..15123,15200..15319,15387..15515,
@@ -122,7 +128,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="Antrod__000055"
                      /product="cytochrome P450 monooxygenase Tps1H"
-                     /label=tps1H
+                     /label="tps1H"
                      /protein_id="Antrod_:cds.g55.t1"
                      /translation="MEGLQAIPSIFSLSAGVQSATALGIIVLVFYAIKGLLYPTSAARR
                      FPPGPPQKPLVGNILEVSPKGAWTRFTEYKEQYGDLVFFRGLGNNILVLNSMKVINDLL
@@ -133,17 +139,19 @@ FEATURES             Location/Qualifiers
                      VIGVDRMPTIADRPNLPYVGALIKETMRWHPVLPLSIARSTAQDDVYEGFFIPKSTTVM
                      PNVWAIAFEPNDKYDPHAFIPERFLDSTHPTLDPATYAFGFARRICPGKLLGENSLFIL
                      ITTILAMFDVSPPEKGELTPDFTLDLVSYPKPFECRITPRSDAKAKLIHLRAAHCAM"
+                     /Pfam="p450"
      CDS             join(16641..16671,16734..16876,16935..17319,17378..17703,
                      17768..17830)
                      /codon_start=1
                      /product="UbiA-like terpene synthase Tps1A"
-                     /label=tps1A
+                     /label="tps1A"
                      /translation="MSPRYSALLKVLCRMPGSLDGFVSIFRRFMQDPLGIRYHLHTLLL
                      FTWADMKTILLPITAFACSTAPLHSFSNLVQGMIWIWLHQLLCNVSNQARGKSEDALNK
                      PWRPLPSGRLTEPQAVILRWITVAVCLLLSATYGRDLLMTTVGLILTTLLYDELGMASH
                      HIGKNLCNIGGYTTIEVGATKLMGASRDLDYVSTVAVIISGVLIFTTIQAQDFPDIEGD
                      AALGRVTFPIYAPEFSRIFTFIVMPAWSIFLGWFWDIGVISRMVFAALGTYVGLRYYLW
                      RTVDIDKRSYVFFNAWLTLAHILPLSVRTGFLAF"
+                     /Pfam="UbiA_TC"
      CDS             complement(join(18775..18792,18853..18930,18984..19211,
                      19271..19358,19416..19519,19572..19617,19671..19757,
                      19813..19837,19888..19922,19973..20024,20081..20166,
@@ -152,7 +160,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="Antrod__000057"
                      /product="hypothetical protein Tps1I"
-                     /label=tps1I
+                     /label="tps1I"
                      /protein_id="Antrod_:cds.g57.t1"
                      /translation="MATPVENPIVLNLMSSYGPILIGNVLSCVLWGIGCMQMFMYFFHY
                      DSDPIALKGLVLFLWAFDTANQVLTLVAMFPVLILQWGRVAGLSVTQPALVVRAMFLIS
@@ -161,11 +169,12 @@ FEATURES             Location/Qualifiers
                      LMTFLLVNTGRSSFARSNKMIFRLVAVTINSGIWTAVVAIIDLSLIAAFPHGLQFCAFE
                      FPLSSLYVNTLLANLNARQYLRGKDAGWNVSSTTPQTGTSNIDLRPIGTARSAYTKNET
                      SMNEASMAIRVDTSKVMDTDTYIDVNSSKGHDLA"
+                     /Pfam="DUF6534"
      CDS             join(21668..22219,22290..22913)
                      /codon_start=1
                      /locus_tag="Antrod__000058"
                      /product="dehydrogenase Tps1J"
-                     /label=tps1J
+                     /label="tps1J"
                      /protein_id="Antrod_:cds.g58.t1"
                      /translation="MAPIRLGFVGLSNQGWASWMLAPPLLKAPLSSDYTLAAISTSNPA
                      SASVSAEKYSKLANTTVKAYHGPTTAIAADKELDMVAVAVKVLDHKAAAIPVIEAGKSL
@@ -174,11 +183,12 @@ FEATURES             Location/Qualifiers
                      FLDSFTLVLGSFASVSAVVDNQYPTAELVDATGNPIGQTIEQTGANQVAVAGTLSSGAV
                      VSLHWRGGLESKPGKTGTPFIWVIDGEKGSIRLESDDAAGSFIHIRDPTMYLNGEQVNI
                      EEDGMTNPERAWFEFAKGPEGSYATLEDAVRNKTLLEAIKRSALEGKKVVL"
+                     /Pfam="GFO_IDH_MocA, GFO_IDH_MocA_C"
      CDS             join(23567..23825,23880..24248,24308..24795,24850..24906)
                      /codon_start=1
                      /locus_tag="Antrod__000058"
                      /product="alpha/beta hydrolase Tps1K"
-                     /label=tps1K
+                     /label="tps1K"
                      /protein_id="Antrod_:cds.g58.t1"
                      /translation="MVFTATMASMVMRFVFSLAVVDFFFSQVHAFPHFGGRSAGQAYTS
                      GNITVGNNGTQLAYIDTGAPGGLYSLSYTTIFAVHGEAYYSPVFANVMSLAPVFGLRFV
@@ -187,13 +197,14 @@ FEATURES             Location/Qualifiers
                      QSWSPQLETSIPTADQNPAFVQWITSYFQHGDLSTRNPDVLQYVLPATFRAPTVFNMTP
                      DQLAGMTYLPPSSGSDAYIMVNLGTVLLASYKKACYNSTIRQLLPKMNIWEFTGDVTAS
                      FAIPAYWSIQDDNTAAGGGFVNFRMIDGVNHFMHWDDPFTAIQAYLESLS"
+                     /Pfam="Abhydrolase_6"
      CDS             complement(join(25392..25419,25475..25548,25600..25875,
                      25931..26341,26393..26503,26556..26579,26651..26686,
                      26740..26808))
                      /codon_start=1
                      /locus_tag="Antrod__000059"
                      /product="aldo-keto reductase Tps1L"
-                     /label=tps1L
+                     /label="tps1L"
                      /protein_id="Antrod_:cds.g59.t1"
                      /translation="MSEPVLAEYRQLGKSGLRVSVPVLGGMTVGNPKWSPWVLPEEKAL
                      PLLKAAWDLGINTIDTANTYSNGEAERILGAFMNNYNIPRENLVIMTKVFFLVSPDPST
@@ -202,6 +213,7 @@ FEATURES             Location/Qualifiers
                      AYCNYKGIGILSYSPLMDGHLARPVGTETPRTKNISGTPFEKRRRDSDKKIIQRVEDLA
                      TKRQWKMSQVALTWASSKVTSPIVGANSPERLQESVTAGKTLTADEVKYLEELYEPQPP
                      RF"
+                     /Pfam="Aldo_ket_red"
 ORIGIN
         1 tcattgaatc tcggtaagag tcaataattc cgctgccttg gcgcgaggct ccaatacaca
        61 gttgaatggt tttggggctc tgtgaatgga tcaggaccgc agggtcgacg aaagcaacaa

@@ -1,29 +1,29 @@
-LOCUS       FBGC00522       59756 bp DNA     linear   UNA 08-MAY-2023
+LOCUS       FBGC00522              59756 bp    DNA     linear   UNA 08-MAY-2023
 DEFINITION  zaragozic acid A.
 ACCESSION   FBGC00522
-VERSION     .
+VERSION     FBGC00522
 KEYWORDS    .
 SOURCE      Curvularia lunata ATCC 74067
   ORGANISM  Curvularia lunata ATCC 74067
+            .
 REFERENCE   1  (bases 1 to 59756)
   AUTHORS   Liu N, Hung YS, Gao SS, Hang L, Zou Y, Chooi YH, Tang Y.
-  TITLE     Identification and Heterologous Production of a Benzoyl-Primed 
+  TITLE     Identification and Heterologous Production of a Benzoyl-Primed
             Tricarboxylic Acid Polyketide Intermediate from the Zaragozic Acid A
             Biosynthetic Pathway.
   JOURNAL   Org Lett 2017;19:3560-3563
-  PUBMED    28605916
+   PUBMED   28605916
 REFERENCE   2  (bases 1 to 59756)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported May 8, 2023 from SnapGene 6.2.2
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1021/acs.orglett.7b01534"; journalName: "Org Lett"; date: 
-            "2017"; volume: "19"; pages: "3560-3563"
+  JOURNAL   Exported May 8, 2023 from SnapGene 6.2.2 https://www.snapgene.com
 COMMENT     ##Assembly-Data-START##
-            Assembly Method       :: SPAdes v. 3.10; Trimmomatic v. 0.36 
+            Assembly Method       :: SPAdes v. 3.10; Trimmomatic v. 0.36
             Sequencing Technology :: Illumina
             ##Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1021/acs.orglett.7b01534"; journalName: "Org Lett"; date:
+            "2017"; volume: "19"; pages: "3560-3563"
 FEATURES             Location/Qualifiers
      source          1..59756
                      /isolate="ATCC 74067"
@@ -36,9 +36,8 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="HRPKS"
                      /product="polyketide synthase Clz2"
-                     /label=clz2
-                     /note="Clz2
-                     revised sequence"
+                     /label="clz2"
+                     /note="Clz2 revised sequence"
                      /protein_id="AXF50653.1"
                      /translation="MVPYYQPASFCESNTMPAMEETQFHDDATVPIAIVGMSCRFPGNA
                      TSPEKLWELCSEGRSAWSKIPKSRFRQEGFYNPNAERVGTSNVIGGHFLEEDPSLFDAS
@@ -85,10 +84,12 @@ FEATURES             Location/Qualifiers
                      QDARFATLRERARDAKEQSNSQGGGTDSKISPGQELSMATSLVEAIDVVGRAITAKLAT
                      MFLIAAESIIASKSLSEYGVDSLVAVELRNWLAAQLSSDVSVFDVTQSQSLTALATTVA
                      TKSARINKSLLVA"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_DH, PKS_NRPS_MT, fPKS_ER,
+                     fPKS_KR, ACP_PCP"
      CDS             join(8793..9202,9255..10002)
                      /codon_start=1
                      /product="copper dependent oxygenase Clz3"
-                     /label=clz3
+                     /label="clz3"
                      /protein_id="AXF50654.1"
                      /translation="MLRMKICTTLLTVALYTYALAHDDAGIKDANRVSQEPRERKIEYG
                      TYTVPPRNEDNGMFRLKRDVDPPCSNCVITVMSANLEYPNGTTADAENGMWLHHILFYN
@@ -97,11 +98,12 @@ FEATURES             Location/Qualifiers
                      RMAYLSNHVHDGAFLHEVKKNGKTICSVNPQYSSADGADGIVHLSHVPPCSNAGPVAPG
                      DEVSLTASYDTTKYKPMINEDGTLEPVMGVTLAYIVKGTAPVENDSGGRLYFAVPLAAI
                      AFIALIISGGYVIYSAKQQKAWPKWLSRRQKYQSVGTEVESFITR"
+                     /Pfam="Clz3"
      CDS             join(10843..11360,11412..11722,11773..12617)
                      /codon_start=1
                      /gene="MFS"
                      /product="major facilitator superfamily transporter Clz4"
-                     /label=clz4
+                     /label="clz4"
                      /note="Clz4"
                      /protein_id="AXF50656.1"
                      /translation="MAHTKIPTALHEQENFLPKKKLIIVILTLGVVLFVINIDHNGLST
@@ -114,12 +116,12 @@ FEATURES             Location/Qualifiers
                      AMQAHTKKSERAVVTSSRNFFRFLGSACGVVMSAAILQSTLRTSLPAAYKHLADSPYAL
                      AGLNPRERDAIAPAYERAIRHVYIASAAASVLCSLGLFVWKDDGYESRPTENNDDIEHA
                      PARGIEREDEQSSLIYDREPSAVSYGTVEAGEPNRLRRGG"
+                     /Pfam="MFS_1"
      CDS             complement(join(13081..13247,13303..14158))
                      /codon_start=1
                      /product="short-chain dehydrogenase/reductase Clz5"
-                     /label=clz5
-                     /note="Clz5
-                     revised sequence"
+                     /label="clz5"
+                     /note="Clz5 revised sequence"
                      /protein_id="AXF50648.1"
                      /translation="MAAPNDPELTRRRQRQEDFLRGTSKINFDDHVDHHVLSGKTAIIT
                      GGASGLGLGIAKALSDNGCRVAVLDLSECAEAGTDESNIESPKLFKCDVSSWESLLAAF
@@ -128,10 +130,11 @@ FEATURES             Location/Qualifiers
                      SHSASFGGCQTNLLAPTFIDNRQGSTKSRGDGALISLTTDVKLGEVADVVAGALRCICD
                      NNIEGRALCCVKGEQRSPGSNNFDLCDNVIDFNAGKAVLDSLRNGVVGQLGNQEMTESQ
                      "
+                     /Pfam="adh_short"
      CDS             15037..16527
                      /codon_start=1
                      /product="acyltransferase Clz6"
-                     /label=clz6
+                     /label="clz6"
                      /note="Clz6"
                      /protein_id="AXF50655.1"
                      /translation="MPSISTDFDVRPYEDVPAQTIALSVPDAAAPKHCPIQLLFWPVDG
@@ -143,10 +146,11 @@ FEATURES             Location/Qualifiers
                      LGYIGNVFSPVDALCPLDELESDSLGLKAAAQSMRQANKGWAQSRWEAWLNKIMSLPLD
                      QTLDTSQEFRLQKHNMYFNDYSAFQLNTASWGAPFGQPTRTRCLRSGLSGGAAGVWVCP
                      KLPDGSLEVWLTSTAALQKSLFEDTMFNHYAEFVCQHT"
+                     /Pfam="Transferase"
      CDS             complement(join(19364..19946,20004..20125))
                      /codon_start=1
                      /product="transcription factor Clz7"
-                     /label=clz7
+                     /label="clz7"
                      /note="Clz7"
                      /protein_id="AXF50649.1"
                      /translation="MERTSKYAEAIDTASQPETVIRASSVTGQQGHLNSVDMPLVETWR
@@ -154,10 +158,11 @@ FEATURES             Location/Qualifiers
                      IDDWAAIDQPMADSAQPDFEDWGDLGDLMPEVLPESSGTSSGAATDNGTAADDENRCWD
                      HGCNGKKFLNHSNLVRHRRENGSARPKFICPMCGAYFSRSTARNQHLEKKSCNRVRRYS
                      NGRERPRLRVKD"
+                     /Pfam="Clz7"
      CDS             complement(join(22352..22713,22810..22981,23192..23443))
                      /codon_start=1
                      /product="hypothetical protein Clz8"
-                     /label=clz8
+                     /label="clz8"
                      /protein_id="AXF50650.1"
                      /translation="MYLEKEQLPYFNEWAECFCQYLPDFSIRVTSRAEGSHHKIKIRLH
                      FKGQSHFFHVVQDLNQMVNEQRHKHKNKSAANSARVPANAVYIVKLSQIDQHWFLQPPR
@@ -169,7 +174,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="MFS"
                      /product="major facilitator superfamily transporter Clz9"
-                     /label=clz9
+                     /label="clz9"
                      /note="Clz9"
                      /protein_id="AXF50651.1"
                      /translation="MHRRRRDDPMTSPEMAASTKPTTKLSTEEDDVSRRDSESSADFMK
@@ -182,10 +187,11 @@ FEATURES             Location/Qualifiers
                      FDLEKARLGFVFPMILVCSGLLVAYGWQMHYHAPLAPILVTMFLIAIILTGVMNAIAAL
                      LTDVNRENAAAVGAAMNLTRLLLGAGAVAVVGPLNKSAGIGWTATVTAGLWVSLMPILR
                      MVYRDGFEWRAGENERVHASIVELTALVQS"
+                     /Pfam="MFS_1"
      CDS             join(31926..32053,32106..32209,32259..34198)
                      /codon_start=1
                      /product="phenylalanine ammonia-lyase Clz10"
-                     /label=clz10
+                     /label="clz10"
                      /note="Clz10"
                      /protein_id="AXF50657.1"
                      /translation="MSSRPLLTLALSLHDRLDELSNRGQIHLVGYDLDVAAVAAVARHE
@@ -201,20 +207,22 @@ FEATURES             Location/Qualifiers
                      AFVQVLCDPSKHHTDTPKVKVCLDLTAKEMRELQDDVRSHLSQAYHKHHSAFLEKPTTE
                      EYIGEGSKALYLWARQDLGIPMNRGLVDHPSPGSIGKRTIGSYVSMIYQGIQDGRLFQR
                      FATVGREVGLGNGGTNGIRKRAYAEYEIS"
+                     /Pfam="Lyase_aromatic"
      CDS             complement(join(34353..34520,34575..35160,35217..35425))
                      /codon_start=1
                      /product="esterase Clz11"
-                     /label=clz11
+                     /label="clz11"
                      /translation="MDFPGDSRFASFARSDFEYSRVENHPLIVSVLSPKKTHESAQRQA
                      PVLVFWHGGGFVVGGRLYEPWWSEWLIEYAFSQDAIIVSPDYRLLPEATGADIFDDVEA
                      FWNWLHTSLPSLAQSYSWQAQPDLTRILCVGQSGGGSMAVHSALLHPEYSIKVIVSLYA
                      PLYHNVPNLTVPRPRRILGTMPPPPRKAEGLIRSYIKQSKGSVRTGGNPFDMWELLLCL
                      LQQGRLISLMNIKPDSRLDTPFLLRQVGKLPPLWLIHGEDDSVIPFKCSEMFLDELKVL
                      APSTSVLLSAKTGEHNFDTSLTMEEAWIRDGCDFLSTHW"
+                     /Pfam="Abhydrolase_3, Peptidase_S9"
      CDS             complement(join(35910..37334,37394..37516,37571..37648))
                      /codon_start=1
                      /product="CoA ligase Clz12"
-                     /label=clz12
+                     /label="clz12"
                      /translation="MADSPLEQDWNVVTWALSGSYDEDRPVLIDADRPDRSLSKRQAID
                      LVAKLSGAFEPGSTVCVHLYNDIIYPILVLAILASGCKWTGTNPAYTSAELSHHFAQSE
                      TRYVITDQSYIDVVDQAITTPGQNIEIIVFSDISADRSTENGLRWKNNKHDLATLHSLL
@@ -225,12 +233,12 @@ FEATURES             Location/Qualifiers
                      DATKEALHDGWLRTGDIGYCADGKIYIIDRAKDIIKVNGWTISPAELETVLHQIPGIVD
                      AAALSYGTGTKEHVAMFVVAEGPSLLVADIKHHLLQQVARFKVATCEIHLVDSLPRSPS
                      GKVLRSVLRHQLQAHYDNVDSGTS"
+                     /Pfam="AA-adenyl-dom"
      CDS             join(37995..38496,38551..38685,38753..39008,39060..39954)
                      /codon_start=1
                      /product="hydrolase Clz13"
-                     /label=clz13
-                     /note="Clz13
-                     revised sequence"
+                     /label="clz13"
+                     /note="Clz13 revised sequence"
                      /protein_id="AXF50658.1"
                      /translation="MCLLSMRFTVAILLVLLSHCGGSHATSCTPGQPFPVPSYPESSLQ
                      ETFEHIFETASGYFENESFQATNVAIEVTSSRETLWSFYHAAKNQSSQDGSTVIGKDTV
@@ -243,12 +251,13 @@ FEATURES             Location/Qualifiers
                      NGSSILPVMERLASSKSGGGANWIFQAVPTFLDSKHQGRRGDGVIVDEEWRWTYVLDKP
                      PGEGWNDWCLSSFDPVTYAGEPLTKMVFHKDAKSGRVLSVALSGYNITLTKAVQEADSF
                      AQGDALDLLAHAGQEVLAE"
+                     /Pfam="Beta-lactamase"
      CDS             join(40780..42187,42241..42350,42407..42737,42790..42912,
                      42981..43113,43171..43478,43533..45676,45723..45819,
                      45869..45908,45963..48957)
                      /codon_start=1
                      /product="polyketide synthase Clz14"
-                     /label=clz14
+                     /label="clz14"
                      /translation="MDVSKEAGHHANGFANGNTNGTTNGHTNGHTNAHTNVHTNVHTNG
                      HANGHTKVHTNGNTNGTANETANEATNRTPNATSTTTTTFEGQLPQVPVAICGIGVRLP
                      GGVRSDSDLYQMLVEKRDARAIVPADRYNIKSYYDPRGRPGSILTEYGYYIDEDLAQMD
@@ -293,11 +302,13 @@ FEATURES             Location/Qualifiers
                      SQIVMHNRMIPPLSDPRNTTPWKNDARMAIYRNTEEAPQSTSSQSKERLGLFLVSLTTD
                      PDQLDEPETPIIFAQEIAKRVAAFLMKGDKEDNALDTSLTLSQMGADSLVAIEIRNWWK
                      QTFGMEISTLELNSPGQTFDSLGRLATKRLKEAYILKSS"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_DH, PKS_NRPS_MT, fPKS_ER,
+                     fPKS_KR, ACP_PCP"
      CDS             complement(join(49574..49708,49773..49969,50022..50418,
                      50486..50568,50619..50700))
                      /codon_start=1
                      /product="2OG-Fe(II)-dependent dioxygenase Clz15"
-                     /label=clz15
+                     /label="clz15"
                      /note="revised sequence"
                      /protein_id="AXF50659.1"
                      /translation="MATATLPATVGVIGLWDGTTDGKEGFMDYATGDTNVKQPKEYEIE
@@ -306,10 +317,11 @@ FEATURES             Location/Qualifiers
                      GKEKAQELLSKHKRWAQVNVWRPIGNPATMWPLCFLNHDRIPTWNYDTHVGHVWSLNDP
                      RVSDRGEKTYDCVVKYDERYDYHYVSDLKPEECLVFCSFDSIPKYAMPHSAFWDNNVPA
                      DAPNRRSIEVRSLVFF"
+                     /Pfam="NvfI"
      CDS             51103..51984
                      /codon_start=1
                      /product="2OG-Fe(II)-dependent dioxygenase Clz16"
-                     /label=clz16
+                     /label="clz16"
                      /protein_id="AXF50660.1"
                      /translation="MSTTTTTLHTTTGTVYVADGTTDGKIGYYNHTDDSTNVIRKPIPI
                      QVEDARTLSKSPTTKEEGYQLVDFHTKLPEGHFLDSKSPENKKVIEQVYFDECRRLVQE
@@ -317,11 +329,12 @@ FEATURES             Location/Qualifiers
                      EMLLSKYKSYGSINVWRPVKNVVQKWPLMLVDHKSIENWDYSTHMFTLHSSNDERVATR
                      GAKDHETILTHDKRYRYIYASDMTPDEAWLFFAFHSDPALGIPHGAFWDDSTKEEALTR
                      CSIEVRIWVFFD"
+                     /Pfam="NvfI"
      CDS             complement(join(52259..52305,52355..52437,52492..53235,
                      53289..53486,53543..53868))
                      /codon_start=1
                      /product="citrate synthase Clz17"
-                     /label=clz17
+                     /label="clz17"
                      /translation="MATVNGAVGKPQHISKMIESTKMNGNQAQDAAGRADTPVSSDTPD
                      YLHVFDSRTCNIHHIPVSDGFVRGSDLSTIAAPVKGNSGRMQKLAVLDPGFQHTACKES
                      GITFIDGEKGELRYRGVRIEDLFHDHDFDSTLHLLLWGRLPTNDEKIAFERRIFEAATP
@@ -331,10 +344,11 @@ FEATURES             Location/Qualifiers
                      YIAAVKAKKFRLFGYGHRVYKTQDPRAALTKELMEEHREAIAANPLLQIAVEIDRQANT
                      DPYFVERKLKLNADFYGCFVYIALGIPRDMIPGLLTISRMGGLMAHWREAMNNPIKIWR
                      PMQKFKL"
+                     /Pfam="Citrate_synt"
      CDS             54484..55893
                      /codon_start=1
                      /product="acyltransferase Clz18"
-                     /label=clz18
+                     /label="clz18"
                      /note="Clz18"
                      /protein_id="AXF50661.1"
                      /translation="MIHKPIPNSKPLTAYIDGLRGLLSIIIFNAHLTPVIILGYDKVSR
@@ -346,12 +360,13 @@ FEATURES             Location/Qualifiers
                      HMMTPGLIVPPRTWHSLGAVLVLYSLRDVPLARRICESSVAQFLGTHSFAIYLIHFCLV
                      ISFGPDLFSWVWSRTGHENLQSLAVGFGITYSILFMAVLLTAAIFRRFIESPVNKCVDS
                      LYRSASVRKEA"
+                     /Pfam="Acyl_transf_3"
      CDS             complement(join(56250..56743,56808..57294,57355..57657,
                      57719..58015))
                      /codon_start=1
                      /gene="MFS"
                      /product="major facilitator superfamily transporter Clz19"
-                     /label=clz19
+                     /label="clz19"
                      /note="Clz19"
                      /protein_id="AXF50662.1"
                      /translation="MNVDTTSPQAPLAGVESKQDGASNEATAKAESTTHDQNESSSFDE
@@ -364,10 +379,11 @@ FEATURES             Location/Qualifiers
                      AYGWLMQYDTHVASVLVVVFLIANVFTGVLIANSALLNDLNPGNGAALGAAMNLTRCLM
                      GAGGVAAVTPLINKIGIGYTATATAGVWVVTLPALYLVYSKGYTWRKAALEASSQDRRE
                      NPDVASGSP"
+                     /Pfam="MFS_1"
      CDS             join(58444..59688,59742..59756)
                      /codon_start=1
                      /product="squalene synthase Clz20"
-                     /label=clz20
+                     /label="clz20"
                      /note="Clz20"
                      /protein_id="AXF50663.1"
                      /translation="MVSTRGVLYYLLRPKELRPILQWKALHGLGHQRDEKNESPDVKAC
@@ -378,6 +394,7 @@ FEATURES             Location/Qualifiers
                      DCLNYMAGVREQTVFNFVAIPQSMAIATLELCFQNPAIFDKNIKITKGATCQLMIDSTQ
                      DLQHVCQAFRRYARRIKKKNHPEDPHFHDINAACNKIDRFIDDRYPNLQDEQAKADTMY
                      LAVLVLGVFGVVAAILMAKQ"
+                     /Pfam="SQS_PSY"
 ORIGIN
         1 ttatgctacc agcaagctct tattgatgcg cgcgctcttc gtagcaacag tcgtcgcaag
        61 cgctgtaagc gactgagact gcgtgacgtc gaacacggat acatccgagc tcagctgtgc

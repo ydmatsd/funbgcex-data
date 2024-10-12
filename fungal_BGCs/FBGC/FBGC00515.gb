@@ -1,23 +1,23 @@
-LOCUS       FBGC00515       25085 bp DNA     linear   UNA 09-MAY-2023
+LOCUS       FBGC00515              25085 bp    DNA     linear   UNA 09-MAY-2023
 DEFINITION  chaetodepsipeptin A.
 ACCESSION   FBGC00515
-VERSION     .
+VERSION     FBGC00515
 KEYWORDS    .
 SOURCE      Chaetomium mollipilium NBRC 9108
   ORGANISM  Chaetomium mollipilium NBRC 9108
+            .
 REFERENCE   1  (bases 1 to 25085)
   AUTHORS   Homma Y, Sugawara A, Morishita Y, Tsukada K, Ozaki T, Asai T.
-  TITLE     Discovery of a Cyclic Depsipeptide from Chaetomium mollipilium by 
+  TITLE     Discovery of a Cyclic Depsipeptide from Chaetomium mollipilium by
             the Genome Mining Approach.
   JOURNAL   Org Lett 2022;24:3504-3509
-  PUBMED    35543719
+   PUBMED   35543719
 REFERENCE   2  (bases 1 to 25085)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported May 9, 2023 from SnapGene 6.2.2
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1021/acs.orglett.2c01172"; journalName: "Org Lett"; date: 
+  JOURNAL   Exported May 9, 2023 from SnapGene 6.2.2 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1021/acs.orglett.2c01172"; journalName: "Org Lett"; date:
             "2022"; volume: "24"; pages: "3504-3509"
 FEATURES             Location/Qualifiers
      source          1..25085
@@ -30,7 +30,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="cmlpD"
                      /product="nonribosomal peptide synthetase CmlpD"
-                     /label=cmlpD
+                     /label="cmlpD"
                      /protein_id="BDH43854.1"
                      /translation="MALGSPKLAAAAPAATATVDKQIEEDIHKLCAEVLSRPLARVKLG
                      RSFLAHGGDSLLAIKLMARCQSMGYTINVQDLLQATSIREFCRYVQRQTREDDSALPLS
@@ -91,11 +91,12 @@ FEATURES             Location/Qualifiers
                      DAAQAQHVARRPHETVGFRELLGNRGKMAPEDPHFTTRINHIDHQSQWDMRVGDDIYQT
                      TIDIANGVQDVTDLYLMSYSHPDHIQVAFMYRDGVISAETADQILSCLCAASELLAAPS
                      SQTMRLGELELGPCSNSWPVAGNGSVALGIGQPNEEADCGT"
+                     /Pfam="ACP_PCP, NRPS_C, AA-adenyl-dom, NRPS_CT"
      CDS             complement(12357..13799)
                      /codon_start=1
                      /gene="cmlpC"
                      /product="thioesterase CmlpC"
-                     /label=cmlpC
+                     /label="cmlpC"
                      /protein_id="BDH43855.1"
                      /translation="MATTTVKPSVPVGEEVIHLSALDQQAQRHYAKPLLFFELDHEGPN
                      DPVLEHLKKSLSVALSEAPDFASTVAPLPGSTRKELQLQLNPESGASWRVFDHTAEVNK
@@ -106,12 +107,13 @@ FEATURES             Location/Qualifiers
                      AHARLPLSELCSPATGTSLAKVASAIRAATEAVDDAAVRTYIGLINTLPAVTDLTWNYN
                      GFPGPDFGVTDVSGLDICRTDWGPSLGAPVCLRLAYREGGLLYLFPIDPQGGLEVQALC
                      EPDALERLKADEGLAKFATFRG"
+                     /Pfam="Transferase"
      CDS             join(14610..14915,14981..15067,15138..16052,16118..21340,
                      21405..21728,21786..22592)
                      /codon_start=1
                      /gene="cmlpA"
                      /product="polyketide synthase CmlpA"
-                     /label=cmlpA
+                     /label="cmlpA"
                      /protein_id="BDH43856.1"
                      /translation="MLMESEQSAPRRAGSETGESEASTPWSILSRHHDGSSSESMGHGP
                      AEPIAIIGMSCRLPGSAADTSSFWDMLVSGRSAWTSGPGKRFNMAAFQDPTAKKSSTTN
@@ -157,12 +159,14 @@ FEATURES             Location/Qualifiers
                      VDHPLEGGCMVGGVQPHSGPGATWIRKPLFAHLAKRDEGPQREESETADIATLLGAAEK
                      LDDAVEMICEAILQQLGKLMATPADTLSAARSLDSYGVDSLVTVELRNWIGAYLGANVQ
                      LMTLRGASSINALAKIVAKESRLVCFEVAE"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_DH, PKS_NRPS_MT, fPKS_ER,
+                     fPKS_KR, ACP_PCP"
      CDS             complement(join(23072..23389,23462..23787,23844..24006,
                      24064..24312,24371..24751,24807..25085))
                      /codon_start=1
                      /gene="cmlpB"
                      /product="CoA ligase CmlpB"
-                     /label=cmlpB
+                     /label="cmlpB"
                      /protein_id="BDH43857.1"
                      /translation="MVFSSPAWVPDIPWLIPDSIPLGQFSLAGVNDGSDKGDSDVLLVD
                      GLSGKSYSRADLHQRVECVAGGLAKEFGWSPDEGSPWDKVVAIYSLNTIDLFALSWAIH
@@ -174,6 +178,7 @@ FEATURES             Location/Qualifiers
                      SLNEAGEIFLSSPNLFKGYLGNEEATKESFDESGWLRTGDIGMFKKSPNGAEHLFILDR
                      IKEMIKVKGLQVAPIEIELVLREHPAVADVAVIGVRDESAGERAKAFVVRSQSGKDDYD
                      EDDLMDMLDDYVQERLDETHWLHDRIVFVEALPKSASGKVLKRELRALPLVAAV"
+                     /Pfam="AA-adenyl-dom"
 ORIGIN
         1 ctacgtcccg cagtctgcct cctcatttgg ctgtccaatc ccaagcgcca cgcttccatt
        61 accggcaacc ggccagctgt tgctgcacgg gccgagttcg agctcgccca gccgcatcgt

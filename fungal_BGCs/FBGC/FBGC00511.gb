@@ -1,30 +1,30 @@
-LOCUS       FBGC00511       32524 bp DNA     linear   UNA 26-MAR-2023
+LOCUS       FBGC00511              32524 bp    DNA     linear   UNA 26-MAR-2023
 DEFINITION  fischerin.
 ACCESSION   FBGC00511
-VERSION     .
+VERSION     FBGC00511
 KEYWORDS    .
 SOURCE      Aspergillus carbonarius NRRL 346
   ORGANISM  Aspergillus carbonarius NRRL 346
+            .
 REFERENCE   1  (bases 1 to 32524)
-  AUTHORS   Ohashi M, Tan D, Lu J, Jamieson CS, Kanayama D, Zhou J, Houk KN, 
+  AUTHORS   Ohashi M, Tan D, Lu J, Jamieson CS, Kanayama D, Zhou J, Houk KN,
             Tang Y.
   TITLE     Enzymatic cis-Decalin Formation in Natural Product Biosynthesis.
   JOURNAL   J Am Chem Soc 2023;145:3301-3305
-  PUBMED    36723171
+   PUBMED   36723171
 REFERENCE   2  (bases 1 to 32524)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Mar 26, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1021/jacs.2c12854"; journalName: "J Am Chem Soc"; date: "2023"; 
-            volume: "145"; pages: "3301-3305"
+  JOURNAL   Exported Mar 26, 2023 from SnapGene 6.2.1 https://www.snapgene.com
 COMMENT     ##Assembly-Data-START##
             Assembly Method       :: Newbler v. 2.0.00.20 v. 2017/02/15 Assembly
-            Name         :: Aspca3
+            Name                  :: Aspca3
             Coverage              :: 17.78x
-            Sequencing Technology :: Sanger dideoxy sequencing 
+            Sequencing Technology :: Sanger dideoxy sequencing
             ##Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1021/jacs.2c12854"; journalName: "J Am Chem Soc"; date: "2023";
+            volume: "145"; pages: "3301-3305"
 FEATURES             Location/Qualifiers
      source          1..32524
                      /mol_type="genomic DNA"
@@ -33,9 +33,8 @@ FEATURES             Location/Qualifiers
      CDS             join(1..626,773..1169)
                      /codon_start=1
                      /product="short-chain dehydrogenase/reductase FinA"
-                     /label=finA
-                     /note="sdr
-                     revised sequence"
+                     /label="finA"
+                     /note="sdr revised sequence"
                      /protein_id="WCQ76520.1"
                      /translation="MAPLSPLQGSILVTGANGGLGKALTSHISTHYPDYHGIYTVRDAS
                      SSSSSSSTSHETIPLDLTNLTTIRTTATTITTRITTGQIPPLRILILNAGFLEFHQQTH
@@ -44,12 +43,12 @@ FEATURES             Location/Qualifiers
                      CNITVVGIDPGTMSTGIVRHASWFVQTVLHGIVIANVARGLALLGYRNAVVRTPEISAR
                      DVLDAGMNPKWRGGDYLDGMEIGRVSEEARDEEKRALVWRESVRLVGLREGETGLVDWK
                      "
+                     /Pfam="adh_short"
      CDS             complement(join(1269..3497,3563..3676))
                      /codon_start=1
                      /product="transcription factor FinB"
-                     /label=finB
-                     /note="transcriptional factor
-                     revised sequence"
+                     /label="finB"
+                     /note="transcriptional factor revised sequence"
                      /protein_id="WCQ76521.1"
                      /translation="MEPGPPHKRRRPAVTCTECRRRKIACDLGEPCGPCQKHLQCIYKN
                      NNKNDKNGLTRRASHRPSRADRASSDDGSNSHLSEFGNPDLVASNSSQSGLCPEGSIDY
@@ -65,10 +64,11 @@ FEATURES             Location/Qualifiers
                      PGAPAPEITDLADPYEALRVHSHTRCANVQRQAAATLVLDLISELEENPFPMLHGSSRK
                      YLRGVVGDVVRVFKQRMRCAAGTHSMREFMLFAAGAAYIDALLESRDGVSHGPDTVAHA
                      LIVALGVCTEVAGLDTVALPLDSYFGC"
+                     /Pfam="CghF"
      CDS             complement(5268..6380)
                      /codon_start=1
                      /product="trans-acting enoylreductase FinC"
-                     /label=finC
+                     /label="finC"
                      /note="enoylreductase"
                      /protein_id="WCQ76522.1"
                      /translation="MTLSVPLPATQQALKITGPSTVALCSNIALPVLEPSDVLVRVSYV
@@ -78,13 +78,13 @@ FEATURES             Location/Qualifiers
                      DYHSPDCSAQISEYTAGTLGLALDCITDSSSMALCYEALGSEGGRYVALDFFPLRCHTR
                      RSVQPDWVCTYTQFGNPVAWAPPYNLGARPQDHRTAESWYVVSQQLLDQGRIEPLALEE
                      RGGGLAAIGEGMKEVRSGQIKGRKLVYPIA"
+                     /Pfam="fPKS_ER"
      CDS             join(7116..11444,11495..16355,16409..19506)
                      /codon_start=1
-                     /product="polyketide synthase-nonribosomal peptide 
+                     /product="polyketide synthase-nonribosomal peptide
                      synthetase FinD"
-                     /label=finD
-                     /note="pks-nrps
-                     revised sequence"
+                     /label="finD"
+                     /note="pks-nrps revised sequence"
                      /protein_id="WCQ76523.1"
                      /translation="MTTQDYLEEPIAIIGSSCRFPGGASSPSKLWDLLHDPRDVLKEFD
                      PDRMNLKRFYHSDGEHHGSTNVTNKSYTLEEDTRVFDASFFGITPMEARGMDPQQRLLL
@@ -156,12 +156,13 @@ FEATURES             Location/Qualifiers
                      TQTGTQPQRPWSVAVHRPCIVVGDHAPNSDSMNAILRFSLMMRCAPLVKNGRGYIDFKP
                      VDEVAADIVAAAMRMTRAGDDDIGPRVQFLHSTSGVKVPLDGFREHLEKVYGGQFEAVD
                      MREWVKRASKAGIDPLITAYLNGVMDTDEEMVFPYLGA"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_DH, PKS_NRPS_MT, fPKS_KR,
+                     ACP_PCP, Condensation, AA-adenyl-dom, fPKS_R"
      CDS             complement(join(20390..20805,20919..22032))
                      /codon_start=1
                      /product="cytochrome P450 monooxygenase FinE"
-                     /label=finE
-                     /note="p450
-                     revised sequence"
+                     /label="finE"
+                     /note="p450 revised sequence"
                      /protein_id="WCQ76524.1"
                      /translation="MAIIDLLTVSSIKLPLLLFSSGIIAFLLGGFARNSQPDQDGAQPA
                      PQMFQWDRWLGLDTVVSQMWALRTDTYLDWLRRLHKNQPKTFSLQFFTGRWIYSSEPGV
@@ -172,10 +173,11 @@ FEATURES             Location/Qualifiers
                      LRQEVAALGQDAPLTFDVLRNMPYLNGVMNETHRLIPNNVTQVRACIADTVLPLGGGRD
                      GQAPLRVRKGEIVSVSKNVMYRDPDHWGVDADEYKPERWDGRRGTWGFVPYGGGPRRCP
                      AQMMVQTECAYMLVRMAREYRRLEARDARPYRPVMRIGPSNKHGVKIAVYK"
+                     /Pfam="p450"
      CDS             join(22358..22670,22735..22861,22919..23382,23439..23743)
                      /codon_start=1
                      /product="SAM-dependent Diels-Alderase FinI"
-                     /label=finI
+                     /label="finI"
                      /note="cis-decalin-forming diels-alderase"
                      /protein_id="WCQ76525.1"
                      /translation="MASDASVADSLDTLAAKLVEKAKDLRAGNSTTPQQHEALVGTLKQ
@@ -186,12 +188,12 @@ FEATURES             Location/Qualifiers
                      EDIRSAQLMAIDFHKEQPVQGALVYMIRRILRDFGDDECVSILQHVVAAMAPDSKLLIA
                      DTVTGNPPSWFPAMLDFFLSTIGGKERTEEEFRKITARAGLRITGIHYSDKAEFAMIVC
                      EKA"
+                     /Pfam="Methyltransf_2"
      CDS             complement(join(23857..23943,24009..25562,25624..26178))
                      /codon_start=1
                      /product="transcription factor FinF"
-                     /label=finF
-                     /note="transcriptional factor
-                     revised sequence"
+                     /label="finF"
+                     /note="transcriptional factor revised sequence"
                      /protein_id="WCQ76526.1"
                      /translation="MERNRRHATSCLLCRKRKIRCNREQPCSNCLRARGGSCIYEGPNQ
                      PVPHQSNLGPNASSNAQAGLLPTVTAANTGAVLFPSGPSSSTGPLTPSSRASQQDEELQ
@@ -206,10 +208,11 @@ FEATURES             Location/Qualifiers
                      FYPTVSLHAAFLIAVELRTQLQEDTSLFPMPLRPDLLAVLEEAKAWCLRVLEAGETNVK
                      GYLLISVMAAQIKGLVNGLQKDDMADLLIQAVENVDVQCSPILERLAAALPEQRVDEPP
                      DIREDWELMTGSQAAFNMGASEPLDWLFNDDLNFEMC"
+                     /Pfam="CghF"
      CDS             join(26498..26863,26922..27881)
                      /codon_start=1
                      /product="major facilitator superfamily transporter FinG"
-                     /label=finG
+                     /label="finG"
                      /note="mfs"
                      /protein_id="WCQ76527.1"
                      /translation="MSSTAPEQPPLSHDGSEQSMIFANQEPRRDNVSEKGPSDAWEVGP
@@ -220,11 +223,12 @@ FEATURES             Location/Qualifiers
                      TQGMSATLAGYLLSLVNAASTFGRIVPGILADKFGRLNTFAIGGITTGILVFCMTSATS
                      NAGLIVYAIFFGFCSGAIVSGASATFSSCPENPRDIGTYMGMGMAISGLGALVGPPING
                      AISARYGGYFECCMFSGAMAVFGGFIAFAAKRTTKEGLWGMT"
+                     /Pfam="MFS_1"
      CDS             complement(join(28296..28659,28708..29159,29211..30202,
                      30265..30445))
                      /codon_start=1
                      /product="NADH-dependent flavin oxidoreductase FinH"
-                     /label=finH
+                     /label="finH"
                      /note="oye"
                      /protein_id="WCQ76528.1"
                      /translation="MSHLNIAQPLTLRCGLTLPNRVVKAAMAEGLADKDLLPGSKDCLN
@@ -239,12 +243,12 @@ FEATURES             Location/Qualifiers
                      PDRGRIVVVNNKKRRTEDSDTMLWCSELSGRLAVDPALSNITVAMVDQACEPAHWFAST
                      VLAKIVMWLVSTWVMLLWPDTATGAVRRSADEVVRVLADDRNGVWLSSRAVSESDVVDI
                      KQRREAWRNYLATAKVKQGDTALAKWQ"
+                     /Pfam="Oxidored_FMN"
      CDS             join(30867..31106,31157..32524)
                      /codon_start=1
                      /product="cytochrome P450 monooxygenase FinJ"
-                     /label=finJ
-                     /note="p450
-                     revised sequence"
+                     /label="finJ"
+                     /note="p450 revised sequence"
                      /protein_id="WCQ76529.1"
                      /translation="MISVPDYAVPSAGEMILPAAVFGVLAIAVTLYKFVFAVSEYDNLG
                      LPLAGEPDGAKRFSLKSRLRYYYDCAALYTDAYYRFGKHGKASLVPGYGGRADLILPES
@@ -256,6 +260,7 @@ FEATURES             Location/Qualifiers
                      TDGGIPLKRGTIVAFLASQAQRDPAKFPEPDKFDPWRFSRPIEKEEKANGEAPKAAYHK
                      DSFVSTSPDYLPFGHGRHACPGRFLVDFELKMIVAYILKHYDIEFPPEYKGQRPPNRQV
                      AELQAPPAGVKIRVKRRA"
+                     /Pfam="p450"
 ORIGIN
         1 atggcacccc tctctcccct gcaaggcagt atcctagtaa ccggagccaa cggcggccta
        61 ggaaaagccc tcacttccca catcagcacc cactaccccg attaccacgg catctatacc

@@ -1,33 +1,34 @@
-LOCUS       FBGC00536       36248 bp DNA     linear   PLN 04-APR-2023
+LOCUS       FBGC00536              36248 bp    DNA     linear   PLN 04-APR-2023
 DEFINITION  austalide F.
 ACCESSION   FBGC00536
-VERSION     .
+VERSION     FBGC00536
 KEYWORDS    .
 SOURCE      Penicillium arizonense CBS 141311
   ORGANISM  Penicillium arizonense CBS 141311
+            .
 REFERENCE   1  (bases 1 to 36248)
   AUTHORS   Awakawa T, Liu W, Bai T, Taniguchi T, Abe I.
-  TITLE     Orthoester formation in fungal meroterpenoid austalide F 
+  TITLE     Orthoester formation in fungal meroterpenoid austalide F
             biosynthesis.
   JOURNAL   Philos Trans R Soc Lond B Biol Sci 2023;378:20220037
-  PUBMED    36633279
+   PUBMED   36633279
 REFERENCE   2  (bases 1 to 36248)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Apr 4, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1098/rstb.2022.0037"; journalName: "Philos Trans R Soc Lond B 
-            Biol Sci"; date: "2023"; volume: "378"; pages: "20220037"
+  JOURNAL   Exported Apr 4, 2023 from SnapGene 6.2.1 https://www.snapgene.com
 COMMENT     ##Genome-Assembly-Data-START##
             Assembly Method       :: ABySS v. 1.5.2
             Genome Coverage       :: 154.0x
             Sequencing Technology :: Illumina HiSeq ##Genome-Assembly-Data-END##
+            ##Genome-Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1098/rstb.2022.0037"; journalName: "Philos Trans R Soc Lond B
+            Biol Sci"; date: "2023"; volume: "378"; pages: "20220037"
 FEATURES             Location/Qualifiers
      source          1..36248
                      /strain="CBS 141311"
                      /mol_type="genomic DNA"
-                     /country="USA: South rim of Grand Canyon, Grand Canyon 
+                     /country="USA: South rim of Grand Canyon, Grand Canyon
                      Village, Arizona"
                      /lat_lon="36 N 112 W"
                      /isolation_source="soil"
@@ -39,7 +40,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="PENARI_c010G03298"
                      /product="cytochrome P450 monooxygenase/hydrolase AstA"
-                     /label=astA
+                     /label="astA"
                      /protein_id="OGE52610.1"
                      /translation="MTIQDNIDFPMLAAAALALYALYRVFQSFVHLSHVPGPLIAKFTN
                      LQRVWWVKTGRAHEYHRQMHERFGKLVRFGPNMVSISDPSAMSIIYPNRQGYQKSDFYR
@@ -56,11 +57,12 @@ FEATURES             Location/Qualifiers
                      FYLLSAPGHSIGHMCGLARVTTSPDTFVFMGADACHHPGVLRPAKYRPLPLDQRSPPGL
                      SACATYPLDRGESFFKVSPVLTTDHAMALETVEKIKELDASDDVFVILSHDYTLRGKIP
                      FFPDTINNWQERGYGSSTRWLFCEDLGRH"
+                     /Pfam="p450, Lactamase_B"
      CDS             3655..4542
                      /codon_start=1
                      /locus_tag="PENARI_c010G02147"
                      /product="2OG-Fe(II)-dependent dioxygenase AstB"
-                     /label=astB
+                     /label="astB"
                      /protein_id="OGE52538.1"
                      /translation="MTVPTTVPQPSLRRVSAKAGADEIINILQEDGVVIIENFCAPGVI
                      DQLNYDLEPYLARDIDLIKNLADFHGTGSKRVCNLPAKSKTFREDILNDTLVHDICRKL
@@ -68,11 +70,12 @@ FEATURES             Location/Qualifiers
                      TAENGGTRVIPGSHLWAYSDEGEDGMAVPVEMKAGDAFLLGGKTVHAAGQNVSLDSVRR
                      LIIFGFQPGYLTPFESFMGIPRNIVETMTPLAQRMIGWGSPKIQGLTFWTMDSKDIALW
                      REREGEGLQPKLDQ"
+                     /Pfam="PhyH"
      CDS             complement(4933..6909)
                      /codon_start=1
                      /locus_tag="PENARI_c010G08037"
                      /product="FAD-dependent monooxygenase AstC"
-                     /label=astC
+                     /label="astC"
                      /protein_id="OGE52253.1"
                      /translation="MTISFEVCCPSSTTTDHPCKSCGPEASIDIEKKYELERQTQLKSH
                      GLVSDIEIDLNERFDTFARDPWIYPTVESENEQAGFIQQSNHKVLIVGAGHGGLLFAVR
@@ -86,12 +89,13 @@ FEATURES             Location/Qualifiers
                      MTRDMPNLFFPGTSQAGGCANMTYSLDQSATHVAYILSKAKESASKKYPVMSKVIIEPT
                      AEAEEDWAMQVVSRAAALRGIAGCTPGYLNGHGMFGQPSSAEDMMKLARLAIWGEGIAS
                      YVEQIEAWREEGKLDGLHLTYLE"
-     CDS             complement(join(7799..8115,8173..8606,8709..8832,8888..9014,
-                     9076..9216))
+                     /Pfam="Pyr_redox_2"
+     CDS             complement(join(7799..8115,8173..8606,8709..8832,
+                     8888..9014,9076..9216))
                      /codon_start=1
                      /locus_tag="PENARI_c010G02251"
                      /product="methyltransferase AstD"
-                     /label=astD
+                     /label="astD"
                      /protein_id="OGE52521.1"
                      /translation="MEELISQITSFADTVDDNERKSLIATLRATSISLEKPDDTIERVA
                      VAPLELCGAKMGLDLNVFKLLSSSNLPQSLDNLTEATGADRRLLARVLRYIASIKMIDQ
@@ -100,12 +104,13 @@ FEATURES             Location/Qualifiers
                      GGLGHQGARLRANYPDLQGRMIVQDRQRVIDAPTTAEGVERMVHDIFQPQPIKGARCYY
                      IRGVLHDWPDDKCQEILQHIAAAMDSSSTLVIDEFVLPETNVHPYASSMDMLMLASLGA
                      EERTGSRWEELVKSIGLKIVDIKPHRVGEYASLIVAVKAA"
+                     /Pfam="Methyltransf_2"
      CDS             join(11653..12297,12356..13456,13509..13884,13951..18375,
                      18433..19343)
                      /codon_start=1
                      /locus_tag="PENARI_c010G07355"
                      /product="polyketide synthase AstE"
-                     /label=astE
+                     /label="astE"
                      /protein_id="OGE52440.1"
                      /translation="MRLCTECREGSLRLLFGPQCTEIGNQITRIRDALENHPSGLQFLH
                      DIVNELPSLWPVIVGACPALDRVPGERGLTALAQLVNNESSASPVGDQLNIVLTPLTVM
@@ -150,12 +155,14 @@ FEATURES             Location/Qualifiers
                      PLGGWMSTRDPRSRIALHMNWKGQTLDMLLKGWRHKDKADDIPRPTEEEIQAVSPHYQI
                      RTGRYGTPTFLIHGTMDDLVPFEQTESTYDVLVQNGVEAEIRVVREALHLFDLYPSFHA
                      SKEARDAVADGYEFLKRHVRL"
+                     /Pfam="SAT2, PKS_KS, PKS_AT, fPKS_PT, ACP_PCP, HTH_51,
+                     PKS_NRPS_MT, BD-FAE, Peptidase_S9"
      CDS             complement(join(20069..20515,20578..20948,21013..21281,
                      21338..21630))
                      /codon_start=1
                      /locus_tag="PENARI_c010G07889"
                      /product="FAD-dependent monooxygenase AstF"
-                     /label=astF
+                     /label="astF"
                      /protein_id="OGE52317.1"
                      /translation="MSEVKFKVIIVGGSIAGLTLAHCLHRLGIDYIVLERRDEISPQEG
                      ASVGIMPNGGRILDQLGLYDQIEELIEPLYSAHMRYPGGFSFQSQYPRILRERFGFPLA
@@ -166,11 +173,12 @@ FEATURES             Location/Qualifiers
                      TDSSRPSSLEISQIFQRLTQERISRLADLDQTARLAMRLQAREGIVKRLLGRFMLPYLG
                      DKLADWASTDIANTVILHTMPASKRPGSGWEKFKPKTRTFLPGVLAGFLFLFGLTIAFR
                      G"
+                     /Pfam="FAD_binding_3"
      CDS             join(22405..22516,22590..22884,22951..23527)
                      /codon_start=1
                      /locus_tag="PENARI_c010G07427"
                      /product="UbiA-like prenyltransferase AstG"
-                     /label=astG
+                     /label="astG"
                      /protein_id="OGE52357.1"
                      /translation="MGRHSSAERSESRHLALDLIKTSRYNRYMPYYTIFAAVWSTLIAG
                      ALRLQEARDSISVEHILNRAILSSLHCLLLCGAGNTWNDLVDRNIDSRVARTKCRPLAS
@@ -178,22 +186,24 @@ FEATURES             Location/Qualifiers
                      YPQYVLGLAVSYPAITGWASINGQDQSTADIVNHCAPIVLLVFVWCFYFNTAYSFQDSV
                      DDRKMKVNSAYVFAGDRIRLFLSFLSILTLVTIPFVVSKIDSPWLWLSWMGVWCSAMIK
                      QIVQFDSGKPESGARIHWENFLLGLWTSSACVIEVYLQKGGFWDTV"
+                     /Pfam="UbiA_PT"
      CDS             join(24956..25473,25568..25787)
                      /codon_start=1
                      /locus_tag="PENARI_c010G02081"
                      /product="terpene cyclase AstH"
-                     /label=astH
+                     /label="astH"
                      /protein_id="OGE52342.1"
                      /translation="MDWFIGAIPPPEYQAVAWFANVATIIETIGWAINYGDSIHRSVKD
                      RTYGMAIFPMCLNLSWEIVYTLVYPCNDTYQWIMIVTWLLLNPGIMLCAIRYAPNEWQH
                      APLVRENIPLIFALTMVACILGQLAAAATLGPGVAATVVACFCYLLLTVGSLCQLIIRG
                      SSRGTSYTMWASRFIGNLAAGFNAHFRVTYWPQVFGFLDTALMKWFVATTTIVELCYIF
                      VLRHIRDKEAASHNTTNLADKKR"
+                     /Pfam="Pyr4"
      CDS             complement(27280..28176)
                      /codon_start=1
                      /locus_tag="PENARI_c010G00532"
                      /product="2OG-Fe(II)-dependent dioxygenase AstI"
-                     /label=astI
+                     /label="astI"
                      /protein_id="OGE52386.1"
                      /translation="MQRLSATADFDAIFQAFQEDGGVIIKGLLSPSEVASFNREIQPAM
                      DKLYTRTIQNDDKAVKIMGDNRTKRFNNAVCESETFRRTIIEKDLVHKMSDAALNQHSG
@@ -201,23 +211,25 @@ FEATURES             Location/Qualifiers
                      TRLVLGSHRWPKFVGCREPGFEGYEGVESVPLEMDTGDCFFMSAKLLHGGGHNSTTTEK
                      RRGLSITLIRHDLTPYQAYAVTTPLDIVASLSFRAQGLYGFRSPHWAEDNWCYSSWAAD
                      EVDVGTRLGLPTNGYKN"
+                     /Pfam="PhyH"
      CDS             complement(join(29528..29748,29813..29899,29972..30410,
                      30470..30490))
                      /codon_start=1
                      /locus_tag="PENARI_c010G01937"
                      /product="short-chain dehydrogenase/reductase AstJ"
-                     /label=astJ
+                     /label="astJ"
                      /protein_id="OGE52373.1"
                      /translation="MGLLQGRVVIVTGSSSGIGLATATQAIKEGAQVFGVDISTYPPSL
                      ADEPSFRFFQCDLTTNGSSRAIVQACLEAYGEKVDALFNIAGVMDNHGSVDTLTNESWE
                      RCLAVNLTAPVELMREVIPIMRREKSGSIVNLASKAGTSGAASGVAYTASKHGLIGATK
                      NVAWRYKDENIRCNAVCPGGVLTPMRNSSDPTTLDFEALASMRPVHSAHMAPEQGPYIK
                      AEEIATTIVFLASDSSLRINGAVVPIDNAWSTI"
+                     /Pfam="adh_short_C2"
      CDS             32095..33054
                      /codon_start=1
                      /locus_tag="PENARI_c010G00061"
                      /product="2OG-Fe(II)-dependent dioxygenase AstK"
-                     /label=astK
+                     /label="astK"
                      /protein_id="OGE52414.1"
                      /translation="MTRPDPSSKAQIGRVPADADPNVVCQVLEDDGAVILEGVFSDDTI
                      SRFNRELDPAAKAAEMTAKTNQELQFHLQSNYVFNLPGISNTFRNDILNSPVLHGLAKK
@@ -225,11 +237,12 @@ FEATURES             Location/Qualifiers
                      RDNGGTRVILGSHKWPEIGDLTDAQTVSTEMKAGDVLVLAQGVIHAGGAHPVDVPDPRR
                      AVLVFFSSCQITPFETYMAMPRAVVETMTPLAQKMVGWRSVKPGHSNESRLHASGSKLL
                      EEAKQVIHPNVTGLHNAGSKLLEDALQLKANQPLGNGM"
+                     /Pfam="PhyH"
      CDS             join(34816..34980,35043..35175,35239..35368,35438..36248)
                      /codon_start=1
                      /locus_tag="PENARI_c010G07817"
                      /product="methyltransferase AstL"
-                     /label=astL
+                     /label="astL"
                      /protein_id="OGE52462.1"
                      /translation="MDYPGLLSTLSQAASSPSIQTGLTRTEQQNLYQACAKLSACVETP
                      QDRLLKGSFDFILPTILRLAIDIGIFTLFNEDDSVQEFDVSEIATRTKTDQVLIYRIMR
@@ -239,6 +252,7 @@ FEATURES             Location/Qualifiers
                      ENASQIEKMGHSFFDPQPVHGASLYVLSRVIHNWPDKEALIILQHIQAAMNDQSTLLIC
                      DCVFSDQLGKVPYTDATSDMIMMAVFSSLERSEGHFRSLLESVGLELQKVWRDPLNGTL
                      LTVLEVVRKKQLA"
+                     /Pfam="Methyltransf_2"
 ORIGIN
         1 tcaatgcctc cccaaatcct cacagaacag ccatctggtg gaagacccat accctctctc
        61 ctgccaatta ttgatcgtat ccgggaagaa agggattttc cccctcaaag tataatcatg

@@ -1,36 +1,37 @@
-LOCUS       FBGC00528       34075 bp DNA     linear   UNA 29-MAR-2023
+LOCUS       FBGC00528              34075 bp    DNA     linear   UNA 29-MAR-2023
 DEFINITION  tricholignan A.
 ACCESSION   FBGC00528
-VERSION     .
+VERSION     FBGC00528
 KEYWORDS    .
 SOURCE      Trichoderma harzianum T6776
   ORGANISM  Trichoderma harzianum T6776
+            .
 REFERENCE   1  (bases 1 to 34075)
   AUTHORS   Chen M, Liu Q, Gao SS, Young AE, Jacobsen SE, Tang Y.
-  TITLE     Genome mining and biosynthesis of a polyketide from a biofertilizer 
+  TITLE     Genome mining and biosynthesis of a polyketide from a biofertilizer
             fungus that can facilitate reductive iron assimilation in plant.
   JOURNAL   Proc Natl Acad Sci U S A 2019;116:5499-5504
-  PUBMED    30842286
+   PUBMED   30842286
 REFERENCE   2  (bases 1 to 34075)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Mar 29, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1073/pnas.1819998116"; journalName: "Proc Natl Acad Sci U S A"; 
-            date: "2019"; volume: "116"; pages: "5499-5504"
+  JOURNAL   Exported Mar 29, 2023 from SnapGene 6.2.1 https://www.snapgene.com
 COMMENT     ##Genome-Assembly-Data-START##
             Assembly Date         :: 2014
             Assembly Method       :: Velvet v. 1.2.07
             Genome Coverage       :: 100.0x
             Sequencing Technology :: Illumina MiSeq ##Genome-Assembly-Data-END##
+            ##Genome-Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1073/pnas.1819998116"; journalName: "Proc Natl Acad Sci U S A";
+            date: "2019"; volume: "116"; pages: "5499-5504"
 FEATURES             Location/Qualifiers
      source          1..34075
                      /strain="T6776"
                      /mol_type="genomic DNA"
                      /country="Italy: Tuscany, Pisa, Colignola"
                      /isolation_source="soil"
-                     /collection_date=1998
+                     /collection_date="1998"
                      /identified_by="Dr. Sabrina Sarrocco"
                      /db_xref="taxon:5544"
                      /organism="Trichoderma harzianum"
@@ -40,7 +41,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="THAR02_06934"
                      /product="ABC transporter TlnJ"
-                     /label=tlnJ
+                     /label="tlnJ"
                      /protein_id="KKP00962.1"
                      /translation="MTMFVRNDELFQQNNEQFDFNIEFEQVFLSILPSVLFIIAASWRT
                      AAQARKPVLVKAPLFQIIKVAALTAYAVLQLALLILAAAFGLFHTASIFIAASVLKLLS
@@ -67,12 +68,13 @@ FEATURES             Location/Qualifiers
                      VFLPDGSTFQANLDVSEEATREECEAVLTAVGLWEFVQERGGLDAGMDASTFSAGQRQL
                      MSLGRALIRRSVRQRKYAAGAEHGGILLLDEVSSSVDQETERVMQQTIKTEFKNYTVIA
                      VAHRLDMVMDFDKVVVMDTGKIVEIGIPAVLAQEAGSKFGDLVRARNH"
+                     /Pfam="ABC_tran, ABC_membrane"
      CDS             complement(join(5323..7342,7400..8565,8693..11602,
                      11663..12603,12660..12774))
                      /codon_start=1
                      /locus_tag="THAR02_06935"
                      /product="polyketide synthase TlnA"
-                     /label=tlnA
+                     /label="tlnA"
                      /protein_id="KKP00963.1"
                      /translation="MATAGNDGTSIAITGLSCRFPGDGDNPGNYWKLVSEGKSAWSMIP
                      KERFNGDAFWAGGKKGHGSVTKSGHFLKHDVSHFDANFFNISALEANAMDPQHRLALEV
@@ -115,11 +117,12 @@ FEATURES             Location/Qualifiers
                      GRLPAQVLTGLATGGSAVVAGIPPPFYLSDAKFSIMATIDLEKVSDSAGDSNSRRKGDS
                      IRALISKSEGLVEASGHITASLVSRIAKMLQIEAEDVDTSRALHSYGLDSLVAIEIVDW
                      ALKEVEARVSVFDIMAAVPITATASKIANASALCSKE"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_DH, fPKS_ER, fPKS_KR, ACP_PCP"
      CDS             join(13311..14339,14396..14488)
                      /codon_start=1
                      /locus_tag="THAR02_06936"
                      /product="thioesterase TlnD"
-                     /label=tlnD
+                     /label="tlnD"
                      /protein_id="KKP00964.1"
                      /translation="MPNTAVSPKEELLAVIAEELGMDIDDLSDDTDISELQNDTALSRL
                      ILKRVPVGLQDDINRTTFQSCTDIADLKAHIDIVMALREPPKHSDERKAKLPIVLLLRG
@@ -128,12 +131,13 @@ FEATURES             Location/Qualifiers
                      VVECLAKNNLMGNWSEGGTPKWLVNSFVSTIGAVEKYMPTPMVLPDGVKAPEVFIIWAS
                      EGVFPDGVEAYPELDMSVRVTRFLVNQRVQFGPLGWDKLFPAQDISIAKMPGSHFMIVH
                      PPNVDTLGKLLGDVIQGRPAEAKNDWQRWRNRS"
+                     /Pfam="Thioesterase"
      CDS             join(15496..15582,15734..16350,16413..16477,16532..16595,
                      16659..16758,16816..17044,17107..17149,17208..17256)
                      /codon_start=1
                      /locus_tag="THAR02_06937"
                      /product="FAD-dependent monooxygenase TlnE"
-                     /label=tlnE
+                     /label="tlnE"
                      /protein_id="KKP00965.1"
                      /translation="MPIRVIIVGAGIGGLTAAVSLRQAGCEVTIFEKSSFVGEIGAALG
                      LTPNGGRVLEHLGFSFQKARTCTLKTWATIDGLTYNTLNQLDLSNAQRAFGAPVRAVHR
@@ -143,11 +147,12 @@ FEATURES             Location/Qualifiers
                      NVKRWPLYIHDPYPTWVKGRIVLIGDSAHPMLPYGGQGAMMAIEDGGIIGSLFTNILPD
                      QIDARLSKYQQLRKNRVSRIQLLSQVRAGRENEVDARISQYADGPTGSIPTTHKERTIH
                      DYSYDAYADLEKSLASDV"
+                     /Pfam="FAD_binding_3"
      CDS             join(18000..18298,18353..18638,18698..23305)
                      /codon_start=1
                      /locus_tag="THAR02_06938"
                      /product="polyketide synthase TlnB"
-                     /label=tlnB
+                     /label="tlnB"
                      /protein_id="KKP00966.1"
                      /translation="MTATTKRHLLLFGDQTVEKLTSIRALVRNAKTSPVAKRFLQEIMD
                      VIQIEFSTLSKSEHGWTGTFDTLLGLAEENDEQNGANTLVSTVLMCIGRIGELVVHAER
@@ -179,10 +184,11 @@ FEATURES             Location/Qualifiers
                      VQELVGIKFQKMKRAVLQLSLTSTGAQPKNPPAETHRPKSPIPQFSSMETTTISATEPQ
                      ASDDSASAGTKTPEASDLEIIDTLLSIVAREIGVNVDEMLDEAAFIDLGVDSLVAVTIF
                      TTLEREVGLKLQASFFVEHTTVGNVKRALHEML"
+                     /Pfam="SAT2, PKS_KS, PKS_AT, fPKS_PT, ACP_PCP"
      CDS             complement(join(23708..24517,24582..24904,24966..25143))
                      /codon_start=1
                      /product="transcription factor TlnI"
-                     /label=tlnI
+                     /label="tlnI"
                      /translation="MPVTPRLRSACDACHRLKVRCSGYLPCDSCTESCRTCVFSMSNRL
                      GRPLGSKNKRAVAAGGREEPSLANQKGAARRKGPREARKTRKRSSIHLENQVTLSPRPI
                      IATQNIAGPASVPSDNSSSPKSNGQSPFTDVNSMSWATSPFEFSLPFPEDKWALQEDFT
@@ -191,11 +197,12 @@ FEATURES             Location/Qualifiers
                      WLGLTGCTSCMRGDDQEVLMLALMCVRSMLLQLQNVSWGYSGNQDVSLTASEHVSPGIG
                      AEGDMELEVVTIGDFELTGDDKSSLLYMLWSMMVQKVNNVLESFRSILERKKVSGGRYS
                      ELGALLSSDLSMVEHTIDGLTHLSRSILASPRKTRDA"
+                     /Pfam="EqxR"
      CDS             complement(join(26632..27305,27365..27725))
                      /codon_start=1
                      /locus_tag="THAR02_06939"
                      /product="short-chain dehydrogenase/reductase THAR02_06939"
-                     /label=THAR02_06939
+                     /label="THAR02_06939"
                      /protein_id="KKP00967.1"
                      /translation="MKGVSLDTVRTSNATLKTLGRGLVAVFVGGTSGIGESILKAFVGA
                      VAAPKIYIIGRSQNAANRIIKECREANETSEVEFLQADISEIANVDRVCSDIIQKEKRL
@@ -204,11 +211,12 @@ FEATURES             Location/Qualifiers
                      NLGSGLPTYLRAAFKVAGPLLAPWTVGLHETGERHLFMATSNRYPPSELPNESRCGAPT
                      EKNGVSEGSDEVRGSGAYLLNWDGQIQKQNRDLLEEYRRTGMAERIWKHTMAVFDSCSK
                      DRNS"
+                     /Pfam="SmbD"
      CDS             28207..29148
                      /codon_start=1
                      /locus_tag="THAR02_06940"
                      /product="alpha/beta hydrolase THAR02_06940"
-                     /label=THAR02_06940
+                     /label="THAR02_06940"
                      /protein_id="KKP00968.1"
                      /translation="MPLPISPAQTATISPQAVEFLSAAEGIPIEAIQAVTVTRQAFHAA
                      EEPVEESLIEKFNLKIENITMGGIPVLIIGSSSPDPKYQGRVIFDIHGGGFVMGTARER
@@ -216,11 +224,12 @@ FEATURES             Location/Qualifiers
                      IMLSLIVRAQREGLELPAALAFYTPNTDLSGVGDSNVFNDGRDLVDNNVLVGAMSTLYA
                      GGVDLKDGLLSPIYAELSGPFPPTVINTGTRDLLLSQCVRLYWKLREAGGKTELLVSEG
                      MWHGFNWELELPEGIRARKAVYSFITSVLDEM"
+                     /Pfam="Abhydrolase_3"
      CDS             complement(30127..31584)
                      /codon_start=1
                      /locus_tag="THAR02_06941"
                      /product="trans-acting methyltransferase TlnC"
-                     /label=tlnC
+                     /label="tlnC"
                      /protein_id="KKP00969.1"
                      /translation="MSLEKVREIFCDVTGLDADEVEEDSELDELGVDTILAKELARKLS
                      VFSGRAVESSRILESENFIGLAHYIQSILDIGNDKETPSRKQSHIEPTVNQGVTGAKDP
@@ -231,11 +240,12 @@ FEATURES             Location/Qualifiers
                      MTDISASLVAAAKRKYREYPFMQFKVVDVESQPDPELLRSQHIILSTACIHATRSLPIS
                      LKNIHSMLRPDGFVMLLEQTQQIPWVDFVFGLLEGWWLFEDGRHHALAPVTHWEKVMKQ
                      VGFGHVDWTAGERPEAGLQRLIIGYAS"
+                     /Pfam="ACP_PCP, HTH_51, PKS_NRPS_MT"
      CDS             join(32591..32833,32893..33456,33545..34075)
                      /codon_start=1
                      /locus_tag="THAR02_06942"
                      /product="methyltransferase TlnF"
-                     /label=tlnF
+                     /label="tlnF"
                      /protein_id="KKP00970.1"
                      /translation="MAQSDLTLESLAARVVDLTTTLTTALQERNSPQPSFSEDAPELLS
                      PAPEVQGPRLQLVETLTKMLHLATGPTEYLIQQCLLPNADGLILDFLNRFDIWHLVPLN
@@ -245,6 +255,7 @@ FEATURES             Location/Qualifiers
                      AKAHPKLKLIVQDFQDVESSFNDVITSTEYASRISFNAYNFFEPQTLTADAYLFKSIFH
                      DWSDKYVVQILRNLLPVLKSGVHIIIFDNIIPPDHDEQGKPVVPLSTRRLLGAVDLQMF
                      VNHNSKERKASDWTEVVKRADSRFDLKGFYTVVGSPLGIIDILFNA"
+                     /Pfam="Methyltransf_2"
 ORIGIN
         1 atgacgatgt tcgttagaaa tgacgaacta tttcagcaga ataatgagca gttcgacttt
        61 aacatagagt ttgaacaagt atttctttct attttaccat ccgttctgtt tataatagct

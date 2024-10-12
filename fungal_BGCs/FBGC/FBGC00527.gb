@@ -1,48 +1,49 @@
-LOCUS       FBGC00527       44895 bp DNA     linear   UNA 09-MAY-2023
+LOCUS       FBGC00527              44895 bp    DNA     linear   UNA 09-MAY-2023
 DEFINITION  N-octanoylleucine methyl ester.
 ACCESSION   FBGC00527
-VERSION     .
+VERSION     FBGC00527
 KEYWORDS    .
 SOURCE      Hydnomerulius pinastri MD-312
   ORGANISM  Hydnomerulius pinastri MD-312
+            .
 REFERENCE   1  (bases 1 to 44895)
-  AUTHORS   Tang MC, Fischer CR, Chari JV, Tan D, Suresh S, Chu A, Miranda M, 
+  AUTHORS   Tang MC, Fischer CR, Chari JV, Tan D, Suresh S, Chu A, Miranda M,
             Smith J, Zhang Z, Garg NK, St Onge RP, Tang Y.
-  TITLE     Thioesterase-Catalyzed Aminoacylation and Thiolation of Polyketides 
+  TITLE     Thioesterase-Catalyzed Aminoacylation and Thiolation of Polyketides
             in Fungi.
   JOURNAL   J Am Chem Soc 2019;141:8198-8206
-  PUBMED    31051070
+   PUBMED   31051070
 REFERENCE   2  (bases 1 to 44895)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported May 9, 2023 from SnapGene 6.2.2
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1021/jacs.9b01083"; journalName: "J Am Chem Soc"; date: "2019"; 
-            volume: "141"; pages: "8198-8206"
-COMMENT     URL -- http://genome.jgi.doe.gov/Hydpi2
-            JGI Project ID: 403666
-            The DNA was provided by David Hibbett (dhibbett@clarku.edu)
-            The strain is available from Center for Forest Mycology Research 
-            (CFMR) herbarium
-            Contacts: David Hibbett (dhibbett@clarku.edu)
-            Assembly and annotation done by JGI.
-            The JGI and collaborators endorse the principles for the 
-            distribution and use of large scale sequencing data adopted by the 
-            larger genome sequencing community and urge users of this data to 
-            follow them. It is our intention to publish the work of this project
-            in a timely fashion and we welcome collaborative interaction on the 
-            project and analysis. 
-            (http://www.genome.gov/page.cfm?pageID=10506376).##Genome-Assembly-D
-            ata-START##
+  JOURNAL   Exported May 9, 2023 from SnapGene 6.2.2 https://www.snapgene.com
+COMMENT     ##ata-START##
             Assembly Method       :: Allpaths-LG v. R36892
             Assembly Name         :: Hydpi2
             Genome Coverage       :: 41x
             Sequencing Technology :: Illumina
-            ##Genome-Assembly-Data-END####Metadata-START##
+            ##ata-END##
+            ##Metadata-START##
             Organism Display Name :: Hydnomerulius pinastri MD-312
             GOLD Stamp ID         :: Gi10874
             ##Metadata-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1021/jacs.9b01083"; journalName: "J Am Chem Soc"; date: "2019";
+            volume: "141"; pages: "8198-8206"
+            URL -- http://genome.jgi.doe.gov/Hydpi2
+            JGI Project ID: 403666
+            The DNA was provided by David Hibbett (dhibbett@clarku.edu)
+            The strain is available from Center for Forest Mycology Research
+            (CFMR) herbarium
+            Contacts: David Hibbett (dhibbett@clarku.edu)
+            Assembly and annotation done by JGI.
+            The JGI and collaborators endorse the principles for the
+            distribution and use of large scale sequencing data adopted by the
+            larger genome sequencing community and urge users of this data to
+            follow them. It is our intention to publish the work of this project
+            in a timely fashion and we welcome collaborative interaction on the
+            project and analysis.
+            (http://www.genome.gov/page.cfm?pageID=10506376).##Genome-Assembly-D
 FEATURES             Location/Qualifiers
      source          1..44895
                      /chromosome="Unknown"
@@ -51,12 +52,13 @@ FEATURES             Location/Qualifiers
                      /db_xref="taxon:994086"
                      /organism="Hydnomerulius pinastri MD-312"
                      /submitter_seqid="scaffold_34"
-     CDS             join(1..238,307..433,488..676,741..892,943..1058,1115..1232,
-                     1302..1315,1372..1561,1616..1672,1728..1752,1810..2119)
+     CDS             join(1..238,307..433,488..676,741..892,943..1058,
+                     1115..1232,1302..1315,1372..1561,1616..1672,1728..1752,
+                     1810..2119)
                      /codon_start=1
                      /locus_tag="HYDPIDRAFT_97846"
                      /product="cytochrome P450 monooxygenase KU43-P450-1"
-                     /label=KU43-P450-1
+                     /label="KU43-P450-1"
                      /note="GO_function: GO:4497; iron ion binding -
                      monooxygenase activity [Evidence 20037] [PMID 5506]"
                      /db_xref="InterPro:IPR001128"
@@ -71,11 +73,12 @@ FEATURES             Location/Qualifiers
                      QAEIDCVIGTGRLPDFDDRPSLPYVEAVLRETLRWQLASPFGAPHTTTEDDVYDGVLIP
                      KNTIVTANIWAITHDESKYPDPRTFNPSRFLTPEGKLNDDDMHIVFGFGRRICPGRHVA
                      EASLWVAIVSILAAFNVRKAKDEKGNDIEITPAMTPGQVVCVLAVPCHFPPSF"
+                     /Pfam="p450"
      CDS             complement(2639..2842)
                      /codon_start=1
                      /locus_tag="HYDPIDRAFT_116697"
                      /product="hypothetical protein KU43-HP-1"
-                     /label=KU43-HP-1
+                     /label="KU43-HP-1"
                      /db_xref="JGIDB:Hydpi2_116697"
                      /protein_id="KIJ60838.1"
                      /translation="MKPSHIARATGINARTIRRTLELWWKIGSVQRTPIERGRKERLNA
@@ -84,12 +87,11 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="HYDPIDRAFT_138568"
                      /product="methyltransferase KU43-C-MT-1"
-                     /label=KU43-C-MT-1
-                     /note="GO_component: GO:16021 - integral to membrane; 
-                     GO_function: GO:4671 - protein-S-isoprenylcysteine 
-                     O-methyltransferase activity;
-                     GO_process: GO:6481 - C-terminal protein amino acid 
-                     methylation"
+                     /label="KU43-C-MT-1"
+                     /note="GO_component: GO:16021 - integral to membrane;
+                     GO_function: GO:4671 - protein-S-isoprenylcysteine
+                     O-methyltransferase activity; GO_process: GO:6481 -
+                     C-terminal protein amino acid methylation"
                      /db_xref="InterPro:IPR007269"
                      /db_xref="JGIDB:Hydpi2_138568"
                      /protein_id="KIJ60839.1"
@@ -98,18 +100,19 @@ FEATURES             Location/Qualifiers
                      WQCYRTLGRFFTFELSVKKDHRLVTQGPYSVVRHPSYSGTLLLTTGMLLVNAHPESWLR
                      TSGVLDFTPLKIILLGWAGVTVAIATSLFARSAHEDQLMRKEFGAEWDRWASTVRYRII
                      PGIY"
-     CDS             join(5172..5367,5428..5857,5915..6174,6247..6565,6643..6738,
-                     6791..7012,7064..7287,7343..7536,7601..8035,8107..8210,
-                     8265..8381,8441..8555,8616..8731,8796..8960,9037..9388,
-                     9461..9825,9893..10304,10366..10455)
+                     /Pfam="ICMT"
+     CDS             join(5172..5367,5428..5857,5915..6174,6247..6565,
+                     6643..6738,6791..7012,7064..7287,7343..7536,7601..8035,
+                     8107..8210,8265..8381,8441..8555,8616..8731,8796..8960,
+                     9037..9388,9461..9825,9893..10304,10366..10455)
                      /codon_start=1
                      /locus_tag="HYDPIDRAFT_97845"
                      /product="ABC transporter KU43-transporter-1"
-                     /label=KU43-transporter-1
-                     /note="GO_component: GO:16021 - integral to membrane; 
-                     GO_function: GO:5524; ATPase activity - ATP binding 
-                     [Evidence 42626] [PMID 16887];
-                     GO_process: GO:6810 - transport"
+                     /label="KU43-transporter-1"
+                     /note="GO_component: GO:16021 - integral to membrane;
+                     GO_function: GO:5524; ATPase activity - ATP binding
+                     [Evidence 42626] [PMID 16887]; GO_process: GO:6810 -
+                     transport"
                      /db_xref="InterPro:IPR003439"
                      /db_xref="InterPro:IPR010929"
                      /db_xref="InterPro:IPR013525"
@@ -140,13 +143,15 @@ FEATURES             Location/Qualifiers
                      SHLLAIGRQNITCASQELVTLNPTSGLTCAAYLESFVDSVGGYLMNPDATDACQYCPYR
                      TTDQYMLNSFNIKYNLHWRDAGIMLGTIVFNVFAIYAFTYIFRIHTGSWINWKKTASGK
                      K"
+                     /Pfam="ABC_trans_N, ABC_tran, ABC2_membrane_7,
+                     ABC2_membrane, PDR_CDR"
      CDS             join(11422..11626,11694..11820,11877..12065,12131..12282,
                      12342..12595,12773..12962,13015..13082,13127..13140,
                      13203..13524)
                      /codon_start=1
                      /locus_tag="HYDPIDRAFT_97981"
                      /product="cytochrome P450 monooxygenase KU43-P450-2"
-                     /label=KU43-P450-2
+                     /label="KU43-P450-2"
                      /note="GO_function: GO:4497; iron ion binding -
                      monooxygenase activity [Evidence 20037] [PMID 5506]"
                      /db_xref="InterPro:IPR001128"
@@ -161,11 +166,12 @@ FEATURES             Location/Qualifiers
                      KGRLPDFDDRPSLPYVEALLRELMRWHQVIPFGIGHAVTEDDVYDGVFIPKSMLTIPWS
                      WAIAHDESKYPDPHTFNPSRFLTPEGKLNDDDMYIIFGFGRRICPGRHLAVASLWAAIV
                      SILAAFDIRKAKDEKGNDIEIVPIFAPGASSYVSVFVHCSSVSEHRLG"
+                     /Pfam="p450"
      CDS             complement(join(14691..15208,15251..15325,15377..15593))
                      /codon_start=1
                      /locus_tag="HYDPIDRAFT_97813"
                      /product="hypothetical protein KU43-HP-2"
-                     /label=KU43-HP-2
+                     /label="KU43-HP-2"
                      /db_xref="JGIDB:Hydpi2_97813"
                      /protein_id="KIJ60842.1"
                      /translation="MRRSHRPTPRWANLSQVAPYPCIIGSSECNSGRLERFQLDRRFQL
@@ -173,15 +179,16 @@ FEATURES             Location/Qualifiers
                      KLFRTTTESFAGHFVPRDALDPAMLSVVKPFDRAPDSPEPELSSLTSLNPLQGRVSAIH
                      ASDFFHLFSENKQLHLARALAGLLSPQTGSLICGGNWGLPEKGMMKEGIFDSRIEMFCH
                      SPQTWTELWDGVVSSFPSGQVKVDAHISEIEMEGFNFWYLRWCVRRL"
+                     /Pfam="Trt5"
      CDS             complement(join(16267..16342,16406..16672,16727..16751,
                      16807..16863,16914..17103,17169..17182,17245..17362,
                      17415..17530,17590..17741,17807..17995,18052..18178,
                      18246..18297))
                      /codon_start=1
                      /locus_tag="HYDPIDRAFT_116705"
-                     /product="truncated cytochrome P450 monooxygenase 
+                     /product="truncated cytochrome P450 monooxygenase
                      KU43-P450-3"
-                     /label=KU43-P450-3
+                     /label="KU43-P450-3"
                      /note="GO_function: GO:4497; iron ion binding -
                      monooxygenase activity [Evidence 20037] [PMID 5506]"
                      /db_xref="InterPro:IPR001128"
@@ -196,6 +203,7 @@ FEATURES             Location/Qualifiers
                      IVTVNIWAIAHDKSKYPDPHTFNPSRFLTPEGKLNDDDMHVIFGFGRRICPGRHLAAAS
                      LWAAIVSILATFDIRKAKDEKGDDIEITPIFAPGATSRPLPFPCKITPRSVETENLVRI
                      DA"
+                     /Pfam="p450"
      CDS             complement(join(19156..19481,19594..19616,19757..20169,
                      20217..20356,20412..20780,20830..21093,21146..21272,
                      21332..21397,21458..21546,21600..21710,21736..21985,
@@ -209,10 +217,9 @@ FEATURES             Location/Qualifiers
                      /gene="PKS2"
                      /locus_tag="HYDPIDRAFT_189823"
                      /product="polyketide synthase KU43-HRPKS-TE"
-                     /label=KU43-HRPKS-TE
+                     /label="KU43-HRPKS-TE"
                      /note="GO_function: GO:16788 - hydrolase activity, acting
-                     on ester bonds;
-                     GO_process: GO:9058 - biosynthetic process"
+                     on ester bonds; GO_process: GO:9058 - biosynthetic process"
                      /db_xref="InterPro:IPR001031"
                      /db_xref="InterPro:IPR013217"
                      /db_xref="InterPro:IPR013968"
@@ -267,15 +274,17 @@ FEATURES             Location/Qualifiers
                      LHPQSGLPQLLEQVEKCDHPKVIPPTMTMMTGTTISVGKHRSQSSIDLGCSDTARAQAA
                      KEVSGIMVSSMWRSWTAKSTKGVTASAFSDSIRVSAYNASPSRLLLPSLGANAGPQCDG
                      GRKWYQAPKMT"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_DH, PKS_NRPS_MT, fPKS_ER,
+                     fPKS_KR, ACP_PCP, Thioesterase"
      gap             23569..23891
                      /estimated_length=323
      CDS             join(31458..32061,32117..32358,32415..32564,32618..32815,
                      32869..33014,33073..33242,33324..33589)
                      /codon_start=1
                      /locus_tag="HYDPIDRAFT_31893"
-                     /product="indole-3-acetic acid-amido synthetase 
+                     /product="indole-3-acetic acid-amido synthetase
                      KU43-indole-3-acetic-acid-amido-synthetase"
-                     /label=KU43-indole-3-acetic-acid-amido-synthetase
+                     /label="KU43-indole-3-acetic-acid-amido-synthetase"
                      /db_xref="InterPro:IPR004993"
                      /db_xref="JGIDB:Hydpi2_31893"
                      /protein_id="KIJ60844.1"
@@ -290,11 +299,12 @@ FEATURES             Location/Qualifiers
                      ANVISNAILSTTEDTIGQVTEFTSFLDSRDNQVTIGYLVEIGGEIGPNPSLARRRVLDA
                      LMEQHHMIRVNIEMKKMRLPTIRIVERGTFGAYRHWRVENENVSLAQVKVPVVFKNEEL
                      LKQLLKGVVQEIQEP"
+                     /Pfam="GH3"
      CDS             34118..34369
                      /codon_start=1
                      /locus_tag="HYDPIDRAFT_116706"
                      /product="hypothetical protein KU43-HP-3"
-                     /label=KU43-HP-3
+                     /label="KU43-HP-3"
                      /db_xref="JGIDB:Hydpi2_116706"
                      /protein_id="KIJ60845.1"
                      /translation="MQSVLHLRHIWPRLRIRYAPGFVSQQAMPLKYRPNTARTSQARGR
@@ -305,7 +315,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="HYDPIDRAFT_31894"
                      /product="cytochrome P450 monooxygenase KU43-P450-4"
-                     /label=KU43-P450-4
+                     /label="KU43-P450-4"
                      /note="GO_function: GO:4497; iron ion binding -
                      monooxygenase activity [Evidence 20037] [PMID 5506]"
                      /db_xref="InterPro:IPR001128"
@@ -320,16 +330,16 @@ FEATURES             Location/Qualifiers
                      LPDFDDRPSLPYIEAVLRETLRWQQASPFGAPHTTTEDDVYDGVFIPKSMLTTPLSWST
                      YGTAIAHDESKYPDPHTFNPSRFLTPEGKLNDDDMHVDFGFGRRICPGRHVAEASLWAA
                      IVSILAAFNVRKAKDEKGNDIEITPAMTPGQVVRPVPFPCRIIPRSAEKENLVRMDD"
+                     /Pfam="p450"
      CDS             complement(join(37767..38285,38338..38499))
                      /codon_start=1
                      /locus_tag="HYDPIDRAFT_177260"
                      /product="methyltransferase KU43-C-MT-2"
-                     /label=KU43-C-MT-2
-                     /note="GO_component: GO:16021 - integral to membrane; 
-                     GO_function: GO:4671 - protein-S-isoprenylcysteine 
-                     O-methyltransferase activity;
-                     GO_process: GO:6481 - C-terminal protein amino acid 
-                     methylation"
+                     /label="KU43-C-MT-2"
+                     /note="GO_component: GO:16021 - integral to membrane;
+                     GO_function: GO:4671 - protein-S-isoprenylcysteine
+                     O-methyltransferase activity; GO_process: GO:6481 -
+                     C-terminal protein amino acid methylation"
                      /db_xref="InterPro:IPR007269"
                      /db_xref="JGIDB:Hydpi2_177260"
                      /protein_id="KIJ60847.1"
@@ -338,6 +348,7 @@ FEATURES             Location/Qualifiers
                      WQCYRTLGRFFTFELSVKKDHRLVTQGPYSVVRHPSYSGTLLLTTGMLLVNAHPESWLR
                      TSGVLDFTPLKIFLLGWASVMVAITTSLFARSAHEDELMRKEFGAEWDRWASTVRYRII
                      PGIY"
+                     /Pfam="ICMT"
      CDS             join(39468..39541,39600..39808,39869..40298,40356..40615,
                      40681..40999,41069..41164,41217..41438,41498..41693,
                      41755..41970,42047..42481,42553..42656,42711..42827,
@@ -346,11 +357,11 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="HYDPIDRAFT_189826"
                      /product="ABC transporter KU43-transporter-2"
-                     /label=KU43-transporter-2
-                     /note="GO_component: GO:16021 - integral to membrane; 
-                     GO_function: GO:5524; ATPase activity - ATP binding 
-                     [Evidence 42626] [PMID 16887];
-                     GO_process: GO:6810 - transport"
+                     /label="KU43-transporter-2"
+                     /note="GO_component: GO:16021 - integral to membrane;
+                     GO_function: GO:5524; ATPase activity - ATP binding
+                     [Evidence 42626] [PMID 16887]; GO_process: GO:6810 -
+                     transport"
                      /db_xref="InterPro:IPR003439"
                      /db_xref="InterPro:IPR010929"
                      /db_xref="InterPro:IPR013525"
@@ -381,6 +392,8 @@ FEATURES             Location/Qualifiers
                      PFTYLVEGLLGQAIGRQNITCASQELVTLNPTSDSTCAAYLESFVDSVGGYLMNPDATD
                      ACQYCPYRTTDQYMLNSFNIKYNLHWRDAGIMLGTIVFNVFAIYAFTYIFRIHTGSWIN
                      WKKTASGKK"
+                     /Pfam="ABC_trans_N, ABC_tran, ABC2_membrane_7,
+                     ABC2_membrane, PDR_CDR"
 ORIGIN
         1 atggtgtggt ttgccagagc ttcagagagc acggtcatgg actctgcgcg tagccaaatt
        61 ctgtggttct tgcccctatt gggtgccgtt ggtgttctgc tcagcagtta ccgcaagaaa

@@ -1,26 +1,26 @@
-LOCUS       FBGC00524       31150 bp DNA     linear   UNA 29-MAR-2023
+LOCUS       FBGC00524              31150 bp    DNA     linear   UNA 29-MAR-2023
 DEFINITION  duclauxin.
 ACCESSION   FBGC00524
-VERSION     .
+VERSION     FBGC00524
 KEYWORDS    .
 SOURCE      Talaromyces stipitatus ATCC 10500
   ORGANISM  Talaromyces stipitatus ATCC 10500
+            .
 REFERENCE   1  (bases 1 to 31150)
-  AUTHORS   Gao SS, Zhang T, Garcia-Borras M, Hung YS, Billingsley JM, Houk KN, 
+  AUTHORS   Gao SS, Zhang T, Garcia-Borras M, Hung YS, Billingsley JM, Houk KN,
             Hu Y, Tang Y.
-  TITLE     Biosynthesis of Heptacyclic Duclauxins Requires Extensive Redox 
+  TITLE     Biosynthesis of Heptacyclic Duclauxins Requires Extensive Redox
             Modifications of the Phenalenone Aromatic Polyketide.
   JOURNAL   J Am Chem Soc 2018;140:6991-6997
-  PUBMED    29741874
+   PUBMED   29741874
 REFERENCE   2  (bases 1 to 31150)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Mar 29, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1021/jacs.8b03705"; journalName: "J Am Chem Soc"; date: "2018"; 
+  JOURNAL   Exported Mar 29, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1021/jacs.8b03705"; journalName: "J Am Chem Soc"; date: "2018";
             volume: "140"; pages: "6991-6997"
-COMMENT     Assembly name: JCVI-TSTA1-3.0
+            Assembly name: JCVI-TSTA1-3.0
             Genome coverage: 8.09x.
 FEATURES             Location/Qualifiers
      source          1..31150
@@ -35,7 +35,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="TSTA_083230"
                      /product="truncated aldo-keto reductase DuxA"
-                     /label=duxA
+                     /label="duxA"
                      /note="encoded by transcript TSTA_083230A"
                      /db_xref="GeneID:8105201"
                      /protein_id="XP_002478053.1"
@@ -43,11 +43,12 @@ FEATURES             Location/Qualifiers
                      AVDASLRRLGVEYIDLLQIHSFDYNTPVEEIMEPLHDLVNSDKVRYIGASSVWTYQFAM
                      MQFCAEKNGWTKFISMQNHYNLLCREEREMKKFCNETGVGLIPWAPPCRGYIARPVSSP
                      QPSDRTAVELKMGRILSVGQTETDHAIINRVEEIVQKKGWKMSTVALA"
+                     /Pfam="Aldo_ket_red"
      CDS             complement(join(2001..3344,3405..3638))
                      /codon_start=1
                      /locus_tag="TSTA_083240"
                      /product="FAD-linked oxidoreductase DuxB"
-                     /label=duxB
+                     /label="duxB"
                      /note="encoded by transcript TSTA_083240A"
                      /protein_id="EED21091.1"
                      /translation="MSGIRLLYMSQLTALVFSQSNSSLFDPCSHAPEDVMVRDIVVIGG
@@ -60,11 +61,12 @@ FEATURES             Location/Qualifiers
                      PFKQQVPAIAVADGFYNKLNALQGYRGMHYTGNAFDASGSSSLFNFTLQLLPNINQGID
                      AHPVDPSMGTCNNAGGTSEDTPASEGTTNSSDDITDTSDDTIAATEDGTGTSEDTTTQV
                      SENTTETY"
+                     /Pfam="NAD_binding_8"
      CDS             join(4859..4879,4939..5102,5166..5925,5983..7359)
                      /codon_start=1
                      /locus_tag="TSTA_083250"
                      /product="transcription factor DuxC"
-                     /label=duxC
+                     /label="duxC"
                      /note="encoded by transcript TSTA_083250A"
                      /protein_id="EED21092.1"
                      /translation="MPATDRRNRSEDAIPDLACTRCRERKIRCGRERPQCSNCERDVGI
@@ -81,12 +83,13 @@ FEATURES             Location/Qualifiers
                      SYASESSSLEVAVESTQSNSSSDPQLPPEPETTMISSMPSILNGHMSDLSHLVPHGSST
                      SGPFSWESLLSVSTTLDPPTTLDAQSMIHPSGTVSSTDLLTQLLDVPQPHSKPMSDTIQ
                      WHSLPSDQSRAKKRLRTSED"
+                     /Pfam="EqxR, Zn_clus"
      CDS             complement(join(7580..8544,8610..8795,8849..9146,
                      9212..9337))
                      /codon_start=1
                      /locus_tag="TSTA_083260"
                      /product="cytochrome P450 monooxygenase DuxD"
-                     /label=duxD
+                     /label="duxD"
                      /note="encoded by transcript TSTA_083260A"
                      /protein_id="EED21093.1"
                      /translation="MNSEVCEEVTSFFGNIMENAIFEKDVTSRKLISVVLVTLFTGPSS
@@ -99,11 +102,12 @@ FEATURES             Location/Qualifiers
                      DGGYVPAGTTVGVNHFACYHDQRNFYRPNEFLPERWMPGAEDETSLFSHDQRNCLQPFS
                      LGPRNCLGKNLAWAEIRLITVHLIYLFDMELDRSVGDRWTERQKVFGFWDKPPLLVHLM
                      PKHKTTM"
+                     /Pfam="p450"
      CDS             join(9637..9726,9789..10383,10448..10732,10786..11090)
                      /codon_start=1
                      /locus_tag="TSTA_083270"
                      /product="FAD-dependent monooxygenase DuxE"
-                     /label=duxE
+                     /label="duxE"
                      /note="encoded by transcript TSTA_083270A"
                      /protein_id="EED21094.1"
                      /translation="MESKLPQEDVHVIIIGAGITGLILAQALKKEGIRYSIFEREAALN
@@ -114,21 +118,23 @@ FEATURES             Location/Qualifiers
                      FTWIPDDTQIHKADISYWIPQPWDNRQGRITLVGDAAHPMPPYRGQGLNHCICDVSNLL
                      DGFRAVVAGQSILSEVITSYEIEMVPRGQEEVKCSIENGYMLHDWAKVQESPVFRNGFR
                      PMEGHDKSGIGQENHPINHQQAQVV"
+                     /Pfam="FAD_binding_3"
      CDS             join(11471..11620,11679..11930)
                      /codon_start=1
                      /locus_tag="TSTA_083280"
                      /product="EthD domain-containing protein DuxF"
-                     /label=duxF
+                     /label="duxF"
                      /note="encoded by transcript TSTA_083280A"
                      /protein_id="EED21095.1"
                      /translation="MSSSRVYCLTICACRKEGMDEDEYHRYLSEHHSNLVKGHLAAKGI
                      LSYTMTHNTTETKQMMTQIFGTYPEGDICKYDCFIQIHFKDVLDYIRAKDDPYYKEVIL
                      PDHAHFADPANTVFVTGWLETHVINGEAV"
+                     /Pfam="EthD"
      CDS             join(12420..12461,12523..12788,12862..12935,12996..13591)
                      /codon_start=1
                      /locus_tag="TSTA_083290"
                      /product="short-chain dehydrogenase/reductase DuxG"
-                     /label=duxG
+                     /label="duxG"
                      /note="encoded by transcript TSTA_083290A"
                      /protein_id="EED21096.1"
                      /translation="MIANNRIKNVAVVGAGGNVGSYMANALLKTGEHTVTAITRHNSQS
@@ -137,12 +143,13 @@ FEATURES             Location/Qualifiers
                      DFANRTVKFYNKGEDKICTSTWPQVGRAVTAILSLPIQPEEPNTEAYLEKLKNRVVYVN
                      SFNISQKDMLVSALRVTGTKEEDWTITKEPATQVYTMGLEQLKEGKREAFANVLYSRIF
                      FPDGAGNFEDTKGTLNTMLGLPKEDLDEATKVAIERQKTQGGRH"
+                     /Pfam="NmrA"
      CDS             complement(join(13945..13987,14052..14267,14328..14389,
                      14445..14776,14842..14938))
                      /codon_start=1
                      /locus_tag="TSTA_083300"
                      /product="dienelactone hydrolase DuxH"
-                     /label=duxH
+                     /label="duxH"
                      /note="encoded by transcript TSTA_083300A"
                      /protein_id="EED21098.1"
                      /translation="MALKISDKVSLTVIRDSYSPWGSEETIGDVKTYTTGRQDATIGVI
@@ -150,20 +157,20 @@ FEATURES             Location/Qualifiers
                      GYAAPNKHVDPLLEFMKHVQSRFPTVTKWGSFGLCWGAKVVALTSMADTPFKVSAQAHP
                      GMLDPADAKKITIPHLVMASKDEPSEAVANFKTVIEKNGSGGSLTTYMTMHHGWMGSKA
                      NLVEEETFVGYKQGYTQLIEFFKEYLV"
+                     /Pfam="DLH"
      CDS             complement(join(16112..17743,17800..18561,18612..20860,
                      20911..21104,21157..22157,22216..22507,22565..22908))
                      /codon_start=1
                      /locus_tag="TSTA_083310"
                      /product="polyketide synthase DuxI"
                      /EC_number="2.3.1.94"
-                     /label=duxI
-                     /note="encoded by transcript TSTA_083310A;
-                     similar to SwissProt:Q03149: Conidial yellow pigment 
-                     biosynthesis polyketide synthase (EC 2.3.1.-)(PKS). 
-                     taxon:162425 (Emericella nidulans); % similarity: 62.3; 
-                     coverage: 99.5%;
-                     similar to RefSeq:XP_001261235.1: polyketide synthetase 
-                     PksP taxon:331117 (Neosartorya fischeri NRRL 181); % 
+                     /label="duxI"
+                     /note="encoded by transcript TSTA_083310A; similar to
+                     SwissProt:Q03149: Conidial yellow pigment biosynthesis
+                     polyketide synthase (EC 2.3.1.-)(PKS). taxon:162425
+                     (Emericella nidulans); % similarity: 62.3; coverage: 99.5%;
+                     similar to RefSeq:XP_001261235.1: polyketide synthetase
+                     PksP taxon:331117 (Neosartorya fischeri NRRL 181); %
                      similarity: 63.2; coverage: 99.0%"
                      /protein_id="EED21099.1"
                      /translation="MAGTAVAFAEAPTTVNGMNKEASVHIYIFGDQTVSFEDTLRSLLN
@@ -203,11 +210,13 @@ FEATURES             Location/Qualifiers
                      AQQLAREGCKTEKLILIDSPNPVGLENPPQRMYDFFESIGIFGSGSKPPPSWLRPHFDA
                      FIRLLDNYKIRPVANSGFKMEVYMLYARDGICSDPSVPRPEIRPDDPREMIWLLNERTD
                      FSGDGWASIVGRENLQITVMDKVNHFSMMDKGPHMEQFASFLHRALA"
+                     /Pfam="SAT2, PKS_KS, PKS_AT, fPKS_PT, ACP_PCP,
+                     Thioesterase"
      CDS             24439..25572
                      /codon_start=1
                      /locus_tag="TSTA_083320"
                      /product="iron-containing alcohol dehydrogenase DuxJ"
-                     /label=duxJ
+                     /label="duxJ"
                      /note="encoded by transcript TSTA_083320A"
                      /protein_id="EED21100.1"
                      /translation="MISGHWSPGLRNLQHVFYGPGCVEKHLLGILKTSSSKVFIVTGTS
@@ -217,12 +226,13 @@ FEATURES             Location/Qualifiers
                      RDSHPNDENVNTRLMLAAYASSGLKGDNLPGGMGLSHSLGHALGSPYGIPHGITSCMTL
                      GKVVKLKAFESPVNAGQIARLSESTGGSRTGDNFSDAIAVGDRILELVQSLNLNIGTLS
                      DRGVSKDEVPIIMQRALGGITKGPLYDQVKDLIQSLF"
+                     /Pfam="Fe-ADH"
      CDS             join(26292..26791,26854..26949,26996..27081,27132..27676,
                      27728..27802)
                      /codon_start=1
                      /locus_tag="TSTA_083330"
                      /product="methyltransferase DuxK"
-                     /label=duxK
+                     /label="duxK"
                      /note="encoded by transcript TSTA_083330A"
                      /protein_id="EED21101.1"
                      /translation="MEGMTIDQLASDILSECTLMQRYCQTTGIALPSLLAGATPDFWST
@@ -233,11 +243,12 @@ FEATURES             Location/Qualifiers
                      EFLRRGQALVDPRSMSRISFTHLTSNFEPPPPSDANTVCAYVIRNLFWNWTDDEAVRLL
                      QQLAQILHGSPWTHIIVTDGVSPLPGEFPPHVEISYRRRDITTMTMHNVKQRSQEEWLK
                      LFSRVDPALKITTHFESSSHVCKGLWELRLETGE"
+                     /Pfam="MdpA"
      CDS             complement(join(28280..28547,28607..29778,29825..29953))
                      /codon_start=1
                      /locus_tag="TSTA_083340"
                      /product="cytochrome P450 monooxygenase DuxL"
-                     /label=duxL
+                     /label="duxL"
                      /note="encoded by transcript TSTA_083340A"
                      /protein_id="EED21102.1"
                      /translation="MDSSNTGLLGHLILKASGRKMDIPMLNTVIILFIIYLCYSVIRRL
@@ -250,17 +261,19 @@ FEATURES             Location/Qualifiers
                      GVLLGGLYLIPKGTIVSTQAYSLHRNPDNWKDPFRWDHKRWLDPAQSHSISTDRFQPFS
                      AGSRMCAAYHLALMEIRIMTAIFFKTFPGARLAPSVTPESMALVDRFNLFPKHDSCEVI
                      LSGQN"
+                     /Pfam="p450"
      CDS             join(30438..30525,30577..30710,30760..30828,30890..31150)
                      /codon_start=1
                      /locus_tag="TSTA_083350"
                      /product="cupin domain-containing protein DuxM"
-                     /label=duxM
+                     /label="duxM"
                      /note="encoded by transcript TSTA_083350A"
                      /protein_id="EED21103.1"
                      /translation="MDQKHKEYIKALHVGHVRPDEIPWRRLGQYLYRVLEDGSQTQMRL
                      CMIESLIPPRSEGPVFHFHEMHDEGFIITKGRIRFHTPGAPPIDAKAGDIITVPIRLPH
                      KFSNPFNEEGVFINTITPGFFVRYFEYLEQLLGDGTKLTAEANIAALKRFATVPLDEDT
                      IMKLIEESKANGNGDVDIDI"
+                     /Pfam="Cupin_2"
 ORIGIN
         1 tcacgccaaa gcaactgtac tcattttcca tcctttcttc tgtactatct cctccactcg
        61 attaataatg gcatggtcag tctccgtctg cccaacggat aggatcctcc ccatttttag

@@ -1,28 +1,28 @@
-LOCUS       FBGC00521       14194 bp DNA     linear   UNA 28-MAR-2023
+LOCUS       FBGC00521              14194 bp    DNA     linear   UNA 28-MAR-2023
 DEFINITION  psychrophilin.
 ACCESSION   FBGC00521
-VERSION     .
+VERSION     FBGC00521
 KEYWORDS    .
 SOURCE      Penicillium sp. YT-2016
   ORGANISM  Penicillium sp. YT-2016
+            .
 REFERENCE   1  (bases 1 to 14194)
   AUTHORS   Zhao M, Lin HC, Tang Y.
-  TITLE     Biosynthesis of the alpha-nitro-containing cyclic tripeptide 
+  TITLE     Biosynthesis of the alpha-nitro-containing cyclic tripeptide
             psychrophilin.
   JOURNAL   J Antibiot (Tokyo) 2016;69:571-3
-  PUBMED    26956794
+   PUBMED   26956794
 REFERENCE   2  (bases 1 to 14194)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Mar 28, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1038/ja.2016.33"; journalName: "J Antibiot (Tokyo)"; date: 
-            "2016"; volume: "69"; pages: "571-3"
+  JOURNAL   Exported Mar 28, 2023 from SnapGene 6.2.1 https://www.snapgene.com
 COMMENT     ##Assembly-Data-START##
             Assembly Method       :: SOAPdenovo v. 2
             Sequencing Technology :: Illumina
             ##Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1038/ja.2016.33"; journalName: "J Antibiot (Tokyo)"; date:
+            "2016"; volume: "69"; pages: "571-3"
 FEATURES             Location/Qualifiers
      source          1..14194
                      /isolate="IBT 24420"
@@ -32,7 +32,7 @@ FEATURES             Location/Qualifiers
      CDS             1..6540
                      /codon_start=1
                      /product="nonribosomal peptide synthetase PsyA"
-                     /label=psyA
+                     /label="psyA"
                      /note="two module nonribosomal peptide synthetase; NRPS"
                      /protein_id="AMQ36132.1"
                      /translation="MPGTIVLEPRTLSSEDLCRLKQWNALIPESQAGCVHQLINTHCEE
@@ -73,10 +73,11 @@ FEATURES             Location/Qualifiers
                      HHTHAQCTQTLEYDYMGLSEILQQSSEMPPGTQFGCVVQHQNIAQTGEQGPELVLDGVT
                      CQSSALANFNPMSGLWILSTPRGESLEVMTCTVEELLSPAEARGLNDELCETIMDLAQN
                      PDASLDLNIW"
+                     /Pfam="AA-adenyl-dom, ACP_PCP, NRPS_C, NRPS_CT"
      CDS             complement(join(7379..8311,8365..8838,8899..9003))
                      /codon_start=1
                      /product="cytochrome P450 monooxygenase PsyB"
-                     /label=psyB
+                     /label="psyB"
                      /note="P450 monooxygenase"
                      /protein_id="AMQ36133.1"
                      /translation="MDGIRSFMGLPFSAEGMVMPSYAEVLGAVLGITVSYYALYAAYCL
@@ -88,10 +89,11 @@ FEATURES             Location/Qualifiers
                      GGFASADEITAISTKKLSFMQACLTEALRKFPPSAVVFPRRVPPGGDYIDGNWIPGDMQ
                      VGICVFCAHNSSLNFRDPQQYVPERWLGDERYKDDDRQAMQAFSYGPRNCLGQNLAKTE
                      LRLILARFIWEFDWELTPGTGDWDQTLVFRGWVKKPLKLVLTPVR"
+                     /Pfam="p450"
      CDS             join(10115..10612,10664..14194)
                      /codon_start=1
                      /product="nonribosomal peptide synthetase PsyC"
-                     /label=psyC
+                     /label="psyC"
                      /note="monomodule nonribosomal peptide synthetase; NRPS
                      revised sequence"
                      /protein_id="AMQ36134.1"
@@ -118,6 +120,7 @@ FEATURES             Location/Qualifiers
                      GQTVNGRNLPLVGIDQILGPCINFVPFRVRLQTNCTVREWLNYVQSQYLLTTDYEDVPL
                      QQITRTCTSWPAEHGEGLPFIFQHQNVQHQFNLEFESEDEKHRLISTSCEPNLHVYPLS
                      EDWIFSVPYETKLKLQIVARESRLPFDTASGLVRELAELVEHFARFPDSMMSSLTSNL"
+                     /Pfam="NRPS_C, AA-adenyl-dom, ACP_PCP, NRPS_CT"
 ORIGIN
         1 atgccaggca ctattgtgct ggaacctagg acgctctcga gcgaggatct ctgccgtttg
        61 aaacaatgga acgcgctcat tccggaatcc caagctgggt gtgttcatca gctcatcaac

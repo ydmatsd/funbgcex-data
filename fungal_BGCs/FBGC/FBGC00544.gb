@@ -1,32 +1,32 @@
-LOCUS       FBGC00544       13834 bp DNA     linear   UNA 06-APR-2023
+LOCUS       FBGC00544              13834 bp    DNA     linear   UNA 06-APR-2023
 DEFINITION  xylariolide D.
 ACCESSION   FBGC00544
-VERSION     .
+VERSION     FBGC00544
 KEYWORDS    WGS.
 SOURCE      Penicillium crustosum G10
   ORGANISM  Penicillium crustosum G10
+            .
 REFERENCE   1  (bases 1 to 13834)
   AUTHORS   Stierle SA, Li SM.
-  TITLE     Biosynthesis of Xylariolide D in Penicillium crustosum Implies a 
-            Chain Branching Reaction Catalyzed by a Highly Reducing Polyketide 
+  TITLE     Biosynthesis of Xylariolide D in Penicillium crustosum Implies a
+            Chain Branching Reaction Catalyzed by a Highly Reducing Polyketide
             Synthase.
   JOURNAL   J Fungi 2022;8(5):493
-  PUBMED    35628749
+   PUBMED   35628749
 REFERENCE   2  (bases 1 to 13834)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Apr 6, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.3390/jof8050493"; journalName: "J Fungi"; date: "2022"; volume: 
-            "8"; issue: "5"; pages: "493"
+  JOURNAL   Exported Apr 6, 2023 from SnapGene 6.2.1 https://www.snapgene.com
 COMMENT     ##Genome-Assembly-Data-START##
             Assembly Method        :: SPAdes v. August-2019
             Genome Representation  :: Full
             Expected Final Version :: Yes
             Genome Coverage        :: 15.0x
-            Sequencing Technology  :: Illumina HiSeq 
+            Sequencing Technology  :: Illumina HiSeq
             ##Genome-Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.3390/jof8050493"; journalName: "J Fungi"; date: "2022"; volume:
+            "8"; issue: "5"; pages: "493"
 FEATURES             Location/Qualifiers
      source          1..13834
                      /strain="G10"
@@ -35,7 +35,7 @@ FEATURES             Location/Qualifiers
                      /lat_lon="39.996634 N 77.217872 W"
                      /isolation_source="Golden Delicious apple"
                      /collected_by="Wayne M. Jurick II"
-                     /collection_date=2011
+                     /collection_date="2011"
                      /db_xref="taxon:36656"
                      /organism="Penicillium crustosum"
                      /submitter_seqid="G10_115"
@@ -43,7 +43,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="PCG10_001211"
                      /product="cytochrome P450 monooxygenase XilC"
-                     /label=xilC
+                     /label="xilC"
                      /note="antiSMASH:Cluster_54"
                      /protein_id="KAF7517449.1"
                      /translation="MSRLEIALSSTLDHLLKHIFLGTVFLTSLYALYRWLLPKPLPGIP
@@ -56,11 +56,12 @@ FEATURES             Location/Qualifiers
                      ITSKLPYLDAVLEETLRLRAAMLVPRDATKDTELLGRRIPKGTVVLLVCQGPDYKPSPP
                      SKYWSDVKASRVYPGKGNPDLEVFDPERWLVRNEKGDLEFDGSSYPQLAFGLGIRSCWG
                      RRLAMVEMRIMTTLMTLKFELKDVPEGLRGHEASYDISYRAKKGFLRLKSLGEVP"
-     CDS             complement(join(2993..4028,4083..4571,4644..4786,4845..5120,
-                     5211..5231))
+                     /Pfam="p450"
+     CDS             complement(join(2993..4028,4083..4571,4644..4786,
+                     4845..5120,5211..5231))
                      /codon_start=1
                      /product="transcription factor XilB"
-                     /label=xilB
+                     /label="xilB"
                      /translation="MQGRKRRCDRQYPCNHCTRRRRPEECVYGSPPVNGPSCPSLPADQ
                      PETQPPQPVESARPMRETAEDDSEAHWSREHSALARSFGYFEDSNSNTMALLRQLELPD
                      QTDTQLNNASPSTWDTIQCELDLMPDRQIVDFLVQYFVYELNWMKQVIHAPSFLASYQL
@@ -73,11 +74,12 @@ FEATURES             Location/Qualifiers
                      DQDDHSTDLMGIKVRMTYRIAMQAVEQAIRRLQMLADLSDMAASGARVATLLFARCVQP
                      KQSPSPLALTSSGSGSLGSTQVPTPIERYGEQEKWPSLEAVDHYLMPDNFSSMAQEHSF
                      PSPQLSSLEFPTLWGEAFF"
+                     /Pfam="Fungal_trans"
      CDS             join(6243..6294,6346..7192,7255..13834)
                      /codon_start=1
                      /locus_tag="PCG10_001212"
                      /product="polyketide synthase XilA"
-                     /label=xilA
+                     /label="xilA"
                      /note="antiSMASH:Cluster_54"
                      /protein_id="KAF7517450.1"
                      /translation="MTAPLPPGPDPIALVGIGCHMPGGVRDLPALWEFLKEQKDVHREF
@@ -123,6 +125,8 @@ FEATURES             Location/Qualifiers
                      YHDPRVSLMLRAMDDAWRFGNEGGSDKATFGFDDADASPAVQLRRHFEASMKRIRNGQD
                      EKEVAETVKLVSDAIRTTVAGMLFIDPSVVKESHTVVDHGIDSLLAAEFRTWLNSSFGK
                      NISMLQLMDARSNIGSIARVIVEEAIGA"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_DH, PKS_NRPS_MT, fPKS_ER,
+                     fPKS_KR, ACP_PCP"
 ORIGIN
         1 ttaagggact tccccaagac tctttagacg aaggaaccct ttcttcgccc gataagaaat
        61 atcataactc gcctcatgcc cacgcaaccc ttctggtaca tccttcaact caaatttgag

@@ -1,31 +1,31 @@
-LOCUS       FBGC00516       40976 bp DNA     linear   UNA 27-MAR-2023
+LOCUS       FBGC00516              40976 bp    DNA     linear   UNA 27-MAR-2023
 DEFINITION  cornexistin.
 ACCESSION   FBGC00516
-VERSION     .
+VERSION     FBGC00516
 KEYWORDS    .
 SOURCE      Paecilomyces divaricatus K5103
   ORGANISM  Paecilomyces divaricatus K5103
+            .
 REFERENCE   1  (bases 1 to 40976)
   AUTHORS   Williams K, Szwalbe AJ, Dickson C, Desson TR, Mulholland NP, Vincent
             JL, Clough JM, Bailey AM, Butts CP, Willis CL, Simpson TJ, Cox RJ.
-  TITLE     Genetic and chemical characterisation of the cornexistin pathway 
+  TITLE     Genetic and chemical characterisation of the cornexistin pathway
             provides further insight into maleidride biosynthesis.
   JOURNAL   Chem Commun (Camb) 2017;53:7965-7968
-  PUBMED    28660939
+   PUBMED   28660939
 REFERENCE   2  (bases 1 to 40976)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Mar 27, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1039/c7cc03303f"; journalName: "Chem Commun (Camb)"; date: 
-            "2017"; volume: "53"; pages: "7965-7968"
+  JOURNAL   Exported Mar 27, 2023 from SnapGene 6.2.1 https://www.snapgene.com
 COMMENT     ##Assembly-Data-START##
-            Assembly Method       :: ABySS-pe v. 2012; SSPACE v. 2012;
-                                     GApCloser v. 2012
+            Assembly Method :: ABySS-pe v. 2012; SSPACE v. 2012; GApCloser v.
+            2012
             Assembly Name         :: Cornexistin cluster
             Sequencing Technology :: 454; Illumina
             ##Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1039/c7cc03303f"; journalName: "Chem Commun (Camb)"; date:
+            "2017"; volume: "53"; pages: "7965-7968"
 FEATURES             Location/Qualifiers
      source          1..40976
                      /mol_type="genomic DNA"
@@ -35,7 +35,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="pvL14"
                      /product="transketolase PvL14"
-                     /label=pvL14
+                     /label="pvL14"
                      /protein_id="ASK38703.1"
                      /translation="MSSYKFPVDLKQFKQLKLDPKSPQLSAQQKNDLLHNINIFRDAII
                      AFTATGAARGLAGHTGGPFDTAPEVCILLAFMNANPDGFVDALYDEAGHRVATQYLLAA
@@ -49,11 +49,12 @@ FEATURES             Location/Qualifiers
                      RKGSAGYVVSYGDMLYRSLDAVERLRKEGLDVGLINKPTLNIVDEDTIKVYGSTPFVVV
                      VESIAQKTGLGSRLGSHLLERKLTPKFKAIGAVREGSGGLYEQINAQGLGPNDIIAAVK
                      EVSGK"
+                     /Pfam="Transketolase_N, Transketolase_C"
      CDS             complement(join(3531..3762,3835..4922,4983..5165))
                      /codon_start=1
                      /gene="pvL13"
                      /product="cytochrome P450 monooxygenase PvL13"
-                     /label=pvL13
+                     /label="pvL13"
                      /protein_id="ASK38704.1"
                      /translation="MDLLKELDAPSLAPSLLGTGVVLVVLYFLTVSIQNRIPPFDAPVV
                      SHAKGFLAALQEGKAKYRNQPFILNTPHHPTVILPRKWWEELKSLPESHISFEAERLYR
@@ -64,11 +65,12 @@ FEATURES             Location/Qualifiers
                      DSFCKESQRFCPPGLIVMSRKIMSDIPMSNGTILPKGLFVATSNYDATSDESVLGNPDQ
                      FDAFRYERMRLQPQQRNLHQLVSTSTSELSFGFGTHACPGRFFAAFEIKMILIYLLLNY
                      DLKFQEGVPPPRNEILVTAVMPSFQGKVMMKRRREKIGWHVD"
+                     /Pfam="p450"
      CDS             5689..7197
                      /codon_start=1
                      /gene="pvL12"
                      /product="major facilitator superfamily transporter PvL12"
-                     /label=pvL12
+                     /label="pvL12"
                      /protein_id="ASK38705.1"
                      /translation="MSAEAEKQSSSPADSSLQTIHDDRDQPPGDAEDPTLITWDGPDDP
                      ANPKNWSRRRKWAATMVVSGFNFISPLASAMIAPCLPALAAELDITSSVEQSMALSVFV
@@ -79,23 +81,25 @@ FEATURES             Location/Qualifiers
                      LLGAYLCAPTQDRIYRRLKDRNGGVGRPEYRIPLMIPSAILVPVGLFIYGWTAEYRTFW
                      IGPDIGIALYAAGYITSFQCVQVYIVDTYTNYAASALASVTVLRSLCAFTFPLFAPKMY
                      DALGYGWGNSMLAFIAMGLGWPGPFVLWRYGQALRERSPYAAEI"
+                     /Pfam="MFS_1"
      CDS             complement(join(8446..8701,8765..8967,9020..9213,
                      9298..9397))
                      /codon_start=1
                      /gene="pvL11"
                      /product="dienelactone hydrolase PvL11"
-                     /label=pvL11
+                     /label="pvL11"
                      /protein_id="ASK38706.1"
                      /translation="MSGHNKACLCLPVAVVDDYQAKGRYETVLDTKTYITGPSDASRAL
                      LLIYDAFGYSPQLLQGADILAASLNALVVVPDFFKGKVASESWFPPDTEEKKAAIGDWF
                      ATAGNFAVHIEPMKELVQQLSTQYPSVSGKWGAFGYCWGGKMVALTSGEGTIFKTSGQT
                      HPGMLSADDVSKINIPHIILASKDEDATAVAECKKVLEGPGKTGLVKSYPDQIHGWMAA
                      RANLKDETVRKAFEDGYKTAAEFFEQHL"
+                     /Pfam="DLH"
      CDS             complement(join(9731..10993,11051..11329))
                      /codon_start=1
                      /gene="pvL10"
                      /product="major facilitator superfamily transporter PvL10"
-                     /label=pvL10
+                     /label="pvL10"
                      /protein_id="ASK38707.1"
                      /translation="MPSASETTPLLGEDQCPKSSQGAIVPDFKPPQDELKAHSIFTRPQ
                      KILIVIIASLAAFFSPVSSAIYFPALGTLADALGVSVSLINLTVTTYLVMQGLAPSFIG
@@ -106,12 +110,13 @@ FEATURES             Location/Qualifiers
                      ATLTTGHIVDWNFRRLARIHHLDLRQGRQQDLSQFPIEKARLQVGMPIVGVGALSVLVY
                      GWTMQARTPLAVPLVALFVVGWTVSSSTNSISVLIVDLHLDTPATATAANNLVRCWMGA
                      LAVAVMGPAVEAIGIGWMGTVICAVYIGLLPMLMLVWRKGPTWRREKREKWPMMT"
+                     /Pfam="MFS_1"
      CDS             join(11875..12012,12067..12605,12660..12711,12785..13201,
                      13252..13393,13450..13566,13620..13784,13852..14114)
                      /codon_start=1
                      /gene="pvL9"
                      /product="carboxypeptidase PvL9"
-                     /label=pvL9
+                     /label="pvL9"
                      /protein_id="ASK38708.1"
                      /translation="MNLVSLFLTVAFIPSALAQSYYPPVPAGTTVVNSTQYPNASIEYK
                      ETTICETTPGVKGYSGYVRLPSDVVNSVNGPHTSNYFFWFFEARHDPDKAPLAIYLDGG
@@ -124,11 +129,12 @@ FEATURES             Location/Qualifiers
                      MYGDRDMDVSWIGGEEVSLAIDHSSAAEFAASGYESISVNAGYIGGVTRQYGRLSFSRV
                      FEAANRVPSYQPETAYQIFMRAIFGKDIATGSTVVDARYASTGPSSSGHIRNGLPVAPP
                      PECYIWAPATCTPAQLKSLGDGSAVVRDYIVVEW"
+                     /Pfam="Peptidase_S10"
      CDS             complement(14317..15789)
                      /codon_start=1
                      /gene="pvL8"
                      /product="transcription factor PvL8"
-                     /label=pvL8
+                     /label="pvL8"
                      /protein_id="ASK38709.1"
                      /translation="MPSSSFPHPPSPGETASKPGEPVKLRSTCDACQKAKHRCSREQPC
                      QHCKYNKVPCVYSALRRIGRPPRRKPPGDAAEREKTPKRSKNRAFQGNNTASTHASEGS
@@ -139,11 +145,12 @@ FEATURES             Location/Qualifiers
                      LLLLVALKIDNTVGMLESVSKFNLTLIRPGAASSLLAGSRRSSCGACDSASVSSGGSSQ
                      GSRASNNSLSGLMNSRRLLAGAFEIQAEEKIHFFKQFLCKRLRRLSSVLQQLQQRMLQA
                      PQTSISQTGFNLVSENRRRLQSVIGRLELWQG"
+                     /Pfam="EqxR"
      CDS             17461..18591
                      /codon_start=1
                      /gene="pvL7"
                      /product="gluconolactonase PvL7"
-                     /label=pvL7
+                     /label="pvL7"
                      /protein_id="ASK38710.1"
                      /translation="MHFNLLLVLTVLLRQATALVLPPSNSTSNSTGKFSARTVFQFPQG
                      YWLENLAVRGNGQVLATTYMPSAGLYLIDPTPNASYPAVLVHQFENSTSALGIVEAEGT
@@ -152,12 +159,13 @@ FEATURES             Location/Qualifiers
                      VHQGSLYFNNAGEFTLARMPIHSDGIAKGEPVVLATDLYSDGFCLYDADTVLVTMNIDN
                      GLAALDLESHRRWMVAGNMPDGVFTTPTSVELGRGEDAGKLAYVTMGGTYVATGAEDLV
                      GGSLVVVDLKSATTDPKGTGRGGLLVQETETIWLEL"
+                     /Pfam="AsR5"
      CDS             complement(join(18966..19060,19122..19204,19260..20012,
                      20086..20283,20352..20563))
                      /codon_start=1
                      /gene="pvL6"
                      /product="citrate synthase-like protein PvL6"
-                     /label=pvL6
+                     /label="pvL6"
                      /protein_id="ASK38711.1"
                      /translation="MSHGALHIRDSRTSREYEIPIRRNTVLATDLKQIKASPVGADRAD
                      KVGDGLRVFDPGLKNTCVVETNMTYTDGHRGLLLFRGYALEQLWQAEFEDMLHLLVWGK
@@ -167,11 +175,12 @@ FEATURES             Location/Qualifiers
                      PLHFGAPEAEYKTIQAVGSVDQVPAFLEEVKSGKRRLFGYGHRTYTTIDPRVKPIKDML
                      FSELDGDSDPLVKVAREIDRLSSTDEYFIKRKLHANADFYGTFFFNRLGFQPEEIPVAM
                      VAQRLVGILAHYRESMLKNKIRLFRPTHVYTGETEPVLEMTAPSAKL"
+                     /Pfam="Citrate_synt"
      CDS             join(22273..22562,22619..23366)
                      /codon_start=1
                      /gene="pvL5"
                      /product="2OG-Fe(II)-dependent dioxygenase PvL5"
-                     /label=pvL5
+                     /label="pvL5"
                      /protein_id="ASK38712.1"
                      /translation="MASKETFSKYPAFPDNIPTAAVPKISLRQILSRDPTVSKRLVDAG
                      KEFGCFKVDLTDAIDGPVLCQGVERGFDLGKAFFDQDIETKKAYKLSHENVGYKQAGVL
@@ -180,11 +189,12 @@ FEATURES             Location/Qualifiers
                      ILFNVLGGLQLQRQQPDGSIEWQYIPPEPGCALIMVGDAFKSFTDGEVPSCVHRVIQPP
                      GEQDRFDRYALGFFLKPANGASIGPVPRRGVTENGVNKASDYGEWAKNKNAALYNEMRQ
                      ENVAI"
+                     /Pfam="DIOX_N, 2OG-FeII_Oxy"
      CDS             complement(join(25004..26272,26338..26586))
                      /codon_start=1
                      /gene="pvL4"
                      /product="major facilitator superfamily transporter PvL4"
-                     /label=pvL4
+                     /label="pvL4"
                      /protein_id="ASK38713.1"
                      /translation="MASSTKIPIPRVTVDEATALLAPPQPPYSVFSPVQKKLIVFTAAL
                      ASTFSPLSSNIYYPAINSIADELKISPGMVNLTITAYMVFQGLTPAFMGDLSDTAGRRP
@@ -195,22 +205,24 @@ FEATURES             Location/Qualifiers
                      WLVDWNFQRIARQVGQLPIRNGKQDLRQFPIERARLQIAMPSAMLAAASIALYGWVIAA
                      ERPIVEALAMLLLIGYLVTASYNVMNVLIVDLHYGKPATATAANNLVRCLLGAGATAGV
                      TPLLDLLGRQWCFCVVGAIYVISLPLSGLVYGFGAGWREKRDAERDG"
+                     /Pfam="MFS_1"
      CDS             join(26981..27539,27592..27836)
                      /codon_start=1
                      /gene="pvL3"
                      /product="ketosteroid isomerase-like protein PvL3"
-                     /label=pvL3
+                     /label="pvL3"
                      /protein_id="ASK38714.1"
                      /translation="MVATKLFSTALVAAALVLPGSALSIIPFQKPMENPHLCDGTGIVD
                      PDGNCNGDGVIDEPPARPPRFGNPPPHEGRDRDGFKFENPSTQCKYMSQPDLWDNFKSL
                      EKDMSKIFTMIHKDVDFTIVGHHPGAGHYTDLLHFYTNALRRYSVCFSQYPEYFRIYPQ
                      AIHGGCNSEWSVQEILFLGRTNHGVDFDVINVWVTRWKDGQMVEVRTYIDSMRMTGLLH
                      ENELWWNSSTYEEHPNYIPGPTGLPDLDELRGLMRKPDGSRYDDM"
+                     /Pfam="BfL6"
      CDS             complement(join(28548..29686,29756..30077))
                      /codon_start=1
                      /gene="pvL2"
                      /product="2-methylcitrate dehydratase PvL2"
-                     /label=pvL2
+                     /label="pvL2"
                      /protein_id="ASK38715.1"
                      /translation="MQAYDQVIVDIKDYVFHYDIHSPQAWTTARVALLDAMGCAIETVA
                      LSADCRRFFGPIVPDTVTPYGFHMPGTSYVLDPLKGSFDMATAVRYLDHNDAIAGADWG
@@ -221,23 +233,25 @@ FEATURES             Location/Qualifiers
                      DRDHCLQYIVSLAFLKGAMPEVRDYQDDSVWSSSRAITALREKIQIQPDEQLTRDYLDL
                      DVKSLASGMTVRLIDGTVLDEILVHFPVGHSKHPQTFTTVREKVRRNLSLMFSTEEISR
                      MEAAVEEESLGISGFVDLFVRPRSEVKL"
+                     /Pfam="MmgE_PrpD, MmgE_PrpD_C"
      CDS             join(30562..30609,30679..30697,30756..31375)
                      /codon_start=1
                      /gene="pvL1"
                      /product="hydrolase PvL1"
-                     /label=pvL1
+                     /label="pvL1"
                      /protein_id="ASK38716.1"
                      /translation="MPVRFLCLHGWGTNIQILQSQLGPLMRELQKDNSAEFHFIQGDVE
                      ADPGPGIEGFYEGPYYSFYQFPRTFPDSDDEEDDGGDASMFEAYEMIYDIIAEEGPFDG
                      ILGFSHGGTLASGFLIHHSKTSPYTPPPFRCAVFFNSLPPFRMDPGEELVVDDDLARHL
                      TIPTLSIAGTRDFVYKQSLMLHQLCDEKSSQLILHGKGHEIPGDAATVARMAKAFRALC
                      LRAMYL"
+                     /Pfam="FSH1"
      CDS             join(32085..32354,32454..32540,32593..32650,32704..33043,
                      33095..33620,33686..38614,38674..38991,39040..39867)
                      /codon_start=1
                      /gene="pvpks1"
                      /product="polyketide synthase PvPKS1"
-                     /label=pvpks1
+                     /label="pvpks1"
                      /protein_id="ASK38717.1"
                      /translation="MVENVSSPSSPRTSSPSGSCTPTSATSVGSDDKSMPIAVVGMSFR
                      GPRDAISVESLWRMISEGREGWSKIPKSRWNNDAFYHPDHSRHGTINVEGGHFLEEDLA
@@ -281,17 +295,20 @@ FEATURES             Location/Qualifiers
                      TLMALIRSAIVSPRRTGSQAEIVTGLGTWREGVSLGNFDQPLFAHFRRQALGLRDATAE
                      GPGTSVRESLRGCKTLDDAVALVCAALIDRLASRLNTPVDNIDSQRAMSEYGVDSLVAV
                      EMRNWIGKEMESTMPILELLANQSISQLSEKIAQRSKVVAVSGSEE"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_DH, PKS_NRPS_MT, fPKS_ER,
+                     fPKS_KR, ACP_PCP"
      CDS             complement(join(40268..40758,40820..40976))
                      /codon_start=1
                      /gene="pvR1"
-                     /product="phosphatidylethanolamine-binding protein-like 
+                     /product="phosphatidylethanolamine-binding protein-like
                      protein PvR1"
-                     /label=pvR1
+                     /label="pvR1"
                      /protein_id="ASK38718.1"
                      /translation="MRPDLWLLLALVCLPLIAAQTPPGYWPKTPRGLDVIFRDQQLIQP
                      GQLVLPDDAIDPPVFGRQGLSVFQSYLAVMIDVEVNHEGTATPLVHWLQPDLKVRDPFT
                      GRLARLSDEDVPYVGPRPVPGPRHTYVLLLFEQPTTYRFPECFSSTRPISVDTRSGFNL
                      AQFMHVAGLQEPIAASYFTARNEETPSAPPPRVTTTSLSTAPCATPTRFVWC"
+                     /Pfam="PBP"
 ORIGIN
         1 atgagcagct ataaattccc cgtcgacctc aagcagttca agcagctcaa gcttgaccca
        61 aaaagcccac agctttctgc tcagcagaag aacgacctcc tgcataacat caacattttc

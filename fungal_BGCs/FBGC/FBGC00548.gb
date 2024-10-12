@@ -1,23 +1,23 @@
-LOCUS       FBGC00548       37351 bp DNA     linear   UNA 08-APR-2023
+LOCUS       FBGC00548              37351 bp    DNA     linear   UNA 08-APR-2023
 DEFINITION  deoxyakanthomycin.
 ACCESSION   FBGC00548
-VERSION     .
+VERSION     FBGC00548
 KEYWORDS    .
 SOURCE      Sarocladium oryzae JCM 12450
   ORGANISM  Sarocladium oryzae JCM 12450
+            .
 REFERENCE   1  (bases 1 to 37351)
   AUTHORS   Jamieson CS, Ohashi M, Houk KN, Tang Y.
-  TITLE     Computational Prediction and Experimental Validation of a Bridged 
+  TITLE     Computational Prediction and Experimental Validation of a Bridged
             Cation Intermediate in Akanthomycin Biosynthesis.
   JOURNAL   J Am Chem Soc 2022;144:5280-5283
-  PUBMED    35297629
+   PUBMED   35297629
 REFERENCE   2  (bases 1 to 37351)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Apr 8, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1021/jacs.2c02288"; journalName: "J Am Chem Soc"; date: "2022"; 
+  JOURNAL   Exported Apr 8, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1021/jacs.2c02288"; journalName: "J Am Chem Soc"; date: "2022";
             volume: "144"; pages: "5280-5283"
 FEATURES             Location/Qualifiers
      source          1..37351
@@ -27,9 +27,9 @@ FEATURES             Location/Qualifiers
      CDS             complement(1..12345)
                      /codon_start=1
                      /locus_tag="Sarory__000115"
-                     /product="polyketide synthase-nonribosomal peptide 
+                     /product="polyketide synthase-nonribosomal peptide
                      synthetase SdxC"
-                     /label=sdxC
+                     /label="sdxC"
                      /protein_id="Sarory_:cds.g115.t1"
                      /translation="MQKPVGIIGSACRFPGGADSPSKLWELLKHPTDVLKEFPPDRLSL
                      RSFYHENGEHHGCTDVKNKSYLLDEDIRLFDAAFFRISPSEAECMDPQQRMLLETVYEA
@@ -101,11 +101,13 @@ FEATURES             Location/Qualifiers
                      LENVSKSTGLKVTIHRPCAVVGPGAPSEDALNALLRFAETQGTVPRFRNLAGFLDFAPV
                      SAVAHSVVEVVLGGTHDEMPPPSPRGCARIEAPPTADCPVSIVHYSSGVETPVDEFGAC
                      MERLHGRSFSELDFLDWIADAVKGGMDPLISTYLKALVEKDQVIDFPYLGEPLRPGS"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_DH, PKS_NRPS_MT, fPKS_KR,
+                     ACP_PCP, Condensation, AA-adenyl-dom, fPKS_R"
      CDS             13473..14714
                      /codon_start=1
                      /locus_tag="Sarory__000116"
                      /product="trans-acting enoylreductase SdxD"
-                     /label=sdxD
+                     /label="sdxD"
                      /protein_id="Sarory_:cds.g116.t1"
                      /translation="MPHQTETLPLSHQTLKAAALKQVELHDASVLPTLEDDEILIRVRC
                      VAINPVDVKVLDMSPTQGATAGCEFAGDVVQMGRAVTHARLQVGVRVFGCICGNNPGRP
@@ -115,11 +117,12 @@ FEATURES             Location/Qualifiers
                      SVAYALDCVAELASMRICYAVIGSSGGSYMGLNAFPLRAHTRRDIKPAYILVYTMFGRA
                      VKWPRPFARPARPKDRAFVESWVRGTQSLIDQPGEISPHPIEHGVGGLNGIRQGLDRMR
                      RGEVSGVKLVYSIE"
+                     /Pfam="fPKS_ER, ADH_zinc_N"
      CDS             join(15195..15755,15859..17703)
                      /codon_start=1
                      /locus_tag="Sarory__000117"
                      /product="transcriptional factor SdxE"
-                     /label=sdxE
+                     /label="sdxE"
                      /protein_id="Sarory_:cds.g117.t1"
                      /translation="MTTATAHGAPSRKRRRQAVVCTECRRRKIACDRSAPCTQCLNSNL
                      PCTYYNSYSNGGGDLSGGEYFHLPTSRLHVPVSTGPDTGAGHLPTAMSLDTAEAHGWFD
@@ -135,11 +138,12 @@ FEATURES             Location/Qualifiers
                      DSSPIASSLSRRDLQHAIEDATALTQRRILRGETSAKAHAFLACVLAKTGGSKRKRASQ
                      ATKAHEDQDVADAAKRALEACCGVLEARIGLMAALVSTRADSGSSSAPFSWTKGLDLPL
                      GEGRVSDKEHRDNATERWGDGSRSAVQSLEDGPEAWPDRLALIETWPS"
+                     /Pfam="CghF"
      CDS             complement(join(20503..21096,21162..21719,21813..22043))
                      /codon_start=1
                      /locus_tag="Sarory__000119"
                      /product="methyltransferase SdxI"
-                     /label=sdxI
+                     /label="sdxI"
                      /protein_id="Sarory_:cds.g119.t1"
                      /translation="MSLLQDLASEIQGHVDVIDKHLKEHNLPQPSFEVDSPTGLPLDSH
                      VQKARLLLIESAAALANLATGSADHLRWHMMNAKFDDMALHFLAVYNIFDAVPRHGRIS
@@ -150,22 +154,24 @@ FEATURES             Location/Qualifiers
                      NKAITIIRRTVEAMDPKKSLILTRDIIMDGGDPPPEDRDAGTVVNGKGHRKYQPGLGPT
                      GMITRLNIGIDFQVMSVMNAFERNRAEWLDLFKRADPRLKLKQCIQPVGDCASVMVWAL
                      EG"
+                     /Pfam="MdpA"
      CDS             complement(join(22614..22685,22750..23393,23469..23505))
                      /codon_start=1
                      /locus_tag="Sarory__000120"
                      /product="short-chain dehydrogenase/reductase SdxG"
-                     /label=sdxG
+                     /label="sdxG"
                      /protein_id="Sarory_:cds.g120.t1"
                      /translation="MSTVILVTGANKGIGRGLVQSYLQRPDTTVIAAVRSPSSEEAQSL
                      YQLDTAVDSRLILVKINAQSETDASDAVEILQEEHGINKIDIVIANAGIFSPSARQKVL
                      DLRLSDLREHVDVNAYGVIRLFQAAHPLLAKSSKPIFLLNSAAAATIGGMRSFGNFPLN
                      SYSASKMLANFFIMRLHMEHPDLIVFAVHPGSVTTENRTLAAKKLGVPVDGLSVAQCVN
                      SLLRLIDRATLATTSGTFLNVDGMPIPW"
+                     /Pfam="adh_short"
      CDS             join(24605..24867,24935..25964,26019..26273)
                      /codon_start=1
                      /locus_tag="Sarory__000121"
                      /product="major facilitator superfamily transporter Orf3"
-                     /label=orf3
+                     /label="orf3"
                      /protein_id="Sarory_:cds.g121.t1"
                      /translation="MKSTETSSQSSAKKGDSPADTEGRDLESNAVESRDKNTEKDHEKP
                      DAAAVDPNVVDFDGPDDPENPMNWPKGKKAITIALVTVMTLLSPIGSTISAPAAADIME
@@ -176,12 +182,13 @@ FEATURES             Location/Qualifiers
                      GAAGLATLGMGIGSIFGVFFCGGVSDKLSAHLTKKHGGQTKPEYRLPTIVIGGVCVPVG
                      LFWYAWTAEKELHWILPIIGTGFLGAGMIITYMASTLYLVDAYSVYAASVTASSTIFRC
                      LCATFIPLAGPAMYSKLGVGWGTSLLGFIAVGFIPLPILFYIFGQRIRETNRIQINF"
+                     /Pfam="MFS_1"
      CDS             join(26949..27097,27156..27228,27314..27644,27701..27884,
                      27942..27969,28059..28841)
                      /codon_start=1
                      /locus_tag="Sarory__000122"
                      /product="cytochrome P450 monooxygenase SdxF"
-                     /label=sdxF
+                     /label="sdxF"
                      /protein_id="Sarory_:cds.g122.t1"
                      /translation="MDSSFISSSFTVNLLPAVLILYIAAGVLYRLYFSPISRFPGPKLA
                      AVTFWYGFYYDVICGGQYIWKVEQMHKKYGPIVRINPDELHINEPEFYATLYAGSQEHR
@@ -192,11 +199,12 @@ FEATURES             Location/Qualifiers
                      LRAAWAEKSHPRLSDLEKLPYLSACIKESLRLSYGLSARLPRVAPDQTLEVPGTNGLAI
                      PPGTKMSMNSVLVHRNTRLFPEPDRFIPQRWLENPRLDRYLVSFSKGARQCIGINLAYA
                      ELYIGLAAIFSHFRYTEDQGNCLELLNGPASIRDVEIAGDMFLPSVKGDKGVKAVFR"
+                     /Pfam="p450"
      CDS             join(29381..29833,29947..30596,30653..31727)
                      /codon_start=1
                      /locus_tag="Sarory__000123"
                      /product="transcription factor Orf5"
-                     /label=orf5
+                     /label="orf5"
                      /protein_id="Sarory_:cds.g123.t1"
                      /translation="MPVHGSRSHRKGQFSCDFCRSRKLRCDRPLPCANCVSRGKDCTFA
                      QQFERNQAQRSDASASASSVPPPSSLQVAQSQSTGAPDQGALLAEMQALRGLVEELQKR
@@ -211,22 +219,24 @@ FEATURES             Location/Qualifiers
                      MDACVNAMRSQQEELHWDDDAAEALRIIDAAKSYSFAAANLHKSLMQVITRYRWQQLRL
                      SQTLGKPWPVASVQASDSQTPVQATTVEGAPAYQNTPQDLPSTSNGQRMPSNAQTPYFD
                      HDLGENLEGLTELDGFQWDDLFSGIDSASFF"
+                     /Pfam="EqxR, Zn_clus"
      CDS             complement(join(31824..32109,32191..32303))
                      /codon_start=1
                      /locus_tag="Sarory__000124"
                      /product="cytochrome b5-like protein Orf6"
-                     /label=orf6
+                     /label="orf6"
                      /protein_id="Sarory_:cds.g124.t1"
                      /translation="MSQSFAIEELRQHKSSKDLWLAIHGVVYDVTKFMDEHPGGEDVLL
                      DQADGDASEAFDSVGHSDEAREVMETLRVGTVKGRHGDATAGMQSLDIKPSETLVTERS
                      EFLRLLGYITGLACGFAAIGFIFNLAVS"
+                     /Pfam="Cyt-b5"
      CDS             complement(join(33074..33423,33501..33732,33786..33857,
                      33915..34097,34156..34436,34487..34734,34799..34875,
                      34976..35119))
                      /codon_start=1
                      /locus_tag="Sarory__000125"
                      /product="cytochrome P450 monooxygenase SdxB"
-                     /label=sdxB
+                     /label="sdxB"
                      /protein_id="Sarory_:cds.g125.t1"
                      /translation="MNSTQSPTFASLLPYRGLEGFTLTSRSSVLAYGLGLVIIAIFLSQ
                      NGNKLKCLDMDGVPMKELRVSPKAAALFTPQVSRQGEKLAHDEPYILRDGNYREVVLHT
@@ -238,11 +248,12 @@ FEATURES             Location/Qualifiers
                      CLVLESIRLRPATWFSAPECITIDKVIGRYKVPAKTPVVIDVRRLNTSALTWGPDSQDF
                      RPERFSEISPNEYRYAYMKFGVISGKCLGKHMAEILMKLAVVTVLEQYRIEHVEMNIGV
                      KEGDLAFIKRN"
+                     /Pfam="p450"
      CDS             join(35617..36243,36299..36854,36933..37351)
                      /codon_start=1
                      /locus_tag="Sarory__000126"
                      /product="cytochrome P450 monooxygenase SdxA"
-                     /label=sdxA
+                     /label="sdxA"
                      /protein_id="Sarory_:cds.g126.t1"
                      /translation="MVFKKLNLNLPRLPGGIDNLALRWSHLVYIVLALILVQAVTRQVS
                      RAIVEWRKGYKPVPRYPQWIPIMGFDIAMSMAKSLRDHTFLLWLRKLHETGPGTSKTFT
@@ -254,6 +265,7 @@ FEATURES             Location/Qualifiers
                      PNGIMQVRYCIKDTTLPLGGGSDGKSPMLVRKGDVVQVNKSVMQRDKDIWGEDADEFRP
                      ERWFGLRPYWNFVPFGGGPRRCPAQLLVTTEASYVVARFCRRFSRIENRDLSGYIPVMR
                      AGPVNTRGVKIAVTPA"
+                     /Pfam="p450"
 ORIGIN
         1 tcatgagccg ggtctcaacg gctctccaag gtatgggaag tcgataacct ggtccttctc
        61 cacgagggct ttcaagtacg tgctgatcag ggggtccatg ccccccttca cagcgtctgc

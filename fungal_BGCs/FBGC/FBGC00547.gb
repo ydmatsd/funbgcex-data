@@ -1,36 +1,35 @@
-LOCUS       FBGC00547       20599 bp DNA     linear   UNA 07-APR-2023
+LOCUS       FBGC00547              20599 bp    DNA     linear   UNA 07-APR-2023
 DEFINITION  lentopeptins.
 ACCESSION   FBGC00547
-VERSION     .
+VERSION     FBGC00547
 KEYWORDS    .
 SOURCE      Aspergillus lentulus IFM 54703
   ORGANISM  Aspergillus lentulus IFM 54703
+            .
 REFERENCE   1  (bases 1 to 20599)
   AUTHORS   Kishimoto S, Matsubara Y, Watanabe K.
-  TITLE     Alkaloid Biosynthetic Enzyme Generates Diastereomeric Pair via Two 
+  TITLE     Alkaloid Biosynthetic Enzyme Generates Diastereomeric Pair via Two
             Distinct Mechanisms.
   JOURNAL   J Am Chem Soc 2022;144:5485-5493
-  PUBMED    35302734
+   PUBMED   35302734
 REFERENCE   2  (bases 1 to 20599)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Apr 7, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1021/jacs.1c13621"; journalName: "J Am Chem Soc"; date: "2022"; 
-            volume: "144"; pages: "5485-5493"
+  JOURNAL   Exported Apr 7, 2023 from SnapGene 6.2.1 https://www.snapgene.com
 COMMENT     ##Genome-Assembly-Data-START##
             Assembly Method       :: SMRT Analysis v. 2.3.0
             Assembly Name         :: Alt_assembly01
             Genome Coverage       :: Unknown
             Sequencing Technology :: PacBio RSII
             ##Genome-Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1021/jacs.1c13621"; journalName: "J Am Chem Soc"; date: "2022";
+            volume: "144"; pages: "5485-5493"
 FEATURES             Location/Qualifiers
      source          1..20599
                      /strain="IFM 54703"
                      /mol_type="genomic DNA"
-                     /note="contig:Alt01;
-                     type strain of Aspergillus lentulus"
+                     /note="contig:Alt01; type strain of Aspergillus lentulus"
                      /db_xref="taxon:293939"
                      /culture_collection="IFM<JPN>:54703"
                      /organism="Aspergillus lentulus"
@@ -39,7 +38,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="ALT_0152"
                      /product="cytochrome P450 monooxygenase LenC"
-                     /label=lenC
+                     /label="lenC"
                      /protein_id="GAQ02831.1"
                      /translation="MDSAFVLPHPASMGASCILGLLLLTILRALLIPKKALPLAINHHR
                      WDIFNRRAIQDFTANPQDLIKAGLKKVIDPQIAPRFAKGTFLVLPERYSEEVKNDERFS
@@ -51,11 +50,12 @@ FEATURES             Location/Qualifiers
                      TLSDGTTIPKGTIFGFSYQNRFDPSMYPDPETFDPYRFMRMRQDPVQASLASFTKARST
                      HLSFGLGRHACPGRFMANDMIKLALSHILLKYDFKLVGEELPKLEMHGFVYAREPTAQI
                      LVRRRQEEVVL"
+                     /Pfam="p450"
      CDS             complement(join(2609..4634,4688..4830))
                      /codon_start=1
                      /locus_tag="ALT_0153"
                      /product="phenylalanine ammonia-lyase LenB"
-                     /label=lenB
+                     /label="lenB"
                      /protein_id="GAQ02832.1"
                      /translation="MLQPSAQGSYSKAVLSTFRSLEDLTCDGSKIILDGQSLNVSSVVA
                      AACHQVPASISKDPQLHARLRESVELLARKLAEGEIVYGVNTGFGGSADTRTDDYSTLQ
@@ -70,11 +70,12 @@ FEATURES             Location/Qualifiers
                      SHTMGALVELLPMQLNEATALPTRLAPQQQWLDEVSATLAGSYDATRAKFQSNPTTPFY
                      LCSASRRMYEFVRKGLGVPLHRGIVDHPTYPSVTEEHAGQELIGSQVSKIYMALRGGVF
                      RDVLQDCWYSSDSVRGFAGEELVLASKL"
+                     /Pfam="Lyase_aromatic"
      CDS             join(5251..5688,5760..17060,17141..20599)
                      /codon_start=1
                      /locus_tag="ALT_0154"
                      /product="nonribosomal peptide synthetase LenA"
-                     /label=lenA
+                     /label="lenA"
                      /protein_id="GAQ02833.1"
                      /translation="MDTMKRKHQGLFPVLNDGGREPSVTVNEISSEARERAIAYTARRG
                      YDIVHFLRTVWSIVLQQFLETDLVCFVFFDHSGVQVCEVPVSREESIPNLLERIAELRP
@@ -163,6 +164,7 @@ FEATURES             Location/Qualifiers
                      RTMAHDAVDFDELVARSTAWPAGTEIGTGVHFLHGDRFWDEVRTVAGVECRSQHVDFKL
                      LQTYPMLTCTGSPDAEEATGRSVLGVALTSAVFGQEVADRVFEVFLGMLDYLTTTPEKL
                      VAEVI"
+                     /Pfam="NRPS_C, AA-adenyl-dom, ACP_PCP, NRPS_E, NRPS_CT"
 ORIGIN
         1 tcataaaaca acctcctctt gtcgcctcct caccaggatc tgtgccgttg gttccctcgc
        61 gtacacaaac ccgtgcatct ccaatttggg aagctcctcg ccaaccaact tgaagtcata

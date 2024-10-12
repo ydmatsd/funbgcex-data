@@ -1,38 +1,39 @@
-LOCUS       FBGC00529       23386 bp DNA     linear   UNA 29-MAR-2023
+LOCUS       FBGC00529              23386 bp    DNA     linear   UNA 29-MAR-2023
 DEFINITION  restricticin.
 ACCESSION   FBGC00529
-VERSION     .
+VERSION     FBGC00529
 KEYWORDS    .
 SOURCE      Aspergillus nomiae NRRL 13137
   ORGANISM  Aspergillus nomiae NRRL 13137
+            .
 REFERENCE   1  (bases 1 to 23386)
-  AUTHORS   Liu N, Abramyan ED, Cheng W, Perlatti B, Harvey CJB, Bills GF, Tang 
+  AUTHORS   Liu N, Abramyan ED, Cheng W, Perlatti B, Harvey CJB, Bills GF, Tang
             Y.
-  TITLE     Targeted Genome Mining Reveals the Biosynthetic Gene Clusters of 
+  TITLE     Targeted Genome Mining Reveals the Biosynthetic Gene Clusters of
             Natural Product CYP51 Inhibitors.
   JOURNAL   J Am Chem Soc 2021;143:6043-6047
-  PUBMED    33857369
+   PUBMED   33857369
 REFERENCE   2  (bases 1 to 23386)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Mar 29, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1021/jacs.1c01516"; journalName: "J Am Chem Soc"; date: "2021"; 
-            volume: "143"; pages: "6043-6047"
-COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final 
-            NCBI review. The reference sequence is identical to JNOM01000015. In
-            Feb 2020 three sequences (JNOM01001078.1, JNOM01001055.1, and 
-            JNOM01000986.1) were suppressed because they are 
-            contaminants.##Genome-Assembly-Data-START##
+  JOURNAL   Exported Mar 29, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     ##Genome-Assembly-Data-START##
             Assembly Method       :: Newbler v. 2.9
             Genome Coverage       :: 42.0x
             Sequencing Technology :: IonTorrent
-            ##Genome-Assembly-Data-END####Genome-Annotation-Data-START##
-            Annotation Provider :: INSDC submitter
-            Annotation Status   :: Full annotation
-            Annotation Pipeline :: Eukaryotic Annotation Propagation Pipeline 
+            ##Genome-Assembly-Data-END##
+            ##Genome-Annotation-Data-START##
+            Annotation Provider   :: INSDC submitter
+            Annotation Status     :: Full annotation
+            Annotation Pipeline   :: Eukaryotic Annotation Propagation Pipeline
             ##Genome-Annotation-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1021/jacs.1c01516"; journalName: "J Am Chem Soc"; date: "2021";
+            volume: "143"; pages: "6043-6047"
+            PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to JNOM01000015. In
+            Feb 2020 three sequences (JNOM01001078.1, JNOM01001055.1, and
+            JNOM01000986.1) were suppressed because they are
 FEATURES             Location/Qualifiers
      source          1..23386
                      /chromosome="Unknown"
@@ -42,7 +43,7 @@ FEATURES             Location/Qualifiers
                      /country="USA: Peoria, Illinois"
                      /lat_lon="40.6936 N 89.589 W"
                      /isolation_source="plant tissue"
-                     /collection_date=1987
+                     /collection_date="1987"
                      /db_xref="taxon:1509407"
                      /type_material="culture from type material of Aspergillus
                      nomiae"
@@ -51,7 +52,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="ANOM_001442"
                      /product="methyltransferase Rstn1"
-                     /label=rstn1
+                     /label="rstn1"
                      /note="one base added to revise the sequence"
                      /db_xref="GeneID:26803246"
                      /protein_id="XP_015411290.1"
@@ -60,11 +61,12 @@ FEATURES             Location/Qualifiers
                      YESNTKAGQVNFLFANAMDLPFADASFDGAYAIESLVHMDDRRTALTNIARVLRPGSRL
                      AIADLFLDAGCPNPEVLARFHELFQVPPMPSGDDLKALLHQTGFKVIEFTDIRDNVRPV
                      CKFLEQKALSLEGEVGEKLLEIAHSMATLKELGYAFITAERI"
+                     /Pfam="Methyltransf_11"
      CDS             complement(join(1529..2872,2939..3136))
                      /codon_start=1
                      /locus_tag="ANOM_001443"
                      /product="cytochrome P450 monooxygenase (CYP51) Rstn2"
-                     /label=rstn2
+                     /label="rstn2"
                      /db_xref="GeneID:26803247"
                      /protein_id="XP_015411243.1"
                      /translation="MSWPLIGAYALLAFVAIIALNVTYQFLFRLLNKTRPPLVFHWIPF
@@ -76,13 +78,14 @@ FEATURES             Location/Qualifiers
                      KDFDNLPLHQNVIRETLRLNSSIHSLMRKVKNPLPVPGTPYVIPTSHVLLSAPGVTALS
                      DEYFPNAMAWDPHRWETQAPKENDKDDIVDYGYGAISKGTSSPYLPFGAGRHRCIGEKF
                      AYLNLAVIVATMVRHLRFSNLDGQTGVPATDYSSLFSGPMKPARIRWERRAAKSG"
-     CDS             complement(join(3955..4842,4911..5148,5233..5484,5541..6211,
-                     6280..6975,7042..7488,7543..8849,8901..10193,10246..11333,
-                     11400..11770,11849..12264,12315..12363))
+                     /Pfam="p450"
+     CDS             complement(join(3955..4842,4911..5148,5233..5484,
+                     5541..6211,6280..6975,7042..7488,7543..8849,8901..10193,
+                     10246..11333,11400..11770,11849..12264,12315..12363))
                      /codon_start=1
                      /locus_tag="ANOM_001444"
                      /product="polyketide synthase Rstn3"
-                     /label=rstn3
+                     /label="rstn3"
                      /note="two bases added to revise the sequence"
                      /db_xref="GeneID:26803248"
                      /protein_id="XP_015411291.1"
@@ -130,20 +133,23 @@ FEATURES             Location/Qualifiers
                      TTNSHDPYKYDPCATAHIVTGMDPTRVSRAGGKSLWLKDNRLRNLVAALGGGNNGDGFN
                      AEQSAGPSTHELLEAARAEGGVAAVKVTTLGLILARFSKLVLLPVHKIDPGKALAHYGM
                      DSMISAELKSWAWKEFTVDLPFLGLLDQSLTFDDLAEKVVALAETKST"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_DH, PKS_NRPS_MT, fPKS_ER,
+                     fPKS_KR, ACP_PCP"
      CDS             12873..13838
                      /codon_start=1
                      /product="short-chain dehydrogenase/reductase Rstn4"
-                     /label=rstn4
+                     /label="rstn4"
                      /translation="MAGYLPEPLRMMVTNPAISDFTSDGPLPYALRQKFTGWPPPPAAA
                      DISLASQTVLVTGATSGVGLEAARQLAQLGPRLLILGARNLSKADGVKRQLEQDTPHVA
                      VQVAKLDLEDLSSVDRFVDGLHASAIHLDLALLNAGFFANDDRMTPDGYSSLFQVNFLS
                      TAYLAFRLLPLLQTTTTAPEASPQGPRLVLVTSEAHAWTTFPVPPEPAENSLPILSSFR
                      QKESLGSADDQYYRAKLLLALIGKELSRRLTTMQMATSVVITTPGFCASNFFPDSVMTR
                      LIQLISARSIQQGGALHVFAATAQGPQMHGAYLRDGKPTR"
+                     /Pfam="adh_short"
      CDS             complement(join(14334..15051,15126..15457))
                      /codon_start=1
                      /product="epoxide hydrolase Rstn5"
-                     /label=rstn5
+                     /label="rstn5"
                      /note="one base added to revise the sequence"
                      /translation="MLHLTPLIFLSLAMAAVVGVWGVFTWNGGFDEMDGIVASHQSTGI
                      LGLQHCPDLDRGLMSMVAFNLPVVGRNPIFPAGRRFMVQFLANVAVIPVILNTEGARAE
@@ -152,11 +158,12 @@ FEATURES             Location/Qualifiers
                      STISYVAVGVVGMVSHLWYLGTGLTGYPLSGDAVSSVAGPTEVGRAAQLVLLFLQIDYV
                      ITFAAMLLLAWHELTRHQLVRSWRAAGTLAVGWLFLGPGATLAAAWALREQWLSRPRGV
                      RGEIKQKPK"
+                     /Pfam="CtvD"
      CDS             join(15834..15861,15929..17472,17521..17676)
                      /codon_start=1
                      /locus_tag="ANOM_001445"
                      /product="FAD-dependent monooxygenase Rstn6"
-                     /label=rstn6
+                     /label="rstn6"
                      /db_xref="GeneID:26803249"
                      /protein_id="XP_015411244.1"
                      /translation="MYDVIVIGAGWCGLVAAKTYLQVCPDARLLLVDGDSSIGGTWSKE
@@ -169,11 +176,12 @@ FEATURES             Location/Qualifiers
                      QSEWINLQRKADQEIIEEMPILQKSPVPSVPFRCEDDYHLYRFIAPSREPPSHERSIAY
                      VGFLRTAGAPIVYEAQSLWATAYLTGALDVPGPSERISEVARTNAWIRRRYICGRKVPF
                      ALFDFLPYVDMLYRDLGVNPHRKANMVAEICGLYQPRDFQGVVSEWLASRGVKDIENV"
+                     /Pfam="FMO-like"
      CDS             complement(17816..18877)
                      /codon_start=1
                      /locus_tag="ANOM_001446"
                      /product="trans-acting enoylreductase Rstn7"
-                     /label=rstn7
+                     /label="rstn7"
                      /db_xref="GeneID:26803250"
                      /protein_id="XP_015411292.1"
                      /translation="MKAIISVSPGRAALVHDRPLPSLRNGYLLVRTKAVALNPTDWKHI
@@ -183,11 +191,12 @@ FEATURES             Location/Qualifiers
                      RMSKPLRLAWDTVSIPSSAQFCGDALSALDECHYASLLPIKCQRSDVTSTTTMAYTVFG
                      EDWGMGATRFPAVATDAEFGRRWWALVQELLDQGRIQTHRIIIGENGLDGVLAGLERLR
                      DSQVRGAKLVYRV"
+                     /Pfam="fPKS_ER"
      CDS             join(19247..19708,19772..23386)
                      /codon_start=1
                      /locus_tag="ANOM_001447"
                      /product="nonribosomal peptide synthetase Rstn8"
-                     /label=rstn8
+                     /label="rstn8"
                      /db_xref="GeneID:26803251"
                      /protein_id="XP_015411293.1"
                      /translation="MSHSSHYSPVDSGMVPSSSSTEDHLSPTLSASIVLPAQLNPFAKA
@@ -214,6 +223,7 @@ FEATURES             Location/Qualifiers
                      DAQVRAVCDQMQTLLVIQPIPEGLTSASTSPFPGPILSGPRVEAREMRHFHWYGLLVEC
                      TLLPTNGFFVRMCYDDKLFSSEDVERLLDDYSQALHELGGGLTEGEEVHLPTERKLDTL
                      TLPGLVAPSGAEDMV"
+                     /Pfam="AA-adenyl-dom, ACP_PCP, NRPS_C"
 ORIGIN
         1 ctagatgcgc tccgcggtaa tgaaggcgta cccgagctct ttaagtgttg ccatactgtg
        61 cgcaatttcg agaagctttt ctccaacttc accctcaagg gagagggcct tttgctctaa

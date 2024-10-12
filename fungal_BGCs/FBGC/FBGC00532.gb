@@ -1,36 +1,35 @@
-LOCUS       FBGC00532       28291 bp DNA     linear   UNA 29-MAR-2023
+LOCUS       FBGC00532              28291 bp    DNA     linear   UNA 29-MAR-2023
 DEFINITION  terrein.
 ACCESSION   FBGC00532
-VERSION     .
+VERSION     FBGC00532
 KEYWORDS    .
 SOURCE      Aspergillus lentulus IFM 54703
   ORGANISM  Aspergillus lentulus IFM 54703
+            .
 REFERENCE   1  (bases 1 to 28291)
   AUTHORS   Kishimoto S, Minami A, Aoki Y, Matsubara Y, Watanabe S, Watanabe K.
-  TITLE     Reactive Azlactone Intermediate Drives Fungal Secondary Metabolite 
+  TITLE     Reactive Azlactone Intermediate Drives Fungal Secondary Metabolite
             Cross-Pathway Generation.
   JOURNAL   J Am Chem Soc 2023;145:3221-3228
-  PUBMED    36706030
+   PUBMED   36706030
 REFERENCE   2  (bases 1 to 28291)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Mar 29, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1021/jacs.2c13188"; journalName: "J Am Chem Soc"; date: "2023"; 
-            volume: "145"; pages: "3221-3228"
+  JOURNAL   Exported Mar 29, 2023 from SnapGene 6.2.1 https://www.snapgene.com
 COMMENT     ##Genome-Assembly-Data-START##
             Assembly Method       :: SMRT Analysis v. 2.3.0
             Assembly Name         :: Alt_assembly01
             Genome Coverage       :: Unknown
             Sequencing Technology :: PacBio RSII
             ##Genome-Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1021/jacs.2c13188"; journalName: "J Am Chem Soc"; date: "2023";
+            volume: "145"; pages: "3221-3228"
 FEATURES             Location/Qualifiers
      source          1..28291
                      /strain="IFM 54703"
                      /mol_type="genomic DNA"
-                     /note="contig:Alt01;
-                     type strain of Aspergillus lentulus"
+                     /note="contig:Alt01; type strain of Aspergillus lentulus"
                      /db_xref="taxon:293939"
                      /culture_collection="IFM<JPN>:54703"
                      /organism="Aspergillus lentulus"
@@ -38,7 +37,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="ALT_1261"
                      /product="major facilitator superfamily transporter AlterG"
-                     /label=alterG
+                     /label="alterG"
                      /protein_id="GAQ03940.1"
                      /translation="MTASSLEGQEIASYDSKNSPSRHGDDGGLGSAPTARDEYVYIADG
                      YGMIRRIIFIMTVCSSMFTNQLGLCNSLTTLEIIGDSFGVTDPGKLSWTIAGYGLTLGT
@@ -50,12 +49,14 @@ FEATURES             Location/Qualifiers
                      LMALRPVHSTYWTYFFFATIIATFAMDSSLPAATIIFANAVPRQYQGMGSSVIMTIVVY
                      SISLGLGFAGTIELQINNGGHTKADLLHGYRGTLWFSVGLTAFGTALALTFLLKDHRRR
                      RLAKNREEEEKADSTEA"
-     CDS             complement(join(2345..2815,2892..3095,3146..3160,3210..3462,
-                     3513..3534,3593..3767,3981..4568,4620..4651,4709..4811))
+                     /Pfam="MFS_1"
+     CDS             complement(join(2345..2815,2892..3095,3146..3160,
+                     3210..3462,3513..3534,3593..3767,3981..4568,4620..4651,
+                     4709..4811))
                      /codon_start=1
                      /locus_tag="ALT_1262"
                      /product="transcription factor AlterR"
-                     /label=alterR
+                     /label="alterR"
                      /protein_id="GAQ03941.1"
                      /translation="MQADRVEVSSSVRKKKWMSRRRGACEMCKSKKVRCDGGTPCRYCN
                      LHNLQCEYQLSKKQQTSNKPPMASTAEDVSAVPSPAENNDAGVTTLVSSPNDIQILPEL
@@ -68,11 +69,12 @@ FEATURES             Location/Qualifiers
                      RHGMPPILTPDWTDYALPKVGKDTDWLLIQCQHANALSSAVNTLYSSRALCQTVAERER
                      NLMQAHKALESWRTGLPIHLQNIHRHETGYVTLDDQKTRHLTLTMVRKYHEAIFIIFFP
                      WTGSQSKGLISEHYRKKSMELCVKSAQAVLAIAARIASCDILGG"
+                     /Pfam="EqxR, Zn_clus"
      CDS             complement(6145..7452)
                      /codon_start=1
                      /locus_tag="ALT_1262"
                      /product="Kelch-like protein AlterF"
-                     /label=alterF
+                     /label="alterF"
                      /protein_id="GAQ03941.1"
                      /translation="MRADNSPDAPSIPERPLHTKGIAGSAAQSYYQSRRWLCALIVDNH
                      KRESYARLNWCFLNSCHTTKMISTVITALLLLASSCEGLPTNERPLSGKWSTLPNITRD
@@ -82,12 +84,13 @@ FEATURES             Location/Qualifiers
                      LYILGGREFGNKNVVSTVFGFNLTSHQWSTAYEPMPIARGGVASATIGSQMFMAGGEGD
                      RRTPTAVFPEMQAYDAAKNTWIDYADMPLPIHGSDAVVYKGEIVIPGGGIVTGATLTPV
                      VQTFKPPIQDLGEKSMTLMVMVYRVIIDLPWMLLKR"
+                     /Pfam="Kelch_1, Kelch_6, Kelch_3"
      CDS             join(8188..8353,8419..8510,8568..8642,8698..8942,
                      9023..10135,10211..10424)
                      /codon_start=1
                      /locus_tag="ALT_1263"
                      /product="laccase AlterE"
-                     /label=alterE
+                     /label="alterE"
                      /protein_id="GAQ03942.1"
                      /translation="MSPILEVCIALTALCSTAASRYTTHGSDFQPDHILRVSEQVFPVA
                      CVTRPSTLVNGTSPGPAIYLREDQTTWVRVYNDLESKNTTIHWHGLSQSTAPFSDGSPQ
@@ -100,12 +103,13 @@ FEATURES             Location/Qualifiers
                      WDPDLNVYVAKVGEIIDIIMVNQPNGLDIGFDLHPWHIHGGHIYDLGSGPGSYNATANE
                      EKLKGYNPVIRDTTMLYKYTPGQYVGENKNFTDQGWRAWRLHVQDPGVWMVHCHTLQHM
                      IMGMQTVWVMGNASEITRGISPESLEGYLNYGGDAYGNASYDPVVQHHFQGGLQQILQ"
+                     /Pfam="Cu-oxidase_3, Cu-oxidase, Cu-oxidase_2"
      CDS             join(11962..12483,12536..13441,13491..13665,13719..13835,
                      13887..14038)
                      /codon_start=1
                      /locus_tag="ALT_1264"
                      /product="FAD-dependent monooxygenase AlterD"
-                     /label=alterD
+                     /label="alterD"
                      /protein_id="GAQ03943.1"
                      /translation="MSSKFDVVVCGSGTAGLAAATWLAQYGVDCKILESRSGPLDVGQA
                      DGIQVRSVEIFESFGMAEELLREAYHNIEVAFWGSDPTRSGMGIVRKRSAHATTPGLSH
@@ -118,11 +122,12 @@ FEATURES             Location/Qualifiers
                      IVFPGDIRQQLASTKLNQLGTYLFSNHGPIPKYLPPGADIDSLIEVIVILSGARLEIQQ
                      EQIPDAFWPATGKYRMRDLHKIYIDDESYHNGHGHAYEFYGIDPGQGAVAIVRPDQYVS
                      KVLDMKNHEGIGTFFERFLQEQKQANGSLQGQTNGSLSEHLEDFTSG"
+                     /Pfam="FAD_binding_3, Phe_hydrox_dim"
      CDS             join(15541..15546,15601..16155,16202..16792,16841..16909)
                      /codon_start=1
                      /locus_tag="ALT_1265"
                      /product="FAD-dependent monooxygenase AlterC"
-                     /label=alterC
+                     /label="alterC"
                      /protein_id="GAQ03944.1"
                      /translation="MHVIVVGAGPCGFSLSLVLARAGIHVTLLDKADGVGSQPRAAHIF
                      APGIQMLRRAGVLGDVRRAGFVPKNWSFRKADGTPIVTIEDFAPSKSPDATTVLPIDTL
@@ -132,12 +137,13 @@ FEATURES             Location/Qualifiers
                      LAADAAHLCNPWGGLGLTGGFADAIGLSECLIGIHMGRADHSILDKYDEVRRSIYWNFT
                      DPVSTSNFMRVSTSDPETILEKDPVVATLARMHDDSRIRDDFDRHIYGILHDFTQYYSA
                      GKGQASL"
+                     /Pfam="FAD_binding_3"
      CDS             complement(join(17326..17841,17908..18918,18979..19092,
                      19140..20762))
                      /codon_start=1
                      /locus_tag="ALT_1266"
                      /product="polyketide synthase-like enzyme AlterB"
-                     /label=alterB
+                     /label="alterB"
                      /protein_id="GAQ03945.1"
                      /translation="MHQAEKRPSQRLLGSKAPQSSDNELSWTSFLNSEEDPWLYDQSLF
                      GNRTFPVAGYVAIAGECVRQLSESKLEFFSMKDLSISSSLVFNSDDKLELHTKLRPQGL
@@ -158,11 +164,12 @@ FEATURES             Location/Qualifiers
                      QGTWNLHHATLSADLDFFLLFSSICGITGQWGQGNYNAANSFLDAFVNYRHGQNLPASV
                      IDIGFMGSIGMAVKSGALMKNLKSSGYYFLNERHLIDALTISLAHSRPRGGQLMHRSQL
                      GLGIRSTKPMAAPKCRVAWKKDSRMAISHHFEPIGGIGH"
+                     /Pfam="fPKS_DH, PKS_NRPS_MT, fPKS_KR"
      CDS             join(21704..21993,22045..28291)
                      /codon_start=1
                      /locus_tag="ALT_1267"
                      /product="polyketide synthase AlterA"
-                     /label=alterA
+                     /label="alterA"
                      /protein_id="GAQ03946.1"
                      /translation="MAGPLKLYVFGDETGDFAEPLQRLCERRKEVLFLHFLEELNKVLR
                      DEVRRQPRDVRLQIPEFTDVLDLVRHYRHSGSRNQILETTLTCVCQLATVISFFGNKTS
@@ -202,6 +209,8 @@ FEATURES             Location/Qualifiers
                      PHFEASIKNLTDFIPYPMDPEEAPRTHIIWARDGLVSESDEKQFPRTEAEAKSVKFLLD
                      SRQSLGTYGWEKLIGSENISVDFIEGNHFTMMREPKVSPPYLSLTQADTNILGQVNQLP
                      TILDRIIGA"
+                     /Pfam="SAT2, PKS_KS, PKS_AT, fPKS_PT, ACP_PCP,
+                     Thioesterase"
 ORIGIN
         1 atgaccgcct catccctaga agggcaggaa attgcatcgt acgattccaa aaattcacca
        61 tcgaggcatg gtgatggtaa gtagctctca aagatatcct gcaaaagctg ggggcctttt

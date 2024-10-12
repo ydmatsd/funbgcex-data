@@ -1,30 +1,30 @@
-LOCUS       FBGC00512       37261 bp DNA     linear   UNA 26-MAR-2023
+LOCUS       FBGC00512              37261 bp    DNA     linear   UNA 26-MAR-2023
 DEFINITION  N-hydroxyapiosporamide.
 ACCESSION   FBGC00512
-VERSION     .
+VERSION     FBGC00512
 KEYWORDS    .
 SOURCE      Apiospora montagnei NRRL 25634
   ORGANISM  Apiospora montagnei NRRL 25634
+            .
 REFERENCE   1  (bases 1 to 37261)
-  AUTHORS   Ohashi M, Tan D, Lu J, Jamieson CS, Kanayama D, Zhou J, Houk KN, 
+  AUTHORS   Ohashi M, Tan D, Lu J, Jamieson CS, Kanayama D, Zhou J, Houk KN,
             Tang Y.
   TITLE     Enzymatic cis-Decalin Formation in Natural Product Biosynthesis.
   JOURNAL   J Am Chem Soc 2023;145:3301-3305
-  PUBMED    36723171
+   PUBMED   36723171
 REFERENCE   2  (bases 1 to 37261)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Mar 26, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1021/jacs.2c12854"; journalName: "J Am Chem Soc"; date: "2023"; 
-            volume: "145"; pages: "3301-3305"
+  JOURNAL   Exported Mar 26, 2023 from SnapGene 6.2.1 https://www.snapgene.com
 COMMENT     ##Assembly-Data-START##
             Assembly Method       :: AllPathsLG v. 10/04/2012
-            Assembly Name         :: Apiospora montagnei NRRL 25634 v1.0 
+            Assembly Name         :: Apiospora montagnei NRRL 25634 v1.0
             Coverage              :: 95.7x
             Sequencing Technology :: Illumina
             ##Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1021/jacs.2c12854"; journalName: "J Am Chem Soc"; date: "2023";
+            volume: "145"; pages: "3301-3305"
 FEATURES             Location/Qualifiers
      source          1..37261
                      /mol_type="genomic DNA"
@@ -33,7 +33,7 @@ FEATURES             Location/Qualifiers
      CDS             join(1..331,448..574,666..754,940..1314,1408..1712)
                      /codon_start=1
                      /product="SAM-dependent Diels-Alderase ApiI"
-                     /label=apiI
+                     /label="apiI"
                      /note="trans-decalin-forming diels-alderase"
                      /protein_id="WCQ76530.1"
                      /translation="MMTSSPATASPAVADQLDSLAALLTSRAQAVRNGAAVPPQQHVQL
@@ -44,12 +44,13 @@ FEATURES             Location/Qualifiers
                      VKDTSDAGAQAPQLLGMDFNQEQPVKGAVVYLIRRCLHDYSDEQCVRILGHLAAAMAAD
                      SVLLIGETVLTNPPSRPTAMMDILLATIGGKERTIDAFGAVVGRAGLRIKGVCKQEGGD
                      FSYIECVKA"
+                     /Pfam="MdpA, Methyltransf_2"
      CDS             complement(join(5939..9048,9116..13931,14002..17400,
                      17520..18500))
                      /codon_start=1
-                     /product="polyketide synthase-nonribosomal peptide 
+                     /product="polyketide synthase-nonribosomal peptide
                      synthetase ApiD"
-                     /label=apiD
+                     /label="apiD"
                      /note="pks-nrps"
                      /protein_id="WCQ76531.1"
                      /translation="MVHRDERIAIIGSACRFPGGASSPSKLWDLLEKPRDVLKEFDPER
@@ -122,10 +123,12 @@ FEATURES             Location/Qualifiers
                      LAAYYEAQTQNMNVKKGWSPAIHRPCIPVGDQAPNSDSMNAILRYSLDMKCVPRLRRSR
                      GYIDFTSVDDIAAGIVDAILLPNKSDGSEGGGVRFQHHSSNVRVPMDGFAEHLGKVYGG
                      EFDELPMREWMGLASKAGIDPLITAYLDGVVDTDEEMTFPYLGE"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_DH, PKS_NRPS_MT, fPKS_KR,
+                     ACP_PCP, Condensation, AA-adenyl-dom, fPKS_R"
      CDS             19570..20721
                      /codon_start=1
                      /product="trans-acting enoylreductase ApiC"
-                     /label=apiC
+                     /label="apiC"
                      /note="enoylreductase"
                      /protein_id="WCQ76532.1"
                      /translation="MAISTTLPRSQTALKIKGASKVAISKNTPLPTLRSSEVLVHVACI
@@ -135,10 +138,11 @@ FEATURES             Location/Qualifiers
                      LGAAATFDYHTPQCGAEVREHTQGKLNLALDCITDTTSMALCYEALGPAGGRYVALDSF
                      PLRGHTRRSVVPDWVCTYTQFGEPVAWAAPYNFDARPNDRRCAEAWYAVAQALLDAGRL
                      EAHPKEERRGGLEAVAEGLDEVRKGLVRGKKLVYPVSRELCVE"
+                     /Pfam="fPKS_ER, ADH_zinc_N_2"
      CDS             complement(join(21289..22707,22780..23031))
                      /codon_start=1
                      /product="cytochrome P450 monooxygenase ApiJ"
-                     /label=apiJ
+                     /label="apiJ"
                      /note="p450"
                      /protein_id="WCQ76533.1"
                      /translation="MLSSYRTKWEDTMPPVSQLLLPAVVIAALSFGVTIYKATFAMGEY
@@ -151,11 +155,12 @@ FEATURES             Location/Qualifiers
                      KDGLVTDKGVPLKKGTIVSFLASQAQMDPAKFTNAAVFDPWRFSRPIWAEQEKKEKSQE
                      NGGINGEQQPKEKAAYHKDSFVTTSPDYLPFGHGRHACPGRFLVDFELKMTVAYILKHY
                      DLEFPPEYNGKRPANGQIAELSTPPPGVKIRVKRRVEKA"
+                     /Pfam="p450"
      CDS             join(23838..24015,24089..25131,25233..25825,25957..26254,
                      26303..26353)
                      /codon_start=1
                      /product="NADH-dependent flavin oxidoreductase ApiH"
-                     /label=apiH
+                     /label="apiH"
                      /note="oye"
                      /protein_id="WCQ76534.1"
                      /translation="MELNISKPLTLRCGLTLPNRLVKAAMAEGFADVDQLPASQKCLAV
@@ -171,10 +176,11 @@ FEATURES             Location/Qualifiers
                      RLGTSYEFAKERQSLLEKGGWGGSSSAISQELAQHLEKHPELNGVPVAKIDMTSSSQSN
                      NQGTFGQILSWILTIIFFWLRGGPAQAARDKSAAEEALRVVLDYKNGVHVSAAAISGEY
                      YEEQGDEEADENDTVVVEKIASDLKS"
+                     /Pfam="Oxidored_FMN"
      CDS             complement(join(26940..27899,27985..28443))
                      /codon_start=1
                      /product="major facilitator superfamily transporter ApiG"
-                     /label=apiG
+                     /label="apiG"
                      /note="mfs"
                      /protein_id="WCQ76535.1"
                      /translation="MASTPAELDTSNHHHHNSHNDHEEKPITPPDSTLHHDNHEHNHVA
@@ -186,10 +192,11 @@ FEATURES             Location/Qualifiers
                      VLADKYGKLNMFGFGGIATGIITFCMSSTTSNAGIIVYSVFFGFSSGTIISGGSAAFST
                      CSANARDVGTYMGMGMAIAGLGGLVGPPVNGAILNAYGNYFNVSIVSGALCLFGGLITL
                      SGKIFTPEGLFGLS"
+                     /Pfam="MFS_1"
      CDS             join(29106..29143,29193..31473,31549..31644)
                      /codon_start=1
                      /product="transcription factor ApiF"
-                     /label=apiF
+                     /label="apiF"
                      /note="transcriptional factor"
                      /protein_id="WCQ76536.1"
                      /translation="MPDPDGRRSRSTVACADSRNLPSRSCALCRKRKVRCDRQTPCSNC
@@ -206,10 +213,11 @@ FEATURES             Location/Qualifiers
                      PTVAIQAAFLIAMELRMQINEEEGMFSGITLRPDLVAVLEESKAWCLQTIEAGETNVKG
                      LLLMSTLSAHLEGLSRGMEKSEIARLLVKTVHDVKEKCVPILERMATVVQNDKTAQMPQ
                      QQQQGFSVEGTDMMEDWGFLSSDAPLDMTNNDPMNWVFNDNGDGVLGSSFW"
+                     /Pfam="CghF"
      CDS             complement(join(33378..33489,33602..33883,34002..34627))
                      /codon_start=1
                      /product="short-chain dehydrogenase/reductase ApiA"
-                     /label=apiA
+                     /label="apiA"
                      /note="sdr"
                      /protein_id="WCQ76537.1"
                      /translation="MSSPLLAWLHAHLWLALPIPTHSFAGQTVIITGANTGLGLEAARY
@@ -218,10 +226,11 @@ FEATURES             Location/Qualifiers
                      YNKEPVLTFTGSFIHFLTSFPERSGGKDRRILRDLADEKQARMQDRYRVSKMIQLLLVR
                      ELANELSASSKPGKIITSTVNPGFVNTGLMNEAPARMQVVVAGLKRMTARTPEEGARTM
                      VHAAAGGMDTHGQYLSECKVSEPSAFVRSEEGIEVGKQLWEELGTVLEEKHPTVMSNI"
+                     /Pfam="adh_short"
      CDS             join(35603..36731,36846..37261)
                      /codon_start=1
                      /product="cytochrome P450 monooxygenase ApiE"
-                     /label=apiE
+                     /label="apiE"
                      /note="p450"
                      /protein_id="WCQ76538.1"
                      /translation="MDMLNSYLDERRVNVPLLILSCSLVAVLVVRSLATARLNQKEGID
@@ -233,6 +242,7 @@ FEATURES             Location/Qualifiers
                      DSWEKLRQEVAALGKDAPLSFEALRTMPFLNGVMNETHRLIPNNVTQVRACIADSTLPL
                      GGGPDGQSPLRVKKGDIVSVTKTVMYRDPATWGADADEWRPERWDGIRGSWGFLPYGGG
                      PRRCPAQMMVQTEAAYMLARMAREYKRLEARDPNPYRGVMRIGPSNKHGVKIALYK"
+                     /Pfam="p450"
 ORIGIN
         1 atgatgacgt cgtctcccgc caccgcttct ccagccgtcg cggaccagct tgattcgctg
        61 gccgccctcc tcacttcccg tgcccaagcc gtccggaacg gggccgcggt cccgccccag

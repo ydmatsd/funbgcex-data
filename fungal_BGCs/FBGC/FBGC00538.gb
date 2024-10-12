@@ -1,35 +1,35 @@
-LOCUS       FBGC00538       22907 bp DNA     linear   UNA 05-APR-2023
+LOCUS       FBGC00538              22907 bp    DNA     linear   UNA 05-APR-2023
 DEFINITION  bisabolene derivatives.
 ACCESSION   FBGC00538
-VERSION     .
+VERSION     FBGC00538
 KEYWORDS    .
 SOURCE      Antrodia cinnamomea S27
   ORGANISM  Antrodia cinnamomea S27
+            .
 REFERENCE   1  (bases 1 to 22907)
   AUTHORS   Hewage RT, Tseng CC, Liang SY, Lai CY, Lin HC.
-  TITLE     Genome mining of cryptic bisabolenes that were biosynthesized by 
+  TITLE     Genome mining of cryptic bisabolenes that were biosynthesized by
             intramembrane terpene synthases from Antrodia cinnamomea.
   JOURNAL   Philos Trans R Soc Lond B Biol Sci 2023;378:20220033
-  PUBMED    36633275
+   PUBMED   36633275
 REFERENCE   2  (bases 1 to 22907)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Apr 5, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1098/rstb.2022.0033"; journalName: "Philos Trans R Soc Lond B 
+  JOURNAL   Exported Apr 5, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1098/rstb.2022.0033"; journalName: "Philos Trans R Soc Lond B
             Biol Sci"; date: "2023"; volume: "378"; pages: "20220033"
 FEATURES             Location/Qualifiers
      source          1..22907
                      /strain="S27"
                      /mol_type="genomic DNA"
                      /organism="Antrodia cinnamomea"
-     CDS             complement(join(1..176,238..362,426..490,552..589,642..1229,
-                     1300..1648))
+     CDS             complement(join(1..176,238..362,426..490,552..589,
+                     642..1229,1300..1648))
                      /codon_start=1
                      /locus_tag="Antrod__000395"
                      /product="2OG-Fe(II)-dependent dioxygenase Tps2B"
-                     /label=tps2B
+                     /label="tps2B"
                      /protein_id="Antrod_:cds.g395.t1"
                      /translation="MSSATTTLSSALHDPSSAAYKKAKRTHLKTTRNRNEHVESEWTPF
                      RVAEKKYKARFPPPDLSNVLDLAVLDESRVDEISGGGWSGKGNVVQYSEIPLRCEEGSS
@@ -39,13 +39,14 @@ FEATURES             Location/Qualifiers
                      VPWEDVFGPDSKESGDWGDEGPDWDSWKETYEPDAGIVNFYQTKDTLMAHVDRSEVCAT
                      SPLVSISLGCAAVFLIGGLARDVEPVPILLRSGDVVIMSGPACRRAYHGIPRILEDTLA
                      PHFEGGDADSDWRVYEEYLRTTRININVRQVFPKGFNPTLDVNTNVS"
-     CDS             join(5026..5251,5303..5451,5509..5681,5738..5801,5852..5936,
-                     5997..6103,6165..6273,6330..6343,6393..6582,6631..6712,
-                     6773..6892,6950..7078,7129..7219)
+                     /Pfam="2OG-FeII_Oxy_2"
+     CDS             join(5026..5251,5303..5451,5509..5681,5738..5801,
+                     5852..5936,5997..6103,6165..6273,6330..6343,6393..6582,
+                     6631..6712,6773..6892,6950..7078,7129..7219)
                      /codon_start=1
                      /locus_tag="Antrod__000397"
                      /product="cytochrome P450 monooxygenase Tps2C"
-                     /label=tps2C
+                     /label="tps2C"
                      /protein_id="Antrod_:cds.g397.t1"
                      /translation="MELLNETLPKGVLFMIASGVLSAVIYVAFRRYSCVGTGQTLPFPP
                      GPPLKPFVGSILEVSPKGAWTKFTEYKQQYGDLVFFRGLGNNVLVLNSMRVINDFLDKR
@@ -56,13 +57,14 @@ FEATURES             Location/Qualifiers
                      AGRLPTIDDRSSLPYVNPVIKETMRWHPILPLSVARRSAVDDIYEGYFIPKSTIVMPNV
                      WAVAFEPNERYDPHAFIPERFLGSTQSTVDPATWAFGFARRICPGKHLGENSLFILIST
                      ILAAFDVSPPAKGELEVKFTLDLVSYPEPFDCNITPRSDAKVRLINWRAAQSTI"
-     CDS             complement(join(7827..7912,7968..8098,8162..8278,8334..8376,
-                     8429..8657,8715..8728,8790..8910,8975..9090,9146..9230,
-                     9281..9344,9405..9593,9647..9773,9831..10038))
+                     /Pfam="p450"
+     CDS             complement(join(7827..7912,7968..8098,8162..8278,
+                     8334..8376,8429..8657,8715..8728,8790..8910,8975..9090,
+                     9146..9230,9281..9344,9405..9593,9647..9773,9831..10038))
                      /codon_start=1
                      /locus_tag="Antrod__000398"
                      /product="cytochrome P450 monooxygenase Tps2D"
-                     /label=tps2D
+                     /label="tps2D"
                      /protein_id="Antrod_:cds.g398.t1"
                      /translation="MMATTVYLLSGLFLSLVVLWRRRVSQNASQNPLRRPLPPGPPGIP
                      FLKNVLDWTQHSPWFRFTEWKDTYGDLAHINLLGQHIVIMNSFATSRDVMEQSTYADRP
@@ -73,6 +75,7 @@ FEATURES             Location/Qualifiers
                      ERLPSFADRSSLPYVEAVVKETLRWHPPAPIGIAHRAMEDSYYHDYYIPQGTTVISNMW
                      AICRDPGSYADPASFRPDRFMKADPELNPYEWSFGFGRRSCPGIHYATSILYIVMASVL
                      HAFDIKAQDEKGNDVTLKAEFSDTFISYAEPFPCRITPRSSVIAELLRKDT"
+                     /Pfam="p450"
      CDS             join(11920..12055,12118..12215,12285..12376,12432..12475,
                      12531..12628,12692..12864,12927..13180,13234..13300,
                      13355..13549,13608..13637,13687..13920,13990..14022,
@@ -80,7 +83,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="Antrod__000399"
                      /product="cytochrome P450 monooxygenase Tps2E"
-                     /label=tps2E
+                     /label="tps2E"
                      /protein_id="Antrod_:cds.g399.t1"
                      /translation="MQTYTIIESLVLCLFTWLLYRFLNNSLTRSPLDNIPGPPPESFLK
                      GNAAQLYHRHAWNFHTQLWERYGPVVKVHAPFGARSLYVYDPKVLQHILVGDPNLVDEP
@@ -92,23 +95,25 @@ FEATURES             Location/Qualifiers
                      DTTAPLSSPVRGIDGTLIRELVIPKGTVIFIGVLASNRNKAIWGDDALEWKPERWLSPL
                      PDSVAEAHIPGVFSSLMTFVGGNRSCIGFRFAEMELKAVLSVLLESFSFSESDKEIVWN
                      FSTVRFPTVGEHGLKPELPLVVGPITGT"
+                     /Pfam="p450"
      CDS             join(15855..15989,16054..16438,16495..16820,16870..16932)
                      /codon_start=1
                      /product="UbiA-like terpene synthase Tps2A"
-                     /label=tps2A
+                     /label="tps2A"
                      /translation="MASKRTFPVISIRPLLSLCFSALRNWIRTLILFTYTDYKTIVLPV
                      SVFACVSAPVHSFVRFLHAVLWIWLHLLQCNVSNQYRSVLEDAVNRPWRPLPSRLISVE
                      HACILRWLLVPLCIGTSLCYGWDVALASACLTLTTVCYDELGLAGHFLGKNLCNVPGYV
                      SFEIGATKIMGSTTNLDFIALESILCSAMVIFTTIQTQDFPDVAGDRALGRVTLPILCP
                      EGSRHFTTCVLLFWSGFLSYAWSIGLLSSAVLISLGIWVAYRYYRFRKVEEDKKSYLIY
                      NIWLLFVHSLAAHARWNLMAL"
+                     /Pfam="UbiA_TC"
      CDS             complement(join(17713..17886,17939..17953,18022..18104,
                      18166..18267,18320..18448,18505..18583,18637..18795,
                      18854..19059,19114..19174))
                      /codon_start=1
                      /locus_tag="Antrod__000400"
                      /product="hypothetical protein Tps2F"
-                     /label=tps2F
+                     /label="tps2F"
                      /protein_id="Antrod_:cds.g400.t1"
                      /translation="MTVSLQKAELIGVILESLTYGAYFIIFAQCSSAIRSFQQNWESLW
                      RSGSSTRSSVEPIKTDVFLERHTRPSRGLYLPLTAALLFILITMHLVVDIVRVVDAFTG
@@ -123,7 +128,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="Antrod__000401"
                      /product="cytochrome P450 monooxygenase Tps2G"
-                     /label=tps2G
+                     /label="tps2G"
                      /protein_id="Antrod_:cds.g401.t1"
                      /translation="METMAILNVFLCLFAWYLWRFLNKRLSKSALDNIPGPLPESFAKG
                      NFGQLYHRQAWDFHSQLWKKYGPIVKLQVLFGARCLYIYDPKVLHHILASDQTLVDEPA
@@ -135,6 +140,7 @@ FEATURES             Location/Qualifiers
                      VAPLSPPIRGVDGTMMHEIHISKGTVVFIGVLASNRNKAVWGDDALEWKPERWLSPLPD
                      SVAEARIPGVFSSLMTFVGGNRSCIGFRFAEMELKAILSVLLHSFSFSESDKEVVWNFA
                      TVRYPTVGEDGLKPELPLVVRPVKSI"
+                     /Pfam="p450"
 ORIGIN
         1 tcatgataca ttggtattta catcgagggt tggattgaac cctttcggga acacctgtcg
        61 cacattgatg ttgatgcgcg tagtgcgcag gtactcctca tatactctcc agtcgctatc

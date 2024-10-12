@@ -1,29 +1,29 @@
-LOCUS       FBGC00550        5117 bp DNA     linear   UNA 07-APR-2023
+LOCUS       FBGC00550               5117 bp    DNA     linear   UNA 07-APR-2023
 DEFINITION  atrochrysone.
 ACCESSION   FBGC00550
-VERSION     .
+VERSION     FBGC00550
 KEYWORDS    .
 SOURCE      Calonarius odorifer DH149
   ORGANISM  Calonarius odorifer DH149
+            .
 REFERENCE   1  (bases 1 to 5117)
   AUTHORS   Lohr NA, Eisen F, Thiele W, Platz L, Motter J, Huttel W, Gressler M,
             Muller M, Hoffmeister D.
-  TITLE     Unprecedented Mushroom Polyketide Synthases Produce the Universal 
+  TITLE     Unprecedented Mushroom Polyketide Synthases Produce the Universal
             Anthraquinone Precursor.
   JOURNAL   Angew Chem Int Ed Engl 2022;61:e202116142
-  PUBMED    35218274
+   PUBMED   35218274
 REFERENCE   2  (bases 1 to 5117)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Apr 7, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1002/anie.202116142"; journalName: "Angew Chem Int Ed Engl"; 
-            date: "2022"; volume: "61"; pages: "e202116142"
+  JOURNAL   Exported Apr 7, 2023 from SnapGene 6.2.1 https://www.snapgene.com
 COMMENT     ##Assembly-Data-START##
             Assembly Method       :: ABySS v. 2.0.2
             Sequencing Technology :: Illumina
             ##Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1002/anie.202116142"; journalName: "Angew Chem Int Ed Engl";
+            date: "2022"; volume: "61"; pages: "e202116142"
 FEATURES             Location/Qualifiers
      source          1..5117
                      /isolate="DH149"
@@ -33,7 +33,7 @@ FEATURES             Location/Qualifiers
      CDS             join(1..459,519..3842,3900..5117)
                      /codon_start=1
                      /product="polyketide synthase CoPKS4"
-                     /label=CoPKS4
+                     /label="CoPKS4"
                      /protein_id="UMW72408.1"
                      /translation="MPPNTVNKAAEIPPFEPIAIVGIGIRGPGGINSLTTLWDTLVERK
                      SHCFPLAKDPRFQRRFNPDDFKALFDGIPDSENVLHANLFDETPGLDRTYFSLSEREAA
@@ -64,6 +64,7 @@ FEATURES             Location/Qualifiers
                      PGVVGLTAQQAESVLLHPWSRTDGIHGLVRRQLQLNTRASFAHPEYKTIIRVTAVNVPV
                      YVLCAIDPFRPSESLDLPKETYQWLLSFKQSDVAEVTWKELIGERLLGVQSVPGNHWTM
                      FTPANVKATTEALKQGLDVIEARLNKMG"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_PT, Abhydrolase_1"
 ORIGIN
         1 atgccaccaa atactgttaa caaagctgca gaaattcccc ctttcgaacc catcgccatc
        61 gttgggatag gtatccgtgg cccaggtggt ataaacagcc ttaccactct ctgggatact

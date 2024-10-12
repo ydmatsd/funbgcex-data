@@ -1,27 +1,27 @@
-LOCUS       FBGC00539       29268 bp DNA     linear   UNA 06-APR-2023
+LOCUS       FBGC00539              29268 bp    DNA     linear   UNA 06-APR-2023
 DEFINITION  phomoidride B.
 ACCESSION   FBGC00539
-VERSION     .
+VERSION     FBGC00539
 KEYWORDS    .
 SOURCE      Talaromyces stipitatus ATCC 10500
   ORGANISM  Talaromyces stipitatus ATCC 10500
+            .
 REFERENCE   1  (bases 1 to 29268)
-  AUTHORS   Yamamoto S, Matsuyama T, Ozaki T, Takino J, Sato H, Uchiyama M, 
+  AUTHORS   Yamamoto S, Matsuyama T, Ozaki T, Takino J, Sato H, Uchiyama M,
             Minami A, Oikawa H.
-  TITLE     Elucidation of Late-Stage Biosynthesis of Phomoidride: Proposal of 
+  TITLE     Elucidation of Late-Stage Biosynthesis of Phomoidride: Proposal of
             Cyclization Mechanism Affording Characteristic Nine-Membered Ring of
             Fungal Dimeric Anhydride.
   JOURNAL   J Am Chem Soc 2022;144:20998-21004
-  PUBMED    36374185
+   PUBMED   36374185
 REFERENCE   2  (bases 1 to 29268)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Apr 6, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1021/jacs.2c09308"; journalName: "J Am Chem Soc"; date: "2022"; 
+  JOURNAL   Exported Apr 6, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1021/jacs.2c09308"; journalName: "J Am Chem Soc"; date: "2022";
             volume: "144"; pages: "20998-21004"
-COMMENT     Assembly name: JCVI-TSTA1-3.0
+            Assembly name: JCVI-TSTA1-3.0
             Genome coverage: 8.09x.
 FEATURES             Location/Qualifiers
      source          1..29268
@@ -38,9 +38,8 @@ FEATURES             Location/Qualifiers
                      /locus_tag="TSTA_048430"
                      /product="polyketide synthase TstA"
                      /EC_number="2.3.1.161"
-                     /label=tstA
-                     /note="encoded by transcript TSTA_048430A
-                     revised sequence"
+                     /label="tstA"
+                     /note="encoded by transcript TSTA_048430A revised sequence"
                      /protein_id="EED15402.1"
                      /translation="MSPLIHDDQPYSWNAAMPIAVVGIGFRGPGDATNVENLFRMIAEG
                      RESRIDIPKEKWNHEAFYHPDPSRFGTHNVTGGHYFQQDVSRFDAPFFNMTAAEAAALD
@@ -87,11 +86,13 @@ FEATURES             Location/Qualifiers
                      WNEDSSLGALTLPMFSHFRHLSAGNADWGKSGSGNNLKSALKAAKTLDDASELILGALI
                      DKIASRSGIGPENINTSKSMPDYGIDSLVAVEMRNWITKDMDSTLPVLELLASDPLTHL
                      ATKIAQRSRSVQVAEQTHE"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_DH, PKS_NRPS_MT, fPKS_ER,
+                     fPKS_KR, ACP_PCP"
      CDS             12094..13857
                      /codon_start=1
                      /locus_tag="TSTA_048440"
                      /product="transcription factor TstO"
-                     /label=tstO
+                     /label="tstO"
                      /note="encoded by transcript TSTA_048440B"
                      /protein_id="EED15404.1"
                      /translation="MDNQSTINNNGNNKVQQKVRSACDACQSAKVRCGREKPTCRRCQN
@@ -105,24 +106,25 @@ FEATURES             Location/Qualifiers
                      SSLSSSLSSSSWIPSGPAGMELASPPPSIFDNNNTSTTTTTSSISTANRPGKTVDICSL
                      WLGDYEISGPEKQEFLKHLLTARLRDIAATIHQLHETMNRYRHRPAFKVGTLMLGEIYR
                      HVQAIVKTLDQ"
+                     /Pfam="EqxR"
      CDS             complement(14790..15416)
                      /codon_start=1
                      /locus_tag="TSTA_048450"
-                     /product="phosphatidylethanolamine-binding protein-like 
+                     /product="phosphatidylethanolamine-binding protein-like
                      protein TstB"
-                     /label=tstB
-                     /note="encoded by transcript TSTA_048450A
-                     revised sequence"
+                     /label="tstB"
+                     /note="encoded by transcript TSTA_048450A revised sequence"
                      /protein_id="EED15405.1"
                      /translation="MWFILRCLEWTLAKLLYRRRGYDHDLFYKGLAFGKYPNPTFTVTS
                      PDCGPTGAKLGVEYSQWGSGKVPQLTWPVSGIEVKEYLIISEDPDAPLGHSNVHGIYCF
                      VPGNKTGFGPDDLELLGEDKNGLKQISSGYLVGKNRRNTVYIAPRPPLGHGPHRYFFEI
                      VALSQPLDPEKLSPVPTKQELSDMIIGKVCGWGLWTATFEQKWSM"
+                     /Pfam="PBP"
      CDS             join(15833..16286,16339..16562)
                      /codon_start=1
                      /locus_tag="TSTA_048460"
                      /product="ketosteroid isomerase-like protein TstC"
-                     /label=tstC
+                     /label="tstC"
                      /note="encoded by transcript TSTA_048460A"
                      /protein_id="EED15406.1"
                      /translation="MRLSTLSSLLLGSSSIVFARVPPTVDNQEPIKSTSYFLDDPDFPS
@@ -130,11 +132,12 @@ FEATURES             Location/Qualifiers
                      MAFVNSLWRLNNCLKDAKVDAKLWAIHGGCDQAWSVQEFYFNATTNKGQPWELTSLWVS
                      RWDEDGLIREVRTWVDAGQIMRTLWDNEIWFNSSDRVHHYDFIPGPGGLPPIANKTELG
                      GEL"
+                     /Pfam="BfL6"
      CDS             join(16940..17302,17359..18660)
                      /codon_start=1
                      /locus_tag="TSTA_048470"
                      /product="major facilitator superfamily transporter TstD"
-                     /label=tstD
+                     /label="tstD"
                      /note="encoded by transcript TSTA_048470A"
                      /protein_id="EED15407.1"
                      /translation="MPEPFNSTMPLPSPPNAQPKDEKVGLQDSNQPPEMSASSEKKHPE
@@ -147,11 +150,12 @@ FEATURES             Location/Qualifiers
                      ELLNFPIERARLEIALPVFCLGCVCTVLYGWLMTQDVNVSGPIILLFVMSWSFAAFYQV
                      LNVLLVDTYPGRGAMVTAVVNLLRCEIGAGMAAMISPLTSATGSGWSYTIIALIGVAAT
                      SPLLLTMKYGMKWRQESAAKAEEKKSRMQEAQQRQEV"
+                     /Pfam="MFS_1"
      CDS             join(19383..19595,19659..19808,19895..20422)
                      /codon_start=1
                      /locus_tag="TSTA_048480"
                      /product="methyltransferase TstE"
-                     /label=tstE
+                     /label="tstE"
                      /note="encoded by transcript TSTA_048480A"
                      /protein_id="EED15408.1"
                      /translation="MAAVTTTETASQSRDKGENAWAYKKDVAWYRKDLSEDTIGETRAI
@@ -160,12 +164,13 @@ FEATURES             Location/Qualifiers
                      FDSSNPAFAKIAGTIDIIHAGSFFHLFSWDDQVKVAKQIINFLKPQSGSMLVGKHAGDT
                      NPGHKSRPGRLGSRYRHNGETWKKMWEQIGEETDTKWEVKVNELADDEYFKDGKQYGDW
                      DSETTRRLQFCVRRL"
+                     /Pfam="Trt5"
      CDS             join(20681..20862,20920..21123,21182..21919,21975..22057,
                      22112..22221)
                      /codon_start=1
                      /locus_tag="TSTA_048490"
                      /product="citrate synthase-like protein TstJ"
-                     /label=tstJ
+                     /label="tstJ"
                      /note="encoded by transcript TSTA_048490A"
                      /protein_id="EED15409.1"
                      /translation="MSDGTLFIQDSRTSKQYTISVTSDTITAVDFQKITSPTGKLALYD
@@ -176,14 +181,14 @@ FEATURES             Location/Qualifiers
                      KSIGSLDKVPEFLEQVKRRERRLFGFGHRLHKREDPRLASVKRWLKMMDYTPDQEPLLE
                      LAQEIDRLASSDEYFIKRNLRANADFYTHFLFKAWGFDWDMLCAANMFHRIIGLMAHWR
                      EAMDQPIKIFRATDLYVGPVVIQEDNRTVLEEPKIQSRL"
+                     /Pfam="Citrate_synt"
      CDS             22938..24413
                      /codon_start=1
                      /locus_tag="TSTA_048500"
                      /product="2-methylcitrate dehydratase TstI"
                      /EC_number="4.2.1.79"
-                     /label=tstI
-                     /note="encoded by transcript TSTA_048500A
-                     revised sequence"
+                     /label="tstI"
+                     /note="encoded by transcript TSTA_048500A revised sequence"
                      /protein_id="EED15410.1"
                      /translation="MTDEIPFDKPIRDIASYVHNYTIPSSPTSFKHARGVILDSLGCAI
                      ETLHRSSEACTLLGPVIPGTTFPYGFHLPGTSYVLDPVKGTFDLGVLIRYLDHNDAFGG
@@ -194,23 +199,25 @@ FEATURES             Location/Qualifiers
                      YNAADRDHCIQYVIALAFLKGRFPDAEDYMDDSPYANSKEMDDLREKIMMKVDQDLTQG
                      YLDPERKSCGTGMTVYLNNGTVLDEVLVEYPAGHLKNPRTKELHQRKFEKNMRLAFTDA
                      EIANIVKCIEDDEMPISSFVDLFTRDSKGMAKL"
+                     /Pfam="MmgE_PrpD, MmgE_PrpD_C"
      CDS             join(24703..24856,24913..25355)
                      /codon_start=1
                      /locus_tag="TSTA_048510"
-                     /product="phosphatidylethanolamine-binding protein-like 
+                     /product="phosphatidylethanolamine-binding protein-like
                      protein TstN"
-                     /label=tstN
+                     /label="tstN"
                      /note="encoded by transcript TSTA_048510A"
                      /protein_id="EED15411.1"
                      /translation="MILFSIFVALLAATRAQSQTPPGFKPSTELHLGVTFQDGVSVQAG
                      HELLANEAKSAPQLDLHSLLAIHHTQTPFYHSTWKFMVFMIDIDVERNGTKYPLLHWYQ
                      PDLILSGRTGRLSIESDSNMPKAMYAGPAPPPGPAHRYVEVIFKQPERYELPADFEKFL
                      ENTIAARLGFDIEQFVKEAGLSEPVAGNWFLTATS"
+                     /Pfam="PBP"
      CDS             complement(join(25507..26151,26207..26257))
                      /codon_start=1
                      /locus_tag="TSTA_048520"
                      /product="alpha/beta hydrolase TstM"
-                     /label=tstM
+                     /label="tstM"
                      /note="encoded by transcript TSTA_048520A"
                      /protein_id="EED15412.1"
                      /translation="MPALKLLCLHGAGMNSEIMKSHLSSLAKTLEYRNIAQFAYAEGSV
@@ -218,11 +225,12 @@ FEATURES             Location/Qualifiers
                      SHGGSFLAELLARYARDNPATDVERLARCAVFINSFPPFRNDPDQNPIIDYELLKHFPK
                      IPTLHVVGTSDFVHEYSTILYEKLHQKAPTSTGLVTHSKGHEIPRDPKVLDKVVAGFEK
                      LNFAVSFSH"
+                     /Pfam="FSH1"
      CDS             join(26617..26835,26900..28150)
                      /codon_start=1
                      /locus_tag="TSTA_048530"
                      /product="major facilitator superfamily transporter TstL"
-                     /label=tstL
+                     /label="tstL"
                      /note="encoded by transcript TSTA_048530A"
                      /protein_id="EED15413.1"
                      /translation="MTASEQTALLGSPRKPAYTIFSNSQKLLIILTATLASVFSPLSAN
@@ -234,11 +242,12 @@ FEATURES             Location/Qualifiers
                      KVLGRPLARGEHFDHDTGVALGFHIERTRLQIVIPAVVLAMLAMVAYGWSVYLVLTPAV
                      PLVLLFLFGWLGTAAYSGMNVLIVDLNLKSPATATAANNLIRCMLGALGAMVIMPIINA
                      VGMGWTFIMISGVWIVLSPLIILVAWSKSSE"
+                     /Pfam="MFS_1"
      CDS             complement(join(28377..28917,28976..29268))
                      /codon_start=1
                      /locus_tag="TSTA_048540"
                      /product="2OG-Fe(II)-dependent dioxygenase TstK"
-                     /label=tstK
+                     /label="tstK"
                      /note="encoded by transcript TSTA_048540A"
                      /protein_id="EED15414.1"
                      /translation="MPHSNYETPEVILQYFAPNQDGTPPDANDLEIQYGTKNLHLAAVT
@@ -246,6 +255,7 @@ FEATURES             Location/Qualifiers
                      ICFNHNVRSEAAPRLDISKHKVDHIGPMRRVHVDVAPRGTYEAVEKRAGEALMSSIRGR
                      WKIINSWKPLKTVQRDPLAIATGPSCPDEDLVELTRYRPDGSLSESRYSVLYDQRHKWY
                      WVPMQKPNEMLLFNQYSDDPNRTLADRVAHCGFTLPGAEDKEIRESVEVRALVIY"
+                     /Pfam="NvfI"
 ORIGIN
         1 ctactcatgc gtttgctctg caacctgcac tgagcgtgat ctctgcgcga tcttggtggc
        61 caagtgcgtc aaggggtcac tagctaataa ttccagcact ggcaacgtac tatccatatc

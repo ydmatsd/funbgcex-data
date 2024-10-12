@@ -1,26 +1,42 @@
-LOCUS       FBGC00534       31931 bp DNA     linear   UNA 04-APR-2023
+LOCUS       FBGC00534              31931 bp    DNA     linear   UNA 04-APR-2023
 DEFINITION  chlorflavonin.
 ACCESSION   FBGC00534
-VERSION     .
+VERSION     FBGC00534
 KEYWORDS    .
 SOURCE      Aspergillus candidus CBS 102.13
   ORGANISM  Aspergillus candidus CBS 102.13
+            .
 REFERENCE   1  (bases 1 to 31931)
-  AUTHORS   Zhang W, Zhang X, Feng D, Liang Y, Wu Z, Du S, Zhou Y, Geng C, Men 
+  AUTHORS   Zhang W, Zhang X, Feng D, Liang Y, Wu Z, Du S, Zhou Y, Geng C, Men
             P, Fu C, Huang X, Lu X.
-  TITLE     Discovery of a Unique Flavonoid Biosynthesis Mechanism in Fungi by 
+  TITLE     Discovery of a Unique Flavonoid Biosynthesis Mechanism in Fungi by
             Genome Mining.
   JOURNAL   Angew Chem Int Ed Engl 2023;62:e202215529
-  PUBMED    36704842
+   PUBMED   36704842
 REFERENCE   2  (bases 1 to 31931)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Apr 4, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1002/anie.202215529"; journalName: "Angew Chem Int Ed Engl"; 
+  JOURNAL   Exported Apr 4, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     ##ata-START##
+            Assembly Date         :: JUL-2015
+            Assembly Method       :: AllPathsLG v. R49403
+            Assembly Name         :: Aspcand1
+            Genome Coverage       :: 84x
+            Sequencing Technology :: Illumina
+            ##ata-END##
+            ##Metadata-START##
+            Organism Display Name :: Aspergillus candidus CBS 102.13
+            GOLD Stamp ID         :: Gp0108069
+            ##Metadata-END##
+            ##Genome-Annotation-Data-START##
+            Annotation Provider   :: INSDC submitter
+            Annotation Status     :: Full annotation
+            Annotation Pipeline   :: Eukaryotic Annotation Propagation Pipeline
+            ##Genome-Annotation-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1002/anie.202215529"; journalName: "Angew Chem Int Ed Engl";
             date: "2023"; volume: "62"; pages: "e202215529"
-COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final 
+            PROVISIONAL REFSEQ: This record has not yet been subject to final
             NCBI review. The reference sequence is identical to KZ559171.
             URL -- http://genome.jgi.doe.gov/Aspcand1
             JGI Project ID: 1051943
@@ -28,27 +44,13 @@ COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
             The strain is available from CBS-KNAW culture collection
             Contacts: Scott E. Baker (scott.baker@pnnl.gov)
             Assembly and annotation done by JGI.
-            The JGI and collaborators endorse the principles for the 
-            distribution and use of large scale sequencing data adopted by the 
-            larger genome sequencing community and urge users of this data to 
+            The JGI and collaborators endorse the principles for the
+            distribution and use of large scale sequencing data adopted by the
+            larger genome sequencing community and urge users of this data to
             follow them. It is our intention to publish the work of this project
-            in a timely fashion and we welcome collaborative interaction on the 
-            project and analysis. 
+            in a timely fashion and we welcome collaborative interaction on the
+            project and analysis.
             (http://www.genome.gov/page.cfm?pageID=10506376).##Genome-Assembly-D
-            ata-START##
-            Assembly Date         :: JUL-2015
-            Assembly Method       :: AllPathsLG v. R49403
-            Assembly Name         :: Aspcand1
-            Genome Coverage       :: 84x
-            Sequencing Technology :: Illumina
-            ##Genome-Assembly-Data-END####Metadata-START##
-            Organism Display Name :: Aspergillus candidus CBS 102.13
-            GOLD Stamp ID         :: Gp0108069
-            ##Metadata-END####Genome-Annotation-Data-START##
-            Annotation Provider :: INSDC submitter
-            Annotation Status   :: Full annotation
-            Annotation Pipeline :: Eukaryotic Annotation Propagation Pipeline 
-            ##Genome-Annotation-Data-END##
 FEATURES             Location/Qualifiers
      source          1..31931
                      /chromosome="Unknown"
@@ -62,7 +64,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="BDW47DRAFT_70763"
                      /product="acetolactate synthase CfoL"
-                     /label=cfoL
+                     /label="cfoL"
                      /db_xref="GeneID:36526816"
                      /db_xref="InterPro:IPR011766"
                      /db_xref="InterPro:IPR012000"
@@ -82,14 +84,15 @@ FEATURES             Location/Qualifiers
                      KVIVLNNEEQGMVTQWQNLFYEDRYAHTHQANPDFIKIADAMGIQGQRVADPTKIKESL
                      QWLIDTDGPALLEVITDKKVPVLPMVPGGCGLHEFIVFNPEDEKTRRGLMRERTCGLHG
                      "
+                     /Pfam="TPP_enzyme_N, TPP_enzyme_M, TPP_enzyme_C"
      CDS             complement(join(4007..9052,9107..9332,9397..9971,
                      10068..10135,10221..10512,10584..11134,11190..12585,
                      12730..12822))
                      /codon_start=1
                      /locus_tag="BDW47DRAFT_128661"
-                     /product="nonribosomal peptide synthetase-polyketide 
+                     /product="nonribosomal peptide synthetase-polyketide
                      synthase CfoA"
-                     /label=cfoA
+                     /label="cfoA"
                      /db_xref="GeneID:36524045"
                      /db_xref="InterPro:IPR000873"
                      /db_xref="InterPro:IPR001031"
@@ -148,11 +151,13 @@ FEATURES             Location/Qualifiers
                      TVAYAVASKLANAESEQPRLAGFVLVDTYLTMTGRGDPDWLNALPAEALVSRLQVPPSL
                      GHPKGMGSDSLVGDLDVALAKVGGYFRALRDWDIGLHPLPDALSTLFVRAVDPSDKMPK
                      DTDVWRPRWPRADLTVDVPGSHLALLDKRYAPGAAGEIERWAREDLNA"
+                     /Pfam="AA-adenyl-dom, PKS_KS, PKS_AT, fPKS_DH, fPKS_KR,
+                     ACP_PCP, Thioesterase"
      CDS             join(14777..14941,15034..15510,15604..15832,15923..16788)
                      /codon_start=1
                      /locus_tag="BDW47DRAFT_111384"
                      /product="FAD-dependent halogenase CfoE"
-                     /label=cfoE
+                     /label="cfoE"
                      /db_xref="GeneID:36521098"
                      /db_xref="InterPro:IPR020946"
                      /db_xref="JGIDB:Aspcand1_111384"
@@ -168,11 +173,12 @@ FEATURES             Location/Qualifiers
                      SDARIKYGVSHDDYANQLAVDMNASPSFMDAVRIGSSRKEWWRLPLVWLLAAEFNTKFR
                      LCGPWKWDGAVDVMSGELWDVVKRRGGLLKQIVLSGVPLVVFGSLHLVLWIFTSLFKPS
                      RW"
+                     /Pfam="FMO-like"
      CDS             complement(17048..18013)
                      /codon_start=1
                      /locus_tag="BDW47DRAFT_111385"
                      /product="methyltransferase CfoB"
-                     /label=cfoB
+                     /label="cfoB"
                      /db_xref="GeneID:36521099"
                      /db_xref="InterPro:IPR013216"
                      /db_xref="JGIDB:Aspcand1_111385"
@@ -183,11 +189,12 @@ FEATURES             Location/Qualifiers
                      AVNEACQRIFYRISTRLLNKIGGVSGPLWERSTRTIASQLDNVAFPTAQWRDVVRYKWN
                      CEQTTMLFHDESQFGGPVERVNCVGPAEEVVSKTDPGFWQMQWGAAEVRRWFEAHLPTW
                      FEDKAEDLELEGWYEELDRVLGGKSLPVTWPVVLLLATRV"
+                     /Pfam="Methyltransf_25"
      CDS             18549..19520
                      /codon_start=1
                      /locus_tag="BDW47DRAFT_111386"
                      /product="NADPH-dependent FMN reductase CfoJ"
-                     /label=cfoJ
+                     /label="cfoJ"
                      /db_xref="GeneID:36521100"
                      /db_xref="InterPro:IPR005025"
                      /db_xref="JGIDB:Aspcand1_111386"
@@ -198,12 +205,13 @@ FEATURES             Location/Qualifiers
                      VFFPLGTQIVDQMQVFGTGVPDSFLLNSEAMVRAEELGRNLAQQAQATTEGEATYVGPR
                      GMCPICHLSMFNFVGRDAVECATCGAKGRMGVGDDGHVEFVTDSEGESFSVLRRSGLKK
                      HLQDLEQGLQAEGASTKVLDIKNELLKLGQSWVVAPPSRGGR"
+                     /Pfam="FMN_red"
      CDS             complement(join(19663..19979,20048..20496,20556..20806,
                      20863..21051))
                      /codon_start=1
                      /locus_tag="BDW47DRAFT_111387"
                      /product="methyltransferase CfoC"
-                     /label=cfoC
+                     /label="cfoC"
                      /db_xref="GeneID:36521101"
                      /db_xref="InterPro:IPR001077"
                      /db_xref="JGIDB:Aspcand1_111387"
@@ -216,11 +224,12 @@ FEATURES             Location/Qualifiers
                      MEAMAHDFFTPNPIKGARAYYLRNVLHDWDDDRCCVILKHIRDAMTPGYSVLLINEFSI
                      PRKGACSFATHSDFMLMAINAAVERTEQQWYHLMKSVGLQIKKIWTLEPDTESLLEVTR
                      VD"
+                     /Pfam="Methyltransf_2"
      CDS             complement(join(21909..22328,22396..22494))
                      /codon_start=1
                      /locus_tag="BDW47DRAFT_70811"
                      /product="dehydratase CfoI"
-                     /label=cfoI
+                     /label="cfoI"
                      /db_xref="GeneID:36526817"
                      /db_xref="InterPro:IPR004235"
                      /db_xref="JGIDB:Aspcand1_70811"
@@ -229,11 +238,12 @@ FEATURES             Location/Qualifiers
                      VTIDYSLLIPAWKSKVYTADEFVATWLAPDRVGLSVLATQHLLGMPYIKSATRDEIVVE
                      FQEVASHGRRQDDDGAFGGKIGETADGRGWVEHRYVKIDGQWKIDLIKPSIIYMAGDWE
                      RVRRAEGAE"
+                     /Pfam="Scytalone_dh"
      CDS             complement(22798..23562)
                      /codon_start=1
                      /locus_tag="BDW47DRAFT_111389"
                      /product="chalcone isomerase CfoK"
-                     /label=cfoK
+                     /label="cfoK"
                      /db_xref="GeneID:36521102"
                      /db_xref="JGIDB:Aspcand1_111389"
                      /protein_id="XP_024668874.1"
@@ -242,11 +252,12 @@ FEATURES             Location/Qualifiers
                      EPDIVGSISQVAGEFVFDPVGYSSQESRFMVFVYIPRATRSSRELVTEQEVAQRLDNIT
                      KIGAGTGLLRYVINRDVTPSDPSQLFDGTPFTNGDWGVMGVTEQYWFKDEDTASAFFAD
                      EARVDALMKVPSSLDGKSCVAVAGQETVLVSK"
+                     /Pfam="EthD"
      CDS             join(24123..24294,24353..24525,24627..24879,24946..25964)
                      /codon_start=1
                      /locus_tag="BDW47DRAFT_111391"
                      /product="cytochrome P450 monooxygenase CfoH"
-                     /label=cfoH
+                     /label="cfoH"
                      /db_xref="GeneID:36521103"
                      /db_xref="InterPro:IPR001128"
                      /db_xref="JGIDB:Aspcand1_111391"
@@ -261,12 +272,13 @@ FEATURES             Location/Qualifiers
                      TLPDGSFVPEGVAVGFNAYVIHRNKNVWGDDAEEFRPERWLQGEDESTERFKDRLRLMN
                      SSDLSFGAGSRKCLGVNFATMEVYKTVATLIAVFEFELADPAREWKVHNSMFPRQSGID
                      LRIKRREGVTVPLGLDLGKEF"
+                     /Pfam="p450"
      CDS             complement(join(26069..26379,26435..27043,27115..27238,
                      27295..27471))
                      /codon_start=1
                      /locus_tag="BDW47DRAFT_70822"
                      /product="methyltransferase CfoD"
-                     /label=cfoD
+                     /label="cfoD"
                      /db_xref="GeneID:36526818"
                      /db_xref="InterPro:IPR001077"
                      /db_xref="JGIDB:Aspcand1_70822"
@@ -279,11 +291,12 @@ FEATURES             Location/Qualifiers
                      DNPVLKKVRKMPVDYHQGQPLKGALIYYVRRCLHGFTDEVSIKLLKHLTAALPADPRAR
                      VLICEQITTTPPDPYTTMMDICMMNVGSKERSEDDFTNLVTAAGMKVIKFHRGEGVATH
                      VIECARA"
+                     /Pfam="MdpA, Methyltransf_2"
      CDS             join(28194..28387,28446..29505)
                      /codon_start=1
                      /locus_tag="BDW47DRAFT_111395"
                      /product="FAD-dependent monooxygenase CfoF"
-                     /label=cfoF
+                     /label="cfoF"
                      /db_xref="GeneID:36521104"
                      /db_xref="InterPro:IPR002938"
                      /db_xref="JGIDB:Aspcand1_111395"
@@ -296,12 +309,13 @@ FEATURES             Location/Qualifiers
                      RRSRVIADPFATIVKRTDPSTMFIMAGMDKRPFSHEHLRKVVFIGDSNHAFSPLAGNGA
                      NVALKDGYDLAEQLCKASCMDDAISQFDRESVPRALRTLDRSHERIASAHTTQLDRDQF
                      TDGSGANDFLVGQQHSDK"
+                     /Pfam="FAD_binding_3"
      CDS             join(30290..30712,30765..31051,31103..31167,31222..31300,
                      31348..31457,31517..31738,31813..31931)
                      /codon_start=1
                      /locus_tag="BDW47DRAFT_133985"
                      /product="FAD-dependent monooxygenase CfoG"
-                     /label=cfoG
+                     /label="cfoG"
                      /db_xref="GeneID:36525143"
                      /db_xref="InterPro:IPR002938"
                      /db_xref="InterPro:IPR006076"
@@ -315,6 +329,7 @@ FEATURES             Location/Qualifiers
                      KVLSKAPDARRWPLIYRKPIHQWTKGCMTLAGDACHAMLPFLAQGGAQGIEDAVALGVV
                      LQGATTRDDIQKRLQIYQEVRMKRASIIQILSNMGADHSVSVEDLKEYLNEDQMPYSQH
                      DMMIHNYKYDVAEVAFEAMKRYDPSFRLGNDFLGR"
+                     /Pfam="FAD_binding_3"
 ORIGIN
         1 tcacccgtga agaccgcacg tccgttcgcg catcagccca cgccgcgtct tttcatcttc
        61 tgcaggtatt gttagtttac gggtcctgtt tcaaactggc gttacatgcc ggcgaagtag

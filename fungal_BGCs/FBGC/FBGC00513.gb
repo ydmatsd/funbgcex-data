@@ -1,24 +1,24 @@
-LOCUS       FBGC00513       20018 bp DNA     linear   UNA 26-MAR-2023
+LOCUS       FBGC00513              20018 bp    DNA     linear   UNA 26-MAR-2023
 DEFINITION  palmaenone.
 ACCESSION   FBGC00513
-VERSION     .
+VERSION     FBGC00513
 KEYWORDS    .
 SOURCE      Lachnum palmae NBRC 106495
   ORGANISM  Lachnum palmae NBRC 106495
+            .
 REFERENCE   1  (bases 1 to 20018)
-  AUTHORS   Ugai T, Minami A, Tanaka S, Ozaki T, Liu C, Shigemori H, Hashimoto 
+  AUTHORS   Ugai T, Minami A, Tanaka S, Ozaki T, Liu C, Shigemori H, Hashimoto
             M, Oikawa H.
-  TITLE     Biosynthetic Machinery of 6-Hydroxymellein Derivatives Leading to 
+  TITLE     Biosynthetic Machinery of 6-Hydroxymellein Derivatives Leading to
             Cyclohelminthols and Palmaenones.
   JOURNAL   Chembiochem 2020;21:360-367
-  PUBMED    31298454
+   PUBMED   31298454
 REFERENCE   2  (bases 1 to 20018)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Mar 26, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1002/cbic.201900404"; journalName: "Chembiochem"; date: "2020"; 
+  JOURNAL   Exported Mar 26, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1002/cbic.201900404"; journalName: "Chembiochem"; date: "2020";
             volume: "21"; pages: "360-367"
 FEATURES             Location/Qualifiers
      source          1..20018
@@ -31,7 +31,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="ploB"
                      /product="polyketide synthase-like enzyme PloB"
-                     /label=ploB
+                     /label="ploB"
                      /note="revised sequence"
                      /protein_id="BBL33416.1"
                      /translation="MDSHFLSWDEPTKVSVIKKDDGFLSWDTSAIKKKESRVPIGHEIK
@@ -52,12 +52,13 @@ FEATURES             Location/Qualifiers
                      KVKGTWNLHHALSSSKLDFFLLFSSICGITGQWGQSNYNSANSFLDAFVKYRHGQNLAA
                      SAIDIGFMGGVGMAMENAGLVKNLKKSGYYFLSEPDLIDALAISIANSRPGDKKSHFAL
                      GITTTKPITAPATRPAWKKDTRMAVSHHFVPPQAPTFDEVKDLLDDALRNEECSD"
+                     /Pfam="fPKS_DH, fPKS_KR"
      CDS             join(4639..4928,4978..5275,5330..6790,6966..8891,
                      8939..11341,11399..11440)
                      /codon_start=1
                      /gene="ploA"
                      /product="polyketide synthase PloA"
-                     /label=ploA
+                     /label="ploA"
                      /protein_id="BBL33417.1"
                      /translation="MAGAFEVLLFGDETGDFREPLDKLCERRKGVVFLHFIERLHETLR
                      DEIRQQPRHVQKQIPPFTDIPDLVKRYIESGSRNPILESTLTCICQLASVMSFFDDHPS
@@ -96,12 +97,14 @@ FEATURES             Location/Qualifiers
                      IDSPCPIDIEPLPPALLKFMETKGLLVTQGSQAIPEWLIPHFQASTTNLAAYKPTPMDP
                      RKAPKTTIIWAHDGLYKDDDGAKFPRSDDEPTSIAFLLDDRTDFGSNGWGKLLGEENIT
                      SLKTEGNHFTMIREPAVKNMSALLRRGLE"
+                     /Pfam="SAT2, PKS_KS, PKS_AT, fPKS_PT, ACP_PCP,
+                     Thioesterase"
      CDS             complement(join(11865..11918,11975..12568,12626..13183,
                      13236..13241))
                      /codon_start=1
                      /gene="ploC"
                      /product="FAD-dependent monooxygenase PloC"
-                     /label=ploC
+                     /label="ploC"
                      /note="revised sequence"
                      /protein_id="BBL33418.1"
                      /translation="MHVVVVGAGPTGMGLGLVMAKAGIDVTILERAATTDPRPRAAHMT
@@ -112,12 +115,13 @@ FEATURES             Location/Qualifiers
                      CLAADAAHLCNPWGGLGLSGGFADVTGLAECLVGIHQGKADHSILDKYDEVRRSIFESI
                      ISPISTANYLRCSTSDPETVLDGKDQFLSMVAAAKTDPKIKEKINQGVYAICHDFTQYY
                      NDKN"
+                     /Pfam="FAD_binding_3"
      CDS             join(14232..14658,14757..14883,14944..15260,15320..15590,
                      15654..15990)
                      /codon_start=1
                      /gene="ploP"
                      /product="methyltransferase PloP"
-                     /label=ploP
+                     /label="ploP"
                      /protein_id="BBL33419.1"
                      /translation="MERFPRTSADADQLIQLGKLLNEVIQTVTKEWSEEKFAKKGGDTN
                      GVNGAKAPTELSDTADVLPSWPLFQAQRTIHSIAGALTELVTEPHNRLTEFMGGYWESR
@@ -128,12 +132,13 @@ FEATURES             Location/Qualifiers
                      DVWPNAAPELLASGKVKFMAHDFFQANPVEGADVYWLRGILHDWSDDYCVEILSNIRDQ
                      MGENSRILICDQVMNTTYGCEEIPGAPKPLPANYGYYTRFMHTRDLSLMACINGIERTP
                      AQFKDIIEQAGLKLSKIYETRSLFGIIEVTINLE"
+                     /Pfam="Dimerisation2, Methyltransf_2"
      CDS             complement(join(17968..18401,18452..18991,19045..19476,
                      19530..19572,19625..19721,19894..20018))
                      /codon_start=1
                      /gene="ploK"
                      /product="FAD-dependent halogenase PloK"
-                     /label=ploK
+                     /label="ploK"
                      /protein_id="BBL33420.1"
                      /translation="MSIPEKTTALVIGGGPGGSYAAAALAREGVDTVLVDADKFPRYHV
                      GESMLASLRPFLKFIDLDEKFRNHGFTKKIGAAFKLNHSKREGWTDYIAAGGPEAYTWN
@@ -145,6 +150,7 @@ FEATURES             Location/Qualifiers
                      DDGFDVAFDAFRPIIQGTADADVGGKLTQSEVTKTVDFCLNAFDQTKPEDAERVMKKLE
                      GLGGSAKKEDLEKFDEDELKILNHIRARQMLRMEDTFNVDNFAKDAIDGYVPNLRTGSL
                      GLVPEGQSTRDKLAAPIVDLLRLVDEKESVDKTVPAVFA"
+                     /Pfam="Trp_halogenase"
 ORIGIN
         1 tcagtccgag cactcctcat tccgcagggc gtcatcgaga aggtccttca cctcgtcaaa
        61 tgtcggcgct tgaggtggga caaagtgatg cgagacggcc atacgcgtgt ccttcttcca

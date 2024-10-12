@@ -1,26 +1,26 @@
-LOCUS       FBGC00518       22962 bp DNA     linear   UNA 09-MAY-2023
+LOCUS       FBGC00518              22962 bp    DNA     linear   UNA 09-MAY-2023
 DEFINITION  fusarochromene.
 ACCESSION   FBGC00518
-VERSION     .
+VERSION     FBGC00518
 KEYWORDS    .
 SOURCE      Fusarium equiseti D25-1
   ORGANISM  Fusarium equiseti D25-1
+            .
 REFERENCE   1  (bases 1 to 22962)
-  AUTHORS   Marshall JW, de Mattos-Shipley KMJ, Ghannam IAY, Munawar A, Killen 
+  AUTHORS   Marshall JW, de Mattos-Shipley KMJ, Ghannam IAY, Munawar A, Killen
             JC, Lazarus CM, Cox RJ, Willis CL, Simpson TJ.
-  TITLE     Fusarochromene, a novel tryptophan-derived metabolite from Fusarium 
+  TITLE     Fusarochromene, a novel tryptophan-derived metabolite from Fusarium
             sacchari.
   JOURNAL   Org Biomol Chem 2021;19:182-187
-  PUBMED    33107888
+   PUBMED   33107888
 REFERENCE   2  (bases 1 to 22962)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported May 9, 2023 from SnapGene 6.2.2
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1039/d0ob02031a"; journalName: "Org Biomol Chem"; date: "2021"; 
+  JOURNAL   Exported May 9, 2023 from SnapGene 6.2.2 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1039/d0ob02031a"; journalName: "Org Biomol Chem"; date: "2021";
             volume: "19"; pages: "182-187"
-COMMENT     THIRD PARTY DATABASE: This TPA record uses data from 
+            THIRD PARTY DATABASE: This TPA record uses data from
             DDBJ/EMBL/GenBank entry QOHM01000003.1.
 FEATURES             Location/Qualifiers
      source          1..22962
@@ -31,7 +31,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="fscA"
                      /product="NRPS-like carboxylic acid reductase FscA"
-                     /label=fscA
+                     /label="fscA"
                      /protein_id="DAD54574.1"
                      /translation="MSEIQVPESHWKHFLEWNRPLPPTKQTCIHHEIEAQAAAQPTKVA
                      VASTVASLTYGDLNGMATRIASDLKRHGICPEKIVPLCFDKSPSMIVAMLAVLKAGGAF
@@ -51,11 +51,12 @@ FEATURES             Location/Qualifiers
                      GVANPSDYLWRYVASVVELGVYDESTTRARVPVSTLPLVAETIIRQISTASNRKHVEII
                      DESLRERDIWEVLRTLGYTLRPVSHRSWVTTIQDAMNKRREDHYLWPLASILEQQAYCL
                      GDEKIQLGCKLKKKEYLKNAIQRNIQSLVSQGFI"
+                     /Pfam="AA-adenyl-dom, NAD_binding_4"
      CDS             join(4000..4026,4099..4520,4570..5545)
                      /codon_start=1
                      /gene="fscB"
                      /product="transcription factor FscB"
-                     /label=fscB
+                     /label="fscB"
                      /protein_id="DAD54575.1"
                      /translation="MECHYSEAQLASLLLPYLERFDENAINGLASELKSHGISVYAAAG
                      FDPNVGSSLTFKKEVPPSDTSILEDVDHVNLYSEQDNFHLSMLDMMDFHTPDIMDIGLF
@@ -66,11 +67,12 @@ FEATURES             Location/Qualifiers
                      HTAYEQACQEWRHAGTHQRKGRGRGDATTVIDEILSELHEDWDVGDRKRYHRSRFHDKK
                      RFGKRWLVLIKSLGVGILLCSSQRLASAVYVLPFQITLFILDTNLSESAATRRFLPATC
                      CRRWFAVSNSLRLNSC"
+                     /Pfam="FscB"
      CDS             6184..10545
                      /codon_start=1
                      /gene="fscC"
                      /product="NRPS-like epimerase FscC"
-                     /label=fscC
+                     /label="fscC"
                      /protein_id="DAD54576.1"
                      /translation="MLLLDIMDSHCIHTLVDQRASSQPLEPAVETYDVSLSYGELSAMS
                      SKLSQYLVSLGIYPEAKVVLMMEPCASYVVSTISVLKAGATFVPLDATQPTKRLAQLIK
@@ -97,11 +99,12 @@ FEATURES             Location/Qualifiers
                      STHVVELSQTSTANMSQICSQHGITMSSLLFLSWTLVLSNYTSSDDISFAYVASGRSMD
                      VPGIERFVGLYVDLLILNIDTSGSDCLLDLALRVQQMSAGSSLHQHNQIPACRNPKNGR
                      FDGQVNTMVNIRNVGIDSLRLERHDFELLLDSFEDPWDVRFFNTSCPFLPI"
+                     /Pfam="AA-adenyl-dom, ACP_PCP, NRPS_E, NRPS_C"
      CDS             join(11000..11290,11351..11920,11981..12334)
                      /codon_start=1
                      /gene="fscD"
                      /product="indoleamine 2,3-dioxygenase FscD"
-                     /label=fscD
+                     /label="fscD"
                      /protein_id="DAD54577.1"
                      /translation="MDDLMTNIEHYHVSLTTGFLPPSAPLTHLPQKYYEPWETLASSLP
                      TRIRDGSLRHQASLIPLLETDFLVTDAEWQRAYVVLGFLSNAFIFCQYPPSERLPLSLA
@@ -111,11 +114,12 @@ FEATURES             Location/Qualifiers
                      DNSFLTEMRQYMPGPHRDFLARVEAIDSVRHFISANPDASQLQEAYEGCVLALARFRQI
                      HIRLVARYIVIPSNGTKTADQSSMGNGLSSEPVSIAGAQGTGGTKPVEFLKVIRNDVLE
                      SLQAS"
+                     /Pfam="IDO"
      CDS             join(12509..12740,12812..13353,13409..14167)
                      /codon_start=1
                      /gene="fscE"
                      /product="cytochrome P450 monooxygenase FscE"
-                     /label=fscE
+                     /label="fscE"
                      /note="P450"
                      /protein_id="DAD54578.1"
                      /translation="MVSSLNNLGVLLPIEGVIILVFVLSCFSLAIKRLYFSPLAKFPGP
@@ -127,11 +131,12 @@ FEATURES             Location/Qualifiers
                      ELEAEFPDPNEDVSLDRLERLPLLTAYIKEALRLGYGVTHRLQLLADEPLHCNGMIIPP
                      RTPVGMTSIFMHDDPTVFPNPREFDPDRWLGEVEDRRHLERCFVPFSKGTRMCLGMHLA
                      WAEIYIVIATVFRSYSFQLHDTDRSHIEMAHDFFDPAPKLDSKGLRVTVQRK"
+                     /Pfam="p450"
      CDS             join(14640..14705,14766..15362,15440..16387)
                      /codon_start=1
                      /gene="fscF"
                      /product="cytochrome P450 monooxygenase FscF"
-                     /label=fscF
+                     /label="fscF"
                      /note="P450"
                      /protein_id="DAD54579.1"
                      /translation="MELSLSFPVSWLCALFTAIALYCIAVAFYRLFLHPLAKFPGPFLW
@@ -144,11 +149,12 @@ FEATURES             Location/Qualifiers
                      DGHWFPAGITLGVCFYALNFNETIHKDPYRFRPERWLSSEEGITAEDVQQSKSNFFPFS
                      AGHRHCPARNLASRNLKVFIANMLWHFDLRPATSLGVNESSGEEGQTGLFCIEDALISI
                      ADGPVLEFKARLGYNASSS"
+                     /Pfam="p450"
      CDS             complement(16546..17853)
                      /codon_start=1
                      /gene="fscG"
                      /product="DMATS-type prenyltransferase FscG"
-                     /label=fscG
+                     /label="fscG"
                      /protein_id="DAD54580.1"
                      /translation="MNDTTSKECPSGPSAWSIASQWVDPGAQSAPWWKLIGSQLCLLAQ
                      EARYPIEKQFEILLFLYAKVLPRVGPLNKGEKFNSPSRYTSLLTDDGTPFEYSWKWNNS
@@ -158,11 +164,12 @@ FEATURES             Location/Qualifiers
                      GKITDVDRGIKELEVLLSFALGKETPISRDDELNVQSVFDKGLAHDFDLYGRMTYYFDI
                      APSSKLPDVKLYIPVIRFGRSDEAVASGLGQYLRLRQRDQFHDGFMRALGSIGAGHPEG
                      SGHRLQTYLAVAFQRDGSLAITSYINPGVYHDDLKG"
+                     /Pfam="Trp_DMAT"
      CDS             join(18101..18234,18293..19058)
                      /codon_start=1
                      /gene="fscH"
                      /product="alpha/beta hydrolase FscH"
-                     /label=fscH
+                     /label="fscH"
                      /protein_id="DAD54581.1"
                      /translation="MEQHFEHLSCIPYLENTEASRYQTLDIWIPTRHQHGDSTHGYWII
                      FIHGGAWRDPDINATNFAEKAVLDLITSGVSQIIEGIASINYRLSPRTPSQPVPSGGHV
@@ -170,12 +177,13 @@ FEATURES             Location/Qualifiers
                      AAPHAIIGVAGLYDLPLLRDMDPMPPMCHQFLLAAFGSDETLWRDVSPATYGDFERLWP
                      TGKLAVLVYCEDDEYVSPAQLNTMYHALEIWGEKEGRLVKTLKLPGGHDEVWRTGSGLA
                      SCVEKSINYLQDLSVSEA"
+                     /Pfam="BD-FAE"
      CDS             complement(join(19025..19167,19233..19361,19421..20083,
                      20142..20211))
                      /codon_start=1
                      /gene="fscI"
                      /product="short-chain dehydrogenase/reductase FscI"
-                     /label=fscI
+                     /label="fscI"
                      /note="revised sequence"
                      /protein_id="DAD54582.1"
                      /translation="MFDGTTQAQDVAAAFQGEISGKTFVITGVSFGGLGAAVCEALAPY
@@ -184,11 +192,12 @@ FEATURES             Location/Qualifiers
                      SSAHTVSPFRFGDPHFIGSSDLLPDEEPSREACKAFGIPWETSYSPLVAYAQSKTAVIL
                      HAKAISSGVLRDGITAFSVNPGVATNLWRHMPSDEVAVILKSLPTKSPSQGAATILFAA
                      LGPLATGHLGEYLEDCHASEPAQHANDMTIALRLWEWTESLLSHASDTDRSCR"
+                     /Pfam="adh_short"
      CDS             complement(join(21553..21880,21928..22102,22152..22962))
                      /codon_start=1
                      /gene="fscJ"
                      /product="peroxidase FscJ"
-                     /label=fscJ
+                     /label="fscJ"
                      /protein_id="DAD54583.1"
                      /translation="MKWLHLLSVVACVADEVYAFPSHLHGAVGHLTASRLSSVVDEAVR
                      SAHEKRLLFDAGNEPIDVTGKHEFIPPNFEKGDQRGPCPGLNALANHGYIKRNGVTNLV
@@ -198,6 +207,7 @@ FEATURES             Location/Qualifiers
                      QKEGDKLTYKRGWERIPTNWYRRSVDYGLIDVNLDVISLITKYPELGSIGGNMGEVNSY
                      AGVDISDITGGVLNLTKLLEGNNLLCFVFEVVKTVSPNSLSGLFSIVVPPLKLITDALG
                      TALLDLSCPALKDLQVGGESFSKGIQKKFPGAKINASL"
+                     /Pfam="Peroxidase_2"
 ORIGIN
         1 ctatataaac ccctgactaa ctagactctg aatatttcgc tggattgcat tctttaagta
        61 ttccttcttc tttaatttac agcccagctg tatcttttca tctccaagac agtatgcctg

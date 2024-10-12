@@ -1,23 +1,23 @@
-LOCUS       FBGC00509       36729 bp DNA     linear   UNA 26-MAR-2023
+LOCUS       FBGC00509              36729 bp    DNA     linear   UNA 26-MAR-2023
 DEFINITION  didymellamide B.
 ACCESSION   FBGC00509
-VERSION     .
+VERSION     FBGC00509
 KEYWORDS    .
 SOURCE      Alternaria solani A17
   ORGANISM  Alternaria solani A17
+            .
 REFERENCE   1  (bases 1 to 36729)
   AUTHORS   Ugai T, Minami A, Gomi K, Oikawa H.
-  TITLE     Genome mining approach for harnessing the cryptic gene cluster in 
-            Alternaria solani: production of PKS-NRPS hybrid metabolite, 
+  TITLE     Genome mining approach for harnessing the cryptic gene cluster in
+            Alternaria solani: production of PKS-NRPS hybrid metabolite,
             didymellamide B
   JOURNAL   Tetrahedron Lett 2016;57:2793-2796
 REFERENCE   2  (bases 1 to 36729)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Mar 26, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1016/j.tetlet.2016.05.043"; journalName: "Tetrahedron Lett"; 
+  JOURNAL   Exported Mar 26, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1016/j.tetlet.2016.05.043"; journalName: "Tetrahedron Lett";
             date: "2016"; volume: "57"; pages: "2793-2796"
 FEATURES             Location/Qualifiers
      source          1..36729
@@ -28,9 +28,9 @@ FEATURES             Location/Qualifiers
      CDS             complement(join(1..3119,3183..12165,12229..12357))
                      /codon_start=1
                      /gene="asolS"
-                     /product="polyketide synthase-nonribosomal peptide 
+                     /product="polyketide synthase-nonribosomal peptide
                      synthetase AsolS"
-                     /label=asolS
+                     /label="asolS"
                      /protein_id="BBJ34510.1"
                      /translation="MTNPTQTQEPIAIIGSSCRFPGGANSPSKLWDLLEQPRDVLREFD
                      PERLNLNRFHHSNGEQHGSTNVINKSYILEEDTRIFDAPFFGISPIEAGGMDPQQRQLL
@@ -102,11 +102,13 @@ FEATURES             Location/Qualifiers
                      LVGDQAPNSDSMNAILRFSLLMRCVPTIKRGRGYIDFAPVEQVGDDLVEAALQMAAGEQ
                      DAGTSQVQFRHHSSRTKVPVNEFAARLEELYGGHFDAVDLREWIKLATAAGIDPLITAY
                      LDGVLDTDEEMVFPYLGAM"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_DH, PKS_NRPS_MT, fPKS_KR,
+                     ACP_PCP, Condensation, AA-adenyl-dom, fPKS_R"
      CDS             13084..14229
                      /codon_start=1
                      /gene="asolC"
                      /product="trans-acting enoylreductase AsolC"
-                     /label=asolC
+                     /label="asolC"
                      /protein_id="BBJ34511.1"
                      /translation="MAVSTELPTKQAALKITGPGAVVVSTDVPLPELKPSDVLIRVACV
                      SISPVDSKSADMSPAEGATSGTEFAGIVVAIGDNVDSDTFRVENHMQRLNINDRVVGGI
@@ -115,11 +117,12 @@ FEATURES             Location/Qualifiers
                      AATFDYRSPDCGASVREFTSGELGLALDCITDTSSMALCYEALGPAGGRYVALDSFPLR
                      GHTRRTVRPDWVCTYTQFGEPVAWAPPYNFDARPGDRRCAEAWYALAQHLLDKSLLEPH
                      PKEERAGGLAAVADGMQEVRQGLVRGKKLVYPIAGELCAAA"
+                     /Pfam="fPKS_ER"
      CDS             complement(join(14991..16391,16447..16686))
                      /codon_start=1
                      /gene="asolB"
                      /product="cytochrome P450 monooxygenase AsolB"
-                     /label=asolB
+                     /label="asolB"
                      /protein_id="BBJ34512.1"
                      /translation="MASQLQELPISGDNVAMTVVAFGILAMVYTVYKAVSAVGEYDGLG
                      LPLAGEPEGKKKFSMKTRLRYYYDCAALYTEAYHKFGKKGKTVLVPGYGGRADLIMPES
@@ -131,11 +134,12 @@ FEATURES             Location/Qualifiers
                      VTDAGVPLKKGTIVAFLASQAQMDPAKFENPKTFDPWRFSREQEAEKLKKQENGDAQPH
                      SDDPKAGYHKNSFVTTAPDYLPFGHGRHACPGRFLVDFELKMCMAYILKHYDLEFPPEY
                      NGRRPPNRQVAELTAPPKGVRIRVKRRSI"
+                     /Pfam="p450"
      CDS             join(17203..17386,17476..18470,18544..18684)
                      /codon_start=1
                      /gene="asolD"
                      /product="NADH-dependent flavin oxidoreductase AsolD"
-                     /label=asolD
+                     /label="asolD"
                      /protein_id="BBJ34513.1"
                      /translation="MELTLSKPIRLKCGLKVPNRLVKAAMAECLGKASENHLPVSQECL
                      ATYQKWAEGGWGLIITGNVQVDPNHLGDPSDFVVNSALPEATTLAAFTAWSKACSNNGK
@@ -145,11 +149,12 @@ FEATURES             Location/Qualifiers
                      GLSAEVKKASTIAREAFFIDFARAIRSQFRDIPLIVTGGFRSRRGMEAALADDSCDLIG
                      VARPAVMNPLLPRTLILNPEKSDQEAVQHVKTIPPGKAAKFLGIKLLGVGPERDWYTKQ
                      IKLIGSKLDTSSAKTSNRWIAEVTGFAIVVALFFWFKKFR"
+                     /Pfam="Oxidored_FMN"
      CDS             join(19542..19866,19932..20058,20132..20583,20674..20978)
                      /codon_start=1
                      /gene="asolM"
                      /product="methyltransferase AsolM"
-                     /label=asolM
+                     /label="asolM"
                      /protein_id="BBJ34514.1"
                      /translation="MPSATLPNTVAANKLETLAAKLTEAASDLRAGVNTTPQNHAKLVD
                      TLRSTVEVVNRPSDDLNDMMMSFVQCTAIRLLFKWKVFEHIPAEGTISYKDLAAKVSGD
@@ -159,12 +164,13 @@ FEATURES             Location/Qualifiers
                      GTVVGPQLIGMDFFNEQPTKGGMLYIIRRCLHDFSDDECIQILTHLSNAMAPDSRLLIG
                      ETVLSNPPSRPTAMVDLLLSTIGGKERTVDGFNKVAERTGLKLLGVHKASFGDFAMIEY
                      GKA"
+                     /Pfam="Methyltransf_2"
      CDS             complement(join(21756..21848,21907..23517,23576..24128,
                      24180..24280))
                      /codon_start=1
                      /gene="asolR"
                      /product="transcription factor AsolR"
-                     /label=asolR
+                     /label="asolR"
                      /protein_id="BBJ34515.1"
                      /translation="MRDQFTLNATCVVLSVSLVMPERLPDGRSRRPATSCLLCRKRKTR
                      CNQESPCSNCIRSRNENCVYDSRSHPAPISRARLSQAQAAPVPRHQESVSLSRTSNASG
@@ -180,11 +186,12 @@ FEATURES             Location/Qualifiers
                      MQLKEDESLEPVPLRPDLLSVIHESKQWCLQVIEAGETSVKGYLLMNVIVTQIEGLMHG
                      LSEEEIVSRLIKAVEDVEEKCMPMLKVMASEFDIPSNDSSDEPQLMDLIKDTETVDDFG
                      CMPSDTLFDFASTEPIGWTFNDNPSLGTPALW"
+                     /Pfam="CghF"
      CDS             join(24747..25085,25153..26112)
                      /codon_start=1
                      /gene="asolT"
                      /product="major facilitator superfamily transporter AsolT"
-                     /label=asolT
+                     /label="asolT"
                      /protein_id="BBJ34516.1"
                      /translation="MADVYKESYSTQGDSGRQPISTAHVSEDPSVAEFGPAPEGGARAW
                      MVAAGGGAIFFSTLGFANSFGTFQEYYVSHQLKDSSPSDISWIGSLAIFLNFFSGMLSG
@@ -194,11 +201,12 @@ FEATURES             Location/Qualifiers
                      GYLLSILNAASTFGRIIPGVLADKWGKINMFGFGGVITGIVIFCMNSATTNAGLIVYAV
                      FFGFASGTIISGGSAAFSTCPKDARNVGTYMGMGMAIAGIGGLVGPPINGAIVNTYGGF
                      EQTSMLSGAMCLFGGFAAIAAKHFTPQGLLGNI"
+                     /Pfam="MFS_1"
      CDS             complement(join(33412..33827,33893..35057))
                      /codon_start=1
                      /gene="asolA"
                      /product="cytochrome P450 monooxygenase AsolA"
-                     /label=asolA
+                     /label="asolA"
                      /protein_id="BBJ34517.1"
                      /translation="MAAPTPSMAELGSKVASNGDVLGNTNISLLVLTSSFIALLMGTIF
                      IKGKNSDKRDTVDGCLPAPRIWQWEPFMGLDTVVSQVRALRNDYYLDWLRKLHAGKPKT
@@ -210,11 +218,12 @@ FEATURES             Location/Qualifiers
                      VRACLSDSTLPIGGGPTGQAPLRVRRGDIVSVTKTVMYRDPDHWGPDAEEFRPERFNGL
                      RGTWGFLPYGGGPRRCPAQMMVQTETCYILARMAREYSRLEARDKEPYRAVMRIGPSNK
                      HGVKIAVYE"
+                     /Pfam="p450"
      CDS             join(35619..36262,36327..36729)
                      /codon_start=1
                      /gene="asolE"
                      /product="short-chain dehydrogenase/reductase AsolE"
-                     /label=asolE
+                     /label="asolE"
                      /protein_id="BBJ34518.1"
                      /translation="MTPDATILVTGAGGGLGSAIAAHVSSRLPSYHAIYTVRDTSRPHE
                      ALRAALTSPHDGTEQQHEILSLDLARLSSVRAFAASVNRRVASGEIPPIRALILNAGLL
@@ -223,6 +232,7 @@ FEATURES             Location/Qualifiers
                      VEDPALSRITTIGVDPGTMSTGIARNSTWFVRVVIHGVIIATLARLIAIIWPSSNGALR
                      TPQNSARDVVDAALAVKWQEGGLYVDGSELSDMSKEAKDLDKRALVWQDSARYTDLKDG
                      ETLLANWS"
+                     /Pfam="adh_short"
 ORIGIN
         1 tcacatggcc ccgaggtagg gaaagaccat ctcctcgtcc gtgtccaaaa cgccatctag
        61 ataagccgtg atcaatggat caatacctgc agcagtcgct agcttaatcc actcgcgcaa

@@ -1,30 +1,30 @@
-LOCUS       FBGC00540       41184 bp DNA     linear   UNA 06-APR-2023
+LOCUS       FBGC00540              41184 bp    DNA     linear   UNA 06-APR-2023
 DEFINITION  scytalidin.
 ACCESSION   FBGC00540
-VERSION     .
+VERSION     FBGC00540
 KEYWORDS    .
 SOURCE      Scytalidium album UAMH 3620
   ORGANISM  Scytalidium album UAMH 3620
+            .
 REFERENCE   1  (bases 1 to 41184)
-  AUTHORS   de Mattos-Shipley KMJ, Spencer CE, Greco C, Heard DM, O'Flynn DE, 
-            Dao TT, Song Z, Mulholland NP, Vincent JL, Simpson TJ, Cox RJ, 
+  AUTHORS   de Mattos-Shipley KMJ, Spencer CE, Greco C, Heard DM, O'Flynn DE,
+            Dao TT, Song Z, Mulholland NP, Vincent JL, Simpson TJ, Cox RJ,
             Bailey AM, Willis CL.
-  TITLE     Uncovering biosynthetic relationships between antifungal nonadrides 
+  TITLE     Uncovering biosynthetic relationships between antifungal nonadrides
             and octadrides.
   JOURNAL   Chem Sci 2020;11:11570-11578
-  PUBMED    34094403
+   PUBMED   34094403
 REFERENCE   2  (bases 1 to 41184)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Apr 6, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1039/d0sc04309e"; journalName: "Chem Sci"; date: "2020"; volume:
-            "11"; pages: "11570-11578"
+  JOURNAL   Exported Apr 6, 2023 from SnapGene 6.2.1 https://www.snapgene.com
 COMMENT     ##Assembly-Data-START##
             Assembly Method       :: Newbler v. 2.9
             Sequencing Technology :: Illumina
             ##Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1039/d0sc04309e"; journalName: "Chem Sci"; date: "2020"; volume:
+            "11"; pages: "11570-11578"
 FEATURES             Location/Qualifiers
      source          1..41184
                      /strain="UAMH 3620"
@@ -36,9 +36,9 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="scyL2"
                      /product="2OG-Fe(II)-dependent dioxygenase ScyL2"
-                     /label=scyL2
-                     /note="catalyses C5 hydroxylation of deoxyscytalidin in
-                     the scytalidin pathway. Confirmed by gene disruption; 
+                     /label="scyL2"
+                     /note="catalyses C5 hydroxylation of deoxyscytalidin in the
+                     scytalidin pathway. Confirmed by gene disruption;
                      alpha-KG-dependant hydroxylase"
                      /protein_id="QTE75998.1"
                      /translation="MATETVTIHQPKDALAKFTYLEWHDHYRTERPFQALDILHNAVDK
@@ -47,26 +47,27 @@ FEATURES             Location/Qualifiers
                      CADFLLRGHVRLINLWRPINGPIQNWPLAVCDANSLPEENLIETDRIRKAQKGNTRFVI
                      QAPSMKWYYQSKMEDNTLLVFKSYESQDGVAKYASHCSFPLPTAGPMTPPRESIELRAF
                      VFTYPRDEST"
+                     /Pfam="NvfI"
      CDS             join(1961..2117,2170..2657)
                      /codon_start=1
                      /gene="scyL1"
-                     /product="phosphatidylethanolamine-binding protein-like 
+                     /product="phosphatidylethanolamine-binding protein-like
                      protein ScyL1"
-                     /label=scyL1
+                     /label="scyL1"
                      /note="PEBP-like enzyme"
                      /protein_id="QTE75999.1"
                      /translation="MLSNIILSFSVSLFALTVAQTPPSFRPSCNQNLGITWPNNVSVTP
                      GSPLLASDTSTQPSLSASIDLLKGDGEYLLVMLDPDVQFPQQPPTTILHWIQPSFQYNS
                      TSFALTPTSDPRNEGVASYAGPHPPAGQIHRYILLLFIQPEEYTFPEDFERFLPADIPH
                      RVDFDVTEFVKAAELAEPVAANYFTVEGLGLSSKEELKREVEGLSGFVLVP"
+                     /Pfam="PBP"
      CDS             complement(join(2959..3792,3856..4176,4225..10153,
                      10202..10953))
                      /codon_start=1
                      /gene="scyPKS"
                      /product="polyketide synthase ScyPKS"
-                     /label=scyPKS
-                     /note="Scytalidin polyketide synthase
-                     revised sequence"
+                     /label="scyPKS"
+                     /note="Scytalidin polyketide synthase revised sequence"
                      /protein_id="QTE76000.1"
                      /translation="MAPFLNGQHNGTGDAAHGSSVTNGISILSEDKSMPIAVVGMSMRG
                      PADATSVEGLWKLVSEAREGRTSIPKERWNNDAFYHPDSNRHGTHNVTAGHFMTEDLSR
@@ -113,23 +114,25 @@ FEATURES             Location/Qualifiers
                      LSQVVTGLGMWKEGESLATFDLPVFNHFRRQALKKENGAADAGARVRDTLKVAKTLEEA
                      ADKICAALIDKISSRSNIPVDNISQDNPMSDYGIDSLVAVEMRNWIVREMDSTMPILEL
                      LANQSLQQLSAKIAQRSRLVDLKVVEAEA"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_DH, PKS_NRPS_MT, fPKS_ER,
+                     fPKS_KR, ACP_PCP"
      CDS             complement(join(12245..12859,12908..12958))
                      /codon_start=1
                      /gene="scyR1"
                      /product="alpha/beta hydrolase ScyR1"
-                     /label=scyR1
-                     /note="DUF341 hydrolase
-                     revised sequence"
+                     /label="scyR1"
+                     /note="DUF341 hydrolase revised sequence"
                      /protein_id="QTE76001.1"
                      /translation="MPAMRFLCLHGAGTNVQILNSQLGPIMRELQKDNSATFHFVEGEI
                      ESLPGPGVEGFYEAPFLSYYKWPRTFHDDEQSIMEAYDLLYETIEEDGPFDGIIGFSHG
                      GALATGFMAHHAAKNPYDSPLFQCAIFFNSMPPFRMDDEQNPIFEKGLEGKIRIPTLHV
                      MGTKDFAYKYSVNLYNLCDSKSSSIVLHDKGHEIPRDGKAVSKIAAAIRDLGSRSMFH"
+                     /Pfam="FSH1"
      CDS             complement(join(13389..13798,13871..14147))
                      /codon_start=1
                      /gene="scyR2"
                      /product="enoyl-CoA hydratase ScyR2"
-                     /label=scyR2
+                     /label="scyR2"
                      /note="Enoyl-CoA hydratase-like enzyme"
                      /protein_id="QTE76002.1"
                      /translation="MVGPISSLQLWYPCQYVLHIELIRPAQNGGFSDVFEDLGAIFNSA
@@ -137,12 +140,13 @@ FEATURES             Location/Qualifiers
                      SGTALACACDVRISTSNTIFTLKGAEASGVNAVAMLAKEVCSFSWLRDVSLTRRGFQAN
                      EAYRMGFASRICGSKTEAFNEALRLALMIADRSIYAVQTAKMACVRELQPNGKAPMSYL
                      ALAHSD"
+                     /Pfam="ECH_1"
      CDS             join(14914..15125,15184..15381,15442..16191,16255..16337,
                      16394..16476)
                      /codon_start=1
                      /gene="scyR3"
                      /product="citrate synthase-like protein ScyR3"
-                     /label=scyR3
+                     /label="scyR3"
                      /note="citrate synthase-like enzyme"
                      /protein_id="QTE76003.1"
                      /translation="MPEGKLLVKDTRTSLEYEIPITRNAVSATDFNKIKGRATAANRAD
@@ -153,22 +157,24 @@ FEATURES             Location/Qualifiers
                      PLHFGAPESAYRVIKKVGKPENVPALIDEVKRGERRLFGYGHRTYKTIDPRLAPIKELL
                      VELNAASNPLLKVAQEIDRIAANDDYFRKRGLNANADFYGVFFFIACGFEAEFVPILML
                      AQRIAGIMAHWRESMTRDIKLFRPSHIYTGPTTPVADLLSKL"
+                     /Pfam="Citrate_synt"
      CDS             16959..17516
                      /codon_start=1
                      /gene="scyR4"
                      /product="isochorismatase-family protein ScyR4"
-                     /label=scyR4
+                     /label="scyR4"
                      /note="isochorismatase"
                      /protein_id="QTE76004.1"
                      /translation="MDKTALLVMDVQGGMVSRLPTAQTFIPLLSKTVAAARPFVKIIYA
                      TVSFRPGHPEIAPSNVIFSAALKSGAFVAGSPETVIDPSIAPQEGDILVEKKRVSAFAG
                      SGLDVILRGLGIETLVLTGISTGGVVLSTVCEAADKDFKLVILKDLCADPDQAVHNVLM
                      ENVFTKRGEVLGAEEWLEKLKA"
+                     /Pfam="Isochorismatase"
      CDS             complement(17844..19367)
                      /codon_start=1
                      /gene="scyR5"
                      /product="major facilitator superfamily transporter ScyR5"
-                     /label=scyR5
+                     /label="scyR5"
                      /note="MFS"
                      /protein_id="QTE76005.1"
                      /translation="MAPSTTTIPGKTQPQNSNESTPLLAASREEPERYSIFSEAEKKFI
@@ -180,11 +186,12 @@ FEATURES             Location/Qualifiers
                      YLVDWNFRRIAHQEGLPVLKGKKQDVSSFPIERARLQIALPMLFFAAALIVAYGWVLDM
                      RFPILVPLALLFLIGSSITACYNVFNVLIVDLNYSTPATATAANNLVRCLLGAASTAVI
                      APLLESLGRGWTYTLVATVWLAITPAAFLVYSYGFGWRMRRDAKRAGSG"
+                     /Pfam="MFS_1"
      CDS             complement(join(20130..20437,20499..20970))
                      /codon_start=1
                      /gene="scyR6"
                      /product="ketosteroid isomerase-like protein ScyR6"
-                     /label=scyR6
+                     /label="scyR6"
                      /note="Maleidride dimerase"
                      /protein_id="QTE76006.1"
                      /translation="MVAIRDLLLSLPLLNVLTSANPTSFSHHDLNHQLPVGWVDPDIEA
@@ -192,11 +199,12 @@ FEATURES             Location/Qualifiers
                      HDLMHFYVNALRRVALVGSENPEKFRVIPKGIHGGCNQEWSVQEMNFQGLSNSGTPFDI
                      INVWVTRWSEKKQMVEVRTYIDSMKVTQLLHENENWWNSTRHIHHYEWMPGPTGMPNLT
                      ELYALMPEEDRPKGHAPGEGLTGRVLGYMPAEWDEEE"
+                     /Pfam="BfL6"
      CDS             complement(join(21749..22881,22952..23288))
                      /codon_start=1
                      /gene="scyR7"
                      /product="2-methylcitrate dehydratase ScyR7"
-                     /label=scyR7
+                     /label="scyR7"
                      /note="2-methylcitrate dehydratase"
                      /protein_id="QTE76007.1"
                      /translation="MSLPPYDSVIVDIATYVYHYPLSPTTSPKAFQYARIALLDAIGCA
@@ -208,13 +216,13 @@ FEATURES             Location/Qualifiers
                      ADRDHCMQYIVALAFLKGSIPEAHDFQNSSPWATNPSLALLREKIDIRPDEQLTRGYLD
                      LEKRSLAAGMTVHLTNGGVLDEVLVEFPIGHVQSSKTLGTVEQKYTRNMRLMFSEAEIV
                      GARKAVEENGDMEISDFIDMFVRENPIALKL"
+                     /Pfam="MmgE_PrpD, MmgE_PrpD_C"
      CDS             complement(27900..29468)
                      /codon_start=1
                      /gene="scyR8"
                      /product="transcription factor ScyR8"
-                     /label=scyR8
-                     /note="C6 transcription factor
-                     revised sequence"
+                     /label="scyR8"
+                     /note="C6 transcription factor revised sequence"
                      /protein_id="QTE76008.1"
                      /translation="MEIASQSPPASALKDSNGPKQPKLRSTCDACQDAKTRCSHDNPRC
                      RRCETRNIKCVYSISRRMGRPRRLKTNESDPKQPKNKSNNVSRAMELGVATSSIINPEA
@@ -226,21 +234,23 @@ FEATURES             Location/Qualifiers
                      NVKLKLQRKSSNEQNNPPFRPSPARTVVKPVNGQKVESTGGVTPTCDCLLLVGGQEIVR
                      EEKIDFLKQLVQGRLGKLCSTLRQLRTGMQETPQDSNSKAGTIMVMEIYRRLQSVIGRV
                      ELWDG"
+                     /Pfam="EqxR"
      CDS             join(33686..33790,34193..34324,34386..34574)
                      /codon_start=1
                      /gene="scyR9"
                      /product="histone H2A ScyR9"
-                     /label=scyR9
+                     /label="scyR9"
                      /note="histone H2A"
                      /protein_id="QTE76009.1"
                      /translation="MAGGKGKSGGKSSGGKVGADGSKRQQSHSSKAGLQFPCGRVKRFL
                      KNNTQNKMRVGAKAAVYVTAVLEYLTAEVLELAGNAAKDLKVKRITPRHLQLAIRGDEE
                      LDTLIRATIAFGGVLPHINRALLLKVEQKKKNKAIEA"
+                     /Pfam="Histone, Histone_H2A_C"
      CDS             join(37119..37436,37488..38783)
                      /codon_start=1
                      /gene="scyR10"
                      /product="major facilitator superfamily transporter ScyR10"
-                     /label=scyR10
+                     /label="scyR10"
                      /note="MFS transporter"
                      /protein_id="QTE76010.1"
                      /translation="MNSSQAESQLQTPPNEEMSVSLEPERTDEVNEKTPETDPESIAIA
@@ -253,11 +263,12 @@ FEATURES             Location/Qualifiers
                      AAGATVIIFGWLVEKKIFIAAPLIFLFLSTFFISCSFQGLSTLIVDLNRENPSSATAAM
                      NMARCLLGAAGTAVVVPMLNAIGMGWVGVFVAGMWVILSPIVLFVIRWGPGWREEKRQK
                      LEVKKEEERNRAILDQGANV"
+                     /Pfam="MFS_1"
      CDS             join(39399..39623,39673..40257)
                      /codon_start=1
                      /gene="scyR11"
                      /product="hypothetical protein ScyR11"
-                     /label=scyR11
+                     /label="scyR11"
                      /note="hypothetical protein"
                      /protein_id="QTE76011.1"
                      /translation="MVSPSLLRLPSSNRITPTHDLDLETLHSVSPSLHPLPHPNITRVL
@@ -265,18 +276,20 @@ FEATURES             Location/Qualifiers
                      SILDISTHIATTWAAASSCSTCRHDRHVLLLLPLLAEQVLGVYEAAGLAYDIASSSSSS
                      PDYAGDDDAGVEMSERQSKEAGELTCEKSEMRIGQLELEGREAKLLARVVLKRRVAKLG
                      GLLEELKEVASELWGEGWTQGTGTLRVVEERIGGVMERLVNLLGMLR"
+                     /Pfam="BfL8"
      CDS             complement(40567..41184)
                      /codon_start=1
                      /gene="scyR12"
-                     /product="phosphatidylethanolamine-binding protein-like 
+                     /product="phosphatidylethanolamine-binding protein-like
                      protein ScyR12"
-                     /label=scyR12
+                     /label="scyR12"
                      /note="PEBP-like enzyme"
                      /protein_id="QTE76012.1"
                      /translation="MGIPNSVEYCLGRLLINQKGRDKGLFFKTPAFTSMAEPTFTVTSP
                      DCGPSTSHMKEEYTGVGKDRFPELAWQKPSPDVVEYVLIVEDPDAPLPMPITHGLFYAI
                      PGNKTQITNDDISVEKITGKEKHLKGGFRLGKNILGSVYGGPKPPLGHGVHRYYYTLVA
                      LKEPLDASKMSPLATKNEIAEAIEGKMIGWGQWVGLFERKWE"
+                     /Pfam="PBP"
 ORIGIN
         1 ctaggtagac tcatcacggg gataagtaaa tacaaacgct cttaattcga tggactcgcg
        61 tggaggggtc atgggtccag cggttgggag tggaaaagag cagtggctcg catctgctca

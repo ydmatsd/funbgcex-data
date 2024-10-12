@@ -1,32 +1,32 @@
-LOCUS       FBGC00542       60428 bp DNA     linear   UNA 06-APR-2023
+LOCUS       FBGC00542              60428 bp    DNA     linear   UNA 06-APR-2023
 DEFINITION  xylomyrocins.
 ACCESSION   FBGC00542
-VERSION     .
+VERSION     FBGC00542
 KEYWORDS    .
 SOURCE      Paramyrothecium sp. XJ0827
   ORGANISM  Paramyrothecium sp. XJ0827
+            .
 REFERENCE   1  (bases 1 to 60428)
-  AUTHORS   Wang C, Xiao D, Dun B, Yin M, Tsega AS, Xie L, Li W, Yue Q, Wang S, 
+  AUTHORS   Wang C, Xiao D, Dun B, Yin M, Tsega AS, Xie L, Li W, Yue Q, Wang S,
             Gao H, Lin M, Zhang L, Molnar I, Xu Y.
-  TITLE     Chemometrics and genome mining reveal an unprecedented family of 
+  TITLE     Chemometrics and genome mining reveal an unprecedented family of
             sugar acid-containing fungal nonribosomal cyclodepsipeptides.
   JOURNAL   Proc Natl Acad Sci U S A 2022;119:e2123379119
-  PUBMED    35914151
+   PUBMED   35914151
 REFERENCE   2  (bases 1 to 60428)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Apr 6, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1073/pnas.2123379119"; journalName: "Proc Natl Acad Sci U S A"; 
-            date: "2022"; volume: "119"; pages: "e2123379119"
+  JOURNAL   Exported Apr 6, 2023 from SnapGene 6.2.1 https://www.snapgene.com
 COMMENT     ##Genome-Assembly-Data-START##
             Assembly Method        :: canu v. 1.7
             Genome Representation  :: Full
             Expected Final Version :: Yes
             Genome Coverage        :: 100.0x
-            Sequencing Technology  :: Oxford Nanopore 
+            Sequencing Technology  :: Oxford Nanopore
             ##Genome-Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1073/pnas.2123379119"; journalName: "Proc Natl Acad Sci U S A";
+            date: "2022"; volume: "119"; pages: "e2123379119"
 FEATURES             Location/Qualifiers
      source          1..60428
                      /strain="XJ0827"
@@ -42,7 +42,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="pxxmcA"
                      /product="transcription factor PxXmcA"
-                     /label=pxxmcA
+                     /label="pxxmcA"
                      /note="revised sequence"
                      /protein_id="UMZ45319.1"
                      /translation="MVLQACLRCHSKKIKCTGHPSCSACHAVGVACEPALKQARLRVAW
@@ -57,11 +57,12 @@ FEATURES             Location/Qualifiers
                      AGLTMLITGRRGFQKIVQCAGMAFLLVEFPAWARTCSICLAIINERWKEELISKLETQF
                      EALANDTLRVISLALTSQPPMTSSQLGSRSFANSTTDYTEPAGESVSIRIEEPLLSNDS
                      GWDDFDTFKDVLGFDEMNTLWDMFSTNGLFDEPPQDSTWQT"
+                     /Pfam="Zn_clus, Fungal_trans"
      CDS             join(3488..4306,4363..4791)
                      /codon_start=1
                      /gene="pxxmcB"
                      /product="hypothetical protein PxXmcB"
-                     /label=pxxmcB
+                     /label="pxxmcB"
                      /protein_id="UMZ45320.1"
                      /translation="MTAPEPLKEKRSKWKVFSSSKDRQRNAEVEDTNLPLPDSAYGSSE
                      PSNSLTTENDSNRSKSSRDLQLPSTGPSPMIKRETHTNPNTGQVITTTTTTTTTTTTVT
@@ -75,7 +76,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="pxxmcC"
                      /product="glycosyl hydrolase PxXmcC"
-                     /label=pxxmcC
+                     /label="pxxmcC"
                      /protein_id="UMZ45321.1"
                      /translation="MASIQLVFVFLAFVYTSLVQGAGTNSTFFNPVLPGWHSDPSCIRV
                      DDTFFCTTSTFIAFPGLPVYASKDLVNWRLISHAWSRDSQLPGVSWNTTLQQDGMWAPT
@@ -88,12 +89,13 @@ FEATURES             Location/Qualifiers
                      GLFLRFNAFGRNHPAPRTIRLPKDWADAKSVRLHIDTPDPATFTLSASLRDGPRLQVGS
                      APSQLVSRLDSGSSGTFIGVLIGVFATCNGAGEGLDCPSGGVGKFQNWTYDPIAQFVDK
                      DRAIPVVPRWT"
+                     /Pfam="Glyco_hydro_43, GH43_C2"
      CDS             complement(join(8095..9533,9581..9872))
                      /codon_start=1
                      /gene="pxxmcD"
-                     /product="glucose-methanol-choline family oxidoreductase 
+                     /product="glucose-methanol-choline family oxidoreductase
                      PxXmcD"
-                     /label=pxxmcD
+                     /label="pxxmcD"
                      /protein_id="UMZ45322.1"
                      /translation="MRFARALTVLPLWHSFSFAAPVLDPRNGSIPWSSREWDIIVVGAG
                      TAGIIVADRLSEAGLSTLLLELGGPSYGITGGTEKPGWLEGTNLSRVDVPGLYKSIFEG
@@ -106,11 +108,12 @@ FEATURES             Location/Qualifiers
                      AKFIYAIFQHLPPSTPKFPAKSGLTPLNIPQNSTVEQIQKYITTPSSYAVGQVNHWSSS
                      CRIGRCVDADTKVVGTDNIHVIDASIISPLTVNPQFGVMVAGEKGAERILALSELSKKT
                      "
+                     /Pfam="GMC_oxred_N, GMC_oxred_C"
      CDS             complement(10672..11667)
                      /codon_start=1
                      /gene="pxxmcE"
                      /product="short-chain dehydrogenase/reductase PxXmcE"
-                     /label=pxxmcE
+                     /label="pxxmcE"
                      /protein_id="UMZ45323.1"
                      /translation="MGKRIIFTGGSGVIGPWVIRELLKHDHEVINLDVVPLDIPSVHTM
                      RCDVTDAGQVYSALHTPFRLSEPLDKASVPDAVIHFAGYPRPMVAPDNEVFRKNIASIY
@@ -118,11 +121,12 @@ FEATURES             Location/Qualifiers
                      TIARSFARRFGIDIYCLRIGHAIEPDKFTQKFTSYVTQPESWDVHAWSYTDVRDLGQMC
                      HLCLLADGLGWQVFNATNDEITNSENTTEFLQRVSPSTPFTRSMGEHEAPMSNRKIKMM
                      LGFREKHSWRSQFLVSKPLNGANGTKQAGDECPDPVNAVPPPLARGLVVE"
+                     /Pfam="Epimerase"
      CDS             complement(join(12989..13015,13064..17035))
                      /codon_start=1
                      /gene="pxxmcF"
                      /product="ABC transporter PxXmcF"
-                     /label=pxxmcF
+                     /label="pxxmcF"
                      /protein_id="UMZ45324.1"
                      /translation="MAAKESKKDLVMELQSRGQASSIAVPSKATEIRQGKEREPRLKDY
                      IRVFSYATKWDLVIYVFASVASIGAGTTLPLMNVVIGRLAGQFADYFVEPPRVTRAEFQ
@@ -147,11 +151,12 @@ FEATURES             Location/Qualifiers
                      LSLVAQEPCMFQGTIRNNVCLGIDPQTITEEQLHHVCREASIHDFIVSLPDGYDTDIGS
                      KGFSLSGGQKQRLAIARALIRDPKILLLDEATSSLDSESEKLVQAALERAGRGRTMICV
                      AHRLATVQNADVIFVLGEGKVLEKGTHQELLRQKSIYWQMCQSQALDR"
+                     /Pfam="ABC_membrane, ABC_tran"
      CDS             19584..56495
                      /codon_start=1
                      /gene="pxxmcG"
                      /product="nonribosomal peptide synthetase PxXmcG"
-                     /label=pxxmcG
+                     /label="pxxmcG"
                      /protein_id="UMZ45325.1"
                      /translation="MGQAGEKSGSAVSATRNEFPIVRSNGSIKTTGKKADLALFWQQHF
                      DDLDASSFPLLPSQLKKSRPDGQAEHRFTYPSAHKAWDDAAACRGALAVLLARYTHASE
@@ -362,20 +367,23 @@ FEATURES             Location/Qualifiers
                      AVPVRLRMEADTDPIELLRQVQEQYLSSIPFETVGLDDIREKCTDWPETTTNFSCYTTY
                      QSFKMNPHREKDDQRIHMVTLDEKTGSWTSTGDDPSIERAESEVVSMHDVDIGGEPQPD
                      GVTVKVTIGINRRLCEQSTVDRILRDVCDRFQMLGSALQDGLPSV"
+                     /Pfam="NRPS_C, AA-adenyl-dom, ACP_PCP, PKS_NRPS_MT,
+                     NRPS_CT"
      CDS             complement(join(57007..57203,57289..57381,57442..57478))
                      /codon_start=1
                      /gene="pxxmcH"
                      /product="hypothetical protein PxXmcH"
-                     /label=pxxmcH
+                     /label="pxxmcH"
                      /protein_id="UMZ45326.1"
                      /translation="MAEHPAFTLAGLLAAGGTFGFYRTRSKPSLIAGLTLGTSFAFAGY
                      LLKKNKDNGAELALGSSVVLLGAGAQRLIATQGKSRPAIGLTVAGALSTFYYQKKFREF
                      RYGV"
+                     /Pfam="Tmemb_14"
      CDS             complement(join(57833..58069,58105..58209))
                      /codon_start=1
                      /gene="pxxmcI"
                      /product="hypothetical protein PxXmcI"
-                     /label=pxxmcI
+                     /label="pxxmcI"
                      /protein_id="UMZ45327.1"
                      /translation="MAGANFNNRPRDVTIQLCESRVVLLPASSKGRCSPLETANDGGAH
                      GDASLQQVWHDALAIASMDGSNVVNGLGPELVDAIADAPDPAIRYKPSGERPSTQCGKV
@@ -384,13 +392,14 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="pxxmcJ"
                      /product="glycosyl hydrolase PxXmcJ"
-                     /label=pxxmcJ
+                     /label="pxxmcJ"
                      /protein_id="UMZ45328.1"
                      /translation="MVIKKRQILWDWTNSTSPQNQEKINQVPFGGNSPVASVVNWNAWV
                      PTELNGRAPFRPMVRVLENTQGNDWAIIENTPFPIVLFFNEPERAGISPEHARDIWYNQ
                      MLPLRWHKGKQLGSPAVASDENGRRWLEQFMSLIANDPPDYLCLHYYSTDGNAAIRYLE
                      EMHQKWPSLRVMVTEIASIHRNYNDVLGFTIQLCNWMDEQDWIAEYGLFVFQRTLADDF
                      VSPAAQLMDANGNFTQLGWMYVNDQPMRWPGT"
+                     /Pfam="Glyco_hydro_cc"
 ORIGIN
         1 ttatgtctgc catgtggaat cttgtggcgg ttcatcaaat agtccattgg tagaaaacat
        61 atcccaaaga gtgttcattt cgtcgaaacc gagaacatct ttgaacgtgt caaagtcatc

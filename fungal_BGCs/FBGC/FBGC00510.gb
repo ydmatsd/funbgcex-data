@@ -1,29 +1,29 @@
-LOCUS       FBGC00510       17962 bp DNA     linear   UNA 26-MAR-2023
+LOCUS       FBGC00510              17962 bp    DNA     linear   UNA 26-MAR-2023
 DEFINITION  sespendole.
 ACCESSION   FBGC00510
-VERSION     .
+VERSION     FBGC00510
 KEYWORDS    .
 SOURCE      Cordana terrestris FKA-25
   ORGANISM  Cordana terrestris FKA-25
+            .
 REFERENCE   1  (bases 1 to 17962)
-  AUTHORS   Kudo K, Liu C, Matsumoto T, Minami A, Ozaki T, Toshima H, Gomi K, 
+  AUTHORS   Kudo K, Liu C, Matsumoto T, Minami A, Ozaki T, Toshima H, Gomi K,
             Oikawa H.
   TITLE     Heterologous Biosynthesis of Fungal Indole Sesquiterpene Sespendole.
   JOURNAL   Chembiochem 2018;19:1492-1497
-  PUBMED    29718548
+   PUBMED   29718548
 REFERENCE   2  (bases 1 to 17962)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Mar 26, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1002/cbic.201800187"; journalName: "Chembiochem"; date: "2018"; 
+  JOURNAL   Exported Mar 26, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1002/cbic.201800187"; journalName: "Chembiochem"; date: "2018";
             volume: "19"; pages: "1492-1497"
 FEATURES             Location/Qualifiers
      source          1..17962
                      /strain="FKA-25"
                      /mol_type="genomic DNA"
-                     /label=synonym: Pseudobotrytis terrestris
+                     /label="synonym: Pseudobotrytis terrestris"
                      /note="synonym: Pseudobotrytis terrestris"
                      /db_xref="taxon:1293529"
                      /organism="Cordana terrestris"
@@ -32,7 +32,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="spdQ"
                      /product="cytochrome P450 monooxygenase SpdQ"
-                     /label=spdQ
+                     /label="spdQ"
                      /protein_id="BBD84642.1"
                      /translation="MYLDHFLDPLSAWLSPPMIAGLAVALGIALNNLLRKQNIDAPFIG
                      PAVWLSKWPAAIRNLRFARESIHEGYAKHGKTFFQIPTMRRSEIYICNPLMIKEYRDAP
@@ -44,11 +44,12 @@ FEATURES             Location/Qualifiers
                      LERIALKPFTFSNGLHIPKGSWMGTPHSPLFQDERYYSDPERFDGLRFARMRNSEDPQI
                      RRECLLTATSEHSMHFGHGRHTCPGRWMAADEAKLVMARLVSSYDIALFSPRPANIKLL
                      KFNVPSMTANIWLRKRS"
+                     /Pfam="p450"
      CDS             complement(join(2136..2636,2723..3365,3431..3720))
                      /codon_start=1
                      /gene="spdM"
                      /product="FAD-dependent monooxygenase SpdM"
-                     /label=spdM
+                     /label="spdM"
                      /note="revised sequence"
                      /protein_id="BBD84643.1"
                      /translation="MSEDFRVIIVGGSVAGLTLAHSLERLGISFQVLEKNDDISPQIGA
@@ -60,23 +61,25 @@ FEATURES             Location/Qualifiers
                      SSKFDTSAMELKIEGVLRHYSTSLRTRTRQMCDRSEFLVRLQTHDGLIKRILARYVIPL
                      LGDVPASLSAKSIQAAPLLEFIDIPARSCQDTRVPSYESNWFSGNGWLLSGFLACTAAV
                      VPLFKLMSSGVDRPEKSLP"
+                     /Pfam="FAD_binding_3"
      CDS             complement(join(4397..4604,4670..5187))
                      /codon_start=1
                      /gene="spdB"
                      /product="terpene cyclase SpdB"
-                     /label=spdB
+                     /label="spdB"
                      /protein_id="BBD84644.1"
                      /translation="MDGFNNLQPPKEYQQIQWIADIFVTLMGVGWIVNYATMIWHAYTE
                      STYSMALLPLCSNIGWELTFVLVYPSPNPYEFGVFASLLTLNLGIMITAARAAPAEWAH
                      SPLVANYAVPIFLIGILICFGGHVCLAAQIGPGLAYSWGAFICQLGLSVGAICQLLQRN
                      STRGTSWIMWLGRFLGSCCTVVFAALRWKYWPEVFSWLGSPLMLWGVGVFFASELAYGL
                      CFYLVQKSEVETKKSIKAQ"
+                     /Pfam="Pyr4"
      CDS             join(5467..5502,5568..6217,6292..7368,7421..7891,
                      7945..8080)
                      /codon_start=1
                      /gene="spdE"
                      /product="multifunctional aromatic prenyl transferase SpdE"
-                     /label=spdE
+                     /label="spdE"
                      /protein_id="BBD84645.1"
                      /translation="MRRKGSLKHRTLSTERLPLYIASCATTRNNDQHQPISKSTNSHTH
                      ILISKHPMATAECPYEYLLSQYGQHHFGPFVDKLRPSLSMEDPDKYTLVLDIMDAVHFC
@@ -92,12 +95,13 @@ FEATURES             Location/Qualifiers
                      TLGGRRADLATLQGLSKLRDIWHLLLGEPNGIDEDFNKPLTGFSPMQHRLYFSYEMKPG
                      NSDPAVKVYIPVQNYAPNDDAIVQNYEANFRQCGWPWGKDGAYRNVIESSLGPVTHRHA
                      SFLHGGSSFIYSKGKGVYQSIYLEPSFEEEKDRNIE"
-     CDS             join(9009..9251,9310..9435,9506..9574,9637..9727,9788..9919,
-                     9980..10453,10512..10954)
+                     /Pfam="PaxC, Trp_DMAT"
+     CDS             join(9009..9251,9310..9435,9506..9574,9637..9727,
+                     9788..9919,9980..10453,10512..10954)
                      /codon_start=1
                      /gene="spdJ"
                      /product="cytochrome P450 monooxygenase SpdJ"
-                     /label=spdJ
+                     /label="spdJ"
                      /protein_id="BBD84646.1"
                      /translation="MAIEQFLHRSWLHGLDHLDQLSWGQLILALVIIWSISSWMSGLDG
                      PKVPMVGYRWPFEPKFLVRMRFVTQGLGMMSEGYSKFKDSIFKITTHDADWLIIPKRYL
@@ -109,12 +113,13 @@ FEATURES             Location/Qualifiers
                      PRGTHLAFPAYNIGRDPAMVPDAHIFNGMRWYQQRLSKSFDSDRAKCQFATPDSNYLTF
                      GSGKYVCPGRFIASHMMKLMMVAVLLRYDFKWIPGTAKPSQKYVHVFAFPDKTTLLMKQ
                      RPGGEHAF"
+                     /Pfam="p450"
      CDS             join(15970..16294,16355..16970,17028..17662,17754..17962)
                      /codon_start=1
                      /gene="spdH"
-                     /product="glucose-methanol-choline family oxidoreductase 
+                     /product="glucose-methanol-choline family oxidoreductase
                      SpdH"
-                     /label=spdH
+                     /label="spdH"
                      /protein_id="BBD84647.1"
                      /translation="MKLFILLSLTLSAGRTGAEIFDYVIVGAGTAGLVIANRLSEDPSN
                      TVAVIEPGTDQRTNPNVTDWSRFTQAFGTSIDWQYQTVKQSGADGRVLDLHQGKAWGGT
@@ -127,6 +132,7 @@ FEATURES             Location/Qualifiers
                      INKPVIDPRFFLAEFDLDATIALGKYAQKFWFSEPIASSVIGPLIPGADILPNNATSAQ
                      WETYIRSTVGVNSHPLGTAAMMSRELGGVVDPQLKVYGTANVRVVDASVFPTQFSGHLT
                      ATIYAVAERAADIIKQAI"
+                     /Pfam="GMC_oxred_N, GMC_oxred_C"
 ORIGIN
         1 ctacgaccgt tttctcaacc agatatttgc ggtcatactt ggcacattga actttagcaa
        61 cttgatgtta gccggccttg ggctgaagag agcaatgtcg tagcttgaaa caaggcgcgc

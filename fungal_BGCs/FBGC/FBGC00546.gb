@@ -1,25 +1,25 @@
-LOCUS       FBGC00546       15388 bp DNA     linear   UNA 07-APR-2023
+LOCUS       FBGC00546              15388 bp    DNA     linear   UNA 07-APR-2023
 DEFINITION  mangicols.
 ACCESSION   FBGC00546
-VERSION     .
+VERSION     FBGC00546
 KEYWORDS    .
 SOURCE      Fusarium graminearum PH-1
   ORGANISM  Fusarium graminearum PH-1
+            .
 REFERENCE   1  (bases 1 to 15388)
-  AUTHORS   Yuan, Y., Cheng, S., Bian, G., Yan, P., Ma, Z., Dai, W., Chen, R., 
+  AUTHORS   Yuan, Y., Cheng, S., Bian, G., Yan, P., Ma, Z., Dai, W., Chen, R.,
             Fu, S., Huang, H., Chi, H., Cai, Y., Deng, Z., Liu, T.
-  TITLE     Efficient exploration of terpenoid biosynthetic gene clusters in 
+  TITLE     Efficient exploration of terpenoid biosynthetic gene clusters in
             filamentous fungi
   JOURNAL   Nat Catal 2022;5:277-287
 REFERENCE   2  (bases 1 to 15388)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Apr 7, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1038/s41929-022-00762-x"; journalName: "Nat Catal"; date: 
+  JOURNAL   Exported Apr 7, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1038/s41929-022-00762-x"; journalName: "Nat Catal"; date:
             "2022"; volume: "5"; pages: "277-287"
-COMMENT     On Aug 3, 2016 this sequence version replaced HG970332.1.
+            On Aug 3, 2016 this sequence version replaced HG970332.1.
 FEATURES             Location/Qualifiers
      source          1..15388
                      /chromosome="1"
@@ -32,7 +32,7 @@ FEATURES             Location/Qualifiers
                      /locus_tag="FGRAMPH1_01T04229"
                      /old_locus_tag="FGSG_01737"
                      /product="epoxide hydrolase MgcC"
-                     /label=mgcC
+                     /label="mgcC"
                      /note="unnamed protein product"
                      /db_xref="EnsemblGenomes-Gn:FGRAMPH1_01T04229"
                      /db_xref="GOA:I1RDM7"
@@ -49,12 +49,13 @@ FEATURES             Location/Qualifiers
                      WTDGYKWTDDEILTWVSLYQFSKAGPAASCRIYYESRHADQGLTKKINDWVPNVPLGLS
                      YFPKDIVFVPRTWGRTLGPIAFERIHTSGGHFASIERPEELVEDLRVMFSESGLGKQVV
                      EKLR"
-     CDS             join(3181..3457,3507..3535,3584..3849,3897..4698,4749..4903,
-                     4952..5115,5171..5272,5323..5468,5519..5851)
+                     /Pfam="EHN, Abhydrolase_1"
+     CDS             join(3181..3457,3507..3535,3584..3849,3897..4698,
+                     4749..4903,4952..5115,5171..5272,5323..5468,5519..5851)
                      /codon_start=1
                      /locus_tag="FGRAMPH1_01T04231"
                      /product="terpene synthase MgcD"
-                     /label=mgcD
+                     /label="mgcD"
                      /note="unnamed protein product"
                      /db_xref="EnsemblGenomes-Gn:FGRAMPH1_01T04231"
                      /db_xref="GOA:A0A098D639"
@@ -77,13 +78,14 @@ FEATURES             Location/Qualifiers
                      IRDDYANLKLADYTEQKGFCEDLDEGKFSLPLIIAFNENNKAPKAVAQLRGLMMQRCVN
                      GGLTFEQKVLALNLIEEAGGISGTEKVLHSLYGEMEAELERLAGVFGAENHQLELILEM
                      LRID"
-     CDS             join(7733..8147,8197..8467,8519..8584,8633..8708,8763..9127,
-                     9229..9313,9374..9534,9594..9759)
+                     /Pfam="Terpene_syn_C_2, GGPS"
+     CDS             join(7733..8147,8197..8467,8519..8584,8633..8708,
+                     8763..9127,9229..9313,9374..9534,9594..9759)
                      /codon_start=1
                      /locus_tag="FGRAMPH1_01T04233"
                      /old_locus_tag="FGSG_01739"
                      /product="cytochrome P450 monooxygenase MgcE"
-                     /label=mgcE
+                     /label="mgcE"
                      /note="unnamed protein product"
                      /db_xref="EnsemblGenomes-Gn:FGRAMPH1_01T04233"
                      /db_xref="GOA:A0A1C3YI89"
@@ -102,12 +104,13 @@ FEATURES             Location/Qualifiers
                      AYGSMRRLPRTSPDVALQFKDWVIPPGTPVGMNAYYLHTDPNAFPEPFEYKPERWLGNV
                      TPAMKRSFVPFSRGSRRCPGSSLALADLHFVLAALFGPTGPKFELFESDRSDVDAIHDY
                      LMPLPRLDSKGVRVTVK"
+                     /Pfam="p450"
      CDS             complement(join(10367..10717,10770..11882,11935..12009))
                      /codon_start=1
                      /locus_tag="FGRAMPH1_01T04235"
                      /old_locus_tag="FGSG_01740"
                      /product="cytochrome P450 monooxygenase MgcF"
-                     /label=mgcF
+                     /label="mgcF"
                      /note="unnamed protein product"
                      /db_xref="EnsemblGenomes-Gn:FGRAMPH1_01T04235"
                      /db_xref="GOA:I1RDN0"
@@ -125,13 +128,14 @@ FEATURES             Location/Qualifiers
                      RSSFRSESEINMKTTKQLEYLNATVDEALRVYPPAAESPPRISPGAEIDGKYLPKGVVV
                      SVYQWGTFHNPDNFADPDEFIPERWLQPSHPLHNPKYDNDNRSVYRPFGFGMRDCLGKN
                      LAHAEIRVVVSRILYRFDYELAPNQENWHANQKCFMAWDKTPLILTLKPRDFAP"
+                     /Pfam="p450"
      CDS             complement(join(13339..13475,13525..14331,14385..14640,
                      14692..15171,15224..15388))
                      /codon_start=1
                      /locus_tag="FGRAMPH1_01T04237"
                      /old_locus_tag="FGSG_01741"
                      /product="FAD-dependent monooxygenase MgcG"
-                     /label=mgcG
+                     /label="mgcG"
                      /note="unnamed protein product"
                      /db_xref="EnsemblGenomes-Gn:FGRAMPH1_01T04237"
                      /db_xref="GOA:I1RDN1"
@@ -151,6 +155,7 @@ FEATURES             Location/Qualifiers
                      PEVAKSLSSREEYHFKLHGHKRIDYGVHHESYAYQLALDMDAVPSFWDGVRVGWNAGAK
                      HPGLWWRLPVLWLTGAQFNTKFRVVGPYQWDGAVDVLGGELWETITRREGLFGAFVMTI
                      VPMTMVGTSSIIMWFVGLFTALLSAIGSFAKGTFWRVV"
+                     /Pfam="FMO-like"
 ORIGIN
         1 ttatcggagt ttctcaacga cctgcttgcc cagtccactc tcactaaaca tcactctcaa
        61 gtcctcgaca agctcttcag gtctctcgat cgaagcaaaa tgtccgccac tagtgtgaat
