@@ -1,37 +1,37 @@
-LOCUS       FBGC00316       11129 bp DNA     linear   UNA 10-FEB-2023
+LOCUS       FBGC00316              11129 bp    DNA     linear   UNA 03-FEB-2024
 DEFINITION  BAA/BAB.
 ACCESSION   FBGC00316
-VERSION     .
+VERSION     FBGC00316
 KEYWORDS    .
 SOURCE      Metarhizium anisopliae E6
   ORGANISM  Metarhizium anisopliae E6
+            .
 REFERENCE   1  (bases 1 to 11129)
-  AUTHORS   Sbaraini N, Hu J, Roux I, Phan CS, Motta H, Rezaee H, Schrank A, 
+  AUTHORS   Sbaraini N, Hu J, Roux I, Phan CS, Motta H, Rezaee H, Schrank A,
             Chooi YH, Staats CC.
-  TITLE     Polyketides produced by the entomopathogenic fungus Metarhizium 
+  TITLE     Polyketides produced by the entomopathogenic fungus Metarhizium
             anisopliae induce Candida albicans growth.
   JOURNAL   Fungal Genet Biol 2021;152:103568
-  PUBMED    33991663
+   PUBMED   33991663
 REFERENCE   2  (bases 1 to 11129)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Feb 10, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1016/j.fgb.2021.103568"; journalName: "Fungal Genet Biol"; date:
-            "2021"; volume: "152"; pages: "103568"
+  JOURNAL   Exported Feb 3, 2024 from SnapGene 7.1.1 https://www.snapgene.com
 COMMENT     ##Genome-Assembly-Data-START##
             Assembly Method       :: Newbler v. 2.8
             Assembly Name         :: Metarhizium anisopliae
             Genome Coverage       :: 19.0x
             Sequencing Technology :: 454
             ##Genome-Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1016/j.fgb.2021.103568"; journalName: "Fungal Genet Biol"; date:
+            "2021"; volume: "152"; pages: "103568"
 FEATURES             Location/Qualifiers
      source          1..11129
                      /strain="E6"
                      /mol_type="genomic DNA"
                      /country="Brazil: Espirito Santo state"
-                     /collection_date=1978
+                     /collection_date="1978"
                      /db_xref="taxon:5530"
                      /organism="Metarhizium anisopliae"
                      /submitter_seqid="contig00213"
@@ -39,7 +39,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="MANI_025650"
                      /product="polyketide synthase Ba17a"
-                     /label=Ba17a
+                     /label="Ba17a"
                      /note="identified by sequence similarity"
                      /protein_id="KFG78606.1"
                      /translation="MPIEPIAIVGASCRLPGSSNSLDSLWELLADGGEAWSSVPADRFN
@@ -93,11 +93,13 @@ FEATURES             Location/Qualifiers
                      ALLHQATSTHSRSLVAAGRGLGAVRALYALRGAAQEQEKELPELFRTHSWDATRRGGPG
                      QDVKLGFMRLAPDDDANGNVGATPGDDDINGRWDEAGFLVCGERGVYVHCNVWEKHARF
                      AASGRPAYVTKLCKAMRRASCMITSLLEDPSKRPT"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_DH, PKS_NRPS_MT, fPKS_ER,
+                     fPKS_KR, ACP_PCP, Carn_acyltransf"
      CDS             join(9932..10133,10191..10653,10691..11129)
                      /codon_start=1
                      /locus_tag="MANI_002819"
-                     /product="hypothetical protein Ba19b"
-                     /label=Ba19b
+                     /product="hypothetical protein Ba17b"
+                     /label="Ba17b"
                      /note="identified by sequence similarity"
                      /protein_id="KFG78607.1"
                      /translation="MASEMNASPEYTGYRLEVFIAVFTPLTIIAVALRFYARSLTSKKI
@@ -107,6 +109,7 @@ FEATURES             Location/Qualifiers
                      FGELIGGDSGLITSVLRFIAFYNKSSFIDPTFHAVELIIWTVCEPGVYLIAACLLVYRP
                      LLEKIGIPLVGGVSSRGGNRQEPTELAFQKPSRPRNGAVIKSIGSGSISESGFEYIGDD
                      DQRPLRRQGGITATTNVEVTWAAGSAV"
+                     /Pfam="TwmC"
 ORIGIN
         1 ttatgtagga cgcttcgagg gatcttctag caggctggta atcatacagc ttgcacgtct
        61 cattgcctta cacaactttg ttacatatgc tggccggccc gaggccgcaa atcgggcgtg

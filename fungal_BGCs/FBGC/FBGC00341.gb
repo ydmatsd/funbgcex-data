@@ -1,32 +1,32 @@
-LOCUS       FBGC00341       12765 bp DNA     linear   UNA 13-FEB-2023
+LOCUS       FBGC00341              12765 bp    DNA     linear   UNA 13-FEB-2023
 DEFINITION  acetylaszonalenin.
 ACCESSION   FBGC00341
-VERSION     .
+VERSION     FBGC00341
 KEYWORDS    .
 SOURCE      Aspergillus fischeri NRRL 181
   ORGANISM  Aspergillus fischeri NRRL 181
+            .
 REFERENCE   1  (bases 1 to 12765)
   AUTHORS   Yin WB, Grundmann A, Cheng J, Li SM.
-  TITLE     Acetylaszonalenin biosynthesis in Neosartorya fischeri. 
-            Identification of the biosynthetic gene cluster by genomic mining 
+  TITLE     Acetylaszonalenin biosynthesis in Neosartorya fischeri.
+            Identification of the biosynthetic gene cluster by genomic mining
             and functional proof of the genes by biochemical investigation.
   JOURNAL   J Biol Chem 2009;284:100-109
-  PUBMED    19001367
+   PUBMED   19001367
 REFERENCE   2  (bases 1 to 12765)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Feb 13, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1074/jbc.M807606200"; journalName: "J Biol Chem"; date: "2009"; 
-            volume: "284"; pages: "100-109"
-COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final 
-            NCBI review. The reference sequence is identical to 
-            DS027698.##Genome-Annotation-Data-START##
+  JOURNAL   Exported Feb 13, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     ##Genome-Annotation-Data-START##
             Annotation Provider :: INSDC submitter
             Annotation Status   :: Full annotation
-            Annotation Pipeline :: Eukaryotic Annotation Propagation Pipeline 
+            Annotation Pipeline :: Eukaryotic Annotation Propagation Pipeline
             ##Genome-Annotation-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1074/jbc.M807606200"; journalName: "J Biol Chem"; date: "2009";
+            volume: "284"; pages: "100-109"
+            PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to
 FEATURES             Location/Qualifiers
      source          1..12765
                      /chromosome="Unknown"
@@ -40,10 +40,10 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="NFIA_055290"
                      /product="nonribosomal peptide synthetase AnaPS"
-                     /label=anaPS
-                     /note="encoded by transcript NFIA_055290A;
-                     predicted by EVM similar to peptide synthetase (GI:2342601)
-                     [Metarhizium anisopliae] PUBMED = 8964498"
+                     /label="anaPS"
+                     /note="encoded by transcript NFIA_055290A; predicted by EVM
+                     similar to peptide synthetase (GI:2342601) [Metarhizium
+                     anisopliae] PUBMED = 8964498"
                      /db_xref="GeneID:4584592"
                      /protein_id="XP_001258077.1"
                      /translation="MTITTMTPQNGTRRQVDGGPICFFPTMTRLDMQSITFDNHVVQKL
@@ -87,13 +87,14 @@ FEATURES             Location/Qualifiers
                      LETVVRTVRQARRAMDMHGWKHFTSIYHNTQQTKCSAGTHLMEITFNYAGKFQQVEQDG
                      ALFRMEPMAKQNLFDGAAELGRWAMLEINSVILNGMLEFHVTYNRGTDEASVLTPWMDN
                      LVKCLEDLASGFA"
+                     /Pfam="AA-adenyl-dom, ACP_PCP, NRPS_C, NRPS_E"
      CDS             join(9058..10244,10296..10422)
                      /codon_start=1
                      /locus_tag="NFIA_055300"
                      /product="DMATS-type prenyltransferase AnaPT"
-                     /label=anaPT
-                     /note="encoded by transcript NFIA_055300A;
-                     predicted by EVM"
+                     /label="anaPT"
+                     /note="encoded by transcript NFIA_055300A; predicted by
+                     EVM"
                      /db_xref="GeneID:4584593"
                      /protein_id="XP_001258078.1"
                      /translation="MSPLSMQTDSVQGTAENKSLETNGTSNDQQLPWKVLGKSLGLPTI
@@ -104,13 +105,14 @@ FEATURES             Location/Qualifiers
                      YVADSQLSLATLREFWTLGGSVTDSATMKGLEIAEELWRILQYDDAVCSHSNMDQLPLV
                      VNYELSSGSATPKPQLYLPLHGRNDEAMANALTKFWDYLGWKGLAAQYKKDLYANNPCR
                      NLAETTTVQRWVAFSYTESGGAYLTVYFHAVGGMKGNL"
+                     /Pfam="Trp_DMAT"
      CDS             11236..12765
                      /codon_start=1
                      /locus_tag="NFIA_055310"
                      /product="acetyltransferase AnaAT"
-                     /label=anaAT
-                     /note="encoded by transcript NFIA_055310A;
-                     predicted by EVM"
+                     /label="anaAT"
+                     /note="encoded by transcript NFIA_055310A; predicted by
+                     EVM"
                      /db_xref="GeneID:4584594"
                      /protein_id="XP_001258079.1"
                      /translation="MTVTISFEPYVGSSVDALSIPLYLRCQLVFKLSKPLAAVPLLESG
@@ -122,6 +124,7 @@ FEATURES             Location/Qualifiers
                      NAVCLLREKVPLQFFALPSHANMEATSSVCADHSGDDEWALSFCRVAYGLRAKLNAIDD
                      DYIRDYISYVQKSPCHLSVTLDTENLYLSNWREIGVYDADFGGMLGKPLRMRAPDGYTD
                      GLIFVMAQRSEDKSAPWEFNISLEASTMKRIVHDPLWCKYVELDAFWHGEE"
+                     /Pfam="Transferase"
 ORIGIN
         1 ctaagcaaaa ccgctggcaa gatcttcaag gcatttcacc agattatcca tccacggagt
        61 cagaacactc gcctcatcag tccctcggtt ataggtgaca tgaaactcca acatgccgtt

@@ -1,31 +1,31 @@
-LOCUS       FBGC00334       16989 bp DNA     linear   UNA 13-FEB-2023
+LOCUS       FBGC00334              16989 bp    DNA     linear   UNA 13-FEB-2023
 DEFINITION  DHN-melanin.
 ACCESSION   FBGC00334
-VERSION     .
+VERSION     FBGC00334
 KEYWORDS    .
 SOURCE      Aspergillus fumigatus Af293
   ORGANISM  Aspergillus fumigatus Af293
+            .
 REFERENCE   1  (bases 1 to 16989)
   AUTHORS   Tsai HF, Wheeler MH, Chang YC, Kwon-Chung KJ.
-  TITLE     A developmentally regulated gene cluster involved in conidial 
+  TITLE     A developmentally regulated gene cluster involved in conidial
             pigment biosynthesis in Aspergillus fumigatus.
   JOURNAL   J Bacteriol 1999;181:6469-77
-  PUBMED    10515939
+   PUBMED   10515939
 REFERENCE   2  (bases 1 to 16989)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Feb 13, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1128/JB.181.20.6469-6477.1999"; journalName: "J Bacteriol"; 
-            date: "1999"; volume: "181"; pages: "6469-77"
-COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final 
-            NCBI review. The reference sequence is identical to 
-            CM000170.##Genome-Annotation-Data-START##
+  JOURNAL   Exported Feb 13, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     ##Genome-Annotation-Data-START##
             Annotation Provider :: INSDC submitter
             Annotation Status   :: Full annotation
-            Annotation Pipeline :: Eukaryotic Annotation Propagation Pipeline 
+            Annotation Pipeline :: Eukaryotic Annotation Propagation Pipeline
             ##Genome-Annotation-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1128/JB.181.20.6469-6477.1999"; journalName: "J Bacteriol";
+            date: "1999"; volume: "181"; pages: "6469-77"
+            PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to
 FEATURES             Location/Qualifiers
      source          1..16989
                      /chromosome="2"
@@ -40,10 +40,10 @@ FEATURES             Location/Qualifiers
                      /old_locus_tag="Afu2g17530"
                      /product="laccase Abr2"
                      /EC_number="1.10.3.-"
-                     /label=abr2
-                     /note="encoded by transcript AFUA_2G17530A;
-                     identical to GB:AAF03349.1: brown 2 [Aspergillus fumigatus]
-                     PMID: 10515939"
+                     /label="abr2"
+                     /note="encoded by transcript AFUA_2G17530A; identical to
+                     GB:AAF03349.1: brown 2 [Aspergillus fumigatus] PMID:
+                     10515939"
                      /db_xref="GeneID:3512772"
                      /protein_id="XP_756088.2"
                      /translation="MWYQSASLLGVAAVAQAATVHYSLDLTWETGSPNGVSREMIFVNG
@@ -57,16 +57,17 @@ FEATURES             Location/Qualifiers
                      TTRNDTWVDIVFQLVVSETTPIQPPHPLHKHSNKGFLLGTGHGKFNWTSIKEAKEASPE
                      SFLETPVYRDTFTTSPQGETWTAIRYHVENPGPFLLHCHMTTHLQSGMGLILMDGVDVW
                      PEVYADMITPM"
+                     /Pfam="Cu-oxidase_3, Cu-oxidase, Cu-oxidase_2"
      CDS             join(2567..2899,2952..4050,4098..4660)
                      /codon_start=1
                      /locus_tag="AFUA_2G17540"
                      /old_locus_tag="Afu2g17540"
                      /product="laccase Abr1"
                      /EC_number="1.10.3.-"
-                     /label=abr1
-                     /note="encoded by transcript AFUA_2G17540A;
-                     identical to brown 1 (gi:6090821) [Aspergillus fumigatus] 
-                     PMID: 10515939 potential sequencing error"
+                     /label="abr1"
+                     /note="encoded by transcript AFUA_2G17540A; identical to
+                     brown 1 (gi:6090821) [Aspergillus fumigatus] PMID: 10515939
+                     potential sequencing error"
                      /db_xref="GeneID:3512773"
                      /protein_id="XP_756089.2"
                      /translation="MFHSRALLLSWLVGFTAAKDIHLDWNITWVWAAPDGFGRPMIGIN
@@ -81,16 +82,17 @@ FEATURES             Location/Qualifiers
                      CPSYGTPPGGTPSSPPHDAPRPDGASGSPQYPPKPWGEPDASAPEQDDSQPGGTPDSPE
                      DFPQPWGEPEESPQEPPQPWSPSNNAQPPANTYAPEYPSGYVPVAPGPVIIDSELHYGG
                      KSSHVECSGVNAGHTQDTTTGGDGCANAS"
-     CDS             complement(join(5081..5183,5240..5446,5496..6238,6288..6362,
-                     6408..6500))
+                     /Pfam="Cu-oxidase_3, Cu-oxidase, Cu-oxidase_2"
+     CDS             complement(join(5081..5183,5240..5446,5496..6238,
+                     6288..6362,6408..6500))
                      /codon_start=1
                      /locus_tag="AFUA_2G17550"
                      /old_locus_tag="Afu2g17550"
                      /product="alpha/beta hydrolase Ayg1"
-                     /label=ayg1
-                     /note="encoded by transcript AFUA_2G17550A;
-                     identical to yellowish-green 1 (GI:6090823) [Aspergillus 
-                     fumigatus] PMID: 10515939 contains a DUF1100 domain"
+                     /label="ayg1"
+                     /note="encoded by transcript AFUA_2G17550A; identical to
+                     yellowish-green 1 (GI:6090823) [Aspergillus fumigatus]
+                     PMID: 10515939 contains a DUF1100 domain"
                      /db_xref="GeneID:3513286"
                      /protein_id="XP_756090.1"
                      /translation="MPRWILGDKFDTVFPHKGSLKVLWESRWKSACSKSVYPFHDGSIE
@@ -101,15 +103,16 @@ FEATURES             Location/Qualifiers
                      PGCHYYLDPEWLAKVNDHEYPFEITAAWATKHGYKTVEEFVAGAQKKFSLVETGIVDQP
                      SCRLLLLNGVDDGVVPIEDCLVLFEHGSPKEGRFYKGLPHMGYPNSLPVSYEWLEQVLA
                      SPSKTKN"
+                     /Pfam="FrsA-like"
      CDS             complement(7337..8158)
                      /codon_start=1
                      /locus_tag="AFUA_2G17560"
                      /old_locus_tag="Afu2g17560"
                      /product="short-chain dehydrogenase/reductase Arp2"
-                     /label=arp2
-                     /note="encoded by transcript AFUA_2G17560A;
-                     identical to 1,3,6,8-tetrahydroxynaphthalene reductase arp2
-                     (GI:6090729) [Aspergillus fumigatus] PMID: 10515939"
+                     /label="arp2"
+                     /note="encoded by transcript AFUA_2G17560A; identical to
+                     1,3,6,8-tetrahydroxynaphthalene reductase arp2 (GI:6090729)
+                     [Aspergillus fumigatus] PMID: 10515939"
                      /db_xref="GeneID:3513287"
                      /protein_id="XP_756091.1"
                      /translation="MVNTCTYLPLSGKVALVTGGGRGIGAGIALELARRGASVAINYGH
@@ -117,37 +120,39 @@ FEATURES             Location/Qualifiers
                      PLEETTLEDFNEVFNLNTRAQMFVARYAYDHIQPGGRVILMSSIAAGLGVPGHALYAGS
                      KAAIEGFTRCLAADFGRKGCTVNAIAPAGVKSDMWRENAWRYAPGCDKSSSLEEIETAL
                      ASGSPLKRCGVPEDIGKVVSFLASPDAEWVNGEFFSPPPCKGPLPGGDLEC"
+                     /Pfam="adh_short_C2"
      CDS             join(8622..8661,8710..8765,8820..9230)
                      /codon_start=1
                      /locus_tag="AFUA_2G17580"
                      /old_locus_tag="Afu2g17580"
                      /product="dehydratase Arp1"
-                     /label=arp1
-                     /note="encoded by transcript AFUA_2G17580A;
-                     identical to (GB:AAC49843) scytalone dehydratase 
-                     [Aspergillus fumigatus] similar to syctalone dehydratase 
-                     SD1 (GI:37787190) [Ceratocystis resinifera]"
+                     /label="arp1"
+                     /note="encoded by transcript AFUA_2G17580A; identical to
+                     (GB:AAC49843) scytalone dehydratase [Aspergillus fumigatus]
+                     similar to syctalone dehydratase SD1 (GI:37787190)
+                     [Ceratocystis resinifera]"
                      /db_xref="GeneID:3513289"
                      /protein_id="XP_756093.1"
                      /translation="MVEKKPNLTLEFHDYLALKKVLFDWADSYDAKDWDRLRSIIAPTL
                      TVDYRQIGLRKWDDMPAEDYMAMISDMDFLGDPTVKTQHLLGESWWEKISDTEVIGHHQ
                      LRAAHQVYTDSTLQTVKLKGHGHATNEHYYRKVDGVWKFAGLKPTVRWNEYQFEDVFRA
                      AKPSV"
+                     /Pfam="Scytalone_dh"
      CDS             join(10328..10614,10662..10950,10998..14429,14485..15240,
                      15313..16989)
                      /codon_start=1
                      /locus_tag="AFUA_2G17600"
                      /old_locus_tag="Afu2g17600"
                      /product="polyketide synthase Alb1"
-                     /label=alb1
-                     /note="encoded by transcript AFUA_2G17600A;
-                     identical to polyketide synthase (GI:3136092) [Aspergillus 
-                     fumigatus] PMID: 9832321, 11553585, 10515939, 9620950, 
-                     1986246, 10816538, 15813678 similar to wA gene (GI:384290) 
-                     [Emericella nidulans] PMID: 2172077, 2227390, 16783565 
-                     similar to polyketide synthase PKS12 
-                     (GI:51848093)[Gibberella zeae] PMID: 15780665, 16461721 
-                     similar to type I polyketide synthase (GI:29165633) 
+                     /label="alb1"
+                     /note="encoded by transcript AFUA_2G17600A; identical to
+                     polyketide synthase (GI:3136092) [Aspergillus fumigatus]
+                     PMID: 9832321, 11553585, 10515939, 9620950, 1986246,
+                     10816538, 15813678 similar to wA gene (GI:384290)
+                     [Emericella nidulans] PMID: 2172077, 2227390, 16783565
+                     similar to polyketide synthase PKS12
+                     (GI:51848093)[Gibberella zeae] PMID: 15780665, 16461721
+                     similar to type I polyketide synthase (GI:29165633)
                      [Exophiala dermatitidis] PMID: 11179356"
                      /db_xref="GeneID:3513291"
                      /protein_id="XP_756095.1"
@@ -188,6 +193,8 @@ FEATURES             Location/Qualifiers
                      FPIGLEKLPPRLYKFFNSIGLFGDGKRAPPDWLLPHFLAFIDSLDAYKAVPLPFNDSKW
                      AKKMPKTYLIWAKDGVCGKPGDPRPEPAEDGSEDPREMQWLLNDRTDLGPNKWDTLVGP
                      QNIGGIHVMEDANHFTMTTGQKAKELSQFMATAMSS"
+                     /Pfam="SAT2, PKS_KS, PKS_AT, fPKS_PT, ACP_PCP,
+                     Thioesterase"
 ORIGIN
         1 atgtggtatc aatcagcttc cttgcttggt gtcgctgcgg tcgcccaagc agccacagtg
        61 cactattccc tcgacctgac atgggaaact ggcagtccga atggtgtcag ccgggagatg

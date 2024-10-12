@@ -1,24 +1,24 @@
-LOCUS       FBGC00307       57164 bp DNA     linear   UNA 29-MAR-2023
+LOCUS       FBGC00307              57164 bp    DNA     linear   UNA 29-MAR-2023
 DEFINITION  hypoxysordarin.
 ACCESSION   FBGC00307
-VERSION     .
+VERSION     FBGC00307
 KEYWORDS    .
 SOURCE      Sordaria araneosa ATCC 36386
   ORGANISM  Sordaria araneosa ATCC 36386
+            .
 REFERENCE   1  (bases 1 to 57164)
   AUTHORS   Kudo F, Matsuura Y, Hayashi T, Fukushima M, Eguchi T.
-  TITLE     Genome mining of the sordarin biosynthetic gene cluster from 
-            Sordaria araneosa Cain ATCC 36386: characterization of 
+  TITLE     Genome mining of the sordarin biosynthetic gene cluster from
+            Sordaria araneosa Cain ATCC 36386: characterization of
             cycloaraneosene synthase and GDP-6-deoxyaltrose transferase.
   JOURNAL   J Antibiot (Tokyo) 2016;69:541-8
-  PUBMED    27072286
+   PUBMED   27072286
 REFERENCE   2  (bases 1 to 57164)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Mar 29, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1038/ja.2016.40"; journalName: "J Antibiot (Tokyo)"; date: 
+  JOURNAL   Exported Mar 29, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1038/ja.2016.40"; journalName: "J Antibiot (Tokyo)"; date:
             "2016"; volume: "69"; pages: "541-8"
 FEATURES             Location/Qualifiers
      source          1..57164
@@ -27,12 +27,12 @@ FEATURES             Location/Qualifiers
                      /db_xref="taxon:573841"
                      /culture_collection="ATCC:36386"
                      /organism="Sordaria araneosa"
-     CDS             complement(join(1..331,404..493,557..719,791..806,889..1043,
-                     1104..1122,1189..1315,1391..1593))
+     CDS             complement(join(1..331,404..493,557..719,791..806,
+                     889..1043,1104..1122,1189..1315,1391..1593))
                      /codon_start=1
                      /gene="sdnA"
                      /product="terpene synthase SdnA"
-                     /label=sdnA
+                     /label="sdnA"
                      /protein_id="BAV32145.1"
                      /translation="MSLYGLFTLATSYLPSVGGGAALAAKAQLGKARSLYVPDLFAGIL
                      SGEPTRNPHEEEVGRASEEWTKKLVKMDKRTAKILTKANFAYLVSLAAPLADEEAFRMG
@@ -41,12 +41,13 @@ FEATURES             Location/Qualifiers
                      LFAVVEWAHAIKAPEEAMNHPSVQTCERVAADLTWLVNDVLSYKKDLAFGVEHNLTRLL
                      MRQGLTEQGAMDKLGQLMESNQRDWEDAIAELPHWEDEETNKEVRRYLDACAAVGRANL
                      HWSFKSGRYLNAEQGRKVRETRIMDLP"
-     CDS             complement(join(2508..2935,3003..3629,3694..3853,3927..4058,
-                     4122..4412))
+                     /Pfam="Terpene_syn_C_2"
+     CDS             complement(join(2508..2935,3003..3629,3694..3853,
+                     3927..4058,4122..4412))
                      /codon_start=1
                      /gene="sdnB"
                      /product="cytochrome P450 monooxygenase SdnB"
-                     /label=sdnB
+                     /label="sdnB"
                      /protein_id="BAV32146.1"
                      /translation="MEVHNATSFLGHGGMAQHLQPVLESPFAESILALTPLQGIALFLC
                      LFWGYSSLTLHRRIKVPGAPVHGYWSWLEPTWLLQLRYAKDAHKIIASGYKRYNVNGKP
@@ -58,11 +59,12 @@ FEATURES             Location/Qualifiers
                      QPLSITPNRYAVEDFTFKDGLHIPKGALLGWVSIHNQIDPKIAPDPDTFDPLRSYRKRQ
                      VSAEENAKHLAGQPSLENLTFGYGSQACPGRNIAITVLKMILSRILRDYEFKFGDGQAR
                      PQNIYLLEFIIPDPKAKLMVRKREASVS"
+                     /Pfam="p450"
      CDS             join(4799..5786,5861..6144,6211..6540)
                      /codon_start=1
                      /gene="sdnC"
                      /product="geranylgeranyl pyrophosphate synthase SdnC"
-                     /label=sdnC
+                     /label="sdnC"
                      /protein_id="BAV32147.1"
                      /translation="MSFDQFAPFMTLGRPDAVCDECSRPVAPNSISDDDAAVNTTETDT
                      QHANIPEEQDVINIKLDSTFNAESSAETIDLKVEGVKLAIVSQQPTYEAITAETTSSVA
@@ -74,22 +76,24 @@ FEATURES             Location/Qualifiers
                      LTRLVVLLGRYFQIRDDYMNLTSDEYTLQKGFCDDLDEGKFSLTLVHALENSPEAEKSI
                      LRHLLTQRLSSNGQGMSLAQKHLVIDIVKGAGSLEYTVTALRKIGMEIVNELDQIEGVT
                      GIENKELRRLVEVLRV"
+                     /Pfam="GGPS"
      CDS             complement(7203..7982)
                      /codon_start=1
                      /gene="sdnD"
                      /product="methyltransferase SdnD"
-                     /label=sdnD
+                     /label="sdnD"
                      /protein_id="BAV32148.1"
                      /translation="MAVTNTPELIEADRLSYYAISKIEAQFIYKEIFTDHCYDIANLPS
                      NPFIVDAGANIGLFSLYMKRKYPQAKILAFEPAPVCYDVLSRNLALNDALSGVKALQCG
                      LSSSAGTLPLTYFPNLPGNSTLVPEEKNKLYEEAVRKRGKETADERFGGAVKVDVELKR
                      LSDVLREYYPDGKPDQGLERIDLLKVDVEGAELEVLKGVDEEHWELVRNVVVETWEPSG
                      IRPQIEALLEDKGFDITRDRAEWAPDQFSMITARRQD"
+                     /Pfam="Methyltransf_21"
      CDS             complement(join(9353..10234,10301..10764,10830..11037))
                      /codon_start=1
                      /gene="sdnE"
                      /product="cytochrome P450 monooxygenase SdnE"
-                     /label=sdnE
+                     /label="sdnE"
                      /protein_id="BAV32149.1"
                      /translation="MMDSSILQTLAVLYVLYLLGLIIYRLYFSPLAKFPGPKLAACSKW
                      YEFYYDVILRGQFTFQIQRMHQKYGPIVRINPFELHIQDSTFWDELYTKNKEYERYAWM
@@ -101,11 +105,12 @@ FEATURES             Location/Qualifiers
                      PIVPVSMTTLDVLRDPEVFTSPNNFIPERWLGSPKVANTGESLAKYFVPFGKGPRMCIG
                      INLAYVEMHLTLAMLFRRFTFELYETDVSDVEIKHDFMVPQPKLSTKGVRAKVTGLVVE
                      "
+                     /Pfam="p450"
      CDS             join(11717..11809,11873..12994,13397..13747)
                      /codon_start=1
                      /gene="sdnF"
                      /product="cytochrome P450 monooxygenase SdnF"
-                     /label=sdnF
+                     /label="sdnF"
                      /protein_id="BAV32150.1"
                      /translation="MSFTFLDWPRAEIFSSVSYLGLLLSGTVLYTVYKLIIAIYNYFFH
                      PLRKIPGPPLASISWVPWYKYWFSGYMHRHVTRLHETYGPVVRIGPSEISFISATAWKD
@@ -117,22 +122,24 @@ FEATURES             Location/Qualifiers
                      EWIPKGTAIYVSQFAANRSSAYFHLPNEYHPERWLGEECPKEFRTDKLDAVQPFIMGVN
                      VCIGRGLAWMEMRVTLAKLLWHFDWTVKGGDGEAFEQAKAWHVWTKSHVNLQLHRRGAL
                      YGDL"
+                     /Pfam="p450"
      CDS             complement(join(14057..14265,14345..14408,14501..14614,
                      14689..14742))
                      /codon_start=1
                      /gene="sdnG"
                      /product="Diels-Alderase SdnG"
-                     /label=sdnG
+                     /label="sdnG"
                      /protein_id="BAV32151.1"
                      /translation="MAGKEIQTPDQAEAFVAKVFDVLDSYDYTRFGEVLSTDLKYEGGL
                      QKTSGLDNFINDIKASTQRMPGLQTSHSRYRTELTAEGTIYSEGHSNASLESNPGKVVT
                      VPMIGVFKLDSEDGKIKEMRIYKDRLPFLALHQALPGMKANN"
+                     /Pfam="SnoaL_2"
      CDS             join(15247..15697,15766..16036,16110..16175,16234..16309,
                      16372..16656,16733..16879,16946..17109,17184..17352)
                      /codon_start=1
                      /gene="sdnH"
                      /product="cytochrome P450 monooxygenase SdnH"
-                     /label=sdnH
+                     /label="sdnH"
                      /protein_id="BAV32152.1"
                      /translation="MALASIFAEFKGLAAGVSLDNINPLYVAGGILGAFTVYSIILVVY
                      RLRFHPLTGFPGPKLLAATTWYEAYVDLIHHDFPERLAKIHEKYGRDFLTIKLIVVPRS
@@ -144,12 +151,13 @@ FEATURES             Location/Qualifiers
                      IKEGLRLLRLFRRKARIATDIDLTYGGYVIPKGTPVSLSPYTMHMDPDVFPEPTKFKPE
                      RWLVEDLDPRMNRNLNPFLAGSRNCIGMHVAWAQMYLILATLFRPNKNYSLKLGECDES
                      DVYPVVDNEFGVAKYDSRGLNALVV"
+                     /Pfam="p450"
      CDS             complement(join(18191..19001,19070..19503,19559..19902,
                      19968..20013))
                      /codon_start=1
                      /gene="sdnI"
                      /product="GDP-mannose 4,6-dehydratase SdnI"
-                     /label=sdnI
+                     /label="sdnI"
                      /protein_id="BAV32153.1"
                      /translation="MATVDSQRPKSAFITGITGQDGSYLVDILLEKGYQVHGLVRPSSQ
                      RRQFLSHPLRRGITLHYGDMTDSATLMQILSSITVDEVYHLAAQSHVAVSFQTPLLTCD
@@ -161,11 +169,12 @@ FEATURES             Location/Qualifiers
                      QTECSSVAEGTDIPVPEKVELLPSAGVEEGGHDVAIDVLGKDDCGKVVLTLDEQDKPNE
                      NDEGHLAVVAVEEATATTPFVGTDLIKMDSSISIEPATPSPSTVAESERRVNLTITIDG
                      EGRVTKVYNVPDFTAEEKVTLPTPVTA"
+                     /Pfam="GDP_Man_Dehyd"
      CDS             join(20833..21401,21467..22102,22167..22500)
                      /codon_start=1
                      /gene="sdnJ"
                      /product="glycosyltransferase SdnJ"
-                     /label=sdnJ
+                     /label="sdnJ"
                      /protein_id="BAV32154.1"
                      /translation="MHAKRPSVLFFTISDFGYVNVVLATIYELLLRDEVDIHIASFAPL
                      KPRLESLVQLVKHETKKSTDSSPGVHFHNLADFPGFATWAAQSKDRKKADVPHPPGRNG
@@ -176,11 +185,12 @@ FEATURES             Location/Qualifiers
                      REATSEKSGQENLESILGQAIQDGRVRTESWLKADPVAILRSGHIVCSVHHGGANSYFE
                      ATWAGVPQIVLAMWYDTFDYATRVEYLGIGAYGNREKGRSCVVDEDNYVAPNLVDGEEF
                      GAALLRVVGRNRADPGAAQITKSAVILGEVCRRSGGRVRSAEIVTGLCFGKLDY"
+                     /Pfam="SdnJ"
      CDS             join(23095..23232,23311..24228)
                      /codon_start=1
                      /gene="sdnK"
                      /product="short-chain dehydrogenase/reductase SdnK"
-                     /label=sdnK
+                     /label="sdnK"
                      /protein_id="BAV32155.1"
                      /translation="MVQFNGPHGKVTVSYLRQGGLNPPAPAPKGSFTGKTVLITGCSSG
                      IGYQAALQIASLNPKRLILGTRTLAKGEAAKQEILATVGPSLDSSIIEVIPIECSDLSS
@@ -189,11 +199,12 @@ FEATURES             Location/Qualifiers
                      AYYEAKLMLMFVLEGLVQDQAQQQASQPGEDRKVLFLACCPGQCRTNLYRQFGLGVRAF
                      MTLFNAVIARTAEQGARTLVTGLLLQGEEAMGKMWVNDRFDDWSPGITEEEWKVLQKRV
                      WEEIKGVLGKA"
+                     /Pfam="adh_short"
      CDS             complement(24588..25829)
                      /codon_start=1
                      /gene="sdnL"
                      /product="trans-acting methyltransferase SdnL"
-                     /label=sdnL
+                     /label="sdnL"
                      /protein_id="BAV32156.1"
                      /translation="MVPRTISIKPGQQPGPPLTSESHLTSTFQELCSNYDTAGKTAKAL
                      DYWKEVYPFQARLVLAYIVEAFTALGLELSKLQTGDSVPELPSATVPKEHHQLIRRLYQ
@@ -203,11 +214,12 @@ FEATURES             Location/Qualifiers
                      SFDLLDIEQPPKMEYLSQFDVIISTNCIHATKNLDNTLGNLRKLLRTDGAVMLVETTQK
                      MCWLDIVVGFFGGWWLFEEGGDGRDYALIDEEDWSERMKKAGFGEVLWTEGKSEESKTV
                      RLIGGFLGLGDVVN"
+                     /Pfam="HTH_51, PKS_NRPS_MT"
      CDS             complement(join(26505..27791,27853..28065))
                      /codon_start=1
                      /gene="sdnM"
                      /product="acyltransferase SdnM"
-                     /label=sdnM
+                     /label="sdnM"
                      /protein_id="BAV32157.1"
                      /translation="MGLFSAKREPPPVVPTDTITPLRFVDELYPFAFDFSLVFRDVLDP
                      EVLRAAADSVLQRDGWRQLGARLRRDQNSKLEYHLPTHFSKERPLFLFTTDNHTDMSIN
@@ -218,11 +230,12 @@ FEATURES             Location/Qualifiers
                      ISFFGNAAYNASFFAPASAFAGPEKEKLGLLANQVRDSIKLHRTVEQLQAQDAAFRESK
                      ARTGHLPLYGEGDMMMCVFTNCYRGRLYQMDFSPALVDKEKSKGKKQALPVFINCTGME
                      SRWSARNATAILGKSENGDWWMSSRLRQDVWERIEAEFERM"
+                     /Pfam="CalD"
      CDS             complement(join(28632..29679,29776..30026))
                      /codon_start=1
                      /gene="sdnN"
                      /product="FAD-dependent monooxygenase SdnN"
-                     /label=sdnN
+                     /label="sdnN"
                      /protein_id="BAV32158.1"
                      /translation="MGSFKVIIVGGGPAGLVAAHALHQAGIDFVVLERRGSVVDPSGAS
                      VVLNPPAMRILSQFGLREQLEDAGAELNHVKSFTNAGYNLGAAQVIYHRPELVRIMYEG
@@ -232,11 +245,12 @@ FEATURES             Location/Qualifiers
                      KNFSKGRVCLVSDSCHRYTPNAGLGLNNGIQDVVALCNEIQAAVEQAGPESEPSQEGIT
                      KAFESYLNQRLKLMKKDLRGSALLTRLQAWASTLHYIMARYLLVPDWVQRLTINYVAVP
                      TMRQAPVFKYIAAEEPYVGTTAWVHPIKPRTIT"
+                     /Pfam="FAD_binding_3"
      CDS             30742..39996
                      /codon_start=1
                      /gene="sdnO"
                      /product="polyketide synthase SdnO"
-                     /label=sdnO
+                     /label="sdnO"
                      /protein_id="BAV32159.1"
                      /translation="MASPIPLAVVGIACRFPGDATNPEKLWDLLAEGKSAWSRVPSDRW
                      NEEAFLHPSPDDMNGSHNHLGGHFLRQDVGEFDAGFFNVLPGEAAAMDPQQRLLLETTY
@@ -291,11 +305,13 @@ FEATURES             Location/Qualifiers
                      IHSHSLTSSSEVDWKGMNKLLKEVSISHVQNLQRVADGRGYVEALYSLMGTAISQGHDL
                      PELFKSEAWKQTDRHLSPKRAKTDCLGSGGYLRMQEGGFLMPNPGSLFIHYEVHHRDPL
                      VNVSGREEDVARFEGILGACLGVVRRVVEG"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_DH, PKS_NRPS_MT, fPKS_ER,
+                     fPKS_KR, ACP_PCP, Carn_acyltransf"
      CDS             join(40937..41646,41724..41832)
                      /codon_start=1
                      /gene="sdnP"
                      /product="hypothetical protein SdnP"
-                     /label=sdnP
+                     /label="sdnP"
                      /protein_id="BAV32160.1"
                      /translation="MSSANNISGAPETGDFTFTQHFNVSATPSEFLASIWPYRHMMWIG
                      PMLLFLAPRFYNTLKNTAFSRAYHMPYSILALHVFISFVDLANYHTQVFLANGAIHPAS
@@ -306,7 +322,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="sdnQ"
                      /product="cytochrome P450 monooxygenase SdnQ"
-                     /label=sdnQ
+                     /label="sdnQ"
                      /protein_id="BAV32161.1"
                      /translation="MDDPSIASGFQQGTGRTTGANGTQIQREGLDGLLRQYPIQCIGTS
                      LLVALLTTIIIYYSSSSSFPSATIKKTPPIPEINPLGGIFYPSKTKAAITAYLTNARGL
@@ -318,11 +334,12 @@ FEATURES             Location/Qualifiers
                      ESQRRKPLATLSMGRIAVTDAKLSDGTVVPKDSTVSIDAGLMWDPSIYAQPDEWDPYRF
                      VRQRKGSLEKQRLAELTTTAPEHLAFGHGMHACPGRFFAANEVKIAMIKILLGYDIKFA
                      DGVEPKVMVHGITLDPDRRVRLSIWRREDGHGGF"
+                     /Pfam="p450"
      CDS             join(47634..48126,48183..48263,48348..48603,48670..49483)
                      /codon_start=1
                      /gene="sdnR"
                      /product="metallo-beta-lactamase-like hydrolase SdnR"
-                     /label=sdnR
+                     /label="sdnR"
                      /protein_id="BAV32162.1"
                      /translation="MKSFSPSTLVWIAVASQLGTAQNCPILGPAYPAVANLAAPKLTAA
                      KARFEKALESINRTSTSFAVQVYSAHDDGLIYSTYNTATERVGAATVGPDTIWRLFSIS
@@ -334,11 +351,12 @@ FEATURES             Location/Qualifiers
                      AEEAARDLAEATYAGSYAAKTAGDNSSIVVGLSPGEPALFVSELISNGTDVLAFAVNDA
                      GRGGKGGQFGLWLYPMGLVDEREKGKKRVAFRGWPGVVGVELEEACGSWAESDRLRWGN
                      YPGDSYVFVVEGGKASTVENPGLGRTFWRV"
+                     /Pfam="Beta-lactamase"
      CDS             complement(join(51228..53470,53559..53634))
                      /codon_start=1
                      /gene="sdnS"
                      /product="transcription factor SdnS"
-                     /label=sdnS
+                     /label="sdnS"
                      /protein_id="BAV32163.1"
                      /translation="MTEQAQREAELKRRKVRKGTHSCWECRRRKIRCQFGAGNDTVCLP
                      CQARGSTCRSQEYVDKDARPSQQPDRRMAQRLGRLEELMARLVDRILPEAGGQLANRST
@@ -354,11 +372,12 @@ FEATURES             Location/Qualifiers
                      PNVNVPEGQSANTPYSRRDNAGTIPGPVSVAGAATSGLEQLQPRMAGLSTAHDAAMPSV
                      TAMSQGGDSMQVDMATFDPALLPPDTSIDGMYMDFDEQPQDGVHEIPDLMAGVEDWVLQ
                      GLDTTYWSLLNGNNMAWGG"
+                     /Pfam="GsfR1"
      CDS             join(55313..55637,55700..55735,55797..56281,56334..57164)
                      /codon_start=1
                      /gene="sdnT"
                      /product="cytochrome P450 monooxygenase SdnT"
-                     /label=sdnT
+                     /label="sdnT"
                      /protein_id="BAV32164.1"
                      /translation="MELLSLGSRQRPSLHEIGLSIISLTTCFVCAFAVSFVALAIYRAH
                      LHPLAAIPGPKLAALSSAWQAYHARNGRMLVLGKTLHAVYGPIVRVGPNEVWLNSPDAF
@@ -370,6 +389,7 @@ FEATURES             Location/Qualifiers
                      QTHIDYDAAASLTYCLAAIKEAQRLYPVIGMSLSRKVPASGLSVHDVYIPPGTTVGCSP
                      VSLHRNTTIFGDDASCFNPERWLQDNVEARRAMERYNLTWGGGGRTCPGRHLAEMVVWK
                      VVPALLREFEVVVTKMPNDVEVEYYFMAMLTGVRARFIPRR"
+                     /Pfam="p450"
 ORIGIN
         1 ctaaggaaga tccataatcc tcgtctccct cacctttctc ccctgttcag cattcagata
        61 ccgtccgctc ttgaagctcc agtgcagatt cgccctcccc accgcagcac aagcatccag

@@ -1,39 +1,27 @@
-LOCUS       FBGC00324        7309 bp DNA     linear   UNA 11-FEB-2023
+LOCUS       FBGC00324               7309 bp    DNA     linear   UNA 11-FEB-2023
 DEFINITION  pyrophen.
 ACCESSION   FBGC00324
-VERSION     .
+VERSION     FBGC00324
 KEYWORDS    .
 SOURCE      Aspergillus niger ATCC 1015
   ORGANISM  Aspergillus niger ATCC 1015
+            .
 REFERENCE   1  (bases 1 to 7309)
   AUTHORS   Hai Y, Huang A, Tang Y.
-  TITLE     Biosynthesis of Amino Acid Derived alpha-Pyrones by an NRPS-NRPKS 
+  TITLE     Biosynthesis of Amino Acid Derived alpha-Pyrones by an NRPS-NRPKS
             Hybrid Megasynthetase in Fungi.
   JOURNAL   J Nat Prod 2020;83:593-600
-  PUBMED    32159958
+   PUBMED   32159958
 REFERENCE   2  (bases 1 to 7309)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Feb 11, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1021/acs.jnatprod.9b00989"; journalName: "J Nat Prod"; date: 
-            "2020"; volume: "83"; pages: "593-600"
-COMMENT     URL -- http://www.jgi.doe.gov/aspergillus
-            JGI Project ID: 4000237
-            Source DNA is available from Ziyu Dai (ziyu.dai@pnl.gov)
-            Culture Source: ATCC: ATCC 1015, FGSC A1144 (Kevin McCluskey 
-            (mccluskeyk@umkc.edu)
-            Contacts: Scott Baker (scott.baker@pnl.gov)
-                      Igor Grigoriev (ivgrigoriev@lbl.gov)
-            Annotation done by the JGI and the Aspergillus niger Consortium. 
-            This project consists of 24 contigs. We have associated 21 Contigs 
-            with chromosomes 1-8. Three contigs could not be placed on any of 
-            the chromosomes.##Genome-Assembly-Data-START##
+  JOURNAL   Exported Feb 11, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     ##Genome-Assembly-Data-START##
             Assembly Method       :: JAZZ v. 2.7
             Genome Coverage       :: 8.9x
             Sequencing Technology :: Sanger
-            ##Genome-Assembly-Data-END####Metadata-START##
+            ##Genome-Assembly-Data-END##
+            ##Metadata-START##
             Organism Display Name :: Aspergillus niger ATCC 1015
             GOLD Stamp ID         :: Gi00977
             Cell Shape            :: Filament-shaped
@@ -43,6 +31,19 @@ COMMENT     URL -- http://www.jgi.doe.gov/aspergillus
             Sequencing Technology :: Sanger
             Sequencing Depth      :: 8.9x
             ##Metadata-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1021/acs.jnatprod.9b00989"; journalName: "J Nat Prod"; date:
+            "2020"; volume: "83"; pages: "593-600"
+            URL -- http://www.jgi.doe.gov/aspergillus
+            JGI Project ID: 4000237
+            Source DNA is available from Ziyu Dai (ziyu.dai@pnl.gov)
+            Culture Source: ATCC: ATCC 1015, FGSC A1144 (Kevin McCluskey
+            (mccluskeyk@umkc.edu)
+            Contacts: Scott Baker (scott.baker@pnl.gov)
+            Igor Grigoriev (ivgrigoriev@lbl.gov)
+            Annotation done by the JGI and the Aspergillus niger Consortium.
+            This project consists of 24 contigs. We have associated 21 Contigs
+            with chromosomes 1-8. Three contigs could not be placed on any of
 FEATURES             Location/Qualifiers
      source          1..7309
                      /strain="ATCC 1015"
@@ -55,7 +56,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="ASPNIDRAFT_41845"
                      /product="methyltransferase AnOMT"
-                     /label=AnOMT
+                     /label="AnOMT"
                      /note="revised sequence"
                      /db_xref="JGIDB:Aspni5_41845"
                      /protein_id="EHA27897.1"
@@ -64,16 +65,17 @@ FEATURES             Location/Qualifiers
                      VGREAVRVNTVVASALEPLPFDKAKKFNSISVFFLLHCMPGTPEEKCKLFDVVRPHLAE
                      DGVLVGTTVLGQGVPINWLGQKMMNSYNNNTKSFHNSEDNKAQFDEGLRRNFEEVDSWI
                      MGQVMLFKARKPRQQDAITNVVPKDNLD"
+                     /Pfam="VrtF"
      CDS             1745..7309
                      /codon_start=1
                      /locus_tag="ASPNIDRAFT_41846"
-                     /product="nonribosomal peptide synthetase-polyketide 
+                     /product="nonribosomal peptide synthetase-polyketide
                      synthase AnATPKS"
-                     /label=AnATPKS
-                     /note="GO_function: GO:3824; cofactor binding - catalytic 
-                     activity [Evidence 16740] [PMID 48037];
-                     GO_process: GO:6633; metabolic process - fatty acid 
-                     biosynthetic process [PMID 8152]"
+                     /label="AnATPKS"
+                     /note="GO_function: GO:3824; cofactor binding - catalytic
+                     activity [Evidence 16740] [PMID 48037]; GO_process:
+                     GO:6633; metabolic process - fatty acid biosynthetic
+                     process [PMID 8152]"
                      /db_xref="InterPro:IPR000794"
                      /db_xref="InterPro:IPR000873"
                      /db_xref="InterPro:IPR001227"
@@ -112,6 +114,7 @@ FEATURES             Location/Qualifiers
                      LCSILMMSTEPECVVLGERVLVPRMQFQMQAQVQEVQKHSKLCVNGQETTNGATAAADP
                      NGTDSFENKIRMAGPEERAMMLQGLVRGITAKALGVATAEEVDMHQGFMDVGVGSLGAI
                      QMRKELSAQTGVKLPANLTRVYPDPISLSDALQKQVEGQ"
+                     /Pfam="AA-adenyl-dom, ACP_PCP, PKS_KS, PKS_AT"
 ORIGIN
         1 tcaatccaag ttgtctttcg gaactacatt ggtgatggca tcttgttgtc ttggcttcct
        61 cgccttgaag agcataacct ggcccatgat ccacgaatcc acctcctcaa agttccgacg

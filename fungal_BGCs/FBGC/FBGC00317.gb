@@ -1,24 +1,24 @@
-LOCUS       FBGC00317       25993 bp DNA     linear   UNA 10-FEB-2023
+LOCUS       FBGC00317              25993 bp    DNA     linear   UNA 10-FEB-2023
 DEFINITION  radicicol.
 ACCESSION   FBGC00317
-VERSION     .
+VERSION     FBGC00317
 KEYWORDS    .
 SOURCE      Chaetomium chiversii CS-36-62
   ORGANISM  Chaetomium chiversii CS-36-62
+            .
 REFERENCE   1  (bases 1 to 25993)
   AUTHORS   Wang S, Xu Y, Maine EA, Wijeratne EM, Espinosa-Artiles P, Gunatilaka
             AA, Molnar I.
-  TITLE     Functional characterization of the biosynthesis of radicicol, an 
+  TITLE     Functional characterization of the biosynthesis of radicicol, an
             Hsp90 inhibitor resorcylic acid lactone from Chaetomium chiversii.
   JOURNAL   Chem Biol 2008;15:1328-38
-  PUBMED    19101477
+   PUBMED   19101477
 REFERENCE   2  (bases 1 to 25993)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Feb 10, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1016/j.chembiol.2008.10.006"; journalName: "Chem Biol"; date: 
+  JOURNAL   Exported Feb 10, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1016/j.chembiol.2008.10.006"; journalName: "Chem Biol"; date:
             "2008"; volume: "15"; pages: "1328-38"
 FEATURES             Location/Qualifiers
      source          1..25993
@@ -30,7 +30,7 @@ FEATURES             Location/Qualifiers
                      1583..1679,1742..1866))
                      /codon_start=1
                      /product="FAD-dependent halogenase RadH"
-                     /label=radH
+                     /label="radH"
                      /note="involved in radicicol biosynthesis"
                      /protein_id="ACM42402.1"
                      /translation="MSIPKSCEVLVAGGGPAGSYAASALAREGVDVVLLEADKHPRYHI
@@ -43,10 +43,11 @@ FEATURES             Location/Qualifiers
                      GFDRAFQFLKPVIQGSGSAEIVKRFTKKEVSEAIDFAVLALDNMAGAGEHANETNGSNG
                      TGETNGDAKTLENITVEDEKVLSGIRILAKVAPSADMKDLEGTAIDGFMPRLEHGHLGL
                      NRV"
+                     /Pfam="Trp_halogenase"
      CDS             2683..9099
                      /codon_start=1
                      /product="polyketide synthase CcRADS2"
-                     /label=ccRads2
+                     /label="ccRads2"
                      /note="involved in radicicol biosynthesis; CcRADS2"
                      /protein_id="ACM42403.1"
                      /translation="MRLPQKTKTVLIFGDQTDSWLDGLDQVYKQAGSTPWLQSFLDDLT
@@ -86,11 +87,13 @@ FEATURES             Location/Qualifiers
                      ATDGTRRHLGAMFSCVATYNPEPLPPRGGGNTPAKRAAMIWARKGMIDRCVSSVRFRQM
                      LADRGISPEPYPGFMEDPKLGAVAWSLPHKTGADLGPNGWERYLGGDRLLCMSIEADHL
                      EMPTPGYAQLLGETMDKAFRYFRDGLMD"
+                     /Pfam="SAT2, PKS_KS, PKS_AT, fPKS_PT, ACP_PCP,
+                     Thioesterase"
      CDS             complement(join(9877..10068,10173..10828,10905..10955,
                      11040..11360,11418..11559))
                      /codon_start=1
                      /product="transcriptional factor RadR"
-                     /label=radR
+                     /label="radR"
                      /note="predicted to be involved in radicicol biosynthesis"
                      /protein_id="ACM42404.1"
                      /translation="MPNNLQHQEGSYSLRSSNDVSPADDWTQTNDPKEKKRIQNRVAQR
@@ -101,10 +104,11 @@ FEATURES             Location/Qualifiers
                      QVGFDNFDSLVTAYYSETFHGSSRLASEQRLSRNRRLPRVIAEIFRAASHWSAWERGGM
                      NQEVIKSAECLLISEGTAARNALEGSLSLLVDGGNGSGDASSVERLVQNEIPNLWALMT
                      SLASGTHSPRQQDRSGTALAAIMLLYFSGSMPKEQLLRLLIICLPDPVSPQKNN"
+                     /Pfam="TqaK"
      CDS             join(13398..13666,13744..13917,13995..15168)
                      /codon_start=1
                      /product="major facilitator superfamily transporter RadE"
-                     /label=radE
+                     /label="radE"
                      /note="predicted to be involved in radicicol biosynthesis"
                      /protein_id="ACM42405.1"
                      /translation="MATSRDFGREPPRQQQDSDEAGHTLHDGCQHVSEHPQIDVTAHDS
@@ -117,10 +121,11 @@ FEATURES             Location/Qualifiers
                      KGKPKPEYRIPPTLLAGFLIPTGLFIYGWTVQYHIQWAVPLLGALLAGMGICIINISTN
                      LYLVDAFTLYAASALAASTVLRSIFGATFPLFALQMYETLGLGWGNSLLAFIAVAMFAI
                      PPLLFYYGERLRSHPRFQVKL"
+                     /Pfam="MFS_1"
      CDS             complement(join(16063..19407,19467..23417))
                      /codon_start=1
                      /product="polyketide synthase CcRads1"
-                     /label=ccRads1
+                     /label="ccRads1"
                      /note="involved in radicicol biosynthesis; CcRADS1"
                      /protein_id="ACM42406.1"
                      /translation="MPSATGNGARAPIAIIGLACRFPGDASNPSKFWDLLKEGREAYSE
@@ -165,10 +170,11 @@ FEATURES             Location/Qualifiers
                      GDILATHNLARPAYFEDPRFGPLAVTSVTAAGSSSSGDGATVSLASRLSEVSTNKDPAV
                      AAAIITEALVKTMADILRIPPSEVDPSRPMYRYGVDSLVALEVRNWITKEMKANMTLME
                      ILAAVPMETFAVQIAKKSKLLVGLAA"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_DH, fPKS_ER, fPKS_KR, ACP_PCP"
      CDS             join(24299..24349,24411..25529,25593..25765,25831..25993)
                      /codon_start=1
                      /product="cytochrome P450 monooxygenase RadP"
-                     /label=radP
+                     /label="radP"
                      /note="involved in radicicol biosynthesis"
                      /protein_id="ACM42407.1"
                      /translation="MAEFHPTAFLLPAAVTMIAGYFLCTALYNVYFHPLAKFPGPRLYA
@@ -180,6 +186,7 @@ FEATURES             Location/Qualifiers
                      EMTTVSLPPLEYLQMCIEEGLRVYPPVPGGLPRRVTADGASLDGRELPPDTVVYYAHYA
                      SYHSAAHFARPDEFHPERWASVPPSEFANDCRDAVIPFSAGPRDCIGKNLAYHEARLLL
                      AKFLWTYDVELCEESKDWIKQKSFIVGVKRPLYVKLHRVVREK"
+                     /Pfam="p450"
 ORIGIN
         1 ctagaccctg ttcagtccca aatgcccatg ctccagccga ggcataaaac catcgatggc
        61 ggtgccttca aggtccttca tatcggcgct gggcgccact ttggcaagaa tacgaatgcc

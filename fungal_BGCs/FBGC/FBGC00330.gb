@@ -1,40 +1,28 @@
-LOCUS       FBGC00330       23998 bp DNA     linear   UNA 12-FEB-2023
+LOCUS       FBGC00330              23998 bp    DNA     linear   UNA 12-FEB-2023
 DEFINITION  yanuthone D.
 ACCESSION   FBGC00330
-VERSION     .
+VERSION     FBGC00330
 KEYWORDS    .
 SOURCE      Aspergillus niger ATCC 1015
   ORGANISM  Aspergillus niger ATCC 1015
+            .
 REFERENCE   1  (bases 1 to 23998)
-  AUTHORS   Holm DK, Petersen LM, Klitgaard A, Knudsen PB, Jarczynska ZD, 
+  AUTHORS   Holm DK, Petersen LM, Klitgaard A, Knudsen PB, Jarczynska ZD,
             Nielsen KF, Gotfredsen CH, Larsen TO, Mortensen UH.
-  TITLE     Molecular and chemical characterization of the biosynthesis of the 
+  TITLE     Molecular and chemical characterization of the biosynthesis of the
             6-MSA-derived meroterpenoid yanuthone D in Aspergillus niger.
   JOURNAL   Chem Biol 2014;21:519-529
-  PUBMED    24684908
+   PUBMED   24684908
 REFERENCE   2  (bases 1 to 23998)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Feb 12, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1016/j.chembiol.2014.01.013"; journalName: "Chem Biol"; date: 
-            "2014"; volume: "21"; pages: "519-529"
-COMMENT     URL -- http://www.jgi.doe.gov/aspergillus
-            JGI Project ID: 4000237
-            Source DNA is available from Ziyu Dai (ziyu.dai@pnl.gov)
-            Culture Source: ATCC: ATCC 1015, FGSC A1144 (Kevin McCluskey 
-            (mccluskeyk@umkc.edu)
-            Contacts: Scott Baker (scott.baker@pnl.gov)
-                      Igor Grigoriev (ivgrigoriev@lbl.gov)
-            Annotation done by the JGI and the Aspergillus niger Consortium. 
-            This project consists of 24 contigs. We have associated 21 Contigs 
-            with chromosomes 1-8. Three contigs could not be placed on any of 
-            the chromosomes.##Genome-Assembly-Data-START##
+  JOURNAL   Exported Feb 12, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     ##Genome-Assembly-Data-START##
             Assembly Method       :: JAZZ v. 2.7
             Genome Coverage       :: 8.9x
             Sequencing Technology :: Sanger
-            ##Genome-Assembly-Data-END####Metadata-START##
+            ##Genome-Assembly-Data-END##
+            ##Metadata-START##
             Organism Display Name :: Aspergillus niger ATCC 1015
             GOLD Stamp ID         :: Gi00977
             Cell Shape            :: Filament-shaped
@@ -44,6 +32,19 @@ COMMENT     URL -- http://www.jgi.doe.gov/aspergillus
             Sequencing Technology :: Sanger
             Sequencing Depth      :: 8.9x
             ##Metadata-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1016/j.chembiol.2014.01.013"; journalName: "Chem Biol"; date:
+            "2014"; volume: "21"; pages: "519-529"
+            URL -- http://www.jgi.doe.gov/aspergillus
+            JGI Project ID: 4000237
+            Source DNA is available from Ziyu Dai (ziyu.dai@pnl.gov)
+            Culture Source: ATCC: ATCC 1015, FGSC A1144 (Kevin McCluskey
+            (mccluskeyk@umkc.edu)
+            Contacts: Scott Baker (scott.baker@pnl.gov)
+            Igor Grigoriev (ivgrigoriev@lbl.gov)
+            Annotation done by the JGI and the Aspergillus niger Consortium.
+            This project consists of 24 contigs. We have associated 21 Contigs
+            with chromosomes 1-8. Three contigs could not be placed on any of
 FEATURES             Location/Qualifiers
      source          1..23998
                      /strain="ATCC 1015"
@@ -56,13 +57,12 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="ASPNIDRAFT_44961"
                      /product="transcription factor YanR"
-                     /label=yanR
-                     /note="GO_component: GO:5634 - nucleus;
-                     GO_function: GO:3700; zinc ion binding - transcription 
-                     factor activity [Evidence 3677] [PMID 8270];
-                     GO_process: GO:6355; transcription - regulation of 
-                     transcription, DNA-dependent [PMID 6350]
-                     revised sequence"
+                     /label="yanR"
+                     /note="GO_component: GO:5634 - nucleus; GO_function:
+                     GO:3700; zinc ion binding - transcription factor activity
+                     [Evidence 3677] [PMID 8270]; GO_process: GO:6355;
+                     transcription - regulation of transcription, DNA-dependent
+                     [PMID 6350] revised sequence"
                      /db_xref="InterPro:IPR001138"
                      /db_xref="InterPro:IPR007219"
                      /db_xref="JGIDB:Aspni5_44961"
@@ -83,13 +83,14 @@ FEATURES             Location/Qualifiers
                      HNRLQSHPRSDNQTTDRLDGNEYQFSPYSLELGIQGTEEDTIDKSIFSLPSLSSSSSRT
                      HIHRNQEAPSTTTAPQMPSGTKHGPPSSVFVADSDGGSDLDILASLSDFETWSSSLVVD
                      PSDILAHPTSMAPHHPV"
+                     /Pfam="CghF"
      CDS             complement(join(3666..5112,5163..5226,5322..5424))
                      /codon_start=1
                      /locus_tag="ASPNIDRAFT_54844"
                      /product="cytochrome P450 monooxygenase YanC"
-                     /label=yanC
-                     /note="hypothetical E-class P450, group I;
-                     GO_function: GO:4497 - monooxygenase activity"
+                     /label="yanC"
+                     /note="hypothetical E-class P450, group I; GO_function:
+                     GO:4497 - monooxygenase activity"
                      /db_xref="InterPro:IPR001128"
                      /db_xref="JGIDB:Aspni5_54844"
                      /protein_id="EHA22193.1"
@@ -103,14 +104,14 @@ FEATURES             Location/Qualifiers
                      LHHDENIFPNPDQFDPSRFEGRHKLAFDYAASPDYMQRDHYIYGAGRRLCPGIHLSERS
                      MFLGAAKLLWAFNFEPARDEDGNPIRIDTDPVTGYTEGFLVCPRPYQCNVTPRSPAHAE
                      TILREFSRAESEVLSQYAMP"
+                     /Pfam="p450"
      CDS             complement(join(5728..6782,6844..6895))
                      /codon_start=1
                      /locus_tag="ASPNIDRAFT_44963"
                      /product="decarboxylase YanB"
-                     /label=yanB
-                     /note=". hypothetical protein;
-                     GO_function: GO:1760 - aminocarboxymuconate-semialdehyde 
-                     decarboxylase activity;
+                     /label="yanB"
+                     /note=". hypothetical protein; GO_function: GO:1760 -
+                     aminocarboxymuconate-semialdehyde decarboxylase activity;
                      GO_process: GO:8152 - metabolic process"
                      /db_xref="InterPro:IPR006992"
                      /db_xref="JGIDB:Aspni5_44963"
@@ -122,13 +123,13 @@ FEATURES             Location/Qualifiers
                      ATRAAHLLYDAKLTSISPEDFLEQARSFYFDLALSGNDENMQLLVGRNGFAKGGHVFYG
                      SDFPYAPVSTINKYVRMMEGFSVQGEEVEKAIARDSAVKLFPRFQMPADLRVGKTNNWG
                      AFSACLLLPVGLSALYSVLQSRVHTYST"
+                     /Pfam="Amidohydro_2"
      CDS             complement(join(7365..8079,8135..8382))
                      /codon_start=1
                      /locus_tag="ASPNIDRAFT_44964"
                      /product="UbiA-like prenyltransferase YanG"
-                     /label=yanG
-                     /note="GO_component: GO:16020 - membrane
-                     revised sequence"
+                     /label="yanG"
+                     /note="GO_component: GO:16020 - membrane revised sequence"
                      /db_xref="InterPro:IPR000537"
                      /db_xref="JGIDB:Aspni5_44964"
                      /protein_id="EHA22195.1"
@@ -138,14 +139,15 @@ FEATURES             Location/Qualifiers
                      GAIIGGAVFPGWVGVTGDLDHLDQALPLFFATAAWVVYFDVFYATQDLPDDKKAGVKSL
                      AVWMGPNVKILLAGLGILQIAFFAMTALRADLSLIFWILGIGVWAVSVPWHVLSLNLKD
                      RHSGGSVFKANIKLGLYMTGVSLLELVLLRVHHAPMKVY"
+                     /Pfam="UbiA_PT"
      CDS             8772..14111
                      /codon_start=1
                      /locus_tag="ASPNIDRAFT_44965"
                      /product="polyketide synthase YanA"
-                     /label=yanA
+                     /label="yanA"
                      /note="GO_function: GO:16740; catalytic activity -
-                     transferase activity [Evidence 48037] [PMID 3824]; 
-                     GO_process: GO:6633; metabolic process - fatty acid 
+                     transferase activity [Evidence 48037] [PMID 3824];
+                     GO_process: GO:6633; metabolic process - fatty acid
                      biosynthetic process [PMID 8152]"
                      /db_xref="InterPro:IPR000794"
                      /db_xref="InterPro:IPR001227"
@@ -183,12 +185,13 @@ FEATURES             Location/Qualifiers
                      SAVASTGGGGTDHAVIVRARVLEGGEPLPHPILTDIATRKAEVVNAGEHPAGSQEVKLS
                      GRELEQHLRDVINGCVSKTLSVKEDEIDDAVALAEMGMDSVMTVNFRMTLQQTLKVPVG
                      PTLIWKCPTVQHLVKHFTKELDA"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_TH, fPKS_KR, ACP_PCP"
      CDS             complement(join(14839..14998,15049..15329,15404..15724,
                      15814..16022,16091..16503,16561..16730))
                      /codon_start=1
                      /locus_tag="ASPNIDRAFT_193092"
                      /product="cytochrome P450 monooxygenase YanH"
-                     /label=yanH
+                     /label="yanH"
                      /db_xref="InterPro:IPR001128"
                      /db_xref="JGIDB:Aspni5_193092"
                      /protein_id="EHA22197.1"
@@ -202,11 +205,12 @@ FEATURES             Location/Qualifiers
                      LPDGRFIPAGTRVGMAIYHIHYNEGLFENPHEFDPERWLQGPEITAKRAKFLVPFSRGS
                      RSCLGINLAYMEMYMAIAYIVRRFDLELVGTTPEDMKWDDMVVPQFHGEFRALTKRRVD
                      "
+                     /Pfam="p450"
      CDS             16951..18297
                      /codon_start=1
                      /locus_tag="ASPNIDRAFT_44967"
                      /product="acyltransferase YanI"
-                     /label=yanI
+                     /label="yanI"
                      /db_xref="JGIDB:Aspni5_44967"
                      /protein_id="EHA22198.1"
                      /translation="MNGSNLEHRIPALPHLGFGDVLLSHSLASTHYTVLAFLLAVCIPS
@@ -217,11 +221,12 @@ FEATURES             Location/Qualifiers
                      LRRHTGAPAAYLFSFLPDAVRTSKRRSARLTRRYMLMLITFVISGLIHTSGSYHVSRGL
                      GLPLSYGGEVKYFISQAISIMIEDFGCWLLRIDDRSAGEASTVRRWVGYIVTAGWYFWS
                      RVHWSVMPVALASGIQDERGPLFIALEHTRRSAAAVPGNFAAKAWKITP"
+                     /Pfam="MBOAT_2"
      CDS             complement(join(18645..18756,18818..19698))
                      /codon_start=1
                      /locus_tag="ASPNIDRAFT_127904"
                      /product="short-chain dehydrogenase/reductase YanD"
-                     /label=yanD
+                     /label="yanD"
                      /db_xref="JGIDB:Aspni5_127904"
                      /protein_id="EHA22199.1"
                      /translation="MVKFFQPKIDPLPTGIDLTGKTAVITGASAGMGLEVTKQLLRLRL
@@ -230,11 +235,12 @@ FEATURES             Location/Qualifiers
                      SWVGSRSHETPSFEKKAPIEADEGVLEHMDKEEAFVPFQRYNDTKLLCVLFLYSLAPRL
                      DPKKVVINTMCPGMVNTGMSNMLPLHLRLIFNVIKAIRARPVEVGGWIILNAALVAGPE
                      SHGKFLADKTITEKSAIVTSPMGQDIQKKLWEETITEMSKLTTLPPQFR"
+                     /Pfam="adh_short"
      CDS             join(20499..20984,21069..21356)
                      /codon_start=1
                      /locus_tag="ASPNIDRAFT_192604"
                      /product="cupin domain-containing protein YanE"
-                     /label=yanE
+                     /label="yanE"
                      /db_xref="JGIDB:Aspni5_192604"
                      /protein_id="EHA22200.1"
                      /translation="MAPCKPRTFTAGEDPLTKFDGAISVATMPRPADRQFLFHGIMRPS
@@ -242,13 +248,13 @@ FEATURES             Location/Qualifiers
                      VIYGTPGTEMNEVEFLVSATDEEEGATAMDQEFFENWYGYQEDIFQRGEKIDLIQVLAM
                      FDAGGTYLSPPWWVPFRAWVGLILGIVIGRWIGGLLGYAPFYPEWTTNWDAACDRMEQS
                      WFQRRYADRGAQQRAREKFQVQKGQGTVAKGEKSE"
+                     /Pfam="PatJ"
      CDS             join(22236..22842,22906..23058,23112..23648,23721..23998)
                      /codon_start=1
                      /locus_tag="ASPNIDRAFT_44970"
                      /product="FAD-linked oxidoreductase YanF"
-                     /label=yanF
-                     /note="GO_component: GO:16020 - membrane
-                     revised sequence"
+                     /label="yanF"
+                     /note="GO_component: GO:16020 - membrane revised sequence"
                      /db_xref="InterPro:IPR006094"
                      /db_xref="JGIDB:Aspni5_44970"
                      /protein_id="EHA22201.1"
@@ -262,6 +268,7 @@ FEATURES             Location/Qualifiers
                      LEYVPQGIIPNLVTKGQAQNGGNLLGLEATPQVWGEIFAQFPATVSQSTVASAVNDLLA
                      KITSSAESQGVHLPYIFANDAGPDQQVLRGYGEDNLKYIATVAERYDPKGVMQKLQNDA
                      YFVSKEL"
+                     /Pfam="FAD_binding_4"
 ORIGIN
         1 atgccacccc cacctgagcc tcgccagatc aaaaggcccc gattatcgct gagttgcatt
        61 gtctgccgcc gtcgcaaagt tcgctgcggc cgcgaacacc cggaatgcgc caactgtgtc

@@ -1,38 +1,38 @@
-LOCUS       FBGC00302       24613 bp DNA     linear   UNA 09-FEB-2023
+LOCUS       FBGC00302              24613 bp    DNA     linear   UNA 09-FEB-2023
 DEFINITION  asperlin.
 ACCESSION   FBGC00302
-VERSION     .
+VERSION     FBGC00302
 KEYWORDS    .
 SOURCE      Aspergillus nidulans FGSC A4
   ORGANISM  Aspergillus nidulans FGSC A4
+            .
 REFERENCE   1  (bases 1 to 24613)
-  AUTHORS   Grau MF, Entwistle R, Chiang YM, Ahuja M, Oakley CE, Akashi T, Wang 
+  AUTHORS   Grau MF, Entwistle R, Chiang YM, Ahuja M, Oakley CE, Akashi T, Wang
             CCC, Todd RB, Oakley BR.
-  TITLE     Hybrid Transcription Factor Engineering Activates the Silent 
-            Secondary Metabolite Gene Cluster for (+)-Asperlin in Aspergillus 
+  TITLE     Hybrid Transcription Factor Engineering Activates the Silent
+            Secondary Metabolite Gene Cluster for (+)-Asperlin in Aspergillus
             nidulans.
   JOURNAL   ACS Chem Biol 2018;13:3193-3205
-  PUBMED    30339758
+   PUBMED   30339758
 REFERENCE   2  (bases 1 to 24613)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Feb 9, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1021/acschembio.8b00679"; journalName: "ACS Chem Biol"; date: 
+  JOURNAL   Exported Feb 9, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     ##Genome-Annotation-Data-START##
+            Annotation Provider :: INSDC submitter
+            Annotation Status   :: Full annotation
+            Annotation Pipeline :: Eukaryotic Annotation Propagation Pipeline
+            ##Genome-Annotation-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1021/acschembio.8b00679"; journalName: "ACS Chem Biol"; date:
             "2018"; volume: "13"; pages: "3193-3205"
-COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final 
-            NCBI review. The reference sequence is identical to BN001306. 
+            PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to BN001306.
             Aspergillus nidulans FGSC A4 CADRE,
             updated by Eurofungbase with contributions from
             CADRE (http://www.cadre-genomes.org.uk),
             AspGD (http://www.aspergillusgenome.org) and
-              Ensembl Genomes 
-            (http://www.ensemblgenomes.org).##Genome-Annotation-Data-START##
-            Annotation Provider :: INSDC submitter
-            Annotation Status   :: Full annotation
-            Annotation Pipeline :: Eukaryotic Annotation Propagation Pipeline 
-            ##Genome-Annotation-Data-END##
+            Ensembl Genomes
 FEATURES             Location/Qualifiers
      source          1..24613
                      /chromosome="VI"
@@ -45,7 +45,7 @@ FEATURES             Location/Qualifiers
                      /locus_tag="ANIA_11200"
                      /old_locus_tag="AN11200.4"
                      /product="hypothetical protein AlnI"
-                     /label=alnI
+                     /label="alnI"
                      /note="transcript_id=CADANIAT00009370"
                      /db_xref="EnsemblGenomes-Gn:CADANIAG00009370"
                      /db_xref="EnsemblGenomes-Tr:CADANIAT00009370"
@@ -57,12 +57,13 @@ FEATURES             Location/Qualifiers
                      KCIEGARQTSATANGYSPTGLVPLADSILEICQAACTAYGLVDGAIAAGVGTGSSDNSP
                      TATGIGAAGLTGDRPSSSGASTWRCVKTPMTLGSLTLQNEEESLLARQIVYAVLTSLSA
                      LLREVYVREKDVVSETDVVGEGGVGAGAALYGREGAGAVSQCLSRVLALLGKIVPE"
+                     /Pfam="BfL8"
      CDS             join(1025..1198,1259..2084,2134..2218,2277..2832)
                      /codon_start=1
                      /locus_tag="ANIA_11192"
                      /old_locus_tag="AN11192.4; AN9222.2"
                      /product="cytochrome P450 monooxygenase AlnH"
-                     /label=alnH
+                     /label="alnH"
                      /note="transcript_id=CADANIAT00009371"
                      /db_xref="EnsemblGenomes-Gn:CADANIAG00009371"
                      /db_xref="EnsemblGenomes-Tr:CADANIAT00009371"
@@ -83,12 +84,13 @@ FEATURES             Location/Qualifiers
                      HALHNDPDIFPEPDKFKPERWEGKPNASSNGDAQLLFTFGAGRRVCPGQHLAERSLFLV
                      ISHWLWGFDTLQATDDDKNKIPIDKDDLRPGFIVCLNPFPAKITPRTAQHRELIERIWK
                      EELEVSLDESQQWKATPEGIARLLERVGK"
+                     /Pfam="p450"
      CDS             complement(3180..4403)
                      /codon_start=1
                      /locus_tag="ANIA_09221"
                      /old_locus_tag="AN9221.2; AN9221.4"
                      /product="transcription factor AlnR"
-                     /label=alnR
+                     /label="alnR"
                      /note="transcript_id=CADANIAT00009372"
                      /db_xref="EnsemblGenomes-Gn:CADANIAG00009372"
                      /db_xref="EnsemblGenomes-Tr:CADANIAT00009372"
@@ -106,12 +108,13 @@ FEATURES             Location/Qualifiers
                      RIVQMLDWIIEEKTLLDTENMRYNRRTFSSWGRPPRLPPHGLNGMRRNVCHVSLRVGNT
                      ELDEDAKQYFLKNFILLRLKKLAVKVQEVRRTATTRPGDCIYRAAELVLADSIQRLDYL
                      RGQCQLWE"
+                     /Pfam="EqxR"
      CDS             complement(join(5071..5797,5858..6237))
                      /codon_start=1
                      /locus_tag="ANIA_09221"
                      /old_locus_tag="AN9221.2; AN9221.4"
                      /product="epoxide hydrolase AlnG"
-                     /label=alnG
+                     /label="alnG"
                      /note="transcript_id=CADANIAT00009372"
                      /db_xref="EnsemblGenomes-Gn:CADANIAG00009372"
                      /db_xref="EnsemblGenomes-Tr:CADANIAT00009372"
@@ -128,12 +131,13 @@ FEATURES             Location/Qualifiers
                      KVLGAQMIPQPTSQASPYLVAGCAATVGHWYALGGALGLAMRLSHRKGRLGALTLVLKR
                      LYLPRSAEETTRLDASVLARAAHEFLQYDVLVLIAAYIPYAYYLLAPLNLASPFAMVVS
                      LVLGTIFLGPGAVLAFAYRVRWHLAISD"
+                     /Pfam="CtvD"
      CDS             complement(join(8142..8259,8308..8891,8950..9449))
                      /codon_start=1
                      /locus_tag="ANIA_09220"
                      /old_locus_tag="AN9220.2; AN9220.4"
                      /product="acetyltransferase AlnF"
-                     /label=alnF
+                     /label="alnF"
                      /note="transcript_id=CADANIAT00009373"
                      /db_xref="EnsemblGenomes-Gn:CADANIAG00009373"
                      /db_xref="EnsemblGenomes-Tr:CADANIAT00009373"
@@ -149,12 +153,13 @@ FEATURES             Location/Qualifiers
                      RCGDIVANALNAQKGTLLYKYSRLYVGFLVSGVQHYACALLIPSAEYGWGMFWQMPAYA
                      AVVTVEDILKYYGREAGIQDGNFVRFLGYIWTAYWMTLIYALPVGFVSDIGGFTGVCAA
                      "
+                     /Pfam="MBOAT_2"
      CDS             join(10122..11544,11624..11862)
                      /codon_start=1
                      /locus_tag="ANIA_09219"
                      /old_locus_tag="AN9219.2; AN9219.4"
                      /product="major facilitator superfamily transporter AlnE"
-                     /label=alnE
+                     /label="alnE"
                      /note="transcript_id=CADANIAT00009374"
                      /db_xref="EnsemblGenomes-Gn:CADANIAG00009374"
                      /db_xref="EnsemblGenomes-Tr:CADANIAT00009374"
@@ -175,12 +180,13 @@ FEATURES             Location/Qualifiers
                      YTIKPSSGPGATYGYSSLIGLGSGMYLQLGHAVAQAKVKPEKVPAAVAFTTTAQLNGLT
                      FALVLSQCVFVNEAAKRIGWILPHEPRSTIVDAISGTGSTFVQELPTATQNEVLGAIVT
                      AIDRTYILCIVAAAVTLLATLGMKWERLFIEAAAAA"
+                     /Pfam="MFS_1"
      CDS             complement(join(12175..13004,13076..13907))
                      /codon_start=1
                      /locus_tag="ANIA_09218"
                      /old_locus_tag="AN9218.2; AN9218.4"
                      /product="cytochrome P450 monooxygenase AlnD"
-                     /label=alnD
+                     /label="alnD"
                      /note="transcript_id=CADANIAT00009375"
                      /db_xref="EnsemblGenomes-Gn:CADANIAG00009375"
                      /db_xref="EnsemblGenomes-Tr:CADANIAT00009375"
@@ -200,12 +206,13 @@ FEATURES             Location/Qualifiers
                      IQALPFLDAFVKEAQRMHSPSFQPARNVKKDIILPGGWALPQGSILIPSIPHLHHHTAY
                      WENPDRFDPDRWRTEKVKNRHRSVYVPFAAGPRSCIGFNVALQEVKISLAELVYRYEFV
                      NATNEGIEYDPDFIVIRPVNFYVRAIRRTEWPARSP"
+                     /Pfam="p450"
      CDS             join(14094..14178,14226..15499)
                      /codon_start=1
                      /locus_tag="ANIA_11198"
                      /old_locus_tag="AN11198.4"
                      /product="cytochrome b5-like reductase AlnC"
-                     /label=alnC
+                     /label="alnC"
                      /note="transcript_id=CADANIAT00009376"
                      /db_xref="EnsemblGenomes-Gn:CADANIAG00009376"
                      /db_xref="EnsemblGenomes-Tr:CADANIAT00009376"
@@ -227,12 +234,13 @@ FEATURES             Location/Qualifiers
                      GNSPKVDLIIKVYPKGQLGNYLLNLPLQSRVEIRGPFGRYSPSPTWKHIACIAGGTGIA
                      PIYQVMRAWPGEITLLYGNETWEDILLREELEQLVLQSPRRIKVHHVLGQPKSDWKGLR
                      GWITREMIQDLLPEPSSSTGFLVCGPDGMVRAIRGHFEAIDANGEEKANVFVF"
+                     /Pfam="Cyt-b5, FAD_binding_6, NAD_binding_1"
      CDS             join(15603..15744,15794..16506)
                      /codon_start=1
                      /locus_tag="ANIA_11199"
                      /old_locus_tag="AN11199.4"
                      /product="hydrolase AlnB"
-                     /label=alnB
+                     /label="alnB"
                      /note="transcript_id=CADANIAT00009377"
                      /db_xref="EnsemblGenomes-Gn:CADANIAG00009377"
                      /db_xref="EnsemblGenomes-Tr:CADANIAT00009377"
@@ -248,13 +256,14 @@ FEATURES             Location/Qualifiers
                      TRALCETTAQTFYSAKTGGFISPNTPIAEFSKRDDPSQPRVFHPALLGDRIPIPTVHIT
                      GRKDNSLMVGLSVLVQGLCDQRLIRSLTHSGGHNVPRSADDVRAAWAAVDWAIQHSQKQ
                      HIW"
+                     /Pfam="FSH1"
      CDS             join(16914..17225,17297..17441,17499..17767,17820..23606,
                      23666..24347,24432..24613)
                      /codon_start=1
                      /locus_tag="ANIA_11191"
                      /old_locus_tag="AN11191.4; AN9217.2"
                      /product="polyketide synthase AlnA"
-                     /label=alnA
+                     /label="alnA"
                      /note="transcript_id=CADANIAT00009378"
                      /db_xref="EnsemblGenomes-Gn:CADANIAG00009378"
                      /db_xref="EnsemblGenomes-Tr:CADANIAT00009378"
@@ -322,6 +331,7 @@ FEATURES             Location/Qualifiers
                      QHTITAVMRRTVGDKNEPVPDQLLVGLSDNVRRDGNSLNLWPQDRKFDHRISLEDGLGV
                      VEKDTNQQKLKASTTVAQAHEVVETALRLNVAAAMTASPDDIDIEKPLYAFGIDSLKGI
                      EVRNWIFSELQADVSVFEVLSPMTLSRLALKIVSKSTLVGAELAAEAAADSVA"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_DH, fPKS_ER, fPKS_KR, ACP_PCP"
 ORIGIN
         1 atgttctcaa gtacccggcg ggtaagtaac tctttccatc atctggccca tcttcttttc
        61 ttttttgttt tcaattgtaa gctctcgact aacgacgccc ggcacctagg cagaaggccc

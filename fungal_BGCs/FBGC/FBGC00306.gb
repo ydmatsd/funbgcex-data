@@ -1,43 +1,43 @@
-LOCUS       FBGC00306       47415 bp DNA     linear   UNA 10-FEB-2023
+LOCUS       FBGC00306              47415 bp    DNA     linear   UNA 10-FEB-2023
 DEFINITION  AM-toxin.
 ACCESSION   FBGC00306
-VERSION     .
+VERSION     FBGC00306
 KEYWORDS    .
 SOURCE      Alternaria alternata NBRC 8984
   ORGANISM  Alternaria alternata NBRC 8984
+            .
 REFERENCE   1  (bases 1 to 47415)
   AUTHORS   Ito K, Tanaka T, Hatta R, Yamamoto M, Akimitsu K, Tsuge T.
   TITLE     Dissection of the host range of the fungal plant pathogen Alternaria
             alternata by modification of secondary metabolism.
   JOURNAL   Mol Microbiol 2004;52:399-411
-  PUBMED    15066029
+   PUBMED   15066029
 REFERENCE   2  (bases 1 to 47415)
   AUTHORS   Harimoto Y, Hatta R, Kodama M, Yamamoto M, Otani H, Tsuge T.
   TITLE     Expression profiles of genes encoded by the supernumerary chromosome
-            controlling AM-toxin biosynthesis and pathogenicity in the apple 
+            controlling AM-toxin biosynthesis and pathogenicity in the apple
             pathotype of Alternaria alternata.
   JOURNAL   Mol Plant Microbe Interact 2007;20:1463-76
-  PUBMED    17990954
+   PUBMED   17990954
 REFERENCE   3  (bases 1 to 47415)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Feb 10, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1111/j.1365-2958.2004.04004.x"; journalName: "Mol Microbiol"; 
+  JOURNAL   Exported Feb 10, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1111/j.1365-2958.2004.04004.x"; journalName: "Mol Microbiol";
             date: "2004"; volume: "52"; pages: "399-411"
-COMMENT     SGRef: number: 2; type: "Journal Article"; doi: 
-            "10.1094/MPMI-20-12-1463"; journalName: "Mol Plant Microbe 
+            SGRef: number: 2; type: "Journal Article"; doi:
+            "10.1094/MPMI-20-12-1463"; journalName: "Mol Plant Microbe
             Interact"; date: "2007"; volume: "20"; pages: "1463-76"
-COMMENT     On or before Oct 14, 2009 this sequence version replaced AB119281.1,
+            On or before Oct 14, 2009 this sequence version replaced AB119281.1,
             AB359463.1, AB359464.1.
 FEATURES             Location/Qualifiers
      source          1..47415
                      /strain="NBRC 8984"
                      /mol_type="genomic DNA"
                      /clone="AM-BAC-14"
-                     /note="apple pathotype;
-                     strain coidentity: NBRC 8984 = IFO 8984"
+                     /note="apple pathotype; strain coidentity: NBRC 8984 = IFO
+                     8984"
                      /db_xref="taxon:5599"
                      /organism="Alternaria alternata"
      CDS             complement(1..13092)
@@ -45,7 +45,7 @@ FEATURES             Location/Qualifiers
                      /gene="AMT1"
                      /product="nonribosomal peptide synthetase AMT1"
                      /function="involved in AM-toxin biosynthesis"
-                     /label=AMT1
+                     /label="AMT1"
                      /protein_id="BAI44739.1"
                      /translation="MELNDDPTGKIISGVNDISLPSLSAKQVAQSLSEQLSTSALPAIQ
                      SFSFPPLPNGLSETFHDKKMDLSYAFPRKLMSALEVSSMFCAAWAIAVDRYTTNDDVVF
@@ -122,12 +122,13 @@ FEATURES             Location/Qualifiers
                      HRRSGNHEPNGEEKYEKVGQEDGSVALGYMDPFAASSNVAFADLTCRVTCEIPLFDPAD
                      VAVIGRLVDGSPCFALGFAPERVPEPTIKRLADTLMAVVLCLAEHPETSVKHLLRAQRE
                      NWRSIRELPNV"
+                     /Pfam="NRPS_C, AA-adenyl-dom, ACP_PCP, NRPS_CT"
      CDS             join(14141..14165,14201..15063,15120..15701)
                      /codon_start=1
                      /gene="AMT3"
                      /product="cytochrome P450 monooxygenase AMT3"
                      /function="involved in AM-toxin biosynthesis"
-                     /label=AMT3
+                     /label="AMT3"
                      /protein_id="BAF76161.2"
                      /translation="MVAWNGTLVRPKLLIGASCQCVYNIYLHPLRHYPGPKLAAATGLY
                      HWYWTLAGRIHRQLHKLHRQHGEVVRIGPDRLSFIAPEAWKDIYGPGTTSHKENKKDGR
@@ -138,13 +139,14 @@ FEATURES             Location/Qualifiers
                      LQGLSYLNACLSEALRLYPPVPLGNPRVTPADGNVICGHAVPGHTRVYVSTWAACRSAS
                      NFGDADSFMPERWLPDSGYDSDRKEASKPFSYGPRNCIGKSMAYHNIRIIIARILWNYD
                      LLAAAESDGWMKQECFPLWDKKPLMVRVMLR"
+                     /Pfam="p450"
      CDS             complement(join(20076..20411,20458..20792,20843..21053,
                      21108..21329))
                      /codon_start=1
                      /gene="AMT2"
                      /product="aldo-keto reductase AMT2"
                      /function="involved in AM-toxin biosynthesis"
-                     /label=AMT2
+                     /label="AMT2"
                      /protein_id="BAC84994.1"
                      /translation="MLNYKKWTQPPNSLIKSIKASRAAYRRLGNSGLLVSNPILGGMHI
                      GDPRWYDWVLDEKDSIALLKAAYDRGINTWDTANIYSNGESERIMGRALRSHNIPRSKV
@@ -153,11 +155,12 @@ FEATURES             Location/Qualifiers
                      TKFVSMQNHYNLLYREEEREMIKYCNLTGVGLIPWGPLAAGKLARPPDGKASTFRAING
                      GAYKDHNPAESEQIARRVHQIAVSRGVPMSHVALAWLNKRVVSPVIGLSSVERMDEVLD
                      ARALELSDEEESRLEDPYKAQPPQGHS"
+                     /Pfam="Aldo_ket_red"
      CDS             complement(join(21870..22915,22968..23000,23050..23092))
                      /codon_start=1
                      /gene="AMT5"
                      /product="transaminase AMT5"
-                     /label=AMT5
+                     /label="AMT5"
                      /protein_id="BAI44740.1"
                      /translation="MASYGFPLTASSLVDWTSLTFSPIEVNGHIQCTYSPEVAEWGAPH
                      FVKDPYLRVHGLAPALNYGQQIFEGMKAFRTPTGSIRLFRPKMNAVRFAHSASFVAIPP
@@ -166,12 +169,13 @@ FEATURES             Location/Qualifiers
                      DSATHTMVDEFSASGFIGVRVDAGKTTMVVPDSPTILRSITVDSMCRIAESFGWQVQRR
                      AVSFTELAELSEAFAVGTAFILTPVRAITRPCTHTCIEYTADYRSSASAYTRLLETLQG
                      IQQGWLDDAWGWTEEVQDPSSDEFITDTVQARR"
+                     /Pfam="Aminotran_4"
      CDS             join(23393..23446,23505..23525,23582..23650,23708..23803,
                      23859..24501,24557..24795)
                      /codon_start=1
                      /gene="AMT6"
                      /product="isopropyl malate dehydrogenase AMT6"
-                     /label=AMT6
+                     /label="AMT6"
                      /protein_id="BAI44741.1"
                      /translation="MKTAHTIVVFGGDYCGPEVMKEGLKVLSEIERQNPDVKLELIHHL
                      VGGAAWDVHGENITTAALSDATSASAVLLGAVGGPKWAKHAIPVEWGLGRLRKALDAFG
@@ -180,11 +184,12 @@ FEATURES             Location/Qualifiers
                      HMLIDSAAMVMALNPTKLNGVVLASNMFGDIISDQASAIPGSIGLLPSASLCSIPERGQ
                      ESSRIRGLYEPIHGSAPDIAGKGIVNPIGMILSVAMMCRLSLDMGAAATSIEAAVRDTL
                      EVGICTPDIGGTASTSEVGDAVVAALVRIFDKH"
+                     /Pfam="Iso_dh"
      CDS             complement(join(25511..27022,27071..27307))
                      /codon_start=1
                      /gene="AMT7"
                      /product="isopropyl malate synthase AMT7"
-                     /label=AMT7
+                     /label="AMT7"
                      /protein_id="BAI44742.1"
                      /translation="MFEPYLTTPLLLKAANTPHHIPKMSRICSDRPSTLVKYGNRVQPF
                      PFPERQWPNKVLKTAPVLFSTDLRDGNQSLPNPMTFEQKLSLYKLLVSIGFKEIEVAYP
@@ -197,12 +202,13 @@ FEATURES             Location/Qualifiers
                      RSIHFGREMSSDEVCMAFLEEYQVLRAADKSDDDMIQAVLRTESPLVAALGQVVGLSSL
                      SASITSHTLADDVLSYAAYANVTPEESKPSLWGVGLGVSLQQAKLRAVVSALQVSDGSM
                      SWVRLA"
+                     /Pfam="HMGL-like"
      CDS             join(27841..27934,27982..28592,28645..29143,29176..29604,
                      29657..30000,30063..30240,30302..30669)
                      /codon_start=1
                      /gene="AMT8"
                      /product="aconitase AMT8"
-                     /label=AMT8
+                     /label="AMT8"
                      /protein_id="BAI44743.1"
                      /translation="MAAYLFTCSILQTLSEAGKIEIAEDKLLHYLGELPGTPNGPVQLL
                      ENICTILEGQGRATHGNVIRHVLNIVVTEQELGGLGISGKSWEEVDEHTLHEIKFLTDA
@@ -219,23 +225,25 @@ FEATURES             Location/Qualifiers
                      HRVIVGGRAFGCGSSREEAPRALKGLGVQCVIARSFAFIFGRNMPNIGMLAIVLTDEAF
                      YKAAQQGENIEVDVEGRVVHVAGQTFPFSLDDMELQLIRNRGLAASYQKLGSKVFAALC
                      QKPAPLPISALADATLAQGGSIGRQMDW"
+                     /Pfam="Aconitase, Aconitase_C"
      CDS             join(31295..31577,31643..32064,32127..32207)
                      /codon_start=1
                      /gene="AMT4"
                      /product="thioesterase AMT4"
                      /function="involved in AM-toxin biosynthesis"
-                     /label=AMT4
+                     /label="AMT4"
                      /protein_id="BAF76162.1"
                      /translation="MSGLDDGLENPVLIQEYSRQGRATAAPAPLVLFHDGGGTLFSYFF
                      LESLGRDVFGFADPRATSGQQWKDGITEMAIHYYKRMKMEIRPGSVILGGWSFGGLLAL
                      QLAQMIASDSAGGFEVVGVVLIDTSCPEKASYSSTVANGPIVPFRDDVPDCMQEIVRTS
                      MVRNTEMLSQWEAPTWPQGYSKPPILLLRAAEGIDAKEERSLKLGWELCQHDVIDSVEM
                      VPGNHYSLFESDNIGTLSSRLRESCKRMETPYRKAASSD"
+                     /Pfam="Thioesterase"
      CDS             complement(join(34366..34528,34602..34802,34863..35776))
                      /codon_start=1
                      /gene="AMT9"
                      /product="methyltransferase AMT9"
-                     /label=AMT9
+                     /label="AMT9"
                      /protein_id="BAI44744.1"
                      /translation="MHPASESSHITRLAESIVANTAIVNAYLCEQNLPLPRFDDINAAV
                      RPCTADDASAESARRAVVTASQELRDLLSGPSAPLMVDWTAHSCLRTIVHFRLAEAVSL
@@ -245,11 +253,12 @@ FEATURES             Location/Qualifiers
                      SKTVQQGRLLLPKQLKDRVDFVEHDFFSPQPVKDADIYFFRRIFHDWSDKHAVEIIRSL
                      IPALKPGARVRVNELLVPKPGELPREIEKMARNSDFAMLALLNGKERNNEEWQALFRAA
                      SDKFRFGFCKTTPPGLMAVIEFVWEP"
+                     /Pfam="Methyltransf_2"
      CDS             37449..40151
                      /codon_start=1
                      /gene="AMT10"
                      /product="nonribosomal peptide synthetase AMT10"
-                     /label=AMT10
+                     /label="AMT10"
                      /protein_id="BAI44745.1"
                      /translation="MYCDKGASSLANGLLPNVSGDITAKDNILDALDSSAEEHFWGRYI
                      DGFEGQIFPQIPVSVHEAHLTGRARYEIILGNSMVTTLYTVSSIIRTGWALLVSQYTES
@@ -267,12 +276,13 @@ FEATURES             Location/Qualifiers
                      QGILVDVLGHVEERLAETLPAFMIPRFFFPLQHFPVTSSGKIARKILREQAAQMSVLQL
                      AELSLGSVEKKELQSDMERYLRSVWVQLLGVPEDFIGANDSFFRVGGDSLKAIKLFQRL
                      RRDGYNLNVTSIVAAPTLSQMARNCSLLD"
+                     /Pfam="NRPS_C, AA-adenyl-dom, ACP_PCP"
      CDS             complement(join(44955..45859,45909..47066,47117..47346,
                      47396..47415))
                      /codon_start=1
                      /gene="AMTR1"
                      /product="transcription factor AMTR1"
-                     /label=AMTR1
+                     /label="AMTR1"
                      /protein_id="BAI44746.1"
                      /translation="MRSRTGCLTCRQRKLKCDEKKPVCRQCAKASRECIPSPGIVFRHQ
                      QNASMNGEDSTAEKSLKGFYAYKNTFDKDAMWVDIPKCITFVTTTNLYLDSGVLELDTM
@@ -288,6 +298,7 @@ FEATURES             Location/Qualifiers
                      ESTLECHTELIRMSYHQSVLAACQIHSRRIIGISLAQPDKAVRVHSVQPLFTAGQCLSD
                      NRECQIVLRLLRDIESDTGWATDYRVQQLVEQWQRNEPDSQALWSDSRCAIPHENKYPS
                      PTFNTVRLQHGSDLRSN"
+                     /Pfam="AtnE, CpaE, Fungal_trans_2"
 ORIGIN
         1 ttaaacatta ggcaattcac ggatgcttcg ccaattttct ctctgtgccc taagcagatg
        61 cttaacgctt gtctcgggat gctctgctaa gcacaaaaca acagccatga gcgtatctgc

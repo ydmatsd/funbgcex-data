@@ -1,29 +1,30 @@
-LOCUS       FBGC00323       99575 bp DNA     linear   UNA 11-FEB-2023
-DEFINITION  leucinostatins A.
+LOCUS       FBGC00323              99575 bp    DNA     linear   UNA 21-MAR-2024
+DEFINITION  leucinostatin A.
 ACCESSION   FBGC00323
-VERSION     .
+VERSION     FBGC00323
 KEYWORDS    .
 SOURCE      Purpureocillium lilacinum PLBJ-1
   ORGANISM  Purpureocillium lilacinum PLBJ-1
+            .
 REFERENCE   1  (bases 1 to 99575)
   AUTHORS   Wang G, Liu Z, Lin R, Li E, Mao Z, Ling J, Yang Y, Yin WB, Xie B.
-  TITLE     Biosynthesis of Antibiotic Leucinostatins in Bio-control Fungus 
-            Purpureocillium lilacinum and Their Inhibition on Phytophthora 
+  TITLE     Biosynthesis of Antibiotic Leucinostatins in Bio-control Fungus
+            Purpureocillium lilacinum and Their Inhibition on Phytophthora
             Revealed by Genome Mining.
   JOURNAL   PLoS Pathog 2016;12:e1005685
-  PUBMED    27416025
+   PUBMED   27416025
 REFERENCE   2  (bases 1 to 99575)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Feb 11, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1371/journal.ppat.1005685"; journalName: "PLoS Pathog"; date: 
-            "2016"; volume: "12"; pages: "e1005685"
+  JOURNAL   Exported Mar 21, 2024 from SnapGene 7.1.2 https://www.snapgene.com
 COMMENT     ##Genome-Assembly-Data-START##
             Assembly Method       :: Allpaths-LG v. 42305
             Genome Coverage       :: 347.0x
             Sequencing Technology :: Illumina HiSeq ##Genome-Assembly-Data-END##
+            ##Genome-Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1371/journal.ppat.1005685"; journalName: "PLoS Pathog"; date:
+            "2016"; volume: "12"; pages: "e1005685"
 FEATURES             Location/Qualifiers
      source          1..99575
                      /host="plant-parasitic nematode"
@@ -39,8 +40,8 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="VFPBJ_02521"
                      /product="methyltransferase LcsG"
-                     /label=lcsG
-                     /note="similar to Blastomyces dermatitidis SLH14081 
+                     /label="lcsG"
+                     /note="similar to Blastomyces dermatitidis SLH14081
                      XP_002622609.1"
                      /protein_id="OAQ83753.1"
                      /translation="MGDNVQSDTTAAQAGITDAPTAPTSAPVSLKERLEKLIESSQQLI
@@ -52,13 +53,14 @@ FEATURES             Location/Qualifiers
                      RVSFLAHDFFTPQPVQADIYLFKWVFYDWSNKDIVKIIKALVPALRPGARVLVLDLMVD
                      VGPEAAAVMPRSLLKYSNVISLKTLSLFGHTKQATKKMTDLFKAADDRFEIVRDEVAGT
                      FMTFEAVWRG"
-     CDS             complement(join(1884..2133,2189..2602,2656..2736,2800..3466,
-                     3528..3839,3891..4295,4358..4520,4579..5441,5493..5726,
-                     5792..6080,6149..6378,6450..6987,7086..7298))
+                     /Pfam="Methyltransf_2"
+     CDS             complement(join(1884..2133,2189..2602,2656..2736,
+                     2800..3466,3528..3839,3891..4295,4358..4520,4579..5441,
+                     5493..5726,5792..6080,6149..6378,6450..6987,7086..7298))
                      /codon_start=1
                      /locus_tag="VFPBJ_02522"
                      /product="ABC transporter LcsH"
-                     /label=lcsH
+                     /label="lcsH"
                      /note="similar to Coccidioides immitis RS XP_001240132.1"
                      /protein_id="OAQ83754.1"
                      /translation="MSAEAACSDDSFGPWAGATCRGGFDFTLLFEETILSILPSVLVIV
@@ -88,12 +90,13 @@ FEATURES             Location/Qualifiers
                      PPDSRDEQIIDVLKRVGLWEKIATRGGLDMVIDDKFLSQGQAQLMVLARAMLRRDESRV
                      LLLDEATSSLDEATTTLIDEIVSTWFKDWTVLAIAHKLDAILDYDRVAVLDAGRLVEYD
                      QPRELLQRPTSIFKELYLLSTNQASLSSPDSN"
+                     /Pfam="ABC_tran, ABC_membrane"
      CDS             join(9095..9184,9241..9755,9814..10420,10473..10639,
                      10694..10865)
                      /codon_start=1
                      /locus_tag="VFPBJ_02523"
                      /product="cytochrome P450 monooxygenase LcsI"
-                     /label=lcsI
+                     /label="lcsI"
                      /note="similar to microsporum gypseum CBS 118893
                      XP_003174549.1"
                      /protein_id="OAQ83755.1"
@@ -106,11 +109,12 @@ FEATURES             Location/Qualifiers
                      KLTKEVRGTFNHPSEVTIKAVSNMPYLHAALSEALRIYPPSPAGFMRIVPGNGDMIGGH
                      WIPGGTSVSVSQWPANHSDSNFTMPNSFVPERFLGDPRFEKDNTSVLNPFSAGPRNCLG
                      KSLANVEMRLIMARLLLDFDLELIDPEQDWLDQKSFTLWEKLPLMVRLKPVRRYTAPA"
+                     /Pfam="p450"
      CDS             complement(11061..11990)
                      /codon_start=1
                      /locus_tag="VFPBJ_02524"
                      /product="thioesterase LcsJ"
-                     /label=lcsJ
+                     /label="lcsJ"
                      /protein_id="OAQ83756.1"
                      /translation="MDRPQWPGGLIAQVHGFVFSWWGVILLLAIINLKSFPGIWTIRAL
                      YHMKSSFNGQLRQTVASPTAENAQRRVPKTPKTGATDTIDHHPLFQPEIISSHVSPAEI
@@ -118,11 +122,12 @@ FEATURES             Location/Qualifiers
                      LGATCTSFKREMKVLARYDVESRILGWDSRWLYIGSWFVSRKGGKGKEQLFASSLSKYI
                      VKKGRITVRPEQFLTESGWIPPRPESTGNSKSLDSLQANGHGATENGKHDAKDTWTWEE
                      IESHRLKGMTTVGGWADADLRLEQAYSS"
+                     /Pfam="4HBT_2"
      CDS             join(13352..14696,14751..15052)
                      /codon_start=1
                      /locus_tag="VFPBJ_02525"
                      /product="cytochrome P450 monooxygenase LcsK"
-                     /label=lcsK
+                     /label="lcsK"
                      /note="similar to Zymoseptoria tritici IPO323
                      XP_003848197.1"
                      /protein_id="OAQ83757.1"
@@ -136,11 +141,12 @@ FEATURES             Location/Qualifiers
                      HACINETLRLHYPGPSGFFRKTPPEGIHIGEQHVPGDTIIQMPPYVMGLDEEVYERCSE
                      FVPERWYSKPEMIKHKDAFLPFLAGSESCIGKNLAYIQLAVVASQIILQFDVAFAPGED
                      GNKLVRESKDLGMLHPEDLHVVFTRRGKTHS"
+                     /Pfam="p450"
      CDS             complement(join(15444..16210,16285..16836,16892..16973))
                      /codon_start=1
                      /locus_tag="VFPBJ_11780"
                      /product="transcription factor LcsL"
-                     /label=lcsL
+                     /label="lcsL"
                      /protein_id="OAQ83758.1"
                      /translation="MTKEDWTLVTDRSQKKRIQNRVAQRTYRNRIKQRVEELEKEVSEY
                      RRREQEAEGNKDGDASGNGSNVAIQSNAGDNRRSPGRDKDSSTGPSHSNSTSTSRDQST
@@ -151,11 +157,12 @@ FEATURES             Location/Qualifiers
                      DFDHDSDISRDQRNSRHSELPVLLAKLRTNAKDWSQWEAHGYQYEIIKSAETIARAERA
                      ECAASRAACADVLVEIEKLPTETEGLDNASLSKAFRPLTKLFQDKVRDQPCSLHMNGRG
                      IDRGYLGP"
+                     /Pfam="TqaK"
      CDS             complement(19388..19636)
                      /codon_start=1
                      /locus_tag="VFPBJ_02526"
                      /product="hypothetical protein LcsM"
-                     /label=lcsM
+                     /label="lcsM"
                      /protein_id="OAQ83759.1"
                      /translation="MCRCRHPSCITETVFPPLTWLDSEWDEICSLPVARNETHDPSGPR
                      APVSSMRLGPRSRPYHHGTARLRGSPNCSRDSSSAAT"
@@ -166,10 +173,9 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="VFPBJ_02527"
                      /product="polyketide synthase LcsB"
-                     /label=lcsB
+                     /label="lcsB"
                      /note="similar to Neosartorya fischeri NRRL 181
-                     XP_001258783.1
-                     revised sequence"
+                     XP_001258783.1 revised sequence"
                      /protein_id="OAQ83760.1"
                      /translation="MPSLTEEPQEQLLAMPGVASGGNRGDGTAATDFSYAYSSKENKMA
                      EPIAVVGMAMRLPGNVRNGEEFWQLLVEKRNGLCDVPQDRYNVNGFHDPSGKPSTFRMN
@@ -215,15 +221,16 @@ FEATURES             Location/Qualifiers
                      TNLAIQRSKPSRAQVSDGCFDSPGQILLGLVTSVPIASPNNRVVWKNDIRMSIYHNING
                      GKDSASSATAELDDITTLLKSAASDPSVLQDEESTVIIATAIASALANFLIKEEGSIKV
                      EDSPEHAGLDSLVAMELRNWIRQRFGVDTTVMTIVQSTSIMSLGDYIRTALVKRS"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_DH, PKS_NRPS_MT, fPKS_ER,
+                     fPKS_KR, ACP_PCP"
      CDS             complement(join(30268..30899,30963..31328,31390..31668,
                      31726..31785,31840..31990,32038..32133))
                      /codon_start=1
                      /locus_tag="VFPBJ_02528"
                      /product="cytochrome P450 monooxygenase LcsN"
-                     /label=lcsN
-                     /note="similar to Talaromyces stipitatus ATCC 10500 
-                     XP_002487170.1
-                     revised sequence"
+                     /label="lcsN"
+                     /note="similar to Talaromyces stipitatus ATCC 10500
+                     XP_002487170.1 revised sequence"
                      /protein_id="OAQ83761.1"
                      /translation="MDSPTPKIGALAAAMSRVGFIAFALATAGVIAIVSVCVYRLLFHP
                      LAKYPGPALAKVTNLYSAYHAWKGDIHIDIYRCHQKYGDHLRYAPNRLIINTAGALRDI
@@ -235,14 +242,14 @@ FEATURES             Location/Qualifiers
                      GTYVPGHCEVAVGIYSIHHSAAYYTKPFTYDPERWYRPLDAKGSRSEAPRSPYMPFSVG
                      PRSCVGKPLAIAQMMIVFARLLWEYDMRRADYKSDWAEGDYSSTEYALKDHLTAWKEGP
                      VLRFSPRLKP"
+                     /Pfam="p450"
      CDS             33205..35196
                      /codon_start=1
                      /locus_tag="VFPBJ_02529"
                      /product="ABC transporter LcsO"
-                     /label=lcsO
+                     /label="lcsO"
                      /note="similar to Neofusicoccum parvum UCRNP2
-                     XP_007584135.1
-                     revised sequence"
+                     XP_007584135.1 revised sequence"
                      /protein_id="OAQ83762.1"
                      /translation="MRTLSSLRGVHAATRSYSVANGLGPAGRLSCRLGLTPNTHNALRN
                      TRPCLPQSAIRHFTSTSPSGPATAKVIAEGTTQERHDEKNPPGDDGTKPTGGKKARPAI
@@ -256,13 +263,14 @@ FEATURES             Location/Qualifiers
                      SDDESGESWQRTKETPEERKQRMIDEAAAYLGDEGLFPRELLFLERNITIVQGNNRFLG
                      SPVNRIKLIGSCALKAIRDDGQGKESIRERISTRVALLSLDLAFWWSAMKQYFGYGEGL
                      EQELKEAEDRQLRETKDAVAELFGITVN"
+                     /Pfam="ABC1"
      CDS             complement(join(35400..35738,35783..36402,36447..36473,
                      36528..36671,36728..36761))
                      /codon_start=1
                      /locus_tag="VFPBJ_02530"
                      /product="aminotransferase LcsP"
-                     /label=lcsP
-                     /note="similar to Talaromyces stipitatus ATCC 10500 
+                     /label="lcsP"
+                     /note="similar to Talaromyces stipitatus ATCC 10500
                      XP_002487171.1"
                      /protein_id="OAQ83763.1"
                      /translation="MAFPPPPRTGLDWGKTSAETHVHGHVECRWTRETGKWSEPEFVHD
@@ -272,11 +280,12 @@ FEATURES             Location/Qualifiers
                      IEEFSTSAFVGAHVDGEDITLVVPDTTNVVSSVTCDSVQQLAKSLGWTVEKRSVKYEEL
                      SCFSEVMACGTAVTLVSIKSITRKSTSDKFLYQSAAETMGPCAKQLSTLLHDIYKGKIE
                      DEFGWCVKVQDPVSLRKRKAVDDEMRQVKKTTLNGHTRGEQTVQEVN"
+                     /Pfam="Aminotran_4"
      CDS             join(37587..37731,37787..39138,39192..39353)
                      /codon_start=1
                      /locus_tag="VFPBJ_02531"
                      /product="transcription factor LcsF"
-                     /label=lcsF
+                     /label="lcsF"
                      /note="similar to metarhizium robertsii ARSEF 23
                      XP_007821130.1"
                      /protein_id="OAQ83764.1"
@@ -290,14 +299,15 @@ FEATURES             Location/Qualifiers
                      SFDESSHLAAEQSMSRKRRLPRMLSQILDSAQSWDPWDRRGLNEEVLRTAESLLVAEGK
                      SMDEKSLEASISGLMQATEGSSKPTPPQQNVTGMKRVLQNELPNLWPVMMALAGGNRAS
                      RQRDRSNMVLAAILILHCSSKMTKQKLLEFLDVCL"
+                     /Pfam="TqaK"
      CDS             join(40712..41854,41919..42042,42098..42210,42264..45476,
                      45533..45655,45715..46926,47001..47075,47132..47472,
                      47526..48018,48071..48967)
                      /codon_start=1
                      /locus_tag="VFPBJ_02532"
                      /product="polyketide synthase LcsC"
-                     /label=lcsC
-                     /note="similar to Colletotrichum graminicola M1.001 
+                     /label="lcsC"
+                     /note="similar to Colletotrichum graminicola M1.001
                      XP_008089795.1"
                      /protein_id="OAQ83765.1"
                      /translation="MSPTAIRDVSSRSSDNTPSDAQSTGSPVSTTLSTDQFLSDAESQG
@@ -344,12 +354,14 @@ FEATURES             Location/Qualifiers
                      QEPRTVDTSQLLNSAEIVIGLRSLQPVSDPTTRVLWKRDRRMALAHLKRASSSAGDTAT
                      AASGSQDLAVFVSKVADQPHLIEQEETQEFLTKQIGARLYAFMFQPEEDLDVNLSLTAL
                      GIDSLVAIEIRNWWRQTFGLELSVLEIMSASSIKALGKLAIDGLRKEHRRDTGS"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_DH, PKS_NRPS_MT, fPKS_ER,
+                     fPKS_KR, ACP_PCP"
      CDS             complement(join(49241..49672,49722..50210,50263..50946,
                      51007..51300))
                      /codon_start=1
                      /locus_tag="VFPBJ_02533"
                      /product="CoA ligase LcsD"
-                     /label=lcsD
+                     /label="lcsD"
                      /note="similar to Neofusicoccum parvum UCRNP2
                      XP_007584129.1"
                      /protein_id="OAQ83766.1"
@@ -364,11 +376,12 @@ FEATURES             Location/Qualifiers
                      RTGDLVEIRQSEKGHEHVFVVDRVKELIKVRGLQVAPAELESHLILHPAVAEVAVIPVP
                      DDRAGELPKAYIVRASGAELDEQVLRKELSQYVEGQFARHKHLDGGIEFLDSLPKTASG
                      KMQRKTLKEKARTDAEARRQAREKAANGVHKVHVNGVKRPEKMEVFDLSSDDEDDD"
+                     /Pfam="AA-adenyl-dom"
      CDS             join(53285..53503,53547..54338)
                      /codon_start=1
                      /locus_tag="VFPBJ_11781"
                      /product="tRNA synthetase LcsQ"
-                     /label=lcsQ
+                     /label="lcsQ"
                      /protein_id="OAQ83767.1"
                      /translation="MLGHRIAFLSTTLQIARATWPTGVATRRRSLCFALRVVPQCGKAK
                      FTSAAMVSAPARSAPAHHCRVSSSLEEDVDETLRSYSTRVASAQLLSTLALEDRALFKS
@@ -376,12 +389,13 @@ FEATURES             Location/Qualifiers
                      GAFTQGDAVEQKVDTKRRDDNSRLHTGGHVVALAVRKHLLNGAVDDVSHKDLVELGASH
                      YPDSAYVNFQGTIEAAHKDAIQTQVDAFVDAALPVKVYFWSEEELRARCAAVPDAVAIQ
                      DRDGGLTRAVDIEGAGAYPCGGTHVKDTSLVGKVKVRKISRSKGCSRVSYTVEHP"
+                     /Pfam="tRNA-synt_2c"
      CDS             join(54706..54875,54941..54967,55030..55051,55131..55388,
                      55441..56166)
                      /codon_start=1
                      /locus_tag="VFPBJ_02534"
                      /product="metallo-beta-lactamase-like hydrolase LcsR"
-                     /label=lcsR
+                     /label="lcsR"
                      /note="similar to Neofusicoccum parvum UCRNP2
                      XP_007584130.1"
                      /protein_id="OAQ83768.1"
@@ -393,11 +407,12 @@ FEATURES             Location/Qualifiers
                      LDAQDDDWDEKYADLPVCPAFEQIGELYGPFTLGLLPIGAYEPRALMAPIHANPRDAVE
                      IFIDTQCKRALAMHWGTWVLGDEDVREPPQRLEEALAFKGLARKGVFDVCGLGEVIRIP
                      L"
+                     /Pfam="Lactamase_B_2"
      CDS             join(57716..58004,58057..58718)
                      /codon_start=1
                      /locus_tag="VFPBJ_02535"
                      /product="thioesterase LcsE"
-                     /label=lcsE
+                     /label="lcsE"
                      /note="similar to metarhizium robertsii ARSEF 23
                      XP_007821129.2"
                      /protein_id="OAQ83769.1"
@@ -407,11 +422,12 @@ FEATURES             Location/Qualifiers
                      ERMLYHWELPQWGRSSGKAFKFSAGNEKFETQPGTVLYRSLKGDWRAVERTVSHELTEQ
                      QALQTPPSGPPPAVMLRSVIPAPTKGSSGKPCRVDQFRDELLLGWDGKYNTDMIHAVLE
                      ARSHHYDMFNQLYVDEVTETIKEAIQIIETVLPNE"
+                     /Pfam="Thioesterase, Abhydrolase_6"
      CDS             complement(join(58953..59076,59128..59590,59656..59800))
                      /codon_start=1
                      /locus_tag="VFPBJ_02536"
                      /product="hypothetical protein LcsS"
-                     /label=lcsS
+                     /label="lcsS"
                      /note="similar to Eutypa lata UCREL1 XP_007789549.1"
                      /protein_id="OAQ83770.1"
                      /translation="MTLYFAYPNAESGDCKCLGLIFFVKDYYGEKVFPPIGCVGITQFE
@@ -423,7 +439,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="VFPBJ_02538"
                      /product="short-chain dehydrogenase/reductase LcsT"
-                     /label=lcsT
+                     /label="lcsT"
                      /note="similar to Neofusicoccum parvum UCRNP2
                      XP_007584139.1"
                      /protein_id="OAQ83771.1"
@@ -432,12 +448,13 @@ FEATURES             Location/Qualifiers
                      NDKFNFVYVSHDGCHDTRAVYIFDVKARAEEKLFQLHHDPSKRLEIKTKGGIEEQESLS
                      SFVLYCIRPALIDYSTHDAIKPWLKPLPLAKKWTNGVILPLYRFLGLTSIMGTSQELGQ
                      AMKDLVISDGRDVDVAGASPEGRCLGAVGMRNWTQARNESPEDTVAV"
+                     /Pfam="LcsT"
      CDS             join(63670..65358,65422..65601,65658..72322,72374..80643,
                      80710..90018,90070..99575)
                      /codon_start=1
                      /locus_tag="VFPBJ_02539"
                      /product="nonribosomal peptide synthetase LcsA"
-                     /label=lcsA
+                     /label="lcsA"
                      /note="similar to Neosartorya fischeri NRRL 181
                      XP_001258343.1"
                      /protein_id="OAQ83772.1"
@@ -643,6 +660,7 @@ FEATURES             Location/Qualifiers
                      DQLRFEAPVPSGVTSFVDLQRGMTVSAFWGLVDKELAATAGARHPGGLSSLSWDDWTRV
                      ALAQMESVGESHPLWPVQHFLGRLGTGLSPVKQATEQSVSRTDRELEKVVERNVRYLVR
                      QGLIGDGEGRSNGGAFRRTGLNQKLGE"
+                     /Pfam="ACP_PCP, NRPS_C, AA-adenyl-dom, NAD_binding_4"
 ORIGIN
         1 atgggagaca acgttcagtc cgacaccact gcggcgcagg ccggaatcac cgacgccccc
        61 accgccccga catccgcccc tgtgtccctg aaagagcgac tggagaagct tatcgagagc

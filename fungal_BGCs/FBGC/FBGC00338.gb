@@ -1,36 +1,36 @@
-LOCUS       FBGC00338        3813 bp DNA     linear   UNA 13-FEB-2023
+LOCUS       FBGC00338               3813 bp    DNA     linear   UNA 13-FEB-2023
 DEFINITION  choline.
 ACCESSION   FBGC00338
-VERSION     .
+VERSION     FBGC00338
 KEYWORDS    .
 SOURCE      Aspergillus nidulans FGSC A4
   ORGANISM  Aspergillus nidulans FGSC A4
+            .
 REFERENCE   1  (bases 1 to 3813)
   AUTHORS   Hai Y, Huang AM, Tang Y.
-  TITLE     Structure-guided function discovery of an NRPS-like glycine betaine 
+  TITLE     Structure-guided function discovery of an NRPS-like glycine betaine
             reductase for choline biosynthesis in fungi.
   JOURNAL   Proc Natl Acad Sci U S A 2019;116:10348-10353
-  PUBMED    31061132
+   PUBMED   31061132
 REFERENCE   2  (bases 1 to 3813)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Feb 13, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1073/pnas.1903282116"; journalName: "Proc Natl Acad Sci U S A"; 
+  JOURNAL   Exported Feb 13, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     ##Genome-Annotation-Data-START##
+            Annotation Provider :: INSDC submitter
+            Annotation Status   :: Full annotation
+            Annotation Pipeline :: Eukaryotic Annotation Propagation Pipeline
+            ##Genome-Annotation-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1073/pnas.1903282116"; journalName: "Proc Natl Acad Sci U S A";
             date: "2019"; volume: "116"; pages: "10348-10353"
-COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final 
-            NCBI review. The reference sequence is identical to BN001305. 
+            PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to BN001305.
             Aspergillus nidulans FGSC A4 CADRE,
             updated by Eurofungbase with contributions from
             CADRE (http://www.cadre-genomes.org.uk),
             AspGD (http://www.aspergillusgenome.org) and
-            Ensembl Genomes 
-            (http://www.ensemblgenomes.org).##Genome-Annotation-Data-START##
-            Annotation Provider :: INSDC submitter
-            Annotation Status   :: Full annotation
-            Annotation Pipeline :: Eukaryotic Annotation Propagation Pipeline 
-            ##Genome-Annotation-Data-END##
+            Ensembl Genomes
 FEATURES             Location/Qualifiers
      source          1..3813
                      /chromosome="V"
@@ -43,7 +43,7 @@ FEATURES             Location/Qualifiers
                      /locus_tag="ANIA_05318"
                      /old_locus_tag="AN5318.2; AN5318.4"
                      /product="NRPS-like glycine betaine reductase ATRR"
-                     /label=atrr
+                     /label="atrr"
                      /note="transcript_id=CADANIAT00003778"
                      /db_xref="EnsemblGenomes-Gn:CADANIAG00003778"
                      /db_xref="EnsemblGenomes-Tr:CADANIAT00003778"
@@ -83,6 +83,7 @@ FEATURES             Location/Qualifiers
                      DILVACAGVMYFTMMANTQMDEWERTVDVNCKGILNSLASTVPGMLARGKGHVVAISSD
                      AGRKVFPGLGVYSASKFFVEATLQALRLETAGQGLRVTAVQPGNTATDLLGMSTDAEAI
                      KKYGEPSGAQILDPEDVANSIIYALRQPEHVAMNEILIEPRDEPI"
+                     /Pfam="AA-adenyl-dom, ACP_PCP, NAD_binding_4, adh_short"
 ORIGIN
         1 ctagattggc tcgtctcgcg gctcaatcag gatctcgttc atggcaacat gttcaggctg
        61 gcggagagcg tagataatgg agttggcaac atcctcgggg tccaagatct gtgccccgga

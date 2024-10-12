@@ -1,31 +1,31 @@
-LOCUS       FBGC00305      102042 bp DNA     linear   UNA 11-MAY-2023
+LOCUS       FBGC00305             102042 bp    DNA     linear   UNA 11-MAY-2023
 DEFINITION  AAL-toxin.
 ACCESSION   FBGC00305
-VERSION     .
+VERSION     FBGC00305
 KEYWORDS    .
 SOURCE      Alternaria alternata As-27
   ORGANISM  Alternaria alternata As-27
+            .
 REFERENCE   1  (bases 1 to 102042)
   AUTHORS   Akagi Y, Akamatsu H, Takao K, Tsuge T, Kodama M.
-  TITLE     AAL-toxin biosynthetic genes cluster in the tomato pathotype of 
+  TITLE     AAL-toxin biosynthetic genes cluster in the tomato pathotype of
             Alternaria alternata
   JOURNAL   Unpublished
 REFERENCE   2  (bases 1 to 102042)
   AUTHORS   Witte TE, Villeneuve N, Boddy CN, Overy DP.
-  TITLE     Accessory Chromosome-Acquired Secondary Metabolism in Plant 
-            Pathogenic Fungi: The Evolution of Biotrophs Into Host-Specific 
+  TITLE     Accessory Chromosome-Acquired Secondary Metabolism in Plant
+            Pathogenic Fungi: The Evolution of Biotrophs Into Host-Specific
             Pathogens.
   JOURNAL   Front Microbiol 2021;12:664276
-  PUBMED    33968000
+   PUBMED   33968000
 REFERENCE   3  (bases 1 to 102042)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported May 11, 2023 from SnapGene 6.2.2
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; journalName: 
+  JOURNAL   Exported May 11, 2023 from SnapGene 6.2.2 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; journalName:
             "Unpublished"
-COMMENT     SGRef: number: 2; type: "Journal Article"; doi: 
-            "10.3389/fmicb.2021.664276"; journalName: "Front Microbiol"; date: 
+            SGRef: number: 2; type: "Journal Article"; doi:
+            "10.3389/fmicb.2021.664276"; journalName: "Front Microbiol"; date:
             "2021"; volume: "12"; pages: "664276"
 FEATURES             Location/Qualifiers
      source          1..102042
@@ -39,7 +39,7 @@ FEATURES             Location/Qualifiers
                      /gene="ALT2"
                      /product="bifunctional cytochrome P450/NADPH-P450 reductase
                      ALT2"
-                     /label=ALT2
+                     /label="ALT2"
                      /protein_id="BBG74264.1"
                      /translation="MAISSPSQARSVGNPSPRCVKSSTYPFLGNILDIDPDNFTKSLGD
                      VYMINYGSYRDVIVTSRKVAQELCDESRFCKLPGGAIDRMKRVIGNGLFTAETRDPRWQ
@@ -60,12 +60,13 @@ FEATURES             Location/Qualifiers
                      DDQSVSCPIIMIAAGTGIAPFIGFLQERKLSLAHTALLQGSKKAGPYARTLLFFGCRGP
                      ALDSLYTEELAAFEADGLVEVRRAFSRDHTAAGSNGCKYVDQRLAASAEELVELWRLGA
                      RVFVCGGKKMANNVFDVLGPLFHEADKLDQKTAEDDVGKWRTTLGKGRYAEEIFI"
-     CDS             complement(join(5143..6028,6106..6213,6323..6772,6840..9913,
-                     9996..10208))
+                     /Pfam="p450, Flavodoxin_1, FAD_binding_1, NAD_binding_1"
+     CDS             complement(join(5143..6028,6106..6213,6323..6772,
+                     6840..9913,9996..10208))
                      /codon_start=1
                      /gene="ALT5"
                      /product="ABC transporter ALT5"
-                     /label=ALT5
+                     /label="ALT5"
                      /protein_id="BBG74265.1"
                      /translation="MDFAKCIGDEFFGPVVDGCRGGFDFTLKFELLFFATIPPAIFLIL
                      AVPRIASLYSEPTIVAWRSWLYASKQILGFVNLVLQVTLLVMTTQGTAQFKLSGLFLSA
@@ -94,10 +95,11 @@ FEATURES             Location/Qualifiers
                      RVKDREIRQASSIEIPSTSQLRLASDAQECKKTESDCEAVEGDSDLYCLPQLEPSNDTR
                      LAAGREDVLGGVLLLDEFNSSMDLLTEQRYFNRIQSEFPGYTIIAITHSLASFIKDQEC
                      RQEGEAQVYRGGFFDRIIVLDSGMIVEDGHPTTLLETSHSKFRALCEAAARGEVST"
+                     /Pfam="ABC_membrane, ABC_tran"
      CDS             join(12210..12854,13353..13442)
                      /codon_start=1
                      /product="hypothetical protein Hypothetical_protein"
-                     /label=hypothetical protein
+                     /label="hypothetical protein"
                      /note="ORF4"
                      /protein_id="BBG74266.1"
                      /translation="MRDATSKKFHATGVWLIDAQIVLKRFDNHTAEQAKAVKSGQQGDD
@@ -110,7 +112,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="ALT1"
                      /product="polyketide synthase ALT1"
-                     /label=ALT1
+                     /label="ALT1"
                      /protein_id="BBG74267.1"
                      /translation="MAIVTAFEDEPINGNGMLNAPSISPDPVLPLAIVGMGMRLPGAIH
                      TPEHLWQTLVNKRSTRCEIPDTRFSTNGFHSPSAKPGSIAMRHGHFLADSDSLHHLDPS
@@ -157,11 +159,13 @@ FEATURES             Location/Qualifiers
                      LLDPGNRVVWRSDPRMGLYHNLTATVATTADDGSDDSDALRFFITSITAEPALLDDPAS
                      LDLVTRTIGTRIYTFMLHPLDDIDSTASLTALGVDSLVTIELRNWIKRNFAGLDFSTLE
                      ILDARTIAGLAKLILDALKARFGSSTADQQRLQSDYLNMKAP"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_DH, PKS_NRPS_MT, fPKS_ER,
+                     fPKS_KR, ACP_PCP"
      CDS             complement(25579..26643)
                      /codon_start=1
                      /gene="ALT6"
                      /product="short-chain dehydrogenase/reductase ALT6"
-                     /label=ALT6
+                     /label="ALT6"
                      /protein_id="BBG74268.1"
                      /translation="MDNERRLVLLTGATGHVGFAVLVEALEAEYNVRVVLREISKADSI
                      LSSEPVKNALSSTAAPELSFVEVPDMTVPGAFDSAMQSVTYVVHCASPINRGKFRDFQT
@@ -170,11 +174,12 @@ FEATURES             Location/Qualifiers
                      GSNVFGIGLVLIKQSWGSLRIEAVSCHIDDVAQAHVQALNHDEDVQFPFKAGTHRSCLL
                      ASSFRPDEVRDIVEREFPKESWQGEEAVFRGKGSYAWYHTDYDVSAAEKLLGRKLKGIV
                      EQIRSSGLQVLRIA"
+                     /Pfam="Epimerase"
      CDS             31285..32439
                      /codon_start=1
                      /gene="ALT3"
                      /product="Fe-containing alcohol dehydrogenase ALT3"
-                     /label=ALT3
+                     /label="ALT3"
                      /protein_id="BBG74269.1"
                      /translation="MFGSLRTYIVSSKSISATPAFEALESALGTAKIAGIRCGITSHSP
                      WEDVFQLAQDIQATDADLIITLGGCSITDAVKLAKLFIPNNVSTIPGAEELFARIRADE
@@ -183,12 +188,13 @@ FEATURES             Location/Qualifiers
                      TKENWNDEEARLQAFLAVKECPRAGHNGIGASHGIGHQLGPLGVGHGETSCIILPWVLR
                      YNWQHGDETARRRLGLAIDTFWGQEKVAETLGATGLSRKDADLYDVVGAYISALGLPRT
                      LGQFDIKEEQLEGLAESAMKDWCTKVNPVTLTKDKVLDILRNAK"
+                     /Pfam="Fe-ADH"
      CDS             join(33131..33313,33426..33991,34079..34545,34614..34704,
                      34793..35235,35297..35973)
                      /codon_start=1
                      /gene="ALT4"
                      /product="aminotransferase ALT4"
-                     /label=ALT4
+                     /label="ALT4"
                      /protein_id="BBG74270.1"
                      /translation="MSVVRPKKVFQTPIDPGVSLRRKKDFYIWAATIGFAQLWRDIKAF
                      KWYRPLQMADLASHYFYIPLGRLDPRILSSAPNDRMLIKTIPHEMSQDYDETGILGCPG
@@ -204,12 +210,13 @@ FEATURES             Location/Qualifiers
                      STRVTLYEDLRDLEVEGTKLQKHRYYHVTLYLETVDEDGSILDLSNRIKDILLTLKNAP
                      SLTGLRLILDDSRGLGKIGPRHLGFLDQMESQHGVSFFSTALGPQLAAITTVVVFGSWF
                      HSLNHQGGYVISSEAFTEAHTVSSKSFVFSTPPMIVQAAMSEKTLELLAGGSGLV"
+                     /Pfam="Aminotran_1_2"
      CDS             complement(join(36369..36941,37026..37313,37466..37737,
                      37796..37961))
                      /codon_start=1
                      /gene="ALT7"
                      /product="sphingosine N-acyltransferase ALT7"
-                     /label=ALT7
+                     /label="ALT7"
                      /protein_id="BBG74271.1"
                      /translation="MFRPDLDDIPALGSETSSLDNTVENGNYRVKLWRDKSGIRSPPST
                      FCTWFKQYQIGLSLGSLLLLILMFTCLPYYDNVSGTYTRGRDDLAFIFSGVVLFTALRA
@@ -219,11 +226,12 @@ FEATURES             Location/Qualifiers
                      IFTILPTVMPYGCYDTISGNRLSEFPADGGNEIMREVLQAFRDPGGPVCFNSRIGWAFL
                      GLLVGLQVLMLIWLGMILKVAYKVFQGEGADDTRSDSEESGYGTSDHEGDCYGAQAGNP
                      KVIRQFVASREKVHIEQAENQGLHLRQQKRSAR"
+                     /Pfam="TRAM1, TRAM_LAG1_CLN8"
      CDS             join(38458..38726,38785..40315)
                      /codon_start=1
                      /gene="ALT8"
                      /product="cytochrome P450 monooxygenase ALT8"
-                     /label=ALT8
+                     /label="ALT8"
                      /protein_id="BBG74272.1"
                      /translation="MATLACVGAAAMACALAVYLGDTTKSMSYLSYSGTILFGCSGLWY
                      VWKGLLWPAYFSPLRHLKTVPKSGWLSAETLRLYTEPRGVPQCEWINKLDSVPQGLVRY
@@ -236,21 +244,23 @@ FEATURES             Location/Qualifiers
                      VLAPRVTNRQSTLWGSNAQEFDPDRWLCLKKQDASIDDSSAASPSFGGSGKRKSQYTDT
                      HKEPSTRSNFATMTFLHGPRSCIGQSFAKAELAILLAALVGRFEFKLARGTPEKEIDVR
                      VSRGATARPEKGLFVQIRVIEGW"
+                     /Pfam="p450"
      CDS             complement(join(42538..42642,42701..43243))
                      /codon_start=1
                      /gene="ALT9"
                      /product="tricarboxylate transporter ALT9"
-                     /label=ALT9
+                     /label="ALT9"
                      /protein_id="BBG74273.1"
                      /translation="MTFDYARRYMPEDQTGKTTVVGNMVAGMCAGVAESVLVLTPGENL
                      KTRLIDDRAGARLYQSSTHAIRTIVTKDGASTFFRGVLPVTLKQSNSSMVRFTSYNQLA
                      PMLQPTCGVSTSVVAGALAGVITVYCTMPFDNVKTQMQSLDGSRIYSSSWDCAKKLVVN
                      GGPRRLWKGTTPRLLRLSVAGAIAFTLYEEVVRLTGFLVLPKVAAKAPKDAA"
+                     /Pfam="Mito_carr"
      CDS             43931..44836
                      /codon_start=1
                      /gene="ALT11a"
                      /product="2OG-Fe(II)-dependent dioxygenase ALT11a"
-                     /label=ALT11a
+                     /label="ALT11a"
                      /protein_id="BBG74274.1"
                      /translation="MSSPELPSQMGVPNGHTKLQEVTPDTPLDEVFQKWEEDGGVIIKG
                      ILAPAQVTQLREELQPLLDTFQRGSTTDIEPLKRFHGSQTKRAGGLTNCSAIFRDYLLD
@@ -258,12 +268,13 @@ FEATURES             Location/Qualifiers
                      ESQATFLIATTDFTDANGATRIIPGSQKWPFNQTWNPSQSIPSEMHAGDCLLFGGKVVH
                      GTGANTTNAERGCVAFTFCANHLTPEEAHPHIVDINIVRKLSERAQRSLGFRSQYPRGA
                      PGLWMEGYNEVATRLGLDSK"
+                     /Pfam="PhyH"
      CDS             join(46642..46732,46862..46927,47014..47244,47346..48595)
                      /codon_start=1
                      /gene="ALT12a"
-                     /product="nonribosomal peptide synthetase-like protein 
+                     /product="nonribosomal peptide synthetase-like protein
                      ALT12a"
-                     /label=ALT12a
+                     /label="ALT12a"
                      /protein_id="BBG74275.1"
                      /translation="MASLEHMKRIWGEVLGIEPDEIGLDENFVDSLQLLGEVASYNVQI
                      DLETFTNTGTIQTLWEAMNDTQTRNVHSMDGRDYNTDSEGLDVVEAASASIVTKTDTDN
@@ -275,10 +286,11 @@ FEATURES             Location/Qualifiers
                      FRVSLICNEEPAPALLQRIQNEITSTNKHEHGFSPCIFPSTDGRPWVQSLVDLKSELHG
                      MGNGPSARSDHLAISKMVPRPDLDTYEMKSHWAVLLSIRQHRNVFQVSMYYQKPLLAEG
                      KAVVLFENFRACIQALSTGQNSVGELLE"
+                     /Pfam="NRPS_CT"
      CDS             join(51944..51995,52143..53148,53436..54972)
                      /codon_start=1
                      /product="transposase Transposase"
-                     /label=transposase
+                     /label="transposase"
                      /note="ORF14"
                      /protein_id="BBG74276.1"
                      /translation="MDPREVAFTDAISDLNAGWALGYLMRTHAHNLPPIYAYEKWPPGS
@@ -296,11 +308,12 @@ FEATURES             Location/Qualifiers
                      GFQATGLIPPCPDRVLSSLTVVRTPSPPETTADNNVAWTAETPRTIAQLQQQARHIQDL
                      LHRQSQSPTSQAIRQLVKGCQLAMNSATILAEENRKLRTANQRQQRRRDQRRQYIAHGG
                      VLQAQQGQQLAAEAERVVVEVEQAQATQGRQRAPPTCSKCHIQGHTRTQCRQ"
+                     /Pfam="DDE_1, HTH_psq, HTH_Tnp_Tc5"
      CDS             57461..59761
                      /codon_start=1
                      /gene="AaMET1"
                      /product="metalloprotease AaMET1"
-                     /label=AaMET1
+                     /label="AaMET1"
                      /protein_id="BBG74277.1"
                      /translation="MAEESPDYKALYLKEQRRREEAEQAQERAAEKTRKTALPEFLHAC
                      HTHLHSGLTVQTDPTLSTQGNPANANNKLRPERVVLWTEFPAQQTTIWENLMESGFASE
@@ -316,10 +329,11 @@ FEATURES             Location/Qualifiers
                      YEGIADLVHMMFLSFGGRLVGQHLTAENKASVSEQVKQSADAIHGLGVLHRDLMPRNIL
                      WNEETKHVMVIDFERAEMEQRIVLGAMSANRKRKKLAGSSVKPGQSKRPACTLEIRRAM
                      FELSGIAQSIRCG"
+                     /Pfam="APH"
      CDS             join(72309..72482,72651..72992,73454..73693)
                      /codon_start=1
                      /product="hypothetical protein Hypothetical_protein"
-                     /label=hypothetical protein
+                     /label="hypothetical protein"
                      /note="ORF16"
                      /protein_id="BBG74278.1"
                      /translation="MREYDVNARNTYNIDKKGFFIGVTNRTKRVLSKALWALGEIKAAI
@@ -327,12 +341,13 @@ FEATURES             Location/Qualifiers
                      HATHSLQPLNVVVFAPISKAYSKQLDRHLHESHGTAKATKREFFSLFWPAWSSTITPDL
                      IKKSFQATGKLQSLEAAKVAQQEAKIERKRKQKQRAEEKAAAQALKQQQQQQQQQQQQQ
                      QQQQQQQQQQQQQQQQQAATLKKNSQYSK"
+                     /Pfam="DDE_1"
      CDS             complement(join(74025..74342,74400..74812,74862..75986,
                      76037..76266,76316..76335))
                      /codon_start=1
                      /gene="AaTRF1"
                      /product="transcription factor AaTRF1"
-                     /label=AaTRF1
+                     /label="AaTRF1"
                      /protein_id="BBG74279.1"
                      /translation="MRSRTGCLTCRQKKLKCDERTPVCRRCIKASRECIPSPGIFFCHQ
                      HNASLNGEDSGDADPLKGYYAYRNTFDEDAIWVDIPKHITFVTTTNPYLDTSTLDLDTV
@@ -347,11 +362,12 @@ FEATURES             Location/Qualifiers
                      VLPHTSGQTSSDDSASAFTKILLFLNKPHESTLGRSTAVTRMDYRQSVLTACQGHSRSI
                      VGISLARPDEAVRIHSVQPLFTAGQCLSDDRERQVVLHLLRDVESDIGWATDYRVRQLV
                      GQWQGEG"
+                     /Pfam="Zn_clus, Fungal_trans_2"
      CDS             join(81273..81323,81711..81788,81842..82594,82781..82864)
                      /codon_start=1
                      /gene="AaAPF2"
                      /product="homeodomain-containing protein AaAPF2"
-                     /label=AaAPF2
+                     /label="AaAPF2"
                      /protein_id="BBG74280.1"
                      /translation="MNSSNPVERPLADMVAVNHHMRSSPPAQTREQSFPGKLPSFSELL
                      HTTRTTTPPQTIHRQNDSAGSSPPIEPQLHNSSWSESDQRRLSTLGDVHRPPVAQGCRT
@@ -359,13 +375,14 @@ FEATURES             Location/Qualifiers
                      DHMSCASPCIQQPVAQDPVQQPMVQQDIMYEPRHSYYHESQAAVYVDCDRPNESGYARA
                      GYPNYNSPYSGICLQQHVGLGQNAFNRKRQGNLSKEATNLLKDWFAANRTSPYPTEDQK
                      KKLCNRTGMSLNQVSNWFINARRRALPKEQRERKANSREA"
+                     /Pfam="Homeobox_KN"
      CDS             join(85787..85904,85969..86000,86064..86595,86649..86891,
                      86951..86972,87050..87284,87351..87365,87433..87639,
                      87723..88223)
                      /codon_start=1
                      /gene="ALT13"
                      /product="transcription factor ALT13"
-                     /label=ALT13
+                     /label="ALT13"
                      /protein_id="BBG74281.1"
                      /translation="MSTEFVFVDHQAAQASVRQKPKLSRRRGACENCKRRKVRCSGANP
                      CEQCLKVNVHCWYIGNNQSRRRSVPNSGADKNNQQGDTDRHNGARLGLESFGHLHFFSE
@@ -378,10 +395,11 @@ FEATURES             Location/Qualifiers
                      LHCIQEGLFPLIHGEYADHKVAAPQDPLCRRYDCLYSDVGYAKICSKILQQLQGQQDIS
                      QVGSSCCGRESYKQSPAFTANRLETMLMEWKGNLPFDGDGKNIFTATSPGERRIRLTCI
                      NMYHFAMIAIHSLPGVEDTDASKRQRCESAREILDMSEHITSADLLYDWSVPPLCPDC"
+                     /Pfam="EqxR"
      CDS             complement(join(88781..90317,90605..91610,91758..91809))
                      /codon_start=1
                      /product="transposase Transposase"
-                     /label=transposase
+                     /label="transposase"
                      /note="ORF14b"
                      /protein_id="BBG74282.1"
                      /translation="MDPREVAFTDAISDLNAGWALGYLMRTHAHNLPPIYAYEKWPPGS
@@ -399,13 +417,14 @@ FEATURES             Location/Qualifiers
                      GFQATGLIPPCPDRVLSSLTVVRTPSPPETTADNNVAWTAETPRTIAQLQQQARHIQDL
                      LHRQSQSPTSQAIRQLVKGCQLAMNSATILAEENRKLRTANQRQQRRRDQRRQYIAHGG
                      VLQAQQGQQLAAEAERVVVEVEQAQATQGRQRAPPTCSKCHIQGHTRTQCRQ"
+                     /Pfam="DDE_1, HTH_psq, HTH_Tnp_Tc5"
      CDS             complement(join(95158..96407,96509..96739,96826..96891,
                      97021..97111))
                      /codon_start=1
                      /gene="ALT12b"
-                     /product="nonribosomal peptide synthetase-like protein 
+                     /product="nonribosomal peptide synthetase-like protein
                      ALT12b"
-                     /label=ALT12b
+                     /label="ALT12b"
                      /protein_id="BBG74283.1"
                      /translation="MASLEHMKRIWGEVLGIEPDEIGLDENFVDSLQLLGEVASYNVQI
                      DLETFTNTGTIQTLWEAMNDTQTRNVHSMDGRDYNTDSEGLDVVEAASASIVTKTDTDN
@@ -417,11 +436,12 @@ FEATURES             Location/Qualifiers
                      FRVSLICNEEPAPALLQRIQNEITSTNKHEHGFSPCIFPSTDGRPWVQSLVDLKSELHG
                      MGNGPSARSDHLAISKMVPRPDLDTYEMKSHWAVLLSIRQHRNVFQVSMYYQKPLLAEG
                      KAVVLFENFRACIQALSTGQNSVGELLE"
+                     /Pfam="NRPS_CT"
      CDS             complement(98917..99825)
                      /codon_start=1
                      /gene="ALT11b"
                      /product="2OG-Fe(II)-dependent dioxygenase ALT11b"
-                     /label=ALT11b
+                     /label="ALT11b"
                      /protein_id="BBG74284.1"
                      /translation="MSSPELPSQMGVPNGHTKLQEVTPDTPLDEVFQKWEEDGGVIIKG
                      ILAPAQVTQLREELQPLLDTFQRGSTTDIEPLKRFHGSQTKRAGGLTNCSAIFRDYLLD
@@ -429,11 +449,12 @@ FEATURES             Location/Qualifiers
                      PESQATFLIATTDFTDANGATRIIPGSQKWPFNQTWNPSQSIPSEMHAGDCLLFGGKVV
                      HGTGANTTNAERGCVAFTFCANHLTPEEAHPHIVDINIVRKLSERAQRSLGFRSQYPRG
                      APGLWMEGYNEVATRLGLDSK"
+                     /Pfam="PhyH"
      CDS             join(100203..101706,101783..101889,101953..102042)
                      /codon_start=1
                      /gene="ALT10"
                      /product="CoA ligase ALT10"
-                     /label=ALT10
+                     /label="ALT10"
                      /protein_id="BBG74285.1"
                      /translation="MTANVNVLVLPTHMRENDSAAIIIPSTRSAPQKEVSYKHLVAITD
                      SLHRDLAHLGITKACKVAIVLPNGLEFVAVFLSVLRQRAVAAPLDAQLTESEFKDIFSR
@@ -445,6 +466,7 @@ FEATURES             Location/Qualifiers
                      MTKEPGVIGEVCVRGKNVMAGYINNSRANTEAFLPNGYFRTGDLGTIQSSGQLKLVGRL
                      KEVINKGGIKIGPSEVEHAALSHESVSEAVCFRIADVMYGEEIGLAVKLRSNSGKNQCT
                      DRDLKQHIRYQLSAFKVPKEIVFVDAVHYNRTGKPLRTQVSQKFAEGLL"
+                     /Pfam="AA-adenyl-dom"
 ORIGIN
         1 atggcaatat cgagcccatc ccaggcccga agcgtaggca atccctcccc gcgctgcgtc
        61 aagtcaagta gtgtgtagat tcaaaacctt ttcgtactga cactgactca tagcttaccc

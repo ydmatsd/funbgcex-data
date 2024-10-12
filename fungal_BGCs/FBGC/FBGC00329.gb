@@ -1,30 +1,30 @@
-LOCUS       FBGC00329       65711 bp DNA     linear   UNA 12-APR-2023
+LOCUS       FBGC00329              65711 bp    DNA     linear   UNA 12-APR-2023
 DEFINITION  pneumocandin A0.
 ACCESSION   FBGC00329
-VERSION     .
+VERSION     FBGC00329
 KEYWORDS    .
 SOURCE      Glarea lozoyensis ATCC 20868
   ORGANISM  Glarea lozoyensis ATCC 20868
+            .
 REFERENCE   1  (bases 1 to 65711)
-  AUTHORS   Chen L, Yue Q, Zhang X, Xiang M, Wang C, Li S, Che Y, Ortiz-Lopez 
+  AUTHORS   Chen L, Yue Q, Zhang X, Xiang M, Wang C, Li S, Che Y, Ortiz-Lopez
             FJ, Bills GF, Liu X, An Z.
-  TITLE     Genomics-driven discovery of the pneumocandin biosynthetic gene 
+  TITLE     Genomics-driven discovery of the pneumocandin biosynthetic gene
             cluster in the fungus Glarea lozoyensis.
   JOURNAL   BMC Genomics 2013;14:339
-  PUBMED    23688303
+   PUBMED   23688303
 REFERENCE   2  (bases 1 to 65711)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Apr 12, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1186/1471-2164-14-339"; journalName: "BMC Genomics"; date: 
-            "2013"; volume: "14"; pages: "339"
+  JOURNAL   Exported Apr 12, 2023 from SnapGene 6.2.1 https://www.snapgene.com
 COMMENT     ##Genome-Assembly-Data-START##
             Assembly Method       :: GS De Novo Assembler v. Aug-2011
             Genome Coverage       :: 80.0x
-            Sequencing Technology :: 454; Illumina HiSeq 
+            Sequencing Technology :: 454; Illumina HiSeq
             ##Genome-Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1186/1471-2164-14-339"; journalName: "BMC Genomics"; date:
+            "2013"; volume: "14"; pages: "339"
 FEATURES             Location/Qualifiers
      source          1..65711
                      /chromosome="Unknown"
@@ -34,15 +34,14 @@ FEATURES             Location/Qualifiers
                      /isolation_source="pond water from Valle del Rio Lozoya"
                      /db_xref="taxon:1116229"
                      /culture_collection="ATCC:20868"
-                     /type_material="culture from holotype of Glarea
-                     lozoyensis"
+                     /type_material="culture from holotype of Glarea lozoyensis"
                      /organism="Glarea lozoyensis ATCC 20868"
                      /submitter_seqid="GLAREA13"
      CDS             complement(join(1..771,828..1451,1508..1753))
                      /codon_start=1
                      /locus_tag="GLAREA_10030"
                      /product="cytochrome P450 monooxygenase GLP450-1"
-                     /label=GLP450-1
+                     /label="GLP450-1"
                      /protein_id="EPE34336.1"
                      /translation="MLSEVIARVELLIGEQTLSGGILTFLFIVVIAHFVLTRFTVHSRF
                      WNSQAWTGVREEWFPKMRAKVRTIGNIRQMLSDGYEGFSKQNKAFALPVIAEKPWLVLP
@@ -54,11 +53,12 @@ FEATURES             Location/Qualifiers
                      RMVVDPKGTQFNANGTNSSSPLSVPPGIRICVPAHAIHRDAALYPSPYEFQAFRFSKAR
                      EKYRGTQTELSEPKVSIVTTTDKFLPFGHGRHACPGRFFAAQQMKLMLAYLVQNYDVEK
                      LSTKIQNKIMVGTTKPDASLKIKVKRRKV"
+                     /Pfam="p450"
      CDS             join(2179..2400,2454..2823,2885..3858)
                      /codon_start=1
                      /locus_tag="GLAREA_10031"
                      /product="cytochrome P450 monooxygenase GLP450-2"
-                     /label=GLP450-2
+                     /label="GLP450-2"
                      /protein_id="EPE34337.1"
                      /translation="MIAALFTTNLQLGAVGVFIFALLAFAFNKLTTWEYSIPKEVQWVD
                      RRTQPFSYLRAKARALARSKENTLEAYFRFNKLGKAAALAVPFGRPLLLLPQTFVRWIV
@@ -70,11 +70,12 @@ FEATURES             Location/Qualifiers
                      LHVPCGTRLGVSAAGIHVDESIYEDPTTYNPGRFLVRDLDPRGDPSPMWKGNENYLAFS
                      LGRRSCPGRWYVTDQLKLTLAHIFSKYEIRFEKAAETASALRKILPGAPQDRVMIRRRS
                      VGKR"
+                     /Pfam="p450"
      CDS             join(4273..4543,4599..5113,5171..5230)
                      /codon_start=1
                      /locus_tag="GLAREA_10032"
                      /product="alpha/beta hydrolase GLHYD"
-                     /label=GLHYD
+                     /label="GLHYD"
                      /protein_id="EPE34338.1"
                      /translation="MDQNPILIQRHHHRQNFAQKAPPAPLFLIHDGGGTVFSYFLLESL
                      GRTVYGISNPNFETESTWENGIASMAEYYVNLIKATYPSGHILLGGWSLGGLIAIQAAH
@@ -82,11 +83,12 @@ FEATURES             Location/Qualifiers
                      REWKAPSWRSSATETLDNHSQTINVQIHDHVTPTCPPTVLIRALDDGSNNSRDLNETSP
                      TETSNDSETQALGFDRYQNFNLRYVVNTPGDHFSIFNKENVKELSKKVKEACDKLVMKS
                      "
+                     /Pfam="Thioesterase"
      CDS             complement(join(5706..6368,6420..6486,6542..6777))
                      /codon_start=1
                      /locus_tag="GLAREA_10033"
                      /product="2OG-Fe(II)-dependent dioxygenase GLOXY1"
-                     /label=GLOXY1
+                     /label="GLOXY1"
                      /protein_id="EPE34339.1"
                      /translation="MYKISFAGLLRGNDKDVEALAEAATTQGFLELELDCMEAKALQKD
                      VKFLESFAESILDSPEDVKAAYHFHKTGRFRTTGFKPLGSEEGAKAGNPDGFEFFFLPQ
@@ -94,13 +96,14 @@ FEATURES             Location/Qualifiers
                      SLPCVTNMGLIRYPPQPKESGNFGHIAHTDVGSLTILAATQRGLQTLDNITQKWIWVDP
                      SDECLFVQLGDSLKFLSRGKILPSLHRVLPSDVAPEATKYTIAYFLRPNEEAEITSDDG
                      KVWLYKDYHCRKFDAFARPLGYRPDGEESLISLRDYTGVE"
-     CDS             complement(join(7173..8467,8519..8616,8666..8997,9065..9421,
-                     9481..10339,10392..12651,12714..14649,14695..14733,
-                     14783..15202))
+                     /Pfam="2OG-FeII_Oxy"
+     CDS             complement(join(7173..8467,8519..8616,8666..8997,
+                     9065..9421,9481..10339,10392..12651,12714..14649,
+                     14695..14733,14783..15202))
                      /codon_start=1
                      /locus_tag="GLAREA_10034"
                      /product="polyketide synthase GLPKS4"
-                     /label=GLPKS4
+                     /label="GLPKS4"
                      /protein_id="EPE34340.1"
                      /translation="MGDISGSVDPSNMAYEPLAIVGMGMRLPGGIHTAEDFWNLLVEKR
                      SSRCKVPSDRFNIEAFYSPSGRVGTVKMEHGHFLGPTDDLQHFDASFFSMSKKEVEILD
@@ -146,11 +149,13 @@ FEATURES             Location/Qualifiers
                      TDQLKSFMSSVETDSSILNVPASLDLVTNEIGVRIYTFMLQPIEDLDVSQTLAALGVDS
                      LVTIEIRNWMKRSFGGLEFSTLEILNAGTIEALGLLTIEGLKRKYEMKDGEAKFSERED
                      TYLLMKAP"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_DH, PKS_NRPS_MT, fPKS_ER,
+                     fPKS_KR, ACP_PCP"
      CDS             16857..38546
                      /codon_start=1
                      /locus_tag="GLAREA_10035"
                      /product="nonribosomal peptide synthetase GLNRPS4"
-                     /label=GLNRPS4
+                     /label="GLNRPS4"
                      /note="revised sequence"
                      /protein_id="EPE34341.1"
                      /translation="MTPSRSLENGEKQMNWNESPQTASPKNVLRDSNSNGNYVNGHGTN
@@ -276,6 +281,7 @@ FEATURES             Location/Qualifiers
                      GCCVTLIPFRVTLEQQWTIKDLLDNVRDQQSQSMQHSQLGFREILRECTDWPASTRFTS
                      ALNHISSGPESSIFSMRGVEYSISEMEIKDPLWEIDVGITTIQRGSELEIRLSYLPANI
                      SESVATSLLDALHNTLQFIHNNPLSPVKQVLSFHTDMKIQNGSSN"
+                     /Pfam="ACP_PCP, NRPS_C, AA-adenyl-dom, NRPS_CT"
      CDS             join(39614..39835,39912..40440,40492..40718,40769..41069,
                      41117..41350,41408..42216,42285..42447,42496..42834,
                      42892..43015,43069..43140,43198..43929,43997..44080,
@@ -283,7 +289,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="GLAREA_10036"
                      /product="ABC transporter GLTRT"
-                     /label=GLTRT
+                     /label="GLTRT"
                      /note="revised sequence"
                      /protein_id="EPE34342.1"
                      /translation="MVAQSTQCRTEVENVFGPQVTECYDNFDFTLLFEESILCLAPLLL
@@ -312,12 +318,13 @@ FEATURES             Location/Qualifiers
                      TEELLDILEVVGMREVIDKKGGLDAMANADVLSHGQSQLLCLARAILRPNKILILDEAT
                      SSVDKKTEEKMVDIIREKFQDRTVISVAHNLNTIMDYDEVIVLEAGRIIEQGKPLALAL
                      EPSFFASLLKAADGESEDALEEETISNIASPRSR"
+                     /Pfam="ABC_membrane, ABC_tran"
      CDS             complement(join(45246..45616,45739..45916,45995..46356,
                      46408..46945,47000..47359,47418..47603,47664..48281))
                      /codon_start=1
                      /locus_tag="GLAREA_10037"
                      /product="aconitase GLHtyD"
-                     /label=GLhtyD
+                     /label="GLhtyD"
                      /note="revised sequence"
                      /protein_id="EPE34343.1"
                      /translation="MPKPTISYSLNGLPAAAVDSIGSLLEILARIRGIVLTEQSNDETA
@@ -335,12 +342,13 @@ FEATURES             Location/Qualifiers
                      ILESPTDTLLGSHALEFTNPDFRDKVRQGMRVVVAGKAFGCGSSREEAPRALKGLGVQC
                      VIAKSFSFIYGRNQPSIGLLGINIADDRFYELAKTGAGIKIDVPGRVVRLEGQNFPFVL
                      DDMELSLIKNNGLATAYKKYGKNVFALLCNTKSSLRPSELAELQLKGVSDGMQTSLEW"
+                     /Pfam="Aconitase, Aconitase_C"
      CDS             join(48729..48803,48875..48946,49030..49125,49221..49860,
                      49928..50166)
                      /codon_start=1
                      /locus_tag="GLAREA_10038"
                      /product="isopropyl malate dehydrogenase GLHtyC"
-                     /label=GLhtyC
+                     /label="GLhtyC"
                      /protein_id="EPE34344.1"
                      /translation="MTKQFDIVVFPGDYGGPEVMAEGIKVLKAIERKHQSDVSFNLKYH
                      LIGGASFDIHDTPITTEALEDAKAASAVLLGAVGGPKWDGTPVPVESGLGRLRKFLDAF
@@ -349,11 +357,12 @@ FEATURES             Location/Qualifiers
                      SHMLIDTAAMNVARRPTSLNGIILTSNMFGDIISDEASAIPGSLGLLPSASLCAIPTVL
                      DASKVRGIYEPIHGSAPDIAGQGIINPTGMILSVAMMLRYSLAMPEAADSIEAAVGKVI
                      EDDCRTSDIGGRASTADFGDAVVIALRNCLDKN"
+                     /Pfam="Iso_dh"
      CDS             complement(join(50604..50717,50776..52341,52434..52628))
                      /codon_start=1
                      /locus_tag="GLAREA_10039"
                      /product="isopropyl malate synthase GLHtyA"
-                     /label=GLhtyA
+                     /label="GLhtyA"
                      /protein_id="EPE34345.1"
                      /translation="MKNTDERYSMATCCAGGQSLRSKYGERAPNIQLSDRQWPSKKLTK
                      SPIWLSTDLRDGNQALPNPMTLQQKWRMFQLLVSIGFTQIEVSFPCASQTEFDFTRQLI
@@ -366,12 +375,13 @@ FEATURES             Location/Qualifiers
                      RSVSLERGLAAEEICDFFLEIYDLKSSYNTQLLKRLHSGFSQTIDMQQELEDATAPANN
                      AAMDISKTMGIDVHCTMASSHVISSHDGEQLSNVAFVQCEIEQTTPCVWGVGVALSREE
                      AVNRSLLLAARSYLTSMKRKPGTETPDTKTSVNAIIQPLEVYSFSQKA"
+                     /Pfam="HMGL-like"
      CDS             complement(join(53410..53643,53706..54475,54553..54585,
                      54641..54680))
                      /codon_start=1
                      /locus_tag="GLAREA_10040"
                      /product="transaminase GLHtyB"
-                     /label=GLhtyB
+                     /label="GLhtyB"
                      /protein_id="EPE34346.1"
                      /translation="MTENFPLPPLLGVDWDHLGFEPLEVNGHVECTFSTTTSCWTEPVF
                      VTNPYLPVHGLAPGLNYGQQIFEGMKAFRNPSGDVQLFRPDQNALRFARSALRVAIPPV
@@ -380,11 +390,12 @@ FEATURES             Location/Qualifiers
                      SLSHSLIDEFSTSGFIGVLNDGEVPTIVVSDSQQVVSSITVDSICELARAFDWHVQKRP
                      ISFLEVARFSEVYAAGTAAVLVPVESILRRSTGEHVVYSVEYSSPTSCFSRLSTALRDI
                      QQGLVPDDRSWIKLVTKP"
+                     /Pfam="Aminotran_4"
      CDS             complement(join(54919..55578,55636..55800,55855..56016))
                      /codon_start=1
                      /locus_tag="GLAREA_10041"
                      /product="2OG-Fe(II)-dependent dioxygenase GLOXY2"
-                     /label=GLOXY2
+                     /label="GLOXY2"
                      /protein_id="EPE34347.1"
                      /translation="MAIQTLDYRDFQYGGQEQHRTFCHNLCETLSTWGFIKIQNTSIPD
                      AVIDELFSYNKKFFALPEHIKQKARHPAAPNPHRGWSAVGQEQLSRIAGFEKDEETDGF
@@ -392,11 +403,12 @@ FEATURES             Location/Qualifiers
                      PEDLLLSRHQTDTSELRMNHYPAIACENLKFGMRIGEHSDFGTLTLLLQDSTGGLQVED
                      QKKLGTFIPVESDSRYEVIVNVGDCLQRWTNRRLRSANHRVHLPEGKNFKSDEVLADRY
                      SVAYFGKPDRNVLVDSFPEFCRGGESKYNDHMNALEYNQTKLLRTYA"
+                     /Pfam="DIOX_N, 2OG-FeII_Oxy"
      CDS             join(56470..56787,56842..57510)
                      /codon_start=1
                      /locus_tag="GLAREA_10042"
                      /product="2OG-Fe(II)-dependent dioxygenase GLOXY3"
-                     /label=GLOXY3
+                     /label="GLOXY3"
                      /protein_id="EPE34348.1"
                      /translation="MDYIKQAESTQLSSLSLSRLEGNNAEESKRLLEACAQDGFFYLDL
                      RDHKQLLVDYEALLEIIKQYFNEPLDQKMKDDRKSDTIGYEPVATSAGVLDGLPDYYES
@@ -404,12 +416,13 @@ FEATURES             Location/Qualifiers
                      HRDSIATRTNLTFLKYPKQDTTEHGVGHNKHTDVGTLTFLLSGQRGLQRLTPEGWCHVE
                      PRSGFAVVNVGDSLRFLSDCVLSSVIHRVLPVGAHQTEDRYTLAYFLRPEDDAVFKDIN
                      GNLVSARSWHDRKFDHFRASHNQQKNDTILMGGMEENQKFLQYKFQA"
+                     /Pfam="DIOX_N, 2OG-FeII_Oxy"
      CDS             complement(join(58102..58419,58479..58804,58864..59026,
                      59105..59350,59410..59784,59871..60149))
                      /codon_start=1
                      /locus_tag="GLAREA_10043"
                      /product="CoA ligase GLligase"
-                     /label=GLligase
+                     /label="GLligase"
                      /protein_id="EPE34349.1"
                      /translation="MVFTSPSWCQDILMPIPNNELVGEFVMRRGHGLNDVSEDSPSSVC
                      AYTGKSYSIRDIRHNVKSLSKSLSQILGWDFNHGNPEDKVVAVCSLNSIDYVPLTWAIH
@@ -421,11 +434,12 @@ FEATURES             Location/Qualifiers
                      QAGDLLVRSPSVMKEYLDDDLKRDVTFDSDGWLRTGDVATFKQNPKGDSHLFIVDRKKD
                      IMKVKGIQVPPVEIEGHLVAHPAVDDAAVVAISDEDAGERPFAFVVRSQKVMTDIDEKS
                      LKKDISGYIQSTLSEPYWLRQNIRFIDAIPKSHNGKALKFKLKQQLVTSSA"
+                     /Pfam="AA-adenyl-dom"
      CDS             join(61789..61950,62000..62173,62233..62895)
                      /codon_start=1
                      /locus_tag="GLAREA_10044"
                      /product="2OG-Fe(II)-dependent dioxygenase GLOXY4"
-                     /label=GLOXY4
+                     /label="GLOXY4"
                      /protein_id="EPE34350.1"
                      /translation="MRIETLDFSKFHVGTDAERYEFSTALLTGFANAGFIKLINHGFSQ
                      EEISQLFEENRRFFDLTDSIKAQIANEDGPKPQRGWSAVGAEKTGLLNTGGKTNLTKPD
@@ -433,11 +447,12 @@ FEATURES             Location/Qualifiers
                      MHLPKGAFIQKCQGHASELRLNHYPKITVKTLQGGKTSRIWPHTDFGVITLLAQDDVGG
                      LEIQDKDNPTNFLPVSREDVSELVVNIGDTLERWTNGFLKAGLHQVTTPREIVNQSTET
                      VRPRRSIAFFLKAHRQMSVGPLPQFVAEKTPAKYEDITALAYQQRRTAIVY"
+                     /Pfam="DIOX_N, 2OG-FeII_Oxy"
      CDS             complement(join(63564..63792,63848..65598,65643..65711))
                      /codon_start=1
                      /locus_tag="GLAREA_10045"
                      /product="hypothetical protein GLHYP"
-                     /label=GLHYP
+                     /label="GLHYP"
                      /note="GLAREA_10045"
                      /protein_id="EPE34351.1"
                      /translation="MDLFQSPGGDLIQDEDSVEVIEMLCIDFRDRLLVALSTTCQSDFR
@@ -452,6 +467,7 @@ FEATURES             Location/Qualifiers
                      ANTRSAKERLKYRSKTRALTDLMQTLYPDLSPDSEGITTAGGCEYTRKLTKLRNRLACA
                      RNWYQFEETFPGAILALIPCATGDLSISIDHVEKLPSDVLKIFLDYLKERRGVFLSKMS
                      RILSKDLYDVLMRRNVTKRYKLEQTNENSLTDGLHDDDRLLELCETV"
+                     /Pfam="EcdJ"
 ORIGIN
         1 tcacaccttt cgtcttttca ccttaatctt caaactggca tcaggcttcg tggtccccac
        61 cataatcttg ttttgaatct tcgtggatag cttctccacg tcgtaatttt gcaccaagta

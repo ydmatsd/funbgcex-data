@@ -1,53 +1,55 @@
-LOCUS       FBGC00340       12929 bp DNA     linear   UNA 13-FEB-2023
+LOCUS       FBGC00340              12929 bp    DNA     linear   UNA 13-FEB-2023
 DEFINITION  epi-aszonalenin A.
 ACCESSION   FBGC00340
-VERSION     .
+VERSION     FBGC00340
 KEYWORDS    .
 SOURCE      Aspergillus novofumigatus IBT 16806
   ORGANISM  Aspergillus novofumigatus IBT 16806
+            .
 REFERENCE   1  (bases 1 to 12929)
-  AUTHORS   Matsuda Y, Bai T, Phippen CBW, Nødvig CS, Kjærbølling I, Vesth TC, 
+  AUTHORS   Matsuda Y, Bai T, Phippen CBW, Nødvig CS, Kjærbølling I, Vesth TC,
             Andersen MR, Mortensen UH, Gotfredsen CH, Abe I, Larsen TO.
-  TITLE     Novofumigatonin biosynthesis involves a non-heme iron-dependent 
+  TITLE     Novofumigatonin biosynthesis involves a non-heme iron-dependent
             endoperoxide isomerase for orthoester formation.
   JOURNAL   Nat Commun 2018;9:2587
-  PUBMED    29968715
+   PUBMED   29968715
 REFERENCE   2  (bases 1 to 12929)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Feb 13, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1038/s41467-018-04983-2"; journalName: "Nat Commun"; date: 
+  JOURNAL   Exported Feb 13, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     ##Metadata-START##
+            Organism Display Name :: Aspergillus novoparasiticus IBT 16806 v1.0
+            GOLD Stamp ID         :: Gp0040455
+            ##Metadata-END##
+            ##Genome-Assembly-Data-START##
+            Assembly Date         :: 10-JAN-2014
+            Assembly Method       :: HBAR v. Jan-2014
+            Assembly Name         :: Aspnov1
+            Genome Coverage       :: 29.67x
+            Sequencing Technology :: PacBio
+            ##Genome-Assembly-Data-END##
+            ##Genome-Annotation-Data-START##
+            Annotation Provider   :: INSDC submitter
+            Annotation Status     :: Full annotation
+            Annotation Pipeline   :: Eukaryotic Annotation Propagation Pipeline
+            ##Genome-Annotation-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1038/s41467-018-04983-2"; journalName: "Nat Commun"; date:
             "2018"; volume: "9"; pages: "2587"
-COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final 
-            NCBI review. The reference sequence is identical to MSZS01000003. 
+            PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to MSZS01000003.
             URL -- http://genome.jgi.doe.gov/Aspnov1
             JGI Project ID: 1021601
             The DNA was provided by Mikael Andersen (mr@bio.dtu.dk)
             The strain is available from Mikael Andersen
             Contacts: Mikael Andersen (mr@bio.dtu.dk)
             Assembly and annotation done by JGI.
-            The JGI and collaborators endorse the principles for the 
-            distribution and use of large scale sequencing data adopted by the 
-            larger genome sequencing community and urge users of this data to 
+            The JGI and collaborators endorse the principles for the
+            distribution and use of large scale sequencing data adopted by the
+            larger genome sequencing community and urge users of this data to
             follow them. It is our intention to publish the work of this project
-            in a timely fashion and we welcome collaborative interaction on the 
-            project and analysis. 
-            (http://www.genome.gov/page.cfm?pageID=10506376).##Metadata-START##
-            Organism Display Name :: Aspergillus novoparasiticus IBT 16806 v1.0 
-            GOLD Stamp ID         :: Gp0040455
-            ##Metadata-END####Genome-Assembly-Data-START##
-            Assembly Date         :: 10-JAN-2014
-            Assembly Method       :: HBAR v. Jan-2014
-            Assembly Name         :: Aspnov1
-            Genome Coverage       :: 29.67x
-            Sequencing Technology :: PacBio
-            ##Genome-Assembly-Data-END####Genome-Annotation-Data-START##
-            Annotation Provider :: INSDC submitter
-            Annotation Status   :: Full annotation
-            Annotation Pipeline :: Eukaryotic Annotation Propagation Pipeline 
-            ##Genome-Annotation-Data-END##
+            in a timely fashion and we welcome collaborative interaction on the
+            project and analysis.
 FEATURES             Location/Qualifiers
      source          1..12929
                      /chromosome="Unknown"
@@ -61,7 +63,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="P174DRAFT_386801"
                      /product="acetyltransferase e-AnaAT"
-                     /label=e-anaAT
+                     /label="e-anaAT"
                      /db_xref="GeneID:36530648"
                      /db_xref="InterPro:IPR003480"
                      /db_xref="JGIDB:Aspnov1_386801"
@@ -75,11 +77,12 @@ FEATURES             Location/Qualifiers
                      NAVCLLREQVPLRFFAAPGDANTEATSSFCADHSEDDEWAMSFCRVAYGLRAKLNAIDD
                      DCIRDYISHVQKSPCHLSVTLDTGSLYVSNWREISVYDADFGGMLGKPLRTRAPDGYTD
                      GLIFVMAQRSEDRTAPWEFNISLEPSAMKRIEHDPLWCKYVELDEFWHGEA"
+                     /Pfam="Transferase"
      CDS             complement(join(2341..2467,2519..3705))
                      /codon_start=1
                      /locus_tag="P174DRAFT_404100"
                      /product="DMATS-type prenyltransferase e-AnaPT"
-                     /label=e-anaPT
+                     /label="e-anaPT"
                      /db_xref="GeneID:36531338"
                      /db_xref="JGIDB:Aspnov1_404100"
                      /protein_id="XP_024683988.1"
@@ -91,11 +94,12 @@ FEATURES             Location/Qualifiers
                      YVADSQLCLTTLRELWTLGGSVTDSATMKGLEIAEELWRVLQFDDAVRSHSDVDQLPLV
                      VNYELSSGSATPKPQLYLPLHGRNDEAMANALTKFWEYLGWKGLAAQYKNDLYANNPCR
                      NLAETTTVQRWVAFSYTESGGAYLTVYFHAVGGMQGNL"
+                     /Pfam="Trp_DMAT"
      CDS             join(5816..6250,6303..12929)
                      /codon_start=1
                      /locus_tag="P174DRAFT_404104"
                      /product="nonribosomal peptide synthetase e-AnaPS"
-                     /label=e-anaPS
+                     /label="e-anaPS"
                      /db_xref="GeneID:36531339"
                      /db_xref="InterPro:IPR000873"
                      /db_xref="InterPro:IPR001242"
@@ -143,6 +147,7 @@ FEATURES             Location/Qualifiers
                      TVRQARRAMDMHGWKHFTSIYHNTQQEKCSAGMQLMEITFNYAGKFQQVEQDGALFRME
                      PMAKQNLFDGAGELGRWAMLEINSVILNGMLEFHVTYNRGTDEARVLSPWMDNLVKCLE
                      GLASGFA"
+                     /Pfam="AA-adenyl-dom, ACP_PCP, NRPS_C, NRPS_E"
 ORIGIN
         1 tcatgcttct ccatgccaga actcatccag ctcaacatac ttgcaccaga ggggatcatg
        61 ctcaatacgc ttcattgccg atggctccag agagatatta aactcccacg gggcagtcct

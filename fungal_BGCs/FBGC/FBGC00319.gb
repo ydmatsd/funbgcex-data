@@ -1,29 +1,28 @@
-LOCUS       FBGC00319       19809 bp DNA     linear   UNA 10-FEB-2023
+LOCUS       FBGC00319              19809 bp    DNA     linear   UNA 10-FEB-2023
 DEFINITION  brefeldin A.
 ACCESSION   FBGC00319
-VERSION     .
+VERSION     FBGC00319
 KEYWORDS    .
 SOURCE      Penicillium brefeldianum ATCC 58665
   ORGANISM  Penicillium brefeldianum ATCC 58665
+            .
 REFERENCE   1  (bases 1 to 19809)
   AUTHORS   Zabala AO, Chooi YH, Choi MS, Lin HC, Tang Y.
-  TITLE     Fungal polyketide synthase product chain-length control by 
+  TITLE     Fungal polyketide synthase product chain-length control by
             partnering thiohydrolase.
   JOURNAL   ACS Chem Biol 2014;9:1576-86
-  PUBMED    24845309
+   PUBMED   24845309
 REFERENCE   2  (bases 1 to 19809)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Feb 10, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: "10.1021/cb500284t";
-            journalName: "ACS Chem Biol"; date: "2014"; volume: "9"; pages: 
-            "1576-86"
+  JOURNAL   Exported Feb 10, 2023 from SnapGene 6.2.1 https://www.snapgene.com
 COMMENT     ##Assembly-Data-START##
-            Assembly Method       :: GS de novo assembler v. 2010; Geneious v.
-                                     5.4
+            Assembly Method :: GS de novo assembler v. 2010; Geneious v. 5.4
             Sequencing Technology :: 454; Illumina
             ##Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi: "10.1021/cb500284t";
+            journalName: "ACS Chem Biol"; date: "2014"; volume: "9"; pages:
+            "1576-86"
 FEATURES             Location/Qualifiers
      source          1..19809
                      /strain="ATCC 58665"
@@ -34,9 +33,9 @@ FEATURES             Location/Qualifiers
      CDS             complement(join(1..804,861..983))
                      /codon_start=1
                      /product="thiohydrolase Bref-TH"
-                     /label=bref-TH
-                     /note="Bref-TH; alpha/beta hydrolase; involved in
-                     brefeldin A biosynthesis; orf2"
+                     /label="bref-TH"
+                     /note="Bref-TH; alpha/beta hydrolase; involved in brefeldin
+                     A biosynthesis; orf2"
                      /protein_id="AIA58903.1"
                      /translation="MPGRELAPRQNVEFQTLDGLTLRGWLFPAQSRGPAVIITPGFNCV
                      KEMFVSEVAESFQHSDVTALVYDPRTLGDSGGLPRNNIDPLAQVSDYSDALTFLKTLPI
@@ -44,10 +43,11 @@ FEATURES             Location/Qualifiers
                      SQVVGNPPVTISVLTEQGRNPAGMGIGADKMEYDYMVNAKFRGAPNYENRTTLQSYYKM
                      MAWQPFEIMKYLSKTRVLMIIPENDTISPADKQQVLFDGLPEPKTAHIAKGKGHLDVLS
                      GADYEILAEMQAYFIKGPRGKGNAPSA"
+                     /Pfam="Hydrolase_4"
      CDS             join(1843..2071,2120..2658,2719..3058,3126..3559)
                      /codon_start=1
                      /product="cytochrome P450 monooxygenase Orf3"
-                     /label=orf3
+                     /label="orf3"
                      /note="P450-a; orf3"
                      /protein_id="AIA58895.1"
                      /translation="MFDIYDYSPRLVALGLIAATIIIYSFTLTVYRLFFHPLARIPGPK
@@ -59,10 +59,11 @@ FEATURES             Location/Qualifiers
                      LTAAMPDKTKNLSVPELEALPYLNAVIKEALRLAIGVSQRMRRYSPTETITYKDYTIPP
                      NTVFGMCHWEQLRDARIWDRPTEFLPERWLAEQPLALNGQPLNKYFVPFHRGPRMCLGK
                      EFGMAQLNIGLATLFRQDDIKLELYETDRKDVDVVADFFVPLTVKESQGVRVLVK"
+                     /Pfam="p450"
      CDS             join(4157..4364,4424..4972,5027..5796)
                      /codon_start=1
                      /product="cytochrome P450 monooxygenase Orf4"
-                     /label=orf4
+                     /label="orf4"
                      /note="P450-b; orf4"
                      /protein_id="AIA58896.1"
                      /translation="MYHLIPFAAILGMTYALSLAIYRLFLSPLAKFPGPKLAAVTGWVE
@@ -74,13 +75,13 @@ FEATURES             Location/Qualifiers
                      SDASMPSLEILWQLPYLTGIINEALRLSYGSYARIPRTSDTPIQYDEWTIPPGVVFSMD
                      IAPAHHDERIFPDSYSFKPERWLDNPQAFDGKPLTRYLFSFSRGTRSCLGMQLALAEMY
                      IGIVSFFSRFDAHLFETDLTDITFVRDRFAPRPRIGSRGVRVNRLTTRKF"
+                     /Pfam="p450"
      CDS             join(6663..7059,7107..7289,7338..7672,7726..8131,
                      8194..8495)
                      /codon_start=1
                      /product="cytochrome P450 monooxygenase Orf5"
-                     /label=orf5
-                     /note="P450-c; orf5
-                     revised sequence"
+                     /label="orf5"
+                     /note="P450-c; orf5 revised sequence"
                      /protein_id="AIA58897.1"
                      /translation="MLALLCLASGVLVHLSVFRHGEWETRSPQVVLSYLFVALGGILCL
                      RASNSTMANDVSGLGPTAFVRLLAFHLIGLFVSITVYRLFFHNLSGFRGPFIARLSSFY
@@ -92,10 +93,11 @@ FEATURES             Location/Qualifiers
                      RLRPAVPAGVQRETPKEGIYIGNRYIPGDTIVKVPMYTLFRDPRSFEQPNEFIPERFTT
                      RPELVKDKSVFIPFLTGSYACVGRRLALMEVRRAVAAILCRYDIALAPGQNEEGFLDGK
                      IDAFTLVAAPLSLKFTRRHQQKQ"
+                     /Pfam="p450"
      CDS             complement(9267..10775)
                      /codon_start=1
                      /product="cytochrome P450 monooxygenase Orf6"
-                     /label=orf6
+                     /label="orf6"
                      /note="P450-d; orf6"
                      /protein_id="AIA58898.1"
                      /translation="MLALWVLAVALVAYFLCLSIYRLFLHPLANIPGPKLCALTGWYEV
@@ -107,10 +109,11 @@ FEATURES             Location/Qualifiers
                      SVPELEQLPYLAACIREALRLAIGVSQRIRRYNPHAPTQYKNYTIPPNTVFGMCHWEQL
                      RDARVWDRPYEFLPERWLANNGNPLALNGQPLAKYFVPFHRGPRGCLGKEMGMAQLNIG
                      LATLFRRVDHLELFETDQSAVDIVADYFVPLCVKGSKGVRVLVK"
+                     /Pfam="p450"
      CDS             join(12493..12928,13002..13256,13320..18922,18982..19809)
                      /codon_start=1
                      /product="polyketide synthase Bref-PKS"
-                     /label=bref-PKS
+                     /label="bref-PKS"
                      /note="Bref-PKS; orf7; involved in Brefeldin A
                      biosynthesis"
                      /protein_id="AIA58899.1"
@@ -155,6 +158,8 @@ FEATURES             Location/Qualifiers
                      ISKASAGQLITSIAVPQRENSSLLRDARFSTLSFSDGEDVGAGSDGKDAGIQALQLLVK
                      NKAAVSAIHDAVIDVTVRQFTTMLSLSEPMEPAKAPSSYGLDSLAAVEFRNWVRLELKA
                      EVTTLDIISATSLEQLAQKIVARLTAV"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_DH, PKS_NRPS_MT, fPKS_ER,
+                     fPKS_KR, ACP_PCP"
 ORIGIN
         1 ctacgcactc ggtgcgtttc cttttcctcg tgggcctttg ataaagtacg cttgcatctc
        61 agctaatatc tcgtagtctg ctccgctcaa aacgtcgaga tgacccttcc ctttcgcgat

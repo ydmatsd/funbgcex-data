@@ -1,35 +1,36 @@
-LOCUS       FBGC00336       16433 bp DNA     linear   UNA 13-FEB-2023
+LOCUS       FBGC00336              16433 bp    DNA     linear   UNA 13-FEB-2023
 DEFINITION  nectriapyrone.
 ACCESSION   FBGC00336
-VERSION     .
+VERSION     FBGC00336
 KEYWORDS    .
 SOURCE      Pyricularia oryzae 70-15
   ORGANISM  Pyricularia oryzae 70-15
+            .
 REFERENCE   1  (bases 1 to 16433)
   AUTHORS   Motoyama T, Nogawa T, Hayashi T, Hirota H, Osada H.
-  TITLE     Induction of Nectriapyrone Biosynthesis in the Rice Blast Fungus 
-            Pyricularia oryzae by Disturbance of the Two-Component Signal 
+  TITLE     Induction of Nectriapyrone Biosynthesis in the Rice Blast Fungus
+            Pyricularia oryzae by Disturbance of the Two-Component Signal
             Transduction System.
   JOURNAL   Chembiochem 2019;20:693-700
-  PUBMED    30443971
+   PUBMED   30443971
 REFERENCE   2  (bases 1 to 16433)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Feb 13, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1002/cbic.201800620"; journalName: "Chembiochem"; date: "2019"; 
-            volume: "20"; pages: "693-700"
-COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final 
-            NCBI review. The reference sequence is identical to 
-            CM001235.##Genome-Assembly-Data-START##
+  JOURNAL   Exported Feb 13, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     ##Genome-Assembly-Data-START##
             Assembly Name         :: MG8
             Sequencing Technology :: Sanger ABI
-            ##Genome-Assembly-Data-END####Genome-Annotation-Data-START##
-            Annotation Provider :: INSDC submitter
-            Annotation Status   :: Full annotation
-            Annotation Pipeline :: Eukaryotic Annotation Propagation Pipeline 
+            ##Genome-Assembly-Data-END##
+            ##Genome-Annotation-Data-START##
+            Annotation Provider   :: INSDC submitter
+            Annotation Status     :: Full annotation
+            Annotation Pipeline   :: Eukaryotic Annotation Propagation Pipeline
             ##Genome-Annotation-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1002/cbic.201800620"; journalName: "Chembiochem"; date: "2019";
+            volume: "20"; pages: "693-700"
+            PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to
 FEATURES             Location/Qualifiers
      source          1..16433
                      /chromosome="5"
@@ -41,7 +42,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="MGG_14657"
                      /product="methyltransferase NEC2"
-                     /label=NEC2
+                     /label="NEC2"
                      /db_xref="GeneID:5050752"
                      /protein_id="XP_003718176.1"
                      /translation="MASSRDRAYVTVYSPTLLTWVYDYYVLGFNLRYIWGCPTDAVLLP
@@ -49,12 +50,13 @@ FEATURES             Location/Qualifiers
                      APGIETTCVEADVVADLPPVLASVVEEERARVEKAGGEAGSSSRSCLYDSISMFNLFHC
                      VPGGPAKLRAISTYKALLADHGVLSGCTVLGERHATGWFSRWYLRLYNRKGIFNNINDT
                      REEFEEVLNKEFEEVDTWMFGMVLLFRASKPRREGSGYVDLLA"
+                     /Pfam="VrtF"
      CDS             join(7848..8024,8132..8290,8461..8688,8772..10215,
                      10317..15478,15549..16433)
                      /codon_start=1
                      /locus_tag="MGG_00806"
                      /product="polyketide synthase NEC1"
-                     /label=NEC1
+                     /label="NEC1"
                      /db_xref="GeneID:2675225"
                      /protein_id="XP_003718178.1"
                      /translation="MDDTPIAIIGLDARFPGDGDTAERFYDFLLAGRSARSEIPPERYN
@@ -103,6 +105,8 @@ FEATURES             Location/Qualifiers
                      DLPTSVLRAQVAPRLWLAQDTADEGTEPPAWVRDPLFSHLRPQSSETTGNGAAGGEAGK
                      KEMKHTALLAAATSAAEAQAVVLDALLAKLSRVLSVELSDLDPACPLSRYGVDSLVAVS
                      LRAWIGKELGAELSVFEMTDKPSIRALAAAVAGRSRLVSKALS"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_DH, PKS_NRPS_MT, fPKS_ER,
+                     fPKS_KR, ACP_PCP"
 ORIGIN
         1 tcatgccaac aagtcaacat agccactccc ctccctcctc ggcttcgaag ccctaaacaa
        61 caagaccatc ccaaacatcc aggtgtcgac ctcctcgaat tccttgttca acacctcctc

@@ -1,37 +1,38 @@
-LOCUS       FBGC00339       39941 bp DNA     linear   UNA 13-FEB-2023
+LOCUS       FBGC00339              39941 bp    DNA     linear   UNA 13-FEB-2023
 DEFINITION  ustilagic acid.
 ACCESSION   FBGC00339
-VERSION     .
+VERSION     FBGC00339
 KEYWORDS    .
 SOURCE      Ustilago maydis 521
   ORGANISM  Ustilago maydis 521
+            .
 REFERENCE   1  (bases 1 to 39941)
   AUTHORS   Teichmann B, Linne U, Hewald S, Marahiel MA, Bolker M.
-  TITLE     A biosynthetic gene cluster for a secreted cellobiose lipid with 
+  TITLE     A biosynthetic gene cluster for a secreted cellobiose lipid with
             antifungal activity from Ustilago maydis.
   JOURNAL   Mol Microbiol 2007;66:525-33
-  PUBMED    17850255
+   PUBMED   17850255
 REFERENCE   2  (bases 1 to 39941)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Feb 13, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1111/j.1365-2958.2007.05941.x"; journalName: "Mol Microbiol"; 
-            date: "2007"; volume: "66"; pages: "525-33"
-COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final 
-            NCBI review. The reference sequence is identical to 
-            CM003162.##Genome-Assembly-Data-START##
+  JOURNAL   Exported Feb 13, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     ##Genome-Assembly-Data-START##
             Assembly Date         :: 2014
             Assembly Method       :: Arachne v. May-2005
             Assembly Name         :: Umaydis521_2.0
             Genome Coverage       :: 10.0x
             Sequencing Technology :: Sanger
-            ##Genome-Assembly-Data-END####Genome-Annotation-Data-START##
-            Annotation Provider :: INSDC submitter
-            Annotation Status   :: Full annotation
-            Annotation Pipeline :: Eukaryotic Annotation Propagation Pipeline 
+            ##Genome-Assembly-Data-END##
+            ##Genome-Annotation-Data-START##
+            Annotation Provider   :: INSDC submitter
+            Annotation Status     :: Full annotation
+            Annotation Pipeline   :: Eukaryotic Annotation Propagation Pipeline
             ##Genome-Annotation-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1111/j.1365-2958.2007.05941.x"; journalName: "Mol Microbiol";
+            date: "2007"; volume: "66"; pages: "525-33"
+            PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to
 FEATURES             Location/Qualifiers
      source          1..39941
                      /chromosome="23"
@@ -44,7 +45,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="UMAG_06458"
                      /product="transcription factor Rua1"
-                     /label=rua1
+                     /label="rua1"
                      /db_xref="GeneID:23566040"
                      /protein_id="XP_011392726.1"
                      /translation="MMPISATIDSKSFPFDTTPTYASLDAYQMDQRALPTSPFNGAVKR
@@ -61,11 +62,12 @@ FEATURES             Location/Qualifiers
                      AVEKVQNLFPSDLYAPRFTRRGTCGREGWCSLCPQGEWYSMKRSQYLYHMQFDHGISNL
                      TRRLFHPPQTLRVWNDAVSKTDGLCHHCNKWIPICFGPQRKRDFKAWFKHARKCHRDDT
                      GCPI"
+                     /Pfam="Rua1_C"
      CDS             complement(join(2960..4450,4607..4723))
                      /codon_start=1
                      /locus_tag="UMAG_06459"
                      /product="cytochrome P450 monooxygenase Cyp2"
-                     /label=cyp2
+                     /label="cyp2"
                      /db_xref="GeneID:23566041"
                      /protein_id="XP_011392727.1"
                      /translation="MLNETIFGRQVADVREHGLFGRPFWLNALYAFLLYSAFLGYKSYF
@@ -78,11 +80,12 @@ FEATURES             Location/Qualifiers
                      RRTGKEPTVVLGHVIPPRTAISASLRALHYSPKYWASPNRYWPERFLPADSIHSASDPA
                      PAADMEAFMPFGCGPRNCIGSKFAWHEMRMVLHTLLARYTISAVEATDKVDFRQFVTFQ
                      LAKPEYRIAVTPRMALKA"
+                     /Pfam="p450"
      CDS             complement(5580..16694)
                      /codon_start=1
                      /locus_tag="UMAG_06460"
                      /product="fatty acid synthase Fas2"
-                     /label=fas2
+                     /label="fas2"
                      /db_xref="GeneID:23566042"
                      /protein_id="XP_011392728.1"
                      /translation="MDASRLSRSSSTSFTSVLSPFEPASVAVSAHGSPPSSASPGPDDK
@@ -149,11 +152,14 @@ FEATURES             Location/Qualifiers
                      NRIVYPSRSIRYSRERLHAGLVTSFGFGQVGGIAMILHASHLFGRLDREAFELYKARRN
                      KRQQITYRRMHSLFIKGDLVRIKEDAPYSPEDETAVLLDIDARAELSSEGSYRIVPSIY
                      A"
+                     /Pfam="FAS_N, SAT2, DUF1729, FAS_meander, MaoC_dehydratas,
+                     Acyl_transf_1, Fas_alpha_ACP, FAS_I_H, adh_short_C2,
+                     Thiolase_N"
      CDS             17841..21989
                      /codon_start=1
                      /locus_tag="UMAG_06461"
                      /product="ABC transporter Atr1"
-                     /label=atr1
+                     /label="atr1"
                      /db_xref="GeneID:23566043"
                      /protein_id="XP_011392729.1"
                      /translation="MRFRSDSRADHQHPKKQGSMDPDTIQALKYQDRSSSSSSNNKPKE
@@ -180,11 +186,12 @@ FEATURES             Location/Qualifiers
                      GTIGWNIALGATDENPEDVPLAKIQQAAELAQLGDLLASLPEGLNTQLSARGVQMSGGQ
                      KQRIAIARAMIRDPRVLLLDEATSALDPASERAVQGALDNVSQGRTTIAVAHRLSTIAK
                      ADKVIVMQAGKVVEEGSPRELFQRDGLFALMARLQGVSF"
+                     /Pfam="ABC_membrane, ABC_tran"
      CDS             complement(22287..23828)
                      /codon_start=1
                      /locus_tag="UMAG_06462"
                      /product="acyltransferase Uat1"
-                     /label=uat1
+                     /label="uat1"
                      /db_xref="GeneID:23566044"
                      /protein_id="XP_011392730.1"
                      /translation="MVVKRILPLPRPAGLAPPTEVPLDGQDLAMPKMVMHCIWFFLASS
@@ -196,11 +203,12 @@ FEATURES             Location/Qualifiers
                      VFPLPSSVVSAKDRSGLFNLAWLIRTQYLNVTPGQMSAIIRHHNYTDAETFGPGRLPKC
                      TSMFGNDVTISNVARIPVRQRLDFGEKLGKPYTLTVVGMVPVTLNGLTLDSADGTCFII
                      QAPAEWTSKEAVLQHQPRSGDNQAPGGMLVYVGMRSEEMDKLLQNSLLQEFALVL"
+                     /Pfam="Transferase"
      CDS             complement(25316..27112)
                      /codon_start=1
                      /locus_tag="UMAG_11812"
                      /product="cytochrome P450 monooxygenase Cyp1"
-                     /label=cyp1
+                     /label="cyp1"
                      /db_xref="GeneID:23567650"
                      /protein_id="XP_011392749.1"
                      /translation="MDFKPFLTLQHFRPQGFAGDVLAPGASYNQTWNTMASKFNGRGGN
@@ -214,11 +222,12 @@ FEATURES             Location/Qualifiers
                      ALQDDVLPNGGPRVRKGDLMLYSDWAMGRNPDIWGPDACEFKPSRWTDQETGSSIKYSQ
                      FQAHFFNGGPRLCLGQKLASYEVVQLIHHIFAKFDLELIDLGPGRSAGFGKVPDYLNSL
                      THPMKRPLMVKATLRCCKEGTR"
+                     /Pfam="p450"
      CDS             complement(join(28034..28268,28372..28814,28877..29488))
                      /codon_start=1
                      /locus_tag="UMAG_06464"
                      /product="hypothetical protein Orf1"
-                     /label=orf1
+                     /label="orf1"
                      /db_xref="GeneID:23566045"
                      /protein_id="XP_011392731.1"
                      /translation="MPSRIPSSNDPVLPGRELWGTERFWHFAHHEHQGAFDMVSIFVVD
@@ -229,11 +238,12 @@ FEATURES             Location/Qualifiers
                      TVAAMPFHSPLSVSGATSTIFAPISIRVGSKAELNDIAEAVAESFGLARRFAEDVQDDY
                      VKTLLKLFGSVRLETSVPTFSSLGRLDTVTGLKRYHVVARNNLPTTGIHAWTLNDQLNL
                      TLSWAPARFRRDHIEKFWSTWIGTIKEVVA"
+                     /Pfam="LolU"
      CDS             30146..31294
                      /codon_start=1
                      /locus_tag="UMAG_06465"
                      /product="hypothetical protein Orf2"
-                     /label=orf2
+                     /label="orf2"
                      /db_xref="GeneID:23566046"
                      /protein_id="XP_011392732.1"
                      /translation="MLQEAKVSTHTSNPLSQSVPQYGHSFDEATRVERLDSAPESLASV
@@ -243,11 +253,12 @@ FEATURES             Location/Qualifiers
                      VDTPQQEDYSEEHASADLQSSPHYCKGSRILPLRSSHSRRIDAKSIPMFGDFRRPAYEN
                      VIKQDPCHPHDVPTRKFAFPTLQYTIRFLAKVPHDTEWLHTQWRETVVDGRIISDVYIT
                      TEQGAEPVAICQLDSLMFDMQWALSTMPSAEKSKKSPEASQL"
+                     /Pfam="4HBT_3"
      CDS             join(32183..32231,32317..33170)
                      /codon_start=1
                      /locus_tag="UMAG_06466"
                      /product="short-chain dehydrogenase/reductase Uhd1"
-                     /label=uhd1
+                     /label="uhd1"
                      /db_xref="GeneID:23566047"
                      /protein_id="XP_011392733.1"
                      /translation="MAGTSRNVRVLVTGANGFVGSHIVSLLLSRGYVVNATVRRQTASE
@@ -256,11 +267,12 @@ FEATURES             Location/Qualifiers
                      ERRAWELSSTLKLPLTTVAPVYIGGPTIIHEQDPKSSVSNQDLLRCIEDESRSRIPGWI
                      DVRTVAHLHLHAIEDHSLNGRRILACTHNRGVVPMDCSLMNSLLAKDSAALIDFDRTKR
                      DLLEQIDAFNSGQTRRVVA"
+                     /Pfam="Epimerase"
      CDS             complement(33921..35657)
                      /codon_start=1
                      /locus_tag="UMAG_06467"
                      /product="glycosyltransferase Ugt1"
-                     /label=ugt1
+                     /label="ugt1"
                      /db_xref="GeneID:23566048"
                      /protein_id="XP_011392734.1"
                      /translation="MATEHILLVCWPAVGHARPMLDYAAAQLKQNPGLIITFICSKMQI
@@ -274,11 +286,12 @@ FEATURES             Location/Qualifiers
                      TLFVNWVDQHYVLQHPSVGWFLSHGGWNSCQESMLAGTPLLILPFFGDQLFNAYFLESI
                      QIAYRFNTAANMSVADFVASFREGITCTRPESERGSQLTKNAKELQLRLKGERALAEVR
                      LF"
+                     /Pfam="UDPGT"
      CDS             37496..37843
                      /codon_start=1
                      /locus_tag="UMAG_11813"
                      /product="hypothetical protein Orf3"
-                     /label=orf3
+                     /label="orf3"
                      /db_xref="GeneID:23567651"
                      /protein_id="XP_011392750.1"
                      /translation="MTYSKIACSLGKRGIARAPNQASSFFLLLFLFAKFSQQLSPSPCL
@@ -288,7 +301,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="UMAG_12340"
                      /product="fatty acid hydroxylase Ahd1"
-                     /label=ahd1
+                     /label="ahd1"
                      /db_xref="GeneID:23568085"
                      /protein_id="XP_011392763.1"
                      /translation="MTTRTATSTSTTVHGHLGDLKLRNAAITGPHLQPKAAKQDLADTK
@@ -298,6 +311,7 @@ FEATURES             Location/Qualifiers
                      MEDIGFYTVHRALHHPRIYKYIHKKHHEFSAPIAGASTYAHPLEHYFSNLVPILVGLLI
                      TRAHISVQYLFFTGLMIGSHVQHSGYNIPFLTCALVHDWHHYFNTENYGPVGLLDAIFK
                      TNKTFKAWTSETVAAFHGDRAKARQAALEKLAQIEAEEQERIR"
+                     /Pfam="FA_hydroxylase"
 ORIGIN
         1 atgatgccga tctctgctac catagactcc aagtcgtttc cgtttgacac gacgccgacg
        61 tatgcctcgc tggacgccta ccagatggac cagagggctc ttcccacaag ccctttcaat

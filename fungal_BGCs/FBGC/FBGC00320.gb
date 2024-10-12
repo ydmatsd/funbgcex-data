@@ -1,30 +1,30 @@
-LOCUS       FBGC00320       16688 bp DNA     linear   UNA 09-MAY-2023
+LOCUS       FBGC00320              16688 bp    DNA     linear   UNA 09-MAY-2023
 DEFINITION  valactamide A.
 ACCESSION   FBGC00320
-VERSION     .
+VERSION     FBGC00320
 KEYWORDS    .
 SOURCE      Aspergillus terreus ATCC 20542
   ORGANISM  Aspergillus terreus ATCC 20542
+            .
 REFERENCE   1  (bases 1 to 16688)
-  AUTHORS   Clevenger KD, Bok JW, Ye R, Miley GP, Verdan MH, Velk T, Chen C, 
-            Yang K, Robey MT, Gao P, Lamprecht M, Thomas PM, Islam MN, Palmer 
+  AUTHORS   Clevenger KD, Bok JW, Ye R, Miley GP, Verdan MH, Velk T, Chen C,
+            Yang K, Robey MT, Gao P, Lamprecht M, Thomas PM, Islam MN, Palmer
             JM, Wu CC, Keller NP, Kelleher NL.
-  TITLE     A scalable platform to identify fungal secondary metabolites and 
+  TITLE     A scalable platform to identify fungal secondary metabolites and
             their gene clusters.
   JOURNAL   Nat Chem Biol 2017;13:895-901
-  PUBMED    28604695
+   PUBMED   28604695
 REFERENCE   2  (bases 1 to 16688)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported May 9, 2023 from SnapGene 6.2.2
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
+  JOURNAL   Exported May 9, 2023 from SnapGene 6.2.2 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
             "10.1038/nchembio.2408"; journalName: "Nat Chem Biol"; date: "2017";
             volume: "13"; pages: "895-901"
 FEATURES             Location/Qualifiers
      source          1..16688
                      /mol_type="other DNA"
-                     /label=derived from Aspergillus terreus ATCC 20542
+                     /label="derived from Aspergillus terreus ATCC 20542"
                      /note="derived from Aspergillus terreus ATCC 20542"
                      /db_xref="taxon:1955450"
                      /organism="Shuttle vector AtFAC9J20"
@@ -33,20 +33,16 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="lptB"
                      /product="polyketide synthase ValA"
-                     /label=valA
-                     /note="EggNog:ENOG410PJWX;
-                     involved in lipopeptide biosynthesis;
-                     GO_function: GO:0016491 - oxidoreductase activity [Evidence
-                     IEA];
-                     GO_function: GO:0031177 - phosphopantetheine binding 
-                     [Evidence IEA];
-                     GO_function: GO:0003824 - catalytic activity [Evidence 
-                     IEA];
-                     GO_function: GO:0016740 - transferase activity [Evidence 
-                     IEA];
-                     GO_process: GO:0055114 - oxidation-reduction process 
-                     [Evidence IEA];
-                     GO_process: GO:0008152 - metabolic process [Evidence IEA]"
+                     /label="valA"
+                     /note="EggNog:ENOG410PJWX; involved in lipopeptide
+                     biosynthesis; GO_function: GO:0016491 - oxidoreductase
+                     activity [Evidence IEA]; GO_function: GO:0031177 -
+                     phosphopantetheine binding [Evidence IEA]; GO_function:
+                     GO:0003824 - catalytic activity [Evidence IEA];
+                     GO_function: GO:0016740 - transferase activity [Evidence
+                     IEA]; GO_process: GO:0055114 - oxidation-reduction process
+                     [Evidence IEA]; GO_process: GO:0008152 - metabolic process
+                     [Evidence IEA]"
                      /db_xref="InterPro:IPR001227"
                      /db_xref="InterPro:IPR006162"
                      /db_xref="InterPro:IPR009081"
@@ -116,19 +112,18 @@ FEATURES             Location/Qualifiers
                      VIDDIGYVKEREGLRARLMEENVSFKLSIAQVLAAVKGAIIGRSSGLNKDSRAFLFVRE
                      DSVASQGWENRWHYLYPARRRNAAKVAGSGQDVDRSTPSGEEGRLEALCNKVSSITMID
                      REDVTPSRSLSEYGLDSLVAVELRHWIRREFGADLALTHIVGAESLQALSSRIVAQG"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_DH, PKS_NRPS_MT, fPKS_ER,
+                     fPKS_KR, ACP_PCP"
      CDS             8622..16688
                      /codon_start=1
                      /gene="lptA"
                      /product="nonribosomal peptide synthetase ValB"
-                     /label=valB
-                     /note="EggNog:ENOG410PMS5;
-                     involved in lipopeptide biosynthesis;
-                     GO_function: GO:0031177 - phosphopantetheine binding 
-                     [Evidence IEA];
-                     GO_function: GO:0003824 - catalytic activity [Evidence 
-                     IEA];
-                     GO_process: GO:0008152 - metabolic process [Evidence IEA]
-                     revised sequence"
+                     /label="valB"
+                     /note="EggNog:ENOG410PMS5; involved in lipopeptide
+                     biosynthesis; GO_function: GO:0031177 - phosphopantetheine
+                     binding [Evidence IEA]; GO_function: GO:0003824 - catalytic
+                     activity [Evidence IEA]; GO_process: GO:0008152 - metabolic
+                     process [Evidence IEA] revised sequence"
                      /db_xref="InterPro:IPR000873"
                      /db_xref="InterPro:IPR001242"
                      /db_xref="InterPro:IPR006162"
@@ -185,6 +180,7 @@ FEATURES             Location/Qualifiers
                      LVAELQRQSTDSIPHQHVGLLSILKNSTDWPKGTLNSLVAFQNHEAIDDIVKLGDVDCA
                      LSANGRVGNSAEVCLGIEPQPDGQVGITLQYSSVSMPHEKVLWMGAYLDAALHAFPTHW
                      TKTIDQLRHHIDANCNFPRPPENGELKGGAIPHNNAGTGRFIIEAAS"
+                     /Pfam="NRPS_C, AA-adenyl-dom, ACP_PCP, NRPS_CT"
 ORIGIN
         1 ttaaccctga gccacgatcc gactgctcaa agcctgcaaa ctctctgcac ccacaatatg
        61 agtcagtgcc aggtcagcgc cgaattctct ccttatccag tgtctgagct cgactgctac

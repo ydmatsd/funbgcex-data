@@ -1,37 +1,37 @@
-LOCUS       FBGC00345       63902 bp DNA     linear   UNA 09-MAY-2023
+LOCUS       FBGC00345              63902 bp    DNA     linear   UNA 09-MAY-2023
 DEFINITION  aspercryptin.
 ACCESSION   FBGC00345
-VERSION     .
+VERSION     FBGC00345
 KEYWORDS    .
 SOURCE      Aspergillus nidulans FGSC A4
   ORGANISM  Aspergillus nidulans FGSC A4
+            .
 REFERENCE   1  (bases 1 to 63902)
-  AUTHORS   Chiang YM, Ahuja M, Oakley CE, Entwistle R, Asokan A, Zutz C, Wang 
+  AUTHORS   Chiang YM, Ahuja M, Oakley CE, Entwistle R, Asokan A, Zutz C, Wang
             CC, Oakley BR.
   TITLE     Development of Genetic Dereplication Strains in Aspergillus nidulans
             Results in the Discovery of Aspercryptin.
   JOURNAL   Angew Chem Int Ed Engl 2016;55:1662-5
-  PUBMED    26563584
+   PUBMED   26563584
 REFERENCE   2  (bases 1 to 63902)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported May 9, 2023 from SnapGene 6.2.2
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1002/anie.201507097"; journalName: "Angew Chem Int Ed Engl"; 
+  JOURNAL   Exported May 9, 2023 from SnapGene 6.2.2 https://www.snapgene.com
+COMMENT     ##Genome-Annotation-Data-START##
+            Annotation Provider :: INSDC submitter
+            Annotation Status   :: Full annotation
+            Annotation Pipeline :: Eukaryotic Annotation Propagation Pipeline
+            ##Genome-Annotation-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1002/anie.201507097"; journalName: "Angew Chem Int Ed Engl";
             date: "2016"; volume: "55"; pages: "1662-5"
-COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final 
-            NCBI review. The reference sequence is identical to BN001302. 
+            PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to BN001302.
             Aspergillus nidulans FGSC A4 CADRE,
             updated by Eurofungbase with contributions from
             CADRE (http://www.cadre-genomes.org.uk),
             AspGD (http://www.aspergillusgenome.org) and
-              Ensembl Genomes 
-            (http://www.ensemblgenomes.org).##Genome-Annotation-Data-START##
-            Annotation Provider :: INSDC submitter
-            Annotation Status   :: Full annotation
-            Annotation Pipeline :: Eukaryotic Annotation Propagation Pipeline 
-            ##Genome-Annotation-Data-END##
+            Ensembl Genomes
 FEATURES             Location/Qualifiers
      source          1..63902
                      /chromosome="II"
@@ -44,7 +44,7 @@ FEATURES             Location/Qualifiers
                      /locus_tag="ANIA_07872"
                      /old_locus_tag="AN7872.2; AN7872.4"
                      /product="transcription factor AtnN"
-                     /label=atnN
+                     /label="atnN"
                      /note="transcript_id=CADANIAT00010513"
                      /db_xref="EnsemblGenomes-Gn:CADANIAG00010513"
                      /db_xref="EnsemblGenomes-Tr:CADANIAT00010513"
@@ -64,6 +64,7 @@ FEATURES             Location/Qualifiers
                      DDSPTTTTTTTTTPTPRLKKETDPQSTYTPILPRPFHSSPSRFTLALGILPALWTIATQ
                      CRDSSVRYRAIDLIGRSKRREGVWDSDLHFRLALQLARHEEQAAGLDAGAEYTHARIPP
                      EARVTLNGRFDEGRKAKISYIRENVRVGEEIFHW"
+                     /Pfam="Zn_clus"
      gap             3889..3988
                      /estimated_length=100
      CDS             complement(join(6299..6736,6787..6902,6964..7449,
@@ -72,7 +73,7 @@ FEATURES             Location/Qualifiers
                      /locus_tag="ANIA_07873"
                      /old_locus_tag="AN7873.2; AN7873.4"
                      /product="fatty acid synthase subunit beta AtnM"
-                     /label=atnM
+                     /label="atnM"
                      /note="transcript_id=CADANIAT00003889"
                      /db_xref="EnsemblGenomes-Gn:CADANIAG00003889"
                      /db_xref="EnsemblGenomes-Tr:CADANIAT00003889"
@@ -126,12 +127,14 @@ FEATURES             Location/Qualifiers
                      LNASVPAIVASCLAQTDKKPTPLVLQRGKATIPLKVNVPFHSSLLRPGADTFRRALRKA
                      IPEHMVRPEKLIGRYIPNLTAMPFELSKGYFENVLAISESPFVREILERWDDNNVAVAV
                      C"
+                     /Pfam="SAT2, DUF1729, FAS_meander, MaoC_dehydrat_N,
+                     MaoC_dehydratas, Acyl_transf_1"
      CDS             join(13673..13804,13895..14683)
                      /codon_start=1
                      /locus_tag="ANIA_07874"
                      /old_locus_tag="AN7874.2; AN7874.4"
                      /product="thioesterase AtnL"
-                     /label=atnL
+                     /label="atnL"
                      /note="transcript_id=CADANIAT00003890"
                      /db_xref="EnsemblGenomes-Gn:CADANIAG00003890"
                      /db_xref="EnsemblGenomes-Tr:CADANIAT00003890"
@@ -146,12 +149,13 @@ FEATURES             Location/Qualifiers
                      LQRYEVWSRVLAWDEKWVYVVSYFVKKGSLSRDGNFKGDLDLDPKVNAKVVLASCMARY
                      VFKEGRITVKPERVLQECGLFPLAEEAVAGEKAEKASVDSWGKEQFEEARQKGLVTAGK
                      FSGLEVLPLMTGFGESGVLGRYNDF"
+                     /Pfam="4HBT_2"
      CDS             complement(join(14930..14946,15008..15246,15332..15453))
                      /codon_start=1
                      /locus_tag="ANIA_07875"
                      /old_locus_tag="AN7875.2; AN7875.4"
                      /product="hypothetical protein AtnK"
-                     /label=atnK
+                     /label="atnK"
                      /note="transcript_id=CADANIAT00003891"
                      /db_xref="EnsemblGenomes-Gn:CADANIAG00003891"
                      /db_xref="EnsemblGenomes-Tr:CADANIAT00003891"
@@ -168,7 +172,7 @@ FEATURES             Location/Qualifiers
                      /locus_tag="ANIA_07876"
                      /old_locus_tag="AN7876.2; AN7876.4"
                      /product="transaminase AtnJ"
-                     /label=atnJ
+                     /label="atnJ"
                      /note="transcript_id=CADANIAT00003892"
                      /db_xref="EnsemblGenomes-Gn:CADANIAG00003892"
                      /db_xref="EnsemblGenomes-Tr:CADANIAT00003892"
@@ -185,12 +189,13 @@ FEATURES             Location/Qualifiers
                      GEIDEFSTSGFVGIKYTESGGEKGYTLVVPNSQCIIKSVTSTSVVEVARSLGWRVEVRP
                      IPYDELEFFDEVLAVGTAAMITSIRSITHRSKDQVFRYKTSDEPGSACEKLSRHLKGIQ
                      KGDEKDTFGWLKRVEEVTV"
+                     /Pfam="Aminotran_4"
      CDS             complement(join(17677..18624,18717..18920))
                      /codon_start=1
                      /locus_tag="ANIA_07877"
                      /old_locus_tag="AN7877.2; AN7877.4"
                      /product="lipid transporter AtnI"
-                     /label=atnI
+                     /label="atnI"
                      /note="transcript_id=CADANIAT00003893"
                      /db_xref="EnsemblGenomes-Gn:CADANIAG00003893"
                      /db_xref="EnsemblGenomes-Tr:CADANIAT00003893"
@@ -206,12 +211,13 @@ FEATURES             Location/Qualifiers
                      GRGSMPWRWLFYAIYASLFLITVRIIFRLAQYADGTNIDNPALRNEWFEYVWDAAPIFI
                      CLAILNVAHPGRVLVGPDSEFPRVSRKEKKQRKREKKEAKIAEKEAKKERKRRRKHGSI
                      GVDLLDAQERGSAPTSRPAPGGHGYQGENQRTWYDNRGNEVRP"
+                     /Pfam="RTA1"
      CDS             join(19489..19660,19707..20725)
                      /codon_start=1
                      /locus_tag="ANIA_07878"
                      /old_locus_tag="AN7878.2; AN7878.4"
                      /product="transaminase AtnH"
-                     /label=atnH
+                     /label="atnH"
                      /note="transcript_id=CADANIAT00003894"
                      /db_xref="EnsemblGenomes-Gn:CADANIAG00003894"
                      /db_xref="EnsemblGenomes-Tr:CADANIAT00003894"
@@ -229,6 +235,7 @@ FEATURES             Location/Qualifiers
                      FKVGGNYAPSIVPQEEAAEAGSQQNLWLLADRESGEEFVTEAGTMNLFVVWVSSSTGKK
                      ELVTPPLDGTILPGVTRMSILELARERLEGDRSGIEVVERRITMRELAAASKEGRLLEV
                      FGAGTAVVVSPVRSIRWGDQCISCGLRDGEEAGPMSLQMKTWLEEVQYGLVEHPWR"
+                     /Pfam="Aminotran_4"
      CDS             complement(join(21036..21621,21689..22066,22137..22220,
                      22290..23743,23780..24459,24524..24757,24814..25855,
                      25919..26134))
@@ -236,7 +243,7 @@ FEATURES             Location/Qualifiers
                      /locus_tag="ANIA_07879"
                      /old_locus_tag="AN7879.2; AN7879.4"
                      /product="ABC transporter AtnG"
-                     /label=atnG
+                     /label="atnG"
                      /note="transcript_id=CADANIAT00003895"
                      /db_xref="EnsemblGenomes-Gn:CADANIAG00003895"
                      /db_xref="EnsemblGenomes-Tr:CADANIAT00003895"
@@ -277,14 +284,14 @@ FEATURES             Location/Qualifiers
                      VMDNGILLESDPPRTLLSRPSVFRELYKSSRGWEEYERQERAEAEARRRERVEKERAEE
                      ELRGRRGLISEKEEPETVSAIREHWNVVNQLFGGIIPRAVPRTRSRSRDHSAERRESKR
                      YSGGDWTGEGDGDGGDGGLGRRDTRRHLTGLAARGLH"
+                     /Pfam="ABC_tran, ABC_membrane"
      CDS             join(27236..27303,27478..27986,28051..32396)
                      /codon_start=1
                      /locus_tag="ANIA_07880"
                      /old_locus_tag="AN7880.2; AN7880.4"
                      /product="fatty acid synthase subunit alpha AtnF"
-                     /label=atnF
-                     /note="transcript_id=CADANIAT00003896
-                     revised sequence"
+                     /label="atnF"
+                     /note="transcript_id=CADANIAT00003896 revised sequence"
                      /db_xref="EnsemblGenomes-Gn:CADANIAG00003896"
                      /db_xref="EnsemblGenomes-Tr:CADANIAT00003896"
                      /db_xref="GeneID:2869007"
@@ -329,13 +336,14 @@ FEATURES             Location/Qualifiers
                      VPGNRNLDNVEAELQKNEQIAFLNRSLDTGRGSMRAVSVTSFGFGQKGAQTIVVHPKYL
                      FATLEEQEYEEYLDKRAKRQKKADSFFYRGLASNRLFELKTAPPWAPQKELETLLDPTV
                      RF"
+                     /Pfam="Fas_alpha_ACP, FAS_I_H, adh_short"
      CDS             complement(join(33018..33640,33695..34063,34118..34396,
                      34461..34520,34578..34728,34788..34862))
                      /codon_start=1
                      /locus_tag="ANIA_07881"
                      /old_locus_tag="AN7881.2; AN7881.4"
                      /product="cytochrome P450 monooxygenase AtnE"
-                     /label=atnE
+                     /label="atnE"
                      /note="transcript_id=CADANIAT00003897"
                      /db_xref="EnsemblGenomes-Gn:CADANIAG00003897"
                      /db_xref="EnsemblGenomes-Tr:CADANIAT00003897"
@@ -356,12 +364,13 @@ FEATURES             Location/Qualifiers
                      GLEAGTCVYAIQHHPEIYPQPFKFVPERWLGPEAVPEQYRSDYSPFAGFTPFSIGPRGC
                      IGKPLAYIELTLTLCHILYAFDMRLPQGVNVNEDAEYQLALHITAAKEGPLVEFRPRTV
                      V"
+                     /Pfam="p450"
      CDS             join(35524..36131,36224..36505,36593..36704)
                      /codon_start=1
                      /locus_tag="ANIA_11028"
                      /old_locus_tag="AN11028.4"
                      /product="short-chain dehydrogenase/reductase AtnD"
-                     /label=atnD
+                     /label="atnD"
                      /note="transcript_id=CADANIAT00003898"
                      /db_xref="EnsemblGenomes-Gn:CADANIAG00003898"
                      /db_xref="EnsemblGenomes-Tr:CADANIAT00003898"
@@ -378,13 +387,14 @@ FEATURES             Location/Qualifiers
                      RPRVVVVSSEGHETTAFAERKAARIFDALRDQRQANMDERYDTSKLIQLYLVRALAERL
                      SRSDKPPVTLNAVSPGLCKTGLLRETPLVARLLTGPVMAILARNAEEGSRTLVHAAAAN
                      DGETNGKYLRDCKVTEPAAFVRSQEGYATQERLLQELLDELEKITPGIRDNI"
+                     /Pfam="adh_short"
      CDS             join(37787..38171,38242..38482,38560..38947,39044..39245,
                      39470..39771)
                      /codon_start=1
                      /locus_tag="ANIA_11031"
                      /old_locus_tag="AN11031.4; AN7882.2"
                      /product="major facilitator superfamily transporter AtnC"
-                     /label=atnC
+                     /label="atnC"
                      /note="transcript_id=CADANIAT00003899"
                      /db_xref="EnsemblGenomes-Gn:CADANIAG00003899"
                      /db_xref="EnsemblGenomes-Tr:CADANIAT00003899"
@@ -404,12 +414,13 @@ FEATURES             Location/Qualifiers
                      MLLSLRAVVEFGLLLVVGSLLLFTQSSGLRNPRQRDLLIARLSLGLIVAGLLILSLSPT
                      VAPAILVYTLGAGFQPAIMSLLASLWKASNPSNLGSLYSTVAIILAVGGVISGPLISLM
                      YRIGLSLGHGWVGLPYFVASGLCAGIAGVLLSVKLPEQEQKPRRRET"
+                     /Pfam="MFS_1"
      CDS             complement(join(40292..40494,40637..40718,40808..40993))
                      /codon_start=1
                      /locus_tag="ANIA_07883"
                      /old_locus_tag="AN7883.2; AN7883.4"
                      /product="hypothetical protein AtnB"
-                     /label=atnB
+                     /label="atnB"
                      /note="transcript_id=CADANIAT00003900"
                      /db_xref="EnsemblGenomes-Gn:CADANIAG00003900"
                      /db_xref="EnsemblGenomes-Tr:CADANIAT00003900"
@@ -426,7 +437,7 @@ FEATURES             Location/Qualifiers
                      /locus_tag="ANIA_07884"
                      /old_locus_tag="AN7884.2; AN7884.4"
                      /product="nonribosomal peptide synthetase AtnA"
-                     /label=atnA
+                     /label="atnA"
                      /note="transcript_id=CADANIAT00003901"
                      /db_xref="EnsemblGenomes-Gn:CADANIAG00003901"
                      /db_xref="EnsemblGenomes-Tr:CADANIAT00003901"
@@ -568,6 +579,8 @@ FEATURES             Location/Qualifiers
                      VASIVTDKLQLNLNPARSRSGIPSVETKVRLAITTQELWHMLSDEFGYPMRGMGPAEWL
                      DAMRAAVHAQGESHRLWPVLHFLEAGGGYMGLPVGGCQLQGATGADQESEKEELLASLR
                      KSISYMRQIGYLQSDAPHAVDKVVFGRRNV"
+                     /Pfam="NRPS_C, AA-adenyl-dom, ACP_PCP, NRPS_E,
+                     NAD_binding_4"
 ORIGIN
         1 ttaccagtga aaaatctcct ccccgaccct aacattctct cgaatatagc taatcttagc
        61 cttccgtccc tcatcgaatc ttccatttag cgtcacccgc gcctcaggcg ggatacgtgc

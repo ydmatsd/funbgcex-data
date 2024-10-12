@@ -1,40 +1,41 @@
-LOCUS       FBGC00344       28985 bp DNA     linear   UNA 13-FEB-2023
+LOCUS       FBGC00344              28985 bp    DNA     linear   UNA 13-FEB-2023
 DEFINITION  oxepinamide F.
 ACCESSION   FBGC00344
-VERSION     .
+VERSION     FBGC00344
 KEYWORDS    .
 SOURCE      Aspergillus ustus 3.3904
   ORGANISM  Aspergillus ustus 3.3904
+            .
 REFERENCE   1  (bases 1 to 28985)
   AUTHORS   Zheng L, Wang H, Fan A, Li SM.
-  TITLE     Oxepinamide F biosynthesis involves enzymatic D-aminoacyl 
+  TITLE     Oxepinamide F biosynthesis involves enzymatic D-aminoacyl
             epimerization, 3H-oxepin formation, and hydroxylation induced double
             bond migration.
   JOURNAL   Nat Commun 2020;11:4914
-  PUBMED    33004788
+   PUBMED   33004788
 REFERENCE   2  (bases 1 to 28985)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Feb 13, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1038/s41467-020-18713-0"; journalName: "Nat Commun"; date: 
-            "2020"; volume: "11"; pages: "4914"
-COMMENT     The only annotation on JOMC01000000 are predicted secondary 
-            metabolite biosynthetic gene clusters on 44 
-            contigs.##Genome-Assembly-Data-START##
+  JOURNAL   Exported Feb 13, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     ##Genome-Assembly-Data-START##
             Assembly Date         :: 25-FEB-2014
             Assembly Method       :: CLC Workbench v. 6
             Assembly Name         :: Austus1.0
             Genome Coverage       :: 100.0x
             Sequencing Technology :: Illumina HiSeq ##Genome-Assembly-Data-END##
+            ##Genome-Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1038/s41467-020-18713-0"; journalName: "Nat Commun"; date:
+            "2020"; volume: "11"; pages: "4914"
+            The only annotation on JOMC01000000 are predicted secondary
+            metabolite biosynthetic gene clusters on 44
 FEATURES             Location/Qualifiers
      source          1..28985
                      /strain="3.3904"
                      /mol_type="genomic DNA"
                      /country="China"
                      /isolation_source="perished rubber"
-                     /collection_date=Dec-2010
+                     /collection_date="Dec-2010"
                      /db_xref="taxon:40382"
                      /organism="Aspergillus ustus"
                      /submitter_seqid="AUSC_154"
@@ -42,7 +43,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="HK57_00060"
                      /product="methyltransferase OpaF"
-                     /label=opaF
+                     /label="opaF"
                      /note="AUSM5_001"
                      /protein_id="KIA75453.1"
                      /translation="MARGAAELTQTRKVMIKEQLANLTALIDLRIADTPCNGLDDDMPM
@@ -53,11 +54,12 @@ FEATURES             Location/Qualifiers
                      RFILEDRPEVLAGIPHTLRGIEKIECDLFKPQPVKGAAIYFLRHVLHDWAEDACVRILQ
                      NIASAITDKSTQRVVISEMVLPEKGVTAECATQDLVTLSTTGAERSRKQWERLIPAAGF
                      RVENIYSSEASCEAAIECYLE"
+                     /Pfam="Methyltransf_2"
      CDS             4278..5102
                      /codon_start=1
                      /locus_tag="HK57_00061"
                      /product="epimerase OpaE"
-                     /label=opaE
+                     /label="opaE"
                      /note="AUSM5_002"
                      /protein_id="KIA75454.1"
                      /translation="MGPLRVFTDNKVKVMLLNPIGGAGFNDFVVETVLNHKDPSTHVTI
@@ -65,11 +67,12 @@ FEATURES             Location/Qualifiers
                      DDMVILGARQVAVQTASKISSKYAVLLPYDMKSSPDPLHQRVVADTRTAVAHPVVDMAF
                      NDDLTPMDGESLGERLATQGKLAIKENGAEVLVLGCTAMVGCWQGLMRAVGVPVIDPTV
                      AALRAAGKAGRLKRELVGGASTKRSGTFPTEKELKMIAESEPSYPFSGRIEI"
+                     /Pfam="Asp_Glu_race"
      CDS             join(5892..6197,6275..7084,7175..7822)
                      /codon_start=1
                      /locus_tag="HK57_00062"
                      /product="major facilitator superfamily transporter OpaD"
-                     /label=opaD
+                     /label="opaD"
                      /note="AUSM5_003"
                      /protein_id="KIA75455.1"
                      /translation="MARKFGRRFRRNSRASLPSLKFLTLGSTDSVFGPHNQQHREEEAN
@@ -83,12 +86,13 @@ FEATURES             Location/Qualifiers
                      LGFGLPLVVVQATLTAHTISSGTALVTLTQGLAGALFNFVAQSVFQTKLVQALFAEAPS
                      LDAGKIAEAGATVVRDIVDPDMVPAVLRAYNYAITRVYLVGAALAAAALLGVVPIRWGS
                      VKGKKIEAGAA"
+                     /Pfam="MFS_1"
      CDS             complement(join(10789..10847,10904..11130,11194..11552,
                      11611..12200,12275..12428))
                      /codon_start=1
                      /locus_tag="HK57_00063"
                      /product="FAD-dependent monooxygenase OpaC"
-                     /label=opaC
+                     /label="opaC"
                      /note="AUSM5_004"
                      /protein_id="KIA75456.1"
                      /translation="MTVPQYIGPNRTGITVIIIGLGIGGLTAAISCHLQGHHVIGFDKL
@@ -100,15 +104,15 @@ FEATURES             Location/Qualifiers
                      DAATLAITLALAGKNNIRLGLKAMEAMRKHRATYIQRNAWRVNDAWFGSPVEERIGEKA
                      APAIGVIDWITEHCCRTYASNEFDRVQDSIATGQPYVPTNIPSQQFKEAAEWIANRNDE
                      KEKN"
+                     /Pfam="FAD_binding_3"
      CDS             complement(join(14387..14549,14635..14795,14919..15029,
                      15123..15461,15554..15645,15708..15822,15886..16156,
                      16238..16289,16349..16583))
                      /codon_start=1
                      /locus_tag="HK57_00064"
                      /product="cytochrome P450 monooxygenase OpaB"
-                     /label=opaB
-                     /note="AUSM5_005
-                     revised sequence"
+                     /label="opaB"
+                     /note="AUSM5_005 revised sequence"
                      /protein_id="KIA75457.1"
                      /translation="MARAALEHTLQHHQLQDFILAAILASIILLIIRNSMLSPLRGIPG
                      PRLAGLTSLYEFYYDVIKNGTYAHQHPKMHQQYDSTIIRISPNHVHIADPELFAIGPAG
@@ -119,11 +123,12 @@ FEATURES             Location/Qualifiers
                      ALRAELDSASEFIRDSFDIHQVSKLPWLTAVIRETMRLLPPTPGPLPREVPPEGIRVGK
                      YFLPGGTVVSSSLLSLHYNPSLYPDPERFKPERWLGEGGARLVEWWNPFSRGPRSCLGR
                      QVAWHELLAFLALLFLRFDLELYESDETNLEWTEHMFTRIRAPVQVRIMKDRWA"
+                     /Pfam="p450"
      CDS             join(17222..17698,17757..28985)
                      /codon_start=1
                      /locus_tag="HK57_00065"
                      /product="nonribosomal peptide synthetase OpaA"
-                     /label=opaA
+                     /label="opaA"
                      /note="AUSM5_006"
                      /protein_id="KIA75458.1"
                      /translation="MAIGNDELLASHEEHSRCQFPRLVANPSEEKCLRCNLDVPIRNLL
@@ -193,6 +198,7 @@ FEATURES             Location/Qualifiers
                      RIRVREEMSIYDLLRHTQAQYQETVAHDDVGFQSIVDESTDWPRGTYFNSIVQHQNIPL
                      HHVMPLEDLKTHFTLNGYFRPGREVIIFTEPDGDVLSVQFCANPNVIEFSYAQKLHRTL
                      VDLIVHLCRCPDDLVSTLLVE"
+                     /Pfam="NRPS_C, AA-adenyl-dom, ACP_PCP, NRPS_E, NRPS_CT"
 ORIGIN
         1 atggctcgag gcgcagccga actcactcag acgcgaaagg tcatgataaa agaacaactg
        61 gctaacctga ccgcgcttat tgatctccgt atcgccgata caccgtgtaa tggcctcgat

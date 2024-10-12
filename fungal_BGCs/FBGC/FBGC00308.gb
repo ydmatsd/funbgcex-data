@@ -1,43 +1,42 @@
-LOCUS       FBGC00308       78341 bp DNA     linear   UNA 09-MAY-2023
+LOCUS       FBGC00308              78341 bp    DNA     linear   UNA 09-MAY-2023
 DEFINITION  FR901469.
 ACCESSION   FBGC00308
-VERSION     .
+VERSION     FBGC00308
 KEYWORDS    .
 SOURCE      fungal sp. No. 11243
   ORGANISM  fungal sp. No. 11243
+            .
 REFERENCE   1  (bases 1 to 78341)
-  AUTHORS   Matsui M, Yokoyama T, Nemoto K, Kumagai T, Terai G, Tamano K, 
+  AUTHORS   Matsui M, Yokoyama T, Nemoto K, Kumagai T, Terai G, Tamano K,
             Machida M, Shibata T.
-  TITLE     Identification of a putative FR901469 biosynthesis gene cluster in 
-            fungal sp. No. 11243 and enhancement of the productivity by 
+  TITLE     Identification of a putative FR901469 biosynthesis gene cluster in
+            fungal sp. No. 11243 and enhancement of the productivity by
             overexpressing the transcription factor gene frbF.
   JOURNAL   J Biosci Bioeng 2017;123:147-153
-  PUBMED    27660098
+   PUBMED   27660098
 REFERENCE   2  (bases 1 to 78341)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported May 9, 2023 from SnapGene 6.2.2
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1016/j.jbiosc.2016.08.007"; journalName: "J Biosci Bioeng"; 
-            date: "2017"; volume: "123"; pages: "147-153"
-COMMENT     This work was supported by the commission for Development of 
-            Artificial Gene Synthesis Technology for Creating Innovative 
-            Biomaterial from the Ministry of Economy, Trade and Industry (METI),
-            Japan.
-            This fungus was furnished from Biological resourse center, NITE 
-            (NRBC)##Genome-Assembly-Data-START##
+  JOURNAL   Exported May 9, 2023 from SnapGene 6.2.2 https://www.snapgene.com
+COMMENT     ##Genome-Assembly-Data-START##
             Assembly Method       :: SPAdes v. 3.5.0
             Assembly Name         :: fungal sp. No.11243_ver1.0
             Genome Coverage       :: 135x
             Sequencing Technology :: Miseq
             ##Genome-Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1016/j.jbiosc.2016.08.007"; journalName: "J Biosci Bioeng";
+            date: "2017"; volume: "123"; pages: "147-153"
+            This work was supported by the commission for Development of
+            Artificial Gene Synthesis Technology for Creating Innovative
+            Biomaterial from the Ministry of Economy, Trade and Industry (METI),
+            Japan.
+            This fungus was furnished from Biological resourse center, NITE
 FEATURES             Location/Qualifiers
      source          1..78341
                      /strain="No.11243"
                      /mol_type="genomic DNA"
-                     /note="original strain;
-                     scaffold: sccafold0004"
+                     /note="original strain; scaffold: sccafold0004"
                      /db_xref="taxon:1603295"
                      /culture_collection="FERM:BP-3373"
                      /organism="fungal sp. No.11243"
@@ -45,7 +44,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="ANO11243_029850"
                      /product="2OG-Fe(II)-dependent dioxygenase FrbA"
-                     /label=frbA
+                     /label="frbA"
                      /protein_id="GAM84982.1"
                      /translation="MSIPSLDYRLFSHGDPAQRQQFCEDLVKTFAGYGFAKLRNHGLSD
                      ERVDEAFSYSNKFFNLPLHIKQKAKHPEAPNPHRGYSGVGQEKISAITGFEKGERSEVR
@@ -53,11 +52,12 @@ FEATURES             Location/Qualifiers
                      PSDELSSRCAKCSAELRLNHYPATPASSLASGACRISPHSDFGTITLLFQDSVGGLQVE
                      DQQNPGVFLPVEPDDVHEMIINVGDCLSRWTDGRLRSVNHRVVSPTRLPGDADVMIPER
                      HSLAYFGKPSRDEVVDSLPLFVPEGCKPKFADRWTALEYNQSKLMRTYNVETAAQG"
+                     /Pfam="DIOX_N, 2OG-FeII_Oxy"
      CDS             complement(join(2015..9556,9609..9695,9746..9994))
                      /codon_start=1
                      /locus_tag="ANO11243_029860"
                      /product="polyketide synthase FrbB"
-                     /label=frbB
+                     /label="frbB"
                      /protein_id="GAM84983.1"
                      /translation="MRNIDEHMSERATLQSSGGYGERDSGVEPIAIIGMSCRLPGEASD
                      PKGLWELLASGKSAWSKVPKDRFNMDAFHDPSNPTAGTTNTAGGHFIEEDLAAFDADFF
@@ -104,12 +104,14 @@ FEATURES             Location/Qualifiers
                      AEVLANLDYVVTSAGNRTQNSIGLLPARPDASRSTWLQNKRLIHLAQHSGPRGEGEGGK
                      SDEAQDALEAVGNATTAEGAEAAVLTAILQQLSKLLMTPVEQLSPRRTLDSYGVDSLIA
                      VELKNWIGTYLEADIPLLVLRETNDIQHLARLAAEESRLVSLA"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_DH, PKS_NRPS_MT, fPKS_ER,
+                     fPKS_KR, ACP_PCP"
      CDS             join(10927..11205,11259..11639,11695..11940,11992..12154,
                      12208..12530,12583..12876)
                      /codon_start=1
                      /locus_tag="ANO11243_029870"
                      /product="CoA ligase FrbC"
-                     /label=frbC
+                     /label="frbC"
                      /protein_id="GAM84984.1"
                      /translation="MVIFKSPLPVGQHQSLEVIAPVGELALNVHLALAKQHEVKPPFID
                      VMSGKAWHAEEIRDRVDHLARVLAKQFGWQPNVGTPWDKVVAIYSYNTVDFIILSWAVH
@@ -121,33 +123,36 @@ FEATURES             Location/Qualifiers
                      HEVRGEIYMKSPSVIAGYLEDANTQNPFTEDGWLRTGDIGMFKVSPKGVEHLWVVDRVK
                      DMIKVKGMQVAPAELEAHLLLLPQIAEVAVIGVADKISGERPKAFIVQAKNAGPEEQLR
                      ETINQHVEATLSEPHWLGKRIEFVNDLPKTSSGKAMKSVLRAKA"
+                     /Pfam="AA-adenyl-dom"
      CDS             join(13111..13372,13437..13891,13949..14017)
                      /codon_start=1
                      /locus_tag="ANO11243_029880"
                      /product="thioesterase FrbD"
-                     /label=frbD
+                     /label="frbD"
                      /protein_id="GAM84985.1"
                      /translation="MTDSPAPRASVQLIQTGGAAMPLVLIHDACGTIYTYHALSKLGRT
                      VYGIGNPRFEKCTSWTGGIGEMAACYHAAIKQRIRRGKILVGGWSLGGVIALEIARLFA
                      DDAAIHVHGVVLIDSPFPSKATVTGEDLQLPPLPPGLPANRRQSVAFAMREAVDLLGDW
                      DPKASWQRADKKPPPAALIRALDYLPGSSADAQRDEFLVDRMRTQKLLGWENSGLDFIR
                      ATYEAPGHHWGIFSSENVACLSDTLSKACAELEVVDGGR"
+                     /Pfam="Thioesterase, Abhydrolase_6"
      CDS             join(14508..14766,14836..15284,15353..15418)
                      /codon_start=1
                      /locus_tag="ANO11243_029890"
                      /product="thioesterase FrbE"
-                     /label=frbE
+                     /label="frbE"
                      /protein_id="GAM84986.1"
                      /translation="MSLPNPFLIRPAPKKGKKGAPLVLLHDGGGTIFSYLQLGALGRDV
                      YGIHNTRPGPTGVWEGGIAQMAAEYLDLIKTVVPSGPIIIGGWSLGGLVSFEMARQMAA
                      SAGSSSSSEQLQVLGLIMIDSRHPSTFTDKELVLPDSIKPAIRESIQHNMTQSRQLIRD
                      YSTPSWPQGSQPPPTMFLRATRDLDGVPLPIQADAASSTRNGRMEGWREYEHDFIREVV
                      EVEGTHFSIFEDQNIGELDKKLLAACKTLDRGVKS"
+                     /Pfam="Thioesterase"
      CDS             17100..18185
                      /codon_start=1
                      /locus_tag="ANO11243_029900"
                      /product="transcription factor FrbF"
-                     /label=frbF
+                     /label="frbF"
                      /protein_id="GAM84987.1"
                      /translation="MHCPQSARKTRQQQQHPLTDRCAYAGSANMPSAVAIPAPLPPSNC
                      EEGIWLSKSVLMSLLFPNQALPAAHQVSSVETPSTSTTSTSTTTSTSRAASEFDANYCN
@@ -156,6 +161,7 @@ FEATURES             Location/Qualifiers
                      LDLSLLSTDFSLYPQHPQHPQIPPPDLSLWSPSIDAASPLAASSPDPTTLWAPAIPIAP
                      PQPASKQDGPIPRCWDHGCNGRRFSSIGNLVRHIKEQNGPRARFECRRCGQTFTRSTAR
                      SMHVKRGRCEGTMRSKGIGGK"
+                     /Pfam="Clz7"
      CDS             complement(join(18453..18747,18810..19184,19236..19319,
                      19370..20056,20109..20159,20214..20285,20336..20459,
                      20510..20836,20882..21044,21093..21526,21569..21904,
@@ -164,7 +170,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="ANO11243_029910"
                      /product="ABC transporter FrbG"
-                     /label=frbG
+                     /label="frbG"
                      /protein_id="GAM84988.1"
                      /translation="MCSIADLDGIGPFSSNPQCGHLSFTLLFEEAVLAAVPLGLCVVLA
                      LLRVRQLRLQSPKARRDRLYYAKLTALFLLASVQLVQLIQWTRPSTPKTRASIAIAAVS
@@ -192,11 +198,12 @@ FEATURES             Location/Qualifiers
                      DAVSALPAQGLKQLLCFARVLAQPGRVMVLDEATSRLDPEASAKVKQAIMRRSEGRTLL
                      TVAHKIDELDGYDRIMVVDAGKVVAFDTPGAVQGYLSSSSPTSSPTCSSSAAALSSGAH
                      RVAAVGVLGTEAGRA"
+                     /Pfam="ABC_tran, ABC_membrane"
      CDS             complement(join(25080..25739,25797..25863,25915..26165))
                      /codon_start=1
                      /locus_tag="ANO11243_029920"
                      /product="2OG-Fe(II)-dependent dioxygenase FrbH"
-                     /label=frbH
+                     /label="frbH"
                      /protein_id="GAM84989.1"
                      /translation="MSQQEAVDAAFLPTLDLSRLVSSDAEERQKLVRACEVYGFFYLDL
                      RSDAELIALWTGVLDLMGQYFNLSLDEKMRDSRNSDTHGYEPVATSTGAQDDLPDYYES
@@ -204,11 +211,12 @@ FEATURES             Location/Qualifiers
                      HRHSEESLSTLSMFRYPKQEVLDVGVGHNKHTDIGTLTFLLCQQQGLQVLSKDPVGWRF
                      VQPLPGCAVINVGDTLRFLSGSRFRSAVHRVIPVDQLQRQDRFSIAYFLRAENNATLNA
                      VGGRTVSAKDWHDEKFDVFRKSREAQASDDVLTGGMERGEAIVV"
+                     /Pfam="DIOX_N, 2OG-FeII_Oxy"
      CDS             complement(26329..26994)
                      /codon_start=1
                      /locus_tag="ANO11243_029930"
                      /product="hypothetical protein ANO11243_029930"
-                     /label=ANO11243_029930
+                     /label="ANO11243_029930"
                      /protein_id="GAM84990.1"
                      /translation="MQTVKPPTCHGGSDRARKRNVDQAPPPLPWQGRATLATWPRRSHG
                      QWLGLCGRAGRVVTALRATTFPRRCQASGCAWPMAEMPVWRDMLRCTDEKEDAGSAAAE
@@ -218,7 +226,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="ANO11243_029940"
                      /product="nonribosomal peptide synthetase FrbI"
-                     /label=frbI
+                     /label="frbI"
                      /inference="profile:same species:2.0"
                      /protein_id="GAM84991.1"
                      /translation="MASEHTSDGLRKLLLDLALEVLEIEPTRFRPEKSFLELGGDSLSA
@@ -487,11 +495,12 @@ FEATURES             Location/Qualifiers
                      NTSAENRQSELSAAIKHATGTVLKNKLKTERSTEALWSGHADVVDYAHVAFLLQRQGWS
                      VLTEDLVRCRSETELIDVVVKREAERVKGNGSAFNGANGHYSNEESVNGNGLHGVQTNG
                      HAGKGVTNGVNGGSKGHI"
+                     /Pfam="ACP_PCP, NRPS_C, AA-adenyl-dom, NRPS_E, NRPS_CT"
      CDS             complement(74222..75397)
                      /codon_start=1
                      /locus_tag="ANO11243_029950"
                      /product="hypothetical protein ANO11243_029950"
-                     /label=ANO11243_029950
+                     /label="ANO11243_029950"
                      /protein_id="GAM84992.1"
                      /translation="MSSSIFETLPPELLLNVALHLPDLECLDNLLRASPAFWRLFDGSS
                      SFAVEIVDQALEAALLEPQTKTIIRTIAHAYSDSLPAANIDQLQRRVTNNSLTHRFCNG
@@ -504,7 +513,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="ANO11243_029960"
                      /product="hypothetical protein ANO11243_029960"
-                     /label=ANO11243_029960
+                     /label="ANO11243_029960"
                      /protein_id="GAM84993.1"
                      /translation="MPRSAFELLPFELHLNLAHHVEDLESLYNLLRASPRFWRVFDNCS
                      HAAQIANQVLAREPIDIQIKIIIWTIGHVRHDCLPATSLIELQRRVTNDSVTHQSCRIG
@@ -517,7 +526,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="ANO11243_029970"
                      /product="2OG-Fe(II)-dependent dioxygenase FrbJ"
-                     /label=frbJ
+                     /label="frbJ"
                      /protein_id="GAM84994.1"
                      /translation="MSFDSIPILDLSLARNEETKPAFLRDLRHTLLEVGFLYIKNTGIP
                      ETLISDVIAQGKAFFDLPDEEKLAIEMKNKPSFLGYSRLGMEVTRFKVDWREQLDLSTP
@@ -526,6 +535,7 @@ FEATURES             Location/Qualifiers
                      GEWIDCPPIDGTLVVAVGQGMQALTRGVCLSTTHRVLSPARGAGARYSIPFFQGVSYDA
                      TFESMDVPESVTALRDEVQARRGAKQDDVEFTFRPGQWDHLGSATLYNRIKSHPDVGEK
                      WDQYPEILAGIRKQHAQQGHVSEALPSG"
+                     /Pfam="DIOX_N, 2OG-FeII_Oxy"
 ORIGIN
         1 ctatccctgc gccgccgtct caacattata agtgcgcatc aacttactct gattatactc
        61 caaggcggtc cagcgatccg cgaacttggg cttacacccc tccggcacga acaggggtaa

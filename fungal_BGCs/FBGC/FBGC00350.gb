@@ -1,25 +1,41 @@
-LOCUS       FBGC00350       24133 bp DNA     linear   UNA 16-FEB-2023
+LOCUS       FBGC00350              24133 bp    DNA     linear   UNA 16-FEB-2023
 DEFINITION  asperphenamate.
 ACCESSION   FBGC00350
-VERSION     .
+VERSION     FBGC00350
 KEYWORDS    .
 SOURCE      Aspergillus aculeatus ATCC 16872
   ORGANISM  Aspergillus aculeatus ATCC 16872
+            .
 REFERENCE   1  (bases 1 to 24133)
   AUTHORS   Li W, Fan A, Wang L, Zhang P, Liu Z, An Z, Yin WB.
-  TITLE     Asperphenamate biosynthesis reveals a novel two-module NRPS system 
+  TITLE     Asperphenamate biosynthesis reveals a novel two-module NRPS system
             to synthesize amino acid esters in fungi.
   JOURNAL   Chem Sci 2018;9:2589-2594
-  PUBMED    29719714
+   PUBMED   29719714
 REFERENCE   2  (bases 1 to 24133)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Feb 16, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
+  JOURNAL   Exported Feb 16, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     ##ata-START##
+            Assembly Method       :: Newbler v. 2.3
+            Assembly Name         :: Aspac1
+            Long Assembly Name    :: Aspergillus aculeatus ATCC16872 v1.1 Genome
+            Coverage              :: 32.17x
+            Sequencing Technology :: 454; Sanger dideoxy sequencing
+            ##ata-END##
+            ##Metadata-START##
+            Organism Display Name :: Aspergillus aculeatus ATCC 16872
+            GOLD Stamp ID         :: Gp0003551
+            ##Metadata-END##
+            ##Genome-Annotation-Data-START##
+            Annotation Provider   :: INSDC submitter
+            Annotation Status     :: Full annotation
+            Annotation Pipeline   :: Eukaryotic Annotation Propagation Pipeline
+            ##Genome-Annotation-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
             "10.1039/c7sc02396k"; journalName: "Chem Sci"; date: "2018"; volume:
             "9"; pages: "2589-2594"
-COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final 
+            PROVISIONAL REFSEQ: This record has not yet been subject to final
             NCBI review. The reference sequence is identical to KV878988.
             URL -- http://genome.jgi.doe.gov/Aspac1
             JGI Project ID: 52394
@@ -27,27 +43,13 @@ COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
             The strain is available from David Culley
             Contacts: David Culley (David.Culley@pnnl.gov)
             Assembly and annotation done by JGI.
-            The JGI and collaborators endorse the principles for the 
-            distribution and use of large scale sequencing data adopted by the 
-            larger genome sequencing community and urge users of this data to 
+            The JGI and collaborators endorse the principles for the
+            distribution and use of large scale sequencing data adopted by the
+            larger genome sequencing community and urge users of this data to
             follow them. It is our intention to publish the work of this project
-            in a timely fashion and we welcome collaborative interaction on the 
-            project and analysis. 
+            in a timely fashion and we welcome collaborative interaction on the
+            project and analysis.
             (http://www.genome.gov/page.cfm?pageID=10506376).##Genome-Assembly-D
-            ata-START##
-            Assembly Method       :: Newbler v. 2.3
-            Assembly Name         :: Aspac1
-            Long Assembly Name    :: Aspergillus aculeatus ATCC16872 v1.1 Genome
-            Coverage       :: 32.17x
-            Sequencing Technology :: 454; Sanger dideoxy sequencing 
-            ##Genome-Assembly-Data-END####Metadata-START##
-            Organism Display Name :: Aspergillus aculeatus ATCC 16872
-            GOLD Stamp ID         :: Gp0003551
-            ##Metadata-END####Genome-Annotation-Data-START##
-            Annotation Provider :: INSDC submitter
-            Annotation Status   :: Full annotation
-            Annotation Pipeline :: Eukaryotic Annotation Propagation Pipeline 
-            ##Genome-Annotation-Data-END##
 FEATURES             Location/Qualifiers
      source          1..24133
                      /chromosome="Unknown"
@@ -62,7 +64,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="ASPACDRAFT_394"
                      /product="nonribosomal peptide synthetase ApmA"
-                     /label=apmA
+                     /label="apmA"
                      /note="revised sequence"
                      /db_xref="GeneID:30974397"
                      /db_xref="InterPro:IPR000873"
@@ -111,11 +113,12 @@ FEATURES             Location/Qualifiers
                      RTVTFMTDGITEREFWDIFHHELQYPLRAVDHATYLETLQQAIQRDATGHPLWPVMQVF
                      EAIDGRLGGGDVLPDASVVTPSQRQHVKATVRRNVQFLVDAGFIASPTGKKMRYMAEKV
                      FQRSGNVWENVKGMVNGLA"
+                     /Pfam="NRPS_C, AA-adenyl-dom, ACP_PCP, NAD_binding_4"
      CDS             join(9077..9158,9242..10021,10110..10381)
                      /codon_start=1
                      /locus_tag="ASPACDRAFT_35979"
                      /product="phospho-2-dehydro-3-deoxyheptonate aldolase ApmC"
-                     /label=apmC
+                     /label="apmC"
                      /db_xref="GeneID:30973980"
                      /db_xref="InterPro:IPR006218"
                      /db_xref="JGIDB:Aspac1_35979"
@@ -127,11 +130,12 @@ FEATURES             Location/Qualifiers
                      GKHHFMGTTKQGIIAITSTSGNPDGFVILRGGSRGTNYDAASVKETKAMLQKKGEREVV
                      MVDCSHGNSQKDHRNQPKVLCTIEEQLRQGERGIIGVMVESNIKEGNQKPVARLEGCEK
                      GVSITDACIDWETTESSLRSLADAVRERRARVTAGKQ"
+                     /Pfam="DAHP_synth_1"
      CDS             complement(join(14231..14955,15050..15161))
                      /codon_start=1
                      /locus_tag="ASPACDRAFT_1859863"
                      /product="hypothetical protein ApmD"
-                     /label=apmD
+                     /label="apmD"
                      /db_xref="GeneID:30971519"
                      /db_xref="JGIDB:Aspac1_1859863"
                      /protein_id="XP_020051945.1"
@@ -140,11 +144,12 @@ FEATURES             Location/Qualifiers
                      EELVAAYPDAKVVLTLRDVDAWYASMQQTIMAQTYSPLATLLGWIDPEKFGEGNRMCRL
                      GFDAMFAGDFARNGKQAFREHYDRVRSVVPRDRLLEWNPAEGWEPLCGFLGKDVPATPF
                      PRANEKAIFQKKSAAVVRSAFGRFLKKMTCYGVGVAVAYLVARHGREVWLRVSRWA"
+                     /Pfam="Sulfotransfer_4"
      CDS             join(16790..17209,17264..24133)
                      /codon_start=1
                      /locus_tag="ASPACDRAFT_64101"
                      /product="nonribosomal peptide synthetase ApmB"
-                     /label=apmB
+                     /label="apmB"
                      /note="revised sequence"
                      /db_xref="GeneID:30977778"
                      /db_xref="InterPro:IPR000873"
@@ -194,6 +199,7 @@ FEATURES             Location/Qualifiers
                      ICPAPDACDLSILATPVGSQVRIEMIFSTHAMSQSFAEKTLKKLCAKVEAIARQDVNTP
                      LPSEAQLTSRQAVIPLPEPRENMANGLVNGIVKQMVNGINAMGEMSGLNGIAEGESEPE
                      EREGGGGGGAADHEINLLASVPIN"
+                     /Pfam="NRPS_C, AA-adenyl-dom, ACP_PCP, NRPS_CT"
 ORIGIN
         1 ctaagctagt ccattaacca tccccttgac attctcccac acattccccg accgctggaa
        61 caccttctcc gccatatacc gcatcttctt gcccgtgggg ctagcaataa accccgcgtc

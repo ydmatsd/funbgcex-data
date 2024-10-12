@@ -1,38 +1,39 @@
-LOCUS       FBGC00301       46605 bp DNA     linear   UNA 09-FEB-2023
+LOCUS       FBGC00301              46605 bp    DNA     linear   UNA 09-FEB-2023
 DEFINITION  communesin B.
 ACCESSION   FBGC00301
-VERSION     .
+VERSION     FBGC00301
 KEYWORDS    .
 SOURCE      Penicillium expansum MD-8
   ORGANISM  Penicillium expansum MD-8
+            .
 REFERENCE   1  (bases 1 to 46605)
   AUTHORS   Lin HC, Chiou G, Chooi YH, McMahon TC, Xu W, Garg NK, Tang Y.
-  TITLE     Elucidation of the concise biosynthetic pathway of the communesin 
+  TITLE     Elucidation of the concise biosynthetic pathway of the communesin
             indole alkaloids.
   JOURNAL   Angew Chem Int Ed Engl 2015;54:3004-7
-  PUBMED    25571861
+   PUBMED   25571861
 REFERENCE   2  (bases 1 to 46605)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Feb 9, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1002/anie.201411297"; journalName: "Angew Chem Int Ed Engl"; 
-            date: "2015"; volume: "54"; pages: "3004-7"
-COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final 
-            NCBI review. The reference sequence is identical to 
-            JQFZ01000090.##Genome-Assembly-Data-START##
+  JOURNAL   Exported Feb 9, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     ##Genome-Assembly-Data-START##
             Assembly Date          :: 2014
             Assembly Method        :: SOAPdenovo v. 2.0
             Genome Representation  :: Full
             Expected Final Version :: Yes
             Genome Coverage        :: 473.0x
-            Sequencing Technology  :: Illumina HiSeq 
-            ##Genome-Assembly-Data-END####Genome-Annotation-Data-START##
-            Annotation Provider :: INSDC submitter
-            Annotation Status   :: Full annotation
-            Annotation Pipeline :: Eukaryotic Annotation Propagation Pipeline 
+            Sequencing Technology  :: Illumina HiSeq
+            ##Genome-Assembly-Data-END##
+            ##Genome-Annotation-Data-START##
+            Annotation Provider    :: INSDC submitter
+            Annotation Status      :: Full annotation
+            Annotation Pipeline    :: Eukaryotic Annotation Propagation Pipeline
             ##Genome-Annotation-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1002/anie.201411297"; journalName: "Angew Chem Int Ed Engl";
+            date: "2015"; volume: "54"; pages: "3004-7"
+            PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to
 FEATURES             Location/Qualifiers
      source          1..46605
                      /chromosome="Unknown"
@@ -41,14 +42,14 @@ FEATURES             Location/Qualifiers
                      /mol_type="genomic DNA"
                      /country="USA"
                      /isolation_source="fruit"
-                     /collection_date=1992
+                     /collection_date="1992"
                      /db_xref="taxon:27334"
                      /organism="Penicillium expansum"
      CDS             complement(join(1..969,1049..1569,1628..1904))
                      /codon_start=1
                      /locus_tag="PEX2_055350"
                      /product="FAD-linked oxidoreductase CnsA"
-                     /label=cnsA
+                     /label="cnsA"
                      /db_xref="GeneID:27678228"
                      /protein_id="XP_016600807.1"
                      /translation="MAGAVHLSIFVALGALFIHLVHPTEQPFCRCRQWEPCWPSETDWA
@@ -62,11 +63,12 @@ FEATURES             Location/Qualifiers
                      LGGAVNTNDNSVNASVHPGWRHSALLINLYKEVPRSVEAKLYASHELTSVQMPVLYSLD
                      PSYKVSYLNMGDPNDADFRNVYWGPNYERLLALKQKWDVDALFITRLGVGSEFWDHDGL
                      CRKQDGLWGRIF"
+                     /Pfam="FAD_binding_4, BBE"
      CDS             2784..4148
                      /codon_start=1
                      /locus_tag="PEX2_055360"
                      /product="decarboxylase CnsB"
-                     /label=cnsB
+                     /label="cnsB"
                      /db_xref="GeneID:27678229"
                      /protein_id="XP_016600808.1"
                      /translation="MNSPTASDPIVRTLDAPETKDMQEAFLPGESPQDVASVIQETMDI
@@ -77,12 +79,13 @@ FEATURES             Location/Qualifiers
                      RDSASLAHSFAVDAEYINSTTPHGAVNFYNLSPELSRPARAMPLWFTLRVLGRRQMGEM
                      IDQGFLLARTAEEEIRRYPHWVILAPVTASIVVFRYCPLGLKDDDLDTLNLALSARLLA
                      ENVASILTTNIRGRVALRFCATNPATQADTITKVVQQMDQMANTMPTCGLGMCKE"
-     CDS             complement(join(4813..5237,5328..5969,6037..6099,6165..6246,
-                     6313..6447,6508..6759))
+                     /Pfam="Pyridoxal_deC"
+     CDS             complement(join(4813..5237,5328..5969,6037..6099,
+                     6165..6246,6313..6447,6508..6759))
                      /codon_start=1
                      /locus_tag="PEX2_055370"
                      /product="cytochrome P450 monooxygenase CnsC"
-                     /label=cnsC
+                     /label="cnsC"
                      /db_xref="GeneID:27678230"
                      /protein_id="XP_016600809.1"
                      /translation="MSLELIYAPVGFVGINAQLLGFVGLAALGLLLVFLVDYVDLLYRS
@@ -95,11 +98,12 @@ FEATURES             Location/Qualifiers
                      KPIYVQSMDMHIPAGVNLCVPAKYIHRDPDFYPNPTTFDGFRFYDPVTNNVTIRATTAT
                      DTYLSFSHGSGLCPGRVFGAHVVQVLCAVFIMEYDVKVDPSKTFPDVQSTKEGRGDGMV
                      GTTDILIRKRTSAKV"
+                     /Pfam="p450"
      CDS             join(8417..8599,8658..9905)
                      /codon_start=1
                      /locus_tag="PEX2_055380"
                      /product="catalase CnsD"
-                     /label=cnsD
+                     /label="cnsD"
                      /db_xref="GeneID:27678231"
                      /protein_id="XP_016600810.1"
                      /translation="MGKPTIRGCPAMERSGTTPRFAQNPVVNDTGLLEALSHFNREKIP
@@ -111,11 +115,12 @@ FEATURES             Location/Qualifiers
                      AYPDAQRYRLGVNPENPPARPKKPLSLKPGSQKFDEWVSQVSSPAWSEAKEDDYEFARE
                      LYEWYPQFRDQEFQNELIDNLAESISQTCDAVRQKVYRTFALVSTDLADRVREGVEKRL
                      ETAATNSTPQELPGRARL"
+                     /Pfam="Catalase, Catalase-rel"
      CDS             complement(10589..11419)
                      /codon_start=1
                      /locus_tag="PEX2_055390"
                      /product="methyltransferase CnsE"
-                     /label=cnsE
+                     /label="cnsE"
                      /db_xref="GeneID:27678232"
                      /protein_id="XP_016600811.1"
                      /translation="MASETENLRAIALDPSHPTPTDVGEIYDETSDSLTDMLGGYIHVG
@@ -123,11 +128,12 @@ FEATURES             Location/Qualifiers
                      TISKQQVEVARSQYGRKMPAGQVHFQFADAMDLPFGDASFDGAYAIESLVHMLDKRTAL
                      AQIAQVLRPGSRLVIADLVSDHPCPDSPVLARYAEIFEPPLVSADDLQNLLRQAGFKVI
                      DVTDIRENIRPSCKLFETKGLSLGGELGQKLLEIASILEEMNELGYALITAERL"
+                     /Pfam="Methyltransf_11"
      CDS             join(13034..14196,14262..14383,14444..14520)
                      /codon_start=1
                      /locus_tag="PEX2_055400"
                      /product="DMATS-type prenyltransferase CnsF"
-                     /label=cnsF
+                     /label="cnsF"
                      /db_xref="GeneID:27678233"
                      /protein_id="XP_016600812.1"
                      /translation="MGTHDMSPNASHSYIYRVLSDILEFPDNEQRMWWHSVAPMFAEML
@@ -138,12 +144,13 @@ FEATURES             Location/Qualifiers
                      LGGRRKSDSALAALDIIREIWSLIQLPPCLASYPSGYLPLGTVPDEQLPLMVNYTLRPD
                      DPMPEPQVYFTTFGQNDLHVTNALTAFFERQGWTELAESYKENLRAYYPHADQETANYI
                      HAYVSFSYRKGVSYMSVYLQTLETGDWPITYSPKRQYLCNEHPIHLKELAKACA"
+                     /Pfam="Trp_DMAT"
      CDS             complement(join(15937..16253,16315..17024,17104..17143,
                      17193..17450,17507..17882))
                      /codon_start=1
                      /locus_tag="PEX2_055410"
                      /product="CoA ligase CnsG"
-                     /label=cnsG
+                     /label="cnsG"
                      /db_xref="GeneID:27678234"
                      /protein_id="XP_016600813.1"
                      /translation="MESPQLPPSMKRPAIVYGDKTPTILETTLGHLLDELSDIHRDKAA
@@ -156,11 +163,12 @@ FEATURES             Location/Qualifiers
                      KGELCISGLPLQKGYWEDEEKTSEIMTRDADGVIWLHTGDEAIIGEDDHCTITGRIKDI
                      IIRGLNISPVEIEERLILHPFIQEASVVGLPDKTRGEIVGCFLKQYVDMQRPSDEAVRA
                      WVRELLGWHKAPEAIFWIGDAGIGEDFPKTASGKHQKEKLKDIGTYLLA"
+                     /Pfam="AA-adenyl-dom"
      CDS             complement(join(18782..19479,19552..19690))
                      /codon_start=1
                      /locus_tag="PEX2_055420"
                      /product="hydrolase CnsH"
-                     /label=cnsH
+                     /label="cnsH"
                      /db_xref="GeneID:27678235"
                      /protein_id="XP_016600814.1"
                      /translation="MRILCLHGHGASSDVLRYQMSGLIKGCDPSWEFHYLSGEVDCPPA
@@ -168,12 +176,13 @@ FEATURES             Location/Qualifiers
                      RRAAYPDESLPFRFLILCSPVVPLAGNAEYCHRILGCLSRDNESRIRSCQDTQISDLPE
                      RARIAMTMLTDILDASTTITQEPRRFYLDRELPDVPCALHPDLCLTRLPVATLHVRGTT
                      DAKALWNCGFLIQSFFDSPKLRVFEHKSGHDIPRSGPEVRQMLCAMEWIIAQSELP"
+                     /Pfam="FSH1"
      CDS             join(20618..20827,20885..21029,21091..21359,21414..21776,
                      21853..22792,22862..27210,27285..27951,28010..28158)
                      /codon_start=1
                      /locus_tag="PEX2_055430"
                      /product="polyketide synthase CnsI"
-                     /label=cnsI
+                     /label="cnsI"
                      /db_xref="GeneID:27678236"
                      /protein_id="XP_016600815.1"
                      /translation="MSTETQPEMASTPPEPIAIIGMSCRLSGEASSVDGFWDMLRNGRT
@@ -217,11 +226,12 @@ FEATURES             Location/Qualifiers
                      IAGITDDLPREGASSWQYDRKLDHRVRLGHSEPDNMPAQISELLKSSPTIEDASYVVNQ
                      ALREYLASAMATTADTIDSDLPLSSLGVDSLKVTEVQNWVSRKMGAQLSSFDFLGMQPL
                      RVLSEKIAAQSAFVTVS"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_DH, fPKS_ER, fPKS_KR, ACP_PCP"
      CDS             complement(join(29741..30382,30447..30577,30626..30854))
                      /codon_start=1
                      /locus_tag="PEX2_055440"
                      /product="2OG-Fe(II)-dependent dioxygenase CnsJ"
-                     /label=cnsJ
+                     /label="cnsJ"
                      /db_xref="GeneID:27678237"
                      /protein_id="XP_016600816.1"
                      /translation="MTVDTAPQSHYQETKVSEIPIVILKSSATDDVAAHEAIEALKVAG
@@ -230,11 +240,12 @@ FEATURES             Location/Qualifiers
                      SGASEYSLGRDSGCAMMVALTECAREDGTTRFIPGSHLWDYQYDHPSNDDPRIRYAEMR
                      PGDAYLMLSSVIHAGSVNYSTDRRRVLAAVFAARSHLRQVENQYLTYDIETVRTFPTWL
                      QRFMGYSLSKLFQGWVDKKDPLLVVDPNAQPEGEDDGGMKPNEGEHVVEAQI"
+                     /Pfam="PhyH"
      CDS             complement(31860..33260)
                      /codon_start=1
                      /locus_tag="PEX2_055450"
                      /product="acyltransferase CnsK"
-                     /label=cnsK
+                     /label="cnsK"
                      /db_xref="GeneID:27678238"
                      /protein_id="XP_016600817.1"
                      /translation="MERSLSFEPYLLTPLDHIIKDFYVSSFISFPLHDPTTAVSALKDG
@@ -246,13 +257,14 @@ FEATURES             Location/Qualifiers
                      LTNLSLRIRKELKLLDEKDYTGGLVSYLREQSDWGATSMKFTDITVSSLRHLDINGLDF
                      GPEIGRANSFDVQSGMYPGICDIMPTCGRDRVEDINDVPWDVCVTLEDSAWSAFMEDDL
                      VLWALEKI"
+                     /Pfam="Transferase"
      CDS             complement(join(34490..34766,34815..34883,34934..34942,
                      35000..35437,35492..35641,35697..35894,35953..36125,
                      36182..36397))
                      /codon_start=1
                      /locus_tag="PEX2_055460"
                      /product="major facilitator superfamily transporter CnsL"
-                     /label=cnsL
+                     /label="cnsL"
                      /db_xref="GeneID:27678239"
                      /protein_id="XP_016600818.1"
                      /translation="MAADQVTISDEPKGGGVTADAAVKAIKAGRNKDVDIAAQIVSDYA
@@ -264,12 +276,13 @@ FEATURES             Location/Qualifiers
                      TLSGIGLSYLAATTRRYRTAIVTVSILLPLFGAVLCYALPRTNLAGQLVGLYILYTYWA
                      PYVTLVSVYQANVAGHTKKITLYAWFYIAWATGNIIGPQTFRADQAPEYTGGTVAMIIC
                      YVVAMFAITAYGVVCHLSNKKRAEAIEARTAADHDWLDMTDKENVGFKYTT"
+                     /Pfam="MFS_1"
      CDS             join(36818..36869,36924..37084,37144..37265,37313..37399,
                      37466..37526,37585..37671,37728..38237)
                      /codon_start=1
                      /locus_tag="PEX2_055470"
                      /product="2OG-Fe(II)-dependent dioxygenase CnsM"
-                     /label=cnsM
+                     /label="cnsM"
                      /db_xref="GeneID:27678240"
                      /protein_id="XP_016600819.1"
                      /translation="MVSETVEANGPLYPDYLPFYDPLEKVEMVGPFEHDDPGHRADPSF
@@ -279,11 +292,12 @@ FEATURES             Location/Qualifiers
                      IRDNGPDSVLRRPITRTIHPVVVVHPVTKRKALFVNSSYTQSIVGWDEEESDYMLKFLF
                      DHINRGHDFCCRVRYEPGTVVIWDQRVTQHSQTLDYSAGSRRHAFRLTPLANVPIPSLI
                      EEDDGECAKDEGRMLLNLC"
+                     /Pfam="TauD"
      CDS             complement(join(38285..38544,38596..40435))
                      /codon_start=1
                      /locus_tag="PEX2_055480"
                      /product="transcription factor CnsN1"
-                     /label=cnsN1
+                     /label="cnsN1"
                      /db_xref="GeneID:27678241"
                      /protein_id="XP_016600820.1"
                      /translation="MEFSTSTSASAPILNGRLYKSRKCRPCDACRRRKVACDMPNGPPC
@@ -299,13 +313,14 @@ FEATURES             Location/Qualifiers
                      TYEGAKAVVTGALLCVKEFVEFVERLTGAQWNAFWHSWSRPNFAIAGSFMVHLLQIVTP
                      PNQTDSQSMPELLKYSFEKEHTELQDWIRRWRWATRISANGAAGVKGLTNLGFIKVETL
                      IGNGT"
+                     /Pfam="CghF, Zn_clus, Fungal_trans"
      CDS             complement(join(40621..40770,40830..40940,40995..41178,
                      41231..41335,41385..41644,41705..41766,41819..41848,
                      41901..41967))
                      /codon_start=1
                      /locus_tag="PEX2_055480"
                      /product="aldolase CnsN2"
-                     /label=cnsN2
+                     /label="cnsN2"
                      /db_xref="GeneID:27678241"
                      /protein_id="XP_016600820.1"
                      /translation="MRPLPTGIYTPLPCFFHENEDIDIEALQSHVKFIASAGTIPVVSG
@@ -314,13 +329,14 @@ FEATURES             Location/Qualifiers
                      QSSANICGVKLTCANVGKLTRIMAQVSRPEFQAAFPRSSATPFRAIDGFIDFLLPSISV
                      GSAGAISGLPNIAPKSCVKLWNLCQDSGSSKQATELQNLIALADGVALKIGIAGMKKLL
                      HRHFGYGDRPRLPLLPMDDKVADAVLSSEYLKALLDLEATL"
+                     /Pfam="DHDPS"
      CDS             complement(join(42897..43103,43155..43280,43335..43440,
                      43492..43713,43764..43934,43994..44472,44529..44608,
                      44658..44823))
                      /codon_start=1
                      /locus_tag="PEX2_055490"
                      /product="major facilitator superfamily transporter CnsO"
-                     /label=cnsO
+                     /label="cnsO"
                      /db_xref="GeneID:27678242"
                      /protein_id="XP_016600821.1"
                      /translation="MESTDSSPPLSMTDTEKKGDAVTTVTDESSVSEYERFLHLENVFS
@@ -333,11 +349,12 @@ FEATURES             Location/Qualifiers
                      AGYSAQAPIVGAWTASNITNPSKRAAAIGLLMLLGSVGGGSIGSNIYISSEAPTYPLGF
                      GFSVGATVLGAMIPATIHWFLMRKENKRRGGLDVAEIERKYTTEELGEMGEDSPLFRFV
                      L"
+                     /Pfam="MFS_1"
      CDS             join(45313..45397,45466..45835,45889..46229,46289..46605)
                      /codon_start=1
                      /locus_tag="PEX2_055500"
                      /product="2OG-Fe(II)-dependent dioxygenase CnsP"
-                     /label=cnsP
+                     /label="cnsP"
                      /db_xref="GeneID:27678243"
                      /protein_id="XP_016600822.1"
                      /translation="MSTTTVITPGTITREKNENGAPLYPDYMPFYDPLEKVEDIGAFEH
@@ -347,6 +364,7 @@ FEATURES             Location/Qualifiers
                      IHTNNDGVSQELKHGQQAVMRRGVLQAEHPVVLVHPVTKQKALYVNPVYTKKIVGFDQE
                      ESDCILKFLFDHIAKRQDFSCRIRYEAGTVLVWDQRVTNHSQTLDYPIGDRRHGFRLTP
                      LANKPIPAKIEEDDEEFSTDDARHLVGNAS"
+                     /Pfam="TauD"
 ORIGIN
         1 ctagaaaatt cggccccaga ggccatcttg tttcctacaa agaccatcat gatcccagaa
        61 ttcactccct acccccaacc tagttataaa caatgcgtcc acgtcccatt tttgcttgag

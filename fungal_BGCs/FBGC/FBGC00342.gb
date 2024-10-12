@@ -1,24 +1,24 @@
-LOCUS       FBGC00342       12222 bp DNA     linear   UNA 13-FEB-2023
+LOCUS       FBGC00342              12222 bp    DNA     linear   UNA 13-FEB-2023
 DEFINITION  acetylaszonalenin.
 ACCESSION   FBGC00342
-VERSION     .
+VERSION     FBGC00342
 KEYWORDS    .
 SOURCE      Aspergillus terreus NIH2624
   ORGANISM  Aspergillus terreus NIH2624
+            .
 REFERENCE   1  (bases 1 to 12222)
   AUTHORS   Yin WB, Grundmann A, Cheng J, Li SM.
-  TITLE     Acetylaszonalenin biosynthesis in Neosartorya fischeri. 
-            Identification of the biosynthetic gene cluster by genomic mining 
+  TITLE     Acetylaszonalenin biosynthesis in Neosartorya fischeri.
+            Identification of the biosynthetic gene cluster by genomic mining
             and functional proof of the genes by biochemical investigation.
   JOURNAL   J Biol Chem 2009;284:100-109
-  PUBMED    19001367
+   PUBMED   19001367
 REFERENCE   2  (bases 1 to 12222)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Feb 13, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1074/jbc.M807606200"; journalName: "J Biol Chem"; date: "2009"; 
+  JOURNAL   Exported Feb 13, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1074/jbc.M807606200"; journalName: "J Biol Chem"; date: "2009";
             volume: "284"; pages: "100-109"
 FEATURES             Location/Qualifiers
      source          1..12222
@@ -30,7 +30,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="ATEG_10304"
                      /product="acetyltransferase AnaAT"
-                     /label=anaAT
+                     /label="anaAT"
                      /protein_id="EAU29301.1"
                      /translation="MTLTIEFEPYVGSSVDALSIPLYLRCQLVFKLSKPLTVVPLLESG
                      VKRLIQALPFLSGEFTTVPASDDGKDVLLVRPAPNFELGCIFKIERHGTSLQDVFDQMD
@@ -41,13 +41,14 @@ FEATURES             Location/Qualifiers
                      LLREKVPLHLFALPGHDNVANMKASAHFPSDYSEGDEWAMAFCRVAYELRAKLNTIDYD
                      YVRDYISYVQKSPCHLSVTLDTENLYLSNWREIGVYDADFGGALGKPLRMRAPDGYTDG
                      LIFVMAQRSDDKTAPWEFSMSLESSTMKRIVNDPLWCKYVELDGFWHGAS"
+                     /Pfam="Transferase"
      CDS             complement(join(2392..9030,9085..9522))
                      /codon_start=1
                      /locus_tag="ATEG_10305"
                      /product="nonribosomal peptide synthetase AnaPS"
-                     /label=anaPS
-                     /note="similar to cyclic peptide synthetase
-                     revised sequence"
+                     /label="anaPS"
+                     /note="similar to cyclic peptide synthetase revised
+                     sequence"
                      /protein_id="EAU29302.1"
                      /translation="MTVQHRTTTQVDGDAICFFPTMLSLGIRSIAFDDHVIQALNAFLH
                      ASDTSIDFLLAGLWALVLRQYSEVDTARFEVSKSTCDKGQISGTTKRIFSIALNHSHPI
@@ -90,11 +91,12 @@ FEATURES             Location/Qualifiers
                      TTLHTVRQAIRAMDMHGWKYFTSIYHNTKRERCRAGVCPMEITFNYAGRRFQQIECDGS
                      LFRMEPMAQQSLFDGANELGRWAMVEVNSIILNGMLEFHVSYNRGTDEDHVLTPWMDSL
                      FKCLEDLASGFV"
+                     /Pfam="AA-adenyl-dom, ACP_PCP, NRPS_C, NRPS_E"
      CDS             join(10814..12024,12090..12222)
                      /codon_start=1
                      /locus_tag="ATEG_10306"
                      /product="DMATS-type prenyltransferase AnaPT"
-                     /label=anaPT
+                     /label="anaPT"
                      /protein_id="EAU29303.1"
                      /translation="MSPLTVKIGSVQCTAEQEAQSTNSKPWEADLPSCDQNLPWKVLGR
                      ALGFSTIDQQEYWLNTAPFFNSLLIQNGYDVHQQYQYLSFYHRHIIPVLGPFIRPAAEA
@@ -104,6 +106,7 @@ FEATURES             Location/Qualifiers
                      PEQSRIKLYVADVQLNLATMRHLWTLGGSVADPTTLRGLEIAEELWNILQVGGETRSHT
                      DVDQLPLVVNYELSSSSATPTPQLYLPLHGRNDESVANALTKFWEYLGWKGVAARYKKE
                      LYANNPCRNLSESTKVQRWVAFSYTESAGVYLTVYFHAVGGIQGNLYE"
+                     /Pfam="Trp_DMAT"
 ORIGIN
         1 atgaccttga ccattgagtt tgaaccatat gtcggctcat ctgtcgatgc tctaagcatc
        61 cctctctatc ttcgatgtca actcgttttc aagctttcta aacctcttac tgtcgtgcct

@@ -1,30 +1,30 @@
-LOCUS       FBGC00303       89066 bp DNA     linear   UNA 09-MAY-2023
+LOCUS       FBGC00303              89066 bp    DNA     linear   UNA 09-MAY-2023
 DEFINITION  ACT-toxin.
 ACCESSION   FBGC00303
-VERSION     .
+VERSION     FBGC00303
 KEYWORDS    .
 SOURCE      Alternaria alternata Z7
   ORGANISM  Alternaria alternata Z7
+            .
 REFERENCE   1  (bases 1 to 89066)
   AUTHORS   Wang M, Sun X, Yu D, Xu J, Chung K, Li H.
-  TITLE     Genomic and transcriptomic analyses of the tangerine pathotype of 
+  TITLE     Genomic and transcriptomic analyses of the tangerine pathotype of
             Alternaria alternata in response to oxidative stress.
   JOURNAL   Sci Rep 2016;6:32437
-  PUBMED    27582273
+   PUBMED   27582273
 REFERENCE   2  (bases 1 to 89066)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported May 9, 2023 from SnapGene 6.2.2
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: "10.1038/srep32437";
-            journalName: "Sci Rep"; date: "2016"; volume: "6"; pages: "32437"
-COMMENT     Annotation was added to the contigs in June 
-            2017.##Genome-Assembly-Data-START##
-            Assembly Method        :: CLC NGS Cell v. 8.0.3; HGAP v. 2.0 
+  JOURNAL   Exported May 9, 2023 from SnapGene 6.2.2 https://www.snapgene.com
+COMMENT     ##Genome-Assembly-Data-START##
+            Assembly Method        :: CLC NGS Cell v. 8.0.3; HGAP v. 2.0
             Expected Final Version :: no
             Genome Coverage        :: 200.0x
-            Sequencing Technology  :: Illumina HiSeq; PacBio 
+            Sequencing Technology  :: Illumina HiSeq; PacBio
             ##Genome-Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi: "10.1038/srep32437";
+            journalName: "Sci Rep"; date: "2016"; volume: "6"; pages: "32437"
+            Annotation was added to the contigs in June
 FEATURES             Location/Qualifiers
      source          1..89066
                      /host="Citrus suavissima"
@@ -40,7 +40,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="AALT_g12032"
                      /product="acyl-CoA dehydrogenase AFT10-1"
-                     /label=AFT10-1
+                     /label="AFT10-1"
                      /protein_id="OWY53666.1"
                      /translation="MSHFFGSAAPFAEPLWYSRPGNPRFNESHRRLRESVRGYIESEIM
                      PFCTQWETDGEVPSHVLKRHAELGYAAALINPSAVEEHMHDVRLPGDVSPREWDEFHGL
@@ -50,11 +50,12 @@ FEATURES             Location/Qualifiers
                      NCLRLARVCLEDAYQYALTRQTFGRPLIDHQAIRLKVANVGLQITSSYALLESLIEMRQ
                      NLSTKIGQAHSGIGGLYAITKVAAARAFELAVRESQQIMGAAAYTRTGPGLRIERLSRD
                      MRVLVIGGGSEEILTEMSVVQEQKDLNKCEALS"
+                     /Pfam="Acyl-CoA_dh_N, Acyl-CoA_dh_M, Acyl-CoA_dh_1"
      CDS             complement(2211..3242)
                      /codon_start=1
                      /locus_tag="AALT_g12031"
                      /product="trans-acting enoylreductase ACTT2"
-                     /label=ACTT2
+                     /label="ACTT2"
                      /protein_id="OWY53665.1"
                      /translation="MLTRRALVVQSQGEVQVEEIPLPTLRDEYITVKVKAVALNPGDWK
                      MLYGPHATPGSILGCDYSGVVEKVGRAVNALLTPGDRVAGFAFGGCPYNHDEGGFASYV
@@ -63,11 +64,12 @@ FEATURES             Location/Qualifiers
                      VFDTISEGSSPAICAAAMGAKGGKYTALLPIKNFPRSDVKVTTILGYTALGVKVSDHLP
                      ANQKDFEFSAKFWKLSQHLLEKEKIKTHPVDVRQGGIDAIPQGLQDLKNGRVSGVKLVY
                      KID"
+                     /Pfam="fPKS_ER"
      CDS             join(3963..4197,4248..4841,4889..5392,5440..5933)
                      /codon_start=1
                      /locus_tag="AALT_g11736"
                      /product="FAD-dependent monooxygenase AALT_g11736"
-                     /label=AALT_g11736
+                     /label="AALT_g11736"
                      /note="related to steroid monooxygenase"
                      /protein_id="OWY54908.1"
                      /translation="MTSRRGEMADYSFTSHNLVGGTSISDSTDNAPYKVSEHVLWAPRK
@@ -81,11 +83,12 @@ FEATURES             Location/Qualifiers
                      FTCAVEAAQDYICKVIRKMQTENMKSIDVRPGVLREYNEHVHEWLRRRQVQIKISWHLY
                      ANYLPSVWSSGCKSVYNQGNATGKLTMQYPGSIVHWRKLLEEPRFEDYSFVHRSRNRFE
                      FMGNGFTEAEVTGGDLSWYLNPEYIEKPLFTH"
+                     /Pfam="FMO-like"
      CDS             complement(join(6839..7209,7558..7714,8128..8496))
                      /codon_start=1
                      /locus_tag="AALT_g11737"
                      /product="short-chain dehydrogenase/reductase AALT_g11737"
-                     /label=AALT_g11737
+                     /label="AALT_g11737"
                      /protein_id="OWY54909.1"
                      /translation="MRMPSSTGYAFVGLSNLHHDIYPAISAALTPSLKQHEKVVLITGA
                      SRGIGRAIAIQYAHAGVAAMILVARSTVSLEEVKKEISGVDISVRVKTVTIDVTDAEAV
@@ -93,11 +96,12 @@ FEATURES             Location/Qualifiers
                      LVHTAEEHSGKADVINMSSIGAHTLLLDVSAYQTCKLALLRLSEFVNLEYRDKGIVCVG
                      MHPGDVSTNIVKGKTLFEGNRPDKAELAGGFAVWLTAENRKWLSGRYVSAMWDVEKLES
                      MKDEIVDGDKLKVRMVV"
+                     /Pfam="adh_short"
      CDS             join(9618..10811,10860..11036)
                      /codon_start=1
                      /locus_tag="AALT_g11738"
                      /product="terminal condensation domain-like protein ACTTS1"
-                     /label=ACTTS1
+                     /label="ACTTS1"
                      /protein_id="OWY54910.1"
                      /translation="MSSDSEKGRFSLLGLSEPELSAFIIHKASQANVEVSVIEDVYPCS
                      PMQENIQMSKSRSHDAQYRMVAINHITLPRAGDSIDIHRLRHAWQQVADRHSILRTIFA
@@ -107,11 +111,12 @@ FEATURES             Location/Qualifiers
                      LRKYTGMDDVCFGYVAACRDLPIGNAEEIVGPLINMLVCRTRLDSLQSTSELVQAMQRQ
                      MIENGRHQTTSLGAIHHALKMRGLRLFNTAVNFRSFRRDKFQEHGIAIEVFEDRRNMEF
                      DILVSLEPSDAIALNLYYSPDLFSEQDIELIAATLSEVLMKMPRSERLPIIAEEAPR"
+                     /Pfam="NRPS_C"
      CDS             complement(join(11472..12105,12156..12379))
                      /codon_start=1
                      /locus_tag="AALT_g11739"
                      /product="thioesterase AALT_g11739"
-                     /label=AALT_g11739
+                     /label="AALT_g11739"
                      /protein_id="OWY54911.1"
                      /translation="MDVPKQSSTAQPNLLTVLSRTGNKCPLFLLPPGSGSVLPWISLAQ
                      YLHDRPVYAFRLRGLEIGELPFQNMSEILDTYEKVIRSTQPHGPYAFLGMSLGSGIAFE
@@ -119,12 +124,13 @@ FEATURES             Location/Qualifiers
                      ERHGRESTIEKLILLHREALEKSGFTEDSLLAWIRTMDSGVGISQGGEATGKVKNLDLF
                      EAEPVVGWGFTKQQWSAEIRRWDQFASDFQHHEVPGNHLTLIRHPHVQTFREALAKAFL
                      HRGI"
+                     /Pfam="Thioesterase"
      CDS             complement(join(13540..13881,13939..14436,14496..14741,
                      14797..15165,15230..15468,15519..15561))
                      /codon_start=1
                      /locus_tag="AALT_g11740"
                      /product="CoA ligase AFT1-1"
-                     /label=AFT1-1
+                     /label="AFT1-1"
                      /protein_id="OWY54912.1"
                      /translation="MVFTAPCWVPPLPSDLSDSTTLEEFVFCPVKDLQTLSEPDRSVLI
                      CGIQGKEHTVQESMERTGRLAHGLSAWLDWPQKPPGKNLKVAAIFNINCVDFFSISHAI
@@ -137,11 +143,12 @@ FEATURES             Location/Qualifiers
                      KDIIKVKGFQVAPVELEQLLLSNDFVEEVAVTSRQDEGEEERPQAFVVRSQVGLEKPQG
                      AVAKSLHALVKARKARYKWLHPQIIFVDTLPKTTSGKIIRRALRNTCAANSGVDSKLSS
                      KI"
+                     /Pfam="AA-adenyl-dom"
      CDS             join(16317..16376,16456..16558,16607..17685,17742..17879)
                      /codon_start=1
                      /locus_tag="AALT_g11741"
                      /product="HMG-CoA synthase AALT_g11741"
-                     /label=AALT_g11741
+                     /label="AALT_g11741"
                      /protein_id="OWY54913.1"
                      /translation="MRPRPLDVGIKAIEIYFPRWCVDQSRLEEYDGVSVGKYTIGLGQT
                      KMSFCDDREDACSFALTAVSSLLRKYSIDPRRIGRLEVGTESPVDKSKSIKSFVMQLFE
@@ -152,11 +159,12 @@ FEATURES             Location/Qualifiers
                      YSASVYGSLCSLLCNVDRETLFGKRIALFSYGSGLASSMFSLKVRGSTKQMAEKLDVHR
                      RLADRVIVSPEEYEKACSVRERAYLKKSFKPKGGAGPIPAGVYFLAEVDELFRRVYTLK
                      N"
+                     /Pfam="HMG_CoA_synt_N, HMG_CoA_synt_C"
      CDS             19163..20062
                      /codon_start=1
                      /locus_tag="AALT_g11742"
                      /product="hypothetical protein AALT_g11742"
-                     /label=AALT_g11742
+                     /label="AALT_g11742"
                      /protein_id="OWY54914.1"
                      /translation="MDPREAAIQAAISNVVSGVFTSQRAAAKAYNIPRSTLAARLRGTR
                      TRQFSHEYQQRLTPQQEEFLVQWILEEDARAFPPSHARAREMANRILRMNGDNNPVGKR
@@ -164,22 +172,24 @@ FEATURES             Location/Qualifiers
                      TGKAMGVCANTRVLADSRKSKAYKQSPENREWASIIECVSATGKKLRCGVIFKGKNLQS
                      NLPPWAASNPVGRTQPRRHCVRSRYRLSVHSHWLGSAHRVVRRPGRTVNCMSGRNYSTP
                      FVVQQTKHLQRRPRAIYS"
+                     /Pfam="HTH_psq, HTH_Tnp_Tc5"
      CDS             complement(join(21990..22728,22789..22838))
                      /codon_start=1
                      /locus_tag="AALT_g11743"
                      /product="hydrolase ACTT2"
-                     /label=ACTT2
+                     /label="ACTT2"
                      /protein_id="OWY54915.1"
                      /translation="MQQPIVGVGHSMGGCQIATLSVTSRRIFSTMILLDPAIGPPEMGL
                      ATLGLGQLTLRRRTQWLTREDAEKALRTSFSTWDPQVLDLLIKHSIHSDKQSVEMEDGP
                      VSLVTGRYQELVNYIKPSFIRSGKVVGQELVHQTGPVDMYHMLGLVTCSTLYLCGGEST
                      LSTPRARELWLSRTAELSYSKDPGEMRKVDERIVPDTGHFLPMEEPKECADIIADWIDK
                      DECMIWNCHIGKQGKIWRDLSNTNRKMNAEVWIEYLQSKL"
+                     /Pfam="Abhydrolase_6"
      CDS             join(26283..26309,26667..27059)
                      /codon_start=1
                      /locus_tag="AALT_g11744"
                      /product="hypothetical protein AALT_g11744"
-                     /label=AALT_g11744
+                     /label="AALT_g11744"
                      /note="conserved membrane protein, unknown function"
                      /protein_id="OWY54916.1"
                      /translation="MPPDSDTIELLDVFRDYTENGRATNPITEKLSAQLAYHTATLTSA
@@ -189,7 +199,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="AALT_g11745"
                      /product="hypothetical protein AALT_g11745"
-                     /label=AALT_g11745
+                     /label="AALT_g11745"
                      /protein_id="OWY54917.1"
                      /translation="MRANQLASTHPISIAINRLKATDRARCRKPGQPRQLETITNSIPA
                      NNSNNTERIVPYRFRPWDSPTYTVTISKKTKEEEAIAHTAYTQSRLGDNYIAIYSDASQ
@@ -199,7 +209,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="AALT_g11746"
                      /product="transposase AALT_g11746"
-                     /label=AALT_g11746
+                     /label="AALT_g11746"
                      /protein_id="OWY54918.1"
                      /translation="MRDLALACNPFIEDQLITSRRKAVRLIASNYQLYKGHVIKGSLST
                      AASPVHISTDLWTSPFRSSLLAVCAQWVDHEYKLQKALLGLPECRYSHSGQQQAHLLLQ
@@ -212,11 +222,12 @@ FEATURES             Location/Qualifiers
                      MAPPSKQRGAVLDQILQQMSVAAADTSNGDDLKAFAEGPVIQIDCSPLEWWCRSEQRQR
                      YPRLSHMAIPILSIAAESSEPERTFSGARRTCSWDRSRFTCANIEKTECIGSWLREGHI
                      TPCSLNGMGLPMEPEQDEETEMIEDEVEELLEWT"
+                     /Pfam="Dimer_Tnp_hAT"
      CDS             complement(32345..33259)
                      /codon_start=1
                      /locus_tag="AALT_g11747"
                      /product="hypothetical protein AALT_g11747"
-                     /label=AALT_g11747
+                     /label="AALT_g11747"
                      /protein_id="OWY54919.1"
                      /translation="MAVPGTPGQILRPPEVVHTRPEDPNTPSLANLRTTKRHRQAEAAP
                      IPLTLGDGANKRQLVTGAVTEKITAAQEAAKTRHSIITAIANAIDQCLESYTSTAERLV
@@ -228,7 +239,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="AALT_g11748"
                      /product="metalloprotease AALT_g11748"
-                     /label=AALT_g11748
+                     /label="AALT_g11748"
                      /protein_id="OWY54920.1"
                      /translation="MQAQGGEARPGKSGRADAQDSPSRVPPCLPHPSPLRPHRPDRSDI
                      VDTRQPYQRKQQASPGKAGPVGRLPCATATIWDDLMESGFASVRHFTSLHTLEETGEAV
@@ -242,7 +253,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="AALT_g11749"
                      /product="nonribosomal peptide synthetase ACTTS4"
-                     /label=ACTTS4
+                     /label="ACTTS4"
                      /protein_id="OWY54921.1"
                      /translation="MDDEIPPFSLVGRHVQDYIQQVAGESKVDPTLIENILPCTPWQAR
                      LLTTATEQHEGTLRAVLELGEDVGWSRFYAAWSKVVQAASILRTRIIKHDKYGVFQVIM
@@ -270,11 +281,12 @@ FEATURES             Location/Qualifiers
                      GREAWDNNIDVSRTVGWFTTLFPIQVYPGSSLLETISQTKDYLRGLPRRGWSYFASKFV
                      TEQEKAAFVSNFPVDVTFNYVGMFQQLERTDSLFKTLSLPENCRPVSLPQSKRLGLFEL
                      EVSLEDGCIKVALLYPESANTKKEVELWMGNFKEAFAEIAHTLASV"
+                     /Pfam="NRPS_C, AA-adenyl-dom, ACP_PCP, NRPS_E"
      CDS             43161..50534
                      /codon_start=1
                      /locus_tag="AALT_g11750"
                      /product="polyketide synthase ACTTS3"
-                     /label=ACTTS3
+                     /label="ACTTS3"
                      /protein_id="OWY54922.1"
                      /translation="MTPLREPIAVIGSACRFPGGANSPHKLWELLRDPRDILREFPDDR
                      LVLSKFYNGNANHHGSTNVRNRSYLLSEDIRAFDAPFFHINPREADGMDPAQRILLEAV
@@ -318,11 +330,13 @@ FEATURES             Location/Qualifiers
                      MSETDMHYLFAEAVMSSRADHPGNWNIVSGIETFVDAPGVKLRPPHYHNPRFAHYVREE
                      NARKEDLRTDKTERSVKELLEDAISEEDVTTVFQQAFLIKLERLTQLESHRIDANKSLL
                      NLGVDSLSAVEIRNWFLQTVGVDIPVLKLLRGDTVSEISIDATKKYLAQRTS"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_DH, PKS_NRPS_MT, fPKS_KR,
+                     ACP_PCP"
      CDS             join(51480..52339,52387..52591,52645..53007)
                      /codon_start=1
                      /locus_tag="AALT_g11751"
                      /product="CoA ligase ACTT5"
-                     /label=ACTT5
+                     /label="ACTT5"
                      /protein_id="OWY54923.1"
                      /translation="MYSMVFLGGVAAGDVFSGTNPAYRVAEMRHHIRTTEVKFFIVEPE
                      LLDVVIEGATREGIPKDRIFVFNVRGQKVPYGFRSWEWLLQHGEEDWERITDLETLKRT
@@ -333,11 +347,12 @@ FEATURES             Location/Qualifiers
                      CDSKTKLWYIVDRKKELIKVRGFQVAPPELEAALLQAKDDIADVAVIGLKSQPDSDAER
                      PRAYVVRKPGSDITEAGVKRLIDDHLASYKQLTGGVVFLDEIPRSPTGKILKRVLREWA
                      GTEEKENVTTRRALIPL"
+                     /Pfam="AA-adenyl-dom"
      CDS             complement(join(53840..54446,54499..54785))
                      /codon_start=1
                      /locus_tag="AALT_g11752"
                      /product="hypothetical protein AALT_g11752"
-                     /label=AALT_g11752
+                     /label="AALT_g11752"
                      /protein_id="OWY54924.1"
                      /translation="MGPYSPDYLQLRSLAEKQRPSVSLLNKQFWIPIQCHRPQADNKSR
                      RTNFLWIRAKSKATIRKVHKAYKSIHSGNTILLLGGTAPEATKCIGKLDNFRDRMIVLV
@@ -349,17 +364,18 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="AALT_g11753"
                      /product="hypothetical protein AALT_g11753"
-                     /label=AALT_g11753
+                     /label="AALT_g11753"
                      /protein_id="OWY54925.1"
                      /translation="MDSGLTASQLLAPNAEYAGIGLVGGLPDVPVQGSFTLEEMLRHHH
                      CVIHVLGEDVVREGALSGKTTLLDLLKAIGKLLSLFDAAKATYFNKKQPPRHSSEQCMQ
                      QPGLVCLESTISIGRQVLNEEESALVARDIVKSSVMQLAKEVTELKKWFYQFRSVGNSV
                      ARSDGDSVEIGEMERVLTRIWALVAGIREQR"
+                     /Pfam="BfL8"
      CDS             58895..60229
                      /codon_start=1
                      /locus_tag="AALT_g11754"
                      /product="transcription factor ACTTR"
-                     /label=ACTTR
+                     /label="ACTTR"
                      /protein_id="OWY54926.1"
                      /translation="MLQCAPKKNERLRGSCDFCTQSKLRCNKNKPSCRRCTIQQQPCVY
                      SVARRTGRPPKHPRKANDSQEANEQHGDQDPVTSTPGGSCQQQSNHLLDVEGDGANFTL
@@ -369,11 +385,12 @@ FEATURES             Location/Qualifiers
                      QMLVSHPTLCQKNSRARFDMTLFLEEVVFSIYRDVLQCLVCQSKSLHSLASLCICTDWV
                      IEALRDVAQDLSSGQDNLGGFRAGLFPPRDKFSICVGRFVLDDQLRESCTRSLVRYRLR
                      KLIPIMDTMMKLNCRGAGGALSQAIRTMVEDVRHKIESALGMMEL"
+                     /Pfam="EqxR"
      CDS             join(62437..62720,62780..63001,63058..63303,63359..63497)
                      /codon_start=1
                      /locus_tag="AALT_g11755"
                      /product="HMG-CoA hydrolase ACTT3"
-                     /label=ACTT3
+                     /label="ACTT3"
                      /protein_id="OWY54927.1"
                      /translation="MLNRFSYSSNAWHNLRVDGPDADGIAVIVLARSQSRNALTLPMLT
                      DMVQLLSAMDADDSVKCIVFTGEGQFFCSGVDLTEGFGEIGKTRDTHRDAGGKLALAIH
@@ -381,11 +398,12 @@ FEATURES             Location/Qualifiers
                      GYGRALHLFTTGALYPAESGLLHGLFSETVNPASSTLPRALEVARDIAVNASQVGVYLT
                      RDLIYRSLRSPEQAHLLESATLYTRYQSQDFEEGVKSFLEKRRPRFQDTMHEQSGEGVL
                      ERGDCVVSLASKPKL"
+                     /Pfam="ECH_1"
      CDS             complement(join(72755..73575,73625..74723))
                      /codon_start=1
                      /locus_tag="AALT_g11756"
                      /product="transcription factor AALT_g11756"
-                     /label=AALT_g11756
+                     /label="AALT_g11756"
                      /protein_id="OWY54928.1"
                      /translation="MLATSMESPKPFEPHSLASWRTQGNLHRVDNALSSLGSELAPTSI
                      SRCFTPDLEALSPQTRSPPVSAIERPISPPTSLSDPHTSLVTILTTSSAMPPANSSFSL
@@ -399,12 +417,13 @@ FEATURES             Location/Qualifiers
                      TYYMSQILLSMNKPHESALERNTEVIRMDYHQSVLVACQNHSRRIIGISLAQPDKAVRI
                      YSIQPLFTAGQCLSDDRERRIVLRLLRDIESDTGWATDYRVRQLVEQWQRTKPDSQALW
                      SDSR"
+                     /Pfam="Fungal_trans_2"
      CDS             complement(join(79027..79684,79737..79927,79981..81968,
                      82040..86252))
                      /codon_start=1
                      /locus_tag="AALT_g11757"
                      /product="polyketide synthase AFT16-1"
-                     /label=AFT16-1
+                     /label="AFT16-1"
                      /protein_id="OWY54929.1"
                      /translation="MNGESRDNGRRDGKGQPVVPAEPIAIVGTAMRLPGDATNPSKLWQ
                      LLRNPPSDLSRRPPSERFSSAGFFHEDPEHHGTSNSEQSYFLREDIRAFDAAFFSIAPR
@@ -447,11 +466,13 @@ FEATURES             Location/Qualifiers
                      NPRFSHLSLLEGLDDVSLDSKKSSQGKVSVREQLRQSTMPQEPFEILSGSLKQKLKVTL
                      KIDKQEISDEVALVQMGIDSLSAVEIRSWFAKEVGVDLPVLKILNGASIRDLCLEAIGQ
                      WKK"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_DH, PKS_NRPS_MT, fPKS_KR,
+                     ACP_PCP"
      CDS             complement(join(87642..88315,88365..88575,88632..89066))
                      /codon_start=1
                      /locus_tag="AALT_g11758"
                      /product="truncated cytochrome P450 monooxygenase AFT11-1"
-                     /label=AFT11-1
+                     /label="AFT11-1"
                      /protein_id="OWY54930.1"
                      /translation="MTHSICSNGRLDVYGFQRNVSKYDTTYSPFRLAPDFTSTWNTSNV
                      DVHKSRRKLLNKLFSEQHLDDYGTLITVQVDEFLRQMLEASPKDENGMAGPINFAYKSD
@@ -461,6 +482,7 @@ FEATURES             Location/Qualifiers
                      PTLLPRLVGPGGIIACGRYIPEGVVVGAPCWAISRDKRYFEKAHVFKPDRWLADSSDPV
                      ALEKVLLATRASQPFSYGPRACPGRALAFRENGLLLAKLVYAFEMEPVRDKSIVEESLT
                      GIYDGLVFNQLDTVGAHEVELMVRYRLRLDGKTEKRVSGN"
+                     /Pfam="p450"
 ORIGIN
         1 atgtctcact ttttcggctc tgcggcccct tttgcggagc cattatggta ctcgcgtcct
        61 ggaaatcctc ggttcaatga gtcgcacaga agattacgag agtctgtgcg tggttatata

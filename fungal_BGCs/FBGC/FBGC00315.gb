@@ -1,38 +1,37 @@
-LOCUS       FBGC00315        2176 bp DNA     linear   UNA 10-FEB-2023
+LOCUS       FBGC00315               2176 bp    DNA     linear   UNA 10-FEB-2023
 DEFINITION  T-toxin.
 ACCESSION   FBGC00315
-VERSION     .
+VERSION     FBGC00315
 KEYWORDS    .
 SOURCE      Bipolaris maydis C4
   ORGANISM  Bipolaris maydis C4
+            .
 REFERENCE   1  (bases 1 to 2176)
   AUTHORS   Inderbitzin P, Asvarak T, Turgeon BG.
-  TITLE     Six new genes required for production of T-toxin, a polyketide 
-            determinant of high virulence of Cochliobolus heterostrophus to 
+  TITLE     Six new genes required for production of T-toxin, a polyketide
+            determinant of high virulence of Cochliobolus heterostrophus to
             maize.
   JOURNAL   Mol Plant Microbe Interact 2010;23:458-72
-  PUBMED    20192833
+   PUBMED   20192833
 REFERENCE   2  (bases 1 to 2176)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Feb 10, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
+  JOURNAL   Exported Feb 10, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
             "10.1094/MPMI-23-4-0458"; journalName: "Mol Plant Microbe Interact";
             date: "2010"; volume: "23"; pages: "458-72"
 FEATURES             Location/Qualifiers
      source          1..2176
                      /strain="C4"
                      /mol_type="genomic DNA"
-                     /note="race T;
-                     teleomorph: Cochliobolus heterostrophus"
+                     /note="race T; teleomorph: Cochliobolus heterostrophus"
                      /db_xref="taxon:5016"
                      /organism="Bipolaris maydis"
      CDS             join(1..96,146..826)
                      /codon_start=1
                      /gene="OXI1"
                      /product="short-chain dehydrogenase/reductase OXI1"
-                     /label=OXI1
+                     /label="OXI1"
                      /note="revised sequence"
                      /protein_id="ADB23430.1"
                      /translation="MSTLEGKVAIITGASRGIGAAIAYELARCGAKVAITFVSPSSEAL
@@ -40,11 +39,12 @@ FEATURES             Location/Qualifiers
                      LSELGLQDFNECIDVNFRAVVFMTKSVIPYLRSPGRIINISSSSAHAGGLSSGIYAASK
                      AAVEALARFWATSLGPQGHSVNTVVPGLTQTDMYERIIAEESSAAYHRTVASMTPMGGR
                      VGTPEDIARIVSLLVEPRSQWVTGQTISATGGLILL"
+                     /Pfam="adh_short_C2"
      CDS             1340..2176
                      /codon_start=1
                      /gene="TOX9"
                      /product="alpha/beta hydrolase TOX9"
-                     /label=TOX9
+                     /label="TOX9"
                      /note="unknown function"
                      /protein_id="ADB23431.1"
                      /translation="MVYNPTATFHKKTLTRMKTGLGSNGDILFIQTRALRDQLSSSFRF
@@ -52,6 +52,7 @@ FEATURES             Location/Qualifiers
                      QSGASGQWVGLMGFSQGARLAASVLFESQRRQNIQEKGGIVRGYEGDNIETKLWDQRWQ
                      FAVLFSGPAPLIAFCPENDHLSSQSTAEHDPMYRALDNVNCSGELHITKPTLHVIGVKD
                      EWAPSQRELYEKYCSKESSTLVEWEGAHRIPIESSIVKDLCARILVMSKQADFVES"
+                     /Pfam="FSH1"
 ORIGIN
         1 atgtcgactc ttgaagggaa agtagctatc attactggag catcccgtgg gattggtgca
        61 gcaatagcgt acgagttagc gagatgtggg gcaaaggtag actcgaatcc taaccaaata

@@ -1,32 +1,32 @@
-LOCUS       FBGC00326       27092 bp DNA     linear   UNA 12-FEB-2023
+LOCUS       FBGC00326              27092 bp    DNA     linear   UNA 12-FEB-2023
 DEFINITION  terreic acid.
 ACCESSION   FBGC00326
-VERSION     .
+VERSION     FBGC00326
 KEYWORDS    .
 SOURCE      Aspergillus terreus NIH2624
   ORGANISM  Aspergillus terreus NIH2624
+            .
 REFERENCE   1  (bases 1 to 27092)
   AUTHORS   Guo CJ, Sun WW, Bruno KS, Wang CC.
-  TITLE     Molecular genetic characterization of terreic acid pathway in 
+  TITLE     Molecular genetic characterization of terreic acid pathway in
             Aspergillus terreus.
   JOURNAL   Org Lett 2014;16:5250-3
-  PUBMED    25265334
+   PUBMED   25265334
 REFERENCE   2  (bases 1 to 27092)
-  AUTHORS   Kong C, Huang H, Xue Y, Liu Y, Peng Q, Liu Q, Xu Q, Zhu Q, Yin Y, 
+  AUTHORS   Kong C, Huang H, Xue Y, Liu Y, Peng Q, Liu Q, Xu Q, Zhu Q, Yin Y,
             Zhou X, Zhang Y, Cai M.
-  TITLE     Heterologous pathway assembly reveals molecular steps of fungal 
+  TITLE     Heterologous pathway assembly reveals molecular steps of fungal
             terreic acid biosynthesis.
   JOURNAL   Sci Rep 2018;8:2116
-  PUBMED    29391515
+   PUBMED   29391515
 REFERENCE   3  (bases 1 to 27092)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Feb 12, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
+  JOURNAL   Exported Feb 12, 2023 from SnapGene 6.2.1 https://www.snapgene.com
 COMMENT     SGRef: number: 1; type: "Journal Article"; doi: "10.1021/ol502242a";
             journalName: "Org Lett"; date: "2014"; volume: "16"; pages: "5250-3"
-COMMENT     SGRef: number: 2; type: "Journal Article"; doi: 
-            "10.1038/s41598-018-20514-x"; journalName: "Sci Rep"; date: "2018"; 
+            SGRef: number: 2; type: "Journal Article"; doi:
+            "10.1038/s41598-018-20514-x"; journalName: "Sci Rep"; date: "2018";
             volume: "8"; pages: "2116"
 FEATURES             Location/Qualifiers
      source          1..27092
@@ -38,7 +38,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="ATEG_06272"
                      /product="FAD-dependent monooxygenase AtA"
-                     /label=atA
+                     /label="atA"
                      /protein_id="EAU32816.1"
                      /translation="MTFSNRVSVAIIGGGIGGLSLAIGLLQNKNLDVAIYETAPKFAEI
                      GAGVALGPNAQHALALISPAAEHAFRIHATTSLSPEFEHVWFDFRNGNAGEKDGEVLSK
@@ -48,12 +48,14 @@ FEATURES             Location/Qualifiers
                      QLLKQPTMWAILDHYPAPYYYSGNVAIMGDAAHATTPFQGAGAGQAIEDALVLSTLFQR
                      VTHSGLVRPALAAYNNVRLRRTQKVVATSRDALRLFCFNDRYVDGDAQRWREVWNGRMD
                      WLWGMDLEKQNRDAVNLFADIVEKQSSARETMPKFGPVPFPVATSTV"
-     CDS             join(2173..2559,2617..2837,2899..2955,3014..3194,3248..3471,
-                     3522..3668,3722..3778,3837..3970,4046..4118,4170..4233)
+                     /Pfam="ElcH"
+     CDS             join(2173..2559,2617..2837,2899..2955,3014..3194,
+                     3248..3471,3522..3668,3722..3778,3837..3970,4046..4118,
+                     4170..4233)
                      /codon_start=1
                      /locus_tag="ATEG_06273"
                      /product="major facilitator superfamily transporter AtB"
-                     /label=atB
+                     /label="atB"
                      /note="revised sequence"
                      /protein_id="EAU32817.1"
                      /translation="MAPQLAGSSHSSSASDQAHRQSSDPALESGSDTHVGSIAPKTETD
@@ -65,13 +67,14 @@ FEATURES             Location/Qualifiers
                      FLGITVGMIIGISTNPFWHRNFMRLLQNHEAKTGTVGSSEPEFRLPPAVGGAPLVTIGL
                      LWFAWTTYPSVHWIVPIIGSGIFGAGVIMIFSGVFTFLVDAYPLYAASALAANSFSRSM
                      FAAAFPLFGQAMFRNLGYQWAGFLLAMITLLLAPFPYIFYRWGAKIRQHSRYAGAK"
-     CDS             join(5202..5564,5617..5669,5727..5756,5815..6325,6382..6492,
-                     6543..6690,6764..7189,7250..7384,7435..7478)
+                     /Pfam="MFS_1"
+     CDS             join(5202..5564,5617..5669,5727..5756,5815..6325,
+                     6382..6492,6543..6690,6764..7189,7250..7384,7435..7478)
                      /codon_start=1
                      /locus_tag="ATEG_06274"
-                     /product="glucose-methanol-choline family oxidoreductase 
+                     /product="glucose-methanol-choline family oxidoreductase
                      AtC"
-                     /label=atC
+                     /label="atC"
                      /protein_id="EAU32818.1"
                      /translation="MRVFPTYIAVSGLFGGAFAAFGATNIKGQTKLFGTSFGILAKNAS
                      YDYVIVGGGTAGLTVAARLAAQPNVSVAVIEAGSFYEIDNGNISQVPGYGANYLSFNDL
@@ -84,11 +87,12 @@ FEATURES             Location/Qualifiers
                      AAVQSTSSRGYVKLRSADPHDAPIININALSHPADADLAVGAIKRLRQIAEATGVRVKE
                      VLPGPEVVSDAEILEWVRNNAVNGYHASSTCAMGNSSNPDAVVDTRAKVYGVSNLRVVD
                      ASALPYLPPGHPMSSIYAFAELIAEDILSK"
+                     /Pfam="GMC_oxred_N, GMC_oxred_C"
      CDS             complement(join(8475..13763,13826..13948))
                      /codon_start=1
                      /locus_tag="ATEG_06275"
                      /product="polyketide synthase AtX"
-                     /label=atX
+                     /label="atX"
                      /protein_id="EAU32819.1"
                      /translation="MEVHGDEVLSVDSGVSTPPSTGSGFRRPLETPGTEIGNLNLNPQN
                      EVAVVGMACRLAGGNNSPEELWQSILNRKDASGEIPSMRWEPYYRRDIRNPKILDQTTK
@@ -121,11 +125,12 @@ FEATURES             Location/Qualifiers
                      INAELASKGITDITRDEGFRAWMHISKYDIDQAAVLRSLAFEADEPLPTPILTDIAVRK
                      AGSASSADAPSAAPKETNEMPESIPERRTWLDERIRDCVARVLQLGSSDEVDSKAALSD
                      LGVDSVMTVSLRGQLQKTLGVKVPPTLTWSCPTVSHLVGWFLEKMGN"
+                     /Pfam="PKS_KS, Acyl_transf_1, fPKS_TH, fPKS_KR, ACP_PCP"
      CDS             join(15318..15397,15463..15913,15968..16399)
                      /codon_start=1
                      /locus_tag="ATEG_06276"
                      /product="cupin domain-containing protein AtD"
-                     /label=atD
+                     /label="atD"
                      /protein_id="EAU32820.1"
                      /translation="MGELFKWPSFSPFVPFHVSAGQTVIRKFGGLLTCEFLPPPPGRSF
                      MMRQTYRHSVEGPIPENLRKLIESDHRPDGPPMHFHQWQTEYFKVEEGICVVEVNGKQT
@@ -133,12 +138,13 @@ FEATURES             Location/Qualifiers
                      LLYQGGLDFIQTLCIHDAGDHYTPGPAWLPFRRFIGYWMCVVIGRWIGGLLGYKPFFRE
                      YTTDWDFAVTKMKANPWTRRLVNDSYANKKSWDEQVELSSRPKAQNADYELLVTDITEE
                      NRRKKANGATNGHAKLANGTATGVAVEVKENGEELRKRS"
+                     /Pfam="PatJ"
      CDS             join(17251..17389,17454..17517,17579..17955,18020..18440,
                      18494..19100)
                      /codon_start=1
                      /locus_tag="ATEG_06277"
                      /product="cytochrome P450 monooxygenase AtE"
-                     /label=atE
+                     /label="atE"
                      /protein_id="EAU32821.1"
                      /translation="MATLPILDLWSTNKALVSLTISASLLLVSLLVSLFQVGRRERGLP
                      PGPPTRLVLGNEHEIPKADSHFLMSKWAKQYGGIFSLKRFRNTTIVLTDWKIMKELVDK
@@ -150,11 +156,12 @@ FEATURES             Location/Qualifiers
                      ILNVWGMHMDPDRFENPDAFIPERYANFPELAPHYAALADGAARDHFGYGAGRRICPGI
                      HLAERNLFIAVAKLLWAFEFKNNPAGKNDASAETGSSQGFMHCVKDYDAIVTVRGEERR
                      QTILRELEQAQTVFAKYD"
+                     /Pfam="p450"
      CDS             complement(19280..21637)
                      /codon_start=1
                      /locus_tag="ATEG_06278"
                      /product="transcription factor AtF"
-                     /label=atF
+                     /label="atF"
                      /note="revised sequence"
                      /protein_id="EAU32822.1"
                      /translation="MFATFNSSMDNRSSANSPVAPSSRPKRTTVARACDWCRLNRVKCD
@@ -171,12 +178,13 @@ FEATURES             Location/Qualifiers
                      GYSGAAQAMTVTRELDRSIDLLVQSLRSSLQPSQGPSPGSLDDGQNLATPPQVSFLSQP
                      SQKQPILVSQPMQGSNSLQLFQQALDNLPQPFSLPPGSTSPESTHKSPEIQPPFFLNEH
                      PAIIPMTSPTDLMEGMIDQSWVHNDWETGMMP"
+                     /Pfam="Zn_clus, Fungal_trans"
      CDS             complement(join(23759..24910,25008..25096,25303..25474,
                      25525..25614))
                      /codon_start=1
                      /locus_tag="ATEG_06279"
                      /product="hypothetical protein ATEG_06279"
-                     /label=ATEG_06279
+                     /label="ATEG_06279"
                      /protein_id="EAU32823.1"
                      /translation="MTSYGPQIEKLVRYITAAWCDRDLVFADKWNVSEFYPIMLMCDCL
                      VRLLYHWDQGHLLHISEELITEKVPLVLWQALMQTLQRQNHNDLQSLCVGWAEGQKPQV
@@ -187,15 +195,17 @@ FEATURES             Location/Qualifiers
                      RDWLPQTSYHTWLRTTGSSHRCALLSLAYLLCLMSREQKQALMPEETYVVQYICMHLGH
                      KARLENDRASYARDKREGDLNSLDFPEFRHVSSEDDRKTHLAPIVDYERKCCVAGIETL
                      RELQAEHKSPGCEEVLTMLEFYLFLTDIYNDVYVMRDISCSG"
+                     /Pfam="PbcA"
      CDS             join(26510..26650,26701..26861,26921..27092)
                      /codon_start=1
                      /locus_tag="ATEG_06280"
                      /product="truncated cytochrome P450 monooxygenase AtG"
-                     /label=atG
+                     /label="atG"
                      /protein_id="EAU32824.1"
                      /translation="MISSVPYRERQSIGGIRSCPHSPASSRFPRVNDSAPTVFQGWDVP
                      IGTPISMNIWNTHYNKDFFPGPTEFWPERWMGEGTRELEKYLVPFGSGSRMCTGQNLSI
                      AEQVLTIATLFRNYELELYQTTKKNVVMASYCMISLPGSESPGIQVKVRKTVQ"
+                     /Pfam="p450"
 ORIGIN
         1 tcaaacagta gatgttgcca cagggaaggg gacgggccca aatttgggca ttgtctccct
        61 agcagacgat tgcttctcaa caatgtccgc aaaaaggttg actgcatccc tgttctgttt

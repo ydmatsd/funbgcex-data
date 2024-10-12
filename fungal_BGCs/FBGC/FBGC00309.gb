@@ -1,32 +1,32 @@
-LOCUS       FBGC00309       52828 bp DNA     linear   UNA 10-FEB-2023
+LOCUS       FBGC00309              52828 bp    DNA     linear   UNA 10-FEB-2023
 DEFINITION  fusaric acid.
 ACCESSION   FBGC00309
-VERSION     .
+VERSION     FBGC00309
 KEYWORDS    .
 SOURCE      Fusarium verticillioides 7600
   ORGANISM  Fusarium verticillioides 7600
+            .
 REFERENCE   1  (bases 1 to 52828)
   AUTHORS   Brown DW, Butchko RA, Busman M, Proctor RH.
-  TITLE     Identification of gene clusters associated with fusaric acid, 
-            fusarin, and perithecial pigment production in Fusarium 
+  TITLE     Identification of gene clusters associated with fusaric acid,
+            fusarin, and perithecial pigment production in Fusarium
             verticillioides.
   JOURNAL   Fungal Genet Biol 2012;49:521-32
-  PUBMED    22652150
+   PUBMED   22652150
 REFERENCE   2  (bases 1 to 52828)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Feb 10, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1016/j.fgb.2012.05.010"; journalName: "Fungal Genet Biol"; date:
-            "2012"; volume: "49"; pages: "521-32"
-COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final 
-            NCBI review. The reference sequence is identical to 
-            CM000580.##Genome-Annotation-Data-START##
+  JOURNAL   Exported Feb 10, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     ##Genome-Annotation-Data-START##
             Annotation Provider :: INSDC submitter
             Annotation Status   :: Full annotation
-            Annotation Pipeline :: Eukaryotic Annotation Propagation Pipeline 
+            Annotation Pipeline :: Eukaryotic Annotation Propagation Pipeline
             ##Genome-Annotation-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1016/j.fgb.2012.05.010"; journalName: "Fungal Genet Biol"; date:
+            "2012"; volume: "49"; pages: "521-32"
+            PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to
 FEATURES             Location/Qualifiers
      source          1..52828
                      /chromosome="3"
@@ -39,7 +39,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="FVEG_12534"
                      /product="transcription factor FUB12"
-                     /label=FUB12
+                     /label="FUB12"
                      /db_xref="GeneID:30069967"
                      /protein_id="XP_018760472.1"
                      /translation="MPLPSRASSTPKISKACVPCRTRKIKCNAAVVGLPCGSCVSRECP
@@ -54,11 +54,12 @@ FEATURES             Location/Qualifiers
                      NTIQKLPTTFITTITALLALHIESALDAAESSLIRSMARISVQHTMLALDQIRDTPAIK
                      RALPAFEIVLSKNKLYPMSTSDTEQISTIQTIPQDQTLSDGQILQPPPTDMTLPQDDQS
                      FLYGDFIGFDFLDRWQMEQLDFTGIY"
+                     /Pfam="Zn_clus, Fungal_trans"
      CDS             join(2877..3591,3642..4322,4370..4755)
                      /codon_start=1
                      /locus_tag="FVEG_12533"
                      /product="major facilitator superfamily transporter FUB11"
-                     /label=FUB11
+                     /label="FUB11"
                      /db_xref="GeneID:30069966"
                      /protein_id="XP_018760471.1"
                      /translation="MAIDPQPSSPSLSSETIANDTIGNDNNVNEPSVEPKTQEHQHTVP
@@ -72,11 +73,12 @@ FEATURES             Location/Qualifiers
                      LNYLIDSYVIFAASIMAANSALRSLFGAAFPLFTRQMYDGLGVQWASSIPAFLALACVP
                      FPFLFYKYGRQIRMKCEYAAEAANVLQKMRSLHVAVTEDDAMNEAEEMWRARTHNSHAS
                      AAHSHGHRRSLSYTRSA"
+                     /Pfam="MFS_1"
      CDS             9853..11118
                      /codon_start=1
                      /locus_tag="FVEG_12532"
                      /product="transcription factor FUB10"
-                     /label=FUB10
+                     /label="FUB10"
                      /db_xref="GeneID:30069965"
                      /protein_id="XP_018760469.1"
                      /translation="MAGDFSNRAPWKRSACDRCRAQKLRCHRDSGHSTDACLRCLKSGI
@@ -87,12 +89,13 @@ FEATURES             Location/Qualifiers
                      IALSCYIQIVSIYGIIFSKVFDYLLSTSKTSNGSYQSSPLTLYIGGLPIPPNETLSGNL
                      LVHLIEHQLHQIEQLMGLPEHYRVSSRAKDTKDGELGLFGSQHSQSLLNAAIQLGEDRD
                      GNHDDIRCVRALKVVMRQIKDF"
+                     /Pfam="EqxR"
      CDS             complement(join(13332..13487,13538..13791,13846..13920,
                      13970..14143,14199..14542,14602..14635,14688..14778))
                      /codon_start=1
                      /locus_tag="FVEG_12531"
                      /product="FMN-dependent dehydrogenase FUB9"
-                     /label=FUB9
+                     /label="FUB9"
                      /db_xref="GeneID:30069964"
                      /protein_id="XP_018760468.1"
                      /translation="MSDATSSKPQIFSIQDLKQAASDKMSQMYRDYYNGGAMDNITLAT
@@ -102,12 +105,13 @@ FEATURES             Location/Qualifiers
                      KIAWMKSQTDLQLWVKGVTSPLDAQIAIEQGVDGIIISNHGGRQLDTTPATIDILREIA
                      PVAKGKTRIAIDGGFRRGSDIFKAVALGADFVFVGRIAIWGLAYDGSNGVGLALDLLIN
                      EFKLCMGLAGCSKISDITPAHLSLLNAKGVLEGVY"
+                     /Pfam="FMN_dh"
      CDS             complement(join(15531..16043,16098..16468,16521..18051,
                      18105..18503,18554..18606,18656..18965))
                      /codon_start=1
                      /locus_tag="FVEG_12530"
                      /product="NRPS-like carboxylic acid reductase FUB8"
-                     /label=FUB8
+                     /label="FUB8"
                      /db_xref="GeneID:30069963"
                      /protein_id="XP_018760465.1"
                      /translation="MQKIAKQALSSLSSLAKSPANAMGSISHLPAYGHRLLPVLIDEIS
@@ -129,12 +133,13 @@ FEATURES             Location/Qualifiers
                      VVGQENYYNLLNPRTPSWKDTLPGLKAHLEASFSEKFEIIPLQEWINRMRGAEKTIVKE
                      VSEGSSETARRAQSGLKLLAFFETLASETEGSRGLEWSKANALAQSSILACMEPVSSAW
                      FDTWLTQWGY"
+                     /Pfam="AA-adenyl-dom, ACP_PCP, fPKS_R"
      CDS             join(19558..19607,19655..19709,19765..19848,19900..20259,
                      20307..21059)
                      /codon_start=1
                      /locus_tag="FVEG_12529"
                      /product="PLP-containing enzyme FUB7"
-                     /label=FUB7
+                     /label="FUB7"
                      /db_xref="GeneID:30069962"
                      /protein_id="XP_018760464.1"
                      /translation="MAEQVFQNFETLQLHAGYTPDPHTRSTAVPIYATSSYTFNDSAHG
@@ -145,11 +150,12 @@ FEATURES             Location/Qualifiers
                      FSAQQLLLGIETLGLRAERHAQNTEKLAKYFESSPNVSWVLWPGSESHPTYAQAKKYLT
                      RGFGAMLSIGVKGDASAGSKVVDGLKLVSNLANVGDAKSLAIHPWSTTHEQLSEDERLA
                      SGVTEDMIRISVGIEHVDDIIADFEQSFQKAYGA"
+                     /Pfam="Cys_Met_Meta_PP"
      CDS             join(22329..23117,23165..23449)
                      /codon_start=1
                      /locus_tag="FVEG_12528"
                      /product="medium-chain dehydrogenase/reductase FUB6"
-                     /label=FUB6
+                     /label="FUB6"
                      /db_xref="GeneID:30069961"
                      /protein_id="XP_018760463.1"
                      /translation="MGGEVSNKTWVFKKSPSSLPEPGVHTAFEDRPLSLVAPPGGLVIK
@@ -159,11 +165,12 @@ FEATURES             Location/Qualifiers
                      KALKRLAPDGLDVVFENVGGDHFQAAIENMKWFGRIISCGTASQYNKPVEEQYGVTNLS
                      EIFRRRIKIQGFIFWDDNIYTDNIENFKATMPKWVSEGKIKSRYTQFEGIEQADKAFLS
                      MFTGGSHGKTVLKISDP"
+                     /Pfam="ADH_N_2, ADH_zinc_N"
      CDS             join(26524..26764,26839..26934,26992..27515)
                      /codon_start=1
                      /locus_tag="FVEG_12527"
                      /product="aldolase FVEG_12527"
-                     /label=FVEG_12527
+                     /label="FVEG_12527"
                      /db_xref="GeneID:30069960"
                      /protein_id="XP_018760462.1"
                      /translation="MSPSSNMEEYRSGDPSLAFVDDEAEKAPTFDDPYEERKYVKHRLA
@@ -172,11 +179,12 @@ FEATURES             Location/Qualifiers
                      ILWSNFAGLVLAPAEGKAIAAALGTKKAALLGNHGIMTVGPTIEATIAWFVLLERCCQI
                      QLLADASSAGSGKPLLTIGEHEAKSTWEAVGTTGNGYFQGLPLFQVAEQEFNERSFLGK
                      GLKAA"
+                     /Pfam="Aldolase_II"
      CDS             complement(27765..28775)
                      /codon_start=1
                      /locus_tag="FVEG_12526"
                      /product="metallo-beta-lactamase-like hydrolase FVEG_12526"
-                     /label=FVEG_12526
+                     /label="FVEG_12526"
                      /db_xref="GeneID:30069959"
                      /protein_id="XP_018760461.1"
                      /translation="MRSTNYFFTASLVLGLNSSLAQAQIKPISEFFNITTYPNEQKENV
@@ -185,11 +193,12 @@ FEATURES             Location/Qualifiers
                      QDQFNASVYATEAAWEGMAGQGKDSNTPVPVKDKVVVDGDVLTFGDVAIDIVQTPGHTP
                      GTLSLIFPVVDKGKRHLAGLSGGTGTPADKTAREQKIASQNRFADISKAKGVDVLLSNH
                      NVADHSLYNADILAHRAPGASNPYVVGVENFYKYMRINALCSQVIAAREGMDLDV"
+                     /Pfam="Lactamase_B"
      CDS             complement(29734..30057)
                      /codon_start=1
                      /locus_tag="FVEG_17291"
                      /product="hypothetical protein FVEG_17291"
-                     /label=FVEG_17291
+                     /label="FVEG_17291"
                      /db_xref="GeneID:30074167"
                      /protein_id="XP_018760460.1"
                      /translation="MQYSSPDNTHMAVCYAKFLGIMVHTAVPTSSNSPGRVAMGEETRT
@@ -199,7 +208,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="FVEG_17290"
                      /product="acyl-CoA dehydrogenase FVEG_17290"
-                     /label=FVEG_17290
+                     /label="FVEG_17290"
                      /db_xref="GeneID:30074166"
                      /protein_id="XP_018760459.1"
                      /translation="MRPDPKLYLPRNVPWSEPAWYRTGKSVYLNASHRKLRDSIRKYVD
@@ -210,12 +219,13 @@ FEATURES             Location/Qualifiers
                      AVGCNRKSRTCLAMSFSYAMERKTFGKRLIENQVIRRKLAEVAHRVEAHWAWLEQIAFQ
                      VNSSSEGWQEPNIASQIALVKIQGGQMVELACREAQQIFGGAGYQKGGRGATVEQISRD
                      LRMLVVGGGSEEILTDLAIRQEIGAFSKQAKM"
+                     /Pfam="Acyl-CoA_dh_N, Acyl-CoA_dh_M, Acyl-CoA_dh_1"
      CDS             complement(join(33449..33615,33667..33753,33801..33898,
                      33949..34076,34132..35124))
                      /codon_start=1
                      /locus_tag="FVEG_12524"
                      /product="hydrolase FVEG_12524"
-                     /label=FVEG_12524
+                     /label="FVEG_12524"
                      /db_xref="GeneID:30069958"
                      /protein_id="XP_018760458.1"
                      /translation="MKSLTSFVAVALAACTVTDARGLHYQPEAPLNIETTSGHLSGFIN
@@ -227,12 +237,13 @@ FEATURES             Location/Qualifiers
                      EGAGFGTYDPNGVTPAQTAIGLQAIVCPVAAEVKNRVKYGYPTYRYYYTGNFSNITPLP
                      WIGATHSAELPLLFGTHYEYRGNSTEYEWEVAEGMQSLWLSFANNPKKNPQVGKVTWPL
                      YKPNENKMAVFAETGKKWFQLGKGSLTETQCK"
+                     /Pfam="COesterase"
      CDS             join(38111..38594,38642..38910,38958..44306,44358..44678,
                      44727..45533)
                      /codon_start=1
                      /locus_tag="FVEG_12523"
                      /product="polyketide synthase FUB1"
-                     /label=FUB1
+                     /label="FUB1"
                      /db_xref="GeneID:30069957"
                      /protein_id="XP_018760457.1"
                      /translation="MTLSNGSNGANGTSNGHGAHPSANGFHNAANGGANNGTPNGGAEY
@@ -277,22 +288,25 @@ FEATURES             Location/Qualifiers
                      PYWFADSRFAVLNQLDRQGTGAVAGGQDWKKLLAAAASPDEVYEIVLQQLLEGVSKIIK
                      ADVEDMDSRKSLPALGIDSLVAIEIRTWLLKEFQADLSVFDIVSNDPLTGFAKKVMAKS
                      VLIA"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_DH, PKS_NRPS_MT, fPKS_ER,
+                     fPKS_KR, ACP_PCP"
      CDS             46349..46663
                      /codon_start=1
                      /locus_tag="FVEG_12522"
                      /product="hypothetical protein FUB2"
-                     /label=FUB2
+                     /label="FUB2"
                      /db_xref="GeneID:30069956"
                      /protein_id="XP_018760455.1"
                      /translation="MASELKEYLVIIPDLPDVLAKRQVLLKPHNQDAAPLVKAGRVPFF
                      GSTLAHHSAEGQQVAENGTVMIIKAESEEEIKEIIRKDIFTIEGVWDFGRLSIWPFKSK
                      "
+                     /Pfam="YCII"
      CDS             join(47327..47401,47468..47487,47538..47618,47678..48933,
                      48988..49088)
                      /codon_start=1
                      /locus_tag="FVEG_12521"
                      /product="aspartate kinase FUB3"
-                     /label=FUB3
+                     /label="FUB3"
                      /db_xref="GeneID:30069955"
                      /protein_id="XP_018760454.1"
                      /translation="MRSRRDNSWVVQKFGGTSIGKFPDKVAEIVKSARLGGDRPAVICS
@@ -304,11 +318,12 @@ FEATURES             Location/Qualifiers
                      LDPSDSDCTSSTALPKMPTAVTIKRDITILNILSNKQSMSHGFFVKVFTILAEHDISVD
                      LISTSEVHVSMAINSSNMDPSQIKDVHCKIAEEGEVNVLPDMAILSLVGAELKNMTGIA
                      GRMFAILGEQHVNIEMISQGASEINISCVIPDKDATRALNMLHNELFTKNAM"
+                     /Pfam="AA_kinase, ACT, ACT_7"
      CDS             complement(join(49741..50402,50453..50594))
                      /codon_start=1
                      /locus_tag="FVEG_12520"
                      /product="hydrolase FUB4"
-                     /label=FUB4
+                     /label="FUB4"
                      /db_xref="GeneID:30069954"
                      /protein_id="XP_018760452.1"
                      /translation="MRFLCLHGYAFSVEVLQQQMEPITAHLPSDWEYEFLEAGMEPTQL
@@ -316,11 +331,12 @@ FEATURES             Location/Qualifiers
                      MHQAEHPDTPYPFKMAIFTSAFLPHSFDNGVISWDLTEKNTLEPAYLPGRIDVSHGKKL
                      DWKKDLHTSIEYDMINAVKDELDFPVDLLLRWRPSDIPEKIPVPSVHVRGLKDHYSFVD
                      ESVYELFDPDMARKMTHRGGHNFPRYNEELVHFAELIIETVVSLH"
+                     /Pfam="FSH1"
      CDS             join(51396..51468,51521..51908,51958..52306,52355..52828)
                      /codon_start=1
                      /locus_tag="FVEG_12519"
                      /product="homoserine O-acetyltransferase FUB5"
-                     /label=FUB5
+                     /label="FUB5"
                      /db_xref="GeneID:30069953"
                      /protein_id="XP_018760451.1"
                      /translation="MTTTATVPVLPTSIHDGLGKGIAYEKSLPRPVNPFSHRVPGREII
@@ -331,6 +347,7 @@ FEATURES             Location/Qualifiers
                      NSTPIHSHSGADETPVAFDRADSSFAAQSYLRYQAKKFSNRFDSNCYIALTNKLDTHDL
                      ARGRTRTITEALSLIEQPTLVLGIRSDGLYTLAEQEQIARAVPNAKLREIVSDDGHDAF
                      LIEWSQLNWLLIGFLHESLPDIMQRAAL"
+                     /Pfam="Abhydrolase_1"
 ORIGIN
         1 ctagtaaatg cctgtaaagt ctaattgctc catttgccaa cggtctaaaa agtcaaaccc
        61 gataaagtcc ccatacaaga atgactgatc atcctggggt aaagtcatat ctgttggagg

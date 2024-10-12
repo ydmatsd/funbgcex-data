@@ -1,28 +1,28 @@
-LOCUS       FBGC00337       47410 bp DNA     linear   UNA 13-FEB-2023
+LOCUS       FBGC00337              47410 bp    DNA     linear   UNA 13-FEB-2023
 DEFINITION  strobilurin A.
 ACCESSION   FBGC00337
-VERSION     .
+VERSION     FBGC00337
 KEYWORDS    .
 SOURCE      Strobilurus tenacellus CBS 621.79
   ORGANISM  Strobilurus tenacellus CBS 621.79
+            .
 REFERENCE   1  (bases 1 to 47410)
   AUTHORS   Nofiani R, de Mattos-Shipley K, Lebe KE, Han LC, Iqbal Z, Bailey AM,
             Willis CL, Simpson TJ, Cox RJ.
   TITLE     Strobilurin biosynthesis in Basidiomycete fungi.
   JOURNAL   Nat Commun 2018;9:3940
-  PUBMED    30258052
+   PUBMED   30258052
 REFERENCE   2  (bases 1 to 47410)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Feb 13, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1038/s41467-018-06202-4"; journalName: "Nat Commun"; date: 
-            "2018"; volume: "9"; pages: "3940"
+  JOURNAL   Exported Feb 13, 2023 from SnapGene 6.2.1 https://www.snapgene.com
 COMMENT     ##Assembly-Data-START##
             Assembly Method       :: CLC Genomic Workbench v. 7.5
             Sequencing Technology :: Illumina
             ##Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1038/s41467-018-06202-4"; journalName: "Nat Commun"; date:
+            "2018"; volume: "9"; pages: "3940"
 FEATURES             Location/Qualifiers
      source          1..47410
                      /mol_type="genomic DNA"
@@ -33,7 +33,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="stl2"
                      /product="medium-chain dehydrogenase/reductase Stl2"
-                     /label=stl2
+                     /label="stl2"
                      /protein_id="QJC21053.1"
                      /translation="MPEGTMKALWYNAPRDFEIKQVPIPQVGDDDVLLKVSCCGVCGTD
                      GHIHEGEFISTFPLIPGHEAIGSIVEMGKNVKGFEKGDRCVADVGETCENCFYCRRGQS
@@ -42,11 +42,12 @@ FEATURES             Location/Qualifiers
                      AQWQKLKDDNPYGFDVVVEATGVEKLANDSINYVRRGGTLMIYGVYENKALVHWPPSKI
                      FGDEIRIIGSFSQTYCFPRAVAYLDSGKIRVKGMVTDVFKLDDYQAALDKMNSRGALKI
                      AIKP"
+                     /Pfam="ADH_N, ADH_zinc_N"
      CDS             complement(join(1687..2377,2431..2871,2922..3304))
                      /codon_start=1
                      /gene="stl1"
                      /product="hypothetical protein Stl1"
-                     /label=stl1
+                     /label="stl1"
                      /protein_id="ATV82109.1"
                      /translation="MDHALFRNLFGGFMNVRTLRSYQLLPSYEVLELPTNIIHAPPPNR
                      FRRKPLQFAARILSSPLLRRALTIAILLPILYVLSGGIPPTYSDIHQFETNLPQHRTSG
@@ -57,17 +58,18 @@ FEATURES             Location/Qualifiers
                      GHCRYLAKWAIPYQGMNRFPGIVDTLDPEDFDHETESESAQLDHYLRHCLPDITQIVDR
                      LREVRDESPELNLEKVYLLSNGDEWWLNELWEELEKDGWSPVEEGMTSSQDLDITNEEQ
                      YISGAIDMAIAEQAEVFIGNGFSSLSGNIIMFRMAKGVPVGSNRLL"
-     CDS             complement(join(3980..4512,4566..4731,4788..4955,5010..6201,
-                     6253..6514,6569..6723,6779..7173,7228..8930,8985..9114,
-                     9169..9306,9352..9511,9563..9635,9686..9888,9939..10062,
-                     10115..10223,10274..10414,10472..10953,11009..11755,
-                     11814..12111,12170..12230,12281..12475,12534..12750,
-                     12802..12829,12888..12972,13022..13105,13158..13363,
-                     13412..13658,13710..13843,13896..13934))
+                     /Pfam="O-FucT"
+     CDS             complement(join(3980..4512,4566..4731,4788..4955,
+                     5010..6201,6253..6514,6569..6723,6779..7173,7228..8930,
+                     8985..9114,9169..9306,9352..9511,9563..9635,9686..9888,
+                     9939..10062,10115..10223,10274..10414,10472..10953,
+                     11009..11755,11814..12111,12170..12230,12281..12475,
+                     12534..12750,12802..12829,12888..12972,13022..13105,
+                     13158..13363,13412..13658,13710..13843,13896..13934))
                      /codon_start=1
                      /gene="stpks1"
                      /product="polyketide synthase StPKS1"
-                     /label=stpks1
+                     /label="stpks1"
                      /protein_id="ATV82110.1"
                      /translation="MSPTAEIPKPVAVVGISAEFPSGTLSDANFDHQSFFDFLLSGKDA
                      VERIPKDRFNIDGWQGSHLGQILPEDACFLKNVHLFDHFEFGISSKDALTMGAGTRKLV
@@ -118,51 +120,56 @@ FEATURES             Location/Qualifiers
                      KKPSEQGLQLGHYDVITGLNVIHAVPDLNATLTDLHSLLAPGGRILIVDTDGTARTSNP
                      PRPGAIWNDFIWGSFQGWFGYTDDRTHCTIDEDEWRKRLTATGYSNVQVCHEDAGTCIL
                      FEAEKV"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_DH, PKS_NRPS_MT, fPKS_KR,
+                     ACP_PCP, Thioesterase"
      CDS             complement(join(18409..18513,18565..18786,18836..18976,
                      19030..19185))
                      /codon_start=1
                      /gene="str1"
                      /product="hypothetical protein Str1"
-                     /label=str1
+                     /label="str1"
                      /protein_id="ATV82111.1"
                      /translation="MAQVVADPIVDKSAILKSELSKQPETLIAYAKWYGKVAGPITGVD
                      LSAIDAKSLTLICTLSDGSKQQVRIELSPPLARYEDAKPRLLEMKTRALEGLGLTKTPV
                      ITNFIFPSLALKTTIWSVAGLLYLTFVPNPYLTGANIPRAWAAVGLIHGPQAIYTATLA
                      RKHVGNLTTGVSYVLGTLVFGFPFWIDLRQRITAARVESVAKIQ"
+                     /Pfam="DUF2470"
      CDS             join(19585..19626,19679..19701,19752..19844,19901..19918,
                      19972..20043,20099..20204,20261..20537,20599..20795)
                      /codon_start=1
                      /gene="str2"
                      /product="methyltransferase Str2"
-                     /label=str2
+                     /label="str2"
                      /protein_id="ATV82112.1"
                      /translation="MAAESAKQTPYVLVADEVEWARLDAMHNGIAKFLGNELTPVDLGQ
                      PKKILEIGAGSGAWAIQAAKLYPDADVLAIDMNPIPARPLPPNVRYQNINVLEPFPFEA
                      ASFDVIHIRLVLCHLPDGHSVLKRIIDLVAPGGWLLIDDIDWAEAFEGLDKAPGIKRGL
                      TALVRSMEAEAGDPHYGKTLKPYLEASKELSEVHVREVELPVNPIPEDPALAGLSQMMR
                      KALVGALGAAKQSSATVGLTKEVQEGFLSEMAREDMDWSYSCYLYFAAVKKSA"
+                     /Pfam="GliN"
      CDS             complement(join(24252..24457,24512..24788,24843..24948,
                      25003..25074,25125..25142,25198..25290,25339..25361,
                      25414..25452))
                      /codon_start=1
                      /gene="str3"
                      /product="methyltransferase Str3"
-                     /label=str3
+                     /label="str3"
                      /protein_id="ATV82113.1"
                      /translation="MSSPAAQTPYALVPTDAEWERLDAQHNGIAKFLDHKLAPVDLGQP
                      KKILEIGSGSGAWAIQAAKQFPDADVLAVDQNPLPARPLPSNIRFQQLNVLEPFPFPPG
                      SFDIVHIRFVLCHLPNGYTVLPRIIELVAPGGWLLVDDIDFLHAFEGLDKAPGVKSGFT
                      GLIKSMESHDADPHFGKTLKGLLESSSALSEVNVQKVELPINPTPEXPALGPLSRTMRQ
                      AFSNAVGAEKLNPDTVTKGGLTREVQQAFLNEMGGDAQDWSYSVHLYFSWSQKRV"
+                     /Pfam="GliN"
      CDS             join(26067..26196,26260..26338,26395..26478,26534..26599,
                      26656..26696,26751..26808,26860..26968,27011..27078,
                      27133..27203,27257..27573,27628..27812,27848..27992,
                      28041..28126,28180..28339,28396..28455,28508..28696)
                      /codon_start=1
                      /gene="str4"
-                     /product="glucose-methanol-choline family oxidoreductase 
+                     /product="glucose-methanol-choline family oxidoreductase
                      Str4"
-                     /label=str4
+                     /label="str4"
                      /protein_id="ATV82114.1"
                      /translation="MGASHSTVSDPHRFAVAITGSDDDVRSLQAHPTKSYDYIVVGGGT
                      AGCVLASRLSEDSRVNVLLVEAGYSNHGVTNSIIPLAFPMLMKSKYDWNYETVGMAGIN
@@ -175,23 +182,25 @@ FEATURES             Location/Qualifiers
                      ASYGTVKLASRNAWDYPLIDPNYLSHESDIALSIMGMRLLARIARTKPFADSLDLPEDS
                      DDKTSVFWPTDCNPDTVSDDDLEAWARLHGQSTGHPTSSARMGGSPSTSVVDSKLKVHG
                      VEGLRVCDASCFPTQVSGHPAAVVVAVAERAADLIKGVA"
+                     /Pfam="GMC_oxred_N, GMC_oxred_C"
      CDS             join(28875..29332,29381..29759)
                      /codon_start=1
                      /gene="str5"
                      /product="metallo-beta-lactamase-like hydrolase Str5"
-                     /label=str5
+                     /label="str5"
                      /protein_id="ATV82115.1"
                      /translation="MGSDLTHLEGRPPQRWQWRVFVLAALLSATFAFFTHTCSSPLPQR
                      CRPYLPNVFNKHSLQHNEPEVRDALLAVDSFVRQSFHENPEIDGLVAAVVTANGAIYET
                      ALGPLKANETRPEDRGAVDRYSIFRLASGSKLFAMLEILILRERGALQLDDPIAKYLPQ
                      FAHKHGGWANEDDIDEGPITIRHLASHMSGMTREYPRGNMDHWPHSLEGIGPPPMNGAP
                      FPDTLEETVLGISHYPLNLPTSTYPVYSNAGMALLGQIAVVANAAAERSQGVDVAR"
+                     /Pfam="Beta-lactamase"
      CDS             join(30355..30489,30538..30595,30648..30836,30890..31268,
                      31321..31474)
                      /codon_start=1
                      /gene="str6"
                      /product="metallo-beta-lactamase-like hydrolase Str6"
-                     /label=str6
+                     /label="str6"
                      /protein_id="ATV82116.1"
                      /translation="MIPNRWRDLARRDIFEPLGLNGSYFIPNAHNRAHVAVASKYSDEV
                      DIDFLDVMACSGGQMSSLSDYIKLMQTFLDPTLPQSLLPAHIMREWMTPVFGFNDDETE
@@ -199,13 +208,14 @@ FEATURES             Location/Qualifiers
                      LEIFRIMQPYLDKLQERKVKERFAGHWRLPLQTNATSGSMVDISVSDGSLWITRLVLNG
                      TDVLSLTEAMPAFGGARSRRVALWSMRRDEFRMVLGAGAATSCMSSWTAMDSGFSRGYP
                      MDLVYFKGGRLHIPSAGVVLVRA"
+                     /Pfam="Beta-lactamase"
      CDS             complement(join(31795..31947,32004..32160,32211..32260,
                      32315..32534,32584..32615,32667..32691,32744..32988,
                      33041..33169))
                      /codon_start=1
                      /gene="str7"
                      /product="aldo-keto reductase Str7"
-                     /label=str7
+                     /label="str7"
                      /protein_id="ATV82117.1"
                      /translation="MPLPTRKIGQSLVSEIGFGSMGIARLGPSGFYGVVESDDERFKVL
                      DAAHAAGCTFWDSAHLYGDSEELIGKWLKRTGKRNDIFLATKFGITPQGVRGDPDFVKE
@@ -213,11 +223,12 @@ FEATURES             Location/Qualifiers
                      AHAVHPIAALQIEYSPFVLDIEDPKIALLETARELGVTIVAYSPLGRGLLTGQYKSPDD
                      FEPNDFRRTIPKFSADNFPKILDVVAQLKKIGEKHNATPGQVTLAWILAQGPEFIVIPG
                      TKKIKYLEENVGAASIKLTEEEVAAVRKLAEESEIPGDRNARMGAMLIDSPELPQ"
+                     /Pfam="Aldo_ket_red"
      CDS             complement(join(35934..36462,36522..36697,36755..37318))
                      /codon_start=1
                      /gene="str8"
                      /product="2OG-Fe(II)-dependent dioxygenase Str8"
-                     /label=str8
+                     /label="str8"
                      /protein_id="ATV82118.1"
                      /translation="MSRLLCPSSSTSVVRRARPTFVLGNLSIKQAQGTGASSALARRRR
                      STFAATADGLHVIPLEQKYPFPWLRDACRCPDCVHPSTRQKLFCTSDIPVDIQPATNGV
@@ -227,13 +238,14 @@ FEATURES             Location/Qualifiers
                      LRIQDAASYSVLTDVQVPFFYVNDGHHLYHTHPTIEVSASGDVNQINYSPPFQAPLLLD
                      TPPAFFTALHQFSNLVNSDENTYEYTLEEGDAVLFDNRRVLHARRAFEEIPGQGVRVGE
                      ANRWLKGCYIEGDTMWDRGRMLR"
+                     /Pfam="GBBH-like_N, TauD"
      CDS             complement(join(37697..37981,38040..38141,38195..38287,
                      38346..38517,38571..38599,38653..39044,39103..39171,
                      39224..39438,39495..39529))
                      /codon_start=1
                      /gene="str9"
                      /product="FAD-dependent monooxygenase Str9"
-                     /label=str9
+                     /label="str9"
                      /protein_id="ATV82119.1"
                      /translation="MAVDRKIRIAVVGGGPGGVIAALALSKSPNVEIDLYEAATAFGDI
                      GLSLGMPWRPWRILRLLGLQGYLAALLPPDQIPKEDVTVPTIHYRKSDQAVGEDIFTCT
@@ -244,6 +256,7 @@ FEATURES             Location/Qualifiers
                      TPFSTFSSDHCQTLACYDELPRCRLRPGDDAYILSEILTHPAVTRDNVQKALEIYSEVR
                      VPMSTHVLESSRRTGMDCALHDEVAAADLKSLGERMQQEMVWAWEWNPEDEKKKALDLV
                      EERLV"
+                     /Pfam="ElcH"
      CDS             complement(join(40677..40796,40854..41069,41123..41192,
                      41246..41269,41328..41553,41604..41733,41787..41820,
                      41891..41971,42027..42050,42101..42121,42183..42195,
@@ -252,7 +265,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="str10"
                      /product="CoA ligase Str10"
-                     /label=str10
+                     /label="str10"
                      /protein_id="QJD55556.1"
                      /translation="MTILRSRDSAPATDMQNGCGLVKHISEAASFACTEQSLEIPGNVT
                      VPQFLFNSQHFARLEHQPNAPWLVDSVSGRAIAGDELKQRTRALAKAINARYDLGEGQY
@@ -265,13 +278,14 @@ FEATURES             Location/Qualifiers
                      PAERGEKGELWVKSPSLATGYEQNLESWSDTFVDGWLRTGDEVYLNDAGEMFLVQRLKD
                      FMKVKGFRVNPEEIESHLFKHPDVADCCVVPMADEFSGQLPKAFVVLTQDARSRVGTDE
                      NELAKVKAALIKHVADHKVSYKHLGAGIDFCDEIPKTASGKVLRRLLRDRS"
+                     /Pfam="AA-adenyl-dom"
      CDS             join(44782..44924,44979..45178,45228..45521,45583..45923,
                      45976..46177,46236..46563,46619..46710,46770..47302,
                      47360..47410)
                      /codon_start=1
                      /gene="str11"
                      /product="phenylalanine ammonia-lyase Str11"
-                     /label=str11
+                     /label="str11"
                      /protein_id="ATV82120.1"
                      /translation="MPITHEQPNGFHSKQLNGSGIAKAKAMPYPSDLLSHFVKQHLELE
                      SYKNGQEIEIDGYSLSISAVSAAARYNAPVILRDSSTIRDRLEKARSVIVEKIEGSKSV
@@ -286,6 +300,7 @@ FEATURES             Location/Qualifiers
                      ISSMYKELNHTTTMDAVPRMVKVAGASTSLLVDFFMANQTSDAMSVAALTALPKFRETV
                      ALRAAAKLVALREEYLLGARGPAPASAWLGRTRPIYEFIRVTLGIRMHGTENLGVFQQG
                      LGVQDVTIGQNVSLIHEAIRDGKMRGVVVGLFA"
+                     /Pfam="Lyase_aromatic"
 ORIGIN
         1 atgcctgaag gaaccatgaa agcgctctgg tacaacgccg tacgtcgtgg ccgatgttgt
        61 cgttggcgtg tgcgctgacg agctcgttgt gcagcccagg gatttcgaga tcaagcaggt

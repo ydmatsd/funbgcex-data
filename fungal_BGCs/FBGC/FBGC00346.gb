@@ -1,47 +1,47 @@
-LOCUS       FBGC00346       33094 bp DNA     linear   UNA 13-FEB-2023
+LOCUS       FBGC00346              33094 bp    DNA     linear   UNA 13-FEB-2023
 DEFINITION  destruxin E.
 ACCESSION   FBGC00346
-VERSION     .
+VERSION     FBGC00346
 KEYWORDS    .
 SOURCE      Metarhizium robertsii ARSEF 23
   ORGANISM  Metarhizium robertsii ARSEF 23
+            .
 REFERENCE   1  (bases 1 to 33094)
   AUTHORS   Wang B, Kang Q, Lu Y, Bai L, Wang C.
-  TITLE     Unveiling the biosynthetic puzzle of destruxins in Metarhizium 
+  TITLE     Unveiling the biosynthetic puzzle of destruxins in Metarhizium
             species.
   JOURNAL   Proc Natl Acad Sci U S A 2012;109:1287-92
-  PUBMED    22232661
+   PUBMED   22232661
 REFERENCE   2  (bases 1 to 33094)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Feb 13, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1073/pnas.1115983109"; journalName: "Proc Natl Acad Sci U S A"; 
-            date: "2012"; volume: "109"; pages: "1287-92"
-COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final 
-            NCBI review. The reference sequence is identical to ADNJ02000010. 
-            The organism name was corrected to Metarhizium robertsii ARSEF 23 in
-            version 02 of ADNJ00000000.##Genome-Assembly-Data-START##
+  JOURNAL   Exported Feb 13, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     ##Genome-Assembly-Data-START##
             Assembly Method       :: SOAPdenovo v. 1.05; Newbler v. 2.3 Assembly
-            Name         :: MAA 2.0
+            Name                  :: MAA 2.0
             Genome Coverage       :: 147.33x
-            Sequencing Technology :: Illumina HiSeq; 454 
+            Sequencing Technology :: Illumina HiSeq; 454
             ##Genome-Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1073/pnas.1115983109"; journalName: "Proc Natl Acad Sci U S A";
+            date: "2012"; volume: "109"; pages: "1287-92"
+            PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to ADNJ02000010.
+            The organism name was corrected to Metarhizium robertsii ARSEF 23 in
 FEATURES             Location/Qualifiers
      source          1..33094
                      /host="Conoderus sp."
                      /strain="ARSEF 23"
                      /mol_type="genomic DNA"
                      /country="USA: North Carolina"
-                     /collection_date=1961
+                     /collection_date="1961"
                      /db_xref="taxon:655844"
                      /organism="Metarhizium robertsii ARSEF 23"
      CDS             complement(1..1506)
                      /codon_start=1
                      /locus_tag="MAA_10046"
                      /product="decarboxylase DtxS4"
-                     /label=dtxS4
+                     /label="dtxS4"
                      /db_xref="GeneID:19264332"
                      /protein_id="XP_007826235.2"
                      /translation="MRDTKKMLNRADELDDLYEAVRALIIPHVRAADEACSLKSAGQLH
@@ -53,12 +53,13 @@ FEATURES             Location/Qualifiers
                      TANSLDAGYLFHDTEDDEVWDLANLTLQCGRRADSLKMALAWTYYGAAGFERRINHAFK
                      MAAHLSSIIQKSPDFELVSPNPPPCLQVCFYYTPGGKMAKSEMETSRRTRAMVEKMVDR
                      GFMFDFAPGPKGDFFRVVVNCETLLGTVEGLFKGLEAVGKQVV"
-     CDS             complement(join(2092..2433,2501..2835,2898..3105,3179..3223,
-                     3287..3469))
+                     /Pfam="Pyridoxal_deC"
+     CDS             complement(join(2092..2433,2501..2835,2898..3105,
+                     3179..3223,3287..3469))
                      /codon_start=1
                      /locus_tag="MAA_10045"
                      /product="aldo-keto reductase DtxS3"
-                     /label=dtxS3
+                     /label="dtxS3"
                      /db_xref="GeneID:19264331"
                      /protein_id="XP_007826234.2"
                      /translation="MAKVSLEKLLRIPPSLTQSISQTKVDYLNLGHSGLRVSRPILGGL
@@ -68,11 +69,12 @@ FEATURES             Location/Qualifiers
                      LTKFISMQNHYNLIYREEEREMNQYCKMTGVGLIPWGPLASGRLARRPTQEEGSLRASC
                      SAHGSLYESDDYNVDRIIQRVAEIAEKRGWPMSHVSLAWLNRRVTAPIIGFGSVGRIEE
                      ALAARGKELSRDEEQYLEELYVPQRIQGHS"
+                     /Pfam="Aldo_ket_red"
      CDS             join(5182..6381,6481..6831)
                      /codon_start=1
                      /locus_tag="MAA_10044"
                      /product="cytochrome P450 monooxygenase DtxS2"
-                     /label=dtxS2
+                     /label="dtxS2"
                      /db_xref="GeneID:19264330"
                      /protein_id="XP_007826233.2"
                      /translation="MLRIPGKSLGYHEDISLTPWQAILASVIVLLGLKVATILYTAFYN
@@ -84,11 +86,12 @@ FEATURES             Location/Qualifiers
                      VREAFKSDDEITFKATAELPFMLACIEETLRMYPPVPTSLIRRTLPGRPTLIAGELIPE
                      NTIVGVHHLATYRSERNFFDAKAFRPERWLAETRNDPKSPFKDDRLDAVRPFSYGPRNC
                      IGRNLAYHEMRLILAKLLWHFDLKLKPGYEDWGFKQRTFQLWEKPKLVVEFKERQFQV"
+                     /Pfam="p450"
      CDS             join(8076..16394,16445..31867)
                      /codon_start=1
                      /locus_tag="MAA_10043"
                      /product="nonribosomal peptide synthetase DtxS1"
-                     /label=dtxS1
+                     /label="dtxS1"
                      /db_xref="GeneID:19264329"
                      /protein_id="XP_007826232.2"
                      /translation="MPSRILPGKHMPAQGHQRREADYWQNALADCKCATFPAIPETVEQ
@@ -226,11 +229,13 @@ FEATURES             Location/Qualifiers
                      AHTPRQLLLSVQEQFFFGEADLLGFKDIIEQCTDWPAGTTFDSMIQHQNIDEHPEIESA
                      GAASQVQFFENSHLVPPSLFVVSYPRGRHLDVKLFGNTHILTKEMAKGLIDRLCKITEE
                      LGNLDCSLQVLRDRHGRLSEE"
+                     /Pfam="NRPS_C, AA-adenyl-dom, ACP_PCP, NRPS_E, PKS_NRPS_MT,
+                     NRPS_CT"
      CDS             complement(join(32135..32308,32363..33094))
                      /codon_start=1
                      /locus_tag="MAA_10042"
                      /product="2OG-Fe(II)-dependent dioxygenase MAA_10042"
-                     /label=MAA_10042
+                     /label="MAA_10042"
                      /note="This gene might be a part of the gene cluster.
                      Revised sequence."
                      /db_xref="GeneID:19264328"
@@ -241,6 +246,7 @@ FEATURES             Location/Qualifiers
                      GLFVAGKKTTKANGATRFIPGSHLWGEDRCPSEELAYYAELEPGDAFLMLASCYHGGSA
                      NTTNNEERLVYSCFMTKGFLRQEENQYLANTIGQVQQYSPDIQKLIGYSVSKPFLGWVN
                      LEDPIKLLHHGSEIIGDEMR"
+                     /Pfam="PhyH"
 ORIGIN
         1 tcacaccacc tgcttgccca ccgcttccaa tcccttgaaa agtccctcaa ccgttccgag
        61 taacgtctcg caattcacaa caactctaaa aaagtcacct ttcggtccag gagcaaaatc

@@ -1,23 +1,23 @@
-LOCUS       FBGC00311       18385 bp DNA     linear   UNA 28-APR-2023
+LOCUS       FBGC00311              18385 bp    DNA     linear   UNA 28-APR-2023
 DEFINITION  phomenoic acid.
 ACCESSION   FBGC00311
-VERSION     .
+VERSION     FBGC00311
 KEYWORDS    .
 SOURCE      Leptosphaeria maculans JN3
   ORGANISM  Leptosphaeria maculans JN3
+            .
 REFERENCE   1  (bases 1 to 18385)
-  AUTHORS   Elliott CE, Callahan DL, Schwenk D, Nett M, Hoffmeister D, Howlett 
+  AUTHORS   Elliott CE, Callahan DL, Schwenk D, Nett M, Hoffmeister D, Howlett
             BJ.
   TITLE     A gene cluster responsible for biosynthesis of phomenoic acid in the
             plant pathogenic fungus, Leptosphaeria maculans.
   JOURNAL   Fungal Genet Biol 2013;53:50-8
-  PUBMED    23396262
+   PUBMED   23396262
 REFERENCE   2  (bases 1 to 18385)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Apr 28, 2023 from SnapGene 6.2.2
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
+  JOURNAL   Exported Apr 28, 2023 from SnapGene 6.2.2 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
             "10.1016/j.fgb.2013.01.008"; journalName: "Fungal Genet Biol"; date:
             "2013"; volume: "53"; pages: "50-8"
 FEATURES             Location/Qualifiers
@@ -30,7 +30,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="LEMA_P002650.1"
                      /product="transcription factor C6TF"
-                     /label=C6TF
+                     /label="C6TF"
                      /db_xref="GOA:E5AE39"
                      /db_xref="InterPro:IPR001138"
                      /db_xref="UniProtKB/TrEMBL:E5AE39"
@@ -44,12 +44,13 @@ FEATURES             Location/Qualifiers
                      SKEDWMRIGTVYRSATALYCILSLQSVSVLPEDSALRTRCVIHGQVLLRHLPESLSSAR
                      TKRFMLWPLVLLGVEAVHSDMATRAFVSKQLPELSRSVGTSIPLTAQSVLESFWASGLK
                      LWDACFDRPYPFTMQIAVDVSQVSTP"
-     CDS             complement(join(2788..3417,3477..3653,3709..8794,8859..9360,
-                     9415..9608,9660..9781,9859..10129,10184..10833))
+                     /Pfam="Fungal_trans_2"
+     CDS             complement(join(2788..3417,3477..3653,3709..8794,
+                     8859..9360,9415..9608,9660..9781,9859..10129,10184..10833))
                      /codon_start=1
                      /locus_tag="LEMA_P002660.1"
                      /product="polyketide synthase PKS2"
-                     /label=PKS2
+                     /label="PKS2"
                      /db_xref="GOA:E5AE40"
                      /db_xref="InterPro:IPR000794"
                      /db_xref="InterPro:IPR001227"
@@ -119,11 +120,13 @@ FEATURES             Location/Qualifiers
                      GRAQTFMVYIDGQPVQNGGWKYFHPVHTKVRLMSDRRRVKIASGGVDQHSASWTTAEDP
                      LIGLTEAMITKVSAMTMIEREEVLPDAPLTSYNLDSLVSVELRNWIRRETAVELTLSAI
                      MQADSLRALATEILSQRKAE"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_DH, PKS_NRPS_MT, fPKS_ER,
+                     fPKS_KR, ACP_PCP"
      CDS             complement(11822..13588)
                      /codon_start=1
                      /locus_tag="LEMA_P002670.1"
                      /product="cytochrome P450 monooxygenase P450"
-                     /label=P450
+                     /label="P450"
                      /db_xref="GOA:E5AE41"
                      /db_xref="InterPro:IPR001128"
                      /db_xref="InterPro:IPR002401"
@@ -141,11 +144,12 @@ FEATURES             Location/Qualifiers
                      LPSWRDINHQSDPDRFKPSPDAPDEKLFRPSRWINPPGSKYTHFHPPKGTFVPWSQGPR
                      ICPGQKMAQVEITTLILCLLRRHRIEPSRLEGETLQDAERGLDAKLQNVQWGGIVSLEK
                      DPHLKFRVSQRR"
+                     /Pfam="p450"
      CDS             14625..15701
                      /codon_start=1
                      /locus_tag="LEMA_P002680.1"
                      /product="medium-chain dehydrogenase/reductase YogA"
-                     /label=YogA
+                     /label="YogA"
                      /db_xref="GOA:E5AE42"
                      /db_xref="InterPro:IPR002085"
                      /db_xref="InterPro:IPR011032"
@@ -161,11 +165,12 @@ FEATURES             Location/Qualifiers
                      GTVNYKTDSDSWDKTLGSLLPAERPYLDAVIDGAGGNIVTKALTVLKPGGVIVCYGMTV
                      GPVMDWPMQAALKNVDLRGTMVGSRAEFREMVEFISTHKIKPVISRTVRGLDCVDAIDG
                      LFEDIRTGKQFGKLVIEI"
+                     /Pfam="ADH_zinc_N"
      CDS             join(17138..17162,17222..17321,17385..17552,17608..18385)
                      /codon_start=1
                      /locus_tag="LEMA_P002690.1"
                      /product="transporter RTA1"
-                     /label=RTA1
+                     /label="RTA1"
                      /note="revised sequence"
                      /db_xref="GOA:E5AE43"
                      /db_xref="InterPro:IPR007568"
@@ -178,6 +183,7 @@ FEATURES             Location/Qualifiers
                      FRLVEMATSSTSVDITSMERLMKLSPVLRNEAYFYAFEASLMLINSFLWNVQHPGPHLP
                      GDTHIYLAQDGTEVEGEGDGSEDRPLLLNMANTLMFGLLYRDDKDHTHSQPQELYENPN
                      GNGHKKFRLGNGGRAT"
+                     /Pfam="RTA1"
 ORIGIN
         1 atggaagact cagatcgaaa gcgacattgc tggcaatgtc gtcgaagctg tgtagtctgc
        61 gactttacac aaccaggatg tcagaggtgt tctgcagctg gcgtctcatg ccctggatac

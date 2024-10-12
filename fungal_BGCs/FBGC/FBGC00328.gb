@@ -1,48 +1,48 @@
-LOCUS       FBGC00328       19328 bp DNA     linear   UNA 12-FEB-2023
+LOCUS       FBGC00328              19328 bp    DNA     linear   UNA 12-FEB-2023
 DEFINITION  swainsonine.
 ACCESSION   FBGC00328
-VERSION     .
+VERSION     FBGC00328
 KEYWORDS    .
 SOURCE      Metarhizium robertsii ARSEF 23
   ORGANISM  Metarhizium robertsii ARSEF 23
+            .
 REFERENCE   1  (bases 1 to 19328)
   AUTHORS   Cook D, Donzelli BGG, Creamer R, Baucom DL, Gardner DR, Pan J, Moore
             N, Krasnoff SB, Jaromczyk JW, Schardl CL.
-  TITLE     Swainsonine Biosynthesis Genes in Diverse Symbiotic and Pathogenic 
+  TITLE     Swainsonine Biosynthesis Genes in Diverse Symbiotic and Pathogenic
             Fungi.
   JOURNAL   G3 (Bethesda) 2017;7:1791-1797
-  PUBMED    28381497
+   PUBMED   28381497
 REFERENCE   2  (bases 1 to 19328)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Feb 12, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
+  JOURNAL   Exported Feb 12, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     ##Genome-Assembly-Data-START##
+            Assembly Method       :: SOAPdenovo v. 1.05; Newbler v. 2.3 Assembly
+            Name                  :: MAA 2.0
+            Genome Coverage       :: 147.33x
+            Sequencing Technology :: Illumina HiSeq; 454
+            ##Genome-Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
             "10.1534/g3.117.041384"; journalName: "G3 (Bethesda)"; date: "2017";
             volume: "7"; pages: "1791-1797"
-COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final 
-            NCBI review. The reference sequence is identical to ADNJ02000001. 
+            PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to ADNJ02000001.
             The organism name was corrected to Metarhizium robertsii ARSEF 23 in
-            version 02 of ADNJ00000000.##Genome-Assembly-Data-START##
-            Assembly Method       :: SOAPdenovo v. 1.05; Newbler v. 2.3 Assembly
-            Name         :: MAA 2.0
-            Genome Coverage       :: 147.33x
-            Sequencing Technology :: Illumina HiSeq; 454 
-            ##Genome-Assembly-Data-END##
 FEATURES             Location/Qualifiers
      source          1..19328
                      /host="Conoderus sp."
                      /strain="ARSEF 23"
                      /mol_type="genomic DNA"
                      /country="USA: North Carolina"
-                     /collection_date=1961
+                     /collection_date="1961"
                      /db_xref="taxon:655844"
                      /organism="Metarhizium robertsii ARSEF 23"
      CDS             complement(join(1..293,352..1054))
                      /codon_start=1
                      /locus_tag="MAA_08623"
                      /product="2OG-Fe(II)-dependent dioxygenase SwnH2"
-                     /label=swnH2
+                     /label="swnH2"
                      /db_xref="GeneID:19262909"
                      /protein_id="XP_007824812.1"
                      /translation="MINSDAQSAQKQVEVEKPDEKYSAPRLLPPIPDSYQPAKAITKIP
@@ -51,12 +51,13 @@ FEATURES             Location/Qualifiers
                      GHGSPRQALHRDDMIFSSKHRPDMKINEVDGFSCFLAGTRITRENGGTMVILGSHKWEH
                      DRRGRPDEVSFLEMERGSAFIFLSTLAHGAGYNTIPGEVRKITNLVFCRGTLRTEENQF
                      LCVPRSKVLKMSPKMQTLLGFKKPAGSWLGMVENEDPAKDLEAIYEKMLK"
+                     /Pfam="PhyH"
      CDS             2758..10224
                      /codon_start=1
                      /locus_tag="MAA_08622"
-                     /product="nonribosomal peptide synthetase-polyketide 
+                     /product="nonribosomal peptide synthetase-polyketide
                      synthase SwnK"
-                     /label=swnK
+                     /label="swnK"
                      /db_xref="GeneID:19262908"
                      /protein_id="XP_007824811.1"
                      /translation="MSGISDHDYQVLVNEFNATEDISLLGSRLDQLFEQVADRFPDNTA
@@ -102,11 +103,13 @@ FEATURES             Location/Qualifiers
                      LINADLSSVLPVDYLCGTIAAIMTEDQERVGEDYDFVNPQALTFKHFFEMMCSVSGGKE
                      MVSFGEWHRRALEYAAAHPTSSLARIATVLDGYNDKTVGSLVSGSPVGKHVLGLDAYRA
                      PPLDEEYVRRYVHCIEAARAKMRT"
+                     /Pfam="AA-adenyl-dom, ACP_PCP, PKS_KS, PKS_AT, fPKS_KR,
+                     NAD_binding_4"
      CDS             complement(10666..11583)
                      /codon_start=1
                      /locus_tag="MAA_08621"
                      /product="short-chain dehydrogenase/reductase SwnR"
-                     /label=swnR
+                     /label="swnR"
                      /db_xref="GeneID:19262907"
                      /protein_id="XP_007824810.1"
                      /translation="MRVAIAGYGDLTRYICEEFVKAGHVLVILTRSYKPQLESQGVAQA
@@ -115,11 +118,12 @@ FEATURES             Location/Qualifiers
                      WAGNKIVIPGTGNEPVDFTWARDVVRGLASLIEAPRGSWEPYTFMSGERSCWNDATRLA
                      VQKYRPGIPIQHVSLHSVAGMIKTAKDENTEVLADYYLLSISQACAIPTDKVEAHREKY
                      FSGVTFRSLRDGLCQVDEHPDSIL"
+                     /Pfam="NAD_binding_10"
      CDS             join(12439..12543,12598..12836,12894..13249,13302..13570)
                      /codon_start=1
                      /locus_tag="MAA_08620"
                      /product="short-chain dehydrogenase/reductase SwnN"
-                     /label=swnN
+                     /label="swnN"
                      /note="revised sequence"
                      /db_xref="GeneID:19262906"
                      /protein_id="XP_007824809.1"
@@ -129,11 +133,12 @@ FEATURES             Location/Qualifiers
                      PFWVFVDIDHEQCVFPGDGSQPLVLTHSQDLAAYIERLVGLPAENWPRESVVASNKLLV
                      KDLESLVNKVTGKKFKVAYDSVECIHKGRITQLPSNTAVFQDPAKGEMFRDVEHQVMLS
                      MLSRAHDLPGKNLAELFPEVETTDIEDFFRSGWTLKQSRAP"
+                     /Pfam="NmrA"
      CDS             complement(13817..15337)
                      /codon_start=1
                      /locus_tag="MAA_08619"
                      /product="major facilitator superfamily transporter SwnT"
-                     /label=swnT
+                     /label="swnT"
                      /note="revised sequence"
                      /db_xref="GeneID:19262905"
                      /protein_id="XP_007824808.2"
@@ -146,11 +151,12 @@ FEATURES             Location/Qualifiers
                      VWSIQTWQSRLAWTISRESGFPLHRHFSKIFPAPFYTPIWSLVGSAVGTALFGCLYLAS
                      ELAFNSLIATGILLQYISYSIPTVLVLWQGRRNFRHGQFWYPRLGLVANFIMLAWTVVA
                      FVFYCFPANAQVRPSQMNYVSGVLVVIATFIAALWILYARKNYRVMEI"
+                     /Pfam="AA_permease_2"
      CDS             join(16467..17100,17166..17455)
                      /codon_start=1
                      /locus_tag="MAA_08618"
                      /product="2OG-Fe(II)-dependent dioxygenase SwnH1"
-                     /label=swnH1
+                     /label="swnH1"
                      /db_xref="GeneID:19262904"
                      /protein_id="XP_007824807.1"
                      /translation="MGAFPPPIDPSYIPSVSLTRLPATAPTADIIATLERDGALILVDL
@@ -159,11 +165,12 @@ FEATURES             Location/Qualifiers
                      YRLSDETMLGFMIAGSKTTRENGATMAIPGSHKWDHARVPRVDEVCFAEMEPGSALVFL
                      GTVYHGAGHNSVPDQVRKIYGLFFIPGTLRPEENQFLAIPRSKVLGMSDKMLSLLGYKK
                      PGTWLGIVNNGDPAENLAEVLGMANS"
+                     /Pfam="PhyH"
      CDS             complement(17832..19328)
                      /codon_start=1
                      /locus_tag="MAA_08617"
                      /product="aminotransferase SwnA"
-                     /label=swnA
+                     /label="swnA"
                      /db_xref="GeneID:19262903"
                      /protein_id="XP_007824806.2"
                      /translation="MHLERDKVYDAPEGEVWSTVKPASTHNSAAPKRLAQRWNHRWSDE
@@ -175,6 +182,7 @@ FEATURES             Location/Qualifiers
                      PSQAMLYKLLVESWGPEGFAGWLDYLSGEYGRRRDVMVAACERHLPREVCAWTAPTHGM
                      FLWVGAALERHPRYQESGARDQDRDADADAELCRAVEDGICARAEANGVLVARGSWCRV
                      GGGADRAFFRMTFVATAEAADLERGVAQFGRAVRDEFGLG"
+                     /Pfam="Aminotran_1_2"
 ORIGIN
         1 ttacttgagc atcttctcat aaatagcctc aagatccttg gcagggtctt cattctccac
        61 cattcccaac caactgcccg ccggcttctt aaaccccagc aaagtctgca tcttgggact

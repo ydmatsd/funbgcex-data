@@ -1,42 +1,42 @@
-LOCUS       FBGC00343       24812 bp DNA     linear   UNA 13-FEB-2023
+LOCUS       FBGC00343              24812 bp    DNA     linear   UNA 13-FEB-2023
 DEFINITION  fumiquinazoline C.
 ACCESSION   FBGC00343
-VERSION     .
+VERSION     FBGC00343
 KEYWORDS    .
 SOURCE      Aspergillus fumigatus Af293
   ORGANISM  Aspergillus fumigatus Af293
+            .
 REFERENCE   1  (bases 1 to 24812)
   AUTHORS   Ames BD, Liu X, Walsh CT.
-  TITLE     Enzymatic processing of fumiquinazoline F: a tandem 
-            oxidative-acylation strategy for the generation of multicyclic 
+  TITLE     Enzymatic processing of fumiquinazoline F: a tandem
+            oxidative-acylation strategy for the generation of multicyclic
             scaffolds in fungal indole alkaloid biosynthesis.
   JOURNAL   Biochemistry 2010;49:8564-76
-  PUBMED    20804163
+   PUBMED   20804163
 REFERENCE   2  (bases 1 to 24812)
   AUTHORS   Lim FY, Ames B, Walsh CT, Keller NP.
-  TITLE     Co-ordination between BrlA regulation and secretion of the 
-            oxidoreductase FmqD directs selective accumulation of 
+  TITLE     Co-ordination between BrlA regulation and secretion of the
+            oxidoreductase FmqD directs selective accumulation of
             fumiquinazoline C to conidial tissues in Aspergillus fumigatus.
   JOURNAL   Cell Microbiol 2014;16:1267-83
-  PUBMED    24612080
+   PUBMED   24612080
 REFERENCE   3  (bases 1 to 24812)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Feb 13, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: "10.1021/bi1012029";
-            journalName: "Biochemistry"; date: "2010"; volume: "49"; pages: 
-            "8564-76"
-COMMENT     SGRef: number: 2; type: "Journal Article"; doi: "10.1111/cmi.12284";
-            journalName: "Cell Microbiol"; date: "2014"; volume: "16"; pages: 
-            "1267-83"
-COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final 
-            NCBI review. The reference sequence is identical to 
-            CM000174.##Genome-Annotation-Data-START##
+  JOURNAL   Exported Feb 13, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     ##Genome-Annotation-Data-START##
             Annotation Provider :: INSDC submitter
             Annotation Status   :: Full annotation
-            Annotation Pipeline :: Eukaryotic Annotation Propagation Pipeline 
+            Annotation Pipeline :: Eukaryotic Annotation Propagation Pipeline
             ##Genome-Annotation-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi: "10.1021/bi1012029";
+            journalName: "Biochemistry"; date: "2010"; volume: "49"; pages:
+            "8564-76"
+            SGRef: number: 2; type: "Journal Article"; doi: "10.1111/cmi.12284";
+            journalName: "Cell Microbiol"; date: "2014"; volume: "16"; pages:
+            "1267-83"
+            PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to
 FEATURES             Location/Qualifiers
      source          1..24812
                      /chromosome="6"
@@ -49,7 +49,7 @@ FEATURES             Location/Qualifiers
                      /locus_tag="AFUA_6G12040"
                      /old_locus_tag="Afu6g12040"
                      /product="major facilitator superfamily transporter FmqE"
-                     /label=fmqE
+                     /label="fmqE"
                      /note="encoded by transcript AFUA_6G12040A"
                      /db_xref="GeneID:3508388"
                      /protein_id="XP_751083.1"
@@ -63,17 +63,17 @@ FEATURES             Location/Qualifiers
                      STTKASQLAIAVIMNVLISYGVYATVGVAWTICPEISSHRLRQYSQSVAFIVGAVGGWL
                      FNFITPYMYNVDSGNLGAKTGFVYAGLTVVVAVISWFLVPETAGLSVEDIDRAYEMGTA
                      PRHFKSAKATVSAESGH"
+                     /Pfam="Sugar_tr"
      CDS             3682..7014
                      /codon_start=1
                      /locus_tag="AFUA_6G12050"
                      /old_locus_tag="Afu6g12050"
                      /product="nonribosomal peptide synthetase FmqC"
                      /EC_number="6.3.2.-"
-                     /label=fmqC
-                     /note="encoded by transcript AFUA_6G12050A;
-                     similar to nonribosomal peptide synthase (GI:32264582) 
-                     [Alternaria brassicae]
-                     revised sequence"
+                     /label="fmqC"
+                     /note="encoded by transcript AFUA_6G12050A; similar to
+                     nonribosomal peptide synthase (GI:32264582) [Alternaria
+                     brassicae] revised sequence"
                      /db_xref="GeneID:3508389"
                      /protein_id="XP_751084.1"
                      /translation="MLETTEPIAHASELDKPSIVVTNTEVDSEDNTSSVLGRYIPQKCL
@@ -96,6 +96,7 @@ FEATURES             Location/Qualifiers
                      SQEQYVARIPYETCELEDIVPSSTSWPTDTTFNHILVIQHEPVLPPVALDGRPCPHRWA
                      FHGRLEDVYVQMVFGPDTLHVGMSGPEIRLSRTIATQLVEKLASTITQFNDRPEALLSE
                      ITV"
+                     /Pfam="AA-adenyl-dom, ACP_PCP, NRPS_CT"
      CDS             complement(join(7415..7679,7740..8086,8176..8762,
                      8832..8991))
                      /codon_start=1
@@ -103,13 +104,12 @@ FEATURES             Location/Qualifiers
                      /old_locus_tag="Afu6g12060"
                      /product="FAD-dependent monooxygenase FmqB"
                      /EC_number="1.14.13.-"
-                     /label=fmqB
-                     /note="encoded by transcript AFUA_6G12060A;
-                     similar to PIR:S70702: maackiain detoxification protein 1 
-                     [Nectria haematococca] similar to Salicylate hydroxylase 
-                     (EC 1.14.13.1) (Salicylate 1-monooxygenase). 
-                     (Swiss-Prot:P23262) [Pseudomonas putida;]
-                     revised sequence"
+                     /label="fmqB"
+                     /note="encoded by transcript AFUA_6G12060A; similar to
+                     PIR:S70702: maackiain detoxification protein 1 [Nectria
+                     haematococca] similar to Salicylate hydroxylase (EC
+                     1.14.13.1) (Salicylate 1-monooxygenase).
+                     (Swiss-Prot:P23262) [Pseudomonas putida;] revised sequence"
                      /db_xref="GeneID:3508390"
                      /protein_id="XP_751085.1"
                      /translation="MTINTALPTPRAPTGISVIVVGLGFGGLTAAIESHLRGHSVILLE
@@ -120,6 +120,7 @@ FEATURES             Location/Qualifiers
                      SSVIRHTLPEKLVDHALIYRPPLDTWVSAGGRVMLIGDAAHPYFPVVGQGGSQAIEDGV
                      VVATALELAGKENVPLALRVAEKIRYPRATVIQLGSSTLQEHLFWPDWEAVAKDPSVFA
                      FPNPEWILGHDCREYTHQVFDTVVRAVRGEGEYIPRNIPADGAYRVEDTYSPE"
+                     /Pfam="FAD_binding_3"
      CDS             join(9610..9870,9921..10149,10234..10622,10694..11055,
                      11181..11433)
                      /codon_start=1
@@ -127,10 +128,10 @@ FEATURES             Location/Qualifiers
                      /old_locus_tag="Afu6g12070"
                      /product="FAD-linked oxidoreductase FmqD"
                      /EC_number="1.5.3.-"
-                     /label=fmqD
-                     /note="encoded by transcript AFUA_6G12070A;
-                     similar to GB:BAC61978.1: putative oxidoreductase, oxygen 
-                     dependent, FAD-dependent protein [Vibrio parahaemolyticus]"
+                     /label="fmqD"
+                     /note="encoded by transcript AFUA_6G12070A; similar to
+                     GB:BAC61978.1: putative oxidoreductase, oxygen dependent,
+                     FAD-dependent protein [Vibrio parahaemolyticus]"
                      /db_xref="GeneID:3508391"
                      /protein_id="XP_751086.1"
                      /translation="MQYIPFLISGLVPVALSKSLFEATSNTRIDGNDIAAIFGPVLTPE
@@ -142,16 +143,17 @@ FEATURES             Location/Qualifiers
                      YCERGQHYILYNLNLRRTDAATLQSYFDSFVDFSSKNPWFDCDLMYERQATDAALAVPL
                      SERGVGPWRDSKINANFLVVTPSEEYDEAADAFVRPFMDRFQAVMGFDTLHVYVNEALG
                      DEGPASWYGEENLPRLVALKQQWDPENKFGAGAPIPLSL"
+                     /Pfam="FAD_binding_4, BBE"
      CDS             complement(join(12823..16290,16346..24196,24264..24812))
                      /codon_start=1
                      /locus_tag="AFUA_6G12080"
                      /old_locus_tag="Afu6g12080"
                      /product="nonribosomal peptide synthetase FmqA"
                      /EC_number="6.3.2.-"
-                     /label=fmqA
-                     /note="encoded by transcript AFUA_6G12080A;
-                     similar to nonribosomal peptide synthase (GI:32264582) 
-                     [Alternaria brassicae] PMID: 14727058"
+                     /label="fmqA"
+                     /note="encoded by transcript AFUA_6G12080A; similar to
+                     nonribosomal peptide synthase (GI:32264582) [Alternaria
+                     brassicae] PMID: 14727058"
                      /db_xref="GeneID:3508392"
                      /protein_id="XP_751087.1"
                      /translation="MERLEAKNQTTKHGERMAPQRYSVLRDEKCLFPVRNDGKLLVDEW
@@ -222,6 +224,7 @@ FEATURES             Location/Qualifiers
                      QYTRALPHEHLELRDIFRHSTPWPADTQLSFIVQHQNIELHHNIALDGLQVQYSKFAQF
                      DPLTEVWIFSEPHPDRLEIQVCANTRVLSEDQARALCRRLCDLIEFFSASPDCPLSKVV
                      DHMDRPGLLAEEKVLN"
+                     /Pfam="AA-adenyl-dom, ACP_PCP, NRPS_C, NRPS_E, NRPS_CT"
 ORIGIN
         1 atgcccgaag acaaggtcga agccatcgaa catgtcgaat ccagtcgcca tgatgccacg
        61 gtcaacgaga aggcgattgc ggacttcctg aacgcagaga aggagatgac gacctggcag

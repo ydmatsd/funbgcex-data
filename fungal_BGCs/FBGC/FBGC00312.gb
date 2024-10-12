@@ -1,42 +1,42 @@
-LOCUS       FBGC00312        7813 bp DNA     linear   UNA 09-MAY-2023
+LOCUS       FBGC00312               7813 bp    DNA     linear   UNA 09-MAY-2023
 DEFINITION  T-toxin.
 ACCESSION   FBGC00312
-VERSION     .
+VERSION     FBGC00312
 KEYWORDS    .
 SOURCE      Bipolaris maydis C4
   ORGANISM  Bipolaris maydis C4
+            .
 REFERENCE   1  (bases 1 to 7813)
   AUTHORS   Yang G, Rose MS, Turgeon BG, Yoder OC.
-  TITLE     A polyketide synthase is required for fungal virulence and 
+  TITLE     A polyketide synthase is required for fungal virulence and
             production of the polyketide T-toxin.
   JOURNAL   Plant Cell 1996;8:2139-50
-  PUBMED    8953776
+   PUBMED   8953776
 REFERENCE   2  (bases 1 to 7813)
   AUTHORS   Inderbitzin P, Asvarak T, Turgeon BG.
-  TITLE     Six new genes required for production of T-toxin, a polyketide 
-            determinant of high virulence of Cochliobolus heterostrophus to 
+  TITLE     Six new genes required for production of T-toxin, a polyketide
+            determinant of high virulence of Cochliobolus heterostrophus to
             maize.
   JOURNAL   Mol Plant Microbe Interact 2010;23:458-72
-  PUBMED    20192833
+   PUBMED   20192833
 REFERENCE   3  (bases 1 to 7813)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported May 9, 2023 from SnapGene 6.2.2
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1105/tpc.8.11.2139"; journalName: "Plant Cell"; date: "1996"; 
+  JOURNAL   Exported May 9, 2023 from SnapGene 6.2.2 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1105/tpc.8.11.2139"; journalName: "Plant Cell"; date: "1996";
             volume: "8"; pages: "2139-50"
-COMMENT     SGRef: number: 2; type: "Journal Article"; doi: 
+            SGRef: number: 2; type: "Journal Article"; doi:
             "10.1094/MPMI-23-4-0458"; journalName: "Mol Plant Microbe Interact";
             date: "2010"; volume: "23"; pages: "458-72"
-COMMENT     On Apr 24, 2009 this sequence version replaced U68040.2.
+            On Apr 24, 2009 this sequence version replaced U68040.2.
 FEATURES             Location/Qualifiers
      source          1..7813
                      /chromosome="12:6"
                      /strain="C4"
                      /mol_type="genomic DNA"
-                     /note="located at translocation breakpoint;
-                     teleomorph: Cochliobolus heterostrophus"
+                     /note="located at translocation breakpoint; teleomorph:
+                     Cochliobolus heterostrophus"
                      /db_xref="taxon:5016"
                      /organism="Bipolaris maydis"
      CDS             join(1..201,276..760,818..1337,1384..2029,2079..7813)
@@ -45,7 +45,7 @@ FEATURES             Location/Qualifiers
                      /product="polyketide synthase PKS1"
                      /function="involved in production of the virulence factor
                      T-toxin"
-                     /label=PKS1
+                     /label="PKS1"
                      /protein_id="AAB08104.3"
                      /translation="MTVRDSKTGGITPIAVVGMSFRGPGDATNVEKLLNMISEGRESRA
                      EVQAKKWDPEGFYHPDSSRHGTHNVEYGHWFQQDVYNFDAPFFNVSPAEAAALDPQQRM
@@ -91,6 +91,8 @@ FEATURES             Location/Qualifiers
                      NAPLFSRYRMLSCQNSTGSTDVDTLRGILAQSSSFDSAVTIVLSALVDQVVSRTEIPIE
                      NVHTTKSLQDYGIDSLVAVELRNWLIKDMDSVVPMLELLGAESLSALAVKIAARSQLIS
                      TNNRG"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_DH, PKS_NRPS_MT, fPKS_ER,
+                     fPKS_KR, ACP_PCP"
 ORIGIN
         1 atgacagttc gcgattctaa aacaggcggc atcacaccga ttgcggttgt gggtatgagt
        61 ttccgcggac caggtgatgc aacaaacgtt gagaaattgc taaacatgat ttctgagggc

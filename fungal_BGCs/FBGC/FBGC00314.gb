@@ -1,50 +1,49 @@
-LOCUS       FBGC00314       11215 bp DNA     linear   UNA 08-MAY-2023
+LOCUS       FBGC00314              11215 bp    DNA     linear   UNA 08-MAY-2023
 DEFINITION  T-toxin.
 ACCESSION   FBGC00314
-VERSION     .
+VERSION     FBGC00314
 KEYWORDS    .
 SOURCE      Bipolaris maydis C4
   ORGANISM  Bipolaris maydis C4
+            .
 REFERENCE   1  (bases 1 to 11215)
   AUTHORS   Rose MS, Yun SH, Asvarak T, Lu SW, Yoder OC, Turgeon BG.
-  TITLE     A decarboxylase encoded at the Cochliobolus heterostrophus 
-            translocation-associated Tox1B locus is required for polyketide 
+  TITLE     A decarboxylase encoded at the Cochliobolus heterostrophus
+            translocation-associated Tox1B locus is required for polyketide
             (T-toxin) biosynthesis and high virulence on T-cytoplasm maize.
   JOURNAL   Mol Plant Microbe Interact 2002;15:883-93
-  PUBMED    12236595
+   PUBMED   12236595
 REFERENCE   2  (bases 1 to 11215)
   AUTHORS   Inderbitzin P, Asvarak T, Turgeon BG.
-  TITLE     Six new genes required for production of T-toxin, a polyketide 
-            determinant of high virulence of Cochliobolus heterostrophus to 
+  TITLE     Six new genes required for production of T-toxin, a polyketide
+            determinant of high virulence of Cochliobolus heterostrophus to
             maize.
   JOURNAL   Mol Plant Microbe Interact 2010;23:458-72
-  PUBMED    20192833
+   PUBMED   20192833
 REFERENCE   3  (bases 1 to 11215)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported May 8, 2023 from SnapGene 6.2.2
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1094/MPMI.2002.15.9.883"; journalName: "Mol Plant Microbe 
+  JOURNAL   Exported May 8, 2023 from SnapGene 6.2.2 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1094/MPMI.2002.15.9.883"; journalName: "Mol Plant Microbe
             Interact"; date: "2002"; volume: "15"; pages: "883-93"
-COMMENT     SGRef: number: 2; type: "Journal Article"; doi: 
+            SGRef: number: 2; type: "Journal Article"; doi:
             "10.1094/MPMI-23-4-0458"; journalName: "Mol Plant Microbe Interact";
             date: "2010"; volume: "23"; pages: "458-72"
-COMMENT     On Apr 24, 2009 this sequence version replaced AF525909.1.
+            On Apr 24, 2009 this sequence version replaced AF525909.1.
 FEATURES             Location/Qualifiers
      source          1..11215
                      /chromosome="6;12"
                      /strain="C4"
                      /mol_type="genomic DNA"
-                     /note="race T;
-                     teleomorph: Cochliobolus heterostrophus"
+                     /note="race T; teleomorph: Cochliobolus heterostrophus"
                      /db_xref="taxon:5016"
                      /organism="Bipolaris maydis"
      CDS             complement(1..762)
                      /codon_start=1
                      /gene="DEC1"
                      /product="decarboxylase DEC1"
-                     /label=DEC1
+                     /label="DEC1"
                      /note="required for T-toxin production"
                      /protein_id="AAM88291.1"
                      /translation="MTITGQINSETLNNGVPIFAPPYRWSKHWPRFTDVNCITIRYRTD
@@ -52,11 +51,12 @@ FEATURES             Location/Qualifiers
                      DNEEACIGGRELLGNPKVLGTIEFDRQNRPPTAFIHGRVLRPSNTVIADIHFKPLCLVL
                      DAGESKTPITGLNLRLIPSLIPGAPPSVREYTNVDFTLQGGEVWEGVGSLNFPSNSEFE
                      PLHKFPVLEYLSATYHRGAWVEQRLLNVYSF"
+                     /Pfam="ADC"
      CDS             join(2285..3035,3099..3406)
                      /codon_start=1
                      /gene="RED1"
                      /product="medium-chain dehydrogenase/reductase RED1"
-                     /label=RED1
+                     /label="RED1"
                      /note="not required for T-toxin production"
                      /protein_id="AAM88292.1"
                      /translation="MYQNKSLIFKNPPIGWPKPDVDFGVECRPIDINGDIPLGGVILKN
@@ -66,11 +66,12 @@ FEATURES             Location/Qualifiers
                      EGIDIYFDNVGGQTLESALYAMRPRGRIVVSGMISQYNLQPSELYGVKNLFMVITNRIT
                      IQGFIVTDSDMGPKYSAEHLKNVSQWIYDGSLKPKIHVDTGMDHACQSFINMLKGRKIG
                      KAVLQIADLNGD"
+                     /Pfam="ADH_N_2, ADH_zinc_N"
      CDS             join(5367..5742,5787..6183,6232..6502)
                      /codon_start=1
                      /gene="RED2"
                      /product="short-chain dehydrogenase/reductase RED2"
-                     /label=RED2
+                     /label="RED2"
                      /note="revised sequence"
                      /protein_id="ACP34152.1"
                      /translation="MWKIESFLLSKLFLCIALCTAYVAFSSAMMEPGLWLLSRPIVPLN
@@ -80,11 +81,12 @@ FEATURES             Location/Qualifiers
                      PQIVSYAASKAALVGFHEGLGIELVKRYNAKKIRTTIVHPYFVRTPLTTLALSRTKFAV
                      SALEPTAVANAVVKQILSGNSGRIFLPSSSWFISLLRGLPPWAMLIMQELSPDVYSALP
                      STREVEV"
+                     /Pfam="adh_short"
      CDS             complement(join(10102..10345,10408..10804,10858..11215))
                      /codon_start=1
                      /gene="RED3"
                      /product="short-chain dehydrogenase/reductase RED3"
-                     /label=RED3
+                     /label="RED3"
                      /note="revised sequence"
                      /protein_id="ACP34153.1"
                      /translation="MPFISSMGYQLVAFLLVSLVFAFLSLTLTLFPVSFVNTWTFFICS
@@ -93,6 +95,7 @@ FEATURES             Location/Qualifiers
                      KTILEESEDERRRVFNVDILAHFSLVREFLPDMIKHNHGHIVTVASTASFLARPQLVSY
                      SCCKTALIAFHEGLSQELRMRHNARKVRTTIVYPHIVRTPLTEFVRTNKTFQASVLDPK
                      EVAEAIVEQVLSGYGASITLPAQMGYVGLIRGFYPWMTRIYEDLTMDFMKT"
+                     /Pfam="adh_short"
 ORIGIN
         1 tcagaagcta tagacgttca ataacctctg ctcaacccag gcccctcggt gatatgtggc
        61 ggataaatat tctagtacag gaaatttgtg caggggttcg aactcagaat tggatgggaa

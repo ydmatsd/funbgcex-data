@@ -1,26 +1,42 @@
-LOCUS       FBGC00327       23304 bp DNA     linear   UNA 12-FEB-2023
+LOCUS       FBGC00327              23304 bp    DNA     linear   UNA 12-FEB-2023
 DEFINITION  aculin A.
 ACCESSION   FBGC00327
-VERSION     .
+VERSION     FBGC00327
 KEYWORDS    .
 SOURCE      Aspergillus aculeatus ATCC 16872
   ORGANISM  Aspergillus aculeatus ATCC 16872
+            .
 REFERENCE   1  (bases 1 to 23304)
   AUTHORS   Petersen LM, Holm DK, Gotfredsen CH, Mortensen UH, Larsen TO.
-  TITLE     Investigation of a 6-MSA Synthase Gene Cluster in Aspergillus 
-            aculeatus Reveals 6-MSA-derived Aculinic Acid, Aculins A-B and 
+  TITLE     Investigation of a 6-MSA Synthase Gene Cluster in Aspergillus
+            aculeatus Reveals 6-MSA-derived Aculinic Acid, Aculins A-B and
             Epi-Aculin A.
   JOURNAL   ChemBioChem 2015;16:2200-4
-  PUBMED    26374386
+   PUBMED   26374386
 REFERENCE   2  (bases 1 to 23304)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Feb 12, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1002/cbic.201500210"; journalName: "ChemBioChem"; date: "2015"; 
+  JOURNAL   Exported Feb 12, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     ##ata-START##
+            Assembly Method       :: Newbler v. 2.3
+            Assembly Name         :: Aspac1
+            Long Assembly Name    :: Aspergillus aculeatus ATCC16872 v1.1 Genome
+            Coverage              :: 32.17x
+            Sequencing Technology :: 454; Sanger dideoxy sequencing
+            ##ata-END##
+            ##Metadata-START##
+            Organism Display Name :: Aspergillus aculeatus ATCC 16872
+            GOLD Stamp ID         :: Gp0003551
+            ##Metadata-END##
+            ##Genome-Annotation-Data-START##
+            Annotation Provider   :: INSDC submitter
+            Annotation Status     :: Full annotation
+            Annotation Pipeline   :: Eukaryotic Annotation Propagation Pipeline
+            ##Genome-Annotation-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1002/cbic.201500210"; journalName: "ChemBioChem"; date: "2015";
             volume: "16"; pages: "2200-4"
-COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final 
+            PROVISIONAL REFSEQ: This record has not yet been subject to final
             NCBI review. The reference sequence is identical to KV878982.
             URL -- http://genome.jgi.doe.gov/Aspac1
             JGI Project ID: 52394
@@ -28,27 +44,13 @@ COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
             The strain is available from David Culley
             Contacts: David Culley (David.Culley@pnnl.gov)
             Assembly and annotation done by JGI.
-            The JGI and collaborators endorse the principles for the 
-            distribution and use of large scale sequencing data adopted by the 
-            larger genome sequencing community and urge users of this data to 
+            The JGI and collaborators endorse the principles for the
+            distribution and use of large scale sequencing data adopted by the
+            larger genome sequencing community and urge users of this data to
             follow them. It is our intention to publish the work of this project
-            in a timely fashion and we welcome collaborative interaction on the 
-            project and analysis. 
+            in a timely fashion and we welcome collaborative interaction on the
+            project and analysis.
             (http://www.genome.gov/page.cfm?pageID=10506376).##Genome-Assembly-D
-            ata-START##
-            Assembly Method       :: Newbler v. 2.3
-            Assembly Name         :: Aspac1
-            Long Assembly Name    :: Aspergillus aculeatus ATCC16872 v1.1 Genome
-            Coverage       :: 32.17x
-            Sequencing Technology :: 454; Sanger dideoxy sequencing 
-            ##Genome-Assembly-Data-END####Metadata-START##
-            Organism Display Name :: Aspergillus aculeatus ATCC 16872
-            GOLD Stamp ID         :: Gp0003551
-            ##Metadata-END####Genome-Annotation-Data-START##
-            Annotation Provider :: INSDC submitter
-            Annotation Status   :: Full annotation
-            Annotation Pipeline :: Eukaryotic Annotation Propagation Pipeline 
-            ##Genome-Annotation-Data-END##
 FEATURES             Location/Qualifiers
      source          1..23304
                      /chromosome="Unknown"
@@ -63,7 +65,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="ASPACDRAFT_1904397"
                      /product="polyketide synthase AcuA"
-                     /label=acuA
+                     /label="acuA"
                      /note="revised sequence"
                      /db_xref="GeneID:30972621"
                      /db_xref="InterPro:IPR006163"
@@ -104,11 +106,12 @@ FEATURES             Location/Qualifiers
                      VTADEAFAAWRHAARYEGIDHAVVLRALPLDADEPLPSPALADIIVRRSASASADSSPS
                      SSPEKQTIPTSGPELKAYLDKAIRGCVAAVLHLPAADEVDSKAALADLGVDSVMTVTLR
                      QKLQQALRVKVPPTLTWSHPTVGHLVGWFAEKVGKE"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_TH, fPKS_KR, ACP_PCP"
      CDS             join(6201..6253,6315..6765,6823..7377)
                      /codon_start=1
                      /locus_tag="ASPACDRAFT_1904400"
                      /product="cupin domain-containing protein AcuE"
-                     /label=acuE
+                     /label="acuE"
                      /db_xref="GeneID:30972622"
                      /db_xref="JGIDB:Aspac1_1904400"
                      /protein_id="XP_020053919.1"
@@ -119,11 +122,12 @@ FEATURES             Location/Qualifiers
                      AKMKGSFFQRHLVHDAYAAEKNWDAQVALEAASRPENAEFEPWVQDMSPKALVLPPVQY
                      EKGVFVDGAARATLSGVNGHANGVNGHAGVNGHATNGTNGTTTGAEWEDVVALKKRVAN
                      GANGVNGTNGVH"
+                     /Pfam="PatJ"
      CDS             join(8234..8354,8413..8476,8541..9338,9451..10057)
                      /codon_start=1
                      /locus_tag="ASPACDRAFT_32595"
                      /product="cytochrome P450 monooxygenase AcuD"
-                     /label=acuD
+                     /label="acuD"
                      /db_xref="GeneID:30973704"
                      /db_xref="InterPro:IPR001128"
                      /db_xref="JGIDB:Aspac1_32595"
@@ -138,11 +142,12 @@ FEATURES             Location/Qualifiers
                      MHHDPRRWPEPERFEPARFEEFPALAPTYAASGEWDKRDHYGYGAGRRICPGIHLAERN
                      LIIGVAKLLWAFEFTQPVGSYSDIDPESGASQGFLHCPKEYGCGVRLRAPEKRDTIVRE
                      FQEAQEVFARFD"
+                     /Pfam="p450"
      CDS             join(10431..10479,10537..11480)
                      /codon_start=1
                      /locus_tag="ASPACDRAFT_45672"
                      /product="decarboxylase AcuB"
-                     /label=acuB
+                     /label="acuB"
                      /db_xref="GeneID:30975463"
                      /db_xref="InterPro:IPR006992"
                      /db_xref="JGIDB:Aspac1_45672"
@@ -153,11 +158,12 @@ FEATURES             Location/Qualifiers
                      ALINRALPQPMFDYPHETGRTAMDLLTSGRLRQHRGCRVILSHAGGTLPYLIHRAATML
                      PCMPPDRNIGLSRDEILDTAREVFYFDTAISANEVTLSALARFAKPGHILFGSDFPNAP
                      RDAIVRFTRFVEEEAAALPDGVTVEALKENALQLFPRLKRAEANGVPKI"
+                     /Pfam="Amidohydro_2"
      CDS             join(12138..12240,12306..12369,12435..12814,12935..13983)
                      /codon_start=1
                      /locus_tag="ASPACDRAFT_45673"
                      /product="cytochrome P450 monooxygenase AcuC"
-                     /label=acuC
+                     /label="acuC"
                      /db_xref="GeneID:30975464"
                      /db_xref="InterPro:IPR001128"
                      /db_xref="JGIDB:Aspac1_45673"
@@ -172,10 +178,11 @@ FEATURES             Location/Qualifiers
                      DHRLNQKYDPAKFVPERFAEHPALAPEYVPGAWENRDHYGYGVSRRICPGIHLAERNMF
                      LAIAKLLWAFEFQPGPEGEPCDSDPVTGYQHGFLYCAKPYSTRPVLRSESIRETVEREF
                      ALAQREVFSTFTEG"
+                     /Pfam="p450"
      CDS             14429..15730
                      /codon_start=1
                      /product="hypothetical protein AcuF"
-                     /label=acuF
+                     /label="acuF"
                      /translation="MERAISTTPILDQALTCVQSYKALAATVQELASPELQRSIEEGLA
                      QFLTHMPEFNILVNAVEPPHTSWDYLLRNDASQRGEMTMLLMELQCEIDQMAFAIRQAM
                      QQQHPEAEPLSNNSRLVDAWTENLRSVEDHTVWRLAFWRRDHAVHTTYPTTNPLVNQSF
@@ -188,7 +195,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="ASPACDRAFT_1904405"
                      /product="carboxypeptidase AcuI"
-                     /label=acuI
+                     /label="acuI"
                      /db_xref="GeneID:30972623"
                      /db_xref="InterPro:IPR001563"
                      /db_xref="JGIDB:Aspac1_1904405"
@@ -203,12 +210,13 @@ FEATURES             Location/Qualifiers
                      EQVGDDSPNPTEGSLPRVIEATNRVLIANGDWDYLIITNGTLLAIQNMTWHGQLGFAAA
                      PATPIDIRMPDLQWAGVFDAQEGYGDLDGPQGVMGVQHYERGLMWAETFQAGHKQAQDQ
                      GRVSYRHLQWLLGEVDSL"
+                     /Pfam="Peptidase_S10"
      CDS             complement(20033..21598)
                      /codon_start=1
                      /locus_tag="ASPACDRAFT_80410"
-                     /product="glucose-methanol-choline family oxidoreductase 
+                     /product="glucose-methanol-choline family oxidoreductase
                      AcuG"
-                     /label=acuG
+                     /label="acuG"
                      /db_xref="GeneID:30979461"
                      /db_xref="InterPro:IPR000172"
                      /db_xref="InterPro:IPR007867"
@@ -224,10 +232,11 @@ FEATURES             Location/Qualifiers
                      YLDTETDRAAIRAGMRVALRLMETESAKEVIDGETPPPGHEPLTSACSDADLDRRVQIV
                      GSSFFQNGGTAAMGTVVDTQCRVKGVRNLRVCDASVLSVPLAGHYQAPMYALGEAVADM
                      LLAQ"
+                     /Pfam="GMC_oxred_N, GMC_oxred_C"
      CDS             complement(join(22182..22463,23290..23304))
                      /codon_start=1
                      /product="hypothetical protein AcuH"
-                     /label=acuH
+                     /label="acuH"
                      /note="pseudogene?"
                      /translation="MHFRTVNTPARLQFISRFVLQPLRPLLHYKDHTIRTAAEAGLDVA
                      ELAVGPAFVVARGYFTLRQADTSSAESRDPTKQQQLWEKTLEWLGMTEEQGAL"
