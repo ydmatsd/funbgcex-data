@@ -1,48 +1,49 @@
-LOCUS       FBGC00654       37038 bp DNA     linear   UNA 10-MAY-2023
-DEFINITION  pestalamide.
+LOCUS       FBGC00654              37038 bp    DNA     linear   UNA 21-MAR-2024
+DEFINITION  pestalamide B.
 ACCESSION   FBGC00654
-VERSION     .
+VERSION     FBGC00654
 KEYWORDS    .
 SOURCE      Aspergillus brasiliensis CBS 101740
   ORGANISM  Aspergillus brasiliensis CBS 101740
+            .
 REFERENCE   1  (bases 1 to 37038)
-  AUTHORS   Caesar LK, Butun FA, Robey MT, Ayon NJ, Gupta R, Dainko D, Bok JW, 
+  AUTHORS   Caesar LK, Butun FA, Robey MT, Ayon NJ, Gupta R, Dainko D, Bok JW,
             Nickles G, Stankey RJ, Johnson D, Mead D, Cank KB, Earp CE, Raja HA,
             Oberlies NH, Keller NP, Kelleher NL.
-  TITLE     Correlative metabologenomics of 110 fungi reveals metabolite-gene 
+  TITLE     Correlative metabologenomics of 110 fungi reveals metabolite-gene
             cluster pairs.
   JOURNAL   Nat Chem Biol 2023
-  PUBMED    36879060
+   PUBMED   36879060
 REFERENCE   2  (bases 1 to 37038)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported May 10, 2023 from SnapGene 6.2.2
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1038/s41589-023-01276-8"; journalName: "Nat Chem Biol"; date: 
-            "2023"
-COMMENT     URL -- http://genome.jgi.doe.gov/Aspbr1
-            JGI Project ID: 403144
-            The DNA was provided by Ronald P. de Vries(r.devries@cbs.knaw.nl) 
-            The strain is available from CBS-KNAW
-            Contacts: Ronald P. de Vries (r.devries@cbs.knaw.nl)
-            Assembly and annotation done by JGI.
-            The JGI and collaborators endorse the principles for the 
-            distribution and use of large scale sequencing data adopted by the 
-            larger genome sequencing community and urge users of this data to 
-            follow them. It is our intention to publish the work of this project
-            in a timely fashion and we welcome collaborative interaction on the 
-            project and analysis. 
-            (http://www.genome.gov/page.cfm?pageID=10506376).##Genome-Assembly-D
-            ata-START##
+  JOURNAL   Exported Mar 21, 2024 from SnapGene 7.1.2 https://www.snapgene.com
+COMMENT     ##ata-START##
             Assembly Method       :: AllPathsLG v. R40295
             Assembly Name         :: Aspbr1
             Genome Coverage       :: 156.8x
             Sequencing Technology :: Illumina
-            ##Genome-Assembly-Data-END####Metadata-START##
+            ##ata-END##
+            ##Metadata-START##
             Organism Display Name :: Aspergillus brasiliensis CBS 101740
             GOLD Stamp ID         :: Gp0009965
             ##Metadata-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1038/s41589-023-01276-8"; journalName: "Nat Chem Biol"; date:
+            "2023"
+            URL -- http://genome.jgi.doe.gov/Aspbr1
+            JGI Project ID: 403144
+            The DNA was provided by Ronald P. de Vries(r.devries@cbs.knaw.nl)
+            The strain is available from CBS-KNAW
+            Contacts: Ronald P. de Vries (r.devries@cbs.knaw.nl)
+            Assembly and annotation done by JGI.
+            The JGI and collaborators endorse the principles for the
+            distribution and use of large scale sequencing data adopted by the
+            larger genome sequencing community and urge users of this data to
+            follow them. It is our intention to publish the work of this project
+            in a timely fashion and we welcome collaborative interaction on the
+            project and analysis.
+            (http://www.genome.gov/page.cfm?pageID=10506376).##Genome-Assembly-D
 FEATURES             Location/Qualifiers
      source          1..37038
                      /chromosome="Unknown"
@@ -58,7 +59,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="ASPBRDRAFT_189074"
                      /product="FMN-dependent dehydrogenase PstA"
-                     /label=pstA
+                     /label="pstA"
                      /note="GO_function: GO:16491 - oxidoreductase activity"
                      /db_xref="InterPro:IPR000262"
                      /db_xref="JGIDB:Aspbr1_189074"
@@ -71,22 +72,24 @@ FEATURES             Location/Qualifiers
                      DARAAVRAGCDGIIVSNHGGRQLDGAVGSLEMLPSIVEAAGDSLTVLFDSGVRTGADIL
                      KALCLGAKGVLVGRPVMAGYAIAGKEGAKEVLLGLLTDLDRSMGLAGIPSLKACTPAVL
                      RTRSML"
+                     /Pfam="FMN_dh"
      CDS             complement(2127..2642)
                      /codon_start=1
                      /locus_tag="ASPBRDRAFT_429090"
                      /product="hypothetical protein PstB"
-                     /label=pstB
+                     /label="pstB"
                      /db_xref="JGIDB:Aspbr1_429090"
                      /protein_id="OJJ66273.1"
                      /translation="MSSAITSASDFGTAILRLSPLMISSASLMCAIDQQNAFRSFLTPK
                      LANRPGHVSGHLVHDWFPAFARTTKWVILLAYPLAGVFSVINSRAPGLNPQTRYFYYAG
                      GVLSIAHYYFGAWSMYWNSRICSKEKVGLRNEDGLRGWLGNNWRRMWLVNIPAWLMFVC
                      ATATFVRV"
+                     /Pfam="XenD"
      CDS             complement(3002..4531)
                      /codon_start=1
                      /locus_tag="ASPBRDRAFT_201176"
                      /product="FAD-dependent monooxygenase PstC"
-                     /label=pstC
+                     /label="pstC"
                      /note="GO_function: GO:16491 - oxidoreductase activity"
                      /db_xref="InterPro:IPR006076"
                      /db_xref="JGIDB:Aspbr1_201176"
@@ -100,16 +103,17 @@ FEATURES             Location/Qualifiers
                      LIITATGLQMQFAGGAMLDIDGVPVDLSSKFIWNGMMLQDLPNLVVVNGYTNASWTLGA
                      DATMIAVCRLIKLLQARGHTVAVPRVDPQGPPLTPRPTFALTSTYIHAAARFMPRVAAE
                      KPWQRRDNYFTDLWFAKYGDLKHGLQFIPGSGFRRSPTGGGEKPKEVKKRD"
+                     /Pfam="FMO-like"
      CDS             complement(join(5015..9456,9506..10064,10118..10448,
                      10505..12955,13009..16532))
                      /codon_start=1
                      /locus_tag="ASPBRDRAFT_211676"
-                     /product="polyketide synthase-nonribosomal peptide 
+                     /product="polyketide synthase-nonribosomal peptide
                      synthetase PstD"
-                     /label=pstD
-                     /note="GO_function: GO:3824; cofactor binding - catalytic 
-                     activity [PMID 48037];
-                     GO_process: GO:8152 - metabolic process"
+                     /label="pstD"
+                     /note="GO_function: GO:3824; cofactor binding - catalytic
+                     activity [PMID 48037]; GO_process: GO:8152 - metabolic
+                     process"
                      /db_xref="InterPro:IPR000873"
                      /db_xref="InterPro:IPR001242"
                      /db_xref="InterPro:IPR004019"
@@ -186,21 +190,24 @@ FEATURES             Location/Qualifiers
                      FSRKMRAVPHVPGWHGYLDMVEVDAVAKNIIGTMLLSGWNQQPAVRYFHESGQTVVPVE
                      SVREYLENSEGGGTEFETLSLDKWIAQARGNGMNELVAGFLTLIHETGQGPSMPALKTS
                      RVYGTV"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_DH, PKS_NRPS_MT, fPKS_KR,
+                     ACP_PCP, Condensation, AA-adenyl-dom, fPKS_R"
      CDS             join(16932..17078,17143..17478)
                      /codon_start=1
                      /locus_tag="ASPBRDRAFT_164044"
                      /product="hypothetical protein PstE"
-                     /label=pstE
+                     /label="pstE"
                      /db_xref="JGIDB:Aspbr1_164044"
                      /protein_id="OJJ66276.1"
                      /translation="MTERVLRLTVYHCFNPNKPEAEVHEFVTNDHAVKAAKIHQKHGLL
                      GYTLYFAPQSAQKVLSDWKKVGGRNWELDTYDACVEFYFKDFAVMGAIAQDPDFHKLQE
                      AEVPYLDASRPPRAHLGWVQGYIHDGQIINVDGNKSVFPSFTELSHIVFPGVSEGK"
+                     /Pfam="EthD"
      CDS             18049..19353
                      /codon_start=1
                      /locus_tag="ASPBRDRAFT_49167"
                      /product="hydrolase PstF"
-                     /label=pstF
+                     /label="pstF"
                      /db_xref="JGIDB:Aspbr1_49167"
                      /protein_id="OJJ66278.1"
                      /translation="MFHFFKSEWFDFELVRLLGFAPYEGAEIAEVLQAVGSIRDSDAES
@@ -211,12 +218,13 @@ FEATURES             Location/Qualifiers
                      LIHMFETDQGCAPDSFFNGLVHFLQWANFQARWEFNHLKTIFGVEAPSDAFRAMMTYTL
                      SRSDEKEYLADVHCPVFVTGAAAALYAKPEFSTDRIYNALGHLREQDKLKWIAADAAQG
                      GLQAKVGAFGLSAHRTFAWLDQHFGIDRKIAYKRN"
+                     /Pfam="Abhydrolase_6"
      CDS             complement(join(19935..20279,20358..20692,20765..20966,
                      21030..21074,21135..21296))
                      /codon_start=1
                      /locus_tag="ASPBRDRAFT_138342"
                      /product="aldo-keto reductase PstG"
-                     /label=pstG
+                     /label="pstG"
                      /note="GO_function: GO:16491 - oxidoreductase activity"
                      /db_xref="InterPro:IPR001395"
                      /db_xref="JGIDB:Aspbr1_138342"
@@ -228,11 +236,12 @@ FEATURES             Location/Qualifiers
                      HYNLLYREEEREMNRYCRQNNIALLPWAPLASGHLACPYDVYGQSPRTADDSENPRFSY
                      GRSIEDREIITRVATVAIRRGWTMTEVALAWLNKRVTAPVIGFTSVKRIEEALMARGKK
                      LSPEEEAYLEEPYRAKEVEGHC"
+                     /Pfam="Aldo_ket_red"
      CDS             join(21645..21698,21764..21976,22052..22743,22838..23621)
                      /codon_start=1
                      /locus_tag="ASPBRDRAFT_49169"
                      /product="CoA ligase PstH"
-                     /label=pstH
+                     /label="pstH"
                      /note="GO_function: GO:3824 - catalytic activity;
                      GO_process: GO:8152 - metabolic process"
                      /db_xref="InterPro:IPR000873"
@@ -249,16 +258,16 @@ FEATURES             Location/Qualifiers
                      TGDEATMGVDGTIRITGRIKDIIIRGGENIYPGEIEDTLLTHPQVANVGVVGLADAIYG
                      EVPAAFVVLRVETSPEELRAWVRQKCPAAMVPKHVFAVDRLPLTASGKLEKYKLREMGE
                      RWLQ"
+                     /Pfam="AA-adenyl-dom"
      CDS             complement(24649..25944)
                      /codon_start=1
                      /locus_tag="ASPBRDRAFT_138529"
                      /product="transcription factor PstI"
-                     /label=pstI
-                     /note="GO_component: GO:5634 - nucleus;
-                     GO_function: GO:3700; zinc ion binding - transcription 
-                     factor activity [PMID 8270];
-                     GO_process: GO:6355 - regulation of transcription, 
-                     DNA-dependent"
+                     /label="pstI"
+                     /note="GO_component: GO:5634 - nucleus; GO_function:
+                     GO:3700; zinc ion binding - transcription factor activity
+                     [PMID 8270]; GO_process: GO:6355 - regulation of
+                     transcription, DNA-dependent"
                      /db_xref="InterPro:IPR001138"
                      /db_xref="JGIDB:Aspbr1_138529"
                      /protein_id="OJJ66281.1"
@@ -270,11 +279,12 @@ FEATURES             Location/Qualifiers
                      QLPRALRSLDPASILLVLSCHLRVLDSYSQMFAHIQAWQEHGPSSSLPATGIGLPALNI
                      GAFSLPASSPRLQIAVILQLAEQLLGRLREMVLLPDVPPPAAARSLCHEMGASHHSTAM
                      HEVVSITLQAISARELGMTKTISWIKRSLQES"
+                     /Pfam="EqxR"
      CDS             join(27028..27266,27358..28852)
                      /codon_start=1
                      /locus_tag="ASPBRDRAFT_138423"
                      /product="major facilitator superfamily transporter PstJ"
-                     /label=pstJ
+                     /label="pstJ"
                      /db_xref="InterPro:IPR011701"
                      /db_xref="JGIDB:Aspbr1_138423"
                      /protein_id="OJJ66282.1"
@@ -289,25 +299,27 @@ FEATURES             Location/Qualifiers
                      VSDPDVRRTLGSGSAYSHVSSSYIRSLPADIRDDVVSVYVDALRIVWATATAFAGLCFL
                      LTLLEKEVPLRTSVKSDYGMRRRDQEKKTAGDSNGNAESSQSTSSPDASSTPRPPNPHA
                      S"
+                     /Pfam="MFS_1"
      CDS             complement(join(29494..29850,29918..30076))
                      /codon_start=1
                      /locus_tag="ASPBRDRAFT_164061"
                      /product="EthD domain-containing protein PstK"
-                     /label=pstK
+                     /label="pstK"
                      /db_xref="JGIDB:Aspbr1_164061"
                      /protein_id="OJJ66283.1"
                      /translation="MSTYGTRDRILRLRIAHYKTEDKTEAEAHKFGTQFAEKAARLHEK
                      HGIWGYAQVYTPEKTRKVVEAMNQKANRGWVIDDHDFAVEFYFKTLEDLSKVSRDPEFH
                      ALQAEEVPYISKHHVVTSLGWVETFVEHGKVVHIENGKSTYGTFEEMQEITMDPNYRKP
                      ADGTNNSQ"
+                     /Pfam="EthD"
      CDS             join(30657..30722,30810..31916,32014..32343)
                      /codon_start=1
                      /locus_tag="ASPBRDRAFT_201185"
                      /product="cytochrome P450 monooxygenase PstL"
-                     /label=pstL
+                     /label="pstL"
                      /note="GO_function: GO:4497; iron ion binding -
-                     monooxygenase activity [Evidence 20037] [PMID 5506]
-                     revised sequence"
+                     monooxygenase activity [Evidence 20037] [PMID 5506] revised
+                     sequence"
                      /db_xref="InterPro:IPR001128"
                      /db_xref="JGIDB:Aspbr1_201185"
                      /protein_id="OJJ66284.1"
@@ -320,11 +332,12 @@ FEATURES             Location/Qualifiers
                      SDITFDSTIPLRYLNAVIEESLRLCPPAPTMLPRVTPAAGAYVCGYWLPGGTAVEISQY
                      AMSRSYDNYSDPDRFIPERWLPDEKPNLHPHDARAHRPFSFGPRNCLGRSLAWMEIRCI
                      ICKLLWNFNLRMESPDYEWNEQGTYVMWDKKQMLVSLTPVKR"
+                     /Pfam="p450"
      CDS             complement(32619..33626)
                      /codon_start=1
                      /locus_tag="ASPBRDRAFT_35316"
                      /product="amidohydrolase PstM"
-                     /label=pstM
+                     /label="pstM"
                      /note="GO_function: GO:3824 - catalytic activity;
                      GO_process: GO:8152 - metabolic process"
                      /db_xref="InterPro:IPR006992"
@@ -336,11 +349,12 @@ FEATURES             Location/Qualifiers
                      PNAMAPPQHGLPAPLVEVALDTTRTVVAMLYQGVFRDFPDIVFVLGHCGAAVPVLSGRL
                      ALLGTESWVPNPQGLRREEVEAALRRLYVDTAATAKTGLAPAVRMCGVAHCVYGSDCGV
                      PCSTPTTMEENRSDVKRFEQENGIPPETIGMNGWQLFPAATERACQHPWTKGGV"
+                     /Pfam="Amidohydro_2"
      CDS             34164..35591
                      /codon_start=1
                      /locus_tag="ASPBRDRAFT_138510"
                      /product="amidotransferase PstN"
-                     /label=pstN
+                     /label="pstN"
                      /note="GO_function: GO:16884 - carbon-nitrogen ligase
                      activity, with glutamine as amido-N-donor"
                      /db_xref="InterPro:IPR000120"
@@ -355,16 +369,16 @@ FEATURES             Location/Qualifiers
                      DHAYPPTNFGIPAAAMDASTLTDRDKASNARDALDRIITTHLQQAGVEVLVFLTAGRAA
                      PRREEITPQMGATFPVHAMLASTLQWPAISVPIGFTATGLPVGLEILGRPLSDQRLLEV
                      AFVIEQIIQGRRPPKLD"
+                     /Pfam="Amidase"
      CDS             complement(35722..37038)
                      /codon_start=1
                      /locus_tag="ASPBRDRAFT_49174"
                      /product="peptidase PstO"
-                     /label=pstO
-                     /note="GO_function: GO:8800 - beta-lactamase activity; 
-                     GO_process: GO:30655; response to antibiotic - beta-lactam 
-                     antibiotic catabolic process [PMID 46677]
-                     This gene was not originally included in the cluster; 
-                     revised sequence "
+                     /label="pstO"
+                     /note="GO_function: GO:8800 - beta-lactamase activity;
+                     GO_process: GO:30655; response to antibiotic - beta-lactam
+                     antibiotic catabolic process [PMID 46677] This gene was not
+                     originally included in the cluster; revised sequence "
                      /db_xref="InterPro:IPR001466"
                      /db_xref="JGIDB:Aspbr1_49174"
                      /protein_id="OJJ66287.1"
@@ -376,6 +390,7 @@ FEATURES             Location/Qualifiers
                      RYLWQPMGSASDAQVTVDRGGRSRASGGVCSSLQDLARVGQLLLQNGRWDSRQVVPPEV
                      LEDTWNNGDRQAWNDGAFAPLFAPVYQNMSYRNGWYVVHDAPRMIFAMGIHGQNLFVDP
                      DNELVIAKFSSHHEESDVERVLTTHRGVAEIRRVLTETD"
+                     /Pfam="Beta-lactamase"
 ORIGIN
         1 tcacagcatt gacctcgttc tcaagaccgc cggcgtacaa gccttcagcg agggaatgcc
        61 tgctaaaccc atggagcggt cgagatccgt cagcaggcct agcaacacct cctttgctcc

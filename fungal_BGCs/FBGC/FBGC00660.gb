@@ -1,28 +1,28 @@
-LOCUS       FBGC00660       48359 bp DNA     linear   UNA 18-MAY-2023
+LOCUS       FBGC00660              48359 bp    DNA     linear   UNA 18-MAY-2023
 DEFINITION  stachysalicyloids.
 ACCESSION   FBGC00660
-VERSION     .
+VERSION     FBGC00660
 KEYWORDS    .
 SOURCE      Stachybotrys sp. g12
   ORGANISM  Stachybotrys sp. g12
+            .
 REFERENCE   1  (bases 1 to 48359)
-  AUTHORS   Yang R, Feng J, Xiang H, Cheng B, Shao LD, Li YP, Wang H, Hu QF, 
+  AUTHORS   Yang R, Feng J, Xiang H, Cheng B, Shao LD, Li YP, Wang H, Hu QF,
             Xiao WL, Matsuda Y, Wang WG.
-  TITLE     Ketoreductase Domain-Catalyzed Polyketide Chain Release in Fungal 
+  TITLE     Ketoreductase Domain-Catalyzed Polyketide Chain Release in Fungal
             Alkyl Salicylaldehyde Biosynthesis.
   JOURNAL   J Am Chem Soc 2023
-  PUBMED    37172192
+   PUBMED   37172192
 REFERENCE   2  (bases 1 to 48359)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported May 18, 2023 from SnapGene 6.2.2
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1021/jacs.3c02011"; journalName: "J Am Chem Soc"; date: "2023"
+  JOURNAL   Exported May 18, 2023 from SnapGene 6.2.2 https://www.snapgene.com
 COMMENT     ##Assembly-Data-START##
             Assembly Method       :: Platanus v. 1.2.4
             Sequencing Technology :: Illumina NovaSeq
             ##Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1021/jacs.3c02011"; journalName: "J Am Chem Soc"; date: "2023"
 FEATURES             Location/Qualifiers
      source          1..48359
                      /host="Paris polyphylla var. yunnanensis"
@@ -37,7 +37,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="strA"
                      /product="polyketide synthase StrA"
-                     /label=strA
+                     /label="strA"
                      /protein_id="BDX35601.1"
                      /translation="MVLHITEVLDAGASLPTPEYVAPKPRPVNGTNGVNGSKVDVVSGV
                      GLNGAAATNGVNGSLQQEEDPICVVGMACRLPGDIRSPSQLWDFLVKKRSAQGRVPIDR
@@ -81,34 +81,37 @@ FEATURES             Location/Qualifiers
                      GNVQDPRSSVLSAALLAEQDSNERGESGGSGASANAPEWVKSLPKAVSKAFAAEYEAAS
                      LQDAVLSIIRKRFSSLILMPVDQIDNSKPLAQFGMDSMIAAEFRTWIWGTFKVDVPFLD
                      LLSNQNTLTLLSSSVEGKLIA"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_DH, fPKS_ER, fPKS_KR, ACP_PCP"
      CDS             join(9369..9405,9467..9714,9771..10050,10107..10363)
                      /codon_start=1
                      /gene="strB"
                      /product="short-chain dehydrogenase/reductase StrB"
-                     /label=strB
+                     /label="strB"
                      /protein_id="BDX35602.1"
                      /translation="MDITGNALVIGGGGGIGRACVVQLAKEGAAAILVADLAIEAARDA
                      LAEAQAVATNPQFQGKAVPVDMTREESVHNLFNEMVSAFGRIDYCINCAGIGAQEATDI
                      ASLSLAEFQRFLDLNTTGMFLVTREASIAMRAQKPRPVSATDPGRGLTQGSIVNLASAS
                      SLVATAGVLPYTTSKHAVLGLTKNSALDNVSHNIRVNCICPSWVETPMVKKAMKGVEGL
                      AKIIEAAVPMGRIATPEEVADVAIFMCSPRSSYMTGSALIVDGGTTLTALR"
+                     /Pfam="adh_short_C2"
      CDS             join(11586..11861,11912..12259)
                      /codon_start=1
                      /gene="strC"
                      /product="cupin domain-containing protein StrC"
-                     /label=strC
+                     /label="strC"
                      /protein_id="BDX35603.1"
                      /translation="MAEQTEQTTTPFVLPGLNYVHSGFPAPGLRQINRHITGHDDNGKS
                      VFLSTDHGDHHRIMGEKQAVANILYSTQETPVQLNGNVDIDKAAKEEPPLHYHNGSIVR
                      MIDFAPAVESPLHRAVSIDYGIVVEGVFKLVLDSGEERIMRQGDVSVQRATAHKWINIT
                      DNGTAPGRMMWILLDCHDVVVNGQVMEGYLGDLEKEYVGRGASK"
+                     /Pfam="SrdD"
      CDS             complement(join(12933..13010,13061..13200,13257..13313,
                      13365..13428,13488..13503,13563..13635,13689..13870,
                      13921..14142,14198..14232))
                      /codon_start=1
                      /gene="strD"
                      /product="short-chain dehydrogenase/reductase StrD"
-                     /label=strD
+                     /label="strD"
                      /protein_id="BDX35604.1"
                      /translation="MTGPQNFALVTGCGRGGIGEALVIEYTRRGVHAIATVLPQEASDH
                      LSEAGITFFPLDVTNEQSIEELKAAVQKLTGGRLDILVNCAGIAYTMTAIDTDVAAVQR
@@ -116,21 +119,23 @@ FEATURES             Location/Qualifiers
                      RVELSPFGVKVITVISGEVSTNILKGDAHRTLPEGSYYAPLADKFSEHVTRTPAGATDR
                      FKYARNVVATTLKSSPPAWFWYGSFTGLARFLDTFGWRTVWDSMVWNLFGLQKLKEAHQ
                      NQTQKAI"
+                     /Pfam="adh_short"
      CDS             join(15570..15803,15874..16275)
                      /codon_start=1
                      /gene="strE"
                      /product="cupin domain-containing protein StrE"
-                     /label=strE
+                     /label="strE"
                      /protein_id="BDX35605.1"
                      /translation="MAVESTECPRPVHGLPRVVRHITGHNSEGKSVFLSTDGGEHHRGL
                      VNKSAVVSTLYSTQQHPVDLNAGADIKYARKNELGISAKNGTVCRMIDFAPSGVLPMHR
                      VQSLDYAIVIEGIFKVILDSGEERIIQRGDITIQRSTSHEWINITGDGRLPGRVVFVLL
                      DTKETHVTGSQVNEFFGLLGKDYAGLNGHVATAPTPTFKTNDYFESEF"
+                     /Pfam="SrdD"
      CDS             complement(join(16699..17493,17563..18345))
                      /codon_start=1
                      /gene="strF"
                      /product="cytochrome P450 monooxygenase StrF"
-                     /label=strF
+                     /label="strF"
                      /protein_id="BDX35606.1"
                      /translation="MSFAVIDSSVSLARVATGVTIAAAVYGLWLAIYRLYLSPLARFPG
                      PKLAALTKWYEAYFDLISKGGGQFPFEIRRMHEKYGPIVRINPFELHIDDADFYETIYS
@@ -142,12 +147,13 @@ FEATURES             Location/Qualifiers
                      VIPAGVPVSMDAWHMHTNAEVFPEPDEFRPERWLGNPRDNTGKRPLTYHLVTFARGSRN
                      CVGINLAYAEIYVGLATLFRRHEVDLFETTRRDVDFYREELKACPAPGSKGVRVKIRSL
                      ETKEKGQL"
+                     /Pfam="p450"
      CDS             complement(join(19583..20063,20144..20517,20572..20730,
                      20796..20831,20883..21125,21182..21547))
                      /codon_start=1
                      /gene="strG"
                      /product="cytochrome P450 monooxygenase StrG"
-                     /label=strG
+                     /label="strG"
                      /protein_id="BDX35607.1"
                      /translation="MSFFAFSYAVYAGFAALAVLAIAACLRVGQRPKDYPPGPPTIPIL
                      GNLHQIPSEKRHLQFEKWAQEYGPVYSLILGTKVMIVLSSDVAIRDLVDKRGAIYSSRP
@@ -159,22 +165,24 @@ FEATURES             Location/Qualifiers
                      KRHPDPRRFDPLRYIDDHQTSIDAANNPDPAKRDHFVFGAGRRRCQGMHIADRSIFLAI
                      SRLLWAFDFGRAVDQQGQEVIPDMNDMADGIMMTPKPFPTNIQPRSAAKAEYLRQEWNQ
                      MLEMLDEEEQWKKVPEGLIWKDEQLSEISADARNE"
+                     /Pfam="p450"
      CDS             join(22093..22375,22433..22947)
                      /codon_start=1
                      /gene="strH"
                      /product="short-chain dehydrogenase/reductase StrH"
-                     /label=strH
+                     /label="strH"
                      /protein_id="BDX35608.1"
                      /translation="MARKVVLVTGANHGIGYETVKAFLQSPNSYHVFLGSRSLEKGNAA
                      VQKARSEVPDTANTIEVLQIDIESDESIEQAFQVVQDSQGHLDTLINNAGAAFDGDFVQ
                      GKISLRECFNKAYNVNVAGTNVVTWTFIPLLLKSTEPRVLFVAGLSQMTQAAEAYFPTP
                      PQPAGWPKQIGFETIGYRCSKTALSMLMLDWNHKLKEDGIKVFSVSPDLCITGLGGGIP
                      EEVAKAMGAVHPSEGGRRLLAVAEGNRDADSGKIIDKDGFLPW"
+                     /Pfam="adh_short"
      CDS             complement(join(23459..23591,23646..24814))
                      /codon_start=1
                      /gene="strI"
                      /product="DMATS-type prenyltransferase StrI"
-                     /label=strI
+                     /label="strI"
                      /protein_id="BDX35609.1"
                      /translation="MSIWQEISAYRHTLSSLEKTNYEISSEREDQAFWWNSLSPSLAAL
                      LEKNKYPEEEQQYYLRWFHTWIAPALGVRPRYGKPYYTSGLTHDKSPLEFSQNWKENSP
@@ -184,12 +192,13 @@ FEATURES             Location/Qualifiers
                      SLGGKLNSPTIKKSLEAIDEWWYHIFALEPGSQSDDKKVLFGPTAVYAFELRPSEEGQN
                      EVEMEVKLHLPLWVLEQTDAQLSNRLSAWFKAHNHEVFADRYLPDLEYAFPKNSLNESA
                      GTHTWVSITYTPKTGLYMTMYYTPRLPEVNGLWT"
+                     /Pfam="Trp_DMAT"
      CDS             join(26778..27068,27130..27343,27413..27810,27891..28267,
                      28343..28607)
                      /codon_start=1
                      /gene="strJ"
                      /product="FAD-linked oxidoreductase StrJ"
-                     /label=strJ
+                     /label="strJ"
                      /protein_id="BDX35610.1"
                      /translation="MARFSFLAACGLVVSSLLQLALAAPHSCPDGLCLVTRTNVTNDVV
                      SRELGPLLSCGSKIFGPEDPSFEEATTRFQAFQPPTIELVVQVGKERDVATAISYAHRN
@@ -200,11 +209,12 @@ FEATURES             Location/Qualifiers
                      EALHAVGTGLDDPMCDHGVNHVVGTAGPQVYNITTQRTIFEQFRQWIEEYPGLEATYVV
                      MEAYSLGAVLAKDPDSSAFPMRDDFLLLQISVNYLPDPALDAPALEWARETIDLWNEGQ
                      PHRRPTTYVNYGLGTESLESIYGYEPWRLEKLRDLKRRYDPDNKFRYYVPLLRDDE"
+                     /Pfam="FAD_binding_4"
      CDS             join(29803..30416,30489..30764,30830..30977)
                      /codon_start=1
                      /gene="strK"
                      /product="short-chain dehydrogenase/reductase StrK"
-                     /label=strK
+                     /label="strK"
                      /protein_id="BDX35611.1"
                      /translation="MDTAEFFRAQRENLPVLLRKEHVEGKTFIITGSNHGIGREAARHV
                      VRIGAARVILAVRSISKGEEAKAWIESTTGVKGVAQVWHLDTTDFQAVRAFASRALSEL
@@ -213,12 +223,13 @@ FEATURES             Location/Qualifiers
                      LFPYSETGVVMNMLNPGYCNTGLARNGPLGFRLVFNLGGLLIGRSPEMGSRTILHAMQA
                      GIESDGHFLSDCKIKDYIVTEWVTNEKGQAIQKRVWDDFLERVEKFEPGLFERVSGILP
                      ADKRP"
+                     /Pfam="adh_short"
      CDS             complement(join(31042..31717,31799..32111,32195..32296,
                      32348..32636))
                      /codon_start=1
                      /gene="strL"
                      /product="transcription factor StrL"
-                     /label=strL
+                     /label="strL"
                      /protein_id="BDX35612.1"
                      /translation="MTLQFVACRGAKDRVVVDTKTRRMVRSHVMKGRNAGRTLARSHRS
                      RAVAAAMSPDKLEHMRPEDGPLMLSRWVGDDIAAYANGVTWTPYQKMRIHQCFSIIADA
@@ -229,11 +240,12 @@ FEATURES             Location/Qualifiers
                      GWFYGFLAFSVSFLFHFGRRRMLCYPTLSSNIRRLVKKLSGDSSCPDILLLWLPLISGS
                      SICKEESDYQWIFPTMANASRAMGLKSWEDVIEELQGVPWVHLLHGEAGKRMWELCQNY
                      Y"
+                     /Pfam="Fungal_trans_2"
      CDS             complement(join(33704..33818,33894..34804))
                      /codon_start=1
                      /gene="strM"
                      /product="short-chain dehydrogenase/reductase StrM"
-                     /label=strM
+                     /label="strM"
                      /protein_id="BDX35613.1"
                      /translation="MSRSLDISPETRASTLHFLYRQFFVTPSPVLRRNADLGGKTAIIT
                      GSNGGLGFETARQLLDLGANVILAVRNEAKGYEAMGQLSQGRQVRKGTIDVWKLDLSSY
@@ -242,11 +254,12 @@ FEATURES             Location/Qualifiers
                      FLTELVRHVPSSKVTVACANPGFCRGSDLGRQADGLVRIPYAIFSRLVGRTCSVGARTI
                      VHAAAALGEESHGQYIEDAKIQPMPPIVYKREGQHIAELLFQETVKELSFARVGDIITG
                      L"
+                     /Pfam="adh_short"
      CDS             complement(join(35703..36450,36506..37682,37748..38333))
                      /codon_start=1
                      /gene="strN"
                      /product="FAD-dependent monooxygenase StrN"
-                     /label=strN
+                     /label="strN"
                      /protein_id="BDX35614.1"
                      /translation="MSTQTSQQRPLKIVIVGGGIAGLTLANALQHAPADIEYLVLEARD
                      SLVPHLGAGIALVPNGSRILDQLGVYADLEPGFDPIADSSVLDARGRPLLPERTDMAKL
@@ -263,12 +276,13 @@ FEATURES             Location/Qualifiers
                      RLYNITSDMAAIRRTVVVLVALSAAAWQYTVWRSARPSFIDIFLPDLPIRHVSEFSIEA
                      AYVEFLKWDTVFFALGNATWIALLFWDLKAAGMIRSGWLTLLSYGIGLALVGGPGTFLG
                      LAWLYREEILVKNRHKDAVVPRSL"
+                     /Pfam="FAD_binding_3, CtvD"
      CDS             join(40126..40221,40289..40442,40526..40829,40892..41396,
                      41453..41971,42061..42264)
                      /codon_start=1
                      /gene="strO"
                      /product="transcription factor StrO"
-                     /label=strO
+                     /label="strO"
                      /protein_id="BDX35615.1"
                      /translation="MAGFGDMAFDYPPTTPTTDTAQQRVRQQPGSACDECRRRKLRCDR
                      MKPQCLACVNSGVTCTTRNDCAPRGPKKGHLNALRDKIAFLEARLNEQGKVPTPSREEA
@@ -281,24 +295,26 @@ FEATURES             Location/Qualifiers
                      QGHPDSMLVFLATSAYMTIFMLCETVESRPSSGDSPHTVFTDNKQRSLDAARELGNLMA
                      ELAQLNYFETHPLAPIPLLLSARFCLSHIGLDDAYAALMPGIAAALWGLTNVNGLAQNF
                      LRLLGLNVPNTFCPPVG"
+                     /Pfam="EqxR, Fungal_trans"
      CDS             join(43241..43282,43339..43497,43564..43670,43743..44059,
                      44123..44313)
                      /codon_start=1
                      /gene="strP"
                      /product="short-chain dehydrogenase/reductase StrP"
-                     /label=strP
+                     /label="strP"
                      /protein_id="BDX35616.1"
                      /translation="MPSYVITGVSRGIGWELLNQISSDPNNTVVGIVRNKPPTDKRVAE
                      ELAGRSNITILEAELTKSDDIKRAAAETAKITDGGLDYLVASAGQNMSWDALDPIGVLG
                      EKSEELSGYFHLMMEVNVLANIHLYSAFIPLVLKGDAKKVVHLTSAMGDLDFARDYDLY
                      LGSVYSAGKAAMNMVTTKFAAQYKKDGVLFLGICPGVVNTGQFDNITPEQLARFAPMMQ
                      TWQSYAPDFKGPISPEESVKAVLSVINNSSIEGGQSAAILSHFGNKQWL"
+                     /Pfam="adh_short"
      CDS             join(45072..45401,45452..45665,45734..46152,46200..46576,
                      46638..46905)
                      /codon_start=1
                      /gene="strQ"
                      /product="FAD-linked oxidoreductase StrQ"
-                     /label=strQ
+                     /label="strQ"
                      /protein_id="BDX35617.1"
                      /translation="MRVQTRHAVLGAVALPSLVAGFHVSPNPVADSPVPRTAWPRYFET
                      NVVSRTNLSAATVERELGPLLTNGSLIFGTCSPSYPDAIERWVSFVQPDIQVVVEPASE
@@ -310,11 +326,12 @@ FEATURES             Location/Qualifiers
                      HHFVQKVRENPELGTTARLAHQGYANAASRAIPWESTAYPHRDQNLILYFLAVVFDPAH
                      LEAAEEWAREAWDLWAEGQDASYPRSYVNYAIGQPYETVESVYGYEPWRLERLRALKAG
                      YDPNNRFRFYVPINPEVA"
+                     /Pfam="FAD_binding_4"
      CDS             complement(47469..48359)
                      /codon_start=1
                      /gene="strR"
                      /product="short-chain dehydrogenase/reductase StrR"
-                     /label=strR
+                     /label="strR"
                      /protein_id="BDX35618.1"
                      /translation="MPSPSTVWFITAASSGFGREIALQALDRGHTVIATARNPAKIQDL
                      ADAGAHTIAFDVTSPLPTIERVAKDVIDQYGRVDYLVNTAGFITDAAVEEISPEEVYNA
@@ -322,6 +339,7 @@ FEATURES             Location/Qualifiers
                      LLAESLKPELSPFNIVATVVEPGYFRTNFLNADAKVTSKVRLQEYEDENTPSGAVRKRL
                      AAVSNNQPGDVKKGCNVLVDILTRSGVAEGRDVPVRICLGSDADAFIRGKVDKTTALLD
                      DWKDVFTSTDYPKGE"
+                     /Pfam="adh_short"
 ORIGIN
         1 ctatgcgatc agcttgccct ccacgctcga ggacagcaga gtaagtgtgt tttggttgct
        61 aagcaggtca aggaaaggca catcgacctt gaaggttccc cagatccagg ttcggaactc

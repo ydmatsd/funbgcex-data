@@ -1,25 +1,25 @@
-LOCUS       FBGC00653       14404 bp DNA     linear   UNA 12-MAY-2023
+LOCUS       FBGC00653              14404 bp    DNA     linear   UNA 12-MAY-2023
 DEFINITION  neoaspergillic acid.
 ACCESSION   FBGC00653
-VERSION     .
+VERSION     FBGC00653
 KEYWORDS    .
 SOURCE      Aspergillus melleus IMV 01140
   ORGANISM  Aspergillus melleus IMV 01140
+            .
 REFERENCE   1  (bases 1 to 14404)
-  AUTHORS   Yuan B, Grau M. F, Murata RM, Torok T, Venkateswaran K, Stajich JE, 
+  AUTHORS   Yuan B, Grau M. F, Murata RM, Torok T, Venkateswaran K, Stajich JE,
             Wang CCC.
-  TITLE     Identification of the Neoaspergillic Acid Biosynthesis Gene Cluster 
-            by Establishing an In Vitro CRISPR-Ribonucleoprotein Genetic System 
+  TITLE     Identification of the Neoaspergillic Acid Biosynthesis Gene Cluster
+            by Establishing an In Vitro CRISPR-Ribonucleoprotein Genetic System
             in Aspergillus melleus
   JOURNAL   ACS Omega 2023
 REFERENCE   2  (bases 1 to 14404)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported May 12, 2023 from SnapGene 6.2.2
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
+  JOURNAL   Exported May 12, 2023 from SnapGene 6.2.2 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
             "10.1021/acsomega.2c08104"; journalName: "ACS Omega"; date: "2023"
-COMMENT     'Annotated using funannotate v1.6.0-df4262f'.
+            'Annotated using funannotate v1.6.0-df4262f'.
 FEATURES             Location/Qualifiers
      source          1..14404
                      /strain="AT1140"
@@ -30,10 +30,9 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="AT1140_005301"
                      /product="transcription coregulator NeaA"
-                     /label=neaA
-                     /note="EggNog:ENOG410PZ0K;
-                     COG:O,T;
-                     GO_function: GO:0005515 - protein binding [Evidence IEA]"
+                     /label="neaA"
+                     /note="EggNog:ENOG410PZ0K; COG:O,T; GO_function: GO:0005515
+                     - protein binding [Evidence IEA]"
                      /db_xref="InterPro:IPR002110"
                      /db_xref="InterPro:IPR020683"
                      /db_xref="InterPro:IPR036770"
@@ -50,11 +49,12 @@ FEATURES             Location/Qualifiers
                      PPMSSMVNAQTIPAVTGGPNTIHRTKFGGVPSASTPGHMPWTTPLHMAVARGNLSMVRL
                      LLEHGADVNAVNSEGATALHAGVTSGHSVIVSELFKRGADPTLTDAAGWLPLHYAVDAG
                      DEECLRVLLEIEKR"
+                     /Pfam="TqaK, Ank_4"
      CDS             join(3081..3358,3430..4039)
                      /codon_start=1
                      /locus_tag="AT1140_005302"
                      /product="2OG-Fe(II)-dependent dioxygenase NeaB"
-                     /label=neaB
+                     /label="neaB"
                      /note="EggNog:ENOG410PP05"
                      /protein_id="ncbi:AT1140_005302-T1"
                      /translation="MRLSQAVKTTLNYYPTCSLAERQIVLGTVGAYRRPIDSRPITVQD
@@ -63,17 +63,15 @@ FEATURES             Location/Qualifiers
                      KSRWGIVNIWRPLKPVPRDPLAVADARSVRDEDLVEIYGRMPGKGDKDYEAATKGAGFG
                      VLYGKYGEGQKWYYLSGMKPEEVMLIKCYDSRADGSVARRAPHTAFVDPRTKEVKEPRE
                      SVELRCLVFFEDQI"
+                     /Pfam="NvfI"
      CDS             complement(4571..7633)
                      /codon_start=1
                      /locus_tag="AT1140_005303"
                      /product="NRPS-like enzyme NeaC"
-                     /label=neaC
-                     /note="EggNog:ENOG4112RWH;
-                     COG:Q;
-                     GO_function: GO:0031177 - phosphopantetheine binding 
-                     [Evidence IEA];
-                     GO_function: GO:0003824 - catalytic activity [Evidence 
-                     IEA]"
+                     /label="neaC"
+                     /note="EggNog:ENOG4112RWH; COG:Q; GO_function: GO:0031177 -
+                     phosphopantetheine binding [Evidence IEA]; GO_function:
+                     GO:0003824 - catalytic activity [Evidence IEA]"
                      /db_xref="InterPro:IPR000873"
                      /db_xref="InterPro:IPR006162"
                      /db_xref="InterPro:IPR009081"
@@ -108,28 +106,26 @@ FEATURES             Location/Qualifiers
                      PNQSKVMIPVDFVTHALVHITSNTANYNRVFHIVPQSPEEDKDVETCWEMLEECGYPLK
                      ALPYKDWLEALSSDKDLLANPLLPMLPVLQEPVRKTRTRWELYEDMAQYDITNTKRALA
                      DMPKRRTGFVMEDLERHVADWVERGLVPARG"
+                     /Pfam="AA-adenyl-dom, ACP_PCP, NAD_binding_4"
      CDS             join(8253..8423,8474..8661,8713..9916)
                      /codon_start=1
                      /locus_tag="AT1140_005304"
                      /product="cytochrome P450 monooxygenase NeaD"
-                     /label=neaD
-                     /note="EggNog:ENOG41KOG0156;
-                     COG:Q;
-                     GO_component: GO:0005634 - nucleus [Evidence IEA]; 
-                     GO_function: GO:0020037 - heme binding [Evidence IEA]; 
-                     GO_function: GO:0016705 - oxidoreductase activity, acting 
-                     on paired donors, with incorporation or reduction of 
-                     molecular oxygen [Evidence IEA];
-                     GO_function: GO:0005506 - iron ion binding [Evidence IEA]; 
-                     GO_function: GO:0003677 - DNA binding [Evidence IEA]; 
-                     GO_function: GO:0008270 - zinc ion binding [Evidence IEA]; 
-                     GO_function: GO:0000981 - DNA-binding transcription factor 
-                     activity, RNA polymerase II-specific [Evidence IEA]; 
-                     GO_process: GO:0055114 - oxidation-reduction process 
-                     [Evidence IEA];
-                     GO_process: GO:0006351 - transcription, DNA-templated 
-                     [Evidence IEA];
-                     GO_process: GO:0006355 - regulation of transcription, 
+                     /label="neaD"
+                     /note="EggNog:ENOG41KOG0156; COG:Q; GO_component:
+                     GO:0005634 - nucleus [Evidence IEA]; GO_function:
+                     GO:0020037 - heme binding [Evidence IEA]; GO_function:
+                     GO:0016705 - oxidoreductase activity, acting on paired
+                     donors, with incorporation or reduction of molecular oxygen
+                     [Evidence IEA]; GO_function: GO:0005506 - iron ion binding
+                     [Evidence IEA]; GO_function: GO:0003677 - DNA binding
+                     [Evidence IEA]; GO_function: GO:0008270 - zinc ion binding
+                     [Evidence IEA]; GO_function: GO:0000981 - DNA-binding
+                     transcription factor activity, RNA polymerase II-specific
+                     [Evidence IEA]; GO_process: GO:0055114 -
+                     oxidation-reduction process [Evidence IEA]; GO_process:
+                     GO:0006351 - transcription, DNA-templated [Evidence IEA];
+                     GO_process: GO:0006355 - regulation of transcription,
                      DNA-templated [Evidence IEA]"
                      /db_xref="InterPro:IPR001128"
                      /db_xref="InterPro:IPR001138"
@@ -152,28 +148,26 @@ FEATURES             Location/Qualifiers
                      PQSAPTERLVDGYKVPGGTNYVVDSWGLNLRNEFWAPDSSAYRPERFVGRSPTELRYHF
                      WRFGFGPRQCIGKYTADVVIRTILLHVVRTYELKLLEEGNWAQDPECWITHPDLQVRCV
                      KRN"
+                     /Pfam="p450"
      CDS             join(10435..11256,11307..12392)
                      /codon_start=1
                      /locus_tag="AT1140_005304"
                      /product="transcription factor NeaR"
-                     /label=neaR
-                     /note="EggNog:ENOG41KOG0156;
-                     COG:Q;
-                     GO_component: GO:0005634 - nucleus [Evidence IEA]; 
-                     GO_function: GO:0020037 - heme binding [Evidence IEA]; 
-                     GO_function: GO:0016705 - oxidoreductase activity, acting 
-                     on paired donors, with incorporation or reduction of 
-                     molecular oxygen [Evidence IEA];
-                     GO_function: GO:0005506 - iron ion binding [Evidence IEA]; 
-                     GO_function: GO:0003677 - DNA binding [Evidence IEA]; 
-                     GO_function: GO:0008270 - zinc ion binding [Evidence IEA]; 
-                     GO_function: GO:0000981 - DNA-binding transcription factor 
-                     activity, RNA polymerase II-specific [Evidence IEA]; 
-                     GO_process: GO:0055114 - oxidation-reduction process 
-                     [Evidence IEA];
-                     GO_process: GO:0006351 - transcription, DNA-templated 
-                     [Evidence IEA];
-                     GO_process: GO:0006355 - regulation of transcription, 
+                     /label="neaR"
+                     /note="EggNog:ENOG41KOG0156; COG:Q; GO_component:
+                     GO:0005634 - nucleus [Evidence IEA]; GO_function:
+                     GO:0020037 - heme binding [Evidence IEA]; GO_function:
+                     GO:0016705 - oxidoreductase activity, acting on paired
+                     donors, with incorporation or reduction of molecular oxygen
+                     [Evidence IEA]; GO_function: GO:0005506 - iron ion binding
+                     [Evidence IEA]; GO_function: GO:0003677 - DNA binding
+                     [Evidence IEA]; GO_function: GO:0008270 - zinc ion binding
+                     [Evidence IEA]; GO_function: GO:0000981 - DNA-binding
+                     transcription factor activity, RNA polymerase II-specific
+                     [Evidence IEA]; GO_process: GO:0055114 -
+                     oxidation-reduction process [Evidence IEA]; GO_process:
+                     GO:0006351 - transcription, DNA-templated [Evidence IEA];
+                     GO_process: GO:0006355 - regulation of transcription,
                      DNA-templated [Evidence IEA]"
                      /db_xref="InterPro:IPR001128"
                      /db_xref="InterPro:IPR001138"
@@ -198,20 +192,17 @@ FEATURES             Location/Qualifiers
                      AQPTGPNVVRAWNIVNVVFDLTENDASRPDPGPLWKILRHLREKARQRRQDENAPPPVP
                      ENLPEGQLPVEKRVEERPMEQIEPPPEGLEDVLAPNLDPNSLSEWMDFSENLGIFRFDL
                      "
+                     /Pfam="EqxR, Zn_clus, Fungal_trans"
      CDS             join(12893..13109,13165..13271,13326..13500,13560..14404)
                      /codon_start=1
                      /locus_tag="AT1140_005305"
                      /product="major facilitator superfamily transporter NeaE"
-                     /label=neaE
-                     /note="EggNog:ENOG410IMVZ;
-                     COG:U;
-                     TransMembrane:11 
-                     (o51-73i80-99o105-125i137-157o169-193i214-237o249-268i280- 
-                     299o305-328i340-363o375-394i);
-                     GO_component: GO:0016021 - integral component of membrane 
-                     [Evidence IEA];
-                     GO_process: GO:0055085 - transmembrane transport [Evidence 
-                     IEA]"
+                     /label="neaE"
+                     /note="EggNog:ENOG410IMVZ; COG:U; TransMembrane:11
+                     (o51-73i80-99o105-125i137-157o169-193i214-237o249-268i280-
+                     299o305-328i340-363o375-394i); GO_component: GO:0016021 -
+                     integral component of membrane [Evidence IEA]; GO_process:
+                     GO:0055085 - transmembrane transport [Evidence IEA]"
                      /db_xref="InterPro:IPR011701"
                      /db_xref="InterPro:IPR020846"
                      /db_xref="InterPro:IPR036259"
@@ -225,6 +216,7 @@ FEATURES             Location/Qualifiers
                      EAELNGMSANLAAYLLPMLNAASLFGRLGAGFVSDKFGRYNIFIAMCLVAGVLVLALWI
                      PAASNAPTIVFAIIFGFASGAYVSLSPALVAQISPLTEIGYRTGLLFLFASVGGLTTSP
                      IAGAILANAGGKDFTNVKVFSGVFLLGGTVFVIAARIMRTGLKLGAKF"
+                     /Pfam="MFS_1"
 ORIGIN
         1 tcaccgcttt tcgatctcca gcaatacccg taagcattcc tcatctcccg catccactgc
        61 gtaatgcagt ggcagccaac ccgctgcatc tgtgagcgta ggatcagcgc cccgcttgaa

@@ -1,38 +1,39 @@
-LOCUS       FBGC00651        6113 bp DNA     linear   UNA 10-MAY-2023
+LOCUS       FBGC00651               6113 bp    DNA     linear   UNA 10-MAY-2023
 DEFINITION  tricinonoic acid.
 ACCESSION   FBGC00651
-VERSION     .
+VERSION     FBGC00651
 KEYWORDS    .
 SOURCE      Fusarium poae DAOMC 252244
   ORGANISM  Fusarium poae DAOMC 252244
+            .
 REFERENCE   1  (bases 1 to 6113)
   AUTHORS   Liu L, Chen X, Zou Y.
-  TITLE     Genome mining of fungal globin-like enzymes for catalyzing the 
+  TITLE     Genome mining of fungal globin-like enzymes for catalyzing the
             synthesis of linear terpenes.
   JOURNAL   Chin J Nat Med 2022;20:795-800
-  PUBMED    36307200
+   PUBMED   36307200
 REFERENCE   2  (bases 1 to 6113)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported May 10, 2023 from SnapGene 6.2.2
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1016/S1875-5364(22)60192-4"; journalName: "Chin J Nat Med"; 
-            date: "2022"; volume: "20"; pages: "795-800"
-COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final 
-            NCBI review. The reference sequence is identical to 
-            CM033788.##Genome-Assembly-Data-START##
+  JOURNAL   Exported May 10, 2023 from SnapGene 6.2.2 https://www.snapgene.com
+COMMENT     ##Genome-Assembly-Data-START##
             Assembly Date          :: 17-MAY-2019
             Assembly Method        :: Canu v. 1.8
             Genome Representation  :: Full
             Expected Final Version :: No
             Genome Coverage        :: 161.0x
-            Sequencing Technology  :: Oxford Nanopore; Illumina NextSeq 
-            ##Genome-Assembly-Data-END####Genome-Annotation-Data-START##
-            Annotation Provider :: INSDC submitter
-            Annotation Status   :: Full annotation
-            Annotation Pipeline :: Eukaryotic Annotation Propagation Pipeline 
+            Sequencing Technology  :: Oxford Nanopore; Illumina NextSeq
+            ##Genome-Assembly-Data-END##
+            ##Genome-Annotation-Data-START##
+            Annotation Provider    :: INSDC submitter
+            Annotation Status      :: Full annotation
+            Annotation Pipeline    :: Eukaryotic Annotation Propagation Pipeline
             ##Genome-Annotation-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1016/S1875-5364(22)60192-4"; journalName: "Chin J Nat Med";
+            date: "2022"; volume: "20"; pages: "795-800"
+            PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to
 FEATURES             Location/Qualifiers
      source          1..6113
                      /chromosome="4"
@@ -40,7 +41,7 @@ FEATURES             Location/Qualifiers
                      /mol_type="genomic DNA"
                      /country="Canada: Quebec"
                      /isolation_source="putative FHB-infected oat kernels"
-                     /collection_date=2016
+                     /collection_date="2016"
                      /db_xref="taxon:36050"
                      /organism="Fusarium poae"
      CDS             complement(join(1..700,751..841,891..1277,1328..1427,
@@ -48,7 +49,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="FPOAC1_011574"
                      /product="transcription factor TriC"
-                     /label=triC
+                     /label="triC"
                      /db_xref="GeneID:68346576"
                      /db_xref="PFAM:PF04082"
                      /protein_id="XP_044703259.1"
@@ -60,12 +61,14 @@ FEATURES             Location/Qualifiers
                      LQSLPPVYRIDNTDTTNDKKWPWLITHRYYVQAMAYFMILQPYKAYLSNSSIDPTLPEV
                      QKMHQEATQYSLKALNIAGRWSLHAMDGDVHFHLAVLCLFDTAAFLGTTLTRDNMLQKV
                      EVMAAIENATAALQQLGRASQGAKTSHVLLGRILKGAADRAK"
-     CDS             complement(join(2417..2657,2711..2928,2977..3010,3072..3318,
-                     3371..3383,3438..3586,3634..3652,3709..3835,3885..4021))
+                     /Pfam="Fungal_trans"
+     CDS             complement(join(2417..2657,2711..2928,2977..3010,
+                     3072..3318,3371..3383,3438..3586,3634..3652,3709..3835,
+                     3885..4021))
                      /codon_start=1
                      /locus_tag="FPOAC1_011574"
                      /product="terpene synthase TriB"
-                     /label=triB
+                     /label="triB"
                      /db_xref="GeneID:68346576"
                      /db_xref="PFAM:PF04082"
                      /protein_id="XP_044703259.1"
@@ -76,11 +79,12 @@ FEATURES             Location/Qualifiers
                      RLGVDFVLLANDILSYRKEENDDCPFSMVASCRMAGQSPQEAFDTVGALLEERYQEWQT
                      VIAELPSWGPEIDAQVTRYVEGIQNVVQANVTWSFQSGRYFGKQAQEIRQSRLVDVMIN
                      PQYLQQREQQHQRHATNMHSGRWSKSLSSLVQNVSWSFLLSLVIICYFAVIIRH"
+                     /Pfam="Terpene_syn_C_2"
      CDS             4722..6113
                      /codon_start=1
                      /locus_tag="FPOAC1_011575"
                      /product="globin-like oxygenase TriA"
-                     /label=triA
+                     /label="triA"
                      /note="TransMembrane:1 (o428-453i)"
                      /db_xref="GeneID:68346577"
                      /db_xref="PFAM:PF09995"
@@ -94,6 +98,7 @@ FEATURES             Location/Qualifiers
                      WYAYACFKGHCWLVWGLATMQQWVPSFDDKMVQLCREGLHNAIIHSSQGLGGGSILDFK
                      YVPDGRIQGKEKSGRVEGQLWFFERPLELIYLIVFIIGCLLVLGVLSGVAQLVVGISGS
                      QKLFV"
+                     /Pfam="MPAB_Lcp_cat"
 ORIGIN
         1 tcatttcgct cgatctgctg cccctttgag aatacggcca agaagaacat gcgacgtctt
        61 tgcaccttgc gatgccctcc cgagctgctg caatgctgca gtggcatttt caatcgccgc
