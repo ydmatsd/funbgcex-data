@@ -1,21 +1,21 @@
-LOCUS       FBGC00060       41629 bp DNA     linear   UNA 16-JAN-2023
+LOCUS       FBGC00060              41629 bp    DNA     linear   UNA 16-JAN-2023
 DEFINITION  monacolin K.
 ACCESSION   FBGC00060
-VERSION     .
+VERSION     FBGC00060
 KEYWORDS    .
 SOURCE      Monascus pilosus BCRC 38072
   ORGANISM  Monascus pilosus BCRC 38072
+            .
 REFERENCE   1  (bases 1 to 41629)
   AUTHORS   Chen YP, Yuan GF, Hsieh SY, Lin YS, Wang WY, Liaw LL, Tseng CP.
-  TITLE     Identification of the mokH gene encoding transcription factor for 
+  TITLE     Identification of the mokH gene encoding transcription factor for
             the upregulation of monacolin K biosynthesis in Monascus pilosus.
   JOURNAL   J Agric Food Chem 2010;58:287-93
-  PUBMED    19968298
+   PUBMED   19968298
 REFERENCE   2  (bases 1 to 41629)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Jan 16, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
+  JOURNAL   Exported Jan 16, 2023 from SnapGene 6.2.1 https://www.snapgene.com
 COMMENT     SGRef: number: 1; type: "Journal Article"; doi: "10.1021/jf903139x";
             journalName: "J Agric Food Chem"; date: "2010"; volume: "58"; pages:
             "287-93"
@@ -29,7 +29,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="mkB"
                      /product="polyketide synthase MokB"
-                     /label=mokB
+                     /label="mokB"
                      /protein_id="ABA02240.1"
                      /translation="MKATAASGTPTPIAVVGMGCRFAGGATDPQALWKLLEQGGSTWSK
                      TPSSRFNVSGVYHPNGQRVGSMHVRGGHFLDQDPALFDASFFNMTSEVASCMDPQQRLI
@@ -75,13 +75,15 @@ FEATURES             Location/Qualifiers
                      NTGPGPHFTNADWMQEARFAGIKYRDPLKDDRGGALSSSQPADEDSVRARLSRASTEEE
                      ATALVVQVMGHRLVTMFGLTESEMSATQTLSSVGVDSLVAIELRNWITAQLNVDISVFE
                      LMEGRTIAEVAEVVVKKYGVGSKV"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_DH, PKS_NRPS_MT, fPKS_ER,
+                     fPKS_KR, ACP_PCP"
      CDS             complement(join(10629..11021,11140..11300,11374..11898,
                      11978..12049,12109..12132,12197..12423,12495..12571,
                      12624..12776))
                      /codon_start=1
                      /gene="mkI"
                      /product="major facilitator superfamily transporter MokI"
-                     /label=mokI
+                     /label="mokI"
                      /protein_id="ABA02247.1"
                      /translation="MASHQSEKEKPQSCTTEVQVSHVTGLKLGLVVTSVTLVVFLMLLD
                      MSIIVTAIPHITAQFHSLGDVGWYGSAYLLSSCALQPLAGKLYTLLTLKYTFLAFLGVF
@@ -93,11 +95,12 @@ FEATURES             Location/Qualifiers
                      QFMGGFGRGCGMQTPIIAIQHALPPQMSALGISLAMFGQTFGGSLFLTLAKLVFSAGLD
                      AGLREYAPAVSAEAVTAAGATGFRDVVPANLLSQVLLAYCKGIDHTFYLAVGASGATFL
                      FAWGMGQVGLIWWGEERTGFGRDERV"
+                     /Pfam="MFS_1"
      CDS             complement(join(14506..15200,15297..15969))
                      /codon_start=1
                      /gene="mkH"
                      /product="transcription factor MokH"
-                     /label=mokH
+                     /label="mokH"
                      /protein_id="ABA02246.1"
                      /translation="MALSPVQDPPSHTDKTMPRRAFRRSCDRCHAQKIKCIGSEGAVAR
                      ASCQRCQQAGLRCVYSERCPKRKLPKPNPAESSPASSTAGLHTSSSDSSPPVPSDGLPL
@@ -107,11 +110,12 @@ FEATURES             Location/Qualifiers
                      ELLLSQIRHSQAGQLTPLEGHQFEPPPSSSRDRSSVDTMPIFNPNLHIGGLFSYLNPFM
                      HALSSACTTLRVGVQLLRENESALGIPPAQGVAASVSMGKEEWADGEDVASAVTTADED
                      LRQPASRILSMVWSDEVGDQKAKSADAAGPRSRTLAVLRRCNREIFSLARQHNLAS"
+                     /Pfam="EqxR"
      CDS             join(16930..17247,17355..19912,20003..20285)
                      /codon_start=1
                      /gene="mkG"
                      /product="HMG-CoA reductase MokG"
-                     /label=mokG
+                     /label="mokG"
                      /protein_id="ABA02245.1"
                      /translation="MASAAVTPKLGWVQHQVTNGLHAVVGQVCRHPIHTLLVTALIAAT
                      TYLHVLEGTFRAANLGPGSKTDAAPFDVQSFLWGSRSLRLGETSSWRWQVGDLSEATGD
@@ -132,11 +136,12 @@ FEATURES             Location/Qualifiers
                      NLVQAVFLATGQDPAQNVESSSCITTMKKIDGNLHIAVSMPSMEVGTIGGGTILEAQGA
                      MLDLLGVRGAHPTDPGANARRLARIVAAAVLAGELSTCSALAAGHLVNAHMRHNRSAAS
                      SEKK"
+                     /Pfam="HPIH, Sterol-sensing, HMG-CoA_red"
      CDS             join(21041..21224,21299..21578,21688..22465)
                      /codon_start=1
                      /gene="mkF"
                      /product="acyltransferase MokF"
-                     /label=mkF
+                     /label="mkF"
                      /protein_id="ABA02244.1"
                      /translation="MRQFLSSDRINSEIPQEKSEMVGFSDIDNSSRQIKEMEAAFRSAV
                      KTGQIPGAVIMARDHSGRLNYTRCFGARTVVRDECNRLPPMQVDTPCRLASATKLLTTI
@@ -146,11 +151,12 @@ FEATURES             Location/Qualifiers
                      DGDECFGGQGVFSGPESYMKVVHSLLQRDGRLLRPETVDLMFQPALDAQTEKQMNQHMD
                      ASPHINYGGPMPMVLRRSFGLGGMIALEDLDGQKWRRKGCLTFGGGPNIVWVMLLSALR
                      FVFFFFFFFFFCSS"
+                     /Pfam="Beta-lactamase"
      CDS             complement(join(22721..23134,23199..23310,23392..23948))
                      /codon_start=1
                      /gene="mkE"
                      /product="trans-acting enoylreductase MokE"
-                     /label=mokE
+                     /label="mokE"
                      /protein_id="ABA02243.1"
                      /translation="MTITFTLPPHQTALTVDEHDKVTIWDVAPCPSLPPDQVCVRVEAV
                      ALNPSDTKMRGQFATPYAFLGTDYAGTVVAVGSQVTHIQVGDRVYGAQNEMCPRTPDQG
@@ -159,24 +165,26 @@ FEATURES             Location/Qualifiers
                      IRTYTKNNLRYALDCITNVESTTLCFAAIGRAGGRYVSLNPFPEHAATRKMVTADWTLG
                      PTIFGEGSTWPAPYGRPGSEKDRAFGEELWRVAARLVEDGKIVHHPLRVIPGGFEAIKQ
                      GMELVRTGQLSGEKVVVKLG"
+                     /Pfam="fPKS_ER"
      CDS             24400..25191
                      /codon_start=1
                      /gene="mkD"
                      /product="thioesterase MokD"
-                     /label=mokD
+                     /label="mokD"
                      /protein_id="ABA02242.1"
                      /translation="MRIQRTPAPPKAPRALLCVHGAGCSPAIFRVQLSKLRAALREDFE
                      FVYATAPFPSAPGPGILPTFEGLGPYYTWFEGSPSGAAAKGDNSNSNDSNSSPTVHDRL
                      AAVHEPVRRAIAEWQTQNPSIPIVGTVSFSEGALVTALLLWQQQMGRIPWLPVMQVAMF
                      ICCWYQHEATQYMREEVGCGGDGGIDGEKLVIRGVLSLHLQGRDDFALAGSKMVVAQHF
                      VPGEAQVLEFAGRHHFPNRPRDVLETVKRFRQLCVRARVIG"
+                     /Pfam="FSH1"
      CDS             complement(join(29885..31614,31684..32089,32161..32503,
                      32561..37883,37955..38296,38365..38590,38664..38876,
                      38943..39587))
                      /codon_start=1
                      /gene="mkA"
                      /product="polyketide synthase MokA"
-                     /label=mokA
+                     /label="mokA"
                      /protein_id="ABA02239.1"
                      /translation="MYVGRIGATTYISRPADSRATPKVIKTQGSITTSNLTSLTTMAQS
                      TYPNEPIVVVGSGCRFPGGANTPSKLWELLREPRDVRSKIPKERFDVDAFYHPDGKHHG
@@ -231,11 +239,13 @@ FEATURES             Location/Qualifiers
                      VPHITFGEHLVATKDKVREAMQHARVPYGVLLERLGFEVPGATAETAEPAPLFQAVFDY
                      KQGQAESGSIGSAKMTEVIATRERTPYDVVLEMSDDPTKDPLLTVKLQSSVYEVHHPRA
                      FLESYISILSMFSMNPALKLA"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_DH, PKS_NRPS_MT, fPKS_KR,
+                     ACP_PCP, Condensation"
      CDS             join(39913..40296,40374..40545,40611..41629)
                      /codon_start=1
                      /gene="mkC"
                      /product="cytochrome P450 monooxygenase MokC"
-                     /label=mokC
+                     /label="mokC"
                      /protein_id="ABA02241.1"
                      /translation="MTVPTDTVSRRLQSLAWSDIKQHAPWLPSSRTLVSGFLCLILLQI
                      LYSRGRKSDLRVYNPKKWWELTTMRAKREFDANAPAWIEAWFSKNDQPLRFIVDSGYCT
@@ -247,6 +257,7 @@ FEATURES             Location/Qualifiers
                      SNGTFVPKGELVAVAADRMSNPEVWPEPKKYDPYRYMRLREDPDKAFSAQLENTNGNHI
                      GFGWHPRACPGRFFASKEIKIMLAFLLIRYDWKLVPNEPLQYYRHSFSVRIHPATKLMM
                      RRRDEDL"
+                     /Pfam="p450"
 ORIGIN
         1 ctagactttg cttcccacgc catacttctt cactaccacc tccgccacct cagcaatggt
        61 ccgaccctcc atcaactcaa agaccgagat atccacatta agttgggcgg taatccagtt

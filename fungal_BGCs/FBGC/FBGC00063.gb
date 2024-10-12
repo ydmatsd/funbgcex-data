@@ -1,23 +1,23 @@
-LOCUS       FBGC00063       15769 bp DNA     linear   UNA 16-JAN-2023
+LOCUS       FBGC00063              15769 bp    DNA     linear   UNA 16-JAN-2023
 DEFINITION  elymoclavine.
 ACCESSION   FBGC00063
-VERSION     .
+VERSION     FBGC00063
 KEYWORDS    .
 SOURCE      Claviceps fusiformis PRL 1980
   ORGANISM  Claviceps fusiformis PRL 1980
+            .
 REFERENCE   1  (bases 1 to 15769)
   AUTHORS   Lorenz N, Wilson EV, Machado C, Schardl CL, Tudzynski P.
   TITLE     Comparison of ergot alkaloid biosynthesis gene clusters in Claviceps
-            species indicates loss of late pathway steps in evolution of C. 
+            species indicates loss of late pathway steps in evolution of C.
             fusiformis.
   JOURNAL   Appl Environ Microbiol 2007;73:7185-91
-  PUBMED    17720822
+   PUBMED   17720822
 REFERENCE   2  (bases 1 to 15769)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Jan 16, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
+  JOURNAL   Exported Jan 16, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
             "10.1128/AEM.01040-07"; journalName: "Appl Environ Microbiol"; date:
             "2007"; volume: "73"; pages: "7185-91"
 FEATURES             Location/Qualifiers
@@ -30,7 +30,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="easA"
                      /product="probable inactive dehydrogenase EasA"
-                     /label=easA
+                     /label="easA"
                      /protein_id="ABV57819.1"
                      /translation="MSSSNLFKPIPLGRKVLQHKVVLSPMTRFRADNDGVPLSYVKSYY
                      GQRASIRGTLLITEAVAICPRAKGFSNCPGIWHQDQIAAWKEVVDEVHSKGSVIWLQLW
@@ -39,12 +39,14 @@ FEATURES             Location/Qualifiers
                      KLSPWSTFQGMGTMDDLVAQFEHFISRLREMDIAYIHLVNTRWLEEEEPGIKTHPDVDN
                      QTFVRMWGNKTPILLAGGYDADSARRLVDETYSDQNNIMVVFGRHYISNPDLPFRLRLG
                      IPLQKYNRDTFYIPFSDEGYLDYPFCQEFLDQQDVDQVVVAA"
-     CDS             complement(join(2093..2267,2374..2534,2620..2730,2848..3174,
-                     3251..3342,3455..3566,3628..3880,3976..4039,4122..4362))
+                     /Pfam="Oxidored_FMN"
+     CDS             complement(join(2093..2267,2374..2534,2620..2730,
+                     2848..3174,3251..3342,3455..3566,3628..3880,3976..4039,
+                     4122..4362))
                      /codon_start=1
                      /gene="cloA"
                      /product="cytochrome P450 monooxygenase CloA"
-                     /label=cloA
+                     /label="cloA"
                      /protein_id="ABV57820.1"
                      /translation="MLLLWLYQALPTSLTRILLTAGLCVPCALVIHGIYNLYFHPLRNV
                      PGPKLGALTDLYAFYWNWIRGVGYSKQFDRWHKHYNSSVIRIGPNDVHTTQVELYDVIH
@@ -55,11 +57,12 @@ FEATURES             Location/Qualifiers
                      LDENASFIRNGLDYHKIQTLPYLNAVIKETLRISVPVPGCLPRVVPEGGITVGSFHLPA
                      GTALSITQQAISLNQDIFPSPLCFSPERWIGPAAAGLDKWNVAFGRGSRQCIGTTLAYL
                      ELRCVVAYFFSRFDMTLTAKNGDGHRWVDRFVAVNLDTVEVLVLSDRWSGARY"
+                     /Pfam="p450"
      CDS             complement(join(4886..6133,6252..6443))
                      /codon_start=1
                      /gene="easC"
                      /product="catalase EasC"
-                     /label=easC
+                     /label="easC"
                      /protein_id="ABV57821.1"
                      /translation="MASQVSLTAQGSGLSAPLNGPEHLTSTTVENDPRLLDILSRFNRE
                      KIPERAVHARGAGAYGEFEVTHDVSDICDIDMLLGIGKKTPCAVRFSTTALERGSAESV
@@ -70,22 +73,24 @@ FEATURES             Location/Qualifiers
                      FAYPDAQEHRLGPQFSDMAAKRTGHAANDAPKTKKPAVPLQKQSREHAEWVSQVTSSSW
                      SQPNETDYKFPRELWAALPRLRGEEFQNRLVVNMAESVSQIPEDLRQKVYKTLALVAED
                      LASRVESLTEEMVVPEQRPRL"
+                     /Pfam="Catalase"
      CDS             complement(join(7262..7458,7554..8142))
                      /codon_start=1
                      /gene="easD"
                      /product="short-chain dehydrogenase/reductase EasD"
-                     /label=easD
+                     /label="easD"
                      /protein_id="ABV57822.1"
                      /translation="MSSVSAKIFAVTGGASGIGAATCRLLAERGAAVICVADVNCTDFA
                      SLQESIAQINASTLVQCTKVDVSSVQDVNLWLHGIVSKHGDLHGAANVAGIAQAAGLRT
                      KLTILEEDDAEWRRVLDINLNGVFYSTRAEVKVMRDLPLAHRSIVNVASIAAFSHVPDV
                      YAYGTSKNACAYLTTCIAADVFWSGIRVNCVSPGITNTPLLPQFEPKVKTLDEIRKLYR
                      EQGYPTSEAEDVARTIVWLLSEDSRPVYGANINVGACPP"
+                     /Pfam="adh_short_C2"
      CDS             join(8689..8953,9048..9583,9712..10405,10466..10716)
                      /codon_start=1
                      /gene="easE"
                      /product="FAD-linked oxidoreductase EasE"
-                     /label=easE
+                     /label="easE"
                      /protein_id="ABV57823.1"
                      /translation="MYRLLGPLACLALAWFFTWAPSGRCRCRPWETCWPSVADWSALNE
                      SMQGNLIRIRPVASVCHGSEYEAAACANVSNMVVDSGWRASNPRTLQDWIWETGNTAQE
@@ -98,11 +103,12 @@ FEATURES             Location/Qualifiers
                      TSNLGGRVFENSAIDISLHPAWREAAHLITLVRAVEPTIEDRDSQVSYRNLGDPQEKEF
                      RDRYWGTANYARLAAIKAKWDPHELFMSKLGVGSENWDEEGICRKSLGFVERLSAILKL
                      ERWKN"
+                     /Pfam="FAD_binding_4, BBE"
      CDS             join(11051..11316,11431..12232)
                      /codon_start=1
                      /gene="easF"
                      /product="methyltransferase EasF"
-                     /label=easF
+                     /label="easF"
                      /protein_id="ABV57824.1"
                      /translation="MPACSVTDIRSHVVEDSLPDQVIKGLKSSPKTLPALLFYSNEGLD
                      HWNHHVSQPDFYPRHQEVDILKQRGDEMARAIAPNSVILDLGSANLEKVVHLLKALEAQ
@@ -111,11 +117,12 @@ FEATURES             Location/Qualifiers
                      VEPFALQSLTFAKTLLRGPMLHNDSDEPLPCYLQPDDWYYHSEWNFVLGRHEASLIPRY
                      RDVHLGSLLQDITVKKDEKIRFGCSYKYDDMERHQLFLDAGVEQDVAWTNEGCDVVIYE
                      LKKRSNTEKLGIDRN"
+                     /Pfam="Methyltransf_33"
      CDS             complement(join(12253..12510,12592..12791,12862..13273))
                      /codon_start=1
                      /gene="easG"
                      /product="short-chain dehydrogenase/reductase EasG"
-                     /label=easG
+                     /label="easG"
                      /protein_id="ABV57825.1"
                      /translation="MTILLTGGSGKTAGHIANLLKEAKLPFIVGSRSSNPHTVERHRTF
                      DWLDEATFNNVLSVDEGMEPVSVVWLVSPPILDLAPPVIRFIDFASSRGVKRFVLLSAS
@@ -123,11 +130,12 @@ FEATURES             Location/Qualifiers
                      GKIPFISVADIARVALRALTAPALHNKDHVLLGPELLTYDDVAEILTRVVGRNIHHVRL
                      TESELAAKLQERGMPADEAAMHASLDSIVEAGAEEKLNTEVKDLTGEEPRHFADFVSDN
                      KNVWLMRD"
+                     /Pfam="NAD_binding_10"
      CDS             join(14266..15452,15527..15648,15711..15769)
                      /codon_start=1
                      /gene="dmaW"
                      /product="DMATS-type prenyltransferase DmaW"
-                     /label=dmaW
+                     /label="dmaW"
                      /protein_id="ABV57826.1"
                      /translation="MMTKAPATAVYDTLSLLFDFPNQEQRLWWHSIAPMFAAMLDTAGH
                      NVHDQYRHLGIFKKHIIPFLGVYPAQGKHTWPSVLTRYGIPFELSLNCLDSVVRYTFEP
@@ -137,6 +145,7 @@ FEATURES             Location/Qualifiers
                      TAMEDLWTLGGRRTDSSTLNGLDMMRELWHLLQIPSGFMKYPESDLKLGEVPDEQLPSM
                      VHYALHPDQPMPEPQVYFTVFGMSDAGITNALATFFSRHGWYEMAKKYRVFLEGSFPNH
                      DFESLNYLHTYVSFSYRKNKPYLSVYLHSFETGQWPAFSDDPTAFNAFKRCDLSLT"
+                     /Pfam="Trp_DMAT"
 ORIGIN
         1 atgtcctcgt ccaacctgtt caaaccaatt cctctcggca gaaaggtcct ccaacacaaa
        61 gtcgtacttt ctcccatgac acggttccgt gcagacaacg atggagtgcc cctttcgtat

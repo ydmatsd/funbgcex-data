@@ -1,28 +1,28 @@
-LOCUS       FBGC00089       32566 bp DNA     linear   UNA 18-JAN-2023
-DEFINITION  pyrrolocin.
+LOCUS       FBGC00089              32566 bp    DNA     linear   UNA 19-MAR-2024
+DEFINITION  pyrrolocin A.
 ACCESSION   FBGC00089
-VERSION     .
+VERSION     FBGC00089
 KEYWORDS    .
 SOURCE      fungal sp. NRRL 50135
   ORGANISM  fungal sp. NRRL 50135
+            .
 REFERENCE   1  (bases 1 to 32566)
   AUTHORS   Kakule TB, Jadulco RC, Koch M, Janso JE, Barrows LR, Schmidt EW.
   TITLE     Native promoter strategy for high-yielding synthesis and engineering
             of fungal secondary metabolites.
   JOURNAL   ACS Synth Biol 2015;4:625-33
-  PUBMED    25226362
+   PUBMED   25226362
 REFERENCE   2  (bases 1 to 32566)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Jan 18, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: "10.1021/sb500296p";
-            journalName: "ACS Synth Biol"; date: "2015"; volume: "4"; pages: 
-            "625-33"
+  JOURNAL   Exported Mar 19, 2024 from SnapGene 7.1.2 https://www.snapgene.com
 COMMENT     ##Assembly-Data-START##
             Assembly Method       :: SPAdes v. 3.0.0
             Sequencing Technology :: Illumina
             ##Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi: "10.1021/sb500296p";
+            journalName: "ACS Synth Biol"; date: "2015"; volume: "4"; pages:
+            "625-33"
 FEATURES             Location/Qualifiers
      source          1..32566
                      /host="Asplenium sp."
@@ -30,7 +30,7 @@ FEATURES             Location/Qualifiers
                      /mol_type="genomic DNA"
                      /country="Papua New Guinea: Watunou, Milne Bay Province"
                      /isolation_source="stem"
-                     /label=endophytic
+                     /label="endophytic"
                      /note="endophytic"
                      /db_xref="taxon:1547289"
                      /organism="fungal sp. NRRL 50135"
@@ -38,7 +38,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="prlL"
                      /product="major facilitator superfamily transporter PrlL"
-                     /label=prlL
+                     /label="prlL"
                      /protein_id="AIP87508.1"
                      /translation="MAQSFANEHDPAKRAEERGHVGTIEDVESGTKEPYIAEEPISAEA
                      ARALIWKQDKRIIPLSAAIYFLCYLDRSNIGNAKILNAATGNDLLTETHMTNYDYTIAL
@@ -49,13 +49,14 @@ FEATURES             Location/Qualifiers
                      VQILVSWSADRTNSRGLHSAASATVGACGFLASAVLPAEAYLHRYGCLIVAAAGAFACI
                      PPLLGWLSSNIFSTASVGLAIALNIGLGGAPGQIAGVWIYKADEAKKGYPTGHWVNAGL
                      LFFVAVACVALRLHYGFRNRKTVRETGGIEGVRLFKY"
+                     /Pfam="MFS_1"
      CDS             complement(join(6259..9185,9224..11814,11896..14418,
                      14478..16593,16674..17360,17409..18044,18113..18746))
                      /codon_start=1
                      /gene="prlS"
-                     /product="polyketide synthase-nonribosomal peptide 
+                     /product="polyketide synthase-nonribosomal peptide
                      synthetase PrlS"
-                     /label=prlS
+                     /label="prlS"
                      /protein_id="AIP87510.1"
                      /translation="MSSTEPIAVIGSACRFPGSSDRPSKLWELLREPRDLLQKVSERRR
                      WHPDAFYHSDPEHHGTTNVRSSYFLDEDPADFDNAFFNIQPSEAEAIDPQQRMLMETVY
@@ -126,12 +127,14 @@ FEATURES             Location/Qualifiers
                      ESLGLQVHIHRPLGSADVGAPDSTPDRKNPSTKDEIQRDLDHILLKLGKRPDFSAVTGY
                      VDVTPVNSVVSDMVAAMIQEISSGHGGAMLRVTEHRGRLRLHIKEFGDHIGASSQLSAL
                      PTMNPLFWFADAKKAGFAQLITSQRLVMHNKEGELVTRR"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_DH, PKS_NRPS_MT, fPKS_KR,
+                     ACP_PCP, Condensation, AA-adenyl-dom, fPKS_R"
      CDS             complement(join(20036..20193,20264..21601,21800..22464,
                      22595..22752))
                      /codon_start=1
                      /gene="prlR"
                      /product="transcription factor PrlR"
-                     /label=prlR
+                     /label="prlR"
                      /protein_id="AIP87509.1"
                      /translation="MSDAVTPCSSAKVPSVQEFITTSSDTQTDRPRPPLSRRRDKPQLS
                      CNACRRRKVRCDRLHPCSNCSSRGHGSSCEYAPTTPTTGTAASTITEKPPLPGPLHGTA
@@ -147,11 +150,12 @@ FEATURES             Location/Qualifiers
                      ADEQKDTNRTSKDAEAAPVDIEEIRQLLNTSLVIWSRQCASSREARRAVAALRYVLGDS
                      GIRSEPHPSEDVLSAPVPAAAISYFPGFSDLMTEYDLPSLGLEPTIEGTTWPVFTTNLN
                      NNIDHWAGVTGFQQMDLSS"
+                     /Pfam="Zn_clus, CghF"
      CDS             join(23827..23966,24034..24490,24574..25398)
                      /codon_start=1
                      /gene="prlG"
                      /product="major facilitator superfamily transporter PrlG"
-                     /label=prlG
+                     /label="prlG"
                      /protein_id="AIP87507.1"
                      /translation="MSSTDAEAKNEEAVDWEGPDDPENPRNWNQGAKMTHVLLVSSFTL
                      YSNLAAVMFAPGAQDLVAEFGITSTIVASLTVSIYILGYVFGPFLLASMSEIYGRLIIY
@@ -162,11 +166,12 @@ FEATURES             Location/Qualifiers
                      PELRLILMIWSSPLVPIGFFWYGWSAKYEVHWIVPILGTSVIGLGAFLILMPAQLYLVD
                      AFGTEAAASALAANTVLRSLFGAVLPLAGPSLYDSLGLGWGNSLLAFIGLAFAPVPFFF
                      YKYGERLRVRFPVNS"
+                     /Pfam="MFS_1"
      CDS             25902..27128
                      /codon_start=1
                      /locus_tag="gNR600"
                      /product="Diels-Alderase gNR600"
-                     /label=gNR600
+                     /label="gNR600"
                      /protein_id="AIP87501.1"
                      /translation="MAGTFVSVLDISGDSVVTGPVPVEPFVPGSANLFPKMTSRINDTA
                      WELWEFEGFSAGGEAAVGVSLYRDARGVDKGGFHAEVNAIWPDGRKWGQTLYFAESIVT
@@ -176,11 +181,12 @@ FEATURES             Location/Qualifiers
                      YLNKELVCAANQAVDAQSAAEGSTATTQPRDMVAVEKVLSEPKSQEQVVSGAFSDKNIG
                      YVIEFISGQQKRWRFDARHKRAWWSEPTSAPGPGCTGKSGWIEGFLGGSDGETFEGAGV
                      GGQLQIPVP"
+                     /Pfam="Fsa2"
      CDS             complement(28172..29656)
                      /codon_start=1
                      /gene="prlF"
                      /product="transcription factor PrlF"
-                     /label=prlF
+                     /label="prlF"
                      /protein_id="AIP87506.1"
                      /translation="MALSPSSDAILSIRSSCDRCRSQKLKCIVIETPSGTACCQRCARA
                      MVPCIFGRRSRSKRTTTTTTTTTTDSGRKQRRREPAAALNVLDSCAAPELAASSSSTNA
@@ -191,11 +197,12 @@ FEATURES             Location/Qualifiers
                      YVTLLRVCTVVLGNFQTYLHLQPRARPKASPASIYPSSASCLGDLLPINQPHHRIHAAV
                      CLLLDSLEQVEEALSLPYQVRCASAVQASSDPGSCTPSEAKPFSDAPAGAAGRDSATTL
                      IHWGFQTSAAGMQDASSELRQKVEGVKEMLRQQMGL"
+                     /Pfam="EqxR"
      CDS             31484..32566
                      /codon_start=1
                      /gene="prlC"
                      /product="trans-acting enoylreductase PrlC"
-                     /label=prlC
+                     /label="prlC"
                      /protein_id="AIP87505.1"
                      /translation="MGSLEKARRTQTAVVGNNQGGVQLSHDAPIPEAKGDIVVVRAEAV
                      SVNPVDAKMRGQYVTSGAIGGCDFAGVVVEVGLDAAKYDIKVGDRVCAAIMGMNPLEPA
@@ -204,6 +211,7 @@ FEATURES             Location/Qualifiers
                      AQTKNGLRFALDCITNTQSMQICYAALGRAGGRYTALDPYPEAVAATRKIIKADWVIGP
                      VMLGLDIGWPAPHGRKADPDLFEFGQRWKATVQQLLNQGLIREHPLFVQSGGLSRVIDS
                      MEAILAKKVSGKKMVCKLSQ"
+                     /Pfam="fPKS_ER"
 ORIGIN
         1 atggcccagt cttttgcaaa cgagcatgac ccggcaaagc gagctgagga gcgcggccat
        61 gttggaacaa tcgaagatgt tgaatctggt accaaagagg tgagcaacct ttgcgcctgc

@@ -1,38 +1,38 @@
-LOCUS       FBGC00068       39973 bp DNA     linear   UNA 18-JAN-2023
+LOCUS       FBGC00068              39973 bp    DNA     linear   UNA 18-JAN-2023
 DEFINITION  apicidin F.
 ACCESSION   FBGC00068
-VERSION     .
+VERSION     FBGC00068
 KEYWORDS    .
 SOURCE      Fusarium fujikuroi IMI 58289
   ORGANISM  Fusarium fujikuroi IMI 58289
+            .
 REFERENCE   1  (bases 1 to 39973)
-  AUTHORS   Niehaus EM, Janevska S, von Bargen KW, Sieber CM, Harrer H, Humpf 
+  AUTHORS   Niehaus EM, Janevska S, von Bargen KW, Sieber CM, Harrer H, Humpf
             HU, Tudzynski B.
-  TITLE     Apicidin F: characterization and genetic manipulation of a new 
-            secondary metabolite gene cluster in the rice pathogen Fusarium 
+  TITLE     Apicidin F: characterization and genetic manipulation of a new
+            secondary metabolite gene cluster in the rice pathogen Fusarium
             fujikuroi.
   JOURNAL   PLoS One 2014;9:e103336
-  PUBMED    25058475
+   PUBMED   25058475
 REFERENCE   2  (bases 1 to 39973)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Jan 18, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1371/journal.pone.0103336"; journalName: "PLoS One"; date: 
+  JOURNAL   Exported Jan 18, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     ##Genome-Annotation-Data-START##
+            Annotation Provider :: INSDC submitter
+            Annotation Status   :: Full annotation
+            Annotation Pipeline :: Eukaryotic Annotation Propagation Pipeline
+            ##Genome-Annotation-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1371/journal.pone.0103336"; journalName: "PLoS One"; date:
             "2014"; volume: "9"; pages: "e103336"
-COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final 
-            NCBI review. The reference sequence is identical to HF679023. 
-            Sequencing was performed by Eurofins MWG Operon, Germany Guldener 
-            U., Wiemann P., Sieber C., Munsterkotter M., Tudzynski B. 
+            PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to HF679023.
+            Sequencing was performed by Eurofins MWG Operon, Germany Guldener
+            U., Wiemann P., Sieber C., Munsterkotter M., Tudzynski B.
             Westfaelische Wilhelms-Universitaet Muenster
             Institut fuer Biologie und Biotechnologie der Pflanzen, Schlossplatz
             8, 48143 Muenster, Germany
-            tudzynsb@uni-muenster.de.##Genome-Annotation-Data-START##
-            Annotation Provider :: INSDC submitter
-            Annotation Status   :: Full annotation
-            Annotation Pipeline :: Eukaryotic Annotation Propagation Pipeline 
-            ##Genome-Annotation-Data-END##
 FEATURES             Location/Qualifiers
      source          1..39973
                      /chromosome="I"
@@ -44,7 +44,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="FFUJ_00013"
                      /product="pyrroline reductase APF3"
-                     /label=APF3
+                     /label="APF3"
                      /db_xref="EnsemblGenomes-Gn:FFUJ_00013"
                      /db_xref="EnsemblGenomes-Tr:CCT63351"
                      /db_xref="GeneID:35393498"
@@ -61,11 +61,12 @@ FEATURES             Location/Qualifiers
                      TAQQASAVADIFRAVSPQISFIKQEDGIDIAASISGSSPAYVFKLLAILVEAGVSHGLA
                      PDVAGALVKQSCLGAAMQALQDKRSLQSLIADVCVPGGSTEKAMQRLDEGEFSAVVAAA
                      VEKSLDANRAMGKE"
+                     /Pfam="P5CR_dimer"
      CDS             complement(join(1079..2160,2217..2304))
                      /codon_start=1
                      /locus_tag="FFUJ_00012"
                      /product="transcription factor APF2"
-                     /label=APF2
+                     /label="APF2"
                      /db_xref="EnsemblGenomes-Gn:FFUJ_00012"
                      /db_xref="EnsemblGenomes-Tr:CCT63352"
                      /db_xref="GeneID:35393497"
@@ -80,12 +81,13 @@ FEATURES             Location/Qualifiers
                      LGDSNEGSRSISTTKQPSEFKTPVLTAIAKGKLDIARLLISSGANIDTRDMHGRTNLHY
                      AVSRSDAKTVRSLLELGADLLMSDASGVTALHMAVGADDQDMVKLLLGWCEQQDRTASS
                      TDHKTTLKQCINSRDGQNMTPLHLCVVMERMDMLKILLDYGADVNIGCD"
-     CDS             complement(join(2575..2865,2926..3566,3623..3649,3701..3814,
-                     3872..3904,3957..3987))
+                     /Pfam="TqaK, Ank_2, Ank_4"
+     CDS             complement(join(2575..2865,2926..3566,3623..3649,
+                     3701..3814,3872..3904,3957..3987))
                      /codon_start=1
                      /locus_tag="FFUJ_00011"
                      /product="aminotransferase APF4"
-                     /label=APF4
+                     /label="APF4"
                      /db_xref="EnsemblGenomes-Gn:FFUJ_00011"
                      /db_xref="EnsemblGenomes-Tr:CCT63353"
                      /db_xref="GeneID:35393496"
@@ -101,11 +103,12 @@ FEATURES             Location/Qualifiers
                      QSYVDEFSAAALIGVKSPDQESTQVPILTVAHSEAAIHSITAESVVTIAQSFGWTVERR
                      LVKLEELSSFSEVFAVGTAATIRPCSLIYHRSTGKHFTFTSDGPYYQRLWKTLSGIQKG
                      EIEDIFQWCQDLRFEEFGERGHNGQPTADPTRVIEMPE"
+                     /Pfam="Aminotran_4"
      CDS             join(4392..4447,4505..4531,4601..5040,5090..9387)
                      /codon_start=1
                      /locus_tag="FFUJ_00010"
                      /product="fatty acid synthase subunit alpha APF5"
-                     /label=APF5
+                     /label="APF5"
                      /db_xref="EnsemblGenomes-Gn:FFUJ_00010"
                      /db_xref="EnsemblGenomes-Tr:CCT63354"
                      /db_xref="GeneID:35393495"
@@ -147,11 +150,12 @@ FEATURES             Location/Qualifiers
                      LTGHSKGAAGAWMVNGCLQMMNTGLVPGNRNADNVDEKLREHRHLAFPNTNLQMDDIKA
                      CSVTSFGFGQKGGQALLVHPRYLFATIGRERYDGYISKRDKRWRKACFRLSEAMVQGNM
                      VSKCIKTEAPYTSADGVAALLDPTARF"
+                     /Pfam="Fas_alpha_ACP, FAS_I_H"
      CDS             9735..12620
                      /codon_start=1
                      /locus_tag="FFUJ_00009"
                      /product="cytochrome b5-like reductase APF12"
-                     /label=APF12
+                     /label="APF12"
                      /db_xref="EnsemblGenomes-Gn:FFUJ_00009"
                      /db_xref="EnsemblGenomes-Tr:CCT63355"
                      /db_xref="GeneID:35393494"
@@ -178,11 +182,12 @@ FEATURES             Location/Qualifiers
                      QNDLTNHSRIEQAPTGSIEQLAESPPVEILRGATNCFVKGWSSLLQQSGIGDSGVVSLL
                      SSHQDAISALDAHVRMVYENDFEDPVRYANALRKIFDAHSRLVCGIHTAIDELKRHIVE
                      RLVEGDEPELTSLHISTARISQQLRETSKSY"
+                     /Pfam="Cyt-b5"
      CDS             join(13213..14074,14124..14275,14322..14363)
                      /codon_start=1
                      /locus_tag="FFUJ_00008"
                      /product="methyltransferase APF6"
-                     /label=APF6
+                     /label="APF6"
                      /db_xref="EnsemblGenomes-Gn:FFUJ_00008"
                      /db_xref="EnsemblGenomes-Tr:CCT63356"
                      /db_xref="GeneID:35393493"
@@ -200,12 +205,13 @@ FEATURES             Location/Qualifiers
                      SDVVFVDVGGGTGDQAIALGYKRIGLPGRIINQDLLPISQEAEEMLRSHNIERITYNFF
                      DEQPLKGACVYHYRQIFHDWPDADCERILRRAKDSMTASSTLLIDEVVLPETGAHWMND
                      HKYNGVACYST"
+                     /Pfam="Dimerisation, Methyltransf_2"
      CDS             complement(join(14602..15245,15300..15974,16031..16096,
                      16142..16289,16365..16424))
                      /codon_start=1
                      /locus_tag="FFUJ_00007"
                      /product="cytochrome P450 monooxygenase APF7"
-                     /label=APF7
+                     /label="APF7"
                      /db_xref="EnsemblGenomes-Gn:FFUJ_00007"
                      /db_xref="EnsemblGenomes-Tr:CCT63357"
                      /db_xref="GeneID:35393492"
@@ -225,11 +231,12 @@ FEATURES             Location/Qualifiers
                      SDHDFHIPGGCEVGTGVYAIHHNEEYYPEPFRFRPERWLPQEVGDEAVAKAQSAFQAFS
                      LGPRSCPGKNLAMLEIPFALAAVMMDYDFRKVDSPLGGVGEGKGKFVGQYQTFWAFTSI
                      KDGPYIQFKRREP"
+                     /Pfam="p450"
      CDS             join(17374..17479,17529..17894,17948..18585)
                      /codon_start=1
                      /locus_tag="FFUJ_00006"
                      /product="cytochrome P450 monooxygenase APF8"
-                     /label=APF8
+                     /label="APF8"
                      /db_xref="EnsemblGenomes-Gn:FFUJ_00006"
                      /db_xref="EnsemblGenomes-Tr:CCT63358"
                      /db_xref="GeneID:35393491"
@@ -246,11 +253,12 @@ FEATURES             Location/Qualifiers
                      VGAALWREIGPGGMNIGPLTLPAGVDVGTGIYSLHHNAAYHPEPFKYLPERWLVGEGSS
                      TSESVELARSAFAPFSRGPRSCVGKGFAYHELTLTIAHILHRFDFSATEEDFALRHGSE
                      GPGGINEFLLHDHVTGARSGPLLQFSMRR"
+                     /Pfam="p450"
      CDS             join(19151..19219,19276..19655,19709..19913,19966..21069)
                      /codon_start=1
                      /locus_tag="FFUJ_00005"
                      /product="FAD-linked oxidoreductase APF9"
-                     /label=APF9
+                     /label="APF9"
                      /db_xref="EnsemblGenomes-Gn:FFUJ_00005"
                      /db_xref="EnsemblGenomes-Tr:CCT63359"
                      /db_xref="GeneID:35393490"
@@ -273,12 +281,13 @@ FEATURES             Location/Qualifiers
                      IHHGLEAAADVKADPTSAVLPGWYKSILLDEFEIPMNTTDVDAYAGSFEYLRNELVPLY
                      ESLSPDTGTYMNEADWGNMNWKKDFFGSHWDRLLKVKTRYDPEGFFYCPKCVGSDDWVE
                      NKGGSLCRA"
+                     /Pfam="FAD_binding_4, BBE"
      CDS             complement(join(22018..22701,22761..23298,23349..23549,
                      23617..23702,23759..23938))
                      /codon_start=1
                      /locus_tag="FFUJ_00004"
                      /product="major facilitator superfamily transporter APF11"
-                     /label=APF11
+                     /label="APF11"
                      /db_xref="EnsemblGenomes-Gn:FFUJ_00004"
                      /db_xref="EnsemblGenomes-Tr:CCT63472"
                      /db_xref="GeneID:35393489"
@@ -297,11 +306,12 @@ FEATURES             Location/Qualifiers
                      LHPSISKSKWIGYQILFGAGSGTGIQQAIVGVQVAVDHDDMAYATSAVMLVNTLAGSIF
                      IAVSQTLFLGEMKRVTELIPNLDRHTLLSNFRSIRDKLDHQELDIAVNAYNRGITKAFL
                      IGLVLCSITVLTWPLIRWIPLKKTEDPVKSERRNDPETLNAGNVA"
+                     /Pfam="MFS_1"
      CDS             join(24587..32103,32182..36568,36623..39973)
                      /codon_start=1
                      /locus_tag="FFUJ_00003"
                      /product="nonribosomal peptide synthetase APF1"
-                     /label=APF1
+                     /label="APF1"
                      /db_xref="EnsemblGenomes-Gn:FFUJ_00003"
                      /db_xref="EnsemblGenomes-Tr:CCT63360"
                      /db_xref="GeneID:35393488"
@@ -401,6 +411,7 @@ FEATURES             Location/Qualifiers
                      PLRIQLLDEPRGLVDVADLVRIETVRVMPHEHTGLDAIKDLASQDDDDIHPHAASLLGR
                      FPLDLAIHPAGHTDVDAARSIGITHIGQKVVVPPPGTFSAECSIISEDNYIAVSLAVIW
                      DNRAMDEDDVNRVVEIWKDIIVRG"
+                     /Pfam="AA-adenyl-dom, ACP_PCP, NRPS_E, NRPS_C, NRPS_CT"
 ORIGIN
         1 atgccttcct ctacatctga agacataact gcctgtactt ttattggcgg gggcgttatg
        61 gcacgctgca tgattgatgg cttactcgat acttacaata actctgtcga gatccgggtc

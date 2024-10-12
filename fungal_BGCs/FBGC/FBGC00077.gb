@@ -1,26 +1,26 @@
-LOCUS       FBGC00077       16456 bp DNA     linear   UNA 18-JAN-2023
+LOCUS       FBGC00077              16456 bp    DNA     linear   UNA 18-JAN-2023
 DEFINITION  ergot alkaloid.
 ACCESSION   FBGC00077
-VERSION     .
+VERSION     FBGC00077
 KEYWORDS    .
 SOURCE      Epichloe inebrians E818
   ORGANISM  Epichloe inebrians E818
+            .
 REFERENCE   1  (bases 1 to 16456)
-  AUTHORS   Chen L, Li X, Li C, Swoboda GA, Young CA, Sugawara K, Leuchtmann A, 
+  AUTHORS   Chen L, Li X, Li C, Swoboda GA, Young CA, Sugawara K, Leuchtmann A,
             Schardl CL.
-  TITLE     Two distinct Epichloe species symbiotic with Achnatherum inebrians, 
+  TITLE     Two distinct Epichloe species symbiotic with Achnatherum inebrians,
             drunken horse grass.
   JOURNAL   Mycologia 2015;107:863-73
-  PUBMED    25911697
+   PUBMED   25911697
 REFERENCE   2  (bases 1 to 16456)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Jan 18, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: "10.3852/15-019"; 
-            journalName: "Mycologia"; date: "2015"; volume: "107"; pages: 
+  JOURNAL   Exported Jan 18, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi: "10.3852/15-019";
+            journalName: "Mycologia"; date: "2015"; volume: "107"; pages:
             "863-73"
-COMMENT     On Jan 21, 2015 this sequence version replaced JX072969.1.
+            On Jan 21, 2015 this sequence version replaced JX072969.1.
 FEATURES             Location/Qualifiers
      source          1..16456
                      /host="Achnatherum inebrians"
@@ -33,7 +33,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="cloA"
                      /product="cytochrome P450 monooxygenase CloA"
-                     /label=cloA
+                     /label="cloA"
                      /note="cytochrome P450 monooxygenase"
                      /protein_id="AFO67561.1"
                      /translation="MSLQWLYQAQCPSWTWIMFTACISITFPLVMIGIYNIYFHPLRNV
@@ -45,11 +45,12 @@ FEATURES             Location/Qualifiers
                      DEHSSIIRDAFDYNKIQTLPYLNAVIKETLRISVPVPGCLPRVVPEGGITLGSLSLPAG
                      TAVSISQQAISLNNEIFSSPHRFSPERWIGPEAVGLDKWNIAFSRGPRQCIGTTLAYLE
                      LRCILAYFFSRFEMTLTGNCGDHLRWVDRFVAVNLDDVEVLILRDRWS"
+                     /Pfam="p450"
      CDS             complement(join(3616..4857,4934..5119))
                      /codon_start=1
                      /gene="easC"
                      /product="catalase EasC"
-                     /label=easC
+                     /label="easC"
                      /protein_id="AFO67562.1"
                      /translation="MPSNISVQTRGYGDSGSQSGQVNQAYSAIDYRLLDSLSRFNREKV
                      PERAVHARGAGAYGEFEVTDDISDICDIDMLLGVGKKTPCVVRFSTTTLERGSAEAVRD
@@ -60,11 +61,12 @@ FEATURES             Location/Qualifiers
                      YPDAQRHRLGPQNLDIPANRSRHTVDGAKTKKTVPPEKKSPEHAEWVSQVTTSSWSQPY
                      EADYKFPREFWKALPRLRGQEFQDNLVVNMSKSVSQIPVDMRQNVYNTLGLVAEDLADR
                      VRIMTEEMMDSEKGVPL"
+                     /Pfam="Catalase"
      CDS             complement(join(5937..6133,6188..6776))
                      /codon_start=1
                      /gene="easD"
                      /product="short-chain dehydrogenase/reductase EasD"
-                     /label=easD
+                     /label="easD"
                      /note="short-chain alcohol dehydrogenase"
                      /protein_id="AFO67563.1"
                      /translation="MSSVSSKIFAITGGASGIGAATCRLLADRGAAVICLADVSSNNFV
@@ -72,12 +74,13 @@ FEATURES             Location/Qualifiers
                      RPTILEEKDDDWSRILDVNLNGVFYSTRAQVRAMKDLPRGHRSIVNVASISVFSHVPDV
                      YAYSTSKNACAYLTTCIAADVFWSGIRVNCVSPGITNTPMLPDFEPKAKSLDEIYEIYR
                      GQGYLTCEAEDVARTIVWLLSEDSRPVYGANINVGACPP"
+                     /Pfam="adh_short_C2"
      CDS             join(7343..7607,7671..8203,8259..9263)
                      /codon_start=1
                      /gene="easE"
                      /gene_synonym="ccsA"
                      /product="FAD-linked oxidoreductase EasE"
-                     /label=easE
+                     /label="easE"
                      /protein_id="AFO67564.1"
                      /translation="MYNLLGPVACLTLAGLVLWLHSGHCRCRPWEPCWPSAAHWKAFNE
                      SIQGNLVRIRPVASVCHTLEYDAVACANLSSLVVDSGWRASNPSTLQDWVWESGNTAEE
@@ -90,11 +93,12 @@ FEATURES             Location/Qualifiers
                      SNLGGRVSKNIAIDIPLHPAWREAAQLVTLVRAVEPSTKGKLSTLENLTSRDTPILYSI
                      DPSAKISYRNLGDPQEQEFQAKYWGADNYARLAAIKAKWDPNELFITRSGVGSENWDVE
                      GICRKSQDFIAQAFALLKVGLSSH"
+                     /Pfam="FAD_binding_4, BBE"
      CDS             join(9551..9816,9882..10647)
                      /codon_start=1
                      /gene="easF"
                      /product="methyltransferase EasF"
-                     /label=easF
+                     /label="easF"
                      /note="N-methyltransferase"
                      /protein_id="AFO67565.1"
                      /translation="MTAPLVIDIRSHLVEDSLPDQVMNGLKSHPKTLPAILFYSDEGLE
@@ -104,11 +108,12 @@ FEATURES             Location/Qualifiers
                      VVPFALQSLTYAKTLFCDKTNNDINEKLFCCLNPDDWHYHSEWNFVLGRHEASLIPRLN
                      DIYLGPLLQNIVVKKEEKVRFGCSYKYDELERDKLFLDAGVKHEMAWANEGCDIAIYEL
                      KSM"
+                     /Pfam="Methyltransf_33"
      CDS             complement(join(10667..10924,10980..11179,11251..11662))
                      /codon_start=1
                      /gene="easG"
                      /product="short-chain dehydrogenase/reductase EasG"
-                     /label=easG
+                     /label="easG"
                      /note="oxidoreductase"
                      /protein_id="AFO67566.1"
                      /translation="MTILLTGGNGKTARHIASLLEEANLPFVIGSRSSRPQNIGRHRSF
@@ -117,11 +122,12 @@ FEATURES             Location/Qualifiers
                      GKIPFISVVDIARVALRALTANVPDQMDHVLLGPELLTYDDVAETLTRILDRKITHARL
                      TESELVQKMQKSGMSAEDAQMHASMDLIVQSGAEDRLNTVVRELTGSEPRNFSDFALNE
                      AKLWVSRN"
+                     /Pfam="NAD_binding_10, NmrA"
      CDS             join(12344..13512,13571..13692,13755..13813)
                      /codon_start=1
                      /gene="dmaW"
                      /product="DMATS-type prenyltransferase DmaW"
-                     /label=dmaW
+                     /label="dmaW"
                      /note="aromatic prenyltransferase"
                      /protein_id="AFO67567.1"
                      /translation="MSTANGSGRSVYDTLSLIFDFINDEQRLWWHSTAPMFAAMLETAG
@@ -132,12 +138,13 @@ FEATURES             Location/Qualifiers
                      WTLGGRRTDPSTMNGLDMVRELWNLLEIPAGLKVYPKPYLQLGKVPDEQLPSMANYTLH
                      HNDPMPEPQVYFTVFGMNDLKITNALTVFFERRGWDEMARKYRVFLQESYPNDDLTSLN
                      YLHTYISFSYRSNKPYLSVYLHTFESGHWPIFPNNPTAFDAYRRCDLSFK"
+                     /Pfam="Trp_DMAT"
      CDS             join(14568..14614,14669..14688,14747..14845,14897..14966,
                      15017..15999,16053..16217,16281..16456)
                      /codon_start=1
                      /gene="easO"
                      /product="FAD-dependent monooxygenase EasO"
-                     /label=easO
+                     /label="easO"
                      /protein_id="AFO67568.1"
                      /translation="MNVSQQKLRCVIIGAGVSGILMAYKLQKHLREFIDFQVLEKNPEL
                      GGTWYENRYPGCECDVPSHCYQYSFAPNPSWSKIYSPAEEIHAYLKGVASHFNLERYIR
@@ -149,6 +156,7 @@ FEATURES             Location/Qualifiers
                      IANGAFMGPLEGTSDYFIRLLQRAIRFGALSFDVKAEAQADFDSRIHKFMENMAWTGSC
                      RSWYKSGRDGKITALWPGSSLHYMQVLAEDRWEDYNWVYKRPRYDYWCNGLSWIEDPET
                      AG"
+                     /Pfam="Pyr_redox_3, NAD_binding_8"
 ORIGIN
         1 tcaactccac cgatcacgaa gtatcagtac ctcaacgtcg tcgaggttca cagcaacaaa
        61 tcgatcgacc cagcggaggt gatccccaca gtttcctgtc aaggtcattt cgaaacggga

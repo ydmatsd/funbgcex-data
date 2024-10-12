@@ -1,23 +1,23 @@
-LOCUS       FBGC00066       20486 bp DNA     linear   UNA 03-FEB-2023
+LOCUS       FBGC00066              20486 bp    DNA     linear   UNA 03-FEB-2023
 DEFINITION  depudecin.
 ACCESSION   FBGC00066
-VERSION     .
+VERSION     FBGC00066
 KEYWORDS    .
 SOURCE      Alternaria brassicicola MUCL 202097
   ORGANISM  Alternaria brassicicola MUCL 202097
+            .
 REFERENCE   1  (bases 1 to 20486)
   AUTHORS   Wight WD, Kim KH, Lawrence CB, Walton JD.
-  TITLE     Biosynthesis and role in virulence of the histone deacetylase 
+  TITLE     Biosynthesis and role in virulence of the histone deacetylase
             inhibitor depudecin from Alternaria brassicicola.
   JOURNAL   Mol Plant Microbe Interact 2009;22:1258-67
-  PUBMED    19737099
+   PUBMED   19737099
 REFERENCE   2  (bases 1 to 20486)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Feb 3, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1094/MPMI-22-10-1258"; journalName: "Mol Plant Microbe 
+  JOURNAL   Exported Feb 3, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1094/MPMI-22-10-1258"; journalName: "Mol Plant Microbe
             Interact"; date: "2009"; volume: "22"; pages: "1258-67"
 FEATURES             Location/Qualifiers
      source          1..20486
@@ -29,7 +29,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="DEP1"
                      /product="epoxide hydrolase DEP1"
-                     /label=DEP1
+                     /label="DEP1"
                      /note="Dep1"
                      /protein_id="ACZ57550.1"
                      /translation="MPQTSTTQFFYLSALGIWGLWVYAFFNGMFDRLDTITRTLHFPDG
@@ -39,11 +39,12 @@ FEATURES             Location/Qualifiers
                      RKDSKKCIVASLVLAGTVAAAVHSYTVVGALITRDGQASLTRLFVPAHGFSDPIEVPLQ
                      PSGLPAEYMALVENLHLFSQWDWIVVALTSVLYSHLLLSLRDGAVRAKANHWVSPVEAQ
                      ELVYLTVATIILGPGGAASFALAIRESRI"
+                     /Pfam="CtvD"
      CDS             join(1574..1872,1934..2205,2269..2642,2714..3355)
                      /codon_start=1
                      /gene="DEP2"
                      /product="FAD-dependent monooxygenase DEP2"
-                     /label=DEP2
+                     /label="DEP2"
                      /note="Dep2"
                      /protein_id="ACZ57545.1"
                      /translation="MEDGRSTFKVIIIGAGVTGLTLAHCLAKACIDYVLLDKGIVAPSF
@@ -56,12 +57,13 @@ FEATURES             Location/Qualifiers
                      TPIVGLDTLAKNIAGLCVTAPKLSYIDFEEKRGMLNWQDTVAADKELEMHHENVGGVRA
                      EYHKSKWLLTSADWSGGFEAVFPQILGVLMVMWSSVWLFHLAFSRHCISGFGGEVWRTF
                      GADNETSCVAK"
-     CDS             complement(join(3931..3981,4045..4313,4389..4544,4606..4765,
-                     4813..5235,5299..5340,5399..5827,5927..6091))
+                     /Pfam="FAD_binding_3"
+     CDS             complement(join(3931..3981,4045..4313,4389..4544,
+                     4606..4765,4813..5235,5299..5340,5399..5827,5927..6091))
                      /codon_start=1
                      /gene="DEP3"
                      /product="major facilitator superfamily transporter DEP3"
-                     /label=DEP3
+                     /label="DEP3"
                      /note="Dep3"
                      /protein_id="ACZ57546.1"
                      /translation="MVYSSTSSSQNRPDGEKHVEAVGSSTRIPSDELVDRGGGDTTTGK
@@ -74,12 +76,13 @@ FEATURES             Location/Qualifiers
                      LIGTALMYTVDDSTSNANIYGYNILIGAGTGSYIVAGFAIVQSLVPVHEIANAVGAMTI
                      FQDLGMVLFLAISGSLFHNVAVDKVGKALPDVSHTEIANLIAGSSSKAFQALSDTEKAL
                      VIPEIASAMTTIWAFFLAAAALSVVCSFPLLKAKIGGMEKRTAITAA"
+                     /Pfam="MFS_1"
      CDS             complement(join(6618..6824,6911..7553,7634..8495,
                      8548..8581))
                      /codon_start=1
                      /gene="DEP4"
                      /product="FAD-dependent monooxygenase DEP4"
-                     /label=DEP4
+                     /label="DEP4"
                      /note="Dep4"
                      /protein_id="ACZ57547.1"
                      /translation="MESFDIVVVGAGWYGLMAARTYLELAPETNLLIVDDSSTVGGVWS
@@ -93,12 +96,13 @@ FEATURES             Location/Qualifiers
                      AELQALWGVSWMLGWRELPPQEEMELEAATFNAWTRKRYLEQGKKHSYFIYDYIPYIDT
                      LMRDLGLNPYRKSSVFEEWFVRYKPSDYGTILDEYRDIRRLSLECLQGTGGFAERTNGH
                      GVNMK"
+                     /Pfam="FMO-like"
      CDS             join(9858..10023,10083..10322,10395..11382,11430..16272,
                      16368..17261)
                      /codon_start=1
                      /gene="DEP5"
                      /product="polyketide synthase DEP5"
-                     /label=DEP5
+                     /label="DEP5"
                      /note="Dep5"
                      /protein_id="ACZ57548.1"
                      /translation="MPIFYESSSDASDAAPEFDLRNACQRIVTDDEYVVSSSTEPPLSQ
@@ -142,12 +146,13 @@ FEATURES             Location/Qualifiers
                      KARQEAEGDVDAFWSADPRFSSLVHSMNVYGGGNQGGDGEAGSILTRLRAAGTESPAKA
                      VDLVRDHFIAKLARILLVDEAEFGGDDNAERSIASYGVDSMIGAELRNWIFKDLGLDIA
                      FQQLLSPSLTISKFSELVCGAQGIVVEQKV"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_DH, fPKS_ER, fPKS_KR, ACP_PCP"
      CDS             complement(join(18182..18907,18965..20078,20177..20218,
                      20428..20486))
                      /codon_start=1
                      /gene="DEP6"
                      /product="transcription factor DEP6"
-                     /label=DEP6
+                     /label="DEP6"
                      /note="Dep6"
                      /protein_id="ACZ57549.1"
                      /translation="MRSSSAGTPFTAQYACEICRERKVRCDRALPKCRRCDRLNQPCSY
@@ -162,6 +167,7 @@ FEATURES             Location/Qualifiers
                      SAITKNEEQGLPPLMVAESQRRATTAAFQICSAVGLNLPSPWKADSDIIMLQAIFIAWP
                      LTMALKALYRELVRGGIRETVNGVVASIRLLFAALDHIEESDGHWHQCVTNVEAKLQEW
                      DEKNSFDSLAL"
+                     /Pfam="EqxR, Fungal_trans"
 ORIGIN
         1 ttatattcga gactcacgga tggctaatgc gaatgacgcc gcacctcctg ggcccaaaat
        61 gatggtggct acagtgagat aaaccagctc ttgggcttcg acaggtgaga cccagtgatt

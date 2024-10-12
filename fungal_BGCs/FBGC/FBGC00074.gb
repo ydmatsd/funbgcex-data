@@ -1,23 +1,23 @@
-LOCUS       FBGC00074       25486 bp DNA     linear   UNA 18-JAN-2023
+LOCUS       FBGC00074              25486 bp    DNA     linear   UNA 18-JAN-2023
 DEFINITION  mycophenolic acid.
 ACCESSION   FBGC00074
-VERSION     .
+VERSION     FBGC00074
 KEYWORDS    .
 SOURCE      Penicillium brevicompactum IBT 23078
   ORGANISM  Penicillium brevicompactum IBT 23078
+            .
 REFERENCE   1  (bases 1 to 25486)
-  AUTHORS   Regueira TB, Kildegaard KR, Hansen BG, Mortensen UH, Hertweck C, 
+  AUTHORS   Regueira TB, Kildegaard KR, Hansen BG, Mortensen UH, Hertweck C,
             Nielsen J.
-  TITLE     Molecular basis for mycophenolic acid biosynthesis in Penicillium 
+  TITLE     Molecular basis for mycophenolic acid biosynthesis in Penicillium
             brevicompactum.
   JOURNAL   Appl Environ Microbiol 2011;77:3035-43
-  PUBMED    21398490
+   PUBMED   21398490
 REFERENCE   2  (bases 1 to 25486)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Jan 18, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
+  JOURNAL   Exported Jan 18, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
             "10.1128/AEM.03015-10"; journalName: "Appl Environ Microbiol"; date:
             "2011"; volume: "77"; pages: "3035-43"
 FEATURES             Location/Qualifiers
@@ -31,7 +31,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="mpaA"
                      /product="UbiA-like prenyltransferase MpaA"
-                     /label=mpaA
+                     /label="mpaA"
                      /note="MpaA"
                      /protein_id="ADY00128.1"
                      /translation="MTNAVEDSGPRDLLFLLISTSRFNRYMPYYTMMAAESLSIEFILY
@@ -40,11 +40,12 @@ FEATURES             Location/Qualifiers
                      ASITGSEEPLGDIIKHCIPICLLVFFWCVYFNTAYSHQDSVDDRKMNINSAYVIAGQRI
                      RLFLAFLSVLPLLTIPYIISTINSPWLWVSWMATWTVSIIMQIAQFDSQKLESGGRIHW
                      DNFLLGLWTIAACMVEVGLQKVEFWKNVEGYIKL"
+                     /Pfam="UbiA_PT"
      CDS             join(2644..2928,3027..3521,3669..3955,4009..4120)
                      /codon_start=1
                      /gene="mpaB"
                      /product="ER-bound oxygenase MpaB"
-                     /label=mpaB
+                     /label="mpaB"
                      /protein_id="ADY00129.1"
                      /translation="MSLPLPPALSELARALPYSRTQWLPIFVGFLIGYPILIRALRYKR
                      HGEMKKKFYFPTRESMAEMTDEEAFLIQKEMAQLEFPFMFLTSGQFALFRTYGIPTISH
@@ -53,6 +54,7 @@ FEATURES             Location/Qualifiers
                      FKDGIQWLEEVDVWSQDYEAKYMVPDPKNRESADQATAMLISNRYEAPTPGWSMVFSTL
                      LAIRKLILRYLSPPRPAALAVSNIAQKPDKDDRYHRMSWDALPFYIRPTFWNRWGPMAW
                      ISWLMGHPVPGDLGQKKGPQGDPGNDEGIKDLKDGEMSLPLVWSKYHATTND"
+                     /Pfam="MPAB_Lcp_cat"
      CDS             complement(join(4536..5461,5536..9972,10038..10413,
                      10472..11504,11706..12280))
                      /codon_start=1
@@ -60,7 +62,7 @@ FEATURES             Location/Qualifiers
                      /product="polyketide synthase MpaC"
                      /function="catalyzing the synthesis of 5-methyl orsellinic
                      acid, first step of mycophenolic acid biosynthesis"
-                     /label=mpaC
+                     /label="mpaC"
                      /note="MpaC"
                      /protein_id="ADY00130.1"
                      /translation="MNFHKGQPKEDLRVLFGPQCPDITDSITHIRDAISKDPTGLGFLT
@@ -105,12 +107,14 @@ FEATURES             Location/Qualifiers
                      GLQSMPIAGYNPALKERPLGGWMSTRDPRSRIALHMNWTGQTLPVLLKACTIKGNTEKC
                      SPDDLSRPTEEEIQAVSPNYQIRVGRYNTPTFLIHGTSDDLVPCAQTESTHGALTASGV
                      EAELRVVQEAAHLFDLYPASHAGQEAKAAVAEGYEFLRRHVQL"
+                     /Pfam="SAT2, PKS_KS, PKS_AT, fPKS_PT, ACP_PCP, HTH_51,
+                     PKS_NRPS_MT, BD-FAE, Peptidase_S9"
      CDS             join(15616..15903,15977..16345,16404..16618,16682..17132,
                      17187..17276,17327..17517,17568..18525)
                      /codon_start=1
                      /gene="mpaD"
                      /product="cytochrome P450 monooxygenase/hydrolase MpaDE"
-                     /label=mpaDE
+                     /label="mpaDE"
                      /note="MpaD"
                      /protein_id="ADY00131.1"
                      /translation="MKSLSLTWITAVAVVLYLVQRYVRSYWRLKDIPGPVLAKLTDLQR
@@ -128,12 +132,13 @@ FEATURES             Location/Qualifiers
                      KIGSFDAVDYFGDGSFYLLDAAGHSVGHIGALARVTTSPVSFVFMGGDSCHHAGVLRPT
                      KYLPCPLDSGDTSLPCKSDSVFTLSPALPTDYTAALRTVENIKELDACEDVFVVLAHDA
                      TLKGKVDFYPSKINDWKAKEYGKKTKWLFYKDIENSIEGQK"
+                     /Pfam="p450, Lactamase_B"
      CDS             complement(join(18958..20084,20148..20456,20510..20657))
                      /codon_start=1
                      /gene="mpaF"
                      /product="inosine-5'-monophosphate dehydrogenase MpaF"
                      /function="confers resistance against mycophenolic acid"
-                     /label=mpaF
+                     /label="mpaF"
                      /note="MpaF; IMPDH"
                      /protein_id="ADY00133.1"
                      /translation="MVEILDYTKALEVLKEYPSGDGLHVDTLLDSDNHGALTYNDFLIL
@@ -146,11 +151,12 @@ FEATURES             Location/Qualifiers
                      PGEYYVSNEGQLVKAFRGMGSIAVMEDKGKSGGGKNAGASRYFSENDKVKVAQGVAGSV
                      VDRGSITQYVPYLVAGIQHSLQDIGVQDLEALHTGVNNGQVRFEMRSASAQTEGNVHGL
                      HSHEKKLYSS"
+                     /Pfam="IMPDH"
      CDS             complement(join(21275..22303,22356..22523))
                      /codon_start=1
                      /gene="mpaG"
                      /product="methyltransferase MpaG"
-                     /label=mpaG
+                     /label="mpaG"
                      /note="MpaG"
                      /protein_id="ADY00134.1"
                      /translation="MSAASPASIIQELASAAKQYENNESGAREALIAQSRALIASLEVP
@@ -160,12 +166,13 @@ FEATURES             Location/Qualifiers
                      LNGFDASVSDVLLVDVGGGRGHDIATFGSQFSPLPGRLVLQDREQVINSIPADESRQFE
                      ATTHDIFTTQPVKNARAYYMHSVPHGFGDEDAVKIMANLVPALAKGYSRVLLNEIVVDE
                      ESPVMSATNMDLIMLAHMGAKERTEADWRSILTRAGLKVVNIYSYPGVAESLIEAELA"
+                     /Pfam="Methyltransf_2"
      CDS             complement(join(24006..24873,24945..25053,25107..25239,
                      25295..25486))
                      /codon_start=1
                      /gene="mpaH"
                      /product="acyl-CoA hydrolase MpaH"
-                     /label=mpaH
+                     /label="mpaH"
                      /note="MpaH"
                      /protein_id="ADY00135.1"
                      /translation="MSTEKFTITEHLVPGSHIREYPGSTVNQQDVLKIHVKNYTPKREG
@@ -176,6 +183,7 @@ FEATURES             Location/Qualifiers
                      VPRDTHADMDPLVAYIPLYRPEPRSTFRRLETLRPSCLWVIAGATFLNIDEIREGVKIC
                      GSGIGGSGGVPDGRVREVVLPGFGHLMPFQEVKTVAGTCVVWLQQEMDRFRQTERQWKE
                      DRDGKSHQAVEENWYKVLKPIPTGRKKRSDKGKL"
+                     /Pfam="Abhydrolase_6"
 ORIGIN
         1 tcaaagctta atgtaaccct caacattctt ccagaattcc accttctgca atccgacttc
        61 aaccatgcaa gcagcgatcg tccacaatcc cagcaggaag ttgtcccaat ggatacgacc

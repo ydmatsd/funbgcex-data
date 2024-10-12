@@ -1,36 +1,36 @@
-LOCUS       FBGC00055       27224 bp DNA     linear   UNA 16-JAN-2023
+LOCUS       FBGC00055              27224 bp    DNA     linear   UNA 16-JAN-2023
 DEFINITION  fusaridione A.
 ACCESSION   FBGC00055
-VERSION     .
+VERSION     FBGC00055
 KEYWORDS    .
 SOURCE      Fusarium heterosporum ATCC 74349
   ORGANISM  Fusarium heterosporum ATCC 74349
+            .
 REFERENCE   1  (bases 1 to 27224)
   AUTHORS   Sims JW, Fillmore JP, Warner DD, Schmidt EW.
   TITLE     Equisetin biosynthesis in Fusarium heterosporum.
   JOURNAL   Chem Commun 2005
-  PUBMED    15724180
+   PUBMED   15724180
 REFERENCE   2  (bases 1 to 27224)
   AUTHORS   Kakule TB, Sardar D, Lin Z, Schmidt EW.
-  TITLE     Two related pyrrolidinedione synthetase loci in Fusarium 
+  TITLE     Two related pyrrolidinedione synthetase loci in Fusarium
             heterosporum ATCC 74349 produce divergent metabolites.
   JOURNAL   ACS Chem Biol 2013;8:1549-57
-  PUBMED    23614392
+   PUBMED   23614392
 REFERENCE   3  (bases 1 to 27224)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Jan 16, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: "10.1039/b413523g"; 
-            journalName: "Chem Commun"; date: "2005"; pages: "186-8"
-COMMENT     SGRef: number: 2; type: "Journal Article"; doi: "10.1021/cb400159f";
-            journalName: "ACS Chem Biol"; date: "2013"; volume: "8"; pages: 
-            "1549-57"
+  JOURNAL   Exported Jan 16, 2023 from SnapGene 6.2.1 https://www.snapgene.com
 COMMENT     ##Assembly-Data-START##
             Assembly Method       :: Velvet v. 1.2.08
             Coverage              :: 235
             Sequencing Technology :: Illumina
             ##Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi: "10.1039/b413523g";
+            journalName: "Chem Commun"; date: "2005"; pages: "186-8"
+            SGRef: number: 2; type: "Journal Article"; doi: "10.1021/cb400159f";
+            journalName: "ACS Chem Biol"; date: "2013"; volume: "8"; pages:
+            "1549-57"
             On Jun 27, 2013 this sequence version replaced AY700570.2.
 FEATURES             Location/Qualifiers
      source          1..27224
@@ -43,7 +43,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="fsdK"
                      /product="DMATS-type prenyltransferase FsdK"
-                     /label=fsdK
+                     /label="fsdK"
                      /protein_id="AAV66102.1"
                      /translation="MSLNSASTREHPSEAWKSLAQYLPSRSTDLDYWWQRIGPSAALVL
                      EKAGYSIKSQYDALLFLYHWVVPELGPSLLSTDHKWKSLLQGDGSAFELSWKWNTNDSP
@@ -53,11 +53,12 @@ FEATURES             Location/Qualifiers
                      TLGGRITTKHLPHLEQQLDDLIELIKAVTGIASEYPQDVELPFAPRFDPSKGAGNFVPL
                      PIPIAGYQVHFNIAPGSEVPGVKLYIPMRRYARDDASVAKGITSFMESRGRNTYIKEYT
                      EMLAGLLPDGKELSSVHCLQTYVSCLFKKNGELEITTYLGMAPYGDNHKPMSI"
+                     /Pfam="Trp_DMAT"
      CDS             complement(join(1736..1872,1929..2471,2524..2698))
                      /codon_start=1
                      /gene="fsdD"
                      /product="methyltransferase FsdD"
-                     /label=fsdD
+                     /label="fsdD"
                      /protein_id="AAV66107.2"
                      /translation="MGSAGDDYEYVFPDISVENERLAGQHAGIKVGMGGRLCMAPLDLT
                      RPNLRIFDGGTSDGYWLDDLKKELAHPETCDLIGGDVTGERFPTNPPPGVKLEVQSSTG
@@ -65,11 +66,12 @@ FEATURES             Location/Qualifiers
                      VKTLGALVARLAEGMGADLKYRGGGMEKWVRDKGFIRVGSILAPVCMGAECPVPNMRDQ
                      TTKAFSFTAEQLIKACKRFPGGLKVMTDEEAEGLVGRLEDELRTRGGYFPVRVVWGKRP
                      VDQ"
+                     /Pfam="GliN"
      CDS             join(3558..4716,4768..4988,5041..5243,5629..5740)
                      /codon_start=1
                      /gene="fsdH"
                      /product="cytochrome P450 monooxygenase FsdH"
-                     /label=fsdH
+                     /label="fsdH"
                      /protein_id="AGO65988.1"
                      /translation="MALTVFEHASALWYRLQGSVSLAVLSTLAVVIAGWYILSSISLYF
                      SRRQFIALHGCKPIANRYPSKWFGINFILEAGRTYKERRYLDALTWNFRNIGYTHEVRA
@@ -81,11 +83,12 @@ FEATURES             Location/Qualifiers
                      IAIRDTVLPRGGGPEGRDPIIVPKDAPVIYTVYALHRRYDLFGDDADDFRPERWENQRY
                      TWEFLPFNGGPRICLGQQYALVETLYVLVRFAQHFSKIESMDPEPWTESLALTVSSGNG
                      VKVKLERGSSDVHGLSTQGVLIDYGGLFAPTQKVPGTGVTQISKGKA"
+                     /Pfam="p450"
      CDS             join(6123..6352,6405..6786,6839..7756)
                      /codon_start=1
                      /gene="fsdG"
                      /product="major facilitator superfamily transporter FsdG"
-                     /label=fsdG
+                     /label="fsdG"
                      /protein_id="AGO65989.1"
                      /translation="MKGNEFRNQTQTTIKNELAEWSDNSNNSQVDYASNAPSGDHVLVD
                      WDGPNDPKNPKNWPHSAFLIHTILVSMLCLAGNLATTMYAPGAAQLAVEFKTRDTTTIA
@@ -96,12 +99,13 @@ FEATURES             Location/Qualifiers
                      GLSYIGIGFGMVGALFLFNFINMKMSNRTDKHGQLIPESYLPLMTWFSPLLPIGFFWYG
                      WSADKQTHWVVPILGTFFVGFGSFAIIMPTTAYLVYAQGPQGAASVLAASNMMRYVFAA
                      FLPLAGQNMYDQLGLGWGNSLLGFLCVVLAPVPAIFQRYGHYLRERFPTEF"
+                     /Pfam="MFS_1"
      CDS             join(8872..17246,17302..20944)
                      /codon_start=1
                      /gene="fsdS"
-                     /product="polyketide synthase-nonribosomal peptide 
+                     /product="polyketide synthase-nonribosomal peptide
                      synthetase FsdS"
-                     /label=fsdS
+                     /label="fsdS"
                      /protein_id="AAV66110.2"
                      /translation="MSAPPTKQTEPIAVVGSAGRFPGGCNTPSKLWDLLRSPRDLLREI
                      PKERFNIDAFYHPDPLHHGTTNTRYSYFLDEDPAQFDAQFFSITPAEAEAIDPQQRLLL
@@ -172,11 +176,13 @@ FEATURES             Location/Qualifiers
                      AEPESDHMVNELVDITKRLQVRPTMEGLQGWADILDTQSVVNDILDSILSEQGVELQEV
                      LHTAVRRINWQRFIAELHSNPELSCLPSKDTLLWIGQAKRSGYSYLMPAHRLVVVNDDD
                      DEMVSRR"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_DH, PKS_NRPS_MT, fPKS_KR,
+                     ACP_PCP, Condensation, AA-adenyl-dom, fPKS_R"
      CDS             24276..26021
                      /codon_start=1
                      /gene="gFH438"
                      /product="hypothetical protein gFH438"
-                     /label=gFH438
+                     /label="gFH438"
                      /protein_id="AGO65990.1"
                      /translation="MLRYGTILAFCAKASLGTAAAMAFQQRAWLVLRHKMARLETIDSI
                      FTANTDIFSLLTWSSIRKAKIGSLIAVYCWITPLVVVLTSETLSVVPETKTENTTCQNV
@@ -193,7 +199,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="fsdC"
                      /product="enoylreductase-like protein FsdC"
-                     /label=fsdC
+                     /label="fsdC"
                      /protein_id="AGO65991.1"
                      /translation="MDRPNKAIYLYQTSKGNHEIRTIQEPYVPKDAQSLVDVQYSGINP
                      ADTRHVYMDMSNYVAGYEFAGTVKQVGPKSPFKIGQEIFGISIPYNNRPNYLGAHQSFL
@@ -202,6 +208,7 @@ FEATURES             Location/Qualifiers
                      SKGWSLKTVFDAVSTGLGVFDGLTEEQEKAVQQKYNQSSSAMARQCCDPNIPDSELRLT
                      SVLPVKMDPNYVFCLNFRPVEILDIGGEVTKDTKEEEMTKWKEWQPRIEKCIEWLIENH
                      EKHWQPPRTRVVKGVEEGLQGIRDVWQGKMSREKLVIDHRV"
+                     /Pfam="fPKS_ER"
 ORIGIN
         1 ctaaatcgac attggcttat gattgtcacc gtacggagcc atccccagat atgtcgtaat
        61 ctccaattct ccattcttct tgaacaggca gctcacgtaa gtctgcaggc aatgcacgct

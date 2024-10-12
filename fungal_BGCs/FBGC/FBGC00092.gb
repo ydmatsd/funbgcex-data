@@ -1,28 +1,28 @@
-LOCUS       FBGC00092       49678 bp DNA     linear   UNA 12-FEB-2023
+LOCUS       FBGC00092              49678 bp    DNA     linear   UNA 12-FEB-2023
 DEFINITION  mulundocandin.
 ACCESSION   FBGC00092
-VERSION     .
+VERSION     FBGC00092
 KEYWORDS    .
 SOURCE      Aspergillus mulundensis Y-30462
   ORGANISM  Aspergillus mulundensis Y-30462
+            .
 REFERENCE   1  (bases 1 to 49678)
   AUTHORS   Yue Q, Chen L, Zhang X, Li K, Sun J, Liu X, An Z, Bills GF.
-  TITLE     Evolution of Chemical Diversity in Echinocandin Lipopeptide 
+  TITLE     Evolution of Chemical Diversity in Echinocandin Lipopeptide
             Antifungal Metabolites.
   JOURNAL   Eukaryot Cell 2015;14:698-718
-  PUBMED    26024901
+   PUBMED   26024901
 REFERENCE   2  (bases 1 to 49678)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Feb 12, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1128/EC.00076-15"; journalName: "Eukaryot Cell"; date: "2015"; 
-            volume: "14"; pages: "698-718"
+  JOURNAL   Exported Feb 12, 2023 from SnapGene 6.2.1 https://www.snapgene.com
 COMMENT     ##Assembly-Data-START##
             Assembly Method       :: velvet v. 1.2.10
             Sequencing Technology :: Illumina
             ##Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1128/EC.00076-15"; journalName: "Eukaryot Cell"; date: "2015";
+            volume: "14"; pages: "698-718"
 FEATURES             Location/Qualifiers
      source          1..49678
                      /strain="Y-30462"
@@ -38,7 +38,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="htyD"
                      /product="aconitase AMHtyD"
-                     /label=AMhtyD
+                     /label="AMhtyD"
                      /note="AMhtyD"
                      /protein_id="AKJ70936.1"
                      /translation="MSEASISLCFLGSLSDEVVDFVRGVVRILADARGIVVEERSGESS
@@ -57,16 +57,16 @@ FEATURES             Location/Qualifiers
                      CVIAKSFSFIYGRNQPTIGLLGIIITDERFYDLARTGAAIEIDTSARTVTVAGQRFEFV
                      MDDMELALIRRNGLAAAYKSFGKGVFRSLCXXXXXXXXXXXXXXXXXXXXXXXXXXXAK
                      GREEGLAW"
+                     /Pfam="Aconitase, Aconitase_C"
      gap             36..114
                      /estimated_length=79
-     CDS             complement(join(3160..3395,3466..4102,4160..4255,4314..4385,
-                     4439..4459,4521..4574))
+     CDS             complement(join(3160..3395,3466..4102,4160..4255,
+                     4314..4385,4439..4459,4521..4574))
                      /codon_start=1
                      /gene="htyC"
                      /product="isopropyl malate dehydrogenase AMHtyC"
-                     /label=AMhtyC
-                     /note="AMhtyC
-                     revised sequence"
+                     /label="AMhtyC"
+                     /note="AMhtyC revised sequence"
                      /protein_id="AKJ70937.1"
                      /translation="MAKTFDIVVFPGDYGGPEVMAEGLKVLEEIQRQYKHEVTFNLKHH
                      LLGGASFDAHGTPITDEALTDAKAASAVLLGAVGGPAWANAPIPVESGLGRLRKALDAF
@@ -75,13 +75,13 @@ FEATURES             Location/Qualifiers
                      SHMLIDSAAMTLGVRPTRLNGIVLTSNMFGDIISDQASAIPGSLGLLPSASLCAIPRGE
                      AGCVRGIYEPVHGSAPDISGQGIINPTGMILSVAMMLRYSLDMPAAAAAVETAVSKVIE
                      RGGRTRDVGGMTSTAEFGDRVVAYLREHEDR"
+                     /Pfam="Iso_dh"
      CDS             join(4711..4753,4809..4841,4920..5734,5786..6040)
                      /codon_start=1
                      /gene="htyB"
                      /product="transaminase AMHtyB"
-                     /label=AMhtyB
-                     /note="AMhtyB
-                     revised sequence"
+                     /label="AMhtyB"
+                     /note="AMhtyB revised sequence"
                      /protein_id="AKJ70938.1"
                      /translation="MGATEYPRPPVAGLDWNNLGFEPVEVNGHIESRFTPSTNTWSPPT
                      FVADPHIRIHGLTPALNYGQQIFEGLKAFRTRSGRITLFRPDQNAARFARSARAVSIPP
@@ -90,11 +90,12 @@ FEATURES             Location/Qualifiers
                      QEGYGLTLHLDSLSHSVVDEFSTSGFVGVRRGTGDGDGGQVTLVVSDSQQIVASVTIDS
                      VCEIARGLGWAVEKRPIAFTEVSEFVEVYAAGTAAMLVPVQSVERRSTGEVIHYSTDYA
                      DPTSVFAQLYKALSGVQQGLVPDQWGWTQEVLWPKQLDSQD"
+                     /Pfam="Aminotran_4"
      CDS             join(6264..6434,6495..7988,8036..8113)
                      /codon_start=1
                      /gene="htyA"
                      /product="isopropyl malate synthase AMHtyA"
-                     /label=AMhtyA
+                     /label="AMhtyA"
                      /note="AMhtyA"
                      /protein_id="AKJ70939.1"
                      /translation="MPTICAGGQTLQGKYGGRAPPEIQLPDRQWPSKKLTSSPIWLSTD
@@ -108,10 +109,11 @@ FEATURES             Location/Qualifiers
                      VLREQGYVAAAHYPGCALELEDITDQAARAAGILTRGLDFLLRCTRVVAHPLGVPDASL
                      TVVFVQCAVTETAEEAWGIGIGFSQDSAIDRALMSVINRYHQPTPIPNSSVESRPEPIE
                      VVKV"
+                     /Pfam="HMGL-like"
      CDS             complement(join(8200..8862,8922..9086,9136..9297))
                      /codon_start=1
                      /product="2OG-Fe(II)-dependent dioxygenase AMOXY2"
-                     /label=AMOXY2
+                     /label="AMOXY2"
                      /note="AMOXY2"
                      /protein_id="AKJ70940.1"
                      /translation="MAITTLDFNQFRSTSAEERLKFCADLCETLSVYGFAKVRNTTLSN
@@ -120,10 +122,11 @@ FEATURES             Location/Qualifiers
                      PATLLPAKHRHNTSELRLVHYPPIPCSALRTNMRIGEHSDFGTLTLLLQDSVGGLQVED
                      QRNRGSFIPVEPEDGYEVVINIGDCLQRWTNRRLCSANHRVMLPVGKDVETDEVLEERF
                      SVAYFGKPDREVLVDSLPECVGEDEEVRYADGLTALEYNQIKLTRTYG"
+                     /Pfam="DIOX_N, 2OG-FeII_Oxy"
      CDS             complement(join(10514..11227,11281..12126))
                      /codon_start=1
                      /product="cytochrome P450 monooxygenase AMP450-1"
-                     /label=AMP450-1
+                     /label="AMP450-1"
                      /note="AMP450-1"
                      /protein_id="AKJ70941.1"
                      /translation="MFAPESTPALLALSVVLAVVIASYVIQLNRSRTHRAFWASQPWAG
@@ -136,10 +139,11 @@ FEATURES             Location/Qualifiers
                      GIDFESTADPLHVPAGIRLCVPAHSIHRDPTSHPDPLTFNAFRFVIEPGDGRTGDAAEP
                      EPPAARKQPSLATTTDSFLVFGHGRPPARVPGAVLCGAFDETHVGVCCAALRCRTTDGA
                      GG"
+                     /Pfam="p450"
      CDS             12623..34291
                      /codon_start=1
                      /product="nonribosomal peptide synthetase AMNRPS4"
-                     /label=AMNRPS4
+                     /label="AMNRPS4"
                      /note="AMNRPS4"
                      /protein_id="AKJ70942.1"
                      /translation="MDNTTNEMDRKRIFTEICAEALKIETDDLDETRSWVALGGDSIAT
@@ -265,10 +269,11 @@ FEATURES             Location/Qualifiers
                      DVLARPLGSRGDRKGASSPKIESIDPEQEAEAEQETETETMTYLELKQMPEWEQVLQGR
                      RGVDSTGHTSPSFSQRGGDLLDALYLSSLMDGHISPMAILEGSRGEEVQAGKPGSVTSS
                      KGRGRYASLGMVWSRIRLGYKRVVSGSRPKRSKVSLHA"
+                     /Pfam="ACP_PCP, NRPS_C, AA-adenyl-dom, NRPS_CT"
      CDS             join(34635..34870,34920..35709)
                      /codon_start=1
                      /product="2OG-Fe(II)-dependent dioxygenase AMOXY1"
-                     /label=AMOXY1
+                     /label="AMOXY1"
                      /note="AMOXY1"
                      /protein_id="AKJ70943.1"
                      /translation="MASISYEGLLRGATKDLQTLTEAALVHGYFNLELDCPEGRQLRED
@@ -278,10 +283,11 @@ FEATURES             Location/Qualifiers
                      PANESLLVQFGDCLKFLSGGRVVPSIHRVIPSDRPEEREGTKYTLAYFVRPNEEAVIRD
                      DGGREWVYGDYHCRKFGAFARPLERDGEGGRDRMPERPVGEYDMINIRKVKGVVEGVGA
                      A"
+                     /Pfam="2OG-FeII_Oxy"
      CDS             join(35994..36573,36621..37549)
                      /codon_start=1
                      /product="cytochrome P450 monooxygenase AMP450-2"
-                     /label=AMP450-2
+                     /label="AMP450-2"
                      /note="AMP450-2"
                      /protein_id="AKJ70944.1"
                      /translation="MEFALSTTLLYGVLSSTLLLLLLNRLTTWEYIVPSKVSWIDRRPE
@@ -293,11 +299,12 @@ FEATURES             Location/Qualifiers
                      EACNYAPTKADLEKLVHIENALKESLRLAVVFPGLIRQVTSRTGVTLDDGTHLPHGARI
                      SVAAYAIHRDEANWPDAARYDPSRHEKASLPMSRGSEQLLSFGLGKRACPGRFFVTDEL
                      KLLFAHVLAKYEFKVIKPPVTKVGLLKELTMRGPQEQLVIRRVK"
+                     /Pfam="p450"
      CDS             complement(join(37613..37915,37963..38288,38346..39129,
                      39209..39484))
                      /codon_start=1
                      /product="CoA ligase AMLigase"
-                     /label=AMLigase
+                     /label="AMLigase"
                      /note="AMLigase"
                      /protein_id="AKJ70945.1"
                      /translation="MVFTSPAWCSQLQRAIPETQLVGDFVLEGNGTDIETGDKPLLVCA
@@ -310,12 +317,13 @@ FEATURES             Location/Qualifiers
                      AGELLLRSPSIMKGYLAEGATDLGAFDAHGWLVTGDIACFRKGADGEEHLFIVDRKKDI
                      MKVKGIQVAPAEIETRLLSHPAVDEAAVFGINDDEAGERPFAFVVRSKTVNVDLDEKAL
                      RQSIHGHIQETLSEPFWLRENIKFVEGIPKSHSGKALKFKLKELI"
+                     /Pfam="AA-adenyl-dom"
      gap             40748..40935
                      /estimated_length=188
      CDS             41072..43039
                      /codon_start=1
                      /product="hypothetical protein AMHYP"
-                     /label=AMHYP
+                     /label="AMHYP"
                      /note="AMHYP"
                      /protein_id="AKJ70946.1"
                      /translation="MHFAEPAQTPPQSQPSGQWMDQHLLDLEGWDQEYQDLMVINWLCV
@@ -330,12 +338,12 @@ FEATURES             Location/Qualifiers
                      KLTKLRNRLSCARNWYRFEQAFPGAILALIPCAGRFSVSIDQSVDVVLGYEISQLTFCR
                      IEKLPSETVQVFLRYLQEHRGPFMRCVSETLGTEIFSVLGRTSAGSDTTPTFAFEKVEE
                      DGFGDVLYDTDEFVSLCKQV"
+                     /Pfam="EcdJ"
      CDS             complement(join(43162..43827,43900..44073,44120..44281))
                      /codon_start=1
                      /product="2OG-Fe(II)-dependent dioxygenase AMOXY4"
-                     /label=AMOXY4
-                     /note="AMOXY4
-                     revised sequence"
+                     /label="AMOXY4"
+                     /note="AMOXY4 revised sequence"
                      /protein_id="AKJ70947.1"
                      /translation="MAVRTLDFTKFHSGSEAERRAFGQALLDGFRTTGFVKLINHGFSR
                      EEMADIFNWNQRFFDLPNDWKAAIRNDEGPKPQRGWSSVGAEKTGFLNPGGKLSLAKGA
@@ -343,13 +351,14 @@ FEATURES             Location/Qualifiers
                      MDVPQDTFVRLCHGHASELRLNHYPSIPVQTIEAGKTSRIWPHTDFGIITLLAQDDAGG
                      LEIQDREHPAQFLPVNRENPTEFVVNIGDILERWTNGRLCAGLHQVTTPRGVKDGGRGG
                      TLPARRSVAFFLKPHRGMSVAPISYFVPGDQAPRYEDMTALAYQKLRTGIVY"
+                     /Pfam="DIOX_N, 2OG-FeII_Oxy"
      CDS             join(44499..44726,44772..45294,45358..45584,45636..45915,
                      45966..46199,46258..47045,47105..47267,47321..47662,
                      47719..47842,47891..47965,48011..48742,48792..48875,
                      48945..49319,49393..49678)
                      /codon_start=1
                      /product="ABC transporter AMTRT"
-                     /label=AMTRT
+                     /label="AMTRT"
                      /note="AMTRT"
                      /protein_id="AKJ70948.1"
                      /translation="MADSPWPQCHIRVEDTFGPQVAGCYEDFDFTLLFEESILYLPPLL
@@ -378,6 +387,7 @@ FEATURES             Location/Qualifiers
                      LRDIILKKGGLDVAMDDEFLSHGQQQLLCLARAMLKKSRILILDEVTSSVDQETEALIT
                      RVLRDRFQDQTVISIAHRLNTIMDYDTVIVLDKGCIVEQGNPQVLALQPSMFASLLQSN
                      GEEAGDGDGRESESDSETESEGTKE"
+                     /Pfam="ABC_membrane, ABC_tran"
 ORIGIN
         1 tcaccaggca agcccctcct ccctcccctt cgccannnnn nnnnnnnnnn nnnnnnnnnn
        61 nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnacacag

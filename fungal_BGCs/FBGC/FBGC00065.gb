@@ -1,23 +1,23 @@
-LOCUS       FBGC00065       35999 bp DNA     linear   UNA 08-MAY-2023
+LOCUS       FBGC00065              35999 bp    DNA     linear   UNA 08-MAY-2023
 DEFINITION  hypothemycin.
 ACCESSION   FBGC00065
-VERSION     .
+VERSION     FBGC00065
 KEYWORDS    .
 SOURCE      Hypomyces subiculosus DSM11932
   ORGANISM  Hypomyces subiculosus DSM11932
+            .
 REFERENCE   1  (bases 1 to 35999)
   AUTHORS   Reeves CD, Hu Z, Reid R, Kealey JT.
-  TITLE     Genes for the biosynthesis of the fungal polyketides hypothemycin 
-            from Hypomyces subiculosus and radicicol from Pochonia 
+  TITLE     Genes for the biosynthesis of the fungal polyketides hypothemycin
+            from Hypomyces subiculosus and radicicol from Pochonia
             chlamydosporia.
   JOURNAL   Appl Environ Microbiol 2008;74:5121-9
-  PUBMED    18567690
+   PUBMED   18567690
 REFERENCE   2  (bases 1 to 35999)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported May 8, 2023 from SnapGene 6.2.2
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
+  JOURNAL   Exported May 8, 2023 from SnapGene 6.2.2 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
             "10.1128/AEM.00478-08"; journalName: "Appl Environ Microbiol"; date:
             "2008"; volume: "74"; pages: "5121-9"
 FEATURES             Location/Qualifiers
@@ -31,7 +31,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="Hpm1"
                      /product="cytochrome P450 monooxygenase Hpm1"
-                     /label=hpm1
+                     /label="hpm1"
                      /protein_id="ACD39760.1"
                      /translation="MAVLPQVDLGHLANRDTAFVIVGAFFAWVFVVNPIYLLYFHPLSK
                      FPGPKFWAVTRWGVSLAIISGKSHDIILDLHKKYGPILRIAPDELAFQSVSAWNDIGGH
@@ -42,22 +42,24 @@ FEATURES             Location/Qualifiers
                      FSSEDEITLTGTGHLKYLNAVITESLRMFPPFAGASPRQVPRGGATIAGEFIPAGTSVG
                      IWHWSMARCPDFFTHANEFHPERWLDDPRFDNDKKDASQPFAVGPRNCIGMNLTYVELR
                      LILARLFWNFDIKLDKSCDNWVDDMVEYFGWEKIPLMVSLTPRS"
+                     /Pfam="p450"
      CDS             join(2856..3076,3145..3285,3369..3645)
                      /codon_start=1
                      /gene="hpm2"
                      /product="glutathione S-transferase Hpm2"
-                     /label=hpm2
+                     /label="hpm2"
                      /protein_id="ACD39761.1"
                      /translation="MVIKLYGSAMSTARVLVTLLEKELPYEHILVDISKGDQNKEEYLK
                      LQPFGKVPVLDDNGFIMYESRAICRYLARKYDSGTKLIPDVDDHEAYGRFEQGCSIEYS
                      YFAAAAETLGTELVIKKYKGLGEPDMTRVAQAEADFDKVFFEYDKILAKQKYLTGDEIS
                      LVDLFHLPNASALKAFGYQGTFEKYPNVNRWFSGLQARETWIKATAEAR"
-     CDS             complement(join(4135..5306,5376..8004,8068..8226,8284..8328,
-                     8385..9947,10010..10295,10350..10645))
+                     /Pfam="GST_N, GST_C"
+     CDS             complement(join(4135..5306,5376..8004,8068..8226,
+                     8284..8328,8385..9947,10010..10295,10350..10645))
                      /codon_start=1
                      /gene="hpm3"
                      /product="polyketide synthase Hpm3"
-                     /label=hpm3
+                     /label="hpm3"
                      /protein_id="ACD39762.1"
                      /translation="MVTVPQTILYFGDQTDSWVDSLDQLYRQAATIPWLQTFLDDLVKV
                      FKEESRGMDRALQDSVGEYSTLLDLADRYRHGTDEIGMVRAVLLHAARGGMLLQWVKKE
@@ -94,11 +96,13 @@ FEATURES             Location/Qualifiers
                      SLLLIDMCSPRPLGVEDTIEVGWKVYETIASQDKLWNASSNTQQHLKAVFACVAAYHPP
                      PITPAQRPKRTAIIWAKKGMVDRCSRDEKVMKFLADKGIPTESYPGFMEDPKLGAVAWG
                      LPHKSAADLGPNGWDKFLGETLCLSIDSDHLDMPMPGHVHLLQAAMEESFKYFSEAN"
+                     /Pfam="SAT2, PKS_KS, PKS_AT, fPKS_PT, ACP_PCP,
+                     Thioesterase"
      CDS             11785..13389
                      /codon_start=1
                      /gene="hpm4"
                      /product="hypothetical protein Hpm4"
-                     /label=hpm4
+                     /label="hpm4"
                      /protein_id="ACD39763.1"
                      /translation="MSWESPVNYSVGGEDLDLDLGAFLGSLSDFDGQIEPAHSLEDEYS
                      GQSGQGADDDPDSDGPKVLTIMASIDAIHRHLENERKKGNGKANVAIKLKDPTMRKSIT
@@ -115,7 +119,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="hpm5"
                      /product="methyltransferase Hpm5"
-                     /label=hpm5
+                     /label="hpm5"
                      /protein_id="ACD39764.1"
                      /translation="MSASNGEIVQRIESLLASAKKLQGDDQYGRFGLLKEIDLLYQDVE
                      PPINTFFKQWTSLTFFSCIDIAIKLGLFEHMKGRESITAKELGALVNVDDDVIARVMRV
@@ -124,11 +128,12 @@ FEATURES             Location/Qualifiers
                      EPERPFVVDIGGGKGQALLRIQEETGKVFGTSSQLILQERPDVLEQINQDDIAGITKMP
                      YDFHTKQPVKDAHVYFFSQIIHNYPDHVCQDILKQAAGAMGPSSRLLIVEAVLPAQTDV
                      GGDMGAYLIDFVGLAMGGKERTEKEFATLLGTVGLELVKVWHGKARHHAIVEARLKRA"
+                     /Pfam="Methyltransf_2"
      CDS             join(17800..18301,18371..19563)
                      /codon_start=1
                      /gene="hpm6"
                      /product="major facilitator superfamily transporter Hpm6"
-                     /label=hpm6
+                     /label="hpm6"
                      /protein_id="ACD39765.1"
                      /translation="MEKHAEPEKSLGDKEFQEKELHEKPAPAASEDISGDSSVNKEDGP
                      DPINDNYLSGLRLAVVMFALCISNFLVALDTTILATAVPKISSDFNSLQDVGWYTSSYL
@@ -140,11 +145,12 @@ FEATURES             Location/Qualifiers
                      TSIGAGLLTTLTVDASTGKWVGYQIIAGIGGGLGYQQGISVAQTVLKGSDMTIGTAVMV
                      FVQLLGGTILVSAANNILVTRLVENLERLAPHINPEIILRAGASGIKTAVSEADYPFVI
                      EAYNIALTKTFQIALIVSCLGAIGAAGVEWKRGSKKGDSDEPAIMAV"
+                     /Pfam="MFS_1"
      CDS             join(21931..22276,22334..23097,23189..23887)
                      /codon_start=1
                      /gene="hpm7"
                      /product="FAD-dependent monooxygenase Hpm7"
-                     /label=hpm7
+                     /label="hpm7"
                      /protein_id="ACD39766.1"
                      /translation="MTRAILPDVSPDSIDPQFLEEKYDQERLKRINAAGYAKYSEVGDG
                      ELERFKVTHRLEDVASSREPVSVDTDVVIIGAGYAGILTAVRLVQNGILNFRIVEKGNG
@@ -157,12 +163,13 @@ FEATURES             Location/Qualifiers
                      KDGVTLTERWTPGPSTYHGLYVHGFPNFFCLQTAQAGTNPNFMYTATTGSTQIGHVIAE
                      CLKDGVREVQPTKQAEDDWVKMILEGGRGMMHLMRNCTPGYMNNDGNLDEKTARRMFYP
                      GGPTAWRKLLEAWREKGDFEGLQRTY"
+                     /Pfam="Pyr_redox_3"
      CDS             join(25549..25666,25761..26593,26654..26764,26821..27407,
                      27461..28528,28589..30889,30953..31288,31361..33056)
                      /codon_start=1
                      /gene="hpm8"
                      /product="polyketide synthase Hpm8"
-                     /label=hpm8
+                     /label="hpm8"
                      /protein_id="ACD39767.1"
                      /translation="MPSTSNPSHVPVAIIGLACRFPGEATSPSKFWDLLKNGRDAYSPN
                      TDRYNADAFYHPKASNRQNVLATKGGHFLKQDPYVFDAAFFNITAAEAISFDPKQRIAM
@@ -205,11 +212,12 @@ FEATURES             Location/Qualifiers
                      DPRFGPLAVTTVATDASADGQGSAVSLASRLSKVSTKDEAAEIITDALVNKTADILQMP
                      PSEVDPGRPLYRYGVDSLVALEVRNWITREMKANMALLEILAAVPIESFAVKIAEKSKL
                      VTV"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_DH, fPKS_ER, fPKS_KR, ACP_PCP"
      CDS             join(34034..34222,34302..35999)
                      /codon_start=1
                      /gene="hpm9"
                      /product="FAD-linked oxidoreductase Hpm9"
-                     /label=hpm9
+                     /label="hpm9"
                      /protein_id="ACD39768.1"
                      /translation="MFCIIRAQLLLLLHLLVLALLLVGTVCNAHPQHGHPSELEPLALK
                      RGGSPRDDGNTLAPRCRCIPGEACWPSTQIWDSFNRTIGGSLIKTAPLAESCYPGPKKN
@@ -222,6 +230,7 @@ FEATURES             Location/Qualifiers
                      VGTTSVLTSRLIDRPAVEDYNRVREAVEVIGGKPEDYATNVMMLVSNGQVFADAADKSS
                      GLNPAWRVSPYVVISSRGIPMVVDQASRKEVADDITYVKGAALQKLAPNTGGYMNEGDR
                      NDPNYIKNFFGTIYPTHLATKKKYDPWGLFYCPTCVGAELFEETSRGELCRR"
+                     /Pfam="FAD_binding_4"
 ORIGIN
         1 ttaggacctt ggagtcaagg acaccattag ggggattttc tcccagccaa agtattccac
        61 catgtcatcc acccaattat cgcagctctt gtcaagctta atatcaaagt tccagaagag

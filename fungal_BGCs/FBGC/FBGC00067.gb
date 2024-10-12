@@ -1,24 +1,24 @@
-LOCUS       FBGC00067       41505 bp DNA     linear   UNA 18-JAN-2023
+LOCUS       FBGC00067              41505 bp    DNA     linear   UNA 18-JAN-2023
 DEFINITION  apicidin.
 ACCESSION   FBGC00067
-VERSION     .
+VERSION     FBGC00067
 KEYWORDS    .
 SOURCE      Fusarium incarnatum KCTC 16676
   ORGANISM  Fusarium incarnatum KCTC 16676
+            .
 REFERENCE   1  (bases 1 to 41505)
-  AUTHORS   Jin JM, Lee S, Lee J, Baek SR, Kim JC, Yun SH, Park SY, Kang S, Lee 
+  AUTHORS   Jin JM, Lee S, Lee J, Baek SR, Kim JC, Yun SH, Park SY, Kang S, Lee
             YW.
-  TITLE     Functional characterization and manipulation of the apicidin 
+  TITLE     Functional characterization and manipulation of the apicidin
             biosynthetic pathway in Fusarium semitectum.
   JOURNAL   Mol Microbiol 2010;76:456-66
-  PUBMED    20233305
+   PUBMED   20233305
 REFERENCE   2  (bases 1 to 41505)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Jan 18, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1111/j.1365-2958.2010.07109.x"; journalName: "Mol Microbiol"; 
+  JOURNAL   Exported Jan 18, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1111/j.1365-2958.2010.07109.x"; journalName: "Mol Microbiol";
             date: "2010"; volume: "76"; pages: "456-66"
 FEATURES             Location/Qualifiers
      source          1..41505
@@ -29,7 +29,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="aps2"
                      /product="transcription factor APS2"
-                     /label=aps2
+                     /label="aps2"
                      /protein_id="ACZ66248.1"
                      /translation="MSPPAEDWSTITDANERRKAQNRVAQRNYRSRQKLRVEIAESILY
                      DLPPQIRSAVSSKGRRWLTTLQSESQELRELSAALNSQQTPGVREHDEQGNDITQSGAY
@@ -38,11 +38,12 @@ FEATURES             Location/Qualifiers
                      ESFYPVSPSLESKTPMMTAFYPGKLDIARLLIGSGAKIDVPDGHGKTNLHYAVQRGDAK
                      IAQSLLELGANVMATDQAGMTALHMAVEGDNESMVNLLLECCQEKDRNAGSAGGQGLLH
                      RCINFKDGENMTPLHLCVLMERVGILKILLHHGADVTIGCE"
+                     /Pfam="TqaK, Ank_2"
      CDS             complement(join(1237..1555,1622..2220))
                      /codon_start=1
                      /gene="aps3"
                      /product="pyrroline reductase APS3"
-                     /label=aps3
+                     /label="aps3"
                      /protein_id="ACZ66249.1"
                      /translation="MPCSTTKETTACTFIGGGVLARCIIDGLLDNKHDSDIVMRVTGRR
                      PDHIKDLAARYPSLVVSLGNRTPILWDNPWHKLEITPTAHVILICTQPWATRDVCEDIR
@@ -50,12 +51,13 @@ FEATURES             Location/Qualifiers
                      VTAQQVTLVADLFRSVSPQVSLVSQESGIDVAASISGSSPAYLFKLLSALVEAGVSHGL
                      APDTAAALVKQSGLGAAIQAIQDGRSLQSLIEDVCVPGGSTEKAMARLEQGAFSALVTA
                      AVGKSLDANRAMGKDEMTKVQSHV"
-     CDS             complement(join(2770..2997,3052..3679,3738..3759,3812..3925,
-                     4022..4133))
+                     /Pfam="F420_oxidored, P5CR_dimer"
+     CDS             complement(join(2770..2997,3052..3679,3738..3759,
+                     3812..3925,4022..4133))
                      /codon_start=1
                      /gene="aps4"
                      /product="aminotransferase APS4"
-                     /label=aps4
+                     /label="aps4"
                      /protein_id="ACZ66250.1"
                      /translation="MSIPLPKSDFGTYSLGLIQPSTKIKSAWNKYESKVNPVNGHVECT
                      YSSMTESWSEPRFVKSPFLQVHGLAPGLNYASLRGTFGTADNNILIFRPTSHAARLIHS
@@ -64,11 +66,12 @@ FEATURES             Location/Qualifiers
                      GWGVLLHLDSQTQSYVDEFSTAALIGILDSKTDEAPTLVVAHSDAVINSITADSVAEIG
                      QSFGWKVEKRLVKLDELSSFCEVFAVGTAATIRPCSLIYHKSTDRKFTFVANGPYYTKL
                      WNALNKIQTGENEDTFQWCQELRYNER"
+                     /Pfam="Aminotran_4"
      CDS             join(4560..4690,4773..5215,5308..9590)
                      /codon_start=1
                      /gene="aps5"
                      /product="fatty acid synthase subunit alpha APS5"
-                     /label=aps5
+                     /label="aps5"
                      /protein_id="ACZ66251.1"
                      /translation="MHPDVEQELAHTLLVELLAYVSLCLLTYVKTNGCLFIGINLRIQV
                      ETQDVILGEMNAERIIEVGPSPILTNMMKRTTEAKFADSDQARNINRQILAPEKDTAEI
@@ -98,11 +101,12 @@ FEATURES             Location/Qualifiers
                      RGNLLPCVCQKWLTGHSKGAAGSWMINGCLQMMSSGLIPGNRNADNIEEKLREHHHLVF
                      PNTTVQTECVKACSVTSFGFGQKGAQALIVHPRYLLATIGRERYDAYIGKRDQRWRKAC
                      RRLSEAMVHDDMVSACIKTQAPYAADADIATLLDPTARF"
+                     /Pfam="Fas_alpha_ACP, FAS_I_H"
      CDS             join(13769..14627,14682..14995)
                      /codon_start=1
                      /gene="aps6"
                      /product="methyltransferase APS6"
-                     /label=aps6
+                     /label="aps6"
                      /protein_id="ACZ66252.1"
                      /translation="MAKNKQDASLLADYLRNPTAHDNDTRERLIATCQDVIASLETPIE
                      ATRKHAFLTLDHAVVRCAIQLNIFSILSQEERCYSTRELAVATSPPCNDVLLSRLLRYL
@@ -111,11 +115,12 @@ FEATURES             Location/Qualifiers
                      DVVFVDVGGGTGGQSIILASRRGACLGRIVNEDISHVPQEAQAVLSSHHIDHIAYDFFD
                      EQPIKGACIYHFRQIFHDWPDEDCEKILRRTKEAMTAVSTLLIDEVVLPEKGAHWMVMQ
                      RDLTMMALFNAAERSEIQWRALLQQAGLRIEEIRCYDKRMAACIIVAKLI"
+                     /Pfam="Dimerisation, Methyltransf_2"
      CDS             complement(join(15242..16611,16777..16924,16985..17062))
                      /codon_start=1
                      /gene="aps7"
                      /product="cytochrome P450 monooxygenase APS7"
-                     /label=aps7
+                     /label="aps7"
                      /protein_id="ACZ66253.1"
                      /translation="MNLFTTCWTPMWTLAALTVGIGVLLIFPICIYRLFFHPYAKYPGP
                      FLARLTSWYSVYHAYYGDLHIDVWMCHKKYEIYSQGKNTQKANAYHKVSLVPGVHPTFS
@@ -127,12 +132,13 @@ FEATURES             Location/Qualifiers
                      GAGTEIHVPGGYEVGTGIYAIHHNEEYFPNAFEFRPERWLPEEEGEEAVLKAHAAFHTF
                      SQGPRGCPGKSLAMLEIQFALAAVIITSDFRKADTELGDVGEGTGEFAGQYQTFWAFTS
                      LKDGPYIQFKKLES"
+                     /Pfam="p450"
      CDS             join(17393..17460,17512..17669,17842..18096,18146..18511,
                      18571..19208)
                      /codon_start=1
                      /gene="aps8"
                      /product="cytochrome P450 monooxygenase APS8"
-                     /label=aps8
+                     /label="aps8"
                      /protein_id="ACZ66254.1"
                      /translation="MGLHDLLNGASPLVIVLYLVISLDKVMCLSIKQLFFHPLASYPGP
                      FLGRVTSLYAAYHAWRGTLHIDMYRCHQKYDIHAHSANTLKSKAYQALVHSAPNTLTIR
@@ -143,11 +149,12 @@ FEATURES             Location/Qualifiers
                      TLRLSPPVGGALWREVGPGGMNVGSLSLPAGIDVGTGIYSLHHNSTYHPDPFKYLPERW
                      IVGEGSTTSKSVEVARSAFSPFSRGPRSCVGKGFAYHELSLTVAHIIHRFDFSTADDDM
                      SSMRHSGGPGGTDEFLLRDHVTGAKSGPLLRFSLRS"
+                     /Pfam="p450"
      CDS             join(19567..19635,19697..20088,20144..20352,20455..21509)
                      /codon_start=1
                      /gene="aps9"
                      /product="FAD-linked oxidoreductase APS9"
-                     /label=aps9
+                     /label="aps9"
                      /protein_id="ACZ66255.1"
                      /translation="MKLLFLYFILSAWGSVAATSCKCAPEQSCWPSVREWTRFNVSISG
                      RLIETSPVAKPCYPGPDNDNEACIIVRNNWSSATFQLSQPLGYAYPLNESCPLPDPGDE
@@ -159,23 +166,25 @@ FEATURES             Location/Qualifiers
                      RRDNDVPVGGVSALASRLLDAQALQGNQQDLRKALETISGGSPVFHTIVHHGLEAASDV
                      KADPTSAVQPGWYVSIILDIFELQMNGTQVRSNLDTFAYLRNEIVPIYEKLSPRTGTYM
                      NEADWGNVNWKDDFFGSNWEGLSQAKAKYDPEGVFYCPHCVGSDEWIEGKRSLCRVK"
+                     /Pfam="FAD_binding_4, BBE"
      CDS             complement(22286..23038)
                      /codon_start=1
                      /gene="aps10"
                      /product="short-chain dehydrogenase/reductase APS10"
-                     /label=aps10
+                     /label="aps10"
                      /protein_id="ACZ66256.1"
                      /translation="MSTEAKNTVYVVTGANRGVGLGLVKTLLSRPSTTVIATVRNDKAT
                      ESLQGELLNVAAGKDSTFEVVQLDFSASLPPEQIRNAIASKVDHVDILICNAAVSPPMT
                      LAAQTPVEDLRTAFEVNTIGPLTVFQGLWPLLQKSAAPKLINMTSSVGCITFQEVPGGA
                      YGPSKAALNWITRALHIQNESLVAVALHPGWVRTDMGEFSAREWGFPGAHMETVENSVQ
                      GILEVIDGATRDTTSGKYVTYKGQILPW"
+                     /Pfam="adh_short"
      CDS             complement(join(23452..24168,24236..24773,24831..25031,
                      25101..25186,25262..25429))
                      /codon_start=1
                      /gene="aps11"
                      /product="major facilitator superfamily transporter APS11"
-                     /label=aps11
+                     /label="aps11"
                      /protein_id="ACZ66257.1"
                      /translation="MEESSTTTAMPPQARATPELGAAASTDAQPEPQIKSAVGRNLVVF
                      ALGLAILVGVLDATIVATLVPSIADDFSSVGSASWYGSAYLLVTGAIQPTFGKLYSTFP
@@ -187,11 +196,12 @@ FEATURES             Location/Qualifiers
                      ISKARWIGYQILFGAGSGTGIQQAIVGVQVAVDHADVAYATSSVMLVNTLAGAIFIGVS
                      QTLFLNEMTSVTDLIPGLDRETLLSGFQTIRDTLNAQDLAITIDAYNSGITQAFLIGLI
                      LSSITLLTWPFIRWIPLKKKEDEARKASEEGDTVTQEESKANQPETAKGKAE"
+                     /Pfam="MFS_1"
      CDS             join(26018..38077,38134..41505)
                      /codon_start=1
                      /gene="aps1"
                      /product="nonribosomal peptide synthetase APS1"
-                     /label=aps1
+                     /label="aps1"
                      /protein_id="ACZ66258.1"
                      /translation="MLLRILWLCSISIVQSVKMANKQVLVCNLPPFAGRDPNSTSINKQ
                      QIECPSTIPSFVTIEAAWSVTLHLYSGLNPVAFESRVDGSAATKVCDIQPHDTLATIVT
@@ -281,6 +291,7 @@ FEATURES             Location/Qualifiers
                      LRIRLPTESTGICLAADIVRTEMVRVMPHEHTGIDAMQSLASQDGEATPLHAASLLGHL
                      PFDLAIHPAGHTDFSGAKGTGIAHVGQRVVVPPPGTFSAECSIVSEKDNIEVDLAMIWD
                      DRAVDKKGVDEIIGTWREIITDNT"
+                     /Pfam="AA-adenyl-dom, ACP_PCP, NRPS_E, NRPS_C, NRPS_CT"
 ORIGIN
         1 atgtccccac cagccgaaga ctggtccacc attactgatg ccaatgagcg acggaaagct
        61 cagaatcgag tagctcagag aaactacagt aagtctgtgt attctgattc aaagatcgag

@@ -1,34 +1,34 @@
-LOCUS       FBGC00079       50816 bp DNA     linear   UNA 12-APR-2023
+LOCUS       FBGC00079              50816 bp    DNA     linear   UNA 12-APR-2023
 DEFINITION  echinocandin B.
 ACCESSION   FBGC00079
-VERSION     .
+VERSION     FBGC00079
 KEYWORDS    .
 SOURCE      Aspergillus nidulans NRRL 8112
   ORGANISM  Aspergillus nidulans NRRL 8112
+            .
 REFERENCE   1  (bases 1 to 50816)
   AUTHORS   Huttel W, Youssar L, Gruning BA, Gunther S, Hugentobler KG.
   TITLE     Echinocandin B biosynthesis: a biosynthetic cluster from Aspergillus
-            nidulans NRRL 8112 and reassembly of the subclusters Ecd and Hty 
+            nidulans NRRL 8112 and reassembly of the subclusters Ecd and Hty
             from Aspergillus pachycristatus NRRL 11440 reveals a single coherent
             gene cluster.
   JOURNAL   BMC Genomics 2016;17:570
-  PUBMED    27502607
+   PUBMED   27502607
 REFERENCE   2  (bases 1 to 50816)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Apr 12, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1186/s12864-016-2885-x"; journalName: "BMC Genomics"; date: 
-            "2016"; volume: "17"; pages: "570"
+  JOURNAL   Exported Apr 12, 2023 from SnapGene 6.2.1 https://www.snapgene.com
 COMMENT     ##Assembly-Data-START##
             Assembly Method       :: CLC Genomics WorkBench v. 6.0
             Sequencing Technology :: Illumina
             ##Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1186/s12864-016-2885-x"; journalName: "BMC Genomics"; date:
+            "2016"; volume: "17"; pages: "570"
 FEATURES             Location/Qualifiers
      source          1..50816
                      /mol_type="genomic DNA"
-                     /label=teleomorph: Emericella rugulosa NRRL 8112
+                     /label="teleomorph: Emericella rugulosa NRRL 8112"
                      /note="teleomorph: Emericella rugulosa NRRL 8112"
                      /db_xref="taxon:1160106"
                      /organism="Aspergillus nidulans NRRL 8112"
@@ -37,8 +37,8 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="aniB"
                      /product="aconitase AniB"
-                     /label=aniB
-                     /note="echinocandin B biosynthesis; putative 
+                     /label="aniB"
+                     /note="echinocandin B biosynthesis; putative
                      (4-hydroxybenzyl)-malate isomerase"
                      /inference="similar to AA sequence:same species:AFT91395.1"
                      /inference="similar to AA sequence:same species:AKJ70936.1"
@@ -59,13 +59,14 @@ FEATURES             Location/Qualifiers
                      GVKCVIAKSFSFIYGRNQPTIGLLGIIITDERFYDTARTGVPIEINPSTRTVTVAGQSF
                      PFVMDDMELALIRRNGLAAAYKAFGKGVFRSLCADVPGNGEYEIDEVGLGGRMEKEMRE
                      GLAW"
-     CDS             complement(join(3186..3424,3479..4118,4199..4294,4356..4427,
-                     4571..4624))
+                     /Pfam="Aconitase, Aconitase_C"
+     CDS             complement(join(3186..3424,3479..4118,4199..4294,
+                     4356..4427,4571..4624))
                      /codon_start=1
                      /gene="aniC"
                      /product="isopropyl malate dehydrogenase AniC"
-                     /label=aniC
-                     /note="echinocandin B biosynthesis; putative 
+                     /label="aniC"
+                     /note="echinocandin B biosynthesis; putative
                      3-(4-hydroxybenzyl)-malate dehydrogenase"
                      /inference="similar to AA sequence:same species:AFT91394.1"
                      /inference="similar to AA sequence:same species:AKJ70937.1"
@@ -77,11 +78,12 @@ FEATURES             Location/Qualifiers
                      AAMTLGCRPTKLNGIVLTSNMFGDIISDQASAIPGSLGLLPSASLCAIPEGESGGRVRG
                      IYEPVHGSAPDIAGQGIINPTGMILSVAMMLRYSLDMPAAAAAIETAVSRVIEHGGRTK
                      DVGGTTSTAEFGDQVVAYLKENTEDK"
+                     /Pfam="Iso_dh"
      CDS             join(4829..4871,4931..4963,5058..5851,5911..6180)
                      /codon_start=1
                      /gene="aniD"
                      /product="transaminase AniD"
-                     /label=aniD
+                     /label="aniD"
                      /note="echinocandin B biosynthesis; putative transaminase"
                      /inference="similar to AA sequence:same species:AFT91392.1"
                      /inference="similar to AA sequence:same species:AKJ70938.1"
@@ -93,12 +95,13 @@ FEATURES             Location/Qualifiers
                      YGLTLHLDSQSRSLVDEFSTSGFIGVRKGNDNELKLVVSDSQQIVPSVTIDSICEIAKG
                      FGWAIEKRSIAFTEVSEFVEAYAAGTAAMLVPVQSVERRSTGEIIQYSIDYGEPTSVFA
                      QLYKALSGVQQGLVPDQWGWTQEVRRPKQLASQDIEADT"
+                     /Pfam="Aminotran_4"
      CDS             join(6405..6575,6641..8140,8195..8281)
                      /codon_start=1
                      /gene="aniE"
                      /product="isopropyl malate synthase AniE"
-                     /label=aniE
-                     /note="echinocandin B biosynthesis; putative 
+                     /label="aniE"
+                     /note="echinocandin B biosynthesis; putative
                      (4-hydroxybenzyl)-malate synthase"
                      /inference="similar to AA sequence:same species:AFT91393.1"
                      /inference="similar to AA sequence:same species:AKJ70939.1"
@@ -114,12 +117,13 @@ FEATURES             Location/Qualifiers
                      RVVREQGYITAFQHPGCALELENITEQAARVAGILIRGLDFLLRCTRAASHPLEGPDGS
                      SLTVAFVQCAVTANAEEAWGIGIGFSQDSAIDRALLSVMNRHYQPTPVRAPLATNDGVI
                      SRPAPIRGG"
+                     /Pfam="HMGL-like"
      CDS             complement(join(8407..9069,9124..9288,9347..9508))
                      /codon_start=1
                      /gene="aniF"
                      /product="2OG-Fe(II)-dependent dioxygenase AniF"
-                     /label=aniF
-                     /note="echinocandin B biosynthesis; non-heme iron 
+                     /label="aniF"
+                     /note="echinocandin B biosynthesis; non-heme iron
                      alpha-ketoglutarate dependent dioxygenase; putative proline
                      hydroxylase"
                      /inference="similar to AA sequence:same species:AFT91391.1"
@@ -131,11 +135,12 @@ FEATURES             Location/Qualifiers
                      PDTLLPSKHRHNTSELRLVHYPPIPCSALRSNMRIGEHSDFGTLTLLLQDSVGGLQVED
                      QRNPGSFIPVEPEDGYEVVINIGDCLQRWTNRRLCSANHRVRLPEGKDVESDEMLDDRY
                      SVAYFGKPDRDVLVDTLPECVGVGEKVEYGDHLTALQYNQLKLTRTYG"
+                     /Pfam="DIOX_N, 2OG-FeII_Oxy"
      CDS             complement(join(10882..11640,11701..12549))
                      /codon_start=1
                      /gene="aniF2"
                      /product="cytochrome P450 monooxygenase AniF2"
-                     /label=aniF2
+                     /label="aniF2"
                      /note="involved in echinocandin B biosynthesis; cytochrome
                      P450 monooxygenase; putative homotyrosine-4-hydroxylase"
                      /inference="similar to AA sequence:same species:AFT91399.1"
@@ -151,12 +156,13 @@ FEATURES             Location/Qualifiers
                      VDFQTIGSPPLHVPPGIRLCVPAHSIHRDASFHPDPLTYNAFRFVIEPGVGAGDAAESA
                      PKRASLATTTGSFLVFGHGRHACPGRFFAAHLMKLMLAYLVRHYDVARLTQPVDKQALV
                      GTAKPDANLRLTVRRRVK"
+                     /Pfam="p450"
      CDS             13159..35100
                      /codon_start=1
                      /gene="aniA"
                      /product="nonribosomal peptide synthetase AniA"
-                     /label=aniA
-                     /note="echinocandin B biosynthesis; nonribosomal peptide 
+                     /label="aniA"
+                     /note="echinocandin B biosynthesis; nonribosomal peptide
                      synthetase; echinocandin B synthetase"
                      /inference="similar to AA sequence:same species:AFT91378.1"
                      /inference="similar to AA sequence:same species:AKJ70942.1"
@@ -286,13 +292,14 @@ FEATURES             Location/Qualifiers
                      EQEPQLLESTDTMTYLELKQTPEWEEVLRGRRAVVSPVHTSLSFSLRGGDLLDALYLST
                      LLKDADGGRYISPVAILEGSRCEEAEKQASVTSSERRYASFGMVWSRIKMRCKKMVSVS
                      RRKRTKVSLQG"
+                     /Pfam="ACP_PCP, NRPS_C, AA-adenyl-dom, NRPS_CT"
      CDS             join(35344..35579,35640..35703,35777..36496)
                      /codon_start=1
                      /gene="aniG"
                      /product="2OG-Fe(II)-dependent dioxygenase AniG"
-                     /label=aniG
-                     /note="echinocandin B biosynthesis; non-heme iron 
-                     alpha-ketoglutarate dependent dioxygenase; putative 
+                     /label="aniG"
+                     /note="echinocandin B biosynthesis; non-heme iron
+                     alpha-ketoglutarate dependent dioxygenase; putative
                      homotyrosine-3-hydroxylase"
                      /inference="similar to AA sequence:same species:AFT91379.1"
                      /inference="similar to AA sequence:same species:AKJ70943.1"
@@ -303,12 +310,13 @@ FEATURES             Location/Qualifiers
                      EPSVTNLGFLRYPPQPATSDNCGHIAHTDVGTLTILAATQRGLQVINSQTQDWTFVDPH
                      PQNESLLVQFGDCLKFLSGGRVVPSIHRVIPSDKPEEREGTKYTLAYFVRPNEEAVIKD
                      GRGEEWVYGDYHCRKFGAFARPLEKEGDRDRMPDRPAGEYDMINIRKIKGLSEGVSAA"
+                     /Pfam="2OG-FeII_Oxy"
      CDS             join(36862..37444,37499..38427)
                      /codon_start=1
                      /gene="aniH"
                      /product="cytochrome P450 monooxygenase AniH"
-                     /label=aniH
-                     /note="echinocandin B biosynthesis; cytochrome P450 
+                     /label="aniH"
+                     /note="echinocandin B biosynthesis; cytochrome P450
                      monooxygenase; putative ornithine hydroxylase"
                      /inference="similar to AA sequence:same species:AFT91389.1"
                      /inference="similar to AA sequence:same species:AKJ70944.1"
@@ -322,12 +330,13 @@ FEATURES             Location/Qualifiers
                      LEACNYSPIKADLDKLVHIENALKESLRLAVTFPGLIRQVTSPTGVTLDDGTHLPHGAR
                      ISVAAYGIHRDDANWTDAARYDPSRHEKASLPMSRGSEQLLSFGLGKRACPGRFFVTDE
                      LKLLFAHILTKYEFKVIKPPVTKVGLLRELTMHGPQEQLVIRRIK"
+                     /Pfam="p450"
      CDS             complement(join(38496..38798,38856..39181,39246..39654,
                      39710..40081,40167..40436))
                      /codon_start=1
                      /gene="aniI"
                      /product="CoA ligase AniI"
-                     /label=aniI
+                     /label="aniI"
                      /note="echinocandin B biosynthesis; AMP-dependent CoA
                      ligase"
                      /inference="similar to AA sequence:same species:AFT91380.1"
@@ -343,11 +352,12 @@ FEATURES             Location/Qualifiers
                      LFLRSPSIMKGYLVNGVTDYGAFDANGWLITGDVACFRKGADGEEHLFIVDRKKDIMKV
                      KGIQVAPAEIETRLLSHPAVDEAAVFGINDDEAGERPFAFVVRSKMVNVDLDEKALRQS
                      IQSHIQETLSEPFWLRENIKFVEGIPKGHSGKALKFKLKELI"
+                     /Pfam="AA-adenyl-dom"
      CDS             join(41980..43727,43796..44030)
                      /codon_start=1
                      /gene="aniJ"
                      /product="hypothetical protein AniJ"
-                     /label=aniJ
+                     /label="aniJ"
                      /note="echinocandin B biosynthesis; hypothetical protein"
                      /inference="similar to AA sequence:same species:AFT91381.1"
                      /inference="similar to AA sequence:same species:AKJ70946.1"
@@ -364,12 +374,13 @@ FEATURES             Location/Qualifiers
                      DLMQMLYPDLKPAVAESKDCVYSRKLTKLRNRLSCARNWYKFGQAFPGAILALIPCAGR
                      FSVSIDQIEKLPSDTVEMFLDYLQEHRGAFSRCVSQTLGTDIFSVLARTSTDATPTFAF
                      ENIEEDGFGDLLYDSDEFISLCKHV"
+                     /Pfam="EcdJ"
      CDS             complement(join(44228..44890,44954..45127,45182..45343))
                      /codon_start=1
                      /gene="aniK"
                      /product="2OG-Fe(II)-dependent dioxygenase AniK"
-                     /label=aniK
-                     /note="echinocandin B biosynthesis; non-heme iron 
+                     /label="aniK"
+                     /note="echinocandin B biosynthesis; non-heme iron
                      alpha-ketoglutarate dependent dioxygenase; putative leucine
                      dioxygenase"
                      /inference="similar to AA sequence:same species:AFT91382.1"
@@ -381,6 +392,7 @@ FEATURES             Location/Qualifiers
                      MDVPEDTFVRLCQGHASELRLNHYPSIPAKTIEEGKTNRIWPHTDFGIITLLAQDDIGG
                      LEIQDRDHPSEFLPVNKEDPAEFVVNIGDILERWTNGRLRAGLHQVTTPRNMQHRGNGT
                      LPTRRSVAFFLKPHRQMSVASISHFVPGNQSPRYEDMTALAYQQLRTGIVY"
+                     /Pfam="DIOX_N, 2OG-FeII_Oxy"
      CDS             join(45599..45826,45892..46414,46475..46701,46763..47042,
                      47096..47329,47383..48173,48226..48388,48451..48792,
                      48859..48982,49034..49105,49163..49894,49957..50040,
@@ -388,8 +400,8 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="aniL"
                      /product="ABC transporter AniL"
-                     /label=aniL
-                     /note="echinocandin B biosynthesis; ABC-type multidrug 
+                     /label="aniL"
+                     /note="echinocandin B biosynthesis; ABC-type multidrug
                      transporter"
                      /inference="similar to AA sequence:same species:AFT91383.1"
                      /inference="similar to AA sequence:same species:AKJ70948.1"
@@ -420,6 +432,7 @@ FEATURES             Location/Qualifiers
                      LREVISKKGGLDVAMDDGFLSHGQQQLLCLARAILKKSRILILDEVTSSVDQETEALIT
                      RVLRDRFQDQTVISIAHRLNTIMDYDKVIVLDKGCIVEQGNPQVLALQPSIFASLLRSG
                      GEEPRDGHKHDEEGEEE"
+                     /Pfam="ABC_tran, ABC_membrane"
 ORIGIN
         1 tcaccaggca agcccctccc tcatctcctt ctccatcctc ccgcccaatc caacctcatc
        61 aatctcatac tccccgttcc ccggaacatc cgcacaaaga gacctaaaaa ccccctttcc

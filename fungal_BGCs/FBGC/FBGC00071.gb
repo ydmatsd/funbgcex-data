@@ -1,28 +1,28 @@
-LOCUS       FBGC00071       15787 bp DNA     linear   UNA 08-MAY-2023
+LOCUS       FBGC00071              15787 bp    DNA     linear   UNA 08-MAY-2023
 DEFINITION  grayanic acid.
 ACCESSION   FBGC00071
-VERSION     .
+VERSION     FBGC00071
 KEYWORDS    .
 SOURCE      Cladonia grayi
   ORGANISM  Cladonia grayi
+            .
 REFERENCE   1  (bases 1 to 15787)
   AUTHORS   Armaleo D, Sun X, Culberson C.
-  TITLE     Insights from the first putative biosynthetic gene cluster for a 
+  TITLE     Insights from the first putative biosynthetic gene cluster for a
             lichen depside and depsidone.
   JOURNAL   Mycologia 2011;103:741-54
-  PUBMED    21289108
+   PUBMED   21289108
 REFERENCE   2  (bases 1 to 15787)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported May 8, 2023 from SnapGene 6.2.2
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: "10.3852/10-335"; 
-            journalName: "Mycologia"; date: "2011"; volume: "103"; pages: 
+  JOURNAL   Exported May 8, 2023 from SnapGene 6.2.2 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi: "10.3852/10-335";
+            journalName: "Mycologia"; date: "2011"; volume: "103"; pages:
             "741-54"
 FEATURES             Location/Qualifiers
      source          1..15787
                      /mol_type="genomic DNA"
-                     /label=mycobiont
+                     /label="mycobiont"
                      /note="mycobiont"
                      /db_xref="taxon:27339"
                      /organism="Cladonia grayi"
@@ -31,7 +31,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="PKS16"
                      /product="polyketide synthase CgrPKS16"
-                     /label=PKS16
+                     /label="PKS16"
                      /note="CgrPKS16p"
                      /protein_id="ADM79459.1"
                      /translation="MTLPNNVVLFGDQTVDPCPIIKQLYRQSRDSLTLQTLFRQSYDAV
@@ -70,12 +70,14 @@ FEATURES             Location/Qualifiers
                      GETISNLIMIDSPCPGTLPPLPAPTLSLLEKAGIFDGLSTSGAPITERTRLHFLGCVRA
                      LENYTVTPLPPGKSPGKVTVIWAQDGVLEGREEQGKEYMAATSSGDLNKDMDKAKEWLT
                      GKRTSFGPSGWDKLTGTEVHCHVVGGNHFSIMFPPKVC"
+                     /Pfam="SAT2, PKS_KS, PKS_AT, fPKS_PT, ACP_PCP,
+                     Thioesterase"
      CDS             join(9251..9518,9678..10265,10357..10677,10762..10931,
                      10996..11189,11243..11414)
                      /codon_start=1
                      /gene="P450"
                      /product="cytochrome P450 monooxygenase P450"
-                     /label=P450
+                     /label="P450"
                      /note="CytP450p"
                      /protein_id="ADM79460.1"
                      /translation="MLGVIQYSILTIFWLPIAAAXLYGAGLAIYRLFLSPLAKFPGPKL
@@ -88,10 +90,11 @@ FEATURES             Location/Qualifiers
                      YKYVGYLLTLVARLRTGKIARHQRVPRDRPLYFNEWEIPAGVSXHEDNIPMASTXTAQT
                      ICSMTPIFLQIDPEVYPNPHAFMPERWLNLDEXQRQRLEHNLVPYSKGTRGCAGLTLAN
                      AELYMLIPALVTRFDLELFDSDAWDTEMAVDSHHHSPRPDSKGVKVFVKKSTF"
+                     /Pfam="p450"
      CDS             join(14056..14280,14347..14628,14889..15421,15475..15787)
                      /codon_start=1
                      /product="methyltransferase O-methyltransferase"
-                     /label=O-methyltransferase
+                     /label="O-methyltransferase"
                      /protein_id="ADM79461.1"
                      /translation="MISEIAKLAALVLTNTVKVDDFLQSSKLPPPTFHEDGPIDLGLSP
                      EVEAARVAAIESSLRLHDLLXGPVELIRPTVNAXSLEAIYKYDVASKVPIHGEIPIIEL
@@ -101,6 +104,7 @@ FEATURES             Location/Qualifiers
                      DMFTEQPVSADVYMFRFVFHDWPDKYVVNILRRLIPALKPGARIIISDSILPEPNTLSE
                      LYERKIRALDMVMLSFFNSRERERDDWERVCQEVDPRFKFVDAWVPEGAALGIIEAVWQ
                      PEPTMEXPKAIESDESSSTGVXDSAKGIKGMESNGRNGXISVTCVDDVDVN"
+                     /Pfam="Methyltransf_2"
 ORIGIN
         1 tcagcatacc ttaggtggaa acataataga aaagtgattc ccaccaacaa catggcaatg
        61 cacctccgtc ccagtcaatt tatcccaccc actcggtccg aagctcgtcc gcttccccgt

@@ -1,30 +1,30 @@
-LOCUS       FBGC00080       21641 bp DNA     linear   UNA 18-JAN-2023
+LOCUS       FBGC00080              21641 bp    DNA     linear   UNA 18-JAN-2023
 DEFINITION  10,11-dehydrocurvularin.
 ACCESSION   FBGC00080
-VERSION     .
+VERSION     FBGC00080
 KEYWORDS    .
 SOURCE      Aspergillus terreus AH-02-30-F7
   ORGANISM  Aspergillus terreus AH-02-30-F7
+            .
 REFERENCE   1  (bases 1 to 21641)
-  AUTHORS   Xu Y, Espinosa-Artiles P, Schubert V, Xu YM, Zhang W, Lin M, 
+  AUTHORS   Xu Y, Espinosa-Artiles P, Schubert V, Xu YM, Zhang W, Lin M,
             Gunatilaka AA, Sussmuth R, Molnar I.
-  TITLE     Characterization of the biosynthetic genes for 
+  TITLE     Characterization of the biosynthetic genes for
             10,11-dehydrocurvularin, a heat shock response-modulating anticancer
             fungal polyketide from Aspergillus terreus.
   JOURNAL   Appl Environ Microbiol 2013;79:2038-47
-  PUBMED    23335766
+   PUBMED   23335766
 REFERENCE   2  (bases 1 to 21641)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Jan 18, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1128/AEM.03334-12"; journalName: "Appl Environ Microbiol"; date:
-            "2013"; volume: "79"; pages: "2038-47"
+  JOURNAL   Exported Jan 18, 2023 from SnapGene 6.2.1 https://www.snapgene.com
 COMMENT     ##Assembly-Data-START##
             Assembly Method       :: Sequencher v. 5.0
-            Sequencing Technology :: Sanger dideoxy sequencing 
+            Sequencing Technology :: Sanger dideoxy sequencing
             ##Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1128/AEM.03334-12"; journalName: "Appl Environ Microbiol"; date:
+            "2013"; volume: "79"; pages: "2038-47"
 FEATURES             Location/Qualifiers
      source          1..21641
                      /strain="AH-02-30-F7"
@@ -36,7 +36,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="curS2"
                      /product="polyketide synthase CurS2"
-                     /label=curS2
+                     /label="curS2"
                      /note="nonreducing polyketide synthase for
                      dehydrocurvularin biosynthesis; AtCURS2"
                      /protein_id="AGC95321.1"
@@ -76,11 +76,13 @@ FEATURES             Location/Qualifiers
                      NAVSKDGLWSLASTTQDHFRAYHVAMHAYHPPYMTAQERPSHTAVIWAEKGMVNRVVGN
                      DRLMQMLADQGIPTTSYPGYMEDPRLGAFACLVPDRTAADLGPNGWEKYTAGEVLALSV
                      AGDHLDLPMPGHVHLLQREMEKAFAYFEGEST"
+                     /Pfam="SAT2, PKS_KS, PKS_AT, fPKS_PT, ACP_PCP,
+                     Thioesterase"
      CDS             join(8897..9250,9315..11147)
                      /codon_start=1
                      /gene="curR"
                      /product="transcription factor CurR"
-                     /label=curR
+                     /label="curR"
                      /note="putative cluster-specific regulator of
                      dehydrocurvularin biosynthesis"
                      /protein_id="AGC95322.1"
@@ -97,11 +99,12 @@ FEATURES             Location/Qualifiers
                      PQDGMGPEEESVVRVHIPYFGIIRIAREKQHATTASKPPVDRSPSSNSDAQLRFSTLTH
                      PSNALPLSPNTTSNPLSFAVADAAAPHEFTTPFAHQQQQPCQPTFSNPGLSLTPSPLMQ
                      GGYPDLAAGSEDWAFQRVDMAFFESIMRNVGGDL"
+                     /Pfam="GsfR1"
      CDS             complement(join(11394..11773,11897..12270,12356..13317))
                      /codon_start=1
                      /gene="curE"
                      /product="major facilitator superfamily transporter CurE"
-                     /label=curE
+                     /label="curE"
                      /note="putative dehydrocurvularin exporter"
                      /protein_id="AGC95323.1"
                      /translation="MADGSDLENNHKPELDRSQPGSTSNGSQEQKDPDEIAPEYATGVR
@@ -114,13 +117,14 @@ FEATURES             Location/Qualifiers
                      DSPQAMYIGAEVLFGFGVGICNQIPMTAVQGFSKQEDVSSATGIMVMCQTLSGAYFVAI
                      AQSLFANRMLATVLSGAGHLDPALVLGTGASELQHVFSGEDLTEVIAAYMVGIKDVFAF
                      SLACAAFAVLLSLIIPFKRLPDHGKKDKPATEEAAEEKSEAEGKVSGDKEENHS"
+                     /Pfam="MFS_1"
      CDS             join(14174..14294,14370..15101,15157..15251,15303..15413,
                      15470..18325,18393..21641)
                      /codon_start=1
                      /gene="curS1"
                      /product="polyketide synthase CurS1"
-                     /label=curS1
-                     /note="highly reducing polyketide synthase (hrPKS) for 
+                     /label="curS1"
+                     /note="highly reducing polyketide synthase (hrPKS) for
                      dehydrocurvularin biosynthesis"
                      /protein_id="AGC95324.1"
                      /translation="MPSAQHSVGDVPIAVVGLSCRFPGDASTPSKFWDMLKNGKDAYSP
@@ -164,6 +168,7 @@ FEATURES             Location/Qualifiers
                      EWKGAVPPPAQLCTGLGTADIMARFGLERPEHFSDPRFGPLNVLSIESSSSLSTDQDTA
                      SSPSTRLAAATTLDEAVVIITDALVHKMAEILQMPLSEVDPGRPMYRYGVDSLVALEVR
                      NWITRELQANMALLEILAAEPMRVFAGKIAEKSKLVAGRKG"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_DH, fPKS_ER, fPKS_KR, ACP_PCP"
 ORIGIN
         1 ttaggtagac tccccctcaa aatatgcaaa cgccttctcc atctccctct gcagcaagtg
        61 cacatgtcct ggcatgggca aatccaaatg atccccagcc accgacaacg ccaacacctc

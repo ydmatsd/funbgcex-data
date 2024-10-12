@@ -1,32 +1,32 @@
-LOCUS       FBGC00094       32338 bp DNA     linear   UNA 18-JAN-2023
-DEFINITION  solanapyrone.
+LOCUS       FBGC00094              32338 bp    DNA     linear   UNA 19-MAR-2024
+DEFINITION  solanapyrone A.
 ACCESSION   FBGC00094
-VERSION     .
+VERSION     FBGC00094
 KEYWORDS    .
 SOURCE      Ascochyta rabiei AR628
   ORGANISM  Ascochyta rabiei AR628
+            .
 REFERENCE   1  (bases 1 to 32338)
   AUTHORS   Kim W, Park JJ, Gang DR, Peever TL, Chen W.
-  TITLE     A Novel Type Pathway-Specific Regulator and Dynamic Genome 
-            Environments of a Solanapyrone Biosynthesis Gene Cluster in the 
+  TITLE     A Novel Type Pathway-Specific Regulator and Dynamic Genome
+            Environments of a Solanapyrone Biosynthesis Gene Cluster in the
             Fungus Ascochyta rabiei.
   JOURNAL   Eukaryot Cell 2015;14:1102-13
-  PUBMED    26342019
+   PUBMED   26342019
 REFERENCE   2  (bases 1 to 32338)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Jan 18, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1128/EC.00084-15"; journalName: "Eukaryot Cell"; date: "2015"; 
-            volume: "14"; pages: "1102-13"
+  JOURNAL   Exported Mar 19, 2024 from SnapGene 7.1.2 https://www.snapgene.com
 COMMENT     ##Assembly-Data-START##
             Assembly Method       :: SMRT Analysis v. v2.0.0
             Assembly Name         :: AR628
             Coverage              :: 72X
             Sequencing Technology :: Pacific Biosciences
             ##Assembly-Data-END##
-            On or before Sep 9, 2015 this sequence version replaced KM244524.1, 
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1128/EC.00084-15"; journalName: "Eukaryot Cell"; date: "2015";
+            volume: "14"; pages: "1102-13"
+            On or before Sep 9, 2015 this sequence version replaced KM244524.1,
             KM244525.1, KM244526.1, KM244527.1, KM244528.1.
 FEATURES             Location/Qualifiers
      source          1..32338
@@ -38,7 +38,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="sol1"
                      /product="polyketide synthase Sol1"
-                     /label=sol1
+                     /label="sol1"
                      /protein_id="ALC79552.1"
                      /translation="MSSQYGTNGTSADPEPIAIVGMGCRWPGGVRDASGLWELLKNKRS
                      GYREFGDHRFSRKGFHHPNSEHPGTVATKGGFLLAEDPRLFDHAFFGIGSLEVETMDPS
@@ -85,11 +85,13 @@ FEATURES             Location/Qualifiers
                      KREEAAENNGNTGNSPRWYTDARVSLIMRAFDDAERYQASADGGDGGNERGNNAGVASL
                      RSEFEETVKAGPAERSKTVALVTDAIVKTVAQMLFVDASGVDASRTVADYGVDSLIAAE
                      LRNWFNVAFGADVSMLEMLDTATSMKILANKIVDGALA"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_DH, PKS_NRPS_MT, fPKS_ER,
+                     fPKS_KR, ACP_PCP"
      CDS             join(9360..9886,9949..10118,10185..10294,10373..10849)
                      /codon_start=1
                      /gene="sol2"
                      /product="methyltransferase Sol2"
-                     /label=sol2
+                     /label="sol2"
                      /protein_id="AIU56806.1"
                      /translation="MALKSTNGTHAGPTASATSLASLAANISEKAASLSTYLESQGHAQ
                      PSFLPGCADPPETEGYLTLHTSLTSSLEDLQRLVDGPRRSLRPFIMIGNDLAALQVAFD
@@ -99,11 +101,12 @@ FEATURES             Location/Qualifiers
                      SEKMLAQGRARNLSDIEGRISFMKHSFFHPQPIGGAGAFFIRQCTHNWCDRDVVKILKS
                      LVPGLENSAPGTPLLINDTVLPVPGSKPLHEERALRQMDMLMFVVLGAKQRTAKEFEAL
                      LKEADARYEIRRVHADGSMGLVEVHLKI"
+                     /Pfam="MdpA"
      CDS             complement(join(24105..24563,24615..25013))
                      /codon_start=1
                      /gene="sol3"
                      /product="short-chain dehydrogenase/reductase Sol3"
-                     /label=sol3
+                     /label="sol3"
                      /protein_id="AIU56802.1"
                      /translation="MGGMLGFFLRQLTFTPKPLPQDVRLDGKTAIVTGANVGLGLEASK
                      EMASHGLARVILGVRTVSKGEAAKQEILKQSPDCDVQVWPVDHESFESMVAFGERAQSL
@@ -111,11 +114,12 @@ FEATURES             Location/Qualifiers
                      TVVASEVHFWTPFDERKAPSILARLDEKDSFKGMERYNTSKLLNILWMRELSSRVTGNV
                      VINAVNPGLCASALHRSDPTPGLAYLNKIFAWTPAQGGHNLTYAATQHVDEPGAYLTEQ
                      HLAK"
+                     /Pfam="adh_short"
      CDS             complement(join(25496..26606,26674..27236))
                      /codon_start=1
                      /gene="sol4"
                      /product="transcription factor Sol4"
-                     /label=sol4
+                     /label="sol4"
                      /protein_id="AIU56803.1"
                      /translation="MPSTLINDVQQELKDLPARGIVDFLIQYFFEDINWINQIVHPPRL
                      LAQYEDWWKMDTISRVADLEFAVLMLRICAYASHFLPSQKYTVDTIKGRPLSDIRSNCD
@@ -127,12 +131,13 @@ FEATURES             Location/Qualifiers
                      INFFSLHSPLSPNMIDISQSQCLRAIKEARRQLEMMSLGSVMAETGAHQLGILVDHVQA
                      TLARSGTQTRSMPSTETLTYNSSSSTSYGNGHAHGVSSELPFTFQRQEGPTANAFRTDS
                      NVFEGLMLWDLSTDALPLDPSFLGLEQLHEMSELQPNMGL"
+                     /Pfam="Fungal_trans"
      CDS             complement(join(28336..28604,28657..29190,29238..29390,
                      29442..29773,29826..30085))
                      /codon_start=1
                      /gene="sol5"
                      /product="FAD-linked oxidoreductase Sol5"
-                     /label=sol5
+                     /label="sol5"
                      /protein_id="AIU56804.1"
                      /translation="MRFIILNLLSLGITPTVVGHSGPHRQEAQNLNKFLKSNAINPAAI
                      NGETRHTGGVHLACAILEASNQTAVVFPSDGELYTQIDKAHASATAPKNPACIYTPNDV
@@ -143,12 +148,13 @@ FEATURES             Location/Qualifiers
                      WDTFAAMVTAPIPYNMTRFTYATTDLLYDKEAYLEIEQICHKYIPRMRKLEGGDIMLMP
                      QPISVSMVDEARARGSDPMGVADQPQLWFVVSSGWNLAQDDAEAESIMLDALAEVEEYT
                      KSQALHLPFYFLNDAFSTQMPLQSYGAVTYSKLQAASRKYDPTRVFQELVPGGFKLV"
+                     /Pfam="FAD_binding_4"
      CDS             join(30679..30898,30949..31448,31557..31907,31968..32078,
                      32132..32338)
                      /codon_start=1
                      /gene="sol6"
                      /product="cytochrome P450 monooxygenase Sol6"
-                     /label=sol6
+                     /label="sol6"
                      /protein_id="AIU56805.1"
                      /translation="MFVPGNMGWLVLSCGLFVAYWVLLAIYRLHFHPLSRYRGPRVAAV
                      SNSWYEWYWNYHLNGQMIFEIQRLHKQYGPVVRIGVNDLSIDDPEVYQAMTKVSSGFTK
@@ -159,6 +165,7 @@ FEATURES             Location/Qualifiers
                      SVDQQITYEDAKQLPYLTATIKEILRLGTPLPGRLPRLIPSSGFQLYGQDLPPKTSIHT
                      SPYLLNRHPSIWDNPNDFNPDRWLRKNSRDLDKYLATFNRGARQCLGKEWVHSYQIAGL
                      WQDY"
+                     /Pfam="p450"
 ORIGIN
         1 ctacgcaaga gccccatcaa caatcttgtt cgccaaaatc ttcatactcg tagcagtatc
        61 caacatttcc agcatactga catccgctcc aaatgcgacg ttgaaccagt tgcgcaactc

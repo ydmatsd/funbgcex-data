@@ -1,28 +1,28 @@
-LOCUS       FBGC00086       39822 bp DNA     linear   UNA 13-FEB-2023
+LOCUS       FBGC00086              39822 bp    DNA     linear   UNA 13-FEB-2023
 DEFINITION  patulin.
 ACCESSION   FBGC00086
-VERSION     .
+VERSION     FBGC00086
 KEYWORDS    .
 SOURCE      Penicillium expansum NRRL 35695
   ORGANISM  Penicillium expansum NRRL 35695
+            .
 REFERENCE   1  (bases 1 to 39822)
-  AUTHORS   Tannous J, El Khoury R, Snini SP, Lippi Y, El Khoury A, Atoui A, 
+  AUTHORS   Tannous J, El Khoury R, Snini SP, Lippi Y, El Khoury A, Atoui A,
             Lteif R, Oswald IP, Puel O.
-  TITLE     Sequencing, physical organization and kinetic expression of the 
+  TITLE     Sequencing, physical organization and kinetic expression of the
             patulin biosynthetic gene cluster from Penicillium expansum.
   JOURNAL   Int J Food Microbiol 2014;189:51-60
-  PUBMED    25120234
+   PUBMED   25120234
 REFERENCE   2  (bases 1 to 39822)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Feb 13, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1016/j.ijfoodmicro.2014.07.028"; journalName: "Int J Food 
-            Microbiol"; date: "2014"; volume: "189"; pages: "51-60"
+  JOURNAL   Exported Feb 13, 2023 from SnapGene 6.2.1 https://www.snapgene.com
 COMMENT     ##Assembly-Data-START##
-            Sequencing Technology :: Sanger dideoxy sequencing 
+            Sequencing Technology :: Sanger dideoxy sequencing
             ##Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1016/j.ijfoodmicro.2014.07.028"; journalName: "Int J Food
+            Microbiol"; date: "2014"; volume: "189"; pages: "51-60"
 FEATURES             Location/Qualifiers
      source          1..39822
                      /strain="NRRL 35695"
@@ -36,7 +36,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="patH"
                      /product="cytochrome P450 monooxygenase PatH"
-                     /label=patH
+                     /label="patH"
                      /note="CYP619C3 cytochrome P450"
                      /protein_id="AIG62144.1"
                      /translation="MEPFLLLLLVLLPAIVLVRYAFTYGHRTSTMPIGPPTLPFIGNIH
@@ -49,11 +49,12 @@ FEATURES             Location/Qualifiers
                      QPDDPAAFIPERFAKHPQLAPDYVPGTWERRDHYGYGVGRRICPGIHLAERNMFLGIAK
                      LLWAFDFQPGEGPIDSDPVTGYHNGFLYCAKDYSCRPVIRNEVIRDTIEREYATATADV
                      FSRFTEG"
+                     /Pfam="p450"
      CDS             complement(join(2616..3538,3589..3640))
                      /codon_start=1
                      /gene="patG"
                      /product="decarboxylase PatG"
-                     /label=patG
+                     /label="patG"
                      /protein_id="AIG62133.1"
                      /translation="MAKIDVHHHFYPPAMRQALDRAGGDPSGWYIPPWTLELDQDITRQ
                      MKVTTTILSVTAPGPGIEPDVTKAAALARSCNESAAAIRDAKPQQYGFFASVPSLFDTA
@@ -61,22 +62,24 @@ FEATURES             Location/Qualifiers
                      TQLINTWLPQPMFDYPHETGRAAMDLLTSGILQDYPGCKIILSHAGGTLPYLIHRAATM
                      LPLMPRTLGLSTEELVEAARTFYFDTAISSNPVTLKALFEFAAPGHVLFGSDFPNAPHD
                      AILRFTNFLEAYELPEETKRQVDSGAALELFPRLKGILDKAKL"
+                     /Pfam="Amidohydro_2"
      CDS             complement(4156..4755)
                      /codon_start=1
                      /gene="patF"
                      /product="hypothetical protein PatF"
-                     /label=patF
+                     /label="patF"
                      /protein_id="AIG62137.1"
                      /translation="MKSSLWVSLAVSLIGLGPAAARNDYPGNYPSSSPPLGPTDWERTP
                      VSVFAKVLNTQPDPDYNLLKELVTYDCTYISLTFDNPTLHGIMPWAGTHTHVGPQAFID
                      IFTRVGLYWDRGPFSIDHIFGDDGNVTAWGSFTATSRTLGKTVISPWAARARVNSANQI
                      FEFQWMEDTFTTASSFGSDNSTKVFIANPEGGTAHA"
+                     /Pfam="PatF"
      CDS             join(5168..5545,5599..7060,7122..7168)
                      /codon_start=1
                      /gene="patE"
-                     /product="glucose-methanol-choline family oxidoreductase 
+                     /product="glucose-methanol-choline family oxidoreductase
                      PatE"
-                     /label=patE
+                     /label="patE"
                      /protein_id="AIG62134.1"
                      /translation="MRLTSGIFHAAIAVAAVGAVLPEGPSSSKTHRNEYARRMLGSSFG
                      IPKNQTFDYLVIGGGTAGLTIATRLAEQGVGSVAVIEAGGFYELNNGNLSQIPAQDAFY
@@ -89,12 +92,13 @@ FEATURES             Location/Qualifiers
                      NYIRDNPSDGYNYASLAVSLCTPRSRGNVTITSPDAGVPPVINPNWLTDPVDVELAVAA
                      FKRTRDFFNTTAIKPILIGPEYFPGSQVATDAEILDHVRKSFDTIFHASCTCAMGLAND
                      TQAVVDSKARVIGVEALRVVDASALPFLPPGHPQSTLYALAEKIACEISGNC"
-     CDS             complement(join(7446..7495,7558..7696,7790..7824,7895..8317,
-                     8449..8529,8602..8714,8772..8953))
+                     /Pfam="GMC_oxred_N, GMC_oxred_C"
+     CDS             complement(join(7446..7495,7558..7696,7790..7824,
+                     7895..8317,8449..8529,8602..8714,8772..8953))
                      /codon_start=1
                      /gene="patD"
                      /product="alcohol dehydrogenase PatD"
-                     /label=patD
+                     /label="patD"
                      /protein_id="AIG62135.1"
                      /translation="MASTTPSTYKQAVFKEQGAGLTLEEVALTLPKRDEILVKVEACGV
                      CHSDHFAQTNLMGGGFPLVPGHEIIGRVAAVGEGETVWKEGDRIGGAWHGGHDGTCGAC
@@ -103,11 +107,12 @@ FEATURES             Location/Qualifiers
                      REDPVAALQKLGGASLIVSTAPVPEIINPLIQGLGVMGKLLILSIVGGIEVHTGLLVGK
                      GKSIWSWPSGHATDSEDAIAFADLHGIDCLIEEFPLDKCNEAFAAMMEGSVRFRAVITM
                      "
+                     /Pfam="ADH_N, ADH_zinc_N"
      CDS             complement(join(9442..10473,10529..10673,10730..11193))
                      /codon_start=1
                      /gene="patC"
                      /product="major facilitator superfamily transporter PatC"
-                     /label=patC
+                     /label="patC"
                      /protein_id="AIG62136.1"
                      /translation="MSIDASPSESVLESQTPDRVDESIPIKAEETEKDAAPGRDIVGFR
                      WLLVCIAVFSANLLYGLDNTIVADIQAPIAGDFNEYTRLGWLGVGFTLGSVVFILPLGK
@@ -119,11 +124,12 @@ FEATURES             Location/Qualifiers
                      YTVKLDTSPSNVYGYSILMGLGMTTTQAAYAVGPAIVTPDRVAECLQFMNIGQGQSQLL
                      GLAIASAIFQTKTLSGLTALLGDKGYSQVDIQSAVAGAQSTLMERLPPALKTAALKVIV
                      SSISDVYVMAISAGALYVVASCLLPRRRF"
+                     /Pfam="MFS_1"
      CDS             join(11886..11999,12074..12589,12670..13092,13180..13812)
                      /codon_start=1
                      /gene="patB"
                      /product="carboxypeptidase PatB"
-                     /label=patB
+                     /label="patB"
                      /protein_id="AIG62138.1"
                      /translation="MQIINWASLLLVTWETVVAAELPIVDLGYQRHQAIGFNSTGRYYQ
                      FSNVRYAEPPLGPLRFSLPVSPRNRSHEVVNGKGLGNICPQSQACWFNVQGDFVSAVTA
@@ -135,24 +141,26 @@ FEATURES             Location/Qualifiers
                      FNRYVDVLLRGANASVRAHTSRVLYPPIFNGSWPYHSQHERANLLWSEVSTTCNTRYLH
                      QAVATPGYAIEYAVKPAMHLSDTSSVFYNGQGSSSSLNATIAQLMQRQIVQFVKTGNPN
                      VKGDPHVPLYHGQAHVLSLGDNGVRVEPALTNTDRCTYWQQVEF"
+                     /Pfam="COesterase"
      CDS             complement(join(14456..14717,14788..14833,14915..15025,
                      15102..15297,15362..15496))
                      /codon_start=1
                      /gene="patA"
                      /product="acetate transporter PatA"
-                     /label=patA
+                     /label="patA"
                      /protein_id="AIG62139.1"
                      /translation="MKLSAEGTVMASSEEAAQLSCDTSSSHARNSKEQDFQPTQQIGSP
                      TALGMGAFAIAFTTLSMSLMEWRSAAITNAYIGNCFFTAGMGLVLVAQWELVRGNSFGH
                      TVFGGFGLFNLAFGAINAPAFGVADAFKDDPAALNNAIGYFLLVWGIFVLFFTVAAMPM
                      NLVYTGMLGTSQITYTLLAASYFSFADDHASAGLALKKAAGAFGFVSGLFAWYTVGHLM
                      CQDALLFSFPLGDTSPLYARLQRKKRH"
+                     /Pfam="Gpr1_Fun34_YaaH"
      CDS             complement(join(16148..16273,16344..18294,18362..18627,
                      18681..19746,19811..20051,20117..20414,20464..20700))
                      /codon_start=1
                      /gene="patM"
                      /product="ABC transporter PatM"
-                     /label=patM
+                     /label="patM"
                      /protein_id="AIG62140.1"
                      /translation="MVDNYHSSLDVAKTPIQSDADAQKSEAETEGPSSKSSQIAAGESI
                      ADSVRNFLELRQGGIPDDTGVVFDKISAVGSGTGSQDAPTVTSAAQSAFGLLSPLQNRQ
@@ -178,23 +186,25 @@ FEATURES             Location/Qualifiers
                      GVFATSLAQLCASLMPNIEAAFAANGFFFMFCNTFAGTLSPKPVTPSGWRWFYNISPLF
                      YLGEGVTVDVLQDLPIRCEESEVSIFYAVNGTTCGQYAQDFLKTATGYLLNPASTTECQ
                      YCRYRDGQSYFQQYGYEFAHRHRNIGVFICFIAFNFTMVLVMTYLTKTRRH"
+                     /Pfam="ABC_tran, ABC2_membrane_7, ABC2_membrane, PDR_CDR"
      CDS             join(21160..21205,21269..21511,21565..22055)
                      /codon_start=1
                      /gene="patN"
                      /product="short-chain dehydrogenase/reductase PatN"
-                     /label=patN
+                     /label="patN"
                      /protein_id="AIG62141.1"
                      /translation="MVLTTGLKGAHVLITGGTRGMGEAMVHKFLQEEANVSYCARTVTN
                      TEYDDFYSTLAEGNTARAVGTAFDVASKDSLVKWVESSAERLGRIDVIIANASPMHMEG
                      ETEHWESSFAIDVMGFVELVKAATPYLEKSPQASIIVQSSFMGREFYRSPPAAYGPCKA
                      AQLQHVQELSHFLGPKGIRVNAISPGPVLCKGGPWELYSKINPEWVEEQRLKIPLKRLG
                      GPTEVANVAVFLASPLASFVSGTNMLVDGGIHVGTQF"
+                     /Pfam="adh_short_C2"
      CDS             join(22720..22979,23043..23243,23301..24257,24329..24446,
                      24500..24679)
                      /codon_start=1
                      /gene="patO"
                      /product="FAD-linked oxidoreductase PatO"
-                     /label=patO
+                     /label="patO"
                      /protein_id="AIG62142.1"
                      /translation="MRLHQSPPRLLVCILSVLQVSAGLSSNCRCMPGDSCWPSLNDWAR
                      FNTSIGGRLVDTQPLGQPCHDPFYTASECNELKQQWTHPELHDASSSSIMSAAVANETC
@@ -206,11 +216,12 @@ FEATURES             Location/Qualifiers
                      TQLVQNAQYGGRLLPLDLIERNNSQLTDAVQKLTADGVTFVGIGLNVSSSVTGDIWNSV
                      LPGWRTAAMTVILTTSWPLGANLTKMKILADKMTTKWVPILTALSPESGCYMSEADPQQ
                      PDWKQTFYGRNYDSLYAIKTKYDPLQTFYATTAVGSEDWQVEAGGRLCQATRKN"
+                     /Pfam="FAD_binding_4, BBE"
      CDS             complement(join(25862..28022,28079..28317))
                      /codon_start=1
                      /gene="patL"
                      /product="transcription factor PatL"
-                     /label=patL
+                     /label="patL"
                      /protein_id="AIG62143.1"
                      /translation="MYSTFSANFDTTIDASRDRSATPVTAPRPKRNQVARACDWCRLNR
                      VRCDDKQPCQNCQNRGGSCSNTKPQEATSLPAANREMQRLRNKVKDLQDQIAKLKEGAE
@@ -226,12 +237,13 @@ FEATURES             Location/Qualifiers
                      QTAIRTLDLVSDHFLAAKNAAQVVREVSCQADRLVKNVQQGLTRRQAPRASQALSTRAQ
                      NPRQASNQTSFVAPAQPGVRSNSLKRALPPTTLEVSQHQPMPNFEARMQLMDMMPIGSL
                      SELSPSLGTTESMSMPSVTSADMVIGTEAQWLHASAMILDSWTTNS"
+                     /Pfam="Zn_clus, Fungal_trans"
      CDS             complement(join(29953..30398,30532..30683,30749..31546,
                      31604..31667,31718..31838))
                      /codon_start=1
                      /gene="patI"
                      /product="cytochrome P450 monooxygenase PatI"
-                     /label=patI
+                     /label="patI"
                      /note="CYP619C2 cytochrome P450"
                      /protein_id="AIG62145.1"
                      /translation="MDILQLAPTHLLAILLSSTSALFLITYLLRAGHRPSDLPNGPPTV
@@ -244,11 +256,12 @@ FEATURES             Location/Qualifiers
                      MHHDSDRWQEPEHFQPERFADFPALASGYAGSERRDHLGYGAGRRICPGIHLAERNLII
                      GIAKLLWAFEFLEPLGSDSDISAHSGASKGFLHCPKDYGCVIRLRSPEKRETIMREFAE
                      AQEVFARFD"
+                     /Pfam="p450"
      CDS             complement(join(32467..32943,33000..33450,33530..33582))
                      /codon_start=1
                      /gene="patJ"
                      /product="cupin domain-containing protein PatJ"
-                     /label=patJ
+                     /label="patJ"
                      /protein_id="AIG62147.1"
                      /translation="MAPFVPYHYSAGQSTIVKFGGLLTTEFLEPPPGRCFLFRQTYRHT
                      IEGSIPENLRKLINSPDRPKGPPPHFHQFQTEYFRVENGVLGISVDGVVRRITPEDGEI
@@ -256,11 +269,12 @@ FEATURES             Location/Qualifiers
                      IQFLAIQDGGDAYTPAPAWVPFRRQVGYWTCVIVGRWIGGLLGYKPFFREYTTDWDFAV
                      AKMKGSFFQRHLVHAAFEEEKSWTKQAELEPKGKPENAEFEPWTEDMSPAPLSLGPVAY
                      EQGLFHGVQPGSVNGSNGHSTGVESKLEQLGSRAQRRVVIDDAGK"
+                     /Pfam="PatJ"
      CDS             join(34419..34505,34579..39822)
                      /codon_start=1
                      /gene="patK"
                      /product="polyketide synthase PatK"
-                     /label=patK
+                     /label="patK"
                      /protein_id="AIG62146.1"
                      /translation="MHSVSPSTYPSGGTSPAPADTPGTEYSEYEFSNDVAVVGMACRVA
                      GGNHNPELLWQSLLSQKSAVGEIPEMRWEPYYRRDPRNAKELKKTTSRGYFLDRLEDFD
@@ -293,6 +307,7 @@ FEATURES             Location/Qualifiers
                      KYDIDHGVVLRSLAIDDGEPVPVPILNDIVVRRVSELSGSAQAAAGSSGNDAVPSSGPE
                      LKAYLDEKIRGCVAKVLQMTAEDVDSKAALADLGVDSVMTVTLRRQLQQTLKIPVPPTL
                      TWSHPTVSHLVVWFAEKIGK"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_TH, fPKS_KR, ACP_PCP"
 ORIGIN
         1 ctatccctca gtaaaccgag aaaacacatc cgcagtcgca gtggcatatt ccctctcaat
        61 cgtatcccga atgacctcgt tgcgtatcac aggtcgacaa gaatagtctt tggcacagta

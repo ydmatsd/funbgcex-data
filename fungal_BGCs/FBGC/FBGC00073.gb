@@ -1,24 +1,24 @@
-LOCUS       FBGC00073       38798 bp DNA     linear   UNA 18-JAN-2023
+LOCUS       FBGC00073              38798 bp    DNA     linear   UNA 18-JAN-2023
 DEFINITION  tryptoquialanine.
 ACCESSION   FBGC00073
-VERSION     .
+VERSION     FBGC00073
 KEYWORDS    .
 SOURCE      Penicillium aethiopicum IBT 5753
   ORGANISM  Penicillium aethiopicum IBT 5753
+            .
 REFERENCE   1  (bases 1 to 38798)
   AUTHORS   Gao X, Chooi YH, Ames BD, Wang P, Walsh CT, Tang Y.
-  TITLE     Fungal indole alkaloid biosynthesis: genetic and biochemical 
-            investigation of the tryptoquialanine pathway in Penicillium 
+  TITLE     Fungal indole alkaloid biosynthesis: genetic and biochemical
+            investigation of the tryptoquialanine pathway in Penicillium
             aethiopicum.
   JOURNAL   J Am Chem Soc 2011;133:2729-41
-  PUBMED    21299212
+   PUBMED   21299212
 REFERENCE   2  (bases 1 to 38798)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Jan 18, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
+  JOURNAL   Exported Jan 18, 2023 from SnapGene 6.2.1 https://www.snapgene.com
 COMMENT     SGRef: number: 1; type: "Journal Article"; doi: "10.1021/ja1101085";
-            journalName: "J Am Chem Soc"; date: "2011"; volume: "133"; pages: 
+            journalName: "J Am Chem Soc"; date: "2011"; volume: "133"; pages:
             "2729-41"
 FEATURES             Location/Qualifiers
      source          1..38798
@@ -29,7 +29,7 @@ FEATURES             Location/Qualifiers
      CDS             complement(join(1..88,142..1106))
                      /codon_start=1
                      /product="short-chain dehydrogenase/reductase TqaC"
-                     /label=tqaC
+                     /label="tqaC"
                      /note="short chain dehydrogenase"
                      /protein_id="ADY16687.1"
                      /translation="MSIPIECHERDQLFGTRAPPGLGSIQTMRWAAKNPPNDPQVSFSG
@@ -39,10 +39,11 @@ FEATURES             Location/Qualifiers
                      PRKSYLITKLLVVYVMQGLIDDYLVAPLDQQCPVVISVVCPGYTVTNLARDLSWPQRTV
                      MMLMNMYCGRSAEEGSRSLLSASLLGAAGHGKFWTNDNFLDLEYTSTAEGQKLQARVWK
                      EIRDVCLKEL"
+                     /Pfam="adh_short"
      CDS             1546..3087
                      /codon_start=1
                      /product="acetyltransferase TqaD"
-                     /label=tqaD
+                     /label="tqaD"
                      /note="acetyltransferase"
                      /protein_id="ADY16688.1"
                      /translation="MTVSETKNEPVRMFEPFYLTCLDHTVGPVFMNFFLSFRCSNIEEC
@@ -54,10 +55,11 @@ FEATURES             Location/Qualifiers
                      SSYLGNGVSLVRTHANAHHALPNPAVSVSKPNLHPTIGNATLLEITALALQLRQKLALM
                      DDANMRQDLARLMSNKDWSQLGTRLPDTMVSSWRQLKTCRLDFGPALGRIAEFNPQATL
                      LDGFCIIQPERADDGCEEKPGWEVYVTLQSDAMGSFLQNGVFSTLSQDKVARYIS"
+                     /Pfam="Transferase"
      CDS             4142..7468
                      /codon_start=1
                      /product="nonribosomal peptide synthetase TqaB"
-                     /label=tqaB
+                     /label="tqaB"
                      /note="nonribosomal peptide synthetase"
                      /protein_id="ADY16689.1"
                      /translation="MFEPIETLSHDEKPVPVISTAVEIPGEDIVLQRYIPEINWKNATS
@@ -80,11 +82,12 @@ FEATURES             Location/Qualifiers
                      YATRMPFETCELPDIVPHCVPSWPVETTRFSHLLVLENTQAIPPVIVDGQECAHNWAFH
                      GRLEDVQVQLVPGKDTLHVAILGPEIRLSQDIANMLVDKLATTLGQFVSMPDELLSKIN
                      G"
+                     /Pfam="AA-adenyl-dom, ACP_PCP, NRPS_CT"
      CDS             complement(join(7752..8043,8104..8474,8535..9118,
                      9230..9371))
                      /codon_start=1
                      /product="FAD-dependent monooxygenase TqaE"
-                     /label=tqaE
+                     /label="tqaE"
                      /note="FAD-dependent oxidoreductase"
                      /protein_id="ADY16690.1"
                      /translation="MTKIVPTTGITVIIVGLGIAGLTAAIECHRQGHKVIGLEKKSTVY
@@ -96,10 +99,11 @@ FEATURES             Location/Qualifiers
                      ASRSTDSSSREEDGVPLALRVMEKLRYRRVSIIQEGSVEAQEVTLEADMDAGTSGDRFN
                      AISRPAWIHCHDCVSHTREEFSKVVDALNKSEGNFDAYVPTNAPVDGLFHAEDDYILQS
                      KGAA"
+                     /Pfam="FAD_binding_3"
      CDS             join(9886..9994,10052..10296,10361..10942)
                      /codon_start=1
                      /product="aldolase TqaM"
-                     /label=tqaM
+                     /label="tqaM"
                      /note="similar to class II aldolase"
                      /protein_id="ADY16691.1"
                      /translation="MTFSAVPTPQDASDPSSKLEPECQLHNLSHGPNPLTGIPKFDSFA
@@ -108,10 +112,11 @@ FEATURES             Location/Qualifiers
                      ITQDVCDLYGVLAVSKEYGGIVTAQQEGQQIAKALGSKGKAAVLLNHGLLSVGSTVDEA
                      SFLFTLLDRSCQIQLQVEAACAGNPALKKHIIPTQLAQFNFAMAGQKDWLYVEAQPDIE
                      YEIAMAGDAITSGLDDTFVSSPNGKEPVTI"
+                     /Pfam="Aldolase_II"
      CDS             complement(11024..11740)
                      /codon_start=1
                      /product="dehalogenase TqaF"
-                     /label=tqaF
+                     /label="tqaF"
                      /note="similar to haloalkanoic acid dehalogenase"
                      /protein_id="ADY16692.1"
                      /translation="MSQLSAYRLLSFDVYGTLVDWEEGICAALQVTLDRYGVQFPRDRL
@@ -119,10 +124,11 @@ FEATURES             Location/Qualifiers
                      DTLNALKRLSKHYKLVVVSNVDQISFSKTNAGSLQGFPFDLVLTAQEIGSYKPDLRNFQ
                      YLLKAVKERLGVEPNQVLHTAQSQFHDHQPAQKVGIKSVWIARSGAIMGNVDEPMYDWR
                      FDTLGEMADAVDAGGI"
+                     /Pfam="HAD_2"
      CDS             join(12570..12735,12799..13197,13297..13853,13906..14067)
                      /codon_start=1
                      /product="transcription factor TqaK"
-                     /label=tqaK
+                     /label="tqaK"
                      /note="bZIP DNA-binding protein"
                      /protein_id="ADY16693.1"
                      /translation="MAFYTNEQVSWRAAGVPTACSVPGASELSVVGSSIAVKSRMERKR
@@ -133,10 +139,11 @@ FEATURES             Location/Qualifiers
                      SSPLAYEQRLSRTRRLPKVIADVCHTADQWDSRERRGLQEEIVKTTENLLSSEGDDAQR
                      NFTECIMTLAQTQAQDMTNKTCSPGPIKRMMENELPTRWALMMGLAAENRAAWQRDRSD
                      IALAAIVLLHFAGRIPKEQLLRLLSTLL"
+                     /Pfam="TqaK"
      CDS             14640..15755
                      /codon_start=1
                      /product="2OG-Fe(II)-dependent dioxygenase TqaL"
-                     /label=tqaL
+                     /label="tqaL"
                      /protein_id="ADY16694.1"
                      /translation="MEAISPIKHLWGRVRPASHLQHHIRGYSPHRQWYRGIGVVSSVLK
                      QTRDLAVEARLPPLNIQKQWGKAEFYEAISRICQLRQKYLENRTVFVDGREMAPLLKAL
@@ -145,11 +152,12 @@ FEATURES             Location/Qualifiers
                      RTVTTPELLGEPALEGVHTDGVDHTMTTYLQSTNMSSNSAVTFLHDVKEKTGIRLNETS
                      PELILSRAQHRNFLDTLLIVDNERKHSISPVYAVDASKEATRDMLIFFTRKPVVGGHIS
                      SDIDSLIPHREKQLEFPIMNLSDGYGLERVE"
+                     /Pfam="2OG-Fe_Oxy_2"
      CDS             complement(join(16819..17071,17135..17496,17559..17947,
                      18007..18216,18286..18541))
                      /codon_start=1
                      /product="FAD-linked oxidoreductase TqaG"
-                     /label=tqaG
+                     /label="tqaG"
                      /note="FAD-dependent oxidoreductase"
                      /protein_id="ADY16695.1"
                      /translation="MRSYLIPILAGLPILARSTLALASQDEGPDFKAIFSPVLSSGARL
@@ -161,10 +169,11 @@ FEATURES             Location/Qualifiers
                      NMYQMGLKKTDVDTLVSSFNSWSTFSAENDWFNGLIMMERHSEKKVMSVPKEEQGVYPW
                      RDTKIQMILVNYVTDPKYAGTLHDFMQPVRADIQGAMGFENHHSYVNEAYGDEGPKVWY
                      GEHNLPRLVAAKQKWDPSSQFGAGMPVPLSL"
+                     /Pfam="FAD_binding_4, BBE"
      CDS             complement(join(19339..19953,20023..20612,20697..20883))
                      /codon_start=1
                      /product="FAD-dependent monooxygenase TqaH"
-                     /label=tqaH
+                     /label="tqaH"
                      /note="FAD-dependent oxidoreductase"
                      /protein_id="ADY16696.1"
                      /translation="MTTDRQPSTPAPHAGNDAAPNSTGIKVVIVGVGLAGITAAIECHR
@@ -176,10 +185,11 @@ FEATURES             Location/Qualifiers
                      QGGSQGIEDGAVLAIALSLAGKERVPLALQVVEKIRYPRATVIQLGSESFQATVLRSDW
                      GKDESKRDEFRFPNPDWIFSHDCQSYAYQEFESVVEAIRDGKEYVPTNIPVDGVYRVEN
                      TYKRG"
+                     /Pfam="FAD_binding_3"
      CDS             join(21893..22468,22554..34202)
                      /codon_start=1
                      /product="nonribosomal peptide synthetase TqaA"
-                     /label=tqaA
+                     /label="tqaA"
                      /note="nonribosomal peptide synthetase"
                      /protein_id="ADY16697.1"
                      /translation="MTVQSLEGEITLPSKKCLFPIRNDGNTTDNGKTHWGRTQLCTCTL
@@ -252,10 +262,11 @@ FEATURES             Location/Qualifiers
                      HTQTQYTRALSHEHVELRDIFQHSTNWPAETPLSLIVQHQNIDLSFSLPLRGSSVSGDG
                      EDDSSLDVQYSKFARFDPLDEVWIFTEPHADRLEVQVCANSRVLGQEQATELANNISAI
                      ITKFSTDPTARLLDITF"
+                     /Pfam="NRPS_C, AA-adenyl-dom, ACP_PCP, NRPS_E, NRPS_CT"
      CDS             35119..35928
                      /codon_start=1
                      /product="trypsin-like serine protease TqaI"
-                     /label=tqaI
+                     /label="tqaI"
                      /note="similar to trypsin-like serine protease"
                      /protein_id="ADY16698.1"
                      /translation="MLVYFPLPSYYNLVYSLFMLNSITYGSFLCLLLSIAQPIHALDGG
@@ -263,11 +274,12 @@ FEATURES             Location/Qualifiers
                      TGGTVVNFNKIIQHPKYSTKTWDFDIALLTLSEAAPENVPLATIGNFSDAIGSGVTMYG
                      WGLTNYSNTEFPEKLQKLDAIGITDAWCAEEWKGLHSISNRMVCDWPPVEKASWEGDKG
                      GPVVNTLDGSVVGLISFSIYETERKKALPDVHTNLEYFNSWIKAHVA"
+                     /Pfam="Trypsin"
      CDS             complement(join(36947..37588,37642..38065,38151..38530,
                      38586..38798))
                      /codon_start=1
                      /product="major facilitator superfamily transporter TqaJ"
-                     /label=tqaJ
+                     /label="tqaJ"
                      /note="putative MFS toxin efflux pump"
                      /protein_id="ADY16699.1"
                      /translation="MASDNKSSYVELDNYGSTNSPHASTKELLRQGGKEETEMPDGSGD
@@ -280,6 +292,7 @@ FEATURES             Location/Qualifiers
                      LLTTLEPDSGPAKWIGYQAMTGIGAGMGMQLPAIVVQAAVQEADIPVATTLVVFSQSLS
                      GAIFISIAQNVFQNRLLANIRKLAPMIDPAEVVQAGATKLREAFPENIKLVLQAYNNAV
                      TQSFYIAVAMSALSIFGALCLQWISVKKKPVTTAL"
+                     /Pfam="MFS_1"
 ORIGIN
         1 tcaaagttcc ttcaaacaaa catcgcgaat ttccttccac acccgagctt gaagcttctg
        61 accctcagct gtggaggtat attcaagact gccagcgatg tttagatagt gtggaattca

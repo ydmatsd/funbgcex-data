@@ -1,25 +1,25 @@
-LOCUS       FBGC00072       18809 bp DNA     linear   UNA 18-JAN-2023
+LOCUS       FBGC00072              18809 bp    DNA     linear   UNA 18-JAN-2023
 DEFINITION  paxilline.
 ACCESSION   FBGC00072
-VERSION     .
+VERSION     FBGC00072
 KEYWORDS    .
 SOURCE      Penicillium paxilli PN2013
   ORGANISM  Penicillium paxilli PN2013
+            .
 REFERENCE   1  (bases 1 to 18809)
   AUTHORS   Young C, McMillan L, Telfer E, Scott B.
-  TITLE     Molecular cloning and genetic analysis of an indole-diterpene gene 
+  TITLE     Molecular cloning and genetic analysis of an indole-diterpene gene
             cluster from Penicillium paxilli.
   JOURNAL   Mol Microbiol 2001;39:754-64
-  PUBMED    11169115
+   PUBMED   11169115
 REFERENCE   2  (bases 1 to 18809)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Jan 18, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1046/j.1365-2958.2001.02265.x"; journalName: "Mol Microbiol"; 
+  JOURNAL   Exported Jan 18, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1046/j.1365-2958.2001.02265.x"; journalName: "Mol Microbiol";
             date: "2001"; volume: "39"; pages: "754-64"
-COMMENT     On Oct 17, 2010 this sequence version replaced AF279808.1.
+            On Oct 17, 2010 this sequence version replaced AF279808.1.
 FEATURES             Location/Qualifiers
      source          1..18809
                      /strain="PN2013"
@@ -31,7 +31,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="paxG"
                      /product="geranylgeranyl pyrophosphate synthase PaxG"
-                     /label=paxG
+                     /label="paxG"
                      /note="geranylgeranyl pyrophosphate synthase"
                      /protein_id="AAK11531.1"
                      /translation="MSYILAEALNFVRRGISHLNYWGASHSLSADNYWESNFQGFPRLL
@@ -41,11 +41,12 @@ FEATURES             Location/Qualifiers
                      ALDLMRIQSRKNTDFSKLVELLGVIFQIRDDYMNLQSGLYAEKKGLMEDLTEGKFSYPI
                      IHSIRASPESSELLDILKQRTEDEAVKIRAVKIMESTGSFQYTRETLSRLSAEARGYVK
                      KLETSLGPNPGIHKILDLLEVEYPTNEKGRV"
+                     /Pfam="GGPS"
      CDS             complement(join(1837..2563,2624..2967))
                      /codon_start=1
                      /gene="paxA"
                      /product="hypothetical protein PaxA"
-                     /label=paxA
+                     /label="paxA"
                      /protein_id="ADO29933.1"
                      /translation="MTSITTSVLVLHSLLAANFKYYQSFQNGFIDMLSAMADSNSVSGL
                      PGQLCREYTGIRPLDTFLTSCTVFFWPTFQGEIPGLSLYGIAFASAMIPMWLIIVIDVH
@@ -54,11 +55,12 @@ FEATURES             Location/Qualifiers
                      KHACIFALACSSAGHLVLLSLTWLWSLSYWGYIQSAPWNEPPLASLEAGVLRFLQWDYT
                      LSASATLSWAIAFRHEVVQQKSLRISLLSLLRCLIGIVFLGPCSMVALLYWQTCSLQEE
                      AGQKAPAKDKQLDQEI"
+                     /Pfam="CtvD"
      CDS             complement(join(3720..4588,4647..4918,4986..5278))
                      /codon_start=1
                      /gene="paxM"
                      /product="FAD-dependent monooxygenase PaxM"
-                     /label=paxM
+                     /label="paxM"
                      /note="monooxygenase"
                      /protein_id="AAK11530.1"
                      /translation="MEKAEFQVIIVGGSIGGLTLAHCLHRAGIKHVVLEKASDPAPQIG
@@ -70,22 +72,24 @@ FEATURES             Location/Qualifiers
                      SSGPYFPTSSQMEFLLQKYRDLRYERVNTIYQSSRFLVRFQVRDGIIYSLLSRYWAPYA
                      GDLPADMASKTIADGTMCDFLPTPKRSGGGWEKYSKQGRSWSYLTQLMIYLFGLTIVYT
                      SLTMMFDLEGALKFYFLQV"
+                     /Pfam="FAD_binding_3"
      CDS             complement(join(5758..5971,6059..6576))
                      /codon_start=1
                      /gene="paxB"
                      /product="terpene cyclase PaxB"
-                     /label=paxB
+                     /label="paxB"
                      /protein_id="ADO29934.1"
                      /translation="MDGFDVSQAPPEYQAIKPLADLFVVGMGVGWIINYIGMVYISFKH
                      ETYGMSIMPLCCNIAWELVYCLVFPSKSPVERGVFWMGLLINFGVMYAAITFSSREWGH
                      APLVERNISLIFFVATMGFLSGHVALALEIGPALAYSWGAVICQLLLSVGGLSQLLCRG
                      STRGASYTLWASRFLGSTCTVGFAGLRWMYWSEAFGWLNSPLVLWSLVVFLSIDGFYGI
                      CFWYVDRNEKSLGISGPKKAN"
+                     /Pfam="Pyr4"
      CDS             join(7642..7923,7986..8338,8400..8718)
                      /codon_start=1
                      /gene="paxC"
                      /product="prenyltransferase PaxC"
-                     /label=paxC
+                     /label="paxC"
                      /protein_id="AAK11529.1"
                      /translation="MGVAGSGVLYFLFNNVPSPRFWLKKTQLIGTENPEGITGYECPYE
                      YLRKSYGKHHWAAFVDKLSPNLQNEDPAKYRMVLETMDVIHLCLMMVDDISDGSEYRKG
@@ -93,12 +97,13 @@ FEATURES             Location/Qualifiers
                      GVNGFPGTASERTAAYKRMVLLKTGGLFRLLGHLTLENNSMDEAFSTLGWHSQLQNDCK
                      NVYSSEYAKMKGVVAEDLLNREMTYPIVLALDASGGHWVEAALKSPSRRNVGNALKIIQ
                      CDYVRDVCMAELARSGAPVKEWLKLWKREEKLDLKA"
+                     /Pfam="PaxC"
      CDS             complement(join(9258..9667,9733..10350,10416..10484,
                      10543..10627,10688..10813,10867..11106))
                      /codon_start=1
                      /gene="paxP"
                      /product="cytochrome P450 monooxygenase PaxP"
-                     /label=paxP
+                     /label="paxP"
                      /note="cytochrome P450 monooxygenase"
                      /protein_id="AAK11528.1"
                      /translation="MDLSDFHISTPLRYFHEEASLLWKLGVFAVLVYFLLPKPTYKTNV
@@ -110,13 +115,14 @@ FEATURES             Location/Qualifiers
                      DEIRNEIKDWNKATQADLSRLIIMDSFLKESQRLNPPGDLSFHRVVKKDLTLSDGLFLP
                      KGTHICMAAGPISKDPDVVSDPDTFDAFRFVKQRTATSGFVSTGPNNMHFGLGRYACPG
                      RFFAAFVIKLILSRFLMDYDFKFETEHKERPKNLLIGDKIVPNVATPILIKRRATKA"
+                     /Pfam="p450"
      CDS             complement(join(13492..13672,13739..13982,14033..14210,
                      14276..14395,14461..14566,14621..14801,14858..15044,
                      15111..15239,15307..15411,15471..15578))
                      /codon_start=1
                      /gene="paxQ"
                      /product="cytochrome P450 monooxygenase PaxQ"
-                     /label=paxQ
+                     /label="paxQ"
                      /note="cytochrome P450 monooxygenase"
                      /protein_id="AAK11527.1"
                      /translation="MDFVLSALQRDSWGIAAIILVSIWALHSFHRSRKLQIPVPYVGKC
@@ -128,11 +134,12 @@ FEATURES             Location/Qualifiers
                      EHGGWVKEGIEGMVKLDSFIKECQRFNPLDAGSLARRATKDFTFKNGLTIPEGTFVFAP
                      NGPILFDDTLYPEARQFDGYRFYNLGQKTGKPQDFRFAATNQKYLQFGDGRHTCPGRWM
                      ASDEIRLMLAHILMNYDIATKDNKGRPENWIFKKILFPDMKAVVILKARKSVSA"
+                     /Pfam="p450"
      CDS             complement(join(17403..17550,17641..18809))
                      /codon_start=1
                      /gene="paxD"
                      /product="DMATS-type prenyltransferase PaxD"
-                     /label=paxD
+                     /label="paxD"
                      /note="aromatic prenyl transferase"
                      /protein_id="AAK11526.2"
                      /translation="MQSDELQIPPWESLAEGLGFSNADEEYWWTVFGQPLNKLMDWADY
@@ -143,6 +150,7 @@ FEATURES             Location/Qualifiers
                      IFTLGGRLDGPEMQRATKELRKLWMSTMAIPDGLRDDETLPKSPLPCAGVIFNFEIWPG
                      ADKPNPKIYLPCAYYGKDDLDIADGMDSFFKDQGWSKSFHSYKDNYIKAFVKDGKVMCR
                      HHDISFSYKGQGAYITAYYKPELSEYADPSVWAPKLFKA"
+                     /Pfam="Trp_DMAT"
 ORIGIN
         1 ttaaactctt cctttctcat tagtagggta ctccacttca agtagatcga gaatcttatg
        61 aattccagga ttgggcccta aggaagtctc cagcttcttt acatagccac gagcctccgc

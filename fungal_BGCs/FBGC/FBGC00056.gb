@@ -1,29 +1,29 @@
-LOCUS       FBGC00056       28671 bp DNA     linear   UNA 16-JAN-2023
+LOCUS       FBGC00056              28671 bp    DNA     linear   UNA 25-AUG-2024
 DEFINITION  equisetin.
 ACCESSION   FBGC00056
-VERSION     .
+VERSION     FBGC00056
 KEYWORDS    .
 SOURCE      Fusarium heterosporum
   ORGANISM  Fusarium heterosporum
+            .
 REFERENCE   1  (bases 1 to 28671)
   AUTHORS   Kakule TB, Sardar D, Lin Z, Schmidt EW.
-  TITLE     Two related pyrrolidinedione synthetase loci in Fusarium 
+  TITLE     Two related pyrrolidinedione synthetase loci in Fusarium
             heterosporum ATCC 74349 produce divergent metabolites.
   JOURNAL   ACS Chem Biol 2013;8:1549-57
-  PUBMED    23614392
+   PUBMED   23614392
 REFERENCE   2  (bases 1 to 28671)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Jan 16, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: "10.1021/cb400159f";
-            journalName: "ACS Chem Biol"; date: "2013"; volume: "8"; pages: 
-            "1549-57"
+  JOURNAL   Exported Aug 25, 2024 from SnapGene 7.2.1 https://www.snapgene.com
 COMMENT     ##Assembly-Data-START##
             Assembly Method       :: VELVET v. 1.2.08
             Coverage              :: 235
             Sequencing Technology :: Illumina
             ##Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi: "10.1021/cb400159f";
+            journalName: "ACS Chem Biol"; date: "2013"; volume: "8"; pages:
+            "1549-57"
 FEATURES             Location/Qualifiers
      source          1..28671
                      /strain="ATCC 74349"
@@ -36,9 +36,9 @@ FEATURES             Location/Qualifiers
                      11637..12267))
                      /codon_start=1
                      /gene="eqxS"
-                     /product="polyketide synthase-nonribosomal peptide 
+                     /product="polyketide synthase-nonribosomal peptide
                      synthetase EqxS"
-                     /label=eqxS
+                     /label="eqxS"
                      /protein_id="AGO86662.1"
                      /translation="MDASEPIAVIGSACRFPGGSDSPSKLWELLKEPRDLLSKVPPERY
                      NADAFYHADATHHGTANVRHSYFLSEDPSSFDNNFFNIQPGEAEAIDPQQRLLMEVVYQ
@@ -108,11 +108,13 @@ FEATURES             Location/Qualifiers
                      ESVQQSEEEDISILNELIQIVKLLGCRPSFDGVGGFVDVMPVNEVVEAIHKTGLNSQTE
                      EGFCILEHKAHQRAYVKSFAAAVESDSDLSKIPCIPILEWFGRTKKAGFSYFLASQDLI
                      LGSQLFSRR"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_DH, PKS_NRPS_MT, fPKS_KR,
+                     ACP_PCP, Condensation, AA-adenyl-dom, fPKS_R"
      CDS             12811..13944
                      /codon_start=1
                      /gene="eqx3"
                      /product="Diels-Alderase Fsa2"
-                     /label=eqx3
+                     /label="eqx3"
                      /protein_id="AGO86663.1"
                      /translation="MSNVTVSVFTLDKSISEEPVLPSSFIPSSGNVFPKFTSAIPKTAW
                      ELWYFDGISKDDRSSIVIGVTRNAEGLKHGGFKVQVFVIWADERTWHRDLFFPESVVSI
@@ -121,11 +123,12 @@ FEATURES             Location/Qualifiers
                      SYYLRAQVGPYAMQIMRIFPPKGSENSENQPSTMARLYREGQLICAPQHVVTRDDALIT
                      HDSLILSKQNTSDSGDAVTGEYRDKNTGYTVEFVGKGNEEQRWEFQVRHERIIWNTPTS
                      RPGPDATGNTGFVERLYGGTIGESYEGVGTGGQCELS"
+                     /Pfam="Fsa2"
      CDS             14481..15542
                      /codon_start=1
                      /gene="eqxC"
                      /product="trans-acting enoylreductase EqxC"
-                     /label=eqxC
+                     /label="eqxC"
                      /protein_id="AGO86659.1"
                      /translation="MVQRQQTALVGTHDGGIRLSSTETIPDIAGDSVLIKTKAVSVNPV
                      DTKMIGPYVTPGAVAGFDFAGVVEMVGPDATKCDIRVGDRVCTAIMGMNPLDPTVGAFA
@@ -134,11 +137,12 @@ FEATURES             Location/Qualifiers
                      NIRYALDCISTTQSMQFCYQAIGRAGGKYTALEPYSEAVARTRKMVKPDWIMGPQMLGK
                      EIRWPEPHWRPANAEMGEFGVYWTAVLNKLLENDLIRPHAIVVREGGLEKVLDGIEDIR
                      AKKISGKKLVFTL"
+                     /Pfam="fPKS_ER"
      CDS             join(16021..16789,16839..17149)
                      /codon_start=1
                      /gene="eqxD"
                      /product="methyltransferase EqxD"
-                     /label=eqxD
+                     /label="eqxD"
                      /protein_id="AGO86665.1"
                      /translation="MSSILSRYPEAETPVHGYFYSMVELAVVRVFVQHEIFDAIADDGT
                      SIEELATKTGMEMNLLERLSNFLIASKVLSSPKPGFIGLPAETKMFQQRRAKLFYSHIF
@@ -147,11 +151,12 @@ FEATURES             Location/Qualifiers
                      QDLPNVIKDTPEEDGILRKVQKVGSSFFDKQSTRGALVYYIRRVLNDWPDDECVTILKN
                      IREACASDSRLLISENLLPDEPSVSLAAADLWMMNFAGKRRNVRMFNDLASRSGFEISS
                      IAKDKMSNSAVIEMLPVQS"
+                     /Pfam="Methyltransf_2"
      CDS             complement(17418..18827)
                      /codon_start=1
                      /gene="eqxR"
                      /product="transcription factor EqxR"
-                     /label=eqxR
+                     /label="eqxR"
                      /protein_id="AGO86667.1"
                      /translation="MSTQNNQSIRSSCDRCRSHKLKCTVAPENSRSGSNRCTRCIRAQV
                      TCVFGHRSQSKRSTNVKKADIKSGTNSQETTSMQASTIVPGRVSVSPDLWVGRQEVEEG
@@ -162,12 +167,13 @@ FEATURES             Location/Qualifiers
                      LPHSYTSPTSHTSPRWGLGLQLGELPSADETCTKVYTAVQILLDAFQSVEDVVGLPRSL
                      SAVRQQTCGKEEEAESGDVFNRASLWTDFLAKSVFKATVKGTSEEDCEEIRQLSIKVKS
                      LKALIRERMKL"
+                     /Pfam="EqxR"
      CDS             complement(join(20583..20710,20867..22160,22218..22249,
                      22306..22788,22845..22916,23032..23113))
                      /codon_start=1
                      /gene="eqxF"
                      /product="transcription factor EqxF"
-                     /label=eqxF
+                     /label="eqxF"
                      /protein_id="AGO86660.1"
                      /translation="MADQVQDVHPMEWGPGKTPQGRARLPSSFDATVKDPVAAVHSENL
                      VCRVPMHRIRHLESLVYDLMQNSSANVNQEQVGVTPSPGDQPHVPDYPTPSAAHAPSTN
@@ -182,11 +188,12 @@ FEATURES             Location/Qualifiers
                      QLSESASFDETIMTSLSRSHDIWLQSSNSSKEARKVVRALAVILGRVNTPSADAAGESG
                      LVFGLQSTYPPSTTNDYSQAPMITPTAEWQEMDGQSQWLPGPRVIQRLTYDMQRQQMRW
                      GL"
+                     /Pfam="CghF"
      CDS             join(23642..23892,23948..24326,24510..25325)
                      /codon_start=1
                      /gene="eqxG"
                      /product="major facilitator superfamily transporter EqxG"
-                     /label=eqxG
+                     /label="eqxG"
                      /protein_id="AGO86666.1"
                      /translation="MATTDPAIAAPDDSQLEAGRENIRANVGDALEKPSSSTGTMVDEP
                      TDPNVVDWDGPHDPEHPLNWSKTQKNLHLVIVSLFTLAANLAATMFAPGAEELATEFSI
@@ -197,11 +204,12 @@ FEATURES             Location/Qualifiers
                      KQKSGAARPEDRLILMKWLGPITPLGLFIYGWTAKYAVHWIVPIIGTFVVGFGSLFVVI
                      PGQIYLVDAFGAEAAASAMAANLLVRSPFGAFLDLTASPLYVSLGLGWGNSVLGFICLL
                      FTPVPWLFYTYGERMRTHFKVDL"
+                     /Pfam="MFS_1"
      CDS             complement(25670..26494)
                      /codon_start=1
                      /gene="eqx9"
                      /product="vWA domain-containing protein Eqx9"
-                     /label=eqx9
+                     /label="eqx9"
                      /protein_id="AGO86669.1"
                      /translation="MSAPTSPTMDENEYEKTLLQLRCFDTMFLVDDSEAMQPYWPEIKT
                      LIERIAPICAKHDPDGVDLYFVNHRPGGMLAKIPGVQSIRKSGYTHIGGFVGSMLLTSK
@@ -213,7 +221,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="eqxH"
                      /product="cytochrome P450 monooxygenase EqxH"
-                     /label=eqxH
+                     /label="eqxH"
                      /protein_id="AGO86661.1"
                      /translation="MSTKLDTILENPQYAILCGITVFTLFIVQLSLFDRGRNYPLLNPK
                      GSFEISTNRVVREFISDSRNLLEKGKSLFKGQPYRANTDWGEVVVIPPQFLDALKSHKD
@@ -224,6 +232,7 @@ FEATURES             Location/Qualifiers
                      TALLNLKLMDSVLKESQRLRPALLGSFRRLAMADVTLPNGDVIKKGTKIVCSTSHMWSA
                      DSHESGEEFDGYRFLRMREKEETEQGKTSHPHLVSPSSDHLGFGFGNHACPGRFFAANE
                      LKIALCHMLLKYDWKLAKDAVPRSASFGMILMPDLRTKLLIRRRSEELDIDSVES"
+                     /Pfam="p450"
 ORIGIN
         1 tcaacgcctt gaaaatagct gtgatccgag aatgagatcc tgcgatgcca agaaataaga
        61 gaagcctgcc ttcttcgtcc taccaaacca ttctaagatg ggtatacagg ggattttgct

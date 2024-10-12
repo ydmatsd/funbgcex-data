@@ -1,40 +1,40 @@
-LOCUS       FBGC00090       25483 bp DNA     linear   UNA 18-JAN-2023
+LOCUS       FBGC00090              25483 bp    DNA     linear   UNA 18-JAN-2023
 DEFINITION  mycophenolic acid.
 ACCESSION   FBGC00090
-VERSION     .
+VERSION     FBGC00090
 KEYWORDS    .
 SOURCE      Penicillium brevicompactum NRRL864
   ORGANISM  Penicillium brevicompactum NRRL864
+            .
 REFERENCE   1  (bases 1 to 25483)
-  AUTHORS   Zhang W, Cao S, Qiu L, Qi F, Li Z, Yang Y, Huang S, Bai F, Liu C, 
+  AUTHORS   Zhang W, Cao S, Qiu L, Qi F, Li Z, Yang Y, Huang S, Bai F, Liu C,
             Wan X, Li S.
-  TITLE     Functional characterization of MpaG', the O-methyltransferase 
+  TITLE     Functional characterization of MpaG', the O-methyltransferase
             involved in the biosynthesis of mycophenolic acid.
   JOURNAL   Chembiochem 2015;16:565-9
-  PUBMED    25630520
+   PUBMED   25630520
 REFERENCE   2  (bases 1 to 25483)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Jan 18, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1002/cbic.201402600"; journalName: "Chembiochem"; date: "2015"; 
-            volume: "16"; pages: "565-9"
+  JOURNAL   Exported Jan 18, 2023 from SnapGene 6.2.1 https://www.snapgene.com
 COMMENT     ##Assembly-Data-START##
             Assembly Method       :: SOAPdenovo v. 2.04
             Sequencing Technology :: Illumina
             ##Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1002/cbic.201402600"; journalName: "Chembiochem"; date: "2015";
+            volume: "16"; pages: "565-9"
 FEATURES             Location/Qualifiers
      source          1..25483
                      /strain="NRRL864"
                      /mol_type="genomic DNA"
-                     /collection_date=20-Mar-2013
+                     /collection_date="20-Mar-2013"
                      /db_xref="taxon:5074"
                      /organism="Penicillium brevicompactum"
      CDS             complement(join(1..595,669..963,1034..1139))
                      /codon_start=1
                      /product="UbiA-like prenyltransferase MpaA'"
-                     /label=MpaA'
+                     /label="MpaA'"
                      /note="putative prenyl transferase"
                      /protein_id="AJG44379.1"
                      /translation="MTNAVEDSGPRDLLFLLISTSRFNRYMPYYTMMAAVWATFIAGAL
@@ -43,10 +43,11 @@ FEATURES             Location/Qualifiers
                      QYILGLAIGYPAITGWASITGSEEPLGDIIKHCIPICLLVFFWCVYFNTAYSHQDSVDD
                      RKMNINSAYVIAGQRIRLFLAFLSVLPLLTIPYIISTINSPWLWVSWMATWTVSIVMQI
                      AQFDSQKLESGGRIHWDNFLLGLWTIVACMVEVGLQKVEFWKNVEGYIKL"
+                     /Pfam="UbiA_PT"
      CDS             join(2627..2911,3010..3596,3670..4069)
                      /codon_start=1
                      /product="ER-bound oxygenase MpaB'"
-                     /label=MpaB'
+                     /label="MpaB'"
                      /note="putative dephospho-CoA kinase"
                      /protein_id="AJG44380.1"
                      /translation="MSLSLPPALSELARALPYSRTQWLPILVGFLIGYPLLIKALRYKR
@@ -57,11 +58,12 @@ FEATURES             Location/Qualifiers
                      MDDRLRKAMLYEAPSPGWSAVFSSLLATRKFVLRYLSPPRPAALAVSNIAQKPDKDDRY
                      HRMSWDALPFYIRPTFWNRWGPMAWISWLMAHPVPGDHGQKYYPQGYHIQDIGPKYFEG
                      KGHKEIQEMMKELKISRTGKCPFH"
-     CDS             complement(join(4522..5447,5522..8794,8855..9458,9564..9958,
-                     10024..10399,10469..11569,11644..12276))
+                     /Pfam="MPAB_Lcp_cat"
+     CDS             complement(join(4522..5447,5522..8794,8855..9458,
+                     9564..9958,10024..10399,10469..11569,11644..12276))
                      /codon_start=1
                      /product="polyketide synthase MpaC'"
-                     /label=MpaC'
+                     /label="MpaC'"
                      /note="polyketide synthase"
                      /protein_id="AJG44381.1"
                      /translation="MNFHKGQPKEDLRVLFGPQCPDITDSITHIRDAISKDPTGLGFLT
@@ -106,11 +108,13 @@ FEATURES             Location/Qualifiers
                      LKERPLGGWMSTRDPRSRIALHMNWTGQTLPVLLKACTIKGNTEKCSPDDLSRPTEEDI
                      QAVSPNYQIRVGRYNTPTFLIHGTSDDLVPCAQTESTHGALTASGVEAELRVVQEAAHL
                      FDLYPASHAGQEAKAAVAEGYEFLRTHVQL"
+                     /Pfam="SAT2, PKS_KS, PKS_AT, fPKS_PT, ACP_PCP, HTH_51,
+                     PKS_NRPS_MT, BD-FAE, Peptidase_S9"
      CDS             join(15596..15883,15957..16325,16384..16598,16662..17112,
                      17167..17256,17307..17497,17547..18504)
                      /codon_start=1
                      /product="cytochrome P450 monooxygenase/hydrolase MpaDE'"
-                     /label=MpaDE'
+                     /label="MpaDE'"
                      /note="P450 monooxygenase and hydrolase fusion protein"
                      /protein_id="AJG44382.1"
                      /translation="MESLSLTWITAIAVVLYLVQRYVRSYWRLKDIPGPVLAKLTDLQR
@@ -128,10 +132,11 @@ FEATURES             Location/Qualifiers
                      KIGSFDAMDYFGDGSFYLLDAAGHSVGHIGALARVTTSPDSFVFMGGDSCHHAGVLRPT
                      KYLPCPLDSGDTSLPCKSDSVFTLSPALPTDYTAALRTVENIKELDACEDVFVVLAHDA
                      TLKGKVDFYPSKINDWKAKEYGKKTKWLFYKDIENAIEGQK"
+                     /Pfam="p450, Lactamase_B"
      CDS             complement(join(18944..20442,20496..20643))
                      /codon_start=1
                      /product="inosine-5'-monophosphate dehydrogenase MpaF'"
-                     /label=MpaF'
+                     /label="MpaF'"
                      /note="putative inosine monophosphate dehydrogenase"
                      /protein_id="AJG44383.1"
                      /translation="MVEILDYTKALEVLKEYPSGDGLHVDTLLDSDNHGALTYNDFLIL
@@ -144,10 +149,11 @@ FEATURES             Location/Qualifiers
                      GLALGASAVMMGSLLAGTTESPGEYYVSNEGQLVKAFRGMGSIAVMEDKGKSGGGKNAG
                      ASRYFSENDKVKVAQGVAGSVVDRGSITQYVPYLVAGIQHSLQDIGVQDLEALHNGVNN
                      GQVRFEMRSASAQTEGNVHGLHSHEKKLYSS"
+                     /Pfam="IMPDH"
      CDS             complement(join(21262..22290,22343..22510))
                      /codon_start=1
                      /product="methyltransferase MpaG'"
-                     /label=MpaG'
+                     /label="MpaG'"
                      /note="putative O-methyltransferase"
                      /protein_id="AJG44384.1"
                      /translation="MSAASPASIIQELASAAKQYENNESGAREALIAQSRALIASLEVP
@@ -157,11 +163,12 @@ FEATURES             Location/Qualifiers
                      LNGFDASVSDVLLVDVGGGRGHDIATFGSQFSPLPGRLVLQDREQVINSIPADESRQFE
                      ATTHDIFTTQPVKHARAYYMHSVPHGFGDEDAVKIMANLVPALAKGYSRVLLNEIVVDE
                      ERPVMSATNMDLIMLAHMGAKERTEADWRSILTRAGLKVVNIYSYPGVAESLIEAELA"
+                     /Pfam="Methyltransf_2"
      CDS             complement(join(24003..24870,24942..25050,25104..25236,
                      25292..25483))
                      /codon_start=1
                      /product="acyl-CoA hydrolase MpaH'"
-                     /label=MpaH'
+                     /label="MpaH'"
                      /note="putative hydrolase"
                      /protein_id="AJG44385.1"
                      /translation="MSTEKFTITEHLVPGSHIREYPGSTVNQEDVLKIHVKQYTPKREG
@@ -172,6 +179,7 @@ FEATURES             Location/Qualifiers
                      VPRDTHADMDPLVAYIPLYRPEPRSTFRRLETLRPSCLWVIAGATFLNIDEIREGVKIC
                      GSGIGGSGGVPDGRVREVVLPGFGHLMPFQEVKTVAETCIVWLQQEMDRFRQTERQWKE
                      DRDGKSHLAVEENWYKVLKPIPSGRKKRNDKGKL"
+                     /Pfam="Abhydrolase_6"
 ORIGIN
         1 tcaaagctta atgtacccct caacattctt ccagaattcc accttctgca atccgacttc
        61 aaccatgcaa gcaacgatcg tccacaatcc cagcaggaag ttgtcccaat ggatacgacc

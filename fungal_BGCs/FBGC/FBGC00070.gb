@@ -1,23 +1,23 @@
-LOCUS       FBGC00070       23693 bp DNA     linear   UNA 18-JAN-2023
+LOCUS       FBGC00070              23693 bp    DNA     linear   UNA 18-JAN-2023
 DEFINITION  griseofulvin.
 ACCESSION   FBGC00070
-VERSION     .
+VERSION     FBGC00070
 KEYWORDS    .
 SOURCE      Penicillium aethiopicum IBT 5753
   ORGANISM  Penicillium aethiopicum IBT 5753
+            .
 REFERENCE   1  (bases 1 to 23693)
   AUTHORS   Chooi YH, Cacho R, Tang Y.
-  TITLE     Identification of the viridicatumtoxin and griseofulvin gene 
+  TITLE     Identification of the viridicatumtoxin and griseofulvin gene
             clusters from Penicillium aethiopicum.
   JOURNAL   Chem Biol 2010;17:483-94
-  PUBMED    20534346
+   PUBMED   20534346
 REFERENCE   2  (bases 1 to 23693)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Jan 18, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1016/j.chembiol.2010.03.015"; journalName: "Chem Biol"; date: 
+  JOURNAL   Exported Jan 18, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1016/j.chembiol.2010.03.015"; journalName: "Chem Biol"; date:
             "2010"; volume: "17"; pages: "483-94"
 FEATURES             Location/Qualifiers
      source          1..23693
@@ -28,7 +28,7 @@ FEATURES             Location/Qualifiers
      CDS             complement(join(1..1884,1936..2118))
                      /codon_start=1
                      /product="transcription factor GsfR1"
-                     /label=gsfR1
+                     /label="gsfR1"
                      /note="putative transcriptional activator"
                      /protein_id="ADI24950.1"
                      /translation="MSDGPETAEGDTDDAVQDAAVNSRVASESSARSQPRATVVGCLPP
@@ -43,11 +43,12 @@ FEATURES             Location/Qualifiers
                      DIEAGPAEARSDDGQKDDQNVLVVKVPHVGAIKIARDGISITPFDTEQEQVSHDGVTIG
                      GFGSIHVSTPHDSDRDGDHQADVVTPNDTASQATTQVVRPASARKQWRPVSQRSSGDVF
                      TLPEETFPDASAGMEEWLFQGLDTAFFDVLISGAGEQPLNSTDTEGWNFVMSP"
-     CDS             join(3080..3295,3348..3447,3581..3882,3948..4259,4321..4738,
-                     4794..5110)
+                     /Pfam="GsfR1"
+     CDS             join(3080..3295,3348..3447,3581..3882,3948..4259,
+                     4321..4738,4794..5110)
                      /codon_start=1
                      /product="major facilitator superfamily transporter GsfJ"
-                     /label=gsfJ
+                     /label="gsfJ"
                      /note="putative MFS transporter"
                      /protein_id="ADI24949.1"
                      /translation="MDKQNTDSEKRATAEAPPQSLCTLVSSSEQGGMDITNHNAKAGAA
@@ -60,11 +61,12 @@ FEATURES             Location/Qualifiers
                      TFDTETSVGKWVGYQIIVGFSTGWTFQIAMSNAQVHAPPEDMSQATAIVNFFMTVGGAF
                      FISAAQCAFSNQLIKTITKNLPELDPTVAISTGATQIREAFTASQVPIVVDAYMVGLKA
                      VFAITIAAFGVATVIGFFGSWKKLLADELEKATGGVA"
-     CDS             join(5903..6027,6086..6182,6257..6296,6368..6796,6873..7415,
-                     7511..7878)
+                     /Pfam="MFS_1"
+     CDS             join(5903..6027,6086..6182,6257..6296,6368..6796,
+                     6873..7415,7511..7878)
                      /codon_start=1
                      /product="FAD-dependent halogenase GsfI"
-                     /label=gsfI
+                     /label="gsfI"
                      /note="chlorinase"
                      /protein_id="ADI24948.1"
                      /translation="MAIPQSCTVLVAGGGPGGSYTAAALAREGVDVVLLEADCHPRYHI
@@ -77,11 +79,12 @@ FEATURES             Location/Qualifiers
                      EGFDRAFTILRPVIQGAADKETAPKAKGESITETIDLCLTALNDLHDTELQRKLTSIVE
                      AKGTPEQEQLLGKLSPDETAALHRMRAMHSILPMGELEDFENSNIDGFKARLEKGSLGL
                      RRERALCRDHAGDLQM"
+                     /Pfam="Trp_halogenase"
      CDS             join(8489..8808,8862..9165,9221..10357,10426..10546,
                      10618..12767,12820..14160)
                      /codon_start=1
                      /product="polyketide synthase GsfA"
-                     /label=gsfA
+                     /label="gsfA"
                      /note="polyketide synthase"
                      /protein_id="ADI24953.1"
                      /translation="MTSAKVLYFSGEIPQGDPEGDQRTLFRKLHLLSKERDHVVLASLL
@@ -115,11 +118,12 @@ FEATURES             Location/Qualifiers
                      SSSSLQEKTTATAVTAKITARFPGSVITPSRSAPISKSGSSPKIVPQLDYSLLTPRTSP
                      NSDERIEKTDSDSGFEEADGANDVTSRAVEILAEELAVDKGLLTDECEIADIGVDSLMS
                      LVISQKLREDLGIEVRDAFYLEVTTIGDLKKLLS"
+                     /Pfam="SAT2, PKS_KS, PKS_AT, fPKS_PT, ACP_PCP"
      CDS             complement(join(14618..14740,14798..14837,14898..15059,
                      15125..16059))
                      /codon_start=1
                      /product="methyltransferase GsfB"
-                     /label=gsfB
+                     /label="gsfB"
                      /note="putative O-methyltransferase"
                      /protein_id="ADI24954.1"
                      /translation="MASNTSRSAHLAQIITENTANIETYRREQGLPPLSLGPDAPLDVK
@@ -130,10 +134,11 @@ FEATURES             Location/Qualifiers
                      ALEAAHVREGKNVSFMPHDFFNEQPVKDADVYMFRWILHNWPDGHVQRILRALVPSLKP
                      GAKVIVFDEIMPPAGTLPLSIERYQRNIDFGMLTLFNSKIRDIVEWKEIITQSDQRFNV
                      TGVRYPENSRLSLIEIVWQP"
+                     /Pfam="Methyltransf_2"
      CDS             complement(16947..18137)
                      /codon_start=1
                      /product="methyltransferase GsfC"
-                     /label=gsfC
+                     /label="gsfC"
                      /note="putative O-methyltransferase"
                      /protein_id="ADI24955.1"
                      /translation="MTLDQISRIQALVAEIADLSQTFEGPSERFMVDGLPFLRKSEELV
@@ -143,10 +148,11 @@ FEATURES             Location/Qualifiers
                      EDRERPVFVDVGGGNGHVIKEILQAFPQIRPEQCVLEDRAETLELARTTGLLPAGVQLL
                      EHDYLTRQPVSNAKAYHLRAVAYNLGDAELVQLLKQIVPVMGADSKVLIAENILFDDNS
                      TVFSTVSDMIMLGIGGKERTEQNFREVLYEAGLTIEGIHRAPGLEYGIMEASLATS"
+                     /Pfam="MdpA, Methyltransf_2"
      CDS             join(18560..18987,19043..19170,19222..19318,19377..19860)
                      /codon_start=1
                      /product="methyltransferase GsfD"
-                     /label=gsfD
+                     /label="gsfD"
                      /note="putative O-methyltransferase"
                      /protein_id="ADI24956.1"
                      /translation="MSTPEQWIQEFEALCSRASILFPSGIEDENIRIRALRIAEKAVHQ
@@ -156,10 +162,11 @@ FEATURES             Location/Qualifiers
                      GHQAMRVRSAFPRSRGRIIVQDLPQVTNKITTASLPDVEIMDHDMADPQPVKGARVYYL
                      RGVLHNHADHISIKYLSQFAAAMSPESRLLIHEALATDLNPTKNITRFDLSMLASCGGA
                      QRSEAEQKALLEKVGLEVSGVWSTPRDWSIMEARLKRE"
+                     /Pfam="Dimerisation, Methyltransf_2"
      CDS             complement(20223..21356)
                      /codon_start=1
                      /product="short-chain dehydrogenase/reductase GsfE"
-                     /label=gsfE
+                     /label="gsfE"
                      /note="putative NAD-dependent epimerase/dehydratase"
                      /protein_id="ADI24957.1"
                      /translation="MPKTAFITGANGLSGSAIVEYLCNTTTSDDWGSIIVTSRSPFKST
@@ -169,10 +176,11 @@ FEATURES             Location/Qualifiers
                      DVSYAPLIADLTIFVSTRKSCANEAFNVTNGDYFTWRYMWPRLAASLGAKADSQQCFEK
                      PMPGEGELQLDWSLAEWCKDKRKVWEDLCDRQGLPGAKATFDLAGWAVGDFLYQRTWSA
                      TLSVNKARRFGWTGHMDSYQSFVDTFDKFRQLGLIPK"
+                     /Pfam="FncF"
      CDS             join(21991..22520,22581..22964,23027..23474,23541..23693)
                      /codon_start=1
                      /product="cytochrome P450 monooxygenase GsfF"
-                     /label=gsfF
+                     /label="gsfF"
                      /note="putative cytochrome P450"
                      /protein_id="ADI24958.2"
                      /translation="MTVLFILSAGLVAVFGYLVSWFIYCRTLHPLSKVPGPFWPSVTRL
@@ -184,6 +192,7 @@ FEATURES             Location/Qualifiers
                      VETGKLSEFPSYSEVVQLPLLKATIKEALRLHPAVGFTMPRVVGQAGIELLGMYIPPGW
                      KVGMNAAVVGRDEGVYGTDANTFRPERWIERTDSDMDRCNNLVFGAGTRTCIGKQIALS
                      EIYKMVPLLIRKFDFALVDPSKSWTTHDYFFNKQSGVQVKVTVRGL"
+                     /Pfam="p450"
 ORIGIN
         1 ttagggggac attacaaaat tccatccttc agtgtcagtg ctgttcaaag gctgctcccc
        61 agctccactt atcaggacat cgaaaaaggc agtgtcaagg ccttggaaaa gccattcttc

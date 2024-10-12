@@ -1,23 +1,23 @@
-LOCUS       FBGC00054       48075 bp DNA     linear   UNA 16-JAN-2023
+LOCUS       FBGC00054              48075 bp    DNA     linear   UNA 16-JAN-2023
 DEFINITION  sirodesmin PL.
 ACCESSION   FBGC00054
-VERSION     .
+VERSION     FBGC00054
 KEYWORDS    .
 SOURCE      Leptosphaeria maculans
   ORGANISM  Leptosphaeria maculans
+            .
 REFERENCE   1  (bases 1 to 48075)
   AUTHORS   Gardiner DM, Cozijnsen AJ, Wilson LM, Pedras MS, Howlett BJ.
-  TITLE     The sirodesmin biosynthetic gene cluster of the plant pathogenic 
+  TITLE     The sirodesmin biosynthetic gene cluster of the plant pathogenic
             fungus Leptosphaeria maculans.
   JOURNAL   Mol Microbiol 2004;53:1307-18
-  PUBMED    15387811
+   PUBMED   15387811
 REFERENCE   2  (bases 1 to 48075)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Jan 16, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1111/j.1365-2958.2004.04215.x"; journalName: "Mol Microbiol"; 
+  JOURNAL   Exported Jan 16, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1111/j.1365-2958.2004.04215.x"; journalName: "Mol Microbiol";
             date: "2004"; volume: "53"; pages: "1307-18"
 FEATURES             Location/Qualifiers
      source          1..48075
@@ -28,7 +28,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="sirH"
                      /product="acetyltransferase SirH"
-                     /label=sirH
+                     /label="sirH"
                      /protein_id="AAS92539.1"
                      /translation="MVSAKLPSIFIEAQLPLIYANIILAFALGPQAHTFRVCLTLPILL
                      FLVCQSLYREQNGPWEDLLSNNSLVMFTVFVYIDWILLQSPDREQWHKLNNAKTESNGP
@@ -38,12 +38,13 @@ FEATURES             Location/Qualifiers
                      LMQLRKGSFQSKYVQLFVGFGVSAGLHAGVALLCSKALNDDSALFFFGIQAPIIMLEDH
                      VIAKGKSLGFKDSPLWRFIGFVWTTLAIGFTCRAWVGSMIDNGMWVHARKKDSVIQGLL
                      INAIQQP"
+                     /Pfam="MBOAT_2"
      CDS             complement(join(2363..2956,3015..3200,3277..3410,
                      3473..3740))
                      /codon_start=1
                      /gene="sirQ"
                      /product="short-chain dehydrogenase/reductase SirQ"
-                     /label=sirQ
+                     /label="sirQ"
                      /note="hypothetical protein"
                      /protein_id="AAS92540.1"
                      /translation="MAVAVVFGASGISGWGITKALLDAKTQNAFSKIIALTNRSLSLAE
@@ -53,11 +54,12 @@ FEATURES             Location/Qualifiers
                      TPGEEVPFPGSEAAWNAKFSLTGQGVLGNFNVHLACKNSIENGEAFNIANKPFTTWASL
                      WPLLAGYWGLKGTAPVGHHGIPDAASWVLDNMDRVKGWEEKYSMKPGRLFKIPWRYFHW
                      ALNMPFDRYLDLTRCEQTGFQQHEEHKESFETAWKCMQEAKLLPIVDKSSTPP"
+                     /Pfam="FncF"
      CDS             join(3975..4157,4225..4833,4884..5333)
                      /codon_start=1
                      /gene="sirI"
                      /product="aminotransferase SirI"
-                     /label=sirI
+                     /label="sirI"
                      /note="1-aminocyclopropane-1-carboxylate synthase (ACCS)"
                      /protein_id="AAS92541.1"
                      /translation="MLSQRSQRNTSEIIPRLLREYHQPQAGNIDILDLSQAENSVLRDE
@@ -68,12 +70,13 @@ FEATURES             Location/Qualifiers
                      ITNNKVSSLTSVIVPSLLEPRTTQKLLNQNLRSRLNLNYGKVQRFLENRGLEFVPAKAG
                      LFVFACLGKTRTEKEQLLLIECMKRSGVKLVAGTSFHFEQFCWFRIMFSLPKNIVDVAL
                      QRIGDALDETEKLL"
-     CDS             join(5608..5677,5744..5903,5981..6284,6343..6419,6478..6567,
-                     6621..7104)
+                     /Pfam="Aminotran_1_2"
+     CDS             join(5608..5677,5744..5903,5981..6284,6343..6419,
+                     6478..6567,6621..7104)
                      /codon_start=1
                      /gene="sirJ"
                      /product="dipeptidase SirJ"
-                     /label=sirJ
+                     /label="sirJ"
                      /note="dipeptidase"
                      /protein_id="AAS92542.1"
                      /translation="MKSEPGNEFLERAANLLSRVPLIDGHNDWANIIRGYYSNKIHVRN
@@ -83,11 +86,12 @@ FEATURES             Location/Qualifiers
                      TRAPIIFSHSSAFGVHPHPRNVKDNILHMLKSNKGLIMISFVPEFSSADPGLSSLMDVV
                      KHIIYVGELIGYDHVGIGSDFDGMARAVLGLSDTSTFPRLVAELIANQIPEGDVEKIVG
                      GNLIRVMGDVEAVAHRQCEDDILELEEEVKPLWDDAFKAKIAAAYPEALALNAL"
+                     /Pfam="Peptidase_M19"
      CDS             join(8360..8636,8699..8832,8903..9088,9165..9782)
                      /codon_start=1
                      /gene="sirR"
                      /product="short-chain dehydrogenase/reductase SirR"
-                     /label=sirR
+                     /label="sirR"
                      /note="putative nucleoside-diphosphate-sugar epimerases"
                      /protein_id="AAS92543.1"
                      /translation="MHSKPQRALVIGATGVSGWSLCLQLLQTQTPSAFESVDLLTNRPV
@@ -98,12 +102,13 @@ FEATURES             Location/Qualifiers
                      SWEQIWPKIVQYFDLVGAPPEPKMAEGDSDDASSPRFGPEWFQGVTAKATEFEAEYGLQ
                      PDFVTNIAWQYLTFLLNLKIDRVLDIEKARDLGFLESSNTVSDFEKSWDHMRKARIIPS
                      VEQSD"
+                     /Pfam="FncF"
      CDS             complement(join(10871..11078,11156..11387,11467..12069,
                      12130..12198,12271..12361,12441..12575,12639..12869))
                      /codon_start=1
                      /gene="sirB"
                      /product="cytochrome P450 monooxygenase SirB"
-                     /label=sirB
+                     /label="sirB"
                      /note="cytochrome P450 monooxygenase"
                      /protein_id="AAS92544.1"
                      /translation="MSTLQDFQIAPAILHRVTVRDASAILFCTLLTVFLFISQGTVRGV
@@ -116,12 +121,13 @@ FEATURES             Location/Qualifiers
                      SRITFPTLPVGLDPENYESASEFDGFRFFRKREEARLAKKAYNWGATKIDSSFLPFGYG
                      NQACPGRFFGVRKTKILFGKLINDYDFSWAEPRSARPENIVIEGQILVNPTPEIKIKSR
                      VAAGM"
+                     /Pfam="p450"
      CDS             join(13580..14330,14386..17376,17434..17535,17593..17762,
                      17829..17918,17975..20401)
                      /codon_start=1
                      /gene="sirP"
                      /product="nonribosomal peptide synthetase SirP"
-                     /label=sirP
+                     /label="sirP"
                      /note="non-ribosomal peptide synthetase"
                      /protein_id="AAS92545.1"
                      /translation="MHITKDIDTIFHRSLEGLTGDDHSPESRRDFPMSQSSGCRNGTDA
@@ -162,11 +168,12 @@ FEATURES             Location/Qualifiers
                      DNATMDEFEVQLMAAFRYLADETCSSTCTTYPPRLFPLIWSQKDTNTVAPISEDQEMID
                      LVREAMAECVGLNRCDISCSRSFFELGGSSVDCLRLQDRLIKSGVSVSLSSIIHLQTAE
                      LIAGAVE"
+                     /Pfam="AA-adenyl-dom, ACP_PCP, NRPS_C"
      CDS             join(20624..20681,20727..21039,21086..21154,21232..21496)
                      /codon_start=1
                      /gene="sirG"
                      /product="glutathione S-transferase SirG"
-                     /label=sirG
+                     /label="sirG"
                      /note="glutathione S-transferase (GST)"
                      /protein_id="AAS92546.1"
                      /translation="MTERPKDIPEDKLVLYVVKATPTSTANTVKPLIVMNELSIDHEIY
@@ -174,12 +181,13 @@ FEATURES             Location/Qualifiers
                      DLWERTQVNNWLTLHTAALGATGKYWLYFSAIHPEKIPAVIEKLANNIKVQYDILERRL
                      SEKGQKYIALPDRPTIADVANLPFVTEELALKAGLRLGDWPNLQAWSEKMLARPSVQKA
                      LSQKFRPSVMIR"
+                     /Pfam="GST_N_3, GST_C"
      CDS             complement(join(22078..22305,22525..22589,22642..22861,
                      22938..23553,23614..23792,23850..23954))
                      /codon_start=1
                      /gene="sirC"
                      /product="cytochrome P450 monooxygenase SirC"
-                     /label=sirC
+                     /label="sirC"
                      /note="cytochrome P450 monooxygenase"
                      /protein_id="AAS92547.1"
                      /translation="MESIVYETQPLLRGMVVGTIMLLCYRYGLALSILQLYLNFMYRIT
@@ -191,11 +199,12 @@ FEATURES             Location/Qualifiers
                      IKANTNDLETYMNRKDTLLHYSLLESLRVRPLLAFTIPESAQEDKVLSGYRVPKNIRYN
                      LSTFGFGPRKCLGQHMAENMIKAILVPLLRQFRFKLLADQYKNGEYKVDKTNWVTLSDV
                      NLEMERVPSGGS"
+                     /Pfam="p450"
      CDS             join(24378..24609,24681..25693)
                      /codon_start=1
                      /gene="sirM"
                      /product="methyltransferase SirM"
-                     /label=sirM
+                     /label="sirM"
                      /note="methyltransferase"
                      /protein_id="AAS92548.1"
                      /translation="MDNELDNLISLLQKSKASLKEKHGDRIRSIFAAHHSGSILPKEDK
@@ -206,12 +215,13 @@ FEATURES             Location/Qualifiers
                      CEQPGGRFSGVRDRVAGFHAGNFLDEVPASVVYTIKWCLHNWSDEDTIKILQNIRRAIV
                      VKPEARLLIIESVLEDGRTGRPARYGDIIMMATCNGKERDIENWQAVCEQSGWEVVKSW
                      ALRNSIPSCLELRPI"
+                     /Pfam="Dimerisation2, Methyltransf_2"
      CDS             complement(join(27132..27607,27716..28318,28405..28473,
                      28532..28619))
                      /codon_start=1
                      /gene="sirE"
                      /product="cytochrome P450 monooxygenase SirE"
-                     /label=sirE
+                     /label="sirE"
                      /note="cytochrome P450 monooxygenase"
                      /protein_id="AAS92549.1"
                      /translation="MFFRYTVTLVANETDHHATVVQALLRRHIGDITPGTTQEIENALE
@@ -222,11 +232,12 @@ FEATURES             Location/Qualifiers
                      GGAILKSNGPPLSTSSNPPPIDEFHAFRYVTPDSGISTDVSTANGNSNANSNLATAISP
                      TNLTFGYGRMSCPGRYFAVHSIKAIVVGLLLRYDVEFEKKDGEERGRPRNVQAGNVIIP
                      DPSVMVRVRARG"
+                     /Pfam="p450"
      CDS             join(29948..30248,30347..30480,30598..30783,30863..31471)
                      /codon_start=1
                      /gene="sirS"
                      /product="short-chain dehydrogenase/reductase SirS"
-                     /label=sirS
+                     /label="sirS"
                      /note="putative nucleoside-diphosphate-sugar epimerases"
                      /protein_id="AAS92550.1"
                      /translation="MSPSKTTPPSPTALVYGATGVTGWGLCKNLLEQQADSASTPTFSR
@@ -237,11 +248,12 @@ FEATURES             Location/Qualifiers
                      NVSNGDVLTWSKLWPEAAARFGLRGVGPEGAGEEEGKGEAEGGAKGATGWSWPLGDETT
                      MKKWEEENQVQKGWGGNLSEVCFVNTMRPTVDRILSLDKAKKIGFEARDDTIAAFDKAW
                      ALFKKARILP"
+                     /Pfam="FncF"
      CDS             complement(join(31712..32391,32484..32550,32656..33411))
                      /codon_start=1
                      /gene="sirZ"
                      /product="transcription factor SirZ"
-                     /label=sirZ
+                     /label="sirZ"
                      /note="zinc finger transcriptional regulator"
                      /protein_id="AAS92551.1"
                      /translation="MSPAPPPCGFAEAESTNTKSAPKFRSACNACHEVKLKCLGGQPCA
@@ -253,12 +265,13 @@ FEATURES             Location/Qualifiers
                      SCLKLQASALCRIHLVDRSHADMRGDTVLATASTILDSCNALILCPSCATDYKFLLLAI
                      MTVRILLCWLRGLSATRTQNDNANMKLTLGEYEISGEEEAIIKNMLVSRALEKVKIAVR
                      RLRERVNSITIQEVGNCSESTQRWDLTYIRMCLDHMEKQVGC"
+                     /Pfam="EqxR"
      CDS             join(36705..36905,36998..37113,37210..37792,37867..39024,
                      39110..39217,39281..39976,40043..40698,40788..41061)
                      /codon_start=1
                      /gene="sirA"
                      /product="ABC transporter SirA"
-                     /label=sirA
+                     /label="sirA"
                      /note="ABC transporter"
                      /protein_id="AAS92552.1"
                      /translation="MAEPESEKPSSAQGGGLPSSDHPLNPILQRQIELPEIKINYFSLF
@@ -283,11 +296,12 @@ FEATURES             Location/Qualifiers
                      LFSCSIRENLLYGSLGKDLTDSEIEEACKMAQVYDFVCSLPEGLDTSFGSNAVMLSGGQ
                      RQRLSIARAILRKPRVLILDEATSALDSTSERAVIEALTKTAEGRTTIMVAHRLSTIQG
                      CDKIFYLRAGAVAEEGTHEELMAKRGSYYDSVNLQSLG"
+                     /Pfam="ABC_membrane, ABC_tran"
      CDS             complement(join(41447..41580,41680..42219,42303..42483))
                      /codon_start=1
                      /gene="sirN"
                      /product="methyltransferase SirN"
-                     /label=sirN
+                     /label="sirN"
                      /protein_id="AAT01502.1"
                      /translation="MTVETKDLPESNYLLDYDDTEKRRLREQHDLIKAYTGKLILAPLD
                      LTKPNLKILDSGTFDGHWLTEAAKPLTTPLLTGTDISPAAFPNPPPQNTSFHIQSITDP
@@ -295,11 +309,12 @@ FEATURES             Location/Qualifiers
                      PALHRFHSFIERMLPGFGWNIRAGLMVGGWLGEVGLEEVGEMEVEIPVGRANGDGRLGA
                      MAEKNLRDVMGVWRQASSKLPADSPFKASELEEIFVDWDKEIETIGSLLRFAVVWGRRP
                      ALD"
+                     /Pfam="GliN"
      CDS             join(43152..43328,43436..43591,43666..43764,43828..44385)
                      /codon_start=1
                      /gene="sirO"
                      /product="aldo-keto reductase SirO"
-                     /label=sirO
+                     /label="sirO"
                      /note="aldehyde reductase"
                      /protein_id="AAS92553.1"
                      /translation="MSPSAHPDAPIIIFGTANFGSPEDSKGKLFGPVTVEQGREYLDVL
@@ -308,11 +323,12 @@ FEATURES             Location/Qualifiers
                      SKNYILPTIYQGTYNLLSRQCETKLLPLLRTLGIRFYAYSPLCCGLLINAEAKLQASTG
                      RWDTSHFGGKFMNALYNKPSYIAASNAFQDMCGKYGVRPAGAAYRWVRYHSELEGGLGD
                      GMVVGASSARQLEESLGEIEKGPLEEGLVGELEGLWDLVKEDAPAYSL"
+                     /Pfam="Aldo_ket_red"
      CDS             complement(join(44853..44982,45034..46250))
                      /codon_start=1
                      /gene="sirD"
                      /product="DMATS-type prenyltransferase SirD"
-                     /label=sirD
+                     /label="sirD"
                      /note="tyrosine dimethylallyl transferase"
                      /protein_id="AAS92554.1"
                      /translation="MQTARLFQGNLNLAAANIRDYEKKEQRNLGVWLSLNQWLRLYDED
@@ -323,11 +339,12 @@ FEATURES             Location/Qualifiers
                      RAKIYIRHRGTSFDSVCRMLSMGAKAPLDAASVASLRELWALVLGLPKDFPSDQELPSV
                      PHRTSGVLYYFEIKPTSDAIVPKVYIPVRHYASNDLSIAQGLATYFERRGQTVAAENYV
                      DALSDIFSHRSLDSGLGLHTYISCTFKKTGLSVTSYFNPEIYHPNRYRQ"
+                     /Pfam="Trp_DMAT"
      CDS             join(47034..47440,47499..48075)
                      /codon_start=1
                      /gene="sirT"
                      /product="thioredoxin reductase SirT"
-                     /label=sirT
+                     /label="sirT"
                      /note="thioredoxin reductase"
                      /protein_id="AAS92555.1"
                      /translation="MATCPSIFDALVIGAGPAGLSAALALGRVMRTAAIFDTGVFRNAP
@@ -336,6 +353,7 @@ FEATURES             Location/Qualifiers
                      STEIEIAVHFGHLALQFAKKITVFLDGHVEFLEDPRIKGLEAQGFLINPKPISKITYAA
                      DPEPGFATVHLEDGSEENMSFLVHRPRTLLAGDFANQLGLELTEAGDVKTTPPFYETSV
                      KGVFAAGDCAVPLKQVVWAVSTGVSAGSGVNFQCLGADMAARSKLS"
+                     /Pfam="Pyr_redox_2"
 ORIGIN
         1 ctaaggttgc tgtatagcgt taatgagtaa accttgaata accgaatctt tcttgcgggc
        61 atgcacccac atgccgttgt ctatcatgga gccaacccaa gcacggcatg taaacccaat

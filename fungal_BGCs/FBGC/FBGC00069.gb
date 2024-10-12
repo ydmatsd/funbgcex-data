@@ -1,23 +1,23 @@
-LOCUS       FBGC00069       34372 bp DNA     linear   UNA 18-JAN-2023
+LOCUS       FBGC00069              34372 bp    DNA     linear   UNA 18-JAN-2023
 DEFINITION  viridicatumtoxin.
 ACCESSION   FBGC00069
-VERSION     .
+VERSION     FBGC00069
 KEYWORDS    .
 SOURCE      Penicillium aethiopicum IBT 5753
   ORGANISM  Penicillium aethiopicum IBT 5753
+            .
 REFERENCE   1  (bases 1 to 34372)
   AUTHORS   Chooi YH, Cacho R, Tang Y.
-  TITLE     Identification of the viridicatumtoxin and griseofulvin gene 
+  TITLE     Identification of the viridicatumtoxin and griseofulvin gene
             clusters from Penicillium aethiopicum.
   JOURNAL   Chem Biol 2010;17:483-94
-  PUBMED    20534346
+   PUBMED   20534346
 REFERENCE   2  (bases 1 to 34372)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Jan 18, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1016/j.chembiol.2010.03.015"; journalName: "Chem Biol"; date: 
+  JOURNAL   Exported Jan 18, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1016/j.chembiol.2010.03.015"; journalName: "Chem Biol"; date:
             "2010"; volume: "17"; pages: "483-94"
 FEATURES             Location/Qualifiers
      source          1..34372
@@ -29,7 +29,7 @@ FEATURES             Location/Qualifiers
                      2124..2244,2335..2757))
                      /codon_start=1
                      /product="transcription factor VrtR2"
-                     /label=vrtR2
+                     /label="vrtR2"
                      /note="putative transcriptional activator"
                      /protein_id="ADI24939.1"
                      /translation="MPSLSSKTSTMQRSCRPQMSACPNQQQKDRPVPQLSCVLCRDRKL
@@ -47,10 +47,11 @@ FEATURES             Location/Qualifiers
                      AWPVIEISYRQHEELQISDECQLPQGPLVHLMNKTREKLAPLLQEGGARLSDSQTVDRA
                      SADSLQPPVPVGSIPIDPLLTNGSLGADTAMSEASSIGSLPPFEQQCWKQMTMPTDGAP
                      VRDGVVFTSELYNPLQSDFLNSHG"
+                     /Pfam="Zn_clus, Fungal_trans"
      CDS             join(5959..6497,6556..7528)
                      /codon_start=1
                      /product="major facilitator superfamily transporter VrtL"
-                     /label=vrtL
+                     /label="vrtL"
                      /note="putative MFS transporter"
                      /protein_id="ADI24938.1"
                      /translation="MSKLSDNHSSASEGEKEAGDLESGPTAISSEPSFDDADRDPNLIT
@@ -62,11 +63,12 @@ FEATURES             Location/Qualifiers
                      IGSFIGLFFNLKLVDRIYRSLKARNNGVGKPEYRMPSLAVGSVISTIGLFWYGWSIGNT
                      HWIMPNIGALIFAMGTISCLQGMQTYIVDSYQTYAASAMAACAVLRSLCGFGFPLFAPY
                      MYNSLGYGWGTSLLAFITMVVGWGAPFAFWHFGPRLRAMSKYASG"
+                     /Pfam="MFS_1"
      CDS             join(8444..8611,8676..9140,9199..9747,9807..9965,
                      10027..10290)
                      /codon_start=1
                      /product="cytochrome P450 monooxygenase VrtK"
-                     /label=vrtK
+                     /label="vrtK"
                      /note="putative cytochrome P450"
                      /protein_id="ADI24937.1"
                      /translation="MAFSTYLGSLESSLVLKGLAGVWLVWYIGRVFYNIFLHPLANVPG
@@ -79,10 +81,11 @@ FEATURES             Location/Qualifiers
                      SFFGIAQNPDYFTRPLDFCPERFLPDPPAEFRDDNHEAYHPFSLGAYNCLGQNLANAES
                      RLIMTKLLWYFDFELDGTVDKDWLDQKSYGVFIKKELPVKFHPGPNAVRHVANGNGVAT
                      NGHANGHANGHARINTK"
+                     /Pfam="p450"
      CDS             join(10872..11013,11096..12120)
                      /codon_start=1
                      /product="aldolase VrtJ"
-                     /label=vrtJ
+                     /label="vrtJ"
                      /note="putative PLP-dependent protein"
                      /protein_id="ADI24936.1"
                      /translation="MTNSPIADLVHHPERVQSPSLVNSKMNGDAKAVTEWTEPGPAAFD
@@ -92,11 +95,12 @@ FEATURES             Location/Qualifiers
                      GSLRDYCACFDSVSLCFSKGLGAPIGSVLVGSETLRERARWIRKSIGGGMRQAGVVCAA
                      ARVAVEATFLGGLLKRSHARARDIATFWEIHGGRLTYPTETNMVWLDLEAVGWTPERLI
                      RRGAELGLRFMGARLVVHYQIGDEAIGRLQDLMLEILVSGLVDHPRDS"
+                     /Pfam="Beta_elim_lyase"
      CDS             complement(join(12307..12354,12537..12562,12602..13317,
                      13387..13666,13732..13903))
                      /codon_start=1
                      /product="2OG-Fe(II)-dependent dioxygenase VrtI"
-                     /label=vrtI
+                     /label="vrtI"
                      /note="putative Fe(II)-dependent oxygenase"
                      /protein_id="ADI24935.1"
                      /translation="MGARSKEARHRWFSRLPPDASSSFLPCKRPKSVAFVLWIRPSCFL
@@ -107,10 +111,11 @@ FEATURES             Location/Qualifiers
                      SKDPAGWRFVAPREGHAVINVGDTLRFLSGNRFRSAVHRVIPTQRLQHEDRYSIAYFLR
                      AANDTQFTDSAGRQVSAKQWHDEKFDVFRETHEEQEKMPILTGGMERLENLPGIWCGVR
                      LTDGICHRLGAEDC"
+                     /Pfam="DIOX_N, 2OG-FeII_Oxy"
      CDS             join(14297..14625,14676..15780,15834..19874)
                      /codon_start=1
                      /product="polyketide synthase VrtA"
-                     /label=vrtA
+                     /label="vrtA"
                      /note="polyketide synthase"
                      /protein_id="ADI24926.1"
                      /translation="MLHPTEVEKFPPTLLYFGNEFPNDDVNELFRRLQQHSKDRRFRLL
@@ -145,10 +150,11 @@ FEATURES             Location/Qualifiers
                      HVQASHPSAVPVRHDQSNGVSGVSDSDSSTSITSSNSTADTSTTPTESEDADSGLVGQC
                      IKIISRETNLDMSELTPDATFAQLGVDSLMSLVLSEKFRNELGIDVKSSLFLECPTIGE
                      VKEWIDQNC"
+                     /Pfam="SAT2, PKS_KS, PKS_AT, fPKS_PT, ACP_PCP"
      CDS             complement(join(20318..20860,21001..22629))
                      /codon_start=1
                      /product="CoA ligase VrtB"
-                     /label=vrtB
+                     /label="vrtB"
                      /note="putative acetoacetyl-CoA synthetase-like protein"
                      /protein_id="ADI24927.1"
                      /translation="MAPYLQHFIAWFGKDSILSKLIQIFNPPSHSDSAKIIISDDDGRS
@@ -164,10 +170,11 @@ FEATURES             Location/Qualifiers
                      PRTGGLIMLGRSDGTLNPKGVRFGSAEIYHVLQYHFAAQVEDALCVGRRRRQDTDEMVV
                      LFVKMRQDQLWSLALAEAIRRTVREELSPRHVPELIIECPEIPVTANGKKVEVLVKRIV
                      SGVEVPAAGGSGTVNADCLQWFQEWATQN"
+                     /Pfam="ACAS_N, AA-adenyl-dom"
      CDS             22959..24410
                      /codon_start=1
                      /product="DMATS-type prenyltransferase VrtC"
-                     /label=vrtC
+                     /label="vrtC"
                      /note="putative aromatic prenyltransferase"
                      /protein_id="ADI24928.1"
                      /translation="MGDATATEVFPVMDSIAVAMGDVESQLRVFHNVSRFLPTDDANQV
@@ -179,10 +186,11 @@ FEATURES             Location/Qualifiers
                      GTASGNPNANVSGVTFYFDIHPKYPFPHIKLQVDISKHTISDLGAINAVTEFLARRGQA
                      ADAQAYLNVVRAMVPDEELRTRRGLQAFFAFAFKNGAVDITSYFLPQIYRRYAEVQAEL
                      EPRKDCQGRSELSSKLQRRSRFDSY"
+                     /Pfam="Trp_DMAT"
      CDS             complement(join(24814..25416,25519..25836,25891..26019))
                      /codon_start=1
                      /product="geranyl pyrophosphate synthase VrtD"
-                     /label=vrtD
+                     /label="vrtD"
                      /note="putative trans-isoprenyl diphosphate synthase"
                      /protein_id="ADI24929.1"
                      /translation="MATSTTTSLKEFLSVFPQLVADLRALCLEEYQLPACVWDRFESTL
@@ -192,11 +200,12 @@ FEATURES             Location/Qualifiers
                      AARAILVPMGEYFQVQDDYLDCFADPTVLGKVGTDIIEGKCSWLVVQALQRASTDQAQL
                      LAENYGSASGESSVKALYSELDLESVYRTFEEQRVAELRTLITGLDESQGLRKSVFEEL
                      LGKIYQRRK"
+                     /Pfam="GGPS"
      CDS             complement(join(26301..26420,26473..27258,27310..27428,
                      27506..27569,27672..27809,27863..28198))
                      /codon_start=1
                      /product="cytochrome P450 monooxygenase VrtE"
-                     /label=vrtE
+                     /label="vrtE"
                      /note="putative cytochrome P450"
                      /protein_id="ADI24930.1"
                      /translation="MFIAAVTHNWMERLAALSLLHYVLGAIFLLLLFHMLSNFFHPGLV
@@ -209,10 +218,11 @@ FEATURES             Location/Qualifiers
                      VIGMHGDLIGRDRAIFGEDADEFNPLRWLARPGEPEAKYQERLRAMNAHDLAFGHGPRG
                      CIGKHVAEMEIYKFIPTFFALIQPRFMRPEQSWTVRQLFVFKQSGMDMMLDWRQGKGLQ
                      SMA"
+                     /Pfam="p450"
      CDS             complement(28610..29326)
                      /codon_start=1
                      /product="methyltransferase VrtF"
-                     /label=vrtF
+                     /label="vrtF"
                      /note="putative O-methyltransferase"
                      /protein_id="ADI24931.1"
                      /translation="MTTTTTTDDTQKLDPSASDEVIYKSWDLLIYEIWVLGIVSTWAWG
@@ -220,10 +230,11 @@ FEATURES             Location/Qualifiers
                      RSDARGLQADILQPLPVIDKFDSVSMYYLLHCIPASVEDKCAIFKHIKHNMTPDGVIHG
                      ANVLGKGVRNDGHFAAYVRRGVLKAGIFHNLDDNAYDFEHALRMNFEEVETRVVGSVFI
                      FRASRPKLDEGDLLET"
+                     /Pfam="VrtF"
      CDS             29637..30560
                      /codon_start=1
                      /product="Claisen cyclase VrtG"
-                     /label=vrtG
+                     /label="vrtG"
                      /note="putative beta-lactamase-like protein"
                      /protein_id="ADI24932.1"
                      /translation="MATRIPFDESYWEEYLSGQEASLPALPAVTQLSPRVTRLLAGNPG
@@ -232,10 +243,11 @@ FEATURES             Location/Qualifiers
                      EEKALLTGDNVLGHGFAIVQDLAEYMASLARMAALGCERGYPAHGAVIENLPAKMQLYI
                      HHNEVRVQQVITALASVVKLPGKRVGMTVPEIGRAIYGEVPREIVENAIVPFLSQVLWK
                      LAEDRKVGFEPGEANKRRWFGLVTQQ"
+                     /Pfam="Lactamase_B"
      CDS             complement(join(30716..31437,31501..32020))
                      /codon_start=1
                      /product="FAD-dependent monooxygenase VrtH"
-                     /label=vrtH
+                     /label="vrtH"
                      /note="putative FAD-dependent oxidoreductase"
                      /protein_id="ADI24934.1"
                      /translation="MQRANHTRPVLIIGAGLSGLAIGRLLTNNGIANIVFEASPPERSQ
@@ -246,10 +258,11 @@ FEATURES             Location/Qualifiers
                      AEPWAKYINPETIQQHSVFRWISRCVYMPTADALHAAQAGVVFIGDAWHAMPIFGGEGG
                      NHALVDSVELAAAMVKEANVERAVAVYYEGAARRCQEAVRRSRSRFYVLHRPMAEWRDI
                      AEKRRAKAALEQKH"
+                     /Pfam="FAD_binding_3"
      CDS             complement(32225..34372)
                      /codon_start=1
                      /product="transcription factor VrtR1"
-                     /label=vrtR1
+                     /label="vrtR1"
                      /note="putative transcriptional activator"
                      /protein_id="ADI24933.1"
                      /translation="MEDTTETTETTDTTAVSRLVPLAPAPARAPSMDAVNGSFDSELTT
@@ -265,6 +278,7 @@ FEATURES             Location/Qualifiers
                      CILRNIAEVGFYSPSELAAAWSKVANVYANHDELVKARRTLYVTIAKVTLKAWLANPPR
                      DSSPQPAFITALLTQHEPKGINQQQNSVLSDDKAADGASLFDEFFDNMNGTDLDINNAF
                      NLDSSSDWLFWDQICRGTSLS"
+                     /Pfam="EqxR, Fungal_trans"
 ORIGIN
         1 ttatccatgg ctgttcaaga agtcagactg aagcgggtta tacagttctg aagtgaaaac
        61 caccccatct cgcacaggcg ccccatccgt tggcattgtc atctgcttcc agcactgctg

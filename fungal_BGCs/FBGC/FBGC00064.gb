@@ -1,22 +1,22 @@
-LOCUS       FBGC00064       49814 bp DNA     linear   UNA 18-JAN-2023
+LOCUS       FBGC00064              49814 bp    DNA     linear   UNA 18-JAN-2023
 DEFINITION  fumonisin.
 ACCESSION   FBGC00064
-VERSION     .
+VERSION     FBGC00064
 KEYWORDS    .
 SOURCE      Fusarium oxysporum FRC O-1890
   ORGANISM  Fusarium oxysporum FRC O-1890
+            .
 REFERENCE   1  (bases 1 to 49814)
   AUTHORS   Proctor RH, Busman M, Seo JA, Lee YW, Plattner RD.
-  TITLE     A fumonisin biosynthetic gene cluster in Fusarium oxysporum strain 
+  TITLE     A fumonisin biosynthetic gene cluster in Fusarium oxysporum strain
             O-1890 and the genetic basis for B versus C fumonisin production.
   JOURNAL   Fungal Genet Biol 2008;45:1016-26
-  PUBMED    18375156
+   PUBMED   18375156
 REFERENCE   2  (bases 1 to 49814)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Jan 18, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
+  JOURNAL   Exported Jan 18, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
             "10.1016/j.fgb.2008.02.004"; journalName: "Fungal Genet Biol"; date:
             "2008"; volume: "45"; pages: "1016-26"
 FEATURES             Location/Qualifiers
@@ -30,7 +30,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="fum21"
                      /product="transcription factor Fum21"
-                     /label=fum21
+                     /label="fum21"
                      /protein_id="ACB12566.1"
                      /translation="MAGSIVFVTDNQIGVDSRHKPRFRRRRGACESCKRRKVRCNGTNP
                      CNQCQKSSIECLYKSSSWKTNEGDTERGPSESPLPQARANSTPPQTVALPSPIGGMACN
@@ -44,12 +44,13 @@ FEATURES             Location/Qualifiers
                      ASDSNATQSNEFAALTCSERRHRIKCLNKYWSAIIATHSGQARGVAGDGGGGVGLSRGR
                      CIDAAQEILKYSHYVTSTDILSDISLYYYITVATRVIMAAVIRDRFAGDIAGDTVQSNA
                      ATRRKETRHGGSIMSYIGIAIGLFSRLSLDIDVPVDEVTELGKFGRQIIKYK"
+                     /Pfam="EqxR, Fungal_trans"
      CDS             join(4621..5082,5136..7086,7148..9476,9543..10473,
                      10533..10895,10947..11278,11389..12772)
                      /codon_start=1
                      /gene="fum1"
                      /product="polyketide synthase Fum1"
-                     /label=fum1
+                     /label="fum1"
                      /protein_id="ACB12550.1"
                      /translation="MGVIESPPSTGLGSAEEITQANHSHEDSVLPVAIVGMGMKLPGGI
                      HTPDELWEMLVGKRSTRCEIPSTRFSVDGFHSPTSNPGSIAMRHGHFLDDKDDLHRLDT
@@ -96,13 +97,15 @@ FEATURES             Location/Qualifiers
                      AIRLLVASCDEDPAILEDSVTVELVTNEIGKRVCMFMLRPVEEMDPTASLTSLGVDSLV
                      TIEIRNWIKRTFGGVEVSTLEILNSGTIEGLAKLTLDGLKARFAASEKNDGDAYLEMKA
                      P"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_DH, PKS_NRPS_MT, fPKS_ER,
+                     fPKS_KR, ACP_PCP"
      CDS             complement(join(13177..14702,14822..16486,16578..16658,
                      16715..16793))
                      /codon_start=1
                      /gene="fum6"
                      /product="bifunctional cytochrome P450/NADPH-P450 reductase
                      Fum6"
-                     /label=fum6
+                     /label="fum6"
                      /protein_id="ACB12553.1"
                      /translation="MSVTGLLTRRSVSTSNPELRPIPGPKPLPLLGNLFDFDFNNLTKS
                      LGELGKIHGPIYSITFGASTEIMVTSREIAQELCDETRFCKLPGGALDKMKQVVGDGLF
@@ -124,11 +127,12 @@ FEATURES             Location/Qualifiers
                      LGLALLFFGCRGPRLDSLYSVELEAYEAMGIVQVRRAYSRDPSAQDAQGCKYVTDRLGK
                      CRDEVARLWTDGAQILVCGGKKMANDVLEVLGPILLETDQNRGETTAKTVVEWKARLDK
                      WRYVEEVYV"
+                     /Pfam="p450, Flavodoxin_1, FAD_binding_1, NAD_binding_1"
      CDS             17346..18605
                      /codon_start=1
                      /gene="fum7"
                      /product="dehydrogenase Fum7"
-                     /label=fum7
+                     /label="fum7"
                      /protein_id="ACB12554.1"
                      /translation="MTLDHHQFHPANSRNPKPYISYGIPFWSACAHHAKVFNSQRIYIV
                      ASRSLSQSQALKDLKNALGLSSIVGEYNGITQHTPWEQVFGLVRDLRETQADLIITLGG
@@ -138,12 +142,13 @@ FEATURES             Location/Qualifiers
                      GHNGVGASHGIGHQLGPFGVGHGETSCIILPCVLKYNWSNGDDTLRAKLQLITDVFWGN
                      AVLTKLLVDRGLHPQDTDPGDVLAAYISALGLPNSLGKFGIHRDQFNQIAENAMEDVCT
                      QVNPVELDKNKVVEILYMAA"
+                     /Pfam="Fe-ADH"
      CDS             complement(join(18808..19478,19550..19992,20061..20151,
                      20212..20678,20740..21308,21399..21662))
                      /codon_start=1
                      /gene="fum8"
                      /product="aminotransferase Fum8"
-                     /label=fum8
+                     /label="fum8"
                      /protein_id="ACB12555.1"
                      /translation="MSTQEITTTHSNIIVSHESIIHPTLKGRSKPVVGKQLRAPRDPPV
                      SLEKKINFYIWVLTIMLIQAWQDLKTRRWFKPLQRDDVAGHYFYVPIGRLNPRILLSAP
@@ -160,11 +165,12 @@ FEATURES             Location/Qualifiers
                      LQTTSHDGSILDLSATVQMIISEMTDPNQLKGLKLILDDSGGLGKVGPRHLGYLDLMER
                      EHGVSFLKKLLGKKLAPKTEVVVTGSFFNAFGQQGGYIISSASFVEVHTVSSKSFVFST
                      PPTPIQAAMSEKVLEILSRGSS"
+                     /Pfam="Aminotran_1_2"
      CDS             complement(22638..23540)
                      /codon_start=1
                      /gene="fum3"
                      /product="2OG-Fe(II)-dependent dioxygenase Fum3"
-                     /label=fum3
+                     /label="fum3"
                      /protein_id="ACB12552.1"
                      /translation="MNKEKVPQTAVPNGRTKLHQVTSATPLDEVFQYWEEDGAIVIKGL
                      LTSAQVEQLNQEMDPILQKVAVGGHASDVRLQNFHGMNTKRAGDLTNNSAVFRDHLLDN
@@ -172,11 +178,12 @@ FEATURES             Location/Qualifiers
                      EAQINFLVATTDFTEANGATRIIPGSHKWEFNQHGDRDMTIAAEMEAGDCLLISGKVVH
                      GTGENKTDQERGCLAVTICANFLAPEEAHPFIVSMDTAKKLPVRSQRCLGFRSQWPRSS
                      PGLWTKDYSELALHLGLDD"
+                     /Pfam="PhyH"
      CDS             join(24009..25500,25614..25714,25779..25871)
                      /codon_start=1
                      /gene="fum10"
                      /product="CoA ligase Fum10"
-                     /label=fum10
+                     /label="fum10"
                      /protein_id="ACB12556.1"
                      /translation="MDALTHVLVLPEALERLDAPSIIIPRTANTPEEVVPYAHLTDLTQ
                      SLQHDLATLGISVGSKVAMVLPNGLQFVTVLLAAIRQRAISAPIHPNSTREECKQIFSL
@@ -188,12 +195,13 @@ FEATURES             Location/Qualifiers
                      LGVKGEICLRGKNIMAGYTNNPTANGEAFLPNGFFRTGDLGVIKPRQYLALIGRVKEII
                      NKGGEKVSPAEIEHVARLHDEVNDAACFRINDEIYGEIIGLAIVAKPATKCITTTAVKK
                      HMRYHLVMFKVPDKILFVQEIPYNRTGKPRRTLLSEMYNKGELA"
+                     /Pfam="AA-adenyl-dom"
      CDS             complement(join(26267..26777,26832..26979,27035..27169,
                      27262..27282,27338..27437))
                      /codon_start=1
                      /gene="fum11"
                      /product="tricarboxylate transporter Fum11"
-                     /label=fum11
+                     /label="fum11"
                      /protein_id="ACB12557.1"
                      /translation="MSLYDKPATRLGHRTSDTFHSLVAGSVAGGLEIAITYPAEYAKTH
                      LQLNQGTGRNKQNIPWPKFGLQWYSGCIPFLIGNSVKTSIRFVTFDWYQKLLADVDGNI
@@ -201,11 +209,12 @@ FEATURES             Location/Qualifiers
                      GFFLGFLPTTARQSSGSAIRLGSYTYLKQVVQSRTPQGERIGTVHTFIIGSLAGLITVY
                      LTQPLDTIKTRMQRLQARTRYGNAFLCAKSILEQEGFLAFWSGAVARSTRLVMSGGIVF
                      MVYEKVVEGLDMISPAKRYEIAA"
+                     /Pfam="Mito_carr"
      CDS             join(27949..28017,28072..29184,29258..29424,29483..29642)
                      /codon_start=1
                      /gene="fum2"
                      /product="cytochrome P450 monooxygenase Fum2"
-                     /label=fum2
+                     /label="fum2"
                      /protein_id="ACB12551.1"
                      /translation="MYQITAICDARWWLCLAFTFIAMMAIVAFGVIAYNIFLHPASKFP
                      GPTIAGATSFRYHWAMSTGNVAPWLREQHARYGEIVRIAPDMISYVNPDAWKDIYAYKP
@@ -216,11 +225,12 @@ FEATURES             Location/Qualifiers
                      ESSEELTVENLARLPYLSACLSEGLRCYPPVPIGPSRVTPKTGGEVLGERVPGRIRLTI
                      PQCAAYYSDLNFKDPYSFIPERWLPGTGYENDRKGILQPFLIGPRNCIGQNLAYHEMRL
                      ILCKVLWHYDMELCSDKGNWLLDQKMYIFWEKRPLMVKFKKAQK"
+                     /Pfam="p450"
      CDS             30520..31623
                      /codon_start=1
                      /gene="fum13"
                      /product="short-chain dehydrogenase/reductase Fum13"
-                     /label=fum13
+                     /label="fum13"
                      /protein_id="ACB12558.1"
                      /translation="MNRGQDLVLLTGATGHVGYAVLVKALEAGYNVRVILRDMSRADAI
                      LSSGPVQKTLSTKNLDLSFVHVPDFTAPDAFGLVLSNVTHVVHVASALRRGTSTNLKEA
@@ -229,12 +239,13 @@ FEATURES             Location/Qualifiers
                      ATPVDVMNGSNIFGIGLVMRHKPWDGMRLEAVCCHVDDVAQVHVNALDEHERLPLKVGT
                      HRDFILGVKFKPEEVREIVRSRFPRELWESESATFGARGTYEWYHTDYDVGSAEGLLGR
                      PFKGLEEQIYDSGRQVVGMLKGLTTRS"
+                     /Pfam="Epimerase"
      CDS             complement(join(31994..33252,33344..33553,33624..33696,
                      33790..33803,33857..33947))
                      /codon_start=1
                      /gene="fum14"
                      /product="nonribosomal peptide synthetase Fum14"
-                     /label=fum14
+                     /label="fum14"
                      /protein_id="ACB12559.1"
                      /translation="MNSLDQLRQTWGKVLSVPLSEIDDEDSFFDLGGDSVKAIQFLSEA
                      AQSAINIDLQTFYDNFWNIISLQLGGKNGSGPIKIGGSIATGEADGLIGLHKTDANLEA
@@ -246,11 +257,12 @@ FEATURES             Location/Qualifiers
                      PFRVTLNDTQERTEQFLNKVKEEVLETAKWEQGLVPNIHPDAEGNPWVQSMVNLKSELY
                      GFGNESWTGDETEADITAIKMRRDLQQYEFKSNWAILLSTLQKQGQLRLRMYYQSQLLD
                      HDKAQALFASFKFFIAELAAANGSLITGLLD"
+                     /Pfam="ACP_PCP, NRPS_CT"
      CDS             join(34406..34695,34757..36266)
                      /codon_start=1
                      /gene="fum15"
                      /product="cytochrome P450 monooxygenase Fum15"
-                     /label=fum15
+                     /label="fum15"
                      /protein_id="ACB12560.1"
                      /translation="MRGLNTIAVSLALSAIWSSGLDLGHHGASGSLLSALFRNFCKAYP
                      FVVISRFVWSAIIWPTFFSPLRHLPNIPSDGWLSKETLRLATEPRGVPQSDWINSMSNR
@@ -263,12 +275,13 @@ FEATURES             Location/Qualifiers
                      NRDSALWGPDANNFNPDRWLSPKNGNGEAAEHSKFNPGNQKRDSTGDSSAAPQGTKEEV
                      RGRTEARSNYADLTFLHGPRSCIGQSFARVEFAILLATLIANFEFQIEDKNLLDERNIR
                      ISRGATSRIVGGLKVRVRPIAVI"
+                     /Pfam="p450"
      CDS             complement(join(36427..36519,36580..37712,37780..38201,
                      38268..38650))
                      /codon_start=1
                      /gene="fum16"
                      /product="CoA ligase Fum16"
-                     /label=fum16
+                     /label="fum16"
                      /protein_id="ACB12561.1"
                      /translation="MNHTVPYTIESPGYLKVAGESLPRRHPRAKHGLLRYPTEGVLTVF
                      DIVRHSAKLYPNHKAVGSRRLIKMHREFKIVEDKKKEWIYYELSPYNYLSYSQYELLAI
@@ -282,11 +295,12 @@ FEATURES             Location/Qualifiers
                      TGDIGEFDDHGHLKIIDRVKSLVKMQGGEYIALEKLESIYRTSQTILQVMVHADCDYTR
                      PIVIIMPNTKFLEDKSQELGFSDDNSTLSSERMSAYVLEDLQAIASRSGLSKIETVAGV
                      VITDLEWTPQSGLVTPTMKLNRKFILNCFRDEVENCMQSLG"
+                     /Pfam="AA-adenyl-dom"
      CDS             join(39119..39937,39990..40340)
                      /codon_start=1
                      /gene="fum17"
                      /product="sphingosine N-acyltransferase Fum17"
-                     /label=fum17
+                     /label="fum17"
                      /protein_id="ACB12562.1"
                      /translation="MFNTATSVRRKPGPGNSLSTLTTKYNDQDIQRYGLEDKERKIRRR
                      RRTLGFRHFILRHSWALPLFLATAFPTLYAINPAKFNVFSHFILLSYRHGSVIDGIVLP
@@ -295,12 +309,13 @@ FEATURES             Location/Qualifiers
                      LRLEKPRKDHMELTVHHIITIALIALSYRFHFTHIGISVYITHDISDLFLAISKSLNYL
                      GHRLQTPAFCLCVIAWIYLRHYTNWRILYSVLTEFRTVGPFELDWEAQQYKCQLSQFIT
                      FGLLATLQTLNIIWLYCLFRNAYRLLFLGIAKDDRSDTEESEIEDGSPG"
+                     /Pfam="TRAM1, TRAM_LAG1_CLN8"
      CDS             complement(join(40451..40722,40786..41029,41076..41363,
                      41425..41735,41877..41940))
                      /codon_start=1
                      /gene="fum18"
                      /product="sphingosine N-acyltransferase Fum18"
-                     /label=fum18
+                     /label="fum18"
                      /protein_id="ACB12563.1"
                      /translation="MATAVKTSPRTVISRPLNHGIGLPLLAVALLLIHISIPQAAPYTS
                      KFLLLSHRQPSTGLYSIGHGDVCFVLFKVLTLASLREGCMKYLLAPFARAMGVSKERKV
@@ -309,12 +324,13 @@ FEATURES             Location/Qualifiers
                      AKCLRYLGHTTLCDVLFCLFFITWILSRHVLYLMTCWSVYSDVPRIIEQSCFMGSADDL
                      HGPLPVPDDWWHLIEPWLYPNVLMMLWFGFICKVAIGVLDGRAADDVRSDDESDEEYQR
                      TELEEGSKSFANGSGWQKSQLQPGRSVRCNGAAQIGNGGKKELTARSMAKKG"
+                     /Pfam="TRAM1, TRAM_LAG1_CLN8"
      CDS             join(42266..42481,42548..45600,45654..46103,46164..46265,
                      46361..47057)
                      /codon_start=1
                      /gene="fum19"
                      /product="ABC transporter Fum19"
-                     /label=fum19
+                     /label="fum19"
                      /protein_id="ACB12564.1"
                      /translation="MDFEGCPSDASFGPFVKGCRGDFDFTLKFELIIFFIAPSCLFTAL
                      TFVRIFVLVSKSQIMMRNRIPLNLIKNIVNVVYTALRITLLILSPIGSANSDLSHLFIS
@@ -342,12 +358,13 @@ FEATURES             Location/Qualifiers
                      AAECRSVLEDVNLWDVVIAQGGDLTAALDSDALSQGQRQLFGLARAVLRKRAKAQSMSD
                      PAPQGGLLLLDEPSSAVDFETEGMMHRIIQREFCEYTVIMITHRLEFITGLHSMEQASL
                      DTQQGIFNRVLVVDAGTIVEDGHPAQLLESKEGRFRALWEASRV"
+                     /Pfam="ABC_membrane, ABC_tran"
      CDS             complement(join(47854..48568,48674..49067,49107..49491,
                      49572..49814))
                      /codon_start=1
                      /gene="cpm1"
                      /product="cytochrome P450 monooxygenase Cpm1"
-                     /label=cpm1
+                     /label="cpm1"
                      /protein_id="ACB12565.1"
                      /translation="MALSTTSSGALLLFSGLGAMVFLKHFPEVLHFEFLGFNVSTAGLS
                      STLLISLTINSALLLLYTVLIHPVFISPLRSIPRVKRWFPRAIYELFVHSLTPGELFLK
@@ -360,6 +377,7 @@ FEATURES             Location/Qualifiers
                      DATVFQPERWIDPITTEHQADPAYKAGDEGADRKSESTYATGKPNHTGGAKSNYDFMTF
                      LHGPRGCIGKMFAQAELRCLLAALVTRFRWTLDMKAEDVRPIGAITINPSHLYLRLEVV
                      KD"
+                     /Pfam="p450"
 ORIGIN
         1 atggcgggat ctattgtttt tgtgacagat aatcagattg gcgtagattc aagacataag
        61 ccacggttca gacggcgtcg tggcgcgtgt gagtcgtgta aacgccgtaa agtccgatgt

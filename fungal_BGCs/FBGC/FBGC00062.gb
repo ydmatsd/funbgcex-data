@@ -1,33 +1,33 @@
-LOCUS       FBGC00062       51788 bp DNA     linear   UNA 08-MAY-2023
+LOCUS       FBGC00062              51788 bp    DNA     linear   UNA 08-MAY-2023
 DEFINITION  sterigmatocystin.
 ACCESSION   FBGC00062
-VERSION     .
+VERSION     FBGC00062
 KEYWORDS    .
 SOURCE      Aspergillus nidulans FGSC4
   ORGANISM  Aspergillus nidulans FGSC4
+            .
 REFERENCE   1  (bases 1 to 51788)
-  AUTHORS   Brown DW, Yu JH, Kelkar HS, Fernandes M, Nesbitt TC, Keller NP, 
+  AUTHORS   Brown DW, Yu JH, Kelkar HS, Fernandes M, Nesbitt TC, Keller NP,
             Adams TH, Leonard TJ.
-  TITLE     Twenty-five coregulated transcripts define a sterigmatocystin gene 
+  TITLE     Twenty-five coregulated transcripts define a sterigmatocystin gene
             cluster in Aspergillus nidulans.
   JOURNAL   Proc Natl Acad Sci U S A 1996;93:1418-22
-  PUBMED    8643646
+   PUBMED   8643646
 REFERENCE   2  (bases 1 to 51788)
   AUTHORS   Keller NP, Segner S, Bhatnagar D, Adams TH.
   TITLE     stcS, a putative P-450 monooxygenase, is required for the conversion
             of versicolorin A to sterigmatocystin in Aspergillus nidulans.
   JOURNAL   Appl Environ Microbiol 1995;61:3628-32
-  PUBMED    7486998
+   PUBMED   7486998
 REFERENCE   3  (bases 1 to 51788)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported May 8, 2023 from SnapGene 6.2.2
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1073/pnas.93.4.1418"; journalName: "Proc Natl Acad Sci U S A"; 
+  JOURNAL   Exported May 8, 2023 from SnapGene 6.2.2 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1073/pnas.93.4.1418"; journalName: "Proc Natl Acad Sci U S A";
             date: "1996"; volume: "93"; pages: "1418-22"
-COMMENT     SGRef: number: 2; type: "Journal Article"; doi: 
-            "10.1128/aem.61.10.3628-3632.1995"; journalName: "Appl Environ 
+            SGRef: number: 2; type: "Journal Article"; doi:
+            "10.1128/aem.61.10.3628-3632.1995"; journalName: "Appl Environ
             Microbiol"; date: "1995"; volume: "61"; pages: "3628-32"
 FEATURES             Location/Qualifiers
      source          1..51788
@@ -41,7 +41,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="stcA"
                      /product="polyketide synthase StcA"
-                     /label=stcA
+                     /label="stcA"
                      /protein_id="AAC49191.1"
                      /translation="MASHAEPTRLFLFGDQTYDFVADLRDLLNIRNNPILVAFLEQSHH
                      VIRAQMIRELPPKEHKQARTASLAELLQKYVDRKLPSAFQTALSCVTQIGLFMRQFDDP
@@ -81,11 +81,13 @@ FEATURES             Location/Qualifiers
                      IIIDAPVPQVMEKLPTSFYEYCNNLGLFSNQPGGTTDGTAQPPPYLIPHFQATVDVMLD
                      YRVAPLKTNRMPKVGIIWASETVMDEDNAPKMKGMHFMVQKRWDFGPDGWDVVCPGAVF
                      DILRAEGANHLR"
+                     /Pfam="SAT2, PKS_KS, PKS_AT, fPKS_PT, ACP_PCP,
+                     Thioesterase"
      CDS             join(7096..7102,7144..7803,7950..8328,8400..8661)
                      /codon_start=1
                      /gene="stcB"
                      /product="cytochrome P450 monooxygenase StcB"
-                     /label=stcB
+                     /label="stcB"
                      /note="CYP62"
                      /protein_id="AAC49192.1"
                      /translation="MLSISSGPEATGADVSQAIRIAYFTPLKHIPGPWYASLTGLRLSW
@@ -96,11 +98,12 @@ FEATURES             Location/Qualifiers
                      EACERLPILNAVIDESLRLYGAAPGCMPRSPPSGGVTIGGYFIPDDTIVATQNWSLQRN
                      PSIWDDADTFDHTRWLSNSRITDQAKLAFNPFGYGARQCLGIHLGRMEMRLAAAMFFRE
                      CVGARLGRSVTDESMHVVDSFIAGVPRDRRCAITLT"
+                     /Pfam="p450"
      CDS             complement(9490..10425)
                      /codon_start=1
                      /gene="stcC"
                      /product="peroxidase StcC"
-                     /label=stcC
+                     /label="stcC"
                      /protein_id="AAC49193.1"
                      /translation="MLLKSIQNIVCGLVPTFFLFGSAAAELDFEQWHPAGLGDLRCGCP
                      AMNSLANHGFINHNGSNITVNEVIPLMQEVFHLSEELATIVTGLAVLSADDPASGIFNL
@@ -108,22 +111,24 @@ FEATURES             Location/Qualifiers
                      VLDSREKNPSFLYQDQQLITSYGETIKYFRTMVDPRSNKTSAEFVRILFTEERLPVRKG
                      GSAREKRSVGSRWPAMSFSWRCAPQRSSLACRSTSVRLQSRPLTRCHGSGLPSGLPRTT
                      RVSVRGISLSLSGGLRRRPFRFVLDRHLSF"
+                     /Pfam="Peroxidase_2"
      CDS             join(12264..12346,12414..12938,13011..13110,13161..13235)
                      /codon_start=1
                      /gene="stcE"
                      /product="short-chain dehydrogenase/reductase StcE"
-                     /label=stcE
+                     /label="stcE"
                      /protein_id="AAC49194.1"
                      /translation="MPSAAVSVPEVPSSDRKTVYLVNRCQQGGLVQAFLLRPNSIVIAG
                      LRNRTSQAGALDALPRGENSSLIAVQLDSGSKSDPADAVSILQRDYGITHLDVVIANAA
                      IAANYGPASTMPLEYLETHMQINAYAALLLFQATRVLLQAAKSPQFICVGAPISTITEM
                      ESCARAPVTNYALSKLAACYLVRKIHFENKWLVAYIVDPGHIQSDMGARSARLFGRKEA
                      PTTIEESVAGICARMTEADKNTTSGRFILFSDGSDVPW"
+                     /Pfam="adh_short_C2"
      CDS             complement(13565..14866)
                      /codon_start=1
                      /gene="aflR"
                      /product="transcription factor AflR"
-                     /label=aflR
+                     /label="aflR"
                      /protein_id="AAC49195.1"
                      /translation="MEPPAISQQSTPTAPGGTQGTRKLRESCISCSRSKVKCNKEKPTC
                      SRCVRRGLPCEYMVSRRTGRTRVIGVEQPKTAPSPTTPTNTTAATTATKAGPPVTTDSA
@@ -133,11 +138,12 @@ FEATURES             Location/Qualifiers
                      LVSLIVFKVLGWYVAAARDRSSDPGREEDFNWSTAQDSRRGSVSSFEEQVLHLPTVVGT
                      YCIDGHHQSRMAAQLVLSELYRVQRLVTQVSRRLESIRRRSSSSSSSASSNTTDSDGGM
                      STPLSSTTLVHLEDDLRKRLRAVSSETISILRHA"
+                     /Pfam="AflR"
      CDS             complement(join(17601..18005,18088..19203))
                      /codon_start=1
                      /gene="stcF"
                      /product="cytochrome P450 monooxygenase StcF"
-                     /label=stcF
+                     /label="stcF"
                      /note="CYP60A2"
                      /protein_id="AAC49196.1"
                      /translation="MILPLILVLYLLSTAAYRLWLHPVRNYPGPCWWAVWRVPYLKGTI
@@ -149,11 +155,12 @@ FEATURES             Location/Qualifiers
                      ESLRLYPAVPMQSNRIVPPPGARLAGSWVPGGTSVAVQQFAACRSPTNFHRPDEFIPER
                      WEKEGEFINDRREASQPFSIGPRNCIGRQLALAEMRLILVHLLWHFDIELDRRRMENMD
                      WMAVQGILDPVGQETAVGCVEEQKYVGTKVFAALVWMLVLPLYSLLLY"
+                     /Pfam="p450"
      CDS             21218..22078
                      /codon_start=1
                      /gene="stcI"
                      /product="esterase StcI"
-                     /label=stcI
+                     /label="stcI"
                      /protein_id="AAC49197.1"
                      /translation="MQGWKTIVGKLMSRYDFPLPDLSVQAEDKILGGVPTRIYTPPDVA
                      DPPLALYFHAGGWVMGSIDEEDGFVRTLCKLARTRIFSVGYRLAPEFRFPMALDDCLTV
@@ -161,11 +168,12 @@ FEATURES             Location/Qualifiers
                      DNRDRGEYTSYEENDRLTINTGSAMRSFFDCYGAPPDDPRLSCLLHPGLGKLNKVYMAV
                      GDADTLRDDVRLMRDALVALEVPVKCDEYPGYPHFSWLFPSPALREHQALFFGNLLSGI
                      CWVCE"
+                     /Pfam="Abhydrolase_3"
      CDS             complement(join(23225..23371,23420..27952))
                      /codon_start=1
                      /gene="stcJ"
                      /product="fatty acid synthase subunit alpha StcJ"
-                     /label=stcJ
+                     /label="stcJ"
                      /protein_id="AAC49198.1"
                      /translation="MTQKTIQQVPRQGLELLASTQDLAQLCYIYGEPAEGEDSTADESI
                      INTPQCSTIPEVAVEPEVQPIPDTPLTAIFIIRALVARKLRRSETEIDPSRSIKELCGG
@@ -194,11 +202,12 @@ FEATURES             Location/Qualifiers
                      VTKASTPVYTGFQRPHDKREDPRPSTIGVDTVTLSSFNAHENAIFLQRNYTERERQSLQ
                      LQSHRSFRSAVASGWCAKEAVFKCLQTVSKGAGAAMSEIEIVRVQGAPSVLHGDALAAA
                      QKAGLDNIQLSLSYGDDCVVAVALGVRKWCLWPLASIIR"
+                     /Pfam="Fas_alpha_ACP, FAS_I_H, adh_short, ACPS"
      CDS             join(28447..33205,33264..33725,33776..33891,33959..34366)
                      /codon_start=1
                      /gene="stcK"
                      /product="fatty acid synthase subunit beta StcK"
-                     /label=stcK
+                     /label="stcK"
                      /protein_id="AAC49199.1"
                      /translation="MTPSPFLDAVDAGLSRLYACFGGQGPSNWAGLDELVHLSHAYADC
                      APIQDLLDSSARRLESQQRSHTDRHFLLGAGSNYRPGSTTLLHPHHLPEDLALSPYSFP
@@ -233,11 +242,13 @@ FEATURES             Location/Qualifiers
                      ATGVLLEVVNYNVHSRQYVCAGHVRSLWVLSHACDDLSRSTSPNSPQTMSECIAHHIPS
                      SCSVTNETELSRGRATIPLAGVDIPFHSQMLRGHIDGYRQYLRHHLRVSDIKPEELVGR
                      WIPNVTGKPFALDAPYIRLVQGVTQSRPLLELLRRVEENR"
+                     /Pfam="DUF1729, FAS_meander, MaoC_dehydrat_N,
+                     MaoC_dehydratas, Acyl_transf_1"
      CDS             complement(join(34507..34845,34912..36075))
                      /codon_start=1
                      /gene="stcL"
                      /product="cytochrome P450 monooxygenase StcL"
-                     /label=stcL
+                     /label="stcL"
                      /note="CYP60B"
                      /protein_id="AAC49200.1"
                      /translation="MVLQDGFPIPSYPNSARRVVYVLFQLVYNLYFHPLRDYPGPLLWR
@@ -249,11 +260,12 @@ FEATURES             Location/Qualifiers
                      DLVSVSRLPYLTAVIDETLRMYPSVPGQPPRVVPEGGAIVCGRFVPAETRVGVSHLGAY
                      YAPYNFSHADKFIPERHLAGAKLEEPFRHDNYAAYQPWSVGVRNCIGRNLAYAEVRLTL
                      AKLLWHFDISLDEERTGNFLDQKIWSIWAKRELYLEIRTREF"
+                     /Pfam="p450"
      CDS             complement(39041..39934)
                      /codon_start=1
                      /gene="stcO"
                      /product="short-chain dehydrogenase/reductase StcO"
-                     /label=stcO
+                     /label="stcO"
                      /note="similar to A. parasiticus putative aflatoxin
                      biosynthesis protein"
                      /protein_id="AAC49201.1"
@@ -263,11 +275,12 @@ FEATURES             Location/Qualifiers
                      CVLYEAAATEGLLQYVLVDPPTLHDARGTQTTGYRLIDTTDMKDKENQRQAICLSYADL
                      GVAMCEIASRADELHGQGVGVTATGPVRQTWAVLAGFLLEGGLGHLDYRYGRENVVVLG
                      VCILLLLGGLLYSIKA"
+                     /Pfam="NAD_binding_10"
      CDS             complement(41531..42355)
                      /codon_start=1
                      /gene="stcQ"
                      /product="short-chain dehydrogenase/reductase StcQ"
-                     /label=stcQ
+                     /label="stcQ"
                      /note="similar to A. parasiticus putative aflatoxin
                      biosynthesis protein"
                      /protein_id="AAC49202.1"
@@ -276,11 +289,12 @@ FEATURES             Location/Qualifiers
                      SLQRLRATDPAIRLPRLVILSSASLEPTFCNDVPAPVHWVLKTAVSHLYRDLAAAEAYL
                      RAQSDWLSATFVKPGGLVHDQARGHKVCLDRAQTPLSFLDLAAGMVEVADADDGRYHMR
                      SVSVVPASRVAIFPWDGVYYTFTGLLFHFCPWTYRFLGEYKLQSRKERDKQA"
+                     /Pfam="NAD_binding_10"
      CDS             complement(44342..45859)
                      /codon_start=1
                      /gene="stcS"
                      /product="cytochrome P450 monooxygenase StcS"
-                     /label=stcS
+                     /label="stcS"
                      /note="CYP59"
                      /protein_id="AAC49203.1"
                      /translation="MPSFSLLTGHFGALKQTIDGMPPNATLHSIMLKLSQKFRSGMFYI
@@ -292,32 +306,35 @@ FEATURES             Location/Qualifiers
                      PYTTAVLKETLRLFPPSASMREGGPGVEITDDNGQVYPTAGCNVWTLTVALHHNSAHWA
                      EAESFIPERWLVGSDHPLYPAKGAWRAFEFGPRSCIGQTLAMLELRVALAMTLREFDIA
                      PAYDKWDHIYPNDAVKEFNGHRAYQAEKGGGGAHPADGMPCLVTFRV"
+                     /Pfam="p450"
      CDS             join(46669..46888,46955..47382)
                      /codon_start=1
                      /gene="stcT"
                      /product="glutathione S-transferase StcT"
-                     /label=stcT
+                     /label="stcT"
                      /protein_id="AAC49204.1"
                      /translation="MPFGTLYTRPFNPRSLAILAIAKANNLPLKIKTITSFKDATEEYL
                      QLNPLGKIPTFVGADGYVLTESIAIALYDSNTTLLGTTGQEYASIIRWMAFGITEILPA
                      LGGWFNPLIGRANFNADNIYQSKDDTLARLKILDNHLCGREYLVGETLSLADLFVLGIV
                      QGAFRFFLDKRWRDEHRNLSTWFERVHALPIVVDVAGPPVLAEYEMPIQPPK"
+                     /Pfam="GST_N, GST_C"
      CDS             complement(join(47581..47718,47768..48091,48143..48475))
                      /codon_start=1
                      /gene="stcU"
                      /product="short-chain dehydrogenase/reductase StcU"
-                     /label=stcU
+                     /label="stcU"
                      /protein_id="AAC49205.1"
                      /translation="MSSSDNYRLDGKVALVTGAGRGIGAAIAVALGQRGAKVVVNYANS
                      REAAEKVVDEIKSNAQTAISIQADVGDPDAVTKLMDQAVEHFGYLDIVSSNAGIVSFGH
                      VKDVTPDEFDRVFRVNTRGQFFVAREAYRHLREGGRIILTSSNTASVKGVPRHAVYSGS
                      KGAIDTFVRCLAIDCGDKKITVNAVAPGAIKTDMFLSVSREYIPNGETFTDEQVDECAA
                      WLSPLNRVGLPVDVARVVSFLASDAAEWISGKIIGVDGGAFR"
+                     /Pfam="adh_short_C2"
      CDS             complement(join(48590..48634,48685..49232,49280..49850))
                      /codon_start=1
                      /gene="stcV"
                      /product="aldo-keto reductase StcV"
-                     /label=stcV
+                     /label="stcV"
                      /protein_id="AAC49206.1"
                      /translation="MAAPPAPQPPSLLGYHRVLSPLAGIRVSPLCLGTMHFGGQWMRAM
                      GDVTKETAFALLDRFYEAGGNFIDTANFYQGEGSEKWLGEWVASRGNRDELVLATKYTM
@@ -326,11 +343,12 @@ FEATURES             Location/Qualifiers
                      QSEGLALAPWGALGRGQYKSAEEFQQEGTRNMGPQEEKHRLMGAKLTEVGERKGVAAAA
                      IALAYLLHKSPYVFPVIGCRTVEQLEANITSLGVELSDEEIYEIEDTIPFDVGFPMAFL
                      FESPQQKYRSDMTTRHIWQVTCNARIESVPKPRPIEPKQGYKQMDRK"
+                     /Pfam="Aldo_ket_red"
      CDS             join(50156..50291,50340..50416,50471..50701,50766..51788)
                      /codon_start=1
                      /gene="stcW"
                      /product="FAD-dependent monooxygenase StcW"
-                     /label=stcW
+                     /label="stcW"
                      /protein_id="AAC49207.1"
                      /translation="MDPNNRRLRVITIGAGFSGILMAYQIQKQCANIEHVVYEKNHDIG
                      GTWLTNRYPNAGCDVPSHAYTYRFALYPDWPRYFSYASDIWEYLDKVCAAFKLRQYMQF
@@ -341,6 +359,7 @@ FEATURES             Location/Qualifiers
                      IERLVDTIVCASGFDNTYRPQFPIIGRRGVDLRDKWKTNPEAYLGLAVPDMPNYITFIG
                      PSWPIQNGSVMAPLHSVSEYAIQFLKKMQNENIRAWAPRQQITDRFNEHVQEWVKHTVW
                      SDQCRSCTLALVNAAPFFFFSFFFLLLKLS"
+                     /Pfam="FMO-like"
 ORIGIN
         1 tcagcgtaaa tgatttgccc cttcagcgcg cagaatatca aacaccgccc ccggacaaac
        61 cacatcccac ccatccggcc caaaatccca ccttttctgc accataaagt gcatcccttt

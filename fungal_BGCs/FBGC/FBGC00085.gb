@@ -1,30 +1,30 @@
-LOCUS       FBGC00085       16573 bp DNA     linear   UNA 18-JAN-2023
+LOCUS       FBGC00085              16573 bp    DNA     linear   UNA 18-JAN-2023
 DEFINITION  exo-1-acetamidopyrrolizidine.
 ACCESSION   FBGC00085
-VERSION     .
+VERSION     FBGC00085
 KEYWORDS    .
 SOURCE      Atkinsonella hypoxylon B4728
   ORGANISM  Atkinsonella hypoxylon B4728
+            .
 REFERENCE   1  (bases 1 to 16573)
-  AUTHORS   Pan J, Bhardwaj M, Faulkner JR, Nagabhyru P, Charlton ND, Higashi 
+  AUTHORS   Pan J, Bhardwaj M, Faulkner JR, Nagabhyru P, Charlton ND, Higashi
             RM, Miller AF, Young CA, Grossman RB, Schardl CL.
   TITLE     Ether bridge formation in loline alkaloid biosynthesis.
   JOURNAL   Phytochemistry 2014;98:60-8
-  PUBMED    24374065
+   PUBMED   24374065
 REFERENCE   2  (bases 1 to 16573)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Jan 18, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1016/j.phytochem.2013.11.015"; journalName: "Phytochemistry"; 
-            date: "2014"; volume: "98"; pages: "60-8"
+  JOURNAL   Exported Jan 18, 2023 from SnapGene 6.2.1 https://www.snapgene.com
 COMMENT     ##Assembly-Data-START##
             Assembly Method       :: Newbler v. 2.8
-            Assembly Name         :: Atkinsonella_hypoxylon_4728-20121211 
+            Assembly Name         :: Atkinsonella_hypoxylon_4728-20121211
             Coverage              :: 32
             Sequencing Technology :: 454
             ##Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1016/j.phytochem.2013.11.015"; journalName: "Phytochemistry";
+            date: "2014"; volume: "98"; pages: "60-8"
 FEATURES             Location/Qualifiers
      source          1..16573
                      /host="Danthonia spicata"
@@ -36,7 +36,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="lolF"
                      /product="FAD-dependent monooxygenase LolF"
-                     /label=lolF
+                     /label="lolF"
                      /note="putative FAD-containing monooxygenase"
                      /protein_id="AHJ80941.1"
                      /translation="MTLDKWDVIVVGAGFSGILVVYRLRKIGFRVLGFERQERLGGVWR
@@ -49,14 +49,15 @@ FEATURES             Location/Qualifiers
                      CLEDAWSDGVESHLGMAIHSFPNMFFLYGPQCPTLLVNSPAVITVQVEWLCKIISKCQQ
                      AGICQLEATSKSHCQWESKMSLLWDKTLYHTHPRKSKKTAEAGKEEKTWVGGLILYRRE
                      LENCLANNLEGFQAWHVEETALL"
-     CDS             join(2997..3079,3142..3193,3276..3359,3443..3802,3887..4440,
-                     4516..4786)
+                     /Pfam="FMO-like"
+     CDS             join(2997..3079,3142..3193,3276..3359,3443..3802,
+                     3887..4440,4516..4786)
                      /codon_start=1
                      /gene="lolC"
                      /product="PLP-containing enzyme LolC"
-                     /label=lolC
+                     /label="lolC"
                      /note="putative PLP-containing enzyme; similar to
-                     gamma-class PLP-enzymes such as homocysteine 
+                     gamma-class PLP-enzymes such as homocysteine
                      synthase/O-acetyl-homoserine thiol lyase"
                      /protein_id="AHJ80942.1"
                      /translation="MTVGTITSTSNGDQDIPNEFETQLLHLGRFPDILGSCAVPVYSSA
@@ -68,11 +69,12 @@ FEATURES             Location/Qualifiers
                      LKYLKRGFGSVICFGLRGGFEAGALFCDALKMVITTTNLGDAKTLILHPASTTHEHFSP
                      EDRAEAGVTDDMIRLSVGIEQIKDIKTDFEQAFEQVLRGKSLRKPFIEKILLQDEINES
                      LFGPSACCT"
+                     /Pfam="Cys_Met_Meta_PP"
      CDS             join(6345..6519,6595..6990,7099..7653,7731..7849)
                      /codon_start=1
                      /gene="lolD"
                      /product="ornithine decarboxylase LolD"
-                     /label=lolD
+                     /label="lolD"
                      /note="putative PLP-containing enzyme; similar to ornithine
                      decarboxylase"
                      /protein_id="AHJ80943.1"
@@ -84,11 +86,12 @@ FEATURES             Location/Qualifiers
                      VARRRNATPFGQEPATRLYLNDGIYSNFMMRFIVNMTFSPVAVIREGVWHEQTMRGEAC
                      SLWGRSCDSNDCINRDCRLDPGVGVGDWLVFKDMGAYTTVCNTTFNGFTSSNHTIYLEP
                      TQVDKAQSTFEQLAI"
+                     /Pfam="Orn_Arg_deC_N"
      CDS             join(10365..10899,10971..11074)
                      /codon_start=1
                      /gene="lolA"
                      /product="aspartate kinase-like protein LolA"
-                     /label=lolA
+                     /label="lolA"
                      /note="similar to C-terminal domains of aspartate kinase"
                      /protein_id="AHJ80944.1"
                      /translation="MILDEIPMRKGDTMSYEQGNPESKASISIHQQNQIITCVSPGPVC
@@ -99,7 +102,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="lolU"
                      /product="transcription factor LolU"
-                     /label=lolU
+                     /label="lolU"
                      /protein_id="AHJ80945.1"
                      /translation="MVSAWNYPIVAPGWTRSEDGTLTRPLDLVENWLLARIQRANTPPG
                      REAEGLTYKLKLRLPHDIDDPIPYLRRAWLVFRYVQPLIGAIYPPYSERDETGRYLVTV
@@ -110,12 +113,13 @@ FEATURES             Location/Qualifiers
                      FCLTGGFEELTKRLGAVYSRDLSALLSDPAGDPVSFLELLPLYGSREAAFLGSLPVAGC
                      PPFRVPNLSSLGVLERYLARAYGQKGAQVPVCEIEDLALVNATTDPTIEFQLFTFRSTM
                      RLYLYYNDAYYTEEFLAPVMGMVRNSLLRELGLGIS"
+                     /Pfam="LolU"
      CDS             complement(join(13696..14401,14470..15061,15138..15225))
                      /codon_start=1
                      /gene="lolT"
                      /product="PLP-containing enzyme LolT"
-                     /label=lolT
-                     /note="alpha-type PLP enzyme similar to class 
+                     /label="lolT"
+                     /note="alpha-type PLP enzyme similar to class
                      5-aminotransferases"
                      /protein_id="AHJ80946.1"
                      /translation="MTVNSKRIPFGKPMLEAFCMDPEYTNLNSSSCGSWPRVVSKQIRD
@@ -127,11 +131,12 @@ FEATURES             Location/Qualifiers
                      VLEEPGLGAGVDSQMRNCGIVTVRLPLPIATGPSPSTAPANVPGGALAEKEVGPAVRYL
                      TKALAERYKTWIPIIDYRGWIWARLCAQVYLEVSDFEMAGNALKVICEKILDREMGQEI
                      ADS"
+                     /Pfam="Aminotran_5"
      CDS             join(15697..16435,16542..16573)
                      /codon_start=1
                      /gene="lolE"
                      /product="2OG-Fe(II)-dependent dioxygenase LolE"
-                     /label=lolE
+                     /label="lolE"
                      /note="putative epoxidase/hydroxylase"
                      /protein_id="AHJ80947.1"
                      /translation="MTAASSPHSCVSAEDIEFYQANGYLRLPQETHGLFDDLEKLQGWV
@@ -139,6 +144,7 @@ FEATURES             Location/Qualifiers
                      MVVFKDEIAWKLPGGKGAVAHLDRPAYSMFAPEFIEIMIAVDAHTVENGCLEFVPGSHK
                      EAVPISADGRIASAWLEGKEFIPMVLEPGDILIFNESMAHRLEPNKTDQRRAAVIGTYH
                      FDLSQPDLRCKFYAHRLIHSPPENARVETVRAQT"
+                     /Pfam="PhyH"
 ORIGIN
         1 tcacagaaga gccgtctcct ctacatgcca tgcttgaaac ccttccaggt tgttggccag
        61 acagttttcc agctcccgac gatacagaat caacccccca accctgaccg gtttgttaga

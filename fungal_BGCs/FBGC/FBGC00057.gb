@@ -1,44 +1,44 @@
-LOCUS       FBGC00057       20959 bp DNA     linear   UNA 16-JAN-2023
+LOCUS       FBGC00057              20959 bp    DNA     linear   UNA 16-JAN-2023
 DEFINITION  N-formylloline.
 ACCESSION   FBGC00057
-VERSION     .
+VERSION     FBGC00057
 KEYWORDS    .
 SOURCE      Epichloe uncinata CBS 102646
   ORGANISM  Epichloe uncinata CBS 102646
+            .
 REFERENCE   1  (bases 1 to 20959)
   AUTHORS   Spiering MJ, Wilkinson HH, Blankenship JD, Schardl CL.
-  TITLE     Expressed sequence tags and genes associated with loline alkaloid 
+  TITLE     Expressed sequence tags and genes associated with loline alkaloid
             expression by the fungal endophyte Neotyphodium uncinatum.
   JOURNAL   Fungal Genet Biol 2002;36:242-54
-  PUBMED    12135580
+   PUBMED   12135580
 REFERENCE   2  (bases 1 to 20959)
   AUTHORS   Spiering MJ, Moon CD, Wilkinson HH, Schardl CL.
-  TITLE     Gene clusters for insecticidal loline alkaloids in the 
+  TITLE     Gene clusters for insecticidal loline alkaloids in the
             grass-endophytic fungus Neotyphodium uncinatum.
   JOURNAL   Genetics 2005;169:1403-14
-  PUBMED    15654104
+   PUBMED   15654104
 REFERENCE   3  (bases 1 to 20959)
-  AUTHORS   Spiering MJ, Faulkner JR, Zhang DX, Machado C, Grossman RB, Schardl 
+  AUTHORS   Spiering MJ, Faulkner JR, Zhang DX, Machado C, Grossman RB, Schardl
             CL.
-  TITLE     Role of the LolP cytochrome P450 monooxygenase in loline alkaloid 
+  TITLE     Role of the LolP cytochrome P450 monooxygenase in loline alkaloid
             biosynthesis.
   JOURNAL   Fungal Genet Biol 2008;45:1307-14
-  PUBMED    18655839
+   PUBMED   18655839
 REFERENCE   4  (bases 1 to 20959)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Jan 16, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1016/s1087-1845(02)00023-3"; journalName: "Fungal Genet Biol"; 
+  JOURNAL   Exported Jan 16, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1016/s1087-1845(02)00023-3"; journalName: "Fungal Genet Biol";
             date: "2002"; volume: "36"; pages: "242-54"
-COMMENT     SGRef: number: 2; type: "Journal Article"; doi: 
-            "10.1534/genetics.104.035972"; journalName: "Genetics"; date: 
+            SGRef: number: 2; type: "Journal Article"; doi:
+            "10.1534/genetics.104.035972"; journalName: "Genetics"; date:
             "2005"; volume: "169"; pages: "1403-14"
-COMMENT     SGRef: number: 3; type: "Journal Article"; doi: 
+            SGRef: number: 3; type: "Journal Article"; doi:
             "10.1016/j.fgb.2008.07.001"; journalName: "Fungal Genet Biol"; date:
             "2008"; volume: "45"; pages: "1307-14"
-COMMENT     On or before Dec 14, 2004 this sequence version replaced AF461176.1,
+            On or before Dec 14, 2004 this sequence version replaced AF461176.1,
             AF439394.1.
 FEATURES             Location/Qualifiers
      source          1..20959
@@ -52,7 +52,7 @@ FEATURES             Location/Qualifiers
                      /gene="lolF"
                      /allele="1"
                      /product="FAD-dependent monooxygenase LolF"
-                     /label=lolF
+                     /label="lolF"
                      /note="putative FAD-containing monooxygenase"
                      /protein_id="AAV68702.1"
                      /translation="MTLTNLDVIVVGAGFSGILAVYRLRKLGFRVQGFERQERLGGVWR
@@ -65,15 +65,16 @@ FEATURES             Location/Qualifiers
                      RLEDAWSDGVESHLGMAIHSFPNMVILYGPQCPTLLVNSPAVITVQVEWLCEIIARCQQ
                      AGICQLEATSKSHCQWERKMSLLWDKTLYHTHARKSKKTAEANKEEKTWVGGLILYRRE
                      LENCLANNLEGFQAWHVEETGLL"
-     CDS             join(3558..3655,3718..3769,3854..3937,4019..4378,4465..5018,
-                     5089..5362)
+                     /Pfam="FMO-like"
+     CDS             join(3558..3655,3718..3769,3854..3937,4019..4378,
+                     4465..5018,5089..5362)
                      /codon_start=1
                      /gene="lolC"
                      /allele="1"
                      /product="PLP-containing enzyme LolC"
-                     /label=lolC
+                     /label="lolC"
                      /note="putative PLP-containing enzyme; similar to
-                     gamma-class PLP-enzymes such as homocysteine 
+                     gamma-class PLP-enzymes such as homocysteine
                      synthase/O-acetyl-homoserine thiol lyase"
                      /protein_id="AAV68703.1"
                      /translation="MTVDTITSTSNGNQDVPKEFFPKEFETQLLHVGRFPDILGSCAVP
@@ -85,12 +86,13 @@ FEATURES             Location/Qualifiers
                      DHQGALKYLKRGFGSVICFGLRGGFEAGALFCDALKMVITTTNLGDAKTLILHPASTTH
                      EHFSSEHRAEAGVTDDMIRLSVGIEQIKDIKADFEQAFEQVLRGKKSLRKPCIGKILLQ
                      DEINEDLFGPSACRT"
+                     /Pfam="Cys_Met_Meta_PP"
      CDS             join(7115..7292,7377..7772,7851..8414,8508..8632)
                      /codon_start=1
                      /gene="lolD"
                      /allele="1"
                      /product="ornithine decarboxylase LolD"
-                     /label=lolD
+                     /label="lolD"
                      /note="putative PLP-containing enzyme; similar to ornithine
                      decarboxylase"
                      /protein_id="AAV68704.1"
@@ -102,15 +104,16 @@ FEATURES             Location/Qualifiers
                      VVARRRNAAAFGNEPATRLYINDGIYSNFMMRFIVNMTFSPVAVIRKGVWYDQTEQTMR
                      REACSLWGRSCDSNDCINRDCRLDPEVGVGDWLVFKDMGAYTTVCNTTFNGFTSSNHTI
                      YIEPTQVDKAQSTFEQLELAI"
+                     /Pfam="Orn_Arg_deC_N"
      CDS             complement(join(9437..10333,10426..10617))
                      /codon_start=1
                      /gene="lolO"
                      /allele="1"
                      /product="2OG-Fe(II)-dependent dioxygenase LolO"
-                     /label=lolO
+                     /label="lolO"
                      /note="putative iron-containing oxidoreductase/dioxygenase;
-                     contains three conserved amino acid residues (H222 D224 
-                     H280) implicated in iron binding in isopenicillin N 
+                     contains three conserved amino acid residues (H222 D224
+                     H280) implicated in iron binding in isopenicillin N
                      synthetase in SwissProt Accession Number P05326"
                      /protein_id="AAV68705.1"
                      /translation="MTVTNKPVKPANVPVMDFEAIHASVGNERKKYLRQLDEAWSHHGA
@@ -120,12 +123,13 @@ FEATURES             Location/Qualifiers
                      TDYCQFTMLFQDMVGGLELHDYEEDIYRPVPPIKGAMIVQVGDLLEKQTNGRWRSALHR
                      VTAPSRYMYEGSAGDDDELVQRYSLVFFGHLNLDEMIEPLPGCEKQGKWSTLEWKDRMT
                      AGQWLARRVALEYERKTAATVM"
+                     /Pfam="DIOX_N, 2OG-FeII_Oxy"
      CDS             join(11607..12132,12201..12304)
                      /codon_start=1
                      /gene="lolA"
                      /allele="1"
                      /product="aspartate kinase-like protein LolA"
-                     /label=lolA
+                     /label="lolA"
                      /note="similar to C-terminal domains of aspartate kinase"
                      /protein_id="AAV68706.1"
                      /translation="MLDESPMRKGDSVSNDQSNPESNASVSIHQQNQIITCVSPGPVCP
@@ -137,7 +141,7 @@ FEATURES             Location/Qualifiers
                      /gene="lolU"
                      /allele="1"
                      /product="transcription factor LolU"
-                     /label=lolU
+                     /label="lolU"
                      /protein_id="AAV68707.1"
                      /translation="MASPGNHAIVAPGWTRSEDGSLTRPLDLVENWLLARIQRANTPPG
                      REAEGLTYKLKLRLPQDIDDPIPYLRRAWLVFRYVQPLIGAIYPPYSERDETGRYLVTV
@@ -148,12 +152,13 @@ FEATURES             Location/Qualifiers
                      PFCLTGGFEDLTQRLGAVYSRDLSALPSDPAGDPVSFLELLPLYESREAAFLGSLPVAG
                      CPPFRVPNLSSLGVLERYLARAYGKKGAQAPVCEIEDVALVNATTDPTIEFQLFTFRGT
                      MRLYLYYNDAYYTEDFLAPVMEMVRDSLLQELGLGGS"
+                     /Pfam="LolU"
      CDS             join(15900..16212,16286..17349,17473..17531,17645..17699)
                      /codon_start=1
                      /gene="lolP"
                      /allele="1"
                      /product="cytochrome P450 monooxygenase LolP"
-                     /label=lolP
+                     /label="lolP"
                      /note="cytochrome P450 monooxygenase"
                      /protein_id="AAV68708.1"
                      /translation="MDLTQFNTAGIVWPTVAAIAISYILLSSFLSWYRLRHIPGPFLAS
@@ -165,14 +170,15 @@ FEATURES             Location/Qualifiers
                      MAQAQRLPYLQAVVLEGFRMRPAVVYGHFKSVPAGGDTLPNGVRLPAGTAIAPNYIALT
                      RRADVYGADVDLFRPERFLDAEPAKRHEMERAMDLNFGLGRWQCAGRNIALMEMNKVFF
                      ELLRHFDLQILYPGKAWDEYTGVVYSQHNMWVQITESS"
+                     /Pfam="p450"
      CDS             complement(join(18140..18824,18900..19491,19569..19656))
                      /codon_start=1
                      /gene="lolT"
                      /allele="1"
                      /product="PLP-containing enzyme LolT"
-                     /label=lolT
+                     /label="lolT"
                      /note="putative class 5-aminotransferase; coding region,
-                     intron and exon positions deduced from lolT-2, encoded by 
+                     intron and exon positions deduced from lolT-2, encoded by
                      GenBank Accession Number AY723750"
                      /protein_id="AAV68709.1"
                      /translation="MTVNSKRIPFGKPMLEAFCMDPEYTNLNSSSCGSWPKVVSKQIRD
@@ -183,12 +189,13 @@ FEATURES             Location/Qualifiers
                      SFETLFAYTATSDYMPHLCIPAALRFRRDVCGGEAAIYEYIKWLAKEGGDKIADILQTE
                      VLEEPGLGAGVDGQMRNCGIVTVRLPLAIATGPSTAPAHVPGGALTEKEVGPAVRYLTK
                      ALAERYKTWIPIIDYRGWIWARLCAQVYLEVSDFEMAGNSLKVICEEILNREMGQ"
+                     /Pfam="Aminotran_5"
      CDS             join(20110..20848,20928..20959)
                      /codon_start=1
                      /gene="lolE"
                      /allele="1"
                      /product="2OG-Fe(II)-dependent dioxygenase LolE"
-                     /label=lolE
+                     /label="lolE"
                      /note="putative epoxidase/hydroxylase"
                      /protein_id="AAV68710.1"
                      /translation="MTAASSPHPGVSAEDIEFYQANGYLRLPQEAHGLFDDLAKLQAWV
@@ -196,6 +203,7 @@ FEATURES             Location/Qualifiers
                      MVVFKDEIGWKLPGGKGAVPHLDRPAYSMFAPEFIEIMIAVDAHTVENGCLQFVPGSHK
                      EAVPISADGRIASAWLEGKEFIPMVLDPGDVLIFNESMAHRLDPNKTDQRRAAVFGTYH
                      FDRSQPDLRDKFYAHRLIHSPPENAWVETVEAQT"
+                     /Pfam="PhyH"
 ORIGIN
         1 tcacagaaga cccgtctcct ctacatgcca cgcttgaaac ccctccaggt tgttggccag
        61 acagttttcc agctcccgac gatacagaat caacccccca accctgatca gtttgttaga

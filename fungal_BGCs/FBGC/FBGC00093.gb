@@ -1,27 +1,27 @@
-LOCUS       FBGC00093       27676 bp DNA     linear   UNA 29-JAN-2023
+LOCUS       FBGC00093              27676 bp    DNA     linear   UNA 29-JAN-2023
 DEFINITION  Sch 210972.
 ACCESSION   FBGC00093
-VERSION     .
+VERSION     FBGC00093
 KEYWORDS    .
 SOURCE      Hapsidospora irregularis
   ORGANISM  Hapsidospora irregularis
+            .
 REFERENCE   1  (bases 1 to 27676)
   AUTHORS   Kakule TB, Zhang S, Zhan J, Schmidt EW.
   TITLE     Biosynthesis of the tetramic acids Sch210971 and Sch210972.
   JOURNAL   Org Lett 2015;17:2295-7
-  PUBMED    25885659
+   PUBMED   25885659
 REFERENCE   2  (bases 1 to 27676)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Jan 29, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1021/acs.orglett.5b00715"; journalName: "Org Lett"; date: 
-            "2015"; volume: "17"; pages: "2295-7"
+  JOURNAL   Exported Jan 29, 2023 from SnapGene 6.2.1 https://www.snapgene.com
 COMMENT     ##Assembly-Data-START##
             Assembly Method       :: SPAdes v. 3.0.0
             Sequencing Technology :: Illumina
             ##Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1021/acs.orglett.5b00715"; journalName: "Org Lett"; date:
+            "2015"; volume: "17"; pages: "2295-7"
 FEATURES             Location/Qualifiers
      source          1..27676
                      /mol_type="genomic DNA"
@@ -31,7 +31,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="tas3"
                      /product="Diels-Alderase Tas3"
-                     /label=tas3
+                     /label="tas3"
                      /protein_id="AKG54860.1"
                      /translation="MVDIFTSEFTVGESITTDPIPESDFIPNSGNLFPKFPDQIRKTAV
                      EVWLFDAIAEDGSSAITISFFRDALAAPAGFRIAVNASWSDGTIWGKPLIFPKSLITSK
@@ -40,13 +40,14 @@ FEATURES             Location/Qualifiers
                      SWESVGWTQAVTDSVFLRAKSGPYDLHFMLLVGKAEQDYRLTASASLYRDGELVCAPHD
                      VLHHTEDGITTGAAAATTTTTRGDVDTLVVKKLFEGEGLPAPFRHQNVGYQLEYTSGGP
                      DGKTWVFETRHQRAWYRKPTGPGTGSSGFIVSVTGGEAGKGKSFQGWGYEGQVVLPE"
+                     /Pfam="Fsa2"
      CDS             join(2339..2664,2756..3502,3557..3810,3867..11795,
                      11859..14788)
                      /codon_start=1
                      /gene="tasS"
-                     /product="polyketide synthase-nonribosomal peptide 
+                     /product="polyketide synthase-nonribosomal peptide
                      synthetase TasS"
-                     /label=tasS
+                     /label="tasS"
                      /protein_id="AKG54858.1"
                      /translation="MTKIQEQEPIAVIGMACRFPGGSDTPSKLWELLQKPRDLSKRVPE
                      DRFDSTGFFHENGTHHGATDCRDAYFLEEDVTRFDNAFFNIQPGEAEALDPQQRLLMET
@@ -118,11 +119,13 @@ FEATURES             Location/Qualifiers
                      SLSEKLNVRPDFTNLGGIIDLSPLEDAVEAVTQAVTTNIREEASGIRIINHAGTARMRT
                      NALAAHAEELFGRAENSAVMGLPSVSALHWVGLAKRAGLFEWFFTAQDLVVEDGEGNTI
                      ASRR"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_DH, PKS_NRPS_MT, fPKS_KR,
+                     ACP_PCP, Condensation, AA-adenyl-dom, fPKS_R"
      CDS             join(15567..16778,16887..18584,18683..18718)
                      /codon_start=1
                      /gene="tasK"
                      /product="amidohydrolase TasK"
-                     /label=tasK
+                     /label="tasK"
                      /protein_id="AKG54855.1"
                      /translation="MDDQKGPLPPYTPTATAPPPASMRQRRPPGRRRALRRSRTVRVLA
                      LACLAFVVLAQWKQLWRGERKAPPYLSVDKLNDNLETCRKLRVRPQDPAGPGRSKNDRY
@@ -141,11 +144,12 @@ FEATURES             Location/Qualifiers
                      IKDEVDKKQQKQQQQQQQQQQQQHGTSSGIRMAIIGGAEAYLVAEHLAAANVGVILSPL
                      QSYGETWDARRALPGAPLTNGTNIDRLLDAGVKVGIGLKEDWEVRDLALAAGTAYENGG
                      GRLTGRQALDLVGRNVLEILGVEEEEETPGATMGESGHFVVLLIINMFCGL"
+                     /Pfam="Amidohydro_3"
      CDS             21160..22860
                      /codon_start=1
                      /gene="tasR"
                      /product="transcription factor TasR"
-                     /label=tasR
+                     /label="tasR"
                      /protein_id="AKG54859.1"
                      /translation="MISASRMEESASSSSLSDAAAPPPGAALQSIRSSCDRCRFHKLKC
                      NVPAAGHGGPVPCERCTRAKVPCVFGRRRRANRPSEDKKRPAAPTRRATMPSPSPTPAS
@@ -157,11 +161,12 @@ FEATURES             Location/Qualifiers
                      LMRIYGAALGHFQVHLSGLSGASESDGCGRGASRSGPNASPALRLGELPSTGTAPDLGR
                      IHTALGMLQGALAEVEGQLGRGGAVARNLVVALLTRQEAVSRGVGGGGGGGGGGGGGGG
                      GGVGGGGGGGGGPGGSSEHSGGSSDVDDCEGLGGKVQSVKELLREKMGF"
+                     /Pfam="EqxR"
      CDS             24942..26099
                      /codon_start=1
                      /gene="tasC"
                      /product="trans-acting enoylreductase TasC"
-                     /label=tasC
+                     /label="tasC"
                      /protein_id="AKG54856.1"
                      /translation="MTVSNKTQTALVGSPDGAIILSDTAPLPPSQLEDEQVAVAVQAVS
                      LNPVDTKMAGDYHTPGAISGCEFAGVVTAVGPGAASEWGLGPGDRVSAAIMGMNPLRPS
@@ -170,17 +175,19 @@ FEATURES             Location/Qualifiers
                      FDLVRSYGADAVFDHSSPSVAADIKAHTRNGLRLALDCITTPDTTRLCYGAIGRTGGRY
                      VSLDPYSEVVAASRAVVRADWVLGPELMGEDVGWPAPHGRKGNPEAKAFCKVWNRTLQG
                      LLDRGAIRTHPQRVRDTGLRGVLEGLDDIREKRVSGEKLVYTLQV"
+                     /Pfam="fPKS_ER"
      CDS             join(26788..26844,26921..27676)
                      /codon_start=1
                      /gene="tasA"
                      /product="aldolase TasA"
-                     /label=tasA
+                     /label="tasA"
                      /protein_id="AKG54861.1"
                      /translation="MVAYENVLANKASSGRLCKALGIRLVTNPLVVQLAKNAGFDALFI
                      DLEHSTLSLADASAIACAGLLSGLTPFVRVPYQCGMGFVQQVLDGGAMGIIFPHVHTAA
                      DARAAVDTCKFPPHGRRSMWGQQPVLGLRVTPLHKIAEVCDRVASSVVVMIEAADSIEQ
                      ADAIAAVEGVDVLLVGCIDLSTDMGIAGNFESKRFRAALEAVSAACHRHGKLMGLAGLY
                      NNRKLQEWAVHSLRARFILCQQDSNLLALGAMECAGAVASIQLDRCPD"
+                     /Pfam="HpcH_HpaI"
 ORIGIN
         1 atggtcgaca tattcacatc cgaattcacc gtcggcgagt ccatcaccac agatccaatt
        61 cccgagtcgg atttcatccc caacagcggc aacctattcc ccaagttccc cgaccagatc

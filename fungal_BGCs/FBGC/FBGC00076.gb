@@ -1,24 +1,24 @@
-LOCUS       FBGC00076       18788 bp DNA     linear   UNA 18-JAN-2023
+LOCUS       FBGC00076              18788 bp    DNA     linear   UNA 18-JAN-2023
 DEFINITION  cyclopiazonic acid.
 ACCESSION   FBGC00076
-VERSION     .
+VERSION     FBGC00076
 KEYWORDS    .
 SOURCE      Aspergillus oryzae NBRC 4177
   ORGANISM  Aspergillus oryzae NBRC 4177
+            .
 REFERENCE   1  (bases 1 to 18788)
-  AUTHORS   Kato N, Tokuoka M, Shinohara Y, Kawatani M, Uramoto M, Seshime Y, 
+  AUTHORS   Kato N, Tokuoka M, Shinohara Y, Kawatani M, Uramoto M, Seshime Y,
             Fujii I, Kitamoto K, Takahashi T, Takahashi S, Koyama Y, Osada H.
   TITLE     Genetic safeguard against mycotoxin cyclopiazonic acid production in
             Aspergillus oryzae.
   JOURNAL   Chembiochem 2011;12:1376-82
-  PUBMED    21608094
+   PUBMED   21608094
 REFERENCE   2  (bases 1 to 18788)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Jan 18, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1002/cbic.201000672"; journalName: "Chembiochem"; date: "2011"; 
+  JOURNAL   Exported Jan 18, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1002/cbic.201000672"; journalName: "Chembiochem"; date: "2011";
             volume: "12"; pages: "1376-82"
 FEATURES             Location/Qualifiers
      source          1..18788
@@ -30,7 +30,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="cpaH"
                      /product="cytochrome P450 monooxygenase CpaH"
-                     /label=cpaH
+                     /label="cpaH"
                      /protein_id="BAK26559.1"
                      /translation="MSQFAREIVRNAIYNTSSPDADSVSLRKATTTILLIGVTYCILVG
                      IYRVTLHPLAKYPGPKLAAVTRLWHSYHLCTGDIVSVLSRAHEAYGPVLRIAPDEVLFI
@@ -41,11 +41,12 @@ FEATURES             Location/Qualifiers
                      GEIRTTFNNAGDINSISVNQLKYLSACMNEALRIFPPGPAVFPRRVPQGGDFIDGHWIP
                      GGTQVGIAHYCINRSRRNFVDPDKFIPERWLGDPTYQTDDRHAVQPFSYGPRNCIAHNL
                      ARLEMRLVLARLIWEFDWELAPGSERWEEEALVFNVWSTKPLMIKFTPVAR"
+                     /Pfam="p450"
      CDS             2897..4264
                      /codon_start=1
                      /gene="cpaO"
                      /product="FAD-linked oxidoreductase CpaO"
-                     /label=cpaO
+                     /label="cpaO"
                      /protein_id="BAK26560.1"
                      /translation="MAVRIARFLGLSTVAYLALANGIDARDTISRDVIILGGGSSGTYA
                      AIRLRDQGKTVAVVERNNYLGGHGETYYTEDNTPLNFGVEGFFNTTVTRNYLERLQVPY
@@ -55,11 +56,12 @@ FEATURES             Location/Qualifiers
                      LLENLHGFPLSDQESRLFSKWQYHQYWAALVNDTGLPDDVNIVNVDTERLYGVPEEPFI
                      WRLDNHWAPGYHNIKLVGGSEFGEDEAKAYMYERLDLLHAEGTYATHKPEIVKFASHTP
                      VTMFVSAEEIRGGFYRQLYELQGLNSTFWTGATWASDYSTLLWGYTDEVLDQMASS"
+                     /Pfam="NAD_binding_8, Amino_oxidase"
      CDS             complement(join(4733..4892,4957..6110))
                      /codon_start=1
                      /gene="cpaD"
                      /product="DMATS-type prenyltransferase CpaD"
-                     /label=cpaD
+                     /label="cpaD"
                      /protein_id="BAK26561.1"
                      /translation="MEISKKAATLLPKPFYVLSQALNLSNKDHTKWWYSTAPMFATMMA
                      GAGYDVHAQYKFLCIHREVIIPALGPYPEKGQPMHWKSHLTRFGLPFELSFNYSKSLLR
@@ -69,12 +71,13 @@ FEATURES             Location/Qualifiers
                      RRNDPETLDGLDALRELWQLLPVTEGLCPLPNCFYEPGTSPQEQLPFIINFTLSPKSAL
                      PEPQIYFPAFGQNDKTIAEGLATFFESRGWGGLAKSYPADLASYYPDVDLQTANHLQAW
                      ISFSYKGKKPYMSVYLHTFEAFSAAAQEVAMCHDGHNP"
+                     /Pfam="Trp_DMAT"
      CDS             7065..18788
                      /codon_start=1
                      /gene="cpaA"
-                     /product="polyketide synthase-nonribosomal peptide 
+                     /product="polyketide synthase-nonribosomal peptide
                      synthetase CpaA"
-                     /label=cpaA
+                     /label="cpaA"
                      /protein_id="BAK26562.1"
                      /translation="MKTPIAVVGTACRFPGDISSPSQLWELLSNPKDVLRDLNPKRLNL
                      TGFNHHNAEHHGATNVPNKSYILDDDVYRFDAAFFNISAAEAEAMDPQQRLLLETTYEA
@@ -143,6 +146,8 @@ FEATURES             Location/Qualifiers
                      IHRPCTPIGDQAPAQDALNSLLRYSVNLGATPRLTRMEGYLDFQKVEIIAEEIATLVTS
                      RFTKRSNTSSFTTRGVSFFHHSSNIKVPVKSFKEYMEKVHGRPFQELNLREWSSLALEQ
                      GIEPLIPSFLEAVDDNEETLRYPYLGN"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_DH, PKS_NRPS_MT, fPKS_KR,
+                     ACP_PCP, Condensation, AA-adenyl-dom, fPKS_R"
 ORIGIN
         1 atgagccaat ttgctcgcga gatcgttcgc aacgctatct acaatactag cagtcccgat
        61 gcggacagtg tctcactcag aaaggcaacg acaaccattt tgttgatagg tgttacggtg

@@ -1,23 +1,23 @@
-LOCUS       FBGC00052       68362 bp DNA     linear   UNA 16-JAN-2023
+LOCUS       FBGC00052              68362 bp    DNA     linear   UNA 10-DEC-2023
 DEFINITION  aflatoxins.
 ACCESSION   FBGC00052
-VERSION     .
+VERSION     FBGC00052
 KEYWORDS    .
-SOURCE      
-  ORGANISM  
+SOURCE      Aspergillus nomius AN13137
+  ORGANISM  Aspergillus nomius AN13137
+            .
 REFERENCE   1  (bases 1 to 68362)
   AUTHORS   Ehrlich KC, Chang PK, Yu J, Cotty PJ.
   TITLE     Aflatoxin biosynthesis cluster gene cypA is required for G aflatoxin
             formation.
   JOURNAL   Appl Environ Microbiol 2004;70:6518-24
-  PUBMED    15528514
+   PUBMED   15528514
 REFERENCE   2  (bases 1 to 68362)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Jan 16, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1128/AEM.70.11.6518-6524.2004"; journalName: "Appl Environ 
+  JOURNAL   Exported Dec 10, 2023 from SnapGene 7.0.3 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1128/AEM.70.11.6518-6524.2004"; journalName: "Appl Environ
             Microbiol"; date: "2004"; volume: "70"; pages: "6518-24"
 FEATURES             Location/Qualifiers
      source          1..68362
@@ -28,7 +28,7 @@ FEATURES             Location/Qualifiers
      CDS             complement(1..1149)
                      /codon_start=1
                      /product="aldo-keto reductase NorB"
-                     /label=norB
+                     /label="norB"
                      /note="reductase/dehydrogenase"
                      /protein_id="AAS90044.1"
                      /translation="MSTSAPLLSRYRQLSPTASIRVSPLCLGAMTFGVSDGEMFGECSK
@@ -38,11 +38,12 @@ FEATURES             Location/Qualifiers
                      GLCPYGVLNQGRFRTEEEFRERDQTNNAGGRNMVPLSEHDRNVSRVLEIVAASKGVPLL
                      QVALAYVVRKAPYVFPIVGVRKVEHLMGVEPAVHISLTDAEVNAIENAYEFDPGFPHTF
                      LSGSMFARGTPKGGYAPDDVCWTKMLGTFDWVEGAKPIRPQP"
+                     /Pfam="Aldo_ket_red"
      CDS             join(1434..1638,1699..2554,2600..2710,2797..2952,
                      3022..3193)
                      /codon_start=1
                      /product="cytochrome P450 monooxygenase CypA"
-                     /label=cypA
+                     /label="cypA"
                      /note="putative cytochrome P450 monooxygenase"
                      /protein_id="AAS90045.1"
                      /translation="MVSKTVSTALIGLLVALILRSVYRVFFHPLRKIPGPKIAAITHLY
@@ -54,11 +55,12 @@ FEATURES             Location/Qualifiers
                      TQLEQLPFLVCSRWPALSMKAFGSPLASSFDLHAFTPTILWCTKTLLSPPAQSAYFVCM
                      DPSIFPHPEDFNPDRWVQAACEGHNLHRYMIVFSKGSRHCLGINFALAEIYLAIATVAR
                      RFDLVPYQTTVEQLQMKRDLGFAAPEKGPFTVQAKVTGLAD"
-     CDS             join(3858..4052,4126..4216,4291..4568,4635..4971,5029..5120,
-                     5213..5833)
+                     /Pfam="p450"
+     CDS             join(3858..4052,4126..4216,4291..4568,4635..4971,
+                     5029..5120,5213..5833)
                      /codon_start=1
                      /product="major facilitator superfamily transporter AflT"
-                     /label=aflT
+                     /label="aflT"
                      /note="putative ABC transporter"
                      /protein_id="AAS90046.1"
                      /translation="MHGNKETALDPERIPTGDGEARTSNDRDILIDEAPEASSHISGVK
@@ -71,11 +73,12 @@ FEATURES             Location/Qualifiers
                      KWIGFLFLYGIGVGFGFQQGAVAVQAVLPMAQVPIGTALIWFVQMLGGALFTSVAQNIF
                      STHLADNLANLQLPGLDPEAVAGAGATGFRHLVQPEYMDQVLVAYNAALVDVFQVALIC
                      SCLSISGAVGIEWRNVKQKR"
+                     /Pfam="MFS_1"
      CDS             complement(join(7602..7655,7710..9104,9173..9721,
                      9774..13496,13563..13857,13923..14209))
                      /codon_start=1
                      /product="polyketide synthase PksA"
-                     /label=pksA
+                     /label="pksA"
                      /note="polyketide synthase"
                      /protein_id="AAS90047.1"
                      /translation="MAQSRQLFLFGDQTADFVPKLRSLLSVQDSPILAAFLDQSHYVLR
@@ -114,10 +117,12 @@ FEATURES             Location/Qualifiers
                      AYVVAEALVNQGEEVHSLIIIDAPIPQAMEQLPRAFYEHCNSIGLFATQPGASPDGSTE
                      PPPYLIPHFTAVVDVMLDYKLAPLRARRMPKVGIVWAADTVMDERDTPKMKGMHFMIQK
                      RTEFGPDGWDTVMPGASFDIVRADGANHFTLMQKEHVYKISDLIDRVMA"
+                     /Pfam="SAT2, PKS_KS, PKS_AT, fPKS_PT, ACP_PCP,
+                     Thioesterase"
      CDS             join(15978..16077,16129..16666,16724..16823,16872..16946)
                      /codon_start=1
                      /product="short-chain dehydrogenase/reductase Nor-1"
-                     /label=nor-1
+                     /label="nor-1"
                      /note="reductase/dehydrogenase"
                      /protein_id="AAS90048.1"
                      /translation="MNGSLSQHDQERLSTPCRDGPPETVYLVTGASRGIGRGLIQAFLQ
@@ -125,10 +130,11 @@ FEATURES             Location/Qualifiers
                      LDVVVANAAMATNFGPASTMPLEHLQAHMMVNMYAPVLLFQATRLMLQQSKQQAKFILI
                      GAPISTITNMHDYARAPLTAYGVSKLAANYMVRKFHFENKWLTAFIIDPGHVQTDMGDQ
                      GARLMGRPQAPTTVADSVAGICARIDEATKETTSGHFVIHTDGSQLSW"
+                     /Pfam="adh_short"
      CDS             complement(join(18117..18242,18293..22854,22910..23243))
                      /codon_start=1
                      /product="fatty acid synthase subunit alpha HexA"
-                     /label=hexA
+                     /label="hexA"
                      /note="fatty acid synthase alpha subunit"
                      /protein_id="AAS90049.1"
                      /translation="MVIQGKRLVASSIQLLASSLDAKKLCYEYEERKAPIVPQITVDVP
@@ -160,10 +166,11 @@ FEATURES             Location/Qualifiers
                      PGEPAELVKGISSAWIEEQVRPHISPGGTVGVDLVPLASFDAYENATFVERNYTVRERE
                      WAEKSADVRAAYASRWCAKEAVFKCLQTHSQGAGAAMKEIEIEHSGNGAPKVKLRGAAQ
                      TAARQRGLEGVQLSISYGDDAVIAVALGLMAGASY"
+                     /Pfam="Fas_alpha_ACP, FAS_I_H, fPKS_KR, ACPS"
      CDS             join(23961..28629,28680..29159,29208..29323,29407..29811)
                      /codon_start=1
                      /product="fatty acid synthase subunit beta HexB"
-                     /label=hexB
+                     /label="hexB"
                      /note="fatty acid synthase beta subunit"
                      /protein_id="AAS90050.1"
                      /translation="MGSIGREHESIPIQAAQRGAARICAAFGGQGSNNLDVLKSLLELY
@@ -199,10 +206,12 @@ FEATURES             Location/Qualifiers
                      RALWTLGKLCDDLSCHPRPEAIENQELRAMVWKHVPTVERVSREDRMERGRATIPLPGI
                      DIPYHSTLLRGEIEPYREYLSERIRVADVKPCELVGRWIPNVVGQPFSVDKSYVQLVHD
                      ITGSPRLHSLLQQMA"
+                     /Pfam="SAT2, NMO, DUF1729, FAS_meander, MaoC_dehydrat_N,
+                     MaoC_dehydratas, Acyl_transf_1"
      CDS             complement(31216..32544)
                      /codon_start=1
                      /product="transcription factor AflR"
-                     /label=aflR
+                     /label="aflR"
                      /note="aflatoxin gene cluster regulatory protein"
                      /protein_id="AAS90051.1"
                      /translation="MVDQISPRASPGPMRSSQTRRARKLRDSCTSCASSKVRCTKEKPA
@@ -213,10 +222,11 @@ FEATURES             Location/Qualifiers
                      LGCSCAQDGYLLSMVVLIVLKVLAWYAAAAGTQCPSAAVGGNNSSDSSGSSRSSSSSSN
                      TPTTVSEERVLHVPSLVGGHCVDEEDQPRVAAQLVLSELHRVQSLVNLLAKRLQEGGDD
                      AAGMPAHHPASPFSLLGFSGLEANLRHRLRAVSSNIINFLQQE"
+                     /Pfam="EqxR, CpaE, AflR"
      CDS             join(33262..33465,33537..34049,34109..34708)
                      /codon_start=1
                      /product="transcriptional coactivator AflJ"
-                     /label=aflJ
+                     /label="aflJ"
                      /note="putative aflatoxin pathway coregulator"
                      /protein_id="AAS90052.1"
                      /translation="MTLTDLEICAEEIATAARTLARDGYSGGYSAGLPDHLRPVQRTLI
@@ -227,10 +237,11 @@ FEATURES             Location/Qualifiers
                      MSNLKLASIPLHLRERINWGTRPSTATQPVLDAAVYLISIASPSPQSSAIEITMRVAQA
                      LRAHVEVLRNNSDARLILTLPMSAVTRSMDAAARAAVSLSDLSLLQLTNGAPLNMGEIR
                      DLLRSRSDGLVVMREVRSPTNAVIAFEIQYCVDNDDTRF"
+                     /Pfam="MdpA"
      CDS             35260..36069
                      /codon_start=1
                      /product="short-chain dehydrogenase/reductase AdhA"
-                     /label=adhA
+                     /label="adhA"
                      /note="short chain alcohol dehydrogenase"
                      /protein_id="AAS90053.1"
                      /translation="MEVLDTTVDLGTLRGKGALITGGASGIGLATARAWAAAGMYVTIA
@@ -238,10 +249,11 @@ FEATURES             Location/Qualifiers
                      FAGGNQVDHVLAAGEPRLDVNPSPPDIRNIQVNLIGVYYTSWLALFYLRLSPTNEGTNL
                      SPDKSLLLMGSIGSYMDSPKASTYPASKFGVRGLFRSTRARTQELGVRCNLLAPWFIDT
                      PLIAPMKRAMAARGIDMAQRLTFASIDACVEAANACAANPMLHGTSD"
+                     /Pfam="adh_short"
      CDS             join(37028..37060,37116..38027)
                      /codon_start=1
                      /product="esterase EstA"
-                     /label=estA
+                     /label="estA"
                      /note="esterase"
                      /protein_id="AAS90054.1"
                      /translation="METPFAAPWQQFVEDLGQTPCLPGKDLKSVLTGWGQLAGTLATRY
@@ -250,10 +262,11 @@ FEATURES             Location/Qualifiers
                      ALRLIDQDMAGKVGGVVALAPITVHPDAVPDHLKEQYTAYEENAELTVNSRAAMQVFFD
                      CYNAPVDDVYTSCLLHPRLLALPKVYIAELGLDTLRDDARLMKGALDTAKVPVMYDAYP
                      GYPHCSFMFPFQSLGEHQKAFLEAVAKAVRWMS"
+                     /Pfam="Abhydrolase_3"
      CDS             join(38318..38888,38946..39490,39552..39602)
                      /codon_start=1
                      /product="aldo-keto reductase NorA"
-                     /label=norA
+                     /label="norA"
                      /note="reductase/dehydrogenase"
                      /protein_id="AAS90055.1"
                      /translation="MVLPAAPEPPTPLGYHRILSPSAGVRVSPLCLGTMSFGNGWKGVM
@@ -263,10 +276,11 @@ FEATURES             Location/Qualifiers
                      ESEGMGVAPWGVLGRGQFRSAEDFAREGRKMDPQDEKHRRLGEKLEQMAQRKNTKATSI
                      AQAYVMHKAPYVFPVIGGRKVEHLKDNIEALRLVLSEEEIHEIDDAEPFDVGFPMNFLF
                      ETPTQRYRVNMTSKDIWQLSCNTRLETVPKQQPIGPQQGAKYFGSASK"
+                     /Pfam="Aldo_ket_red"
      CDS             join(40424..40750,40805..41128,41189..41326)
                      /codon_start=1
                      /product="short-chain dehydrogenase/reductase Ver-1"
-                     /label=ver-1
+                     /label="ver-1"
                      /note="dehydrogenase"
                      /protein_id="AAS90056.1"
                      /translation="MSDNHRLDGKVALVTGAGRGIGAAIAVALGERGAKVVVNYAHSRE
@@ -274,10 +288,11 @@ FEATURES             Location/Qualifiers
                      DVTPEEFDRVFRVNTRGQFFVAREAYRHMREGGRIILTSSNTACVKGVPKHAVYSGSKG
                      AIDTFVRCMAIDCGDKKITVNAVAPGAIKTDMFLAVSREYIPNGETFTDEQVDECAAWL
                      SPLNRVGRPVDVARVVSFLASDAAEWVSGKIIGVDGGAFR"
+                     /Pfam="adh_short_C2"
      CDS             join(42360..42841,42907..43906)
                      /codon_start=1
                      /product="cytochrome P450 monooxygenase VerA"
-                     /label=verA
+                     /label="verA"
                      /note="monooxygenase"
                      /protein_id="AAS90057.1"
                      /translation="MPEFKLLAGHFGTLKKTIQGMPSDATLHSIMLKISQQFPSGIFYI
@@ -289,10 +304,11 @@ FEATURES             Location/Qualifiers
                      LFPPSASMREGRPDAEIIGEDGQRYPTVGCNVWTLTVALHHNSDHWQQVESFIPERWLV
                      GPEDPLYPVKGAWRAFEFGPRSCIGQTLAMLELRIALAMTIRQFDITPAYDEWDSIHPA
                      TTAREVNGHRAYQAERGAGGAHPADGFPCRVKERC"
+                     /Pfam="p450"
      CDS             complement(join(44984..45319,45397..46491,46539..46595))
                      /codon_start=1
                      /product="cytochrome P450 monooxygenase AvnA"
-                     /label=avnA
+                     /label="avnA"
                      /note="cytochrome P450 monooxygenase"
                      /protein_id="AAS90058.1"
                      /translation="MGVDGWLSDGHFRLLILLIVLTPPSLAVYRLWIHPLRSYPGPRWW
@@ -304,10 +320,11 @@ FEATURES             Location/Qualifiers
                      VSRVEGLQAVLEESLRLYPPVPMQSNRIVPSTGAHIAGGWVPGGTSVGLQQFVACRSPS
                      NFHRPDEFLPERWQGQGEFAHDRREVSQPFSIGPRNCIGRQLAYVEMRLILVKLLWHFD
                      LRLDTTRMKGTDWLAEQGIWILWDKKPLWVTLEPRDK"
+                     /Pfam="p450"
      CDS             complement(join(47037..47405,47461..48612))
                      /codon_start=1
                      /product="cytochrome P450 monooxygenase VerB"
-                     /label=verB
+                     /label="verB"
                      /note="desaturase"
                      /protein_id="AAS90059.1"
                      /translation="MYFLSLSVLALVTLVSYVLFHLGYNLFLHPLRGYPGPLLWRASSL
@@ -319,10 +336,11 @@ FEATURES             Location/Qualifiers
                      VSHLPYLTAVIDETLRMYPAVPGQPPRVVPAGGATVCGKFVPEETRVGVSHLGAYFADY
                      NFTHADKFIPERHLQKTEEPFKYDNYGAYQPWSVGIRNCIGRNLAYAEVRLTLAKILWH
                      FDFTLDVDKTGNFLDQKIWSIWAKRELYMTLKSRDTSCSWPSTSSSPQ"
+                     /Pfam="p450"
      CDS             complement(49635..50483)
                      /codon_start=1
                      /product="short-chain dehydrogenase/reductase AvfA"
-                     /label=avfA
+                     /label="avfA"
                      /note="oxygenase"
                      /protein_id="AAS90067.1"
                      /translation="MVTYALLGATGATGSSILRHLLQKPPDSLRIQILVRSKAKLLQAF
@@ -331,11 +349,12 @@ FEATURES             Location/Qualifiers
                      YSEAQKQGTLEYILVDPPTLHDANGTQKTGYSLISTESQAIALSYADLGAAMCEIAYRH
                      NEFHGRAVGVTATGHVHQTWGVLLRHLLEGGSSRLIEKITKETVVVGMMCGILVVWACL
                      T"
+                     /Pfam="NAD_binding_10"
      CDS             complement(join(50656..51409,51472..51595,51646..51772,
                      51837..51992))
                      /codon_start=1
                      /product="methyltransferase OmtB"
-                     /label=omtB
+                     /label="omtB"
                      /note="O-methyltransferase"
                      /protein_id="AAS90060.1"
                      /translation="MTGLDMESIFAKIKEEYARTDDVGKRQIQGHIRELQVGFYSDWDV
@@ -345,11 +364,12 @@ FEATURES             Location/Qualifiers
                      LMVDIGGGFGQQSKALRAKFPNLPGRVIVQDIPQTLANAQPAAGVEFMEHSFFEPQPIQ
                      NAKFYYLRHVFHDWPDEQCVQILKQIIPAMGPDSQILIDEMVIPSTGVPWQAAFTDLLM
                      MNSLGGVERTRAEWDNLLEQAGLEIIQSKVYDSKDQSILVAVPKRP"
+                     /Pfam="Methyltransf_2"
      CDS             complement(join(53704..54007,54067..54427,54481..54590,
                      54651..54774,54830..55199))
                      /codon_start=1
                      /product="methyltransferase OmtA"
-                     /label=omtA
+                     /label="omtA"
                      /note="O-methyltransferase"
                      /protein_id="AAS90065.1"
                      /translation="MALPDKAALVGLANALSEQVKRYLAIPDETELPKGDKHCIEGVKS
@@ -360,11 +380,12 @@ FEATURES             Location/Qualifiers
                      IHGVEDTEKVTMMEHDIRHPNPVRGADVYLLRSILHDYPDAACVEILSNIVSAMDPTKS
                      RILLDEMIVPDLLAQDSQRFMNQIDMTVVLTLNGKERSVKEWDSLITTVDGKLETEKTW
                      WRKGEEGSHWGVQQLRLHGSSAD"
+                     /Pfam="Methyltransf_2"
      CDS             join(56296..56491,56568..56697,56753..56944,57009..57160,
                      57210..57454,57512..57783,57844..58243)
                      /codon_start=1
                      /product="cytochrome P450 monooxygenase OrdA"
-                     /label=ordA
+                     /label="ordA"
                      /note="oxidoreductase"
                      /protein_id="AAS90061.1"
                      /translation="MIIGLIICAGALLGLWLLEKLLAPKDTHPPLPPGPWRKPIIGNLT
@@ -377,11 +398,12 @@ FEATURES             Location/Qualifiers
                      HDPSVYQDPMVFKPERFLEGNGSPPETDPMKFVFGFGRRICPGRFLTDEKLFLLACHTL
                      SCFLVSPKDPAAPEPDWLPGVISQPSPFGLNVVPRSPAHEALIRSIETDHPWKNADATD
                      ISRFMARNEMI"
+                     /Pfam="p450"
      CDS             join(58756..59282,59347..60745)
                      /codon_start=1
-                     /product="glucose-methanol-choline family oxidoreductase 
+                     /product="glucose-methanol-choline family oxidoreductase
                      VBS"
-                     /label=vbs
+                     /label="vbs"
                      /note="versicolorin B synthase"
                      /protein_id="AAS90066.1"
                      /translation="MGRSWFQIAAMTVAPVVGIMAVNPTILSSAASSLPSLGAIFTSDN
@@ -396,10 +418,11 @@ FEATURES             Location/Qualifiers
                      WLADPRDQEMAVAAFRRCREIVASDVMREVVAGPEILPGPQYQTDDEILNYIAETSDAY
                      YAGVGTCAMGKADDPKAVVDSKARVLGVKGLRVVDASIFPFAIDGQPMGTVYALAEKIA
                      AEMTAE"
+                     /Pfam="GMC_oxred_N, GMC_oxred_C"
      CDS             complement(join(61327..61585,61640..62799,62866..62973))
                      /codon_start=1
                      /product="cytochrome P450 monooxygenase CypX"
-                     /label=cypX
+                     /label="cypX"
                      /note="putative cytochrome P450 monooxygenase"
                      /protein_id="AAS90062.1"
                      /translation="MINTPPRDLIRAIEQVPLTWWFLTVGGAWILSTIVKILQTAYFSP
@@ -411,10 +434,11 @@ FEATURES             Location/Qualifiers
                      ELESEVAGLPEDITDAACAELPIMNAVIHESLRLYGPAPGSMPRSPPPDGATLCGYYIP
                      PSAVVVTQNWSLHGNPKVWKDPHSFDHTRWLPGTSLSEEAKMSFNPFGQGARQCLGIHL
                      GWMQLRLATALFFRRCPGAKLAPSTTPETMVMIDSFIAGMPKARRCAIQL"
+                     /Pfam="p450"
      CDS             63519..65333
                      /codon_start=1
                      /product="FAD-dependent monooxygenase MoxY"
-                     /label=moxY
+                     /label="moxY"
                      /note="monooxygenase"
                      /protein_id="AAS90063.1"
                      /translation="MSKVDYSQPGSTGYEIPQDLTWNDPANRPLRVVTIGTGISGILMA
@@ -428,10 +452,11 @@ FEATURES             Location/Qualifiers
                      NLRSWVPRQDRTDQFNDHVQEWVKNTVWTDECRSCTFPLSTATAERANKNHLGYKNNET
                      GRVNAIWPGSSLHYQQVINQPRYEDFDIHSFHQNPWACLGMGWTIQDRKGPKEADVSPH
                      LGLQEIDPKWWESIEHDGGSNVVSDSTL"
+                     /Pfam="FMO-like"
      CDS             complement(65600..66406)
                      /codon_start=1
                      /product="short-chain dehydrogenase/reductase OrdB"
-                     /label=OrdB
+                     /label="OrdB"
                      /note="putative cytochrome P450 dehydrogenase"
                      /protein_id="AAS90064.1"
                      /translation="MRQYAILGATGNTGQALLNVLLQSPDNQIHAYCRSASKLDRVHPG
@@ -439,10 +464,11 @@ FEATURES             Location/Qualifiers
                      LQAEGCQPLPQLIVLSSASLEDSLCTDVPPLIHRVLNIAAGNLYSDLAKAEKVLRAEKH
                      WVSTTFVKPGGLVHDVQRGHILSTKTAKTPVSFLDVAAGMVEIANADDKRYDMTNVSVN
                      AVGHGTAFPWKGVYYVMTGLLFHFFPWTYKYFGDCPMAQPKSKKDL"
+                     /Pfam="NAD_binding_10"
      CDS             complement(join(66770..67737,67792..68094,68146..68362))
                      /codon_start=1
                      /product="dioxygenase HypA"
-                     /label=hypA
+                     /label="hypA"
                      /note="hypothetical protein"
                      /inference="non-experimental evidence, no additional
                      details recorded"
@@ -456,6 +482,7 @@ FEATURES             Location/Qualifiers
                      RLLERKVRSDLVTYAALGCPNLYPDRITRYQPKQAATGWPDVVQRARVYQDDGHACKVI
                      RALMCAENVCQPFEGEEGFPLKKADFLTLAHMTMDSVERMLDPNWVRQTEKVKQMSAQG
                      RGQHSQVSAIMLRWVRWCGDEGAWDDFPDLEELPPSP"
+                     /Pfam="Questin_oxidase"
 ORIGIN
         1 ttatggttga ggacgaatgg gcttcgctcc ctcaacccag tcaaaagtgc ccagcatctt
        61 ggtccaacaa acatcatcag gagcataccc acccttcggc gtcccccgag caaacatcga

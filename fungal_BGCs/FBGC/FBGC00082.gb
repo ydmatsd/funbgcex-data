@@ -1,29 +1,29 @@
-LOCUS       FBGC00082       56038 bp DNA     linear   UNA 11-APR-2023
+LOCUS       FBGC00082              56038 bp    DNA     linear   UNA 11-APR-2023
 DEFINITION  rubropunctatin.
 ACCESSION   FBGC00082
-VERSION     .
+VERSION     FBGC00082
 KEYWORDS    .
 SOURCE      Monascus pilosus KACC 42430
   ORGANISM  Monascus pilosus KACC 42430
+            .
 REFERENCE   1  (bases 1 to 56038)
-  AUTHORS   Balakrishnan B, Karki S, Chiu SH, Kim HJ, Suh JW, Nam B, Yoon YM, 
+  AUTHORS   Balakrishnan B, Karki S, Chiu SH, Kim HJ, Suh JW, Nam B, Yoon YM,
             Chen CC, Kwon HJ.
-  TITLE     Genetic localization and in vivo characterization of a Monascus 
+  TITLE     Genetic localization and in vivo characterization of a Monascus
             azaphilone pigment biosynthetic gene cluster.
   JOURNAL   Appl Microbiol Biotechnol 2013;97:6337-45
-  PUBMED    23504076
+   PUBMED   23504076
 REFERENCE   2  (bases 1 to 56038)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Apr 11, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1007/s00253-013-4745-9"; journalName: "Appl Microbiol 
-            Biotechnol"; date: "2013"; volume: "97"; pages: "6337-45"
+  JOURNAL   Exported Apr 11, 2023 from SnapGene 6.2.1 https://www.snapgene.com
 COMMENT     ##Assembly-Data-START##
             Assembly Method       :: Arachne v. 2.01
-            Sequencing Technology :: Sanger dideoxy sequencing 
+            Sequencing Technology :: Sanger dideoxy sequencing
             ##Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1007/s00253-013-4745-9"; journalName: "Appl Microbiol
+            Biotechnol"; date: "2013"; volume: "97"; pages: "6337-45"
 FEATURES             Location/Qualifiers
      source          1..56038
                      /mol_type="genomic DNA"
@@ -33,7 +33,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="2362MpPKS5"
                      /product="polyketide synthase MpPKS5"
-                     /label=MpPKS5
+                     /label="MpPKS5"
                      /protein_id="AGN71604.1"
                      /translation="MVSRILRPVTGSTVLLFGPQALSFTKEDFNQIRTTVLETQGFSWI
                      VDAVAGLPGHWKALAERIPKLQSILGEQLLENLKDWFTTGQVNEADFHLPNILLSPLVV
@@ -81,11 +81,13 @@ FEATURES             Location/Qualifiers
                      TSGYWNPMEHLSFLMKSSQTLKALPDFEGELSWTPVNDVAGTLADLLLADNTPYPIYHI
                      DNPVRQPWREMIPILADGLDIPKGNVIPFPEWVQRVRRFPGSVELDNPAAKLIDFLDDN
                      FLRMSCGGLLLDTSKSREHSPTLADVVPVSAEAVHKYIQAWKEMGFLH"
+                     /Pfam="SAT2, PKS_KS, PKS_AT, fPKS_PT, ACP_PCP, HTH_51,
+                     PKS_NRPS_MT, fPKS_R"
      CDS             join(10423..10970,11011..11560,11628..12119,12185..12403)
                      /codon_start=1
                      /locus_tag="2363R1"
                      /product="transcription factor MppR1"
-                     /label=mppR1
+                     /label="mppR1"
                      /protein_id="AGN71605.1"
                      /translation="MFTSSSPQQRKPRQSRQLPGAACEECRRKKLRCDRQQPQCGGCRD
                      SGIVCRVTTEHPPRGPKSGHLKALQTRIGNEDPLLFLRGILLTSPMFSASLERRLEQQM
@@ -98,11 +100,12 @@ FEATURES             Location/Qualifiers
                      CASAAEVVDPLLLFTYMMAQTTVLYLCKLVKSVTWETDKLNPIVQECEQRSLAAAQEIV
                      SLTHTLKQFNFLKVHPFTPLPLYLCAEFLSMYRSLDASFDAQLQEVQNALRNLQAVNNL
                      ARTYLNLLQLKEHEGSLRSSSEEIDL"
+                     /Pfam="Zn_clus, Fungal_trans"
      CDS             complement(join(12555..12727,12815..13510,13570..13612))
                      /codon_start=1
                      /locus_tag="2364A"
                      /product="short-chain dehydrogenase/reductase MppA"
-                     /label=mppA
+                     /label="mppA"
                      /protein_id="AGN71606.1"
                      /translation="MPPPRGTPNILEGPGDYDVTSTIHNDTYPAIDPLKANLSGKAVFI
                      TGGSKGLGRAMVLSFAKAGASYIAAGARSDMTELAKDVAAAAATAKRSPPKFLPIQLDV
@@ -110,11 +113,12 @@ FEATURES             Location/Qualifiers
                      RAFLPLLLESELKALVHVTSVAAHLLNPTLSAYQTSKMALLKFSQLVHAEFGSKGLVTF
                      AVHPGNCPTDIMGGPAGLSEHEKLIFVETPEISADTIVYLTSKKRDWLGGRYINVTWDM
                      PELIAMKDEIVQGDKLKVKFIY"
+                     /Pfam="adh_short"
      CDS             14220..15587
                      /codon_start=1
                      /locus_tag="2365B"
                      /product="acetyltransferase MppB"
-                     /label=mppB
+                     /label="mppB"
                      /protein_id="AGN71607.1"
                      /translation="MEDPARTQDILGQLPILKAYNHILLGFALSEDTSRESVVQALSAA
                      ALQLTTSIPWIGGKVVNVGSGPGNTGLFRSVPCELFAPPNSILRVKDATADYPSYDEIM
@@ -124,11 +128,12 @@ FEATURES             Location/Qualifiers
                      RLRRRQTPDDLCKMTRAVDIRRTLNVPSEYMGVMVYNVSGRLPLGQLVTASLARAASEL
                      RKALNSIDEYAVRSFATFVARQPDKSTLAYAGKFNPDVDMGVSSMASVPLYRANFGPLG
                      APGLVRRPNFAPVMSTIYVMPQTVKGDVDVLICLTREDIGALREDPEWTAYAEYIG"
+                     /Pfam="Transferase"
      CDS             complement(15727..16755)
                      /codon_start=1
                      /locus_tag="2366C"
                      /product="aldo-keto reductase MppC"
-                     /label=mppC
+                     /label="mppC"
                      /protein_id="AGN71608.1"
                      /translation="MGSISPKTRFPIVLGAGLIGSPGLFEGATVTTVKDVEALLDTFQA
                      HGHTDVDVARIYGSGSAETLLAAADWKGRGLVVRDKLYPTKRRPMAHLGTAYTLEPADV
@@ -137,11 +142,12 @@ FEATURES             Location/Qualifiers
                      RRDMPESEHKPGSRFDPQTFHGRHHRHRYWNDTYFDVLDAIRETGRKYNLTEVQCALRW
                      LSHHSLLRPECGDAILVCGSDPAQLEEDLLALEEAPLPEEVVQVLDEGYAKVKAIVGPY
                      YH"
+                     /Pfam="Aldo_ket_red"
      CDS             17267..18631
                      /codon_start=1
                      /locus_tag="2367B"
                      /product="FAD-linked oxidoreductase MppD1"
-                     /label=mppD1
+                     /label="mppD1"
                      /protein_id="AGN71609.1"
                      /translation="MGLVAAADPSLFSENNYSPDNIINSDVLIVGGGAAGTHAAVRLKD
                      LGKSFTLVEKSSVLGGHTHTYIDPTTGTPVEFGVHSFGNTSDTRDFFARFEIPLVDFVP
@@ -151,22 +157,24 @@ FEATURES             Location/Qualifiers
                      MNVFSPDEREARLFSQLKGQAFYVGLVTNTGLPVNQSYYNAASNEPDSVPLLPKTYNIQ
                      STVLPGIFWWLYGSEKALTEAEVKAAVTSQIATVRTALNVPAPAGSPQFLAFGNHTPTH
                      VTVSAEAIADGFYRDLYGLQGHRNTWYTGAQFIDSASGIWNLTNSVVLPGLLKGL"
+                     /Pfam="NAD_binding_8, Amino_oxidase"
      CDS             18952..19773
                      /codon_start=1
                      /locus_tag="2367B"
                      /product="esterase MppD2"
-                     /label=mppD2
+                     /label="mppD2"
                      /protein_id="AGN71609.1"
                      /translation="MPAKPSSDDSTLHLPRILCLHGGGTNARIFRAQCRILTRHFSTAF
                      RLCFAEAPFVSQPGPDVTSVYKEFGPFKRWLRSSARDHPEIDPALATEAIDASLRDAMD
                      EDDRRGATGEWAGLLGFSQGAKMCASLLLRQQVRDSTRTRPSATDGPHWRFAVLLAGRG
                      PLVSLDPACPKSPAIVDAGGIAMTAFPDERLLAAGTAHVLHLPTVHVHGMLDPGLEEHR
                      KLLTQYCAEGTARVMEWEGNHRVPIKTKDVVALAGHVFDVALETGVLQRRT"
+                     /Pfam="FSH1"
      CDS             complement(19884..20993)
                      /codon_start=1
                      /locus_tag="2368E"
                      /product="medium-chain dehydrogenase/reductase MppE"
-                     /label=mppE
+                     /label="mppE"
                      /protein_id="AGN71610.1"
                      /translation="MPTNRAAWQPAKKAALLEVKSAPYPPPKANRIVVKNGAVAVNPID
                      WLIQSKGDIMFTWLKYPFVLGSDVAGEVVEVGKNVTRFQVGDRVLGFARGTDEKVNDSS
@@ -175,12 +183,13 @@ FEATURES             Location/Qualifiers
                      DIIRAFKGRTSAGALAIGQGGAEACMEVLDQVQGCKRIALASYPVPQEEPKHLVMLRTI
                      IFFVSWIISFKFKGLLKGIKSNFIFATSVNHNGIGKALFVDYLPDALRAGEFVPAPDAQ
                      VAGKGLESIQAAFEQQKQGVSAKKIVVSL"
+                     /Pfam="fPKS_ER"
      CDS             join(21308..21438,21496..22226,22291..22322,22370..23600,
                      23674..23837,23890..23958)
                      /codon_start=1
                      /locus_tag="2370R2"
                      /product="transcription factor MppR2"
-                     /label=mppR2
+                     /label="mppR2"
                      /protein_id="AGN71612.1"
                      /translation="MDVYYILAVLFNRMAMADSNNSSPPASRRREKPQLSCTLCRRRKL
                      RCDRRQPCETCVRRGLSLSCTYVRPPSAAPERIDRAQGRPAGVENLPERIGQLERLITT
@@ -196,11 +205,12 @@ FEATURES             Location/Qualifiers
                      DCSLHKEPADAEQSPAETGLRQQVIQALHNSHTIWRQASDSSREARLAADVSGLLLTRA
                      QRKWKLEMRQAGNMGMSSETPFMGVSIPPQSTTMAAAAVAQPLSMPQLLQFNTAAHIDY
                      SDVGAEPLGLSQGVDDMLAMSMTFPRMFNVPV"
+                     /Pfam="CghF"
      CDS             complement(join(24116..29016,29100..29620,29769..29884))
                      /codon_start=1
                      /locus_tag="2371MpFasA2"
                      /product="fatty acid synthase subunit alpha MpFasA2"
-                     /label=MpFasA2
+                     /label="MpFasA2"
                      /protein_id="AGN71613.1"
                      /translation="MAVRELVPGTAPVVDDAPASTSMDQKRSLAHKLLIELLSIETQNE
                      LLQWKETIQRYVEIGPRTTLVTMAKKTAARRASSQTVPASNLSTLKFLCTGDNDAEIYY
@@ -234,11 +244,12 @@ FEATURES             Location/Qualifiers
                      QPTSTSIGVDVEAISSIPLGNAVFLERNFTQSEREHCFSSPTPQASFAGRWSAKEAVFK
                      SLQTPSVGAGAAMAEIEIVSDGGVPKVQVGLPSFSLLDVCLLTPVWFVQLHGRAKEVAA
                      AKGIRNIQASITHSGGTVTAVALAESSSLS"
+                     /Pfam="Fas_alpha_ACP, FAS_I_H, adh_short, fPKS_KR, ACPS"
      CDS             join(30520..35569,35620..36108,36168..36292,36408..36788)
                      /codon_start=1
                      /locus_tag="2372MpFasB2"
                      /product="fatty acid synthase subunit beta MpFasB2"
-                     /label=MpFasB2
+                     /label="MpFasB2"
                      /protein_id="AGN71614.1"
                      /translation="MEASDQSQAKLTLSLGGIQHAFSVRIEDLSALQDQKDAFLRSRSQ
                      ASLSETREPRSPAELVLDYLEFLSCRNLPPSLIKPVLLAFSRNFLHDTEIHSLLAKPEY
@@ -275,11 +286,13 @@ FEATURES             Location/Qualifiers
                      NLNIENEQYVCAGTDAETQPLLQEMSTTEDLTTTKLYELILKSIPETKKPPMPIRLQRG
                      RCTIPIPGIDVPFHSSYLRSTVSSYRKILQRCISEENIHLERLVGRWIPNVTAKPFMVD
                      EGYVREVFNITQSPILKEILEL"
+                     /Pfam="SAT2, DUF1729, FAS_meander, MaoC_dehydrat_N,
+                     MaoC_dehydratas, Acyl_transf_1"
      CDS             complement(join(54667..55478,55540..56038))
                      /codon_start=1
                      /locus_tag="2381F"
                      /product="FAD-dependent monooxygenase MppF"
-                     /label=mppF
+                     /label="mppF"
                      /protein_id="AGN71623.1"
                      /translation="MPGVTKEEPQLDLAIIGGGITGLSLAAGLLSRNIHVTIYERARQF
                      REIGAGIGFTPNAERSMIALDPRVHTAFKKVATPNETDLFRWVDGYTRYSDERYEELLF
@@ -289,6 +302,7 @@ FEATURES             Location/Qualifiers
                      VMDLLPDTLDRWAVFDTYDHPASTYMRGRMCIAGDAAHASSPHHGAGAGTGIEDAAVLA
                      AVLAAASETASSLAKTKAEALRAALATYNAIRLERSQWIVQSSRILGELYEWQYEPTGR
                      DAAKCGAEVYWRSHQIWDYDVDDMLRRTAEEYRRRLE"
+                     /Pfam="ElcH"
 ORIGIN
         1 tcagtgcagg aaacccatct ccttccaggc ctgtatatat ttatgtaccg cctctgcact
        61 gactgggacc acgtcagcca gagttggcga gtgttccctg ctcttactgg tatccagcag

@@ -1,29 +1,29 @@
-LOCUS       FBGC00087       22923 bp DNA     linear   UNA 08-MAY-2023
+LOCUS       FBGC00087              22923 bp    DNA     linear   UNA 08-MAY-2023
 DEFINITION  lasiodiplodin.
 ACCESSION   FBGC00087
-VERSION     .
+VERSION     FBGC00087
 KEYWORDS    .
 SOURCE      Lasiodiplodia theobromae NBRC 31059
   ORGANISM  Lasiodiplodia theobromae NBRC 31059
+            .
 REFERENCE   1  (bases 1 to 22923)
   AUTHORS   Xu Y, Zhou T, Espinosa-Artiles P, Tang Y, Zhan J, Molnar I.
-  TITLE     Insights into the biosynthesis of 12-membered resorcylic acid 
+  TITLE     Insights into the biosynthesis of 12-membered resorcylic acid
             lactones from heterologous production in Saccharomyces cerevisiae.
   JOURNAL   ACS Chem Biol 2014;9:1119-27
-  PUBMED    24597618
+   PUBMED   24597618
 REFERENCE   2  (bases 1 to 22923)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported May 8, 2023 from SnapGene 6.2.2
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: "10.1021/cb500043g";
-            journalName: "ACS Chem Biol"; date: "2014"; volume: "9"; pages: 
-            "1119-27"
+  JOURNAL   Exported May 8, 2023 from SnapGene 6.2.2 https://www.snapgene.com
 COMMENT     ##Assembly-Data-START##
-            Assembly Method :: DNASTAR SeqMan NGen v. 4.0.0; DNASTAR SeqMan Pro 
+            Assembly Method :: DNASTAR SeqMan NGen v. 4.0.0; DNASTAR SeqMan Pro
             v. 10.0.1
             Sequencing Technology :: IonTorrent
             ##Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi: "10.1021/cb500043g";
+            journalName: "ACS Chem Biol"; date: "2014"; volume: "9"; pages:
+            "1119-27"
 FEATURES             Location/Qualifiers
      source          1..22923
                      /mol_type="genomic DNA"
@@ -34,20 +34,21 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="lasG"
                      /product="glutathione S-transferase LasG"
-                     /label=lasG
+                     /label="lasG"
                      /note="LasG"
                      /protein_id="AHV78243.1"
                      /translation="MVLKLYGSAMSTSRVLVTILEKELPYEFIRIDIAKGDQKSEEYMK
                      LQPFGKVPVLDDDGFVMFESRAICKYLDRKYPSGKKLIPEGDEAYGRFEQACSVEQSYF
                      AAAAETIGTELVIKPMKGLGVPDEARVAQAEKDLDTVLAVYDKILAKQKYLVGDELTLA
                      DLFHLPNGAALKGGKWKEVFKRYQNVDKWFKGLQERDTWIKAATEAGTMA"
-     CDS             join(1288..1405,1456..2288,2346..2456,2506..3134,3186..5442,
-                     5497..6653,6711..7046,7099..7228,7295..8896)
+                     /Pfam="GST_N, GST_C"
+     CDS             join(1288..1405,1456..2288,2346..2456,2506..3134,
+                     3186..5442,5497..6653,6711..7046,7099..7228,7295..8896)
                      /codon_start=1
                      /gene="lasS1"
                      /product="polyketide synthase LasS1"
-                     /label=lasS1
-                     /note="desmethyl-lasiodiplodin highly reducing polyketide 
+                     /label="lasS1"
+                     /note="desmethyl-lasiodiplodin highly reducing polyketide
                      synthase"
                      /protein_id="AHV78245.1"
                      /translation="MPSTSNPVQTPIAIVGLACRFPGDATSPSRFWDLLKNGNDAYSPT
@@ -91,12 +92,13 @@ FEATURES             Location/Qualifiers
                      MKSLINQQLRGTCPPQVTTGLGTADIMAAHGLARPEYFADPRFGPLAVASVAAGAAAGE
                      GQGGGESVAAKLGKVKGKDEAGEIITEALVQKTADILQMPASEVNPSRPLYRYGVDSLV
                      ALEVRNWISRELKANMALLEILAAVPIESLAGKIAEKSKLVAGG"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_DH, fPKS_ER, fPKS_KR, ACP_PCP"
      CDS             join(10064..10213,10270..10290,10361..10484,10538..10667,
                      10720..11168,11219..11394,11495..11641)
                      /codon_start=1
                      /gene="lasM"
                      /product="methyltransferase LasM"
-                     /label=lasM
+                     /label="lasM"
                      /note="desmethyl-lasiodiplodin O-methyltransferase"
                      /protein_id="AHV78244.1"
                      /translation="MRSYSLDIVPKIEAILADAKQLEDEDLSARLGLMTQVDRLYQDLE
@@ -106,11 +108,12 @@ FEATURES             Location/Qualifiers
                      EPDRAFIVDIGGGSGKVLHFARAETGDVFGTSARLILQERPDALAQLDTAQQSGIEMMA
                      YDFHTEQPIKGAHIYHLGHILHNHPDHICRDILKRIAEAMSPKSRLLIFDAVIPARTEP
                      GKYMNGYLIDIVGLATGGKERTEKETAALLDAEGLEFVRVWHGQAGWQGVIEARLKRG"
+                     /Pfam="Dimerisation2, Methyltransf_2"
      CDS             complement(join(12518..13452,13534..13708))
                      /codon_start=1
                      /gene="lasR"
                      /product="transcription factor LasR"
-                     /label=lasR
+                     /label="lasR"
                      /note="lasiodiplodin biosynthesis transcriptional
                      regulator"
                      /protein_id="AHV78246.1"
@@ -121,12 +124,13 @@ FEATURES             Location/Qualifiers
                      QRAPHQHCQTMSHDCGGYPQQRARPIFANTQPTCACTPTPGSPSCHAQQMHHLYDRAPQ
                      WASWTRPEDYTRGSYGQIEASRDLNVPFSRPLHPSHSYMSLPPPTERGCCCHHHHNHHN
                      HTHLPPFAHHSSTNGFDVPHPYHDSRMLL"
+                     /Pfam="TqaK"
      CDS             join(16282..16577,16628..16913,16968..17928,17984..18579,
                      18640..18684,18740..18898,18959..21611,21668..22923)
                      /codon_start=1
                      /gene="lasS2"
                      /product="polyketide synthase LasS2"
-                     /label=lasS2
+                     /label="lasS2"
                      /note="desmethyl-lasiodiplodin nonreducing polyketide
                      synthase"
                      /protein_id="AHV78247.1"
@@ -166,6 +170,8 @@ FEATURES             Location/Qualifiers
                      SIAARSSGMWSASAATQAHLRGVFACVAAYHPAPLAAHERPARTAVVWARKGLVRRCEA
                      DGEVMGLLARVGVPTVAFEGFMEDGRMGAIAWGLPDKTERDLGPNGWERFVGGEEKPLC
                      LAVDADHLEMPMPGHVHLMHGAMEEAFAYLSG"
+                     /Pfam="SAT2, PKS_KS, PKS_AT, fPKS_PT, ACP_PCP,
+                     Thioesterase"
 ORIGIN
         1 tcacgccatt gttcccgcct ctgtcgcagc tttgatccaa gtatctctct cctgcaaccc
        61 cttgaaccac ttgtctacat tctggtacct cttgaacact tccttccact tgcctccctt

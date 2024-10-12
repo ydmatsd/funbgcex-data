@@ -1,42 +1,42 @@
-LOCUS       FBGC00091       18376 bp DNA     linear   UNA 18-JAN-2023
+LOCUS       FBGC00091              18376 bp    DNA     linear   UNA 18-JAN-2023
 DEFINITION  fumosorinone.
 ACCESSION   FBGC00091
-VERSION     .
+VERSION     FBGC00091
 KEYWORDS    .
 SOURCE      Cordyceps fumosorosea ARSEF 2679
   ORGANISM  Cordyceps fumosorosea ARSEF 2679
+            .
 REFERENCE   1  (bases 1 to 18376)
   AUTHORS   Liu L, Zhang J, Chen C, Teng J, Wang C, Luo D.
-  TITLE     Structure and biosynthesis of fumosorinone, a new protein tyrosine 
-            phosphatase 1B inhibitor firstly isolated from the entomogenous 
+  TITLE     Structure and biosynthesis of fumosorinone, a new protein tyrosine
+            phosphatase 1B inhibitor firstly isolated from the entomogenous
             fungus Isaria fumosorosea.
   JOURNAL   Fungal Genet Biol 2015;81:191-200
-  PUBMED    25857260
+   PUBMED   25857260
 REFERENCE   2  (bases 1 to 18376)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Jan 18, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
+  JOURNAL   Exported Jan 18, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
             "10.1016/j.fgb.2015.03.009"; journalName: "Fungal Genet Biol"; date:
             "2015"; volume: "81"; pages: "191-200"
-COMMENT     ##Assembly-Data-START##
-            Sequencing Technology :: Sanger dideoxy sequencing 
-            ##Assembly-Data-END##
 FEATURES             Location/Qualifiers
      source          1..18376
                      /host="whitefly"
                      /strain="ARSEF 2679"
                      /mol_type="genomic DNA"
                      /isolation_source="unidentified Lepidopteran"
-                     /collection_date=25-Nov-2007
+                     /collection_date="25-Nov-2007"
                      /db_xref="taxon:114497"
                      /organism="Cordyceps fumosorosea"
      CDS             join(1..585,657..1182,1276..1694)
                      /codon_start=1
                      /product="cytochrome P450 monooxygenase FumoA"
-                     /label=fumoA
-                     /note="fumoA; haem-thiolate protein involved in oxidative 
+                     /label="fumoA"
+                     /note="fumoA; haem-thiolate protein involved in oxidative
                      degradation of various compounds"
                      /protein_id="AKC54420.1"
                      /translation="MVATLANLNFPYLILSACLSAILLSRFLPFTRRDRRPTAKGCLPE
@@ -48,10 +48,11 @@ FEATURES             Location/Qualifiers
                      LREEVTAVGDAPITFELLRNMKYLNGIMNETHRLIPNNVTQIRSALSDVVLPLGGGPDG
                      KAPLDVRKGDIVSVTKTVMYRDPDRWGADADEYRPERWDGMRGGWHFLPYGGGPRRCPA
                      QMMVQNESGYMLCRLARRYARIEARDKEPYRARMRIGPSSLHGVKIAFYKE"
+                     /Pfam="p450"
      CDS             complement(1968..3608)
                      /codon_start=1
                      /product="cytochrome P450 monooxygenase FumoB"
-                     /label=fumoB
+                     /label="fumoB"
                      /note="fumoB"
                      /protein_id="AKC54421.1"
                      /translation="MALSAAASTLARLGYYEKLAGILGIIGLVLLFWQRTRQPFYPDLP
@@ -64,10 +65,11 @@ FEATURES             Location/Qualifiers
                      LNFPLGGRASPRTVMRDGLVSPEGIRLQRGTTVSWLAGCAQLDPEAFPEPRRFDPFRFS
                      RGDGDGEGERDTFVKTSARYLPWGHGKHACPGRFVVDYVVKMALAQLVTKYDLAWPEDY
                      GGKQPPSVWLAELSVPPPRARIMVRRRKV"
+                     /Pfam="p450"
      CDS             complement(4185..5369)
                      /codon_start=1
                      /product="trans-acting enoylreductase FumoC"
-                     /label=fumoC
+                     /label="fumoC"
                      /note="enoylreductase; polyketide synthases; fumoC"
                      /protein_id="AKC54419.1"
                      /translation="MRMPTNLQHPNMTAIASLPRSQNALKIVSPNTFHVDANAPLPTLV
@@ -77,12 +79,13 @@ FEATURES             Location/Qualifiers
                      CSSSSAARALSLGAAATFDYASATCGRDVREHTHDSLALAIDCISDSASMSICYEAIGG
                      GGGRYVALDPFPVRGCVRRSVVPDWICTLTQFGRPVAWAPPYNIDERPGDRRFAEEWYR
                      LAQRMLDAHVIRAPTLETRTGGLASVPEGISEVRMGEVKRKKLVYNIVEQKAAA"
+                     /Pfam="fPKS_ER, ADH_zinc_N"
      CDS             5960..18376
                      /codon_start=1
                      /gene="fumoS"
-                     /product="polyketide synthase-nonribosomal peptide 
+                     /product="polyketide synthase-nonribosomal peptide
                      synthetase FumoS"
-                     /label=fumoS
+                     /label="fumoS"
                      /note="PKS-NRPS; nonribosomal peptide synthetase"
                      /protein_id="AKC54422.1"
                      /translation="MSPTTQHEPGSPRVPEPIAIVGSACRFPGGSSSPSKLWDLLREPR
@@ -156,6 +159,8 @@ FEATURES             Location/Qualifiers
                      ALVGDGVPNTDALNVILRYAVEMRCVPSLPRERARGYLDFGTVDAVVAEMAADVLALAD
                      EEEGGAGVRYRHHSGGVKVPIHEFRAHMDKKYGERFESVDLAAWIPRAVEAGMDPLISA
                      YLETFLETDEPLIFPYMGGKSD"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_DH, PKS_NRPS_MT, fPKS_KR,
+                     ACP_PCP, Condensation, AA-adenyl-dom, fPKS_R"
 ORIGIN
         1 atggttgcaa ctcttgcaaa cctcaacttc ccctacctca tcctctcagc atgtctctcc
        61 gccatactgc tgagccgatt cctacccttt accaggcgcg accgcaggcc cacggccaaa

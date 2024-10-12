@@ -1,40 +1,40 @@
-LOCUS       FBGC00078       51426 bp DNA     linear   UNA 12-APR-2023
+LOCUS       FBGC00078              51426 bp    DNA     linear   UNA 12-APR-2023
 DEFINITION  echinocandin B.
 ACCESSION   FBGC00078
-VERSION     .
+VERSION     FBGC00078
 KEYWORDS    .
 SOURCE      Emericella rugulosa NRRL 11440
   ORGANISM  Emericella rugulosa NRRL 11440
+            .
 REFERENCE   1  (bases 1 to 51426)
   AUTHORS   Cacho RA, Jiang W, Chooi YH, Walsh CT, Tang Y.
-  TITLE     Identification and characterization of the echinocandin B 
+  TITLE     Identification and characterization of the echinocandin B
             biosynthetic gene cluster from Emericella rugulosa NRRL 11440.
   JOURNAL   J Am Chem Soc 2012;134:16781-90
-  PUBMED    22998630
+   PUBMED   22998630
 REFERENCE   2  (bases 1 to 51426)
   AUTHORS   Huttel W, Youssar L, Gruning BA, Gunther S, Hugentobler KG.
   TITLE     Echinocandin B biosynthesis: a biosynthetic cluster from Aspergillus
-            nidulans NRRL 8112 and reassembly of the subclusters Ecd and Hty 
+            nidulans NRRL 8112 and reassembly of the subclusters Ecd and Hty
             from Aspergillus pachycristatus NRRL 11440 reveals a single coherent
             gene cluster.
   JOURNAL   BMC Genomics 2016;17:570
-  PUBMED    27502607
+   PUBMED   27502607
 REFERENCE   3  (bases 1 to 51426)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Apr 12, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
+  JOURNAL   Exported Apr 12, 2023 from SnapGene 6.2.1 https://www.snapgene.com
 COMMENT     SGRef: number: 1; type: "Journal Article"; doi: "10.1021/ja307220z";
-            journalName: "J Am Chem Soc"; date: "2012"; volume: "134"; pages: 
+            journalName: "J Am Chem Soc"; date: "2012"; volume: "134"; pages:
             "16781-90"
-COMMENT     SGRef: number: 2; type: "Journal Article"; doi: 
-            "10.1186/s12864-016-2885-x"; journalName: "BMC Genomics"; date: 
+            SGRef: number: 2; type: "Journal Article"; doi:
+            "10.1186/s12864-016-2885-x"; journalName: "BMC Genomics"; date:
             "2016"; volume: "17"; pages: "570"
 FEATURES             Location/Qualifiers
      source          1..51426
                      /strain="NRRL 11440"
                      /mol_type="genomic DNA"
-                     /label=synonym: Aspergillus nidulans var. roseus
+                     /label="synonym: Aspergillus nidulans var. roseus"
                      /note="synonym: Aspergillus nidulans var. roseus"
                      /db_xref="taxon:41736"
                      /culture_collection="ATCC:58397"
@@ -44,7 +44,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="htyD"
                      /product="aconitase HtyD"
-                     /label=htyD
+                     /label="htyD"
                      /note="putative (4-hydroxybenzyl)-malate isomerase"
                      /protein_id="AFT91395.1"
                      /translation="MSEGSISLCFLGSLPNDVVNFVRAVVRILADIRGIVVEERSAEEL
@@ -63,12 +63,13 @@ FEATURES             Location/Qualifiers
                      GVKCVIAKSFSFIYGRNQPTIGLLGIVITDERFYDAARTGVAIEINPSARTVTVAGQSF
                      PFVMDDMELALIRRDGLATAYKALGKGVFRSLCADVPGKGGYEVDEVGLGGRMGKGGRE
                      GLVWXSDCCSLYKHG"
-     CDS             complement(join(3238..3476,3542..4181,4257..4352,4412..4483,
-                     4627..4680))
+                     /Pfam="Aconitase, Aconitase_C"
+     CDS             complement(join(3238..3476,3542..4181,4257..4352,
+                     4412..4483,4627..4680))
                      /codon_start=1
                      /gene="htyC"
                      /product="isopropyl malate dehydrogenase HtyC"
-                     /label=htyC
+                     /label="htyC"
                      /note="putative 3-(4-hydroxybenzyl)-malate dehydrogenase"
                      /protein_id="AFT91394.1"
                      /translation="MVKTFDIVVFPGDYGGPEVLGEIQSQYEQEVTFNLKYHLLGGASF
@@ -78,11 +79,12 @@ FEATURES             Location/Qualifiers
                      AAMTLGCRPTKLNGIVLTSNMFGDIISDQASAIPGSLGLLPSASLCAIPGGESGGCVHG
                      IYEPVHGSAPDIAGQGIINPTGMILSVAMMLRYSLDMPAAATAVETAVSRVIERGGRTR
                      DVGGTTSTAEFGDQVVACLRENTEDK"
+                     /Pfam="Iso_dh"
      CDS             join(4886..4928,4988..5020,5098..5891,5955..6224)
                      /codon_start=1
                      /gene="htyB"
                      /product="transaminase HtyB"
-                     /label=htyB
+                     /label="htyB"
                      /note="putative transaminase"
                      /protein_id="AFT91392.1"
                      /translation="MIATEYPRPPLAGIDWNHLGFEPVEVNGHIESRFSPSTKTWSTPT
@@ -92,11 +94,12 @@ FEATURES             Location/Qualifiers
                      YGLTLHLDSQSRSLVDEFSTSGFIGVRKENDDELKLVVSDSQQIVASVTIDSICEIARG
                      FGWAVEKRSIAFTEVSEFVEVYAAGTAAMLVPVQSVERRSTGEFIQYSVDYAEPTSVFA
                      QLYKALSGVQQGLVPDQWGWTQEVLRPKQLASQDTEADT"
+                     /Pfam="Aminotran_4"
      CDS             join(6449..6619,6686..8182,8237..8323)
                      /codon_start=1
                      /gene="htyA"
                      /product="isopropyl malate synthase HtyA"
-                     /label=htyA
+                     /label="htyA"
                      /note="putative (4-hydroxybenzyl)-malate synthase"
                      /protein_id="AFT91393.1"
                      /translation="MSTICAGGQTLESKYGGRAPPQIQLPDRQWPSKKLTESPIWLSTD
@@ -110,11 +113,12 @@ FEATURES             Location/Qualifiers
                      VVREHGYIAAFQHPGCALELEDVTEQAARAAGILTRGLDFLLRCTRAASHPLGGPDDSN
                      LTVAFVQCAVTEKAEEAWGIGIGFSQDSAIDRALLSVMNRHYQPTPIRAPLATNDSVIP
                      RPEPIRGG"
+                     /Pfam="HMGL-like"
      CDS             complement(join(8454..9116,9173..9337,9396..9557))
                      /codon_start=1
                      /gene="htyE"
                      /product="2OG-Fe(II)-dependent dioxygenase HtyE"
-                     /label=htyE
+                     /label="htyE"
                      /note="non-heme iron a-ketoglutarate dependent dioxygenase"
                      /protein_id="AFT91391.1"
                      /translation="MAITTLDFNQFRSTSADERQIFCADLCETLSVYGFAKIRNTTLSN
@@ -123,11 +127,12 @@ FEATURES             Location/Qualifiers
                      PDTLLPSKHRHNTSELRLLHYPPIPCSALRSNMRIGEHSDFGTLTLLLQDSVGGLQVED
                      QRNPRSFIPVEPEDGYEVVINIGDCLQRWTNRRLCSANHRVMLPEGKDVDSEEVLDDRY
                      SVAYFGKPDRDVLVDTLPECVEVGERVEYGDHLTALQYNQIKLTRTYG"
+                     /Pfam="DIOX_N, 2OG-FeII_Oxy"
      CDS             complement(join(11116..11874,11933..12781))
                      /codon_start=1
                      /gene="htyF"
                      /product="cytochrome P450 monooxygenase HtyF"
-                     /label=htyF
+                     /label="htyF"
                      /note="putative cytochrome P450 heme-dependent oxygenase"
                      /protein_id="AFT91399.1"
                      /translation="MLATDSTPALLAASVVLAVSLVSYVIQLNRSRTHRAFWASHPWVG
@@ -140,11 +145,12 @@ FEATURES             Location/Qualifiers
                      VDFQSTGNPPLHVPPGIRLCVPAHSIHRDPALYPDPLTYNAFRFVIEPSVGAGDATEPA
                      PKQASLATTTDSFLVFGHGRHACPGRFFAAHLMKLMLAYIVRHYDVARLTQPVDKQVQV
                      GTAKPDANLRLTVRRRVK"
+                     /Pfam="p450"
      CDS             join(13839..35605,35733..35748)
                      /codon_start=1
                      /gene="ecdA"
                      /product="nonribosomal peptide synthetase EcdA"
-                     /label=ecdA
+                     /label="ecdA"
                      /note="echinocandin synthetase; nonribosomal peptide
                      synthetase"
                      /protein_id="AFT91378.1"
@@ -272,11 +278,12 @@ FEATURES             Location/Qualifiers
                      DSPGLLVSNFLSRALGGSLGDRKGASDPKIEVIEPEQEPQPLESTDKMTYLDLKKTPEW
                      EEVLRGRRGIVSPGRTSLSFSQRGGDLLDALYLSSLQKDADGGRYISPMALLEGSRCEE
                      AEKSASVTSSERRLATI"
+                     /Pfam="ACP_PCP, NRPS_C, AA-adenyl-dom, NRPS_CT"
      CDS             join(35954..36189,36250..36313,36387..37103)
                      /codon_start=1
                      /gene="ecdG"
                      /product="2OG-Fe(II)-dependent dioxygenase EcdG"
-                     /label=ecdG
+                     /label="ecdG"
                      /note="non-heme iron a-ketoglutarate dependent dioxygenase"
                      /protein_id="AFT91379.1"
                      /translation="MASISYDGLLRGAAKDIQTLTEASLVHGYFNLELDCPEGKQLRED
@@ -285,11 +292,12 @@ FEATURES             Location/Qualifiers
                      EPSVTNLGFLRYPPQPATSENCGHIAHTDVGTLTILAATQRGLQVINSETQDWTFVDPH
                      PQNEFLLVQFGDCLKFLSGGRVVPSIHRVIPSDNPEEREGTKYTLAYFVRPNEEAVIKD
                      DRGEEWVYGDYHCRKFGAFARPLKEGDRDRMPDRPVGEYDMINIRKFKGLADGVSAA"
+                     /Pfam="2OG-FeII_Oxy"
      CDS             join(37492..38074,38130..39058)
                      /codon_start=1
                      /gene="ecdH"
                      /product="cytochrome P450 monooxygenase EcdH"
-                     /label=ecdH
+                     /label="ecdH"
                      /note="cytochrome P450 heme-iron-dependent oxygenase"
                      /protein_id="AFT91389.1"
                      /translation="MEFPLYTTTLLCGVISSTLLLLLLNKLTTWEHIVPSKVPWIDRRS
@@ -301,12 +309,13 @@ FEATURES             Location/Qualifiers
                      LEACNYSPIKADLEKLVHIENALKESLRLAVVFPGLIRQVTSRTGVTLDDGTHLPHGAR
                      ISVAAYAIHRDDANWTDAARYDPSRHEKASLPMSRGSEQLLSFGLGKRACPGRFFVTDE
                      LKLLFAHILTKYEFKVIKPPVTKVGLLKELTMRGPQEQLVIRRVK"
+                     /Pfam="p450"
      CDS             complement(join(39129..39431,39491..39816,39880..40288,
                      40339..40710,40783..41052))
                      /codon_start=1
                      /gene="ecdI"
                      /product="CoA ligase EcdI"
-                     /label=ecdI
+                     /label="ecdI"
                      /note="linoleyl-AMP ligase"
                      /protein_id="AFT91380.1"
                      /translation="MVFTSPAWCSQLASTIPETKLVGDFVLEGNGTESGDKPLLVCAET
@@ -319,11 +328,12 @@ FEATURES             Location/Qualifiers
                      LFLRSPSIMKGYLVDDATDSGAFDADGWLITGDVASFRKGPDGEEHLFIVDRKKDIMKV
                      KGIQVAPAEIETRLLSHPAVDEAAVFGINDAEAGERPFAFVVRSKMVNVDLDEKALRQS
                      IHSHIQETLSEPFWLRDNIKFVESIPKGHSGKALKFKLKELI"
+                     /Pfam="AA-adenyl-dom"
      CDS             join(42584..44325,44395..44615,44697..44740)
                      /codon_start=1
                      /gene="ecdJ"
                      /product="hypothetical protein EcdJ"
-                     /label=ecdJ
+                     /label="ecdJ"
                      /protein_id="AFT91381.1"
                      /translation="MHFAESVQTPPPSRPSDQSLNQHVLDLGSWDQGCRDLMLVNWLCV
                      DFRQRLLNVLYTSCQKNFNEARSLARERLLDLVQRIASSDNLHGALYTPPSLDSRSSAT
@@ -337,11 +347,12 @@ FEATURES             Location/Qualifiers
                      MQMLYPDLKPAVAEGKDCVYSRKLTKLRNRLSCARNWYRFEQAFPGAILALIPCAGRFS
                      VSIDQIEKLPSDTVQIFLDYLQEHRGVFSRCVSQTLGTGIFSVLARTSADAAPTFAFEK
                      VEEEGFGDLLYDTDELVSLSIEYDRYCDLNSNA"
+                     /Pfam="EcdJ"
      CDS             complement(join(44828..45490,45554..45727,45785..45946))
                      /codon_start=1
                      /gene="ecdK"
                      /product="2OG-Fe(II)-dependent dioxygenase EcdK"
-                     /label=ecdK
+                     /label="ecdK"
                      /note="non-heme iron a-ketoglutarate dependent dioxygenase"
                      /protein_id="AFT91382.1"
                      /translation="MSVLTLDFTKFHSGSEVERRAFGQALLDGFTTTGFVKLINHGFSK
@@ -350,6 +361,7 @@ FEATURES             Location/Qualifiers
                      MDVPKDTFVGLCHGHASELRLNHYPSIPVKTIEEGKTNRIWPHTDFGIITLLAQDDIGG
                      LEIQDRNHPSDFLPVNREDSTEFVVNIGDILERWTNGRLRAGLHQVTTPRSMQQKGNGT
                      LPTRRSVAFFLKPHRQMSVASISHFVPGNQSPRYEDMTALAYQQLRTGIVY"
+                     /Pfam="DIOX_N, 2OG-FeII_Oxy"
      CDS             join(46209..46436,46562..47021,47083..47309,47372..47651,
                      47704..47937,47991..48781,48834..48996,49059..49590,
                      49647..49718,49774..50505,50568..50651,50714..51088,
@@ -357,7 +369,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="ecdL"
                      /product="ABC transporter EcdL"
-                     /label=ecdL
+                     /label="ecdL"
                      /note="ABC-type multidrug transporter"
                      /protein_id="AFT91383.1"
                      /translation="MDDSPWPQCDIRVQDTFGPQVSGCYEDFDFTLLFEESILYLPPLL
@@ -386,6 +398,7 @@ FEATURES             Location/Qualifiers
                      GLREVISKKGGLDVAMDDGFLSHGQQQLLCLARAILKKSRILILDEVTSSVDQETETLI
                      TRVLRDRLQDQTVISIAHRLNTIMDYDKVIILDKGCIVEQGNPQVLALQRSIFASLLRS
                      GDEEPGNGHKHESEGEEE"
+                     /Pfam="ABC_tran, ABC_membrane"
 ORIGIN
         1 ttatccatgc ttatacaaag agcaacaatc tgatcmccag acaagcccct ccctccctcc
        61 cttccccatc ctccccccca atccaacctc atcaacctca tacccccctt tccccggaac

@@ -1,24 +1,24 @@
-LOCUS       FBGC00061       16120 bp DNA     linear   UNA 16-JAN-2023
+LOCUS       FBGC00061              16120 bp    DNA     linear   UNA 08-OCT-2024
 DEFINITION  penicillin G.
 ACCESSION   FBGC00061
-VERSION     .
+VERSION     FBGC00061
 KEYWORDS    .
 SOURCE      Penicillium chrysogenum AS-P-78
   ORGANISM  Penicillium chrysogenum AS-P-78
+            .
 REFERENCE   1  (bases 1 to 16120)
-  AUTHORS   Fierro F, Garcia-Estrada C, Castillo NI, Rodriguez R, Velasco-Conde 
+  AUTHORS   Fierro F, Garcia-Estrada C, Castillo NI, Rodriguez R, Velasco-Conde
             T, Martin JF.
   TITLE     Transcriptional and bioinformatic analysis of the 56.8 kb DNA region
-            amplified in tandem repeats containing the penicillin gene cluster 
+            amplified in tandem repeats containing the penicillin gene cluster
             in Penicillium chrysogenum.
   JOURNAL   Fungal Genet Biol 2006;43:618-29
-  PUBMED    16713314
+   PUBMED   16713314
 REFERENCE   2  (bases 1 to 16120)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Jan 16, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
+  JOURNAL   Exported Oct 8, 2024 from SnapGene 7.2.1 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
             "10.1016/j.fgb.2006.03.001"; journalName: "Fungal Genet Biol"; date:
             "2006"; volume: "43"; pages: "618-29"
 FEATURES             Location/Qualifiers
@@ -31,7 +31,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="pcbAB"
                      /product="nonribosomal peptide synthetase PcbAB"
-                     /label=pcbAB
+                     /label="pcbAB"
                      /protein_id="ABA70582.1"
                      /translation="MTQLKPPNGTTPIGFSATTSLNASGSSSVKNGTIKPSNGIFKPST
                      RDTMDPCSGNAADGSIRVRFRGGIERWKECVNQVPERCDLSGLTTDSTRYQLASTGFGD
@@ -98,11 +98,13 @@ FEATURES             Location/Qualifiers
                      VASDEKIGFLGIIDTYFNVRGATRTIGLGDTEILDPIHHIYNPDPANFQRLPSATDRIV
                      LFKAMRPNNKYESENQRRLYEYYDGTRLNGLDSLLPSDSDVQLVPLTDDTHFSWVGNPQ
                      QVEQMCATIKEHLARY"
+                     /Pfam="Condensation, AA-adenyl-dom, ACP_PCP, NRPS_E,
+                     Thioesterase"
      CDS             12353..13348
                      /codon_start=1
                      /gene="pcbC"
-                     /product="2OG-Fe(II)-dependent dioxygenase PcbC"
-                     /label=pcbC
+                     /product="Fe(II)-dependent dioxygenase PcbC"
+                     /label="pcbC"
                      /protein_id="ABA70583.1"
                      /translation="MASTPKANVPKIDVSPLFGDNMEEKMKVARAIDAASRDTGFFYAV
                      NHGVDVKRLSNKTREFHFSITDEEKWDLAIRAYNKEHQDQIRAGYYLSIPEKKAVESFC
@@ -110,11 +112,12 @@ FEATURES             Location/Qualifiers
                      LGKEEDFFSRHFKKEDALSSVVLIRYPYLNPYPPAAIKTAEDGTKLSFEWHEDVSLITV
                      LYQSDVANLQVEMPQGYLDIEADDNAYLVNCGSYMAHITNNYYPAPIHRVKWVNEERQS
                      LPFFVNLGFNDTVQPWDPSKEDGKTDQRPISYGDYLQNGLVSLINKNGQT"
+                     /Pfam="DIOX_N, 2OG-FeII_Oxy"
      CDS             join(14846..14881,14946..15120,15189..15340,15410..16120)
                      /codon_start=1
                      /gene="penDE"
                      /product="acetyltransferase PenDE"
-                     /label=penDE
+                     /label="penDE"
                      /protein_id="ABA70584.1"
                      /translation="MLHILCQGTPFEIGYEHGSAAKAVIARSIDFAVDLIRGKTKKTDE
                      ELKQVLSQLGRVIEERWPKYYEEIRGIAKGAERDVSEIVMLNTRTEFAYGLKAARDGCT
@@ -123,6 +126,7 @@ FEATURES             Location/Qualifiers
                      GLEFSPTSIRKQVLDANGRMVHTNHCLLQHGKNEKELDPLPDSWNRHQRMEFLLDGFDG
                      TKQAFAQLWADEDNYPFSICRAYEEGKSRGATLFNIIYDHARREATVRLGRPTNPDEMF
                      VMRFDEEDERSALNARL"
+                     /Pfam="AAT"
 ORIGIN
         1 tcaatagcga gcgaggtgtt ccttgatagt cgcacacatc tgctccacct gttgtggatt
        61 tccgacccag gaaaagtgtg tatcgtccgt aagcgggacc agctggacgt cggaatcgct

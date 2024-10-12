@@ -1,24 +1,24 @@
-LOCUS       FBGC00097       14859 bp DNA     linear   UNA 19-JAN-2023
+LOCUS       FBGC00097              14859 bp    DNA     linear   UNA 19-JAN-2023
 DEFINITION  itaconic acid.
 ACCESSION   FBGC00097
-VERSION     .
+VERSION     FBGC00097
 KEYWORDS    .
 SOURCE      Ustilago maydis MB215
   ORGANISM  Ustilago maydis MB215
+            .
 REFERENCE   1  (bases 1 to 14859)
-  AUTHORS   Geiser E, Przybilla SK, Friedrich A, Buckel W, Wierckx N, Blank LM, 
+  AUTHORS   Geiser E, Przybilla SK, Friedrich A, Buckel W, Wierckx N, Blank LM,
             Bolker M.
-  TITLE     Ustilago maydis produces itaconic acid via the unusual intermediate 
+  TITLE     Ustilago maydis produces itaconic acid via the unusual intermediate
             trans-aconitate.
   JOURNAL   Microb Biotechnol 2016;9:116-26
-  PUBMED    26639528
+   PUBMED   26639528
 REFERENCE   2  (bases 1 to 14859)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Jan 19, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1111/1751-7915.12329"; journalName: "Microb Biotechnol"; date: 
+  JOURNAL   Exported Jan 19, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1111/1751-7915.12329"; journalName: "Microb Biotechnol"; date:
             "2016"; volume: "9"; pages: "116-26"
 FEATURES             Location/Qualifiers
      source          1..14859
@@ -31,7 +31,7 @@ FEATURES             Location/Qualifiers
                      /gene="CYP3"
                      /locus_tag="UMAG_05074"
                      /product="cytochrome P450 monooxygenase CYP3"
-                     /label=CYP3
+                     /label="CYP3"
                      /protein_id="ALS30800.1"
                      /translation="MNTTKLLGTGALSPSFVFDHDSGNAIFGLSSSTLVVLVAMIAVST
                      LTLKSVLPGDRSINLPGPRGWPIVGSWFDLGNNWAEYFRQAAKEYGDVFKVHIGNRTVV
@@ -43,24 +43,26 @@ FEATURES             Location/Qualifiers
                      NVSDVTYNNAVIPAGTTFFLNSWACNVDAEKFADPFEFKPERFMDKSASNAHVENKMGG
                      VETYAFGMGRRMCPGVFLALREIYTTLVFLTHFFDIAPDGEYDIDPLTAVEDGRAFSVR
                      PKPFKVRCTPRPGVDLSPVLDKQ"
+                     /Pfam="p450"
      CDS             join(2867..3177,3270..3277,3367..3437,3512..3625,
                      3697..3723)
                      /codon_start=1
                      /gene="RDO1"
                      /locus_tag="UMAG_12299"
                      /product="glyoxalase domain-containing protein RDO1"
-                     /label=RDO1
+                     /label="RDO1"
                      /protein_id="ALS30794.1"
                      /translation="MLRSSQARSVVRSSQWATTARVHQLELPSGWKPSALGVAPWQQRQ
                      QRQLSVRSLDHLVITCHDMDKTIDFYTRLGMSVVQFGQGRKALEFGSQKINLHQKGKEF
                      EPKALVPQPGSQDLCFVIHDSIADAQKHLQEHGIQVVEGPVKRTGAVGPILSIYVRDPD
                      NNLIELSSYQDAK"
+                     /Pfam="Glyoxalase"
      CDS             complement(4213..5694)
                      /codon_start=1
                      /gene="TAD1"
                      /locus_tag="UMAG_05076"
                      /product="trans-aconitate decarboxylase TAD1"
-                     /label=TAD1
+                     /label="TAD1"
                      /protein_id="ALS30796.1"
                      /translation="MAPALNANPTTKRDELSAPSASHKLGMSSMASRAAGGGLKLTGLP
                      DLSDSAGTLSDIFGTPQMREIWSDQNRVACYLEIEAALAIVQADLGIIPKNAAHEIVEH
@@ -71,13 +73,14 @@ FEATURES             Location/Qualifiers
                      ANVRQGAAALLDAMQSDHERGTGPWEIIWVQLPLMMNWTSAALNNADFVLRGLQVFPDA
                      MQHNLDLSKGLIVSEAVMMGLGNTLGRQYAHDAVYECCRTAFVQDRPLLDVLLENHEIA
                      SKLDRTELEKLCDPANYLGQCSQWIDRVLSRPSSA"
+                     /Pfam="Lyase_1, ADSL_C"
      CDS             complement(join(6714..6985,7075..7957,8092..8168,
                      8297..8540))
                      /codon_start=1
                      /gene="ITP1"
                      /locus_tag="UMAG_11777"
                      /product="major facilitator superfamily transporter ITP1"
-                     /label=ITP1
+                     /label="ITP1"
                      /protein_id="ALS30797.1"
                      /translation="MDQADHSGVPDDAALEEAPNTVPIQEKSAQPHDTQPYCAFTKRSK
                      LFIVLTVSLAGFFSPFAINIYIPALPQIAGMLHTSEAATNVTVTVYMIAQGLSPVIWAP
@@ -88,12 +91,13 @@ FEATURES             Location/Qualifiers
                      KILDWDYRRALDKSKLGVKVTRARLQSAWIYLPCYCASLLAYGWCVRAHTHIAAPIVFQ
                      FTLGMFSTMYFTNVNTLIVDLYPGKAASATAAVNVGRCLLGAVAVAVVQPMIDAMGAGW
                      TFTLGALLTLIVGLICQVLIYLYGEMWAARKHS"
+                     /Pfam="MFS_1"
      CDS             join(9824..10631,10715..11238)
                      /codon_start=1
                      /gene="ADI1"
                      /locus_tag="UMAG_11778"
                      /product="aconitate-delta-isomerase ADI1"
-                     /label=ADI1
+                     /label="ADI1"
                      /protein_id="ALS30798.1"
                      /translation="MLHPIDTTIYRAGTSRGLYFLASDLPAEPSERDAALISIMGSGHP
                      LQIDGMGGGNSLTSKVAIVSASTQRSEFDVDYLFCQVGITERFVDTAPNCGNLMSGVAA
@@ -103,12 +107,13 @@ FEATURES             Location/Qualifiers
                      VTGAICTAGAAYIDGSVVCEILSSRASACSASQRRISIEHPSGVLEVGLVPPENAAQSL
                      VDVAVVERSVALIAHARVYYTTPDRRRSYDSPLTSPSTPADTHNLFDAAYRPVIQPSDT
                      DVEAPHMLALENKEQCVSRCDTALHHIVASYGASDAHASDRSLS"
+                     /Pfam="PrpF"
      CDS             join(12070..12145,12246..12481,12582..12672,12806..13305)
                      /codon_start=1
                      /gene="MTT1"
                      /locus_tag="UMAG_05079"
                      /product="tricarboxylate transporter MTT1"
-                     /label=MTT1
+                     /label="MTT1"
                      /protein_id="ALS30799.1"
                      /translation="MPPSGRKVSPSVSVVAGATAGAVEGVATFPIEYLKTVSQFAPRDV
                      HGNQQRLSPIEVVRSTLQKEGPKGLFRGCTAMVVGNAGKAGVRFFAFENFRSMLKNKST
@@ -116,12 +121,13 @@ FEATURES             Location/Qualifiers
                      EGLAGIYQGVVPVVMRQGSASAIRLGTYSALRDWLPKAHGSGSSLINWLATFSIGAASG
                      VVAVYGTMPFDVLKTRMQAIDAARYRSTWHCLTNTLKTEGAAALWRGSVSRSMRLIVSG
                      GVIFSVYEQVVWLLAGPES"
+                     /Pfam="Mito_carr"
      CDS             complement(join(13614..14426,14527..14859))
                      /codon_start=1
                      /gene="RIA1"
                      /locus_tag="UMAG_05080"
                      /product="transcription factor RIA1"
-                     /label=RIA1
+                     /label="RIA1"
                      /protein_id="ALS30795.1"
                      /translation="MRFAGMSCDDERPANMFDLMAPQLASTSCNEHYFSTADLGASTLY
                      ATTTDAPATIAGILTPQPATLAPMYSTCPVRFDDQRSAPASTSVSGKRKHSDVEKDRRR
@@ -130,6 +136,7 @@ FEATURES             Location/Qualifiers
                      YDGSWQASDRGSIDDEASASASASASASSSASCSSSSHTHSDDTDCDDTDTDIPAESAL
                      KERTKRHKARSKKERDRTKPRYRPKPSTNRSPTPSSCASSTPNSPPTSSNRNRDLQQAI
                      LSLLLELPSHLEDVKNKRRASQPTELADPSSVKSRSKKRHR"
+                     /Pfam="HLH"
 ORIGIN
         1 ctattgtttg tcgagcacgg gggaaaggtc gacgccgggt cgaggcgtgc agcgcacctt
        61 gaacggtttc ggacgtacgc tgaacgcgcg accgtcctct acggctgtga gagggtcgat

@@ -1,29 +1,29 @@
-LOCUS       FBGC00081       36242 bp DNA     linear   UNA 18-JAN-2023
+LOCUS       FBGC00081              36242 bp    DNA     linear   UNA 18-JAN-2023
 DEFINITION  pestheic acid.
 ACCESSION   FBGC00081
-VERSION     .
+VERSION     FBGC00081
 KEYWORDS    .
 SOURCE      Pestalotiopsis fici CGMCC3.15140
   ORGANISM  Pestalotiopsis fici CGMCC3.15140
+            .
 REFERENCE   1  (bases 1 to 36242)
   AUTHORS   Xu X, Liu L, Zhang F, Wang W, Li J, Guo L, Che Y, Liu G.
   TITLE     Identification of the first diphenyl ether gene cluster for pestheic
             acid biosynthesis in plant endophyte Pestalotiopsis fici.
   JOURNAL   Chembiochem 2014;15:284-92
-  PUBMED    24302702
+   PUBMED   24302702
 REFERENCE   2  (bases 1 to 36242)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Jan 18, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1002/cbic.201300626"; journalName: "Chembiochem"; date: "2014"; 
-            volume: "15"; pages: "284-92"
+  JOURNAL   Exported Jan 18, 2023 from SnapGene 6.2.1 https://www.snapgene.com
 COMMENT     ##Assembly-Data-START##
-            Assembly Method :: GS De Novo assembler software v. 2.3; Velvet 
+            Assembly Method :: GS De Novo assembler software v. 2.3; Velvet
             software v. 1.0.4
             Sequencing Technology :: 454; SOLiD
             ##Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1002/cbic.201300626"; journalName: "Chembiochem"; date: "2014";
+            volume: "15"; pages: "284-92"
 FEATURES             Location/Qualifiers
      source          1..36242
                      /host="Camellia sinensis"
@@ -36,7 +36,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="ptaA"
                      /product="polyketide synthase PtaA"
-                     /label=ptaA
+                     /label="ptaA"
                      /note="polyketide synthase"
                      /protein_id="AGO59040.1"
                      /translation="MSDNSGSGTSPWGSLNTPVGPPKVTLAYFSNEFPPDDLNFIVRKL
@@ -69,11 +69,12 @@ FEATURES             Location/Qualifiers
                      NKIIGQVRGIKFRRYPRLLLDRFFSAPDAAKHGGKHAPAVKAAIPPALEKKSAVVVAQV
                      PVVDKPPPTKENAVAAPAAKSPEPVAAAAVNEDSITVKAMALVAAEAALDVSELEDDVQ
                      FANIGVDSLMSLVIAEKFRETLGVTISGSLFLEYPAVGDLRAWLLEYYG"
+                     /Pfam="SAT2, PKS_KS, PKS_AT, fPKS_PT, ACP_PCP"
      CDS             join(6177..6335,6401..7183)
                      /codon_start=1
                      /gene="ptaB"
                      /product="metallo-beta-lactamase-like thioesterase PtaB"
-                     /label=ptaB
+                     /label="ptaB"
                      /note="putative metallo-beta-lactamase"
                      /protein_id="AGO59041.1"
                      /translation="MVGKGGYRQINKALNICAFEDYLDGQQKSLPPLNDVEQISPNVLR
@@ -82,32 +83,35 @@ FEATURES             Location/Qualifiers
                      HMCFVIEEENAMFTGDNVLGHGTAAVELLSTWMATLRLMQSHNCGRGYPAHGEVIPNLN
                      AKISGELASKERRERQVLQHLNRIRKEEQGGKGSATVQRLVVEMYGDTDQQMREQALEP
                      FIDEVLRKLAEDEKVAFQLRAGEKTWFAIALE"
+                     /Pfam="Lactamase_B"
      CDS             complement(8034..8459)
                      /codon_start=1
                      /gene="ptaC"
                      /product="anthrone oxygenase PtaC"
-                     /label=ptaC
+                     /label="ptaC"
                      /note="DUF1772"
                      /protein_id="AGO59043.1"
                      /translation="MMGLPLMAVPMLLDTGADPVYLARQWARMYYYGVRTMPPLAITTF
                      ILYVWTIIRRRSQHQAWYILAVAAVVTMGMIPFTWYVLAPTNNALFRLAEGPEAASGTT
                      AGSLEEVTELLVRWNKLHIARSLFPLTGVVIALSDAM"
+                     /Pfam="Anthrone_oxy"
      CDS             join(9069..9251,9385..9545,9609..9681)
                      /codon_start=1
                      /gene="ptaD"
                      /product="decarboxylase PtaD"
-                     /label=ptaD
+                     /label="ptaD"
                      /note="EthD domain protein"
                      /protein_id="AGO59044.1"
                      /translation="MAEMSKNPASTLKPSRYLCLTICGYRKPGMSEEDYRYHMTQVSAP
                      MTKDLMAKYGVKRWTMNYMIRRWPSCPTLTASAKLCLRTLEDYKRMKQDPWYKEHLIGD
                      HEKFADTKRSKMTIGWIEEWISDGKPVDGLEFKS"
+                     /Pfam="EthD"
      CDS             join(10247..10486,10778..10903,10954..11032,11094..11107,
                      11146..11545,11603..12534)
                      /codon_start=1
                      /gene="ptaE"
                      /product="laccase PtaE"
-                     /label=ptaE
+                     /label="ptaE"
                      /note="similar to dihydrogeodin oxidase"
                      /protein_id="AGO59042.1"
                      /translation="MVIRTPFSIRLYESRPGMMFAMFQSILFLAFYGRPVFGSAAARDY
@@ -121,11 +125,12 @@ FEATURES             Location/Qualifiers
                      GAVDQYGQEIRVEPSVHPFHLHGHDFLILAQGLGKFTSDIQPNLDNPPRRDTVDVEPLG
                      YVWIAFQIDNPGAWLFHCHIAFHSSDGIAIQFLEQPSKLKPIMEEAGVLGDFADRCNKW
                      DDWYQAVNIPHNATQADSGV"
+                     /Pfam="Cu-oxidase_3, Cu-oxidase, Cu-oxidase_2"
      CDS             complement(12692..13477)
                      /codon_start=1
                      /gene="ptaF"
                      /product="short-chain dehydrogenase/reductase PtaF"
-                     /label=ptaF
+                     /label="ptaF"
                      /note="putative NAD-dependent epimerase/dehydratase"
                      /protein_id="AGO59035.1"
                      /translation="MSRYAILGSTGNCGTALIENVLDSSMTEVHAFCRNQEKLERLVPR
@@ -133,20 +138,22 @@ FEATURES             Location/Qualifiers
                      SRADGFLPMPKLVLLSSATIDDVLSRNTPWVLRSILLKSASHVYEDLRKTEILLRAEQD
                      WLTTIFIKPGALSVDIQRGHALSLTDEDSPVSYLDLAAAMIEAVNDPQGRYDMRNVGVV
                      NTHGRANFPSGTPLCIAVGLLSHFAPFLHPYLPSGTGPR"
+                     /Pfam="NAD_binding_10"
      CDS             complement(join(13914..14141,14201..14407))
                      /codon_start=1
                      /gene="ptaG"
                      /product="isomerase PtaG"
-                     /label=ptaG
+                     /label="ptaG"
                      /protein_id="AGO59045.1"
                      /translation="MASTGSAQKETLNKFISGWKNANAEEMLAVASDDYTQQTLPFSLG
                      HDVRPKQVAEVMLPKLYSILENYELKIHQVVHDVENQKAAVYAISKADTPFGFPWLNEF
                      SAFITFNNAGDKVVNVQEMVDTEFFQKFFPAYQSFLSQNK"
+                     /Pfam="Trt14"
      CDS             complement(15302..16219)
                      /codon_start=1
                      /gene="ptaH"
                      /product="methyltransferase PtaH"
-                     /label=ptaH
+                     /label="ptaH"
                      /note="putative methyltransferase"
                      /protein_id="AGO59036.1"
                      /translation="MSTNDEVFAKDNEFWKTYLRGRAQPPESFFERIFRYHEDHGGHFG
@@ -155,11 +162,12 @@ FEATURES             Location/Qualifiers
                      SGGRRLIMKADDPTKILKVAVRSSRYYDVAPTDTSLFVPGTQRIHLNMNNGGLTDIVYP
                      EDYVAAAEPSYTGPQDDEIFESEDGWSFETDLEGVKDHFATFPFSKEDPEVFAELWAEL
                      EKYVADGRPIRGCWPAKIILATRV"
+                     /Pfam="Methyltransf_11"
      CDS             join(17495..17617,17710..18213,18398..19027)
                      /codon_start=1
                      /gene="ptaR1"
                      /product="transcription factor PtaR1"
-                     /label=ptaR1
+                     /label="ptaR1"
                      /note="similar to AflJ"
                      /protein_id="AGO59050.1"
                      /translation="MSSVPIDSVQAAQQVVSTKIKDKSWIMPTDPAEFLQQIAYQSQLL
@@ -170,11 +178,12 @@ FEATURES             Location/Qualifiers
                      GSPQVVTDATMYVMRLERPHSTSVQRSILDEGQIVSELRAHLGVLKHNSNATLILIGPL
                      LPEAGAIDAKAEMVVRFRDLSLNQLTSEREMEVGELVDIIGDVQDESGCLVVVNKLYSR
                      TSSTVALEVRYELYNYRKG"
+                     /Pfam="MdpA"
      CDS             19969..21303
                      /codon_start=1
                      /gene="ptaR2"
                      /product="transcription factor PtaR2"
-                     /label=ptaR2
+                     /label="ptaR2"
                      /note="similar to AflR"
                      /protein_id="AGO59037.1"
                      /translation="MEAADPNNNLTITSPSTLLSNPTQPPAQPLKLRDSCHACASSKVK
@@ -185,12 +194,13 @@ FEATURES             Location/Qualifiers
                      LLEAMSNILQCRCSEDDDLLCIQAIVASKILNLYASAIEIKPSPARVGSGVSTHTTAGQ
                      YEPQVEQQLSTRTHPQLASGRDPIRMAAQSVLGELHRVQRLLSQMLQKSKDNETMRRKG
                      SENGLRAVADKVPLTSGVSFGSIEADLRYKLGKLSIEIITLLRGA"
+                     /Pfam="EqxR, AflR"
      CDS             complement(21471..22490)
                      /codon_start=1
                      /gene="ptaI"
                      /product="methyltransferase PtaI"
-                     /label=ptaI
-                     /note="putative S-adenosyl-L-methionine-dependent 
+                     /label="ptaI"
+                     /note="putative S-adenosyl-L-methionine-dependent
                      methyltransferase"
                      /protein_id="AGO59038.1"
                      /translation="MPSPTNPAKVETPFTTAALGNGVDFWKAYVENRPHPSDSFFELIS
@@ -199,11 +209,12 @@ FEATURES             Location/Qualifiers
                      IYFYSRPIFTGDNEAELNQLYDRIATRVCQFLLPFKGTPGFPIHYRAAEAMSSGLDSIP
                      FDPEAWQDVVRYKWNADVPLTFNSKEGYDFEVEPVDRRDHSTEITKEITDRDFWAEEWD
                      IGRVASFLDSVFPNYRNKAGDKFEEVQSLFTELETALGGPKATRKVSFPVVLLLATRK"
+                     /Pfam="Methyltransf_25"
      CDS             23054..24388
                      /codon_start=1
                      /gene="ptaJ"
                      /product="dioxygenase PtaJ"
-                     /label=ptaJ
+                     /label="ptaJ"
                      /note="similar to AflY"
                      /protein_id="AGO59039.1"
                      /translation="MAASTAAQVQLSEEALGLARIFENPKGSLEAASKLLQKNHDEFHV
@@ -214,13 +225,14 @@ FEATURES             Location/Qualifiers
                      QRAGKARKIDFFHMHNTTSSLFLTVFLNQPWISTEDKVRIVEWKGRLDLVWYAACSAPD
                      LNVDHVIGYKPAQSAGWGWKELYEAINVAHDDGHLAKIVRALKNGEEVSRPFESGEGAE
                      AFPIKGDSWLKLAQMSYDTTLDLPDDDKWIWGAGFLPLWNKVPSL"
+                     /Pfam="Questin_oxidase"
      CDS             complement(join(25135..25979,26032..26367,26469..26653,
                      26718..26788,26855..26862,27114..27171,27346..27374,
                      27461..27518))
                      /codon_start=1
                      /gene="ptaK"
                      /product="laccase PtaK"
-                     /label=ptaK
+                     /label="ptaK"
                      /note="similar to extracellular dihydrogeodin oxidase"
                      /protein_id="AGO59052.1"
                      /translation="MKSLFLTGLLSALTWASEFDYLYTTEPVTPLPQGYPWGSKTANDS
@@ -233,11 +245,12 @@ FEATURES             Location/Qualifiers
                      GSNNSIRIVMYNNAIRTHPIHLHGHNFFVEAVGLGEWDGHVDHPENPVRRDTAMLPQGG
                      YMVISFNADNPGAWPLHCHVAWHVSSGFYVTVLERPDEIAEYKIPSVVGQTCRDWWGYT
                      NHTIVNQIDSGL"
+                     /Pfam="Cu-oxidase_3, Cu-oxidase, Cu-oxidase_2"
      CDS             join(30411..30950,31013..31448,31513..31655)
                      /codon_start=1
                      /gene="ptaL"
                      /product="oxidoreductase PtaL"
-                     /label=ptaL
+                     /label="ptaL"
                      /note="putative disulfide oxidoreductase"
                      /protein_id="AGO59047.1"
                      /translation="MKHIVIIGGGFAGVSTAHRFLKNVGKSTTAPYKVTLVSRDSHFFW
@@ -247,11 +260,12 @@ FEATURES             Location/Qualifiers
                      PDGKKELTLSGGEKLVVDLYIPTFGVLPNSSFVPSQYLDSNGFVQVDQYFQVKGAEGVF
                      AIGDVSDSEAPQFWFVEKQSVHIAKNLILSLSGKAPTPYKASATGMMGLQIGKNSGTGH
                      FGNFKLPGFLVKTIRKTLFVENLPKTVDGSML"
+                     /Pfam="Pyr_redox_2"
      CDS             complement(join(31859..32776,32838..33251,33306..33521))
                      /codon_start=1
                      /gene="ptaR3"
                      /product="transcription factor PtaR3"
-                     /label=ptaR3
+                     /label="ptaR3"
                      /note="putative C6 transcription factor"
                      /protein_id="AGO59048.1"
                      /translation="MATPKRMWPTDLKHIVRYTSRRTSSRYRVPPGQKANPKLAPKVHA
@@ -263,12 +277,13 @@ FEATURES             Location/Qualifiers
                      TSQRHGIKLHSIAADIKSEIESGMAREALESLNIQTSDSCGINNSSTNSVTLTTRMFAF
                      MAIIHLHLVTHDFERLDNLRETIADAIRLLQSQVPCSMIPVIVAPLFIIGCVAAQGDEQ
                      SLFRASLASDTSQHRLYRHRKDVLSALEEIWSKRQTSTDYTWNDVLDMGQHKYLLFL"
+                     /Pfam="Fungal_trans_2"
      CDS             complement(join(34454..35385,35447..35875,35931..36067,
                      36118..36242))
                      /codon_start=1
                      /gene="ptaM"
                      /product="FAD-dependent halogenase PtaM"
-                     /label=ptaM
+                     /label="ptaM"
                      /note="flavin-dependent halogenase"
                      /protein_id="AGO59046.1"
                      /translation="MSVPAQTSVLIVGGGPAGSYAATVLAREGVDVVLLEAEKFPRYHI
@@ -281,6 +296,7 @@ FEATURES             Location/Qualifiers
                      GFDMAFKKIQPVIQGVADTRTEDEQTQRRAAEAVDFSLESFEITPEKQAAVISKIERSQ
                      AEPELLEKLTPEEVHILGNIVNRTFEREKDELNLTHFTGDMIDGYSAKLEHGNIGLYKR
                      EKALLNGTASRAAAVLKSIHQVA"
+                     /Pfam="Trp_halogenase"
 ORIGIN
         1 tcaaccgtag tactccaata accaagccct cagatcccca acagcgggat actccaagaa
        61 caaacttcca ctgattgtga ctccgagtgt ctcacggaac ttctctgcaa tcaccagact

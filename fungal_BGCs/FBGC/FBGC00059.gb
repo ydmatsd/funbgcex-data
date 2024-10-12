@@ -1,23 +1,23 @@
-LOCUS       FBGC00059       18433 bp DNA     linear   UNA 16-JAN-2023
+LOCUS       FBGC00059              18433 bp    DNA     linear   UNA 16-JAN-2023
 DEFINITION  zearalenone.
 ACCESSION   FBGC00059
-VERSION     .
+VERSION     FBGC00059
 KEYWORDS    .
 SOURCE      Fusarium graminearum PH-1
   ORGANISM  Fusarium graminearum PH-1
+            .
 REFERENCE   1  (bases 1 to 18433)
   AUTHORS   Kim YT, Lee YR, Jin J, Han KH, Kim H, Kim JC, Lee T, Yun SH, Lee YW.
-  TITLE     Two different polyketide synthase genes are required for synthesis 
+  TITLE     Two different polyketide synthase genes are required for synthesis
             of zearalenone in Gibberella zeae.
   JOURNAL   Mol Microbiol 2005;58:1102-13
-  PUBMED    16262793
+   PUBMED   16262793
 REFERENCE   2  (bases 1 to 18433)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Jan 16, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1111/j.1365-2958.2005.04884.x"; journalName: "Mol Microbiol"; 
+  JOURNAL   Exported Jan 16, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1111/j.1365-2958.2005.04884.x"; journalName: "Mol Microbiol";
             date: "2005"; volume: "58"; pages: "1102-13"
 FEATURES             Location/Qualifiers
      source          1..18433
@@ -30,7 +30,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="PKS13"
                      /product="polyketide synthase PKS13"
-                     /label=PKS13
+                     /label="PKS13"
                      /note="required for zearalenone production; confirmed by
                      gene deletion"
                      /protein_id="ABB90282.1"
@@ -69,12 +69,14 @@ FEATURES             Location/Qualifiers
                      TVEDKNDIGWAIFESISRQNGLWRSTDMTRQHLQAIFAAVATYHPQPLKASERPKRTAI
                      IWAEKGMIDRCAGDSELMQKLAKRGIPTEPYPKFMEDSELGPVAWGLPHKTKNDLGPNG
                      WERYVGDALCLSMPADHLEMPMPGHVHLLHEKMTRAFEFFNEAG"
+                     /Pfam="SAT2, PKS_KS, PKS_AT, fPKS_PT, ACP_PCP,
+                     Thioesterase"
      CDS             join(7365..7482,7579..8408,8460..8549,8624..11428,
                      11486..12645,12698..14732)
                      /codon_start=1
                      /gene="PKS4"
                      /product="polyketide synthase PKS4"
-                     /label=PKS4
+                     /label="PKS4"
                      /note="required for zearalenone production; confirmed by
                      gene deletion"
                      /protein_id="ABB90283.1"
@@ -118,11 +120,12 @@ FEATURES             Location/Qualifiers
                      EVLGIREPAFHALMKSLIKGQTDNNSEFPAQICTGLGTADIMATHGLAKPTYFQDPRFG
                      PLAVTSLSSDASGDKQSTAMSISSQLSEASSKAKATEIITNALIGKVADILQMPQSEVD
                      PGQPLYRYGVDSLVALEVRNWITREMKVNVALLEILAAVPMESFAGKLASTSKLVTVS"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_DH, fPKS_ER, fPKS_KR, ACP_PCP"
      CDS             join(15310..15566,15628..16015,16078..16431,16484..17182)
                      /codon_start=1
                      /gene="ZEB1"
                      /product="FAD-linked oxidoreductase ZEB1"
-                     /label=ZEB1
+                     /label="ZEB1"
                      /note="required for zearalenone production; confirmed by
                      gene deletion"
                      /protein_id="ABB90284.1"
@@ -136,11 +139,12 @@ FEATURES             Location/Qualifiers
                      GKIRVGFEQYGGRLIPRSVVPNFTETLRQVTNMGVTWVGVATDVGPFGTRATTSVHPAW
                      RSTLVHALLSTPWDFTKPWHDMIKLQDLMTNVIMPKVEAVTPGSGAYVNEADFRQPNYQ
                      DVFWGDNYKDLLEVKEKWDPEHFFFVPKGVGSEIWSIAEDGRMCKSAL"
+                     /Pfam="FAD_binding_4, BBE"
      CDS             complement(join(17386..18281,18331..18433))
                      /codon_start=1
                      /gene="ZEB2"
                      /product="transcription factor ZEB2"
-                     /label=ZEB2
+                     /label="ZEB2"
                      /note="required for zearalenone production; confirmed by
                      gene deletion"
                      /protein_id="ABB90285.1"
@@ -150,6 +154,7 @@ FEATURES             Location/Qualifiers
                      LPTRQHDNLCNQDLRDMVPEEKMSRILKVIQDAGYKDMDSFMTEYYVRDFDASSHVSAV
                      QRQSRSRRLRGFLEQLRVGAESWSDYEAHDYQQEISKSAEAIYAKELDVFSTTTLGENA
                      SFQGLASLYRVLQSTVGSDIENHLRHEQSMMQRQVSEIVHRQVYTFNPAQC"
+                     /Pfam="TqaK"
 ORIGIN
         1 ttaccccgcc tcgttaaaga actcaaatgc tcgggtcatc ttctcgtgta gtagatgcac
        61 atgcccaggc ataggcatct cgagatgatc cgcaggcata gacaaacaga gagcatctcc

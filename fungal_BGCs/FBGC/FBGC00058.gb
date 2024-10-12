@@ -1,23 +1,23 @@
-LOCUS       FBGC00058       25260 bp DNA     linear   UNA 16-JAN-2023
+LOCUS       FBGC00058              25260 bp    DNA     linear   UNA 16-JAN-2023
 DEFINITION  gliotoxin.
 ACCESSION   FBGC00058
-VERSION     .
+VERSION     FBGC00058
 KEYWORDS    .
 SOURCE      Aspergillus fumigatus Af293
   ORGANISM  Aspergillus fumigatus Af293
+            .
 REFERENCE   1  (bases 1 to 25260)
   AUTHORS   Gardiner DM, Howlett BJ.
-  TITLE     Bioinformatic and expression analysis of the putative gliotoxin 
+  TITLE     Bioinformatic and expression analysis of the putative gliotoxin
             biosynthetic gene cluster of Aspergillus fumigatus.
   JOURNAL   FEMS Microbiol Lett 2005;248:241-8
-  PUBMED    15979823
+   PUBMED   15979823
 REFERENCE   2  (bases 1 to 25260)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Jan 16, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1016/j.femsle.2005.05.046"; journalName: "FEMS Microbiol Lett"; 
+  JOURNAL   Exported Jan 16, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1016/j.femsle.2005.05.046"; journalName: "FEMS Microbiol Lett";
             date: "2005"; volume: "248"; pages: "241-8"
 FEATURES             Location/Qualifiers
      source          1..25260
@@ -28,7 +28,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="gliT"
                      /product="thioredoxin reductase GliT"
-                     /label=gliT
+                     /label="gliT"
                      /protein_id="AAW03299.1"
                      /translation="MSIGKLLSNGALLVDVLIIGAGPAGLSTATGLARQLHTAVVFDSG
                      VYRNAKTQHMHNVLGWDHRNPAELRAAGRADLTTRYSTIQFQNSTIEAIRQVETNQLFE
@@ -36,11 +36,12 @@ FEATURES             Location/Qualifiers
                      LGPIANPARALHLARMALRLSESVTIYTNGNEQLAKEIQQAAEESPVGASGLKFEARPI
                      RRFEKGDVAKTVIVHLGESESKTEGFLVYNPQTEVNGPFAKQLALNMTEGGDILTTPPF
                      YETSVPGVFAVGDCATPLKAVTPAVSMGSLAAGGLVAQLQAQALPEFRLDQEL"
+                     /Pfam="Pyr_redox_2"
      CDS             join(1366..1554,1606..2937)
                      /codon_start=1
                      /gene="gliF"
                      /product="cytochrome P450 monooxygenase GliF"
-                     /label=gliF
+                     /label="gliF"
                      /protein_id="AAW03300.1"
                      /translation="MDQVYLPQSVRTAVAVSFGVGLLYWVYRLLLQKTKSLKALDLPVL
                      QSVGDQDIVKTLEEGHAKSQYPDTPFALGVPGQQLVVLPVSEIDTVKALPENQLSIKKH
@@ -51,11 +52,12 @@ FEATURES             Location/Qualifiers
                      DKTALPRLIKLDSFVRESQRLSPTSLVNIPRIVTDPNGLRLKTGHVIPPGYLVMVRAQP
                      INQSPTLYPNPERFDAFRFARLRQQGGANENRWQHTSTGADNINFGHGIWACPGRFFAS
                      AEIKVVVAYVIRHYDLRLIEGRPHPKPKYGGLAIFPDAGAEVELKPRV"
+                     /Pfam="p450"
      CDS             join(3391..3565,3609..4163,4231..4355)
                      /codon_start=1
                      /gene="gliN"
                      /product="methyltransferase GliN"
-                     /label=gliN
+                     /label="gliN"
                      /protein_id="AAW03301.1"
                      /translation="MTVLPDSENGYLLNYEDQEKRRMNMQHDLIKTYMGKLILAPLPFD
                      QPNLRVLDSGTFNGAGLWLEDASTLLQSPTLVGTDVSPTAFPAKRPPNTEFHVQSISDP
@@ -63,11 +65,12 @@ FEATURES             Location/Qualifiers
                      KQYPVLARFQSLVAEMLPHFRWNPRPGKLVRQWLEEYGLQEVQEKVMEIPIGAGNPDPK
                      LGEMAKQNMLEVVSNFRTAATRLPDGTGIRAEDFDPILRDIKVEFETVGGILRFNTVWG
                      RRP"
+                     /Pfam="GliN"
      CDS             complement(4745..6373)
                      /codon_start=1
                      /gene="gliA"
                      /product="major facilitator superfamily transporter GliA"
-                     /label=gliA
+                     /label="gliA"
                      /protein_id="AAW03302.1"
                      /translation="MSRPSIEESKQELSSSPNDSVMGKDPAPEEEMQYPSGFALSVIMA
                      GLLAAIFLISLDTTIVSTAIPRITDEFHTVADIGWYGSAFFLTLASFQGTWGKIYRYFP
@@ -79,33 +82,36 @@ FEATURES             Location/Qualifiers
                      WIGYQAMAGIGIGLAIQVPMMASQAVVRVEDLSTVSAIVLFFQCMGGAIFVQAGQAAFT
                      NKLVQEVQRHLPNISAARVTSTGATELQSEFHGHELQVILEAYVAGLKDAFIVAIVLAG
                      IATLLSFGSGWRSVKSKKEEPKAQP"
+                     /Pfam="MFS_1"
      CDS             complement(join(6962..7309,7360..7833))
                      /codon_start=1
                      /gene="gliK"
                      /product="gamma-glutamyl cyclotransferase GliK"
-                     /label=gliK
+                     /label="gliK"
                      /protein_id="AAW03303.1"
                      /translation="MGKAALQDPHGGIWYFAYGSNLRLSVLENRGIKALDIKAVIVPSH
                      YLTFDIFGIPYAEPSFASVAPFAREKKTTLRLGDSPASRDVPPVQGLAYLLNPRDYRQL
                      VISEGGGVAYDEVEVHASILDKDGKPDPGATLIARTLQAKYPWRPNGAPSARYLGLIST
                      GCKQNEPLTAYSDYIDSLPAYEPPTSLHAKVGGLLFLMFWRPPLRLLIRLIRVNTDQDG
                      HCPQWLGWIILTLYGLMWSYHDNIHSKIWGRGDGRKLHFEETPAKEVPVRH"
+                     /Pfam="GliK"
      CDS             join(8085..8572,8628..8913)
                      /codon_start=1
                      /gene="gliG"
                      /product="glutathione S-transferase GliG"
-                     /label=gliG
+                     /label="gliG"
                      /protein_id="AAW03304.1"
                      /translation="MSERPSDLVVNRLVLFVVKGESSRRISKSPLMQSTTGTATSTHNT
                      VKPLILLEELGVPHDIYVVEKVSAPWFSEINPHKMVPAILDRSPDGRDTLRAWESTSTL
                      MYIADAYDKDGTLGGRNVQERSEINNWLTLHTAALGPTAKYWLYFYKLHPEKLPKTIEK
                      LRSNITVQYDILERRLNEPGQQYLALKDRPTIADIATLPFAMKSTAELFGLEFEKWPKL
                      QEWSVRMGEREAVKRAWQRVAGFGHGEKEYGMLEA"
+                     /Pfam="GST_N_2, GST_C"
      CDS             join(9289..9577,9634..10636,10729..10756)
                      /codon_start=1
                      /gene="gliM"
                      /product="methyltransferase GliM"
-                     /label=gliM
+                     /label="gliM"
                      /protein_id="AAW03305.1"
                      /translation="MAPGLLENNTLSGTAAPRTEFKAIVNDLRELQAHVQRVQSAIEAP
                      EVQSWLNEQLHHPDQLPDKELEQLALDLVDSMDKLQLQLVPSVSLLTDGFFGYLNSKTL
@@ -115,12 +121,13 @@ FEATURES             Location/Qualifiers
                      RGSLMDIQSVIELITPEFREPHGRFSDIGSRVQQLVVGDFTKQIPPSAVYTMKWCLHDW
                      VDDDVLTILKNVRRSIVPSSVSRFLVVESIKSPGRSGRLPRYGDLIMMITCNGKERSLE
                      DWKRLGELAGWKLYQVHRVRRAWPCIIDFRPMQWVYKVLC"
+                     /Pfam="Dimerisation2, Methyltransf_2"
      CDS             complement(join(10924..11151,11201..11305,11360..11424,
                      11480..11714,11762..12386,12443..12627,12679..12774))
                      /codon_start=1
                      /gene="gliC"
                      /product="cytochrome P450 monooxygenase GliC"
-                     /label=gliC
+                     /label="gliC"
                      /protein_id="AAW03306.1"
                      /translation="MAFTLTILVPCMVLALVAARPVLYWVLSVVIDAFLRWKYPLPHHA
                      GSKPMPRARYTWPNGQGTEKFFNGRSAARQWRQRWGPIYQIWSGWCPEIVLTTPTHAVQ
@@ -131,11 +138,12 @@ FEATURES             Location/Qualifiers
                      QEVLSALQSEASESYERYIDRDDTFLAACILESARLRPILPFSNPESAPEDLYVDGYLI
                      PANTNVIVDAQAINIDNPYWVNGTQYNPRRFFSLNKSDVRHNMWRFGFGPRQCLGKHIG
                      ERMLKAIVAEIIRQYVISISADSALKNDLQEDSWVGLPATRIQCVPVGREVEKN"
+                     /Pfam="p450"
      CDS             join(13179..13791,13869..17212,17263..19683)
                      /codon_start=1
                      /gene="gliP"
                      /product="nonribosomal peptide synthetase GliP"
-                     /label=gliP
+                     /label="gliP"
                      /protein_id="AAW03307.1"
                      /translation="MPSVVALDLCQLFDRSVARTPHQLAVDHESGSLTYTELDVASSNL
                      ARKLKQEGVVPGEAVLLLTEHGTRNVVALLAILKAHACYVPLDRSSWSSERIQAVLDGT
@@ -174,12 +182,13 @@ FEATURES             Location/Qualifiers
                      LRIEYDDHQLDDATVTTIEDSIRCVLEGLADRLSRAAIHERLNAMHKTARTKVDWNFYR
                      RLVGILQREMATCLGVSLDEFPCSVSFFEAGGDSIQAWRLSRQLKRVGLEVPICNIFDH
                      PTAQDLAQRLYRQVL"
+                     /Pfam="AA-adenyl-dom, ACP_PCP, NRPS_C"
      CDS             complement(join(20038..20518,20574..20681,20716..21084,
                      21138..21358))
                      /codon_start=1
                      /gene="gliJ"
                      /product="dipeptidase GliJ"
-                     /label=gliJ
+                     /label="gliJ"
                      /protein_id="AAW03308.1"
                      /translation="MSPSPIEEQATRLLKEVPLIDGHNDFPYMIRGWFRNDINGQDAHL
                      YDMPIGQTDLQRLQKGLLGGQFWSAFVPCPKNPDKEVGSLEALRQTLQQLDVIHRLIER
@@ -188,11 +197,12 @@ FEATURES             Location/Qualifiers
                      RAPVIYSHSSILRAHARNVTDENLHLLHRNRGVVMICFLRELLASEADQATLAHVIDHI
                      IYAGTRIGYEHVGIGSDFDGMLRGPDGLHDVSCYPALVAGLLERGVSEEDVKRVMGLNV
                      IRVLEEVERVAAELQGAGEECLCDELDEVWNEDIKEQLTRERERVRKLGPQK"
+                     /Pfam="Peptidase_M19"
      CDS             join(21701..22109,22173..23128)
                      /codon_start=1
                      /gene="gliI"
                      /product="aminotransferase GliI"
-                     /label=gliI
+                     /label="gliI"
                      /protein_id="AAW03309.1"
                      /translation="MPSETITPLLAHRARTNIQWFTHKHMRQVSRLNAKQHRVNMMTAE
                      NWSIRDELVDQYKTLFAQHLSPRHLSYADGMGGDAELLQAAADFFNRVFAAHSRVQPAH
@@ -202,11 +212,12 @@ FEATURES             Location/Qualifiers
                      SDSQGLRRTDTVQGFGITQAHPDLRLSLAISNHSRVSTFTSLVITALLHDPEAATAILH
                      QNRAALQRSAKLISDFLAFHQIPFVPPAAGVYVWARLGWRSSSRPGDEPSWDEEARLND
                      RFEAAGVSVGAGQGYCASEPGWFRITFAIPREELVAGLRRIEQVVGMEGQKWTAI"
+                     /Pfam="Aminotran_1_2"
      CDS             complement(23848..25260)
                      /codon_start=1
                      /gene="gliZ"
                      /product="transcription factor GliZ"
-                     /label=gliZ
+                     /label="gliZ"
                      /protein_id="AAW03310.1"
                      /translation="MTTISTTTAATAAAAPKPDKPRKLRSACDACHRSKTRCSGGNPCT
                      RCHEYMSPCTYSYSSRCGKPKGARSRKTLEREQRVAAAAESARIAGNPSALASLPATST
@@ -217,6 +228,7 @@ FEATURES             Location/Qualifiers
                      GAEFFLPANGRGASNPAFQLGSYQIAPLPGEPDLEEHSEILNILIRSAVRRLLAVCWQI
                      WDLLRGPASRDGRGHVFEPYDPSSSSSSSSSSFSSGPEIHQLCDLSCSAEAAQFRSTLV
                      QIPARLCNLLAL"
+                     /Pfam="EqxR"
 ORIGIN
         1 ctatagctcc tgatcgagac gaaactccgg caatgcctga gcctgcagct gagccacgag
        61 accgccagcg gccaaagatc ccatcgacac cgcgggcgtg acggccttta acggcgtggc
