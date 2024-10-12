@@ -1,22 +1,22 @@
-LOCUS       FBGC00491       19342 bp DNA     linear   UNA 16-APR-2023
+LOCUS       FBGC00491              19342 bp    DNA     linear   UNA 16-APR-2023
 DEFINITION  omphalotins.
 ACCESSION   FBGC00491
-VERSION     .
+VERSION     FBGC00491
 KEYWORDS    .
 SOURCE      Omphalotus olearius VT 653.13
   ORGANISM  Omphalotus olearius VT 653.13
+            .
 REFERENCE   1  (bases 1 to 19342)
   AUTHORS   van der Velden NS, Kalin N, Helf MJ, Piel J, Freeman MF, Kunzler M.
-  TITLE     Autocatalytic backbone N-methylation in a family of ribosomal 
+  TITLE     Autocatalytic backbone N-methylation in a family of ribosomal
             peptide natural products.
   JOURNAL   Nat Chem Biol 2017;13:833-835
-  PUBMED    28581484
+   PUBMED   28581484
 REFERENCE   2  (bases 1 to 19342)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Apr 16, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
+  JOURNAL   Exported Apr 16, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
             "10.1038/nchembio.2393"; journalName: "Nat Chem Biol"; date: "2017";
             volume: "13"; pages: "833-835"
 FEATURES             Location/Qualifiers
@@ -29,7 +29,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="Ompole__000002"
                      /product="cytochrome P450 monooxygenase OphB1"
-                     /label=ophB1
+                     /label="ophB1"
                      /protein_id="Ompole_:cds.g2.t1"
                      /translation="MFFTFSTSYIALVVAVLVVARSILDLPTIGGAGLVQSYVAAYKFL
                      FGSRDLIQEGYEKVV*RFHVISADL*LTALREVLWKGFQSSYVSWLANSCHRTAYDGGN
@@ -45,16 +45,17 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="Ompole__000003"
                      /product="hypothetical protein OphC"
-                     /label=ophC
+                     /label="ophC"
                      /protein_id="Ompole_:cds.g3.t1"
                      /translation="MSDKVQIVRNYFDLLNDGKHVHAGAHVADDLSSSHTSLAASFLGG
                      PTSVQFRKTDALTAHNELLKTVISDIKEVDGKVVVVGKSLVKLKVEEVPFKAVYEFNGD
                      QISDAKFETDPNFQVKSFSI"
+                     /Pfam="OphC"
      CDS             join(7394..7636,7693..8010,8070..8762)
                      /codon_start=1
                      /locus_tag="Ompole__000004"
                      /product="methyltransferase/omphalotin proprotein OphA"
-                     /label=ophA
+                     /label="ophA"
                      /protein_id="Ompole_:cds.g4.t1"
                      /translation="METSTQTKAGSLTIVGTGIESIGQMTLQALSYIEAAAKVFYCVID
                      PATEAFILTKNKNCVDLYQYYDNGKSRLNTYTQMSELMVREVRKGLDVVGVFYGHPGVF
@@ -64,10 +65,11 @@ FEATURES             Location/Qualifiers
                      ANQWEPDVPEVEPYRPSDQAAIAQLADHAPPEQYQPLATSKAMSDVMTKLALDPKALAD
                      YKADHRAFAQSVPDLTPQERAALELGDSWAIRCAMKNMPSSLLDAARESGEEASQNGFP
                      WVIVVGVIGVIGSVMSTE"
+                     /Pfam="TP_methylase"
      CDS             complement(join(9331..9744,9857..10564))
                      /codon_start=1
                      /product="acetyltransferase OphD"
-                     /label=ophD
+                     /label="ophD"
                      /translation="MSYSRILVLAAVSKCISTFGIVTPPSPHRWMLFVPIVVINAYCYF
                      STFTDDTMRRNAVIETLVASDFLVLTDVQREFRQVGQREPISKLGLWARLQWALRLLLS
                      PRGVGWTYEPTSALPSRHNLPRRTFLRTQLILLVWAIIGNDLAYILTFKDPGFAKHARP
@@ -75,13 +77,14 @@ FEATURES             Location/Qualifiers
                      RRWWGYDISLLTWRMFASHGKYLAHRVFGFRPGCPASSYTQLYVAFFLSGIIHVTSYDP
                      RPMWYFMSQAVAITFEEIVLTIAKKAGMKSSKGTRLLGYVWVYCNLVFTLGPLFDSMNA
                      VGLGLGGYDGTILLGRYRDSEWMTGLLSHATAN"
+                     /Pfam="MBOAT_2"
      CDS             join(11041..11289,11341..11445,11495..11591,11642..11730,
                      11781..12123,12176..12583,12646..12797,12851..12887,
                      12932..12966)
                      /codon_start=1
                      /locus_tag="Ompole__000005"
                      /product="cytochrome P450 monooxygenase OphB2"
-                     /label=ophB2
+                     /label="ophB2"
                      /protein_id="Ompole_:cds.g5.t1"
                      /translation="MADEWDELLSWLVSRLQFDLYVQYSANRALGSFVLLLGIAILVLF
                      TKKIKEIYIDFLAIAYGYDLMRSRFKYGENVFHFHLFGNLVIGLRGQKARRVLFEEKNF
@@ -92,6 +95,7 @@ FEATURES             Location/Qualifiers
                      EDWESSMPTLDLVISETLRLVMNQTVLRRNMGEKLKIDGLGEIPRGAFLVYSNADAHLN
                      PELYPDPWTFNPQHFSQGKEDDEYAFLGWGAGRHRCVGVKIAKLAIKAIVSSFIMTYEH
                      DVISSNRKVTSKTPIPDYNKINNGHPKNGVYSISYKSVLLDEEQAD"
+                     /Pfam="p450"
      CDS             complement(join(13842..13923,13973..14013,14069..14166,
                      14220..14320,14373..14407,14468..14515,14576..14661,
                      14725..14842,14899..14935,14985..15152,15204..15232,
@@ -101,7 +105,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="Ompole__000006"
                      /product="prolyl oligopeptidase OphP"
-                     /label=ophP
+                     /label="ophP"
                      /protein_id="Ompole_:cds.g6.t1"
                      /translation="MSFPGWGPYPPVERDETSAITYSSKLHGSVTVRDPYSQLEVPFED
                      SEETKAFVHSQRKFARTYLDENPDREAWLETLKKSWNYRRFSALKPESDGHYYFEYNDG
@@ -116,11 +120,12 @@ FEATURES             Location/Qualifiers
                      RGGSNGGVLTTACANQAPGLYRCVITIEGIIDMLRFPKFTFGASWRSEYGDPEDPEDFD
                      FIFKYSPYHNIPPPGDTIMPAMLFFTAAYDDRVSPLHTFKHVAALQHNFPKGPNPCLMR
                      IDLNSGHFAGKSTQEMLEETADEYSFIGKSMGLTMQTQGSVDSSRWSCVTV"
+                     /Pfam="Peptidase_S9_N, Peptidase_S9"
      CDS             join(18028..18889,18954..19342)
                      /codon_start=1
                      /locus_tag="Ompole__000007"
                      /product="hypothetical protein OphE"
-                     /label=ophE
+                     /label="ophE"
                      /protein_id="Ompole_:cds.g7.t1"
                      /translation="MFALPVDVHEAIIRELFARKDKATVKSLSLVCSSLTHICQRHLLS
                      HLTITCPTAQRKYERGQRSSHATQELLQSSPHLIPIIRSLSIIASSTTWRQIDVALLYI

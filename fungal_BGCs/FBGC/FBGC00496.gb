@@ -1,24 +1,24 @@
-LOCUS       FBGC00496      475879 bp DNA     linear   UNA 25-MAR-2023
+LOCUS       FBGC00496             475879 bp    DNA     linear   UNA 25-MAR-2023
 DEFINITION  victorins.
 ACCESSION   FBGC00496
-VERSION     .
+VERSION     FBGC00496
 KEYWORDS    .
 SOURCE      Cochliobolus victoriae FI3
   ORGANISM  Cochliobolus victoriae FI3
+            .
 REFERENCE   1  (bases 1 to 475879)
   AUTHORS   Kessler SC, Zhang X, McDonald MC, Gilchrist CLM, Lin Z, Rightmyer A,
             Solomon PS, Turgeon BG, Chooi YH.
-  TITLE     Victorin, the host-selective cyclic peptide toxin from the oat 
+  TITLE     Victorin, the host-selective cyclic peptide toxin from the oat
             pathogen Cochliobolus victoriae, is ribosomally encoded.
   JOURNAL   Proc Natl Acad Sci U S A 2020;117:24243-24250
-  PUBMED    32929037
+   PUBMED   32929037
 REFERENCE   2  (bases 1 to 475879)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Mar 25, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1073/pnas.2010573117"; journalName: "Proc Natl Acad Sci U S A"; 
+  JOURNAL   Exported Mar 25, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1073/pnas.2010573117"; journalName: "Proc Natl Acad Sci U S A";
             date: "2020"; volume: "117"; pages: "24243-24250"
 FEATURES             Location/Qualifiers
      source          1..475879
@@ -27,20 +27,20 @@ FEATURES             Location/Qualifiers
                      /organism="Cochliobolus victoriae"
      gene            complement(1..3471)
                      /locus_tag="Cvic_000001"
-                     /label=Cvic_000001
+                     /label="Cvic_000001"
      mRNA            complement(join(1..2124,2183..2509,2561..3201,3360..3471))
                      /locus_tag="Cvic_000001"
                      /product="hypothetical protein"
-                     /label=Cvic_000001 mRNA
+                     /label="Cvic_000001 mRNA"
      mRNA            complement(1..3471)
                      /locus_tag="Cvic_000001"
-                     /label=Cvic_000001 mRNA
+                     /label="Cvic_000001 mRNA"
      CDS             complement(join(1..2124,2183..2509,2561..3201,3360..3471))
                      /codon_start=1
                      /locus_tag="Cvic_000001"
                      /product="bifunctional cytochrome P450/NADPH-P450 reductase
                      CYP1"
-                     /label=CYP1
+                     /label="CYP1"
                      /protein_id="Cvic:CDS:EUN23147"
                      /translation="MELEPIPGPPGLPIVGNIADIDANCPIQSLCNLTLKYGPVWKFWL
                      GGERIVVADQRHMHEICDEERFSKIIAASLDQVRNGVHDGLFTAYGPQEKNWGIAHRIL
@@ -61,32 +61,35 @@ FEATURES             Location/Qualifiers
                      RAAQAAAGRKLAPAILFYGCRSPSIDLIYGDLLKRWEAMGAVSLRLAYSRQPEETHGCK
                      YVQDRIYHDRANVVELFNAGAKVFVCGSRGVGDGVQETLIKIAKETIGKKENREVDDAK
                      AKEWFEGLRNERFATDVFD"
+                     /Pfam="p450, Flavodoxin_1, FAD_binding_1, NAD_binding_1"
      CDS             complement(join(415837..416193,416243..416344))
                      /codon_start=1
                      /locus_tag="Cvic_000004"
                      /product="DUF3328 protein VicYu"
-                     /label=vicYu
+                     /label="vicYu"
                      /protein_id="Cvic:vicYu_exon"
                      /translation="MWKDQSGIDRVIFPHITDHEETYAINAFHQMHCLLETLRDYGFLI
                      NGYRPQHEDDHVIHCFNMMFKAISCLADPTAEGYLQQQPSSGGIIGNITSEVATRPLCR
                      DFQQLRLWADDPIRAASVPYGLVNFTKAKLPDKCDVRNCRDESGWMEI"
+                     /Pfam="UstYa"
      CDS             join(430225..430471,430534..430644,430696..430805,
                      431014..431298)
                      /codon_start=1
                      /locus_tag="Cvic_000005"
                      /product="DUF3328 protein VicYa"
-                     /label=vicYa
+                     /label="vicYa"
                      /protein_id="Cvic:vicYa_exon"
                      /translation="MNLARSSSDSLVHSHDGLLGEKNARPRTLVSSCSLRATIFYTLAS
                      LICGTLFIQCILMVEVLQSRGQSLLRSGDDINGIVPKLSTQITHSRDEMDLYISNYTSD
                      DDMAILRRRWIELLPLGDIVHVENPEGYSYLLDPIIPGPGYVVTWYHQLHCLFFLMSEY
                      DRLLRHGPNGKERSIPAGSSSIHTRHCFEILRHSILCHLDMTLEGGSAPFFNGTTGFGH
                      AHVCQNRQEAIDWMEKNRANDNRMIIRA"
+                     /Pfam="UstYa"
      CDS             join(444455..444836,444939..446024,446091..446263)
                      /codon_start=1
                      /locus_tag="Cvic_000003"
                      /product="NADPH oxidase NOX5"
-                     /label=NOX5
+                     /label="NOX5"
                      /protein_id="Cvic:NOX5_exon"
                      /translation="MGWPYKFYEHTDAGHLHELQKLYRYGLYAQLSLLLPLAIILGVRG
                      VVWLAVGFKHRNGIYDYVRYRKEGQHRTYNIPSIKAKVSQWKWWLECDFRLASRTYGTR
@@ -98,32 +101,35 @@ FEATURES             Location/Qualifiers
                      DLIGTSFGRILLFAGGVGATFTWPIYRNILQSRSEARVDMFWAVRCPADASWVADNIKE
                      RLVDDSRMHIYFTGDTWQSDDNERLSTKDTEGRPNLKNIVDNAFEDTQDRVALLVSGPE
                      GLTKDLRRHVDAWVKQGRDVWWHEESFSH"
+                     /Pfam="Ferric_reduct, NAD_binding_6"
      CDS             448880..449296
                      /codon_start=1
                      /locus_tag="Cvic_000009"
                      /product="DUF3328 protein VicYv1"
-                     /label=vicYv1
+                     /label="vicYv1"
                      /protein_id="Cvic:vicY1_exon"
                      /translation="MRPGVIRLTYGSAPEEALSLGCEFQLFSYAWVPKKCTQPGIEAEF
                      RALPGLRYYSTSDGSQEVDVTEVAKGESHLWTNIVEHDVHCELVLRSLAMASLSGVYTG
                      NILDLEHSNHCIDSLLTAKNWSMDELNTQVEVDF"
+                     /Pfam="PhomB"
      CDS             complement(461585..462340)
                      /codon_start=1
                      /locus_tag="Cvic_000007"
                      /product="DUF3328 protein VicYw1"
-                     /label=vicYw1
+                     /label="vicYw1"
                      /protein_id="Cvic:vicYw_exon"
                      /translation="MQGSYHYQHFIPAAFDDSNEGCSYLSRFPGKHSFKSLLFLAVTTC
                      TVLLGMIFGANYWVRRVEERYTMSSCGNTPDEARALGCRFESHNFAWTPPDCYDEALNA
                      KWDSKHWGYSRNPEGTKMIPRDEVLQGNLKWAYVTLNQHMSHCVLIWQKYQRAVMFNRP
                      ADNWTTSFAHTYHCGQLMVQWNLNHSEYNSILYTKYVSCGYDWKKPDIRMDTVMSGPMD
                      GGLIGDGGNHGNAMGVSIVTGHEDEHHLQ"
+                     /Pfam="PhomB"
      CDS             join(469027..469220,469269..469286,469337..469649,
                      469708..470759,470806..471358)
                      /codon_start=1
                      /locus_tag="Cvic_000002"
                      /product="copper amine oxidase VicK1"
-                     /label=vicK1
+                     /label="vicK1"
                      /protein_id="Cvic:CDS:EUN20452"
                      /translation="MKLFLLFTLTLVNIFSVSLQEPIQNQPAGNNTITSPHRNVWRALS
                      EAEFSGVSAVLVHQLNLTTSRGGNRIIQIDYLYPNKSDVLLFLDHNGEEPKRYARATVQ
@@ -138,26 +144,29 @@ FEATURES             Location/Qualifiers
                      YPGYRFRRVAPAIHLTVKNSTSGGKALHYATHDLFITQQKDNEPCAADRNNAYNIDDPL
                      VDFEKFLDGESLEQEDLVLWINMGMHHTPHTEDLPNTIMTSAYSGIRFEPFNYLESGDP
                      SVKSAQQARIILSNS"
+                     /Pfam="DUF1965, Cu_amine_oxid"
      CDS             join(473403..473466,473521..473927)
                      /codon_start=1
                      /locus_tag="Cvic_000008"
                      /product="victorin proprotein VicA1"
-                     /label=vicA1
+                     /label="vicA1"
                      /protein_id="Cvic:vicA1_exon"
                      /translation="MVRITALMSGSILLFALQALAMPVETTSVEPAAEKRGLKLAFKRG
                      EEVEPAEEKRGLKLAFKRGEEVEPAEEKRGLKLAFKRGEEVEPAEEKRGLKLAFKRGEE
                      VEPAEEKRGLKLAFKRGEEVEPAEEKRGLKLAFKRGEEVEPAEEKRGLKLAF"
+                     /Pfam="VicA"
      CDS             complement(475049..475879)
                      /codon_start=1
                      /locus_tag="Cvic_000006"
                      /product="DUF3328 protein VicYx1"
-                     /label=vicYx1
+                     /label="vicYx1"
                      /protein_id="Cvic:vicYx1_exon"
                      /translation="MTRPSSETSGEQDAYLLEEKRRDQPGFAHAMRRTSTAAFCGLVLG
                      IAVFILLTGMLIAAVFTVHQVGADVQVGTPLRYFANQYPIKHDAVGAYIDCPLDSPQAA
                      RDAGCSFDLLINGYIPNPCFDFEMNKYFMEKADFGYFKDEAATITIPQSELLAGNFEKY
                      KFVWLSTDSHYHHCMYIVNGSTRAYSRMGFTFLDSYLDQWHIQHCISVIMEPRPPLPFQ
                      RMDTPMMAAFAAEHRCYLRDLSPTPPQDPGAITTALTHPRTEIEAQRWESEQHK"
+                     /Pfam="VicYx"
 ORIGIN
         1 ttaatcaaaa acatccgtcg caaatctctc attgcgcagc ccctcgaacc actccttagc
        61 ctttgcatca tccacctctc tgttttcctt ctttccaatc gtctcctttg caatcttgat

@@ -1,29 +1,29 @@
-LOCUS       FBGC00463       22377 bp DNA     linear   UNA 09-MAR-2023
+LOCUS       FBGC00463              22377 bp    DNA     linear   UNA 09-MAR-2023
 DEFINITION  PR-toxin.
 ACCESSION   FBGC00463
-VERSION     .
+VERSION     FBGC00463
 KEYWORDS    .
 SOURCE      Penicillium roqueforti FM164
   ORGANISM  Penicillium roqueforti FM164
+            .
 REFERENCE   1  (bases 1 to 22377)
-  AUTHORS   Hidalgo PI, Poirier E, Ullan RV, Piqueras J, Meslet-Cladiere L, 
+  AUTHORS   Hidalgo PI, Poirier E, Ullan RV, Piqueras J, Meslet-Cladiere L,
             Coton E, Coton M.
   TITLE     Penicillium roqueforti PR toxin gene cluster characterization.
   JOURNAL   Appl Microbiol Biotechnol 2017;101:2043-2056
-  PUBMED    27921136
+   PUBMED   27921136
 REFERENCE   2  (bases 1 to 22377)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Mar 9, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1007/s00253-016-7995-5"; journalName: "Appl Microbiol 
+  JOURNAL   Exported Mar 9, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1007/s00253-016-7995-5"; journalName: "Appl Microbiol
             Biotechnol"; date: "2017"; volume: "101"; pages: "2043-2056"
 FEATURES             Location/Qualifiers
      source          1..22377
                      /strain="FM164"
                      /mol_type="genomic DNA"
-                     /label=ProqFM164S02
+                     /label="ProqFM164S02"
                      /note="ProqFM164S02"
                      /db_xref="taxon:1365484"
                      /organism="Penicillium roqueforti FM164"
@@ -31,7 +31,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="PROQFM164_S02g001464"
                      /product="short-chain dehydrogenase/reductase ORF1"
-                     /label=orf1
+                     /label="orf1"
                      /note="Corresponds to Proq02g040180"
                      /db_xref="GOA:W6QB10"
                      /db_xref="InterPro:IPR002198"
@@ -50,13 +50,14 @@ FEATURES             Location/Qualifiers
                      EIEHRYGSKGLHGLSLMPGGIATSLQRHVDPETLKEWGSSEFAQKYAKSSAQGAATTIT
                      AALGKEWEGKGGVYLEDCQEAGPVPEGGTLAVGVAPHAFDPEGEKKLWDLSLKMLNLSE
                      "
+                     /Pfam="adh_short"
      CDS             complement(join(2099..2507,2559..2832,2882..3227))
                      /codon_start=1
                      /gene="ARI1"
                      /locus_tag="PROQFM164_S02g001465"
                      /product="terpene synthase ARI1"
-                     /label=ari1
-                     /note="Cytoplasm Lyase Magnesium Manganese Corresponds to 
+                     /label="ari1"
+                     /note="Cytoplasm Lyase Magnesium Manganese Corresponds to
                      Proq02g040190"
                      /db_xref="GOA:W6Q4Q9"
                      /db_xref="InterPro:IPR005630"
@@ -70,11 +71,12 @@ FEATURES             Location/Qualifiers
                      ADELQDMKALEANCAKQLSVVNDIYSYDKEEEASRTGHKEGAFLCSAVKVLAEESKLGI
                      PATKRVLWSMTREWETVHDEIVAEKIASPDGCSEAAKAYMKGLEYQMSGNEQWSKTTRR
                      YN"
+                     /Pfam="Terpene_syn_C_2"
      CDS             join(4150..4318,4387..4755,4806..5516,5576..5865)
                      /codon_start=1
                      /locus_tag="PROQFM164_S02g001466"
                      /product="FAD-linked oxidoreductase ORF3"
-                     /label=orf3
+                     /label="orf3"
                      /note="Corresponds to Proq02g040200"
                      /db_xref="GOA:W6Q5R7"
                      /db_xref="InterPro:IPR006094"
@@ -98,11 +100,12 @@ FEATURES             Location/Qualifiers
                      RRQLFSSTALASSAEAVYLVNQTFFDVIAANPQIKTTTDLSVTNTYQLFTPGMIRAAKA
                      SGGDPIGLYDPLGNGVLAVLYGGNWADAKDDEIIYKFFQDMIDELDNRAKKLGLYYDFV
                      YLNDAAPTQTKDIFQKFSNGTALPKLREIAESYDPDQVFQTLTPGGFKLINSPA"
+                     /Pfam="FAD_binding_4"
      CDS             complement(6385..7374)
                      /codon_start=1
                      /locus_tag="PROQFM164_S02g001467"
                      /product="short-chain dehydrogenase/reductase ORF4"
-                     /label=orf4
+                     /label="orf4"
                      /note="Corresponds to Proq02g040210"
                      /db_xref="GOA:W6QP06"
                      /db_xref="InterPro:IPR002198"
@@ -120,12 +123,13 @@ FEATURES             Location/Qualifiers
                      VSYMRKQGKGGSVVITASATGYAPEQNLPVYSAIKSGLVGLVRSLRSTLPRFDISINAV
                      APAATITKLLPMDIAGPLMAAGLPVSSAHMVGLAVVYSAVARQPRMVETYGKENVLDLE
                      SKWNGRTILTLGEHYTELEEKLADLRPVWFGWRNTDLTKKQQATADFR"
-     CDS             complement(join(7907..8928,8985..9053,9103..9202,9252..9377,
-                     9428..9634))
+                     /Pfam="adh_short"
+     CDS             complement(join(7907..8928,8985..9053,9103..9202,
+                     9252..9377,9428..9634))
                      /codon_start=1
                      /locus_tag="PROQFM164_S02g001468"
                      /product="cytochrome P450 monooxygenase ORF5"
-                     /label=orf5
+                     /label="orf5"
                      /note="Corresponds to Proq02g040220a"
                      /db_xref="GOA:W6Q3Z9"
                      /db_xref="InterPro:IPR001128"
@@ -149,11 +153,12 @@ FEATURES             Location/Qualifiers
                      YLNKSSMPKLRKLDSFLKESHRLSPISLLNMRRKIVQPITLHDGTVLQPGMHIAFPLHQ
                      VSNDEDLWENPSQFDGFRFQKLRDLPGNESKYQFTATGTNNLDFGYGVHACPGRFFAAN
                      EIKMILVHLIDNFDFKFKGDIGRPDSLWTPGGYHPDPSVRVLLKRRLKA"
+                     /Pfam="p450"
      CDS             complement(join(10500..11830,11883..12291))
                      /codon_start=1
                      /locus_tag="PROQFM164_S02g001469"
                      /product="cytochrome P450 monooxygenase ORF6"
-                     /label=orf6
+                     /label="orf6"
                      /note="Corresponds to Proq02g040230"
                      /db_xref="GOA:W6QB15"
                      /db_xref="InterPro:IPR001128"
@@ -178,13 +183,14 @@ FEATURES             Location/Qualifiers
                      ERYWPDPWALKPDRWMGTIGVTPNSRPNKKVVAQDKSRQVRGTLMTFSGGARACLGRKF
                      TQSEYISVLATVLGKYRIVLGEGMDAKVVKQEIDHLAAGTVTLAPLKYVKLALKKRTDV
                      KTG"
+                     /Pfam="p450"
      CDS             join(12867..13002,13055..13479)
                      /codon_start=1
                      /locus_tag="PROQFM164_S02g001470"
                      /product="hypothetical protein ORF7"
-                     /label=orf7
-                     /note="Corresponds to Proq02g040240 Uncharacterised
-                     protein family UPF0311"
+                     /label="orf7"
+                     /note="Corresponds to Proq02g040240 Uncharacterised protein
+                     family UPF0311"
                      /db_xref="GOA:W6Q4S2"
                      /db_xref="InterPro:IPR011250"
                      /db_xref="InterPro:IPR020915"
@@ -198,12 +204,13 @@ FEATURES             Location/Qualifiers
                      GHFTTVFPLPDGFGIHSEAIEGLRAEVLPGGGDYPLIHNNELAELNVSVVAKGLNNDHI
                      FRITSFGICEWNKLIFDMMGQTAAARSTEMGEINAWQVFRINTDSPEYAWLNWACIIGQ
                      ERLIYEDSRMAKTHMKLFQFLVK"
+                     /Pfam="DUF3237"
      CDS             14351..15766
                      /codon_start=1
                      /locus_tag="PROQFM164_S02g001472"
                      /product="acetyltransferase ORF8"
-                     /label=orf8
-                     /note="Corresponds to Proq02g040260 Chloramphenicol 
+                     /label="orf8"
+                     /note="Corresponds to Proq02g040260 Chloramphenicol
                      acetyltransferase-like domain"
                      /db_xref="GOA:W6QP10"
                      /db_xref="InterPro:IPR003480"
@@ -222,12 +229,13 @@ FEATURES             Location/Qualifiers
                      PINMVGSESTHLGDIAIKVRQTITAARNKTLLKAVVGLAATHPDCQTIKYANDNLGPDL
                      YVTSWIDLPFYKLEWGPLGKTEFFRIPDRQFESLCCILPPKDGVVQLITSMEEDHSKRL
                      RSDAEFTRFATYR"
+                     /Pfam="Transferase"
      CDS             complement(join(15933..16107,16162..16322,16380..17320,
                      17371..17440,17488..17580,17666..17755))
                      /codon_start=1
                      /locus_tag="PROQFM164_S02g001473"
                      /product="cytochrome P450 monooxygenase ORF9"
-                     /label=orf9
+                     /label="orf9"
                      /note="Corresponds to Proq02g040270a"
                      /db_xref="GOA:W6Q403"
                      /db_xref="InterPro:IPR001128"
@@ -250,11 +258,12 @@ FEATURES             Location/Qualifiers
                      EIRNRFPTYESINATSAQQLPYLQAVINEGLRIYPPGSQGFPRLSPGLAIDGEWIPEGT
                      EIYTSAWTVTHNPQMFKDPMKFDPNRWLNEKSTDIKESSQPFSLGPRGCLGRNFALMEL
                      NLILSKLCWKYDMELMDQSLDWEGQSKVHVMWDKPALTVRFHSVDGSTLKA"
+                     /Pfam="p450"
      CDS             join(18769..18903,18964..20205)
                      /codon_start=1
                      /locus_tag="PROQFM164_S02g001474"
                      /product="transcription factor ORF10"
-                     /label=orf10
+                     /label="orf10"
                      /note="Corresponds to Proq02g040280"
                      /db_xref="GOA:W6QB19"
                      /db_xref="InterPro:IPR001138"
@@ -269,12 +278,13 @@ FEATURES             Location/Qualifiers
                      SLSGAIITAFVCRLKEQNESVDFGKSDSPDKRLDPNRAIQLCEFQVQSLQEFKVVSAAV
                      IKLQLKYSVAFVSRTRELAISMNHLAQAQSLEKLESRLNELVIKMQRMVSEVDSDLCDI
                      "
+                     /Pfam="EqxR"
      CDS             join(20728..20808,20860..21415,21466..21646,21702..22080,
                      22132..22377)
                      /codon_start=1
                      /locus_tag="PROQFM164_S02g001475"
                      /product="cytochrome P450 monooxygenase ORF11"
-                     /label=orf11
+                     /label="orf11"
                      /note="Corresponds to Proq02g040290"
                      /db_xref="GOA:W6Q4S4"
                      /db_xref="InterPro:IPR001128"
@@ -297,6 +307,7 @@ FEATURES             Location/Qualifiers
                      IRDRFERFEDINSTAASQLKYLHALALEAMRIYPPLPLALPRVVPKGGDTIDGHFVAEG
                      TIVSVNPVAACLSTKNFDAPLEFRPERWLESDLVDDHEASQPFSMGPRACLGRNLAWIE
                      LSLLLSKMLWVYDIELLNTEVD"
+                     /Pfam="p450"
 ORIGIN
         1 ctactctgac aagttcaaca tcttgagaga caaatcccac aacttcttct cgccctccgg
        61 atcgaaggcg tgtggtgcaa caccgaccgc cagtgtacca ccctcgggga ccgggccagc

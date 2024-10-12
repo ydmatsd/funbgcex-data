@@ -1,32 +1,32 @@
-LOCUS       FBGC00471       14967 bp DNA     linear   UNA 10-MAR-2023
+LOCUS       FBGC00471              14967 bp    DNA     linear   UNA 10-MAR-2023
 DEFINITION  polytolypin.
 ACCESSION   FBGC00471
-VERSION     .
+VERSION     FBGC00471
 KEYWORDS    .
 SOURCE      Polytolypa hystricis UAMH7299
   ORGANISM  Polytolypa hystricis UAMH7299
+            .
 REFERENCE   1  (bases 1 to 14967)
   AUTHORS   Li XY, Lv JM, Cao ZQ, Wang GQ, Lin FL, Chen GD, Qin SY, Hu D, Gao H,
             Yao XS.
-  TITLE     Biosynthetic characterization of the antifungal fernane-type 
-            triterpenoid polytolypin for generation of new analogues via 
+  TITLE     Biosynthetic characterization of the antifungal fernane-type
+            triterpenoid polytolypin for generation of new analogues via
             combinatorial biosynthesis.
   JOURNAL   Org Biomol Chem 2023;21:851-857
-  PUBMED    36602159
+   PUBMED   36602159
 REFERENCE   2  (bases 1 to 14967)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Mar 10, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1039/d2ob02158g"; journalName: "Org Biomol Chem"; date: "2023"; 
-            volume: "21"; pages: "851-857"
+  JOURNAL   Exported Mar 10, 2023 from SnapGene 6.2.1 https://www.snapgene.com
 COMMENT     ##Genome-Assembly-Data-START##
             Assembly Method       :: allpaths v. R42179
             Assembly Name         :: Poly_hyst_7299_V1
             Genome Coverage       :: 163x
             Sequencing Technology :: Illumina
             ##Genome-Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1039/d2ob02158g"; journalName: "Org Biomol Chem"; date: "2023";
+            volume: "21"; pages: "851-857"
 FEATURES             Location/Qualifiers
      source          1..14967
                      /strain="UAMH7299"
@@ -40,7 +40,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="AJ80_03956"
                      /product="oxidosqualene cyclase PolA"
-                     /label=polA
+                     /label="polA"
                      /protein_id="PGH19455.1"
                      /translation="MMPTKSLPDRTMEALKEAVQYAYECQFDNDHWSGEVHSNPIFTAE
                      YLFLRQALGLDFTQDEKDGFIRWFLLQQNEDGSYGLAPDYPGDPSTTVESYLSLKMLGY
@@ -55,12 +55,13 @@ FEATURES             Location/Qualifiers
                      GKGSPSTASQTAWSIMSLIPYVPATDPAVTRGVDFLVRFQTLLGSDHAYDRGKTGKNGK
                      SWPEDYYTGTGFPGHLYLQYCLNPHYWPMMALGRYLRKAKGAGLTGHLEDELEGFPEPV
                      V"
+                     /Pfam="SQHop_cyclase_N, SQHop_cyclase_C"
      CDS             complement(join(3150..3318,3376..3869,3929..4651,
                      4710..4910))
                      /codon_start=1
                      /locus_tag="AJ80_03957"
                      /product="cytochrome P450 monooxygenase PolB"
-                     /label=polB
+                     /label="polB"
                      /protein_id="PGH19456.1"
                      /translation="MYSFFLVCPVAFLGFTICYLVYVELFPHPFPKSLPLVGFRKEIFS
                      RPRASFRQILGSSQTLAEGYEQYGAAGRPYVVPDTTFQPQVMLPQNHIKWLSTQPESVL
@@ -72,11 +73,12 @@ FEATURES             Location/Qualifiers
                      AHVPHGMWLGVPAQAMQNDDEFYPNADGYDPLRFARLKADAEAECKDGPSSGKHLDAAH
                      PSDKYLSFSYGRSSCPGRWFAVRLLKLIIAYIAVHYDIKPLAHRPKNFSFGDASIPSFT
                      TKIMVRRRKQG"
+                     /Pfam="p450"
      CDS             5421..7091
                      /codon_start=1
                      /locus_tag="AJ80_03958"
                      /product="cytochrome P450 monooxygenase PolC"
-                     /label=polC
+                     /label="polC"
                      /protein_id="PGH19457.1"
                      /translation="MAVFKLDALRAIDMSKLCFAISLLCAVAIATFLHKLYKARSFMRR
                      LQREGMPMPPHHWLFGHIPVVAKIFGTLPPHAHLFFIADQVRQAYPHLDSAFYLDIWPF
@@ -88,12 +90,13 @@ FEATURES             Location/Qualifiers
                      PPTSTARFGLPGFYLTDSDGKRMPTENCLVVANHHGIHHNPRFWPRVEEFLPERWLVDE
                      SHPLYPVKNGWRPFERGSRNCLGQELAMTEIKLVVAIMIREFNIHDAYAENDLEKGQRE
                      KNLRVNGERAYQITRGGGHPSENFPCRVSLVANKEREIP"
+                     /Pfam="p450"
      CDS             complement(join(9597..9733,9796..10260,10321..10471,
                      10532..10728,10800..11142,11211..11471))
                      /codon_start=1
                      /locus_tag="AJ80_03959"
                      /product="cytochrome P450 monooxygenase PolD"
-                     /label=polD
+                     /label="polD"
                      /protein_id="PGH19458.1"
                      /translation="MQLTVVLVGIVVLVLAYLSSTGKVYPHGPQALPILGNLVQFRSLQ
                      ARPDQELLRIAKKYGQLCMLWFGSNPVLIISSPKAAKDMMDQRGAIYSSRPAQNSFRAT
@@ -105,12 +108,13 @@ FEATURES             Location/Qualifiers
                      LPERFLGDDLDAYSSALHPDWRVRDHFHYGFGRRLCQGIFVAEASLYIVVSRLLWGFDI
                      AKEEGESLDMDDKLAGLVTKPKPFRVTIKSRAPSYERVMRQERAIAKTDILSFNDVHFV
                      "
+                     /Pfam="p450"
      CDS             complement(join(13083..13248,13311..13810,13946..14668,
                      14737..14967))
                      /codon_start=1
                      /locus_tag="AJ80_03960"
                      /product="cytochrome P450 monooxygenase PolE"
-                     /label=polE
+                     /label="polE"
                      /protein_id="PGH19459.1"
                      /translation="MSGETAFYSFTSWDPVWVLSISSSLVITFLFLVEKWLLSPSGALP
                      WIGEKPGLFPRISACLRGEKEGLPGLRAAYTRFGSKGKFFVKPDVGFQPEIMVPREHIR
@@ -122,6 +126,7 @@ FEATURES             Location/Qualifiers
                      VVAKGGVTLPSGYHLPKGTMLGVPAVGIHADENIYPDAAKYDPFRHCNRRPGEKLDEKD
                      TAVPLTSIGVVNVTDTFLPFGVGKFACPGRWLAAHLIKLTVAYLLYNYELKSFDQRPLN
                      TVILGKSMPDRQATMMVRRRKH"
+                     /Pfam="p450"
 ORIGIN
         1 tcacacgaca ggttcaggaa aaccctcaag ctcatcctct aaatgtccag taagtccagc
        61 acccttagcc ttcctcagat accgacccaa agccatcatg ggccaatagt gaggattaag

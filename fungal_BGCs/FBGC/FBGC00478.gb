@@ -1,31 +1,31 @@
-LOCUS       FBGC00478       16297 bp DNA     linear   UNA 11-MAR-2023
+LOCUS       FBGC00478              16297 bp    DNA     linear   UNA 11-MAR-2023
 DEFINITION  paspalitrem B.
 ACCESSION   FBGC00478
-VERSION     .
+VERSION     FBGC00478
 KEYWORDS    .
 SOURCE      Claviceps paspali RRC-1481
   ORGANISM  Claviceps paspali RRC-1481
+            .
 REFERENCE   1  (bases 1 to 16297)
-  AUTHORS   Schardl CL, Young CA, Hesse U, Amyotte SG, Andreeva K, Calie PJ, 
-            Fleetwood DJ, Haws DC, Moore N, Oeser B, Panaccione DG, Schweri KK, 
-            Voisey CR, Farman ML, Jaromczyk JW, Roe BA, O'Sullivan DM, Scott B, 
-            Tudzynski P, An Z, Arnaoudova EG, Bullock CT, Charlton ND, Chen L, 
-            Cox M, Dinkins RD, Florea S, Glenn AE, Gordon A, Guldener U, Harris 
-            DR, Hollin W, Jaromczyk J, Johnson RD, Khan AK, Leistner E, 
-            Leuchtmann A, Li C, Liu J, Liu J, Liu M, Mace W, Machado C, 
-            Nagabhyru P, Pan J, Schmid J, Sugawara K, Steiner U, Takach JE, 
+  AUTHORS   Schardl CL, Young CA, Hesse U, Amyotte SG, Andreeva K, Calie PJ,
+            Fleetwood DJ, Haws DC, Moore N, Oeser B, Panaccione DG, Schweri KK,
+            Voisey CR, Farman ML, Jaromczyk JW, Roe BA, O'Sullivan DM, Scott B,
+            Tudzynski P, An Z, Arnaoudova EG, Bullock CT, Charlton ND, Chen L,
+            Cox M, Dinkins RD, Florea S, Glenn AE, Gordon A, Guldener U, Harris
+            DR, Hollin W, Jaromczyk J, Johnson RD, Khan AK, Leistner E,
+            Leuchtmann A, Li C, Liu J, Liu J, Liu M, Mace W, Machado C,
+            Nagabhyru P, Pan J, Schmid J, Sugawara K, Steiner U, Takach JE,
             Tanaka E, Webb JS, Wilson EV, Wiseman JL, Yoshida R, Zeng Z.
-  TITLE     Plant-symbiotic fungi as chemical engineers: multi-genome analysis 
+  TITLE     Plant-symbiotic fungi as chemical engineers: multi-genome analysis
             of the clavicipitaceae reveals dynamics of alkaloid loci.
   JOURNAL   PLoS Genet 2013;9:e1003323
-  PUBMED    23468653
+   PUBMED   23468653
 REFERENCE   2  (bases 1 to 16297)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Mar 11, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1371/journal.pgen.1003323"; journalName: "PLoS Genet"; date: 
+  JOURNAL   Exported Mar 11, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1371/journal.pgen.1003323"; journalName: "PLoS Genet"; date:
             "2013"; volume: "9"; pages: "e1003323"
 FEATURES             Location/Qualifiers
      source          1..16297
@@ -38,7 +38,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="idtQ"
                      /product="cytochrome P450 monooxygenase IdtQ"
-                     /label=idtQ
+                     /label="idtQ"
                      /note="IdtQ"
                      /protein_id="AFO85417.1"
                      /translation="MLTEQFDPSTFYSPKTVAIAGLILGCVLIYVYNDYPTNVNVPVIG
@@ -51,12 +51,13 @@ FEATURES             Location/Qualifiers
                      FSNGLHIPKGSFIFTPNAPIFQDERHYSNPKIFDGFRFAKMRDDPKLKLTCDLATVGEY
                      SLNFGLGRHACPGRYLASDEVKLSLIHLLQNFDITVDPSELPLKRVRYGKFSLADMSAK
                      VSLRRLRSEVKG"
-     CDS             join(3071..3256,3350..3560,3633..3713,3780..4385,4485..4738,
-                     4890..5048)
+                     /Pfam="p450"
+     CDS             join(3071..3256,3350..3560,3633..3713,3780..4385,
+                     4485..4738,4890..5048)
                      /codon_start=1
                      /gene="idtP"
                      /product="cytochrome P450 monooxygenase IdtP"
-                     /label=idtP
+                     /label="idtP"
                      /note="IdtP"
                      /protein_id="AFO85418.1"
                      /translation="MFLLHILAIGACLLWYFVRSDKRKQGSNIPTIRRWPALFPEFLDR
@@ -68,11 +69,12 @@ FEATURES             Location/Qualifiers
                      LDMKQLDSVMRESQRINPVGEFTFRRIVRKPITLSDGFQLHPGQQIAIAARCINTDGDV
                      LPDAETFKPMRWMEKESAASTGFAHSSDSNLHFGLGRYACPGRFLASYMIKAIISRVLF
                      DYEFKLQDDSAAGRPPNLIHGDKIFPSRDVTVLFRRRHDE"
+                     /Pfam="p450"
      CDS             join(7016..7722,7862..8339,8437..8535)
                      /codon_start=1
                      /gene="idtF"
                      /product="DMATS-type prenyltransferase IdtF"
-                     /label=idtF
+                     /label="idtF"
                      /note="IdtF"
                      /protein_id="AFO85419.1"
                      /translation="MESDKNGPARQENDIAEKESDIRYWTRVVCPSVRSLLHAAGSYTA
@@ -83,11 +85,12 @@ FEATURES             Location/Qualifiers
                      WLTIGGKVKDENTLKGLQILRSMWHLFIQKPEGIPDDELETPVNLENALKHRMYFSFEL
                      KPGQDIPQVKTYLPIWRYAPSDEQAIDNFEAAFRQCHHPWGEDGTYGRIFRNALCAPPI
                      HGDLAYIYCEKRGVYQTIYVTPPLLEED"
+                     /Pfam="Trp_DMAT"
      CDS             complement(join(9992..10739,10859..11013,11077..11178))
                      /codon_start=1
                      /gene="idtG"
                      /product="geranylgeranyl pyrophosphate synthase IdtG"
-                     /label=idtG
+                     /label="idtG"
                      /note="IdtG"
                      /protein_id="AFO85420.1"
                      /translation="MAPSPIMPRYHVGPMASTRRAISKKGFPRTRSFPVLTAPLDYLRD
@@ -96,22 +99,24 @@ FEATURES             Location/Qualifiers
                      TEEEYMRMVQNKTGGLFRLAIRLLQGESRSDRDYVPLVDTLGTLFQIRDDYQNLQSDVY
                      SKNKGFCEDISEGKFSYPVIHSIRARPGDLRLLNILKQRSEDLMVKQYAVSYINSTGSF
                      EFCRGKIDCLAQWANLQLAALEEAEGAGRGDKLRAVLRLLDMKASGKQADVAS"
+                     /Pfam="GGPS"
      CDS             complement(join(11781..11979,12062..12582))
                      /codon_start=1
                      /gene="idtB"
                      /product="terpene cyclase IdtB"
-                     /label=idtB
+                     /label="idtB"
                      /protein_id="AFO85421.1"
                      /translation="MDGFSILHEPPAAYKEVKWMADTFVAGMGLGWIVNYALMIRFSWK
                      GRPHCMALLPLCNNIAWELTYTIVYPSANRVELLVFAIGLTLNFFIMVGARRSARVEWR
                      HSPLLSEHAGFILLVGTLLCFTGHVALAMEIGPGLAYSWGAVVCQLALSIGGLFQLLQR
                      NSTAGTSWTLWSSRFLGSCCTVAFAGLRCKYWPEVFGWLASPLVLWSLVTFLLADSAYG
                      FCLYRVSHAETKARKKH"
+                     /Pfam="Pyr4"
      CDS             join(13253..14031,14201..14525)
                      /codon_start=1
                      /gene="idtC"
                      /product="prenyltransferase IdtC"
-                     /label=idtC
+                     /label="idtC"
                      /note="IdtC"
                      /protein_id="AFO85422.1"
                      /translation="MTTLAWFAGRSMVLDLAALTSAFTVGYLLKSTSTPTSTPTSTDKA
@@ -121,11 +126,12 @@ FEATURES             Location/Qualifiers
                      VSVYKKMAQLKTGTLFVLLGRLLNDGGAQLDDVLLRLGWYSQLQNDCKNIYSGEYANNK
                      GAIAEDLRNGEMSFPVVVALGDQTTSSQIRKAFGSHSDGDIFDALDALQSSCIKNKCSQ
                      ALQEAGRGLENLLAIWGRREHMDSLGS"
+                     /Pfam="PaxC"
      CDS             complement(join(15391..15917,15994..16297))
                      /codon_start=1
                      /gene="idtS"
                      /product="hypothetical protein IdtS"
-                     /label=idtS
+                     /label="idtS"
                      /note="revised sequence"
                      /protein_id="AFO85423.1"
                      /translation="MSRTEASGWGFSLLQILLVLAGMVWKAREGFPIVDFLDTSGDTCS
@@ -133,6 +139,7 @@ FEATURES             Location/Qualifiers
                      YLIRMLGLSTALPLISLWVLHRRRRTGKGWATTFPPRHGEEAFLWRVLWFTGLAHVASF
                      LVATAASFLGREDMAPWHLTNTLLGTPDCSYLPCSQIAERQARLRQINEMTGTSSGFFL
                      AVALFSQHLEMNGARLGAGLLARLFFVSLIAGPAAGAADALLLRSAFMRTRRST"
+                     /Pfam="LtmS"
 ORIGIN
         1 tcatcccttc acctcactgc ggagtcttct caacgacacc ttcgcagaca tgtctgccaa
        61 cgagaatttg ccgtatcgga ccctctttag cgggagctca gaagggtcaa cggtgatatc

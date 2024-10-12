@@ -1,31 +1,30 @@
-LOCUS       FBGC00475       28945 bp DNA     linear   UNA 09-MAY-2023
+LOCUS       FBGC00475              28945 bp    DNA     linear   UNA 09-MAY-2023
 DEFINITION  nodulisporic acid F.
 ACCESSION   FBGC00475
-VERSION     .
+VERSION     FBGC00475
 KEYWORDS    .
 SOURCE      Hypoxylon pulicicidum MF5954
   ORGANISM  Hypoxylon pulicicidum MF5954
+            .
 REFERENCE   1  (bases 1 to 28945)
-  AUTHORS   Van de Bittner KC, Nicholson MJ, Bustamante LY, Kessans SA, Ram A, 
+  AUTHORS   Van de Bittner KC, Nicholson MJ, Bustamante LY, Kessans SA, Ram A,
             van Dolleweerd CJ, Scott B, Parker EJ.
   TITLE     Heterologous Biosynthesis of Nodulisporic Acid F.
   JOURNAL   J Am Chem Soc 2018;140:582-585
-  PUBMED    29283570
+   PUBMED   29283570
 REFERENCE   2  (bases 1 to 28945)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported May 9, 2023 from SnapGene 6.2.2
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1021/jacs.7b10909"; journalName: "J Am Chem Soc"; date: "2018"; 
-            volume: "140"; pages: "582-585"
+  JOURNAL   Exported May 9, 2023 from SnapGene 6.2.2 https://www.snapgene.com
 COMMENT     ##Assembly-Data-START##
             Assembly Method       :: SPAdes v. 3.5.0
-            Assembly Name         :: Genome sequence of Hypoxylon pulicicidum
-                                     ATCC 74245
+            Assembly Name :: Genome sequence of Hypoxylon pulicicidum ATCC 74245
             Coverage              :: 49
             Sequencing Technology :: Illumina
             ##Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1021/jacs.7b10909"; journalName: "J Am Chem Soc"; date: "2018";
+            volume: "140"; pages: "582-585"
 FEATURES             Location/Qualifiers
      source          1..28945
                      /strain="MF5954"
@@ -40,8 +39,8 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="nodW"
                      /product="cytochrome P450 monooxygenase NodW"
-                     /label=nodW
-                     /note="NodW; terminal-C dioxygenase; dodulisporic acid 
+                     /label="nodW"
+                     /note="NodW; terminal-C dioxygenase; dodulisporic acid
                      biosynthesis protein"
                      /protein_id="AUM60065.1"
                      /translation="MTLAILGISCLAAVLSHTILFIRGEWDKHAPVLFHCFITCPIALI
@@ -54,12 +53,13 @@ FEATURES             Location/Qualifiers
                      QRETGPGGVILDGQFIPEHMLVSMPTYTIHRDKRNFVRPDEFIPERWTSQSHLTLNPDA
                      FIPFSVGVYGCLGKPFAMMEMRMVISSIMSRFNLRLLPGRPMSHEASAPAYDCYIIHIP
                      AFSLVFEPRAGNIWA"
+                     /Pfam="p450"
      CDS             join(2653..2874,2949..3065,3142..3196,3272..3994,
                      4060..4478)
                      /codon_start=1
                      /gene="nodR"
                      /product="cytochrome P450 monooxygenase NodR"
-                     /label=nodR
+                     /label="nodR"
                      /note="NodR; nodulisporic acid biosynthesis protein"
                      /protein_id="AUM60066.1"
                      /translation="MFDIDFGILFPISWEQSPIFLAVGLIFAFATLSPWLRSGERLING
@@ -71,12 +71,13 @@ FEATURES             Location/Qualifiers
                      IGAYGWGKEAIYNLKLMDSVLKETQRLKPMQINLTRLALDRIKLSDGTVIPRGSKVLIS
                      CHNMWDSNVYPNANQYDGHRFYKLRQRAGMENSAQLSTPSPDHLGFGLGMYACPGRHIA
                      STVMKVTLCHILLKYDFELAEGCTPRVIEYGSFLLADPTARVSIRRRKEEIQL"
-     CDS             complement(join(4872..5297,5352..5430,5498..6299,6351..6553,
-                     6612..6883))
+                     /Pfam="p450"
+     CDS             complement(join(4872..5297,5352..5430,5498..6299,
+                     6351..6553,6612..6883))
                      /codon_start=1
                      /gene="nodX"
                      /product="CoA transferase NodX"
-                     /label=nodX
+                     /label="nodX"
                      /note="NodX; nodulisporic acid biosynthesis protein"
                      /protein_id="AUM60050.1"
                      /translation="MESSADNTVPKQAESVFIREILENPLMPNLPPELAEIAKFVSFEG
@@ -90,11 +91,12 @@ FEATURES             Location/Qualifiers
                      NQWLVRSVGTYDEHTWTDLFRRHDAPVFRHYHSMQYMLPKLLTALYKFDGEILFQREFF
                      GPFRSGALNTTFIQVRPIARFKDDAIELKYNVGTRGNGVDAPTWPADLRREIVRDEDEQ
                      GSGFRSGSGLGSGSIAD"
+                     /Pfam="CoA_transf_3"
      CDS             join(7596..7888,7956..8218,8280..8650,8708..9172)
                      /codon_start=1
                      /gene="nodM"
                      /product="FAD-dependent monooxygenase NodM"
-                     /label=nodM
+                     /label="nodM"
                      /note="NodM; indole diterpene mono-epoxidase; nodulisporic
                      acid biosynthesis protein"
                      /protein_id="AUM60051.1"
@@ -107,11 +109,12 @@ FEATURES             Location/Qualifiers
                      AEKPTDSDISLLLRQFKSQRLRRVQKIYKMSRFVTRLQARDGLLNTLLGRHYAPYAADL
                      PAKIASGCIAGAEVLDYLPLPKVTGAGWNRGHRRSTMYILLGFTGVFTSALAMVVLLHI
                      RDIAS"
+                     /Pfam="FAD_binding_3"
      CDS             complement(join(9314..9527,9599..10116))
                      /codon_start=1
                      /gene="nodB"
                      /product="terpene cyclase NodB"
-                     /label=nodB
+                     /label="nodB"
                      /note="NodB; nodulisporic acid biosynthesis protein"
                      /protein_id="AUM60064.1"
                      /translation="MDGFDRSNAPVEYQRVEWISDIFVFGMGVCWLINYAGMIYTSLQE
@@ -119,11 +122,12 @@ FEATURES             Location/Qualifiers
                      APLVMNNITLIFALGVLGSLTGHLALAAEIGPALGYSWGAVACQLLLSVGGFCQLLGRS
                      SSRGASYTLWLSRFIGSGCVVGFAILRYMYWSEAFNWLNSPLVLWSLGVFIAVDSLYGI
                      CLWNVKKYEHGQERSNARKAQ"
+                     /Pfam="Pyr4"
      CDS             join(10955..11401,11458..11581,11634..11755,11815..12468)
                      /codon_start=1
                      /gene="nodO"
                      /product="FAD-linked oxidoreductase NodO"
-                     /label=nodO
+                     /label="nodO"
                      /note="NodO; nodulisporic acid biosynthesis protein"
                      /protein_id="AUM60052.1"
                      /translation="MEVSSSETLPILWRTSPPSNDYENARCRVFNGRQPEHFPLAIVKA
@@ -134,11 +138,12 @@ FEATURES             Location/Qualifiers
                      HPPGTFLAEDFVSTNFPEDYDLGKDTMPRGARYFTDSVFLKPGIDFVATCKGMFTELKH
                      PRALAYWQPMKTNIDRILPDMAMSIHSHHYVSLLAIYEDPSEDQQQISWIIDRMKSLEP
                      AILGTFIGDAHPVERPSNYWSEEAEERVITIGRKWDPSSRIRGIVLSDA"
+                     /Pfam="FAD_binding_4"
      CDS             complement(join(12911..13853,13920..14348,14432..14604))
                      /codon_start=1
                      /gene="nodJ"
                      /product="cytochrome P450 monooxygenase NodJ"
-                     /label=nodJ
+                     /label="nodJ"
                      /note="NodJ; nodulisporic acid biosynthesis protein"
                      /protein_id="AUM60053.1"
                      /translation="MELIVIIITLAFCILLYGTRWRAALDPREPRLISPTVPLIGHILG
@@ -150,11 +155,12 @@ FEATURES             Location/Qualifiers
                      TFQEVLRMRSNAIVTRMVHEDTILNERVLFKKGSVIVIPARCVNREKSVWGETGDSFDA
                      YRYLGQGKSGTSRSGRNVTRVAFQSFGTAPNICPGRHFASGEILAVVAMVILRFDMEPV
                      LGEWIPPKANVKTLASSIQTPAGEFMVTLRERKEFKDDKWDFRVTEGDSKFPLLVG"
+                     /Pfam="p450"
      CDS             join(15449..15757,15832..16184,16255..16573)
                      /codon_start=1
                      /gene="nodC"
                      /product="prenyltransferase NodC"
-                     /label=nodC
+                     /label="nodC"
                      /note="NodC; nodulisporic acid biosynthesis protein"
                      /protein_id="AUM60067.1"
                      /translation="MSLGLQCLAAVLFSALFSLGVILVHLPWRALKSKDPRERILGSPK
@@ -163,12 +169,13 @@ FEATURES             Location/Qualifiers
                      DISLVWRRDGLTSFPKAHDERVIAYRCMSSLKTGALFRLLGRLVLENRSMDDTLSQVGY
                      YSQLQNDCKNVFSSEYAKAKGTLAEDLRNRELTYPIILALNEPEGFYIEKAFESGSPRD
                      IQNAIGVIQSENVYRACLDELKQYESNVREWVTLWGRKEKLDLTH"
+                     /Pfam="PaxC"
      CDS             complement(join(17117..17302,17354..17731,17786..18383,
                      18422..18555))
                      /codon_start=1
                      /gene="nodY1"
                      /product="FAD-dependent monooxygenase NodY1"
-                     /label=nodY1
+                     /label="nodY1"
                      /note="NodY1; nodulisporic acid biosynthesis protein"
                      /protein_id="AUM60054.1"
                      /translation="MASTGVSVIVVGLGLAGLTTAIECHQKGHSVIALERSKDLNYVGK
@@ -179,11 +186,12 @@ FEATURES             Location/Qualifiers
                      APSGSLVDEPVLQLGQLPSWVSPQGRMILIGDASHPSALNSPIGESLVIEDAAVVAICL
                      ELAGKGNVPLALRVAEKIRYVKQSNNNKNIPRASALQHNVEQPDQGINMYPEVPLRDWV
                      SEHNSQEHAYEEYDKVVKAIRGGKEYVATNIS"
+                     /Pfam="FAD_binding_3"
      CDS             join(19735..20915,20983..21106)
                      /codon_start=1
                      /gene="nodD2"
                      /product="DMATS-type prenyltransferase NodD2"
-                     /label=nodD2
+                     /label="nodD2"
                      /note="NodD2; nodulisporic acid biosynthesis protein"
                      /protein_id="AUM60055.1"
                      /translation="MDSTGRQPLSQDGQPWQALASGLGFPDEDQKYWWSVMAPLLGELM
@@ -194,11 +202,12 @@ FEATURES             Location/Qualifiers
                      TMVQVFTLGGRLKGPEVDHAIECLRVLWPSVLAVPENHPDDQDLPRRYHSVAVTQFNFE
                      LWPGAKLPVPQIYLPTNFYGRDELEIAEGLEGFFKTLGWSEPFHAYKQNYIATCATPEG
                      KWKAIQHDVSFSFKDSSPYVSVYYKPELSVLSSPS"
+                     /Pfam="Trp_DMAT"
      CDS             join(22208..23388,23436..23550)
                      /codon_start=1
                      /gene="nodD1"
                      /product="DMATS-type prenyltransferase NodD1"
-                     /label=nodD1
+                     /label="nodD1"
                      /note="NodD1; nodulisporic acid biosynthesis protein"
                      /protein_id="AUM60056.1"
                      /translation="MDAASTLTHAPVSQPWQSLAQGLGFVNEHEGYWWSKLGPPLGKMM
@@ -209,11 +218,12 @@ FEATURES             Location/Qualifiers
                      SMVDIYTLGGLLKGPDIQKGVEALEVLWKAVLNVPEGWPDDKDLPMNPHRCAAVIFNFE
                      LWPGAEFPSPKAYLPAHYYGRPDLEIADGMDYFFKQQGLDGVYGSYKENYLKCLSEVRT
                      HRTNSQPSTMIFLFHSKGPMPTLRCTTSPSYL"
+                     /Pfam="Trp_DMAT"
      CDS             join(24802..25608,25701..26044,26129..26363)
                      /codon_start=1
                      /gene="nodY2"
                      /product="FAD-dependent monooxygenase NodY2"
-                     /label=nodY2
+                     /label="nodY2"
                      /note="NodY2; nodulisporic acid biosynthesis protein"
                      /protein_id="AUM60057.1"
                      /translation="MAPDRLGPEGTARPNSSGISVIVVGLGIAGLTAAIECHRKGHSVI
@@ -225,13 +235,14 @@ FEATURES             Location/Qualifiers
                      HPFFPTSGQGGAQAMEDAAVLAICLELAGKGNIPLALHATEKIRKSRASVLQLNRTYSE
                      GVQLAPALPKSKDSMSVPNVPVMDWIWHHCCQSYAYDEFDKVAEAIQSGSEYIPHNLPE
                      DGT"
+                     /Pfam="FAD_binding_3"
      CDS             join(27102..27296,27357..28076,28159..28661,28756..28945)
                      /codon_start=1
                      /gene="nodZ"
                      /product="cytochrome P450 monooxygenase NodZ"
-                     /label=nodZ
-                     /note="NodZ; nodulisporic acid biosynthesis protein
-                     revised sequence"
+                     /label="nodZ"
+                     /note="NodZ; nodulisporic acid biosynthesis protein revised
+                     sequence"
                      /protein_id="AUM60058.1"
                      /translation="MITASTSVFGGLILAFIFSLLYKNKKTRIPAEIDRVRTGGFLAHI
                      RAFGCRLGTRVDDIRNGYNKFNKNGKPFVIQDSTFIPQVVIPPQYLGWLKEQPEKALSA
@@ -243,6 +254,7 @@ FEATURES             Location/Qualifiers
                      PQGTWITTALANIHHDARFYSNPTEYQPFRFVARDAFHTEGKEGSEKVLQPSEAILTST
                      IDERLLTFGYGRRACPGRWFASHILKMLIAYITINYDIQPLTGPPKKVKFADFTVPSPS
                      IKIIVRRKNLAYLRQRER"
+                     /Pfam="p450"
 ORIGIN
         1 ttatgcccag atatttccag cccggggttc gaaaacaaga gaaaacgctg gtatatgaat
        61 tatatagcaa tcgtatgctg gcgcagaggc ttcatggctc atcggccgcc caggcagaag

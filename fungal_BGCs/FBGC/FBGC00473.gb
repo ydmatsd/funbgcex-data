@@ -1,24 +1,24 @@
-LOCUS       FBGC00473       33266 bp DNA     linear   UNA 10-MAR-2023
+LOCUS       FBGC00473              33266 bp    DNA     linear   UNA 10-MAR-2023
 DEFINITION  penitrem A.
 ACCESSION   FBGC00473
-VERSION     .
+VERSION     FBGC00473
 KEYWORDS    .
 SOURCE      Penicillium simplicissimum AK-40
   ORGANISM  Penicillium simplicissimum AK-40
+            .
 REFERENCE   1  (bases 1 to 33266)
-  AUTHORS   Liu C, Tagami K, Minami A, Matsumoto T, Frisvad JC, Suzuki H, 
+  AUTHORS   Liu C, Tagami K, Minami A, Matsumoto T, Frisvad JC, Suzuki H,
             Ishikawa J, Gomi K, Oikawa H.
-  TITLE     Reconstitution of biosynthetic machinery for the synthesis of the 
+  TITLE     Reconstitution of biosynthetic machinery for the synthesis of the
             highly elaborated indole diterpene penitrem.
   JOURNAL   Angew Chem Int Ed Engl 2015;54:5748-52
-  PUBMED    25831977
+   PUBMED   25831977
 REFERENCE   2  (bases 1 to 33266)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Mar 10, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1002/anie.201501072"; journalName: "Angew Chem Int Ed Engl"; 
+  JOURNAL   Exported Mar 10, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1002/anie.201501072"; journalName: "Angew Chem Int Ed Engl";
             date: "2015"; volume: "54"; pages: "5748-52"
 FEATURES             Location/Qualifiers
      source          1..33266
@@ -30,7 +30,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="ptmG"
                      /product="geranylgeranyl pyrophosphate synthase PtmG"
-                     /label=ptmG
+                     /label="ptmG"
                      /protein_id="BAU61549.1"
                      /translation="MLFLAPGYIFPHVATPVTVAIDFAQAVKEGAYSFLDLKASPVPNP
                      ELFQPPSRVSIGMTGGREERNEEIIRGPLNYLLSLPGKDIRGKLIDALNEWFRVPEDKL
@@ -39,11 +39,12 @@ FEATURES             Location/Qualifiers
                      LNSEVTVNFSSFINLLGIIFQIRDDYMNLQSGTMTKTKGFSEDLTEGKFGYPIIHSIHA
                      APNDQQLIQILKLKTNDEVIKQYAVRYIESTGSFIYCREKLDLYLQEANETFQGLELLL
                      GPSKGIRAILNFLRTR"
+                     /Pfam="GGPS"
      CDS             join(2559..2768,2844..3223,3276..3699,3752..4450)
                      /codon_start=1
                      /gene="ptmT"
                      /product="major facilitator superfamily transporter PtmT"
-                     /label=ptmT
+                     /label="ptmT"
                      /protein_id="BAU61550.1"
                      /translation="MPDSGNIQLDTLQHKDHSQETTSHYEGGSQLPEQESLDTNIQDDS
                      VEYPGLIRVILITMGVALCSFCVGLDNTILATAIPKITSEFNSLEDMSWYVSAYLLVTS
@@ -55,11 +56,12 @@ FEATURES             Location/Qualifiers
                      CSTFQRSSGSAEWIGYQAMIGMGAGLGYQLPLLVVQADVPAADVPVATAVVIFMQNLAG
                      SIFSAIAQTVFQNQLANSVQILAPSVNPESILDGGTVDLSDRFPSDVLPSILQAYNTAV
                      THTFYAGVAAASLSVFGAFIVRWNVSVKKKVPPEPLVPGGSHSGAERDSKNGT"
+                     /Pfam="MFS_1"
      CDS             complement(4844..6328)
                      /codon_start=1
                      /gene="ptmV"
                      /product="acetyltransferase PtmV"
-                     /label=ptmV
+                     /label="ptmV"
                      /protein_id="BAU61551.1"
                      /translation="MSKPLFEAYPLTGLDHTIPPCYVRFLLTFPVPDVALAVNQLQKGA
                      ENLIEKLPFLAGYLASCETPGVRPGQLEIRPPAGERRPVCLVAHHSNSYLADSSATSTT
@@ -70,32 +72,35 @@ FEATURES             Location/Qualifiers
                      KPGDDDPLGAQCYETAKRLGREAWEAALVRIALAIRRKLNTINASYVRSVISYLEDVPD
                      LSTVAFGQTDYHISSWRDIGVYEADFGGHMGHPSEMRVPDGMVDGMFYILPRRQGTHPC
                      WEIHVTIHQDTMKRLIADPVWARYTVRKPSSLCRDE"
+                     /Pfam="Transferase"
      CDS             complement(join(7237..7272,7330..7673,7724..8159))
                      /codon_start=1
                      /gene="ptmH"
                      /product="short-chain dehydrogenase/reductase PtmH"
-                     /label=ptmH
+                     /label="ptmH"
                      /protein_id="BAU61552.1"
                      /translation="MERRTVLITGCSQGGIGSALAEAFHQRGFHVFATARKTEKMTHLR
                      DLDWMTLIPLDVTQESQISAAVELIQKHTGGTLDYLVNNAGDGYIIPVLDCDQVHGRQI
                      FEVNFWGPLRMIQEFSPLLIAARGTIVNINSVASETLPLWLGIYSSSKAALLALSETLR
                      LELKPFGVQVLSVMTGAVQTMIFQTNYRLPPDSAYVAWEKQIAAQAEGSEQASRMSATV
                      YAERVVGDILNRRGGITYRGQMASFAYWVVALMPRFLRDLVTVKMAGIS"
+                     /Pfam="adh_short"
      CDS             complement(8552..9013)
                      /codon_start=1
                      /gene="ptmI"
                      /product="hypothetical protein PtmI"
-                     /label=ptmI
+                     /label="ptmI"
                      /protein_id="BAU61553.1"
                      /translation="MSSFKSQCEIIIDKPAHVVYDFVTTVSNWIGIHPACKGIEGDDGL
                      DKEATVGLRFTETIDVRGWVFQCHWEVRKMVKDQYFEFSLPTDFILPPVYNTIITYIFD
                      PIGDNKTRFIRTMINCTNADATPEQKADFADTDMHTDYLNAVKARLEMS"
+                     /Pfam="Polyketide_cyc2"
      CDS             join(10326..10490,10538..11017,11070..11316,11391..11774,
                      11846..12202,12252..12421)
                      /codon_start=1
                      /gene="ptmN"
                      /product="FAD-dependent halogenase PtmN"
-                     /label=ptmN
+                     /label="ptmN"
                      /protein_id="BAU61554.1"
                      /translation="MKVAVIGGGPSGLVTLKYLLAAHHFQPVDPIEVQLFESEDRVGGT
                      FSYRTYDRAELVSSAQLTTFSDYRWHDKSVDYLSAAEYVEYLEGYCDRFGLWPHIRLST
@@ -108,11 +113,12 @@ FEATURES             Location/Qualifiers
                      LFSNPSGRIEYGVDHDMFAHRLALDIGAAPSFFQALAHGWQVTVFWAMGGTLNTKFRLV
                      GPWAWSGAPRIICDELLDTVTGRRSTIELLTQLIMTAIVCGIPSILLFLADLLVALSIR
                      IYQAISVVSSRPSKGDSAVTENRG"
+                     /Pfam="FMO-like"
      CDS             join(13614..14767,14838..14967)
                      /codon_start=1
                      /gene="ptmD"
                      /product="DMATS-type prenyltransferase PtmD"
-                     /label=ptmD
+                     /label="ptmD"
                      /protein_id="BAU61555.1"
                      /translation="MTNSLLTIGDMVQGVELPDADRQFWWDSLAPILSRMLQCSKYSVE
                      SQANILSFFKDFIVPSYGPRPSIGGEFFWKSYVTYNHTPGQVSFNFHKDKCTVRLSNVP
@@ -122,11 +128,12 @@ FEATURES             Location/Qualifiers
                      GRLNDAETQRGLAVLKRLWHLALSIPEDHDENQDLPPCPHLTAGVIYNYELRENSAKPE
                      AKIYIPVRFYGSGDGKVIEGLVDFFKSEGWDELARSYQRDFVSVFSTPDGKMAGEHHDI
                      SFSYKNEHPYVTAYYRPELIRPMERHIV"
+                     /Pfam="Trp_DMAT"
      CDS             complement(join(15444..16206,16257..16600))
                      /codon_start=1
                      /gene="ptmA"
                      /product="hypothetical protein PtmA"
-                     /label=ptmA
+                     /label="ptmA"
                      /protein_id="BAU61556.1"
                      /translation="MSRVIRSILIILGSVALYTKYYLSFQNGFIDLLSTMGSQGSLAGL
                      QSGLRSHYTGLDPLDRFLKACNVFFWPIFHGTSPALSLYAIAFAGSMIPMWLILLMHTC
@@ -135,13 +142,14 @@ FEATURES             Location/Qualifiers
                      PQQLFRHAYAFALACSIISHVGLLSISFLSVSPQSPFLSLHSADLHPRSLLIPRLPWQE
                      VKITSLESGVLRFLHWDYSISSTGTLLWCYDVYWKDRMRGRGWIAFFSLSSRLATMSLA
                      FGPCSVALALYWAALSNNLMKSENARKR"
+                     /Pfam="CtvD"
      CDS             join(17013..17108,17168..17272,17322..17450,17516..17708,
                      17762..17948,18002..18224,18280..18457,18525..18768,
                      18825..19014)
                      /codon_start=1
                      /gene="ptmQ"
                      /product="cytochrome P450 monooxygenase PtmQ"
-                     /label=ptmQ
+                     /label="ptmQ"
                      /protein_id="BAU61557.1"
                      /translation="MDYVAQSPWIATLIVTATTYCTLRWVQYWRSWVNVPVVGRRGFLG
                      SWISTILWTWEARGCIQKGYEKNKDFAFQVSTPNGWEVCICNDDMIKEYKNLMDDQMSA
@@ -152,12 +160,13 @@ FEATURES             Location/Qualifiers
                      HGGWTKSAIESMTKLDSFIKEAQRFNPLDAASLARQATRDFQFSNGLKLPRGTWVFAPN
                      GPMLFDESLYPAGSQFDGLRFWKLAEQTQRPHDYRLVTASSKYLQFGDGRHTCPGRFMA
                      ADEIRLIVAHTLFHFDIAIKNHGPRPRNTTFKKICFPDMSAEIMLRPRKLHGSEGN"
+                     /Pfam="p450"
      CDS             complement(join(19433..19921,19987..20357,20422..20693,
                      20760..21052))
                      /codon_start=1
                      /gene="ptmM"
                      /product="FAD-dependent monooxygenase PtmM"
-                     /label=ptmM
+                     /label="ptmM"
                      /protein_id="BAU61558.1"
                      /translation="MNKDKFHVIIVGGSIAGLTLAHCLHRAGISHVVLEKASEPAPQIG
                      ASVGILPNGARVLDQLQLYETIEKYIEPLETATIGYPDGFSFSSSYPKLVNERFGFPIA
@@ -168,22 +177,24 @@ FEATURES             Location/Qualifiers
                      KQTQPPTNAQIERLLAQYREVRYPRVNSIYKTSRFLVRFQARDGIFNTLFGRYYAPHAG
                      DLPADMASKTIAGGELCAYLPSPNRCSYGWEKYKNSGLGRTVWCVLVLLLSALTWSCVG
                      NMNIIMELPKRVSMKR"
+                     /Pfam="FAD_binding_3"
      CDS             complement(join(21577..21790,21845..22362))
                      /codon_start=1
                      /gene="ptmB"
                      /product="terpene cyclase PtmB"
-                     /label=ptmB
+                     /label="ptmB"
                      /protein_id="BAU61559.1"
                      /translation="MDGFDVSQAPPEYRSVEPIANLFVLGMGLGWLINYVGMIYQSFKD
                      ETYGMAIMPLCCNIAWEIVYSLIYPSKSLTEQGVFIAGLTINIGVMYAAIKFAPKEWSH
                      APLVMRNLSLIFFLATLGFLTGHLALAAEIGHSLAYSWGAVVCQLLLSVGGLCQLLCRG
                      CTRGASYTLWLSRFLGSSCTVGFASLRWMYWPESFSWLNSPLVLWSLALFLTVDGSYGI
                      CYWYVRQYELSLKEAEGRKSK"
+                     /Pfam="Pyr4"
      CDS             join(22929..23282,23343..23695,23754..24075)
                      /codon_start=1
                      /gene="ptmC"
                      /product="prenyltransferase PtmC"
-                     /label=ptmC
+                     /label="ptmC"
                      /protein_id="BAU61560.1"
                      /translation="MTTMLTTPLSGWSQLSLSFLTLTVGALALIVVLYISIDRFPAPRW
                      LSKKYQLIGQKDPASTTSLECPYSYIRQIYGHYHWAPFVHKLSPTLQYDDPAKYKMVLE
@@ -192,12 +203,13 @@ FEATURES             Location/Qualifiers
                      LEDRSMDDTMTLVAWYSQLQNDCKNVYSTEYAKMKGAIAEDLSNGELSYPIVLAMNAPD
                      GHWVDLALQSPSPWNVRNALRVIRSDKVHQMCMAEMAESSSSIQDWLALWGRKEKLDLK
                      SV"
+                     /Pfam="PaxC"
      CDS             complement(join(26540..26955,27012..27634,27700..27761,
                      27813..28052))
                      /codon_start=1
                      /gene="ptmP"
                      /product="cytochrome P450 monooxygenase PtmP"
-                     /label=ptmP
+                     /label="ptmP"
                      /protein_id="BAU61561.1"
                      /translation="MTVMVSQIESIGQIVRDEVTVIWILMALVLLAYLILPNPTYRTNV
                      KVPTVRYLGGWIPDQVDRLFFNTKATSVIYDGYKQYKKKAYKVLKADGDLVVLSTRKSS
@@ -207,12 +219,13 @@ FEATURES             Location/Qualifiers
                      TTQAHLIGLKGMDSFLKESQRFNPPGELSFHRVVKHDLTLSDGLFLPKGTHICMAAGPI
                      SRDADVMSDPDVFDAFRFVKENRPTSGFVSTGVTNMHFGLGRYACPGRFFAAFVMKAIL
                      SRFLTNYDFRFGPDQKDRPKNMMIGDKIVPNVSTPIFIRKRTTSQPL"
+                     /Pfam="p450"
      CDS             complement(join(29133..29395,29454..29786,29848..30001,
                      30061..30318))
                      /codon_start=1
                      /gene="ptmS"
                      /product="short-chain dehydrogenase/reductase PtmS"
-                     /label=ptmS
+                     /label="ptmS"
                      /protein_id="BAU61562.1"
                      /translation="MTQTRKLVTVYGATGNQGRSVVKSLLRAPDSFEVRAITRDPNSVA
                      AQELSILGANLVQADGSQSNQMTEAFQGSWAVFLNINSDDPVFWDPKGPTEFDYGKRII
@@ -220,12 +233,13 @@ FEATURES             Location/Qualifiers
                      LENFLFKQGAFIMGGFPWETDAEGYLTWKVPYWGGEEQIPFLSVADDFGDIVHGILISP
                      SEYHLQVVQAMSEITDYQKMTEAFAKVTGKKTRFQPVLPTWKAFDASGNQGFEDVKSMF
                      GFTQETQGHYFGREATDDQVSKNLKASAVLDYKESQQSPSLKTVRAWFAREFAA"
+                     /Pfam="NmrA"
      CDS             join(31440..31640,31704..31820,31881..31983,32046..32114,
                      32170..32769,32830..33266)
                      /codon_start=1
                      /gene="ptmU"
                      /product="cytochrome P450 monooxygenase PtmU"
-                     /label=ptmU
+                     /label="ptmU"
                      /protein_id="BAU61563.1"
                      /translation="MMSDVNAWWVGGSLLLGIWAIVVFFSPDPLAQYPVINSKRPGELF
                      YTQSKIRFITQARSLLKEGLSKTNNAFRLVTNNRILLVLHSKYRNELRDHKSLNNTKPP
@@ -236,6 +250,7 @@ FEATURES             Location/Qualifiers
                      AIYNLKLLDSVLKESQRLKPMQIISLYRYVTADITLSDGTLIPKGTYIAMIDDHSLDPN
                      SSYTNGDRYDGYRFINMREVPERSHQTQLVSVSSDHTGFGFGNHACPGRFFAATELKIA
                      LCHLLLKYDLKLGDQKPQAMTYGFGLSSDPFTQISVRRRQEEISLAGSKS"
+                     /Pfam="p450"
 ORIGIN
         1 ttaccttgtt ctcagaaagt tcaaaatcgc gcggattcct ttcgaggggc ccaacaacaa
        61 ctccaagccc tgaaaagtct catttgcttc ttgcaggtac aggtcaagct tttcccggca

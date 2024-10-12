@@ -1,24 +1,24 @@
-LOCUS       FBGC00492       27426 bp DNA     linear   UNA 25-MAR-2023
+LOCUS       FBGC00492              27426 bp    DNA     linear   UNA 25-MAR-2023
 DEFINITION  ustiloxin B.
 ACCESSION   FBGC00492
-VERSION     .
+VERSION     FBGC00492
 KEYWORDS    .
 SOURCE      Aspergillus flavus NRRL 3357
   ORGANISM  Aspergillus flavus NRRL 3357
+            .
 REFERENCE   1  (bases 1 to 27426)
   AUTHORS   Umemura M, Nagano N, Koike H, Kawano J, Ishii T, Miyamura Y, Kikuchi
             M, Tamano K, Yu J, Shin-ya K, Machida M.
-  TITLE     Characterization of the biosynthetic gene cluster for the 
-            ribosomally synthesized cyclic peptide ustiloxin B in Aspergillus 
+  TITLE     Characterization of the biosynthetic gene cluster for the
+            ribosomally synthesized cyclic peptide ustiloxin B in Aspergillus
             flavus.
   JOURNAL   Fungal Genet Biol 2014;68:23-30
-  PUBMED    24841822
+   PUBMED   24841822
 REFERENCE   2  (bases 1 to 27426)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Mar 25, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
+  JOURNAL   Exported Mar 25, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
             "10.1016/j.fgb.2014.04.011"; journalName: "Fungal Genet Biol"; date:
             "2014"; volume: "68"; pages: "23-30"
 FEATURES             Location/Qualifiers
@@ -30,10 +30,10 @@ FEATURES             Location/Qualifiers
      CDS             complement(join(1..357,422..814))
                      /codon_start=1
                      /gene="ustO"
-                     /product="pyridoxamine phosphate oxidase family protein 
+                     /product="pyridoxamine phosphate oxidase family protein
                      UstO"
                      /function="ustiloxin B biosynthesis"
-                     /label=ustO
+                     /label="ustO"
                      /note="AFLA_094940"
                      /protein_id="FAA01138.1"
                      /translation="MPIFYESLSDNLRDWALRQPLFFVSSAPCRGRHINVSPKGLPDSS
@@ -47,7 +47,7 @@ FEATURES             Location/Qualifiers
                      /gene="ustF1"
                      /product="FAD-dependent monooxygenase UstF1"
                      /function="ustiloxin B biosynthesis"
-                     /label=ustF1
+                     /label="ustF1"
                      /note="AFLA_094950, boundary was corrected"
                      /protein_id="FAA01139.1"
                      /translation="MTVSQVRRVAVIGAGISGVVSTAHLVAAGFEVTVFERNQQTGGIW
@@ -59,13 +59,14 @@ FEATURES             Location/Qualifiers
                      ANNTILVTNGTQVHNIHRDIFYIPDPTLAFVGIPYFNTTFTLFEFQAIAVTAVWSRTAC
                      LPSTTEMRREYLVKQKQTGGGRKFHSLKDKEKEYVRDLMAWINDGRNAHGLVPIEGHTA
                      AWFEAMDKLWDEARAAMKERKEQQEKIIKRIPFSADCTSVELPHLN"
-     CDS             join(3182..3374,3432..3613,3686..3807,3893..4285,4342..4840,
-                     4897..5010)
+                     /Pfam="FMO-like"
+     CDS             join(3182..3374,3432..3613,3686..3807,3893..4285,
+                     4342..4840,4897..5010)
                      /codon_start=1
                      /gene="ustC"
                      /product="cytochrome P450 monooxygenase UstC"
                      /function="ustiloxin B biosynthesis"
-                     /label=ustC
+                     /label="ustC"
                      /note="AFLA_094960, boundary was corrected"
                      /protein_id="FAA01140.1"
                      /translation="MSPFIFAVTLTFAILALGILRRRYFHPLSRFPGPFLGSVTSLYQT
@@ -77,12 +78,13 @@ FEATURES             Location/Qualifiers
                      LSAIISDEQAHRLPFLSACIREAQRYAPTMSQLPRYAPEGTGLELHEQYVPPGTSVSTS
                      PWIIGRNKDLYGEDANSFRPERWLEASPEEERRWDHFSFHFGYGARKCLANNFGLMQLY
                      KVAAEVFRRFEVKVEGSNEDTVSGGPPASARFRFDRRARSWS"
+                     /Pfam="p450"
      CDS             join(5753..5815,5872..6522)
                      /codon_start=1
                      /gene="ustA"
                      /product="ustiloxin proprotein UstA"
                      /function="ustiloxin B biosynthesis"
-                     /label=ustA
+                     /label="ustA"
                      /note="AFLA_094980"
                      /protein_id="FAA01141.1"
                      /translation="MKLILTLLVSGLCALAAPAAKRDGVEDYAIGIDKRNSVEDYAIGI
@@ -96,7 +98,7 @@ FEATURES             Location/Qualifiers
                      /gene="ustYa"
                      /product="DUF3328 protein UstYa"
                      /function="ustiloxin B biosynthesis"
-                     /label=ustYa
+                     /label="ustYa"
                      /note="AFLA_094990, boundary was corrected"
                      /protein_id="FAA01142.1"
                      /translation="MFSYFFRSREIKMAERSSNGYKEVPVRHSEESTIAEEEKDTLLED
@@ -104,13 +106,14 @@ FEATURES             Location/Qualifiers
                      KLFVFQTLYGEPLNPEAEKAWDELMPIGRGFVNINNDTALPDQPGLDQSLPQQRAMISV
                      FHQLHCIYMTREGYYAAREGNLDQVNAAHLMHCWDYLRQAIMCHADTTLEWIPAPPNDK
                      GSTGWGVEHTCGDFDAIARWAEDNRLKTTYGIH"
+                     /Pfam="UstYa"
      CDS             join(8472..8481,8542..8796,8869..9001,9054..9963,
                      10011..10523)
                      /codon_start=1
                      /gene="ustP"
                      /product="peptidase UstP"
                      /function="ustiloxin B biosynthesis"
-                     /label=ustP
+                     /label="ustP"
                      /note="AFLA_095000 and AFLA_095010 were concatenated to
                      single gene"
                      /protein_id="FAA01143.1"
@@ -125,13 +128,14 @@ FEATURES             Location/Qualifiers
                      RSIVFGGRPRAAPMQLLGGSKGGQYWSLVTISHYIKKAREIAVNASGAGSPILSEDELA
                      RFLELAPPPLTGFPIRIDSRGGSGVNFRNEYDEKDPTTPLQFVYEAADCRLFWTAENYV
                      FPESSWVAAADAMFGDASCVEESDGHHITP"
+                     /Pfam="Peptidase_S41"
      CDS             complement(join(10624..10947,11016..11131,11185..11292,
                      11366..11597))
                      /codon_start=1
                      /gene="ustYb"
                      /product="DUF3328 protein UstYb"
                      /function="ustiloxin B biosynthesis"
-                     /label=ustYb
+                     /label="ustYb"
                      /note="AFLA_095020, boundary was corrected"
                      /protein_id="FAA01144.1"
                      /translation="MSDLYAHRESDEYLLKPEHFAEKKNRPKRWDCLRPIIYTSLAFVG
@@ -139,13 +143,14 @@ FEATURES             Location/Qualifiers
                      MNNWLSYMPRGNGFIAVNQTERYTLPPPIKQLGQDTYSIAVFHQLHCLYAIMSVYDDLA
                      AAKSAADLNAHHSRDDTHSNEHPHEQVHVHSHDHVDHCFQYLRQSLLCCGDTALEGQDP
                      RTDNPGTDGTGAVHICKDFEGILAWADSRRLVDAKHN"
+                     /Pfam="UstYa"
      CDS             join(12040..12288,12343..12376,12434..12575,12635..13217,
                      13281..13575,13632..14104)
                      /codon_start=1
                      /gene="ustH"
                      /product="gamma-glutamyltranspeptidase UstH"
                      /function="ustiloxin B biosynthesis"
-                     /label=ustH
+                     /label="ustH"
                      /note="AFLA_095030"
                      /protein_id="FAA01145.1"
                      /translation="MASKWIEEQPLVHRRDIRISRKSRIAAGLLVLLVLWRYGLPSSIH
@@ -159,12 +164,13 @@ FEATURES             Location/Qualifiers
                      GKRPLSAISPAIILHPDGSLFLIAGSAGSNWITTTTVQNIISGIDQNLAAQEILATPRV
                      HHQLIPNHAIFETTYDNGTVDFLSQLGHEVTWYPPAASMAHLIRVNADGGFDPAGDPRL
                      KNSGGVVALQRRKFW"
+                     /Pfam="G_glu_transpept"
      CDS             complement(join(14212..15188,15257..15387,15453..15664))
                      /codon_start=1
                      /gene="ustD"
                      /product="PLP-containing enzyme UstD"
                      /function="ustiloxin B biosynthesis"
-                     /label=ustD
+                     /label="ustD"
                      /note="AFLA_095040"
                      /protein_id="FAA01146.1"
                      /translation="MKSVATSSLDDVDKDSVPLGSSINGTAQAETPLENVIDVESVRSH
@@ -175,13 +181,14 @@ FEATURES             Location/Qualifiers
                      NHYFVSSSSLDGKLALGMPSFELQLMCSPIVSYLQDTVGWDRIVRQETVLVTILLEYLL
                      SKPSVYRVFGRRNSDPSQRVAIVTFEVVGRSSGDVAMRVNTRNRFRITSGICLAPRPTW
                      DVLKPKSSDGLVRVSFVHYNTVEEVRAFCSELDEIVTRDT"
+                     /Pfam="Aminotran_5"
      CDS             join(15929..16062,16120..16242,16310..16580,16629..16775,
                      16826..17578)
                      /codon_start=1
                      /gene="ustF2"
                      /product="FAD-dependent monooxygenase UstF2"
                      /function="ustiloxin B biosynthesis"
-                     /label=ustF2
+                     /label="ustF2"
                      /note="AFLA_095050, boundary was corrected"
                      /protein_id="FAA01147.1"
                      /translation="MANPQTTRVAVVGAGISGVLAAGHLLATGLEVTVFERNAAPGGVW
@@ -193,13 +200,14 @@ FEATURES             Location/Qualifiers
                      ENILITDGTQVHNLYQDIFYIPDPTLVFVGLPYYTFTFSIFDFQAIVVAQVLSGTVQLP
                      TETEMRSEYNAKVERVGLGKVFHSILGTEENYVHDLLTWVNTSRAAQELVAIKGFSPRW
                      YEAKEALRQKYRAQVNK"
+                     /Pfam="FMO-like"
      CDS             join(17793..17893,17952..18229,18297..18393,18468..18844,
                      18919..19142)
                      /codon_start=1
                      /gene="ustQ"
                      /product="tyrosinase UstQ"
                      /function="ustiloxin B biosynthesis"
-                     /label=ustQ
+                     /label="ustQ"
                      /note="AFLA_095060"
                      /protein_id="FAA01148.1"
                      /translation="MAVEYFQEKLNKWRYSPVAGSPDEEGGNATVKPKASFVPVYAGLT
@@ -209,13 +217,14 @@ FEATURES             Location/Qualifiers
                      ARGFRDGDQAGRISGEYYRPESIGGILRKQSYVELVREVEIYLHNPLHQGVNGDFLAMT
                      AANDPLFYVHHAQLDRLWWRWQQESPDIRLKEYHGKHMYNSTGNATLDDILMYGGFAED
                      IPVSRVMDTKGGFLCYTY"
+                     /Pfam="Tyrosinase"
      CDS             complement(join(19266..19739,19798..20224,20292..20424,
                      20493..20606,20663..21056))
                      /codon_start=1
                      /gene="ustT"
                      /product="major facilitator superfamily transporter UstT"
                      /function="ustiloxin B biosynthesis"
-                     /label=ustT
+                     /label="ustT"
                      /note="AFLA_095070, boundary was corrected"
                      /protein_id="FAA01149.1"
                      /translation="MSGTSPPTPRDHITMVDHDYSDCSEDVSLIGADREHRRSPTPDGL
@@ -227,12 +236,13 @@ FEATURES             Location/Qualifiers
                      ITLQYAAAKFHWKFDKASLLVSLRAGVNLFVLAAIIPALSYILVKRFKLNDVVKDKRIT
                      QINGVCLIIGSFVMFLAASPGTLVFGQTVFALGFAFSVTARSFLTGMVDPMHIGTVFTG
                      VTTMLYGGLVIGSPMLAKTLQWGLQLGGIWVGLPFLLAAVLFTLALGAISAARSY"
+                     /Pfam="MFS_1"
      CDS             join(23248..24081,24142..25074)
                      /codon_start=1
                      /gene="ustR"
                      /product="transcription factor UstR"
                      /function="ustiloxin B biosynthesis"
-                     /label=ustR
+                     /label="ustR"
                      /note="AFLA_095080-AFLA_095090 were concatenated to single
                      gene"
                      /protein_id="FAA01150.1"
@@ -247,12 +257,13 @@ FEATURES             Location/Qualifiers
                      VHTYIFAHASFVHLHTVVSGAQPSVPEIRQSIDKSLAAWQLLPPSLINFKTMAWPFCVC
                      GSMAVGSQRELFQKIMSENFQNQSTSSNLHCLKSVVEECWKNFDKRVPEQSPSSYNWKV
                      VMEKLNLSILFI"
+                     /Pfam="Zn_clus, Fungal_trans_2"
      CDS             complement(25381..26271)
                      /codon_start=1
                      /gene="ustM"
                      /product="methyltransferase UstM"
                      /function="ustiloxin B biosynthesis"
-                     /label=ustM
+                     /label="ustM"
                      /note="AFLA_095100, boundary was corrected"
                      /protein_id="FAA01151.1"
                      /translation="METILSSCLYDPNLKTKFYIPRFTHRLLIAHAWGITPGQKILDIG
@@ -261,12 +272,13 @@ FEATURES             Location/Qualifiers
                      LEEQNVHALAAQTQRLFYRYRRPRAPGDLEQNVRAGLDQASILEAARGAGYRVVRDGKV
                      TPDPSFLEGHFEVQYVEGEKFMRRVKEEALTEAQESEILASLARLREVHEEWKRAGHET
                      VRNLDIWWAVLELGA"
+                     /Pfam="Methyltransf_31"
      CDS             join(26541..26598,26654..27426)
                      /codon_start=1
                      /gene="ustS"
                      /product="glutathione S-transferase UstS"
                      /function="ustiloxin B biosynthesis"
-                     /label=ustS
+                     /label="ustS"
                      /note="AFLA_095110, boundary was corrected"
                      /protein_id="FAA01152.1"
                      /translation="MTKTEESPLHFFDIFSTLPGTSKSWSSNVLKIRMVLNYKGIPYTQ
@@ -274,6 +286,7 @@ FEATURES             Location/Qualifiers
                      YPDPPLFPSGEASYALALAIGKLMVPAALKTCDLLLPKAEEVLDDRGKEYFVRTRTEIF
                      GKPLSELRPKTEEGVRALVDGMKADMEVFISMLRGRGEGKKCGPFLEGEKPGYADFILV
                      TFLSWSHRFDMELWKEIMDMGNGEFRALWHASVQWLEGQGEEKEWVVPQLSTVD"
+                     /Pfam="GST_N_3"
 ORIGIN
         1 ctaccattgg tattgcacat atcctaccca ctgtgcgact accatgacta aaaacataag
        61 cgccattccg gttttgatta tatcaagttg aaagtgatag taactggccc agtttgtcac

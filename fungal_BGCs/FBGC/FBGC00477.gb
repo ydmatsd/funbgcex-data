@@ -1,24 +1,24 @@
-LOCUS       FBGC00477        9723 bp DNA     linear   UNA 10-MAR-2023
+LOCUS       FBGC00477               9723 bp    DNA     linear   UNA 10-MAR-2023
 DEFINITION  aflatrem.
 ACCESSION   FBGC00477
-VERSION     .
+VERSION     FBGC00477
 KEYWORDS    .
 SOURCE      Aspergillus flavus NRRL 6541
   ORGANISM  Aspergillus flavus NRRL 6541
+            .
 REFERENCE   1  (bases 1 to 9723)
-  AUTHORS   Nicholson MJ, Koulman A, Monahan BJ, Pritchard BL, Payne GA, Scott 
+  AUTHORS   Nicholson MJ, Koulman A, Monahan BJ, Pritchard BL, Payne GA, Scott
             B.
   TITLE     Identification of two aflatrem biosynthesis gene loci in Aspergillus
             flavus and metabolic engineering of Penicillium paxilli to elucidate
             their function.
   JOURNAL   Appl Environ Microbiol 2009;75:7469-81
-  PUBMED    19801473
+   PUBMED   19801473
 REFERENCE   2  (bases 1 to 9723)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Mar 10, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
+  JOURNAL   Exported Mar 10, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
             "10.1128/AEM.02146-08"; journalName: "Appl Environ Microbiol"; date:
             "2009"; volume: "75"; pages: "7469-81"
 FEATURES             Location/Qualifiers
@@ -31,9 +31,9 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="atmD"
                      /product="DMATS-type prenyltransferase AtmD"
-                     /function="reverse prenylation of paspalinine in aflatrem 
+                     /function="reverse prenylation of paspalinine in aflatrem
                      biosynthesis"
-                     /label=atmD
+                     /label="atmD"
                      /db_xref="GOA:A9JPE1"
                      /db_xref="InterPro:IPR012148"
                      /db_xref="InterPro:IPR017795"
@@ -47,13 +47,15 @@ FEATURES             Location/Qualifiers
                      LGGRLSNPNIQTGVKELRKLWYAVLNLPSDFPESEDLPATDDLYQGWLVNYELRPNNPV
                      PEPKVYIPVAINNKDQDSIVQGLQEFFDRHESMDVRDYRDIFETLFLDAKNPTGIHHFI
                      TFSYKAHPYVTCYYKPHLEPVPAKELEESDVKGLSK"
-     CDS             complement(join(2262..2451,2514..2757,2813..2993,3053..3169,
-                     3214..3325,3379..3746,3820..3936,3989..4093,4146..4301))
+                     /Pfam="Trp_DMAT"
+     CDS             complement(join(2262..2451,2514..2757,2813..2993,
+                     3053..3169,3214..3325,3379..3746,3820..3936,3989..4093,
+                     4146..4301))
                      /codon_start=1
                      /gene="atmQ"
                      /product="cytochrome P450 monooxygenase AtmQ"
                      /function="aflatrem biosynthesis"
-                     /label=atmQ
+                     /label="atmQ"
                      /db_xref="GOA:A9JPE2"
                      /db_xref="InterPro:IPR001128"
                      /db_xref="InterPro:IPR002401"
@@ -70,12 +72,13 @@ FEATURES             Location/Qualifiers
                      KGLHIPEGTFVFTPNSPVLFDEKHYPDAQQFDGYRFYRLGRVTGRPLEYKFIAANLKYL
                      QFGDGRHICPGRFMAADEIRLLLAHILVNYDIRPKDDGERPPNWTFKKILFPDMKGMVQ
                      LKRRSINISQPN"
+                     /Pfam="p450"
      CDS             complement(join(5092..5305,5367..5884))
                      /codon_start=1
                      /gene="atmB"
                      /product="terpene cyclase AtmB"
                      /function="aflatrem biosynthesis"
-                     /label=atmB
+                     /label="atmB"
                      /db_xref="UniProtKB/TrEMBL:A9JPE3"
                      /protein_id="CAP53939.1"
                      /translation="MDGFGSSQAPAAYREVEWIADVFVIGMGIGWIINYVGMVYGSLKG
@@ -83,12 +86,13 @@ FEATURES             Location/Qualifiers
                      APLVMHNLPLIFMLGILGFLTGHLALAAEIGPALAYNWGAAFCQLLLSVGGLCQLISRG
                      STRGASYTLWLSRFLGSFSVVISAWLRYKYWPQAFSWLGKPLILWCLFAWLVVDGSYGV
                      CFYYVKRYERRIGHDSDRKTV"
+                     /Pfam="Pyr4"
      CDS             join(6247..6593,6660..7413)
                      /codon_start=1
                      /gene="atmA"
                      /product="hypothetical protein AtmA"
                      /function="aflatrem biosynthesis"
-                     /label=atmA
+                     /label="atmA"
                      /db_xref="UniProtKB/TrEMBL:A9JPE4"
                      /protein_id="CAP53940.1"
                      /translation="MDSVLRYVFLLLAMTSFYMMYISLFNNGFFNLLSHQLATRALPGE
@@ -98,13 +102,14 @@ FEATURES             Location/Qualifiers
                      EASARRQVLSVYHFGFACSCLCHMAWLSAFVASKIQSLSQSSNFWYLCPYGVAFPLLNQ
                      PAQRLGALEAGLFTFLQWDYCVAAAATMVWSTDRYIQECHRAELEIDKFRLILRLLGWI
                      LIDGPSATAVRLIWESEGPSYLQNPN"
-     CDS             join(7888..8130,8182..8307,8369..8453,8513..8581,8632..9249,
-                     9305..9723)
+                     /Pfam="CtvD"
+     CDS             join(7888..8130,8182..8307,8369..8453,8513..8581,
+                     8632..9249,9305..9723)
                      /codon_start=1
                      /gene="atmP"
                      /product="cytochrome P450 monooxygenase AtmP"
                      /function="aflatrem biosynthesis"
-                     /label=atmP
+                     /label="atmP"
                      /db_xref="GOA:A9JPE0"
                      /db_xref="InterPro:IPR001128"
                      /db_xref="InterPro:IPR002403"
@@ -120,6 +125,7 @@ FEATURES             Location/Qualifiers
                      PKGTHICMASGPIGMDTKYVSDPTTFDAFRYVDGDKAQSQFVHTSATSMHFGLGRYACP
                      GRFFATFVLKAILSRFLVEYEFRFGPDQVGRPKNMLLGDKIVPNTSVDVYVRKRTGSRS
                      TA"
+                     /Pfam="p450"
 ORIGIN
         1 ctacttggaa agccccttca catctgactc ttctagttcc ttggctggaa ctggctccag
        61 gtgtggtttg tagtagcaag tgacatacgg atgggccttg taactgaagg taatgaagtg

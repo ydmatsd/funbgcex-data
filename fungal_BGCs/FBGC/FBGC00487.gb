@@ -1,47 +1,47 @@
-LOCUS       FBGC00487        2619 bp DNA     linear   UNA 11-MAR-2023
+LOCUS       FBGC00487               2619 bp    DNA     linear   UNA 11-MAR-2023
 DEFINITION  macrophomene.
 ACCESSION   FBGC00487
-VERSION     .
+VERSION     FBGC00487
 KEYWORDS    .
 SOURCE      Macrophomina phaseolina MS6
   ORGANISM  Macrophomina phaseolina MS6
+            .
 REFERENCE   1  (bases 1 to 2619)
-  AUTHORS   Tao H, Lauterbach L, Bian G, Chen R, Hou A, Mori T, Cheng S, Hu B, 
-            Lu L, Mu X, Li M, Adachi N, Kawasaki M, Moriya T, Senda T, Wang X, 
+  AUTHORS   Tao H, Lauterbach L, Bian G, Chen R, Hou A, Mori T, Cheng S, Hu B,
+            Lu L, Mu X, Li M, Adachi N, Kawasaki M, Moriya T, Senda T, Wang X,
             Deng Z, Abe I, Dickschat JS, Liu T.
   TITLE     Discovery of non-squalene triterpenes.
   JOURNAL   Nature 2022;606:414-419
-  PUBMED    35650436
+   PUBMED   35650436
 REFERENCE   2  (bases 1 to 2619)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Mar 11, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1038/s41586-022-04773-3"; journalName: "Nature"; date: "2022"; 
-            volume: "606"; pages: "414-419"
+  JOURNAL   Exported Mar 11, 2023 from SnapGene 6.2.1 https://www.snapgene.com
 COMMENT     ##Genome-Assembly-Data-START##
             Assembly Method       :: Newbler v. 2.5.3
             Assembly Name         :: MphMS6_1.0
             Genome Coverage       :: 66x
-            Sequencing Technology :: 454 GS FLX; Illumina GA IIx 
+            Sequencing Technology :: 454 GS FLX; Illumina GA IIx
             ##Genome-Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1038/s41586-022-04773-3"; journalName: "Nature"; date: "2022";
+            volume: "606"; pages: "414-419"
 FEATURES             Location/Qualifiers
      source          1..2619
                      /host="Corchorus olitorius"
                      /strain="MS6"
                      /mol_type="genomic DNA"
                      /country="Bangladesh: Dhaka"
-                     /collection_date=Sep-2010
+                     /collection_date="Sep-2010"
                      /db_xref="taxon:1126212"
                      /organism="Macrophomina phaseolina MS6"
                      /submitter_seqid="contig00085"
-     CDS             complement(join(1..324,379..463,517..577,630..731,946..1109,
-                     1157..1311,1361..2197,2251..2619))
+     CDS             complement(join(1..324,379..463,517..577,630..731,
+                     946..1109,1157..1311,1361..2197,2251..2619))
                      /codon_start=1
                      /locus_tag="MPH_02178"
                      /product="terpene synthase MpMS"
-                     /label=MpMS
+                     /label="MpMS"
                      /protein_id="EKG20455.1"
                      /translation="MCNTKCYNTLAKMTVITEPAMEYMYSVPLDESEYDKCGFCQDPRY
                      RPRRHKDQHLARAGSAKAKELCEALIGVYPRPTCESAVGHSIALVMPECMPGRVEAMGE
@@ -56,6 +56,7 @@ FEATURES             Location/Qualifiers
                      YFQIRDDLSNLTSEEYENQKGYCEDLDEGKYSLPLIHALKHTKNKVQLESLLIQRKTQG
                      GMTLEMKRLAIQIMKEAGSLEHTRKVVLELQDAVHRELAKLEEAFGQENYVIQLALERL
                      RIKA"
+                     /Pfam="Terpene_syn_C_2, GGPS"
 ORIGIN
         1 ctacgccttg atccttaacc tctcgagcgc aagctggatg acgtagtttt cctgtccgaa
        61 tgcctcttcg agctttgcga gttctctgtg gacggcgtct tgtagctcca gcaccacctt

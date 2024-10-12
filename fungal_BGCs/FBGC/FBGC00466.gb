@@ -1,24 +1,24 @@
-LOCUS       FBGC00466        7347 bp DNA     linear   UNA 10-MAR-2023
+LOCUS       FBGC00466               7347 bp    DNA     linear   UNA 10-MAR-2023
 DEFINITION  fumihopaside A.
 ACCESSION   FBGC00466
-VERSION     .
+VERSION     FBGC00466
 KEYWORDS    .
 SOURCE      Aspergillus fumigatus A1163
   ORGANISM  Aspergillus fumigatus A1163
+            .
 REFERENCE   1  (bases 1 to 7347)
   AUTHORS   Ma K, Zhang P, Tao Q, Keller NP, Yang Y, Yin WB, Liu H.
-  TITLE     Characterization and Biosynthesis of a Rare Fungal Hopane-Type 
-            Triterpenoid Glycoside Involved in the Antistress Property of 
+  TITLE     Characterization and Biosynthesis of a Rare Fungal Hopane-Type
+            Triterpenoid Glycoside Involved in the Antistress Property of
             Aspergillus fumigatus.
   JOURNAL   Org Lett 2019;21:3252-3256
-  PUBMED    30977375
+   PUBMED   30977375
 REFERENCE   2  (bases 1 to 7347)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Mar 10, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1021/acs.orglett.9b00984"; journalName: "Org Lett"; date: 
+  JOURNAL   Exported Mar 10, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1021/acs.orglett.9b00984"; journalName: "Org Lett"; date:
             "2019"; volume: "21"; pages: "3252-3256"
 FEATURES             Location/Qualifiers
      source          1..7347
@@ -30,7 +30,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="AFUB_071550"
                      /product="oxidosqualene cyclase AfumA"
-                     /label=afumA
+                     /label="afumA"
                      /note="encoded by transcript AFUB_071550A"
                      /protein_id="EDP50814.1"
                      /translation="MATLTTTMATTATMATTEASKPLEAQARTALTKATNYAWEIFSNR
@@ -46,11 +46,12 @@ FEATURES             Location/Qualifiers
                      AMAARAVKWLKQVQNSDGGWGESLLSYREPWRAGCGPSTPSQTAWALMGILTVCGGEDR
                      SVQRGVRHLVDTQDDTLSQGDGGAAAWTEREFTSTGFPNHFYISYTLYRVYFPITALGR
                      YLSLIEGGQEKKKKGGGT"
+                     /Pfam="SQHop_cyclase_N, SQHop_cyclase_C"
      CDS             join(2688..3795,3854..4120,4196..4347)
                      /codon_start=1
                      /locus_tag="AFUB_071560"
                      /product="cytochrome P450 monooxygenase AfumB"
-                     /label=afumB
+                     /label="afumB"
                      /note="encoded by transcript AFUB_071560A"
                      /protein_id="EDP50815.1"
                      /translation="MYTALGLAVFTALFHYTIVLAINHYRTREILSQLVKAHNCCPPKT
@@ -62,11 +63,12 @@ FEATURES             Location/Qualifiers
                      QEILDTIGTEPPTYDNIRKATYLRYVFNEAMRVYPPVPFNARTANRDTYLPAGGGPDGQ
                      SGVLIRKGQRVIFASWGSHRSTRSFGADALEFRPERWEGLKSESLGYIPFSAGPRVCLG
                      QQYALLEASYATIRIIQTFERLENRDVRPWTEKIGLNLSNKNGVLVELVH"
+                     /Pfam="p450"
      CDS             4894..6069
                      /codon_start=1
                      /locus_tag="AFUB_071569"
                      /product="glycosyltransferase AfumC"
-                     /label=afumC
+                     /label="afumC"
                      /note="encoded by transcript AFUB_071569A"
                      /protein_id="EDP50816.1"
                      /translation="MAIPTKERGSRLTDADILSDLQMYKPVTDSDTRNVWAFWDKGLSN
@@ -76,11 +78,12 @@ FEATURES             Location/Qualifiers
                      FMYAQFADYLAQVFCLERLRHLVDSKTGWDGPKFFEEKVLLFDCVTEAYWAQRLTDWNG
                      RKQYELLDLQRGEDGLDNARVKEAEALVQGVLSMSSTMKLSHGLVTAGREYLADIWDSP
                      KNHDADIRPGTFAAYLREASETFEQTKELVPLRMPVIEKALLRAGVTEVVR"
+                     /Pfam="Caps_synth"
      CDS             complement(join(6163..6225,6245..7126,7171..7347))
                      /codon_start=1
                      /locus_tag="AFUB_071570"
                      /product="transcription factor AfumD"
-                     /label=afumD
+                     /label="afumD"
                      /note="encoded by transcript AFUB_071570A"
                      /protein_id="EDP50817.1"
                      /translation="MLDRSKMTSAIPDSNSSSSPRGHNQSERDSYNRKKRKGPRLAHRK
@@ -90,6 +93,7 @@ FEATURES             Location/Qualifiers
                      SRHVVSYEQVSEWMRLVRGSVAVFDAAMEIVRHNTHPPNIWCIIDTFPMPLRTNSDAGS
                      FSFLLPTVPDDEDDETALEAYRGAVAHINATWLAMEAKEHPQISCRRLMVFPLFVTAGF
                      IDLLEKRRPRALVPCPHHYVTYGGSETLHTNTS"
+                     /Pfam="Zn_clus, Fungal_trans_2"
 ORIGIN
         1 ttaagtgcca ccacctttct tcttcttctc ctggcctcct tcgatcaaag aaagatacct
        61 ccccaacgcg gtaataggaa aataaactcg atacagcgta tacgagatgt agaaatggtt

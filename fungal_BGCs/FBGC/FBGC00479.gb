@@ -1,23 +1,23 @@
-LOCUS       FBGC00479        5315 bp DNA     linear   UNA 11-MAR-2023
+LOCUS       FBGC00479               5315 bp    DNA     linear   UNA 11-MAR-2023
 DEFINITION  lolitrem B.
 ACCESSION   FBGC00479
-VERSION     .
+VERSION     FBGC00479
 KEYWORDS    .
 SOURCE      Epichloe festucae Fl1
   ORGANISM  Epichloe festucae Fl1
+            .
 REFERENCE   1  (bases 1 to 5315)
   AUTHORS   Young CA, Felitti S, Shields K, Spangenberg G, Johnson RD, Bryan GT,
             Saikia S, Scott B.
-  TITLE     A complex gene cluster for indole-diterpene biosynthesis in the 
+  TITLE     A complex gene cluster for indole-diterpene biosynthesis in the
             grass endophyte Neotyphodium lolii.
   JOURNAL   Fungal Genet Biol 2006;43:679-93
-  PUBMED    16765617
+   PUBMED   16765617
 REFERENCE   2  (bases 1 to 5315)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Mar 11, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
+  JOURNAL   Exported Mar 11, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
             "10.1016/j.fgb.2006.04.004"; journalName: "Fungal Genet Biol"; date:
             "2006"; volume: "43"; pages: "679-93"
 FEATURES             Location/Qualifiers
@@ -31,7 +31,7 @@ FEATURES             Location/Qualifiers
                      /gene="ltmE"
                      /product="multifunctional aromatic prenyl transferase LtmE"
                      /function="indole-diterpene biosynthesis"
-                     /label=ltmE
+                     /label="ltmE"
                      /note="LtmE"
                      /protein_id="AFO85404.1"
                      /translation="MKPTTRCPFDYLVSQYGKHHFKTFVQLLSPLLQDEDPDRYALILD
@@ -48,13 +48,14 @@ FEATURES             Location/Qualifiers
                      LHDVWYSLLGESQGIVNEEYSKPLTGFSSMQHHLYFSYEMTPGNADPGVKVYIPVQSYA
                      PDDKTIAQNYEANFRQLNWPWGEPGVYEAVIESALGPVKHSRATFLHGGSSFIFSKGRG
                      VYQSIYLDPPLEEGGNIAVFEHHDDQDTIVDLGNM"
-     CDS             join(3370..3612,3676..3801,3869..3937,3987..4077,4147..4278,
-                     4341..4814,4873..5315)
+                     /Pfam="PaxC, Trp_DMAT"
+     CDS             join(3370..3612,3676..3801,3869..3937,3987..4077,
+                     4147..4278,4341..4814,4873..5315)
                      /codon_start=1
                      /gene="ltmJ"
                      /product="cytochrome P450 monooxygenase LtmJ"
                      /function="indole-diterpene biosynthesis"
-                     /label=ltmJ
+                     /label="ltmJ"
                      /note="LtmJ"
                      /protein_id="AFO85405.1"
                      /translation="MAFASLLHHIWNHAVDCAEQLTWWQTIVSFIIFCIMCSWLPGNGE
@@ -67,6 +68,7 @@ FEATURES             Location/Qualifiers
                      PRGTHVAFPAYHIGRDPKLVSGADIYDGLRWYRKDLGEAQENEAPKHRFVTPDSNYLTF
                      GSGKYVCPGRFIAEHMLKLMMTAVLLRYEFKWPPGVPVPEQQYRHVFAYPSKTTLLIKR
                      RKDGDQIL"
+                     /Pfam="p450"
 ORIGIN
         1 atgaaaccta ctactcgctg tccattcgac tatctggtga gccagtatgg aaagcatcat
        61 ttcaaaacct ttgtccagtt actgtcacct cttctccaag acgaagatcc cgacagatat

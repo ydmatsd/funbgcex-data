@@ -1,24 +1,24 @@
-LOCUS       FBGC00474       10191 bp DNA     linear   UNA 09-MAY-2023
+LOCUS       FBGC00474              10191 bp    DNA     linear   UNA 09-MAY-2023
 DEFINITION  penitrem A.
 ACCESSION   FBGC00474
-VERSION     .
+VERSION     FBGC00474
 KEYWORDS    .
 SOURCE      Penicillium simplicissimum AK-40
   ORGANISM  Penicillium simplicissimum AK-40
+            .
 REFERENCE   1  (bases 1 to 10191)
-  AUTHORS   Liu C, Tagami K, Minami A, Matsumoto T, Frisvad JC, Suzuki H, 
+  AUTHORS   Liu C, Tagami K, Minami A, Matsumoto T, Frisvad JC, Suzuki H,
             Ishikawa J, Gomi K, Oikawa H.
-  TITLE     Reconstitution of biosynthetic machinery for the synthesis of the 
+  TITLE     Reconstitution of biosynthetic machinery for the synthesis of the
             highly elaborated indole diterpene penitrem.
   JOURNAL   Angew Chem Int Ed Engl 2015;54:5748-52
-  PUBMED    25831977
+   PUBMED   25831977
 REFERENCE   2  (bases 1 to 10191)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported May 9, 2023 from SnapGene 6.2.2
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1002/anie.201501072"; journalName: "Angew Chem Int Ed Engl"; 
+  JOURNAL   Exported May 9, 2023 from SnapGene 6.2.2 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1002/anie.201501072"; journalName: "Angew Chem Int Ed Engl";
             date: "2015"; volume: "54"; pages: "5748-52"
 FEATURES             Location/Qualifiers
      source          1..10191
@@ -30,7 +30,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="ptmO"
                      /product="FAD-linked oxidoreductase PtmO"
-                     /label=ptmO
+                     /label="ptmO"
                      /protein_id="BAU61564.1"
                      /translation="MKHNLPADLVTLWRDSPGYESARSRTFNQRIPPELPYAIVRPKNM
                      EQIQHAVQLAVDLDKQIRIRSGGHSLAGWTLCADSILIDLVDFRHLEYDATTAIASASP
@@ -40,12 +40,13 @@ FEATURES             Location/Qualifiers
                      GTLMEFKGVPTSIQQEYVSQEGTMPRDSRYICDSVWFKDGIDFVTVTRRMFREFPRDRS
                      MVYWEPKYPTSRRQLPDMAFSLQADQYLALFAIFEDSQQDEEQGIRIQEFIQEIEPYVL
                      GTFAADGMPAVRKTQYWSAEVIERLYSVCQKWDPAHRLGCTLLDPTRKVKS"
-     CDS             join(2085..2234,2305..3080,3129..3177,3240..3451,3502..3550,
-                     3611..3958)
+                     /Pfam="FAD_binding_4"
+     CDS             join(2085..2234,2305..3080,3129..3177,3240..3451,
+                     3502..3550,3611..3958)
                      /codon_start=1
                      /gene="ptmJ"
                      /product="cytochrome P450 monooxygenase PtmJ"
-                     /label=ptmJ
+                     /label="ptmJ"
                      /protein_id="BAU61565.1"
                      /translation="MSSTLLQSAPIAMMRDSLGPFRTFTLLTVGLLLSLFVIKTVKHRR
                      RYHGLPTPPHNMLLGNLGVVLAEILASPEGFFHLFCVENIRRKYNMPSVFYLDLWPILP
@@ -57,11 +58,12 @@ FEATURES             Location/Qualifiers
                      ETEGNVYPVVCNVAFICHLAMGRRADLFPDPDAFRPHRFLPGANPPIPADSFRPFEKGQ
                      LSCPGQTLALKSLVLLLLTTSREFDLVPVFPKGAPRAAEYLGGEGYPEFHIGPHVNKGM
                      PVMVHTRVDA"
+                     /Pfam="p450"
      CDS             complement(join(4827..5430,5488..6299,6350..6466))
                      /codon_start=1
                      /gene="ptmK"
                      /product="cytochrome P450 monooxygenase PtmK"
-                     /label=ptmK
+                     /label="ptmK"
                      /protein_id="BAU61566.1"
                      /translation="MIIVTFFWVGIVLSAIWTFYKVVLYPYRVSPLRTLPQSQRGHWLW
                      NHAFSEFLQPIGQLHAELLLQIPNDGMICLRGLFGAPKIFLTSPKSLADVLVHRADDFE
@@ -72,11 +74,12 @@ FEATURES             Location/Qualifiers
                      ANLPEVELDEVDLAILEQLPLLNAVVSEAIRLFPPLPIGNRIAIRDTTVMNHPIPKGTP
                      FLIVPRAINRSSELWGPDADRFNADRWINPDTGRFNNHGGASSNYSFLSFFHGPHNCIG
                      QNFARAELRTVVAAVIRSFDMVLDNPAADVSPVGWFTPRPADGVKVKLRSLV"
+                     /Pfam="p450"
      CDS             join(6866..8016,8066..8192)
                      /codon_start=1
                      /gene="ptmE"
                      /product="DMATS-type prenyltransferase PtmE"
-                     /label=ptmE
+                     /label="ptmE"
                      /protein_id="BAU61567.1"
                      /translation="MGSLSSPTDLTPYQVLSKYKKFPSPDEEFWWDHAASTLADLIKWT
                      KATPAQEYEFLQFFYEHVIPNFSGYRPYDVPGRAWNTGITPSGLPLEYSVNWRNIDANA
@@ -86,12 +89,13 @@ FEATURES             Location/Qualifiers
                      DLWTVGGRYTDAVTMKGLAYLKELWDLLPIQDFETLPEQAVQNPPMLWAYEIRPGDKIP
                      SPRIYIPGHCLNDKKVADGLSAFFKRVGWSDLGDQYTDRLFSMFPKQDLKDSTALHTWI
                      AFSYTEKSGVYMNCYYLASASFPFKL"
-     CDS             complement(join(8293..8640,8692..8740,8792..9000,9059..9107,
-                     9153..9964,10036..10191))
+                     /Pfam="Trp_DMAT"
+     CDS             complement(join(8293..8640,8692..8740,8792..9000,
+                     9059..9107,9153..9964,10036..10191))
                      /codon_start=1
                      /gene="ptmL"
                      /product="cytochrome P450 monooxygenase PtmL"
-                     /label=ptmL
+                     /label="ptmL"
                      /protein_id="BAU61568.1"
                      /translation="MAIPKTMEAPFTHLFLNLTVMTLGQILVIPVALLVVYICIRIGSI
                      RRQFRDLPKPPHHAFLGHFPILLRELRTLPRDIFAPLVVDLVRRKFDLPAVFFLDLYPL
@@ -103,6 +107,7 @@ FEATURES             Location/Qualifiers
                      MGPVLRKCPSETMEYEGRTYDIRNHIVAISHNSLHRRPDLFPNPDAFNPYRFLPGAAIP
                      IPADAWRPFEKGNGYCVGQELAMIQMKVMLLLTLTEFDFQPKYAREAARGPDIYGGYAY
                      TTGSGIGPTPAGGLPMRVDKRMK"
+                     /Pfam="p450"
 ORIGIN
         1 ctatgatttc accttccgcg ttgggtctag cagagtgcat ccgagtcgat gagcaggatc
        61 ccatttttgg cacactgagt acagtctctc gatgacctcc gccgaccagt actgagtttt

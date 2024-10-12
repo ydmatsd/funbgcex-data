@@ -1,30 +1,31 @@
-LOCUS       FBGC00469        5002 bp DNA     linear   UNA 10-MAR-2023
+LOCUS       FBGC00469               5002 bp    DNA     linear   UNA 10-MAR-2023
 DEFINITION  cephalosporin P1.
 ACCESSION   FBGC00469
-VERSION     .
+VERSION     FBGC00469
 KEYWORDS    .
 SOURCE      Acremonium chrysogenum ATCC 11550
   ORGANISM  Acremonium chrysogenum ATCC 11550
+            .
 REFERENCE   1  (bases 1 to 5002)
-  AUTHORS   Cao ZQ, Lv JM, Liu Q, Qin SY, Chen GD, Dai P, Zhong Y, Gao H, Yao 
+  AUTHORS   Cao ZQ, Lv JM, Liu Q, Qin SY, Chen GD, Dai P, Zhong Y, Gao H, Yao
             XS, Hu D.
-  TITLE     Biosynthetic Study of Cephalosporin P1 Reveals a Multifunctional 
+  TITLE     Biosynthetic Study of Cephalosporin P1 Reveals a Multifunctional
             P450 Enzyme and a Site-Selective Acetyltransferase.
   JOURNAL   ACS Chem Biol 2020;15:44-51
-  PUBMED    31860257
+   PUBMED   31860257
 REFERENCE   2  (bases 1 to 5002)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Mar 10, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1021/acschembio.9b00863"; journalName: "ACS Chem Biol"; date: 
-            "2020"; volume: "15"; pages: "44-51"
+  JOURNAL   Exported Mar 10, 2023 from SnapGene 6.2.1 https://www.snapgene.com
 COMMENT     ##Genome-Assembly-Data-START##
             Assembly Date         :: APR-2014
             Assembly Method       :: Velvet v. 1.2.10
             Genome Coverage       :: 137.0x
             Sequencing Technology :: Illumina HiSeq ##Genome-Assembly-Data-END##
+            ##Genome-Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1021/acschembio.9b00863"; journalName: "ACS Chem Biol"; date:
+            "2020"; volume: "15"; pages: "44-51"
 FEATURES             Location/Qualifiers
      source          1..5002
                      /strain="ATCC 11550"
@@ -37,7 +38,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="ACRE_087520"
                      /product="short-chain dehydrogenase/reductase CepC2"
-                     /label=cepC2
+                     /label="cepC2"
                      /protein_id="KFH40563.1"
                      /translation="MTKVLVAGGSGFIGAHILEQLLAKGHSVVTTVRSKEKAQKILDAH
                      KAEADRLEVAIVPEIAREDAFDEVVKTPGIEVVIHPASPCHLNFTDPQKELIDPAVLGT
@@ -45,11 +46,12 @@ FEATURES             Location/Qualifiers
                      SKTLAERAAWDYVDQEKPNFDLVTVNPPLVLGPVVGHFSNVDSINASNECLANLVRGKW
                      RDEIPPTGPVNIWIDVRDVAAAHVRAMERQEAGGKRLFTVGGRFSYTKIAEIVREHGPD
                      RFKDKMPRAEARSGDANYTGPVLKFDNGETNRILGIEWTPLEKSVLDFVESIKEFDL"
+                     /Pfam="Epimerase"
      CDS             1859..3466
                      /codon_start=1
                      /locus_tag="ACRE_087530"
                      /product="cytochrome P450 monooxygenase CepB4"
-                     /label=cepB4
+                     /label="cepB4"
                      /protein_id="KFH40555.1"
                      /translation="MQSDLLHDVVLHLQKRLGTLHSLASPCLGRFGYLGTGFGLVMLWV
                      AWKIAHALFFSPLRNIPGPMSARLTSKRGLWSLITGQSMEIARSDHSQYGDVYVAKPNA
@@ -61,11 +63,12 @@ FEATURES             Location/Qualifiers
                      ICHTRGVTIKGHYIPPSTEIVCNRLAAHHHEGVWKNPLDFNPGRFIDNDVAKRNMLSFS
                      TGTRICAGKNLAWMLMVSVLANMYKNYDVSLPEDSLFGPENKDEHGRPKTMPNRLGVAT
                      MPANPERDCRMIMKRREL"
+                     /Pfam="p450"
      CDS             complement(3548..5002)
                      /codon_start=1
                      /locus_tag="ACRE_087540"
                      /product="acetyltransferase CepD2"
-                     /label=cepD2
+                     /label="cepD2"
                      /protein_id="KFH40562.1"
                      /translation="MDEYMKPTASKPERIALSAFDNHGSYTNIPYAFFYENADGSSDFM
                      PTSLLKESLARALQDFPVLTGVVRMPARGKIHIEIDPGHVNTPQFQESFNETITFQALK
@@ -76,6 +79,7 @@ FEATURES             Location/Qualifiers
                      PMFIRQPMDEVSQPTTPETLARSALHVRKTTESVTPSLVSGFHDTFSQQPTCHLRPLSF
                      AASHTKTSLITTSHTRFELYDVDFGYGRPRFASLTPLFAGSYTMAAFLPPPPGVDGVYI
                      LLTSNVEAMGNILENKFWKENTRLVW"
+                     /Pfam="Transferase"
 ORIGIN
         1 atgaccaaag ttcttgtcgc aggtgaggat tacacctttg actggcctca atcatggcag
        61 aagaatatga caaacgacga gtctaacgcg ctgctccttt ctaacaggcg ggtccggctt

@@ -1,33 +1,33 @@
-LOCUS       FBGC00472       23428 bp DNA     linear   UNA 10-MAR-2023
+LOCUS       FBGC00472              23428 bp    DNA     linear   UNA 10-MAR-2023
 DEFINITION  shearinine D.
 ACCESSION   FBGC00472
-VERSION     .
+VERSION     FBGC00472
 KEYWORDS    .
 SOURCE      Penicillium janthinellum PN2408
   ORGANISM  Penicillium janthinellum PN2408
+            .
 REFERENCE   1  (bases 1 to 23428)
   AUTHORS   Nicholson MJ, Eaton CJ, Starkel C, Tapper BA, Cox MP, Scott B.
-  TITLE     Molecular Cloning and Functional Analysis of Gene Clusters for the 
-            Biosynthesis of Indole-Diterpenes in Penicillium crustosum and P. 
+  TITLE     Molecular Cloning and Functional Analysis of Gene Clusters for the
+            Biosynthesis of Indole-Diterpenes in Penicillium crustosum and P.
             janthinellum.
   JOURNAL   Toxins 2015;7:2701-22
-  PUBMED    26213965
+   PUBMED   26213965
 REFERENCE   2  (bases 1 to 23428)
   AUTHORS   Liu C, Minami A, Dairi T, Gomi K, Scott B, Oikawa H.
-  TITLE     Biosynthesis of Shearinine: Diversification of a Tandem Prenyl 
+  TITLE     Biosynthesis of Shearinine: Diversification of a Tandem Prenyl
             Moiety of Fungal Indole Diterpenes.
   JOURNAL   Org Lett 2016;18:5026-5029
-  PUBMED    27632559
+   PUBMED   27632559
 REFERENCE   3  (bases 1 to 23428)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Mar 10, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.3390/toxins7082701"; journalName: "Toxins"; date: "2015"; 
+  JOURNAL   Exported Mar 10, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
+            "10.3390/toxins7082701"; journalName: "Toxins"; date: "2015";
             volume: "7"; pages: "2701-22"
-COMMENT     SGRef: number: 2; type: "Journal Article"; doi: 
-            "10.1021/acs.orglett.6b02482"; journalName: "Org Lett"; date: 
+            SGRef: number: 2; type: "Journal Article"; doi:
+            "10.1021/acs.orglett.6b02482"; journalName: "Org Lett"; date:
             "2016"; volume: "18"; pages: "5026-5029"
 FEATURES             Location/Qualifiers
      source          1..23428
@@ -39,7 +39,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="janG"
                      /product="geranylgeranyl pyrophosphate synthase JanG"
-                     /label=janG
+                     /label="janG"
                      /note="PJ-07"
                      /protein_id="AGZ20472.2"
                      /translation="MLYFLAETIFGFICQYVPIGFWNGYSPAPTDRYRRLDLKSSQGFR
@@ -49,11 +49,12 @@ FEATURES             Location/Qualifiers
                      VQSNSTTDFSELVELLGIIFQIRDDYMNLQSGLYAEKKGSMEDLTEGKFSYPVIHSIHA
                      APENSMLVDILKQRTEDNVVKVRAVHYMESTGSFQYCRENLARLTKQARHHVKELEVSL
                      GPNRGIHAILDLLHVQQPNEKPLV"
+                     /Pfam="GGPS"
      CDS             complement(join(2438..3143,3204..3547))
                      /codon_start=1
                      /gene="janA"
                      /product="hypothetical protein JanA"
-                     /label=janA
+                     /label="janA"
                      /note="Pj-08"
                      /protein_id="AGZ20473.1"
                      /translation="MSQTTTAALISLSVFAAYAKYYQSFQNGFIALLSDMADTKSLSGL
@@ -63,11 +64,12 @@ FEATURES             Location/Qualifiers
                      IACAFAFACSTAGHLAFLWFARAKTASYHVFLPPIPWRELQVASIEAGVLRFLQWDYTL
                      SASAMLVWTVASYCRATGKRIGQSSSVILIFGMAGVVFLGPCSVALLLYTSVALQRKGV
                      TNYDCCRSS"
+                     /Pfam="CtvD"
      CDS             complement(join(4214..5103,5186..5430,5503..5795))
                      /codon_start=1
                      /gene="janM"
                      /product="FAD-dependent monooxygenase JanM"
-                     /label=janM
+                     /label="janM"
                      /note="PJ-09"
                      /protein_id="AGZ20480.1"
                      /translation="MSKSEFQVIIVGGSIGGLTLAHCLRRAGIDHIILEKSSSPAPQIG
@@ -79,11 +81,12 @@ FEATURES             Location/Qualifiers
                      AQIETILRQYRRIRYERVESIYRDSRFLVRFQARDGLLNILLSRYYAPYAGDLPADMAS
                      KTIADGVMCDFLPPPKRSGDGWKRYRRDGQLRGWRFHAMLCILMLAILYTWVGRTNLDS
                      IVFSACGSLFQKLSVPT"
+                     /Pfam="FAD_binding_3"
      CDS             complement(join(6328..6541,6605..7122))
                      /codon_start=1
                      /gene="janB"
                      /product="terpene cyclase JanB"
-                     /label=janB
+                     /label="janB"
                      /note="PJ-10"
                      /protein_id="AGZ20474.1"
                      /translation="MDGFDVSQAPREYQAVKPLADLFVLGMGLGWVINYVGMVYTSFKE
@@ -91,11 +94,12 @@ FEATURES             Location/Qualifiers
                      APLVERNLPWIFCIGVLGFLTGHLALAAEIGPSLAYSWGAVVCQLLLSVGGLCQLLCRG
                      STRGASYTLWLSRFLGSCCTVGFASLRWMYWPQSFAWLNSPLVLWSLAVFLMVDGSYGV
                      CFWYVEQYEKSVLMGRATKAM"
+                     /Pfam="Pyr4"
      CDS             join(8265..8576,8646..8998,9066..9384)
                      /codon_start=1
                      /gene="janC"
                      /product="prenyltransferase JanC"
-                     /label=janC
+                     /label="janC"
                      /note="PJ-11"
                      /protein_id="AGZ20475.1"
                      /translation="MAFPGAGPILGAIAVSSCLYFLFDYVPIPRWWDKNAYLIGQMHPD
@@ -104,12 +108,13 @@ FEATURES             Location/Qualifiers
                      QDMSLVWRRDGIGGFPTAAKDRAAAYRKMASLKTGALFRLLGHLVLENDSMDEVFTVIA
                      WYSQLQNDCKNVYSSEYAKLKGLVAEDLHNREMTYPIVLALDAPEGHWVTRALESPSPR
                      NIRNALKVIRSKYVRDKCTAELAESGASVKEWLQLWGRTEKLDLKA"
+                     /Pfam="PaxC"
      CDS             complement(join(9777..10186,10255..10872,10936..11004,
                      11061..11145,11197..11322,11380..11619))
                      /codon_start=1
                      /gene="janP"
                      /product="cytochrome P450 monooxygenase JanP"
-                     /label=janP
+                     /label="janP"
                      /note="PJ-12"
                      /protein_id="AGZ20476.1"
                      /translation="MSALIIQLSRVVGTLREEAGFLWKYAAFMVFIYLLLPKPAYKTNV
@@ -121,10 +126,11 @@ FEATURES             Location/Qualifiers
                      DEIQTEIADWRSTTQSNLNNLRVMDSFLKESQRFNPPGELSFHRVVKHDLTLSDGLLLP
                      KGTHICMAAGPISMDPEVVENPDVFDAFRFVKEKVPTSGFVSTGPSHMHFGLGRYACPG
                      RFFASIVMKLILSRFLAQYEFHFAPDQTERPRNLLIGDKIVPNVSTPIFIKNRAPEI"
+                     /Pfam="p450"
      CDS             join(12949..13157,13221..13964,14014..14761)
                      /codon_start=1
                      /product="cytochrome P450 monooxygenase JanJ"
-                     /label=janJ
+                     /label="janJ"
                      /note="PJ-13"
                      /protein_id="AGZ20477.1"
                      /translation="MTGSFDTTQSIQCILLTILIVLTSTRVYTTVRFYLSRYRTSRPPI
@@ -137,13 +143,14 @@ FEATURES             Location/Qualifiers
                      YLQKGDLVFLPAQAAQMDAGIWSSSFTGMKAMDPRSDPQHFWAGRFMDHDKSGEDQPLA
                      PSVIETDSSPRMAASYRVEALSLPAGVRSKQLRSQLSHVRPFGGGHWLCPGRNLSMYEI
                      ISGLAVLVCRLDIQVEEDILQSQGEPRPDCSRVGGMDPDRPFVVKIQPR"
+                     /Pfam="p450"
      CDS             complement(join(15458..15647,15716..15959,16026..16203,
                      16271..16390,16455..16560,16612..16792,16856..17042,
                      17114..17242,17302..17406,17458..17541))
                      /codon_start=1
                      /gene="janQ"
                      /product="cytochrome P450 monooxygenase JanQ"
-                     /label=janQ
+                     /label="janQ"
                      /note="PJ-14"
                      /protein_id="AGZ20487.1"
                      /translation="MDYSCSMVLGLLAFIWLMRAWRQSLKIWVDVPSIGKDGILGQWIT
@@ -155,11 +162,12 @@ FEATURES             Location/Qualifiers
                      GIESMLKLDSFIKECQRFNPLDSGSLARCATNDFTFSNGLKVAKGTYVFAPNAPVLFDE
                      RFYPNPHQFDGYRFYRLGQQTGKPQGFRFVATNSNYLQFGDGRHTCPGRYMAADEIRLM
                      LGHILLHYDITTKENEGRPKNWFFKKILFPDMKGVIVLKKRAEVRAVNK"
+                     /Pfam="p450"
      CDS             complement(join(19411..19555,19626..20797))
                      /codon_start=1
                      /gene="janD"
                      /product="DMATS-type prenyltransferase JanD"
-                     /label=janD
+                     /label="janD"
                      /note="PJ-15"
                      /protein_id="AGZ20478.1"
                      /translation="MGSHEVELRPWQSLAAGLGFSSPDEEYWWTAFAQPLNQLMEWADY
@@ -170,11 +178,12 @@ FEATURES             Location/Qualifiers
                      IFTLGGRLNGPEMDRATQALRLLWSSVINVPEGLLDNDDIVPKNPHRCACVIFNFEIWP
                      GASVPTPKIYLPAAYYGKPDLEIAEGMDVFFKSQGWNQPFHSYTDNYAKAFLRDQKVTC
                      RHHDISFSYKGEGAYVTAYYKPELDAFADAATWVPEIYK"
+                     /Pfam="Trp_DMAT"
      CDS             join(21861..22298,22360..22483,22579..22700,22763..23428)
                      /codon_start=1
                      /gene="janO"
                      /product="FAD-linked oxidoreductase JanO"
-                     /label=janO
+                     /label="janO"
                      /note="PJ-16"
                      /protein_id="AGZ20488.1"
                      /translation="MTIPELPILWRDNAPPSEYEAWRSRTFNSKRPDAQPLAIIKPTTI
@@ -185,6 +194,7 @@ FEATURES             Location/Qualifiers
                      GAMVEQDCVDTSVQQEFESGHAIMPPGARYFTDSVFLTPGTDIIEACREMFTTLPAQAA
                      GSIAYWEPMKQRTKLPEMAWSIHSEHYVSLMAIYGDQNQDHKQQTWILDCFKDMDRKGL
                      LLGTYVGDAHPKDRPHHYWSDPAKERIQKIGVQWDPEARLRGTIFAENTL"
+                     /Pfam="FAD_binding_4"
 ORIGIN
         1 tcaaacaagg ggtttctcat taggctgttg gacatgaagt aaatcgagaa tagcatgaat
        61 tcccctgttt ggacccaacg acacctctaa ctctttaaca tgatggcgtg cctgcttcgt

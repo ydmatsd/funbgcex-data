@@ -1,23 +1,23 @@
-LOCUS       FBGC00480       10848 bp DNA     linear   UNA 11-MAR-2023
+LOCUS       FBGC00480              10848 bp    DNA     linear   UNA 11-MAR-2023
 DEFINITION  lolitrem B.
 ACCESSION   FBGC00480
-VERSION     .
+VERSION     FBGC00480
 KEYWORDS    .
 SOURCE      Epichloe festucae Fl1
   ORGANISM  Epichloe festucae Fl1
+            .
 REFERENCE   1  (bases 1 to 10848)
   AUTHORS   Young CA, Felitti S, Shields K, Spangenberg G, Johnson RD, Bryan GT,
             Saikia S, Scott B.
-  TITLE     A complex gene cluster for indole-diterpene biosynthesis in the 
+  TITLE     A complex gene cluster for indole-diterpene biosynthesis in the
             grass endophyte Neotyphodium lolii.
   JOURNAL   Fungal Genet Biol 2006;43:679-93
-  PUBMED    16765617
+   PUBMED   16765617
 REFERENCE   2  (bases 1 to 10848)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Mar 11, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
+  JOURNAL   Exported Mar 11, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
             "10.1016/j.fgb.2006.04.004"; journalName: "Fungal Genet Biol"; date:
             "2006"; volume: "43"; pages: "679-93"
 FEATURES             Location/Qualifiers
@@ -32,7 +32,7 @@ FEATURES             Location/Qualifiers
                      /gene="ltmP"
                      /product="cytochrome P450 monooxygenase LtmP"
                      /function="indole-diterpene biosynthesis"
-                     /label=ltmP
+                     /label="ltmP"
                      /note="LtmP"
                      /protein_id="AFO85406.1"
                      /translation="MLMLHAVPVGICLLLWYVVYGTKRKECIPTIRRWPRLLPQFLDRL
@@ -44,13 +44,14 @@ FEATURES             Location/Qualifiers
                      QLDSLMRESQRINPVGEFTFRRIVRERITLSDGYQLQPGQQIAIPAKCINTDSTKLSDA
                      HLFQPFRWLKQSGTATTSFSNSSALNLHFGFGRYACPGRFIASYMIKAIMSRILLEYDF
                      KLDSEFPSRRPPNIVHGDKILPNRNAVVLLRRLEKTVTVC"
-     CDS             join(3486..3602,3662..3766,3828..3956,4016..4440,4501..4609,
-                     4662..4781,4835..5012,5069..5499)
+                     /Pfam="p450"
+     CDS             join(3486..3602,3662..3766,3828..3956,4016..4440,
+                     4501..4609,4662..4781,4835..5012,5069..5499)
                      /codon_start=1
                      /gene="ltmQ"
                      /product="cytochrome P450 monooxygenase LtmQ"
                      /function="indole-diterpene biosynthesis"
-                     /label=ltmQ
+                     /label="ltmQ"
                      /note="LtmQ"
                      /protein_id="AFO85407.1"
                      /translation="MKMLTEHFDFPKLNFATIVISGATIIGIIFLRYLNYPTKVNVPVV
@@ -63,12 +64,13 @@ FEATURES             Location/Qualifiers
                      LALKDFTFSNGLNIPKGSVIFTPNSPIFEDERYYKDPKVFDGFRFARMRNDPKLGLFCD
                      LTATNEQSMHFGTGRHACPGRFMVSDEVKLAVIHILSNFDFCIENFGPRPANQPFGKFL
                      LPDMSAKIWLREKRAREKNL"
+                     /Pfam="p450"
      CDS             join(6549..7249,7324..7797,7900..8044)
                      /codon_start=1
                      /gene="ltmF"
                      /product="DMATS-type prenyltransferase LtmF"
                      /function="indole-diterpene biosynthesis"
-                     /label=ltmF
+                     /label="ltmF"
                      /note="LtmF"
                      /protein_id="AFO85408.1"
                      /translation="MIAKNIELNGLDPATRALDILYWKNHCIKQLESLLCATDSYCTAD
@@ -79,12 +81,13 @@ FEATURES             Location/Qualifiers
                      TLGGAIWDEQTQKGLGILQSIWHLLLQEPEGISDNGFDKPVNDSSMLCQKLYFSFELRP
                      GTDFPQVKTYVPTWNYLRTDGETIQNYEAIFRACDHPWGEDRTYGKIFQDAFGPATESR
                      KKPIHCDASFLFTEETGVYQTLYFSPPIEGETEVQSNLVA"
+                     /Pfam="Trp_DMAT"
      CDS             complement(join(8607..8928,9005..9720))
                      /codon_start=1
                      /gene="ltmC"
                      /product="prenyltransferase LtmC"
                      /function="indole-diterpene biosynthesis"
-                     /label=ltmC
+                     /label="ltmC"
                      /note="LtmC"
                      /protein_id="AFO85409.1"
                      /translation="MTSGAWLVARPAAIEIAALLFAFTLGYLVKYTINYQSVVSQAIDH
@@ -94,18 +97,20 @@ FEATURES             Location/Qualifiers
                      LLNQGGHQSDDLLGRFGWYAQLQNDCKNIYSEEYAFNKGTVAEDLRNRELSFPVVVALN
                      DKHTEPQIRKAFQSQNQGDIKRALQALESPSVKNTCLKTLQEAGQGLENLVAVWGRKEQ
                      MHFTK"
+                     /Pfam="PaxC"
      CDS             join(10089..10609,10686..10848)
                      /codon_start=1
                      /gene="ltmB"
                      /product="terpene cyclase LtmB"
                      /function="indole-diterpene biosynthesis"
-                     /label=ltmB
+                     /label="ltmB"
                      /protein_id="AFO85410.1"
                      /translation="MDGFSNMEQAPLAYQEVQWLAETFVTFMGLGWLINYVLMIWHSRR
                      GEPSSMALIPLCNNIAWELVYTIIYPSPNKVELAAFIAGVTLNFLIMTSAARSARSEWS
                      HSPTMAKHAGLIIVAGILMCFTGHVALAMEIGPALAYSWGAVICQLALSIGGVCQLLQQ
                      HSTGGTSWKLWSSRFLGSCCAVGFAFLRWRYWPEAYGWLASPLILWSLATFLVADLTYG
                      VCLLL"
+                     /Pfam="Pyr4"
 ORIGIN
         1 tcaacatacg gtaactgtct tctccaagcg gcgcaaaaga acaacggcat tccgattggg
        61 gaggatctta tccccatgaa caatgttagg agggcgccgc gacggaaact cactatctag

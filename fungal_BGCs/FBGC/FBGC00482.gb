@@ -1,24 +1,24 @@
-LOCUS       FBGC00482       15275 bp DNA     linear   UNA 11-MAR-2023
+LOCUS       FBGC00482              15275 bp    DNA     linear   UNA 11-MAR-2023
 DEFINITION  terpendole C.
 ACCESSION   FBGC00482
-VERSION     .
+VERSION     FBGC00482
 KEYWORDS    .
 SOURCE      Tolypocladium album
   ORGANISM  Tolypocladium album
+            .
 REFERENCE   1  (bases 1 to 15275)
   AUTHORS   Motoyama T, Hayashi T, Hirota H, Ueki M, Osada H.
-  TITLE     Terpendole E, a kinesin Eg5 inhibitor, is a key biosynthetic 
-            intermediate of indole-diterpenes in the producing fungus 
+  TITLE     Terpendole E, a kinesin Eg5 inhibitor, is a key biosynthetic
+            intermediate of indole-diterpenes in the producing fungus
             Chaunopycnis alba.
   JOURNAL   Chem Biol 2012;19:1611-9
-  PUBMED    23261604
+   PUBMED   23261604
 REFERENCE   2  (bases 1 to 15275)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Mar 11, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1016/j.chembiol.2012.10.010"; journalName: "Chem Biol"; date: 
+  JOURNAL   Exported Mar 11, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1016/j.chembiol.2012.10.010"; journalName: "Chem Biol"; date:
             "2012"; volume: "19"; pages: "1611-9"
 FEATURES             Location/Qualifiers
      source          1..15275
@@ -30,7 +30,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="terK"
                      /product="cytochrome P450 monooxygenase TerK"
-                     /label=terK
+                     /label="terK"
                      /protein_id="BAM84045.1"
                      /translation="MNDYNVTGTTLGDAFAKLPPNWGQLTGALLFLAACTWIYLPAFDG
                      VPAPFAGYRSPLEPAIVAKTRYAFAASDIISEGYAKWKSSMYKISRHGGDVVVLSRKYI
@@ -42,11 +42,12 @@ FEATURES             Location/Qualifiers
                      HVPYGTHLCIAPHSVSSDPAVIPNPDVFDGLRYYEQRRQKPDESMKHQHATADKNHLHF
                      GYGTWSCPGRFLASDELKMTLSALLLRYDFKYPDGSSRPTNKHIDEFPYVDPETPLLMR
                      RRHQGGTGV"
+                     /Pfam="p450"
      CDS             complement(join(3317..3638,3690..4381))
                      /codon_start=1
                      /gene="terC"
                      /product="prenyltransferase TerC"
-                     /label=terC
+                     /label="terC"
                      /protein_id="BAM84046.1"
                      /translation="MDWLGNRVSVGNIALLAIGASMGFIAKTSTLSKPEAPNTVQQYGY
                      CKKLSSEKRNQAAGCPYEYLVSIYGRHHFESLVKEFNPLLKQEDPVKYDLVLEIMDAVH
@@ -54,23 +55,25 @@ FEATURES             Location/Qualifiers
                      ALEDILQGQDLSLVWRRDGLKSFQYQGDESIAAYKNMASLKTGTLFVLLGRLLNDGGNE
                      LDDLLSRFGWFAQLQNDCKNIYSAEYATNKGAVAEDLRNGELSYPIVIALNDNSTSRVM
                      ERALASHAEADVEEALQALQSKPVRDACMRALQQASVGLEKLVLLWGRREKMQAGS"
+                     /Pfam="PaxC"
      CDS             join(4731..5248,5317..5524)
                      /codon_start=1
                      /gene="terB"
                      /product="terpene cyclase TerB"
-                     /label=terB
+                     /label="terB"
                      /protein_id="BAM84047.1"
                      /translation="MDGFTDSQAPPAYEEVKWLADTLVAFMGIGWLINYGAMIRHSYQG
                      RTYCMGIIPLCNNIGWELVYTLVHPSSNRVELAVFAAGVTLNVIIMFAATRSAKTEWQH
                      SPLVANHTPLIFLGGTFVCFAGHVALAAEIGPALAYSWGAVICQLVLSIGGVCQLLQRN
                      TTRGTSVTLWLSRFLGSCCTVGFAFLRWRYWPEAFAWLAGPLVLWSLATFVLADITYGV
                      CLYLISQTETSSTKRSKLK"
-     CDS             complement(join(6377..6852,6916..7093,7154..7273,7322..7430,
-                     7475..7905,7958..8100,8157..8250,8303..8419))
+                     /Pfam="Pyr4"
+     CDS             complement(join(6377..6852,6916..7093,7154..7273,
+                     7322..7430,7475..7905,7958..8100,8157..8250,8303..8419))
                      /codon_start=1
                      /gene="terQ"
                      /product="cytochrome P450 monooxygenase TerQ"
-                     /label=terQ
+                     /label="terQ"
                      /protein_id="BAM84048.1"
                      /translation="MLIDRLAGAVPAHAWPTITVAGAVMVVVLLMRYLDYDKKVEVPVI
                      GPGGRFTKWLGAIRNVWYAREAIHEVANGQHGKLGFQIPTMTRMDVFICDRALTREYYS
@@ -82,12 +85,13 @@ FEATURES             Location/Qualifiers
                      LARLVLKPYTFSNGLHVPKGSFIFTPNSPLFEDEQFYEDAKRFDGLRFARMRDDPKRKS
                      DSPMTATSEYSMHFGIGRHACPGRYMVSDEVKLVMVHLLLHYDFAMANFGPRPKNMAFG
                      KFILPDMQAKVWLRKSKDAGNTARVDPGAPDGVASEPS"
+                     /Pfam="p450"
      CDS             complement(join(8699..9199,9252..9622,9675..9934,
                      9987..10276))
                      /codon_start=1
                      /gene="terM"
                      /product="FAD-dependent monooxygenase TerM"
-                     /label=terM
+                     /label="terM"
                      /protein_id="BAM84049.1"
                      /translation="MSENFKVLIIGGSVAGLTLALCLEKLDISYEILEQGEDISPQVGA
                      SIGIMPNGSPVLDQLGVFDDVERVIEPLEFARIRYPDGFFFQSQYPAIIADHFGYPISF
@@ -98,12 +102,13 @@ FEATURES             Location/Qualifiers
                      DDRQIDDVLSQLSATRLPATKTTCKQSEFLTRLQAGDGIWRRLAARYIFPALHDIPAAS
                      SARVLKGGQRLDFVDPPQRARPELDRWAWVKDLRGYVPRPHVLYLICGALLAWWASGLV
                      WHFPSKLDTTILSHV"
+                     /Pfam="FAD_binding_3"
      CDS             join(11017..11220,11271..11481,11568..12248,12302..12549,
                      12637..12798)
                      /codon_start=1
                      /gene="terP"
                      /product="cytochrome P450 monooxygenase TerP"
-                     /label=terP
+                     /label="terP"
                      /protein_id="BAM84050.1"
                      /translation="MPSLLLSLLLLQVPIICAWLLVRFIIDLTGKNGTIPTIRRWPALF
                      PEFLDRLSYNDNAAQLVEEGYRKYKDRPFRLLKMDMDLVVIPLKYATELRAITSDKLDP
@@ -114,11 +119,12 @@ FEATURES             Location/Qualifiers
                      QNSMLKMRLLDSLMRESQRINPVGEFTFRRVVRKPITLSDGYQLRRGQQIAISARRINM
                      DGATLEDAQTFCPSRWAQETQGASFSHSSSSNLHFGLGRYACPGRFFASYMIKAITSRI
                      LLEYDFKLESGREGYRPPNSIQGDKILPNRDAVVLFRRREVSI"
+                     /Pfam="p450"
      CDS             join(13860..14560,14623..15093,15146..15275)
                      /codon_start=1
                      /gene="terF"
                      /product="DMATS-type prenyltransferase TerF"
-                     /label=terF
+                     /label="terF"
                      /protein_id="BAM84051.1"
                      /translation="MTIDKKPVTAPESDSKSAAGRKYWTQLCTPILSSLLKSSGSYSAE
                      EQETHIQNLSDYVIPNLGPRPSEAHTKSFLTQSGSPFQPSVNFSSKKTQVRYCWELLGP
@@ -128,6 +134,7 @@ FEATURES             Location/Qualifiers
                      TLGGRLQDETTLKGLAILKDIWHLMLQEPDGTDDDYNKPVNDSTMLCQRAYFSFEMRPG
                      RELPEVKTYLPTWNYVRTDLETIQNYEEVFRRCGFEWGKESKYKELFERAFGPANHDRP
                      KPVHCDASYLYSEKKGIYQTLYFSPPLKDGEEYE"
+                     /Pfam="Trp_DMAT"
 ORIGIN
         1 ctacacgcca gttccacctt gatgtcgccg tctcatgagc aacggggtct ccgggtccac
        61 atacggaaac tcgtcaatgt gtttgttcgt gggccgtgag ctaccgtcag ggtacttgaa

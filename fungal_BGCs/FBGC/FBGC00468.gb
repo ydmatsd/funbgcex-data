@@ -1,30 +1,31 @@
-LOCUS       FBGC00468       13778 bp DNA     linear   UNA 10-MAR-2023
+LOCUS       FBGC00468              13778 bp    DNA     linear   UNA 10-MAR-2023
 DEFINITION  cephalosporin P1.
 ACCESSION   FBGC00468
-VERSION     .
+VERSION     FBGC00468
 KEYWORDS    .
 SOURCE      Acremonium chrysogenum ATCC 11550
   ORGANISM  Acremonium chrysogenum ATCC 11550
+            .
 REFERENCE   1  (bases 1 to 13778)
-  AUTHORS   Cao ZQ, Lv JM, Liu Q, Qin SY, Chen GD, Dai P, Zhong Y, Gao H, Yao 
+  AUTHORS   Cao ZQ, Lv JM, Liu Q, Qin SY, Chen GD, Dai P, Zhong Y, Gao H, Yao
             XS, Hu D.
-  TITLE     Biosynthetic Study of Cephalosporin P1 Reveals a Multifunctional 
+  TITLE     Biosynthetic Study of Cephalosporin P1 Reveals a Multifunctional
             P450 Enzyme and a Site-Selective Acetyltransferase.
   JOURNAL   ACS Chem Biol 2020;15:44-51
-  PUBMED    31860257
+   PUBMED   31860257
 REFERENCE   2  (bases 1 to 13778)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Mar 10, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1021/acschembio.9b00863"; journalName: "ACS Chem Biol"; date: 
-            "2020"; volume: "15"; pages: "44-51"
+  JOURNAL   Exported Mar 10, 2023 from SnapGene 6.2.1 https://www.snapgene.com
 COMMENT     ##Genome-Assembly-Data-START##
             Assembly Date         :: APR-2014
             Assembly Method       :: Velvet v. 1.2.10
             Genome Coverage       :: 137.0x
             Sequencing Technology :: Illumina HiSeq ##Genome-Assembly-Data-END##
+            ##Genome-Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1021/acschembio.9b00863"; journalName: "ACS Chem Biol"; date:
+            "2020"; volume: "15"; pages: "44-51"
 FEATURES             Location/Qualifiers
      source          1..13778
                      /strain="ATCC 11550"
@@ -37,7 +38,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="ACRE_062140"
                      /product="oxidosqualene cyclase CepA"
-                     /label=cepA
+                     /label="cepA"
                      /protein_id="KFH43040.1"
                      /translation="MATMTAAAAAETTTTPDVVVGKAAHTDTKAASEYRTDLNRWRLRV
                      DNGRHMWEYISSDEELANSRPQSFLENYWLGKEFQLPHMNPARRPQEALDNGWEFFKRL
@@ -52,11 +53,12 @@ FEATURES             Location/Qualifiers
                      ENSVRYLMRAQFPDGGWIASWGVCFTYATMFALQGLETVDLGEANSPACARACQFLLRY
                      QNSDGGWGEDLVSIKHRRYVQDPAGSQVTCTAYALIGLMSARCADYDAIRRGVAWLVRR
                      QQPTGDWLPGSLEGIFASPGGMRYPNYKFHFTLAALGKFKELYGNPELF"
+                     /Pfam="SQHop_cyclase_N, SQHop_cyclase_C"
      CDS             3584..5188
                      /codon_start=1
                      /locus_tag="ACRE_062150"
                      /product="cytochrome P450 monooxygenase CepB1"
-                     /label=cepB1
+                     /label="cepB1"
                      /protein_id="KFH43021.1"
                      /translation="MESIKPLIDKVAATIAATNTSLLPQAAAVVGTVLAILITGRVLHA
                      FFLSPLRRIPGPLLARLTSKRGDLDNFSGKVCQTAERDGERYGEVYVYKPNAVCISHPD
@@ -68,11 +70,12 @@ FEATURES             Location/Qualifiers
                      RGIELHGGHYVPPGTEIFVNLRSVNMHESLWDEPRRFKPERFLGEHGEAARKTLFTFSY
                      GPRNCIGRNLAWVEMLTIVANTLKDFDLKLPPGSLFGPDNVDEEGLPRLLPAKCFIASF
                      PANPDRDCRMIITRRKD"
+                     /Pfam="p450"
      CDS             6197..7807
                      /codon_start=1
                      /locus_tag="ACRE_062160"
                      /product="cytochrome P450 monooxygenase CepB2"
-                     /label=cepB2
+                     /label="cepB2"
                      /protein_id="KFH43043.1"
                      /translation="MLSHAVDIAALRDTIACIGYVRLAAGWVALVLVYRIIYQLLLSPL
                      RRVPGPTLSRLSGAHSVIKRIVAQGARSVQADYERYGDIYVNKPNGVSISNPKDIKTVL
@@ -84,22 +87,24 @@ FEATURES             Location/Qualifiers
                      INNTAGITLQGHYIPPGTEVAINLHGAHVNKDVWENPYDYDPTRFLDNDEAKRNVFAFS
                      YGHRNCIGRNLAWVEMMVILANVLKDYDVDLPPDSVCGPHNVDERGRPKIMPTKSTLFT
                      TPKYPERDCRIVISRRRDS"
+                     /Pfam="p450"
      CDS             8797..9597
                      /codon_start=1
                      /locus_tag="ACRE_062170"
                      /product="short-chain dehydrogenase/reductase CepC1"
-                     /label=cepC1
+                     /label="cepC1"
                      /protein_id="KFH43025.1"
                      /translation="MSSPSETAIVTGAAQGVGLAAAKLLAARGLRVVLSDIDTEAGTAA
                      AAAINKEHGTEDAAVFIACDLSKTEDIAALISSTASRFGGFSILVNNAGFLRAPFLAIS
                      ADDIKDTIAINLTATIYATHQAIQYWEDNPEITNPQVVNVTSSSSFKTYASIAAYGAAK
                      AGAAQFTFACRSFGPRIHVNAVAPTAIATAFDKNTMMRVPTDRTGPGYTPEEEMRNMGL
                      ARLQPEDVARAVLECIDDEERYGKVVYLDATEGQRVHGGFLNEE"
+                     /Pfam="adh_short"
      CDS             complement(9729..11321)
                      /codon_start=1
                      /locus_tag="ACRE_062180"
                      /product="cytochrome P450 monooxygenase CepB3"
-                     /label=cepB3
+                     /label="cepB3"
                      /protein_id="KFH43011.1"
                      /translation="MASSIDQSLGGVKPLLRVAIENPLAVIAALLLAVFTWRLFYALAL
                      CPLRNIPGPPAARLSALPAIYKRLPKRVTKAALADFHRYGDIYVSKPGTVTVCHPRDVR
@@ -111,11 +116,12 @@ FEATURES             Location/Qualifiers
                      PLELHGHHIPAGTTVAFNLLALNNRPDYWDEPQLFKPDRFLLDEEAKKNIFAFSYGPRS
                      CVGRNLAWMEVMTILANLLKDYDVGSPENSLFGPENKDERGIPRMMPSQCHIVFAPTHP
                      DRDCRLRISRRKD"
+                     /Pfam="p450"
      CDS             12378..13778
                      /codon_start=1
                      /locus_tag="ACRE_062190"
                      /product="acetyltransferase CepD1"
-                     /label=cepD1
+                     /label="cepD1"
                      /protein_id="KFH43032.1"
                      /translation="MEDFLRQLKDGAYDLSPLDIIPSHLYLTNIFFFENDTPDSETPFM
                      PHEALVSSLYDSLQSFPILAGRLQRGVTTTKLVVDADSPNLPSWETHNVPDVHFKQVKT
@@ -126,6 +132,7 @@ FEATURES             Location/Qualifiers
                      ITPSSLSEVAAISRRSVDEVDINVIERFARRAMLVIQLLGDKARDLYSLMVCQAFSNQS
                      RLPFYDVDFGFGRPLFVSPMAYSKSLAVIVPPPPPSRDVYVYLTLELEGMAHILRNENF
                      MGMVERVY"
+                     /Pfam="Transferase"
 ORIGIN
         1 tcaaaacaac tccggattcc catacaactc cttaaacttg cccagcgccg ccaatgtaaa
        61 gtggaacttg taattgggat accgcatacc accggggctg gcaaagattc cctcgagcga

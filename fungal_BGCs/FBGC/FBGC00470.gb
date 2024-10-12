@@ -1,29 +1,29 @@
-LOCUS       FBGC00470       42687 bp DNA     linear   UNA 10-MAR-2023
+LOCUS       FBGC00470              42687 bp    DNA     linear   UNA 10-MAR-2023
 DEFINITION  demethoxyviridin.
 ACCESSION   FBGC00470
-VERSION     .
+VERSION     FBGC00470
 KEYWORDS    .
 SOURCE      Nodulisporium sp. JNvid
   ORGANISM  Nodulisporium sp. JNvid
+            .
 REFERENCE   1  (bases 1 to 42687)
-  AUTHORS   Wang GQ, Chen GD, Qin SY, Hu D, Awakawa T, Li SY, Lv JM, Wang CX, 
+  AUTHORS   Wang GQ, Chen GD, Qin SY, Hu D, Awakawa T, Li SY, Lv JM, Wang CX,
             Yao XS, Abe I, Gao H.
-  TITLE     Biosynthetic pathway for furanosteroid demethoxyviridin and 
+  TITLE     Biosynthetic pathway for furanosteroid demethoxyviridin and
             identification of an unusual pregnane side-chain cleavage.
   JOURNAL   Nat Commun 2018;9:1838
-  PUBMED    29743477
+   PUBMED   29743477
 REFERENCE   2  (bases 1 to 42687)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Mar 10, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1038/s41467-018-04298-2"; journalName: "Nat Commun"; date: 
-            "2018"; volume: "9"; pages: "1838"
+  JOURNAL   Exported Mar 10, 2023 from SnapGene 6.2.1 https://www.snapgene.com
 COMMENT     ##Assembly-Data-START##
             Assembly Method       :: SOAPdenovo v. 2.04
             Sequencing Technology :: Illumina
             ##Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1038/s41467-018-04298-2"; journalName: "Nat Commun"; date:
+            "2018"; volume: "9"; pages: "1838"
 FEATURES             Location/Qualifiers
      source          1..42687
                      /strain="JNvid"
@@ -34,7 +34,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="vidA"
                      /product="cytochrome P450 monooxygenase VidA"
-                     /label=vidA
+                     /label="vidA"
                      /protein_id="AVY05508.1"
                      /translation="MAFPSLSILPTGIPAWAIWLGSTLGVLFLLYRWALPKPIPGIKYN
                      PEAVKSIFGDMGAMIKHTKETQELYDWMVEQNLKLQSPIIQLFVRPLGKPWVVITDYRE
@@ -47,11 +47,12 @@ FEATURES             Location/Qualifiers
                      HSPAFHIDESLRTPACSAAKDHLAWTWDPKTMAVFDPERWLSVNESGQKVFNPANGPLL
                      TFGLGERGCYGRRMAYTEMRVFLTLIIWTYSLERCPEELSGYRAIDKLVHAPQQCYIRP
                      VKLI"
+                     /Pfam="p450"
      CDS             join(2635..3093,3167..4168)
                      /codon_start=1
                      /gene="vidB"
                      /product="major facilitator superfamily transporter VidB"
-                     /label=vidB
+                     /label="vidB"
                      /protein_id="AVY05509.1"
                      /translation="MRASKDKPYGLDWRSRKSFIVSTVGVALFTDLFLYGLVVPALPFI
                      LADRFDLSPDQIQGHVSNLLTAYAGASVAASPIAGVITDRLGSRRVPFLVGVASLFGAT
@@ -62,20 +63,22 @@ FEATURES             Location/Qualifiers
                      FGTKRIAVLVYAYLVPVLISFRLARPGGIAAIAGYASLLALAGIGLAGMGAPALVEAGT
                      VVHMYHQANPEFYGELGPYAQLYSLSNIAFSLGLAVGPPLGGGLRQAIGYGNMNAVLAG
                      ICAVTAIVCYFSLGNKPRTSETSDQNGI"
+                     /Pfam="MFS_1"
      CDS             complement(join(4664..4749,4802..4967,5036..5254))
                      /codon_start=1
                      /gene="vidC"
                      /product="Bet v1-like protein VidC"
-                     /label=vidC
+                     /label="vidC"
                      /protein_id="AVY05510.1"
                      /translation="MEPKLVPLSFTESAVINIPLDSLWPRLKLRDISKFYTAIKRSEVV
                      ESGPEQRDRVKWYFEDGTVLEQVVVECSDDEHCSSFVIVNVEPWGLPYAGAGSTIRAYP
                      VTSGSAEGSTLVQWSAHYPDGVGDEVIADARQKRREGLADLAKAAENWRSSK"
+                     /Pfam="Polyketide_cyc2"
      CDS             join(5631..6737,6801..7499)
                      /codon_start=1
                      /gene="vidD"
                      /product="cytochrome P450 monooxygenase VidD"
-                     /label=vidD
+                     /label="vidD"
                      /protein_id="AVY05511.1"
                      /translation="MALQDNTTAQYGLGQLSSQITHQVSNLTSSYASSPSAGLVTGVLV
                      IGIYLLYWWALPKPIPGIPYNKESARSLFGDVNSLVQHTKKTNRFYDWLVAQNIKLQSP
@@ -88,11 +91,12 @@ FEATURES             Location/Qualifiers
                      NVLGHRIPKGTEVFFMGNGPSVFMPAFDIDDSIRSPNFDTTKDRVGSWDPKDMGSFKPE
                      RWLVDEEGRSVFDPAAGPLLTFGLGERGCYGRKLSYIEMRIFLTLIIWNFELHKCPPEL
                      SGYEAYDKMTHGPAQCFVKLVKVTS"
+                     /Pfam="p450"
      CDS             complement(9638..11308)
                      /codon_start=1
                      /gene="vidE"
                      /product="cytochrome P450 monooxygenase VidE"
-                     /label=vidE
+                     /label="vidE"
                      /protein_id="AVY05512.1"
                      /translation="MAEPLSSSSPRVDEFQSLTSSAFEKLSSVTGTAKGLNGFTLGTAV
                      MVLLVFALNSLLLPSHDSREPPVAKPSIPILGHMIGFARNSFTYYNILTKKLGQPIFTI
@@ -104,11 +108,12 @@ FEATURES             Location/Qualifiers
                      RIVTQDTVVGGYLLKKDSMVQIPLQVIHGDEKHWGEHAMDFDPYRFVKDPASGKKLPDD
                      SGYRSFGGGKHLCPGRFFATNEILAVVGLFISRYEMRPASGKWDLPTTFNSNAATQISQ
                      PDFEMEMEVRNRAGYEQYTWNVELRKSNKVVAVLSGDGQ"
+                     /Pfam="p450"
      CDS             complement(join(12157..12289,12374..13866))
                      /codon_start=1
                      /gene="vidF"
                      /product="FAD-dependent monooxygenase VidF"
-                     /label=vidF
+                     /label="vidF"
                      /protein_id="AVY05513.1"
                      /translation="MHYDLDALIVGAGFGGVYLLHQLRKEGLRAKIVEAGNGLGGVWNS
                      NSYPGARSDTPIPTYSLNIPEVYQTWTWNERYPGEQEFKAYFRHLDNVLGMSKDVVYGE
@@ -120,11 +125,12 @@ FEATURES             Location/Qualifiers
                      LTLEEKWKDSTTSYLGLATSGFPNMFYVYGPLSPTAYASGPAVVESQAHWIMDTIKKMR
                      DQNATRIDATTKAELEWREKIETIHAYTLRDKIESSWYLGTNIPGKRREVLCYSGGLPM
                      YRKEIFDAIKPDWKGFTLKTTDSN"
+                     /Pfam="Pyr_redox_2"
      CDS             15091..16563
                      /codon_start=1
                      /gene="vidG"
                      /product="cytochrome P450 monooxygenase VidG"
-                     /label=vidG
+                     /label="vidG"
                      /protein_id="AVY05514.1"
                      /translation="MFTPKPQLTSETSLDGPPPPTVHIPREVRRSIKVNEAYSKALDEH
                      GPVIVVPRHGRDEYVIDHRYAHEILTDTKSFTFEKAVFDLLHLGFLAMFDDGTFVKDVD
@@ -135,11 +141,12 @@ FEATURES             Location/Qualifiers
                      DSFMREVLRTKGDSWGPVRQTTKAVRVGPYVLPKGAMCIVLIARAHQHPDNYGTEGGKF
                      NGFQWAEKDRPTVQGAPDFLTFGLGRWACPGRQLAIHEIKIVLYMFFSKFDLKLRADTF
                      RVTNTINTTSVAPEATFLLRRRLNAGFSTAAV"
+                     /Pfam="p450"
      CDS             complement(17183..18034)
                      /codon_start=1
                      /gene="vidH"
                      /product="short-chain dehydrogenase/reductase VidH"
-                     /label=vidH
+                     /label="vidH"
                      /protein_id="AVY05515.1"
                      /translation="MSVLTPPSLDDLRSAAAGKVVVVTGAAHGIGFATAELFARAGAKV
                      VIADVNQDVGDKAAAQLGGSTIFVKCDVSSWDDQTALFQKAIATHGRVDLLVCNAGINP
@@ -147,20 +154,22 @@ FEATURES             Location/Qualifiers
                      VCLGSLASYMAVPEQTLYCASKHAILGLVRATSKRKECLDNGISISMVAPSLTDTRMTA
                      AVPQSARGGVLVSSPQDIAAAVSVLATQSIEESRGKCVWVQGKTCTEVEEVLFGAVVKL
                      LL"
+                     /Pfam="adh_short"
      CDS             join(18719..18943,19014..19179,19246..19319)
                      /codon_start=1
                      /gene="vidI"
                      /product="Bet v1-like protein VidI"
-                     /label=vidI
+                     /label="vidI"
                      /protein_id="AVY05516.1"
                      /translation="MAEAPKLTSTLVTESAVINAPISSIWPLIRLKAFQKFFSGITKTE
                      TLSSDDDKSEIVRWTFNEGYTLDVREEEYSTIKHCMSFSIIKCEPWGLPYTSVLSTIRL
                      YPITSRAAEGSTFVQWSGHYSADASADVVKDGHIKRREALADLAKAVEKE"
+                     /Pfam="Polyketide_cyc2"
      CDS             complement(join(19743..20990,21049..21318))
                      /codon_start=1
                      /gene="vidJ"
                      /product="FAD-linked oxidoreductase VidJ"
-                     /label=vidJ
+                     /label="vidJ"
                      /protein_id="AVY05517.1"
                      /translation="MKFLATLACSIAVVRRVEASPVSSVLHPTRGTVSSATVSSELGAS
                      LSNGTMIYGLGTAEFDTLTHRWGTFAEPQVQVVIEPAAESDVSKIVQYSNKNGIEFIAY
@@ -171,11 +180,12 @@ FEATURES             Location/Qualifiers
                      FTGVDDVACTSTLDRVLNTAGLQVWNITAERQIYDSFAKRLAERPDYYSGALLIHEGYA
                      TKAVTEIDPNSTAYPFREDHHLTQFQGNLPASSTEVGPMQDWAKEVLDLWNGGQPDRLP
                      DAYVNYASGFESLQEIYGHEPWRISKLLDAKKKYDPLNRFKYYNPLV"
+                     /Pfam="FAD_binding_4"
      CDS             complement(join(23390..24076,24180..25229))
                      /codon_start=1
                      /gene="vidK"
                      /product="cytochrome P450 monooxygenase VidK"
-                     /label=vidK
+                     /label="vidK"
                      /protein_id="AVY05518.1"
                      /translation="MDFPSLLVQRASHSWGLLISIVAGASLLLFLLYRWLLPKPIPGIP
                      YNAEATKSLLGDIPSMVEYGKETQEVFSWMAKQNIKLNSPIVQVFTRPFSRPSVVISDF
@@ -188,11 +198,12 @@ FEATURES             Location/Qualifiers
                      ASFYSPEFEISDSLRTQSCLESKDKVGAWSHADMAKFNPDRWLTKGVFDQAAGPLLTFG
                      LGERACYGRKMAYVQLKILVTLVVWSFELHKCPEKLSGYAASDKVTHVPQQCYARLSKC
                      SY"
+                     /Pfam="p450"
      CDS             complement(26167..27963)
                      /codon_start=1
                      /gene="vidL"
                      /product="major facilitator superfamily transporter VidL"
-                     /label=vidL
+                     /label="vidL"
                      /protein_id="AVY05519.1"
                      /translation="MALETSHEFGSGVRPAEQNHEEPVDEKRNNSNTNLDSQSNSGITD
                      PASKLKQPKSEAQLSGTTQASFSEPEDAIVNRQEEEEQAATDYPSGFKFFVIIIGLSLA
@@ -205,11 +216,12 @@ FEATURES             Location/Qualifiers
                      ILFGFGIGMGLQQSIVAAQTVLAPADIPTGTSIVVFFQNFGGSFLLSAAQTTFLSKLLS
                      GTSGLPGITSSQVVDAGATGVLSLSSDPAVLQVIRVAYRDGLIQAYMVALILVCLSLLG
                      VVGMEWRSVKAKAPAEGAALVH"
+                     /Pfam="MFS_1"
      CDS             complement(28457..29509)
                      /codon_start=1
                      /gene="vidM"
                      /product="short-chain dehydrogenase/reductase VidM"
-                     /label=vidM
+                     /label="vidM"
                      /protein_id="AVY05520.1"
                      /translation="MKHDSKARWGTILIVGGSGRLGFFIARQLLQQPECGLVVSVSRST
                      KIAHRCEGVVYRVADVRDSESLVAVLREFTPETIINSAAPPHADTNTPASEFDDVFVKG
@@ -218,11 +230,12 @@ FEATURES             Location/Qualifiers
                      ARAHILALRALMKPENQVHGKAYYITGKTALSFWTMARIIWKEAGWVEEKAPFIIPEWV
                      ATIMAMVSEMLAWLFRIQPQLTMHTLRFMCNTWTYDGSKARVELGYVPMDDTADQLRKS
                      ARWYLEHESG"
+                     /Pfam="3Beta_HSD"
      CDS             join(31887..32289,32359..32424,32485..32780)
                      /codon_start=1
                      /gene="vidN"
                      /product="hypothetical protein VidN"
-                     /label=vidN
+                     /label="vidN"
                      /protein_id="AVY05521.1"
                      /translation="MLSRLLEEGQARVNVTVQKGYAPPHFAHNLELIFVEDNRRSESLS
                      MKSKISSTRERAERLRALDPPVLIWWAVAFPMRQWSGGRKTNGRTFNSLIRRTPQCATD
@@ -233,18 +246,19 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="vidO"
                      /product="short-chain dehydrogenase/reductase VidO"
-                     /label=vidO
+                     /label="vidO"
                      /protein_id="AVY05522.1"
                      /translation="MASYLVTGASRGLGLEIVRVLANKPPSEVSTVFATLRSEPPSALQ
                      EIVSSSEGRVVLVQLETRDAKSISEAVEKVKQVLGDRGLDILINNAAINNETPEGVATM
                      TNLRETLEVNVEAVQNLTVALLSLLKQGQRKTVLNMSSIVGSITLLERFLIAPHHAYKV
                      SKAALNCLTKLYALDFDKEGFTFFAVSPGWVKTAQGGPYADLDADTAAKAVLDLLKRDR
                      ADLNGKFLNIHVPGWEKTTGLHNYDGAEIPW"
+                     /Pfam="adh_short"
      CDS             35315..36280
                      /codon_start=1
                      /gene="vidP"
                      /product="alpha/beta hydrolase VidP"
-                     /label=vidP
+                     /label="vidP"
                      /protein_id="AVY05523.1"
                      /translation="MPLAYDSEYAKALEPMPILAPRPTPKVHDVGTRRRQLDSNVEASL
                      GPVPVPSNVSIDTLKVPSYDQAEITVLRVYPKKAAEASPTASAAFIHVHGGGFISGSAQ
@@ -252,12 +266,13 @@ FEATURES             Location/Qualifiers
                      ITGESSGGGIAASVAIMARDRKLSPPLAKQVLVYPMLDDRNLSPVDGVEELAVWKCADN
                      VTGWTALLGDQAGKANTSPYAAAARVASVEGLPPLYIDVGELDMFREEAMEYALRFVKA
                      SISTEFHLYPGLPHGWEAYAPFISTTQRAIGNRHRALTSM"
+                     /Pfam="Abhydrolase_3"
      CDS             complement(join(37641..37694,37785..38509,38580..38681,
                      38739..38790))
                      /codon_start=1
                      /gene="vidQ"
                      /product="glyoxalase-like dehydrogenase VidQ"
-                     /label=vidQ
+                     /label="vidQ"
                      /protein_id="AVY05524.1"
                      /translation="MTDISTYQFNHSMIRVKDPEASLKFYKLLGLSVLQELKLPDYGLD
                      LYFVAYDSPASTSHSKLLSDREGVIELNYTYGIKKTHSGNEDPKGFGHICVSVDNIQAA
@@ -265,12 +280,13 @@ FEATURES             Location/Qualifiers
                      RVKDKGASLRFYEGVLGMTLQHEHRNAAAGFDSVFLGYGPSGAGRSIEDPNPDADREGL
                      LELNWTYGTEKGDGVAYHNGNSEPEGFGHICISVDDIYAACERLEALNVRWQKRLMDGP
                      FRVAFAYDPDDYLVEVIQNERFKSAGHEY"
+                     /Pfam="Glyoxalase"
      CDS             join(39192..39903,39979..40071,40134..40507,40587..40596,
                      40672..40887,40994..41232)
                      /codon_start=1
                      /gene="vidR"
                      /product="cytochrome P450 monooxygenase VidR"
-                     /label=vidR
+                     /label="vidR"
                      /protein_id="AVY05525.1"
                      /translation="MSYDKNLFEPVLGASINGTSNAYSNAYSNARLLLESAPLTFQAFA
                      FGASLLIGYYIWATLTSERALSGFPIATLPGKGLKPKESYVADASGTIAAGLEAFSGPF
@@ -282,17 +298,19 @@ FEATURES             Location/Qualifiers
                      NRMVMRNLELSDGMRLPKGARIMVQSKLRDPEIYKNPNDFDARRFLDLRTSSSNNANQY
                      VSTSSEMFAFGHGKHACPGRFLASSELKVALSHMLLKYDWKLDPSDTMPKFFDNETAHM
                      TNPGLKLMLRRRKEEINVDLGVDPDLLDVE"
+                     /Pfam="p450"
      CDS             join(41835..42098,42160..42687)
                      /codon_start=1
                      /gene="vidS"
                      /product="dehydratase VidS"
-                     /label=vidS
+                     /label="vidS"
                      /protein_id="AVY05526.1"
                      /translation="MVKLTVVQLASSMATAVSGLTVSVPSSRDLFDDPCATFRLPPRSV
                      NATYLNEASVEQPWIEPPFGFGYGKWALSWTSIEEYWSWSNMQNEWYPLSSTVNGSRLS
                      DIHATVIADVNSFQLGDNDTVIETPGTDTPLPGQIYAWNYTIPAEIMAETDHTAWAGWG
                      YDFYEQGAPYFVSYDAATTGVKNVSHGVSIYSRLERGPSDRTVAEVAECYDRLGSEAFS
                      SLFRSMKRTPTDGRRSHNLSWRGVAVENAQVEGRRSYQKPI"
+                     /Pfam="VidS"
 ORIGIN
         1 ctatatcaac ttgaccggcc taatgtagca ctgctgcggc gcgtgaacca gcttgtcaat
        61 agcgcgatat ccactcagct cctccgggca cctttccagt gaataagtcc agataatcaa

@@ -1,48 +1,49 @@
-LOCUS       FBGC00489        6638 bp DNA     linear   UNA 12-MAR-2023
+LOCUS       FBGC00489               6638 bp    DNA     linear   UNA 12-MAR-2023
 DEFINITION  alpha-amanitin.
 ACCESSION   FBGC00489
-VERSION     .
+VERSION     FBGC00489
 KEYWORDS    .
 SOURCE      Galerina marginata CBS 339.88
   ORGANISM  Galerina marginata CBS 339.88
+            .
 REFERENCE   1  (bases 1 to 6638)
-  AUTHORS   Luo H, Hallen-Adams HE, Luli Y, Sgambelluri RM, Li X, Smith M, Yang 
+  AUTHORS   Luo H, Hallen-Adams HE, Luli Y, Sgambelluri RM, Li X, Smith M, Yang
             ZL, Martin FM.
   TITLE     Genes and evolutionary fates of the amanitin biosynthesis pathway in
             poisonous mushrooms.
   JOURNAL   Proc Natl Acad Sci U S A 2022;119:e2201113119
-  PUBMED    35533275
+   PUBMED   35533275
 REFERENCE   2  (bases 1 to 6638)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Mar 12, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1073/pnas.2201113119"; journalName: "Proc Natl Acad Sci U S A"; 
-            date: "2022"; volume: "119"; pages: "e2201113119"
-COMMENT     URL -- http://genome.jgi.doe.gov/Galma1
-            JGI Project ID: 400997
-            The DNA was provided by Jonathan Walton(walton@msu.edu)
-            The strain is available from Centraalbureau voor Schimmelcultures 
-            (CBS), Utrecht, Netherlands
-            Contacts: Jonathan Walton (walton@msu.edu)
-            Assembly and annotation done by JGI.
-            The JGI and collaborators endorse the principles for the 
-            distribution and use of large scale sequencing data adopted by the 
-            larger genome sequencing community and urge users of this data to 
-            follow them. It is our intention to publish the work of this project
-            in a timely fashion and we welcome collaborative interaction on the 
-            project and analysis. 
-            (http://www.genome.gov/page.cfm?pageID=10506376).##Genome-Assembly-D
-            ata-START##
+  JOURNAL   Exported Mar 12, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     ##ata-START##
             Assembly Method       :: Newbler v. 2.5
             Assembly Name         :: Galma1
             Genome Coverage       :: 34x
             Sequencing Technology :: 454; Illumina
-            ##Genome-Assembly-Data-END####Metadata-START##
+            ##ata-END##
+            ##Metadata-START##
             Organism Display Name :: Galerina marginata CBS 339.88
             GOLD Stamp ID         :: Gi0022987
             ##Metadata-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1073/pnas.2201113119"; journalName: "Proc Natl Acad Sci U S A";
+            date: "2022"; volume: "119"; pages: "e2201113119"
+            URL -- http://genome.jgi.doe.gov/Galma1
+            JGI Project ID: 400997
+            The DNA was provided by Jonathan Walton(walton@msu.edu)
+            The strain is available from Centraalbureau voor Schimmelcultures
+            (CBS), Utrecht, Netherlands
+            Contacts: Jonathan Walton (walton@msu.edu)
+            Assembly and annotation done by JGI.
+            The JGI and collaborators endorse the principles for the
+            distribution and use of large scale sequencing data adopted by the
+            larger genome sequencing community and urge users of this data to
+            follow them. It is our intention to publish the work of this project
+            in a timely fashion and we welcome collaborative interaction on the
+            project and analysis.
+            (http://www.genome.gov/page.cfm?pageID=10506376).##Genome-Assembly-D
 FEATURES             Location/Qualifiers
      source          1..6638
                      /chromosome="Unknown"
@@ -59,12 +60,11 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="GALMADRAFT_78538"
                      /product="prolyl oligopeptidase GmPOPB"
-                     /label=GmPOPB
+                     /label="GmPOPB"
                      /note="Prolyl Oligopeptidase that is involved in Amanita
-                     toxin biosynthesis;
-                     GO_function: GO:8236; serine-type endopeptidase activity - 
-                     serine-type peptidase activity [PMID 4252];
-                     GO_process: GO:6508 - proteolysis"
+                     toxin biosynthesis; GO_function: GO:8236; serine-type
+                     endopeptidase activity - serine-type peptidase activity
+                     [PMID 4252]; GO_process: GO:6508 - proteolysis"
                      /db_xref="InterPro:IPR001375"
                      /db_xref="InterPro:IPR004106"
                      /db_xref="JGIDB:Galma1_78538"
@@ -82,11 +82,12 @@ FEATURES             Location/Qualifiers
                      SNGGLLVMGSIVRAPEGTFGAAVPEGGVADLLKFHKFTGGQAWISEYGNPSIPEEFDYI
                      YPLSPVHNVRTDKVMPATLITVNIGDGRVVPMHSFKFIATLQHNVPQNPHPLLIKIDKS
                      WLGHGMGKPTDKNVKDAADKWGFIARALGLELKTVE"
+                     /Pfam="Peptidase_S9_N, Peptidase_S9"
      CDS             join(4014..4234,4286..4817,4874..5431,5487..5729)
                      /codon_start=1
                      /locus_tag="GALMADRAFT_104945"
                      /product="FAD-dependent monooxygenase GmFMO1"
-                     /label=GmFMO1
+                     /label="GmFMO1"
                      /db_xref="InterPro:IPR013027"
                      /db_xref="JGIDB:Galma1_104945"
                      /protein_id="KDR68385.1"
@@ -100,11 +101,12 @@ FEATURES             Location/Qualifiers
                      YEDKARRQGLDPYLKGPIMLNNTSNDYQDELVEYLKQKNAIPDDGKKFVEEWRREILAY
                      HYLQRGWSRIEKLGMGPAWTEGVKTEAQWFDLMTRVNEWQKNWETENGIAFRVDLDLTG
                      "
+                     /Pfam="FMO-like"
      CDS             complement(join(6478..6487,6541..6638))
                      /codon_start=1
                      /locus_tag="GALMADRAFT_1387421"
                      /product="alpha-amanitin proprotein GmAMA1-1"
-                     /label=GmAMA1-1
+                     /label="GmAMA1-1"
                      /note="Alpha-amanitin proprotein encoding gene"
                      /db_xref="JGIDB:Galma1_1387421"
                      /protein_id="KDR68474.1"

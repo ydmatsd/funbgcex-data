@@ -1,37 +1,38 @@
-LOCUS       FBGC00484        6886 bp DNA     linear   UNA 11-MAR-2023
+LOCUS       FBGC00484               6886 bp    DNA     linear   UNA 11-MAR-2023
 DEFINITION  14-(N,N-dimethylvalyloxy)paspalinine.
 ACCESSION   FBGC00484
-VERSION     .
+VERSION     FBGC00484
 KEYWORDS    .
 SOURCE      Aspergillus nomiae NRRL 13137
   ORGANISM  Aspergillus nomiae NRRL 13137
+            .
 REFERENCE   1  (bases 1 to 6886)
   AUTHORS   McLellan RM, Cameron RC, Nicholson MJ, Parker EJ.
-  TITLE     Aminoacylation of Indole Diterpenes by Cluster-Specific Monomodular 
+  TITLE     Aminoacylation of Indole Diterpenes by Cluster-Specific Monomodular
             NRPS-like Enzymes.
   JOURNAL   Org Lett 2022;24:2332-2337
-  PUBMED    35315670
+   PUBMED   35315670
 REFERENCE   2  (bases 1 to 6886)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Mar 11, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1021/acs.orglett.2c00473"; journalName: "Org Lett"; date: 
-            "2022"; volume: "24"; pages: "2332-2337"
-COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final 
-            NCBI review. The reference sequence is identical to JNOM01000074. In
-            Feb 2020 three sequences (JNOM01001078.1, JNOM01001055.1, and 
-            JNOM01000986.1) were suppressed because they are 
-            contaminants.##Genome-Assembly-Data-START##
+  JOURNAL   Exported Mar 11, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     ##Genome-Assembly-Data-START##
             Assembly Method       :: Newbler v. 2.9
             Genome Coverage       :: 42.0x
             Sequencing Technology :: IonTorrent
-            ##Genome-Assembly-Data-END####Genome-Annotation-Data-START##
-            Annotation Provider :: INSDC submitter
-            Annotation Status   :: Full annotation
-            Annotation Pipeline :: Eukaryotic Annotation Propagation Pipeline 
+            ##Genome-Assembly-Data-END##
+            ##Genome-Annotation-Data-START##
+            Annotation Provider   :: INSDC submitter
+            Annotation Status     :: Full annotation
+            Annotation Pipeline   :: Eukaryotic Annotation Propagation Pipeline
             ##Genome-Annotation-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1021/acs.orglett.2c00473"; journalName: "Org Lett"; date:
+            "2022"; volume: "24"; pages: "2332-2337"
+            PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to JNOM01000074. In
+            Feb 2020 three sequences (JNOM01001078.1, JNOM01001055.1, and
+            JNOM01000986.1) were suppressed because they are
 FEATURES             Location/Qualifiers
      source          1..6886
                      /chromosome="Unknown"
@@ -41,7 +42,7 @@ FEATURES             Location/Qualifiers
                      /country="USA: Peoria, Illinois"
                      /lat_lon="40.6936 N 89.589 W"
                      /isolation_source="plant tissue"
-                     /collection_date=1987
+                     /collection_date="1987"
                      /db_xref="taxon:1509407"
                      /type_material="culture from type material of Aspergillus
                      nomiae"
@@ -50,7 +51,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="ANOM_004115"
                      /product="geranylgeranyl pyrophosphate synthase NomG"
-                     /label=nomG
+                     /label="nomG"
                      /db_xref="GeneID:26805919"
                      /protein_id="XP_015408601.1"
                      /translation="MISGVPDRWKLVAPSFSSTLNASYPTPSPLSTESIDTRGSSPQMP
@@ -60,11 +61,12 @@ FEATURES             Location/Qualifiers
                      LLGIIFQIRDDYQNLQSDLYSKNKGFCEDLTEGKFSFLIIHSINSNPGDQQLLNILRQR
                      SEEESVKKYAVEYIRSTGSFDYCQERLASLLHEAKMMVNVLEENVGFSKGIYDILAFLL
                      "
+                     /Pfam="GGPS"
      CDS             complement(join(1870..2194,2253..2605,2660..2986))
                      /codon_start=1
                      /locus_tag="ANOM_004116"
                      /product="prenyltransferase NomC"
-                     /label=nomC
+                     /label="nomC"
                      /db_xref="GeneID:26805920"
                      /protein_id="XP_015408604.1"
                      /translation="MGFLHGFLSQPTTYAILALVVIPVTALAWDRLPGLLPSAKRLLVG
@@ -73,11 +75,12 @@ FEATURES             Location/Qualifiers
                      EILQGQDLSLVWRRDGLSAFPVQPEERVAAYRRMAYLKTGALFRLVGQLVLENPSYDDT
                      LTTVAWYSQLQNDCKNVYSSDYAKAKGAIAEDLRNGELTYPIVVALNASQGHHVARALE
                      FRSPHNIRQALRVIQSQQVRHACLTEMKKSAVSIQDWLALWGRNEKMDMKSEK"
+                     /Pfam="PaxC"
      CDS             join(5241..5536,5617..5888,5962..6332,6386..6886)
                      /codon_start=1
                      /locus_tag="ANOM_004117"
                      /product="FAD-dependent monooxygenase NomM"
-                     /label=nomM
+                     /label="nomM"
                      /db_xref="GeneID:26805921"
                      /protein_id="XP_015408603.1"
                      /translation="MCDKDQFRVIIVGGSVAGLTLAHCLQQAGINHVVLEKSPDLSPQV
@@ -89,6 +92,7 @@ FEATURES             Location/Qualifiers
                      SRNEYKKLSRPALEQLLREFQSERFSRVNKIYKDSRFLVRLHARDGIVKSLFARYIVPH
                      MRALPADLASKSIADSPTISFLPVPSRSGPGWQQWSRKERRSAPLWILMLLVLVIFFGL
                      HSPGRLLPWLWSNSLVSRSTK"
+                     /Pfam="FAD_binding_3"
 ORIGIN
         1 tcagagtaag aaagccaaga tgtcatagat tcccttggaa aacccaacgt tctcttctag
        61 tacgttgacc atcatctttg cttcatgcag caaggatgcc agtcgctctt gacagtagtc

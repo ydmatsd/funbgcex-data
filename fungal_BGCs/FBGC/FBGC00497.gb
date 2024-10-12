@@ -1,24 +1,24 @@
-LOCUS       FBGC00497       93632 bp DNA     linear   UNA 16-MAY-2023
+LOCUS       FBGC00497              93632 bp    DNA     linear   UNA 16-MAY-2023
 DEFINITION  victorins.
 ACCESSION   FBGC00497
-VERSION     .
+VERSION     FBGC00497
 KEYWORDS    .
 SOURCE      Cochliobolus victoriae FI3
   ORGANISM  Cochliobolus victoriae FI3
+            .
 REFERENCE   1  (bases 1 to 93632)
   AUTHORS   Kessler SC, Zhang X, McDonald MC, Gilchrist CLM, Lin Z, Rightmyer A,
             Solomon PS, Turgeon BG, Chooi YH.
-  TITLE     Victorin, the host-selective cyclic peptide toxin from the oat 
+  TITLE     Victorin, the host-selective cyclic peptide toxin from the oat
             pathogen Cochliobolus victoriae, is ribosomally encoded.
   JOURNAL   Proc Natl Acad Sci U S A 2020;117:24243-24250
-  PUBMED    32929037
+   PUBMED   32929037
 REFERENCE   2  (bases 1 to 93632)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported May 16, 2023 from SnapGene 6.2.2
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1073/pnas.2010573117"; journalName: "Proc Natl Acad Sci U S A"; 
+  JOURNAL   Exported May 16, 2023 from SnapGene 6.2.2 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1073/pnas.2010573117"; journalName: "Proc Natl Acad Sci U S A";
             date: "2020"; volume: "117"; pages: "24243-24250"
 FEATURES             Location/Qualifiers
      source          1..93632
@@ -29,7 +29,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="Cvic_000004"
                      /product="transcription factor VicR"
-                     /label=vicR
+                     /label="vicR"
                      /protein_id="Cvic:vicR_exon"
                      /translation="MTSNQPFTHSSHQSESSSSQANPYNNVCDQCYRRKLSCSRGMPAC
                      ERCQQSGQQCTYSITRPVGRPRRLEPDQSRQHRRSVLRNAIRTHEQVLQKNGLYTPISQ
@@ -40,23 +40,25 @@ FEATURES             Location/Qualifiers
                      QERMGAHSGAKGFCGNIKSNLDTMSTKAILTENEVDPLQNPKKKNILLKTFILLSSTTS
                      ALPFRFRIDSDDNLSHEIIEALAVLVRDSTRPTCLVLRTRPYPAERRLPAQRRRQPVRA
                      FCT"
+                     /Pfam="Zn_clus"
      CDS             22157..22858
                      /codon_start=1
                      /locus_tag="Cvic_000012"
                      /product="DUF3328 protein VicYy2"
-                     /label=vicYy2
+                     /label="vicYy2"
                      /protein_id="Cvic:vicYy2_exon"
                      /translation="MIPLWKLFNLYSTKANPLAYSMLLSPDEKNDEHAAIPAECTMTTA
                      TLGNRLWKWSAIAGLLGIIFTTSGLVYFSRPPSLPDVLHCGSTPDEARSLGCVYSLVDV
                      RWVPAPCYDAEMDNEFISHGWTRWYDRNATREMTLDIAKQGETEYWVTMEYHIVHCQYT
                      FRQLRRRYWDAARQVRYISSSNYLTEDEHFFHCLEYMDPRIPQDPDLVITLSEVGFGTC
                      QVPQLKADRLM"
+                     /Pfam="PhomB"
      CDS             join(27590..27814,27883..28000,28095..28249,28315..28371,
                      28437..28529,28602..28944,29015..29174,29264..29717)
                      /codon_start=1
                      /locus_tag="Cvic_000002"
                      /product="peptidase VicPa"
-                     /label=vicPa
+                     /label="vicPa"
                      /protein_id="Cvic:CDS:EUN20593"
                      /translation="MLCYLLIHILCLQAVLGVPYDVLPLRIPALVPKDTSLLSGRGAFQ
                      QLIDHTNLDVGTFSQSYWFNTTYWGGPGSPIIFYTPGQHAATDRLHYLTDTTLPGLVAK
@@ -68,24 +70,26 @@ FEATURES             Location/Qualifiers
                      SMYYKRRCKLIFPEEENVTYAARVTDDSINTLTGGWNHTGKRILFTNGEFDPWRSASVS
                      SVFRPDGPMQSTSQQPIILIKGVQHQADMYVRNRINKDVREAMDTGIAQISRWVLDFHV
                      EKSKTLTQYTSQVYCAH"
+                     /Pfam="Peptidase_S28"
      CDS             complement(30189..30944)
                      /codon_start=1
                      /locus_tag="Cvic_000010"
                      /product="DUF3328 protein VicYw2"
-                     /label=vicYw2
+                     /label="vicYw2"
                      /protein_id="Cvic:vicYw2_exon"
                      /translation="MQGSYHYQHFVPAAFDDSNEGCSYPSRFLGKHSFKSLLFLAVTTC
                      TILLGMIVGADYWVRRVEEKYTIASCGNTPGEARALGCRFESHNFAWTPPDCYDEALNA
                      KWDSKHWGYSRNPEGTDMIPRDEVLLGNLKWAYVTLNQHMSHCVLIWQKYQRAVMFNRP
                      ADNWTTSFAHTYHCGQFMVQWDLNHSEYNSILYTKYVSCGYDWKKPDVRMDTVMSGPMD
                      GGLIGDGGNHGHAMGVSIVTGHEDEHHLQ"
+                     /Pfam="PhomB"
      CDS             complement(join(36317..36773,36844..37003,37073..37412,
                      37482..37574,37640..37696,37758..37912,38005..38122,
                      38192..38416))
                      /codon_start=1
                      /locus_tag="Cvic_000003"
                      /product="peptidase VicPb"
-                     /label=vicPb
+                     /label="vicPb"
                      /protein_id="Cvic:CDS:EUN20465"
                      /translation="MLRYLLIPILYLQVVLGVLSEVLPSLKPSVVPKNTSLLSGRGVFR
                      QLIDHTHPEVGTFSQKYWFNTTYWGGPGSPIIFYTPGQHPATNRLYYLTDTTLPGLIAK
@@ -97,73 +101,80 @@ FEATURES             Location/Qualifiers
                      VYYERRCRLIFPKEGNATYGIAAGVTDKSMNALTGGWNRTGKRILFTNGEFDPWRSASV
                      SSVFRPDGPMQSTSQQPIILIKGVQHQADMYVRNRINKEVREAMDTGIAQISRWVLDFY
                      TENSKTLAHDLQGFCVH"
+                     /Pfam="Peptidase_S28"
      CDS             join(40065..40128,40183..40436)
                      /codon_start=1
                      /locus_tag="Cvic_000014"
                      /product="victorin proprotein VicA2"
-                     /label=vicA2
+                     /label="vicA2"
                      /protein_id="Cvic:vicA2_exon"
                      /translation="MVRITALMSGSILLFALQALAMPVETTSVEPAAEKRGLKLAFKRG
                      EEVEPAEEKRGLKLAFKRGEEVEPAEEKRGLKLAFKRGEEVEPAEEKRGLKLAFKRGRR
                      G"
+                     /Pfam="VicA"
      CDS             complement(join(41826..42458,42497..42655))
                      /codon_start=1
                      /locus_tag="Cvic_000008"
                      /product="DUF3328 protein VicYx2"
-                     /label=vicYx2
+                     /label="vicYx2"
                      /protein_id="Cvic:vicYx2_exon"
                      /translation="MTRPSSETSGEQDAYLLEEKRRDQPGFAHAMRRTSTAAFCGLVLG
                      IAVFILLTRRRCAGGHTASIFCQSVSYQARRSGAYIDCPLDSPQAARDAGCSFDLLING
                      YIPNPCFDFEMNKYFMEKADFGYFKDEAATITIPQSELLAGNFEKYKFVWLSTDSHYHH
                      CMYIVNGSTRAYSRMGFTFLDSYLDQWHIQHCISVIMEPRPPLPFQRMDTPMMAAFAAE
                      HRCYLRDLSPTPPQDPGAITTALTHPRTEIEAQRWESEQHK"
+                     /Pfam="VicYx"
      CDS             46924..47568
                      /codon_start=1
                      /locus_tag="Cvic_000013"
                      /product="DUF3328 protein VicYz"
-                     /label=vicYz
+                     /label="vicYz"
                      /protein_id="Cvic:vicYz_exon"
                      /translation="MRNEAEQKQLIEEYKDSEELRIREAHPKVKFLTYKVVMLTIWSLC
                      LVFWTGMLLATSKPTWPASRTLHCGNSTAEAKSLGCVYDILSGDWMPEQCFDKETMNEY
                      EEAGPWLWWADREGTQTLSREETSERTSPGPPYYGTPLDHAAHCLYTFKRMIKLRDQWG
                      RLPPSSSTEWHTNHCVGFLMSFITATKETSDPVTYRKYSSNAGFSTCVVGG"
+                     /Pfam="PhomB"
      CDS             join(53343..53598,53655..53795,53855..53936,54019..54346)
                      /codon_start=1
                      /locus_tag="Cvic_000006"
                      /product="DUF3328 protein VicYb"
-                     /label=vicYb
+                     /label="vicYb"
                      /protein_id="Cvic:vicYb_exon"
                      /translation="MSSAAYSRVDSSSTDRNSDEYHKERYLALRTNNAKGFKGVQRRLW
                      IAINSSLWLVTLGMLIVLLRRESLGTRNGGFELGFSATELAATFRTIRISTEIFNQPEG
                      TSFSTLPTSSYVGEPTEEIDNAWRILVSPTVLYLKEDEIGEYKNSTTKQDNLWVAGLQV
                      YHYLHCINALRRAAYQHVYGAPTKEHLNHLDHCIDMLRQAAQCQSDLTPMLYFNPENDP
                      NTMLIKSHQHSCRRFDLVNEWAMARSQCKGNTTCAIEVGKQVGGEM"
+                     /Pfam="UstYa"
      CDS             complement(join(58597..58772,58832..58932,58991..59084,
                      59138..59287,59355..59577))
                      /codon_start=1
                      /locus_tag="Cvic_000007"
                      /product="DUF3328 protein VicYc"
-                     /label=vicYc
+                     /label="vicYc"
                      /protein_id="Cvic:vicYc_exon"
                      /translation="MYPYEKLFENEEEALHMSKTNTHTLKTPQDLRSKVLFWLNIFHYA
                      LTSSLFVLVATLGIRKEHGTFTTGWPTEIPAVSPFIRLTKEIIEPQVYLLPNGTTLPST
                      SDYTGTPSKEIDDRWQSLEDLLILELDTTELGIDIAERALRSTANKYKHLVSLQVFHEL
                      HCLNFLRKLIYPDVYGKIDYKGQIHANHCIDHIRRIAECGSNATPVVYTGYKNGNLYSE
                      PETYTCRNFTLIRQWAEMKKIQNTQ"
+                     /Pfam="UstYa"
      CDS             complement(62339..62827)
                      /codon_start=1
                      /locus_tag="Cvic_000016"
                      /product="DUF3328 protein VicYv2"
-                     /label=vicYv2
+                     /label="vicYv2"
                      /protein_id="Cvic:CDS:EUN20372"
                      /translation="MRPGVIRLTYGSAPEEALSLGCEFQLFSHAWVPKKCTQPGIEAEF
                      RALPGLRYYSTSDGSQEVDVTEVAKGESHLWTNIVEHDVHCELVLRSLAMASLSGVYTG
                      NILDLEHSNHCIDSLLTAKNWSMDELNTQVEVDFLSCTVLRTPIIYNVVYKRVTRTSE"
+                     /Pfam="PhomB"
      CDS             complement(join(65395..65865,65958..66235,66302..66602))
                      /codon_start=1
                      /locus_tag="Cvic_000005"
                      /product="transporter VicT"
-                     /label=vicT
+                     /label="vicT"
                      /protein_id="Cvic:CDS:EUN20451"
                      /translation="MEKPTRQTPFYTQHRAELLVLSSQIAAALLHALARVVEVGSGLKE
                      RVHPFTVLQIRLFITVLGCTAYLWRARIDFLGPTGLRPLLALRAAGGVFGACGFYLSIS
@@ -172,12 +183,13 @@ FEATURES             Location/Qualifiers
                      TTAFSTIMPEVVWPTRIESWCLLAIIGILGLVMEYLLTAGLGSDDPRVTIMIYSQVLWA
                      LFLDWAIWRSHVNVLTVLGSMVVVASLAVPYLFRESSHPKEDMFSTRSGMDDIEEGQDE
                      AHANYISLE"
+                     /Pfam="EamA"
      CDS             join(86733..86923,86972..86988,87032..87158,87215..87353,
                      87411..88222,88322..88462,88509..88842)
                      /codon_start=1
                      /locus_tag="Cvic_000001"
                      /product="copper amine oxidase VicK2"
-                     /label=vicK2
+                     /label="vicK2"
                      /protein_id="Cvic:vicK2_exon"
                      /translation="MKLFLLFTLTLVNILAFRYKSPFKINQQETILSLHRIEMCGALSE
                      AEFSGVSAVLVHQLNLTTSRVAIESASIQIDYLYPNKSDVLLFLDHNGEEPKRYARATV
@@ -190,25 +202,28 @@ FEATURES             Location/Qualifiers
                      YGEKNSVQKVEVVPETTIYPWSQGQPHNTMKLNRGFVTSETDSSIDWAADDAISYTIVN
                      KDSPNKYGEYPGYRFRRVAPAIHLTVKNSTSGGKALHYATHDLFITQQKDNEPCAADRN
                      NAYNIDDPIC"
+                     /Pfam="DUF1965, Cu_amine_oxid"
      CDS             join(91106..91169,91224..91420)
                      /codon_start=1
                      /locus_tag="Cvic_000015"
                      /product="victorin proprotein VicA3"
-                     /label=vicA3
+                     /label="vicA3"
                      /protein_id="Cvic:vicA3_exon_splice3"
                      /translation="MVRITALMSGSILLFALQALAMPVETTSVEPAAEKRGLKLAFKRG
                      EEVEPAEEKRGLKLAFKRGEEVEPAEEKRGLKLAFKRGRRG"
+                     /Pfam="VicA"
      CDS             complement(join(92803..93327,93438..93632))
                      /codon_start=1
                      /locus_tag="Cvic_000009"
                      /product="DUF3328 protein VicYx3"
-                     /label=vicYx3
+                     /label="vicYx3"
                      /protein_id="Cvic:vicYx3_exon"
                      /translation="MTRPSSEASIGEDAYLLEEKRRDQPGFAHAMRRTSTAAFCGLVLG
                      IAVFILLTGMLIAAVFTVHQAARDAGCSFDLLINGYIPNPCFDFEMNKYFMEKADFGYF
                      KDEAATITIPQSELLAGNFEKYKFVWLSTDSHYHHCMYIVNGSTRAYSRMGFTFLDSYL
                      DQWHIQHCISVIMEPRPPLPFQRMDTPMMAAFAAEHRCYLRDLSPTPPQDPGAITTALT
                      HPRTEIEAQRWESEQHK"
+                     /Pfam="VicYx"
 ORIGIN
         1 ttacgtacaa aacgcgcgta caggctgcct tcggcgttga gctggtaatc ggcgttcagc
        61 tgggtagggc ctagttcgga gaactaggca tgtggggcga gtactttgcg tcatccattt

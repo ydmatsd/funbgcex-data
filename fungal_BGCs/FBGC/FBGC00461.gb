@@ -1,37 +1,37 @@
-LOCUS       FBGC00461        3648 bp DNA     linear   UNA 09-MAR-2023
+LOCUS       FBGC00461               3648 bp    DNA     linear   UNA 09-MAR-2023
 DEFINITION  eremophilene.
 ACCESSION   FBGC00461
-VERSION     .
+VERSION     FBGC00461
 KEYWORDS    .
 SOURCE      Fusarium fujikuroi IMI 58289
   ORGANISM  Fusarium fujikuroi IMI 58289
+            .
 REFERENCE   1  (bases 1 to 3648)
-  AUTHORS   Burkhardt I, Siemon T, Henrot M, Studt L, Rosler S, Tudzynski B, 
+  AUTHORS   Burkhardt I, Siemon T, Henrot M, Studt L, Rosler S, Tudzynski B,
             Christmann M, Dickschat JS.
-  TITLE     Mechanistic Characterisation of Two Sesquiterpene Cyclases from the 
+  TITLE     Mechanistic Characterisation of Two Sesquiterpene Cyclases from the
             Plant Pathogenic Fungus Fusarium fujikuroi.
   JOURNAL   Angew Chem Int Ed Engl 2016;55:8748-51
-  PUBMED    27294564
+   PUBMED   27294564
 REFERENCE   2  (bases 1 to 3648)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Mar 9, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1002/anie.201603782"; journalName: "Angew Chem Int Ed Engl"; 
+  JOURNAL   Exported Mar 9, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     ##Genome-Annotation-Data-START##
+            Annotation Provider :: INSDC submitter
+            Annotation Status   :: Full annotation
+            Annotation Pipeline :: Eukaryotic Annotation Propagation Pipeline
+            ##Genome-Annotation-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1002/anie.201603782"; journalName: "Angew Chem Int Ed Engl";
             date: "2016"; volume: "55"; pages: "8748-51"
-COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final 
-            NCBI review. The reference sequence is identical to HF679024. 
-            Sequencing was performed by Eurofins MWG Operon, Germany Guldener 
-            U., Wiemann P., Sieber C., Munsterkotter M., Tudzynski B. 
+            PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to HF679024.
+            Sequencing was performed by Eurofins MWG Operon, Germany Guldener
+            U., Wiemann P., Sieber C., Munsterkotter M., Tudzynski B.
             Westfaelische Wilhelms-Universitaet Muenster
             Institut fuer Biologie und Biotechnologie der Pflanzen, Schlossplatz
             8, 48143 Muenster, Germany
-            tudzynsb@uni-muenster.de.##Genome-Annotation-Data-START##
-            Annotation Provider :: INSDC submitter
-            Annotation Status   :: Full annotation
-            Annotation Pipeline :: Eukaryotic Annotation Propagation Pipeline 
-            ##Genome-Annotation-Data-END##
 FEATURES             Location/Qualifiers
      source          1..3648
                      /chromosome="II"
@@ -44,7 +44,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="FFUJ_04067"
                      /product="terpene synthase STC3"
-                     /label=STC3
+                     /label="STC3"
                      /db_xref="EnsemblGenomes-Gn:FFUJ_04067"
                      /db_xref="EnsemblGenomes-Tr:CCT65043"
                      /db_xref="GeneID:35397548"
@@ -60,12 +60,13 @@ FEATURES             Location/Qualifiers
                      AFEHPSVQECIAVGCDLAWIHNDIVSYKKDVKSGIEHNFITVLKKNGFTTQQAMDRAGE
                      LQDECYRRWYLALASMPIWGESIDREVLRYIEACHSFPLGDLLWSFQTGRYLGATEGYK
                      LHETRVLDLSDLEPIAV"
-     CDS             join(1736..2033,2085..2145,2205..2466,2519..2725,2786..3100,
-                     3162..3272,3331..3648)
+                     /Pfam="Terpene_syn_C_2"
+     CDS             join(1736..2033,2085..2145,2205..2466,2519..2725,
+                     2786..3100,3162..3272,3331..3648)
                      /codon_start=1
                      /locus_tag="FFUJ_04066"
                      /product="cytochrome P450 monooxygenase FFUJ_04066"
-                     /label=FFUJ_04066
+                     /label="FFUJ_04066"
                      /db_xref="EnsemblGenomes-Gn:FFUJ_04066"
                      /db_xref="EnsemblGenomes-Tr:CCT64690"
                      /db_xref="GeneID:35397547"
@@ -85,6 +86,7 @@ FEATURES             Location/Qualifiers
                      TRLVPSGGTKYGSHFLPADTSVSTAQRLIHYDPVLFPEPETFMPERWLDNSDKASKKNL
                      VPFSKGPRMCVGLNLSYMEAYVFLGNLIRRFDLSLQDKDQGTLRWKDYIALHIEDDVLI
                      KVNGLR"
+                     /Pfam="p450"
 ORIGIN
         1 tcacacagca ataggttcca aatctgacag gtccaacacc ctcgtctcgt gcagcttata
        61 tccctccgtg gcccccaagt atcgccctgt ctggaagctc cagagcaagt caccaagagg

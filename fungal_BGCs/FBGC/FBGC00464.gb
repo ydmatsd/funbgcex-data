@@ -1,39 +1,40 @@
-LOCUS       FBGC00464        4499 bp DNA     linear   UNA 09-MAR-2023
+LOCUS       FBGC00464               4499 bp    DNA     linear   UNA 09-MAR-2023
 DEFINITION  (+)-aristolochene.
 ACCESSION   FBGC00464
-VERSION     .
+VERSION     FBGC00464
 KEYWORDS    .
 SOURCE      Penicillium expansum MD-8
   ORGANISM  Penicillium expansum MD-8
+            .
 REFERENCE   1  (bases 1 to 4499)
   AUTHORS   Huang ZY, Wu QY, Li CX, Yu HL, Xu JH.
-  TITLE     Facile Production of (+)-Aristolochene and (+)-Bicyclogermacrene in 
+  TITLE     Facile Production of (+)-Aristolochene and (+)-Bicyclogermacrene in
             Escherichia coli Using Newly Discovered Sesquiterpene Synthases from
             Penicillium expansum.
   JOURNAL   J Agric Food Chem 2022;70:5860-5868
-  PUBMED    35506591
+   PUBMED   35506591
 REFERENCE   2  (bases 1 to 4499)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported May 9, 2023 from SnapGene 6.2.2
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1021/acs.jafc.2c01885"; journalName: "J Agric Food Chem"; date: 
-            "2022"; volume: "70"; pages: "5860-5868"
-COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final 
-            NCBI review. The reference sequence is identical to 
-            JQFZ01000261.##Genome-Assembly-Data-START##
+  JOURNAL   Exported May 9, 2023 from SnapGene 6.2.2 https://www.snapgene.com
+COMMENT     ##Genome-Assembly-Data-START##
             Assembly Date          :: 2014
             Assembly Method        :: SOAPdenovo v. 2.0
             Genome Representation  :: Full
             Expected Final Version :: Yes
             Genome Coverage        :: 473.0x
-            Sequencing Technology  :: Illumina HiSeq 
-            ##Genome-Assembly-Data-END####Genome-Annotation-Data-START##
-            Annotation Provider :: INSDC submitter
-            Annotation Status   :: Full annotation
-            Annotation Pipeline :: Eukaryotic Annotation Propagation Pipeline 
+            Sequencing Technology  :: Illumina HiSeq
+            ##Genome-Assembly-Data-END##
+            ##Genome-Annotation-Data-START##
+            Annotation Provider    :: INSDC submitter
+            Annotation Status      :: Full annotation
+            Annotation Pipeline    :: Eukaryotic Annotation Propagation Pipeline
             ##Genome-Annotation-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1021/acs.jafc.2c01885"; journalName: "J Agric Food Chem"; date:
+            "2022"; volume: "70"; pages: "5860-5868"
+            PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to
 FEATURES             Location/Qualifiers
      source          1..4499
                      /chromosome="Unknown"
@@ -42,14 +43,14 @@ FEATURES             Location/Qualifiers
                      /mol_type="genomic DNA"
                      /country="USA"
                      /isolation_source="fruit"
-                     /collection_date=1992
+                     /collection_date="1992"
                      /db_xref="taxon:27334"
                      /organism="Penicillium expansum"
      CDS             join(1..70,175..1019)
                      /codon_start=1
                      /locus_tag="PEX2_081850"
                      /product="short-chain dehydrogenase/reductase PEX2_081850"
-                     /label=PEX2_081850
+                     /label="PEX2_081850"
                      /db_xref="GeneID:27680875"
                      /protein_id="XP_016595383.1"
                      /translation="MPTITYNPDSIPDLSGKVILITGGTGGLGAESARRLAQKSPAHIY
@@ -58,11 +59,12 @@ FEATURES             Location/Qualifiers
                      GGGIVFDAVRTKQEFSAFGGWIRYGQSKLANLLYARELARRYPTITSISVTPGVVNTGL
                      VENLGRFNRAFVWVTNLGQLMKPEEGAYNQLWASTIAKHTLQNGQFYEPVGVLSNKLDK
                      ASQDAALAKRLWDWTEEALQAYL"
+                     /Pfam="adh_short"
      CDS             complement(join(1228..1912,2002..2990))
                      /codon_start=1
                      /locus_tag="PEX2_081860"
                      /product="cytochrome P450 monooxygenase PEX2_081860"
-                     /label=PEX2_081860
+                     /label="PEX2_081860"
                      /db_xref="GeneID:27680876"
                      /protein_id="XP_016595384.1"
                      /translation="MIQLWSAWVYGGIIVLVSCWRIFLTLNSLQWVHWWSKSPSRNPPV
@@ -75,11 +77,12 @@ FEATURES             Location/Qualifiers
                      EVLRMRIALLLNRTPVHTEAQLGPWRLKRGQFIVMSTQHAAYDDEAWGPRRMQDGRYPL
                      DQFWAERFLVQDEGGKEQFSLDGLSGAWIPYGGGGFMCPGRHFAKQEILGSVAIFQSYY
                      ELEVVDRPKGWLPRPDRRFYGVGAMPPAEPIPFRIRRRRR"
+                     /Pfam="p450"
      CDS             join(3342..3648,3733..4006,4085..4499)
                      /codon_start=1
                      /locus_tag="PEX2_081870"
                      /product="terpene synthase PeTS1"
-                     /label=PeTS1
+                     /label="PeTS1"
                      /db_xref="GeneID:27680877"
                      /protein_id="XP_016595385.1"
                      /translation="MTRMKNSSSNVTSASGSGSGSGGFVQPLPASLLQPICHPRVTEVT
@@ -88,6 +91,7 @@ FEATURES             Location/Qualifiers
                      VFMRAQTDRTRIRPMGLGSYLEYRERDVGKALLAALMRFSMALHVSPVELTILGEIDVN
                      CSKHLSVINDVYSYEKELRASKTAHAEGGALCTSVRILADEMAISIEAAKRVLVFMCRE
                      WELRHQVLVEELRADGRQSASLTAYVKGLEFQMSGNEEWSKTTLRYNNVV"
+                     /Pfam="Terpene_syn_C_2"
 ORIGIN
         1 atgccgacaa ttacctacaa cccagacagt atccccgatt tgtctggaaa ggtcattctc
        61 attactggcg gtgagtacta ctacaccact atctgaaagc tccgatccct ccatttagtc

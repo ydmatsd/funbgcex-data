@@ -1,37 +1,38 @@
-LOCUS       FBGC00500        1404 bp DNA     linear   UNA 25-MAR-2023
+LOCUS       FBGC00500               1404 bp    DNA     linear   UNA 25-MAR-2023
 DEFINITION  pentaketide alkylresorcylic acids.
 ACCESSION   FBGC00500
-VERSION     .
+VERSION     FBGC00500
 KEYWORDS    WGS; RefSeq.
 SOURCE      Neurospora crassa OR74A
   ORGANISM  Neurospora crassa OR74A
+            .
 REFERENCE   1  (bases 1 to 1404)
   AUTHORS   Funa N, Awakawa T, Horinouchi S.
-  TITLE     Pentaketide resorcylic acid synthesis by type III polyketide 
+  TITLE     Pentaketide resorcylic acid synthesis by type III polyketide
             synthase from Neurospora crassa.
   JOURNAL   J Biol Chem 2007;282:14476-81
-  PUBMED    17374612
+   PUBMED   17374612
 REFERENCE   2  (bases 1 to 1404)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Mar 25, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1074/jbc.M701239200"; journalName: "J Biol Chem"; date: "2007"; 
-            volume: "282"; pages: "14476-81"
-COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final 
-            NCBI review. The reference sequence is identical to CM002241. Please
-            be aware that the annotation is done automatically with little or no
-            manual curation.##Genome-Assembly-Data-START##
+  JOURNAL   Exported Mar 25, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     ##Genome-Assembly-Data-START##
             Assembly Method       :: Arachne v. 1.0
             Assembly Name         :: NC12
             Genome Coverage       :: 20.0x
             Sequencing Technology :: Sanger; 454
-            ##Genome-Assembly-Data-END####Genome-Annotation-Data-START##
-            Annotation Provider :: INSDC submitter
-            Annotation Status   :: Full annotation
-            Annotation Pipeline :: Eukaryotic Annotation Propagation Pipeline 
+            ##Genome-Assembly-Data-END##
+            ##Genome-Annotation-Data-START##
+            Annotation Provider   :: INSDC submitter
+            Annotation Status     :: Full annotation
+            Annotation Pipeline   :: Eukaryotic Annotation Propagation Pipeline
             ##Genome-Annotation-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1074/jbc.M701239200"; journalName: "J Biol Chem"; date: "2007";
+            volume: "282"; pages: "14476-81"
+            PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to CM002241. Please
+            be aware that the annotation is done automatically with little or no
 FEATURES             Location/Qualifiers
      source          1..1404
                      /strain="OR74A"
@@ -44,7 +45,7 @@ FEATURES             Location/Qualifiers
                      /gene="csy"
                      /locus_tag="NCU04801"
                      /product="type III polyketide synthase ORAS"
-                     /label=ORAS
+                     /label="ORAS"
                      /db_xref="GeneID:3876565"
                      /protein_id="XP_960427.1"
                      /translation="MAASTVAGELGLSITGLGVQYPPYSLGPDAIDILSKRYHPESPAM
@@ -55,6 +56,7 @@ FEATURES             Location/Qualifiers
                      LLSSLQDQLPSSYQKPADFDWAMHPGGATILSGAESAMGLTPEHMRASYDRYINHGNSS
                      SATIFSVLNRLREKDMDALAPGGKVKEYVVGCAFGPGINVEMCMLKRRMNAPARTTTGL
                      DTPPETDDSEGPGPGSSAGSDDGESIEGGEKEEKFINEALDNVELD"
+                     /Pfam="Chal_sti_synt_N, Chal_sti_synt_C"
 ORIGIN
         1 atggctgctt caactgttgc cggggagctg gggctctcca tcacgggctt gggagtccag
        61 tatcctccat acagccttgg tccagacgct atcgacattc tcagcaagag ataccaccca

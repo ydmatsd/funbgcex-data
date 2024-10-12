@@ -1,33 +1,33 @@
-LOCUS       FBGC00493       55572 bp DNA     linear   UNA 25-MAR-2023
+LOCUS       FBGC00493              55572 bp    DNA     linear   UNA 25-MAR-2023
 DEFINITION  phomopsin A.
 ACCESSION   FBGC00493
-VERSION     .
+VERSION     FBGC00493
 KEYWORDS    .
 SOURCE      Phomopsis leptostromiformis ATCC 26115
   ORGANISM  Phomopsis leptostromiformis ATCC 26115
+            .
 REFERENCE   1  (bases 1 to 55572)
   AUTHORS   Sogahata K, Ozaki T, Igarashi Y, Naganuma Y, Liu C, Minami A, Oikawa
             H.
-  TITLE     Biosynthetic Studies of Phomopsins Unveil Posttranslational 
+  TITLE     Biosynthetic Studies of Phomopsins Unveil Posttranslational
             Installation of Dehydroamino Acids by UstYa Family Proteins.
   JOURNAL   Angew Chem Int Ed Engl 2021;60:25729-25734
-  PUBMED    34608734
+   PUBMED   34608734
 REFERENCE   2  (bases 1 to 55572)
   AUTHORS   Ding W, Liu WQ, Jia Y, Li Y, van der Donk WA, Zhang Q.
-  TITLE     Biosynthetic investigation of phomopsins reveals a widespread 
+  TITLE     Biosynthetic investigation of phomopsins reveals a widespread
             pathway for ribosomal natural products in Ascomycetes.
   JOURNAL   Proc Natl Acad Sci U S A 2016;113:3521-6
-  PUBMED    26979951
+   PUBMED   26979951
 REFERENCE   3  (bases 1 to 55572)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Mar 25, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1002/anie.202111076"; journalName: "Angew Chem Int Ed Engl"; 
+  JOURNAL   Exported Mar 25, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1002/anie.202111076"; journalName: "Angew Chem Int Ed Engl";
             date: "2021"; volume: "60"; pages: "25729-25734"
-COMMENT     SGRef: number: 2; type: "Journal Article"; doi: 
-            "10.1073/pnas.1522907113"; journalName: "Proc Natl Acad Sci U S A"; 
+            SGRef: number: 2; type: "Journal Article"; doi:
+            "10.1073/pnas.1522907113"; journalName: "Proc Natl Acad Sci U S A";
             date: "2016"; volume: "113"; pages: "3521-6"
 FEATURES             Location/Qualifiers
      source          1..55572
@@ -40,17 +40,18 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="phomC"
                      /product="cupin domain-containing protein PhomC"
-                     /label=phomC
+                     /label="phomC"
                      /protein_id="BDA39134.1"
                      /translation="MAKSQNKESPELRTPNRFITDHDASGLSVFNTSIPDALPAQVIGG
                      RDRFHLAYATTTSPVDLTNQSDIVTYSSFLSTPPGIFLPGGSVLRIVDVRPGGESLMHR
                      TESIDYGVVLDGEIDLVLDSGESRILKRGDVAVQRGTNHLWRNRSHTAWGRMVFVTLEA
                      KPIEIDGKLLGGVTGLGMDDTSPAGN"
+                     /Pfam="SrdD"
      CDS             4210..5619
                      /codon_start=1
                      /gene="phomD"
                      /product="transcription factor PhomD"
-                     /label=phomD
+                     /label="phomD"
                      /protein_id="BDA39135.1"
                      /translation="MVVDGKTTRLRASCNACNESKVRCSQRKPTCARCERNGVECIYGL
                      SRRTHKDAPPISMPPSQRSHNHPRGASRSSSSGGDTKANSNSSSNWHMSPNVPFMIPPQ
@@ -61,11 +62,12 @@ FEATURES             Location/Qualifiers
                      SMSMSSMAATTGVNNMSMSMSMGNLLEPRLSWGVLELEDDDEVDLRQRLYLLSFRKLER
                      LLSQLTIYLRNLHDARAGLPEPSRHMAFVMACDYTRLWLEKKAEDVKRMFLVARPAGDE
                      TMDPALMFTAH"
+                     /Pfam="EqxR, Zn_clus"
      CDS             complement(7451..9238)
                      /codon_start=1
                      /gene="phomT"
                      /product="major facilitator superfamily transporter PhomT"
-                     /label=phomT
+                     /label="phomT"
                      /protein_id="BDA39136.1"
                      /translation="MESDGKSDRTKVPTAASSLNEKKADLNDQPGHSTDTEGNGSDNNN
                      TQVGEKHHVSADDGPVDTAPVELAATQHQHPVEAEQNYPSGLKLTIILLALELAVLCVA
@@ -78,12 +80,13 @@ FEATURES             Location/Qualifiers
                      GLGLGLGMQQGIVTAQASLPVADTAIGTSLQVFAQMFGGSLFVSVAQNLFSNEVIKGLA
                      AVDELGMTPQAVFNAGATELDNLFGSNPSLLAEVKVVYNDAVIWTFRTALITTCLSVLA
                      VIFVKSGSVKGKKIEMVAA"
+                     /Pfam="MFS_1"
      CDS             complement(join(10255..10592,10653..10762,10819..10900,
                      11006..11037,11106..11383,11460..11771,11828..11908))
                      /codon_start=1
                      /gene="phomE"
                      /product="FAD-dependent monooxygenase PhomE"
-                     /label=phomE
+                     /label="phomE"
                      /note="revised sequence"
                      /protein_id="BDA39137.1"
                      /translation="MEIIIVGAGIAGLSAGVGLRRAGHKVTQSSLLNEVGAAITIKPNA
@@ -94,11 +97,12 @@ FEATURES             Location/Qualifiers
                      HKDRLVLIGDAAHPMLTFQGQGGGQAIEDGAALGILLDNVHDRGEIEERLQLFEQIRRN
                      RGSALQILSNTNPPVPQSVRDAAAEYLPGHRLSSTDDVNEYVFSFDVLAESKAALAILQ
                      SKERITKSGFL"
+                     /Pfam="FAD_binding_3"
      CDS             join(13078..13165,13220..13323,13396..13867,13941..14158)
                      /codon_start=1
                      /gene="phomF"
                      /product="short-chain dehydrogenase/reductase PhomF"
-                     /label=phomF
+                     /label="phomF"
                      /protein_id="BDA39138.1"
                      /translation="MSSSITPSLIAADLFSVDGLVAVVTGGATGIGLMIVKALEENGAK
                      VYIIGRRKEVLDKVAKEEAKHGNIIPLQGDASSKPDLERIVAHITKETGYINLLVANAG
@@ -106,23 +110,25 @@ FEATURES             Location/Qualifiers
                      NVVQSSQAIITSSIGAFGRVPLAHYAYSASKAAVTHMTKQFATALTKYKIRFNILAPGL
                      YPSEMTAGIVKSFEQLSPEERATRVSPLGREGNTEDMAGCILWLASKAGAWLSGNVVVS
                      DGGKLSVTPSSY"
+                     /Pfam="adh_short_C2"
      CDS             join(17662..17902,17981..18022,18079..18129,18183..18310,
                      18381..18662,18727..18771)
                      /codon_start=1
                      /gene="phomYa"
                      /product="DUF3328 protein PhomYa"
-                     /label=phomYa
+                     /label="phomYa"
                      /protein_id="BDA39139.1"
                      /translation="MGADMQPDYARLPEVDQQSCDGFVSSEFLPTRRDRRKGILYLVWF
                      VFGVASGALLLKMLQDLPLLMTLDSSEAKLQSLLWMPTEIVVFQPNDLFASIPSPTSDR
                      AWDELLGPSRGFVNFENPEEELGLPPGRPVPDDPKSAVYGISMFHQLHCLIMIREIYYG
                      ILLGEYNTTMFHVEMDNADGGADKDNHEHEHDRSGKAFKIKHTKHCFDYLQQSIRCAGL
                      MQVEMPQGPDRNIFDGYGSPHVCKRWDITVFMEEHRVIEE"
+                     /Pfam="UstYa"
      CDS             complement(join(18988..20855,20916..21059,21121..21274))
                      /codon_start=1
                      /gene="phomP1"
                      /product="peptidase PhomP1"
-                     /label=phomP1
+                     /label="phomP1"
                      /note="revised sequence"
                      /protein_id="BDA39140.1"
                      /translation="MVVKTCIMSSFLVQTAVVRLFLLGVVFWFPFALSSSCAEIASKFG
@@ -138,22 +144,24 @@ FEATURES             Location/Qualifiers
                      KGGQRWSLRTISRHIKTARELLAKQYTSTAAQANSTRRLAVGHLLQKLNDLAPPALPLI
                      PRMEDNEWEFALRFDTYGQSSVNFRDAYVPANETTPWQFIYEAADCRMFLTPENVVDPA
                      SRWNSAARAMFGGREMGSEKCVDYVSV"
+                     /Pfam="Peptidase_S41"
      CDS             join(21776..22151,22220..22338,22413..22673)
                      /codon_start=1
                      /gene="phomYb"
                      /product="DUF3328 protein PhomYb"
-                     /label=phomYb
+                     /label="phomYb"
                      /protein_id="BDA39141.1"
                      /translation="MDGYSSKKPRSASPSRSSLTEVEEEERDTLLKTVSLEEEDKSGEN
                      GPRKLRRSRFLYAIGILMLSNIAFIAAFLTVFVQKRALEPARLPPWAPPERYESRVFKY
                      MDVYGGEPGPKSEEAWTNLIPKGKGWIKVHNETAIPDMPGLDQSLPEQSALVSVFHQLH
                      CLYMTRAGYFAARSGNLDEVNVVHVSHCWDYLRQAIMCHSDTTLEWLHAPPDNFGSTGW
                      GYEHQCRDYEAIFAFATEHRAGERQVIHG"
+                     /Pfam="UstYa"
      CDS             complement(join(23347..23796,23893..23961))
                      /codon_start=1
                      /gene="phomA"
                      /product="phomopsin proprotein PhomA"
-                     /label=phomA
+                     /label="phomA"
                      /protein_id="BDA39142.1"
                      /translation="MRFTPAIVIAAFCSLAVAAPAAKAIARSPSEAVEDYVIPIDKKRG
                      EAVEDYVIPIDKKRGEAVEDYVIPIDKRGEAVEDYVIPIDKRGEAVEDYVIPIDKKRGE
@@ -163,7 +171,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="phomR"
                      /product="transcription factor PhomR"
-                     /label=phomR
+                     /label="phomR"
                      /protein_id="BDA39143.1"
                      /translation="MTTSTAAKRTKSGCWTCRLRRKKCNEGGPPCDNCEARGIHCHGYG
                      PRPQWKDRGALEREEARKLQYQSGRGRSYSRSSSTAAAAAPKPAEGAMVTGGSSSSSRG
@@ -177,13 +185,14 @@ FEATURES             Location/Qualifiers
                      TDLHQTVSGPRASVPEIGDSISRAISSAWNLWQEQQQQGAGLGLERILAWPYCVAASLA
                      KGDQREVFREIIARTENGDGSSSGGDVQQLKSIVEQCWATSSSNHRDWKDVVQRSNQFG
                      VFLI"
+                     /Pfam="CpaE, Zn_clus, Fungal_trans_2"
      CDS             join(31852..32178,32245..32812,32882..33099,33208..33487,
                      33583..33816,33897..34600,34674..34836,34901..35215,
                      35290..35419,35489..36979,37066..37321)
                      /codon_start=1
                      /gene="phomO"
                      /product="ABC transporter PhomO"
-                     /label=phomO
+                     /label="phomO"
                      /protein_id="BDA39144.1"
                      /translation="MASSAPSSSSCTFQAESSFGPAVASCRRAFDFTLYFEEVVFVLVP
                      SCVFILLAATRLLFILRRARRFTTATAATTTSTDTSSSHSCGNAAQNQHTPIGHGLAHH
@@ -212,11 +221,12 @@ FEATURES             Location/Qualifiers
                      GKLGDEEVTDVLQDCGVLDKIVGAGGLAASVSDEALSLSAGERQLFVLARLICRAGGRC
                      RHGGGGILLLDEATSSLDVNTDGKTAEVLRKWLPNMTVLSVLHRLEAALKYDRVVVLEG
                      GRVAHVVTPSESTVSSDIFAFFGRSRSFLESRETGGVSWLE"
+                     /Pfam="ABC_membrane, ABC_tran"
      CDS             complement(37889..39052)
                      /codon_start=1
                      /gene="phomM"
                      /product="methyltransferase PhomM"
-                     /label=phomM
+                     /label="phomM"
                      /protein_id="BDA39145.1"
                      /translation="MASVTITSVHEPTNPLAVAHTGEREVEGDQLIKTDTNNDNDIINT
                      LLNNFLYPQELKHNVFVPRFQQRITIVKAWDILSLSTSPPNGTNGANGTNSAPHRPKDL
@@ -229,7 +239,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="phomB"
                      /product="hypothetical protein PhomB"
-                     /label=phomB
+                     /label="phomB"
                      /protein_id="BDA39146.1"
                      /translation="MESIAKAKSLPNKGRTYDSQRPWNRDSPFSFAAWWSTPSTRYLKV
                      DQPSGRDEHDSLDLEDEDVSKYLASHRERQKRRASCAAKAKVLIIGCAVISLFAIIGAL
@@ -238,11 +248,12 @@ FEATURES             Location/Qualifiers
                      EWPWFWDTGLQKAVSPEEFPSLQAGNYSVVYTPYQASHALHCLYCWRKVSYALEHGVDW
                      MDARCHQFYHQRHCAFFIADKLLEMEDWRAAAEVDVQGRLTTWTYPLLYHNCVPLSSTM
                      ES"
+                     /Pfam="PhomB"
      CDS             complement(join(40980..43209,43283..43572))
                      /codon_start=1
                      /gene="phomP2"
                      /product="oligopeptide transporter PhomP2"
-                     /label=phomP2
+                     /label="phomP2"
                      /protein_id="BDA39147.1"
                      /translation="MEADPKVPFTDEMNIQDEHNWESGSWSSSRRSNDSNVTLLSRRSS
                      VEQHEDERQKDSDTLFEHGDAALDAQGIADPRLKDYPIPLVAQTVHLRNDDSEPILTFR
@@ -259,22 +270,24 @@ FEATURES             Location/Qualifiers
                      YRWLLPSGFAVGAAAVLLLWLIHKARPAWRVQQWPLHPAIIFHGASLFPVFPTTNLTSS
                      MAAAVASMGVMRRWHPRWFARWNYLLGAGLDCGAQLVQMVLGVAFLVFNRHGQQMVRMP
                      HWWGNDAVAVDQCFPPPDLPSVIMSPM"
+                     /Pfam="OPT"
      CDS             join(43983..44205,44267..44395,44461..44597,44669..44950)
                      /codon_start=1
                      /gene="phomYc"
                      /product="DUF3328 protein PhomYc"
-                     /label=phomYc
+                     /label="phomYc"
                      /protein_id="BDA39148.1"
                      /translation="MDRSGYFPVLDEDIPTKSELRLPLESKTSSRSRRWLHLVLVLQFV
                      LIISLLASLHILGNRQPSNITCAKQLSPYSPYLEDGDLELEEFTELNHLMQPSPYRGQP
                      TPEIEEAWVRLWRVPMIGFPETKMINLNKTNPQDYAHVSTRYGDDMLGFLNVFHQLHCL
                      NLVRQYTYRDDYDYSNVTAFRAPQELVRGHIDHCIETIRKSIMCASDVTPVVFQLDDSR
                      KSGFKSDFNMRRTCRNFDKIQDWAVANAVQGDFE"
+                     /Pfam="UstYa"
      CDS             complement(join(46344..46998,47082..47498,47566..47663))
                      /codon_start=1
                      /gene="phomQ1"
                      /product="tyrosinase PhomQ1"
-                     /label=phomQ1
+                     /label="phomQ1"
                      /protein_id="BDA39149.1"
                      /translation="MFSLRSWRYTALAGDEDDLEGIDKKAFLASPLRSSSLRQRNQPKQ
                      LLLLLLRTIIVVSVITFAAIIGCWVFLSHGTTTTNPPQQCSTPAVRKEWRSLSPSAQAK
@@ -283,12 +296,13 @@ FEATURES             Location/Qualifiers
                      RAWRALSEGHNHDVEYGPHCLSRGFIINNDDRTTLEMLHGLVSPSRVAQTLDKPDYIAF
                      FEDFESGPHNAIPQFIRGDFLTFSAPNDPVFYLHHANVDRLWWLWQQRDPAGRLYQVRG
                      PAKDFRYHEGHEVSEGSIEDVMPMGGLAEDIKMKSVMDTRAGFLCYEYE"
+                     /Pfam="Tyrosinase"
      CDS             join(48059..48201,48286..48617,48692..48788,48881..49257,
                      49333..49559)
                      /codon_start=1
                      /gene="phomQ2"
                      /product="tyrosinase PhomQ2"
-                     /label=phomQ2
+                     /label="phomQ2"
                      /protein_id="BDA39150.1"
                      /translation="MDNVGCEASSSRDPKGKKAVGFSPKLRVDKDCARWGNENVEEQTI
                      GTQPTWRNHQHQTSRIRGFICATIIFVVCLGALSYIYRVDVSTTMLSTNQMNESHTAQC
@@ -297,12 +311,13 @@ FEATURES             Location/Qualifiers
                      PITVGEGRCVVDGPFTDLRPIKYNHTYVQHCLSRGFRDNGTLGHMSGLPFRPEIIGEVR
                      RKETFVDFEAAVEMHLHNAMHLAISGDFLALTAANDPIFYVHHAQMDHLWWQWQQENRE
                      RRLFEYNGKHMHNSTGHDASLDSMLVYGGFTEDIPVSEVMDTEKGKLCYRY"
+                     /Pfam="Tyrosinase"
      CDS             join(50058..50328,50466..50651,50742..50838,50906..50936,
                      51010..51330)
                      /codon_start=1
                      /gene="phomYd"
                      /product="DUF3328 protein PhomYd"
-                     /label=phomYd
+                     /label="phomYd"
                      /protein_id="BDA39151.1"
                      /translation="MEKFFSPSRHNYADLSPTDVPASEESDEALEEKQFEYFQQRQHRR
                      LVLVNRLLAASTVALVMVSLWLGWELHTAKFGSMGSFQYGFKYELEAAKKVIKLEEYKF
@@ -310,11 +325,12 @@ FEATURES             Location/Qualifiers
                      RQAWGPGYKEYWAENEGGYIAGLEVTHSVHCVDMLRKALRRDVYPLDSPLHGPIHTDHC
                      LNHLRQMILCQGDLTPIPSKYYRGITDNYIFGDMPHTCRNWDSVREFITDRFNGSSAVP
                      LAPGTVLSDPYKKLLGILDE"
+                     /Pfam="UstYa"
      CDS             51739..52596
                      /codon_start=1
                      /gene="phomYe"
                      /product="DUF3328 protein PhomYe"
-                     /label=phomYe
+                     /label="phomYe"
                      /protein_id="BDA39152.1"
                      /translation="MGHRQSVDYTSIPPSELDAHERLPRRKSRFDLFYGWKGIAFLSTL
                      TNVLFISGFFYFGTHLFSPSSSFGHEECHLGSERLWERPVPWKKVVLENHQEFVDGDPW
@@ -322,11 +338,12 @@ FEATURES             Location/Qualifiers
                      WTPGSQAFGLAVMHQLHCVASIKKAINDYRYTGGHRGSNSSANIGHVDHCVEVLRQATM
                      CHGDMSLIRPNVKGHSYTGYDGWGNEHLCRDWEAIEDIVREHGISFVKGAGMQGWTHLK
                      KGVS"
+                     /Pfam="UstYa"
      CDS             join(53192..53411,53485..54505,54556..55284,55341..55572)
                      /codon_start=1
                      /gene="phomG"
                      /product="peptidase PhomG"
-                     /label=phomG
+                     /label="phomG"
                      /protein_id="BDA39153.1"
                      /translation="MDLLGDQHFAAQQPPLFDATPSSLKEDAEELIAETIAAWDSIVSQ
                      IQTENATFQNTISPIIQDENVKSQKQRVLTFYSSTSPSKDLRDASTAVGRLFNDAEIEL
@@ -341,6 +358,7 @@ FEATURES             Location/Qualifiers
                      AIQGQLKEVFFATYDMLVHKPASRAALEALNLTELFNKTRSDVYKVRGGEALGEGWEWG
                      HGQTVFRNILNRYDAGYYSYLLGRVFAMDIFDAGFKEKTTSREAGRRYRDMVYRVGGRQ
                      AEMKTMTDYLGHEPSTHPYLAWLQGTRIGDSGPTVAVPT"
+                     /Pfam="Peptidase_M3"
 ORIGIN
         1 atggcgaagt ctcagaacaa agagtcacct gagctccgca cccccaaccg cttcatcaca
        61 gaccacgatg ccagcggcct atccgtcttc aacaccagca tccccgacgc cctcccagcg
