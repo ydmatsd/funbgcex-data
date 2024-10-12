@@ -1,25 +1,25 @@
-LOCUS       FBGC00004       27446 bp DNA     linear   UNA 14-JAN-2023
+LOCUS       FBGC00004              27446 bp    DNA     linear   UNA 14-JAN-2023
 DEFINITION  terretonin.
 ACCESSION   FBGC00004
-VERSION     .
+VERSION     FBGC00004
 KEYWORDS    .
 SOURCE      Aspergillus terreus NIH2624
   ORGANISM  Aspergillus terreus NIH2624
+            .
 REFERENCE   1  (bases 1 to 27446)
-  AUTHORS   Itoh T, Tokunaga K, Radhakrishnan EK, Fujii I, Abe I, Ebizuka Y, 
+  AUTHORS   Itoh T, Tokunaga K, Radhakrishnan EK, Fujii I, Abe I, Ebizuka Y,
             Kushiro T.
-  TITLE     Identification of a key prenyltransferase involved in biosynthesis 
-            of the most abundant fungal meroterpenoids derived from 
+  TITLE     Identification of a key prenyltransferase involved in biosynthesis
+            of the most abundant fungal meroterpenoids derived from
             3,5-dimethylorsellinic acid.
   JOURNAL   Chembiochem 2012;13:1132-5
-  PUBMED    22549923
+   PUBMED   22549923
 REFERENCE   2  (bases 1 to 27446)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Jan 14, 2023 from SnapGene 6.2.0
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1002/cbic.201200124"; journalName: "Chembiochem"; date: "2012"; 
+  JOURNAL   Exported Jan 14, 2023 from SnapGene 6.2.0 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1002/cbic.201200124"; journalName: "Chembiochem"; date: "2012";
             volume: "13"; pages: "1132-5"
 FEATURES             Location/Qualifiers
      source          1..27446
@@ -31,18 +31,19 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="ATEG_10077"
                      /product="terpene cyclase Trt1"
-                     /label=trt1
+                     /label="trt1"
                      /protein_id="EAU29526.1"
                      /translation="MPSIISDPQAYDIMLRLLQFSCWSLSYINTVRTTLSDQLPSVSFM
                      SICCDVAWEFVYAFVYPIASSHWAGGIRIWFAMHCVMLFIVAKYAPNDWDHVPLMKRFA
                      RLAYVAITIGFMAGHLALASEIGPALGFFWSGALCQITASLGSLCLLVCRGSTRGASIK
                      TCYFRIIATVGGFTKMSIRHIWHLADEPWFDSPLCWFYIAITLTLDAIYPVFFFYFRAI
                      EHPKKDSERKVE"
+                     /Pfam="Pyr4"
      CDS             complement(1289..2239)
                      /codon_start=1
                      /locus_tag="ATEG_10078"
                      /product="UbiA-like prenyltransferase Trt2"
-                     /label=trt2
+                     /label="trt2"
                      /protein_id="EAU29527.1"
                      /translation="MATGKDYRHSKAGILSKLPPSIKPYAELLRIHRPLGYYLNISPYV
                      VGVAYTAAIAPVSLPATVLLNRLIILSLWGFLIRSGGCAWNDLIDMDIDRQVSRTKLRP
@@ -50,11 +51,12 @@ FEATURES             Location/Qualifiers
                      ILVNIAWAIPMAMSSLEVDPLDFPYSTLSMCIFIASVIVMIDVVYACQDAEEDKKIGAR
                      SMAVRYSDITDQLAYGFFFSGAISLLLGGVLRGLGLPFIVFSVGGHIFGFLRFLSVTLG
                      EGTKSASVESRAKSSCLLATVFWVLGFFLEYLARS"
+                     /Pfam="UbiA_PT"
      CDS             4086..6032
                      /codon_start=1
                      /locus_tag="ATEG_10079"
                      /product="FAD-dependent monooxygenase Trt3"
-                     /label=trt3
+                     /label="trt3"
                      /protein_id="EAU29528.1"
                      /translation="MTIPFSPNPEQINVSSVPATQAEVQVEYTLRTKSDAIEHTSQSNR
                      LKDLAKDPWLRTTGNRHASSGTEIPSSEQTKSARILVVGAGYGGLLFAVRLLQSGFSLG
@@ -68,12 +70,13 @@ FEATURES             Location/Qualifiers
                      LFFPGTSQAGVTANQSYMFDRAAEHVSYIIRQAYNHVAAGFANPKVCVEPSQEAEDWWT
                      METVARAKAFAATKICSSGSYTISARSGGSGNVEKTARHMPWGEGMASYVKILEEWRKK
                      GHMDGLEIAWKGT"
+                     /Pfam="Pyr_redox_2"
      CDS             complement(join(6724..7658,7719..11403,11469..12223,
                      12285..12660,12726..13817,13877..14473))
                      /codon_start=1
                      /locus_tag="ATEG_10080"
                      /product="polyketide synthase Trt4"
-                     /label=trt4
+                     /label="trt4"
                      /note="similar to polyketide synthase"
                      /protein_id="EAU29529.1"
                      /translation="MGSLQDAHPHRVSVLFGPKCPKTDRSVLHIRRYLSSHRNTGWLED
@@ -119,32 +122,36 @@ FEATURES             Location/Qualifiers
                      RIALHMNWTGQTLPVLFYGCKYKSLAAAAKGDEVLLPAPHMSEVEKACPLSQVRAGRYK
                      TPTFLIHGTLDDLIPVQQAQRIHQQMLVCGVESVLRIVSDGLHLFDIIPHLKENKDASQ
                      AVLDGYEFLRRHVGI"
+                     /Pfam="SAT2, PKS_KS, PKS_AT, fPKS_PT, ACP_PCP, HTH_51,
+                     PKS_NRPS_MT, Abhydrolase_3, Peptidase_S9"
      CDS             join(15667..15828,15882..15902,15968..16114,16178..16687)
                      /codon_start=1
                      /locus_tag="ATEG_10081"
                      /product="methyltransferase Trt5"
-                     /label=trt5
+                     /label="trt5"
                      /protein_id="EAU29530.1"
                      /translation="MHPDDQLKSALRNGFDPKLLYKEPLKTVKEPICTILEKYSKIPLE
                      KVVSHINEVRDRAFAVFPYACIGQFSFVELSIADSPCYAEMLDRTKHGQKLLDLGCAFG
                      QELRQLIFDGAPPTNLYGSDIQQDFLNLGYELFLDRAILPESQLIAADVLDKQSALFSR
                      LSGKINVVYISLFLHVFQYKKQVTVVQNILDLLPAEPGALIVCRVTACRDQGVLNATRE
                      RMPYYYHDLASWKRLWEEVESQTGLRLSVETWEQPDELVKNHPLPGIYILGSAIRRL"
+                     /Pfam="Trt5"
      CDS             complement(17490..17918)
                      /codon_start=1
                      /locus_tag="ATEG_10082"
                      /product="isomerase Trt14"
-                     /label=trt14
+                     /label="trt14"
                      /protein_id="EAU29531.1"
                      /translation="MSPTREDLVATAKLFIAKYNEFTPESIISVRTPNSVSHRLFPTRN
                      ATRNIGESMEACANAKEVFKSLTVSVIDDNDTIVDERTRKVVFYLASRGDTIVGEWKSE
                      CIFIFQMSEDGKLVDRIWAGFDTAYMDEFESRLDGITF"
+                     /Pfam="Trt14"
      CDS             join(18626..18793,18857..19070,19120..19188,19249..19845,
                      19905..20326)
                      /codon_start=1
                      /locus_tag="ATEG_10083"
                      /product="cytochrome P450 monooxygenase Trt6"
-                     /label=trt6
+                     /label="trt6"
                      /protein_id="EAU29532.1"
                      /translation="MLEPVSTAQSLWSFGLWILVILSPVLFFASRELGILNAKKRFAKN
                      GFEEVLAGLRKSDVFGLMTINGPKIVLAPKFAQEIRSNPALSVSAFSSSELHAHIRGFD
@@ -155,11 +162,12 @@ FEATURES             Location/Qualifiers
                      SQRLKPVSIVGMGRIAKEAVKLSNNTIIPKGTRLLVSNTAMWDPEIYPDPRTYDPYRFL
                      RLREASENESAGQLVSLSPTHLSFGLGKHACPGRFFAAAEVKIILCHILLKYDIKLADG
                      CKPKPLRAGTNLVADPTAKLLVRRRQEEVAL"
+                     /Pfam="p450"
      CDS             complement(22026..22886)
                      /codon_start=1
                      /locus_tag="ATEG_10084"
                      /product="2OG-Fe(II)-dependent dioxygenase Trt7"
-                     /label=trt7
+                     /label="trt7"
                      /protein_id="EAU29533.1"
                      /translation="MTGQAEAIRRVHPTVSPKQAAQMLQEDGVIILKSFLAPDVMQRFQ
                      AEVDEDVEKTSTGARMKAYKLVNDKTKHMADLIVRSEVFRSDILTHPLYHAIADELFRA
@@ -167,11 +175,12 @@ FEATURES             Location/Qualifiers
                      GATRLIPGSHLWDSAHPAPSPDQTVPAIMQPGEAILFLGSLFHGGGENRTENVRRGLGM
                      SLIPCQFTPYSSHMHVPRTIIETMTPLAQKLVGWRTVESHRQYPFWQGGDRRLEDVLGL
                      ASREA"
+                     /Pfam="PhyH"
      CDS             join(23602..23906,23974..24245,24320..24690,24741..25208)
                      /codon_start=1
                      /locus_tag="ATEG_10085"
                      /product="FAD-dependent monooxygenase Trt8"
-                     /label=trt8
+                     /label="trt8"
                      /note="similar to monooxygenase"
                      /protein_id="EAU29534.1"
                      /translation="MAGVGDKSDFRVIIVGGSIAGLTLAHCLRRAKVAHVVLEKREEIA
@@ -183,18 +192,20 @@ FEATURES             Location/Qualifiers
                      QMINPMTPQNASKAAIGHLFQKFQDLRMSRVQSTVQRAHFGARFHTRDDHLKALVGRYI
                      FPYVGNLVMARTVKVIGGGHKIEFLPPPKRSMPWTAQTDHSQHKMHGSKVLWAYLCVST
                      LVLYAACALFQLM"
+                     /Pfam="FAD_binding_3"
      CDS             complement(join(26475..26701,26769..26855,26937..27375,
                      27426..27446))
                      /codon_start=1
                      /locus_tag="ATEG_10086"
                      /product="short-chain dehydrogenase/reductase Trt9"
-                     /label=trt9
+                     /label="trt9"
                      /protein_id="EAU29535.1"
                      /translation="MANLQDKVLIITGSASGIGLAAASMALDQGAKVFGVDIAASPAPL
                      ANHPNYKFLKADLCDKQTPKDVVQACVKMFGGRIDGLLNIAGIMDSNQSVDSVSDEMWD
                      RCIAVNLTAPIRLMREVIAIMREQKSGNIVNVASKAATSGAVSGVAYTASKHGLVGATK
                      NVAWRFKHDNIRCNAVCPGGVVGTGVHNEMDIQKWDKEAMKTMFLIHQSHSCDKDKGIG
                      LRAEDIARPLLFLVSDRSKGINGAILPIDNAWSTI"
+                     /Pfam="adh_short_C2"
 ORIGIN
         1 atgccttcca taatctcaga tccacaagcc tacgacatta tgctgcggct actgcaattc
        61 agctgctggt cgctgagcta catcaacacc gtccgcacta ccttgagcga ccaacttccc

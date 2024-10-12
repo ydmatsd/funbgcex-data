@@ -1,31 +1,31 @@
-LOCUS       FBGC00028       74709 bp DNA     linear   PLN 14-JAN-2023
+LOCUS       FBGC00028              74709 bp    DNA     linear   PLN 14-JAN-2023
 DEFINITION  cryptosporioptides.
 ACCESSION   FBGC00028
-VERSION     .
+VERSION     FBGC00028
 KEYWORDS    .
 SOURCE      Cryptosporiopsis sp. 8999
   ORGANISM  Cryptosporiopsis sp. 8999
+            .
 REFERENCE   1  (bases 1 to 74709)
-  AUTHORS   Greco C, de Mattos-Shipley K, Bailey AM, Mulholland NP, Vincent JL, 
+  AUTHORS   Greco C, de Mattos-Shipley K, Bailey AM, Mulholland NP, Vincent JL,
             Willis CL, Cox RJ, Simpson TJ.
-  TITLE     Structure revision of cryptosporioptides and determination of the 
+  TITLE     Structure revision of cryptosporioptides and determination of the
             genetic basis for dimeric xanthone biosynthesis in fungi.
   JOURNAL   Chem Sci 2019;10:2930-2939
-  PUBMED    30996871
+   PUBMED   30996871
 REFERENCE   2  (bases 1 to 74709)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Jan 14, 2023 from SnapGene 6.2.0
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1039/c8sc05126g"; journalName: "Chem Sci"; date: "2019"; volume:
-            "10"; pages: "2930-2939"
+  JOURNAL   Exported Jan 14, 2023 from SnapGene 6.2.0 https://www.snapgene.com
 COMMENT     ##Assembly-Data-START##
             Assembly Method       :: CLC genomics workbench v. 6
             Assembly Name         :: Cryptosporioptide cluster
             Coverage              :: 82565bp
             Sequencing Technology :: Illumina
             ##Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1039/c8sc05126g"; journalName: "Chem Sci"; date: "2019"; volume:
+            "10"; pages: "2930-2939"
 FEATURES             Location/Qualifiers
      source          1..74709
                      /strain="8999"
@@ -36,7 +36,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="dmxL4"
                      /product="transcription factor DmxL4"
-                     /label=dmxL4
+                     /label="dmxL4"
                      /note="transcription factor"
                      /protein_id="QCL09087.1"
                      /translation="MSESLSTASPPGAVRPGLTGSPKRRAMTGRRREKKRETDRESQRH
@@ -47,11 +47,12 @@ FEATURES             Location/Qualifiers
                      QNFVKHSTLIDYLVWPELREFLILKAATDAPNWFAAVFASSIRFLWPFDLSDTWTRNRD
                      TDFYSYSILFNERFQDIRCWTLSSQFFDMCPELIGYIPIYNPGTSIYLTSDSEIRPSGD
                      GEAFQGI"
+                     /Pfam="bZIP_1, DUF3425"
      CDS             complement(join(6213..7065,7188..7315,7383..7946))
                      /codon_start=1
                      /gene="dmxL3"
                      /product="cytochrome P450 monooxygenase DmxL3"
-                     /label=dmxL3
+                     /label="dmxL3"
                      /note="P450 monooxygenase"
                      /protein_id="QCL09088.1"
                      /translation="MALYLQIVGIIGGLYLVSTAFKILSRYSRSWKAARQHGCKPVKRY
@@ -63,12 +64,13 @@ FEATURES             Location/Qualifiers
                      QREVQSINGQPLTFDLIRSLKVAKTIVYETLRIHPPAPMIKRVALRDTILPTGGGPDQL
                      SPVFVPKGTIISVHIYSVQTDPKIWGDDAKEFKPQRWAEGKPLWESKWQYEPFFAGPRM
                      CPGQQMVLTQVTYLLVRLAQEFKGLENRDEVNEYLALGELTVQSKNGAKVSLTPAR"
+                     /Pfam="p450"
      CDS             complement(join(13831..15874,15940..17156,17218..20382,
                      20454..21248))
                      /codon_start=1
                      /gene="dmxL2"
                      /product="polyketide synthase DmxL2"
-                     /label=dmxL2
+                     /label="dmxL2"
                      /note="hr-PKS"
                      /protein_id="QCL09089.1"
                      /translation="MEAFWSASKKRSTSVAKGAHFLRQDISRFDANFFGLPKHEADAMD
@@ -113,11 +115,12 @@ FEATURES             Location/Qualifiers
                      RTGVRDDGASAASTDAVPAYTLVSQAKSFQEASDSVLEALVRQVAKMFQTPPSEIDTSR
                      FLHSYGIDSLVAIEIVNWVMREAKSTMTVFDVLAGVPMTTFCNRIAAKSTVLPKELVPV
                      H"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_DH, fPKS_ER, fPKS_KR, ACP_PCP"
      CDS             join(22788..23021,23109..23374,23477..28344,28397..29928)
                      /codon_start=1
                      /gene="dmxL1"
                      /product="acetyl-CoA carboxylase DmxL1"
-                     /label=dmxL1
+                     /label="dmxL1"
                      /note="Acetyl CoA carboxylase"
                      /protein_id="QCL09090.1"
                      /translation="MAHVNGYVLSASASASASAPTSIPASVPASAPPSSSAPHAARHKL
@@ -160,12 +163,14 @@ FEATURES             Location/Qualifiers
                      KHLIRTELKWRDARRFFYWRVRRRVLEEHILKRIATSSKNPRINRGRNLASLAAWTGIP
                      NFSTADREVALWYEENQKLVDEKVENLKTEGVAYDVASLLRVDSKGGLKGVRHVLSMLS
                      AKEREEALQFLN"
+                     /Pfam="Biotin_carb_N, CPSase_L_D2, Biotin_carb_C,
+                     Biotin_lipoyl, ACC_central, Carboxyl_trans"
      CDS             complement(join(33335..34606,34695..36685,36844..37213,
                      37283..38386,38470..38782,38896..39191))
                      /codon_start=1
                      /gene="dmx-nrPKS"
                      /product="polyketide synthase Dmx-nrPKS"
-                     /label=dmx-nrPKS
+                     /label="dmx-nrPKS"
                      /note="nrPKS for cryptosporioptide"
                      /protein_id="QCL09091.1"
                      /translation="MKVAYFSNEFPHDDTRDLFRRLHVHSKDKRYPTLARFISEATSAL
@@ -199,11 +204,12 @@ FEATURES             Location/Qualifiers
                      HTSATDVSPPKKVVQSASTTTTVTKALPSKPVAIPAPQVAAPVVQPTEQVTVVKAVTEL
                      TSTVEVDSDSTASKAMALVAAEGGLELSDLPDDANFANLGVDSLMSLVIAEKFREQLGV
                      TVNGSLFLEYPTVGDLKAWLMEYYS"
+                     /Pfam="SAT2, PKS_KS, PKS_AT, fPKS_PT, ACP_PCP"
      CDS             join(40043..40204,40259..41055,41211..41220)
                      /codon_start=1
                      /gene="dmxR1"
                      /product="metallo-beta-lactamase-like thioesterase DmxR1"
-                     /label=dmxR1
+                     /label="dmxR1"
                      /note="hydrolase"
                      /protein_id="QCL09092.1"
                      /translation="MAPGKGGYKQINKALNICAFEDYLDGQQATLPPLQDVEQISPRVI
@@ -212,11 +218,12 @@ FEATURES             Location/Qualifiers
                      DHMCFILEEEQAMFTGDNVLGHGTSAVEHLSTWMAALQQMKSHNCRKGYPAHGIVINDL
                      QGRITGQLAQKFRRERQVLKALEQVKSQERAMAGGRGKGSVTVKQLVSTMHGDSLDGGI
                      RELALEPFTEEILRKLAEDGKVAFEIRTGIKKWFVVGTALD"
+                     /Pfam="Lactamase_B"
      CDS             join(42069..42240,42358..43049,43170..43437,43494..43759)
                      /codon_start=1
                      /gene="dmxR2"
                      /product="transferase DmxR2"
-                     /label=dmxR2
+                     /label="dmxR2"
                      /note="transferase"
                      /protein_id="QCL09093.1"
                      /translation="MFSMFARKPEAPPKVASDEVVSLPFFDDALLLAKSIHSHMYVFDK
@@ -228,11 +235,12 @@ FEATURES             Location/Qualifiers
                      VRTALQEQCTREQTEAYFSMVRETAPKKLPPMFGDSSMHLMIMSNWVKSNFFNLDFSAA
                      CVEKCDHPVTPRYIHAVQSPPNFKEMYIIVGKDAHGNYWLSACRSEQNWAVAKDAIERG
                      DYMFEKQ"
+                     /Pfam="CalD"
      CDS             complement(44240..45100)
                      /codon_start=1
                      /gene="dmxR3"
                      /product="short-chain dehydrogenase/reductase DmxR3"
-                     /label=dmxR3
+                     /label="dmxR3"
                      /note="Short chain dehydratase/reductase"
                      /protein_id="QCL09094.1"
                      /translation="MFSFSSWARPTSTYHTKSYARIGTDHGFQGQDKTVLVTGGSSGVG
@@ -241,12 +249,13 @@ FEATURES             Location/Qualifiers
                      VINVSSAAAQVSHTRRAAYGASKAAAAQLLQCFATERDSEAVRIFSFHPGAFYTPAVAE
                      HFSRDEIQWDDVELPAHFARWLAGPESGFLNGRYLWAHWDVDELIALKDRLAKDPAFLT
                      IGLVL"
+                     /Pfam="adh_short"
      CDS             complement(join(46951..47660,47793..47898,47953..48151,
                      48205..48341,48403..48663,48726..49007))
                      /codon_start=1
                      /gene="dmxR4"
                      /product="major facilitator superfamily transporter DmxR4"
-                     /label=dmxR4
+                     /label="dmxR4"
                      /note="transporter"
                      /protein_id="QCL09095.1"
                      /translation="MSSERPDGSAVGDAVPKDTAVGGATDSSRTSNDASQTSQDTAVQE
@@ -259,11 +268,12 @@ FEATURES             Location/Qualifiers
                      TSTGRWIGSLILYGIGLGWSFQAPNLAVQTSLAKKDVPSALALIMFVGLLAQAVFVSVG
                      DNVFDTQAARNLSWIPGFTASELTSSGAVSFLTALSPSQRVEAIEDYNSALRKVFMIGL
                      VLCAVCVPGLASMEWKSVKSRGSWDEKPAAKPTDKPTEEKKVPPEAV"
+                     /Pfam="MFS_1"
      CDS             join(49788..50005,50063..51015,51034..51183,51248..51453)
                      /codon_start=1
                      /gene="dmxR5"
                      /product="cytochrome P450 monooxygenase DmxR5"
-                     /label=dmxR5
+                     /label="dmxR5"
                      /note="Cytochrome P450 monooxygenase"
                      /protein_id="QCL09096.1"
                      /translation="MNSTPSAPPLKMEALDLDIFQPSLTLGLGAILVVLMSFLAFLSYT
@@ -275,11 +285,12 @@ FEATURES             Location/Qualifiers
                      AKDPEAPLADQLDSMPLEAWEAGFPSIDLCFKELVRMWVAISMMRRNISSRTDEFIPAG
                      SFAIYNTTETHFSEELYPDPHTFKPERWLEGNANVQKQAYGFVGWGEGRHPCPGKRWAK
                      LQLNITIAYALAKFKWTSVDKTEHKKSTQESGHGVPLPSKLSKFSPREEN"
+                     /Pfam="p450"
      CDS             53062..54402
                      /codon_start=1
                      /gene="dmxR6"
                      /product="dioxygenase DmxR6"
-                     /label=dmxR6
+                     /label="dmxR6"
                      /note="Baeyer-Villiger oxidase"
                      /protein_id="QCL09097.1"
                      /translation="MAASPISLDPSHVGIIKVANIPSDSLTECNKLLMKNHEEYHMFFR
@@ -290,11 +301,12 @@ FEATURES             Location/Qualifiers
                      SQHEGRKKKIDFFYMHNVTSSLFFTVFIRQDWIKLEDRVRLVEWKARLDLAWYAVSGSA
                      ALDAKWISDYSNPASDGMGWEDLFTAVNEEHDDGHAAKFIRALKNGEQECSKYEQGEWA
                      DYFPMKGDMWLKLARMCQDTTTNRPPDLKWVPFTGFDQPWKRPDLAN"
+                     /Pfam="Questin_oxidase"
      CDS             complement(join(54985..55032,55055..55723))
                      /codon_start=1
                      /gene="dmxR7"
                      /product="short-chain dehydrogenase/reductase DmxR7"
-                     /label=dmxR7
+                     /label="dmxR7"
                      /note="oxidoreductase"
                      /protein_id="QCL09098.1"
                      /translation="MATYAILGSTGNCGSAIIQNLLKSPNNKVHAYCRNQTKLQRLIPE
@@ -302,11 +314,12 @@ FEATURES             Location/Qualifiers
                      IKAEASPGLKLPKLVLLSSATIDDHLARHMPGWFRPIMLAAASHVYEDLRLTEVFLRSH
                      ADWVSSIFIKPAGLSVDVSRGHKLTLDEEESFISYLDLSAGMIEAAADDESRYDGRNVG
                      VELSSRGELRCVLSWD"
+                     /Pfam="NAD_binding_10"
      CDS             56469..57443
                      /codon_start=1
                      /gene="dmxR8"
                      /product="short-chain dehydrogenase/reductase DmxR8"
-                     /label=dmxR8
+                     /label="dmxR8"
                      /note="Short chain dehydratase/reductase"
                      /protein_id="QCL09099.1"
                      /translation="MGFLYSQLFKSLPYPTGNYSGKTIVITGSNVGLGKEAARHYVRLG
@@ -315,11 +328,12 @@ FEATURES             Location/Qualifiers
                      SDVHGHTTFPQKSAPDGQIIATVNDKATAEKIWDDMYPISKLLEVLGVRSIAEQNPASK
                      FPVTINCVNPGLCHSELGRDFPTIGFWLIKFFLARTTEVGSRTLVHAGSQGEDSHGQYM
                      SDCEIGTPAPFVTSVEGKETQDRVWNELVKKLDAIKPGVTSNF"
+                     /Pfam="adh_short"
      CDS             complement(join(57610..58889,58946..59219))
                      /codon_start=1
                      /gene="dmxR9"
                      /product="FAD-dependent monooxygenase DmxR9"
-                     /label=dmxR9
+                     /label="dmxR9"
                      /note="monooxygenase"
                      /protein_id="QCL09100.1"
                      /translation="MAPSTIGTNVAGDKYEYDPENWMAKGTSTLNNGNGTKGTLDVDLP
@@ -332,21 +346,23 @@ FEATURES             Location/Qualifiers
                      NAPLATKIYNLLRYERVSCAQKMSFVNSQLKTETDWDGIWADPIKVRTRFPKWIHNHDP
                      EDYAYAKYGQAFAHLVAGADFANENFPPGHHFVPWSIEEVYADIEAGKKVEALLDGDWS
                      "
+                     /Pfam="FAD_binding_3"
      CDS             join(60099..60305,60406..60651)
                      /codon_start=1
                      /gene="dmxR10"
                      /product="isomerase DmxR10"
-                     /label=dmxR10
+                     /label="dmxR10"
                      /note="hypothetical"
                      /protein_id="QCL09101.1"
                      /translation="MPGPAETQAATLAKFIEGWKTFTPEAWTETWTDDCTQNFLPFTMG
                      VPPRTKPEVLKLLPSLLGVLHNYKLEIYSVLHDASKGKAAIYATSFADTPFGDFKWTNE
                      YAVFLTFSEDGTQVSKLEEMVDTAFYKEFFPKFQKYMIEKGAPANH"
+                     /Pfam="Trt14"
      CDS             join(62025..62114,62188..62886)
                      /codon_start=1
                      /gene="dmxR11"
                      /product="hypothetical protein DmxR11"
-                     /label=dmxR11
+                     /label="dmxR11"
                      /note="Hypothetical"
                      /protein_id="QCL09102.1"
                      /translation="MSTTSVIPKHWVDKGPWPIMTTPQGEGQDTNSHYSVFLATDMCHV
@@ -354,11 +370,12 @@ FEATURES             Location/Qualifiers
                      PKIMAVNQAQHAAFHGGLEKLGEYCTTTSPADYSSVTFRAMIDSFAPQLFKHLNDEIPT
                      ILALKQYPSEDLKTIWTKTEQHIDDVGSFDEMFPLAFGCMDKGFEAGQHKFPPAPFFME
                      YVVRYWFARKHSGAWRFNPCDMRGNPRQLLFIPTEEDQKP"
+                     /Pfam="Hemerythrin"
      CDS             join(64390..64632,64651..64958,65035..65224)
                      /codon_start=1
                      /gene="dmxR12"
                      /product="short-chain dehydrogenase/reductase DmxR12"
-                     /label=dmxR12
+                     /label="dmxR12"
                      /note="Short chain dehydratase/reductase"
                      /protein_id="QCL09103.1"
                      /translation="MSSPIVLIFGAGANIGYNVAKEFVASGYKAVLTSRKAPTEPDASF
@@ -366,11 +383,12 @@ FEATURES             Location/Qualifiers
                      DLPTFEKDLNINTTSTFVAIKEALASFAALPETASRTFIYTGNAMNFLPFGGAMTLGAG
                      KSASAHMIAAAAAAYAPKGYKFYYPDERQPDGRLGGRGISGEAHAKIYKKLSEDKTQGP
                      WLQTFVKGTGYVSFPADTDVSVAH"
+                     /Pfam="adh_short"
      CDS             complement(66247..67623)
                      /codon_start=1
                      /gene="dmxR13"
                      /product="acyltransferase DmxR13"
-                     /label=dmxR13
+                     /label="dmxR13"
                      /note="O acyl transferase"
                      /protein_id="QCL09104.1"
                      /translation="MGSAIDFDLDGHLDILGQQPLLQMYTQICFAFPVADSSSYSAITK
@@ -382,11 +400,12 @@ FEATURES             Location/Qualifiers
                      GLDPKRPNDLGFSTRALVTVLSRTLDKNTFSFGGTVNPSLDFMVSSWAKLDSYELDFGL
                      GLGKPEGVRRPQFQPLESLGFLMPKTQDGEIAFALCLMEEDMKRLRADEEFTKYGVFVG
                      "
+                     /Pfam="Transferase"
      CDS             join(68035..68440,68505..69409)
                      /codon_start=1
                      /gene="dmxR14"
                      /product="transcription factor DmxR14"
-                     /label=dmxR14
+                     /label="dmxR14"
                      /note="transcription factor"
                      /protein_id="QCL09105.1"
                      /translation="MEEAETNTQVDSVPSNSVRSGAELSSKSKLRDSCHACARSKVRCP
@@ -397,43 +416,47 @@ FEATURES             Location/Qualifiers
                      PLTIFSMIALKILERYAVAARTQHQGTRPQEAEGTVEIKLADIVISNNEDQTRLPSHSN
                      IVCCDDKTQARAAAQLVLGELHHMQRLVNQLSSMIKRSAERDGRKLEILNGYNDSIDSG
                      NSMLASFSASTLELVESDVRKSLRSLSTDIIKELRQH"
+                     /Pfam="EqxR, AflR"
      CDS             complement(join(69969..69992,70280..70307,70357..70553,
                      70642..70833))
                      /codon_start=1
                      /gene="dmxR15"
                      /product="decarboxylase DmxR15"
-                     /label=dmxR15
+                     /label="dmxR15"
                      /note="decarboxylase"
                      /protein_id="QCL09106.1"
                      /translation="MSVLNESEALAPSFSTKDKYLCLTICGYRKPGMSEGDYRNHMVNV
                      SAPMTKDLMVKYGVKRWTQIHNQSATRALMSQLFDPQMCNLADFDCFSQVFFRNIDDYK
                      RMKLDPWYKKHLMHDHEVFADTKRSMMTIGWVEEFNGFENVL"
+                     /Pfam="EthD"
      CDS             join(71296..71380,71421..71851)
                      /codon_start=1
                      /gene="dmxR16"
                      /product="anthrone oxygenase DmxR16"
-                     /label=dmxR16
+                     /label="dmxR16"
                      /note="Anthrone oxidase"
                      /protein_id="QCL09107.1"
                      /translation="MAPQTKRAAETPKLGVQKAAVIAAAFLSAITAGAMANISMISVPV
                      FMDTNTNPNHMIAQWSRTYHYGHIILPGICVGTCGLYAFSALRSNKNWRRYALAGITTL
                      SLVPFTWVFMTPTNNTLFALEAAGNVSDLGYVQQLVVKWTWLHATRSMFPLIGAILGFT
                      GIMADLER"
+                     /Pfam="Anthrone_oxy"
      CDS             complement(join(72545..72904,72991..73088,73149..73173))
                      /codon_start=1
                      /gene="dmxR17"
                      /product="dehydratase DmxR17"
-                     /label=dmxR17
+                     /label="dmxR17"
                      /note="dehydratase"
                      /protein_id="QCL09108.1"
                      /translation="MSKQPASEDIFGCQAALYEWAESYDSKDWDRLSKCIAPVLRVDYR
                      AFLNQLWEAMPAPEFVGMVSNERFLGNQRLKTQHFVGGASKWVQTSESEITGYHQMRVA
                      HQKYADDALTEVALKGHGHGKATIWYRKVDGEWKFAGLEPGDRWGEFDYDKIFLHE"
+                     /Pfam="Scytalone_dh"
      CDS             join(73790..74122,74198..74524,74575..74709)
                      /codon_start=1
                      /gene="dmxR18"
                      /product="short-chain dehydrogenase/reductase DmxR18"
-                     /label=dmxR18
+                     /label="dmxR18"
                      /note="Short chain dehydratase/reductase"
                      /protein_id="QCL09109.1"
                      /translation="MSTTYIPYRLDGKVALVTGSGRGIGAAIATQLGRLGAKVVVNYAN
@@ -441,6 +464,7 @@ FEATURES             Location/Qualifiers
                      HIGEVTEEEFDRVFSLNTRGQFFVAREAYRHLNNGGRIILMSSNTAKDFSVPKHSLYSG
                      SKGAIDSFVRVFSKDCGDKKITVNAVAPGGTVTDMFHDVSQHYIPGGEKYTAEERQEMA
                      AHASPLTRNGFPVDIARVVGFLASNEAEWVNGKILTVDGGAA"
+                     /Pfam="adh_short_C2"
 ORIGIN
         1 tcatatgcct tggaatgctt ccccatcacc actcggacga atttcagagt ccgaggtcaa
        61 ataaatgcta gttccagggt tatagattgg tatgtaaccg atcagctctg gacacatatc

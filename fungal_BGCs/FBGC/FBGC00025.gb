@@ -1,28 +1,28 @@
-LOCUS       FBGC00025       34034 bp DNA     linear   UNA 14-JAN-2023
+LOCUS       FBGC00025              34034 bp    DNA     linear   UNA 14-JAN-2023
 DEFINITION  calbistrin A.
 ACCESSION   FBGC00025
-VERSION     .
+VERSION     FBGC00025
 KEYWORDS    .
 SOURCE      Emericella variecolor NBRC 32302
   ORGANISM  Emericella variecolor NBRC 32302
+            .
 REFERENCE   1  (bases 1 to 34034)
   AUTHORS   Tao H, Mori T, Wei X, Matsuda Y, Abe I.
-  TITLE     One Polyketide Synthase, Two Distinct Products: Trans-Acting 
+  TITLE     One Polyketide Synthase, Two Distinct Products: Trans-Acting
             Enzyme-Controlled Product Divergence in Calbistrin Biosynthesis.
   JOURNAL   Angew Chem Int Ed Engl 2021;60:8851-8858
-  PUBMED    33480463
+   PUBMED   33480463
 REFERENCE   2  (bases 1 to 34034)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Jan 14, 2023 from SnapGene 6.2.0
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1002/anie.202016525"; journalName: "Angew Chem Int Ed Engl"; 
-            date: "2021"; volume: "60"; pages: "8851-8858"
+  JOURNAL   Exported Jan 14, 2023 from SnapGene 6.2.0 https://www.snapgene.com
 COMMENT     ##Assembly-Data-START##
             Assembly Method       :: Velvet v. 1.2.08
             Sequencing Technology :: Illumina
             ##Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1002/anie.202016525"; journalName: "Angew Chem Int Ed Engl";
+            date: "2021"; volume: "60"; pages: "8851-8858"
 FEATURES             Location/Qualifiers
      source          1..34034
                      /strain="NBRC 32302"
@@ -32,16 +32,16 @@ FEATURES             Location/Qualifiers
                      /organism="Aspergillus stellatus"
      gene            1..1314
                      /gene="calC'"
-                     /label=calC'
+                     /label="calC'"
      mRNA            1..1314
                      /gene="calC'"
                      /product="transcription factor CalC'"
-                     /label=calC' mRNA
+                     /label="calC' mRNA"
      CDS             1..1314
                      /codon_start=1
                      /gene="calC'"
                      /product="transcription factor CalC'"
-                     /label=calC'
+                     /label="calC'"
                      /protein_id="QQW45465.1"
                      /translation="MSDQQTQAQQPPKKRAACDRCRTQKLRCLRVSGHPNDHCIRCVRS
                      QMECITSSSKRPGRPRNSTNTPRQQQPTPSPNTGIETNPALPAIDIPPQSLENVDDWFN
@@ -51,20 +51,21 @@ FEATURES             Location/Qualifiers
                      LSSIHPRLSMPDLLTILSCHMLTISIYDSIFSHFTEQASHNPGAVNIVLQSAPKLYLGG
                      IAVPPRLELLSHLLYCITASQLRPIEMLLGLPDECCVSLKRNSASKDKQTGLFSGQSGQ
                      LLFSTLMQVETERATEDRGGLGVIESLKEKIRLIQGLE"
+                     /Pfam="EqxR"
      gene            2169..4175
                      /gene="calB'"
-                     /label=calB'
-     mRNA            join(2169..2465,2516..2592,2643..2694,2744..2942,2993..3732,
-                     3780..4175)
+                     /label="calB'"
+     mRNA            join(2169..2465,2516..2592,2643..2694,2744..2942,
+                     2993..3732,3780..4175)
                      /gene="calB'"
                      /product="major facilitator superfamily transporter CalB'"
-                     /label=calB' mRNA
-     CDS             join(2169..2465,2516..2592,2643..2694,2744..2942,2993..3732,
-                     3780..4175)
+                     /label="calB' mRNA"
+     CDS             join(2169..2465,2516..2592,2643..2694,2744..2942,
+                     2993..3732,3780..4175)
                      /codon_start=1
                      /gene="calB'"
                      /product="major facilitator superfamily transporter CalB'"
-                     /label=calB'
+                     /label="calB'"
                      /protein_id="QQW45466.1"
                      /translation="MNDEPVALQTWSRPNTRESDARTQNTEESSRAPWTQQEHGSTARV
                      IEKPGDEESSAADPPAEAAAVQAPGVTGFKLFGILASVTLSAFLMLLDGSIIGVAIPNI
@@ -77,18 +78,19 @@ FEATURES             Location/Qualifiers
                      AIQNLLPPEKIPVGIAFMIFCQNFAGAVFVVVGEVIFTQELVKEIVKYAPSVSVEAAEA
                      AGASADSVRALVPEGSPELAGVLMAFSNSVDKVFYLLMALCLLGFVAAFGMGWVDIRKN
                      KKPAAEEEDK"
+                     /Pfam="MFS_1"
      gene            5638..14504
                      /gene="calA'"
-                     /label=calA'
+                     /label="calA'"
      mRNA            join(5638..6058,6111..6368,6434..12976,13024..14504)
                      /gene="calA'"
                      /product="polyketide synthase CalA'"
-                     /label=calA' mRNA
+                     /label="calA' mRNA"
      CDS             join(5638..6058,6111..6368,6434..12976,13024..14504)
                      /codon_start=1
                      /gene="calA'"
                      /product="polyketide synthase CalA'"
-                     /label=calA'
+                     /label="calA'"
                      /protein_id="QQW45467.1"
                      /translation="MSKINEPIAIVGSACRFAGGASSPSKLWELLNNPRDVRSDIPTSR
                      FNKDNYYHPNSAFHGHSNIQHSYLLEEDVAAFDTEFFGIKPVEAKAIDPQQRLLMETVY
@@ -140,18 +142,20 @@ FEATURES             Location/Qualifiers
                      PSTIIREGSDATNAAAQIDWMNALVEYMRKTRAVPVLKNLRGALDFVYVKNATDSILST
                      VFSNKQQGVVYTHQVGDIVAPLEDLKEFVAKDTGAVNVQELPVELWSQKAVEAGLNRGV
                      AALIDSMDDPGQPHYPRMLKAAQ"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_DH, PKS_NRPS_MT, fPKS_KR,
+                     ACP_PCP, fPKS_R"
      gene            complement(15168..16702)
                      /gene="calD'"
-                     /label=calD'
+                     /label="calD'"
      mRNA            complement(join(15168..16421,16475..16702))
                      /gene="calD'"
                      /product="acyltransferase CalD'"
-                     /label=calD' mRNA
+                     /label="calD' mRNA"
      CDS             complement(join(15168..16421,16475..16702))
                      /codon_start=1
                      /gene="calD'"
                      /product="acyltransferase CalD'"
-                     /label=calD'
+                     /label="calD'"
                      /protein_id="QQW45468.1"
                      /translation="MGLFSSEKPVQQPPKVPTDEVIPLNAADDTDVLRSVCVVLSYRFD
                      DVLDPEKLKSSYEKLLDRPGWRKIGARLRLNPNGRLEYHIPEKYDETRPIVTWSHVTHD
@@ -162,20 +166,21 @@ FEATURES             Location/Qualifiers
                      EIYTFFTVRELFTKPLSQLAWKIRQSMMTGGTREQVEALQAVKKQTLAREGHTWPMFGD
                      ASMEMMSYSNWTKGKYFETDFSAAMTRVGFPENRRAEKPGYASMVQFNAWSTKFDLRNL
                      MPIMGKDAAGNYWLQGPLRDVVWRRIERELKAAKD"
+                     /Pfam="CalD"
      gene            17276..19060
                      /gene="calE'"
-                     /label=calE'
+                     /label="calE'"
      mRNA            join(17276..17650,17701..17800,17851..17919,17985..18587,
                      18639..19060)
                      /gene="calE'"
                      /product="cytochrome P450 monooxygenase CalE'"
-                     /label=calE' mRNA
+                     /label="calE' mRNA"
      CDS             join(17276..17650,17701..17800,17851..17919,17985..18587,
                      18639..19060)
                      /codon_start=1
                      /gene="calE'"
                      /product="cytochrome P450 monooxygenase CalE'"
-                     /label=calE'
+                     /label="calE'"
                      /protein_id="QQW45470.1"
                      /translation="MDLQLDNITTTDSFDTAPETRPYISIIVLVTGLIAVIVSTLLKEN
                      PLANVPLVTEKAWWDITGKKAKDNFTANARAVIRQGFEKVGFLKPYRIISDQGEMLILP
@@ -187,18 +192,19 @@ FEATURES             Location/Qualifiers
                      HIPMGTRLGVSSHASWDPKIFPNPEKFDPFRFVRLREQPGQENVWQLTTTRPEQIAFGH
                      GQHACPGRFLAANEVKIALCHLLLKHDWELSSITMPKAISHGIMLDSDPTVKVKVRSRV
                      PDVEL"
+                     /Pfam="p450"
      gene            complement(19418..21241)
                      /gene="calF'"
-                     /label=calF'
+                     /label="calF'"
      mRNA            complement(join(19418..20678,20724..20924,20970..21241))
                      /gene="calF'"
                      /product="FAD-linked oxidoreductase CalF'"
-                     /label=calF' mRNA
+                     /label="calF' mRNA"
      CDS             complement(join(19418..20678,20724..20924,20970..21241))
                      /codon_start=1
                      /gene="calF'"
                      /product="FAD-linked oxidoreductase CalF'"
-                     /label=calF'
+                     /label="calF'"
                      /protein_id="QQW45469.1"
                      /translation="MLAKLFLLSLSLLSPALGLVPRQAPSSSCKAFPGDAAWPSAGAWN
                      ALNRTVGGRLIATVPLPSVCHQTPFGTFNEDACAAMKTEWLEDTTFINHPAEVMNPPTQ
@@ -211,22 +217,23 @@ FEATURES             Location/Qualifiers
                      NVEHPDNAVLPAWREAIATCNIVTYWDWDISEAEMWEKKDLLVDTLIPGLEEATPGSGT
                      YLNEIDAGWKGDWITELYGENYDRLLSIKNKYDPQHVFYARTAIGSASWTSDATGRLCR
                      V"
+                     /Pfam="FAD_binding_4, BBE"
      gene            21645..25053
                      /gene="calG'"
-                     /label=calG'
+                     /label="calG'"
      mRNA            join(21645..21759,21805..21920,21967..22002,22052..22744,
                      22795..25053)
                      /gene="calG'"
-                     /product="bifunctional cytochrome P450/NADPH-P450
-                     reductase CalG'"
-                     /label=calG' mRNA
+                     /product="bifunctional cytochrome P450/NADPH-P450 reductase
+                     CalG'"
+                     /label="calG' mRNA"
      CDS             join(21645..21759,21805..21920,21967..22002,22052..22744,
                      22795..25053)
                      /codon_start=1
                      /gene="calG'"
                      /product="bifunctional cytochrome P450/NADPH-P450 reductase
                      CalG'"
-                     /label=calG'
+                     /label="calG'"
                      /protein_id="QQW45471.1"
                      /translation="MSKLSNIPQPPGVPFLGNLFDIDMELPLQSLYDLGAKHGEIYRMK
                      FPGHTFIIACSYDMVNEFCDEKRFPKTIFALKEMRHAMHDGLFTAIDGETEPAWAIAHR
@@ -247,18 +254,19 @@ FEATURES             Location/Qualifiers
                      RGFIQERAGMKGAGRKIAPATLYFGCRQPGQDDLYRSDLDNWESSGVVDVRRTFSRQVE
                      ASEGHKYVQDRLWQERKEIMSLWDQGAMIYICGGRAMGESAKEMMIEILYDAKKEKGEE
                      TSKEEVAKWFEGLKNTRYAVDIFD"
+                     /Pfam="p450, Flavodoxin_1, FAD_binding_1, NAD_binding_1"
      gene            25503..26703
                      /gene="calH'"
-                     /label=calH'
+                     /label="calH'"
      mRNA            join(25503..26291,26344..26466,26515..26703)
                      /gene="calH'"
                      /product="trans-acting methyltransferase CalH'"
-                     /label=calH' mRNA
+                     /label="calH' mRNA"
      CDS             join(25503..26291,26344..26466,26515..26703)
                      /codon_start=1
                      /gene="calH'"
                      /product="trans-acting methyltransferase CalH'"
-                     /label=calH'
+                     /label="calH'"
                      /protein_id="QQW45472.1"
                      /translation="MASIDLSNWQTVDLQWTPDSTPTPVSQLLHPTRESQSEQEMIARM
                      WVLCAIQMQEKLKSATCTKPHFEKYRNWLASEYERFKQPGYPQVPDSGDLVALSDGERL
@@ -267,18 +275,19 @@ FEATURES             Location/Qualifiers
                      DSAKRRFEAYDNVEYRALDISKDPVEQGFEAGAYDVVIASNVLHATPCLVETLKNVRTL
                      LQPKGFLFNQELSPPGKYVDFMVGLLPGWWLGEADGRAGGPCIPPAEWDRRLKQAGFEG
                      LHAVGLDSEPPFYYNANMLARVAASD"
+                     /Pfam="PKS_NRPS_MT"
      gene            complement(26779..27807)
                      /gene="calI'"
-                     /label=calI'
+                     /label="calI'"
      mRNA            complement(26779..27807)
                      /gene="calI'"
                      /product="short-chain dehydrogenase/reductase CalI'"
-                     /label=calI' mRNA
+                     /label="calI' mRNA"
      CDS             complement(26779..27807)
                      /codon_start=1
                      /gene="calI'"
                      /product="short-chain dehydrogenase/reductase CalI'"
-                     /label=calI'
+                     /label="calI'"
                      /protein_id="QQW45473.1"
                      /translation="MSLDRYAAFHAETPQGRGDGRPTAEQILRDQEPLGDWSDKVILIT
                      GGTAGLGAESTRVLHKTGAKIFIMGRDAVKGQKLADNISAVNPQFPPIEVITMDQSSLQ
@@ -287,18 +296,19 @@ FEATURES             Location/Qualifiers
                      RKYGSRGVHALSLNPGIIMDTEISRDMPGTKESRRPMYYKMEPLLASWEKDVEQGAATQ
                      VWASIAKELEGKGGLYLDDVQVAKEAKFEGQMCLPGWKPWIWDEEMAARLWKDSLEMVG
                      LA"
+                     /Pfam="adh_short"
      gene            28260..29505
                      /gene="calJ'"
-                     /label=calJ'
+                     /label="calJ'"
      mRNA            join(28260..28350,28394..29505)
                      /gene="calJ'"
                      /product="esterase CalJ'"
-                     /label=calJ' mRNA
+                     /label="calJ' mRNA"
      CDS             join(28260..28350,28394..29505)
                      /codon_start=1
                      /gene="calJ'"
                      /product="esterase CalJ'"
-                     /label=calJ'
+                     /label="calJ'"
                      /protein_id="QQW45474.1"
                      /translation="MADFDALLADYTKKENPKVHGAIFKCVDGQGNEIYSKVAGWDSVE
                      PNAAPLTEDVVLKVASATKLITSIALLQCVDKGLIGLDEPLGKHVPELADKQILIDVKD
@@ -308,18 +318,19 @@ FEATURES             Location/Qualifiers
                      PGIIAEMFVPQLQPKSVPVEQMLGLRPAWDTVSGPIAEDAINHGLGGIVTTGDVAEIGQ
                      PKGMLGWGGASNIVWWVNRDLRVAGFFATQQAPFGNPTVTALVNAWKKDFWTQFKNKEN
                      A"
+                     /Pfam="Beta-lactamase"
      gene            complement(29523..30657)
                      /gene="calK'"
-                     /label=calK'
+                     /label="calK'"
      mRNA            complement(join(29523..30057,30104..30657))
                      /gene="calK'"
                      /product="trans-acting enoylreductase CalK'"
-                     /label=calK' mRNA
+                     /label="calK' mRNA"
      CDS             complement(join(29523..30057,30104..30657))
                      /codon_start=1
                      /gene="calK'"
                      /product="trans-acting enoylreductase CalK'"
-                     /label=calK'
+                     /label="calK'"
                      /protein_id="QQW45475.1"
                      /translation="MAPPTQTAIVQIAKGDSSEIPLVVSKSAPIPQVQSENHVLVKVLA
                      VALNPNDHKMVTHFNTAGSIAGCDFCGVVASSNAPLGLTEGTRVCGALFPYSPADPDNG
@@ -328,18 +339,19 @@ FEATURES             Location/Qualifiers
                      KSIAGKPIRKVLDCITDAESAAMCYSAMARTGGNYACLEECPEAWRSRRIVKVKEVMGF
                      QVLGVDINLGDSTYTRLGDQKLFTIGTQWAREFETLMATGQLKAHPLRELPGGFDAIIE
                      GLNMLRKGEVRGQKLVVKIPQN"
+                     /Pfam="fPKS_ER, ADH_zinc_N"
      gene            30980..32675
                      /gene="calL'"
-                     /label=calL'
+                     /label="calL'"
      mRNA            join(30980..31155,31211..32403,32455..32675)
                      /gene="calL'"
                      /product="cytochrome P450 monooxygenase CalL'"
-                     /label=calL' mRNA
+                     /label="calL' mRNA"
      CDS             join(30980..31155,31211..32403,32455..32675)
                      /codon_start=1
                      /gene="calL'"
                      /product="cytochrome P450 monooxygenase CalL'"
-                     /label=calL'
+                     /label="calL'"
                      /protein_id="QQW45477.1"
                      /translation="MIAELGPLVWGVAACIALAIFIPKWIGKGAKEPPSLGGWMIANTY
                      QYMTDMHGFLQRVASAQRKSKIVKFRLGPKKIYMVSGEQNIQAINKPSHSISPDVFFLE
@@ -351,18 +363,19 @@ FEATURES             Location/Qualifiers
                      TPGSLIQAPSQIGQYNEAVWASEGHPASQFWAGRNLKHENGKAEFTMAGRTTSFFPFGG
                      GPSICPGRVFAKQEILMTIAALVTRFEIELIDWVHPDGTKSDRPAQNDQSYIGAVGIPP
                      DRDMKVRWKRLW"
+                     /Pfam="p450"
      gene            complement(33027..34034)
                      /gene="calM'"
-                     /label=calM'
+                     /label="calM'"
      mRNA            complement(join(33027..33373,33424..33933,33980..34034))
                      /gene="calM'"
                      /product="short-chain dehydrogenase/reductase CalM'"
-                     /label=calM' mRNA
+                     /label="calM' mRNA"
      CDS             complement(join(33027..33373,33424..33933,33980..34034))
                      /codon_start=1
                      /gene="calM'"
                      /product="short-chain dehydrogenase/reductase CalM'"
-                     /label=calM'
+                     /label="calM'"
                      /protein_id="QQW45476.1"
                      /translation="MNPVNTKPYQLPADATWFVTGCSSGIGRAIAEHVAAQPGHRLIAT
                      ARDPASLSYLQDSASILKLGLDVTKPESVDAAFKAAAAHFGDSYYLDVVVNNAGYSLSG
@@ -370,6 +383,7 @@ FEATURES             Location/Qualifiers
                      FYHASKFAVEGWSESVAREVHPDWNINFCIVEPSAVKTNFETTSKKRTAPHEAYAGADM
                      PARQLEMFVKKGLAAGVGFEPSAVAKVLYQVASRNEKVPLRLPLSATAVKLITAKLQGQ
                      LQDLETTAELSAIDVGQAQFKV"
+                     /Pfam="adh_short"
 ORIGIN
         1 atgtccgatc aacaaacaca agcccaacaa cctcccaaga agcgcgctgc ttgcgatcgc
        61 tgccgtacgc agaagctccg atgtctgcgc gtctccggcc atccgaatga tcactgtatc

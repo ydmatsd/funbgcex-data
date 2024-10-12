@@ -1,41 +1,41 @@
-LOCUS       FBGC00036       41388 bp DNA     linear   UNA 14-JAN-2023
+LOCUS       FBGC00036              41388 bp    DNA     linear   UNA 14-JAN-2023
 DEFINITION  brevione E.
 ACCESSION   FBGC00036
-VERSION     .
+VERSION     FBGC00036
 KEYWORDS    .
 SOURCE      Penicillium bialowiezense CBS 227.28
   ORGANISM  Penicillium bialowiezense CBS 227.28
+            .
 REFERENCE   1  (bases 1 to 41388)
   AUTHORS   Yan D, Matsuda Y.
-  TITLE     Biosynthetic Elucidation and Structural Revision of Brevione E: 
-            Characterization of the Key Dioxygenase for Pathway Branching from 
+  TITLE     Biosynthetic Elucidation and Structural Revision of Brevione E:
+            Characterization of the Key Dioxygenase for Pathway Branching from
             Setosusin Biosynthesis.
   JOURNAL   Angew Chem Int Ed Engl 2022;61:e202210938
-  PUBMED    36196912
+   PUBMED   36196912
 REFERENCE   2  (bases 1 to 41388)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Jan 14, 2023 from SnapGene 6.2.0
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1002/anie.202210938"; journalName: "Angew Chem Int Ed Engl"; 
-            date: "2022"; volume: "61"; pages: "e202210938"
+  JOURNAL   Exported Jan 14, 2023 from SnapGene 6.2.0 https://www.snapgene.com
 COMMENT     ##Assembly-Data-START##
             Assembly Method       :: SPAdes v. 3.14.1
             Sequencing Technology :: Illumina NovaSeq 6000 ##Assembly-Data-END##
+            ##Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1002/anie.202210938"; journalName: "Angew Chem Int Ed Engl";
+            date: "2022"; volume: "61"; pages: "e202210938"
 FEATURES             Location/Qualifiers
      source          1..41388
                      /strain="CBS 227.28"
                      /mol_type="genomic DNA"
                      /db_xref="taxon:293381"
-                     /type_material="type material of Penicillium
-                     bialowiezense"
+                     /type_material="type material of Penicillium bialowiezense"
                      /organism="Penicillium bialowiezense"
      CDS             complement(join(1..5772,5822..6490))
                      /codon_start=1
                      /gene="brvA"
                      /product="polyketide synthase BrvA"
-                     /label=brvA
+                     /label="brvA"
                      /protein_id="BDO47151.1"
                      /translation="MSAPSSSPALPSIVICGSQTIPPRSQLLDELGHQLRSDPEILGLK
                      LAIIGLPDLCTRLIQEFPVLQVNEARYESHLRSLARWIAEDDYELVIPENLPNVILAPL
@@ -74,11 +74,13 @@ FEATURES             Location/Qualifiers
                      TACGIPFQYTFTDISPALVARARKTFAKYPNIEYTTLDIENLPDTAHQTYDIIISSNCI
                      HATKDLTQSCHNCYKLLNAGGIVCLLELTRDLWWLDCVFGLLEGWWLFEDKREHVLASE
                      SFWKQTLLAAGFGHVDWSNDSSRESDAFRLIVAQKD"
+                     /Pfam="SAT2, PKS_KS, PKS_AT, fPKS_PT, ACP_PCP, HTH_51,
+                     PKS_NRPS_MT"
      CDS             complement(join(7588..8143,8216..8510,8584..8710))
                      /codon_start=1
                      /gene="brvB"
                      /product="UbiA-like prenyltransferase BrvB"
-                     /label=brvB
+                     /label="brvB"
                      /protein_id="BDO47152.1"
                      /translation="MAGKNDSPSLDSSQKPKLCLATDLIVLSRFHLYNGWLATFCGVWA
                      TLLAGAKKLGNDSDLTPVDDVLHQALYVFISGYIFCGAGMVWNDLIDCAIDREVARTKN
@@ -86,12 +88,13 @@ FEATURES             Location/Qualifiers
                      HKVYIYPQYFLGFTLAYPSVIGQMAISGHHQSFEDSVVKALPLAIAVFTWTLYLNTAYS
                      YQDKVGDEKMNVNSVYVAAGSHIHSFLVLLAGLALSATIFLLRAQGSIWLWGSWMCVWT
                      QSFASQLIRFDAKKPESGGPIHKENFVLGVWTIIACAIEVVISS"
+                     /Pfam="UbiA_PT"
      CDS             complement(join(10736..11129,11214..11540,11614..11774,
                      11819..12019))
                      /codon_start=1
                      /gene="brvC"
                      /product="geranylgeranyl pyrophosphate synthase BrvC"
-                     /label=brvC
+                     /label="brvC"
                      /protein_id="BDO47153.1"
                      /translation="MSAATDSIYIGHQLKPDFGPLNSFLPDESLPQAVAIQAPELKADV
                      ESEVPANEENEEYKREKIEQQRKPVVLAPLDYLATLPGKGFRGDLMSTFNQWFKIPDEK
@@ -100,12 +103,13 @@ FEATURES             Location/Qualifiers
                      QLESESDLDCVPLVDLLGVIFQIRDDYQNLQSTLYAENKGFGEDITEGKFSYPIIHSIS
                      TTPNNPQLLNILRQKTEDYNVKKYAISIIESTGSLAYCREKITKLVAEARDLLQAMPIE
                      EENMKGVQQILGFLDLSKSS"
+                     /Pfam="GGPS"
      CDS             join(12867..13085,13162..13278,13339..13441,13494..13562,
                      13626..14228,14301..14746)
                      /codon_start=1
                      /gene="brvD"
                      /product="cytochrome P450 monooxygenase BrvD"
-                     /label=brvD
+                     /label="brvD"
                      /protein_id="BDO47154.1"
                      /translation="MERPMSDDRLTSSWAVQLIPIFGVLYLFYSLSPWLWFSHSFVNNR
                      KGFEILWTNAMIRFKENGKGIMAEAFAKYGNAFYVMTDYGIHLALSPKYANEIRNDPRL
@@ -117,12 +121,13 @@ FEATURES             Location/Qualifiers
                      HNMWDEDVYPNANQFDGYRFYRLRQHAETRNQAHLVSATPDYLGFGLGKHSCPGRFFAE
                      TTIKFVVAHLLLKYDMRLVDGIEPRVEHIGNAILADSSAPIAIRRRKEEIALDINMSDQ
                      L"
+                     /Pfam="p450"
      CDS             complement(join(15471..15956,16013..16383,16440..16702,
                      16766..17064))
                      /codon_start=1
                      /gene="brvE"
                      /product="FAD-dependent monooxygenase BrvE"
-                     /label=brvE
+                     /label="brvE"
                      /protein_id="BDO47155.1"
                      /translation="MELKPKPFKVVIVGGSVAGLTLAHCLSRAGIDYVVLEKRGEIAPQ
                      VGASIGIMPHGARILDQLGLFDSVEQLIEPLHTAHILYPDGFEHTNRSPELLEKRFGIP
@@ -133,35 +138,38 @@ FEATURES             Location/Qualifiers
                      EQVGSRLSDQKMRAILQTLNATRLYRVREIYKGARFVVRLHARHSLFLRLLGRYYVPRS
                      GDLPANTASKVIAGSADLKFLPPSQRLGPGWEKFQAKRPVLIVFLGSLIVVSLVLCSLT
                      WQWKGVLSRWLFRM"
+                     /Pfam="FAD_binding_3"
      CDS             complement(join(18185..18398,18460..18977))
                      /codon_start=1
                      /gene="brvF"
                      /product="terpene cyclase BrvF"
-                     /label=brvF
+                     /label="brvF"
                      /protein_id="BDO47156.1"
                      /translation="MDDMDFSKAPPSFQEVRWISTILLTTLASGWLVCYISTIAKAFRD
                      RACWMPIIPLSCNLSWELVFVFLYPPPRLPIVTFWLSLNLAVVFVAVKFASGFNKQSAV
                      FSNGALQRGAFFVLATIFWGAGHVALISQVGPLTAFYYGGLCCQIMTSSAALDKLLKAG
                      HTTGASYTIWISRVIGTSSALLGVYFRAYYWPEVWAWASNPLMYWTTAAFIILDGWYGV
                      AFWNIRRSEKQQQKRHATKKN"
+                     /Pfam="Pyr4"
      CDS             complement(join(19632..19861,19917..20003,20116..20578,
                      20646..20666))
                      /codon_start=1
                      /gene="brvG"
                      /product="short-chain dehydrogenase/reductase BrvG"
-                     /label=brvG
+                     /label="brvG"
                      /protein_id="BDO47157.1"
                      /translation="MGGLQDRVIIITGAASGIGLATAKAALKEGANVLGVDVVAEPPAS
                      LSEINAGSDTDCHFSYHACDLTKATSPAEVLATCRSTFGGRIDVLFNIAGVMDHHGSVD
                      TVTDSDWEKCMAINVTAPVKLMREVIPAMRDQQQGVIVNMASRAGLSGAAAGVAYTASK
                      HAIIGVTKNVAWRFRDENIRCIAVCPGGVGDTAIVSSVDPGSFDKEAMAKTMPIINAVY
                      RQRNENFKAMMPEELAETLMFLVGEGCSRITGAVIPIDDGWSTI"
+                     /Pfam="adh_short"
      CDS             join(22143..22370,22471..22587,22660..22762,22823..22897,
                      22956..23564,23647..24065)
                      /codon_start=1
                      /gene="brvH"
                      /product="cytochrome P450 monooxygenase BrvH"
-                     /label=brvH
+                     /label="brvH"
                      /protein_id="BDO47158.1"
                      /translation="MYPAAPNSVCAILLAGVGGGSVLVFLVWLWGLCSWSSRADDVPMV
                      NRKAPGELLLTNAMRRWKADSKKIIEEGFAKSSRGFYTITENGKELVLGPQYANAVRND
@@ -172,12 +180,13 @@ FEATURES             Location/Qualifiers
                      EIVAVRTEFPWNKAAIFNLKLMDSVMKESQRLKPTSLVSMRRIADTIIQLPDGLTVQKG
                      DLVMVSTNNHWNQEVYENPDEFDPYRFYKMLEHREWGSAAHMSSTSENHLGFGHGLWGC
                      SGRFFAVAETKVALCHILMKYDLKLLGDAPPVIRNGTFLSANPFGKIAVRRRQEELEL"
+                     /Pfam="p450"
      CDS             complement(join(25463..25881,25937..26536,26609..26677,
                      26747..26956,27027..27246))
                      /codon_start=1
                      /gene="brvI"
                      /product="cytochrome P450 monooxygenase BrvI"
-                     /label=brvI
+                     /label="brvI"
                      /protein_id="BDO47159.1"
                      /translation="MRELVENPQHRLLMQTSATVVLALIFISLLLKARQKKLPLLNGKR
                      HNEFTLSNAKSRFLLNAEELIRSGLTKVTFRICTDVGTHIMVSPEYANEIRNHEHLIVD
@@ -188,11 +197,12 @@ FEATURES             Location/Qualifiers
                      NGACLSQLKLMDSVLKESQRLKPFSLTSMHRRATENVTLSDGLQIAKGWEIEMPCLHMW
                      DDTVYPGGKEFVPDRFLKMRQISGQENKHQLVSTSSNHLGFGYGKYACPGRFFAAVEVK
                      TALSHILMSYDVKLVDDAPAPHRIGVVMAANVLGRVAVRGRQPEVSL"
+                     /Pfam="p450"
      CDS             complement(28267..29163)
                      /codon_start=1
                      /gene="brvJ"
                      /product="2OG-Fe(II)-dependent dioxygenase BrvJ"
-                     /label=brvJ
+                     /label="brvJ"
                      /protein_id="BDO47160.1"
                      /translation="MTVTPFQQVPLRSVDITTPPEEVVRILKEDGTVTVKNFIDPELVQ
                      KLQDEIDPTIAAFPLGPNHESEVYKVTIGSKTKQVANLVTVSETFRHKILNHSFMHEVT
@@ -200,11 +210,12 @@ FEATURES             Location/Qualifiers
                      EFREDNGATRLIPGSHRWDGKSPRPTYEQSVPALLQPGDAILLFGSLFHAAGANNANEN
                      RRALAVSMHPCHFTPLESHLHISRETVETMTPLAQKMIGWRSLDNHNGVPIWMAGDRRM
                      EKIIGLKAAEEKGDVGV"
+                     /Pfam="PhyH"
      CDS             complement(30287..32002)
                      /codon_start=1
                      /gene="brvK"
                      /product="putative glycosyl hydrolase BrvK"
-                     /label=brvK
+                     /label="brvK"
                      /protein_id="BDO47161.1"
                      /translation="MGQGLYGFLSCALGLAASLRADQTFYNPILPGWNPDPSCIFVPEA
                      NNTFFCTTSSLVVFPALPIYASQDLQNWELISNVLHDPDQFPDIASASIPNEGFLESTL
@@ -216,11 +227,12 @@ FEATURES             Location/Qualifiers
                      AIFRKQAHSFFTFELDILFTPAMTSEEAGVTVFLAPQQHLDLAIGSVKNEKGSVIPALI
                      FRVMNLGKKETNHPPTEFHPLPEAWRQSPVRLQVSATNETTYRFSAKLISAEKKMEYVF
                      YGSSGVVTAGEGKFDGALFWHACINPSWRSRFEMLMNSYRILAWSVCHYRWWKW"
+                     /Pfam="Glyco_hydro_43, GH43_C2"
      CDS             join(33054..33275,33325..34602)
                      /codon_start=1
                      /gene="brvL"
                      /product="acetyltransferase BrvL"
-                     /label=brvL
+                     /label="brvL"
                      /protein_id="BDO47162.1"
                      /translation="MRLFNYFRARREQPTAVLTDEVIPINGLFGYMDGTMELTFKFDDV
                      LEPDNLRQSLERLLQIGNWRHLGGRLRRRNDSESREFELHIPAQYDSARPGFIFRTSEW
@@ -231,11 +243,12 @@ FEATURES             Location/Qualifiers
                      VTFAYTILPVSQVYTQPLSFLAAKIRQSLEKQRNKEQIEAQLAMSKIFHEKTGSPPMIG
                      TRDMFMNMWSNWSRANFFHLDFSPAVRNVSGARDKRANGLGVPSCFLNTTPMNIFWHGG
                      GIILGKDCSGNWWLQWSLRKGAKAKIEELFNSINEEHCSSS"
+                     /Pfam="CalD"
      CDS             join(35221..35508,35583..36389,36438..37070)
                      /codon_start=1
                      /gene="brvM"
                      /product="major facilitator superfamily transporter BrvM"
-                     /label=brvM
+                     /label="brvM"
                      /protein_id="BDO47163.1"
                      /translation="MTEMVSESSPTAGTSHVPDPRSQGDEKSSSSSRTTLSPKPWDHDF
                      NDRGEKESACLELTDEINQHQQADTTDTHLAGWKFAILMIGLALTCICVALDNTIIATA
@@ -247,11 +260,12 @@ FEATURES             Location/Qualifiers
                      GGIVSMFGQYAPFLYFGSVVSTIAGGLLTTLQVDSGHAKYLGYQAMFGIGTGSAMMQPL
                      MAVQAAAPPSDIPSATVIIMFMQSMGGAIFISAAQNLFHNKLLENLTNTLPGVDTKKVV
                      EAGATMVRTVVSKEMLPTALAAYSSAITYSFYLAVAFSALSLLGAFPMQWLSLKKKKA"
+                     /Pfam="MFS_1"
      CDS             complement(join(37230..38214,38262..38320))
                      /codon_start=1
                      /gene="brvN"
                      /product="metallo-hydrolase BrvN"
-                     /label=brvN
+                     /label="brvN"
                      /protein_id="BDO47164.1"
                      /translation="MNQFPLPDGLTSVKVSVIDSTTRMSVPASHLLPTTDGLEAITLKL
                      PSYSFLIQHSSGRALLFDLGLRKDYWKHTGIPTRAPPGWKIDVDKNISDILEENSVPLV
@@ -260,11 +274,12 @@ FEATURES             Location/Qualifiers
                      SFILMAGDTCHFPGQLRPTVNRPIPDECPTVQSLCPGVLLQRLLERSDSGPLFGVDEKN
                      VVDFIQAQKSVQRLQSFDAMDNVWVIMAHEQALLDKIEFFPASLNDWKEKGYSDKVRWG
                      FLKALEK"
+                     /Pfam="Lactamase_B"
      CDS             join(39933..40097,40167..40293,40367..40496,40560..41388)
                      /codon_start=1
                      /gene="brvO"
                      /product="SAM-dependent decarboxylase BrvO"
-                     /label=brvO
+                     /label="brvO"
                      /protein_id="BDO47165.1"
                      /translation="MDVTNLINTLNQAASSTDITTAITDAERQEIYQACQKLTSRVESP
                      IDRVIKTVSDFTIPVVFRIAIDLGIFDIFIESDREFDIPEIAEHAKCNELLISRVMRFL
@@ -274,6 +289,7 @@ FEATURES             Location/Qualifiers
                      MTTTAGAKIEKMDHDFFTPQPVKGANVYIVARNLHDWPDKEALKILKHVQAAMNEQSIL
                      IIYDCVFSDKLEVVSERDAVADFGMMAALSSLERTEGQLVNLLQLAGLRLTNMWRSPLA
                      GAKHAVLAVSLDNQVSR"
+                     /Pfam="Methyltransf_2"
 ORIGIN
         1 ctaatccttc tgtgcaacaa tcagtctgaa agcatcggac tctctactac tatcatttga
        61 ccagtcgaca tgtccaaatc cagcggcgag aagagtctgc ttccagaagc tctcactcgc

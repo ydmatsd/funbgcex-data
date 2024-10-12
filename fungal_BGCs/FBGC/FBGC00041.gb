@@ -1,23 +1,23 @@
-LOCUS       FBGC00041       24389 bp DNA     linear   UNA 15-JAN-2023
+LOCUS       FBGC00041              24389 bp    DNA     linear   UNA 15-JAN-2023
 DEFINITION  AF-toxin.
 ACCESSION   FBGC00041
-VERSION     .
+VERSION     FBGC00041
 KEYWORDS    .
 SOURCE      Alternaria alternata NAF8
   ORGANISM  Alternaria alternata NAF8
+            .
 REFERENCE   1  (bases 1 to 24389)
   AUTHORS   Ruswandi S, Kitani K, Akimitsu K, Tsuge T, Shiraishi T, Yamamoto M.
-  TITLE     Structural analysis of cosmid clone pcAFT-2 carrying AFT10-1 
-            encoding an acyl-CoA dehydrogenase involved in AF-toxin production 
+  TITLE     Structural analysis of cosmid clone pcAFT-2 carrying AFT10-1
+            encoding an acyl-CoA dehydrogenase involved in AF-toxin production
             in the strawberry pathotype of Alternaria alternata
   JOURNAL   J. Gen. Plant Pathol. 2005;71:107-116
 REFERENCE   2  (bases 1 to 24389)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Jan 15, 2023 from SnapGene 6.2.0
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1007/s10327-004-0170-3"; journalName: "J. Gen. Plant Pathol."; 
+  JOURNAL   Exported Jan 15, 2023 from SnapGene 6.2.0 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1007/s10327-004-0170-3"; journalName: "J. Gen. Plant Pathol.";
             date: "2005"; volume: "71"; pages: "107-116"
 FEATURES             Location/Qualifiers
      source          1..24389
@@ -30,7 +30,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="AFT9-1"
                      /product="polyketide synthase Aft9-1"
-                     /label=AFT9-1
+                     /label="AFT9-1"
                      /protein_id="BAD97694.1"
                      /translation="MDPQQRLLLETTYEALENAGIPQANTNGSNTSVHVAMFTRDYDRN
                      VYKDTVGIPKYQVTGTGEAIMSNRISHIFNLHGPSMTIDTGCSGAMTAVSQACMSLRSG
@@ -84,13 +84,15 @@ FEATURES             Location/Qualifiers
                      ASTTKHTQNVRQVADSRGFVEPLYAFQAFIESEGRKLPRLFKSEAWKHSDRNATPKLVK
                      TDCLGSGGWLRMQEAGFLMPHPNSLFIHYEVHHTDPLVLVQGRDRDVAKFSGCLNEAVK
                      AMRTIIEQSS"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_DH, PKS_NRPS_MT, fPKS_ER,
+                     fPKS_KR, ACP_PCP, Carn_acyltransf"
      CDS             join(10103..10282,10665..10977,11033..11260,11316..11405,
                      11458..11945)
                      /codon_start=1
                      /gene="AFT10-1"
                      /product="acyl-CoA dehydrogenase Aft10-1"
                      /function="involved in AF-toxin biosynthesis"
-                     /label=AFT10-1
+                     /label="AFT10-1"
                      /protein_id="BAD97695.1"
                      /translation="MSYFFGSTVPFAEPLWYSRPENFRYNESHRRLRESVRGYIEAEIM
                      PFCTQWEADGEVPSHVLKRHAALGYAAALINPSAVKEHMHDVRLPGDVPPREWDEFHGL
@@ -100,12 +102,13 @@ FEATURES             Location/Qualifiers
                      NCLRLARVCLEDAYQYALTRQTFGKPLINHQTIRLKLANIGIQITSSYALLESLTEMRQ
                      NLSVKMGQVHRGIGGLCAITKVAAARTFELAVRESQQIMGASAYTRTGPGLRVERLSRD
                      MRVLVIGGGSEEILSEMSVVQEQKDLNRCKSCP"
+                     /Pfam="Acyl-CoA_dh_N, Acyl-CoA_dh_M, Acyl-CoA_dh_1"
      CDS             complement(join(12398..13071,13121..13331,13385..13787,
                      13840..13898,13961..14143))
                      /codon_start=1
                      /gene="AFT11-1"
                      /product="cytochrome P450 monooxygenase Aft11-1"
-                     /label=AFT11-1
+                     /label="AFT11-1"
                      /protein_id="BAD97696.1"
                      /translation="MTYEKPDLKRTKATVSFKRIYLHRASEFPGPWLCQCSSIMAQYHA
                      WRGDLPRYLHVLHEKYGDFVRYAPNHVSIRHCDVWEDVYGFQRNVSKYDTTYSPFRLAP
@@ -116,11 +119,12 @@ FEATURES             Location/Qualifiers
                      FEESMRLAPPVPTLLPRLVGPGGIKACGRYVPEGVVIGAPCWAISRDKRYFDKPNVFKP
                      DRWLADSSDPVALEKMLLATRASQPFSYGPRACPGRALAFRENGLLLAKLVYAFEMEPV
                      QDKSIVEESLTGICDGLVFNQLDTVGAHEVELMVRYRLRLDGKTKRRVSGN"
+                     /Pfam="p450"
      CDS             14761..15654
                      /codon_start=1
                      /gene="AFT12-1"
                      /product="oxidoreductase Aft12-1"
-                     /label=AFT12-1
+                     /label="AFT12-1"
                      /protein_id="BAD97697.1"
                      /translation="MVVHSLGSTNLQENQSAVGAIAAWRLQHAGYSRVTTLCRSNYDAV
                      KTSGFRLSTSLWGKHIYKPDRVANDIREVKHTEFDYVVDATKNISATWTLSISEIRQVV
@@ -128,12 +132,13 @@ FEATURES             Location/Qualifiers
                      MSSSPSFRDAKQKLRRLVSLDSSFLAVRDIRIQQWIKLITNVTFNSATALMNAHTRDVL
                      DSASGIELVRALAEECYELGLALGMAIPQGTVDSIIEDFLSAPPVVTSMLQDLRAGRPL
                      ELDALLGKLKTYLVIL"
+                     /Pfam="ApbA, ApbA_C"
      CDS             19691..21025
                      /codon_start=1
                      /gene="AFTR-2"
                      /product="transcription factor AftR-2"
                      /function="involved in AF-toxin biosynthesis"
-                     /label=AFTR-2
+                     /label="AFTR-2"
                      /protein_id="BAD97698.1"
                      /translation="MLQCAPKKNERLRGSCDFCTQSKLRCNKNKPSCRRCTLQQQPCVY
                      SVARRTGRPPKHPRKANDCQEANGQHGDQDPVTSTPGGSYQQQSNHLLDVEGDGANFTL
@@ -143,12 +148,13 @@ FEATURES             Location/Qualifiers
                      QMLVLHPTLCQKNSRARFDMALFLEEVVFSIYRDVLQCLVCQSKSLHSLASLCICTDWV
                      IEALRDVAQDLSSGQDNLGGFRAGLYPPKDKFSICVGRFVLDDQLRESCTRSLVRYRLR
                      KLIPIMDTMMKLNHRGAGGALSQAIRTMVEDVHHKIESALGMMEL"
+                     /Pfam="EqxR"
      CDS             join(23315..23598,23658..23879,23950..24195,24251..24389)
                      /codon_start=1
                      /gene="AFT3-2"
                      /product="enoyl-CoA hydratase Aft3-2"
                      /function="involved in AF-toxin biosysnthesis"
-                     /label=AFT3-2
+                     /label="AFT3-2"
                      /protein_id="BAD97699.1"
                      /translation="MLNRFSYSSNAWHNLRVDGPDADGIAVIVLARSQSRNALTLPMLT
                      DMVQLLSAMDADDSVKCIVFTGEGPFFCSGVDLTEGFGEIGKTRDTHRDAGGKLALAIH
@@ -156,6 +162,7 @@ FEATURES             Location/Qualifiers
                      GYGRALHLFTTGALYPAESGLLHGLFSETVNAASSTLPRALEVARDIAVNASQVGVYLT
                      RDLVYRSPRSPEQAHLLESAALYTRYQSRDFEEGVQSFLEKRKPRFQDTMREQSGEGVL
                      DRGDCVVGLAFKPKL"
+                     /Pfam="ECH_1"
 ORIGIN
         1 tcagctagac tgttcaatga tggtacgcat agctttcact gcctcgttga gacagccaga
        61 gaacttggca acatctctgt ctctcccttg taccaatacc aatgggtcag tatggtgcac

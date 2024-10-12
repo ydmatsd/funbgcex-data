@@ -1,22 +1,22 @@
-LOCUS       FBGC00032       24227 bp DNA     linear   UNA 08-MAY-2023
+LOCUS       FBGC00032              24227 bp    DNA     linear   UNA 08-MAY-2023
 DEFINITION  15-deoxyoxalicines.
 ACCESSION   FBGC00032
-VERSION     .
+VERSION     FBGC00032
 KEYWORDS    .
 SOURCE      Aspergillus felis 0260
   ORGANISM  Aspergillus felis 0260
+            .
 REFERENCE   1  (bases 1 to 24227)
-  AUTHORS   Xiao Z-H., Dong J-Y., Li A, Dai J-M., Li Y-P., Hu Q-F., Shao L-D., 
+  AUTHORS   Xiao Z-H., Dong J-Y., Li A, Dai J-M., Li Y-P., Hu Q-F., Shao L-D.,
             Matsuda Y, Wang W-G.
-  TITLE     Biocatalytic and chemical derivatization of fungal meroditerpenoid 
+  TITLE     Biocatalytic and chemical derivatization of fungal meroditerpenoid
             chevalone E
   JOURNAL   Org Chem Front 2022
 REFERENCE   2  (bases 1 to 24227)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported May 8, 2023 from SnapGene 6.2.2
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
+  JOURNAL   Exported May 8, 2023 from SnapGene 6.2.2 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
             "10.1039/D2QO00055E"; journalName: "Org Chem Front"; date: "2022"
 FEATURES             Location/Qualifiers
      source          1..24227
@@ -28,7 +28,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="olcA'"
                      /product="polyketide synthase OlcA'"
-                     /label=olcA'
+                     /label="olcA'"
                      /protein_id="BDD69368.1"
                      /translation="MSLEPIAIVGTGCRFPGSSSSPARLWDLIQNPRNVASKVPSGRFN
                      VDAFYHPNSQQHGATCVTESYFLEEDVRAFDAPFFNISPAEAAALDPQQRLLLETVYDA
@@ -72,11 +72,13 @@ FEATURES             Location/Qualifiers
                      PVGSRFRVVTAGLCPDTCSPEYTVWEASHSIDPAMSNMLALSRKARQGNLVVEADAEET
                      PLSIQLERAKQTASAVTAVRGILSQHFTRYLRALLQSATEITDDTLFNELGVDSIVAAQ
                      LGGWFSTEVGVKVSVVLILAGSSVGEVLQEVAEKFIY"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_DH, PKS_NRPS_MT, fPKS_KR,
+                     ACP_PCP"
      CDS             complement(join(8193..8751,8807..9101,9150..9261))
                      /codon_start=1
                      /gene="olcH'"
                      /product="UbiA-like prenyltransferase OlcH'"
-                     /label=olcH'
+                     /label="olcH'"
                      /protein_id="BDD69369.1"
                      /translation="MVRSPTGQSRSLSQISWDLIRISRYDKYNSFLALFAGVWSTLLAG
                      STRLREDPDHISVPFILTRVLFCSLAAYIFSGAGMVWNDWVDRDIDARVARTKDRPLAA
@@ -84,11 +86,12 @@ FEATURES             Location/Qualifiers
                      YPQYVLALTASCPVLFGRASIYPNLDSFTALVWSSLPLCVVVFTWTLYFNTAYSYQDIV
                      DDKKLGVNSLYILAGQHIHGVLVALATIVAGALCWALYPLGSVWLWISWMGVWIIGCVD
                      QMRRFDAKNPGSGHYVFRSNVVMGLWTMVACVLEVVFRGL"
+                     /Pfam="UbiA_PT"
      CDS             9809..10312
                      /codon_start=1
                      /gene="olcM'"
                      /product="truncated cytochrome P450 monooxygenase OlcM'"
-                     /label=olcM'
+                     /label="olcM'"
                      /protein_id="BDD69370.1"
                      /translation="MPLISFEPIVILPQEHIKWIIDQPPTVLCPRRAAYTRMGVRYVAP
                      GFTPAISEILHSAIKIHLNKKFDNLKAEMYDQLSWAIDRSFGTADGVSKVSLSHAIRYT
@@ -99,7 +102,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="olcG'"
                      /product="cytochrome P450 monooxygenase OlcG'"
-                     /label=olcG'
+                     /label="olcG'"
                      /protein_id="BDD69371.1"
                      /translation="MISTLLTSIRDVEQSTAIIITSILVAIALSITISRPSTPQLPLVN
                      SPKRWEFFFTKAKKRYYANAKKIIQAGFRQSKNGFYAVTENGIELILAPKYAHAIRNDK
@@ -111,23 +114,25 @@ FEATURES             Location/Qualifiers
                      ITIEKGDLLMISQHNHWDEEIYPNAAHFDPYRFYKMRQTPTQEHAAHFVATSVNHIGFG
                      HGAHGCPGRFFATAETKLALCHILMKYDIKLVDQPKVFTVGSITSADPVARVAVRRRKE
                      EVSL"
+                     /Pfam="p450"
      CDS             join(12680..12700,12754..13192,13250..13336,13401..13627)
                      /codon_start=1
                      /gene="olcF'"
                      /product="short-chain dehydrogenase/reductase OlcF'"
-                     /label=olcF'
+                     /label="olcF'"
                      /protein_id="BDD69372.1"
                      /translation="MGCLQNRVAIITGAASGIGLAAAAAALEAGASVFAVDISPFPAAL
                      DASDKCRTMQCDLTDPDMPRKIAETCTSAFDGRIDILMNIAGVIDHNASVDAVTDADWD
                      RCMAVNLTAPVKLMREVIGVMRNQKSGVIINMASRAGVSGAAAGVAYTASKHGLIGATK
                      NVAWRFKGENIRCNVLCPGGVATGILNSVDPARFDQEATSMLKPILSAVYANRADGYGV
                      MMPGEVASTIVFLCSDQASRINGAVIPIDDGWSTI"
+                     /Pfam="adh_short_C2"
      CDS             complement(join(13649..14093,14151..14477,14527..14681,
                      14735..14815))
                      /codon_start=1
                      /gene="olcC'"
                      /product="geranylgeranyl pyrophosphate synthase OlcC'"
-                     /label=olcC'
+                     /label="olcC'"
                      /protein_id="BDD69373.1"
                      /translation="MAPSIATPLVTAVEGDTRQNPKLSPEQIIAAPIDYLLSLPGKDLR
                      SRLIAAFNEWLNVPPDKLDLIRRVIELLHTASLLIDDIQDSSKLRRGQPVAHSIFGIAQ
@@ -135,22 +140,24 @@ FEATURES             Location/Qualifiers
                      MVADKTGGLFRLAIKLMQCSSNSRYDYVPLVDLMGVIFQIRDDYQNLQSGSYIQNKGFG
                      EDLTEGKFSFPIIHAIRHGAQRLQLLNILKQKTEDVTVKKYAISIMEAAGSFAYCRARI
                      AELATEVRLMLQEIARSTTGTGASEGKGVAEFLDALEIKQDSSFSHCVTCREGS"
+                     /Pfam="GGPS"
      CDS             join(15110..15618,15676..15877)
                      /codon_start=1
                      /gene="olcD'"
                      /product="terpene cyclase OlcD'"
-                     /label=olcD'
+                     /label="olcD'"
                      /protein_id="BDD69374.1"
                      /translation="MDSLDFTKAPQSFQSVKWISDTLLFAMAAGWLTCYIATIRTARRD
                      GACWVPIVPVSCNLAWELVYAILYPPPRLLILTAWFTLNLVVVSTALKYSPESRGSSPL
                      RGYRLHVCFVIVTALWAAGHICLAKVVGPLTAFYYGGLACQIMTSATALCGLVRSKRSS
                      GASWLIWASRVIGTGSAIAGVLFRAHYWPELWAWTMNPLIYWAAAAFAIFDGAYGFCFW
                      SVRQAEVRAGIKDD"
+                     /Pfam="Pyr4"
      CDS             join(16121..16802,16856..17205,17273..17746)
                      /codon_start=1
                      /gene="olcE'"
                      /product="FAD-dependent monooxygenase OlcE'"
-                     /label=olcE'
+                     /label="olcE'"
                      /protein_id="BDD69375.1"
                      /translation="MAEKSVRDELRVLIIGGSIAGLTLAHALSALNTSLQDNPRAKTTI
                      RYTVLEKRSSFTPQEGASIGILPHGGRILDQLGLFQGVEDEIEPLHTAHLRFPGKKGYV
@@ -161,11 +168,12 @@ FEATURES             Location/Qualifiers
                      HKRITKQMAPNTGQGANCAIEDAASLANLIHEFLISNQIGKPSTEQLDERLRQYTAERN
                      GRVDKIYSIARTVVRLHARDTFYLRFFGRYVLPYSGDMPARAASKAIKGAPKLDFIPVS
                      ARVANGWNEDGTGGGSIMLRVVLGLIFVLGATCTWRMLDNPLS"
+                     /Pfam="FAD_binding_3"
      CDS             complement(join(17779..18126,18179..19312))
                      /codon_start=1
                      /gene="olcB'"
                      /product="cytochrome P450 monooxygenase OlcB'"
-                     /label=olcB'
+                     /label="olcB'"
                      /protein_id="BDD69376.1"
                      /translation="MMALVLCAVLAVVYVVGRALRNLFLHPMSRVPCHWPWIAFPLLRH
                      ISAVRGNVDLDIKRWHERYGPVVRFSPDEVSFISSEAWNEIYGRHDRRHCLPKSKFSNS
@@ -176,11 +184,12 @@ FEATURES             Location/Qualifiers
                      LLTACLNEALRLYPSVPGGLQRVTVSPITFLGFTIPPNTEVSLHQLAAYTSPSNFHRPE
                      SFLPERWDPEVSNDPASPFYNDNREVFQPFSAGPRNCIGKNLAYAIMRTALARVLWEFD
                      LELCSESENWHVQKTYGLWDKGPLVCQLRRREGQR"
+                     /Pfam="p450"
      CDS             19613..20488
                      /codon_start=1
                      /gene="olcK'"
                      /product="2OG-Fe(II)-dependent dioxygenase OlcK'"
-                     /label=olcK'
+                     /label="olcK'"
                      /protein_id="BDD69377.1"
                      /translation="MTVSPRPTAVRTVDASTSSEEISKLIASDGAVIVRQFIPDSVVTA
                      VNEEVEPYLSATLTGPPANAGELYKKTVGSRTKHMGNLAAISPTYRTTILNHPLMHAVS
@@ -188,11 +197,12 @@ FEATURES             Location/Qualifiers
                      EFRGDNGATRLIPGSHRWTEGEIAGAVPENTVGAFMQPGDAVLYLGSVWHGAGENQSTE
                      NRRGLSVTMHPAHFTPMEAHVDLPRNILEGMTPLAQKMVGWRSWCGYHGVPVWTVRDRK
                      MEDELALKSA"
+                     /Pfam="PhyH"
      CDS             join(20596..20949,21007..21781,21841..22247)
                      /codon_start=1
                      /gene="olcJ'"
                      /product="cytochrome P450 monooxygenase OlcJ'"
-                     /label=olcJ'
+                     /label="olcJ'"
                      /protein_id="BDD69378.1"
                      /translation="MELYYTNLWPQESSSLVKLSLIALSIVIGYRLQKLIFSPHLPAPF
                      VGFRSRWEPRWLVGLRFSKEALRHIQQGCRQYKDGMFRIARVDTDILVIPNCLVDELHS
@@ -203,11 +213,12 @@ FEATURES             Location/Qualifiers
                      QAVAEDGGEYRKTTLTKMWDLDSFIKEVQRLNPPALLSFQRIVMRDLTLSDGTILPKGT
                      HLAVPAADITKESGYDQEFDGYRYSRRRRAHPAEAHRHQFATTDQTSLHFGHGKYACPG
                      RFFAANEIKMILAHLLVGYEFRLPDGKCRPENIMIDEVFLVDSHAKVLMRRRR"
+                     /Pfam="p450"
      CDS             complement(join(22316..23866,23915..24127))
                      /codon_start=1
                      /gene="olcI'"
                      /product="CoA ligase OlcI'"
-                     /label=olcI'
+                     /label="olcI'"
                      /protein_id="BDD69379.1"
                      /translation="MSDSNSYDLVSFAFNGPFIHGERPPIFIDARNPSRALSAGPFKRL
                      VCSLIAGFKAHHVQVGDCVLVQMDNYILHSAVYLAIVGAGGVYMGCSPTSSRHELEHFV
@@ -220,6 +231,7 @@ FEATURES             Location/Qualifiers
                      VGRTKELIKVRGYSVAPAEIEALLLEKEERIADVAVLGVKTGDGDGDEAPRAYVVRLKG
                      KGSKGAMQGGVTEEQIRAIVQQHLASYKALEGGVVFVDSIPRTDIGKPARSKLARLDRQ
                      REELAALLRAN"
+                     /Pfam="AA-adenyl-dom"
 ORIGIN
         1 aatcggatca ggaaaatggg cacagctgtc ctgcggcttg aagggtgcgg agcatcttaa
        61 aagcaaggcg taggatttgt attcatacag gaaagataaa tcagtaaata aacttctctg

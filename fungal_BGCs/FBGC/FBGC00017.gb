@@ -1,23 +1,23 @@
-LOCUS       FBGC00017       32301 bp DNA     linear   UNA 14-JAN-2023
+LOCUS       FBGC00017              32301 bp    DNA     linear   UNA 14-JAN-2023
 DEFINITION  neosartorin.
 ACCESSION   FBGC00017
-VERSION     .
+VERSION     FBGC00017
 KEYWORDS    .
 SOURCE      Aspergillus novofumigatus IBT 16806
   ORGANISM  Aspergillus novofumigatus IBT 16806
+            .
 REFERENCE   1  (bases 1 to 32301)
   AUTHORS   Matsuda Y, Gotfredsen CH, Larsen TO.
-  TITLE     Genetic Characterization of Neosartorin Biosynthesis Provides 
+  TITLE     Genetic Characterization of Neosartorin Biosynthesis Provides
             Insight into Heterodimeric Natural Product Generation.
   JOURNAL   Org Lett 2018;20:7197-7200
-  PUBMED    30394754
+   PUBMED   30394754
 REFERENCE   2  (bases 1 to 32301)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Jan 14, 2023 from SnapGene 6.2.0
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1021/acs.orglett.8b03123"; journalName: "Org Lett"; date: 
+  JOURNAL   Exported Jan 14, 2023 from SnapGene 6.2.0 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1021/acs.orglett.8b03123"; journalName: "Org Lett"; date:
             "2018"; volume: "20"; pages: "7197-7200"
 FEATURES             Location/Qualifiers
      source          1..32301
@@ -32,7 +32,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="P174DRAFT_372038"
                      /product="transcription factor NsrA"
-                     /label=nsrA
+                     /label="nsrA"
                      /db_xref="GeneID:36529736"
                      /db_xref="JGIDB:Aspnov1_372038"
                      /protein_id="XP_024680904.1"
@@ -44,12 +44,13 @@ FEATURES             Location/Qualifiers
                      LKCECGEMTYLIPMLSIAVVKVLERYALTARELAGDLGLDGKYKDPDRPFNSSVDDDHS
                      SGRTTAQLILNELHRVQGAVNLVERLLKEDSLEDCVRRGQQCPVSSSPVAFSPTTVHQM
                      NTDLRRRLTTLSSEIINILRQS"
-     CDS             complement(join(1839..2186,2213..3127,3184..4828,4897..5564,
-                     5629..6738,6808..7114,7176..7561))
+                     /Pfam="EqxR, AflR"
+     CDS             complement(join(1839..2186,2213..3127,3184..4828,
+                     4897..5564,5629..6738,6808..7114,7176..7561))
                      /codon_start=1
                      /locus_tag="P174DRAFT_487776"
                      /product="polyketide synthase NsrB"
-                     /label=nsrB
+                     /label="nsrB"
                      /db_xref="GeneID:36538123"
                      /db_xref="InterPro:IPR006163"
                      /db_xref="InterPro:IPR014030"
@@ -88,11 +89,12 @@ FEATURES             Location/Qualifiers
                      RYPRVLLNRFFTPADIKNPASGSMSCAKGARSSAQSTKSPANVAESVPTPAPAPVPAPE
                      PVPVQRNKQDTAAPPVAASDSTAAKALDLVAAEAAIELSDLQDDVSFASLGVDSLMSLV
                      IAEKLRQQLGITVSGSLFLEYPTVRDLRVWLDEYYS"
+                     /Pfam="SAT2, PKS_KS, PKS_AT, fPKS_PT, ACP_PCP"
      CDS             join(7910..8071,8134..8979)
                      /codon_start=1
                      /locus_tag="P174DRAFT_460891"
                      /product="metallo-beta-lactamase-like thioesterase NsrC"
-                     /label=nsrC
+                     /label="nsrC"
                      /db_xref="GeneID:36537265"
                      /db_xref="InterPro:IPR001279"
                      /db_xref="JGIDB:Aspnov1_460891"
@@ -103,11 +105,12 @@ FEATURES             Location/Qualifiers
                      DHMCFVLEEEQAMFTGDNVLGSGTAAIEHLSTWMVTLKQMQSHGCKLGYPAHGAVITDL
                      QSKIGSELAGKLRRERQALQALRQASRNGSGGPGKGRLTVKELVAAVHGDRIDDGIRVL
                      ALEPFMDEVLRKLAEDGAVGFDMRGVLKNGLLCDTCCLIRSFYYTQYSMPFLVP"
+                     /Pfam="Lactamase_B"
      CDS             complement(join(9294..9724,9788..9845))
                      /codon_start=1
                      /locus_tag="P174DRAFT_373009"
                      /product="anthrone oxygenase NsrD"
-                     /label=nsrD
+                     /label="nsrD"
                      /db_xref="GeneID:36529798"
                      /db_xref="InterPro:IPR013901"
                      /db_xref="JGIDB:Aspnov1_373009"
@@ -115,22 +118,24 @@ FEATURES             Location/Qualifiers
                      /translation="MTKETYVSATAVVSGSFLSGSMMSLSALVIPLFLDTIDDGPQLLR
                      QWARLYHYGSIYMPALCVATCGIYGYVALSKRAAISPLWSPYVLAAVSTLAMVPFTWWV
                      MVPTNNTLFGLHRSAESTELGVVQVLVVKWAWLHVVRSLYPLFGAFLGFRALIRELRT"
+                     /Pfam="Anthrone_oxy"
      CDS             join(10061..10252,10333..10529,10580..10646)
                      /codon_start=1
                      /locus_tag="P174DRAFT_372388"
                      /product="decarboxylase NsrE"
-                     /label=nsrE
+                     /label="nsrE"
                      /db_xref="GeneID:36529754"
                      /db_xref="JGIDB:Aspnov1_372388"
                      /protein_id="XP_024680900.1"
                      /translation="MASSTHPEMPELSGSYENKYLCLTICGYRKAGMTEEDYHNHMVHI
                      SAPMTKHLMVKYGIRRWTQIHNQAATRALMAELFDPQMANVADFDCFSQVVFQNVEDYK
                      RMKQDPWYQEHLVGDHENFADTKRTLVTIGWIEEFVRDGEAVDGFKS"
+                     /Pfam="EthD"
      CDS             complement(10840..12210)
                      /codon_start=1
                      /locus_tag="P174DRAFT_512934"
                      /product="dioxygenase NsrF"
-                     /label=nsrF
+                     /label="nsrF"
                      /db_xref="GeneID:36539262"
                      /db_xref="JGIDB:Aspnov1_512934"
                      /protein_id="XP_024680899.1"
@@ -142,11 +147,12 @@ FEATURES             Location/Qualifiers
                      AAWACGGPHRPGKERKIDFFLMHCVTSSIFFTVLGRATWISIADKARLVEWKARLDLVW
                      YAACAAPELRDENFLNYEPTLSRGMDWRQLYHALNRYHDDGHVAKFVRALKNAEEVALP
                      FEQEHADILPVKGDAWFRIAQICYDSTASHTEAQKKWVWGVGFAPMWDLVPDFVTSS"
+                     /Pfam="Questin_oxidase"
      CDS             12577..13503
                      /codon_start=1
                      /locus_tag="P174DRAFT_512933"
                      /product="methyltransferase NsrG"
-                     /label=nsrG
+                     /label="nsrG"
                      /db_xref="GeneID:36539261"
                      /db_xref="InterPro:IPR013216"
                      /db_xref="JGIDB:Aspnov1_512933"
@@ -157,11 +163,12 @@ FEATURES             Location/Qualifiers
                      SRQGGRQLLNKANDPTETARVMLRTQGTYNVAPLPRGTFAPGALRVHLNMTDGGIQSML
                      PLDDVHQTTPEPNYTGPDDAEIYEDDEGWSFETDLAGVKEHFESFPFVSQFPGAFTEMY
                      RELDDLLADGKPVQGYFPVKVILATRS"
+                     /Pfam="Methyltransf_11"
      CDS             join(14305..14535,14588..15118,15165..15737)
                      /codon_start=1
                      /locus_tag="P174DRAFT_512932"
                      /product="transcriptional coactivator NsrH"
-                     /label=nsrH
+                     /label="nsrH"
                      /db_xref="GeneID:36539260"
                      /db_xref="JGIDB:Aspnov1_512932"
                      /protein_id="XP_024680897.1"
@@ -173,11 +180,12 @@ FEATURES             Location/Qualifiers
                      HFYPALHFTVQISDPAVAITQEEFHPRITATSRILGTRQTAAGAAVYILHLPFASSSPS
                      AVMTELAVHLDVLRSRSGILLILTPRLLPQPGSLPDPEVEATARSRDLALGQMADEGEM
                      EMLELLETIDTVRDSLGKLVVTSKLRSRNNLVVAVTVEYQRDLPS"
+                     /Pfam="MdpA"
      CDS             complement(join(15961..16311,16364..16461,16524..16563))
                      /codon_start=1
                      /locus_tag="P174DRAFT_451670"
                      /product="dehydratase NsrI"
-                     /label=nsrI
+                     /label="nsrI"
                      /db_xref="GeneID:36536350"
                      /db_xref="InterPro:IPR004235"
                      /db_xref="JGIDB:Aspnov1_451670"
@@ -185,11 +193,12 @@ FEATURES             Location/Qualifiers
                      /translation="MTKTVPPKTPAYEDTVGCQIALFEWAESYDTKDWGRLAKCIAPTL
                      RIDYRNVIGKLWEAMPADEFLAMASSEKFLGNARIKTQHFVGAGKLVQTHEDRITGYHQ
                      MRVAHQRYSDDALTEVLYTGHGHGKATVQFCLVDGVWKFAGLEPEIRWAENDLEKIFE"
+                     /Pfam="Scytalone_dh"
      CDS             16848..17642
                      /codon_start=1
                      /locus_tag="P174DRAFT_460884"
                      /product="short-chain dehydrogenase/reductase NsrJ"
-                     /label=nsrJ
+                     /label="nsrJ"
                      /db_xref="GeneID:36537264"
                      /db_xref="InterPro:IPR002198"
                      /db_xref="JGIDB:Aspnov1_460884"
@@ -199,11 +208,12 @@ FEATURES             Location/Qualifiers
                      HLKDVTEEEFDRVFSLNTRGQFFVAREAYRVLSEGGRIILTSSNTSKDFSVPRHSVYSG
                      SKGAIDSFVRILSKDCGDKKITVNGVAPGGTVTDMFHAVSHHYIPNGEKFTAEERQQMA
                      AHASPLHRNGFPEDIANVVGFLVSKEGEWVNGKVITLDGGAA"
+                     /Pfam="adh_short_C2"
      CDS             complement(join(17949..18931,18996..19614))
                      /codon_start=1
                      /locus_tag="P174DRAFT_460883"
                      /product="FAD-dependent monooxygenase NsrK"
-                     /label=nsrK
+                     /label="nsrK"
                      /db_xref="GeneID:36537263"
                      /db_xref="InterPro:IPR003953"
                      /db_xref="JGIDB:Aspnov1_460883"
@@ -218,11 +228,12 @@ FEATURES             Location/Qualifiers
                      SSPAAASGPGAGAGAGVPLGTRVYNLLRYERASCTQKMAFVNAQVLGDTTDWDAVRADP
                      SKVRVRYPKWFFRHDPEGYVYEKYGQAFAHLVSGAEFHNTNIPPGHQFVHWTLEGIHRE
                      MAAGKKVEDLLDGDWT"
+                     /Pfam="FAD_binding_3"
      CDS             join(19949..20173,20242..20952,21007..21271,21326..21588)
                      /codon_start=1
                      /locus_tag="P174DRAFT_512929"
                      /product="acetyltransferase NsrL"
-                     /label=nsrL
+                     /label="nsrL"
                      /db_xref="GeneID:36539259"
                      /db_xref="JGIDB:Aspnov1_512929"
                      /protein_id="XP_024680893.1"
@@ -235,12 +246,13 @@ FEATURES             Location/Qualifiers
                      FFFNVLVPVKDVLGRPLSYTAWQIRRAIKQQTTAEQTEAYCALLRSSGQSKLPPFFGDS
                      SMHMLSFSNWTKIDFFGLDFSAAALKGAGPVRPKYIQNVQTPYKFTEMFPIVGKDEQGN
                      YWLSGTRTTQNWDIIEQALREESPMTGST"
+                     /Pfam="CalD"
      CDS             complement(join(21613..22570,22627..22862,22924..23421,
                      23477..23504,23561..23778,23828..23848))
                      /codon_start=1
                      /locus_tag="P174DRAFT_512928"
                      /product="transcription factor NsrM"
-                     /label=nsrM
+                     /label="nsrM"
                      /db_xref="GeneID:36539258"
                      /db_xref="InterPro:IPR007219"
                      /db_xref="JGIDB:Aspnov1_512928"
@@ -257,12 +269,13 @@ FEATURES             Location/Qualifiers
                      PKPSGQGVFTVFARVVLQAWGAREIFLRQRGMPVEAPQIVLDIRSKVGQTSSGSSMVPS
                      CSTGEPSHSSIAISAHSEAIPAQMNFTGHSADGQAFPGPDLGPSSFPDVAGPPGMDIDI
                      DQFWTAMDWRLMHTQAW"
+                     /Pfam="Fungal_trans"
      CDS             join(24297..24503,24558..24818,24880..25215,25267..25447,
                      25502..26205)
                      /codon_start=1
                      /locus_tag="P174DRAFT_373375"
                      /product="major facilitator superfamily transporter NsrN"
-                     /label=nsrN
+                     /label="nsrN"
                      /db_xref="GeneID:36529823"
                      /db_xref="InterPro:IPR011701"
                      /db_xref="JGIDB:Aspnov1_373375"
@@ -277,11 +290,12 @@ FEATURES             Location/Qualifiers
                      TGAGKWIGYQILYGLGLGLAFQVPNLATQASLPKKDVPTGLALMLFATLLGASVFVSAG
                      ENVLANQLVKRLAGVEGVDISLITSGGATSLLQSLPDGVRKIALVAYNEALREVFRVGL
                      IPTCLSVLGAAALEWRSVKKPAGKVSAEDGEKETKNVDKETTEKT"
+                     /Pfam="MFS_1"
      CDS             26769..27641
                      /codon_start=1
                      /locus_tag="P174DRAFT_421366"
                      /product="short-chain dehydrogenase/reductase NsrO"
-                     /label=nsrO
+                     /label="nsrO"
                      /db_xref="GeneID:36532272"
                      /db_xref="InterPro:IPR002198"
                      /db_xref="JGIDB:Aspnov1_421366"
@@ -292,11 +306,12 @@ FEATURES             Location/Qualifiers
                      IINISSAAAQVHTTRRVGYGSSKAAAAQVLQHFAVEQEQEPDGNPVRIFSFHPGAFYTP
                      AVAQHFTKDEHKWDDLALPGDFAVWLAGPESSFLHGRHLWANWDVDELIGLRERVLQDR
                      RFLTIGLVV"
+                     /Pfam="adh_short"
      CDS             complement(join(27864..28087,28162..29276,29327..29526))
                      /codon_start=1
                      /locus_tag="P174DRAFT_372675"
                      /product="cytochrome P450 monooxygenase NsrP"
-                     /label=nsrP
+                     /label="nsrP"
                      /db_xref="GeneID:36529773"
                      /db_xref="InterPro:IPR001128"
                      /db_xref="JGIDB:Aspnov1_372675"
@@ -310,22 +325,24 @@ FEATURES             Location/Qualifiers
                      VDQLAFIPLHAWENSFPSIDLCLQETIRMWTSFSMARLNLSPNPIPIPGSDEVIPGNTF
                      VCYNSTEVNFSDSLYPDPKKFDPARFLDGREEFRNEAYGFLGWGRGRHPCPGMRWAKLQ
                      QNIIIAYAVAMYDWSSCDETGKPTPQAVHVKELNAARGTVLPSAYCKLVPREKV"
+                     /Pfam="p450"
      CDS             complement(join(29934..30182,30238..30444))
                      /codon_start=1
                      /locus_tag="P174DRAFT_407796"
                      /product="isomerase NsrQ"
-                     /label=nsrQ
+                     /label="nsrQ"
                      /db_xref="GeneID:36531471"
                      /db_xref="JGIDB:Aspnov1_407796"
                      /protein_id="XP_024680888.1"
                      /translation="MPAPAEVQAATLEKFIQGWAGWTPDGFLANWSEDCTQKTLPFSSG
                      VPLRTRADTEKLFPVLMSLMSNFTLDIHNVVHDAPQGKAVIYALTKADTPFGPYRNEHA
                      IFLWFNEIGDRVQKIEEMFDAVVMQEFLPKLDKYVADNKMQLGAKFS"
+                     /Pfam="Trt14"
      CDS             complement(30647..31447)
                      /codon_start=1
                      /locus_tag="P174DRAFT_371720"
                      /product="short-chain dehydrogenase/reductase NsrR"
-                     /label=nsrR
+                     /label="nsrR"
                      /db_xref="GeneID:36529717"
                      /db_xref="JGIDB:Aspnov1_371720"
                      /protein_id="XP_024680887.1"
@@ -334,17 +351,19 @@ FEATURES             Location/Qualifiers
                      LQDLKRNNPTSTVMPKLVLLSSATTDSQLSRDVPSLLRFILHRSASYVYEDLVVTEKLL
                      HAQKDWLTSIFIKPGALSVDIQRGHALSQTDQDGPLSYLDLAAAMIEAADEETGCYDMQ
                      SLGVVNTNGKAKFPTGTPLCILVGLLRHYFPFLHPYLPMNTGPR"
+                     /Pfam="NAD_binding_10"
      CDS             complement(join(31728..31970,32092..32301))
                      /codon_start=1
                      /locus_tag="P174DRAFT_442171"
                      /product="isomerase NsrS"
-                     /label=nsrS
+                     /label="nsrS"
                      /db_xref="GeneID:36534840"
                      /db_xref="JGIDB:Aspnov1_442171"
                      /protein_id="XP_024680886.1"
                      /translation="MPAPADIQAATLNKFLAAWREGSAPDTMALWSDDFKQRLLPLSLG
                      ESSFRSRDQAALFYPGLVENLRNWELHIKEIVHDSARGTAAVYATSQADTPFSGEKWTN
                      EYAIFLSFSEDGTKVCRLEEMMDSAFYQSFVPKFQRYLMGLGGLKK"
+                     /Pfam="Trt14"
 ORIGIN
         1 atgagttctt caacatcgaa aattcgtggc agctgccaag cttgcgcctt ggcaaaagtc
        61 cgatgtccca aggagaaacc aacctgctcc cggtgcgaga aacggggaat tacctgcgag

@@ -1,26 +1,26 @@
-LOCUS       FBGC00050       13720 bp DNA     linear   UNA 16-JAN-2023
+LOCUS       FBGC00050              13720 bp    DNA     linear   UNA 16-JAN-2023
 DEFINITION  botrydial.
 ACCESSION   FBGC00050
-VERSION     .
+VERSION     FBGC00050
 KEYWORDS    .
 SOURCE      Botryotinia fuckeliana T4
   ORGANISM  Botryotinia fuckeliana T4
+            .
 REFERENCE   1  (bases 1 to 13720)
-  AUTHORS   Pinedo C, Wang CM, Pradier JM, Dalmais B, Choquer M, Le Pecheur P, 
+  AUTHORS   Pinedo C, Wang CM, Pradier JM, Dalmais B, Choquer M, Le Pecheur P,
             Morgant G, Collado IG, Cane DE, Viaud M.
-  TITLE     Sesquiterpene synthase from the botrydial biosynthetic gene cluster 
+  TITLE     Sesquiterpene synthase from the botrydial biosynthetic gene cluster
             of the phytopathogen Botrytis cinerea.
   JOURNAL   ACS Chem Biol 2008;3:791-801
-  PUBMED    19035644
+   PUBMED   19035644
 REFERENCE   2  (bases 1 to 13720)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Jan 16, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
+  JOURNAL   Exported Jan 16, 2023 from SnapGene 6.2.1 https://www.snapgene.com
 COMMENT     SGRef: number: 1; type: "Journal Article"; doi: "10.1021/cb800225v";
-            journalName: "ACS Chem Biol"; date: "2008"; volume: "3"; pages: 
+            journalName: "ACS Chem Biol"; date: "2008"; volume: "3"; pages:
             "791-801"
-COMMENT     On May 21, 2008 this sequence version replaced AY277723.1.
+            On May 21, 2008 this sequence version replaced AY277723.1.
 FEATURES             Location/Qualifiers
      source          1..13720
                      /strain="T4"
@@ -31,7 +31,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="BCL5"
                      /product="acetyltransferase BcBOT5"
-                     /label=BcBOT5
+                     /label="BcBOT5"
                      /note="putative acetyl transferase"
                      /protein_id="ACD65512.1"
                      /translation="MATIPLFFSLILFLRLYHASRLEKRKEVEGEGIVAAEDLVSENDN
@@ -44,12 +44,13 @@ FEATURES             Location/Qualifiers
                      LRKAIVEQTDDVQSRRLMRIARRWFSSMGSMPLFAKWDSRVVACTNWTKAKFLDAADFG
                      PNALIAGGAGNQKSSSTRKAARHTEPTQAQTQPGRPVMYWGTTLSVTDNPRDTFVIYGK
                      DKVGNYWVHAYLREETWSLIQKELDSFR"
-     CDS             join(2770..3172,3266..3397,3464..3513,3584..3804,3876..3941,
-                     4011..4515,4608..4768,4850..5015)
+                     /Pfam="CalD"
+     CDS             join(2770..3172,3266..3397,3464..3513,3584..3804,
+                     3876..3941,4011..4515,4608..4768,4850..5015)
                      /codon_start=1
                      /gene="CND11"
                      /product="cytochrome P450 monooxygenase BcBOT3"
-                     /label=BcBOT3
+                     /label="BcBOT3"
                      /note="calcineurin-dependent; putative cytochrome P450"
                      /protein_id="AAQ16574.1"
                      /translation="MEKSNPTLDLATKTALLTWQKSNALLQHGIERATPFVLAVKSKAW
@@ -62,13 +63,14 @@ FEATURES             Location/Qualifiers
                      LQPVFKGYPNKMPTWAELEKLPYLRGCVKEALRLNGLVGNLARCSPDEDIQFHQWVIPK
                      KTPVGMSIYAMHFDQNVFSEPEAFKPERWIGEYNKQMDRNFVPFTKGSRSCLGVNLAWA
                      ELYLASAMLFRPGGPKLVLHDGGESDIKIARDYIMGFPKAGAKDVRVKIE"
-     CDS             complement(join(6018..6114,6189..6443,6517..6769,6906..7073,
-                     7140..7158,7221..7347,7458..7738))
+                     /Pfam="p450"
+     CDS             complement(join(6018..6114,6189..6443,6517..6769,
+                     6906..7073,7140..7158,7221..7347,7458..7738))
                      /codon_start=1
                      /gene="CND15"
                      /gene_synonym="BcBOT2"
                      /product="terpene synthase BcBOT2"
-                     /label=BcBOT2
+                     /label="BcBOT2"
                      /note="calcineurin-dependent; putative terpene cyclase;
                      BcBOT2"
                      /protein_id="AAQ16575.1"
@@ -80,12 +82,13 @@ FEATURES             Location/Qualifiers
                      TLVNDVLSYRKDLELGVDHNLMSLLMQRDNLSAQQAVDVIGDMVNECYRRWYLALAELP
                      SYGEKIDYNVMKFVEICRAVAQGNLYWSFQTGRYLGPEGHEVHETGIMYLPPAANLVVA
                      "
+                     /Pfam="Terpene_syn_C_2"
      CDS             join(8226..8472,8564..8624,8678..9742,9822..9981)
                      /codon_start=1
                      /gene="CND5"
                      /gene_synonym="BcBOT1"
                      /product="cytochrome P450 monooxygenase BcBOT1"
-                     /label=BcBOT1
+                     /label="BcBOT1"
                      /note="calcineurin-dependent; putative cytochrome P450;
                      BcBOT1"
                      /protein_id="AAQ16576.1"
@@ -98,13 +101,14 @@ FEATURES             Location/Qualifiers
                      QKLRDELKPIPKNDQGLYEYKTVRSLPYLNACIKESLRMSSPVPGILPRLVPAEGMTWR
                      GHYLPPGTSVSSSIYSVHTDPNIFPNPEQFIPERWLANENLDHYLVVFGKGSRACIGLN
                      VAWMETYLTFSNFFTSLNMTLFETNEQSTDWTDCGNAMIKKHVRVKVDSLAS"
+                     /Pfam="p450"
      CDS             join(11621..11755,11829..11921,11989..12058,12117..12515,
                      12577..12745,12801..12911,12980..13244,13313..13473,
                      13543..13720)
                      /codon_start=1
                      /gene="BCL4"
                      /product="cytochrome P450 monooxygenase BcBOT4"
-                     /label=BcBOT4
+                     /label="BcBOT4"
                      /note="putative cytochrome P450"
                      /protein_id="ACD65513.1"
                      /translation="MVEYNVTSTTLEPKTGWPVVDRLLGGYTELETLNGQVVARCLVAI
@@ -117,6 +121,7 @@ FEATURES             Location/Qualifiers
                      VSPGFTLHDKYIPKGTEVNVSPWSITHNAKYFSDPWEFKPERWLDPNSKDIKDASRPFL
                      LGPRDCLGRNFALMELNLVLAKLLWSYDMELVNKEINFLEQSTVHVLWWKPGLFVRWHK
                      PQSPGFSPS"
+                     /Pfam="p450"
 ORIGIN
         1 ttacctaaat gagtcaagtt ctttctggat caagctccac gtttcctccc tcaagtaagc
        61 gtgaacccag tagttaccaa ctttatcttt gccgtagatc acgaaggtgt cgcgaggatt

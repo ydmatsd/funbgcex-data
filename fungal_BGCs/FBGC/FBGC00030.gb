@@ -1,24 +1,24 @@
-LOCUS       FBGC00030       26890 bp DNA     linear   UNA 14-JAN-2023
+LOCUS       FBGC00030              26890 bp    DNA     linear   UNA 14-JAN-2023
 DEFINITION  setosusin.
 ACCESSION   FBGC00030
-VERSION     .
+VERSION     FBGC00030
 KEYWORDS    .
 SOURCE      Aspergillus duricaulis CBS 481.65
   ORGANISM  Aspergillus duricaulis CBS 481.65
+            .
 REFERENCE   1  (bases 1 to 26890)
-  AUTHORS   Wei X, Matsuyama T, Sato H, Yan D, Chan PM, Miyamoto K, Uchiyama M, 
+  AUTHORS   Wei X, Matsuyama T, Sato H, Yan D, Chan PM, Miyamoto K, Uchiyama M,
             Matsuda Y.
-  TITLE     Molecular and Computational Bases for Spirofuranone Formation in 
+  TITLE     Molecular and Computational Bases for Spirofuranone Formation in
             Setosusin Biosynthesis.
   JOURNAL   J Am Chem Soc 2021;143:17708-17715
-  PUBMED    34644070
+   PUBMED   34644070
 REFERENCE   2  (bases 1 to 26890)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Jan 14, 2023 from SnapGene 6.2.0
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1021/jacs.1c08336"; journalName: "J Am Chem Soc"; date: "2021"; 
+  JOURNAL   Exported Jan 14, 2023 from SnapGene 6.2.0 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1021/jacs.1c08336"; journalName: "J Am Chem Soc"; date: "2021";
             volume: "143"; pages: "17708-17715"
 FEATURES             Location/Qualifiers
      source          1..26890
@@ -27,11 +27,11 @@ FEATURES             Location/Qualifiers
      CDS             complement(join(1..6102,6158..6790))
                      /codon_start=1
                      /product="polyketide synthase SetA"
-                     /label=setA
-                     /label=jgi.p|Aspdur1|270789
+                     /label="setA"
+                     /label="jgi.p|Aspdur1|270789"
                      /note="/ID=CDS_6917"
                      /note="/Parent=mRNA_6917"
-                     /note="/frame=[169932..170564: 0, 170620..173270: 
+                     /note="/frame=[169932..170564: 0, 170620..173270:
                      0,173301..173569: 1, 173606..175508: 2, 176617..176701: 1]"
                      /note="/source=prediction"
                      /translation="MSTRLPAGVFCGAQSIPSSDICESIRLCLRKDPGLQHLAQTVVEL
@@ -73,14 +73,16 @@ FEATURES             Location/Qualifiers
                      LAGYQGPGAAIDFTVVNIERPPLHEHVQAYDVVISANCVHATKDLGVSCANICALLRPK
                      GMLCLLELTRDVYWLDGVFGLLDGWWRFDDGREHALVDERQWKDCLQRAGFAHVDWTDD
                      ESRESDVFRLIFAMKQ"
+                     /Pfam="SAT2, PKS_KS, PKS_AT, fPKS_PT, ACP_PCP, HTH_51,
+                     PKS_NRPS_MT"
      CDS             7559..9553
                      /codon_start=1
                      /product="FAD-dependent monooxygenase SetB"
-                     /label=setB
-                     /label=jgi.p|Aspdur1|270787
+                     /label="setB"
+                     /label="jgi.p|Aspdur1|270787"
                      /note="/ID=CDS_6916"
                      /note="/Parent=mRNA_6916"
-                     /note="/frame=[complement(167169..169102): 2, 
+                     /note="/frame=[complement(167169..169102): 2,
                      complement(169282..169309): 0]"
                      /note="/source=prediction"
                      /translation="MVSTITAPLQPSVTVCPCHAADCKHKYQARIEKKYELERHIQLQS
@@ -95,14 +97,15 @@ FEATURES             Location/Qualifiers
                      TSDLPNLFFTGHNQAGVCANQMYVLVQQSAHVAFILAEAVRQAGSIEGQEDAKGIVIEP
                      TADGEKGWALQVLSRLAPRSAAAILDCTPGYYNGEGALSKMNDLKPEEQAKMALLSNWG
                      EGIANYVESLENWRSQGQLPGLKLQFGHD"
+                     /Pfam="Pyr_redox_2, NAD_binding_8"
      CDS             join(10323..10541,10603..11889)
                      /codon_start=1
                      /product="acetyltransferase SetC"
-                     /label=setC
-                     /label=jgi.p|Aspdur1|255878
+                     /label="setC"
+                     /label="jgi.p|Aspdur1|255878"
                      /note="/ID=CDS_6915"
                      /note="/Parent=mRNA_6915"
-                     /note="/frame=[complement(164833..166119): 0, 
+                     /note="/frame=[complement(164833..166119): 0,
                      complement(166181..166399): 0]"
                      /note="/source=prediction"
                      /translation="MGAAKSKAVRPPTVPTDTIIPMSHWDQGYFGHYIIDVVYRFDDVL
@@ -114,14 +117,15 @@ FEATURES             Location/Qualifiers
                      ANTILPAGQIQSSSVGTLAALLRRTLLQQRTARQVEAYYALSKRVFVQTGRPIFLGRPN
                      ALNIVVSNWHRARCFELDFSPAVLKVGVPLDKRSNALGKPSLVLGPGVEQKVSMRNVGV
                      VMGKDAEGNWWMSFTLRKKAWVEIDKMLSRIGDTNGLLTSYIE"
+                     /Pfam="CalD"
      CDS             complement(join(12215..12770,12840..13134,13208..13355))
                      /codon_start=1
                      /product="UbiA-like prenyltransferase SetD"
-                     /label=setD
-                     /label=jgi.p|Aspdur1|270785
+                     /label="setD"
+                     /label="jgi.p|Aspdur1|270785"
                      /note="/ID=CDS_6914"
                      /note="/Parent=mRNA_6914"
-                     /note="/frame=[163367..163514: 0, 163588..163882: 
+                     /note="/frame=[163367..163514: 0, 163588..163882:
                      2,163952..164507: 1]"
                      /note="/source=prediction"
                      /translation="MTTATGETVCDRVQSAPDRRQRSKKQLAVDLLVLSRFHLYNGWLA
@@ -130,15 +134,16 @@ FEATURES             Location/Qualifiers
                      FGKRQFFRKFYIYPQYLLGFTLGYPSVIGRQAISGQEQSFTETLVQSLPLAITVFAWTL
                      YLNTAYSYQDREGDMKMNVNSVYVLAGSHIHSFLVMLAGLVLGAISIQLRTQGSLWLWG
                      SWMCVWAQSLVYQLMRFDAKKPETGGSLHKENFVLGIWTIFACAIELTIRS"
+                     /Pfam="UbiA_PT"
      CDS             complement(join(14475..14862,14925..15251,15329..15483,
                      15534..15734))
                      /codon_start=1
                      /product="geranylgeranyl pyrophosphate synthase SetE"
-                     /label=setE
-                     /label=jgi.p|Aspdur1|270783
+                     /label="setE"
+                     /label="jgi.p|Aspdur1|270783"
                      /note="/ID=CDS_6913"
                      /note="/Parent=mRNA_6913"
-                     /note="/frame=[160988..161188: 0, 161239..161393: 
+                     /note="/frame=[160988..161188: 0, 161239..161393:
                      0,161471..161797: 1, 161860..162247: 1]"
                      /note="/source=prediction"
                      /translation="MLPATPLYELGQHLKPEPIAPNLLLRRDHTPRSFEGIPAENMADV
@@ -148,16 +153,17 @@ FEATURES             Location/Qualifiers
                      ESQSDLDCVPLVDLLGIIFQIRDDYQNLQSHKYAENKGFGEDITEGKFSYPIIHSIRNS
                      PSNPQMMNILRQRPEDNTIKQYAIKIIESTGSFAYCREKLEKLTKQARALIEDLPVRGE
                      DVGGLENILDLLELKE"
+                     /Pfam="GGPS"
      CDS             join(16462..16686,16793..16909,16966..17068,17132..17200,
                      17257..17859,17924..18345)
                      /codon_start=1
                      /product="cytochrome P450 monooxygenase SetF"
-                     /label=setF
-                     /label=jgi.p|Aspdur1|264610
+                     /label="setF"
+                     /label="jgi.p|Aspdur1|264610"
                      /note="/ID=CDS_6912"
                      /note="/Parent=mRNA_6912"
-                     /note="/frame=[complement(158377..158798): 2, 
-                     complement(158863..159465): 2,complement(159522..159590): 
+                     /note="/frame=[complement(158377..158798): 2,
+                     complement(158863..159465): 2,complement(159522..159590):
                      2,complement(159654..159756): 0,complement(159813..159929):
                      0,complement(160036..160260): 0]"
                      /note="/source=prediction"
@@ -170,15 +176,16 @@ FEATURES             Location/Qualifiers
                      LGRDGLLKTSLHKLQLLDSVLKETLRLKPSTICPMMRIALEPITLSDGLEIPKGTMIYV
                      SCHNMWDEEIYPAADQFDGYRFYKLRQIDGKNNQAHLVSTSAQYLGFGHGMHACPGRFL
                      AETSLKLILCHILLKYDLKLVEGSEPQVEQLGIMMLTDLSAPITIRRRQEEIKL"
+                     /Pfam="p450"
      CDS             complement(join(18497..18982,19034..19404,19469..19743,
                      19806..20104))
                      /codon_start=1
                      /product="FAD-dependent monooxygenase SetG"
-                     /label=setG
-                     /label=jgi.p|Aspdur1|264609
+                     /label="setG"
+                     /label="jgi.p|Aspdur1|264609"
                      /note="/ID=CDS_6911"
                      /note="/Parent=mRNA_6911"
-                     /note="/frame=[156618..156916: 0, 156979..157253: 
+                     /note="/frame=[156618..156916: 0, 156979..157253:
                      1,157318..157688: 2, 157740..158225: 0]"
                      /note="/source=prediction"
                      /translation="MEVEQKRFKVIIVGGSIAGLTLAHCLSRVGIDYVVLEKRDEIAPQ
@@ -190,11 +197,12 @@ FEATURES             Location/Qualifiers
                      AVRSVPDGRKLSTQEVHALLQRFNNDRLHRVRNIYGGARFVIRLHARQSFFLRLLGRYY
                      VPYSGDLPADTASKVIAGAGSLEFLPPSQRLGPGWDRFGSKQHIWVLYIGGITGLLLLW
                      SAMTWFGQDMLPRLLLVS"
+                     /Pfam="FAD_binding_3"
      CDS             complement(join(21000..21213,21273..21784))
                      /codon_start=1
                      /product="terpene synthase SetH"
-                     /label=setH
-                     /label=jgi.p|Aspdur1|270779
+                     /label="setH"
+                     /label="jgi.p|Aspdur1|270779"
                      /note="/ID=CDS_6910"
                      /note="/Parent=mRNA_6910"
                      /note="/frame=[154932..155449: 0, 155509..155722: 1]"
@@ -204,15 +212,16 @@ FEATURES             Location/Qualifiers
                      ASKRSLAVFFVLGALFWGAGHVALISQVGPLTAFYYGGLGCQIMTSATALCRLVDRGCT
                      TGASYIIWVARVIGTSSALLGVYFRAHYWPELWAWAVNPLMHWCTAAFVILDGLYGVCF
                      WYIRQSETSQQKVLDAKKD"
+                     /Pfam="Pyr4"
      CDS             complement(join(22138..22364,22422..22508,22582..23020,
                      23084..23104))
                      /codon_start=1
                      /product="short-chain dehydrogenase/reductase SetI"
-                     /label=setI
-                     /label=jgi.p|Aspdur1|264607
+                     /label="setI"
+                     /label="jgi.p|Aspdur1|264607"
                      /note="/ID=CDS_6909"
                      /note="/Parent=mRNA_6909"
-                     /note="/frame=[153618..153638: 0, 153702..154140: 
+                     /note="/frame=[153618..153638: 0, 153702..154140:
                      0,154214..154300: 2, 154358..154584: 2]"
                      /note="/source=prediction"
                      /translation="MGTLQDRVIIVTGAASGIGLATAKLALKEGAKVLGVDVAAPPASL
@@ -220,16 +229,17 @@ FEATURES             Location/Qualifiers
                      RCMAVNVTAPVKLMREVIPIMRAQKQGAIINMSSRAGLSGAAAGVAYTASKHAIIGVTK
                      NVSWRFRDESIRCNVVCPGGVATDFINSVDSSLFDFEALSKIRPVIDAVYKNRNEDFAG
                      MTPEELAHTLIFLAGDGSRRITGAVLSIDDGWSTI"
+                     /Pfam="adh_short"
      CDS             join(23720..23947,24023..24139,24201..24303,24365..24433,
                      24493..25095,25165..25586)
                      /codon_start=1
                      /product="cytochrome P450 monooxygenase SetJ"
-                     /label=setJ
-                     /label=jgi.p|Aspdur1|264606
+                     /label="setJ"
+                     /label="jgi.p|Aspdur1|264606"
                      /note="/ID=CDS_6908"
                      /note="/Parent=mRNA_6908"
-                     /note="/frame=[complement(151136..151557): 2, 
-                     complement(151627..152229): 2,complement(152289..152357): 
+                     /note="/frame=[complement(151136..151557): 2,
+                     complement(151627..152229): 2,complement(152289..152357):
                      2,complement(152419..152521): 0,complement(152583..152699):
                      0,complement(152775..153002): 0]"
                      /note="/source=prediction"
@@ -242,11 +252,12 @@ FEATURES             Location/Qualifiers
                      VKQQYPWNKAAIFNLKLMDSVMKESQRLKPTGIVTMRRGADTTIELPDGLTVQKGDLVM
                      VSTDNHRNPEIYPNPDEFDPYRFCKMLERPDQEKAAHLVSTSENHLGFGHGTWACSGRF
                      FAAAETKVALCHVLMKYDLRLIDDAPPAVVWNGSFTSANPLGKIAIRRRQEEMTL"
+                     /Pfam="p450"
      CDS             25997..26890
                      /codon_start=1
                      /product="2OG-Fe(II)-dependent dioxygenase SetK"
-                     /label=setK
-                     /label=jgi.p|Aspdur1|264605
+                     /label="setK"
+                     /label="jgi.p|Aspdur1|264605"
                      /note="/ID=CDS_6907"
                      /note="/Parent=mRNA_6907"
                      /note="/frame=[complement(149832..150725): 0]"
@@ -257,6 +268,7 @@ FEATURES             Location/Qualifiers
                      TEFREDNGATRVVPGSHLWDATHPRPSPEQAIPAFLQPGDAVIFFGSLFHAAGENQSPD
                      HRRGMLVSMHPCHFTPMESHLHVPREIIETMTPLAQKMVGWRSLDSQNHVPIWMAGDRR
                      MEKVMGLKSKEIQGSM"
+                     /Pfam="PhyH"
 ORIGIN
         1 ctactgcttc atggcaaaaa tcaacctaaa aacatctgat tccctcgatt catcgtccgt
        61 ccaatcaaca tgtgcaaatc cagctctttg caagcaatcc ttccactgtc gttcatccac

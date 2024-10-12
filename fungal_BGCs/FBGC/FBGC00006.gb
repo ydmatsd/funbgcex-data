@@ -1,29 +1,29 @@
-LOCUS       FBGC00006       30932 bp DNA     linear   UNA 13-JAN-2023
+LOCUS       FBGC00006              30932 bp    DNA     linear   UNA 13-JAN-2023
 DEFINITION  anditomin.
 ACCESSION   FBGC00006
-VERSION     .
+VERSION     FBGC00006
 KEYWORDS    .
 SOURCE      Emericella variecolor NBRC 32302
   ORGANISM  Emericella variecolor NBRC 32302
+            .
 REFERENCE   1  (bases 1 to 30932)
   AUTHORS   Matsuda Y, Wakimoto T, Mori T, Awakawa T, Abe I.
-  TITLE     Complete biosynthetic pathway of anditomin: nature's sophisticated 
+  TITLE     Complete biosynthetic pathway of anditomin: nature's sophisticated
             synthetic route to a complex fungal meroterpenoid.
   JOURNAL   J Am Chem Soc 2014;136:15326-36
-  PUBMED    25216349
+   PUBMED   25216349
 REFERENCE   2  (bases 1 to 30932)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Jan 13, 2023 from SnapGene 6.2.0
-            https://www.snapgene.com
+  JOURNAL   Exported Jan 13, 2023 from SnapGene 6.2.0 https://www.snapgene.com
 COMMENT     SGRef: number: 1; type: "Journal Article"; doi: "10.1021/ja508127q";
-            journalName: "J Am Chem Soc"; date: "2014"; volume: "136"; pages: 
+            journalName: "J Am Chem Soc"; date: "2014"; volume: "136"; pages:
             "15326-36"
 FEATURES             Location/Qualifiers
      source          1..30932
                      /strain="NBRC 32302"
                      /mol_type="genomic DNA"
-                     /label=type strain of Emericella variecolor
+                     /label="type strain of Emericella variecolor"
                      /note="type strain of Emericella variecolor"
                      /db_xref="taxon:1549217"
                      /culture_collection="NBRC:32302"
@@ -31,7 +31,7 @@ FEATURES             Location/Qualifiers
      CDS             complement(1..882)
                      /codon_start=1
                      /product="2OG-Fe(II)-dependent dioxygenase AndA"
-                     /label=andA
+                     /label="andA"
                      /note="2OG-Fe(II)-dependent dioxygenase"
                      /protein_id="BAP81855.1"
                      /translation="MTIESKNYPPIRRVNASQGSDAAYQILQEDGCVIVEQVICPNIIA
@@ -40,10 +40,11 @@ FEATURES             Location/Qualifiers
                      NEFRHDNGGTLLLPKSHTGPNADFYANAEDLPAAEMQVGDALIFTGKCVHGGGANRSDK
                      PRIGLALAAQPGYLTPRESNVNVPRDIVETMTPLAQRMIGWGTVRTKDTYGLNMLQDKD
                      FHEALGLKSKTA"
+                     /Pfam="PhyH"
      CDS             join(1620..2122,2194..2401)
                      /codon_start=1
                      /product="terpene cyclase AndB"
-                     /label=andB
+                     /label="andB"
                      /note="terpene cyclase"
                      /protein_id="BAP81856.1"
                      /translation="MQPITQIPLTFDTVVNLLGSASGIGWILNYILMTYYSFRDKTYSM
@@ -51,10 +52,11 @@ FEATURES             Location/Qualifiers
                      RHLPLLFTVGIAACTGFHIALIRKFDPATAFLWSARSCQVLLSIGGLFQLLCRSSTKGG
                      SYVLWLSRFLGSICGVLKMTLMWKYGESRFPWLDDPLTAYCIALWIISDVLYGVVFYSL
                      RSKELAGAGKAKAI"
+                     /Pfam="Pyr4"
      CDS             join(2907..2927,2987..3425,3481..3558,3626..3846)
                      /codon_start=1
                      /product="short-chain dehydrogenase/reductase AndC"
-                     /label=andC
+                     /label="andC"
                      /note="short-chain dehydrogenase/reductase"
                      /protein_id="BAP81857.1"
                      /translation="MGFLQDKVVIITGAAAGIGLATATAALDEGARVFGIDLAPAPTSL
@@ -62,10 +64,11 @@ FEATURES             Location/Qualifiers
                      RCLAVNLAAPVKLMREVIPIMREAGKGSIVNTSSKAGLSGASSGVAYTASKHGLIGVTK
                      NVAWRFKTEGIRCNAISVATEMGMTGDFSLWDQAAMEAMRPIHAAHMDMGIGATIKAEE
                      VAQTLLFLVSDLSRRVNGAVIPVDDAWSTI"
+                     /Pfam="adh_short_C2"
      CDS             complement(4049..5032)
                      /codon_start=1
                      /product="UbiA-like prenyltransferase AndD"
-                     /label=andD
+                     /label="andD"
                      /note="prenyltransferase"
                      /protein_id="BAP81858.1"
                      /translation="MSATTTEAKQTFLCKERLPRRYHPPSKVLSRLPTSFLPYGELLRL
@@ -74,11 +77,12 @@ FEATURES             Location/Qualifiers
                      YPYGKRHSNYPQLILGTIGWAIPMTMHGLNLRPLDHPIPMAAMFAFIALVTIMNDIIYA
                      RQDIEEDIKAGVGSMAVRFQHCLDALTFALVFASSAALVIAGKLGNMGAPFFTISVGGH
                      FGFFLFLAMANQRDPKSGVEWAAKRCCTSATFLLIVGMVVDLVWRS"
+                     /Pfam="UbiA_PT"
      CDS             complement(join(5231..5710,5760..6130,6182..6453,
                      6502..6794))
                      /codon_start=1
                      /product="FAD-dependent monooxygenase AndE"
-                     /label=andE
+                     /label="andE"
                      /note="FAD-dependent monooxygenase"
                      /protein_id="BAP81859.1"
                      /translation="MEQQSLKVVIVGGSIAGLTLAHCLHRANIDHVVLEKRAEIAPQEG
@@ -90,10 +94,11 @@ FEATURES             Location/Qualifiers
                      SEGPGRPSSARIQRLLHDYQACRYERAEMIYHRSRFGARFQSRDDAVKLIVGRYVVPRI
                      RNRLANISSMLIANGEIIQYLPFPKRSGPGWEKFRNKGEWMPYTPFALFSAILLVQHVV
                      PLLGLTSPLLLAS"
+                     /Pfam="FAD_binding_3"
      CDS             9134..9991
                      /codon_start=1
                      /product="2OG-Fe(II)-dependent dioxygenase AndF"
-                     /label=andF
+                     /label="andF"
                      /note="2OG-Fe(II)-dependent dioxygenase"
                      /protein_id="BAP81860.1"
                      /translation="MTVPQLHYVPYDTPVEDVMRILEECGTLVIRNFLDQKTVQNVQNE
@@ -102,10 +107,11 @@ FEATURES             Location/Qualifiers
                      GTRVCPGSHLWENGHAPPAEEDMVPALMQPGDALILPGSMWHSAGANRSSEYRRGFAAS
                      FHPCHFTPIESHHHLPREMVEEMSPLVQKMLGFRTLNLHNNVKVWKAGEGNLEDATGLK
                      SIAV"
+                     /Pfam="PhyH"
      CDS             complement(10818..12263)
                      /codon_start=1
                      /product="acetyltransferase AndG"
-                     /label=andG
+                     /label="andG"
                      /note="acetyltransferase"
                      /protein_id="BAP81861.1"
                      /translation="MPGFQSLRLDVLSPVDHSFPDYNPCYYLYFRSPSASDVRTSLQRG
@@ -117,10 +123,11 @@ FEATURES             Location/Qualifiers
                      VAHRLVAENPKILPAASDIARLYRNACSIRHTISQISDVHIRGFVSWLNSCKDLGPLTT
                      PFPFINFTSWRHLNLYELDFGGALGYVDDIQTHGMMPTLGIILPRAKAVQGTEAHWDVL
                      FYVKNEDYPAVMKQGLLRFLTVD"
+                     /Pfam="Transferase"
      CDS             join(12653..13004,13054..13715)
                      /codon_start=1
                      /product="short-chain dehydrogenase/reductase AndH"
-                     /label=andH
+                     /label="andH"
                      /note="short-chain dehydrogenase/reductase"
                      /protein_id="BAP81862.1"
                      /translation="MPSLSQIRQANELLEDSHSEIVAAFVGGTSGVGEEAAKRLASCVR
@@ -129,10 +136,11 @@ FEATURES             Location/Qualifiers
                      IELETDNLDLTKPRTAIYSTRHAATMTSLSMEHLATVYRSISFVHIYPGMVKTPLLDKG
                      LGRFLARIAWILYWPFSITLEQSGQYNVYMATSAAYPPLSPENQQGAGASLAEGGEICI
                      GSTGKVGAGSYILNYDGANRTNVKLMEGYRVRDYAQHIWTHTLSTFQTVTGSAEPA"
+                     /Pfam="SmbD"
      CDS             join(14776..14797,14846..15696)
                      /codon_start=1
                      /product="short-chain dehydrogenase/reductase AndI"
-                     /label=andI
+                     /label="andI"
                      /note="short-chain dehydrogenase/reductase"
                      /protein_id="BAP81863.1"
                      /translation="MEKAVSQFKDFVQSQHHDSYAAIQQADHRGHVVAITGASSGIGKA
@@ -141,10 +149,11 @@ FEATURES             Location/Qualifiers
                      KQKTIVNIGSMGVVSPVANLSAYLPSKLALIQFTNIVALEYSSQGLVAFTAYPGDVATE
                      LTGSFPEAMSPYFVDTPELPGDSIAWLTQRRLEWLSGRFVSLRWDLPELVSRQSEIVEG
                      DKLRVTMRV"
+                     /Pfam="adh_short"
      CDS             complement(15781..17682)
                      /codon_start=1
                      /product="FAD-dependent monooxygenase AndJ"
-                     /label=andJ
+                     /label="andJ"
                      /note="FAD-dependent monooxygenase"
                      /protein_id="BAP81864.1"
                      /translation="MAPAIQANSNGTMNVNGKCRDGHTAEQRNVMDDALPIEITVEERG
@@ -158,11 +167,12 @@ FEATURES             Location/Qualifiers
                      TGYTSPKDRSSPGSRANIAITGRGGLEMERKWESGLSTLHGVMTRDFPNLFFPGPAQSG
                      VCTNQTYTLDQLARHVAYIMARGIQQCNGQAMVVEPSEEAERAWADQVVQRAGDSLTAF
                      AACTSTSLFSAAKMTKDQIMNAARLTTWREGIASYVIELEAWRSEGTLQGLEIKRLA"
+                     /Pfam="FMO-like"
      CDS             join(18186..18476,18531..18896,18958..19166,19220..19673,
                      19736..19825,19878..20068,20125..21121)
                      /codon_start=1
                      /product="cytochrome P450 monooxygenase/hydrolase AndK"
-                     /label=andK
+                     /label="andK"
                      /note="cytochrome P450 monooxygenase/hydrolase"
                      /protein_id="BAP81865.1"
                      /translation="MMPTVTAVSAILPLAILFVFSRALWKLWYLSDIPGPFWCKLTNIP
@@ -180,11 +190,12 @@ FEATURES             Location/Qualifiers
                      VGPFDGVDYFGDGSFYLLNAPGHSVGHMCGLARVTTAPDTFIFMAADGCHHPGAIRPSE
                      YMALPRDIPKSLVRKLRTAEADSGGKAQDGDTKPLLPFLPALFPDYTQAMETVEKIKQL
                      DACDNVFVILPHDGSLLGAIDFFPRPINDWKKKGLKESTRWKFCQEMEEALSG"
+                     /Pfam="p450, Lactamase_B"
      CDS             complement(join(21200..21256,21304..21448,21503..21697,
                      21751..21887))
                      /codon_start=1
                      /product="hypothetical protein AndL"
-                     /label=andL
+                     /label="andL"
                      /note="hypothetical protein, similar to Aspergillus
                      fumigatus Af293 AFUA_3G02140"
                      /protein_id="BAP81866.1"
@@ -192,11 +203,12 @@ FEATURES             Location/Qualifiers
                      IIAQAFTSVVNSFVSDIVLPLVSLLPFIMRNMDEKFAILSKGPHYQEGYNTIEQARDDG
                      ALVLAYGVFLEKIVNFLGISLTLYTLAQLYMVFSKRKIIKRTVKCKYCRKWISERALRC
                      VNCSSWQDGREDVQ"
+                     /Pfam="MscL"
      CDS             join(23434..24012,24069..25151,25204..25579,25630..29979,
                      30028..30932)
                      /codon_start=1
                      /product="polyketide synthase AndM"
-                     /label=andM
+                     /label="andM"
                      /note="polyketide synthase"
                      /protein_id="BAP81867.1"
                      /translation="MEASQGIAVLFGPQSADIEEAVSCIQAFVRENPSATYLIDIIQSL
@@ -241,6 +253,8 @@ FEATURES             Location/Qualifiers
                      PRSKRALGGWMSTTDPRSRIALHMNWKGQTLPVLLNAAKTAPGEMLLDPTKEDIVRVCP
                      TSQASAGNYRSPTFIIHGSLDDLIPMSQVRHTAKVMKANGVDVHLRELEGSIHLFDIAS
                      TYGDKPDEVQAVADGIQFLKDRVQC"
+                     /Pfam="SAT2, PKS_KS, PKS_AT, fPKS_PT, ACP_PCP, HTH_51,
+                     PKS_NRPS_MT, BD-FAE, Abhydrolase_6"
 ORIGIN
         1 ttaagcagtc ttagacttca gacccaaagc ttcgtgaaag tccttatcct gcaacatatt
        61 cagaccgtag gtgtccttgg tccggacagt accccaaccg atcatcctct gcgccagggg

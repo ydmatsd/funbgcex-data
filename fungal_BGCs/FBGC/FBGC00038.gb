@@ -1,24 +1,24 @@
-LOCUS       FBGC00038       37545 bp DNA     linear   UNA 08-MAY-2023
+LOCUS       FBGC00038              37545 bp    DNA     linear   UNA 02-MAR-2024
 DEFINITION  unguisin A.
 ACCESSION   FBGC00038
-VERSION     .
+VERSION     FBGC00038
 KEYWORDS    .
 SOURCE      Aspergillus violaceofuscus CBS 115571
   ORGANISM  Aspergillus violaceofuscus CBS 115571
+            .
 REFERENCE   1  (bases 1 to 37545)
   AUTHORS   Wei X, Chan TK, Kong CTD, Matsuda Y.
-  TITLE     Biosynthetic Characterization, Heterologous Production, and 
+  TITLE     Biosynthetic Characterization, Heterologous Production, and
             Genomics-Guided Discovery of GABA-Containing Fungal Heptapeptides.
-  JOURNAL   J Nat Prod 2023
-  PUBMED    36715406
+  JOURNAL   J Nat Prod 2023;86:416-422
+   PUBMED   36715406
 REFERENCE   2  (bases 1 to 37545)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported May 8, 2023 from SnapGene 6.2.2
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1021/acs.jnatprod.2c01065"; journalName: "J Nat Prod"; date: 
-            "2023"
+  JOURNAL   Exported Mar 2, 2024 from SnapGene 7.1.1 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1021/acs.jnatprod.2c01065"; journalName: "J Nat Prod"; date:
+            "2023"; volume: "86"; pages: "416-422"
 FEATURES             Location/Qualifiers
      source          1..37545
                      /mol_type="genomic DNA"
@@ -28,9 +28,9 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="BO99DRAFT_368823"
                      /product="nonribosomal peptide synthetase UngA"
-                     /label=ungA
-                     /note="GO_function: GO:3824; cofactor binding - catalytic 
-                     activity [GO Ref 48037];GO_process: GO:8152 - metabolic 
+                     /label="ungA"
+                     /note="GO_function: GO:3824; cofactor binding - catalytic
+                     activity [GO Ref 48037];GO_process: GO:8152 - metabolic
                      process"
                      /db_xref="InterPro:IPR000873"
                      /db_xref="InterPro:IPR001242"
@@ -202,11 +202,12 @@ FEATURES             Location/Qualifiers
                      PTALQTVAGPCVNTIPVRLRVEPEQSLTQQLATVHAQHIHSLPFETSQFSEIAAHCTDW
                      PGDARAPGLVVQFQNLDNLEHDPGTAMHDTTEGGGTLAAYERPAAERLVDSDFLFILAK
                      PVRDAWELSVAASDKLHTQATLDAVLEALCWQVEMVARGD"
+                     /Pfam="AA-adenyl-dom, ACP_PCP, NRPS_C, NRPS_E, NRPS_CT"
      CDS             join(30801..30887,30964..31343,31435..31861,31923..32672)
                      /codon_start=1
                      /locus_tag="BO99DRAFT_343333"
                      /product="major facilitator superfamily transporter UngB"
-                     /label=ungB
+                     /label="ungB"
                      /db_xref="InterPro:IPR011701"
                      /db_xref="JGIDB:Aspvio1_343333"
                      /protein_id="PYI15150.1"
@@ -220,12 +221,13 @@ FEATURES             Location/Qualifiers
                      PGDVVMAIATLCFLQMLSSSIALTLAQTVFHSRLVTNLAHRAPSVDSALVEQGATRLRD
                      RVPADLLPSVVGAYSQAVSETFYVGVAMCALSLLGSASMQWKRVPGHKEATEKVEGEGQ
                      GQGQQQEQDQGQGWGEVGESHALAHPTADK"
+                     /Pfam="MFS_1"
      CDS             join(33476..33649,33743..34731,34855..35452)
                      /codon_start=1
                      /locus_tag="BO99DRAFT_416191"
                      /product="alanine racemase UngC"
-                     /label=ungC
-                     /note="GO_function: GO:30170 - pyridoxal 
+                     /label="ungC"
+                     /note="GO_function: GO:30170 - pyridoxal
                      phosphatebinding;GO_process: GO:6520 - amino acid metabolic
                      process"
                      /db_xref="InterPro:IPR000277"
@@ -242,13 +244,14 @@ FEATURES             Location/Qualifiers
                      RLLYPSRCTSRGYYEGQMRWSSSSSPGAESRPRPGYGGVFSMEFADCGCAAAFFDHLEV
                      YKGLSFGADVCIAAAYVQMTGRQNAPGTAHETLIRFSVGLEPAEEMLLRVETALEAAGR
                      VFLAQGSRKP"
+                     /Pfam="Cys_Met_Meta_PP"
      CDS             complement(join(35614..36142,36304..37343,37411..37545))
                      /codon_start=1
                      /locus_tag="BO99DRAFT_296222"
                      /product="metallo-beta-lactamase-like hydrolase UngD"
-                     /label=ungD
-                     /note="GO_function: GO:8800 - beta-lactamase activity; 
-                     GO_process: GO:30655; response to antibiotic - beta-lactam 
+                     /label="ungD"
+                     /note="GO_function: GO:8800 - beta-lactamase activity;
+                     GO_process: GO:30655; response to antibiotic - beta-lactam
                      antibiotic catabolic process [GO Ref 46677]"
                      /db_xref="InterPro:IPR001466"
                      /db_xref="JGIDB:Aspvio1_296222"
@@ -263,6 +266,7 @@ FEATURES             Location/Qualifiers
                      MDAYNANAVSYFYPTLPDPPRPGPTLPLAAYAGLYWHDGYGALELVLDAADGKLHATRT
                      QAQYTTACALTFEHISGDFFTATVAVVGAQTVVPAEFALSPAGVPRAIGIGWEPHLGTE
                      KRTWMRRVGADEAGRLLRGDQSHPHHAEAYVSYQREEAQLPEFLTSHLFV"
+                     /Pfam="Beta-lactamase, DUF3471"
 ORIGIN
         1 tcaatcccct cgcgccacca tctccacctg ccaacacagc gcctcgagca ccgcatccag
        61 cgtcgcctgg gtatgcagct tgtcgctggc cgccacggac agctcccagg cgtcgcgcac

@@ -1,23 +1,23 @@
-LOCUS       FBGC00029       43605 bp DNA     linear   UNA 14-JAN-2023
+LOCUS       FBGC00029              43605 bp    DNA     linear   UNA 14-JAN-2023
 DEFINITION  dicerandrols.
 ACCESSION   FBGC00029
-VERSION     .
+VERSION     FBGC00029
 KEYWORDS    .
 SOURCE      Diaporthe longicolla TWH P74
   ORGANISM  Diaporthe longicolla TWH P74
+            .
 REFERENCE   1  (bases 1 to 43605)
   AUTHORS   Yang J, Mori T, Wei X, Matsuda Y, Abe I.
-  TITLE     Structural Basis for Isomerization Reactions in Fungal 
+  TITLE     Structural Basis for Isomerization Reactions in Fungal
             Tetrahydroxanthone Biosynthesis and Diversification.
   JOURNAL   Angew Chem Int Ed Engl 2021;60:19458-19465
-  PUBMED    34180120
+   PUBMED   34180120
 REFERENCE   2  (bases 1 to 43605)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Jan 14, 2023 from SnapGene 6.2.0
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1002/anie.202107884"; journalName: "Angew Chem Int Ed Engl"; 
+  JOURNAL   Exported Jan 14, 2023 from SnapGene 6.2.0 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1002/anie.202107884"; journalName: "Angew Chem Int Ed Engl";
             date: "2021"; volume: "60"; pages: "19458-19465"
 FEATURES             Location/Qualifiers
      source          1..43605
@@ -26,17 +26,18 @@ FEATURES             Location/Qualifiers
      CDS             101..1033
                      /codon_start=1
                      /product="short-chain dehydrogenase/reductase Dcr1"
-                     /label=dcr1
+                     /label="dcr1"
                      /translation="MASFSSWPRPTKTYHTKTYDRIAHHHGFDGKGKTIVITGGASGVG
                      LSISKAFAAAGAARLVIVSRSPGPQEKAKADLEAAFPSLEVTMVRASITDLANGGRGGQ
                      QQQDALLAQILRGGPGGDTADVLILCAGNVPSRAAAVDADTSEVREAFDTNAVAAFGLV
                      RAYLSPETPNPPGGCKTVLNVSSAAALVQGTLRVGYGSSKAAGAQVMQHFAFEHMQQAG
                      RGDAGRVKVISFHPGSFYTPSVAALYAEDHFQWDDISLPADFSLWLAGPESGFLNGRYV
                      WAHWDVDELMALKERVINDPKYLTIGLIM"
+                     /Pfam="adh_short"
      CDS             complement(join(1469..1692,1837..2972,3105..3310))
                      /codon_start=1
                      /product="cytochrome P450 monooxygenase Dcr2"
-                     /label=dcr2
+                     /label="dcr2"
                      /translation="MDFTHSNNTSIGDAESYMTPVTLSLGLVLATVLTVAYKSYASKVD
                      RRSPEFATDTVPLYGAFNFYAKPWEWWQTAIKNSRTGNFSFWIGKHHIIGLSGEAGRKM
                      FMDMHDDKFDSNNPQVLRPLGPYFMPPVPEIFHPGFHNGRNYFVRRLTELQKTERLTRY
@@ -47,17 +48,19 @@ FEATURES             Location/Qualifiers
                      DQVIPPGSFVALNTMEVHFNPDLYENPGKYDPERWLEGRDHSKGQIYGFLGWGGGSHPC
                      MGMRWAKIQQNIMIAYALAMYEWKSCDANGVVNATIEHTKDLESVQPTLTPNVHARFIP
                      RNKL"
+                     /Pfam="p450"
      CDS             complement(join(3862..4113,4189..4395))
                      /codon_start=1
                      /product="isomerase Dcr3"
-                     /label=dcr3
+                     /label="dcr3"
                      /translation="MPAPAHVQRATIDAFLDGWDKWTPEAFLATWSEDCTQKTLPYSHN
                      VPIRDRANTNHLFPILMSIMDNFQLKTHNIVHDAAENKAAVYCSTTADTPFGPYTNEHA
                      IFLWFNEAGDKIVKIEEMFDQFTMKDFAPQLEKYAQFIDKKNARASKA"
+                     /Pfam="Trt14"
      CDS             5198..6910
                      /codon_start=1
                      /product="FAD-dependent monooxygenase Dcr4"
-                     /label=dcr4
+                     /label="dcr4"
                      /translation="MAPNTYEERFGVDLVGDENEFDPARWNMPEHKAGLPKRHPETGLD
                      VLVVGGGMGGLMTALECWRKGHTVVGILERSKSPVYSGMALVRPDKPLYGWLVTDDITQ
                      PGDIIAIMPSVTSILRHWPDMQSDLQHDQVHVDLNYETHTGEHIFGPTTPSFNDPEHLA
@@ -68,29 +71,32 @@ FEATURES             Location/Qualifiers
                      DLRREWVSAGGHVVQVGDSAHTFTPTSGNGATQAIEDAITLATCLQLGAGQGGSSVLST
                      RIYNLLRYDRVNCAQKMSFVNAELKTETDWDAIWRGPAKIRTRFPVWVFNHDPEAYAYE
                      KYGQAFAHLVAGAEFQNTNVPTGHSSQPWTIDQLYQDIANGKRMEDLLDGDWS"
+                     /Pfam="FAD_binding_2, FAD_binding_3"
      CDS             complement(join(7325..7944,8053..8419))
                      /codon_start=1
                      /product="short-chain dehydrogenase/reductase Dcr5"
-                     /label=dcr5
+                     /label="dcr5"
                      /translation="MGNFIYSQLVKSYGLPYPNTHNFKGKTIVITGGNSGLGKEAARHY
                      ARLGASRLILAVRDLDKGHSAKHDIEATTRCAEGTIQVWKLDLGSYTSVQKFASRVRDE
                      LDRVDIFHANAGVARKEYGMVEGNEEMITVNVVSTFLLVALIVPVLKATAAKFHIRPTL
                      SISTSGTHGHTKFPQNAAPEGGIFDAVNDKATAEKHWDEQYPVSKLLGVFAVRSIAERN
                      PSSEFPITINLVDPGLCHSDLGRDYPTWGFFFIKLVLARSTEVGSRTLVHAGSAGRESH
                      GQYLEDCEMSQPAPLVTSPKGKEDQDRVWKELVVKLERIQPGVTANL"
+                     /Pfam="adh_short"
      CDS             8998..9795
                      /codon_start=1
                      /product="short-chain dehydrogenase/reductase Dcr6"
-                     /label=dcr6
+                     /label="dcr6"
                      /translation="MSTYAVLGGTGNCGSALLRNLMQQSSENKIHVYCRNEAKLRRTIP
                      EIEATKQVKVFAGSIYDVELMRDCLRGTRAAFLVVTTNDNVPGCRLSQDLARGVVAALE
                      SFKATEGPGMKLPRLVLLSSATIDDHLARHMPGWFRPIMLAAASHVYEDLRKTEVYLRA
                      QSDWLSTIFIKPAGLSPDVSRGHRLTLDEEESFISYADLAWGMIEAAEDDEGRYDGKNL
                      GVVNKTRGVGAKFPRGTPMCILMGLVRHFCPWMHPYLPTTGPA"
+                     /Pfam="NAD_binding_10"
      CDS             complement(10292..11653)
                      /codon_start=1
                      /product="dioxygenase Dcr7"
-                     /label=dcr7
+                     /label="dcr7"
                      /translation="MSTTSPIRLDPAHLGMVRAATYIAPGALEECNRLLHENHETYHMF
                      FRDTAGHNHIVHSLLTVLALGASPQELRDRYDDGTPIQRPIPEIDHDLVEGLYDPGVFA
                      ETIGEITQYHTFLEFFKRKIDAEGYQAVVNEYVFSRTSIADNMLARMYEGAYHPIIHLG
@@ -99,10 +105,11 @@ FEATURES             Location/Qualifiers
                      FAGAAQREGRPRKIDFFYMHNVTSSIFFTVLARQQWIRLEDRIRLVEWKARLDLAWYAV
                      SGCAALDADTVSSYSSPESDGMGWEELFAAVNKEHDDGHAAKFIRALKSAEICTAEYEQ
                      DWDETYFPMRGDMFLKLARMCQDTTKNMDVDLKWVFFTGFEQPWGRPDLQPKKQ"
+                     /Pfam="Questin_oxidase"
      CDS             complement(join(12281..12571,12667..14649))
                      /codon_start=1
                      /product="AMP-binding protein Dcr8"
-                     /label=dcr8
+                     /label="dcr8"
                      /translation="MSLYVYFGLVLFIVTLIRKMRKATPVPKKDGVGDHEKGPIQSAEI
                      HGAAWEAKSVFEHIERGMTENEEAIAVVSLFQPANHLESLGIKTPIAKHDSSLLRAVEQ
                      AVGSNGLWQKKPDQLHERWIQDNQKEGNDFRSGISKEYSRNGNSPNGHMHAPNDYHNGH
@@ -117,44 +124,49 @@ FEATURES             Location/Qualifiers
                      DIIRRAGTPIMAAPVESLIEEFTGAQVIAYQTVVVPTGHHVLGAEPFAVIASYNGKSES
                      SIKERVRAVFGKDCALGGVASLKQLGLEQFPLNATHKVVKSKVLETVDSHVKALWKESQ
                      YQQG"
+                     /Pfam="AA-adenyl-dom"
      CDS             complement(join(15134..15376,15457..15663))
                      /codon_start=1
                      /product="isomerase Dcr9"
-                     /label=dcr9
+                     /label="dcr9"
                      /translation="MAAPGDVQAATLEKFLEAWKNGKAEDTMSFWSDDFKQRLLPLSLG
                      QQTASRAQAELIYPKLVGALTNWKLDVREIVHDVARGTAAVYATSQADTPLPGEKWTNE
                      YTIFISFTEDGTKVSRLEEMVDSAFYRDFFPKMQQYFTQGGVSHG"
+                     /Pfam="Trt14"
      CDS             complement(join(16366..16549,16603..16799,16865..17044))
                      /codon_start=1
                      /product="decarboxylase Dcr10"
-                     /label=dcr10
+                     /label="dcr10"
                      /translation="MEPQTPQQSDAIDRKCLCLTICGYRKPGMSEADYRNHMVNVSAPM
                      TKGLMVRYGIQRWTQIHNQSAARALMSQLFDPQMAKVADFDCFSQVIFKDIEDYKRFKQ
                      DPWYKEHLMGDHENFADTKKSMMTIGWVEEFIRDGEVVDGFQVSQKGGSPTRDTSWILA
                      GGILLATVTCAASVAFSWKRFGR"
+                     /Pfam="EthD"
      CDS             join(17348..17438,17511..17944)
                      /codon_start=1
                      /product="anthrone oxygenase Dcr11"
-                     /label=dcr11
+                     /label="dcr11"
                      /translation="MAAKHELDRGPASPQISVPALAVVSGSFLSGAMMSLSAFAVPVLL
                      DTMRDPHHMAAQWARLYHYGHIYLPGLCVATCGLYGLASYNRRQGPRRRASFRYALAAV
                      STIAMVPFTWVVMTPTNNLLFSLAAADPALDQGQARGLVVRWAWMHVARSLTPLLGAFL
                      GFSTILQEIRA"
+                     /Pfam="Anthrone_oxy"
      CDS             complement(join(18666..19475,19531..19692))
                      /codon_start=1
                      /product="metallo-beta-lactamase-like thioesterase Dcr11"
-                     /label=dcr12
+                     /label="dcr12"
                      /translation="MAPGVGGYKQINKALNICAFEDYLEGQQTCLAKLLDVEQLSPRVI
                      RVLGQNPGKFTLQGTNTYIIGTGKDRLIVDTGQGIPEWADLISETLSAGGITLSHVLLT
                      HWHGDHTGGVPDLIRMYPALSPSIYKHTPSKTQQPIVDGQVFKVEGATVRAVHSPGHSH
                      DHMCFILEEEDAMFTGDNVLGHGTAAVEHLSTWMEALRRMRSHDCTKGYPAHGAVIANL
                      RAKIDGELTGKVRRERQALQALEKAQRAAGTRTKAKLTVKELVTTVYGGQMKSELRELA
                      LEPFMDEVLRKLAEDGMVGFDLRGGVKRWFAIGQPEPRASTM"
+                     /Pfam="Lactamase_B"
      CDS             join(20445..20821,20931..21237,21305..22408,22462..24858,
                      24936..26246)
                      /codon_start=1
                      /product="polyketide synthase Dcr13"
-                     /label=dcr13
+                     /label="dcr13"
                      /translation="MEEFAISSTIDSSRTPSTAESLVDIPKMKLVYFGNEFPRDDLQDL
                      FRRLYHQSQDRKHPILAHFIQEATLAVREEVRCLPATLKSLVPPFDTIFDLADHPDLRK
                      SPLGGSVDGMLLCAVQLAALIGYYENTPGDYYNWHTAGTCLTGLGTGLLSTAAVALSPT
@@ -187,26 +199,29 @@ FEATURES             Location/Qualifiers
                      SPPVVATITKVAPELRADSPPAPAPIVARAKPEESKDREAAKTAPAPATAPAAAADNPD
                      SIAVKALALVAAEAALEPADLQDGVSFGDLGVDSLMSLVIAEKLREELNVTVSGSLFLE
                      YPTVGDLRAWLVEYYG"
+                     /Pfam="SAT2, PKS_KS, PKS_AT, fPKS_PT, ACP_PCP"
      CDS             complement(join(26803..27153,27231..27328,27394..27430))
                      /codon_start=1
                      /product="dehydratase Dcr14"
-                     /label=dcr14
+                     /label="dcr14"
                      /translation="MANSTFDQPIYEDVAGCQAAVFEWAESFDTKDWDRLSKCIAPTLY
                      IDYRQVMGQIWEAMPAEEFVGMASNARFLGNARIKTQHFIGASKYLKTGNDEITGYHQM
                      RVAHQKYKDDELSEVLYQGHAHGKATIQYRRVDGAWKFAGLTPDIRWAEHDYDKIFQ"
+                     /Pfam="Scytalone_dh"
      CDS             27965..28762
                      /codon_start=1
                      /product="short-chain dehydrogenase/reductase Dcr15"
-                     /label=dcr15
+                     /label="dcr15"
                      /translation="MTQIPHTPGRLDGKVALVTGSGRGIGAAIAVHLGKLGAKVVVNYA
                      NSAEHAEKVVSQIKELGSDAVAFKADVRDVSQTVKLFDDAVSHFGRLDIAVSNSGVVSF
                      GHLKDVTEEEFDRVFSLNTRGQFFVAREAYRHLAEGGRIVLTSSNTSKDFSVPCHSLYS
                      GSKGAIDSFVRIFSKDCGDKKITVNAVAPGGTVTDMFHDVSHHYIPGGEKYTAEERQQM
                      AAHASPLHRNGFPEDIAKVVGFLVSDDGEWVNGKVITLDGGAA"
+                     /Pfam="adh_short_C2"
      CDS             join(29896..30111,30181..30885,30984..31251,31325..31602)
                      /codon_start=1
                      /product="acetyltransferase Dcr16"
-                     /label=dcr16
+                     /label="dcr16"
                      /translation="MFWEAKIRPAKVASDEVVDLPYFDDTFFLETFVLHSMLVFDHVLD
                      AQKLHGALERLARQDGWRKLAARLRKKESGGVEYHIPTEFSEKRPAISYTHLDHRTPIG
                      EHPLASRLPKPAKAPGIVGVAEDFKPLYLGPNSPESFDDYAYQDRSVLGLHTISFSDAT
@@ -216,10 +231,11 @@ FEATURES             Location/Qualifiers
                      VLLPLREVAGRPLSYTAQATRRAIKEQTTREQIEAHCALVRENEPMKIPPMFGDSSIAV
                      IVHMINFSNWAKADFYHFDFSAASVSGAKGKVTARYIQNTQGPMKFAEIFVIVGKDTLG
                      NYWVSSTRTLQRWSAVDRALARGDFIRGAL"
+                     /Pfam="CalD"
      CDS             join(32040..32298,32411..32982,33167..33931)
                      /codon_start=1
                      /product="transcriptional coactivator Dcr17"
-                     /label=dcr17
+                     /label="dcr17"
                      /translation="MDRLAQLEARTTQLSAAVQNLAGHGRNLDSSRVQGCAVLDPETCK
                      ELDKAKSSILASLADIKRLVAGXXXXXXXGTCRLASASRQSGANSCVLYGTSTNDMAQS
                      QVQVLACLQWLADFQILACIPLDTSVPIRDLVDLAGVPEGQLARVIRLTAAVGFLKEPA
@@ -230,12 +246,13 @@ FEATURES             Location/Qualifiers
                      DVYVLHLREALSSPRPASSSSSAPPRLGEAKTLRPQLHEYLAILRDSGRITLILTSHLL
                      PEPNSLANPEVEAVARARDLTLLHLANESDMEMTDLQGAVEGVSDRAGRLVIASWLRSH
                      NGLVLALAVKYQAH"
+                     /Pfam="MdpA"
      gap             32240..32260
                      /estimated_length=21
      CDS             35872..37605
                      /codon_start=1
                      /product="transcription factor Dcr18"
-                     /label=dcr18
+                     /label="dcr18"
                      /translation="MEGPKADTQVAAGAPEYASEGHATARVGAGGGPSQPKLRGSCHSC
                      ATSKVKCPKEKPTCSRCKARGVACQYFLTRRPGRRREGSINRVTNGDATSNTSTSHKTA
                      KSSRDRRASAHSQGQRPRASNLSLSPSSEHRKDGSSGLSDDGMEDNNHDTIQVMPRCLS
@@ -247,11 +264,12 @@ FEATURES             Location/Qualifiers
                      RVLARRDDRGRDRASAQLVLGELHRVQRLVNQLSPKLKRNRDAAAGDGHRHGLGPDVDL
                      LRCGGGVRSGVAVDVARGCVGSPERESTCFSANTLDQIERDVRWSLAGLSAEIIKRLRQ
                      D"
+                     /Pfam="EqxR, AflR"
      CDS             complement(join(38208..39007,39089..39269,39336..39626,
                      39751..40011,40123..40371))
                      /codon_start=1
                      /product="major facilitator superfamily transporter Dcr19"
-                     /label=dcr19
+                     /label="dcr19"
                      /translation="MALSEPNEAQPASPPSGRTSATIAAPAADTLSQEASTEPKKDHVK
                      PEASGAEAETSGAKTWVIMISVLMATFLVALDRSIISTAIPAITNEFNSLSGYGWYGSA
                      YLLTSCAFQLLFGKLYTFFPVKTVLLLSILLFEASSALCGAAPNSTAFIIGRALCGVGS
@@ -263,10 +281,11 @@ FEATURES             Location/Qualifiers
                      NVLNNQLLDRLSGVPGFEPSLVTSGGATSLIDALPVAYRDVVLAAYNTSLQKVFQIALI
                      LCCISVIGCATLEWKNVKQGKDNMATAEAAAEAGQKEKAGSMAPAGEEGENLVGGQNAK
                      RNGEAHTEKARDTNGIS"
+                     /Pfam="MFS_1"
      CDS             join(41002..41405,41535..42111,42174..43505)
                      /codon_start=1
                      /product="transcription factor Dcr20"
-                     /label=dcr20
+                     /label="dcr20"
                      /translation="MSGGASQSHAQRVLACLNCQQRKVKCDRKFPCANCVRHQVECEPA
                      LAPRQRRRRFPERELLNRIRRYEEILRQNNLSFEPLHPDDDSKNDSNSNNKNSSSISKP
                      PATSASPSAHHASPASLAGLQDSTRSDTPVVVGDIWDAIKRKQQTFHGQERTSNGVSLD
@@ -281,6 +300,7 @@ FEATURES             Location/Qualifiers
                      KLADAIFVVCSRLVLQAWDATRGEGFPSSIGKSQSEGGAVEAEVPRIVADMRDKTVQLG
                      TAEPASGGEGGGGATDQPIVPISMDHGWQNVMGLQGFPGSQPGGFPDMSPLGTSGIEMN
                      NLGLDMYNWRVFGSQGQ"
+                     /Pfam="HimD, Zn_clus, Fungal_trans"
 ORIGIN
         1 tcgtaacatt attctcatta ttaagtcttg ttcaatttca aaaaaggtct tgtttatttt
        61 tcgccacacc ggcacattca cgagaccacc ccacgacagg atggcgtcct tctcttcctg

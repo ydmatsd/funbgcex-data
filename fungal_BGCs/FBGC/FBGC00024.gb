@@ -1,23 +1,23 @@
-LOCUS       FBGC00024       28002 bp DNA     linear   UNA 08-MAY-2023
+LOCUS       FBGC00024              28002 bp    DNA     linear   UNA 08-MAY-2023
 DEFINITION  pyranoviolin A.
 ACCESSION   FBGC00024
-VERSION     .
+VERSION     FBGC00024
 KEYWORDS    .
 SOURCE      Aspergillus violaceofuscus CBS 115571
   ORGANISM  Aspergillus violaceofuscus CBS 115571
+            .
 REFERENCE   1  (bases 1 to 28002)
   AUTHORS   Wei X, Chen L, Tang JW, Matsuda Y.
-  TITLE     Discovery of Pyranoviolin A and Its Biosynthetic Gene Cluster in 
+  TITLE     Discovery of Pyranoviolin A and Its Biosynthetic Gene Cluster in
             Aspergillus violaceofuscus.
   JOURNAL   Front Microbiol 2020;11:562063
-  PUBMED    33117309
+   PUBMED   33117309
 REFERENCE   2  (bases 1 to 28002)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported May 8, 2023 from SnapGene 6.2.2
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.3389/fmicb.2020.562063"; journalName: "Front Microbiol"; date: 
+  JOURNAL   Exported May 8, 2023 from SnapGene 6.2.2 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
+            "10.3389/fmicb.2020.562063"; journalName: "Front Microbiol"; date:
             "2020"; volume: "11"; pages: "562063"
 FEATURES             Location/Qualifiers
      source          1..28002
@@ -28,9 +28,9 @@ FEATURES             Location/Qualifiers
      CDS             complement(join(1..2763,2845..11616,11684..11971))
                      /codon_start=1
                      /gene="pyvA"
-                     /product="polyketide synthase-nonribosomal peptide 
+                     /product="polyketide synthase-nonribosomal peptide
                      synthetase PyvA"
-                     /label=pyvA
+                     /label="pyvA"
                      /protein_id="FAA01291.1"
                      /translation="MATLTTRQLRGSEDSRTASEYVSPVFSTPQSPSPASSLDGPNLPA
                      VIGYACRVAGADRPSKLWQNIIEQKDVRRKLPRDRFNVDTFYHPDGTHKGTTNAKHGYF
@@ -100,11 +100,13 @@ FEATURES             Location/Qualifiers
                      EGPRPAGVEIFHLTNPTPLPLDQLPGLTGSIRGDATAGRVVSVDDWLAAVSGSDPAAAA
                      ADEDEQLRVQVAGGYFRRGHQMFALDRRRTDAALGGVTEGWVDCPPVDANYLRALWLQK
                      V"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_DH, fPKS_ER, fPKS_KR, ACP_PCP,
+                     Condensation, AA-adenyl-dom, fPKS_R"
      CDS             join(12859..13203,13293..13868,13960..14502)
                      /codon_start=1
                      /gene="pyvB"
                      /product="cytochrome P450 monooxygenase PyvB"
-                     /label=pyvB
+                     /label="pyvB"
                      /protein_id="FAA01292.1"
                      /translation="MIASHLLSPLIFLEQQPAYSSVVIGALVVCLVCLVWPTESAKRAP
                      PAPNFGVPRIGDAAAFLADPVSFVQKATQKCGSIFQIKLLVANLVYLRGVKLNRMYTDV
@@ -115,12 +117,13 @@ FEATURES             Location/Qualifiers
                      TGRHYSGVHMFRTTHRAVELEGGKYLVPPNWIVSISPYLTHHDPEIFHTPQHWIPERWL
                      QPDDRMQNLNNPREAAFLQFGAGCHRCPGEALAGIIAQGLLATLVRRYDMVWGKEGPPT
                      DLTALDFSKVGSPWLEGDASIAIRPKVAE"
+                     /Pfam="p450"
      CDS             join(15166..15876,15960..16077,16156..16251,16316..16347,
                      16442..16768)
                      /codon_start=1
                      /gene="pyvC"
                      /product="FAD-dependent monooxygenase PyvC"
-                     /label=pyvC
+                     /label="pyvC"
                      /protein_id="FAA01293.1"
                      /translation="MEQASATTTVDVLIVGGGIGGLTLAGICKKLGITYKVLERSAEIT
                      PVGAGISLAPNCLRILEQLGHLDFIRRKGQPLRKIQIFRNSTPWSLVDYDWVQEKFGYS
@@ -130,22 +133,24 @@ FEATURES             Location/Qualifiers
                      ERVTASDVFEETTFPAMACGRVALVGDSAHSMTSFIGQGACQAIEDAGELANALHAYFA
                      SQSPSPQMLRERLEEYRHRREARARYVFSFSSLFAQLHTGRLWSPMGPLLRWVAFVCAP
                      MWCWHRALTPLYGYQPVVHALVDAPHAN"
+                     /Pfam="FAD_binding_3"
      CDS             join(17030..17117,17225..17665,17755..17963)
                      /codon_start=1
                      /gene="pyvD"
                      /product="alpha/beta hydrolase PyvD"
-                     /label=pyvD
+                     /label="pyvD"
                      /protein_id="FAA01294.1"
                      /translation="MTSLPPSQCCIGGSLHEGETQGELTKFGDIPVYVSYPPDKSTHNA
                      ILFLSDIFGLALVNSKLIADLFAANGYLVVMPDLFQGDPVPVDHSPSFQIMDWLQGHLP
                      PQTDPIVTATLREMRERLGCQRIGGVGYCYGGKYVVRYLHPGQLDVGFVAHPTFIEPDE
                      LKAIEGPLSISASAQDNLFPPEKRHESETILAQLDVPYQINIFSDVEHGFAVRCDLNKT
                      RHRFAKEQSFSQGVTWFNQYLKK"
+                     /Pfam="DLH"
      CDS             join(18468..18581,18654..19898)
                      /codon_start=1
                      /gene="pyvE"
                      /product="FAD-linked oxidoreductase PyvE"
-                     /label=pyvE
+                     /label="pyvE"
                      /protein_id="FAA01295.1"
                      /translation="MDDLRQHLRGTTALVLTPDSPGYAESIKRWSDTCEKKAAAVVLPT
                      TAEEVSLAVGFATAHHIPLVVHNGGHSTSGASASEGGLVISLARMRGVVVDPAAKTITA
@@ -155,13 +160,14 @@ FEATURES             Location/Qualifiers
                      TMIPYEQLNTIQNPFATYGGRKSFSGAFVRLPLEVGFFQELLDDYQAMIQTYPEASRTA
                      VLFELVSHTAVLRVPQAAMAYATRGPFYNVGCVFRWENPGLDQTMRAMQQAMMRKVGDR
                      AGAGAHARAYANYSHHDGRVKDVFGENLPRLQQLKGKYDPNNVFKKWLNLLPN"
+                     /Pfam="FAD_binding_4, BBE"
      CDS             join(20724..21089,21163..21204,21308..22184,22252..22707,
                      22799..22861,22961..23046)
                      /codon_start=1
                      /gene="pyvF"
-                     /product="glucose-methanol-choline family oxidoreductase 
+                     /product="glucose-methanol-choline family oxidoreductase
                      PyvF"
-                     /label=pyvF
+                     /label="pyvF"
                      /protein_id="FAA01296.1"
                      /translation="MAGSPFTTALLSAWTLSTVAVGYPNGPWYQTPLGPDVVRDPTRYP
                      GAIEKTVDYVVVGGGASGLTVAARLSEDPSVTVAIVEAGSFYQEVSNASVVPGYAADYL
@@ -174,11 +180,12 @@ FEATURES             Location/Qualifiers
                      AMIVCTLMTPMSRGHISIRSPSMHDRPVIDPRWLTSTSDVEIAVAAVRRIRQYLQMPVL
                      ERNVLVGGEVAPGPEVQTFAEIHDYLKKNFNSMSHPACTCRMGKKGDPDAVVDPKGRVF
                      GVKNLRIADASVFRFLPPGLPLGVVYMVAEKIADDIKHDQKHGAGEEGLRTEF"
+                     /Pfam="GMC_oxred_N, GMC_oxred_C"
      CDS             join(23856..23990,24190..24879,24943..25749)
                      /codon_start=1
                      /gene="pyvG"
                      /product="major facilitator superfamily transporter PyvG"
-                     /label=pyvG
+                     /label="pyvG"
                      /protein_id="FAA01297.1"
                      /translation="MAHLLTNSPIGLLGRWLSGGRLLPPTEQQPGFQLPPPYRLAATRT
                      QPQQQQEQEQEQEQAKPATRPPWNEPQITAEGAIQVGWYSSTDPDNPQNWSFGAKLLVY
@@ -190,12 +197,13 @@ FEATURES             Location/Qualifiers
                      NADFRRGVWPRPEKRLVPALCGSVLVPVGLFLFAWTARPDLHWVVPTVGLVLEVAGMSL
                      VIQCVFSYVAVAYLRYSASLFAINDLARAYLAFAAIMWSDPLYDRLGVARGTTLLAGLT
                      VGCVGGMFTLYWWGPALRKRSRFASD"
+                     /Pfam="MFS_1"
      CDS             complement(join(26444..26606,26684..27237,27297..27347,
                      27419..27700,27772..28002))
                      /codon_start=1
                      /gene="pyvH"
                      /product="methyltransferase PyvH"
-                     /label=pyvH
+                     /label="pyvH"
                      /protein_id="FAA01298.1"
                      /translation="MASSRIVELATRISENTAIVDAYLRENQLPSPSFDEDGPVDFAIQ
                      GEEVKKAHEEAIALSWELHRLLLGPSHFLRPVPNGLSLQAISKHDIATKVPVHGKISYA
@@ -205,6 +213,7 @@ FEATURES             Location/Qualifiers
                      LPSMIEGARDQLPAIPARERVQFMAHDFFAPQLVPADAYILRHVFHNWSDRNAVRILRA
                      LVPSLQPGARLIVNDYIAPVPGVLSLAKEQRLREMDLIMLTLCNAYEREEQDWKRLFQE
                      ADPRFHVRTMSVPKGATEGILEVIWEG"
+                     /Pfam="Methyltransf_2"
 ORIGIN
         1 tcacaccttc tgcagccaca acgcgcggag gtaattcgca tcgacaggag gacagtccac
        61 ccacccttcc gtcaccccgc cgagcgcggc atcggtccgc ctgcgatcca gggcaaacat

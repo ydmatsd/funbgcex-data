@@ -1,24 +1,24 @@
-LOCUS       FBGC00003       33715 bp DNA     linear   CON 28-APR-2023
+LOCUS       FBGC00003              33715 bp    DNA     linear   CON 28-APR-2023
 DEFINITION  austinol.
 ACCESSION   FBGC00003
-VERSION     .
+VERSION     FBGC00003
 KEYWORDS    .
 SOURCE      Aspergillus nidulans FGSC A4
   ORGANISM  Aspergillus nidulans FGSC A4
+            .
 REFERENCE   1  (bases 1 to 33715)
   AUTHORS   Lo HC, Entwistle R, Guo CJ, Ahuja M, Szewczyk E, Hung JH, Chiang YM,
             Oakley BR, Wang CC.
-  TITLE     Two separate gene clusters encode the biosynthetic pathway for the 
+  TITLE     Two separate gene clusters encode the biosynthetic pathway for the
             meroterpenoids austinol and dehydroaustinol in Aspergillus nidulans.
   JOURNAL   J Am Chem Soc 2012;134:4709-20
-  PUBMED    22329759
+   PUBMED   22329759
 REFERENCE   2  (bases 1 to 33715)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Apr 28, 2023 from SnapGene 6.2.2
-            https://www.snapgene.com
+  JOURNAL   Exported Apr 28, 2023 from SnapGene 6.2.2 https://www.snapgene.com
 COMMENT     SGRef: number: 1; type: "Journal Article"; doi: "10.1021/ja209809t";
-            journalName: "J Am Chem Soc"; date: "2012"; volume: "134"; pages: 
+            journalName: "J Am Chem Soc"; date: "2012"; volume: "134"; pages:
             "4709-20"
 FEATURES             Location/Qualifiers
      source          1..33715
@@ -31,7 +31,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="AN9246.2"
                      /product="2OG-Fe(II)-dependent dioxygenase AusE"
-                     /label=ausE
+                     /label="ausE"
                      /db_xref="GI:40747157"
                      /protein_id="EAA66313.1"
                      /translation="MGSATPSRLQKFPATAPADEIYAAFKEDGCVIIEGFVPPDQMARF
@@ -40,22 +40,24 @@ FEATURES             Location/Qualifiers
                      NGATRLVPGSNRWPELTLINATDCPQYGKIDSVPAIMQPGDCYMMSGKVIHGAGHNATL
                      SDQRRALAFSTIRRELRPVQAFPLWIPMQIATELSPRTQAMFGFRSSTQHCDVDTVHFW
                      GNDGKDIGEHLGLISSA"
+                     /Pfam="PhyH"
      CDS             1363..1839
                      /codon_start=1
                      /locus_tag="AN9247.2"
                      /product="isomerase AusF"
-                     /label=ausF
+                     /label="ausF"
                      /db_xref="GI:40747158"
                      /protein_id="EAA66314.1"
                      /translation="MSTTREKLLRTTSRFVSTFGSFDIEEILSIRTPTCLYHQCCPSFN
                      KNVVTNEETRANFPQFIATFKRFDFSIIEPDHTLVDEAARRVMIRAKASAESIVGAYEN
                      EYIFILKMTDDCRFIEEIYEFYDTIRLKDLQYRLEAKHISYGDAAPFKTRDTQL"
-     CDS             complement(join(2822..3237,3307..3909,3974..4042,4123..4336,
-                     4448..4672))
+                     /Pfam="Trt14"
+     CDS             complement(join(2822..3237,3307..3909,3974..4042,
+                     4123..4336,4448..4672))
                      /codon_start=1
                      /locus_tag="AN9248.2"
                      /product="cytochrome P450 monooxygenase AusG"
-                     /label=ausG
+                     /label="ausG"
                      /db_xref="GI:40747159"
                      /protein_id="EAA66315.1"
                      /translation="MAMGNPELRTHFFRSSHEPGIPNSLRFPNGFLVTCGLPWLLLLFS
@@ -67,21 +69,23 @@ FEATURES             Location/Qualifiers
                      GEGWDKIALNNLKLMDSVLKESQRLKPASTVTMGRYASREITLSDGTIIPKGSTVFIAN
                      VAMRDSNIYPDPDDFVPDRFTTRREKGDSSAYLVSASPEHLGFGLGRHACPGRFFAANE
                      LKIVLSHMLMKYDIKLPDNGAVAPSKSGIFLATNPDARICVRRRKEEIVI"
+                     /Pfam="p450"
      CDS             complement(5259..5702)
                      /codon_start=1
                      /locus_tag="AN9249.2"
                      /product="isomerase AusH"
-                     /label=ausH
+                     /label="ausH"
                      /db_xref="GI:40747160"
                      /protein_id="EAA66316.1"
                      /translation="MPPTRDELLCTALNFVGQFAKLDVESVLSFMSPSCTLRSFPSSLG
                      KPALQTKEESKADFQGLKDFFYNFQLRVKDGAEPVIDEPARKVVLHIEGKGDSLVGRFE
                      TEYVYILQINEEGTMVEDFFQFADSATRDAWGKKIEAHFSARN"
+                     /Pfam="Trt14"
      CDS             complement(6939..8489)
                      /codon_start=1
                      /locus_tag="AN9250.2"
                      /product="acyltransferase AN9250"
-                     /label=AN9250.2
+                     /label="AN9250.2"
                      /db_xref="GI:40747161"
                      /protein_id="EAA66317.1"
                      /translation="MPPSPDFEAFSLTPIDQANGQVFFFYNISYRVRNEASALQTIHNA
@@ -93,12 +97,13 @@ FEATURES             Location/Qualifiers
                      AAIPLRFEVSSQRHASPDFHRAVREVPTGLNTSFFLAIAKTAYTIRAKLARFGESYIDS
                      LSSFLNAHEEQKAVNILPACAIVSSLRHIKTYELQFGAELGEIQAFETGIPWVNGSCII
                      LPLCANSSDVAGSAPWNVRITLDESTMYCFKNEPALRWALLEQGKSKVLGPCDCKADV"
+                     /Pfam="Transferase"
      CDS             join(8896..9135,9194..9398,9452..9520,9572..10153,
                      10216..10637)
                      /codon_start=1
                      /locus_tag="AN9251.2"
                      /product="cytochrome P450 monooxygenase AN9251"
-                     /label=AN9251.2
+                     /label="AN9251.2"
                      /note="revised sequence"
                      /db_xref="GI:40747162"
                      /protein_id="EAA66318.1"
@@ -111,22 +116,24 @@ FEATURES             Location/Qualifiers
                      KSAMYNLKLLDSVLKETQRVKPVVVFGMGRYVTEQITLHDGTVISKGETINVVNTRIWD
                      PAVYPNPLEWDPYRFVRRRDSGDHAAHLVSPTPDHMGFGLGKHSCPGRFFAATKIKIIL
                      CHILLKYDVKIPDEEISTVISSGNFLFPDSTLRISVRRRQDNLTIWD"
+                     /Pfam="p450"
      CDS             complement(10797..11219)
                      /codon_start=1
                      /locus_tag="AN9252.2"
                      /product="isomerase AN9252"
-                     /label=AN9252.2
+                     /label="AN9252.2"
                      /db_xref="GI:40747163"
                      /protein_id="EAA66319.1"
                      /translation="MSIRERLLATVSKYIAAYNEFDPSAMKTVRTPTCLTHGVAPTCKF
                      TQSMEEHTRHMMLSRGVFRSVNASIVDDNITVVDEVSRQVVVKVKIRCETTVGPYENEA
                      MFIMAMNEEGALVDEIFQFLDTARFRQFQGRLEEAQ"
+                     /Pfam="Trt14"
      CDS             complement(join(12724..13142,13196..13765,13831..13899,
                      13952..14054,14116..14232,14298..14519))
                      /codon_start=1
                      /locus_tag="AN9253.2"
                      /product="cytochrome P450 monooxygenase AusI"
-                     /label=ausI
+                     /label="ausI"
                      /db_xref="GI:40747164"
                      /protein_id="EAA66320.1"
                      /translation="MLQETISLTPLGQPLIAGFVVVSAVLYLLYNTQQWRPNNLPLLND
@@ -138,31 +145,34 @@ FEATURES             Location/Qualifiers
                      HLKLMDSAFKEVQRVDPILFVGRVAVADVTLKDGLIIQKGQSIRISGHTMWDEDKYPDA
                      AHFDPYRFYRLRQAPGQENTAQFTSPTSDHLGFGYGGRACPGRFFAAAVLKISLCHVLM
                      KYDIKPANGETGQHVWEFAAAINANMTAKVLVRRRQPEIQI"
+                     /Pfam="p450"
      CDS             complement(join(15145..15560,15784..15814))
                      /codon_start=1
                      /locus_tag="AN9254.2"
-                     /product="truncated 2OG-Fe(II)-dependent dioxygenase 
+                     /product="truncated 2OG-Fe(II)-dependent dioxygenase
                      AN9254"
-                     /label=AN9254.2
+                     /label="AN9254.2"
                      /db_xref="GI:40747165"
                      /protein_id="EAA66321.1"
                      /translation="MTIIPKRSYNVLTTCKAVFRDVGDYWLTTGNLRTTKPQSPAQGFH
                      RDTLLYPVLQYQPATSPSLIVTLLVSMTDATVANGATRVILSSQNGRLLNTIGGPGRAS
                      RAKRWGHAGNPSAAAARWWEAYESGTEYKTNATNFLHKMLASCS"
+                     /Pfam="PhyH"
      CDS             18733..19221
                      /codon_start=1
                      /locus_tag="AN9255.2"
                      /product="isomerase AusJ"
-                     /label=ausJ
+                     /label="ausJ"
                      /db_xref="GI:40747166"
                      /protein_id="EAA66322.1"
                      /translation="MNTTRHRLLATASRFVETLESLDVDAMLAIRSSTCLHHMCCPSFR
                      NYSITNDQTREAFPQWKATITKYKFGVLDDSQILVDEQARKVMIHAETAAETTVGDYNN
                      EYVFILRMAEDCNTVDEIWEFYDTIRLQDLRHRLEASHVPIGVDAPAPFTTTASPAAL"
+                     /Pfam="Trt14"
      CDS             19443..20639
                      /codon_start=1
                      /product="aldo-keto reductase AusK"
-                     /label=ausK
+                     /label="ausK"
                      /translation="MTGTRILELFGPAPEPPSELGRYRILSPTAGIRVSPLQLGALSIG
                      DAWSTDLGSMDKDSAMELLDAYAAAGGNFIDTANAYQNEQSEMWIGEWMASRGNRDKMV
                      IATKFGTDYRAHELGKGLAVNYSGNHKRSLHMSVRDSLQKLRTSWIDILYLHTWDYTTS
@@ -170,11 +180,12 @@ FEATURES             Location/Qualifiers
                      ERDILPMARHFGMAVTVYDALGSGKFQSRDMLARRKDQGEGLRAIYGGQQTALEEAMSK
                      ALGVVAAQHGIESVTAVALAYLLAKAPYVFPIIGGRKIQHLHDNIEALSLRLSQEEIEY
                      LESVGDFDPGFPYDMAGVDPADTGIATPIVAQAAPMAFVQRSKAIGYAESSKGSQMFG"
+                     /Pfam="Aldo_ket_red"
      CDS             join(24226..24319,24385..24764)
                      /codon_start=1
                      /locus_tag="AN9256.2"
                      /product="hypothetical protein AN9256"
-                     /label=AN9256.2
+                     /label="AN9256.2"
                      /db_xref="GI:40747167"
                      /protein_id="EAA66323.1"
                      /translation="MKQSTVALLGVGMLGGAAALPAGQLANGPQDALARSRIGSDKLNP
@@ -184,7 +195,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="AN9257.2"
                      /product="terpene cyclase AusL"
-                     /label=ausL
+                     /label="ausL"
                      /db_xref="GI:40747168"
                      /protein_id="EAA66324.1"
                      /translation="MSQLTISKIIEEPFSALSLSEMLKILAALGWSTNYLAMVYRTQAD
@@ -192,12 +203,13 @@ FEATURES             Location/Qualifiers
                      TPLGESRGRLVLLYAAVIAAFAAGQLCLALEMGGALGFHWGGALCQFLSSSAAVGQLLT
                      RGHTRGASLLIWGARAISTAGGFVKLCIRFQHQVDGAPWLDSPMCWFYIGIVLSLDASY
                      PVLYQLTRRHEEASGGGKSGKVKNW"
+                     /Pfam="Pyr4"
      CDS             complement(join(30571..31050,31106..31497,31530..31789,
                      31840..32147))
                      /codon_start=1
                      /locus_tag="AN9258.2"
                      /product="FAD-dependent monooxygenase AusM"
-                     /label=ausM
+                     /label="ausM"
                      /db_xref="GI:40747169"
                      /protein_id="EAA66325.1"
                      /translation="MSDTPTRKTDLRVIIVGGSVAGLTLAHCLANANIDHIVLEKRAEI
@@ -209,11 +221,12 @@ FEATURES             Location/Qualifiers
                      SLLQRLSTSDSSATSCTIDAVLQEYASLRYERVKSTYQRAYFGARLHTRDDALKAFVGR
                      YIFPRFRQQVLERTSQAIAGAPQVDFLPTPKRTGPGWSDYAGSPEVGAPTLPWLVISLP
                      VLASMLCYLVYSSVFVTPIFP"
+                     /Pfam="FAD_binding_3"
      CDS             32765..33715
                      /codon_start=1
                      /locus_tag="AN9259.2"
                      /product="UbiA-like prenyltransferase AusN"
-                     /label=ausN
+                     /label="ausN"
                      /db_xref="GI:40747170"
                      /protein_id="EAA66326.1"
                      /translation="MAVISELKRHHPKTGLLRYLPTGVVPYGELVRIHRALGYYLNTSP
@@ -222,6 +235,7 @@ FEATURES             Location/Qualifiers
                      QLILINIAWAIPMAMHSLGMEPSSQILSMLCMCVFFSAVIVMIDLVYSRQDTEEDLKVG
                      VKSMAVRYRNCVETMAYSLFAISSLALLFGGVLGGLRVPFVLFSVGGHIVGFWRFLRAS
                      LQAGPAGVESRAKSSCLIASVFWVLGLGIEYAVRV"
+                     /Pfam="UbiA_PT"
 ORIGIN
         1 ctaagcgctg gagatcaagc caagatgctc cccaatatcc ttcccatcgt taccccaaaa
        61 gtgcaccgta tcaacatcac aatgctgggt tgaactgcgg aacccaaaca tcgcctgcgt

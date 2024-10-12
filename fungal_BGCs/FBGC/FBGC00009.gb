@@ -1,23 +1,23 @@
-LOCUS       FBGC00009       20596 bp DNA     linear   UNA 13-MAY-2023
+LOCUS       FBGC00009              20596 bp    DNA     linear   UNA 13-MAY-2023
 DEFINITION  citreohybridonol.
 ACCESSION   FBGC00009
-VERSION     .
+VERSION     FBGC00009
 KEYWORDS    .
 SOURCE      Emericella variecolor NBRC 32302
   ORGANISM  Emericella variecolor NBRC 32302
+            .
 REFERENCE   1  (bases 1 to 20596)
   AUTHORS   Matsuda Y, Quan Z, Mitsuhashi T, Li C, Abe I.
-  TITLE     Cytochrome P450 for Citreohybridonol Synthesis: Oxidative 
+  TITLE     Cytochrome P450 for Citreohybridonol Synthesis: Oxidative
             Derivatization of the Andrastin Scaffold.
   JOURNAL   Org Lett 2016;18:296-9
-  PUBMED    26731665
+   PUBMED   26731665
 REFERENCE   2  (bases 1 to 20596)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported May 13, 2023 from SnapGene 6.2.2
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1021/acs.orglett.5b03465"; journalName: "Org Lett"; date: 
+  JOURNAL   Exported May 13, 2023 from SnapGene 6.2.2 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1021/acs.orglett.5b03465"; journalName: "Org Lett"; date:
             "2016"; volume: "18"; pages: "296-9"
 FEATURES             Location/Qualifiers
      source          1..20596
@@ -30,7 +30,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="adrJ'"
                      /product="acetyltransferase AdrJ'"
-                     /label=adrJ'
+                     /label="adrJ'"
                      /protein_id="BAW27596.1"
                      /translation="MNFLFQSRPSQPEKVPSDKVVPLRSWDTALSMRETVLDVTLLFND
                      VLDIPSLRDGLDTLYSMGNWRELGARLRLNKNGSLEYHIPQTYDEARPAFVFSNPRHEI
@@ -41,24 +41,26 @@ FEATURES             Location/Qualifiers
                      ANAVCMSPTFLRGQQIQDGTVGSISRQIRKSVAEQQTPEQVEAVTALLKATMEKSGYLA
                      LVGEPGMLLLSSSNWHKAGLYALDFSPVVTIPGSSKVLTDRACGKPSYVNGVLHSKLSF
                      RNTFAITGRDAGGNWWLNGVLRTEAWNVVEQELEKL"
+                     /Pfam="CalD"
      CDS             complement(join(1928..2434,2481..2627,2679..2699,
                      2756..2917))
                      /codon_start=1
                      /gene="adrK'"
                      /product="methyltransferase AdrK'"
-                     /label=adrK'
+                     /label="adrK'"
                      /protein_id="BAW27597.1"
                      /translation="MHPDTQLKEAVTKGFDPKSLYDPNLDHVKEPVRSILEEYSQIPAN
                      EILAHVQKLRDTAFAIFPYACVGQFSFLELSIASSPCYPEILRRVKDGEKLLDLGCAFG
                      QELRRLIYDGAPHANLYGSDLRPEFLQLGCDLFLDHERMNKQLIPADIVDERSELIARV
                      GGQIDMVYISLFLHVFDWDKQVVVAKRVFSLMRAKPGSMIVCRVVACRDQAVLNATQTR
                      MPYYYHDLASWNRLWEKVQEQTGFKLDVQSWEQPDELAAKHPIKGIYVLGSSIRRL"
+                     /Pfam="Trt5"
      CDS             join(3750..3965,4020..4239,4293..4361,4420..5022,
                      5072..5520)
                      /codon_start=1
                      /gene="ctr-P450"
                      /product="cytochrome P450 monooxygenase Ctr-P450"
-                     /label=ctr-P450
+                     /label="ctr-P450"
                      /note="cytochrome P450 monooxygenase"
                      /protein_id="BAW27598.1"
                      /translation="MISNILQAHEPSSTLLSATLAVVAVWLLKWLLIPASNLPIVNEKS
@@ -71,12 +73,13 @@ FEATURES             Location/Qualifiers
                      AMWDPDFYENPNEFDPYRYIRMRKLPNRQAQTEAQLVSPSPNHLGWGFGEHACPGRFFA
                      ANELKIALTQILLKYDLKLDEERLPEVRRHGTSRTADPVAKLVIRRRQDDPSVQDLPCM
                      A"
+                     /Pfam="p450"
      CDS             complement(join(5739..6040,6265..6404,6467..6633,
                      6689..6955))
                      /codon_start=1
                      /gene="adrE'"
                      /product="ketoreductase AdrE'"
-                     /label=adrE'
+                     /label="adrE'"
                      /protein_id="BAW27599.1"
                      /translation="MTRAKYSFPPGSTVLVTGANSFLGSHVINILLELGYRVRGTVRSP
                      RPWLNEYFSARYGSNSFETAIVADFQLPHAFDEAISGVSGVVHMAQAMPWDPSNSDPVG
@@ -84,22 +87,24 @@ FEATURES             Location/Qualifiers
                      DRGRATGVEMGRGAQAFIRTQHDSALDESWYIDVEDSARLHVIALLSTEVQSERLFGAA
                      APFVWSDIIPILKKAQPANESIPGPPQSEKASLGEVVPARRAEQLIRTFFGRPGWTTLE
                      ESIKGTVKTA"
+                     /Pfam="Epimerase"
      CDS             join(7406..7426,7483..7921,7993..8079,8140..8369)
                      /codon_start=1
                      /gene="adrF'"
                      /product="short-chain dehydrogenase/reductase AdrF'"
-                     /label=adrF'
+                     /label="adrF'"
                      /protein_id="BAW27600.1"
                      /translation="MGSLENQVVIITGASSGIGLTTAIAALAQGARVLGVDVSLSPQSL
                      RDDPNFTFYQGDLVDPSTPGKVVAAAISAYGRRIDALLNIAGVMDNNQSADSVVDNVWD
                      RCIAVNLTAPVKLMRQVLPVMREQKSGSIVNVASKAALSGAVSGVAYTASKHGLIGVTK
                      NVAWRFKHEGIRCNAVCPGGVSNDTGIFKDVDVSAFDKDAMAAMTPIHAAHSSDRAKGF
                      AITPDDVAQSLLFLISPASRRISGAVVPVDNAWSTI"
+                     /Pfam="adh_short"
      CDS             join(8949..9158,9227..9440,9496..10152,10206..10633)
                      /codon_start=1
                      /gene="adrA'"
                      /product="cytochrome P450 monooxygenase AdrA'"
-                     /label=adrA'
+                     /label="adrA'"
                      /protein_id="BAW27601.1"
                      /translation="MFLADCPNVFPLAAIAAIVLPVIFYTLTSSSRKSQIPFINARRRF
                      EIGNSGARNRYMKDAATLLKRGLETGGPFRIVTDAGTRTLLPPKYAQDIRSHPELSLSD
@@ -110,13 +115,14 @@ FEATURES             Location/Qualifiers
                      KLKLMDSVIKESQRLKPMAIAIMARVAREDVLLHDGQIVPKGDKMLVSCDRMWDENIYP
                      EPLEFDPYRFANMRRTDDPKNEVAAQLVSPSPEHMGFGFGMHACPGRFFVANEIKIALS
                      HILLKYDIRLAEGCQPQVRPFGMRLAADPLAKVSIRRRKEEISL"
+                     /Pfam="p450"
      CDS             complement(join(11036..11289,11341..11658,11716..11801,
                      11861..11971,12020..12109,12160..12440,12500..12719,
                      12781..12818))
                      /codon_start=1
                      /gene="PO"
                      /product="peroxidase PO"
-                     /label=PO
+                     /label="PO"
                      /protein_id="BAW27602.1"
                      /translation="MAPSLDNIQGDVWPRLPKKAETFYFFHILDSAKFKKQLTKLVPAL
                      TTGEEAKNTRSDLYKRKREGKKGLIQLSSINISFSYSGLKKLGKTDVGDDVFEGGQYKD
@@ -127,11 +133,12 @@ FEATURES             Location/Qualifiers
                      IPYGEWTEVDEKKGGHSLKQRGLLFVSYQANLRAGFRFVMKEWANKNDFPDDKFAACGG
                      QGPGIDPIIGQVKKYPGRANIPSALGLKEASDVSSRYVDVERFVIPEGGEYFFTPSFSA
                      LDTLCKC"
+                     /Pfam="Dyp_perox"
      CDS             complement(13713..15689)
                      /codon_start=1
                      /gene="GO"
                      /product="galactose oxidase GO"
-                     /label=GO
+                     /label="GO"
                      /protein_id="BAW27603.1"
                      /translation="MTLSHLALLLAAGLVHGQGLDPITGDPSSFSQSPPLGQRIPRRTW
                      NVQCDSNTSDSPCSNTIDENVNTLWLSNSGNDHEVVVDLGETRSVNAIEIRPGSQDGWI
@@ -145,22 +152,25 @@ FEATURES             Location/Qualifiers
                      LLLPDGRVFNGGGGLCGNCAANHLDAQVYTPRYLVDEDGNLAARPEISSVTATELKPGH
                      KLRFTTTGAINSASLVRYGSTSHTVNTDQRRVPLDPLNSVGTNEYEATLPSDSGILLPG
                      WWMLFVLNDYGVPSVSKTIQVTL"
+                     /Pfam="F5_F8_type_C, Glyoxal_oxid_N, Kelch_1, Kelch_6,
+                     GO-like_E_set"
      CDS             join(16438..16958,17012..17222)
                      /codon_start=1
                      /gene="adrI'"
                      /product="terpene cyclase AdrI'"
-                     /label=adrI'
+                     /label="adrI'"
                      /protein_id="BAW27604.1"
                      /translation="MDASNMLSAVLEYRDELASVAESLRLLSGVCWTLNYFSMMYISGR
                      DKVPNTNVFAITNDMAWEFMYAFIHPAASAHWEGGVKVWFLVHCAVVLYILKFAPNEWD
                      DVPIVKRNIYLIYTVSFLGFLAGQWAFAAEVGPDLGFFYGGVLCQTLASLGPNCQLLAR
                      NSIRGASLLTWSLRAVATFGGFIKLTIYYLTDVPAGPWFESPMCKFYIGLTLVLDFVYP
                      FLYFSVWRQEAARTPSGKKIQ"
+                     /Pfam="Pyr4"
      CDS             join(17621..17913,17970..18241,18290..18660,18716..19201)
                      /codon_start=1
                      /gene="adrH'"
                      /product="FAD-dependent monooxygenase AdrH'"
-                     /label=adrH'
+                     /label="adrH'"
                      /protein_id="BAW27605.1"
                      /translation="MEASNFKVVIVGGSIAGLTLAHCLAQAGIDHIVLEKRAEIAPQEG
                      AFVGIWPNGAQILQQLGIYDSLERLTAPITRMHICFPDGFRFSSWMPKKFQERFGYPII
@@ -171,11 +181,12 @@ FEATURES             Location/Qualifiers
                      NKSNSGVIGNHVESMLREYQEVRYPRAKSTCQRSTFGTRFHTRDTLAKALVGRYVFPYA
                      DPLVERAVVKAVAGGGLVDFLPRPKRSGVELSPAKPTGKGATQLQWKLFWVSSLFLCWS
                      LYWIRPHIAHKVLAW"
+                     /Pfam="FAD_binding_3"
      CDS             19664..20596
                      /codon_start=1
                      /gene="adrG'"
                      /product="UbiA-like prenyltransferase AdrG'"
-                     /label=adrG'
+                     /label="adrG'"
                      /protein_id="BAW27606.1"
                      /translation="MTVVDEKQHPGSTPISLSPYAELMRLHRPLGFYLNTSPYLVGIAF
                      SASISTDFPVPVSILLHRIVLLIIWSFFLRCSGCVWNDIIDLDLDRQISRTKSRPLPRG
@@ -183,6 +194,7 @@ FEATURES             Location/Qualifiers
                      IGWAVPMSMRSLGLSPREHLMPTVCMSLFIATVIIMVDVIYSCQDTEEDVKVGVKNMAV
                      TFRDCVNVVIYSLFYLSIFLFASAGWLIGLGLPFFIVSVGGHYFGFGNLIKATRVKKLT
                      GVESNAKSSCFLASIFWLLGLGIEYCRAG"
+                     /Pfam="UbiA_PT"
 ORIGIN
         1 ttatagcttc tccagttcct gctcgaccac attccacgcc tcagtccgca ggacaccgtt
        61 aagccaccag tttcccccgg cgtccctccc agttattgca aaggtatttc gaaacgatag

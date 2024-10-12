@@ -1,31 +1,31 @@
-LOCUS       FBGC00021       47247 bp DNA     linear   PLN 14-JAN-2023
+LOCUS       FBGC00021              47247 bp    DNA     linear   PLN 14-JAN-2023
 DEFINITION  ergochromes.
 ACCESSION   FBGC00021
-VERSION     .
+VERSION     FBGC00021
 KEYWORDS    .
 SOURCE      Claviceps purpurea 20.1
   ORGANISM  Claviceps purpurea 20.1
+            .
 REFERENCE   1  (bases 1 to 47247)
   AUTHORS   Neubauer L, Dopstadt J, Humpf HU, Tudzynski P.
-  TITLE     Identification and characterization of the ergochrome gene cluster 
+  TITLE     Identification and characterization of the ergochrome gene cluster
             in the plant pathogenic fungus Claviceps purpurea.
   JOURNAL   Fungal Biol Biotechnol 2016;3:2
-  PUBMED    28955461
+   PUBMED   28955461
 REFERENCE   2  (bases 1 to 47247)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Jan 14, 2023 from SnapGene 6.2.0
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1186/s40694-016-0020-z"; journalName: "Fungal Biol Biotechnol"; 
+  JOURNAL   Exported Jan 14, 2023 from SnapGene 6.2.0 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1186/s40694-016-0020-z"; journalName: "Fungal Biol Biotechnol";
             date: "2016"; volume: "3"; pages: "2"
-COMMENT     Sequencing was performed by University of Kentucky Advanced Genetic 
+            Sequencing was performed by University of Kentucky Advanced Genetic
             Technologies Center
-            Guldener U., Oeser B., O'Sullivan D., Tudzynski P. Westfaelische 
+            Guldener U., Oeser B., O'Sullivan D., Tudzynski P. Westfaelische
             Wilhelms-Universitaet Muenster
-            Institut fuer Biologie und Biotechnologie der Pflanzen, 
-            Hindenburgplatz 55, 48143 Muenster, Germany 
-            birgitt.oeser@uni-muenster.de, tudzyns@uni-muenster.de NIAB, 
+            Institut fuer Biologie und Biotechnologie der Pflanzen,
+            Hindenburgplatz 55, 48143 Muenster, Germany
+            birgitt.oeser@uni-muenster.de, tudzyns@uni-muenster.de NIAB,
             Huntingdon Road, Cambridge CB3 0LE, UK
             donal.osullivan@niab.com.
 FEATURES             Location/Qualifiers
@@ -39,17 +39,18 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="CPUR_05417"
                      /product="isomerase CPUR_05417"
-                     /label=CPUR_05417
+                     /label="CPUR_05417"
                      /note="CP_05417.1"
                      /protein_id="CCE31564.1"
                      /translation="MSPPAEIQADTLKRFIAGWGGWTMESFFATLSDDFTQKPLPLSCG
                      EPARGREQLYPLLSSLMTMMTNFKLTIHNTIHDPSNKAAVVYAVADGDTPFGPYHNEQA
                      VFIWFNSKGDKVDRIEELFDTAFMAEFKPKFKKWALENPGAAAGRPPPANTST"
+                     /Pfam="Trt14"
      CDS             1221..2099
                      /codon_start=1
                      /locus_tag="CPUR_05418"
                      /product="short-chain dehydrogenase/reductase CPUR_05418"
-                     /label=CPUR_05418
+                     /label="CPUR_05418"
                      /note="CP_05418.1"
                      /protein_id="CCE31565.1"
                      /translation="MASITTTTNFFESIPRPTKTYRSASYDRISTRHGFNGTGKTVLIT
@@ -58,11 +59,12 @@ FEATURES             Location/Qualifiers
                      KDKTILHVSSAVAQMYAPLRSVYGASKAAAVQAMQHLAREHQGTGDRVRVFSFHPGAIT
                      TPASGAIYTPGAVQWDDADLPAHFSLWLAGPESDFLNGRYVWANWDVDELVALKERLAC
                      DGRFLTIGLVL"
+                     /Pfam="adh_short"
      CDS             join(2866..3095,3196..4352,4471..4688)
                      /codon_start=1
                      /locus_tag="CPUR_05419"
                      /product="cytochrome P450 monooxygenase CPUR_05419"
-                     /label=CPUR_05419
+                     /label="CPUR_05419"
                      /note="CP_05419.1"
                      /protein_id="CCE31566.1"
                      /translation="MTDFKNDTIPDMSWTTGSNSGLLSSSPTTLALATLATGLAVFLVY
@@ -75,11 +77,12 @@ FEATURES             Location/Qualifiers
                      TRLNVSSRAIPIPGTGQVVPSGSFAAYNTNDAHLNEALYPDPLRFDPERFETPREGAKT
                      ETYGFLGWGNGRHRCVGQRWAKLQLSINLVYAVAMYKWNSCDADGNALPPVDHSFDRDR
                      HGNQLAQGVFCKYECRE"
+                     /Pfam="p450"
      CDS             complement(5771..6661)
                      /codon_start=1
                      /locus_tag="CPUR_05420"
                      /product="HSP20-like chaperone CPUR_05420"
-                     /label=CPUR_05420
+                     /label="CPUR_05420"
                      /note="CP_05420.1"
                      /protein_id="CCE31567.1"
                      /translation="MATMAHANTSHPLYVAGMAGNTNHMSPWGEDAHKRWLAALGPSSL
@@ -88,12 +91,13 @@ FEATURES             Location/Qualifiers
                      WTQCDETKKSFTPDIDVVETPESYSVQASLPGAKKEDVKVSWDPSTYELRIEGVVSRSV
                      GNDEEGEKKTEQSGRFSLRERQTGKFCRTVYLGSQVDGDKIEEGGLSAGMDDGVLRIAV
                      PRQGSGKGVKEITIV"
-     CDS             complement(join(7538..7758,7823..8282,8382..9091,9163..9565,
-                     9755..9781))
+                     /Pfam="HSP20"
+     CDS             complement(join(7538..7758,7823..8282,8382..9091,
+                     9163..9565,9755..9781))
                      /codon_start=1
                      /locus_tag="CPUR_05421"
                      /product="transcription factor CPUR_05421"
-                     /label=CPUR_05421
+                     /label="CPUR_05421"
                      /note="CP_05421.1"
                      /protein_id="CCE31568.1"
                      /translation="MSESYAQYSIGCSRDLAGCRRCTSEGRACSYSRSGVIHRTRRRNR
@@ -107,13 +111,14 @@ FEATURES             Location/Qualifiers
                      LWQYLHCPLAAFGALWGELVMKTTANPEQSLKSMEAIAHLPLYLGKLGSRHALAARLQS
                      ITARIVEQARMIVNSQEAPEALPVQDEPTNPGLPAPAAEILPIVAPNESLDPTQMQPVD
                      DFLDDRFIMQSDPFFGTTFDWFAWGGNLEV"
+                     /Pfam="EqxR"
      CDS             join(10544..10780,10848..11108,11197..11535,11602..11782,
                      11855..12570)
                      /codon_start=1
                      /locus_tag="CPUR_05422"
-                     /product="major facilitator superfamily transporter 
+                     /product="major facilitator superfamily transporter
                      CPUR_05422"
-                     /label=CPUR_05422
+                     /label="CPUR_05422"
                      /note="CP_05422.1"
                      /protein_id="CCE31569.1"
                      /translation="MSAMSAMGKPEHGSATTSDLEHRATESSLEKQDVEAAPPGPVKPV
@@ -127,11 +132,12 @@ FEATURES             Location/Qualifiers
                      LLSAAIFVAVGQNILANQLLSRLAGIDGFEHLKSLILSGGVTAVIDAVPEESKHRVLVA
                      YSDALQQVFIVGLAMSCVGVVGTSCMEWKNILKKPAPPAGPPAGAPTESAPVETKAAGH
                      T"
+                     /Pfam="MFS_1"
      CDS             complement(join(15105..16426,16532..16754))
                      /codon_start=1
                      /locus_tag="CPUR_05423"
                      /product="FAD-dependent monooxygenase CPUR_05423"
-                     /label=CPUR_05423
+                     /label="CPUR_05423"
                      /note="CP_05423.1"
                      /protein_id="CCE31570.1"
                      /translation="MVDKFLIETDQNEFQPNLWKNGDSDRLPNRCPETQLNVLVVGAGP
@@ -143,11 +149,12 @@ FEATURES             Location/Qualifiers
                      NLRREWTSKSGRVVQAGDAAHSSIPASISGGTLALEDAVTLASCLHLSCSSAGSKGAPL
                      GARIYNLLRYQRVSCVQKMSFVNAEGLSGSSMEDAIKENPESVRVRFPRWLYRHDPEAY
                      VYEKYGQAFAHLVEGTDFENTNLPPGHTFEPWTIEQIHKDMMAGKRVADFLDGDWS"
+                     /Pfam="FAD_binding_3"
      CDS             17237..18190
                      /codon_start=1
                      /locus_tag="CPUR_05424"
                      /product="methyltransferase CPUR_05424"
-                     /label=CPUR_05424
+                     /label="CPUR_05424"
                      /note="CP_05424.1"
                      /protein_id="CCE31571.1"
                      /translation="MESTIPAKPDFSNKVFAKDERFWLNYLEGRPTAPKSFFDRIYRYH
@@ -156,31 +163,34 @@ FEATURES             Location/Qualifiers
                      EIYTRIGRAGARLLLKTLDDPERLLRAMDRTDGTYNVAPLDEKLFMPGAQRVDLNMPER
                      GMLSPLPPEMEVTERDESHTRPSDVLIQEEEDEWKFSMNIGQIKAHIESFPFGKDVATE
                      LSPLWREMENLVQDRRIDGHWPAKIILATRADASVE"
+                     /Pfam="Methyltransf_11"
      CDS             join(18667..18873,19072..19326)
                      /codon_start=1
                      /locus_tag="CPUR_05425"
                      /product="isomerase CPUR_05425"
-                     /label=CPUR_05425
+                     /label="CPUR_05425"
                      /note="CP_05425.1"
                      /protein_id="CCE31572.1"
                      /translation="MPAPAEVQQATLSKFVDAWKRWNADDFIGLWSDSFTFKVLPLSDG
                      KPTRPRDKVAPLYRNLIGTLTDYKLDVKHIVHDASKGKACIYAVASANAPCGDYKNEQA
                      IFITFSESGDKIESMEEMNDNAFRKEWDPKYHAYHGYGQPPTAKAAAGS"
+                     /Pfam="Trt14"
      CDS             join(19840..20046,20365..20577)
                      /codon_start=1
                      /locus_tag="CPUR_05426"
                      /product="isomerase CPUR_05426"
-                     /label=CPUR_05426
+                     /label="CPUR_05426"
                      /note="CP_05426.1"
                      /protein_id="CCE31573.1"
                      /translation="MPAPVEIQQATLSKFIDAWKRWNADDFIGLWSDSFTFQVLPFSDG
                      KPTRPRDMIAPMYRNFIETLTNYKACIYAVASANAPCGDYNNEQAIFIAFSESGDKIER
                      LEEVNDNAFRKEWDPKCHAYWGYGQPPKAKAVAGS"
+                     /Pfam="Trt14"
      CDS             21203..22567
                      /codon_start=1
                      /locus_tag="CPUR_05427"
                      /product="dioxygenase CPUR_05427"
-                     /label=CPUR_05427
+                     /label="CPUR_05427"
                      /note="CP_05427.1"
                      /protein_id="CCE31574.1"
                      /translation="MASTTGTEATPSRISLSQDHLGILHDVKVNTASIEIANSLLQKNH
@@ -191,21 +201,23 @@ FEATURES             Location/Qualifiers
                      TCAYVAASSQRSGRKRKIDFFYMHMVTSSLFFSVIGEQDWIPLNDRIRMVEWKARLDVA
                      WYVVCGCADIQQLALTAYNDPVTDGMGWEELYAAVVKEHDDGHVSKMIRALKNGQEAAR
                      PFENGPYRNAFPLHGDMWLKAARMTLGTTTGCDEDTKFVMFTGFDIPWETRPDLQ"
+                     /Pfam="Questin_oxidase"
      CDS             complement(join(23127..23480,23589..23686,23749..23773))
                      /codon_start=1
                      /locus_tag="CPUR_05428"
                      /product="dehydratase CPUR_05428"
-                     /label=CPUR_05428
+                     /label="CPUR_05428"
                      /note="CP_05428.1"
                      /protein_id="CCE31575.1"
                      /translation="MSKTPSYEDATACQAALFEWAESYDLKDWNRLSKCIAPTLQIDYR
                      AVFGQFWEAMPADEFVGMISSPGFLGNPLIKTQHFVGMTRWTQTSEDSVTGRHQMRVAH
                      QKYADAQMKEVVLKGHGHGGATTWFRKVDGDWKFAGIEPEIRWAEFDLDKIFAE"
+                     /Pfam="Scytalone_dh"
      CDS             join(24195..24527,24688..25014,25104..25238)
                      /codon_start=1
                      /locus_tag="CPUR_05429"
                      /product="short-chain dehydrogenase/reductase CPUR_05429"
-                     /label=CPUR_05429
+                     /label="CPUR_05429"
                      /note="CP_05429.1"
                      /protein_id="CCE31576.1"
                      /translation="MSETHIPYRLDGKIALVTGSGRGIGAAMAVELGRLGAKVVVNYVN
@@ -213,11 +225,12 @@ FEATURES             Location/Qualifiers
                      HFGDVTEEEFDRVFSLNTRGQFFVAREAYRHLNNGGRIILMSSNTAKDLSVPKHSLYSG
                      SKGAIDSFVRIFSKDAGDKKITVNAVAPGGTVTDMFHSCSQHYIPGGDKYTAEERQAMA
                      AHASPLTRNGFPLDIAKVVCFLASDEAEWVNGKVLTLDGGAA"
+                     /Pfam="adh_short_C2"
      CDS             28399..29175
                      /codon_start=1
                      /locus_tag="CPUR_05430"
                      /product="short-chain dehydrogenase/reductase CPUR_05430"
-                     /label=CPUR_05430
+                     /label="CPUR_05430"
                      /note="CP_05430.1"
                      /protein_id="CCE31577.1"
                      /translation="MASYAVLGATGNCGSALIQLLLQRPDASIHAFCRNKPKLIGLLPE
@@ -225,11 +238,12 @@ FEATURES             Location/Qualifiers
                      LHREDSGSTGPPPKIILLSSATLDDTLSRKTPYLLRQILHMSASHIYNDLAETEKLLRA
                      EQEWLTTVFVKPGALSVDEQRGHALSFVESDNPVSYLDLAAAMIEAADDTTDKYDMKNI
                      GVVNTNGAARFPTGTPLCIATGLLRHFVPSLHPYLP"
+                     /Pfam="NAD_binding_10"
      CDS             29771..31294
                      /codon_start=1
                      /locus_tag="CPUR_05431"
                      /product="FAD-dependent monooxygenase CPUR_05431"
-                     /label=CPUR_05431
+                     /label="CPUR_05431"
                      /note="CP_05431.1"
                      /protein_id="CCE31578.1"
                      /translation="MANSSVYADVIVVGAGPVGLFVACELALHDVSVIVLERDADSDNV
@@ -241,11 +255,12 @@ FEATURES             Location/Qualifiers
                      QRERQPEGAWTLDWSRSQVVIMRPDPAGKAISRLVTEYMATDDGTTFFVNKIWGISRRY
                      DLVGAQAHPLVGCSVPDFQFEDGSYLGSKLHEGKFMTVDFSGSKLLEEATDLVQPWVGY
                      LSCSVKDRLGMNALLLRPDGVVAWVAEDEVKVDSWKAALSQWIVLPGEA"
+                     /Pfam="FAD_binding_3"
      CDS             complement(join(31710..32255,32508..33029,33188..33523))
                      /codon_start=1
                      /locus_tag="CPUR_05432"
                      /product="transcriptional coactivator CPUR_05432"
-                     /label=CPUR_05432
+                     /label="CPUR_05432"
                      /note="CP_05432.1"
                      /protein_id="CCE31579.1"
                      /translation="MEKLAALKKLPSILRPLLTSKSSYHRVPSDRPTIMDAATSEQLHG
@@ -257,11 +272,12 @@ FEATURES             Location/Qualifiers
                      SPQSVTNAAVYVLHLPSSVPSQILTELQVHLPALRMSNGVMLIMSGRVLPGQDEPIRAR
                      HAAVAHARGLIMYQMSNEVEMDLSSLLQMLDTVRDSTGKLVLVHKLRSCSGMTVAVVVK
                      YQLMAGGAS"
+                     /Pfam="MdpA"
      CDS             35131..36597
                      /codon_start=1
                      /locus_tag="CPUR_05433"
                      /product="transcription factor CPUR_05433"
-                     /label=CPUR_05433
+                     /label="CPUR_05433"
                      /note="CP_05433.1"
                      /protein_id="CCE31580.1"
                      /translation="MDHSIGGRNCQSGGTTASAPRSTGSDEFPSKLRETCHACSLSKVR
@@ -273,33 +289,36 @@ FEATURES             Location/Qualifiers
                      CQENVYLLTCMSMIVFKVLRRYEMAAGQSISAGVLDMHEAARPRHGDLDRDSLRRAAAQ
                      LVLGELHLVQQLVSRLSRRLQLSMDKTPNDGADSELSDSTLATRVFTLDEDDKADTSAF
                      SAATLSQMDHDLRKGLARLSSNIINMLRRL"
+                     /Pfam="EqxR, Zn_clus, AflR"
      CDS             complement(join(36822..36873,36964..37160,37402..37578))
                      /codon_start=1
                      /locus_tag="CPUR_05434"
                      /product="decarboxylase CPUR_05434"
-                     /label=CPUR_05434
+                     /label="CPUR_05434"
                      /note="CP_05434.1"
                      /protein_id="CCE31581.1"
                      /translation="MKMGMAKHSPRNKEYLCLTICGYRKEGMSEEAYRNHMVNVSAPMT
                      KDLMVKYGIRRWTQIHNQNATRALMAELFDPQMCRLADFDCFSQVVFDNIEDYKRMKQD
                      PWYKKHLMHDHEMFADTKRSMMTIGWIKEFVVDGKAV"
+                     /Pfam="EthD"
      CDS             join(38486..38552,38629..39086)
                      /codon_start=1
                      /locus_tag="CPUR_05435"
                      /product="anthrone oxygenase CPUR_05435"
-                     /label=CPUR_05435
+                     /label="CPUR_05435"
                      /note="CP_05435.1"
                      /protein_id="CCE31582.1"
                      /translation="MLRGFAPTGVHVVALASGVFLSGAMFSVSAIMIPTLLDTNKEPAG
                      LTTQWARLYHYGSVLMPSMSVAIAAVYGFASTQYRQSPQGMRCLAAGALTLAIAPYTWL
                      AMIPTNNALFAMAASAPGFAGMQDANEKARDLVMKWVVLHSIRSILPLAGAIMGFTGIS
                      SGQEGVVGSAN"
+                     /Pfam="Anthrone_oxy"
      CDS             complement(join(39327..40097,40196..40357))
                      /codon_start=1
                      /locus_tag="CPUR_05436"
-                     /product="metallo-beta-lactamase-like thioesterase 
+                     /product="metallo-beta-lactamase-like thioesterase
                      CPUR_05436"
-                     /label=CPUR_05436
+                     /label="CPUR_05436"
                      /note="CP_05436.1"
                      /protein_id="CCE31583.1"
                      /translation="MAGDKGGYRQINSSLNICAFEDYLKSQTDNLPELPDVEQITPRVL
@@ -308,11 +327,12 @@ FEATURES             Location/Qualifiers
                      DHMCFILEEEQAMFTGDNILGHGTSAVEDLGTFMASMQRMLDQRCLTGYSAHGAVIADL
                      PGKIRTELANKRRREKQILLALGRVRQRRQKSITVEDLVTEIYGESMDESTRTLALTPF
                      TDEVLRKLAGDFKVAFEVRAGKRRWYSVE"
+                     /Pfam="Lactamase_B"
      CDS             join(41511..41866,41993..43397,43495..45888,45976..47247)
                      /codon_start=1
                      /locus_tag="CPUR_05437"
                      /product="polyketide synthase CPUR_05437"
-                     /label=CPUR_05437
+                     /label="CPUR_05437"
                      /note="CP_05437.1"
                      /protein_id="CCE31584.1"
                      /translation="MAIYTPNKSSDANSESSSLRVIFFGNELPNDDLQTHFRRLHTRSK
@@ -346,6 +366,7 @@ FEATURES             Location/Qualifiers
                      VWGIEFRRYPRLLLSRFFSAPGKSSTTTTTKASVSAPVKSKPVETKLSAASKPPTVAQT
                      GIPPEQKPAPEVQPVTTNSPATAAAAPASTQAADTDTVSAKALRLIANEAALDLSQLED
                      DAGFAELGIDSLMSLVIAEKFKIELDVKVGGSLFLDYPTIGDLRKWLEEYYS"
+                     /Pfam="SAT2, PKS_KS, PKS_AT, fPKS_PT, ACP_PCP"
 ORIGIN
         1 tcaagttgaa gtattagcag gaggaggccg cccggccgcc gctcccggat tctccaaagc
        61 ccacttctta aacttgggct tgaactcggc catgaaggca gtatcgaaaa gctcttcgat

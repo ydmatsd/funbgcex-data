@@ -1,24 +1,24 @@
-LOCUS       FBGC00019       17042 bp DNA     linear   UNA 14-JAN-2023
+LOCUS       FBGC00019              17042 bp    DNA     linear   UNA 14-JAN-2023
 DEFINITION  chevalone E.
 ACCESSION   FBGC00019
-VERSION     .
+VERSION     FBGC00019
 KEYWORDS    .
 SOURCE      Aspergillus versicolor 0312
   ORGANISM  Aspergillus versicolor 0312
+            .
 REFERENCE   1  (bases 1 to 17042)
-  AUTHORS   Wang W-G., Du L-Q., Sheng S-L., Li A, Li Y-P., Cheng G-G., Li G-P., 
+  AUTHORS   Wang W-G., Du L-Q., Sheng S-L., Li A, Li Y-P., Cheng G-G., Li G-P.,
             Sun G, Hu Q, Matsuda Y.
-  TITLE     Genome Mining for Fungal Polyketide-Diterpenoid Hybrids: Discovery 
-            of Key Terpene Cyclases and Multifunctional P450s for Structural 
+  TITLE     Genome Mining for Fungal Polyketide-Diterpenoid Hybrids: Discovery
+            of Key Terpene Cyclases and Multifunctional P450s for Structural
             Diversification
   JOURNAL   Org Chem Front 2019;6:571-578
 REFERENCE   2  (bases 1 to 17042)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Jan 14, 2023 from SnapGene 6.2.0
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1039/C8QO01124A"; journalName: "Org Chem Front"; date: "2019"; 
+  JOURNAL   Exported Jan 14, 2023 from SnapGene 6.2.0 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1039/C8QO01124A"; journalName: "Org Chem Front"; date: "2019";
             volume: "6"; pages: "571-578"
 FEATURES             Location/Qualifiers
      source          1..17042
@@ -31,7 +31,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="cle1"
                      /product="polyketide synthase Cle1"
-                     /label=cle1
+                     /label="cle1"
                      /protein_id="BBG28471.1"
                      /translation="MSSSIPSVIVCGSQTIPPSRETLDNLASYLTKSPNPELKAVREVL
                      LALPELWAELKATEPQFQALSDEPIITFRDWFLRHDTGSEYEDNIYNLSHLKIHERLPN
@@ -64,11 +64,12 @@ FEATURES             Location/Qualifiers
                      SLAIMEIEARIREVFNVDIRISPVDMGSTVEIICERITAQTSPSHGLVNVVGNSTSNTT
                      SSSSQCTPSSSFESDSDTQATELSLSAPTMEKVARVVATHVGSGEAVLSSSRLHSLGLD
                      SLAVLELQSDLHVNFGVRVHLMQLDCSTTIGDLHALVMRRGVRENIYNGAV"
+                     /Pfam="SAT2, PKS_KS, PKS_AT, fPKS_PT, ACP_PCP"
      CDS             join(6017..6482,6550..6618,6679..7335,7398..7840)
                      /codon_start=1
                      /gene="cle2"
                      /product="cytochrome P450 monooxygenase Cle2"
-                     /label=cle2
+                     /label="cle2"
                      /protein_id="BBG28472.1"
                      /translation="MLQTQLQLQLQGVSIFHQLGLLIGLSLILSITWTAYTILSPYLRV
                      KGKRIFNDRGRSELLWTGARKRFQAGARDLFKSAFAQNPDAFYIMTDTDVELILNSKYA
@@ -80,12 +81,13 @@ FEATURES             Location/Qualifiers
                      MVRTTTSPVTFTDGLQVPPNTRTLVSCHNMWTDAVHANAAEFDGYRFLKLRQKPGQENW
                      TQLVSTSNNHLGFGHGMHACPGRFFAATTAKVLLAHVVLKYDLKLLDDQKPDIIEHGAA
                      QYANVWCGIGVRRRKEEIDLACPMATV"
+                     /Pfam="p450"
      CDS             complement(join(8161..8634,8683..9053,9106..9383,
                      9444..9796))
                      /codon_start=1
                      /gene="cle3"
                      /product="FAD-dependent monooxygenase Cle3"
-                     /label=cle3
+                     /label="cle3"
                      /protein_id="BBG28473.1"
                      /translation="MYRVRSMESTATSSPSSSLMVHPTNFRVIIVGGSIAGLTLAHCLS
                      KIGVDYVILEKRQQIAPQEGASIGILPHGGRILDQLGLFNAIQRNVEPLTTAHISYPNG
@@ -96,12 +98,13 @@ FEATURES             Location/Qualifiers
                      QGANCAIEDAAALANAIHGAIEHVDRPSMAEVQSFLRSFNESRLPRVREIYKSASVVVR
                      LHARENLALRLVGRYYLPYSGDVPANTASKLIADGVQLSFLAPSLHSGPGWEKYSMKNG
                      VAKSTVVWTSLGILGLVVFLFLLFRVRARFSSF"
+                     /Pfam="FAD_binding_3"
      CDS             join(10464..10646,10705..10812,10864..11032,11086..11676,
                      11735..12174)
                      /codon_start=1
                      /gene="cle4"
                      /product="cytochrome P450 monooxygenase Cle4"
-                     /label=cle4
+                     /label="cle4"
                      /protein_id="BBG28474.1"
                      /translation="MTVFDIFTSSTFFTSPFPLTVGILSISLSGVLWYLRRAKAPTQAD
                      APPVYPFDPTTLDRKECKPPILTFGNSMILPNRYAHEIRNNDLLSFRDGLEKDFLTTVP
@@ -112,11 +115,12 @@ FEATURES             Location/Qualifiers
                      ETQRLEPLASFTLSRIAREGVTLNDGTRVPKGTQARLTTDNMWNSGIYPEAARFDGYRF
                      VKLRDQDTATGASSGGLSFVSVSANHMGFGYGKHACPGRFFAGAETKIALCHILLKYDL
                      ELVDRELAGAKTDGMMIWRDKRAMLRVKRRSDDIGLEF"
+                     /Pfam="p450"
      CDS             complement(join(12299..12869,12934..13228,13289..13388))
                      /codon_start=1
                      /gene="cle5"
                      /product="UbiA-like prenyltransferase Cle5"
-                     /label=cle5
+                     /label="cle5"
                      /protein_id="BBG28475.1"
                      /translation="MTYKQRNTNQLAIDLITLSRFNRYNPLLATFSGVWATILAGSHKI
                      THSPNSVTSEYVLSQALLCFICSFVFCGAGMVWNDWIDLHIDRQVARTKGRPLARGAVT
@@ -124,12 +128,13 @@ FEATURES             Location/Qualifiers
                      LLGFTLAYPSLIGTLAIKPEGNAQPLWASINQSLPMFVTVFTWTLYLNTAYSYQDVVDD
                      QKMNVNSAYVLAGSYIHHLLVVLAVLVLGAVGWQLYGQESQWLWGGWMGVWTWSFLGQL
                      VRFDKSRPESGGPLHKENFALGVWTVFVCVVELLIGGNGC"
+                     /Pfam="UbiA_PT"
      CDS             complement(join(14480..14876,14938..15267,15342..15496,
                      15542..15802))
                      /codon_start=1
                      /gene="cle6"
                      /product="geranylgeranyl pyrophosphate synthase Cle6"
-                     /label=cle6
+                     /label="cle6"
                      /protein_id="BBG28476.1"
                      /translation="MHSVRTSTTSTSSMVSSTMHPFDAFNAPQPYQQHHPPRWNIHNPH
                      FSQTNGHSIQKTPSMIKLHSSEGTVPTTNGADTLHQRNMEEKIISAPLHYITGLPGKDI
@@ -138,17 +143,19 @@ FEATURES             Location/Qualifiers
                      LDMVANKTGGLFRLAIKLIQLESDVEDDCVPLVDLLGIIFQIRDDYQNLQNEQYAKNKG
                      FAEDITEGKFSYPIVHSIRSGAANCSSGSSELMNILRQKTDDEAVKRYTICILEKTGSF
                      EYTRRKLTELMAAARAMLAEFGSAEAAGLGGILDFLELKE"
+                     /Pfam="GGPS"
      CDS             join(16260..16786,16841..17042)
                      /codon_start=1
                      /gene="cle7"
                      /product="terpene cyclase Cle7"
-                     /label=cle7
+                     /label="cle7"
                      /protein_id="BBG28477.1"
                      /translation="MEEGWDFDSSPPSFKQVQPLLLTLFSLSGTGWLINYITTIRTAYR
                      DRTPGVSLVALTNNLAWELVFAILHPPPLPVAKVILRSWLFVDIFVIYTTAKFARSSSI
                      SSNAPLLHRYLHLFVLFGILGFFSGHWALSVLLSPIKAFYWSGMMCLVVMSGTALGILV
                      QRGHTRGMSYGMWFSRFVGSIFAVASLFLRSTYWPQVWGWSDNILMRWFAGAFVVLDGL
                      YGVCFWYTRRVEQRQRDKVA"
+                     /Pfam="Pyr4"
 ORIGIN
         1 ctagacagcc ccgttatata tattctcacg cacgccacga cgcataacca acgcatgcaa
        61 atcaccgatt gtagtgctgc agtcaagctg catcaaatga actctcaccc cgaagttgac

@@ -1,24 +1,24 @@
-LOCUS       FBGC00016       33002 bp DNA     linear   UNA 14-JAN-2023
+LOCUS       FBGC00016              33002 bp    DNA     linear   UNA 14-JAN-2023
 DEFINITION  novofumigatonin.
 ACCESSION   FBGC00016
-VERSION     .
+VERSION     FBGC00016
 KEYWORDS    .
 SOURCE      Aspergillus novofumigatus IBT 16806
   ORGANISM  Aspergillus novofumigatus IBT 16806
+            .
 REFERENCE   1  (bases 1 to 33002)
-  AUTHORS   Matsuda Y, Bai T, Phippen CBW, Nødvig CS, Kjærbølling I, Vesth TC, 
+  AUTHORS   Matsuda Y, Bai T, Phippen CBW, Nødvig CS, Kjærbølling I, Vesth TC,
             Andersen MR, Mortensen UH, Gotfredsen CH, Abe I, Larsen TO.
-  TITLE     Novofumigatonin biosynthesis involves a non-heme iron-dependent 
+  TITLE     Novofumigatonin biosynthesis involves a non-heme iron-dependent
             endoperoxide isomerase for orthoester formation.
   JOURNAL   Nat Commun 2018;9:2587
-  PUBMED    29968715
+   PUBMED   29968715
 REFERENCE   2  (bases 1 to 33002)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Jan 14, 2023 from SnapGene 6.2.0
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1038/s41467-018-04983-2"; journalName: "Nat Commun"; date: 
+  JOURNAL   Exported Jan 14, 2023 from SnapGene 6.2.0 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1038/s41467-018-04983-2"; journalName: "Nat Commun"; date:
             "2018"; volume: "9"; pages: "2587"
 FEATURES             Location/Qualifiers
      source          1..33002
@@ -33,7 +33,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="P174DRAFT_455569"
                      /product="polyketide synthase NvfA"
-                     /label=nvfA
+                     /label="nvfA"
                      /db_xref="GeneID:36536660"
                      /db_xref="InterPro:IPR006163"
                      /db_xref="InterPro:IPR013217"
@@ -84,11 +84,13 @@ FEATURES             Location/Qualifiers
                      DIAPPDEVYNIWDAVNDTPITSYNPPSTKHAPGGWMSTSDPRSRIALYMNWRGQTLPVL
                      LHGWNYKNILMTGSQDLPRPTAIEIQQICPTWQISAGHYRTPTFMIHGGLDDLIPLEQV
                      KRTFATMIANGVEAELRALDDSVHLFDISPTFTHHPQEMKAVADGYKFLSDRVQF"
+                     /Pfam="SAT2, PKS_KS, PKS_AT, fPKS_PT, ACP_PCP, HTH_51,
+                     PKS_NRPS_MT, BD-FAE"
      CDS             9189..10139
                      /codon_start=1
                      /locus_tag="P174DRAFT_425997"
                      /product="UbiA-like prenyltransferase NvfB"
-                     /label=nvfB
+                     /label="nvfB"
                      /db_xref="GeneID:36532663"
                      /db_xref="InterPro:IPR000537"
                      /db_xref="JGIDB:Aspnov1_425997"
@@ -99,12 +101,13 @@ FEATURES             Location/Qualifiers
                      QLILVNIGWAIPMSMHSLGLDPLAYKKPTFFMFLFIALVIVMIDVVYSRQDTEEDMKVG
                      VKSMAVRFKHSIELLSYAFFYASTGALLAAGYYSGLGIPFTVLSVGGHFGGFLYFLKTT
                      GVGKAPQVESYAKLACLIASLFWVVGLFVEYYLRV"
+                     /Pfam="UbiA_PT"
      CDS             complement(join(10501..10727,10781..10867,10932..11370,
                      11425..11445))
                      /codon_start=1
                      /locus_tag="P174DRAFT_465152"
                      /product="short-chain dehydrogenase/reductase NvfC"
-                     /label=nvfC
+                     /label="nvfC"
                      /db_xref="GeneID:36537833"
                      /db_xref="InterPro:IPR002198"
                      /db_xref="JGIDB:Aspnov1_465152"
@@ -114,11 +117,12 @@ FEATURES             Location/Qualifiers
                      SCIAINLTAPVKLMREVIPIMRQQKSGSIVNVASKAALSGAVSGVAYTASKHGLVGATK
                      NVAWRFKQENIRCNAVCPGAVDGTSIHRGLETSQFDSEALGTMSLIHEAHMRDRERGIH
                      IQPEDIARSLLFLVSSRSNGINGAIIPIDNAWSTI"
+                     /Pfam="adh_short_C2"
      CDS             complement(join(12668..13012,13121..13528))
                      /codon_start=1
                      /locus_tag="P174DRAFT_465151"
                      /product="alpha/beta hydrolase-like epimerase NvfD"
-                     /label=nvfD
+                     /label="nvfD"
                      /db_xref="GeneID:36537832"
                      /db_xref="JGIDB:Aspnov1_465151"
                      /protein_id="XP_024677079.1"
@@ -127,11 +131,12 @@ FEATURES             Location/Qualifiers
                      LIYMCAIAVPVGESLTGQLEPRTPQEVEAFREEGSISLLDADKVRDVLYNKCEPKVADW
                      AISLLGKQPVTTMSTPATHAAWLEIPSTYLICEDDLAVPECVQLRMAKQGNGAFDIVRC
                      QEGHAPCLSNPDLVVRMIRNAAGEAIEI"
+                     /Pfam="Abhydrolase_6"
      CDS             join(14238..14466,14586..15340)
                      /codon_start=1
                      /locus_tag="P174DRAFT_334013"
                      /product="nonheme iron-dependent isomerase NvfE"
-                     /label=nvfE
+                     /label="nvfE"
                      /db_xref="GeneID:36529004"
                      /db_xref="InterPro:IPR008775"
                      /db_xref="JGIDB:Aspnov1_334013"
@@ -142,11 +147,12 @@ FEATURES             Location/Qualifiers
                      AASEYTVGRDISMSMFLALTESTRENGTTRFFPGSHLWDYSQDFPSADDTRIRYAELHP
                      GDCYFMLSSVTHSSTDNRSTNRPRVLAATIVTRSHLRQEENQYLTYDPITVGRFPTWLQ
                      RLVGYAPSAPFLGWVDKRDPRCVIDPKAADDHCGGEYYETNEETLN"
+                     /Pfam="PhyH"
      CDS             complement(15911..16807)
                      /codon_start=1
                      /locus_tag="P174DRAFT_425993"
                      /product="2OG-Fe(II)-dependent dioxygenase NvfF"
-                     /label=nvfF
+                     /label="nvfF"
                      /db_xref="GeneID:36532662"
                      /db_xref="InterPro:IPR008775"
                      /db_xref="JGIDB:Aspnov1_425993"
@@ -157,12 +163,13 @@ FEATURES             Location/Qualifiers
                      TDFTKTNGATRFVWGSHRDWIDKSDENHPIVVAEVKAGDSLFFSGKIVHGGSFNGTNDT
                      YRSSVALPIVPCIMTPYEANIHIPRSTVETMTPLAQRMIGWRSACLPDPYAIGTWTLNM
                      NELGEQMGLKSKGYLEN"
+                     /Pfam="PhyH"
      CDS             complement(join(18658..18959,19022..19121,19188..19360,
                      19422..19608,19679..19945))
                      /codon_start=1
                      /locus_tag="P174DRAFT_465148"
                      /product="short-chain dehydrogenase/reductase NvfG"
-                     /label=nvfG
+                     /label="nvfG"
                      /db_xref="GeneID:36537831"
                      /db_xref="InterPro:IPR001509"
                      /db_xref="JGIDB:Aspnov1_465148"
@@ -174,11 +181,12 @@ FEATURES             Location/Qualifiers
                      MREIVGLLQGKPTKMFEFVPPWFINTEDVARLHVIALLKPEVSSQRIFACASPFTWKEV
                      VSILRELDPSNTLIPDAPDENRRPCHVIPATEAERLIQDFFGRNGFTSLRDSLASAVTK
                      SA"
+                     /Pfam="Epimerase"
      CDS             complement(20971..22956)
                      /codon_start=1
                      /locus_tag="P174DRAFT_425991"
                      /product="FAD-dependent monooxygenase NvfH"
-                     /label=nvfH
+                     /label="nvfH"
                      /db_xref="GeneID:36532661"
                      /db_xref="JGIDB:Aspnov1_425991"
                      /protein_id="XP_024677075.1"
@@ -194,12 +202,13 @@ FEATURES             Location/Qualifiers
                      ITRDFPNLFFPGPSQAGTCLNHTYTLDQLATHVAYIISKTLIKIGAADAGYSPRVVIEP
                      TKEAEEDWAVQVLARAATHGALSQCTPGYYNRDGMASAMKSLSMEDKMKLGRMVSWGEG
                      IGSYMDQIVNWRGQGELRGLEIHCVD"
+                     /Pfam="Pyr_redox_2"
      CDS             join(23933..24331,24384..24397,24450..24536,24592..24830,
                      24914..25011)
                      /codon_start=1
                      /locus_tag="P174DRAFT_436154"
                      /product="2OG-Fe(II)-dependent dioxygenase NvfI"
-                     /label=nvfI
+                     /label="nvfI"
                      /db_xref="GeneID:36533310"
                      /db_xref="JGIDB:Aspnov1_436154"
                      /protein_id="XP_024677074.1"
@@ -208,12 +217,13 @@ FEATURES             Location/Qualifiers
                      TGADHVVCFSPYTRKENSEKGIFGQPARTVHCDHTPAAAIELTHKLCGEDAVRLLQSRF
                      RAFSVWRPLVEPVLDWPLAVVDGRTIAPDDLHPVHWLRYEKKDTEPPFQLSFSETQKWY
                      YLSRQRSDEVSIVKNYDSEVVPSPRSAHCAFKHPFVPKDAPPRESIDVRCLVFGGR"
+                     /Pfam="NvfI"
      CDS             complement(join(25811..26314,26395..26541,26602..26622,
                      26675..26839))
                      /codon_start=1
                      /locus_tag="P174DRAFT_425989"
                      /product="methyltransferase NvfJ"
-                     /label=nvfJ
+                     /label="nvfJ"
                      /db_xref="GeneID:36532660"
                      /db_xref="JGIDB:Aspnov1_425989"
                      /protein_id="XP_024677073.1"
@@ -222,11 +232,12 @@ FEATURES             Location/Qualifiers
                      GQELRQLVYDGAPSDNLYGSDLHNGLMHLGYDLFRDVSTLKSRFIATNILEGNSDLISQ
                      LSGQMNIIYSSLFFHLFDWDQSLVIAKHVLRLLSLQPGSMITGRFVAYRDWNFAKEKLG
                      STLRFYFDLSSWTQLWKQVEVDTGSKLNIEHWEQSDNMLTDNGIGGYMLCFAITRQ"
+                     /Pfam="Trt5"
      CDS             join(27633..27925,27980..28251,28311..28681,28755..29231)
                      /codon_start=1
                      /locus_tag="P174DRAFT_473479"
                      /product="FAD-dependent monooxygenase NvfK"
-                     /label=nvfK
+                     /label="nvfK"
                      /db_xref="GeneID:36537960"
                      /db_xref="InterPro:IPR002938"
                      /db_xref="JGIDB:Aspnov1_473479"
@@ -240,11 +251,12 @@ FEATURES             Location/Qualifiers
                      IQAIKQPSDLTVNRMLENFEAIRYPRMEKIYRRSKFGVRMHTRDDLFKRILGRYVIPLT
                      KDRLAVMASQLIVDGAVLDFLPQPKRRSGPGWPKPGNCRDGQNGHKRIQYILMSIVLVA
                      PAWVYIFSSLVW"
+                     /Pfam="FAD_binding_3"
      CDS             complement(join(29634..29847,29907..30424))
                      /codon_start=1
                      /locus_tag="P174DRAFT_380360"
                      /product="terpene cyclase NvfL"
-                     /label=nvfL
+                     /label="nvfL"
                      /db_xref="GeneID:36530296"
                      /db_xref="JGIDB:Aspnov1_380360"
                      /protein_id="XP_024677071.1"
@@ -253,11 +265,12 @@ FEATURES             Location/Qualifiers
                      APLVQRNLPFIFAVGISAMIAGHLALAAQIGPRIAFVWSAKGCQLVLSTGALSQLLSRG
                      STRGGSYVVWLSRYLGTVFIDVMVTIRHVYRAAGPSWPSSPLLLWFMAVFHLLDWTYGF
                      CFYHIRRQELVSEAAEKDKDK"
+                     /Pfam="Pyr4"
      CDS             join(31810..31911,31964..32248,32313..32645,32739..33002)
                      /codon_start=1
                      /locus_tag="P174DRAFT_436150"
                      /product="short-chain dehydrogenase/reductase NvfM"
-                     /label=nvfM
+                     /label="nvfM"
                      /db_xref="GeneID:36533309"
                      /db_xref="InterPro:IPR008030"
                      /db_xref="JGIDB:Aspnov1_436150"
@@ -268,6 +281,7 @@ FEATURES             Location/Qualifiers
                      RTEHALPFGMPDLPIALDGNIPSGLTHIRDIGRYIARIILDPRTVNKKVFVYNELYTQN
                      QLCDLVERLTGEMPQRRYISEKCVQSWLQEALDELERNPSSDIALGVVSLREVFLASNV
                      HGTNTPEYAKYLGYLDGKELYPDFTFLTYEDYVEEVLDGMHSQTVA"
+                     /Pfam="NmrA"
 ORIGIN
         1 atggaacctt cggacaccga aagatgcgat gttgggatcc tgttcggacc acagtcttct
        61 gacatggacg aggcgctgtc ctgcatacgg agctatgttc tggaacagcc ggcagtgcga

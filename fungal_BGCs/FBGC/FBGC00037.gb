@@ -1,23 +1,23 @@
-LOCUS       FBGC00037       13783 bp DNA     linear   UNA 14-JAN-2023
+LOCUS       FBGC00037              13783 bp    DNA     linear   UNA 14-JAN-2023
 DEFINITION  duricamidepside.
 ACCESSION   FBGC00037
-VERSION     .
+VERSION     FBGC00037
 KEYWORDS    .
 SOURCE      Aspergillus duricaulis CBS 481.65
   ORGANISM  Aspergillus duricaulis CBS 481.65
+            .
 REFERENCE   1  (bases 1 to 13783)
   AUTHORS   Chen L, Wei X, Matsuda Y.
   TITLE     Depside Bond Formation by the Starter-Unit Acyltransferase Domain of
             a Fungal Polyketide Synthase.
   JOURNAL   J Am Chem Soc 2022;144:19225-19230
-  PUBMED    36223511
+   PUBMED   36223511
 REFERENCE   2  (bases 1 to 13783)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Jan 14, 2023 from SnapGene 6.2.0
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1021/jacs.2c08585"; journalName: "J Am Chem Soc"; date: "2022"; 
+  JOURNAL   Exported Jan 14, 2023 from SnapGene 6.2.0 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1021/jacs.2c08585"; journalName: "J Am Chem Soc"; date: "2022";
             volume: "144"; pages: "19225-19230"
 FEATURES             Location/Qualifiers
      source          1..13783
@@ -27,14 +27,14 @@ FEATURES             Location/Qualifiers
                      7799..8428))
                      /codon_start=1
                      /product="polyketide synthase DrcA"
-                     /label=drcA
-                     /label=jgi.p|Aspdur1|273691
+                     /label="drcA"
+                     /label="jgi.p|Aspdur1|273691"
                      /note="/ID=CDS_11595"
                      /note="/Parent=mRNA_11595"
-                     /note="/frame=[complement(24089..24565): 
+                     /note="/frame=[complement(24089..24565):
                      0,complement(24618..24700): 2, complement(24763..25128): 2,
-                     complement(25189..25354): 0, complement(27212..27826): 0, 
-                     complement(27869..28037): 1, complement(28086..28465): 0, 
+                     complement(25189..25354): 0, complement(27212..27826): 0,
+                     complement(27869..28037): 1, complement(28086..28465): 0,
                      complement(28505..31285): 0]"
                      /note="/source=prediction"
                      /translation="MASPWSSNPLPSLAIFGPQSKTPSPRYLSELRSYIRSKAVLVPLV
@@ -84,11 +84,13 @@ FEATURES             Location/Qualifiers
                      LSLLLNGFTGSLNRLQPPTTIQIQSISPLAHVRDGSYSTPTFIIHGEKDEVVPCQMSVS
                      LIEEMKARGLDGEVLVVPHRRHLFDLTLKPGDAQWEKWIEPGYQFLFRHLLVEGTGANS
                      T"
+                     /Pfam="SAT2, PKS_KS, PKS_AT, fPKS_PT, ACP_PCP, HTH_51,
+                     PKS_NRPS_MT, Abhydrolase_3, Peptidase_S9"
      CDS             join(9501..9992,10061..13783)
                      /codon_start=1
                      /product="nonribosomal peptide synthetase DrcB"
-                     /label=drcB
-                     /label=jgi.p|Aspdur1|268566
+                     /label="drcB"
+                     /label="jgi.p|Aspdur1|268566"
                      /note="/ID=CDS_11596"
                      /note="/Parent=mRNA_11596"
                      /note="/frame=[33589..34080: 0, 34149..37871: 0]"
@@ -118,6 +120,7 @@ FEATURES             Location/Qualifiers
                      VLQRYCEVIQRLQSDVDAPLSSLIGSEVISFAPRTVTSHTILPFVKATWQEVLFRDGDD
                      TENISMSTPFYEVWGDLAGATALCQVYRRRGFDVSVEDVVDNPTVEMQAQLLASRPMLN
                      GV"
+                     /Pfam="NRPS_C, AA-adenyl-dom, ACP_PCP, NRPS_CT"
 ORIGIN
         1 tcaagtactg ttggcacctg taccctccac taataggtgc ctaaacaaga attgatatcc
        61 aggctctatc cacttctccc actgggcatc ccccggtttc aatgtcagat caaagagatg

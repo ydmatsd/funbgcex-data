@@ -1,23 +1,23 @@
-LOCUS       FBGC00035       13631 bp DNA     linear   UNA 14-JAN-2023
+LOCUS       FBGC00035              13631 bp    DNA     linear   UNA 14-JAN-2023
 DEFINITION  insuetusin B13.
 ACCESSION   FBGC00035
-VERSION     .
+VERSION     FBGC00035
 KEYWORDS    .
 SOURCE      Aspergillus insuetus CBS 107.25
   ORGANISM  Aspergillus insuetus CBS 107.25
+            .
 REFERENCE   1  (bases 1 to 13631)
   AUTHORS   Tang J, Matsuda Y.
-  TITLE     Discovery of branching meroterpenoid biosynthetic pathways in 
-            Aspergillus insuetus: involvement of two terpene cyclases with 
+  TITLE     Discovery of branching meroterpenoid biosynthetic pathways in
+            Aspergillus insuetus: involvement of two terpene cyclases with
             distinct cyclization modes.
   JOURNAL   Chem Sci 2022;13:10361-10369
-  PUBMED    36277653
+   PUBMED   36277653
 REFERENCE   2  (bases 1 to 13631)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Jan 14, 2023 from SnapGene 6.2.0
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
+  JOURNAL   Exported Jan 14, 2023 from SnapGene 6.2.0 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
             "10.1039/d2sc02994d"; journalName: "Chem Sci"; date: "2022"; volume:
             "13"; pages: "10361-10369"
 FEATURES             Location/Qualifiers
@@ -27,11 +27,11 @@ FEATURES             Location/Qualifiers
      CDS             complement(join(1..1359,1428..1655))
                      /codon_start=1
                      /product="acetyltransferase InsB1"
-                     /label=insB1
-                     /label=jgi.p|Aspins1|315383
+                     /label="insB1"
+                     /label="jgi.p|Aspins1|315383"
                      /note="/ID=CDS_17165"
                      /note="/Parent=mRNA_17165"
-                     /note="/frame=[complement(882..2240): 
+                     /note="/frame=[complement(882..2240):
                      0,complement(2309..2536): 0]"
                      /note="/source=prediction"
                      /translation="MDQLRWVLGCPAQRRTKVPTDTIIPLPRIPAYYFHSVEVLFKFDQ
@@ -44,14 +44,15 @@ FEATURES             Location/Qualifiers
                      EQIAARCAWAKKAGLTAAIGSPNMLHFILTNWNKGGYFHLDFAPAVVPQCRRRGDGVPP
                      CSSDGHLDRGIPCTPSGVFSIGPFSQMVPNCGAILGRDCQNNWWMQWILPKSVWPEIER
                      HLQAINSGSDN"
+                     /Pfam="CalD"
      CDS             complement(join(2219..2429,2477..2985))
                      /codon_start=1
                      /product="terpene cyclase InsB2"
-                     /label=insB2
-                     /label=jgi.p|Aspins1|315384
+                     /label="insB2"
+                     /label="jgi.p|Aspins1|315384"
                      /note="/ID=CDS_17166"
                      /note="/Parent=mRNA_17166"
-                     /note="/frame=[complement(3100..3310): 
+                     /note="/frame=[complement(3100..3310):
                      1,complement(3358..3728): 0]"
                      /note="/source=prediction"
                      /translation="MSASDVFIGPWDLHTIDISLRWVAFICWSLNYISLLGTAIRDRTP
@@ -59,16 +60,17 @@ FEATURES             Location/Qualifiers
                      VKKNLPLVYVALTFGFGAAQMALANEIGPDLGFFFGGVFCQTLLIFSHLCQLLSRGSTR
                      GASYSIWFFRCVGFIAGFSKLILLDLHGHNEVPWLGSPICWFYMAASVVLDIIYPVCLY
                      FMRREEQSGEQRKNKVD"
+                     /Pfam="Pyr4"
      CDS             complement(join(3632..3858,3914..4000,4068..4506,
                      4566..4586))
                      /codon_start=1
                      /product="short-chain dehydrogenase/reductase InsB3"
-                     /label=insB3
-                     /label=jgi.p|Aspins1|315385
+                     /label="insB3"
+                     /label="jgi.p|Aspins1|315385"
                      /note="/ID=CDS_17167"
                      /note="/Parent=mRNA_17167"
-                     /note="/frame=[complement(4513..4739): 
-                     2,complement(4795..4881): 2, complement(4949..5387): 0, 
+                     /note="/frame=[complement(4513..4739):
+                     2,complement(4795..4881): 2, complement(4949..5387): 0,
                      complement(5447..5467): 0]"
                      /note="/source=prediction"
                      /translation="MALLDDYVLIITGPSSGIGLATATAALRDGARVFGVDICPAPSSL
@@ -76,11 +78,12 @@ FEATURES             Location/Qualifiers
                      RCIAVNLTAPTMLMREVISVMRKQQRGSIVNVSSKAGFSGAVAGAAYTASKHGLIGVTK
                      NVAWRFKLEGIRCNAVCPGGVYETGIQNSANQAALDKEATNTMQLIYQAHGVDRESGLD
                      VKVESVAECLLYLASSRSAGINGAIVPIDNAWCTI"
+                     /Pfam="adh_short"
      CDS             5225..6160
                      /codon_start=1
                      /product="2OG-Fe(II)-dependent dioxygenase InsB4"
-                     /label=insB4
-                     /label=jgi.p|Aspins1|315386
+                     /label="insB4"
+                     /label="jgi.p|Aspins1|315386"
                      /note="/ID=CDS_17168"
                      /note="/Parent=mRNA_17168"
                      /note="/frame=[6106..7041: 0]"
@@ -91,16 +94,17 @@ FEATURES             Location/Qualifiers
                      TAANGATRLVPGSHRWADFSGYAELDREKIDTIPLEMNPGDCFIMSSKLLHGAGHNSTV
                      AENRRGLAISVIRHDLAPNQAYALTLPRHIVDSLSYRAQGLYGFRSAHWVGDSTSYIVW
                      AAEEGDVGERLGLTARDMKTEAELKSSCNQ"
-     CDS             complement(join(6737..6834,6909..7150,7205..7291,7351..7364,
-                     7490..7888))
+                     /Pfam="PhyH"
+     CDS             complement(join(6737..6834,6909..7150,7205..7291,
+                     7351..7364,7490..7888))
                      /codon_start=1
                      /product="2OG-Fe(II)-dependent dioxygenase InsB5"
-                     /label=insB5
-                     /label=jgi.p|Aspins1|315387
+                     /label="insB5"
+                     /label="jgi.p|Aspins1|315387"
                      /note="/ID=CDS_17169"
                      /note="/Parent=mRNA_17169"
-                     /note="/frame=[complement(7618..7715): 
-                     2,complement(7790..8031): 1, complement(8086..8172): 1, 
+                     /note="/frame=[complement(7618..7715):
+                     2,complement(7790..8031): 1, complement(8086..8172): 1,
                      complement(8232..8245): 0, complement(8371..8769): 0]"
                      /note="/source=prediction"
                      /translation="MEQREALIQSEMTFLEPWQSQNKVPVFRPYDPPGSAQGNIKLSPY
@@ -108,15 +112,16 @@ FEATURES             Location/Qualifiers
                      TGAERVLCFSPSIRNSATSKDILSRPGSIVHCDQSPDGVVRVIQAFCGDEADHLLQGRY
                      RSFSVWRPTVGPVADWPLAVADGKTIDPAHLQEVKWIVDGCDESSPGPCQLSYSADQRW
                      YYLDGQCTDEVTIVKNYDSADVPVKQTAHGSFSKPSPSLIPRARESIDVRCLVFGGM"
+                     /Pfam="NvfI"
      CDS             complement(join(9048..9701,9757..10569,10643..10963))
                      /codon_start=1
                      /product="major facilitator superfamily transporter InsB6"
-                     /label=insB6
-                     /label=jgi.p|Aspins1|317435
+                     /label="insB6"
+                     /label="jgi.p|Aspins1|317435"
                      /note="/ID=CDS_17170"
                      /note="/Parent=mRNA_17170"
-                     /note="/frame=[complement(9929..10582): 
-                     0,complement(10638..11450): 0, complement(11524..11844): 
+                     /note="/frame=[complement(9929..10582):
+                     0,complement(10638..11450): 0, complement(11524..11844):
                      0]"
                      /note="/source=prediction"
                      /translation="MKGLTRHAGSALLKYQSQHLDSTARLNSPAEAELNDYPCSERDSI
@@ -130,14 +135,15 @@ FEATURES             Location/Qualifiers
                      YGIGIGTGMTLPIVVMQTALAAADISTGTALISFTQTFSGALFNFVAQNVFQSQVLHNY
                      SQSDADLGRYSAGLLESGPGVLRSLIPSDSLPAALEAYNGAIIRTFYVALGLSAVAILG
                      APPIQWLSVKEKRMQAAAA"
+                     /Pfam="MFS_1"
      CDS             join(12362..12472,12533..12817,12904..13236,13344..13631)
                      /codon_start=1
                      /product="short-chain dehydrogenase/reductase InsB7"
-                     /label=insB7
-                     /label=jgi.p|Aspins1|300868
+                     /label="insB7"
+                     /label="jgi.p|Aspins1|300868"
                      /note="/ID=CDS_17171"
                      /note="/Parent=mRNA_17171"
-                     /note="/frame=[13243..13353: 0, 13414..13698: 0, 
+                     /note="/frame=[13243..13353: 0, 13414..13698: 0,
                      13785..14117:0, 14225..14512: 0]"
                      /note="/source=prediction"
                      /translation="MTITNHKSRIRVAIIGASGVTGDSIVNALLAHPDGQFNVAALVRP
@@ -146,6 +152,7 @@ FEATURES             Location/Qualifiers
                      PSGRTEHALPCGSMDLPIADLGNVPSCLTHIRDVGRYIARIITDQRTLNKKVFVYNEAL
                      TQNQVYEIIECVSDERPKRTYISEKDIRIWREEAQREVQKNSSDVVALGQLCLRDVFLA
                      SNVNGYNTPEYAEYLGYLSGKELYPDFEYLTYEDYVQEVLEGKHGEDVVTYRTKQLK"
+                     /Pfam="NmrA"
 ORIGIN
         1 tcagttgtcc gagccgctgt tgatcgcttg caggtgccgt tcaatctcgg gccagacaga
        61 ctttggcaga atccactgca tccaccagtt attttggcag tctctgccca ggatcgcgcc

@@ -1,10 +1,11 @@
-LOCUS       FBGC00005       30400 bp DNA     linear   CON 14-JAN-2023
+LOCUS       FBGC00005              30400 bp    DNA     linear   CON 14-JAN-2023
 DEFINITION  andrastin A.
 ACCESSION   FBGC00005
-VERSION     .
+VERSION     FBGC00005
 KEYWORDS    .
 SOURCE      Penicillium rubens Wisconsin 54-1255
   ORGANISM  Penicillium rubens Wisconsin 54-1255
+            .
 REFERENCE   1  (bases 1 to 30400)
   AUTHORS   Matsuda, Y., Awakawa, T., Abe, I.
   TITLE     Reconstituted biosynthesis of fungal meroterpenoid andrastin A.
@@ -12,10 +13,9 @@ REFERENCE   1  (bases 1 to 30400)
 REFERENCE   2  (bases 1 to 30400)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Jan 14, 2023 from SnapGene 6.2.0
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1016/j.tet.2013.07.029"; journalName: "Tetrahedron Lett"; date: 
+  JOURNAL   Exported Jan 14, 2023 from SnapGene 6.2.0 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1016/j.tet.2013.07.029"; journalName: "Tetrahedron Lett"; date:
             "2013"; volume: "69"; pages: "8199-8204"
 FEATURES             Location/Qualifiers
      source          1..30400
@@ -29,7 +29,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="Pc22g22820"
                      /product="cytochrome P450 monooxygenase AdrA"
-                     /label=adrA
+                     /label="adrA"
                      /note="Pc22g22820"
                      /db_xref="GI:255950818"
                      /db_xref="GeneID:8309008"
@@ -46,12 +46,13 @@ FEATURES             Location/Qualifiers
                      KDGSWDKSTMYKLKLMDSVIKESQRVKPMAIAKMARCAEEDVKLSDGTIIPKGEIILVS
                      CSKMWDANVYPDPNTFDPHRFLKMRQPGSDQESFAQLVSPSPEHMGFGFGKHACPGRFF
                      AAAELKVALCHIIMKYDFKVADGCNPQVLKSGMRLAADPFAKIAIRRRQEEVTF"
+                     /Pfam="p450"
      CDS             complement(join(1923..2054,2340..2381,2460..2538,
                      2696..3084))
                      /codon_start=1
                      /locus_tag="Pc22g22830"
                      /product="hypothetical protein AdrB"
-                     /label=adrB
+                     /label="adrB"
                      /db_xref="GI:255950820"
                      /db_xref="GeneID:8309009"
                      /protein_id="XP_002566177.1"
@@ -59,12 +60,12 @@ FEATURES             Location/Qualifiers
                      FFNGRRSYAVNNRGAKPEKERTLRLNIEITPVESQGCNQLPTPATFEFRIPHSHFFNWS
                      VELYFHNAVLPSYRCHFCPRPSLVLRTHAISAEYSWLAVDITLGLNRHHNIAVEYVKYI
                      KHLEVGKDIICQLLYLSGYFLYVVPLSIPTKYSKYVSQCTVDPYREAGGF"
-     CDS             complement(join(4407..5172,5229..5629,5705..6352,6417..8217,
-                     8307..9019))
+     CDS             complement(join(4407..5172,5229..5629,5705..6352,
+                     6417..8217,8307..9019))
                      /codon_start=1
                      /locus_tag="Pc22g22840"
                      /product="ABC transporter AdrC"
-                     /label=adrC
+                     /label="adrC"
                      /note="Pc22g22840"
                      /db_xref="GI:255950822"
                      /db_xref="GeneID:8309010"
@@ -98,13 +99,14 @@ FEATURES             Location/Qualifiers
                      MMATFTFLLCLLFNGIMQPPSALPRFWIFMNRVSPLTYYVGGISATALHGRPIHCSNRE
                      LRVFDPPQGQTCGQYLAEYLKTAQGTLHNPLSSDRCQYCPLRVADQYLAARDISWHDRW
                      RNFGVFSVYIIFNIIGAIGLYYLVRVLPYAMKNRTQKSPT"
+                     /Pfam="ABC_tran, ABC2_membrane_7, ABC2_membrane, PDR_CDR"
      CDS             join(10451..11050,11165..12256,12354..12729,12789..13543,
                      13639..17377,17452..18380)
                      /codon_start=1
                      /exception="reasons given in citation"
                      /locus_tag="Pc22g22850"
                      /product="polyketide synthase AdrD"
-                     /label=adrD
+                     /label="adrD"
                      /note="Pc22g22850"
                      /db_xref="GI:255950824"
                      /db_xref="GeneID:8309011"
@@ -157,12 +159,14 @@ FEATURES             Location/Qualifiers
                      PANQNALGGWMSPADPRSRIALHMNWKGQSLPMLLHGGHFWSAHKDGDCGEDLPVPTLK
                      EIQAVSPLAQIRNGCYKTPTFIIHGTLDDLIPVEQAQRTSQELVTKGVEVELRIVDKAV
                      HLFDIYPGFEKDHAAAQAVQDGYEFLRDHVRY"
+                     /Pfam="SAT2, PKS_KS, PKS_AT, fPKS_PT, ACP_PCP, HTH_51,
+                     PKS_NRPS_MT, Abhydrolase_3, Peptidase_S9"
      CDS             complement(join(18703..19004,19060..19159,19233..19387,
                      19467..19650,19713..19982))
                      /codon_start=1
                      /locus_tag="Pc22g22860"
                      /product="ketoreductase AdrE"
-                     /label=adrE
+                     /label="adrE"
                      /note="Pc22g22860"
                      /db_xref="GI:255950826"
                      /db_xref="GeneID:8309012"
@@ -177,11 +181,12 @@ FEATURES             Location/Qualifiers
                      GGTTVPIYRACKVEGERQAWKWVEKNQPHFELNTVLPWLTLGKILHPNIGGSTMGYVSG
                      LLKGDTTPFKFLPLPWFVDVEDTARLHAIALISPSVRSERLFAAATPFIWGDVIEILKR
                      IQPNNARIPAAPVKEEPTIGDIVPAARAEKLLRETFGQRGWTPLEVSLEGGIARE"
+                     /Pfam="Epimerase"
      CDS             join(20714..20734,20792..21227,21288..21374,21439..21662)
                      /codon_start=1
                      /locus_tag="Pc22g22870"
                      /product="short-chain dehydrogenase/reductase AdrF"
-                     /label=adrF
+                     /label="adrF"
                      /note="Pc22g22870"
                      /db_xref="GI:255950828"
                      /db_xref="GeneID:8309013"
@@ -194,11 +199,12 @@ FEATURES             Location/Qualifiers
                      CIAINLTAPVKLMREVIPIMRQQKSGSIVNVGSKAATSGAASGVAYTASKHGLMGATKN
                      VAWRYKQEGIRCNAVCPGGVPTGIVQASDPTTWDKDALATMSHIHQAHAADRQEGLGVE
                      AEDIANCLLFLVSSQSKRINGAIIPVDNAWSVI"
+                     /Pfam="adh_short_C2"
      CDS             complement(join(21769..21865,21961..22841))
                      /codon_start=1
                      /locus_tag="Pc22g22880"
                      /product="UbiA-like prenyltransferase AdrG"
-                     /label=adrG
+                     /label="adrG"
                      /note="Pc22g22880"
                      /db_xref="GI:255950830"
                      /db_xref="GeneID:8309014"
@@ -213,12 +219,13 @@ FEATURES             Location/Qualifiers
                      QITLMNIGWAVPMAMHSLGLDPLSQMTPTVCMFLFIGSVIIMIDVIYSRQDTEEDLKVG
                      VKSMAVRFRDSIQLLSYSLLCASTGFLAMAGVLTGLGLPFFVLSVGGHFCGFWVLLRAT
                      QVGKSSGVESYAKYNMPKQAFRPRPETSCATWLLSTSRNEMGRA"
+                     /Pfam="UbiA_PT"
      CDS             complement(join(23548..24027,24096..24466,24615..24814,
                      24886..25190))
                      /codon_start=1
                      /locus_tag="Pc22g22890"
                      /product="FAD-dependent monooxygenase AdrH"
-                     /label=adrH
+                     /label="adrH"
                      /note="Pc22g22890"
                      /db_xref="GI:255950832"
                      /db_xref="GeneID:8309015"
@@ -236,11 +243,12 @@ FEATURES             Location/Qualifiers
                      RIVILGDSVHKMTPNIGQGANTAIEDVAVLASLINRMIHADDLNKPSESCIETMLQEYK
                      SLRYEPAKSTYQRSRFGARFHTRDSWLKAVVGRYVFQYVGGLIENRTIKTLAGGDTIDF
                      LPRPDRLETGRVAQFQKSEESPQRQWTLLWVSSLALFLFFPWLGSYLHSTIS"
+                     /Pfam="FAD_binding_3"
      CDS             complement(join(25712..25943,26003..26514))
                      /codon_start=1
                      /locus_tag="Pc22g22900"
                      /product="terpene cyclase AdrI"
-                     /label=adrI
+                     /label="adrI"
                      /note="Pc22g22900"
                      /db_xref="GI:255950834"
                      /db_xref="GeneID:8309016"
@@ -250,11 +258,12 @@ FEATURES             Location/Qualifiers
                      YFPLIQRNLYFLYGIVTIGFAIGQYSFAREVGPDLGFFYGGVLCQTLASLGPIAQILSR
                      NSTRGASLLLRAVATFGGFIKLTIYYLTGNAAGPWFESPMCKFYIGLTLILDFTYPICY
                      YVIRRQELVNDEGDKKKKTKSGKAA"
+                     /Pfam="Pyr4"
      CDS             complement(join(27315..28579,28642..28870))
                      /codon_start=1
                      /locus_tag="Pc22g22910"
                      /product="acetyltransferase AdrJ"
-                     /label=adrJ
+                     /label="adrJ"
                      /note="Pc22g22910"
                      /db_xref="GI:255950836"
                      /db_xref="GeneID:8309017"
@@ -268,12 +277,13 @@ FEATURES             Location/Qualifiers
                      NALCMSPTFLQGQQIADEPLGQIALRIRESVAEQRTPEQVEAMTALQMQTMEKTGYLAL
                      VGDPRMMLLSCSNWHKARLFDMDFSPAVLQSSAQSSSQNTQKKGKPSYVNGVQHSENSF
                      RNVLSVIGKDAGRNWWLTGVLRTDAWAHVEEQVHKLGSS"
+                     /Pfam="CalD"
      CDS             complement(join(29341..29847,29943..30089,30169..30186,
                      30239..30400))
                      /codon_start=1
                      /locus_tag="Pc22g22920"
                      /product="methyltransferase AdrK"
-                     /label=adrK
+                     /label="adrK"
                      /note="Pc22g22920"
                      /db_xref="GI:255950838"
                      /db_xref="GeneID:8309018"
@@ -283,6 +293,7 @@ FEATURES             Location/Qualifiers
                      ELRQLIYDGAPSQNLYGSDLRPEFLELGLDLFMDRPTIKSRFIDADVLDDKSALVTQLT
                      GELNIVYISLFLHVFDFDTQIKVAKRALELLAPKAGSLIVCRVVACRDQAIGNATNARL
                      PYYYHDLASWNRLWERVQEETGLKLKVDNWEQDDALAKKHPLEGIYMLGSSIRRE"
+                     /Pfam="Trt5"
 ORIGIN
         1 tcagaaagtg acctcctctt gccgtcttct aatagcaatt ttggcaaatg ggtctgccgc
        61 aagtcgcatt ccggacttca gaacctgtgg attacatccg tctgccacct taaagtcgta

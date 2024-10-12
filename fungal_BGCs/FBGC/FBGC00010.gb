@@ -1,23 +1,23 @@
-LOCUS       FBGC00010       19545 bp DNA     linear   UNA 13-MAY-2023
+LOCUS       FBGC00010              19545 bp    DNA     linear   UNA 13-MAY-2023
 DEFINITION  LL-Z1272beta.
 ACCESSION   FBGC00010
-VERSION     .
+VERSION     FBGC00010
 KEYWORDS    .
 SOURCE      Stachybotrys bisbyi PYH05-7
   ORGANISM  Stachybotrys bisbyi PYH05-7
+            .
 REFERENCE   1  (bases 1 to 19545)
   AUTHORS   Li C, Matsuda Y, Gao H, Hu D, Yao XS, Abe I.
-  TITLE     Biosynthesis of LL-Z1272-beta: Discovery of a New Member of 
+  TITLE     Biosynthesis of LL-Z1272-beta: Discovery of a New Member of
             NRPS-like Enzymes for Aryl-Aldehyde Formation.
   JOURNAL   ChemBioChem 2016;17:904-7
-  PUBMED    26972702
+   PUBMED   26972702
 REFERENCE   2  (bases 1 to 19545)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported May 13, 2023 from SnapGene 6.2.2
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1002/cbic.201600087"; journalName: "ChemBioChem"; date: "2016"; 
+  JOURNAL   Exported May 13, 2023 from SnapGene 6.2.2 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1002/cbic.201600087"; journalName: "ChemBioChem"; date: "2016";
             volume: "17"; pages: "904-7"
 FEATURES             Location/Qualifiers
      source          1..19545
@@ -32,7 +32,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="stbA"
                      /product="polyketide synthase StbA"
-                     /label=stbA
+                     /label="stbA"
                      /protein_id="BAV19379.1"
                      /translation="MARPTTSAAIFSPQNSPPKRSYLAYIRSKLVDDRTLAPLLQAILS
                      LPETWRSLVAARADMADMIEAPRLVQSFVDWINTGSTDILESELAAIVTLPLLTIIHMV
@@ -72,11 +72,12 @@ FEATURES             Location/Qualifiers
                      AQIRETLPNTVAVSHSFNALDTTKLGWLQPSDPRSELTLALIKEENGMSLLFNGLPEKG
                      EQLPRADPARCAYFSPLTQVRAGNYNNIPTFMIFGEEDEVAPFRKGVEFGQALKEAGIR
                      GGFHAVKGGKHIFDLALTPGSQGWAEHIAPGYDFIFTELENATRGQYILPS"
+                     /Pfam="SAT2, PKS_KS, PKS_AT, fPKS_PT, ACP_PCP, BD-FAE"
      CDS             complement(join(12156..12560,12632..15037,15099..15461))
                      /codon_start=1
                      /gene="stbB"
                      /product="NRPS-like carboxylic acid reductase StbB"
-                     /label=stbB
+                     /label="stbB"
                      /protein_id="BAV19380.1"
                      /translation="MGSLGSSQLKPFNKAPIDFVSTKRQPGAVCSLPELVDYNAQHNAS
                      HNFCIQGKPGGEFDTFTHADFKVAAANCAKWLKANLPLGASQAPNAITKNAPVALFMES
@@ -97,11 +98,12 @@ FEATURES             Location/Qualifiers
                      DDAAQYIMDLSFFEGALPIASHLENPVRQSWADLMDGAGKFLGIQKSVSWPEWLELAGA
                      AEDGPQDKYPVKKLFAFFKFSFGPMASGAVILGTDVARAHSATIKNMGALDASTIMKYF
                      LHWQKINYL"
+                     /Pfam="AA-adenyl-dom, ACP_PCP, fPKS_R"
      CDS             18544..19545
                      /codon_start=1
                      /gene="stbC"
                      /product="UbiA-like prenyltransferase StbC"
-                     /label=stbC
+                     /label="stbC"
                      /protein_id="BAV19381.1"
                      /translation="MPATRTPIHPEAAAYKNPRYQSGPLSVIPKSFVPYCELMRLELPH
                      GNFLGYFPHLVGLLYGSSASPARLPANEVAFQAVLYIGWTFFMRGAGCAWNDVVDQDFD
@@ -109,6 +111,7 @@ FEATURES             Location/Qualifiers
                      CKRVTNFAQVILGMTLAINFILAAYGAGLPAIEAPYTVPTICVTTAITLLVVFYDVVYA
                      RQDTADDLKSGVKGMAVLFRNYVEILLTSITLVIAGLIATTGVLVDNGPYFFVFSVAGL
                      LAALLAMIGGIRYRIFHTWNSYSGWFYALAIFNLLGGYLIEYLDQVPMLNKA"
+                     /Pfam="UbiA_PT"
 ORIGIN
         1 tcatgatgga agaatgtact ggccactgag aaagatgtta gcagctgttg cggtgcattg
        61 cagaagaaga gaaggaggag cgtacaatta ccgagtggca ttctcgagct cagtgaagat

@@ -1,24 +1,24 @@
-LOCUS       FBGC00002       19917 bp DNA     linear   CON 28-APR-2023
+LOCUS       FBGC00002              19917 bp    DNA     linear   CON 28-APR-2023
 DEFINITION  austinol.
 ACCESSION   FBGC00002
-VERSION     .
+VERSION     FBGC00002
 KEYWORDS    .
 SOURCE      Aspergillus nidulans FGSC A4
   ORGANISM  Aspergillus nidulans FGSC A4
+            .
 REFERENCE   1  (bases 1 to 19917)
   AUTHORS   Lo HC, Entwistle R, Guo CJ, Ahuja M, Szewczyk E, Hung JH, Chiang YM,
             Oakley BR, Wang CC.
-  TITLE     Two separate gene clusters encode the biosynthetic pathway for the 
+  TITLE     Two separate gene clusters encode the biosynthetic pathway for the
             meroterpenoids austinol and dehydroaustinol in Aspergillus nidulans.
   JOURNAL   J Am Chem Soc 2012;134:4709-20
-  PUBMED    22329759
+   PUBMED   22329759
 REFERENCE   2  (bases 1 to 19917)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Apr 28, 2023 from SnapGene 6.2.2
-            https://www.snapgene.com
+  JOURNAL   Exported Apr 28, 2023 from SnapGene 6.2.2 https://www.snapgene.com
 COMMENT     SGRef: number: 1; type: "Journal Article"; doi: "10.1021/ja209809t";
-            journalName: "J Am Chem Soc"; date: "2012"; volume: "134"; pages: 
+            journalName: "J Am Chem Soc"; date: "2012"; volume: "134"; pages:
             "4709-20"
 FEATURES             Location/Qualifiers
      source          1..19917
@@ -30,7 +30,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="AN8379.2"
                      /product="FAD-dependent monooxygenase AusB"
-                     /label=ausB
+                     /label="ausB"
                      /db_xref="GI:40747743"
                      /protein_id="EAA66899.1"
                      /translation="MGTSEETRSKQTKGSNDDILSAKIAGRVARPVYHCTSARLHDLAY
@@ -45,22 +45,24 @@ FEATURES             Location/Qualifiers
                      AGVTANQSYMFDRAAEHVAYIIQNSTLEAGGYIDKIRIEPTAEGEKHWTTQSVARISAF
                      AATTACGTGDYTISNRYRSSDVDTMARHMPWGEGMASYVKILEAWRESGTMEGLDIRYH
                      SSEGSR"
+                     /Pfam="Pyr_redox_2, NAD_binding_8"
      CDS             complement(join(2515..2661,2695..2703,2790..2955,
                      3060..3193))
                      /codon_start=1
                      /locus_tag="AN8380.2"
                      /product="truncated terpene cyclase AN8380"
-                     /label=AN8380.2
+                     /label="AN8380.2"
                      /db_xref="GI:40747744"
                      /protein_id="EAA66900.1"
                      /translation="MRTTLNDQLLSSSFMSICCDVGWESVYAFIYPISSSHWAGGICAC
                      GNSWVHGRSSSIGPWNWPRSGLPLERRVVPDYGKSWISLSVGLSRQYSRGVTEYLQWPH
                      GGDPWLDSPLCWFYIGITLTLDAIYPTVFFHFRRTESGRDGKEAKGD"
+                     /Pfam="Pyr4"
      CDS             5127..7085
                      /codon_start=1
                      /locus_tag="AN8381.2"
                      /product="FAD-dependent monooxygenase AusC"
-                     /label=ausC
+                     /label="ausC"
                      /db_xref="GI:40747745"
                      /protein_id="EAA66901.1"
                      /translation="MTITPNILEDWRQAKAAAVEAKYEAEREIQLRAHGNVKDIEITRE
@@ -75,11 +77,12 @@ FEATURES             Location/Qualifiers
                      PNLFFAGTSQAGACVNLVYALDQNATHVAYILANAFDRRPSDSARVIIEPTPGSEEAWA
                      MQVLQRAAGFRGIAGCTPGYLNGYGMDASSLSPEQQINAARLAAWGEGIASYVRYLEAW
                      RAKGDLNGIELTFFAKF"
+                     /Pfam="Pyr_redox_2, NAD_binding_8"
      CDS             complement(join(8188..8837,8894..8969))
                      /codon_start=1
                      /locus_tag="AN8382.2"
                      /product="hypothetical protein AN8382"
-                     /label=AN8382.2
+                     /label="AN8382.2"
                      /db_xref="GI:40747848"
                      /protein_id="EAA67004.1"
                      /translation="MKSSTIALLSMLSHGMALPTPQATEDQAPNLDAPTTCSSNPGTAV
@@ -92,7 +95,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="AN8383.2"
                      /product="polyketide synthase AusA"
-                     /label=ausA
+                     /label="ausA"
                      /db_xref="GI:40747849"
                      /protein_id="EAA67005.1"
                      /translation="MGSLDDNTLQQVSVLFGPKYPEVELPAGHIRRYLSNQRNANWLHD
@@ -138,11 +141,13 @@ FEATURES             Location/Qualifiers
                      YMNWTGQTLPVLFYGCNYRARAAESGQDYEVVLPEPILSEVQKVCPFSQISAGSYRAPT
                      FLIHGTLDDLIPVQQAQRTHDKMQACGVDSDLRIVRDGLHLFDLEANFAGNQHAFQAVV
                      DGYEFLRRHVGL"
+                     /Pfam="SAT2, PKS_KS, PKS_AT, fPKS_PT, ACP_PCP, HTH_51,
+                     PKS_NRPS_MT, BD-FAE, Abhydrolase_6"
      CDS             join(18901..19071,19126..19146,19195..19341,19408..19917)
                      /codon_start=1
                      /locus_tag="AN8384.2"
                      /product="methyltransferase AusD"
-                     /label=ausD
+                     /label="ausD"
                      /db_xref="GI:40747850"
                      /protein_id="EAA67006.1"
                      /translation="MIAMQPETQLKTALKNGFDPNILYKDPLTIVKEPMCTILEKHSKI
@@ -151,6 +156,7 @@ FEATURES             Location/Qualifiers
                      FTHLTGKLNIVYISLFLHVFDFEQQITVAGNVLDLLAAEPGSLIVCRVTACRDQGVLNA
                      TAERMPYYYHDRASWEQLWEVVQKRTGVKLCVDTWEQPDELVKKHPLPGIYILGSAIRR
                      V"
+                     /Pfam="Trt5"
 ORIGIN
         1 atgggcacct ctgaagaaac acgatccaaa caaaccaaag ggtcaaacga cgatattttg
        61 agcgcgaaga tagctggaag agttgctcgc cccgtttatc actgcacaag cgcacggctc

@@ -1,34 +1,34 @@
-LOCUS       FBGC00013       39883 bp DNA     linear   UNA 14-JAN-2023
+LOCUS       FBGC00013              39883 bp    DNA     linear   UNA 14-JAN-2023
 DEFINITION  paraherquonin.
 ACCESSION   FBGC00013
-VERSION     .
+VERSION     FBGC00013
 KEYWORDS    .
 SOURCE      Penicillium brasilianum NBRC 6234
   ORGANISM  Penicillium brasilianum NBRC 6234
+            .
 REFERENCE   1  (bases 1 to 39883)
-  AUTHORS   Matsuda Y, Iwabuchi T, Fujimoto T, Awakawa T, Nakashima Y, Mori T, 
+  AUTHORS   Matsuda Y, Iwabuchi T, Fujimoto T, Awakawa T, Nakashima Y, Mori T,
             Zhang H, Hayashi F, Abe I.
-  TITLE     Discovery of Key Dioxygenases that Diverged the Paraherquonin and 
+  TITLE     Discovery of Key Dioxygenases that Diverged the Paraherquonin and
             Acetoxydehydroaustin Pathways in Penicillium brasilianum.
   JOURNAL   J Am Chem Soc 2016;138:12671-7
-  PUBMED    27602587
+   PUBMED   27602587
 REFERENCE   2  (bases 1 to 39883)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Jan 14, 2023 from SnapGene 6.2.0
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1021/jacs.6b08424"; journalName: "J Am Chem Soc"; date: "2016"; 
-            volume: "138"; pages: "12671-7"
+  JOURNAL   Exported Jan 14, 2023 from SnapGene 6.2.0 https://www.snapgene.com
 COMMENT     ##Assembly-Data-START##
             Assembly Method       :: Velvet v. 1.2.08
             Sequencing Technology :: Illumina HiSeq 2000
             ##Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1021/jacs.6b08424"; journalName: "J Am Chem Soc"; date: "2016";
+            volume: "138"; pages: "12671-7"
 FEATURES             Location/Qualifiers
      source          1..39883
                      /strain="NBRC 6234"
                      /mol_type="genomic DNA"
-                     /label=type strain of Penicillium brasilianum
+                     /label="type strain of Penicillium brasilianum"
                      /note="type strain of Penicillium brasilianum"
                      /db_xref="taxon:104259"
                      /culture_collection="NBRC:6234"
@@ -37,7 +37,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="prhA"
                      /product="2OG-Fe(II)-dependent dioxygenase PrhA"
-                     /label=prhA
+                     /label="prhA"
                      /note="2OG-Fe(II)-dependent dioxygenase"
                      /protein_id="BAV69302.1"
                      /translation="MAPMIPPRLQRFPATASADEIFAAFQEDGCVVIEGFISPEQVARF
@@ -46,12 +46,13 @@ FEATURES             Location/Qualifiers
                      NGATRLVPGSHLWPEFTQINERDCPQFGKIETVPAIMQPGDCYLMSGKVIHGAGHNATT
                      TDRRRALALAIIRRELRPMQAFSLSVPMKLAREMSERSQTMFGFRSSVQHCDVDMVHFW
                      GNDGKDIAHHLGLEAPSVHV"
-     CDS             complement(join(1986..2151,2230..2396,2486..2800,2869..3660,
-                     3737..3766))
+                     /Pfam="PhyH"
+     CDS             complement(join(1986..2151,2230..2396,2486..2800,
+                     2869..3660,3737..3766))
                      /codon_start=1
                      /gene="prhB"
                      /product="cytochrome P450 monooxygenase PrhB"
-                     /label=prhB
+                     /label="prhB"
                      /note="putative cytochrome P450 monooxygenase"
                      /protein_id="BAV69303.1"
                      /translation="MFSFGFLITAVVFWVVTKVIYNAYFHPLRRFPGPFLNRATRLAYI
@@ -63,23 +64,25 @@ FEATURES             Location/Qualifiers
                      YLNACINETLRYYSPACNGLPRMVPKGGGYILGEYVPENTTVAVHHWALYHREKYFADP
                      DSFRPERFLGDLEFANDQLKALQPFHVGPRNCLGRTLVYGETRLIFVLLIFHFHLRLAE
                      ESQNWMEQRHWLMWEKSPLMVHLTPREAVLC"
+                     /Pfam="p450"
      CDS             complement(4131..4655)
                      /codon_start=1
                      /gene="prhC"
                      /product="isomerase PrhC"
-                     /label=prhC
+                     /label="prhC"
                      /note="putative isomerase"
                      /protein_id="BAV69304.1"
                      /translation="MASNSTREKLIALAHKFCSIISSGDMEAVLALRTESCLTYQCCPS
                      FSTRPLNNQETREYFEEWKHIGWNSKFWIIDEGTMVVDEAAKKIAFRAACSADTIGGPY
                      ENENLVILQATDDCALVDGIWEFFDAVRKQDLMNRLAAKQAAKGLDSWCANTHSGDDKG
                      VPANNESKVAA"
-     CDS             complement(join(6168..6619,6707..7288,7352..7420,7485..7587,
-                     7669..7785,7868..8080))
+                     /Pfam="Trt14"
+     CDS             complement(join(6168..6619,6707..7288,7352..7420,
+                     7485..7587,7669..7785,7868..8080))
                      /codon_start=1
                      /gene="prhD"
                      /product="cytochrome P450 monooxygenase PrhD"
-                     /label=prhD
+                     /label="prhD"
                      /note="putative cytochrome P450 monooxygenase"
                      /protein_id="BAV69305.1"
                      /translation="MHQLLENLSGNGMGLLIPLGLSWLIWTILLPKQQYRGKLFNDRAR
@@ -91,11 +94,12 @@ FEATURES             Location/Qualifiers
                      QELRLTDSVLKETQRLKPLQTTAFIRLTKEDVVLSDGLEIPKGTPIRISNHHMWDPEVS
                      EYPNADQFDGYRFYKLRQVPGQEQTAQLATVSPSHTGFGLGKHACPGRFFAATATKVIL
                      CKILLDYDLKLLDGQRPKTMWRGDAQVPDPMCQIVVRRRKEEFNLSSLLHDVK"
+                     /Pfam="p450"
      CDS             complement(9044..9994)
                      /codon_start=1
                      /gene="prhE"
                      /product="UbiA-like prenyltransferase PrhE"
-                     /label=prhE
+                     /label="prhE"
                      /note="prenyltransferase"
                      /protein_id="BAV69306.1"
                      /translation="MPTKGDYQPPKDGILSKLPESAVPYGELLRIHRPLGYYLNISPYV
@@ -104,11 +108,12 @@ FEATURES             Location/Qualifiers
                      ILTNIAWAIPMAMSSLDMSPLDFPIPTLAMSFSIASVIVMIDIVYACQDAEEDKKVGAR
                      SMAVRYMEITDQIAYGLFFSGTLSLLVGGILRGLGFPFLIFSVGGHFLGFLRFLRASLG
                      KGAKSALVESQAKSSCLLATMLLVFGLCFEYCVRL"
+                     /Pfam="UbiA_PT"
      CDS             join(10645..10955,11012..11283,11335..11705,11759..12235)
                      /codon_start=1
                      /gene="prhF"
                      /product="FAD-dependent monooxygenase PrhF"
-                     /label=prhF
+                     /label="prhF"
                      /note="flavin-dependent monooxygenase"
                      /protein_id="BAV69307.1"
                      /translation="MSQATVEEKSKLRVIIVGGSVAGLTLAHCLAKANIDHIVLEKRAE
@@ -120,11 +125,12 @@ FEATURES             Location/Qualifiers
                      LNNLSKLSTEDGTSAYAMTKLLDEFQSTRYERAKNTHDKSRFGARLHTRDDMIKTLIGR
                      YVFPYAGPRVLERSVKSLATAHSVEYLPFSKRLGPAWGEYSSRTKSTLGSTPIQMLTLL
                      LPCLFYFMYSKLNLSLSS"
+                     /Pfam="FAD_binding_3"
      CDS             join(12800..13099,13164..13979,14063..14716)
                      /codon_start=1
                      /gene="prhG"
                      /product="major facilitator superfamily transporter PrhG"
-                     /label=prhG
+                     /label="prhG"
                      /note="putative MFS toxin efflux pump"
                      /protein_id="BAV69308.1"
                      /translation="MITESREHLQSKPQNSESIIRLDTPDDRPSLECDSLPSGGHSSKV
@@ -138,11 +144,12 @@ FEATURES             Location/Qualifiers
                      CGGTLSIVAAQTALPPEDISTGTAIVTFTQTLAAAVFNFVAQNVFQNQVLSGLAQSAPG
                      VSAAKLTKAGPTMLREVVPADTLPAVLEVYNTAITRAFYVSVGGAALAIFGSIPLQWLS
                      VKDRKTQAVTAHA"
+                     /Pfam="MFS_1"
      CDS             complement(join(15512..15728,15798..16318))
                      /codon_start=1
                      /gene="prhH"
                      /product="terpene cyclase PrhH"
-                     /label=prhH
+                     /label="prhH"
                      /note="terpene cyclase"
                      /protein_id="BAV69309.1"
                      /translation="MEEPLTVAAIFRDPFNILAISEVLKVVAAVGWSVNYIGMVHRAWK
@@ -150,12 +157,13 @@ FEATURES             Location/Qualifiers
                      HTPLGHRHIVFIYIFVTLVFGAGQYALAAEIGPALGFHWGGALCQFLSSSCGIAQLLSR
                      GHTRGASYLIWFARAISTFAGFIKLCIRFQHNVDGAPWLDSPMCWFYIVTVLSFDAAYP
                      FLYSSMRKLETPALRKESRIKNQ"
+                     /Pfam="Pyr4"
      CDS             complement(join(17520..17746,17841..17927,17989..18427,
                      18517..18537))
                      /codon_start=1
                      /gene="prhI"
                      /product="short-chain dehydrogenase/reductase PrhI"
-                     /label=prhI
+                     /label="prhI"
                      /note="short-chain dehydrogenase"
                      /protein_id="BAV69310.1"
                      /translation="MYNIQDHVVIITGSSSGIGLAASTLALASGAKVFGIDISNSPTSV
@@ -163,11 +171,12 @@ FEATURES             Location/Qualifiers
                      RCIAINLTAPVKLMREVIPIMRLRGKGSIVNVGSKASMSGAVSGIAYTASKHGLVGATK
                      NVAWRFKHEGIRCNIVCPGGVAATGIRDGVDSTQFDSEALEMMSVIHQAHASDHAKGLG
                      LQPEDLAHSLLYFLSDLSKGISGAVIPVDNAWSTI"
+                     /Pfam="adh_short"
      CDS             19311..21236
                      /codon_start=1
                      /gene="prhJ"
                      /product="FAD-dependent monooxygenase PrhJ"
-                     /label=prhJ
+                     /label="prhJ"
                      /note="flavin-dependent monooxygenase"
                      /protein_id="BAV69311.1"
                      /translation="MAIGPKPESIIGSCDHPPQAEAQTGARLAAINGNNSPVSRLKDFT
@@ -182,11 +191,12 @@ FEATURES             Location/Qualifiers
                      TSQAGVTANQSYMFDRAAEHIAYIIQNARPRTAASAVNPKVRIEPSLEAEELWAMETVS
                      RAKAFAATKTCSAGSYTISARLGESVDESQMARHMPWGEGMASYVKILEEWRKKRDMHG
                      LEVVYD"
+                     /Pfam="Pyr_redox_2"
      CDS             22235..24175
                      /codon_start=1
                      /gene="prhK"
                      /product="FAD-dependent monooxygenase PrhK"
-                     /label=prhK
+                     /label="prhK"
                      /note="flavin-dependent monooxygenase"
                      /protein_id="BAV69312.1"
                      /translation="MTISTTALGGGATTATRKQVEAKYEEERQIQLQSRGMVEDIEITR
@@ -201,12 +211,13 @@ FEATURES             Location/Qualifiers
                      FAGTSQAGACVNLTYALDQNAIHVAHILSEAVKRQPSDCTKLVIQPTHEGEEAWTMEIL
                      QRAAGFRGIAGCTPGYLNGYGMDASSLKPEEQMNMARLAAWGEGIASYVDALEGWRSEG
                      QLEGVEMTFFA"
+                     /Pfam="Pyr_redox_2"
      CDS             complement(join(25023..25960,26019..29697,29762..30513,
                      30574..30949,31017..32102,32170..32766))
                      /codon_start=1
                      /gene="prhL"
                      /product="polyketide synthase PrhL"
-                     /label=prhL
+                     /label="prhL"
                      /note="polyketide synthase"
                      /protein_id="BAV69313.1"
                      /translation="MGSLGDLPLNRISVLFGSKYSEIDRSALHIRRYLSTHRAATWLEG
@@ -252,11 +263,13 @@ FEATURES             Location/Qualifiers
                      MNWTGQTLSVLFNGHKYKSLVAIAGGDDNVILPKPTLSEIQKACPLSHVCAGRYKSPTF
                      IIHGTLDDLIPVEQSQRTHDQMLANGVESELRVVADAPHLFDMSPNLKNNKDAFRAVAD
                      GYEFLRSHVRL"
+                     /Pfam="SAT2, PKS_KS, PKS_AT, fPKS_PT, ACP_PCP, HTH_51,
+                     PKS_NRPS_MT, Abhydrolase_3, Abhydrolase_6"
      CDS             join(34147..34308,34368..34388,34453..34599,34672..35181)
                      /codon_start=1
                      /gene="prhM"
                      /product="methyltransferase PrhM"
-                     /label=prhM
+                     /label="prhM"
                      /note="methyltransferase"
                      /protein_id="BAV69314.1"
                      /translation="MHPDAQLKTALKNGFDPKLLYKEPLTTVKEPVCSILEKHSKVPVD
@@ -264,12 +277,13 @@ FEATURES             Location/Qualifiers
                      QELRQLIYDGTPPTNLYGSDIQQDFLSLGYELFLDRAILPDSQLIAADVLDKQSALFQR
                      LAGELNIVYISLFLHVFDFEKQITVAQNVLDLLKAEPGSMIVCRVTACRDQEVLAATQE
                      RMPYYYHDLASWNRLWEEVQKQTGVKLSVESWEQPDELVKKHPLPGIYILGSSIRRL"
+                     /Pfam="Trt5"
      CDS             join(38037..38249,38319..38435,38497..38599,38658..38726,
                      38785..39384,39477..39883)
                      /codon_start=1
                      /gene="prhN"
                      /product="cytochrome P450 monooxygenase PrhN"
-                     /label=prhN
+                     /label="prhN"
                      /note="putative cytochrome P450 monooxygenase"
                      /protein_id="BAV69315.1"
                      /translation="MLSILFDDPARTSSGALLIVGILLLRWALWPAPSSHWPLVNGKRW
@@ -281,6 +295,7 @@ FEATURES             Location/Qualifiers
                      WGKAAFYKLGLMDSVLKETQRLKPVSIATEDVTFSDGLVIPKGSLVMMSCHNMREDSVT
                      YPNPLEFDGHRFRKMRESPTNGAMAHLVSSSQHHMGFGIGTHSCPGRFFIAAGLKLTLS
                      QILLNYDLRLSDPSENVTQNQGLFLMPNFKAKVEVRRREPEIEL"
+                     /Pfam="p450"
 ORIGIN
         1 tcaaacatga acactgggag cttccaaccc aagatgatga gcaatatcct tcccgtcatt
        61 accccagaag tgaaccatat caacatcaca gtgctgcacc gagctgcgga atccgaacat

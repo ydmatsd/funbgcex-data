@@ -1,31 +1,30 @@
-LOCUS       FBGC00022       22725 bp DNA     linear   UNA 08-MAY-2023
+LOCUS       FBGC00022              22725 bp    DNA     linear   UNA 08-MAY-2023
 DEFINITION  gregatin A.
 ACCESSION   FBGC00022
-VERSION     .
+VERSION     FBGC00022
 KEYWORDS    .
 SOURCE      Penicillium sp. sh18
   ORGANISM  Penicillium sp. sh18
+            .
 REFERENCE   1  (bases 1 to 22725)
-  AUTHORS   Wang WG, Wang H, Du LQ, Li M, Chen L, Yu J, Cheng GG, Zhan MT, Hu 
+  AUTHORS   Wang WG, Wang H, Du LQ, Li M, Chen L, Yu J, Cheng GG, Zhan MT, Hu
             QF, Zhang L, Yao M, Matsuda Y.
-  TITLE     Molecular Basis for the Biosynthesis of an Unusual Chain-Fused 
+  TITLE     Molecular Basis for the Biosynthesis of an Unusual Chain-Fused
             Polyketide, Gregatin A.
   JOURNAL   J Am Chem Soc 2020;142:8464-8472
-  PUBMED    32275405
+   PUBMED   32275405
 REFERENCE   2  (bases 1 to 22725)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported May 8, 2023 from SnapGene 6.2.2
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1021/jacs.0c02337"; journalName: "J Am Chem Soc"; date: "2020"; 
-            volume: "142"; pages: "8464-8472"
+  JOURNAL   Exported May 8, 2023 from SnapGene 6.2.2 https://www.snapgene.com
 COMMENT     ##Assembly-Data-START##
-            Sequencing Technology :: Illumina Novaseq and Pacbio platform 
-            Assembly Method       :: GCE v1.0.0, Trimmomatic v0.36, BLESS
-                                     v1.02, LoRDEC v0.6, CANU v1.6, FinisherSC
-                                     v2.1, Pilon v1.22
+            Sequencing Technology :: Illumina Novaseq and Pacbio platform
+            Assembly Method :: GCE v1.0.0, Trimmomatic v0.36, BLESS v1.02,
+            LoRDEC v0.6, CANU v1.6, FinisherSC v2.1, Pilon v1.22
             ##Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1021/jacs.0c02337"; journalName: "J Am Chem Soc"; date: "2020";
+            volume: "142"; pages: "8464-8472"
 FEATURES             Location/Qualifiers
      source          1..22725
                      /strain="sh18"
@@ -38,7 +37,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="grgA"
                      /product="polyketide synthase GrgA"
-                     /label=grgA
+                     /label="grgA"
                      /protein_id="BCA42568.1"
                      /translation="MGSIETEGNPPYFAREPIAIVGSSCRFPGGATSPSKLWELLEKPR
                      DVLQEIPATRFNTKAFHHPDSQHHGSTNVKHAYLLDEDPRAFDRDFFSINPKEAEAMDP
@@ -83,11 +82,13 @@ FEATURES             Location/Qualifiers
                      WRDDPRLSCYIGQQQLQDDSSGEQAAGSVSVKDQLASAEDPAECLVILESCFALSLGNL
                      LEIDPEQLDHNMPVANLGIDSLVAIRIREWFLREMGVDMPVLKIMSDTYSMSRMCDDAL
                      VEWRRLNKS"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_DH, PKS_NRPS_MT, fPKS_KR,
+                     ACP_PCP"
      CDS             join(8199..8719,8778..9312)
                      /codon_start=1
                      /gene="grgB"
                      /product="trans-acting enoylreductase GrgB"
-                     /label=grgB
+                     /label="grgB"
                      /protein_id="BCA42569.1"
                      /translation="MPTTMQALVGAESGGYRLAENVDIPVPQRGSILVQVHAVALNPRD
                      AKIVDFSNAPGSLGGCDFAGTVKKVGEGVTRFKEGDRVLAVTFGSNALDKTKGAFAEFA
@@ -96,11 +97,12 @@ FEATURES             Location/Qualifiers
                      LDCVTDTTTMKMCYEAIGSSGGSYIALETIATTVKYTRRDVRADWFLADAIMGNGVQMA
                      GTYGRAPSPELRRFGKQLFALAENWLHDGSIRHHPLEIQDGGLANMPQALNDMKLGKVH
                      AKKLVVPILGH"
+                     /Pfam="fPKS_ER"
      CDS             join(11862..12021,12122..13176)
                      /codon_start=1
                      /gene="grgC"
                      /product="transcription factor GrgC"
-                     /label=grgC
+                     /label="grgC"
                      /protein_id="BCA42570.1"
                      /translation="MSHRQSCDRCRQQKVRCLRDEALGGESNPVSPGRSSLSPCERCLK
                      AGVDCVYSLKQRSNRRSVQTSIRRDTDPGSRNGSNASWLEQGLARPMYQGGPFLGADLG
@@ -110,12 +112,13 @@ FEATURES             Location/Qualifiers
                      HNRSGQTSDVGPSSVAQFVMVLQLLMHLINRMDRSLFQSTSSMRHGSRISVSTGSHLAP
                      VTPSTANHVTPDPTRIEAAAGSSVPPGGLLVLVQDIVETIPNEHEKLRQVIQKLQTEME
                      HSELH"
+                     /Pfam="EqxR"
      CDS             complement(join(14008..14293,14346..14475,14531..14796,
                      14849..14959,15019..15083))
                      /codon_start=1
                      /gene="grgD"
                      /product="methyltransferase GrgD"
-                     /label=grgD
+                     /label="grgD"
                      /protein_id="BCA42571.1"
                      /translation="MASEKPQESVYYLKPGDEERARLNNQHRVLVHIIENELLHAPIDP
                      STIVKIADVGTGTGIWLDALAAHLDPIPTAIGQPRQYDGLDMSPAHFPAFHPENFHYDV
@@ -123,11 +126,12 @@ FEATURES             Location/Qualifiers
                      AGRVPSAHVREMNELVRKHMETKGMELDVPAAFVKAAEAHPRLQNVSERIFNTIKSGPE
                      LKDDVNSVYLWSCTTSTKMILQASGTPGAEEEFKRLSEGAKADIERDGIFWDSDEHVLL
                      AQKK"
+                     /Pfam="GliN"
      CDS             join(16211..16456,16512..17655,17717..18021)
                      /codon_start=1
                      /gene="grgE"
                      /product="major facilitator superfamily transporter GrgE"
-                     /label=grgE
+                     /label="grgE"
                      /protein_id="BCA42572.1"
                      /translation="MAENQVDPKRNLPLYGAADESTSATDKEDEVENVRQNGSAPPIEE
                      ARESNEAPAADEYPHGLSLFFIVLAIMLATFIISLDQTIVGTAIPKITDQFHGLDKVSW
@@ -139,11 +143,12 @@ FEATURES             Location/Qualifiers
                      VGAAIATIGTGLIYTWDIGTPAGKWIGYQILAAFGFVIPWLIPMNIAQANADAQDMSTV
                      TAYIFLAQTLGGAFSVSAAQSAFVNTMLTKIKTTAPDVDPMALIATGATQIRATFPNDI
                      HGVLLAYMAGLKATFAISVGMVGFACLMGLFTPWNRLHGSAGGAAFA"
+                     /Pfam="MFS_1"
      CDS             join(19048..19167,19235..19357,19427..19566,19682..20183)
                      /codon_start=1
                      /gene="grgF"
                      /product="alpha/beta hydrolase fold protein GrgF"
-                     /label=grgF
+                     /label="grgF"
                      /protein_id="BCA42573.1"
                      /translation="MTASTLPRSDVEFTTLDGLTLRGWLFPASQRGPALIMSPGFNMPK
                      DAILPDIAKWFQEHGITCLLYDPRGIGASDGEPRNDIDARQQAEHLHDAVTWFKENPLV
@@ -151,11 +156,12 @@ FEATURES             Location/Qualifiers
                      RLDGEEPMYLPYVNEDGSIPNGLQLAAEMMPALERLGIPVENRISVQTYYKSLSWNILN
                      VVQYISPTPAMMVTPELDVSCPTEDQLNCFEHMKEPKELDILKGKGHLDWVFGDVESIL
                      NRQLDFLKRHMAF"
+                     /Pfam="Hydrolase_4"
      CDS             complement(join(20983..21531,21598..22725))
                      /codon_start=1
                      /gene="grgG"
                      /product="cytochrome P450 monooxygenase GrgG"
-                     /label=grgG
+                     /label="grgG"
                      /protein_id="BCA42574.1"
                      /translation="MTGFAEIIISPASFIYFPLLILVGHALIFILNTLRPKAFPPGPRG
                      LPGLGNLLQVDRIFPFLTYGKWAKDYGSDTPLGVKKGATNVVVLNSSRLVRELFEKRGA
@@ -167,6 +173,7 @@ FEATURES             Location/Qualifiers
                      GHRIPKGTAIIMNVWNIHHSEEDYDEPEEFIPERFLQHPLGLRSDHTLDAAHLEASASR
                      VTWDFGAGRRICPGMHSAKHSLLLGLAKVLWAFDILPPEGKEIDLSLETGFVQEIALHP
                      KELNVVLKLRDGRTKQDLMDHYSQTYAAEAEVMGWKDGLYQ"
+                     /Pfam="p450"
 ORIGIN
         1 ttaagacttg ttaagcctcc gccactccac aagggcatca tcacacatgc gcgacattga
        61 gtaggtgtcc gacataatct tcagcactgg catgtcgacg cccatctctc tgaggaacca

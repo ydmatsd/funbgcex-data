@@ -1,23 +1,23 @@
-LOCUS       FBGC00026       19448 bp DNA     linear   UNA 14-JAN-2023
+LOCUS       FBGC00026              19448 bp    DNA     linear   UNA 14-JAN-2023
 DEFINITION  funiculolide D.
 ACCESSION   FBGC00026
-VERSION     .
+VERSION     FBGC00026
 KEYWORDS    .
 SOURCE      Aspergillus funiculosus CBS 116.56
   ORGANISM  Aspergillus funiculosus CBS 116.56
+            .
 REFERENCE   1  (bases 1 to 19448)
   AUTHORS   Yan D, Matsuda Y.
-  TITLE     Genome Mining-Driven Discovery of 5-Methylorsellinate-Derived 
+  TITLE     Genome Mining-Driven Discovery of 5-Methylorsellinate-Derived
             Meroterpenoids from Aspergillus funiculosus.
   JOURNAL   Org Lett 2021;23:3211-3215
-  PUBMED    33821662
+   PUBMED   33821662
 REFERENCE   2  (bases 1 to 19448)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Jan 14, 2023 from SnapGene 6.2.0
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1021/acs.orglett.1c00951"; journalName: "Org Lett"; date: 
+  JOURNAL   Exported Jan 14, 2023 from SnapGene 6.2.0 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1021/acs.orglett.1c00951"; journalName: "Org Lett"; date:
             "2021"; volume: "23"; pages: "3211-3215"
 FEATURES             Location/Qualifiers
      source          1..19448
@@ -26,8 +26,8 @@ FEATURES             Location/Qualifiers
      CDS             join(1..293,368..639,696..1069,1119..1607)
                      /codon_start=1
                      /product="FAD-dependent monooxygenase FncA"
-                     /label=fncA
-                     /label=jgi.p|Aspfuni1|210960
+                     /label="fncA"
+                     /label="jgi.p|Aspfuni1|210960"
                      /translation="MESPRFRVIIVGGSIAGLTLAHCLRRASIDHIVLEKREEISPQEG
                      ASIGLWPNGSQVLEQLGLYKELERQTEPLSRFHVSHPDGFTFSHTLAQTINERFGYPII
                      FLERQKLLETLYQGYPDKSQILLSKRVTEVRQTDNGACVVCEDGTTYQGSLVVGADGVH
@@ -37,33 +37,36 @@ FEATURES             Location/Qualifiers
                      KTKAKGVGDQDIKTLLGEFRALRYARTQTIYERSRFGVRFQTRDDLVKKFIGRYIIHYK
                      RDRLADMASNLLADGAVVDFLPLPKRSGAGWERYKSVNRRDHRVQSRFLYFMLSLMISL
                      SAVLLYRPLSLHVAVLF"
+                     /Pfam="FAD_binding_3"
      CDS             1906..2880
                      /codon_start=1
                      /product="UbiA-like prenyltransferase FncB"
-                     /label=fncB
-                     /label=jgi.p|Aspfuni1|213769
+                     /label="fncB"
+                     /label="jgi.p|Aspfuni1|213769"
                      /translation="MAVDKQSKTVCKETPEEYTPPAKIIARLPPALQPYGELIRIHKPL
                      GYNLITCPYFVGVAFSAAVSPIAIPTSLVLNRLLILTLWSLCLRSGGCVWDDLVDQDLD
                      AQISRTRLRPLPRGAVSTTNALTFAAGLFLSGLSLTTLLPRECTFDAVGMLFFALLYPF
                      GKRFTNFPQLILCSTGWAVPMAMHSFGLDLLANAGSSMSMVLYFASLIVLVDVVYACQD
                      LEEDIKVGVKSMAVRFKNSISAIVDGLVYASTLFLVGAGLFSGLGLAFYIVSVTGHFWA
                      FRTFATLSKRDASSGGESLAKLACCVGTLGLIVGLVLECRLGG"
+                     /Pfam="UbiA_PT"
      CDS             complement(join(2948..3162,3219..3296,3386..3824,
                      3846..3869))
                      /codon_start=1
                      /product="short-chain dehydrogenase/reductase FncC"
-                     /label=fncC
+                     /label="fncC"
                      /translation="MSPTKSTAVLIITGSSSGIGLATASAALSEGAKVVGTDILSPPAS
                      LLEHTNFRFVPGDLTHHSTIQEVVATCTAAFGRRLDGLLNVAGVADHFGSVDSVSDELW
                      ERCLAVNLTAPVKLMREAIPLMREQKSGSIVNVSSKAGLSGAAAGVAYTASKHGLIGAT
                      KNVAWRFKDENIRCNAVCVPTGFGKESNTSCDLDALAALQPIYAAHMPDGEPTISPEEV
                      AKLLLFLVSPLSGKITGAVIPIDNAWSTI"
-     CDS             complement(join(4104..5112,5162..5334,5390..5479,5537..5978,
-                     6032..6258,6313..6678,6744..7031))
+                     /Pfam="adh_short_C2"
+     CDS             complement(join(4104..5112,5162..5334,5390..5479,
+                     5537..5978,6032..6258,6313..6678,6744..7031))
                      /codon_start=1
                      /product="cytochrome P450 monooxygenase/hydrolase FncD"
-                     /label=fncD
-                     /label=jgi.p|Aspfuni1|213771
+                     /label="fncD"
+                     /label="jgi.p|Aspfuni1|213771"
                      /translation="MSLLPSVLALTVLSALYLGYRVVAPLWSLRHIPGPFWAKFTNLPR
                      VWWVKTGQAQRIHQELHEKYGDVVRFGPNMVSISDPAVLPIVYPNRMGFPKSDFYKTQR
                      PYTPGVGAMPAVFNTQDEALHKSLRSPIAPLYNMSNVMKLEPLVDQTLAALFQQLDRRF
@@ -79,12 +82,13 @@ FEATURES             Location/Qualifiers
                      YFGDGSFYLLDAPGHSVGHMCALARVTPDSFVFMGADACHHPGAIRPSEYLPLPSSISP
                      EVLQRLRAIGRSDDDNNETKSVDTTQPLFPLLPGLFPSYREALETRDKIIKLEASNAVL
                      VVLTHDATLQGHMDFYPETVNDWRKKGVHLATRWLFLDEMEDAFEGDSRVRR"
+                     /Pfam="p450, Lactamase_B"
      CDS             complement(join(7442..8376,8430..12120,12170..12933,
                      12993..13368,13427..14438,14502..15112))
                      /codon_start=1
                      /product="polyketide synthase FncE"
-                     /label=fncE
-                     /label=jgi.p|Aspfuni1|210963
+                     /label="fncE"
+                     /label="jgi.p|Aspfuni1|210963"
                      /translation="MGSLPETVVLFGPQRSDVDDSVCKIRRALREHPGLHFLGDVVDEL
                      PSLWPTISDALPGLTQIPGETMLVTLARSIREEDAPTTEIDPLNMLLTPLTVIRHIVEF
                      WELGQGLDHPAFVAEASQRSRVTDVQGFCVGFLAAVPVACCQSLKEFAVLTAAVVRLAV
@@ -127,11 +131,13 @@ FEATURES             Location/Qualifiers
                      LAVPAIPDYDLLEGVYDQPIIAYNPPVEKRALGGWMSPTDPRSRIALTMNWKGLTLPVL
                      LYGWQWKSQPEGQRRVEDLPQPSKDEIEAISPLAQIRSGRYKTPTFIIHGTLDDLIPWE
                      QAKRTYEAMVENGVDAGLRIVDDAVHLFDIQPRGRMKDGELRAVRDGYEFLAQYAVL"
+                     /Pfam="SAT2, PKS_KS, PKS_AT, fPKS_PT, ACP_PCP, HTH_51,
+                     PKS_NRPS_MT, BD-FAE, Peptidase_S9"
      CDS             join(15864..16277,16338..17123)
                      /codon_start=1
                      /product="short-chain dehydrogenase/reductase FncF"
-                     /label=fncF
-                     /label=jgi.p|Aspfuni1|210964
+                     /label="fncF"
+                     /label="jgi.p|Aspfuni1|210964"
                      /translation="MTSGNHALVFGASGITGWAIVNEILKGYPTPDAFATVTAFTNRPL
                      SAQAASWPESDKLHLVSGIDLVKNEPEELEKLLIQHVPSISKVTVVYFAAYIQDYQHPD
                      REVQLNVGILKKTTMAVQKLSPALRFVLLPMGARYYGIEILDQFPYADRLPLKESLPRV
@@ -140,26 +146,29 @@ FEATURES             Location/Qualifiers
                      SWAVKWPVICSYFGLKGVPPTPISGSASSSSNPGEFIRQHAEQWRAMEEKYSLRQGHVL
                      GNDRAVADLSYGLMQYMDFDRQLDMTKTHRAWGDAKEEFDDRQSWYTAFDRFRAARIIP
                      "
+                     /Pfam="FncF"
      CDS             17490..18380
                      /codon_start=1
                      /product="2OG-Fe(II)-dependent dioxygenase FncG"
-                     /label=fncG
-                     /label=jgi.p|Aspfuni1|210965
+                     /label="fncG"
+                     /label="jgi.p|Aspfuni1|210965"
                      /translation="MTVIPCDRPGIPRMDVTDGVDKAYDLLHQDGCVIIKNFISPEMVA
                      RLNDDFDREIPQAKGGFRAEEKEKFSVKVDEKTVQLPNPLMMSKTFRDDIMNNAFMHAI
                      WEKAYRKDCGDYCMLQSTIFQLNPGACAQNLHRDEDTMPLAKYLPPDGPHLTVSFLIAL
                      TEFREDNGATQVVPRSSAFPHKPTFDEYRDQAVTAEMQPGDVLLFHGRTVHGGGHNRSQ
                      ETRRGLNMIAQPCYLAIREVFWDAPREIIESMTPLAQKMIGWRCVTNSHGMQYNLTRDI
                      PFEEAINLKSAAKVQ"
+                     /Pfam="PhyH"
      CDS             join(18720..19192,19256..19448)
                      /codon_start=1
                      /product="terpene cyclase FncH"
-                     /label=fncH
-                     /label=jgi.p|Aspfuni1|210966
+                     /label="fncH"
+                     /label="jgi.p|Aspfuni1|210966"
                      /translation="MKTLLKTLSLINSAGWMINYIGMVYLSFKDQTYSMAIIPLCCNVA
                      WEIVYGIIQPSSIIVPRKVILTWLALNCAVMYAAIKFAPTEWSHAPLVMENLPLIFAIG
                      VAVFIAGHLALAAELGPQTAFLWSARACQTLLSVGALLQLLGRGSTRGASFLVWFSRFF
                      GSACGVVRLSVMYLRGMHSFAWFNSPLTMWCVVLFLLSDMLYGVCFYYIRGRELNPPV"
+                     /Pfam="Pyr4"
 ORIGIN
         1 atggagagcc ctagattcag agttattatt gtgggagggt ctattgctgg actcaccctg
        61 gcacattgtc tccgccgcgc gagtatcgac cacatcgtct tggagaagag agaagaaatc

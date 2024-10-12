@@ -1,25 +1,25 @@
-LOCUS       FBGC00044       19883 bp DNA     linear   UNA 08-MAY-2023
+LOCUS       FBGC00044              19883 bp    DNA     linear   UNA 08-MAY-2023
 DEFINITION  solanapyrone A.
 ACCESSION   FBGC00044
-VERSION     .
+VERSION     FBGC00044
 KEYWORDS    .
 SOURCE      Alternaria solani 548
   ORGANISM  Alternaria solani 548
+            .
 REFERENCE   1  (bases 1 to 19883)
-  AUTHORS   Kasahara K, Miyamoto T, Fujimoto T, Oguri H, Tokiwano T, Oikawa H, 
+  AUTHORS   Kasahara K, Miyamoto T, Fujimoto T, Oguri H, Tokiwano T, Oikawa H,
             Ebizuka Y, Fujii I.
-  TITLE     Solanapyrone synthase, a possible Diels-Alderase and iterative type 
-            I polyketide synthase encoded in a biosynthetic gene cluster from 
+  TITLE     Solanapyrone synthase, a possible Diels-Alderase and iterative type
+            I polyketide synthase encoded in a biosynthetic gene cluster from
             Alternaria solani.
   JOURNAL   ChemBioChem 2010 1月 14;11:1245-52
-  PUBMED    20486243
+   PUBMED   20486243
 REFERENCE   2  (bases 1 to 19883)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported May 8, 2023 from SnapGene 6.2.2
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1002/cbic.201000173"; journalName: "ChemBioChem"; date: 
+  JOURNAL   Exported May 8, 2023 from SnapGene 6.2.2 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1002/cbic.201000173"; journalName: "ChemBioChem"; date:
             "2010-01-14"; volume: "11"; pages: "1245-52"
 FEATURES             Location/Qualifiers
      source          1..19883
@@ -31,7 +31,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="sol6"
                      /product="cytochrome P450 monooxygenase Sol6"
-                     /label=sol6
+                     /label="sol6"
                      /protein_id="BAJ09784.1"
                      /translation="MFVPSNIGWLVLSCGLFVAYWVLLAIYRLHFHPLSRYRGPRVAAV
                      SNSWYEWYWNYYLNGQMIFEIQRLHKQYGPVVRIGVNDLSIDDPEVYQAMTKVSSGFTK
@@ -42,12 +42,13 @@ FEATURES             Location/Qualifiers
                      SVDQQITYEEAKQLPYLTATIKEILRLGTPLPGRLPRLIPSSGFQLYGQDLPPKTSIHT
                      SPYLXNRHPSIWDNPNDFNPDRWLRKNSRDLDKYLATFNRGARQCLGKEWVHSYQIAGL
                      WQD"
+                     /Pfam="p450"
      CDS             join(2338..2597,2650..2981,3033..3185,3233..3766,
                      3819..4087)
                      /codon_start=1
                      /gene="sol5"
                      /product="FAD-linked oxidoreductase/Diels-Alderase Sol5"
-                     /label=sol5
+                     /label="sol5"
                      /protein_id="BAJ09785.1"
                      /translation="MRLIILNLLSLGITPSVVGHSGPHRQETQNLNNFLESNAINPAAI
                      NGETRHTGGVHLACAILEASNQTAVVFPSDGELYTQIDKAHASATAPKNPACIYTPNDV
@@ -58,11 +59,12 @@ FEATURES             Location/Qualifiers
                      WDTFAAMVTAPIPYNMTRFSYATTDLLYDKEAYLEIERICHKYIPRMRKLEGGDIMLMP
                      QPISVSMVGEARARGSDPMGVADQPQLWFVVSSGWNLAQDDAEAESIMLDALAEVEEYT
                      KSRALHLPFYFLNDAFSTQMPLQSYGAVTYGKLQAASRKYDPTRVFQELVPGGFKLV"
+                     /Pfam="FAD_binding_4"
      CDS             join(5316..5878,5946..7056)
                      /codon_start=1
                      /gene="sol4"
                      /product="transcription factor Sol4"
-                     /label=sol4
+                     /label="sol4"
                      /protein_id="BAJ09786.1"
                      /translation="MPSTLIHDVQKELKDLPARGIVDFLIQYFFEDINWINQIVHPPRL
                      LAQYENWWKMDTITRVADLEFAVLMLRICAYASHFLPSKKYTVDTIKGRPLSDIRSNCD
@@ -74,11 +76,12 @@ FEATURES             Location/Qualifiers
                      INFFSPHSPLSSNMIDISQSQCLRTIKEARRQLEMMSLGSVMAETGARQLGILVDHVQA
                      TLARSGTQTRSMPSTETLTYNSSSSTSYGDGHAHGVSSELPFTFQQQEGPTANAFRTDS
                      NVFEGLMLWDLSTDALPLDPSFLGLEQLHEISELQPNMGL"
+                     /Pfam="Fungal_trans"
      CDS             join(7540..7938,7990..8448)
                      /codon_start=1
                      /gene="sol3"
                      /product="short-chain dehydrogenase/reductase Sol3"
-                     /label=sol3
+                     /label="sol3"
                      /protein_id="BAJ09787.1"
                      /translation="MGGMLGFFVRQLTFMPKPLPQNVRLDGKTAIVTGANVGLGLEASK
                      EMASHGLARVILGVRTVSKGEAAKQEILKQSPNCDVQVWPVDHESFESMVAFGERAQSL
@@ -86,12 +89,13 @@ FEATURES             Location/Qualifiers
                      TIVASEVHFWTPFDERKAPSILARLDEKDSFRGMERYNTSKLLNILWMRELSSRVTGNV
                      VINAVNPGLCASALHRTDPTPGLAYLNKIFAWTPAQGGHNLTYAATQHVDEPGAYLSEQ
                      HLEK"
+                     /Pfam="adh_short"
      CDS             complement(join(8978..9454,9533..9642,9709..9878,
                      9941..10467))
                      /codon_start=1
                      /gene="sol2"
                      /product="methyltransferase Sol2"
-                     /label=sol2
+                     /label="sol2"
                      /protein_id="BAJ09788.1"
                      /translation="MALKSTNGTHAGPTASAASLASLAANISEKAASLSTYLESQGHAQ
                      PSFLPGCADPPETEEYLALHTSLTSSLEDLQRLVDGPRRSLRPFIMIGNDLAALQVAFD
@@ -101,11 +105,12 @@ FEATURES             Location/Qualifiers
                      SEKMLAQGRARNLSDIEGRISFMKHSFFHPQPIGGAGAFFIRQCTHNWCDRDVVKILKS
                      FVPGLENSAPGTPLLINDTVLPVPGSKPLHEERALRQMDMLMFVVLGAKQRTAKEFEAL
                      LKEADARYEIRRVHADGSMGLVEVHLNI"
+                     /Pfam="MdpA"
      CDS             join(11766..11832,11885..12356,12443..18866,18921..19883)
                      /codon_start=1
                      /gene="sol1"
                      /product="polyketide synthase Sol1"
-                     /label=sol1
+                     /label="sol1"
                      /protein_id="BAJ09789.1"
                      /translation="MTSQYGTNGASADPEPIAIVGMGCRWPGGVRDASSLWELLKNKRS
                      GYREFGDHRFSRKGFHHPNSEHPGTVATEGGFLLAEDPRLFDHAFFGIGSLEVETMDPS
@@ -153,6 +158,8 @@ FEATURES             Location/Qualifiers
                      SAGGGGDGGNERGNNAGVASLRSEFGEAVKAGPAERSRTVALVTDAIVKTVAQMLFVDA
                      SGVDASRTVADYGVDSLIAAELRNWFNVAFGADVSMLEMLDTATSMKILANKIVDGALA
                      "
+                     /Pfam="PKS_KS, PKS_AT, fPKS_DH, PKS_NRPS_MT, fPKS_ER,
+                     fPKS_KR, ACP_PCP"
 ORIGIN
         1 ctaatcttgc cacaagcctg cgatttgata ggagtgtacc cactccttgc cgagacattg
        61 cctcgcaccc ctgttgaagg ttgcaagata cttgtccagg tctcgggaat tcttccttag

@@ -1,23 +1,23 @@
-LOCUS       FBGC00040       37370 bp DNA     linear   UNA 09-MAY-2023
+LOCUS       FBGC00040              37370 bp    DNA     linear   UNA 09-MAY-2023
 DEFINITION  compactin.
 ACCESSION   FBGC00040
-VERSION     .
+VERSION     FBGC00040
 KEYWORDS    .
 SOURCE      Penicillium citrinum ML-236B
   ORGANISM  Penicillium citrinum ML-236B
+            .
 REFERENCE   1  (bases 1 to 37370)
   AUTHORS   Abe Y, Suzuki T, Ono C, Iwamoto K, Hosobuchi M, Yoshikawa H.
-  TITLE     Molecular cloning and characterization of an ML-236B (compactin) 
+  TITLE     Molecular cloning and characterization of an ML-236B (compactin)
             biosynthetic gene cluster in Penicillium citrinum.
   JOURNAL   Mol Genet Genomics 2002;267:636-46
-  PUBMED    12172803
+   PUBMED   12172803
 REFERENCE   2  (bases 1 to 37370)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported May 9, 2023 from SnapGene 6.2.2
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1007/s00438-002-0697-y"; journalName: "Mol Genet Genomics"; 
+  JOURNAL   Exported May 9, 2023 from SnapGene 6.2.2 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1007/s00438-002-0697-y"; journalName: "Mol Genet Genomics";
             date: "2002"; volume: "267"; pages: "636-46"
 FEATURES             Location/Qualifiers
      source          1..37370
@@ -28,7 +28,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="mlcH"
                      /product="acyltransferase MlcH"
-                     /label=mlcH
+                     /label="mlcH"
                      /note="putative ML-236B biosynthetic gene"
                      /protein_id="BAC20561.1"
                      /translation="MAPSIDVIPTAASTAAGMISDMEAAFKSAVKLKQIPGAVVMARSM
@@ -39,11 +39,12 @@ FEATURES             Location/Qualifiers
                      SYMKVLNSLMKHDGLLLKKDTIELMFQPALDAELEKKMNDHMDTTPHINYGAALPPVMR
                      RNFGLGGIIAMGDLDGHNWRREGSLTFGGGPNIVWQIDPTVGLCTLVVFQLEPWNDPIC
                      KDLTRKFEKAMYSQVKCRN"
+                     /Pfam="Beta-lactamase"
      CDS             complement(join(1943..2359,2465..2576,2645..3204))
                      /codon_start=1
                      /gene="mlcG"
                      /product="trans-acting enoylreductase MlcG"
-                     /label=mlcG
+                     /label="mlcG"
                      /note="putative ML-236B biosynthetic gene"
                      /protein_id="BAC20562.1"
                      /translation="MGVAMTEGSFIPPVKQTILTVNDKDEVVIWDDAPTPKLPADQVYV
@@ -53,11 +54,12 @@ FEATURES             Location/Qualifiers
                      KIRDYTRNNLAYALDCIINVESTSTCYKAIGRAGGRYVALNPFPEHAATRKMVTSDWTL
                      GPTIFGEGSTWPAPYGCEASEEVRLFGTELWQVASRLVEEDKLYHHPLRVIDGGLEQVK
                      QGMETVRNGELSGEKIVVRFSV"
+                     /Pfam="fPKS_ER"
      CDS             3658..4413
                      /codon_start=1
                      /gene="mlcF"
                      /product="thioesterase MlcF"
-                     /label=mlcF
+                     /label="mlcF"
                      /note="putative ML-236B biosynthetic gene"
                      /protein_id="BAC20563.1"
                      /translation="MSPARITDFSPGKPRKALLCIHGAGCSAAIFRVQISKLRVALKNE
@@ -65,6 +67,7 @@ FEATURES             Location/Qualifiers
                      KTVQDWSITNPQAPIVGIVAFSEGALVATLLLHQQQMGKLPWFPKMSIAVLICCFYSDE
                      ARDYMRAEAQDDDDKLIINVPTLHLHGRQDFALQGSRQMVETHYLPQNADVLEFQGKHN
                      FPNRPSDVQETVKRFQQLYQKVKMSGSFV"
+                     /Pfam="FSH1"
      CDS             complement(join(5044..6797,6853..7255,7315..7657,
                      7728..10008,10070..10290,10349..13142,13207..13548,
                      13626..13851,13923..14135,14203..14724))
@@ -72,7 +75,7 @@ FEATURES             Location/Qualifiers
                      /gene="mlcA"
                      /product="polyketide synthase MlcA"
                      /function="involved in ML-236B biosynthesis"
-                     /label=mlcA
+                     /label="mlcA"
                      /protein_id="BAC20564.1"
                      /translation="MDQANYPNEPIVVVGSGCRFPGGVNTPSKLWELLKEPRDVQTKIP
                      KERFDVDTFYSPDGTHPGRTNAPFAYLLQEDLRGFDASFFNIQAGEAETIDPQQRLLLE
@@ -126,11 +129,13 @@ FEATURES             Location/Qualifiers
                      GFFANVLPLRFDEFVGSKTFGEHLVATKDSVREAMQHARVPYGVILDCLGLNLPTSGEE
                      PKTQTHAPLFQAVFDYKQGQAESGSIGNAKMTSVLASRERTPYDIVLEMWDDPTKDPLI
                      HVKLQSSLYGPEHAQAFVDHFSSILTMFSMNPALKLA"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_DH, PKS_NRPS_MT, fPKS_KR,
+                     ACP_PCP, Condensation"
      CDS             join(15361..15705,15772..15943,16007..17046)
                      /codon_start=1
                      /gene="mlcC"
                      /product="cytochrome P450 monooxygenase MlcC"
-                     /label=mlcC
+                     /label="mlcC"
                      /note="putative ML-236B biosynthetic gene"
                      /protein_id="BAC20565.1"
                      /translation="MLGQVLLTVESYQWVSTPQALVAVAVLLSLIAYRLRGRQSELQVY
@@ -143,13 +148,14 @@ FEATURES             Location/Qualifiers
                      VAADRMNNPDVWENPENYDPYRFMRMREDPDKAFTAQLENTNGDHIGFGWNPRACPGRF
                      FASKEIKILLAHILIQYDVKPVPGDDDKYYRHAFSVRMHPTTKLMVRRRNEDIPLPHDR
                      C"
+                     /Pfam="p450"
      CDS             complement(join(17927..23784,23851..24439,24498..25008,
                      25077..25410,25465..25522,25577..25663,25767..26021))
                      /codon_start=1
                      /gene="mlcB"
                      /product="polyketide synthase MlcB"
                      /function="involved in ML-236B biosynthesis"
-                     /label=mlcB
+                     /label="mlcB"
                      /protein_id="BAC20566.1"
                      /translation="MNNTPAVTATATATATATAMAGSACSNTSTPIAIVGMGCRFAGDA
                      TSPQKLWEMVERGGSAWSKVPSSRFNVRGVYHPNGERVGSTHVKGGHFIDEDPALFDAA
@@ -195,12 +201,14 @@ FEATURES             Location/Qualifiers
                      LEKAILCSSPQFPSPPAAVVTGINTSPGAHWTEANWIQEQRFVGLKYRQVLHADQSFVS
                      SHKKGPDGVRAQLSRVTSHDEAISIVLKAMTEKLMRMFGLAEDDMSSSKNLAGVGVDSL
                      VAIELRNWITSEIHVDVSIFELMNGNTIAGLVELVVAKCS"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_DH, PKS_NRPS_MT, fPKS_ER,
+                     fPKS_KR, ACP_PCP"
      CDS             join(27886..31028,31079..31457)
                      /codon_start=1
                      /gene="mlcD"
                      /product="HMG-CoA reductase MlcD"
                      /function="involved in ML-236B biosynthesis"
-                     /label=mlcD
+                     /label="mlcD"
                      /protein_id="BAC20567.1"
                      /translation="MVASLLPSRFRGRESMNQQHPLRSGNRALTSTLQFLSKTACLHPI
                      HTVCTIAILASTTYVGLLKDSFFHGPANVDKAEWGSLVEGSRSLITGPQNGWKWQSFDG
@@ -223,6 +231,7 @@ FEATURES             Location/Qualifiers
                      LRGSLQISVSMPSIEVGTLGGGTILEPQGAMLDMLGVRGSHPTTPGENARQLARIIGSA
                      VLAGELSLCAALAAGHLVKAHMAHNRSAPASSAPSRSVSPSGGTRTVPVPNNALRPSAA
                      ATDRARR"
+                     /Pfam="HPIH, Sterol-sensing, HMG-CoA_red"
      CDS             complement(join(32037..32423,32526..32686,32805..33332,
                      33390..33461,33527..33550,33614..33840,33904..33980,
                      34039..34224))
@@ -230,7 +239,7 @@ FEATURES             Location/Qualifiers
                      /gene="mlcE"
                      /product="major facilitator superfamily transporter MlcE"
                      /function="involved in ML-236B biosynthesis"
-                     /label=mlcE
+                     /label="mlcE"
                      /protein_id="BAC20568.1"
                      /translation="MSEPLPPKEGEPRPQKEESQNDTLEATESKSQHITGLKLGLVVAS
                      VTFVAFLMLLDMSIIVTAIPHITSEFHSLNDVGWYGSAYLLANCALQPLAGKLYTLLGL
@@ -242,12 +251,13 @@ FEATURES             Location/Qualifiers
                      QPHTSTVKWVMYQFIAGFGRGCGMQTPIIAIQSTLSPEQGALGISLAVFGQTFGGSLFL
                      DFANLVFGSGLRTGLSKYAPTVDTQAVTAAGATGFRDVVSKNNLPGVVKAYSLAVDHTF
                      YLAVGATACTFVFAFGMGWRKIATKNDTRAVPETDA"
+                     /Pfam="MFS_1"
      CDS             complement(join(35853..36065,36144..36607,36668..37370))
                      /codon_start=1
                      /gene="mlcR"
                      /product="transcription factor MlcR"
                      /function="involved in ML-236B biosynthesis"
-                     /label=mlcR
+                     /label="mlcR"
                      /protein_id="BAC20569.1"
                      /translation="MSLPHATIPTNLRRRAFRRSCDRCHAQKLKCTGSNANLVRAQCQR
                      CQQAGLRCVYSERLPKRNLHKEAAAGTTRATETSQPMTATSSTVFSSLAETPPPYCSPP
@@ -258,6 +268,7 @@ FEATURES             Location/Qualifiers
                      GELISHLDPFMHALSSACTTLRVSLRLLSEIETALGIAQEHGAAASIRLVLSDMPSTSW
                      QILGAENKTITPASRLLSVLWSDEAGDEEPKSTKASGKTINVLRRCYKEIFALAKKHNI
                      A"
+                     /Pfam="EqxR"
 ORIGIN
         1 atggcgccca gcatagatgt tattcccact gctgcttcca cggcagcagg aatgatttca
        61 gacatggaag cggcatttaa gtcggccgtt aaattaaagc aaatccccgg ggccgttgtc

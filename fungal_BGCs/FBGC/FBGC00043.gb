@@ -1,24 +1,24 @@
-LOCUS       FBGC00043       22677 bp DNA     linear   UNA 15-JAN-2023
+LOCUS       FBGC00043              22677 bp    DNA     linear   UNA 15-JAN-2023
 DEFINITION  fumitremorgin A.
 ACCESSION   FBGC00043
-VERSION     .
+VERSION     FBGC00043
 KEYWORDS    .
 SOURCE      Aspergillus fumigatus BM939
   ORGANISM  Aspergillus fumigatus BM939
+            .
 REFERENCE   1  (bases 1 to 22677)
-  AUTHORS   Kato N, Suzuki H, Takagi H, Asami Y, Kakeya H, Uramoto M, Usui T, 
+  AUTHORS   Kato N, Suzuki H, Takagi H, Asami Y, Kakeya H, Uramoto M, Usui T,
             Takahashi S, Sugimoto Y, Osada H.
-  TITLE     Identification of cytochrome P450s required for fumitremorgin 
+  TITLE     Identification of cytochrome P450s required for fumitremorgin
             biosynthesis in Aspergillus fumigatus.
   JOURNAL   ChemBioChem 2009;10:920-8
-  PUBMED    19226505
+   PUBMED   19226505
 REFERENCE   2  (bases 1 to 22677)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Jan 15, 2023 from SnapGene 6.2.0
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1002/cbic.200800787"; journalName: "ChemBioChem"; date: "2009"; 
+  JOURNAL   Exported Jan 15, 2023 from SnapGene 6.2.0 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1002/cbic.200800787"; journalName: "ChemBioChem"; date: "2009";
             volume: "10"; pages: "920-8"
 FEATURES             Location/Qualifiers
      source          1..22677
@@ -30,7 +30,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="ftmA"
                      /product="nonribosomal peptide synthetase FtmA"
-                     /label=ftmA
+                     /label="ftmA"
                      /protein_id="BAH23995.1"
                      /translation="MAMALAVGAPSEQRGNLPYNTLKDGPTVDSMKATTDGKNGQGESA
                      FWDTCVHTVFREHCQRAPNSPAVNAWDGSFTYAELDSLSDAIASVLILSGVGPESIIPI
@@ -70,12 +70,13 @@ FEATURES             Location/Qualifiers
                      TLDQIVGPCTNYIPYRLSVCCSKTALEYLRSAQAQHTTCLRYSSLDLDQIVAKCTSWPS
                      STQFGYIVQHQDTGAELALTLGGDTTSLPMTSYGRVFPQGEVWIGSTPCSTGLRIDVIA
                      LSAVLSQKDAQTMAEEVGAALEKLLGCGYRRLSHLIGNTFAT"
-     CDS             complement(join(8180..8367,8437..8538,8610..8908,8981..9102,
-                     9166..10134))
+                     /Pfam="AA-adenyl-dom, ACP_PCP, NRPS_C, NRPS_CT"
+     CDS             complement(join(8180..8367,8437..8538,8610..8908,
+                     8981..9102,9166..10134))
                      /codon_start=1
                      /gene="ftmC"
                      /product="cytochrome P450 monooxygenase FtmC"
-                     /label=ftmC
+                     /label="ftmC"
                      /protein_id="BAH23996.1"
                      /translation="MKPSHSDTPLMMPSVMKCGYLATAGLIGICTHLSYFRYGEHHLYP
                      WRYVRFHLCLTMGVAALLYAKKPPQYTLCSMDLVKDVSLLMATYLVGLFASLLLYRTLF
@@ -87,11 +88,12 @@ FEATURES             Location/Qualifiers
                      DGEYQHDTLAKLPHLNGFINETLRLHPPIPGVIPRKTPPEGIHVKDVFIPGNMTVFSPQ
                      WSMGRSEAAYIDPEIFNPERWYKHMDLVKDPSAFAPFSIGPYSCIGKPLALMNIRTTVA
                      RLIMSFDVRFPEGEDGIRWMDAADEHFAMGIHQMPVVLTRRH"
+                     /Pfam="p450"
      CDS             join(10886..11413,11499..11999)
                      /codon_start=1
                      /gene="ftmD"
                      /product="methyltransferase FtmD"
-                     /label=ftmD
+                     /label="ftmD"
                      /protein_id="BAH23997.1"
                      /translation="MTQAVDIGTIQTLIRLEVPDQVPLTGSIPYDALVKKLKTPVDPEL
                      LQRLIRFTRLVGFLDEDAEGAVKHSPMSAIFVNDPDTAGQARFMADFGIRPCSFIYESI
@@ -100,11 +102,12 @@ FEATURES             Location/Qualifiers
                      EHDFFTPQPRIADAYFLRLILHDWNDADCTRIVRQISSALRPGARLLIMDAVLPEPGEG
                      SLQSERRLRRSDIGMYTLFSAKERSLAQMRRLVEDCDSRLRFEKLYTPPGSHASMLSWI
                      CE"
+                     /Pfam="Methyltransf_2"
      CDS             join(12719..13980,14050..14182)
                      /codon_start=1
                      /gene="ftmB/ftmPT1"
                      /product="DMATS-type prenyltransferase FtmB/FtmPT1"
-                     /label=ftmB/ftmPT1
+                     /label="ftmB/ftmPT1"
                      /protein_id="BAH23998.1"
                      /translation="MPPAPPDQKPCHQLQPAPYRALSESILFGSVDEERWWHSTAPILS
                      RLLISSNYDVDVQYKYLSLYRHLVLPALGPYPQRDPETGIIATQWRSGMVLTGLPIEFS
@@ -115,11 +118,12 @@ FEATURES             Location/Qualifiers
                      GYYTMPRGFCELGKSSAGFEAPMMFHFHLDGSQSPFPDPQMYVCVFGMNSRKLVEGLTT
                      FYRRVGWEEMASHYQGNFLANYPDEDFEKAAHLCAYVSFAYKNGGAYVTLYNHSFNPVG
                      DVSFPN"
+                     /Pfam="Trp_DMAT"
      CDS             complement(14363..15943)
                      /codon_start=1
                      /gene="ftmE"
                      /product="cytochrome P450 monooxygenase FtmE"
-                     /label=ftmE
+                     /label="ftmE"
                      /protein_id="BAH23999.1"
                      /translation="MERLPLSPAVLFLIIVLPILYLWIRYTAPARPHGKHLSLPPGPPR
                      LPKIGNLHQVPRQIPWKKYKEWSDTYGPIMSVQLADTIAVVFSSWDLIKNHIERRNTIY
@@ -131,11 +135,12 @@ FEATURES             Location/Qualifiers
                      VLVNVWAINHDEAIFLDPFAFQPERWIENPDLPQLMYGMGQRACPGRHMGQDSLFLATA
                      RLFWAFDMALPDGADPIDQERFLDSGTTLAAFLPDFEVRFTPRSEKYQEVIENSMAVLP
                      DVLSISATP"
+                     /Pfam="p450"
      CDS             complement(16819..17694)
                      /codon_start=1
                      /gene="ftmF"
                      /product="2OG-Fe(II)-dependent dioxygenase FtmF"
-                     /label=ftmF
+                     /label="ftmF"
                      /protein_id="BAH24000.1"
                      /translation="MTVDSKPQLQRLAADADVDRMCRLLEEDGAFILKGLLPFDVVESF
                      NRELDVQMAIPPPKGERLLADKYPPHFKYVPNVATTCPTFRNTILINPVIHAICEAYFQ
@@ -143,12 +148,13 @@ FEATURES             Location/Qualifiers
                      GATEVILGSHRWTEVGTPERDQAVLATMDPGDVLIVRQRVVHAGGGNRTTAGKPRRVVL
                      AYFNSVQLTPFETYRTMPREMVESMTVLGQRMLGWRTMKPSDPNIVGINLIDDKRLENV
                      LQLKAADSPA"
+                     /Pfam="PhyH"
      CDS             complement(join(18789..19219,19289..19879,19930..19998,
                      20052..20151,20213..20329,20395..20601))
                      /codon_start=1
                      /gene="ftmG"
                      /product="cytochrome P450 monooxygenase FtmG"
-                     /label=ftmG
+                     /label="ftmG"
                      /protein_id="BAH24001.1"
                      /translation="METLDAIQLPYLGVVGASLIVILGIILLFPLGSDPFITINQHPRD
                      LFQTKAKQQFEYNAAALLNEGLQTGHSAFRLVTNMVTYLILKDQYAEEIKNDSRFGAHE
@@ -159,11 +165,12 @@ FEATURES             Location/Qualifiers
                      RKLTLMESVMKETQRLEPAVIIGMFRLAKEKVTLKDGTVVPKGTNIAFANDLRFDPEMY
                      LEPETFDGYRFQRMREDPAKIDLAPFTKTRMSHLAFGHGKHACPGRFLACDEAKLILCH
                      ILLNYDIRAVEGSPPELRARGMFVQLDPGAMMSVRRRRGTETAPHG"
+                     /Pfam="p450"
      CDS             join(21329..22509,22575..22677)
                      /codon_start=1
                      /gene="ftmH"
                      /product="DMATS-type prenyltransferase FtmH"
-                     /label=ftmH
+                     /label="ftmH"
                      /protein_id="BAH24002.1"
                      /translation="MTIPTEISCPEEDAFQLLDKFSWFPSDDQRRWWEYTGPYLLKLLR
                      DAKYPQKDQVPCLYLLQQLLVPYLGTFPVVGQAPLPWWSNVTTYGVPFELSWNLLHNIV
@@ -173,6 +180,7 @@ FEATURES             Location/Qualifiers
                      MWTLRGKRLEDPQCADGLALLRKLWDLLAIPEGYRSNIRPDFAFGTPPPEDYRPVMMAN
                      WTLSPKKKFPDPQIYLLTVGMNDAVVMDALVAFYEVLGWTDLASTYKDKVASYFPGPDF
                      TKTNYIHSGVSFSYRHSKPYLSVYYSPF"
+                     /Pfam="Trp_DMAT"
 ORIGIN
         1 ttaggtagcg aaggtatttc ctatcagatg cgaaagacgg cgataaccgc acccaagcaa
        61 tttctccaac gccgcgccga cctcctcagc catagtctga gcgtccttct ggcttagcac

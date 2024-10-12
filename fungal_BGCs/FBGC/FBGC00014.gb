@@ -1,30 +1,30 @@
-LOCUS       FBGC00014       31918 bp DNA     linear   UNA 08-MAY-2023
+LOCUS       FBGC00014              31918 bp    DNA     linear   UNA 08-MAY-2023
 DEFINITION  ascochlorin.
 ACCESSION   FBGC00014
-VERSION     .
+VERSION     FBGC00014
 KEYWORDS    .
 SOURCE      Acremonium egyptiacum F-1392
   ORGANISM  Acremonium egyptiacum F-1392
+            .
 REFERENCE   1  (bases 1 to 31918)
-  AUTHORS   Araki Y, Awakawa T, Matsuzaki M, Cho R, Matsuda Y, Hoshino S, 
-            Shinohara Y, Yamamoto M, Kido Y, Inaoka DK, Nagamune K, Ito K, Abe 
+  AUTHORS   Araki Y, Awakawa T, Matsuzaki M, Cho R, Matsuda Y, Hoshino S,
+            Shinohara Y, Yamamoto M, Kido Y, Inaoka DK, Nagamune K, Ito K, Abe
             I, Kita K.
-  TITLE     Complete biosynthetic pathways of ascofuranone and ascochlorin in 
+  TITLE     Complete biosynthetic pathways of ascofuranone and ascochlorin in
             Acremonium egyptiacum.
   JOURNAL   Proc Natl Acad Sci U S A 2019;116:8269-8274
-  PUBMED    30952781
+   PUBMED   30952781
 REFERENCE   2  (bases 1 to 31918)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported May 8, 2023 from SnapGene 6.2.2
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1073/pnas.1819254116"; journalName: "Proc Natl Acad Sci U S A"; 
-            date: "2019"; volume: "116"; pages: "8269-8274"
+  JOURNAL   Exported May 8, 2023 from SnapGene 6.2.2 https://www.snapgene.com
 COMMENT     ##Assembly-Data-START##
             Assembly Method       :: Mira v. 3.9.17
             Sequencing Technology :: Ion PGM
             ##Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1073/pnas.1819254116"; journalName: "Proc Natl Acad Sci U S A";
+            date: "2019"; volume: "116"; pages: "8269-8274"
 FEATURES             Location/Qualifiers
      source          1..31918
                      /strain="F-1392"
@@ -35,7 +35,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="ascR"
                      /product="transcription factor AscR"
-                     /label=ascR
+                     /label="ascR"
                      /protein_id="BBF25312.1"
                      /translation="MGNSANEDKLRYACDRCHSQKLRCPRSVEPEKANPEEPCSRCRKA
                      GVPCVVSLRGKVGRPSKATKKKSARSPRATSTPEAEFPPYDINSVLSGEVDGSIPWASP
@@ -46,11 +46,12 @@ FEATURES             Location/Qualifiers
                      SMESDEGDGSIDTAFSQSSWGSLKPGSASGPQATSQSVPESAVIFLLLGCYTQILHLFE
                      LTTNCLWAQHCEAGQPAPQNDDTSGTIGSLLEASIAIHTVTYLLSRLHRALAAPEMDAS
                      TDAADSHGWKKSFVGGKELEDGLLGRAFGEIREREQWLMRRTKHLQQRINKCHI"
+                     /Pfam="EqxR"
      CDS             complement(1966..2976)
                      /codon_start=1
                      /gene="ascA"
                      /product="UbiA-like prenyltransferase AscA"
-                     /label=ascA
+                     /label="ascA"
                      /protein_id="BBF25313.1"
                      /translation="MAAKSRSPKRGTSEKTPLVEKEAPYQPPTKGILSKLPASWVPYAQ
                      LIRLEQPHGNYMIYFPHIIGLMYASAIRPTELSVLGHRAAIFAIWTFLMRGAGCAWNDN
@@ -58,11 +59,12 @@ FEATURES             Location/Qualifiers
                      SAIYPFGKRFTHFAQVILGSTLASTIALSAYSVGLPALSKDYFVPTLCLSATIMLLVVF
                      YDVVYARADTTDDLKSGVKGMAVRFRNHLEGLFAFITLSIAGSLTTLGYLVGMGHWFYL
                      FSVGGLTFGLVSMVALTHWNILPGYSSGRCYAFAILNLLTGFIMEYATKDYVVGV"
+                     /Pfam="UbiA_PT"
      CDS             join(3547..3990,4040..6466,6524..6934)
                      /codon_start=1
                      /gene="ascB"
                      /product="NRPS-like carboxylic acid reductase AscB"
-                     /label=ascB
+                     /label="ascB"
                      /protein_id="BBF25314.1"
                      /translation="MTVNGHHTNGVNGANGTNGHANGSNGINDTKAVKEIVPFVKPQVN
                      FASAQRLEGCIHSLPELVDFNSLNNQHHTFCVQAKSSEPFDTITHGEFKVAVSKCAAWL
@@ -83,12 +85,13 @@ FEATURES             Location/Qualifiers
                      GVWNSNEQIPMLLKSAQGLGSLPQLSGELSWIPVDDAASTVSEIAFSDGSMPIVQHLEN
                      PIRQSWDAMLQSFGRELGLPAGKVPFGEWLDQVAAADGDDETFPVKKLTFFFKSFFQSV
                      ACGQVVLDTTVSRGQSKTLNAMTAVGDETVKAYADYWKSTGYLSK"
+                     /Pfam="AA-adenyl-dom, ACP_PCP, fPKS_R"
      CDS             join(7948..8565,8619..10365,10414..13482,13534..13979,
                      14029..14496)
                      /codon_start=1
                      /gene="ascC"
                      /product="polyketide synthase AscC"
-                     /label=ascC
+                     /label="ascC"
                      /protein_id="BBF25315.1"
                      /translation="MTLIQTKHSASAAVFSPQSTAPKPTHLAHIRARLLEDDLLKPVKE
                      AVVSLPKTWRALVSKQPELGKNRKASDLIEAFPSWIEDGKTEVLETDMSGLITLPLLAV
@@ -127,12 +130,13 @@ FEATURES             Location/Qualifiers
                      EPRGMSLLFNGLPPTGEELPVPDAERAAALSPLVQVRKGNYDVPTYLIFGDEDEIAPFG
                      KAVEFAQALKDAGVKSGFLPIKGGKHIFDLGISPGSKAWDESIGPGYDFLLGELENAHR
                      RCRDV"
+                     /Pfam="SAT2, PKS_KS, PKS_AT, fPKS_PT, ACP_PCP, BD-FAE"
      CDS             complement(join(21338..21768,21818..22318,22367..22874,
                      22922..23018,23073..23200))
                      /codon_start=1
                      /gene="ascD"
                      /product="FAD-dependent halogenase AscD"
-                     /label=ascD
+                     /label="ascD"
                      /protein_id="BBF25316.1"
                      /translation="MSAIPKKCTVLVIGGGPGGSYAASALAREGIDTVVLEGDKFPRYH
                      IGESMLASMRHLLKFVELDGKFDSYGFVKKPGAAFKLNKNKREGYTDFLAAGGPNNYAW
@@ -144,13 +148,14 @@ FEATURES             Location/Qualifiers
                      DNFDRAFSFFRPIIQGTADAANNKLSQEELNKTLEFCAFAFEPVENDEDRSKAMSAMQE
                      AVDNGTGYHPDLSPEQLKAVKHIQARRAMRTSDTMNIESFGTDAINGFVPNLVRGSLGL
                      RKQEAMSGDMGGANGHVDETNGVTVNGHHQPEGVKAH"
+                     /Pfam="Trp_halogenase"
      CDS             join(23596..23704,23753..23959,24008..24155,24203..26069,
                      26117..26980)
                      /codon_start=1
                      /gene="ascE"
                      /product="bifunctional cytochrome P450/NADPH-P450 reductase
                      AscE"
-                     /label=ascE
+                     /label="ascE"
                      /protein_id="BBF25317.1"
                      /translation="MTELIPGPKGLPLIGNVLDIDPVDAVVCLGRIADTYGHIYQLKVG
                      GSAKIFISSRELVDELSDESRFTKLVSGPLAQLRNVCHDSLFTAQSDEPAWDLAHKILM
@@ -171,22 +176,24 @@ FEATURES             Location/Qualifiers
                      ERVCQMKAGRALAPAYLFVGCRDPEKDALLKDELAQWERDGVVKIYYAFSRASDQSDGC
                      KHVQDRIWNERDLVRKGLFEGNARFFMCGGSGAGKSVEDVVKRIYKDNKGESQEKAAES
                      WFQDLKANRYVTEIFA"
+                     /Pfam="p450, Flavodoxin_1, FAD_binding_1, NAD_binding_1"
      CDS             complement(join(28974..29241,29292..29845))
                      /codon_start=1
                      /gene="ascF"
                      /product="terpene cyclase AscF"
-                     /label=ascF
+                     /label="ascF"
                      /protein_id="BBF25318.1"
                      /translation="MAFGVEPPEHVTPWFKPVYEATFQFGGVAWTLCYILIAREGMRTK
                      SYGMPLFALANNFAWEMVYALWVVDNAFEKTAMTIWMLIDTPIIYSILKHGVLEWQHAP
                      MVSRNLKSILVGLIALCAAAHWSWQSWWIGNEMGKRDDLEGADLTQMAYWAVSMCQFLV
                      STMSLAMLCVRGHSGGVSWMIWLSRFLGTLIGLNMNYAWAYYTWPEAHEYFMSAPAVFV
                      WGVTTVCDIIYGFVLYHVKSNERELSDGRKVAAEADDEQVGGWSKMKTGKN"
+                     /Pfam="Pyr4"
      CDS             join(30267..31158,31206..31918)
                      /codon_start=1
                      /gene="ascG"
                      /product="cytochrome P450 monooxygenase AscG"
-                     /label=ascG
+                     /label="ascG"
                      /protein_id="BBF25319.1"
                      /translation="MGSLLFDSPVGRFVASFPALSAAAGLIVAISFIYIRFIKTPKLDL
                      PVVGNPGDKWDAQKHIVAGARKYPDTPYILPMDPPIVVLPIKIQDEVRNLPENVVSFTK
@@ -198,6 +205,7 @@ FEATURES             Location/Qualifiers
                      RICFPSYDVHHNPKTTTYSPEYNPPGYTPPDQFDGLRFFKLREMPGKESRHQFATANHE
                      SLVFGFGNHTCPGRFFAANQIKIILAELLMNWDVRLKGDVEQKGGPEKRPQNMVVDLVI
                      TPNPMAMVEMKRRSRAV"
+                     /Pfam="p450"
 ORIGIN
         1 atgggtaact ctgccaacga agacaagttg cgctacgcct gtgaccgctg tcactcgcaa
        61 aagcttcgtt gccctcgatc tgtcgagcca gaaaaggcca acccggaaga gccgtgctcg

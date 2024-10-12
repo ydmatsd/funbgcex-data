@@ -1,24 +1,24 @@
-LOCUS       FBGC00046       28681 bp DNA     linear   UNA 08-MAY-2023
+LOCUS       FBGC00046              28681 bp    DNA     linear   UNA 08-MAY-2023
 DEFINITION  trichothecene.
 ACCESSION   FBGC00046
-VERSION     .
+VERSION     FBGC00046
 KEYWORDS    .
 SOURCE      Fusarium sp. NRRL 13405
   ORGANISM  Fusarium sp. NRRL 13405
+            .
 REFERENCE   1  (bases 1 to 28681)
   AUTHORS   Proctor RH, McCormick SP, Alexander NJ, Desjardins AE.
-  TITLE     Evidence that a secondary metabolic biosynthetic gene cluster has 
-            grown by gene relocation during evolution of the filamentous fungus 
+  TITLE     Evidence that a secondary metabolic biosynthetic gene cluster has
+            grown by gene relocation during evolution of the filamentous fungus
             Fusarium.
   JOURNAL   Mol Microbiol 2009;74:1128-42
-  PUBMED    19843228
+   PUBMED   19843228
 REFERENCE   2  (bases 1 to 28681)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported May 8, 2023 from SnapGene 6.2.2
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1111/j.1365-2958.2009.06927.x"; journalName: "Mol Microbiol"; 
+  JOURNAL   Exported May 8, 2023 from SnapGene 6.2.2 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1111/j.1365-2958.2009.06927.x"; journalName: "Mol Microbiol";
             date: "2009"; volume: "74"; pages: "1128-42"
 FEATURES             Location/Qualifiers
      source          1..28681
@@ -30,7 +30,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="TRI4"
                      /product="cytochrome P450 monooxygenase Tri4"
-                     /label=TRI4
+                     /label="TRI4"
                      /protein_id="ACZ51406.1"
                      /translation="MIDKDLIKGAVNIPISHAVGILAASSVIYFLATCFYNLYLHPLRK
                      IPGPKLAAIGPYLEFYHEVIRDGQYLWEIAKMHEKYGPIVRVNAREVHIKDSSYYSTIY
@@ -42,20 +42,22 @@ FEATURES             Location/Qualifiers
                      IPKGTPISQSTYFCHTDESIFPEPDKFRPERWIEAAEKKIPLKKYITNFSQGSRQCIGY
                      TMAFSEMYLALSRIARAYDIELYDTTKADIDMTHARIVGYPKAIPGKTEHVGEIRVKVL
                      GTL"
+                     /Pfam="p450"
      CDS             3059..3718
                      /codon_start=1
                      /gene="TRI6"
                      /product="transcription factor Tri6"
-                     /label=TRI6
+                     /label="TRI6"
                      /protein_id="ACZ51407.1"
                      /translation="MMSTIPQPCYQSWSALPLFDRISSPDHINSFSPDFNGYEPPMLET
                      GLLSADFSDFCAYPFSTVDLGPQQLYEVPNVRFEHGLVTPPIEPCVTKSHDLIDATPSD
                      LIILPNFTEPSGCPFPNCKSVAIFDSGRDFRRHYRQHFKRFFCRYAECPQSAQDLREVD
                      GRRGFATRKDRARHESKHKPTVQCPWHDQDGRQCLRVFSRVDNMRDHYRRIHKKKL"
+                     /Pfam="Tri6"
      CDS             complement(4716..5894)
                      /codon_start=1
                      /product="transcription factor Zn"
-                     /label=Zn
+                     /label="Zn"
                      /note="ORFF"
                      /protein_id="ACZ51408.1"
                      /translation="MTNTPIMRNKLLRTACDRCHSQKLRCPRPSKADSEKGDKTCNRCR
@@ -65,11 +67,12 @@ FEATURES             Location/Qualifiers
                      TWSEFLLSSNISYSNDIPNLGVQLHHTFDKQGSIFSNSNPAPSDLSSSGHYPFIDCGSA
                      INPHPFGDVAGELSGLNYRITCALANYKATAIIDDFHNLQLYQVVQDIIDISRQLIAIT
                      KQCLPYIPTTPDSSLASSPSSAVDELPEGSSRTSPALCKPLHHPTLSLVLHV"
+                     /Pfam="EqxR"
      CDS             join(6922..7390,7443..8098)
                      /codon_start=1
                      /gene="TRI5"
                      /product="terpene synthase Tri5"
-                     /label=TRI5
+                     /label="TRI5"
                      /protein_id="ACZ51409.1"
                      /translation="MEKFPTEYFLNTTVRLLEYIKYRDSNYTREERIENLHYAYTKAAH
                      HFAQPRQQQLLKVDPKRLQASLQTIVGMVVYSWAKVSKELMADLSIHYTYTLVLDDSKD
@@ -78,11 +81,12 @@ FEATURES             Location/Qualifiers
                      WVNDLMSFYKEFDGERDQISLVTNYVTSYEMSLNEALEKLTQDTLHSSKQMVAVFSDKD
                      PQVMETIERFMHGYVTWHLCDNRYRLSEIYEQVKGQESEDAQKFCKFYEQAATVGAVSP
                      SEWAYPPVAHLASLRSKDMKPAHEPIVTSLELVE"
+                     /Pfam="TRI5"
      CDS             join(8764..9141,9221..10114)
                      /codon_start=1
                      /gene="TRI10"
                      /product="transcription factor Tri10"
-                     /label=TRI10
+                     /label="TRI10"
                      /protein_id="ACZ51410.1"
                      /translation="MDFPKPRQERETSLLMYYLDVVFPLQYLPHERTCVGKREWLLTIL
                      TSARPTYYATLCLALLHKESSASSSTSEQAAVWKREKTYYYILALQESQKLLGGLDKTS
@@ -92,19 +96,21 @@ FEATURES             Location/Qualifiers
                      VTDELQRSPTPETLGDLITHIYAASITTYLHTVVSGLNPNLVEVQDSVSTTILLLEKLP
                      DLQAVVSIIWPLALTGCMALPRHREFFRVTLRSYSSTWSSLRKYDGVVEVLEQAWKKQE
                      LKTAESCINWEDLMDFQGIPVLLI"
+                     /Pfam="Fungal_trans_2"
      CDS             complement(10934..11065)
                      /codon_start=1
                      /gene="TRI9"
                      /product="hypothetical protein Tri9"
-                     /label=TRI9
+                     /label="TRI9"
                      /protein_id="ACZ51411.1"
                      /translation="MLAAAKLIDGLDTDPEVSWLEVCAYSGVSAALCATVWIAAKAC"
+                     /Pfam="TRI9"
      CDS             join(11876..12208,12263..12368,12435..12503,12560..13135,
                      13196..13638)
                      /codon_start=1
                      /gene="TRI1"
                      /product="cytochrome P450 monooxygenase Tri1"
-                     /label=TRI1
+                     /label="TRI1"
                      /protein_id="ACZ51412.1"
                      /translation="MLNLIKDMPISAYPLSFLFVALTLAVRRLLAPKPSAPLLNPRRFY
                      EFSDNGPVTRILNTTRRTIEEWFSKNPETPMRLICDLGEITVLPPSMADEIKKDSRLSF
@@ -115,12 +121,13 @@ FEATURES             Location/Qualifiers
                      YKMKLLDSALKETQRLKPVQIASMMREALVDVTLQDGTFIPKGHQLAVSCHNMRDEKIY
                      PNADEWDGYRFYRERQEADAAREDKIQLSSTSVEHMGFGYGEHACPGRFFAAKEVKIVM
                      MYLLLNYEWRIPEGTKPNPVSCCTIWVTDPTFEIEVRKKPSEDPALELAY"
+                     /Pfam="p450"
      CDS             complement(join(14360..14513,14572..14738,14809..15126,
                      15183..15974,16024..16071))
                      /codon_start=1
                      /gene="TRI11"
                      /product="cytochrome P450 monooxygenase Tri11"
-                     /label=TRI11
+                     /label="TRI11"
                      /protein_id="ACZ51413.1"
                      /translation="MLHYSVWPFVAFTAGTCLTYLVAVLVYNLFFHPLRHFPGPWLNRT
                      TQIPHTLLMLCGLPHKKHLELHLKYGPVIRIGPNMLSFNHPDAMKDVRGHRKAGEPEHG
@@ -131,11 +138,12 @@ FEATURES             Location/Qualifiers
                      STQNLRYMQAVLDEALRMYPPVAGGGSPRKIAKGGSLVAGYYVPDNTLVENDMWALHYD
                      PKYFTQPHDFIPERWLGDSRFKNDRLDAVKPFSIGPRNCIGMNLAYAEMRMMLARTVWE
                      FELRLAEDSRNWYEESRVYLAWHKPALNVYLTPR"
+                     /Pfam="p450"
      CDS             complement(join(16370..17104,17165..18163))
                      /codon_start=1
                      /gene="TRI13"
                      /product="cytochrome P450 monooxygenase Tri13"
-                     /label=TRI13
+                     /label="TRI13"
                      /protein_id="ACZ51414.1"
                      /translation="MFISLALTVLALYLLYKWAHPKPISKIPYNATALNSLFGDLPAMI
                      RDTKAHDQTHMDWIVQQMRNLDSPIIQLFLSPLQRPTVILADFRETQDIMLRRKEFDRS
@@ -148,11 +156,12 @@ FEATURES             Location/Qualifiers
                      TCRAAGEKKDQSWEASDIARFKPERWLVTKALSAEDMEEIEEFDGTAGPTLAFGLGTRG
                      CFGRRLGYQQLKTSIAMLVWNFELLPCPSQLSSYRTIEGLTSMPEHSYIRLAKVDLETP
                      E"
+                     /Pfam="p450"
      CDS             join(18835..19028,19082..20009)
                      /codon_start=1
                      /gene="TRI14"
                      /product="hypothetical protein Tri14"
-                     /label=TRI14
+                     /label="TRI14"
                      /protein_id="ACZ51415.1"
                      /translation="MLPQLVLNHLSSIGEAASTWISGNNYLSSTRECPPLPKGDLNYDI
                      YMGYPEMFAWDKKRCVAYVSNLYNATVSTYDPYKSVVLDTIHFPGLSHAGNSASPNPLH
@@ -161,11 +170,12 @@ FEATURES             Location/Qualifiers
                      AMIVPDNIIGQLIRFNVNDKVGTPVTIKQTPYHEFKTANVLHFPERYNDTILLVAENKT
                      PDHPFGGVAVYQDKTKQFNEVDFLGFLPSRLENALTTSARQMADRIYIVALPTDGANIT
                      VAGESSRFLWQDVTEDLDEIVYGKVQEELREEI"
+                     /Pfam="Tri14"
      CDS             complement(20503..21867)
                      /codon_start=1
                      /gene="TRI101"
                      /product="acetyltransferase Tri101"
-                     /label=TRI101
+                     /label="TRI101"
                      /protein_id="ACZ51416.1"
                      /translation="MTALNTTSQKLDMELDIIGQQPLMTEIYTQISFVFPVTDDSTHPA
                      IIDTFNKGLQRLSQAFPWVAGQVKKSDTDALRITPFEEIPRMIVKDLRGDPSAPTMEAL
@@ -175,12 +185,13 @@ FEATURES             Location/Qualifiers
                      RLPRVEKSARTLFCRAVDVRTQLDVPKDYPGILQNMAYSSSTLSQIANEPLGVVASRLR
                      SQLGRASLRRRTQAFVSHIAKHPGTLSVTADANPSTDIMLSSWAKTGWWNYDFGLGLGK
                      PESVRRPIFEPMESLMYLMPKRPDGEITAALSLRDEDMEILKGDEKWTKFGRFIG"
+                     /Pfam="Transferase"
      CDS             complement(join(22546..22678,22727..22851,22911..22944,
                      23000..23478,23531..24307))
                      /codon_start=1
                      /gene="TRI3"
                      /product="acetyltransferase Tri3"
-                     /label=TRI3
+                     /label="TRI3"
                      /protein_id="ACZ51417.1"
                      /translation="MASTLPPLVPEKYRWSSTGLKPGHVQRRCVGAEAIVGLESKNRKA
                      LYDLYIATSLRNVAPASMSLTLRKLKDMFELALLEARFERPEAACTASWDGEVAAIVNY
@@ -191,11 +202,12 @@ FEATURES             Location/Qualifiers
                      MRPDIAKNFYAMCQTAAVVRVGNLKSIAVSHQDDKDVQVRALETASRDVKTSYDQWLKN
                      PFQEALGLRVHNFEANYLHSKPIPFDGEANPLFISDGINDRFISHEIKSASTGEDLFSV
                      ESIDFLVNQSLPYLAIRLDSWKDASTLNIIYNDANYTEAEVRDYLKNIVEFMLAFKL"
+                     /Pfam="Tri3"
      CDS             complement(join(25037..25541,25596..26404))
                      /codon_start=1
                      /gene="TRI7"
                      /product="acetyltransferase Tri7"
-                     /label=TRI7
+                     /label="TRI7"
                      /protein_id="ACZ51418.1"
                      /translation="MDITSILENPRTYSRVYCASTLVGICTYVALIIISTPKSGAASLL
                      RYSSPAIVLGVGQHLFQELHGISGSLSHRSVSLALTALFILQCCNFLVIKRFDAEDLVE
@@ -205,11 +217,12 @@ FEATURES             Location/Qualifiers
                      TTISNFICRDLLRLPRPSLVERYMNVAGVFLTSAVIHMAIDAHCWGPPSKLPALAFFGS
                      CVIGIIIEDTVQALWRRSTGSQKSGGVPAWHKLIGYLWVSFWFVMTAPWYLYHNTRLPP
                      DDTWVVPVSIIDRIGGDRVKMMLLIGGVVLRFTFGIEV"
+                     /Pfam="MBOAT_2"
      CDS             27335..28681
                      /codon_start=1
                      /gene="TRI8"
                      /product="esterase Tri8"
-                     /label=TRI8
+                     /label="TRI8"
                      /protein_id="ACZ51419.1"
                      /translation="MTFLRLVAFLNLWLGFVSAVPNPLFDQSESLSEPIPPSQDPWYTA
                      PPGFANKAPGTVLRVRLAPGNLTSITVNSSASYNILYRTTDSHFKPTWAVTTLFVPKLG
@@ -219,6 +232,7 @@ FEATURES             Location/Qualifiers
                      GEYNKTGFSAAERFTITESGTTYANQDINNYFQNGTDVLNDPKILALVNREGVMGYYGV
                      PGWPLFIYQAIPDEITKISETDALVERYCGVGADIFLERNSVGSHYEEADNSYGAAVQW
                      LTDLFNENQVPGKGRGCVIRDVTRNVTSSALARREDRSNIWNLWSANYQ"
+                     /Pfam="LIP"
 ORIGIN
         1 ctacaaggtt ccaagaacct ttacccggat ttcaccaaca tgctccgtct ttccggggat
        61 agccttgggg tatccgacga tgcgggcatg ggtcatatca atgtcggcct tggtggtatc

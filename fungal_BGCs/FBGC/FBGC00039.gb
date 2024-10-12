@@ -1,23 +1,23 @@
-LOCUS       FBGC00039       36924 bp DNA     linear   UNA 08-FEB-2023
+LOCUS       FBGC00039              36924 bp    DNA     linear   UNA 08-FEB-2023
 DEFINITION  unguisin H.
 ACCESSION   FBGC00039
-VERSION     .
+VERSION     FBGC00039
 KEYWORDS    .
 SOURCE      Aspergillus campestris IBT 28561
   ORGANISM  Aspergillus campestris IBT 28561
+            .
 REFERENCE   1  (bases 1 to 36924)
   AUTHORS   Wei X, Chan TK, Kong CTD, Matsuda Y.
-  TITLE     Biosynthetic Characterization, Heterologous Production, and 
+  TITLE     Biosynthetic Characterization, Heterologous Production, and
             Genomics-Guided Discovery of GABA-Containing Fungal Heptapeptides.
   JOURNAL   J Nat Prod 2023
-  PUBMED    36715406
+   PUBMED   36715406
 REFERENCE   2  (bases 1 to 36924)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Feb 8, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1021/acs.jnatprod.2c01065"; journalName: "J Nat Prod"; date: 
+  JOURNAL   Exported Feb 8, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1021/acs.jnatprod.2c01065"; journalName: "J Nat Prod"; date:
             "2023"
 FEATURES             Location/Qualifiers
      source          1..36924
@@ -31,7 +31,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="P168DRAFT_281777"
                      /product="nonribosomal peptide synthetase UngA'"
-                     /label=ungA'
+                     /label="ungA'"
                      /note="/transcript_id=XM_024835952.1"
                      /db_xref="GeneID:36543476"
                      /translation="MAIEAVEAQHRITGSQCQDPVELSLAAIRIWALQVLEWFNDNPAS
@@ -196,11 +196,12 @@ FEATURES             Location/Qualifiers
                      SLPSSLQNVVGPCVNTIPVRVRIIPGQGLEQQLASVHEQHIQGLPYETSQFGDIAVNCT
                      DWPDESRTPELVVQFQNLDNLEHDAGTSILGANSTLAAYQRKGRPVFPDFIFVLAKPKG
                      DGWELSVSGSSKFHTQHTLDTVLDELTRQVVDC"
+                     /Pfam="AA-adenyl-dom, ACP_PCP, NRPS_C, NRPS_E, NRPS_CT"
      CDS             31415..32443
                      /codon_start=1
                      /locus_tag="P168DRAFT_304453"
                      /product="methyltransferase UngE'"
-                     /label=ungE'
+                     /label="ungE'"
                      /db_xref="GeneID:36546370"
                      /db_xref="InterPro:IPR013216"
                      /db_xref="JGIDB:Aspcam1_304453"
@@ -212,11 +213,12 @@ FEATURES             Location/Qualifiers
                      DEFEHVDLLTCFMMGHDFWPRDKCIATLQRLRRVFPAARRLLLGDATRILLDTPGGQQA
                      VRNGTVPIFTLGFEVGHAMMGVYLPTIDEWEGVFAEGGWRCVKKHLIESLSLSVVFELE
                      HA"
+                     /Pfam="Methyltransf_25"
      CDS             join(33160..33294,33352..34337,34397..34880)
                      /codon_start=1
                      /locus_tag="P168DRAFT_297054"
                      /product="metallo-beta-lactamase-like hydrolase UngD'"
-                     /label=ungD'
+                     /label="ungD'"
                      /db_xref="GeneID:36545673"
                      /db_xref="InterPro:IPR001466"
                      /db_xref="JGIDB:Aspcam1_297054"
@@ -231,11 +233,12 @@ FEATURES             Location/Qualifiers
                      PAPPPTLPIGKYTGNYWHPAYRQLTILWDEERNLLYADRKDSTTPCQLTFIPVSREFFL
                      VRLTVVGAEAMLPAEFRLGPDGTPSMVGILWEPSLGDEKIWLKKEGDTHFKEMYGGIVD
                      STAGKKRVPDTIHPIDL"
+                     /Pfam="Beta-lactamase, DUF3471"
      CDS             complement(join(34955..35558,35673..36652,36754..36924))
                      /codon_start=1
                      /locus_tag="P168DRAFT_343361"
                      /product="alanine racemase UngC'"
-                     /label=ungC'
+                     /label="ungC'"
                      /db_xref="GeneID:36549362"
                      /db_xref="InterPro:IPR000277"
                      /db_xref="JGIDB:Aspcam1_343361"
@@ -251,6 +254,7 @@ FEATURES             Location/Qualifiers
                      PSQGPSRVYYERQMRRPRRSDDGPLSRPGYGGVFSMEFADVAGASTFFDHLDVYKGLSF
                      GADVCIAAPYMQMTGQGAATQRPQPHDSNYASETLIRFSVGLEPAEDILQRVHTALEAS
                      SRGFVAPG"
+                     /Pfam="Cys_Met_Meta_PP"
 ORIGIN
         1 tcaacaatct acaacttgcc tagtaagctc atccaacacg gtgtcaagcg tgtgctgcgt
        61 gtggaatttc gagctgcctg acacagacag ctcccagccg tctcccttag gttttgccag

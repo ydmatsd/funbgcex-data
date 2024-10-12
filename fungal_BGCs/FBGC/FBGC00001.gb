@@ -1,21 +1,21 @@
-LOCUS       FBGC00001       23079 bp DNA     linear   UNA 14-JAN-2023
+LOCUS       FBGC00001              23079 bp    DNA     linear   UNA 14-JAN-2023
 DEFINITION  pyripyropene A.
 ACCESSION   FBGC00001
-VERSION     .
+VERSION     FBGC00001
 KEYWORDS    .
 SOURCE      Aspergillus fumigatus Af293
   ORGANISM  Aspergillus fumigatus Af293
+            .
 REFERENCE   1  (bases 1 to 23079)
   AUTHORS   Itoh T, Tokunaga K, Matsuda Y, Fujii I, Abe I, Ebizuka Y, Kushiro T.
-  TITLE     Reconstitution of a fungal meroterpenoid biosynthesis reveals the 
+  TITLE     Reconstitution of a fungal meroterpenoid biosynthesis reveals the
             involvement of a novel family of terpene cyclases.
   JOURNAL   Nat Chem 2010;2:858-64
-  PUBMED    20861902
+   PUBMED   20861902
 REFERENCE   2  (bases 1 to 23079)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Jan 14, 2023 from SnapGene 6.2.0
-            https://www.snapgene.com
+  JOURNAL   Exported Jan 14, 2023 from SnapGene 6.2.0 https://www.snapgene.com
 COMMENT     SGRef: number: 1; type: "Journal Article"; doi: "10.1038/nchem.764";
             journalName: "Nat Chem"; date: "2010"; volume: "2"; pages: "858-64"
 FEATURES             Location/Qualifiers
@@ -30,10 +30,10 @@ FEATURES             Location/Qualifiers
                      /locus_tag="AFUA_6G13920"
                      /old_locus_tag="Afu6g13920"
                      /product="CoA ligase Pyr1"
-                     /label=pyr1
-                     /note="encoded by transcript AFUA_6G13920A;
-                     similar to adenylate-forming enzyme AfeA (GI:34558504) 
-                     [Emericella nidulans]"
+                     /label="pyr1"
+                     /note="encoded by transcript AFUA_6G13920A; similar to
+                     adenylate-forming enzyme AfeA (GI:34558504) [Emericella
+                     nidulans]"
                      /db_xref="GeneID:3508582"
                      /protein_id="XP_751267.1"
                      /translation="MEPHGETDLVSFAFSSPTPFDPTRPIYLDAQNPSRAFNARQFRLL
@@ -47,14 +47,15 @@ FEATURES             Location/Qualifiers
                      TSHSTNRLCDSRYSVAPAEIEGILLKDPGVKDAAVIGVMLPDGSSEVPRAYVVRAGISP
                      ESTADQLTDLVQTQLASYKALDGGVVFVDEIPRTGIGKPHRARLSQLDREREKLASILG
                      VSVPA"
+                     /Pfam="AA-adenyl-dom"
      CDS             complement(join(2042..2993,3048..9433))
                      /codon_start=1
                      /locus_tag="AFUA_6G13930"
                      /old_locus_tag="Afu6g13930"
                      /product="polyketide synthase Pyr2"
-                     /label=pyr2
-                     /note="encoded by transcript AFUA_6G13930A;
-                     similar to lovastatin nonaketide synthase LovB (GI:5106755)
+                     /label="pyr2"
+                     /note="encoded by transcript AFUA_6G13930A; similar to
+                     lovastatin nonaketide synthase LovB (GI:5106755)
                      [Aspergillus terreus] PUBMED 10381407"
                      /db_xref="GeneID:3508583"
                      /protein_id="XP_751268.2"
@@ -100,16 +101,18 @@ FEATURES             Location/Qualifiers
                      FARSAEFIVGLRHQSLQTGRMAGPVPKLWPFYSYTATASQGQKPPSLPERRQSAKDLVA
                      AATSREEKAEAIAACLMEKIRARLKLNADAPLSSDTLISELGVDSLVAVELRRWFAKQL
                      AVDMSIVLILSGASVGELANAAASKLCNGNSELCTSSNLV"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_DH, PKS_NRPS_MT, fPKS_KR,
+                     ACP_PCP"
      CDS             join(9927..10178,10247..10363,10419..10521,10599..10655,
                      10727..11329,11395..11819)
                      /codon_start=1
                      /locus_tag="AFUA_6G13940"
                      /product="cytochrome P450 monooxygenase Pyr3"
-                     /label=pyr3
-                     /note="encoded by transcript AFUA_6G13940A;
-                     similar to GA14-synthase; P450-1 (GI:42661492) [Fusarium 
-                     proliferatum] similar to cytochrome P450 monoxygenase 
-                     (GI:3549891) [Gibberella fujikuroi] PMID: 9917370"
+                     /label="pyr3"
+                     /note="encoded by transcript AFUA_6G13940A; similar to
+                     GA14-synthase; P450-1 (GI:42661492) [Fusarium proliferatum]
+                     similar to cytochrome P450 monoxygenase (GI:3549891)
+                     [Gibberella fujikuroi] PMID: 9917370"
                      /db_xref="GeneID:5077233"
                      /protein_id="XP_001481476.1"
                      /translation="MVSSFSSKRLGDTMDSLALGSNWAGGVAIVLFLAPLALHLVSSYL
@@ -122,18 +125,19 @@ FEATURES             Location/Qualifiers
                      TTLMVSAHAMWEPQIYPDPRRYDGYRFYKLRQVPGQEGQHQLVSATEKHMGFGYGKHAC
                      PGRFFAAAEIKVALCHILLKYDLEHRGGGPPPRVWSQGIHLFPDPTARIRVRRRKEEIS
                      L"
+                     /Pfam="p450"
      CDS             join(12648..12860,12920..13133,13188..13256,13353..13928,
                      13988..14424)
                      /codon_start=1
                      /locus_tag="AFUA_6G13945"
                      /product="cytochrome P450 monooxygenase Pyr9"
                      /EC_number="1.14.-.-"
-                     /label=pyr9
-                     /note="encoded by transcript AFUA_6G13945A;
-                     similar to Cytochrome P450 24A1, mitochondrial precursor 
-                     (P450-CC24) (Vitamin D(3) 24-hydroxylase) 
-                     (1,25-dihydroxyvitamin D(3) 24-hydroxylase) 
-                     (Swiss-Prot:Q07973) [Homo sapiens] PubMed=8266831"
+                     /label="pyr9"
+                     /note="encoded by transcript AFUA_6G13945A; similar to
+                     Cytochrome P450 24A1, mitochondrial precursor (P450-CC24)
+                     (Vitamin D(3) 24-hydroxylase) (1,25-dihydroxyvitamin D(3)
+                     24-hydroxylase) (Swiss-Prot:Q07973) [Homo sapiens]
+                     PubMed=8266831"
                      /db_xref="GeneID:5077234"
                      /protein_id="XP_001481477.1"
                      /translation="MIRVEDASIGTVWVTCLLAVGLYFIRSRLLSDQFAGFPSVNSRKP
@@ -145,12 +149,13 @@ FEATURES             Location/Qualifiers
                      LLDSVLKESQRLHPITTGTFSRFTRQNIKLTNGTEIPTGTPVMVTNDVAGDAAIYPDPE
                      VFDGYRYLRMREGADKARAPFTTTGQNHLGFGYGKYACPGRFFAATEIKIALCHMLLKY
                      EWRLVKDSPHDMLTSGFASFRDPRARIEVRRRAPDPQEVVLTIK"
+                     /Pfam="p450"
      CDS             join(14902..15422,15485..15689)
                      /codon_start=1
                      /locus_tag="AFUA_6G13950"
                      /old_locus_tag="Afu6g13950"
                      /product="terpene cyclase Pyr4"
-                     /label=pyr4
+                     /label="pyr4"
                      /note="encoded by transcript AFUA_6G13950A"
                      /db_xref="GeneID:3508586"
                      /protein_id="XP_751270.1"
@@ -159,16 +164,17 @@ FEATURES             Location/Qualifiers
                      HAPLVRQCLPWIFPVAIAAFTAGHLALAATVGVSKAANWGAFLCFELLTSGAVCQLMSR
                      GSSRGASYTIWLSRFLGSYIGGIFLHVRETHWPQEFGWISHPFVTWHGLMCFSLDIAYV
                      TFLWRIRRQEHRSQRKKAL"
+                     /Pfam="Pyr4"
      CDS             join(16055..16332,16396..16664,16773..17155,17223..17690)
                      /codon_start=1
                      /locus_tag="AFUA_6G13970"
                      /old_locus_tag="Afu6g13970"
                      /product="FAD-dependent monooxygenase Pyr5"
                      /EC_number="1.14.13.1"
-                     /label=pyr5
-                     /note="encoded by transcript AFUA_6G13970A;
-                     similar to monooxygenase PaxM (GI:13021723) [Penicillium 
-                     paxilli] PMID: 11169115"
+                     /label="pyr5"
+                     /note="encoded by transcript AFUA_6G13970A; similar to
+                     monooxygenase PaxM (GI:13021723) [Penicillium paxilli]
+                     PMID: 11169115"
                      /db_xref="GeneID:3508587"
                      /protein_id="XP_751271.1"
                      /translation="MRVLIIGGSIAGLTLAHCLEKAKIDYVLLEKKEEIAPQEGASIGI
@@ -180,16 +186,17 @@ FEATURES             Location/Qualifiers
                      GPNDPPTASDLSEILAGFVEDRLRRLGPVAVAARSAMRLHARQGVKNWILGRYLLPYAG
                      DKPADWASQGIAGGGVTLDFVEPPERSGPGWVQFSQPRKRPTFPLTVAGLCLVAIVIRM
                      LHSTLTV"
+                     /Pfam="FAD_binding_3"
      CDS             join(18045..18141,18216..18507,18555..19128)
                      /codon_start=1
                      /locus_tag="AFUA_6G13980"
                      /old_locus_tag="Afu6g13980"
                      /product="UbiA-like prenyltransferase Pyr6"
                      /EC_number="2.5.1.-"
-                     /label=pyr6
-                     /note="encoded by transcript AFUA_6G13980A;
-                     similar to p-hydroxybenzoate polyprenyl diphosphate Ppt1 
-                     (GI:12249121) [Schizosaccharomyces pombe]"
+                     /label="pyr6"
+                     /note="encoded by transcript AFUA_6G13980A; similar to
+                     p-hydroxybenzoate polyprenyl diphosphate Ppt1 (GI:12249121)
+                     [Schizosaccharomyces pombe]"
                      /db_xref="GeneID:3508588"
                      /protein_id="XP_751272.2"
                      /translation="MATAQSPTQLVRTLIDVSRFDKYNCLFAIFPGVWSIFLAAASRHA
@@ -198,15 +205,16 @@ FEATURES             Location/Qualifiers
                      GASSALTILPAWASVYGDSVAPPDLLAKCLPLCVFLFLWTIYFNTAYSYQDVKDDCRLS
                      VNSSYVLAGQYVHGLLLLQAVAVVMVIPWILHENGSAWLWFSWLGVWTAALAEQLYLFD
                      TKDPSTGGRVHRRNFALGIWNVLACFVELLLVSGSLDMF"
+                     /Pfam="UbiA_PT"
      CDS             complement(19424..20956)
                      /codon_start=1
                      /locus_tag="AFUA_6G13990"
                      /old_locus_tag="Afu6g13990"
                      /product="acetyltransferase Pyr7"
-                     /label=pyr7
-                     /note="encoded by transcript AFUA_6G13990A;
-                     similar to C-8 acyltransferase [Fusarium sporotrichioides] 
-                     (GI:28207662) PMID: 14532047"
+                     /label="pyr7"
+                     /note="encoded by transcript AFUA_6G13990A; similar to C-8
+                     acyltransferase [Fusarium sporotrichioides] (GI:28207662)
+                     PMID: 14532047"
                      /db_xref="GeneID:3508589"
                      /protein_id="XP_751273.1"
                      /translation="MSVQTTYSPVNQDEQVHDGLASRHVSCEGAPSDDSPYALSSLDHN
@@ -218,17 +226,18 @@ FEATURES             Location/Qualifiers
                      RPSFHAPAFNNYLGNMVLLTYTPIPAAKDQAPVDGPRPPTELRQEDLEELTGIAARIRQ
                      SLLKVDAEYIQGVLSHLHSQTDWANIGFRGVPIPLSSFRNFEMIGLDFGETLGSQPRGF
                      QLHLPVLGGMCFVLPKRQDRTEPWDLHLTLHRDDVSRIANDPLFRWAAGEHF"
+                     /Pfam="CalD"
      CDS             join(21707..22494,22578..23079)
                      /codon_start=1
                      /locus_tag="AFUA_6G14000"
                      /old_locus_tag="Afu6g14000"
                      /product="acetyltransferase Pyr8"
-                     /label=pyr8
-                     /note="encoded by transcript AFUA_6G14000A;
-                     similar to TRI7 (GI:14091058) [Gibberella zeae] PMID: 
-                     11976083 similar to Tri7 (GI:13621071) [Fusarium 
-                     sporotrichioides] PMID: 11352533 PMID: 12039755 similar to 
-                     SirH (GI:46403049) [Leptosphaeria maculans] PMID: 15387811"
+                     /label="pyr8"
+                     /note="encoded by transcript AFUA_6G14000A; similar to TRI7
+                     (GI:14091058) [Gibberella zeae] PMID: 11976083 similar to
+                     Tri7 (GI:13621071) [Fusarium sporotrichioides] PMID:
+                     11352533 PMID: 12039755 similar to SirH (GI:46403049)
+                     [Leptosphaeria maculans] PMID: 15387811"
                      /db_xref="GeneID:3508590"
                      /protein_id="XP_751274.1"
                      /translation="MDLVPSSTLWSIAQELALYLAFTVPTAFVIITTPKSSFLRLAWTP
@@ -239,6 +248,7 @@ FEATURES             Location/Qualifiers
                      ARDVLRLPRPSLLERYTNIFFTFFTSAVLHLACDAILGIPPSGSGAMPFFCVVPLAIMF
                      EDGVQEVWRRVTGPSQGAVPFWQRLVGFLWVGSWMYATSPWYLYPAARQPPERTWMVPV
                      SVVGEIGLRVAQKVLLVYGVVLYWAIGGEI"
+                     /Pfam="MBOAT_2"
 ORIGIN
         1 ctatgcaggc acagagacac ccaaaataga ggcaagcttc tcccgttcgc gatccagctg
        61 tgagagtctc gctcgatggg gcttgccgat gcccgtccgg gggatctcgt ccacaaagac
