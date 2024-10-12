@@ -1,28 +1,28 @@
-LOCUS       FBGC00160       22204 bp DNA     linear   UNA 09-MAY-2023
+LOCUS       FBGC00160              22204 bp    DNA     linear   UNA 09-MAY-2023
 DEFINITION  melleolides.
 ACCESSION   FBGC00160
-VERSION     .
+VERSION     FBGC00160
 KEYWORDS    .
 SOURCE      Armillaria gallica FU02472
   ORGANISM  Armillaria gallica FU02472
+            .
 REFERENCE   1  (bases 1 to 22204)
-  AUTHORS   Engels B, Heinig U, McElroy C, Meusinger R, Grothe T, Stadler M, 
+  AUTHORS   Engels B, Heinig U, McElroy C, Meusinger R, Grothe T, Stadler M,
             Jennewein S.
-  TITLE     Isolation of a gene cluster from Armillaria gallica for the 
+  TITLE     Isolation of a gene cluster from Armillaria gallica for the
             synthesis of armillyl orsellinate-type sesquiterpenoids.
   JOURNAL   Appl Microbiol Biotechnol 2021;105:211-224
-  PUBMED    33191459
+   PUBMED   33191459
 REFERENCE   2  (bases 1 to 22204)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported May 9, 2023 from SnapGene 6.2.2
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1007/s00253-020-11006-y"; journalName: "Appl Microbiol 
-            Biotechnol"; date: "2021"; volume: "105"; pages: "211-224"
+  JOURNAL   Exported May 9, 2023 from SnapGene 6.2.2 https://www.snapgene.com
 COMMENT     ##Assembly-Data-START##
-            Sequencing Technology :: Sanger dideoxy sequencing 
+            Sequencing Technology :: Sanger dideoxy sequencing
             ##Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1007/s00253-020-11006-y"; journalName: "Appl Microbiol
+            Biotechnol"; date: "2021"; volume: "105"; pages: "211-224"
 FEATURES             Location/Qualifiers
      source          1..22204
                      /strain="FU02472"
@@ -36,7 +36,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="CYP-Arm1"
                      /product="cytochrome P450 monooxygenase CYP-Arm1"
-                     /label=CYP-Arm1
+                     /label="CYP-Arm1"
                      /note="CYP450"
                      /protein_id="QJQ03970.1"
                      /translation="MALFSAYALAFSLLMVPLILYILRIGRRESGLPPGPSTLPLVGNL
@@ -49,13 +49,14 @@ FEATURES             Location/Qualifiers
                      FMNQWGMLHDPDSYDQPESFMPERFLTSPFGTRPGADDTGRSKDIYFGGGRRICVGMHF
                      GQNSLAITSMYLIWAFNLTNAIDPQTKNPIPVDINEYDISLNTIPKPFKCDFQVRSEEH
                      KRMVENAFAESRQVLAPFEQD"
-     CDS             complement(join(5067..5160,5217..5393,5442..5584,5639..5691,
-                     5745..5754,5810..6008,6059..6162,6215..6305,6357..6390,
-                     6448..6725,6778..6949,7002..7188))
+                     /Pfam="p450"
+     CDS             complement(join(5067..5160,5217..5393,5442..5584,
+                     5639..5691,5745..5754,5810..6008,6059..6162,6215..6305,
+                     6357..6390,6448..6725,6778..6949,7002..7188))
                      /codon_start=1
                      /gene="CYP-Arm2"
                      /product="cytochrome P450 monooxygenase CYP-Arm2"
-                     /label=CYP-Arm2
+                     /label="CYP-Arm2"
                      /note="CYP450"
                      /protein_id="QJQ03971.1"
                      /translation="MTHASSAWFLAAVAIVTFIVVRRIRSSWRKLPPGPRGLPIVGNLL
@@ -67,6 +68,7 @@ FEATURES             Location/Qualifiers
                      YVRAMVKETLRWRAVDPVGLPHRSTEDDIYNGYFIPAGSILIANVWHINRDPENYGLDA
                      EHFDPARHLDETGQLAPVAGTKEENHVSFGFGRRICVGRHIANDTLFAVIATLLWAIHI
                      EPATDEKGASLPLDVDGCIEDGVVVRPLPFKVKVTPRFSEAQAIVEQERELLGHY"
+                     /Pfam="p450"
      CDS             complement(join(11811..11904,11958..12134,12182..12327,
                      12374..12426,12479..12488,12548..12746,12794..12897,
                      12952..13042,13094..13131,13187..13460,13514..13691,
@@ -74,7 +76,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="CYP-Arm3"
                      /product="cytochrome P450 monooxygenase CYP-Arm3"
-                     /label=CYP-Arm3
+                     /label="CYP-Arm3"
                      /note="CYP450"
                      /protein_id="QJQ03972.1"
                      /translation="MTRIFSEEVSPIWILTAIVVVAYTTVRYLRSPWRNLPPGPRGLPL
@@ -87,13 +89,14 @@ FEATURES             Location/Qualifiers
                      EIYGPDAEHFNPARHLDKDGKLAPGPADTKEESHVTYGFGRRICVGRHVANNSLFIDIA
                      MMLWAMNIERATDENGVPLPLDVDGCVEDGLVTRPVPFKAKITPRFREAQAIVEQEREL
                      LGYH"
+                     /Pfam="p450"
      CDS             complement(join(16641..16974,17025..17068,17128..17413,
                      17468..17561,17619..17665,17717..17750,17807..17845,
                      17902..17947,18001..18117))
                      /codon_start=1
                      /gene="6-protoilludene synthase"
                      /product="terpene synthase Pro1"
-                     /label=Pro1
+                     /label="Pro1"
                      /protein_id="QJQ03973.1"
                      /translation="MSQRIFLPDTLANWQWPRHLNPHYAEVKKASAAWAKSFRAFQTKA
                      QEAFDRCDFNLLASFAYPLADEARLRSGCDLMNLFFVIDEYSDVSTEEEVRAQKDIVMD
@@ -102,6 +105,7 @@ FEATURES             Location/Qualifiers
                      VVSYNLEQARDDDGHNIVTIAMNELRTDVAGAMIWVDEYHKQLESRFMENFKKVPRWGG
                      PIDLQVARYCDGLGNWVRANDQWSFESERYFGKKGPEIIQRRWITLMPKMVSEELGPQI
                      VDGFHL"
+                     /Pfam="Terpene_syn_C_2"
      CDS             join(19933..20122,20175..20310,20362..20366,20424..20613,
                      20669..20775,20831..20872,20922..20979,21037..21094,
                      21151..21271,21327..21337,21391..21580,21630..21711,
@@ -109,7 +113,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="CYP-Arm4"
                      /product="cytochrome P450 monooxygenase CYP-Arm4"
-                     /label=CYP-Arm4
+                     /label="CYP-Arm4"
                      /note="CYP450"
                      /protein_id="QJQ03974.1"
                      /translation="MDSASLAVVVWAILLVLWLRRIFGQRSSLPLPPAPPGYPVIGNLL
@@ -121,6 +125,7 @@ FEATURES             Location/Qualifiers
                      LPDFGDKTRLPYVTAILKEVLRWIPVLPMAVPHRAVNADTYKGYYIPAGAFVYGNAWAI
                      LHNPDIFADPETFRPDRFIENPTLLNPIDNGVFGFGRRACAGRVMALDTMWIAMASILA
                      VFDISKAVDERGNEISPPVKLSPGTISHPAPFPCIIKPRSKAALELITQDD"
+                     /Pfam="p450"
 ORIGIN
         1 atggccctct tctcagcata tgctctcgcg ttctcacttt tgatggtccc cttgatcctc
        61 tacatactta ggatcgggag aagggagagt gggcttcccc cagggccgtc tacgctaccc

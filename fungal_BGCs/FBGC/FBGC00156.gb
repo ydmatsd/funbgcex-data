@@ -1,31 +1,31 @@
-LOCUS       FBGC00156       17425 bp DNA     linear   UNA 22-JAN-2023
-DEFINITION  nanangelenin.
+LOCUS       FBGC00156              17425 bp    DNA     linear   UNA 20-MAR-2024
+DEFINITION  nanangelenin A.
 ACCESSION   FBGC00156
-VERSION     .
+VERSION     FBGC00156
 KEYWORDS    .
 SOURCE      Aspergillus nanangensis MST-FP2251
   ORGANISM  Aspergillus nanangensis MST-FP2251
+            .
 REFERENCE   1  (bases 1 to 17425)
-  AUTHORS   Li H, Gilchrist CLM, Phan CS, Lacey HJ, Vuong D, Moggach SA, Lacey 
+  AUTHORS   Li H, Gilchrist CLM, Phan CS, Lacey HJ, Vuong D, Moggach SA, Lacey
             E, Piggott AM, Chooi YH.
-  TITLE     Biosynthesis of a New Benzazepine Alkaloid Nanangelenin A from 
-            Aspergillus nanangensis Involves an Unusual 
-            l-Kynurenine-Incorporating NRPS Catalyzing Regioselective 
+  TITLE     Biosynthesis of a New Benzazepine Alkaloid Nanangelenin A from
+            Aspergillus nanangensis Involves an Unusual
+            l-Kynurenine-Incorporating NRPS Catalyzing Regioselective
             Lactamization.
   JOURNAL   J Am Chem Soc 2020;142:7145-7152
-  PUBMED    32182055
+   PUBMED   32182055
 REFERENCE   2  (bases 1 to 17425)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Jan 22, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1021/jacs.0c01605"; journalName: "J Am Chem Soc"; date: "2020"; 
-            volume: "142"; pages: "7145-7152"
+  JOURNAL   Exported Mar 20, 2024 from SnapGene 7.1.2 https://www.snapgene.com
 COMMENT     ##Assembly-Data-START##
             Assembly Method       :: SPAdes v. v3.13.0
             Sequencing Technology :: Illumina
             ##Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1021/jacs.0c01605"; journalName: "J Am Chem Soc"; date: "2020";
+            volume: "142"; pages: "7145-7152"
 FEATURES             Location/Qualifiers
      source          1..17425
                      /strain="MST-FP2251"
@@ -39,9 +39,9 @@ FEATURES             Location/Qualifiers
                      /gene="nanB"
                      /locus_tag="FE257_001449"
                      /product="acetyltransferase NanB"
-                     /label=nanB
-                     /note="SECRETED:SignalP(1-24); TransMembrane:5 
-                     (n5-16c21/22o145-167i284-304o310-328i349-373o393-413i); 
+                     /label="nanB"
+                     /note="SECRETED:SignalP(1-24); TransMembrane:5
+                     (n5-16c21/22o145-167i284-304o310-328i349-373o393-413i);
                      EggNog:ENOG410PP8D"
                      /db_xref="InterPro:IPR032805"
                      /db_xref="PFAM:PF13813"
@@ -54,15 +54,16 @@ FEATURES             Location/Qualifiers
                      ERYLNNALVFAQSGIVHVYFNWIKGVQDGDVGCMAFYISFVAGYFLEDHVQGLWRKAFD
                      RTSAQESSLWLLERLVGALWVATFLTIVTPWWVYPFLRLSSSLKMPYSFVDVFGFQGAL
                      TVVFMGAAALRIGLNAEP"
+                     /Pfam="MBOAT_2"
      CDS             complement(join(1919..2254,2328..2930,2982..3275))
                      /codon_start=1
                      /gene="nanC"
                      /locus_tag="FE257_001450"
                      /product="indoleamine 2,3-dioxygenase NanC"
-                     /label=nanC
+                     /label="nanC"
                      /note="EggNog:ENOG410PFRQ; COG:E; GO_function: GO:0020037 -
-                     heme binding [Evidence IEA]; GO_function: GO:0046872 - 
-                     metal ion binding [Evidence IEA]; GO_process: GO:0019441 - 
+                     heme binding [Evidence IEA]; GO_function: GO:0046872 -
+                     metal ion binding [Evidence IEA]; GO_process: GO:0019441 -
                      tryptophan catabolic process to kynurenine [Evidence IEA]"
                      /db_xref="InterPro:IPR000898"
                      /db_xref="InterPro:IPR037217"
@@ -76,15 +77,16 @@ FEATURES             Location/Qualifiers
                      DITLGINHDIGYKTRYLREMRSYMPAQHRRFLARMEEISNLRPYALSHGPGSSNMCSLY
                      NSAVLGLKNLRDKHMALVFRYIIIPRAKEKAGNGLAIRQKDLVGTGGTDMIPFLRETRD
                      DTMNAVHLPYS"
+                     /Pfam="IDO"
      CDS             join(4090..5297,5352..5451)
                      /codon_start=1
                      /gene="nanD"
                      /locus_tag="FE257_001451"
                      /product="DMATS-type prenyltransferase NanD"
-                     /label=nanD
-                     /note="EggNog:ENOG410PVDJ; COG:O; MEROPS:MER0126985; 
-                     GO_function: GO:0016765 - transferase activity, 
-                     transferring alkyl or aryl (other than methyl) groups 
+                     /label="nanD"
+                     /note="EggNog:ENOG410PVDJ; COG:O; MEROPS:MER0126985;
+                     GO_function: GO:0016765 - transferase activity,
+                     transferring alkyl or aryl (other than methyl) groups
                      [Evidence IEA]; GO_process: GO:0009820 - alkaloid metabolic
                      process [Evidence IEA]"
                      /db_xref="InterPro:IPR017795"
@@ -98,14 +100,15 @@ FEATURES             Location/Qualifiers
                      YLFDLHVSFERIITHWTMGGRLNDEVTMSGLGILRELWDELKIPEGRRKPIERPPKPGD
                      GPTMPLFFNYEMKAGDRLPKVKAYLPLVGMPEMPIARKLAAFFQRYGFPVEGRQYVDTL
                      AGYFPDEDLEIVTHHQAFLSFSYSAKTGPYMTIYYH"
+                     /Pfam="Trp_DMAT"
      CDS             complement(join(5658..12695,12753..13175))
                      /codon_start=1
                      /gene="nanA"
                      /locus_tag="FE257_001452"
                      /product="nonribosomal peptide synthetase NanA"
-                     /label=nanA
+                     /label="nanA"
                      /note="EggNog:ENOG41KOG1178; COG:I; GO_function: GO:0031177
-                     - phosphopantetheine binding [Evidence IEA]; GO_function: 
+                     - phosphopantetheine binding [Evidence IEA]; GO_function:
                      GO:0003824 - catalytic activity [Evidence IEA]"
                      /db_xref="InterPro:IPR000873"
                      /db_xref="InterPro:IPR001242"
@@ -161,15 +164,16 @@ FEATURES             Location/Qualifiers
                      TQVNIRYWKSTMSTEQAALVRTCFCSAVSQLLDGENARVADLALISAVQRARIWGFLSS
                      SETIVEPLERIWAEVLNRAQTQIGGNDDFFRLGGDSILAVRMVSLARKGGIDIRVADVF
                      KFSTIYKLARLLQTQAQTAEGE"
+                     /Pfam="NRPS_C, AA-adenyl-dom, ACP_PCP"
      CDS             complement(join(13784..14063,14134..14521,14614..14723,
                      14777..14900,14962..15277))
                      /codon_start=1
                      /gene="nanE"
                      /locus_tag="FE257_001453"
                      /product="methyltransferase NanE"
-                     /label=nanE
+                     /label="nanE"
                      /note="GO_function: GO:0008171 - O-methyltransferase
-                     activity [Evidence IEA]; GO_function: GO:0008168 - 
+                     activity [Evidence IEA]; GO_function: GO:0008168 -
                      methyltransferase activity [Evidence IEA]"
                      /db_xref="InterPro:IPR001077"
                      /db_xref="InterPro:IPR016461"
@@ -184,12 +188,13 @@ FEATURES             Location/Qualifiers
                      VRWQRHNFHHKQPMDGADVYLLSNILMDNTVSDCNRILTNIVDAMVPNHSVLLVDDAID
                      TLSEDSHSAYSSSMNLHMLSCFGTLFRTQEDWLMLFSEVAGGKLSIVSSWMIDAGRMIF
                      ALRRKF"
+                     /Pfam="Methyltransf_2"
      CDS             complement(join(15897..16508,16593..17188,17254..17425))
                      /codon_start=1
                      /gene="nanF"
                      /locus_tag="FE257_013097"
                      /product="FAD-dependent monooxygenase NanF"
-                     /label=nanF
+                     /label="nanF"
                      /note="EggNog:ENOG410PMET; COG:C; GO_function: GO:0071949 -
                      FAD binding [Evidence IEA]"
                      /db_xref="InterPro:IPR002938"
@@ -206,6 +211,7 @@ FEATURES             Location/Qualifiers
                      GQGIEDAATVAICLQLAGKTHISLALQAVERLRYARTSIIQSSGPKIYAGVRNPDWKAI
                      EKDPSLIMLPRPKWIFGYDVPRDVYEQFPLVKRAIEEGSSYTPKNIPPGGRYEFLHDFK
                      E"
+                     /Pfam="FAD_binding_3"
 ORIGIN
         1 ctatggctca gcgttaagac ctatcctgag agccgcagca cccataaaaa cgacagtcaa
        61 cgccccttga aagccgaata cgtcgacgaa gctatatggc atcttcaacg agctagaaag

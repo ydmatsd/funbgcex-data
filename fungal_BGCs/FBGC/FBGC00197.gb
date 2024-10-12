@@ -1,22 +1,22 @@
-LOCUS       FBGC00197       21690 bp DNA     linear   UNA 24-JAN-2023
+LOCUS       FBGC00197              21690 bp    DNA     linear   UNA 24-JAN-2023
 DEFINITION  acetoxydehydroaustin.
 ACCESSION   FBGC00197
-VERSION     .
+VERSION     FBGC00197
 KEYWORDS    .
 SOURCE      Penicillium brasilianum MG11
   ORGANISM  Penicillium brasilianum MG11
+            .
 REFERENCE   1  (bases 1 to 21690)
   AUTHORS   Mattern DJ, Valiante V, Horn F, Petzke L, Brakhage AA.
   TITLE     Rewiring of the Austinoid Biosynthetic Pathway in Filamentous Fungi.
   JOURNAL   ACS Chem Biol 2017;12:2927-2933
-  PUBMED    29076725
+   PUBMED   29076725
 REFERENCE   2  (bases 1 to 21690)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Jan 24, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1021/acschembio.7b00814"; journalName: "ACS Chem Biol"; date: 
+  JOURNAL   Exported Jan 24, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1021/acschembio.7b00814"; journalName: "ACS Chem Biol"; date:
             "2017"; volume: "12"; pages: "2927-2933"
 FEATURES             Location/Qualifiers
      source          1..21690
@@ -27,17 +27,18 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="PMG11_06808"
                      /product="isomerase AusF"
-                     /label=ausF
+                     /label="ausF"
                      /protein_id="CEJ58138.1"
                      /translation="MSTTREKLLATTTKFVSAFGSFDIEEMLNIRTPTCLYHQCCPSFD
                      KNVVTNEETRASFPQFIATFKRFDFSILEPDHTLVDEAARKVMIRAKTSAESIVGAYEN
                      EYIFILKMTDDCRLIEEIHEFYDTIRLKDLQHRLEANRISFGDAAPF"
+                     /Pfam="Trt14"
      CDS             complement(join(1390..2480,2545..2613,2679..2892,
                      2946..3233))
                      /codon_start=1
                      /locus_tag="PMG11_06809"
                      /product="cytochrome P450 monooxygenase AusG"
-                     /label=ausG
+                     /label="ausG"
                      /protein_id="CEJ58139.1"
                      /translation="MAMVTPGLWANFSHSSHELGIANGFEFLNSLLVAYRLPGLLLLFS
                      ITIILFQPLRKKSDLPLINSGKGPFSILRGYRSRKTFAAELPRLVAEGLSKASAFRIAA
@@ -49,20 +50,22 @@ FEATURES             Location/Qualifiers
                      FSKLIPSFSNLVMHTVTMGRYASREIILSDGTRIPKGSTVFIANVAMRDPNIYPDPDVF
                      IPDRFTTRREKGDSSAYLVSASPEHIGFGLGRHACPGRFFAANEVKIVLSHMLLKYDIK
                      LPDNGAAVAPSTSGIFLETNPNARICVRRRKEEILI"
+                     /Pfam="p450"
      CDS             complement(3784..4227)
                      /codon_start=1
                      /locus_tag="PMG11_06810"
                      /product="isomerase AusH"
-                     /label=ausH
+                     /label="ausH"
                      /protein_id="CEJ58140.1"
                      /translation="MSPTRDELLCTALDFVAQFAKLDPESVLSFLSPSCTLRSFPSSLG
                      KPPLQTKEESKADFQGLKDFFHNFQLRVKDGAEPVVDEPARKVVLHIEGKGDSLVGRFE
                      TEYIYILQMNEEGTMVEDFFQFADSATRDAWGKKIEAHFSAKN"
+                     /Pfam="Trt14"
      CDS             complement(join(4730..5950,5998..6225))
                      /codon_start=1
                      /locus_tag="PMG11_06811"
                      /product="acetyltransferase AusP"
-                     /label=ausP
+                     /label="ausP"
                      /protein_id="CEJ58141.1"
                      /translation="MEVVRYFTRNQKQLPATGPNDSIVQLPDIPPCYECNVEVALRFDS
                      SLDSEKLQQSLKQLLEIGNWRQLGGRVRRRDTNPSACNYDLHVPAEFTTERPAFNYQIW
@@ -73,11 +76,12 @@ FEATURES             Location/Qualifiers
                      HTMLPVGEVLYNPVSFLANEIRRSLVRERTEEQIQARCAWAKDVGIMPLLGTSDMLLCN
                      VSNWSKGNLVDLDLCHAAVTEHRGPCVPSSILNCSQMGGVTPNYGIILGKDSQDCWWMQ
                      WHLPKFCWAGIERELDTINQIRWE"
+                     /Pfam="CalD"
      CDS             complement(7073..8623)
                      /codon_start=1
                      /locus_tag="PMG11_06812"
                      /product="acyltransferase AusQ"
-                     /label=ausQ
+                     /label="ausQ"
                      /protein_id="CEJ58142.1"
                      /translation="MPSSSDFEAFALTPLDQANGQVFFFYSISYQVQNEASALRTIHNG
                      IDVLLERVPFLNGEIAFAAAVPGANNILTVRPPTANSKDQVPLVKVKRHSNRTLPVEKL
@@ -88,12 +92,13 @@ FEATURES             Location/Qualifiers
                      AGIPLRFEVRTQRQAAPDFHPAIREVPPGLNTSSFLAIAKTAYTIRAKLARFGESYIDS
                      LSSFLNADESQTAVNVLPACAIVSSLRHIKTYELQFGVELGEIQTFETGTPWVNGSCMI
                      LPLCANSSDVAGSAPWNVRITLDEGTMDCFKNEPALRWALWDQAKSKVPGSCNCMTDA"
+                     /Pfam="Transferase"
      CDS             join(9054..9266,9325..9529,9585..9653,9704..10285,
                      10350..10771)
                      /codon_start=1
                      /locus_tag="PMG11_06813"
                      /product="cytochrome P450 monooxygenase AusR"
-                     /label=ausR
+                     /label="ausR"
                      /protein_id="CEJ58143.1"
                      /translation="MHSFSTLPNHRIGLYILWTIPVLFVIFKLLAPAKCSLPIVNGRRW
                      FEIGQYQARRRFSLDGRGIILKGLQKARAFRVVSQKGPKIILGPEYANEVKSHPACNAD
@@ -104,20 +109,22 @@ FEATURES             Location/Qualifiers
                      LDSVLKETQRVKPVVVFGMGRYVTEQITLHDGTVIPKGETINVVNTRVWDSAVYENPLE
                      WDPYRFLRRRDSGDHAAHLVSPTPDHMGFGLGKHSCPGRFFAATKIKILLCHILLKYDV
                      KISDEASSKVVSSGNFLFPDATLRISVRRRQENLSIWD"
+                     /Pfam="p450"
      CDS             complement(10919..11353)
                      /codon_start=1
                      /locus_tag="PMG11_06814"
                      /product="isomerase AusS"
-                     /label=ausS
+                     /label="ausS"
                      /protein_id="CEJ58144.1"
                      /translation="MSIRERLLATVSQYIAAYNEFDPSAMKTVRTPTCLSHGIAPTCKF
                      TQSVEEHTRHMMLSRGVFRSVNASIVDDDTTVVDEVSRHVVVKVKIRCETTVGPYENEA
                      IFIMAMDEEGALVDGIFQFLDTARFQQFQGRLDEAQESKN"
+                     /Pfam="Trt14"
      CDS             complement(13035..13796)
                      /codon_start=1
                      /locus_tag="PMG11_06815"
                      /product="hypothetical protein PMG11_06815"
-                     /label=PMG11_06815
+                     /label="PMG11_06815"
                      /protein_id="CEJ58145.1"
                      /translation="MLGQVCFLCDPVMGLGYRPNTTLRLDVEGLYYLLAIPRTLRVLSN
                      PKNVKSRPLDTYEHNLVIAFGSDQVRLSKEAEAVGYAKNHTDQKSSTWLDSGFVTVNQK
@@ -128,7 +135,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="PMG11_06816"
                      /product="hypothetical protein PMG11_06816"
-                     /label=PMG11_06816
+                     /label="PMG11_06816"
                      /protein_id="CEJ58146.1"
                      /translation="MEAKHKLDPRYRWTNMAVMYGKDPQKLDKSFKLCGVADIDFTKSA
                      IAGLVAVPMPTKEQKYLWLDLTYPVRGIYLPVSPKGEGPLGDMCKFLRLDFKGRGFALP
@@ -141,7 +148,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="PMG11_06817"
                      /product="cytochrome P450 monooxygenase AusI"
-                     /label=ausI
+                     /label="ausI"
                      /protein_id="CEJ58147.1"
                      /translation="MLHETISLALLGQPLVPGLMVVSAILYLLYSTQQWRPKNLPLLND
                      AGPFDFLQATAVKRFRRDARQLIKSGFDSYNNVFAMRTDVGVELFASPEYADQFRNHPS
@@ -152,11 +159,12 @@ FEATURES             Location/Qualifiers
                      HLKLMDSTFKEVQRVDPILFAVGRLAVADVALKDGLIIPKGQSIRISGHTMWDEDKYPD
                      AAHFDAYRFYKLRQAPGQENTAQFTSPTSDHLGFGYGGRACPGRFFAAAVLKISLCHVL
                      MKYDIKPANGETGPHVWEFAAAINANMTANVLVRRREPEIRL"
+                     /Pfam="p450"
      CDS             complement(19641..20837)
                      /codon_start=1
                      /locus_tag="PMG11_06818"
                      /product="aldo-keto reductase AusK"
-                     /label=ausK
+                     /label="ausK"
                      /protein_id="CEJ58148.1"
                      /translation="MTGTRILELFGPAPEPPSELGRYRILSPTAGIRVSPLQLGALSIG
                      DAWSTDLGSMDKDSAMELLDAYAASGGNFIDTANGYQNEQSETWIGEWMASRTNRDQMV
@@ -165,16 +173,18 @@ FEATURES             Location/Qualifiers
                      ERDILPMARHFGMAVTVYDALGSGKFQSRDMLARRKDQGEGLRAIYGGEQTALEEAMSK
                      ALGVVAAQHGTESVTAVALAYLLAKAPYVFPIIGGRKIQHLHDNIQALSLRLSQEEIKY
                      LESVGDFDPGFPYDMAGVDPADTGIATPIVAQAAPMAFVQRSKAIGYAESNKGSQTSG"
+                     /Pfam="Aldo_ket_red"
      CDS             complement(21202..21690)
                      /codon_start=1
                      /locus_tag="PMG11_06819"
                      /product="isomerase AusJ"
-                     /label=ausJ
+                     /label="ausJ"
                      /note="revised sequence"
                      /protein_id="CEJ58149.1"
                      /translation="MSTTRHRLLATASRFVETLESLDMDAMLAVRSSTCLHHMCCPSFR
                      NYSITNDQTREALPQWKATIKKYKFGVLDDSQTLVDEQARKVMIRAETAAETTVGDYNN
                      EYVFILRMTEDCNAVDEIWEFYDTIRLRDLRHRLEAGHVPIGVDAPAPFTTTASPAAL"
+                     /Pfam="Trt14"
 ORIGIN
         1 atgtccacca cacgagaaaa gctcctcgca acaaccacca agtttgtctc agcgttcggg
        61 tcctttgaca tagaggaaat gctcaatatt cgcacgccaa catgcctcta ccaccagtgc

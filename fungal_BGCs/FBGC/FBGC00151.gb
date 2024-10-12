@@ -1,22 +1,22 @@
-LOCUS       FBGC00151       19783 bp DNA     linear   UNA 21-JAN-2023
+LOCUS       FBGC00151              19783 bp    DNA     linear   UNA 21-JAN-2023
 DEFINITION  calidoustenes.
 ACCESSION   FBGC00151
-VERSION     .
+VERSION     FBGC00151
 KEYWORDS    .
 SOURCE      Aspergillus calidoustus SF006504
   ORGANISM  Aspergillus calidoustus SF006504
+            .
 REFERENCE   1  (bases 1 to 19783)
   AUTHORS   Huang Y, Hoefgen S, Valiante V.
   TITLE     Biosynthesis of Fungal Drimane-Type Sesquiterpene Esters.
   JOURNAL   Angew Chem Int Ed Engl 2021;60:23763-23770
-  PUBMED    34468074
+   PUBMED   34468074
 REFERENCE   2  (bases 1 to 19783)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Jan 21, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1002/anie.202108970"; journalName: "Angew Chem Int Ed Engl"; 
+  JOURNAL   Exported Jan 21, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1002/anie.202108970"; journalName: "Angew Chem Int Ed Engl";
             date: "2021"; volume: "60"; pages: "23763-23770"
 FEATURES             Location/Qualifiers
      source          1..19783
@@ -30,7 +30,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="ASPCAL02977"
                      /product="polyketide synthase DrtA"
-                     /label=drtA
+                     /label="drtA"
                      /protein_id="CEN60541.1"
                      /translation="MDNTPDTLSISEEAAGLPPIAVVSFACRLPGQNSDPEALWRFLER
                      GQTASNEVPESRFSAQAHYDGTRRPRTMKGRGGMFLHDVDPARFDAPFFNISAVEARSM
@@ -73,11 +73,12 @@ FEATURES             Location/Qualifiers
                      LPATSDLLNDIRFRTLSRAGTSNQPAQNSANQESQAVTDFLCMQSSGADSTALTEAAIE
                      LFQSQLLRMLRLDEPIKANKPLSAYGMDSLSAVKLRNWVEKSFSVTFAVFEILGANGLQ
                      ALCSKLITRLQTV"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_DH, fPKS_ER, fPKS_KR, ACP_PCP"
      CDS             join(8913..9625,9686..9881,9944..10621)
                      /codon_start=1
                      /locus_tag="ASPCAL02978"
                      /product="HAD-like terpene cyclase DrtB"
-                     /label=drtB
+                     /label="drtB"
                      /protein_id="CEN60542.1"
                      /translation="MVRALILDLGDVLFNWDAPASTPISRKTLGQMLHSEIWGEYERGH
                      LTEDEAYNALAKRYSCEAKDVAHTFVLARESLRLDTKFKTFLQTLKQNANGSLRVYGMS
@@ -89,12 +90,13 @@ FEATURES             Location/Qualifiers
                      DALALSMRIQACHALGFDAPADIATLITMQDEDGGWPAAVIYKYGAGGLGITNRGVSTA
                      FAVKAITGSPVKTETNIGGDGARAVSAMSSLEARRLQPISSVGDWVRFIIASLHVHLAW
                      LWNVLLLSKVV"
+                     /Pfam="AstC"
      CDS             complement(join(11630..11925,11994..12211,12279..12709,
                      12765..12826,12885..13317,13371..13502))
                      /codon_start=1
                      /locus_tag="ASPCAL02979"
                      /product="FAD-dependent monooxygenase DrtC"
-                     /label=drtC
+                     /label="drtC"
                      /protein_id="CEN60543.1"
                      /translation="MLFAKAFQSATVAGAVILAALVDVAHSTPLDDPGQCGLEAVAQCC
                      TSLRESAVGDKVFAYGDIEYFRAKRSYYSVTTSLNSACIVLPESAEDVSTVLTTLTQPD
@@ -106,11 +108,12 @@ FEATURES             Location/Qualifiers
                      MPTLFGTSGQENGGNIIGLENNGDKIVLLFEAFWERTQDDELFEPLADELIHNLEEYAR
                      SLEQDSDFLYLNYADGWQDPISGYGGDNIEQLRAAAEKYDPNGVFQTQVPGGFKISKVP
                      VAEQKK"
+                     /Pfam="FAD_binding_4"
      CDS             14235..15809
                      /codon_start=1
                      /locus_tag="ASPCAL02980"
                      /product="cytochrome P450 monooxygenase DrtD"
-                     /label=drtD
+                     /label="drtD"
                      /protein_id="CEN60544.1"
                      /translation="MSDTYLVAASGLAVCFFVLYLLRPKTALPPGPPKLPLIGNLHQLG
                      KKPMYERCQEWHRQFGKLISLKLGFDNVVVIGSSQIARDLLDKKGAMYSSRPKFVMAHE
@@ -122,11 +125,12 @@ FEATURES             Location/Qualifiers
                      YLENPDLPISSFGFGRRACPGRYFAMDSLFISISRVLWTFNIRPIKQGKDDPPMPAWEF
                      VMDGALLRPAPFKALFSARDIHRQRFVIKEWAAAEKSVDVEALYDAIEPAGGDFSAQEK
                      EEPVLVA"
+                     /Pfam="p450"
      CDS             join(17066..17191,17282..18082)
                      /codon_start=1
                      /locus_tag="ASPCAL02981"
                      /product="acyltransferase DrtE"
-                     /label=drtE
+                     /label="drtE"
                      /protein_id="CEN60545.1"
                      /translation="MSFAFSKVEFEEVEFQTLDKLTLKARLYSAAKRGPALVMNPGYNC
                      TKEISAPSAAAYFQSKGITCLIYDPRNCGQSDGTPRREIDPHRQVDDYLDAMTYMSGLD
@@ -134,11 +138,12 @@ FEATURES             Location/Qualifiers
                      REAQALGNEPFYTAMVDEEGNNPIHVNVDWGDEVRAAVNEFVSLSADGFVPTVTFQSYY
                      KLFTFSPYLSLKFLGDTPLMMVVPEHDTVCPVEQQVKLYDAVEGPKEIYHAEGKRHLNM
                      LAEDKFFEPMMKPQVEFFFKVMRGEAI"
+                     /Pfam="Abhydrolase_1"
      CDS             18839..19783
                      /codon_start=1
                      /locus_tag="ASPCAL02982"
                      /product="short-chain dehydrogenase/reductase DrtF"
-                     /label=drtF
+                     /label="drtF"
                      /protein_id="CEN60546.1"
                      /translation="MAPALPFALPSLAGKVYLVTGGNTGVGFHTVDELAKHGARVYMGA
                      RSPGKAEAAIKTIRAETPTADVHFLQMDLMDLHSVVAAAKSFKEKETKLHGLVNNAGIM
@@ -146,6 +151,7 @@ FEATURES             Location/Qualifiers
                      APKVGIDFKDINLEKAGVFARYGQSKVGNILHAKQLNKLYGPSGSETAKKGIWTAAVHP
                      GHLDTNLNKQTAFPKFVNTLLRAVGAYSPPRDGAFNSVFAVASPEFKVADSGEYFVPGQ
                      KKKQPSKVARDMELAGRLWKWTEEELRKRELLD"
+                     /Pfam="adh_short"
 ORIGIN
         1 tcaaaccgtc tgcaacctgg taataagctt cgaacaaagc gcctgcaacc cattggcccc
        61 caaaatctca aagacagcaa acgtaactga aaacgacttc tcaacccagt tcctcagttt

@@ -1,30 +1,30 @@
-LOCUS       FBGC00176       27638 bp DNA     linear   UNA 22-JAN-2023
+LOCUS       FBGC00176              27638 bp    DNA     linear   UNA 22-JAN-2023
 DEFINITION  GKK1032A2.
 ACCESSION   FBGC00176
-VERSION     .
+VERSION     FBGC00176
 KEYWORDS    .
 SOURCE      Penicillium citrinum DSM 1997
   ORGANISM  Penicillium citrinum DSM 1997
+            .
 REFERENCE   1  (bases 1 to 27638)
-  AUTHORS   Ohashi M, Kakule TB, Tang MC, Jamieson CS, Liu M, Zhao YL, Houk KN, 
+  AUTHORS   Ohashi M, Kakule TB, Tang MC, Jamieson CS, Liu M, Zhao YL, Houk KN,
             Tang Y.
-  TITLE     Biosynthesis of para-Cyclophane-Containing Hirsutellone Family of 
+  TITLE     Biosynthesis of para-Cyclophane-Containing Hirsutellone Family of
             Fungal Natural Products.
   JOURNAL   J Am Chem Soc 2021;143:5605-5609
-  PUBMED    33834778
+   PUBMED   33834778
 REFERENCE   2  (bases 1 to 27638)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Jan 22, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1021/jacs.1c00098"; journalName: "J Am Chem Soc"; date: "2021"; 
-            volume: "143"; pages: "5605-5609"
+  JOURNAL   Exported Jan 22, 2023 from SnapGene 6.2.1 https://www.snapgene.com
 COMMENT     ##Assembly-Data-START##
-            Assembly Method       :: DNASTAR SeqMan NGen v. 12.3 v. 2015/10/19 
+            Assembly Method       :: DNASTAR SeqMan NGen v. 12.3 v. 2015/10/19
             Assembly Name         :: PCAss
             Sequencing Technology :: Illumina
             ##Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1021/jacs.1c00098"; journalName: "J Am Chem Soc"; date: "2021";
+            volume: "143"; pages: "5605-5609"
 FEATURES             Location/Qualifiers
      source          1..27638
                      /strain="DSM 1997"
@@ -35,9 +35,9 @@ FEATURES             Location/Qualifiers
                      7953..8176,8236..11297,11373..12350))
                      /codon_start=1
                      /gene="gkaA"
-                     /product="polyketide synthase-nonribosomal peptide 
+                     /product="polyketide synthase-nonribosomal peptide
                      synthetase GkaA"
-                     /label=gkaA
+                     /label="gkaA"
                      /note="PKS-NRPS"
                      /protein_id="QXF14613.1"
                      /translation="MSVEEPIAVIGSGLRFPGSSTSPSKLWDLLTKPRDLLTRIPENRF
@@ -108,11 +108,13 @@ FEATURES             Location/Qualifiers
                      KWVSEVLLENVGNELGLPVVIHRPSSITGEGAGESDIVPNVVRYANLLKAAPESKGWTG
                      FVDLVSVQNVVDGLLGSVTGDRGNGVQYIHHSGENVIPANRIGEMLQKDGKEEWDVLDM
                      TEWVDKAIQKGMNPLIGEFLKNAGKGKGLQIGQRLLKE"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_DH, PKS_NRPS_MT, fPKS_KR,
+                     ACP_PCP, Condensation, AA-adenyl-dom, fPKS_R"
      CDS             complement(13764..14849)
                      /codon_start=1
                      /gene="gkaC"
                      /product="trans-acting enoylreductase GkaC"
-                     /label=gkaC
+                     /label="gkaC"
                      /note="enoylreductase"
                      /protein_id="QXF14612.1"
                      /translation="MDSLPTSQRAVVQSEDVGSFEISRGRPIPVPSSSQILIKVFAVAL
@@ -122,11 +124,12 @@ FEATURES             Location/Qualifiers
                      RTYTGNTLEYALDIITEAKTIRHCYAAIGRGGGRYCGFELLPHDLIATMRRSVKAEWVN
                      GLEMTGLEIDLPGGYYCKANPELHIWFADLIKQYSVLISQGKLRPHPIQINKGGLEKVI
                      DGLGQMKRREISGKKMVYPLV"
+                     /Pfam="fPKS_ER"
      CDS             15160..16485
                      /codon_start=1
                      /gene="gkaB"
                      /product="Diels-Alderase GkaB"
-                     /label=gkaB
+                     /label="gkaB"
                      /note="lipocalin-like Diels-Alderase homolog"
                      /protein_id="QXF14611.1"
                      /translation="MTKFLAGAAIVLAVAFGSFFSQSSTVTPPAPRYLPNDWDSTCTIS
@@ -137,33 +140,35 @@ FEATURES             Location/Qualifiers
                      RINKGVKYTTGLLFRDGELLVGTRNGNISQTEDYTVFEDLYGGEVKGSFADQSTGHNLK
                      FVSPDQEKEWSFDIEHMHSFVEFRAPGEDEYGNKGLGQSGFTNRVSGGEVGEDRAYEGR
                      GITEKCRWPKEFGKLALAIASGAGFFGPKFQMIFIKVVSYLV"
+                     /Pfam="Fsa2"
      CDS             complement(16985..17470)
                      /codon_start=1
                      /gene="gkaX"
                      /product="hypothetical protein GkaX"
-                     /label=gkaX
+                     /label="gkaX"
                      /note="hypothetical protein"
                      /protein_id="QXF14609.1"
                      /translation="MSLSTSLRLLRLLPAISSTATLQFALDEHLIFGTWMGSFLRPHVN
                      ITLPTWWTHGGRRWQWILIIGYPLNYLFGILNLVARYDQLQSTGSTIWYVLGLFFSVGH
                      MLFVKMALGRIAAIEKGVPKDNVRVSMGKWLQMNWVRALITDLPAWICWIMAAVSAM"
+                     /Pfam="XenD"
      CDS             17854..18240
                      /codon_start=1
                      /gene="gkaZ"
                      /product="hypothetical protein GkaZ"
-                     /label=gkaZ
+                     /label="gkaZ"
                      /note="hypothetical protein"
                      /protein_id="QXF14610.1"
                      /translation="MTTARALSDGLAYLLACFNAFCIQAHLTSRFSPAFSKNLATQLPH
                      HNKAIFWWLGVSDETLRYMFVSLNAGLGLLLALPGWRSTGLKVALALLCVGFTSDMKLK
                      EKWLLHFLSHLVLLSITMAAIYVR"
+                     /Pfam="XenC"
      CDS             complement(18371..19849)
                      /codon_start=1
                      /gene="gkaF"
                      /product="transcriptional factor GkaF"
-                     /label=gkaF
-                     /note="transcriptional factor
-                     revised sequence"
+                     /label="gkaF"
+                     /note="transcriptional factor revised sequence"
                      /protein_id="QXF14607.1"
                      /translation="MSSTDVSNFNRVTKTKRQHTAACERCRGQKLRCIRTPKGCERCQK
                      TGAVCIVDPNVRMGRPQRGDTAKERRERQDKVTSPPESGPISQSGLSDTVDWTSETNEN
@@ -174,11 +179,12 @@ FEATURES             Location/Qualifiers
                      TGIDLPTSLMIISCHIHLIRLCRHVFAGIRAALSSKDQHQQALLVLSSCQVGGVSISHD
                      SDLKLLILIQVVARLINKIGVLLGYPCSPADLSNSAVGNLGNATEDERKKMLLPQLLRF
                      VLAQEGVAGQSSHGDGMEGLREEIRKLNEVLATS"
+                     /Pfam="EqxR"
      CDS             join(23832..24178,24236..25643)
                      /codon_start=1
                      /gene="gkaD"
                      /product="major facilitator superfamily transporter GkaD"
-                     /label=gkaD
+                     /label="gkaD"
                      /note="transporter"
                      /protein_id="QXF14608.1"
                      /translation="MAVDTETTTTTIPVTDSDRIDDQNNLTSNAIPHASEKTVPDSPAS
@@ -192,11 +198,12 @@ FEATURES             Location/Qualifiers
                      CTATWSFMRTYGFIWGATIATAVFNNRFDVLAPRITDTTIGSQLTNGRAYELATKVFMN
                      SIKDPVTQREVKSVYVDALNVVWYVSLAFAGLGFLLVFLEKEITLRKELDTKYAMEEKK
                      KKPENSEA"
+                     /Pfam="MFS_1"
      CDS             26355..27638
                      /codon_start=1
                      /gene="gkaG"
                      /product="alpha/beta hydrolase GkaG"
-                     /label=gkaG
+                     /label="gkaG"
                      /note="alpha/beta hydrolase"
                      /protein_id="QXF14606.1"
                      /translation="MASFPFSPSFMFDFELTRILGSASSGGCEVGEFKSAVGKIKKHDA
@@ -207,6 +214,7 @@ FEATURES             Location/Qualifiers
                      LWENGWVMDNVLDTFTDAHCRGNFQAGWEMSLGKSSMGVEKSSAMLRRFKDFSLENKKD
                      GKILERVTCPVFLTGPGNGSEMYSSADDSTLKIKDMLKKVPADKKEIWLPSDVADGGLT
                      AKIGAWALLAQKTFLFLDKQFEVKRKAL"
+                     /Pfam="FrsA-like"
 ORIGIN
         1 tcattctttc aagagtctct ggccaatctg caatcctttc cctttgccag cattcttcaa
        61 gaattccccg ataagaggat tcattccctt ttgtatggcc ttatcaaccc actcggtcat

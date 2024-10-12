@@ -1,28 +1,28 @@
-LOCUS       FBGC00178       23015 bp DNA     linear   UNA 11-MAR-2023
+LOCUS       FBGC00178              23015 bp    DNA     linear   UNA 11-MAR-2023
 DEFINITION  14-(N,N-dimethylleucyloxy)paspalinine.
 ACCESSION   FBGC00178
-VERSION     .
+VERSION     FBGC00178
 KEYWORDS    .
 SOURCE      Aspergillus alliaceus ATCC 20738
   ORGANISM  Aspergillus alliaceus ATCC 20738
+            .
 REFERENCE   1  (bases 1 to 23015)
   AUTHORS   McLellan RM, Cameron RC, Nicholson MJ, Parker EJ.
-  TITLE     Aminoacylation of Indole Diterpenes by Cluster-Specific Monomodular 
+  TITLE     Aminoacylation of Indole Diterpenes by Cluster-Specific Monomodular
             NRPS-like Enzymes.
   JOURNAL   Org Lett 2022;24:2332-2337
-  PUBMED    35315670
+   PUBMED   35315670
 REFERENCE   2  (bases 1 to 23015)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Mar 11, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1021/acs.orglett.2c00473"; journalName: "Org Lett"; date: 
-            "2022"; volume: "24"; pages: "2332-2337"
+  JOURNAL   Exported Mar 11, 2023 from SnapGene 6.2.1 https://www.snapgene.com
 COMMENT     ##Assembly-Data-START##
             Assembly Method       :: ABySS v. 16/11/2016
             Sequencing Technology :: Illumina
             ##Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1021/acs.orglett.2c00473"; journalName: "Org Lett"; date:
+            "2022"; volume: "24"; pages: "2332-2337"
 FEATURES             Location/Qualifiers
      source          1..23015
                      /strain="ATCC 20738"
@@ -35,7 +35,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="aceQ"
                      /product="cytochrome P450 monooxygenase AceQ"
-                     /label=aceQ
+                     /label="aceQ"
                      /note="cytochrome P450 monooxygenase"
                      /protein_id="UOH28366.1"
                      /translation="MLQQVDVPSVGKHGILGSWVTAFQWQHKARSLIQEGYEKHGDYAF
@@ -47,12 +47,13 @@ FEATURES             Location/Qualifiers
                      MLKIDSFIKECQRWNPLDSGSLARCATKDFTFSTGLKVPKGTYVFAPNAPILFDERNYP
                      NAHEFDGYRFYRLGQQTGKPQDFRFVATDSKYLQFGDARHTCPGRYMAADEIRLMLGYI
                      LLHYDITPKDNSGRPKNWFFKKILFPDMKGLVVLRVRSARGFHT"
-     CDS             complement(join(3115..3474,3533..3584,3635..3843,3912..3960,
-                     4018..4835,4911..5009))
+                     /Pfam="p450"
+     CDS             complement(join(3115..3474,3533..3584,3635..3843,
+                     3912..3960,4018..4835,4911..5009))
                      /codon_start=1
                      /gene="aceR"
                      /product="cytochrome P450 monooxygenase AceR"
-                     /label=aceR
+                     /label="aceR"
                      /note="cytochrome P450 monooxygenase"
                      /protein_id="UOH28367.1"
                      /translation="MTIIYQGFGLLASSLVVLFLYKVTYARKKFSNLPKPPDTLVFGHW
@@ -65,11 +66,12 @@ FEATURES             Location/Qualifiers
                      GQIYSLRDHIVVLFHTAMHRRPDLFPEPDKFDPDRFMPGSRPKVPSDAWRPFEKGRGNC
                      TGQELALVQLKLVLLLVVREFDFELAYESRSSRGPDIYGGPAYVTLSGTGPGPAGGMPM
                      RVVQRSELGPR"
+                     /Pfam="p450"
      CDS             5712..6587
                      /codon_start=1
                      /gene="aceT"
                      /product="methyltransferase AceT"
-                     /label=aceT
+                     /label="aceT"
                      /note="class I SAM dependent N,N-dimethyltransferase"
                      /protein_id="UOH28375.1"
                      /translation="MRETESQLPTNKTTGYDTVYAVDFYHSITQIPGLLQDAFIYLGAY
@@ -78,12 +80,13 @@ FEATURES             Location/Qualifiers
                      FLQEVARVLKPRTGRAYVSMRDITSTVQSDPATSGGEVQRQELPSSVLPGISYCQIGNQ
                      VQVSDNVVYVISDVEVLNGDGNIVGTELATTAFRIWKENELQTVASNVGLNLLEIVEEG
                      GESFYVLQLP"
-     CDS             join(7346..7576,7630..7755,7814..7902,7998..8062,8136..8753,
-                     8821..9230)
+                     /Pfam="Methyltransf_25"
+     CDS             join(7346..7576,7630..7755,7814..7902,7998..8062,
+                     8136..8753,8821..9230)
                      /codon_start=1
                      /gene="aceP"
                      /product="cytochrome P450 monooxygenase AceP"
-                     /label=aceP
+                     /label="aceP"
                      /note="cytochrome P450 monooxygenase"
                      /protein_id="UOH28369.1"
                      /translation="MLAQLFQVVQFLREEAGLIWTCVTLVLFVYLLLPKPTYSTNVKVP
@@ -95,11 +98,12 @@ FEATURES             Location/Qualifiers
                      QTQVPDWKNVTQAELNNLKLMDGFLKESQRLNPPGELAFHRVVKHDLTLSDGLLLPKGT
                      HICMASGPISRDPEVIGDPEVFDAYRFIKQNTATSGFVSTGPNNMHFGLGRYACPGRFF
                      ASFVMKLILSRFLMEYEFRFSTEQKERPKNLLIGDKIVPNVSTAILIKKRVSDV"
+                     /Pfam="p450"
      CDS             complement(join(10030..10348,10403..10755,10804..11082))
                      /codon_start=1
                      /gene="aceC"
                      /product="prenyltransferase AceC"
-                     /label=aceC
+                     /label="aceC"
                      /note="prenyltransferase"
                      /protein_id="UOH28370.1"
                      /translation="MVAVSGFLCFFIDHVPVPRWWDKKAQLIGQKHPESITSFECPYDY
@@ -108,11 +112,12 @@ FEATURES             Location/Qualifiers
                      VSSFPTAATDRVAAYRRMASLKTGALFRLLGHLVLENDSMDETLTLVAWVSQLQNDCKN
                      VYSSEYAKLKGSIAEDLRNREMTYPIVLALDAPDGHWVTAALESPSPQNIRNALKVIRC
                      DCVRDICMAELARSGASVKEWLELWGRKEKLDLKA"
+                     /Pfam="PaxC"
      CDS             join(11971..12494,12568..12781)
                      /codon_start=1
                      /gene="aceB"
                      /product="terpene cyclase AceB"
-                     /label=aceB
+                     /label="aceB"
                      /note="terpene cyclase"
                      /protein_id="UOH28368.1"
                      /translation="MDGFDASQAPPEYLAVKPLADLFVLGMGLGWVINYVGMVYVSFKE
@@ -120,11 +125,12 @@ FEATURES             Location/Qualifiers
                      APLVERNLPWIFALGTIGFLTGHLALAAEIGHSLAYSWGAVVCQLLLSIGGLCQLLCRS
                      STRGASYTLWYGLSRFLGSCCTVGFASLRWMYWPESFAWLNSPLVLWSLAVFVMVDGSY
                      GVCYWYVKGYEKSVGIVRARKIT"
+                     /Pfam="Pyr4"
      CDS             join(13178..13470,13531..13802,13857..14752)
                      /codon_start=1
                      /gene="aceM"
                      /product="FAD-dependent monooxygenase AceM"
-                     /label=aceM
+                     /label="aceM"
                      /note="FAD-dependent monooxygenase"
                      /protein_id="UOH28371.1"
                      /translation="MSKSEFQVIIVGGSIGGLTLAHCLQHAGIDHIVLEKASNPAPQIG
@@ -136,11 +142,12 @@ FEATURES             Location/Qualifiers
                      SPGTTLPTDGQIETLLRQYRSIRYHRVDSIYRSSQFLVRFQARDGLLNTLFGRYYAPYA
                      GDLPADMASKTIADGVICDFLPPPKRCGGGWEQYRRKTPRWGWEVQTTLSILVLAILYA
                      WIGRGRLHSMVFDGCGSLLGVRKCPIST"
+                     /Pfam="FAD_binding_3"
      CDS             join(15260..15603,15664..16393)
                      /codon_start=1
                      /gene="aceA"
                      /product="hypothetical protein AceA"
-                     /label=aceA
+                     /label="aceA"
                      /note="terpene cyclase"
                      /protein_id="UOH28372.1"
                      /translation="MPRATAAALASVSLFAAYAKYYQSFQNGFIDLLSSMADRKSLSGL
@@ -150,11 +157,12 @@ FEATURES             Location/Qualifiers
                      VACVFALACSTAGHLAFVCVTALGGYPKDPIHLTGIYSRRVYLPPAPWGETQVTSLETG
                      VLRFLQWDYTLSALAMLFWTVAVYYRATRRRNRRSPRVLLMGRVVVGTIFLGPCSVAIV
                      LYWETIALVADKGRNEL"
+                     /Pfam="CtvD"
      CDS             join(17481..17708,17779..17933,17983..18309,18369..18777)
                      /codon_start=1
                      /gene="aceG"
                      /product="geranylgeranyl pyrophosphate synthase AceG"
-                     /label=aceG
+                     /label="aceG"
                      /note="geranylgeranyl pyrophosphate synthase"
                      /protein_id="UOH28373.1"
                      /translation="MLNLTAANVFAFIFRYLLPIGCFFNNYSSVPTDRYMPLDIKGFQR
@@ -164,11 +172,12 @@ FEATURES             Location/Qualifiers
                      RLALELMQIQSTVTTDFSRLVELLGVTFQIRDDYMNLQDGLYAEKKGLMEDLTEGKFSY
                      PIIHSIHAAPGNTQLISILKQRSEDEAVKLYAVQYMESMGSFQYCREVLSRLMEQTRSY
                      ISELESSLGPNRGLHRILDLLHVQPPNRKPRI"
+                     /Pfam="GGPS"
      CDS             19146..23015
                      /codon_start=1
                      /gene="aceN"
                      /product="nonribosomal peptide synthetase AceN"
-                     /label=aceN
+                     /label="aceN"
                      /note="monomodular non-ribosomal peptide synthetase-like
                      enzyme"
                      /protein_id="UOH28374.1"
@@ -195,6 +204,7 @@ FEATURES             Location/Qualifiers
                      ARGDLLLHQLHAQHIDSLAFQGVYLRDIIQNSTSWPADTRMGSVVLHQNIEYPAPFAMG
                      DLQCTPSYFNAPPHFMPLTMVSIAQELGHQIVVTCSKDVADQASLDALSSSVQRHMAAL
                      QNIDL"
+                     /Pfam="NRPS_C, AA-adenyl-dom, ACP_PCP, NRPS_CT"
 ORIGIN
         1 ctatgtgtgg aagccgcgtg ctgatcgcac cctcagaaca accaatccct tcatatccgg
        61 gaatagaatc ttcttgaaaa accagttctt cgggcgtcca ctgttatcct tgggtgtgat

@@ -1,28 +1,28 @@
-LOCUS       FBGC00166       32302 bp DNA     linear   UNA 17-APR-2023
+LOCUS       FBGC00166              32302 bp    DNA     linear   UNA 17-APR-2023
 DEFINITION  cytochalasans.
 ACCESSION   FBGC00166
-VERSION     .
+VERSION     FBGC00166
 KEYWORDS    .
 SOURCE      Aspergillus flavipes CNL-338
   ORGANISM  Aspergillus flavipes CNL-338
+            .
 REFERENCE   1  (bases 1 to 32302)
   AUTHORS   Heard SC, Wu G, Winter JM.
-  TITLE     Discovery and characterization of a cytochalasan biosynthetic 
+  TITLE     Discovery and characterization of a cytochalasan biosynthetic
             cluster from the marine-derived fungus Aspergillus flavipes CNL-338.
   JOURNAL   J Antibiot (Tokyo) 2020;73:803-807
-  PUBMED    32913332
+   PUBMED   32913332
 REFERENCE   2  (bases 1 to 32302)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Apr 17, 2023 from SnapGene 6.2.2
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1038/s41429-020-00368-0"; journalName: "J Antibiot (Tokyo)"; 
-            date: "2020"; volume: "73"; pages: "803-807"
+  JOURNAL   Exported Apr 17, 2023 from SnapGene 6.2.2 https://www.snapgene.com
 COMMENT     ##Assembly-Data-START##
             Assembly Method       :: IDBA-UD v. IDBA 1.1.1
             Sequencing Technology :: Illumina
             ##Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1038/s41429-020-00368-0"; journalName: "J Antibiot (Tokyo)";
+            date: "2020"; volume: "73"; pages: "803-807"
 FEATURES             Location/Qualifiers
      source          1..32302
                      /host="Laurencia sp. (red alga)"
@@ -30,7 +30,7 @@ FEATURES             Location/Qualifiers
                      /mol_type="genomic DNA"
                      /country="Bahamas"
                      /collected_by="William Fenical"
-                     /collection_date=2010
+                     /collection_date="2010"
                      /db_xref="taxon:41900"
                      /organism="Aspergillus flavipes"
      CDS             join(1..578,686..1211)
@@ -38,7 +38,7 @@ FEATURES             Location/Qualifiers
                      /gene="ffsC"
                      /product="trans-acting enoylreductase FfsC"
                      /EC_number="1.3.1.38"
-                     /label=ffsC
+                     /label="ffsC"
                      /note="Trans-enoyl reductase"
                      /protein_id="QOG08941.1"
                      /translation="MSPARTLESSPLPTTQTAIIQGEGGILSIHHNAPLPTLRPDRILV
@@ -48,11 +48,12 @@ FEATURES             Location/Qualifiers
                      SPTCAQDIRAYTKNTLAHILDPITEPKTTELCYAAMGRAGGKYCALEAFAEEFCTRRVV
                      KPELVMGMAILGGRIALDYGYESEADPEKRVFGVSWYEEMQELLDSGRLRNHPVRSFPG
                      GFEGIMKGLHLLKTKQVSGEKLIVQLG"
+                     /Pfam="fPKS_ER"
      CDS             join(2517..2787,2890..4457)
                      /codon_start=1
                      /gene="ffsR"
                      /product="transcription regulator FfsR"
-                     /label=ffsR
+                     /label="ffsR"
                      /note="GAL4-like Zn2-Cys6 transcription regulator"
                      /protein_id="QOG08942.1"
                      /translation="MDTLTAPTTQSEQPPPPLTASLSRRYACDRCRSHKLRCNRDLMTS
@@ -66,12 +67,13 @@ FEATURES             Location/Qualifiers
                      SQGSSSRSTTTNCSSSFVEVQKPDVPSILVILSCYTCLLKIYETVFFVIQHVLECSPAN
                      PSGTTDIPHTVRDLNINGFFLQNHRTLQIKILIQVSTYMLDSIQKSLGTILSDSMFQAL
                      LKTLMKEEGCTITSQGEETGMQGVRDLIRRVEEMLA"
+                     /Pfam="EqxR"
      CDS             join(5064..5348,5408..6302,6354..6769)
                      /codon_start=1
                      /gene="ffsD"
                      /product="cytochrome P450 monooxygenase FfsD"
                      /EC_number="1.14.14.1"
-                     /label=ffsD
+                     /label="ffsD"
                      /note="Cytochrome P450 oxidoreductase"
                      /protein_id="QOG08943.1"
                      /translation="MLQDIVEQWQIMQQALAPLRLTRWQLTKMFAAQVYRDHPVGALLG
@@ -84,12 +86,13 @@ FEATURES             Location/Qualifiers
                      TRKPIQLSSGPKLPAGTILCVDSHHINNSAELFPEPAKFDPYRFLKKREEPGAENRFQF
                      VSTGPTDPNWGDGTQACPGRFFANSTLKVCLAHVLLKYNVSLREGQERPKMVSMPNGIW
                      APDMAAQVLFQSRD"
+                     /Pfam="p450"
      CDS             join(7841..8845,8910..20177)
                      /codon_start=1
                      /gene="ffsA"
-                     /product="polyketide synthase-nonribosomal peptide 
+                     /product="polyketide synthase-nonribosomal peptide
                      synthetase FfsA"
-                     /label=ffsA
+                     /label="ffsA"
                      /note="Polyketide synthase-nonribosomal peptide synthetase
                      revised sequence"
                      /protein_id="QOG08944.1"
@@ -163,11 +166,13 @@ FEATURES             Location/Qualifiers
                      NMLSFSKKLRKAPTSPAWQGTLDFVDVEKVATEIVEEVKNDSAHPGGLVKYMYESGDLE
                      IAVDDMKGSLERETGQAFQTLSLEEWTKAAAEEGLEPLVAAYLAGAGEMPIVFPKLIRG
                      PRRSVVVSSASSSGPAASSSFSLKGVVGRWFFS"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_DH, PKS_NRPS_MT, fPKS_KR,
+                     ACP_PCP, Condensation, AA-adenyl-dom, fPKS_R"
      CDS             join(23649..23889,23994..25447)
                      /codon_start=1
                      /gene="ffsH"
                      /product="major facilitator superfamily transporter FfsH"
-                     /label=ffsH
+                     /label="ffsH"
                      /note="MFS general substrate transporter"
                      /protein_id="QOG08945.1"
                      /translation="MSEAEKKASQDAQHKEPMADSETQLDSDSAPSSQAEKPAKTKYPL
@@ -180,12 +185,13 @@ FEATURES             Location/Qualifiers
                      GLGSLISTTLQAVQAGLPESETAASTATWAYMRSLGTIWGVSVPAAIFNNRFDQLSGQL
                      DPSIRDNFVRGQAYEHATAQFVQSFEPATREVVIGAYTDALRRVWLVSIAFGAVTVLST
                      LFEKELTLRTELDSEFGLAEKKGDAKGDVERGEGQNDSREGGQNENV"
+                     /Pfam="MFS_1"
      CDS             complement(join(25775..25898,25959..26857))
                      /codon_start=1
                      /gene="ffsI"
                      /product="short-chain dehydrogenase/reductase FfsI"
                      /EC_number="1.1.-.-"
-                     /label=ffsI
+                     /label="ffsI"
                      /note="Short chain dehydrogenase"
                      /protein_id="QOG08946.1"
                      /translation="MAEAITSVPAKSSLSAFWWASKHPPADPTTSFAGKTILITGPNAG
@@ -195,11 +201,12 @@ FEATURES             Location/Qualifiers
                      RHVAAAARSSEVIVNGACPSLCKSSLGRDFSIMLRAPDSLMKAIIGRTAEQGSRILVSA
                      VTTGQKAHGGFWSHDRIAVPGVLVTSDEGKKLSEQFWKEILDELSKQNPDVEKLLSESS
                      "
+                     /Pfam="adh_short"
      CDS             complement(27069..28421)
                      /codon_start=1
                      /product="alpha/beta hydrolase FfsE"
                      /EC_number="3.4.-.-"
-                     /label=FfsE
+                     /label="FfsE"
                      /note="Alpha/beta hydrolase"
                      /protein_id="QOG08947.1"
                      /translation="MTGPPGNPAFATIHEFFPGNTFYNFECLRILSTAPYGGCDPAEFL
@@ -210,11 +217,12 @@ FEATURES             Location/Qualifiers
                      KACLSIDPFYDMWDFGTRHISGLFMAAWTGGWVSDATIDRVIGAGMYLNFQLRWEVGVT
                      TAFWGIESPSRILREMKRYSLQGGFLARVQCPVFVSGAGKSLYFDTEEHTMRVFGDLKH
                      LGERRRTLWMPSRPEEGGLQAKIGAFGLVNTKAFGFLDGVFGVKRVLEAET"
+                     /Pfam="Abhydrolase_6"
      CDS             28759..29994
                      /codon_start=1
                      /gene="ffsF"
                      /product="Diels-Alderase FfsF"
-                     /label=ffsF
+                     /label="ffsF"
                      /note="Hypothetical"
                      /protein_id="QOG08948.1"
                      /translation="MTQIKLLLLSLAITAQSITYDLPSQWDHQWLTQQPLGSDTTCTTS
@@ -225,11 +233,12 @@ FEATURES             Location/Qualifiers
                      KGNEYPSIALFENGEPVFSSQRTEDSDTADYFTFTKTYDGKVTGTLRDKVTGYELELVS
                      PGEKKHWTFIIDHESLAFEYILGGGHGGSGFAGFVQGGRVGLEQFRGIALTEALTFPKK
                      SPLFRSQYSETS"
+                     /Pfam="Fsa2"
      CDS             30458..32302
                      /codon_start=1
                      /gene="ffsJ"
                      /product="FAD-linked oxidoreductase FfsJ"
-                     /label=ffsJ
+                     /label="ffsJ"
                      /note="FAD-binding domain containing protein"
                      /protein_id="QOG08949.1"
                      /translation="MRLTRALTPAILALPAAHAAASLQDWQSLNTTLDHRLHAVTPLAL
@@ -243,6 +252,7 @@ FEATURES             Location/Qualifiers
                      NNNNSNNSSTSTSTSTSSKNGSVKPYAYGGKETTSSTPAWRNSAAVLIAEVGWAFNATL
                      SEKKALAKTLVEASERVRELAPGSGAYANEAHPWVEDWQDAFWGGNYRRLADLKKKWDP
                      KGLLGCWHCVGSEGEGKKETGTAWRAEVVGGKCLGRLI"
+                     /Pfam="FAD_binding_4, BBE"
 ORIGIN
         1 atgtccccag ctcgcacctt ggaatcctct cccctcccaa ctacccaaac cgccatcatc
        61 caaggcgaag gcggcatcct ctccatccac cacaatgccc ccctccccac gctccggcct

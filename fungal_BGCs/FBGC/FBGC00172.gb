@@ -1,28 +1,28 @@
-LOCUS       FBGC00172       37546 bp DNA     linear   UNA 22-JAN-2023
+LOCUS       FBGC00172              37546 bp    DNA     linear   UNA 22-JAN-2023
 DEFINITION  rubiginosins.
 ACCESSION   FBGC00172
-VERSION     .
+VERSION     FBGC00172
 KEYWORDS    .
 SOURCE      Hypoxylon rubiginosum MUCL 52887
   ORGANISM  Hypoxylon rubiginosum MUCL 52887
+            .
 REFERENCE   1  (bases 1 to 37546)
   AUTHORS   Becker K, Kuhnert E, Cox RJ, Surup F.
-  TITLE     Azaphilone Pigments from Hypoxylon rubiginosum and H. texense : 
+  TITLE     Azaphilone Pigments from Hypoxylon rubiginosum and H. texense :
             Absolute Configuration, Bioactivity, and Biosynthesis
   JOURNAL   European J Org Chem 2021;2021(36):5094-5103
 REFERENCE   2  (bases 1 to 37546)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Jan 22, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1002/ejoc.202001661"; journalName: "European J Org Chem"; date: 
-            "2021"; volume: "2021"; issue: "36"; pages: "5094-5103"
+  JOURNAL   Exported Jan 22, 2023 from SnapGene 6.2.1 https://www.snapgene.com
 COMMENT     ##Assembly-Data-START##
             Assembly Method       :: SMRTLink v. 6.0.0.47841
             Coverage              :: 202x
             Sequencing Technology :: PacBio
             ##Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1002/ejoc.202001661"; journalName: "European J Org Chem"; date:
+            "2021"; volume: "2021"; issue: "36"; pages: "5094-5103"
 FEATURES             Location/Qualifiers
      source          1..37546
                      /mol_type="genomic DNA"
@@ -37,7 +37,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="hraza2M"
                      /product="FAD-linked oxidoreductase Hraza2M"
-                     /label=hraza2M
+                     /label="hraza2M"
                      /protein_id="UOS85803.1"
                      /translation="MFFKTVWQKIMATTAAAAVVPDVNELFGPYLSPGASIYLASDANY
                      TAEVTQRWSDFAAPSYIATIKPAIVDDVQNIVKIASSSGIPFLVTGGGHGVSIQMEGLQ
@@ -48,11 +48,12 @@ FEATURES             Location/Qualifiers
                      MRSVAAKRTDPQVTLEFITELDRFTKANPDVMTTVMIHRFPTQKVLGVSDEDSVYPHRD
                      LKMHIQLESEYDDYSKDSIVSEFLDAARRNFTAASGYDEPAVYVNFAHGDEGPAAWYGA
                      RNLGKLGHLKQKWDPQGLFNFYDVVPMASSSAEL"
+                     /Pfam="FAD_binding_4, BBE"
      CDS             2602..3618
                      /codon_start=1
                      /gene="hraza2L"
                      /product="dehydrogenase Hraza2L"
-                     /label=hraza2L
+                     /label="hraza2L"
                      /protein_id="UOS85804.1"
                      /translation="MAPSNNAAFITEPRKHPMVVGSSPYPTAGNGEIVVKVAATAVNPM
                      DWYIQLLGERLFNFLQYPYVGGSDIAGTVAEVGAGVTNFKAGDRVVGLCAGFDQRSGGF
@@ -60,12 +61,13 @@ FEATURES             Location/Qualifiers
                      LIWAGASSVGSNAIQLAVASGYEVFTTSSPKNFDYCKSLGASRVFDYKSSNITQELLDA
                      FKGKKCAGGYAIQPGSEQIVFEVIGKSEGANFVAAAMQVPEVPAGIEAKMVFGSTLKDN
                      EVGTIVWGQFLPAALAQKKFKPSPKTLVIGHGLEHVQAAMDQGKTGGVSAQKMVITL"
+                     /Pfam="fPKS_ER"
      CDS             join(5114..5298,5360..5816,5886..6704)
                      /codon_start=1
                      /gene="hraza2K"
-                     /product="major facilitator superfamily transporter 
+                     /product="major facilitator superfamily transporter
                      Hraza2K"
-                     /label=hraza2K
+                     /label="hraza2K"
                      /protein_id="UOS85805.1"
                      /translation="MATATETTRLLHEHVHIHRHVDEEEERIVDWDGPDDPENPINWSS
                      AKTWGHVAIVSLLTFLVPLGATMFAPAIQQVMDDFGSSNDVISSLIVSIYVLGWGLGPL
@@ -76,12 +78,13 @@ FEATURES             Location/Qualifiers
                      DRFIRKQAAQNALKPEHRLMPALIGAPLLAVGLLWYGWSAQAHAHWAVPVVGSGLIGAG
                      NVLFNTAIIGYLIDAFTVYAASSIAANTVIRSVGGTLLPLAGRHLYAALGWGWGSSLLA
                      LFALVCGFALIYLYAYGAAMRSKQPVRF"
+                     /Pfam="MFS_1"
      CDS             complement(join(7446..7692,7761..8511,8565..8781,
                      8867..9091))
                      /codon_start=1
                      /gene="hraza2J"
                      /product="FAD-linked oxidoreductase Hraza2J"
-                     /label=hraza2J
+                     /label="hraza2J"
                      /protein_id="UOS85806.1"
                      /translation="MLSQLFQVLALASLSIAANPNYEDLFKPFVSPGTEIATVSEPDFA
                      EVASPRWSTWQPPTFQAAIKPVTEADVQAIVRIASRNKIPFLATLNGHGSNKNYARVQN
@@ -92,14 +95,15 @@ FEATURES             Location/Qualifiers
                      KKTDPDTMEEIMQEMNDFYETHPNYNGSVSIQRYSNEAAMKVPDNDTSYPWRDINSYLL
                      FDNVYADPALDADVDDLSRSLRDKLQAASGYQDPQIYLNYAHGDEPLNQVYGASKLPKL
                      RTLKKKWDPDHLFGFNFPIDY"
+                     /Pfam="FAD_binding_4, BBE"
      CDS             complement(join(10174..10566,10630..10790,10848..11351,
                      11402..11473,11539..11562,11626..11800,11854..11905,
                      11972..12048,12100..12366))
                      /codon_start=1
                      /gene="hraza2I"
-                     /product="major facilitator superfamily transporter 
+                     /product="major facilitator superfamily transporter
                      Hraza2I"
-                     /label=hraza2I
+                     /label="hraza2I"
                      /protein_id="UOS85807.1"
                      /translation="MSTEREEGVPAADEKREAEHYTGIERTPGSEKQSFQASPGETDTP
                      GTIATPKEEDPENHYVTGYKLVAIVVALVLASFLMLLDTSIVSTAIPAISDEFQSLEDV
@@ -111,12 +115,13 @@ FEATURES             Location/Qualifiers
                      FSIFAGVLISIGSGLFSTFQPDTSTGKWIGYQIIASSGRGAGLQMPIVAVQNSVSQQEL
                      SQAMAFLLWAQYIGPTVFLTLYNTIFSTSLRTLLPQQAPNVDTQAVLAAGATRFREVVD
                      PRDLSNVLIAYSNSLDRVFYLVTGAGVGGFLAAWGMGWRDIRRKNRNQPGQPPVAEA"
+                     /Pfam="MFS_1"
      CDS             join(13289..13422,13545..13920,13972..14192,14255..14473,
                      14543..15455)
                      /codon_start=1
                      /gene="hraza2H"
                      /product="transcription factor Hraza2H"
-                     /label=hraza2H
+                     /label="hraza2H"
                      /protein_id="UOS85808.1"
                      /translation="MEPVPLTAPESQATSASALGGRACTNCARVKCKCIYRADGATCER
                      CFRLKKECTPSASVGRRVVKRRGVSRTARLEEKLDELVSCLKAQRENGKKDPDGELDDA
@@ -129,11 +134,12 @@ FEATURES             Location/Qualifiers
                      QRFEVYQNCLVSIKAFLDTFFATPIAVFNNMPFTSYPQLVRVIRCLHRLTTLQDPAWDR
                      AAVRRSVDLIPTCDKIIGTFEYLKAASTLVAPDAGEDESHNWGLGVFRKMRATWQNELA
                      NMDATSTTSRETSLIDGAQGGGFAASMDFSGDPWLSDVLNDFWE"
+                     /Pfam="HimD"
      CDS             join(17938..18230,18297..18795,18907..19398,19460..19702)
                      /codon_start=1
                      /gene="hraza2G"
                      /product="transcription factor Hraza2G"
-                     /label=hraza2G
+                     /label="hraza2G"
                      /protein_id="UOS85809.1"
                      /translation="MGEQDPGPGLFTPAASESQFNMDENDAHESAAPPPPSMTSMTMEP
                      SPPTEVVGLPDMDGVMGLQMAAPPPLPSCNFITGQSYIGSTGLSIPPLTRADLDQLFFD
@@ -144,11 +150,12 @@ FEATURES             Location/Qualifiers
                      WLDDIITRRTQKLQQDYVAASVKVDAMLLYASMIAQTTVLLLCKAAESIPPTTPSNHDL
                      VSRYQRRAPAAAKEIVRLAQYLPHFSFFKVHPFTPIPLFLCRQFLLLVSSQDETLADDL
                      NVVTEALLELKGVNGLCQSRLDIDFSDVEIPDFQESPEAIMDFFGNYMGT"
+                     /Pfam="Fungal_trans"
      CDS             complement(join(20194..25023,25103..25720))
                      /codon_start=1
                      /gene="hraza2A"
                      /product="polyketide synthase Hraza2A"
-                     /label=hraza2A
+                     /label="hraza2A"
                      /protein_id="UOS85810.1"
                      /translation="MTQDSQRAVSAAVFCPQNKPPKPDYMATIRRYLRGNPLLEPFQQA
                      ILDLPNAWNIFARENADIDALKDGPQYVKCMHDWIADDNIPLPIPEIMSGILALPILTI
@@ -182,12 +189,13 @@ FEATURES             Location/Qualifiers
                      SSTDEIVIVNRPGDSQELGHSSSAEKDQETAGKGLDIRTRQRLLELISENCGESLTNIE
                      DGASLQDIGVDSLSVIELGSSVEESFGVQFSDDDLHLQSTITDLLGYLRTNAPQGVAVH
                      "
+                     /Pfam="SAT2, PKS_KS, PKS_AT, fPKS_PT, ACP_PCP"
      CDS             join(26504..26590,26647..26788,26842..27221,27287..27909,
                      27971..28047,28106..28281)
                      /codon_start=1
                      /gene="hraza2F"
                      /product="cytochrome P450 monooxygenase Hraza2F"
-                     /label=hraza2F
+                     /label="hraza2F"
                      /protein_id="UOS85811.1"
                      /translation="MAVLNDVLDAARNLPTITFILGLVGLFLLRSIYTAISSPLSSIPG
                      PLLSRWTDLHVRIKLLSGSKARYVHSLHEKYGPIVRLGPNDVDISDVNGAREIHKVRSK
@@ -198,11 +206,12 @@ FEATURES             Location/Qualifiers
                      FNHRHIRDLPYLNRVIEETLRLYGAASGALPRVVPKEGGTLVGHYIPGGAVVSTQCYTI
                      HRDPKIFPDPEKFDPSRWENPSNEAKNAFMPFGLGPRTCIGLNLARMELRLCTALFFRA
                      FPTAKLSTKFGMSDSEMEPQINFLVMPKGHRCLIEV"
+                     /Pfam="p450"
      CDS             28879..30309
                      /codon_start=1
                      /gene="hraza2E"
                      /product="acyltransferase Hraza2E"
-                     /label=hraza2E
+                     /label="hraza2E"
                      /protein_id="UOS85812.1"
                      /translation="MTSDQVKPRTSALELDHEELRNMADYRDLDRYEDQALGQLPMLQV
                      YSHILYFFPMPHDFSRDQIIRELEAAITKVRQEVPWMGARVVNVGKTNGNSGTYRPAAC
@@ -213,11 +222,12 @@ FEATURES             Location/Qualifiers
                      AWMTFGELSQAPLSTIASYLRKRLNETNNPYHLRSFATFIAREPDKSTITYAGRFDPTV
                      DIGSSSIRTMPGVFPEFGKLGRPEFIRRPPSVPFPSTLVLYPGTPEGDCDGIACLTDTD
                      FEALSANPEWNEYVEHIG"
+                     /Pfam="Transferase"
      CDS             join(31253..31772,31837..32774)
                      /codon_start=1
                      /gene="hraza2D"
                      /product="FAD-dependent monooxygenase Hraza2D"
-                     /label=hraza2D
+                     /label="hraza2D"
                      /protein_id="UOS85813.1"
                      /translation="MASQNAGKLQVAIVGGGIVGLITALGLLKRNIPVKIYEQASSFRE
                      IGAGVAFTANALQCMALVDPVIVDAVNAVATQNGQEGAPPNDYLRYHDGYNWDPNDIEG
@@ -228,11 +238,12 @@ FEATURES             Location/Qualifiers
                      AGIGVEDGLALCTLLEQATATLSSQTNATTGAVVEAALQVYDAVRPPRSRWLVQSSRSV
                      CDVYEWVHPETGEDWDKCLAEITARSHRLWYFDIDGMLKELRDGYESRFPPSSSSSGVV
                      DAGKFAEGAKGKMDGAVMENVAIGIAT"
+                     /Pfam="FAD_binding_3, DAO, ElcH"
      CDS             complement(33182..33886)
                      /codon_start=1
                      /gene="hraza2N"
                      /product="hypothetical protein Hraza2N"
-                     /label=hraza2N
+                     /label="hraza2N"
                      /protein_id="UOS85814.1"
                      /translation="MDQAPKSQWSVLLNLLQDRITETAEANKDDAQSMSLEAHNAYNRA
                      AFASLRGEIASRDDIPNAVMNPPTQMLTLTFYGGWNETSCHGCLDFRDADDVIHVEVRA
@@ -243,7 +254,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="hraza2C"
                      /product="acetyltransferase Hraza2C"
-                     /label=hraza2C
+                     /label="hraza2C"
                      /protein_id="UOS85815.1"
                      /translation="MTWTETSPGVYSTELGGVEKIYRFFSHLFKPTGREHWGLYCSCTL
                      ELGSPLSHSDPAIALRDAWKALRQEFPALAIVPDGLTKKTYVLPDASRVEKWADETFFV
@@ -254,11 +265,12 @@ FEATURES             Location/Qualifiers
                      LRAYRVSTRTHYDAMTKRPAPPAGAPPPKPPSGVTLSSLGVIEKLLPSEYEGGVVKVTD
                      FNFGVSMLTRQMLLYVWTFRGKMSFSINYNKAYQDAEATKALLEYIRQVLAKEVGVTLE
                      PEEKVE"
+                     /Pfam="LolU"
      CDS             36185..37546
                      /codon_start=1
                      /gene="hraza2B"
                      /product="acetyltransferase Hraza2B"
-                     /label=hraza2B
+                     /label="hraza2B"
                      /protein_id="UOS85816.1"
                      /translation="MPWLEVSPSHWQRPLGENERMIKWIGDRAHAAGREHWSITVVGSF
                      TLSGSLRDGKLEEKLRKAWMLLRFRHPSIASTAGADTVDYHVPDAKALEQWADETLNVI
@@ -268,6 +280,7 @@ FEATURES             Location/Qualifiers
                      TSTMRFSLRPYLREPFNSAQYASALYTGSYMAKVAPSNSWQENAAQYNELYAAGLSREF
                      LIARRQFAIQVLEMLSRAGELGPPRSEVDISSVDDAEKLVSPVHHGGKDGGALEVNDVS
                      LGLECLAKETYLFFWIFRGKIEFNLVYNEAFYDKASMEEVVDTTVEALKKGLQV"
+                     /Pfam="LolU"
 ORIGIN
         1 ctacaactcg gcactggatg aagccattgg gaccacatca taaaagttga atagcccttg
        61 gggatcccac ttctgcttca gatggcctag cttacccagg ttgcgagctc cgtaccatgc

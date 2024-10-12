@@ -1,29 +1,29 @@
-LOCUS       FBGC00163        5907 bp DNA     linear   UNA 22-JAN-2023
+LOCUS       FBGC00163               5907 bp    DNA     linear   UNA 22-JAN-2023
 DEFINITION  brasilane E.
 ACCESSION   FBGC00163
-VERSION     .
+VERSION     FBGC00163
 KEYWORDS    .
 SOURCE      Annulohypoxylon truncatum CBS 140778
   ORGANISM  Annulohypoxylon truncatum CBS 140778
+            .
 REFERENCE   1  (bases 1 to 5907)
   AUTHORS   Feng J, Surup F, Hauser M, Miller A, Wennrich JP, Stadler M, Cox RJ,
             Kuhnert E.
-  TITLE     Biosynthesis of oxygenated brasilane terpene glycosides involves a 
+  TITLE     Biosynthesis of oxygenated brasilane terpene glycosides involves a
             promiscuous N-acetylglucosamine transferase.
   JOURNAL   Chem Commun (Camb) 2020;56:12419-12422
-  PUBMED    32936132
+   PUBMED   32936132
 REFERENCE   2  (bases 1 to 5907)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Jan 22, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1039/d0cc03950k"; journalName: "Chem Commun (Camb)"; date: 
-            "2020"; volume: "56"; pages: "12419-12422"
+  JOURNAL   Exported Jan 22, 2023 from SnapGene 6.2.1 https://www.snapgene.com
 COMMENT     ##Assembly-Data-START##
             Assembly Method       :: canu v. 1.7; Pilon v. 1.23
-            Sequencing Technology :: Illumina; Oxford Nanopore 
+            Sequencing Technology :: Illumina; Oxford Nanopore
             ##Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1039/d0cc03950k"; journalName: "Chem Commun (Camb)"; date:
+            "2020"; volume: "56"; pages: "12419-12422"
 FEATURES             Location/Qualifiers
      source          1..5907
                      /mol_type="genomic DNA"
@@ -37,7 +37,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="braA"
                      /product="terpene synthase BraA"
-                     /label=braA
+                     /label="braA"
                      /note="sesquiterpene cyclase; BraA"
                      /protein_id="QOE88883.1"
                      /translation="MAPDIDNIWSSTTDAAESPVDERRILLKRAVGQKILVPSILSLMP
@@ -47,11 +47,12 @@ FEATURES             Location/Qualifiers
                      GVIPSITQNEYAMKFELPEYVRRHEAMEEIVQECTKLTVLLNDVLSLQKEFRDSQLENL
                      VLLFMNRYNLSLQAAVDKVLDLIREHYAICVAAEKRLPWSEDDEKLNDDIREYVRGCQR
                      LATGTAYWSYSCERYFKQTQVNDKWEVLLDLSYVE"
+                     /Pfam="Terpene_syn_C_2"
      CDS             complement(1683..2948)
                      /codon_start=1
                      /gene="braB"
                      /product="glycosyltransferase BraB"
-                     /label=braB
+                     /label="braB"
                      /note="glycosyltransferase; BraB"
                      /protein_id="QOE88884.1"
                      /translation="MVPSVMEGAPQLGITSTDTSSAGVPPGLKLIPTDRLDRRTDEEIA
@@ -62,13 +63,14 @@ FEATURES             Location/Qualifiers
                      GPEYYSNKMLLCSALQETFYFQLVTEWSGTKQFNLLSTKRKGEGVVKDENWHAAENFVH
                      DALANTATMKLSHGPPGALDSFLADLWDSEEHHGKDNEDGTFAAYLRYGSVHFDQTREM
                      VPIKMGWPDEEVLEAGVLEPKK"
+                     /Pfam="Caps_synth"
      CDS             join(4139..4342,4410..4535,4597..4750,4813..5424,
                      5489..5907)
                      /codon_start=1
                      /gene="braC"
                      /product="cytochrome P450 monooxygenase BraC"
                      /EC_number="1.14.14.1"
-                     /label=braC
+                     /label="braC"
                      /note="BraC"
                      /protein_id="QOE88885.1"
                      /translation="MASLYLPTIWASTLTAATIFIVAVLSKWLRKPRSFDVPIVGAESG
@@ -80,6 +82,7 @@ FEATURES             Location/Qualifiers
                      KQHLTQMKMLDSFMKESQRHSPPSVATYQRKAMIPITLSNGFHIPAGTIVQCNTNILDE
                      TPPDWGDPHAFDGFRFYKLRNRTPDDINKFQFASPTYDSMQFGFGKDACPGRFFASNQI
                      KIILAYILSHYDIKFEDSVVGRPKNFMFEVNVLADPTKMVLFKKIR"
+                     /Pfam="p450"
 ORIGIN
         1 atggctccag acatcgacaa tatctggtcg tcgaccacag atgcggctga gagccccgtc
        61 gacgagcgca gaatcctcct caagagagcc gtgggccaaa agatcctagt ccctagcatc

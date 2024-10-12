@@ -1,27 +1,27 @@
-LOCUS       FBGC00167       26854 bp DNA     linear   UNA 09-MAY-2023
+LOCUS       FBGC00167              26854 bp    DNA     linear   UNA 09-MAY-2023
 DEFINITION  citridone B.
 ACCESSION   FBGC00167
-VERSION     .
+VERSION     FBGC00167
 KEYWORDS    .
 SOURCE      Penicillium sp. PKI-1938
   ORGANISM  Penicillium sp. PKI-1938
+            .
 REFERENCE   1  (bases 1 to 26854)
   AUTHORS   Zhang Z, Qiao T, Watanabe K, Tang Y.
   TITLE     Concise Biosynthesis of Phenylfuropyridones in Fungi.
   JOURNAL   Angew Chem Int Ed Engl 2020;59:19889-19893
-  PUBMED    32779306
+   PUBMED   32779306
 REFERENCE   2  (bases 1 to 26854)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported May 9, 2023 from SnapGene 6.2.2
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1002/anie.202008321"; journalName: "Angew Chem Int Ed Engl"; 
-            date: "2020"; volume: "59"; pages: "19889-19893"
+  JOURNAL   Exported May 9, 2023 from SnapGene 6.2.2 https://www.snapgene.com
 COMMENT     ##Assembly-Data-START##
             Assembly Method       :: SOAP de novo v. v1.04 v
             Sequencing Technology :: Illumina
             ##Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1002/anie.202008321"; journalName: "Angew Chem Int Ed Engl";
+            date: "2020"; volume: "59"; pages: "19889-19893"
 FEATURES             Location/Qualifiers
      source          1..26854
                      /strain="PKI-1938"
@@ -34,7 +34,7 @@ FEATURES             Location/Qualifiers
                      1468..1901)
                      /codon_start=1
                      /product="cytochrome P450 monooxygenase PfpE"
-                     /label=pfpE
+                     /label="pfpE"
                      /note="P450"
                      /protein_id="QNH68018.1"
                      /translation="MTANTSLPMSFAFQHAWTPLSDFDIASGGTYFMTAVLLISVTSLW
@@ -47,10 +47,11 @@ FEATURES             Location/Qualifiers
                      VTLSNGLVIPKGTRTFVDCFPMRDPAVYDNPETWDPERFLRMRSQPGKERSSLLVTTAS
                      DHLGFGHGVFACPGRFFAANEIKVALCHILMKYEWELTPGTSVSPLILGAATMSNPTSK
                      IRIRKRLNPELDLDAI"
+                     /Pfam="p450"
      CDS             complement(join(2451..2869,2924..3452,3507..4076))
                      /codon_start=1
                      /product="cytochrome P450 monooxygenase PfpB"
-                     /label=pfpB
+                     /label="pfpB"
                      /note="P450"
                      /protein_id="QNH68019.1"
                      /translation="MVTGQLTLPFLVSAILLWILKGLFQYQQYERTRKQLGCAPLSRYP
@@ -62,10 +63,11 @@ FEATURES             Location/Qualifiers
                      VLEYGDQPLTFEGLRSIKYLRWVVNESHRLYPVSLQTVRACVKDTTLPVGGGPDGTSPI
                      FCAKGDIVHCNRYLMHRDPDLWGPDAEEFRPERWESARPLWNFVPFGGGPRICPAHVMV
                      DTECSYTIFRLLQRFKAIESRDDKPYEAVMRVGPSNKNGCKVAFVPA"
+                     /Pfam="p450"
      CDS             join(4499..4672,4729..4962,5017..6351)
                      /codon_start=1
                      /product="cytochrome P450 monooxygenase PfpD"
-                     /label=pfpD
+                     /label="pfpD"
                      /note="P450"
                      /protein_id="QNH68020.1"
                      /translation="MVLGTFSSKISTPMGILSVALVSTVVLVFIYRALLPKPIPGIPHN
@@ -79,10 +81,11 @@ FEATURES             Location/Qualifiers
                      QSPALKINESLRSATSRDTKSRFGDWNLSDIDQFIPERWLTRDDEGQMRFDPRAGPAHP
                      YGTGQRGCFGSKFAILELRMIITLVTWCFHLQETPPSLSGFAGHDQNTKRAQQVYMRLA
                      EVIN"
+                     /Pfam="p450"
      CDS             complement(join(6672..7267,7347..7713))
                      /codon_start=1
                      /product="short-chain dehydrogenase/reductase PfpC"
-                     /label=pfpC
+                     /label="pfpC"
                      /note="SDR"
                      /protein_id="QNH68021.1"
                      /translation="MVTFTLVAECNQRAASDEPSVSVFAGATSGIGAATLARIVELRPN
@@ -91,10 +94,11 @@ FEATURES             Location/Qualifiers
                      AGKEQPLLEDDLGLKKNWSAIQVVNHSTTMTSLLFDHLSAQNPGIAFIHTQPGWVHTDN
                      FARLLDPEQGLMWRLTVTCIQGIARTLVGLFGISASEAGERQAFHLASGLFGPGAWMVD
                      YKSEDVPPNSVMRRARKESLSVKVWNHTNQVFVEALRPN"
+                     /Pfam="SmbD"
      CDS             join(8464..8665,8789..9556,9629..9996)
                      /codon_start=1
                      /product="major facilitator superfamily transporter PfpF"
-                     /label=pfpF
+                     /label="pfpF"
                      /note="major facilitator superfamily transporter; MFS"
                      /protein_id="QNH68022.1"
                      /translation="MATHNDTAQTPLAESAAEKGENSSGSASTASDSVPPGPARPSNPP
@@ -105,10 +109,11 @@ FEATURES             Location/Qualifiers
                      NKWVNGSLALYLLPILNAASSIGRVLPNWMADKMGAINVIIPGSLLIGVVLLCNLAVSS
                      AAGIICTAVFFGFLSGLFVATPPLLFMLFTEDKTKLGSRMGVAYGMLGLAVLPGGPGAG
                      AVLQHDSTRLDWTAAWTFAGVLPLAACVVFCLLRIHRKGLTLVAKV"
+                     /Pfam="MFS_1"
      CDS             join(11607..12212,12301..13995)
                      /codon_start=1
                      /product="transcriptional factor PfpG"
-                     /label=pfpG
+                     /label="pfpG"
                      /note="transcriptional factor"
                      /protein_id="QNH68023.1"
                      /translation="MENAITLMELTPKTLGGQPMRKKRRPALACQECRRRKIRCDRRTP
@@ -125,11 +130,12 @@ FEATURES             Location/Qualifiers
                      PRTGYVRREMQAAVQRFLDLVLRRIRTGTETNVQLYATIHGLLAHAEAIEAGLSEPRTE
                      LRIQEAINKNLETVLSILSRQCDQNTHPVDLQTSWMNIPDVLAVEQEPTNPIPRYESNI
                      SFSWEGMDFSRRG"
+                     /Pfam="CghF"
      CDS             join(14698..16496,16564..26854)
                      /codon_start=1
-                     /product="polyketide synthase-nonribosomal peptide 
+                     /product="polyketide synthase-nonribosomal peptide
                      synthetase PfpA"
-                     /label=pfpA
+                     /label="pfpA"
                      /note="PKS-NRPS"
                      /protein_id="QNH68024.1"
                      /translation="MEPIAIVGSSCRFPGAATSPSKLWELLKEPKDVLRSFPPERLAFQ
@@ -201,6 +207,8 @@ FEATURES             Location/Qualifiers
                      QASGVPVVIHRACSVIGNRAPSDDAMNSVLRFSRLSRTVPVVPNAEGFFDFHDVVDVAH
                      EIVRGQIAGDSLCFRHHSSGVRISFDQLASRMENIYGERFEKVNLSDWIRSAKELGMED
                      LIVSYLEANVARGGRLRFPYLGGTRSVSMQQ"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_DH, PKS_NRPS_MT, fPKS_KR,
+                     ACP_PCP, Condensation, AA-adenyl-dom, fPKS_R"
 ORIGIN
         1 atgactgcca atacatccct gcctatgtcc tttgcctttc aacatgcatg gacccctttg
        61 tcggattttg acatcgcgtc aggcggaacc tattttatga cggctgtttt gcttatctca

@@ -1,29 +1,29 @@
-LOCUS       FBGC00158       25830 bp DNA     linear   UNA 22-JAN-2023
+LOCUS       FBGC00158              25830 bp    DNA     linear   UNA 22-JAN-2023
 DEFINITION  pestynol.
 ACCESSION   FBGC00158
-VERSION     .
+VERSION     FBGC00158
 KEYWORDS    .
 SOURCE      Pestalotiopsis humus FKI-7473
   ORGANISM  Pestalotiopsis humus FKI-7473
+            .
 REFERENCE   1  (bases 1 to 25830)
-  AUTHORS   Lv JM, Gao YH, Zhao H, Awakawa T, Liu L, Chen GD, Yao XS, Hu D, Abe 
+  AUTHORS   Lv JM, Gao YH, Zhao H, Awakawa T, Liu L, Chen GD, Yao XS, Hu D, Abe
             I, Gao H.
-  TITLE     Biosynthesis of Biscognienyne B Involving a Cytochrome 
+  TITLE     Biosynthesis of Biscognienyne B Involving a Cytochrome
             P450-Dependent Alkynylation.
   JOURNAL   Angew Chem Int Ed Engl 2020;59:13531-13536
-  PUBMED    32364293
+   PUBMED   32364293
 REFERENCE   2  (bases 1 to 25830)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Jan 22, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1002/anie.202004364"; journalName: "Angew Chem Int Ed Engl"; 
-            date: "2020"; volume: "59"; pages: "13531-13536"
+  JOURNAL   Exported Jan 22, 2023 from SnapGene 6.2.1 https://www.snapgene.com
 COMMENT     ##Assembly-Data-START##
             Assembly Method       :: SPAdes v. 3.5.0
             Sequencing Technology :: Illumina
             ##Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1002/anie.202004364"; journalName: "Angew Chem Int Ed Engl";
+            date: "2020"; volume: "59"; pages: "13531-13536"
 FEATURES             Location/Qualifiers
      source          1..25830
                      /strain="FKI-7473"
@@ -34,7 +34,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="pesA"
                      /product="FAD-dependent monooxygenase PesA"
-                     /label=pesA
+                     /label="pesA"
                      /note="salicylate hydroxylase"
                      /protein_id="QJQ82466.1"
                      /translation="MPDRYRIRIAIVGGGIAGAALANSLVQIDHLEVHIFESAPQFSER
@@ -45,11 +45,12 @@ FEATURES             Location/Qualifiers
                      PDPQGYSEWEHKSTPTYSRGSVCIMGDAAHAMTPWQGSGAGQAIEDAMILGTLLKQVDS
                      PSQIEAAFEAYSIVRRPRCQKIIDSSRGTGGMLCGQNVETGLDPDKLKAALGPRWAFIY
                      SLDMEQHKKEALDKFHDILAGD"
+                     /Pfam="ElcH"
      CDS             complement(join(2133..2789,2969..4303))
                      /codon_start=1
                      /gene="pesB"
                      /product="phenylalanine ammonia-lyase PesB"
-                     /label=pesB
+                     /label="pesB"
                      /note="phenylalanine ammonia-lyase"
                      /protein_id="QJQ82467.1"
                      /translation="MSTPVWSFTDLVLSQRPKLSKANLPIDGQSLTISDVIAVSRDLSH
@@ -64,6 +65,7 @@ FEATURES             Location/Qualifiers
                      PVGSHVQTAEMGNQSLNSLALVSARYTLEAVDVLSQIASAHLLAVCQALDLRTIEIEGR
                      KDGHGAPDASPYIGQAARRVYQFLRKDLGIPFLGEEHLASKESTPTGTSPSIGLYNTRV
                      YQSIRSGRLFDVIFECLEEVAEQEKECA"
+                     /Pfam="Lyase_aromatic"
      gap             5226..5488
                      /estimated_length=263
      gap             5694..5945
@@ -73,7 +75,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="pesC"
                      /product="FAD-linked oxidoreductase PesC"
-                     /label=pesC
+                     /label="pesC"
                      /note="FAD binding domain-containing protein"
                      /protein_id="QJQ82468.1"
                      /translation="MLSLRSFLVASGLPLLLPLVTGSPVVPRYFQRSLFSRGNISVNTV
@@ -85,11 +87,12 @@ FEATURES             Location/Qualifiers
                      SYPEVSTLTDGNCQGAPIALASVLTVEYNVTAERELYDLYVANVAQYPELAATAYAWHE
                      GYATAGYQAVPSDSTAFPHREENHIMFFATVVPDGSGLLDAANAWAKDSRDIWNAGQPD
                      RLPAVYVNYAAGHDYETLESIYGYESWRLDRLRCLKADYDPQNRFRFYNPIVQG"
+                     /Pfam="FAD_binding_4, BBE"
      CDS             complement(10457..11506)
                      /codon_start=1
                      /gene="pesD"
                      /product="UbiA-like prenyltransferase PesD"
-                     /label=pesD
+                     /label="pesD"
                      /note="UbiA-type prenyltransferase"
                      /protein_id="QJQ82469.1"
                      /translation="MTNNSKEMLAADIGYQKPSHGIFRFIPDAWVPYAELMRLDRPAGF
@@ -99,11 +102,12 @@ FEATURES             Location/Qualifiers
                      YLYAAGAIWCVIFDTIYAHQDYLDDLKAGVRGLAVRLGRRGTKPALSVAAIAQVYCLAM
                      AGQLSGLGTTYFAISCGGAGLLLAWMIWKVKLEDPKSCAWAFGAGSMYVGASVTAGLLA
                      EFWVTKQGY"
+                     /Pfam="UbiA_PT"
      CDS             join(12357..12581,12634..13824,13899..14057)
                      /codon_start=1
                      /gene="pesE"
                      /product="cytochrome P450 monooxygenase PesE"
-                     /label=pesE
+                     /label="pesE"
                      /note="cytochrome P450"
                      /protein_id="QJQ82470.1"
                      /translation="MYSLGSSFDYLPYLVLILCFSSAALVQYLSPIDSKWSFSAKKWAM
@@ -116,22 +120,24 @@ FEATURES             Location/Qualifiers
                      GTSFLINAIALSGEFENGNEFQPERWMESSEKMTTANFWGFGGGRRICVGWKVAEQALF
                      IAFARLLYCFEMTSIGPIDDQKLNHQFVNNPFPVTMTSRGPAHAALIEQEASKLESEFS
                      TFDPSPK"
+                     /Pfam="p450"
      CDS             join(14995..15191,15253..15378,15454..15741,15817..15856)
                      /codon_start=1
                      /gene="pesF"
                      /product="cupin domain-containing protein PesF"
-                     /label=pesF
+                     /label="pesF"
                      /note="cupin domain-containing protein"
                      /protein_id="QJQ82471.1"
                      /translation="MVQAWQQWLSPRPKQRTHTNAQKAFPYLGDAVLYEPYTRPDGHSL
                      VRETHNIEDPLVRDGLSGPPLHIHRKQNEFFRVEQGVLGAVKDGVEYAVTPEDGVLSIP
                      AGTRHRFWCHKTAKESLIFTIWLDEINDSDFIVDVNALRNSTSYLDDCQKSGLKPSPFQ
                      LILFSEHASTLVCPPFMNWMPIWLLALVHHVLAWIAEKILGYERSYPEYTEQE"
+                     /Pfam="PatJ"
      CDS             complement(join(16654..16966,17014..17822,17878..18018))
                      /codon_start=1
                      /gene="pesG"
                      /product="FAD-dependent monooxygenase PesG"
-                     /label=pesG
+                     /label="pesG"
                      /note="4-hydroxybenzoate decarboxylase"
                      /protein_id="QJQ82472.1"
                      /translation="MSSHNNLRPVLSVLIVGCGLGGMASALALAEAGHQVTVFERSPEL
@@ -142,11 +148,12 @@ FEATURES             Location/Qualifiers
                      CMKWTLFQINELAEWRHKGGRFLLIGDAAHAILPCLAQGAAQAFEDAGVLGAIFSHSIE
                      HGQIPDALRVFEEVRKPRASEVRRRTLDQKALFALPDGPDQVERDAKLRGGSEAELFKW
                      LWGYDAEASGREAWQRFINGS"
+                     /Pfam="FAD_binding_3"
      CDS             join(20966..21885,21945..22071)
                      /codon_start=1
                      /gene="pesH"
                      /product="short-chain dehydrogenase/reductase PesH"
-                     /label=pesH
+                     /label="pesH"
                      /note="short chain dehydrogenase/reductase"
                      /protein_id="QJQ82473.1"
                      /translation="MSLSSKLEADALYEATLRGTFARQFTTPKPLPSGTRLDGQTVLVT
@@ -156,11 +163,12 @@ FEATURES             Location/Qualifiers
                      LILFGTRLAELVDPNDVLINMSTPGLTRSSRLDGNVSAFMKVLMRVFRSIVGRTQEVAA
                      SVYLHAVLAAGAASHGSYISDWTIKPYPKFWFTAEGQKARAALWEETMTELNFAGVSKI
                      INDIQRVT"
+                     /Pfam="adh_short"
      CDS             complement(join(22783..22889,22963..24019))
                      /codon_start=1
                      /gene="pesI"
                      /product="hydrolase PesI"
-                     /label=pesI
+                     /label="pesI"
                      /note="epoxide hydrolase"
                      /protein_id="QJQ82474.1"
                      /translation="MSDSLDIRKFNPTIPKSEVDRLWRKLQDTRLPEHPIVPDAGDDYG
@@ -170,11 +178,12 @@ FEATURES             Location/Qualifiers
                      AQAKIEWFLSGHIGYGQEMGTRPQTIGIAIFDSPLGVMMWMGEKYHELVDPKYHDLEDK
                      GFVDDICTTLCLYLFTGPSILTSAMVYASNISHDQYPHFVRNPDNFIKTPFGFTSYLFD
                      GAPVSQRACATTEYNHGGHFPAMEGAEEFVADLRECFAELLQVESKA"
+                     /Pfam="EHN, Abhydrolase_1"
      CDS             join(24821..24862,24914..25182,25263..25579,25640..25830)
                      /codon_start=1
                      /gene="pesJ"
                      /product="short-chain dehydrogenase/reductase PesJ"
-                     /label=pesJ
+                     /label="pesJ"
                      /note="short chain dehydrogenase/reductase"
                      /protein_id="QJQ82475.1"
                      /translation="MSVYVVTGVSRGIGFEFLNQLSADSNALVIGLVRDKAATEKKVAA
@@ -182,6 +191,7 @@ FEATURES             Location/Qualifiers
                      ADKPEELDTVAAQLMQTNVTGNIHLFHLFLPLVQKGKTKKIIAITTGLADVDSTNLMEV
                      EIGSLYAASKAALNMVVAKFNAQYKKEGILFLSISPGVVEVGQYANITPEQGQSLMKFM
                      GTVATVAPDFKGPAAPADAVRQVKETWEKASIETGFGGAFVSHHGDKNWI"
+                     /Pfam="adh_short"
 ORIGIN
         1 ttagtcccca gccagtatat catggaactt gtctagtgcc tctttcttgt gttgctccat
        61 atccagagag taaatgaacg cccatctcgg acccagcgca gctttcagct tgtctggatc

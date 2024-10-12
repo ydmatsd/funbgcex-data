@@ -1,30 +1,30 @@
-LOCUS       FBGC00164       37292 bp DNA     linear   UNA 09-MAY-2023
+LOCUS       FBGC00164              37292 bp    DNA     linear   UNA 09-MAY-2023
 DEFINITION  chaetoglobosin P.
 ACCESSION   FBGC00164
-VERSION     .
+VERSION     FBGC00164
 KEYWORDS    .
 SOURCE      Discosia rubi TTI-0885
   ORGANISM  Discosia rubi TTI-0885
+            .
 REFERENCE   1  (bases 1 to 37292)
-  AUTHORS   Perlatti B, Nichols CB, Lan N, Wiemann P, Harvey CJB, Alspaugh JA, 
+  AUTHORS   Perlatti B, Nichols CB, Lan N, Wiemann P, Harvey CJB, Alspaugh JA,
             Bills GF.
-  TITLE     Identification of the Antifungal Metabolite Chaetoglobosin P From 
-            Discosia rubi Using a Cryptococcus neoformans Inhibition Assay: 
+  TITLE     Identification of the Antifungal Metabolite Chaetoglobosin P From
+            Discosia rubi Using a Cryptococcus neoformans Inhibition Assay:
             Insights Into Mode of Action and Biosynthesis.
   JOURNAL   Front Microbiol 2020;11:1766
-  PUBMED    32849391
+   PUBMED   32849391
 REFERENCE   2  (bases 1 to 37292)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported May 9, 2023 from SnapGene 6.2.2
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.3389/fmicb.2020.01766"; journalName: "Front Microbiol"; date: 
-            "2020"; volume: "11"; pages: "1766"
+  JOURNAL   Exported May 9, 2023 from SnapGene 6.2.2 https://www.snapgene.com
 COMMENT     ##Assembly-Data-START##
             Assembly Method       :: SPAdes v. 3.12.0
             Sequencing Technology :: Illumina
             ##Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.3389/fmicb.2020.01766"; journalName: "Front Microbiol"; date:
+            "2020"; volume: "11"; pages: "1766"
 FEATURES             Location/Qualifiers
      source          1..37292
                      /isolate="TTI-00885"
@@ -36,19 +36,20 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="g66"
                      /product="twinfilin-1 G66"
-                     /label=g66
+                     /label="g66"
                      /protein_id="QJY30852.1"
                      /translation="MQPAAKEIRLSGHTTIPVKADALEAMKALAAEDGTGGLVMLSVNP
                      ETEIIELVPSNARPLSISELAKTISATEPRFTFYRFSHKHAGQDRTSTLFFFTRPSIPG
                      IQAIKDRMVYPLMKRAVLDIASQESGLTAEKKFEVADCTDITENLVLETLYPESETGDG
                      THSS"
+                     /Pfam="Cofilin_ADF"
      CDS             complement(join(1482..6265,6335..7041,7118..12319,
                      12381..12601,12658..12884,12951..13788))
                      /codon_start=1
                      /gene="g67"
-                     /product="polyketide synthase-nonribosomal peptide 
+                     /product="polyketide synthase-nonribosomal peptide
                      synthetase G67-1"
-                     /label=g67-1
+                     /label="g67-1"
                      /note="revised sequence"
                      /protein_id="QJY30853.1"
                      /translation="MAHRLEPIAIVGSGCRFPGGATTPSKLWDLLREPRDIASEITEDR
@@ -119,11 +120,13 @@ FEATURES             Location/Qualifiers
                      ELTNGYTAAKWASERILENAAQVWGLPVTVHRPSSIMGDGAGDLDLMRNLFRFVEEMEA
                      VPESGSWKGYFDFISVENVAAAIVEAGINGTGGQGQVRYLFESGEIVYPLAVMKELSES
                      GKKLPIKTMPLAEWVEKARALGLNPMLAEYLINADKNGSPLAFPKLVKGVMVV"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_DH, PKS_NRPS_MT, fPKS_KR,
+                     ACP_PCP, Condensation, AA-adenyl-dom, fPKS_R"
      CDS             complement(join(14422..14950,15027..15586))
                      /codon_start=1
                      /gene="g67"
                      /product="trans-acting enoylreductase G67-2"
-                     /label=g67-2
+                     /label="g67-2"
                      /note="manually added sequence"
                      /protein_id="QJY30853.1"
                      /translation="MTDPMLKFPSKHTAIIQHEGGITKITPGLPLPVLAPGQVLVRTAA
@@ -133,11 +136,12 @@ FEATURES             Location/Qualifiers
                      DIKKLTRNNLRYVVDPFSDLRTLALCDEAMGRAGGRYVALEMYQETSEKKAKIIKRELI
                      LGQMVTGGAIPFTDGYGKPEDPETGAWGAECYKSIQRLVNERKIRPHPLKILGGGLNDI
                      LKGLEMLKRKEVSAEKIVVRME"
+                     /Pfam="fPKS_ER"
      CDS             15878..17116
                      /codon_start=1
                      /gene="g68"
                      /product="Diels-Alderase G68"
-                     /label=g68
+                     /label="g68"
                      /protein_id="QJY30854.1"
                      /translation="MLIESILLLSVLLPSASSWDYAGWSPEWGEHWPTEWQQSMTEGCT
                      VSHLTTHEMEKGRKPVFFSVSPLDDPEAPKMLPLNSTGGEQWEFDGVSEDGLLAFCIGF
@@ -147,11 +151,12 @@ FEATURES             Location/Qualifiers
                      DKEIYRPSVVLWEDGKHIFSATAHEPSDTEDYAVLERTYGGKVTGNLKDKTTGFELIMV
                      SPTQKKQWSFTITNQNLGFEYMLGEGVGGTGFSGTAVGGPIGLKQFFGAAFAESLVFPK
                      KSYLFKPNYVDEL"
+                     /Pfam="Fsa2"
      CDS             complement(join(17629..19033,19083..19354))
                      /codon_start=1
                      /gene="g69"
                      /product="major facilitator superfamily transporter G69"
-                     /label=g69
+                     /label="g69"
                      /note="revised sequence"
                      /protein_id="QJY30855.1"
                      /translation="MAEISNIPLNTIEGPETNHTAVSSSPERNEEVQTAAKYTWLFWMA
@@ -164,11 +169,12 @@ FEATURES             Location/Qualifiers
                      VWIIAETLVALGLGITIPALLPAVQVELTDADTAASTGMWAFLRSLGTIWGVSIPAAVF
                      NNRFSELLWQIDDQTIKAELEGDGAYEHASRDYILSLQGDTREQVRSVFAASLQRVWQI
                      GIVFAGVSFLAALTMRSKKMRTELETEFGLEDSRKIPRSSH"
+                     /Pfam="MFS_1"
      CDS             complement(20396..22144)
                      /codon_start=1
                      /gene="g70"
                      /product="FAD-linked oxidoreductase G70"
-                     /label=g70
+                     /label="g70"
                      /protein_id="QJY30856.1"
                      /translation="MFTQFASLGLAASWFTNVFAIYANGRAMESDWDQLKQAISGNLFD
                      AQPLAAFCYSNLNGQPVTPDLSRCSLVQENYLNGSFRSSLYSGFFHNYNEICASNITDQ
@@ -181,12 +187,13 @@ FEATURES             Location/Qualifiers
                      LDKANAVHKAWRDSYWLVGTSVSWGWNATLKERMHTAAMLQEVSRNLTTLAPEGSMYPN
                      EADPWTENWRKEFWGEENYTKLLSIKRKYDPHNLLGCWKCVGFENVEMVQDLGYRCLGA
                      FQSAGT"
+                     /Pfam="FAD_binding_4, BBE"
      CDS             complement(join(22394..22806,22869..23462,23525..23593,
                      23676..23901,23961..24146))
                      /codon_start=1
                      /gene="g71"
                      /product="cytochrome P450 monooxygenase G71"
-                     /label=g71
+                     /label="g71"
                      /protein_id="QJY30857.1"
                      /translation="MFSIWQCSFAPIVLGAYWLIKRQLDGQSHDLEKLPFVKFDNNDIP
                      ERYVAESEKLLHSGYNKYIKNGVPFRMRNLVDPNHHQLILPFKYLDEVKSSAQNEMSFQ
@@ -197,12 +204,13 @@ FEATURES             Location/Qualifiers
                      EKLDSFMKESQRVNPVGLVTVRRSAVRPYTFSDGLRIPANTHCCFPNYELNHDRDVYPD
                      PDKFDGYRFLNLRHKVDVHKYHFAYVSESSINFGAGAHSCPGRHLASNEIKLILSELLL
                      NYDLKWPEGQRRPPTMFHDFSSNPNPMVDILIRRKKA"
+                     /Pfam="p450"
      CDS             complement(join(24883..25343,25407..26122,26196..26374,
                      26432..26722))
                      /codon_start=1
                      /gene="g72"
                      /product="cytochrome P450 monooxygenase G72"
-                     /label=g72
+                     /label="g72"
                      /note="revised sequence"
                      /protein_id="QJY30858.1"
                      /translation="MLTLTEIWEHYHVIRQTFAPLRLTRWQLVKLLAGQIWRDTSLLAK
@@ -215,21 +223,23 @@ FEATURES             Location/Qualifiers
                      RKLLIPTQLSIGPQLPKGTNICVDAHHINYSQDLWDKPEVFDGLRHYKARQEPQNENRF
                      KFANLGSDAPGWGDGLQACPGRMFADNTIKIALTHLLLNYEFKLIPGEGKPKKQSMPNG
                      SIMPDLKAKVLFKSRKLGTINVVLNGSIGQI"
+                     /Pfam="p450"
      CDS             join(27064..27159,27224..27697)
                      /codon_start=1
                      /gene="g73"
                      /product="hypothetical protein G73"
-                     /label=g73
+                     /label="g73"
                      /protein_id="QJY30859.1"
                      /translation="MAAPENTNILNMTGIWSLNSLESDDLGPTFALQGVPWIVRKVISF
                      ASLEITMDQKEPAPPTDPSTIIKVKQTVRPGGFDTANSYVLDGKLRTDTVPIFGAMSMR
                      AQYVSSVEVSSEDVLGREIEKPIASDDRVGIKEVTEGVNTGWKTTALWGFERINGERRF
                      CKYCITTKEGQNVQARLVYDYKALPL"
+                     /Pfam="PydY"
      CDS             complement(27951..28895)
                      /codon_start=1
                      /gene="g74"
                      /product="short-chain dehydrogenase/reductase G74"
-                     /label=g74
+                     /label="g74"
                      /protein_id="QJY30860.1"
                      /translation="MSDPNTITAYESPGGPPPGLSLYPKLRWSKSHPPIDPKVSFAGKT
                      VLVTGANTGLGFQSAVKFAALGADKLILGVRSLDKGEDAKARIIDLTGRDGDVIVVLPV
@@ -237,11 +247,12 @@ FEATURES             Location/Qualifiers
                      LLLPILRASATREATPHLTFVNSHGHMMVQKDWYEGAGSLLKAANEEKDWDTNKSYSLV
                      KLLGIAVMQAIARATVISYAGSQPQVIVNAVCPDLCRTDLGRKWGFISKIGMVIFYALF
                      ARTAEEGARSLVSATALGLESHGRFWHHDILYP"
+                     /Pfam="adh_short"
      CDS             29722..31035
                      /codon_start=1
                      /gene="g75"
                      /product="alpha/beta hydrolase G75"
-                     /label=g75
+                     /label="g75"
                      /note="revised sequence"
                      /protein_id="QJY30861.1"
                      /translation="MMHHFFKGQFFDFEIVRILGTATYGGSDIAEVLEAVGQIRDGDAD
@@ -252,10 +263,11 @@ FEATURES             Location/Qualifiers
                      AFIGAWDRGWLSDAFVDTIISVMLKMSFQMRWEVNVAGTFFGHTSPARMMKEMKRYTLG
                      NNYLKRIKCPVLVSGAAESLYLEANHHTMRVYNELVNLSDTNKELWMTATPGQGALQAK
                      MGALQLANQRTFKFLDEKLDIKRPPLMDLDKVQINGIK"
+                     /Pfam="FrsA-like, Abhydrolase_6"
      CDS             complement(31599..33197)
                      /codon_start=1
                      /product="transcription factor G75.5"
-                     /label=g75.5
+                     /label="g75.5"
                      /note="manually added sequence"
                      /translation="MSDSAGNNNNNGLSAAQSRRFACDRCHRHKLKCVRNPTVADGSII
                      ISLGPCERCLKVDAECYTTNKGFLNSRKASTSKRKTPPVEIGHEPPPAFDSSSVASLSS
@@ -267,11 +279,12 @@ FEATURES             Location/Qualifiers
                      PTTQAGPLIPGAFLSRLTSSSRSGLSANQERPTLNSQQVLRLRLQLEVLAHMLDRMSDA
                      WVEVMASQNHEKQQRDTEQDGRVLFGSGVTMALLQSMLVHEGYNCLGQGDGVGLSTLTE
                      ILKSIRRLVRSISLV"
+                     /Pfam="EqxR"
      CDS             complement(33857..34879)
                      /codon_start=1
                      /gene="g76"
                      /product="methyltransferase G76"
-                     /label=g76
+                     /label="g76"
                      /protein_id="QJY30862.1"
                      /translation="MVSTTINFERSVANIFNSAIAAAAVGAAWEVGLLDAVRYQKSVNV
                      RDFATQNDLDSDSVQGLVSALAVVNIIERDQDTAMAGFLLEEAYRTKSLFHWLTLGSGG
@@ -280,11 +293,12 @@ FEATURES             Location/Qualifiers
                      FAQVDLLTCFLMGHDFWPRENCIAILQRLRQTFPRASRFFLGDTTRILLNTEGSKYAVT
                      EDDVPIFTLGFEFGHALMGVYLPTMDEWESVFKEGGWRCVKTHFIQPPSLSVIFELEHA
                      "
+                     /Pfam="Methyltransf_25"
      CDS             join(36040..36121,36220..37292)
                      /codon_start=1
                      /gene="g77"
                      /product="aminotransferase G77"
-                     /label=g77
+                     /label="g77"
                      /protein_id="QJY30863.1"
                      /translation="MAIVDSFPPPPVSSIDWTNTQSLEFHEGKWTPPKFVTNPYLRIHG
                      MAPSLNYGQQALEGFKAFRTPDGISLFRPDRNAARLQHSAEVLSMPPVPTNLFLQSCRA
@@ -293,6 +307,7 @@ FEATURES             Location/Qualifiers
                      CAFIGVKGSDADDGEVMLVVPESSCVIDSVTSSSLQQIGRSYGWKVEKRRISFSELPTF
                      DEVLGAGTGVAVTPIRSITRRRLTRQLSPGPRVVVEKESETINYIPDGQQSGGPVFQKL
                      LTRLKAIQLGKTPDEFSWRFEVRAEDLEVEGENTQTNGLHLART"
+                     /Pfam="Aminotran_4"
 ORIGIN
         1 ctagctggaa tgagtaccat ctccagtttc cgactcggga tatagtgtct ccagaaccaa
        61 gttctcagtg atatccgtgc aatcagcgac ttcgaacttt ttctcagcag tcaaccctga

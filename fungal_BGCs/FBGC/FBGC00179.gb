@@ -1,24 +1,24 @@
-LOCUS       FBGC00179       17580 bp DNA     linear   UNA 23-JAN-2023
+LOCUS       FBGC00179              17580 bp    DNA     linear   UNA 23-JAN-2023
 DEFINITION  viridicatol.
 ACCESSION   FBGC00179
-VERSION     .
+VERSION     FBGC00179
 KEYWORDS    .
 SOURCE      Penicillium palitans NRRL 2033
   ORGANISM  Penicillium palitans NRRL 2033
+            .
 REFERENCE   1  (bases 1 to 17580)
   AUTHORS   Zhang ZX, Li ZH, Yin WB, Li SM.
-  TITLE     Biosynthesis of Viridicatol in Penicillium palitans Implies a 
-            Cytochrome P450-Mediated meta Hydroxylation at a Monoalkylated 
+  TITLE     Biosynthesis of Viridicatol in Penicillium palitans Implies a
+            Cytochrome P450-Mediated meta Hydroxylation at a Monoalkylated
             Benzene Ring.
   JOURNAL   Org Lett 2022;24:262-267
-  PUBMED    34928155
+   PUBMED   34928155
 REFERENCE   2  (bases 1 to 17580)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Jan 23, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1021/acs.orglett.1c03932"; journalName: "Org Lett"; date: 
+  JOURNAL   Exported Jan 23, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1021/acs.orglett.1c03932"; journalName: "Org Lett"; date:
             "2022"; volume: "24"; pages: "262-267"
 FEATURES             Location/Qualifiers
      source          1..17580
@@ -30,7 +30,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="vdoA"
                      /product="cyclopenase VdoA"
-                     /label=vdoA
+                     /label="vdoA"
                      /protein_id="UHY14092.1"
                      /translation="MSNCGGCPPESMGGKQCPVSARRSGEAGKSKVEVNKNLKEVYSQP
                      SADHPEPYIHTAHNHHNVLEDIIAKLQEAGPKVEDALLEIKEQLKAGLNPDLLREAMSI
@@ -46,11 +46,12 @@ FEATURES             Location/Qualifiers
                      YPFLTSSEFKIFRTYNWRNPKAVIPPTDVTWHNTIKYYFKEQDIACMRSEYGYNLGQYE
                      DVVYHHANIYEATVSGRMPLQMPPATQQNPDPDHPLWSAEMCENFRAWMLNKCPQGEES
                      EPKKLPVRGGKQ"
+                     /Pfam="Hemocyanin_M, Hemocyanin_C"
      CDS             complement(3478..11520)
                      /codon_start=1
                      /gene="vdoB"
                      /product="nonribosomal peptide synthetase VdoB"
-                     /label=vdoB
+                     /label="vdoB"
                      /protein_id="UHY14093.1"
                      /translation="MKPSANNYDVLPEIRGVCTKDETVSSNIIHLIKQGPTHPNSPIGE
                      AKIGSPSTQSAVSRFNRNKQPQASLLEVIRGHAESRPDHPAICATDGTLSYAQLEQITT
@@ -98,11 +99,13 @@ FEATURES             Location/Qualifiers
                      TTNSSALDFCRQLRGDQARVSGEGHLGLTDVVENCTDWLRLSSSAASDADQLLKETPFI
                      VHLPADTATPSFSLTEDLGVTWKSTNVRIHPENQVFVRSTTSTTTENGLNACIQVQASG
                      AVLSADNAFALATHIIETVQLLSAAPKVLVRDILHSGEI"
+                     /Pfam="AA-adenyl-dom, ACP_PCP, NRPS_C, PKS_NRPS_MT,
+                     NRPS_CT"
      CDS             complement(12959..13849)
                      /codon_start=1
                      /gene="vdoC"
                      /product="2OG-Fe(II)-dependent dioxygenase VdoC"
-                     /label=vdoC
+                     /label="vdoC"
                      /protein_id="UHY14095.1"
                      /translation="MTRQEIPRVSAIREPGRIWPTVQEHGAAIIKDFLPSDVVHRFNQE
                      MDPHVKIETVPAARTKDRPNHVLSTTTRIMNVLVELSKTYREDVLNNKVLNDISEEAFK
@@ -110,11 +113,12 @@ FEATURES             Location/Qualifiers
                      NGATHVILGSHKWTDLSQATMDQTVRAIMHPGDALLITDSTVHCGGADITGTETRRVLS
                      LTTGISQLTPLESNFTVPRPIIESMTPLAQRLVGWSSQRSSVPKDIGLLTIRGKSIQKV
                      MGLKSEQPLEENDSI"
+                     /Pfam="PhyH"
      CDS             join(16014..17159,17239..17580)
                      /codon_start=1
                      /gene="vdoD"
                      /product="cytochrome P450 monooxygenase VdoD"
-                     /label=vdoD
+                     /label="vdoD"
                      /protein_id="UHY14094.1"
                      /translation="MPVSLTVQAALAFCFVYYLYSIIHAVYFHPLRRVPGPKWWIAFPV
                      LRHLSAIRGLVDLDIPRFHLKYGAIVRLGRDEVSFIDPEAWKDIYGHNNKHGQLPKVKN
@@ -125,6 +129,7 @@ FEATURES             Location/Qualifiers
                      NPYPYMWACIQEAFRLYPPVPTGLQRVTLESMLIAGHEIPPGTKVSVHPLGASWSPMNF
                      HAPERFLPERWLPEARTDPASPFFLDQRDVVQPFSTGPRNCIGRNVAYIEMRLILTRLL
                      RNFDIELCEESLAWYNQTAYTAWEKPPLMCRLTLKEN"
+                     /Pfam="p450"
 ORIGIN
         1 ttactgttta ccacctcgaa cgggaagctt cttgggttca ctctcttccc cctgcggaca
        61 tttgttgagc atccaggcgc ggaagttctc acacatctcg gcgctccaca gggggtggtc

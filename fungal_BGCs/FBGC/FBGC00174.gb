@@ -1,30 +1,30 @@
-LOCUS       FBGC00174       28934 bp DNA     linear   UNA 08-MAY-2023
+LOCUS       FBGC00174              28934 bp    DNA     linear   UNA 08-MAY-2023
 DEFINITION  xylacremolide D.
 ACCESSION   FBGC00174
-VERSION     .
+VERSION     FBGC00174
 KEYWORDS    .
 SOURCE      Xylariaceae sp. X187
   ORGANISM  Xylariaceae sp. X187
+            .
 REFERENCE   1  (bases 1 to 28934)
-  AUTHORS   Schalk F, Fricke J, Um S, Conlon BH, Maus H, Jager N, Heinzel T, 
+  AUTHORS   Schalk F, Fricke J, Um S, Conlon BH, Maus H, Jager N, Heinzel T,
             Schirmeister T, Poulsen M, Beemelmanns C.
-  TITLE     GNPS-guided discovery of xylacremolide C and D, evaluation of their 
-            putative biosynthetic origin and bioactivity studies of 
+  TITLE     GNPS-guided discovery of xylacremolide C and D, evaluation of their
+            putative biosynthetic origin and bioactivity studies of
             xylacremolide A and B.
   JOURNAL   RSC Adv 2021;11:18748-18756
-  PUBMED    34046176
+   PUBMED   34046176
 REFERENCE   2  (bases 1 to 28934)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported May 8, 2023 from SnapGene 6.2.2
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1039/d1ra00997d"; journalName: "RSC Adv"; date: "2021"; volume: 
-            "11"; pages: "18748-18756"
+  JOURNAL   Exported May 8, 2023 from SnapGene 6.2.2 https://www.snapgene.com
 COMMENT     ##Assembly-Data-START##
             Assembly Method       :: SPAdes v. 3.13.0
             Sequencing Technology :: Illumina; PacBio
             ##Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1039/d1ra00997d"; journalName: "RSC Adv"; date: "2021"; volume:
+            "11"; pages: "18748-18756"
 FEATURES             Location/Qualifiers
      source          1..28934
                      /strain="X187"
@@ -37,7 +37,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="xyaE"
                      /product="short-chain dehydrogenase/reductase XyaE"
-                     /label=xyaE
+                     /label="xyaE"
                      /note="short-chain dehydrogenase/reductase"
                      /protein_id="QWC64750.1"
                      /translation="MATTTKQVLIAIIGAGGVGKCFLSQLTILAARRPTPKLNLCYIST
@@ -47,11 +47,12 @@ FEATURES             Location/Qualifiers
                      LDVARKLTILARLAGLPVESPTSFPVQSLIPKELETVASGDEFLEKLPAFDSQMEETKV
                      AAEKQGKVVRFVGSIDVAAKSVKVGLEMFDRSHPIAALKGSDNIISFYTKRYGGNPLII
                      QGAGAGGEVTAMGVTSDLIKVLSQIV"
+                     /Pfam="NAD_binding_3, Homoserine_dh"
      CDS             join(3072..3154,3283..4624)
                      /codon_start=1
                      /gene="xyaD"
                      /product="short-chain dehydrogenase/reductase XyaD"
-                     /label=xyaD
+                     /label="xyaD"
                      /note="short-chain dehydrogenase/reductase"
                      /protein_id="QWC64749.1"
                      /translation="MAANMTPPPWAGASSDDLYCVLLTGANSGVGLGIGQRIIDEFLTS
@@ -67,7 +68,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="xyaC"
                      /product="major facilitator superfamily transporter XyaC"
-                     /label=xyaC
+                     /label="xyaC"
                      /note="major facilitator superfamily transporter"
                      /protein_id="QWC64748.1"
                      /translation="MATTHQPPETTESRPTVLTRAGADNISPDNDNDNIRDVGDSEVDD
@@ -80,11 +81,12 @@ FEATURES             Location/Qualifiers
                      IIALAYLAFIFVPPTRSLAAPYAVLAIEGAASFSLVPVALELLCEFGHPMSPEVTATIA
                      WAGGQLCGGIFIIISDALKAPPDADPPANLNRALIFTAVLSLVVAPLPICLGLFGRGDK
                      VVLRRLRNESSDNGEDTSPTPAAATEV"
+                     /Pfam="MFS_1"
      CDS             complement(10439..19876)
                      /codon_start=1
                      /gene="xyaB"
                      /product="nonribosomal peptide synthetase XyaB"
-                     /label=xyaB
+                     /label="xyaB"
                      /note="non-ribosomal peptide synthase"
                      /protein_id="QWC64747.1"
                      /translation="MAHLGLDDAILAQICEQCHISSQDIEDVYACTPLQSGMLVDSALY
@@ -141,12 +143,13 @@ FEATURES             Location/Qualifiers
                      PTSRFNSIVLFQNHESLGTAVKLGDVECMSTGRGQACDSADIWIVAAPESDQSLGIEIG
                      YSTVNIPIEFAQWTLFYLESLLRALPANWERAVGDLNREVLDCVGASPISLRGTAADMP
                      QQKQWRERTKGADPKDVVDMVLATKHFEYLGD"
+                     /Pfam="NRPS_C, AA-adenyl-dom, ACP_PCP, NRPS_E, NRPS_CT"
      CDS             join(21132..21417,21509..21644,21705..23645,23728..27465,
                      27524..28934)
                      /codon_start=1
                      /gene="xyaA"
                      /product="polyketide synthase XyaA"
-                     /label=xyaA
+                     /label="xyaA"
                      /note="highly-reducing polyketide synthase"
                      /protein_id="QWC64746.1"
                      /translation="MTSSSPAPIAVIGLAYRAPGVGRKGLLTFLSEAKSAFSEIPRDRF
@@ -192,6 +195,8 @@ FEATURES             Location/Qualifiers
                      LREKLDASLGIYLPIAHVQDIIKGAIIGASSGLNQDARTIAFIRNDSQLSFDWEKKSHY
                      LLSLRQKRLENHEASVQTLTGEDSVLDALISKVSSITMIDREDVTATRSLSEYGLDSLV
                      SVELRNWMKREYGVDLALTQIVAAANLQTLTDQILTRRK"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_DH, PKS_NRPS_MT, fPKS_ER,
+                     fPKS_KR, ACP_PCP"
 ORIGIN
         1 atggccacta cgactaaaca agtattaatc gctattatcg gtaattaccc atcatgttta
        61 cattaagaat taagagcatc aagaagctca aactaacgta ctgaacgcaa taggtgcggg

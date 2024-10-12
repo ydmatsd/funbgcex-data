@@ -1,24 +1,24 @@
-LOCUS       FBGC00159       19412 bp DNA     linear   UNA 22-JAN-2023
+LOCUS       FBGC00159              19412 bp    DNA     linear   UNA 22-JAN-2023
 DEFINITION  tolypyridone C.
 ACCESSION   FBGC00159
-VERSION     .
+VERSION     FBGC00159
 KEYWORDS    .
 SOURCE      Tolypocladium sp. 49Y
   ORGANISM  Tolypocladium sp. 49Y
+            .
 REFERENCE   1  (bases 1 to 19412)
-  AUTHORS   Zhang WY, Zhong Y, Yu Y, Shi DF, Huang HY, Tang XL, Wang YH, Chen 
+  AUTHORS   Zhang WY, Zhong Y, Yu Y, Shi DF, Huang HY, Tang XL, Wang YH, Chen
             GD, Zhang HP, Liu CL, Hu D, Gao H, Yao XS.
-  TITLE     4-Hydroxy Pyridones from Heterologous Expression and Cultivation of 
+  TITLE     4-Hydroxy Pyridones from Heterologous Expression and Cultivation of
             the Native Host.
   JOURNAL   J Nat Prod 2020;83:3338-3346
-  PUBMED    33095987
+   PUBMED   33095987
 REFERENCE   2  (bases 1 to 19412)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Feb 12, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1021/acs.jnatprod.0c00675"; journalName: "J Nat Prod"; date: 
+  JOURNAL   Exported Feb 12, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1021/acs.jnatprod.0c00675"; journalName: "J Nat Prod"; date:
             "2020"; volume: "83"; pages: "3338-3346"
 FEATURES             Location/Qualifiers
      source          1..19412
@@ -30,7 +30,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="tolB"
                      /product="cytochrome P450 monooxygenase TolB"
-                     /label=tolB
+                     /label="tolB"
                      /note="TolB"
                      /protein_id="QPC57088.1"
                      /translation="MALAQWDFEFPNVVPKWSYLFYIVVLYIVGASAHSNITRSWVEWR
@@ -43,12 +43,13 @@ FEATURES             Location/Qualifiers
                      VRYCIKDTTLPLGGGKDGKSPIFVRKGDVVQVNKNVMQRDKDVWGEDADEFKPERWFGF
                      RPYWNFVPFGGGPRRCPAQLLVTTEACYVISRFCRRFKAIENRDSKGYVPVMRAGPVNT
                      NGVKIAVTPA"
-     CDS             join(2365..2508,2590..2869,2926..2971,3091..3298,3350..3532,
-                     3588..3659,3709..3981)
+                     /Pfam="p450"
+     CDS             join(2365..2508,2590..2869,2926..2971,3091..3298,
+                     3350..3532,3588..3659,3709..3981)
                      /codon_start=1
                      /gene="tolD"
                      /product="cytochrome P450 monooxygenase TolD"
-                     /label=tolD
+                     /label="tolD"
                      /note="TolD"
                      /protein_id="QPC57089.1"
                      /translation="MNSTDQTFATLLRPFGLTEGFTRVSTSSVLAFGIGLFVLVLFSRR
@@ -59,12 +60,13 @@ FEATURES             Location/Qualifiers
                      LEKSRKKGLANPAEHVFKGVQPDDAMSLQQYLQTIDEMIFTNIDITASVLAFMLDKLAK
                      HPDFQQKLYEEIVAQKAEKEFNLSEYVTRQTTLLHYLCLESIRLRPATCKDTLSQEAST
                      LW"
+                     /Pfam="p450"
      CDS             complement(5198..17308)
                      /codon_start=1
                      /gene="tolA"
-                     /product="polyketide synthase-nonribosomal peptide 
+                     /product="polyketide synthase-nonribosomal peptide
                      synthetase TolA"
-                     /label=tolA
+                     /label="tolA"
                      /note="TolA"
                      /protein_id="QPC57090.1"
                      /translation="MSKPVGIIGSACRFPGGANSPSKLWELLKAPRDVVSEFPPERLNL
@@ -136,11 +138,13 @@ FEATURES             Location/Qualifiers
                      RPCAVIGPNAPSEDALNALLRFAVAQSAVPLFRNLAGFLDFAPVSAVADNIARLALGRQ
                      SENGSDTEECISNVARVGDQPMTIAHHSSGVETPVAEFRKRMENLYRRDFGELDIEAWI
                      AEAVKGGMDPLISTYLEALVQKDQTIGFPYLGVSLNEE"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_DH, PKS_NRPS_MT, fPKS_KR,
+                     ACP_PCP, Condensation, AA-adenyl-dom, fPKS_R"
      CDS             18093..19412
                      /codon_start=1
                      /gene="tolC"
                      /product="trans-acting enoylreductase TolC"
-                     /label=tolC
+                     /label="tolC"
                      /note="TolC"
                      /protein_id="QPC57091.1"
                      /translation="MGSLSPPDGVLDPLPPTQRALKVRGPSEVELHEAVPLPSFEDDEI
@@ -151,6 +155,7 @@ FEATURES             Location/Qualifiers
                      VKSLGAAEAFDYRSPSCGDDIRRYTADGLAYALDCITDLGSMRICYAALGRAGGKYMGL
                      DPVPLRAHTRRDVKPDYILVYTMFGKEVTSPRPFGRPARPKDRVFAEGWYRGTQALVDT
                      PGAIRPHPLDRGAHGLHGVIAGLDRMRKGDVSGVKLVYDL"
+                     /Pfam="fPKS_ER, ADH_zinc_N"
 ORIGIN
         1 ctaagccggc gtgaccgcaa tcttgacgcc atttgtattg acggggccgg cccgcatgac
        61 ggggacatag cccttcgagt cgcggttctc aatggccttg aaacgccggc agaatcgtga

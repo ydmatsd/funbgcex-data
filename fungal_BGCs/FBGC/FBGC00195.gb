@@ -1,23 +1,23 @@
-LOCUS       FBGC00195       23837 bp DNA     linear   UNA 24-JAN-2023
+LOCUS       FBGC00195              23837 bp    DNA     linear   UNA 24-JAN-2023
 DEFINITION  pyripyropene A.
 ACCESSION   FBGC00195
-VERSION     .
+VERSION     FBGC00195
 KEYWORDS    .
 SOURCE      Penicillium coprobium PF1169
   ORGANISM  Penicillium coprobium PF1169
+            .
 REFERENCE   1  (bases 1 to 23837)
   AUTHORS   Hu J, Okawa H, Yamamoto K, Oyama K, Mitomi M, Anzai H.
-  TITLE     Characterization of two cytochrome P450 monooxygenase genes of the 
+  TITLE     Characterization of two cytochrome P450 monooxygenase genes of the
             pyripyropene biosynthetic gene cluster from Penicillium coprobium.
   JOURNAL   J Antibiot (Tokyo) 2011;64:221-7
-  PUBMED    21224862
+   PUBMED   21224862
 REFERENCE   2  (bases 1 to 23837)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Jan 24, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1038/ja.2010.162"; journalName: "J Antibiot (Tokyo)"; date: 
+  JOURNAL   Exported Jan 24, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1038/ja.2010.162"; journalName: "J Antibiot (Tokyo)"; date:
             "2011"; volume: "64"; pages: "221-7"
 FEATURES             Location/Qualifiers
      source          1..23837
@@ -28,7 +28,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="Pencop__000003"
                      /product="CoA ligase Ppb1"
-                     /label=ppb1
+                     /label="ppb1"
                      /protein_id="Pencop_:cds.g3.t1"
                      /translation="MEHETDLVSFAFSGPAFDQSKPIYIDARNPSRAFNAIQFRRLVRS
                      LIAGLKARGVERGDCVLVQLENSVLHSALFFAIVGAGGVYMGFDVASRPHEVAHLLRVA
@@ -40,11 +40,12 @@ FEATURES             Location/Qualifiers
                      AYKGRTDAKDEQGWFRTGDMFHVEDGNYHVIGRTKDLIKVRGQVTQYSVAPAEIEGILR
                      KDPSIKDAAVIGVMLPDGSSEVPRAYVVRNDTSPETTADQVAGLIQSQLASYKALDGGV
                      VFVDDIPRIGIGKHHRAKLSQLDHQRETIASILAEPVAV"
+                     /Pfam="AA-adenyl-dom"
      CDS             complement(join(2041..2965,3018..9436))
                      /codon_start=1
                      /locus_tag="Pencop__000003"
                      /product="polyketide synthase Ppb2"
-                     /label=ppb2
+                     /label="ppb2"
                      /protein_id="Pencop_:cds.g3.t1"
                      /translation="MKATEPVAIIGTGCRFPGGASSPSKLWELLQSPRDIARKVPADRF
                      NIDAFYHPDGDHHGTTNVKESYFLDEDIKAFDAAFFNISPTEAVAMDPQQRLLLETVYE
@@ -88,12 +89,14 @@ FEATURES             Location/Qualifiers
                      AEAILCGRSDSNSNAELIGGLRHQSLKCGYGECPIPKLWPFYSYTATASQDQILALIET
                      RSTKDLVTAATSLEEKAEAVVRPLMEKIRASLNLAEDAPLSADTLIPELGIDSLIAIGL
                      SQWFTKELSVDIGVILILSGVSVGELAHAAASKLCNDSVGPK"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_DH, PKS_NRPS_MT, fPKS_KR,
+                     ACP_PCP"
      CDS             join(9925..10152,10213..10329,10391..10493,10560..10628,
                      10700..11302,11382..11803)
                      /codon_start=1
                      /locus_tag="Pencop__000004"
                      /product="cytochrome P450 monooxygenase Ppb3"
-                     /label=ppb3
+                     /label="ppb3"
                      /protein_id="Pencop_:cds.g4.t1"
                      /translation="MDNMDNMNNTPLGFNWAWAVIISFLGLLTFSFVSPHLFPSRLTVI
                      NGGRAWDIFRTKAKKRFRSDAARLIKNGFEESPDAFRIITDNGPLLVLSPQYAREVRSD
@@ -104,12 +107,13 @@ FEATURES             Location/Qualifiers
                      VLGKEGWTRAALYQLKLMDSALKESQRLAPNRLLSMGRIAQGDMDLSDGLRIHRGTTLM
                      VSAHNMWDPEIYPDPRKYDGYRFHKLRQTSGQEGQHQLVSSTPDHMGFGYGKHACPGRF
                      FAAAQIKVALCNILLKYDIEYRGGKSPGVWGQGIHLFPDPTSRIHVRRRKEEINL"
+                     /Pfam="p450"
      CDS             join(12879..13094,13150..13263,13314..13413,13469..13537,
                      13599..14174,14235..14677)
                      /codon_start=1
                      /locus_tag="Pencop__000005"
                      /product="cytochrome P450 monooxygenase Ppb4"
-                     /label=ppb4
+                     /label="ppb4"
                      /protein_id="Pencop_:cds.g5.t1"
                      /translation="MIELKDASMGAVLLTCVLVLAGLYLIRLTLSSDQLDKFPSINPRK
                      PWEIVNVFAQRRFQQDGPRYLEAGYAKSPIFSVVTDLGPKLVVSGAFIEEFKDEKLLDH
@@ -120,22 +124,24 @@ FEATURES             Location/Qualifiers
                      KLLDSVLKESQRLHPVTTGAFSRFTRQDIKLTNGTEIPSGTPIMVTNDVAGDASIYDDP
                      DVFDGYRYFRMREGADKARAPFTTTGQNHLGFGYGKYACPGRFFAATEIKIALCHMLLK
                      YEWRLVKDRPHGIVTSGFAAFRDPRASIEVRRRAVAGEELEVLTGKK"
+                     /Pfam="p450"
      CDS             join(15165..15685,15751..15955)
                      /codon_start=1
                      /locus_tag="Pencop__000006"
                      /product="terpene cyclase Ppb5"
-                     /label=ppb5
+                     /label="ppb5"
                      /protein_id="Pencop_:cds.g6.t1"
                      /translation="MDGWSDISSAPAGYKDVVWIADRALLAQGLGWSINYLAMIYQSRK
                      DRTYGMAILPLCCNFAWEFVYTVIYPSQNPFERAVLTTWMVLNLYLMYTTIKFAPNEWQ
                      HAPLVQRILPVIFPVAIAAFTAGHLALAATVGVAKAVNWSAFLCFELLTAGAVCQLMSR
                      GSSRGASYTIWVSRFLGSYIGSIFMHVRETHWPQEFDWISYPFVAWHGIMCFSLDISYV
                      GLLWYIRRQERQGQLKKAM"
+                     /Pfam="Pyr4"
      CDS             join(16438..16715,16772..17040,17138..17520,17584..18048)
                      /codon_start=1
                      /locus_tag="Pencop__000007"
                      /product="FAD-dependent monooxygenase Ppb6"
-                     /label=ppb6
+                     /label="ppb6"
                      /protein_id="Pencop_:cds.g7.t1"
                      /translation="MKVIIVGGSIAGLALAHCLDKANIDYVILEKKKEIAPQEGASIGI
                      MPNGGRILEQLGLYDQIEELIEPLVRAHVTYPDGFNYTSRYPALIQQRFGYPLAFLDRQ
@@ -146,11 +152,12 @@ FEATURES             Location/Qualifiers
                      GKEHQLKTDDLTEILAQFAQTRLQRLGPTAMAARSAMRLHAREGLKNWILGRYFLPYAG
                      DKPADWASRGIAGGNTLDFVEPPTRAGPGWIQFSQSGKRTSFPMAVAGLCLVSIVARIM
                      YLKLVA"
+                     /Pfam="FAD_binding_3"
      CDS             join(18452..18548,18607..18898,18972..19536)
                      /codon_start=1
                      /locus_tag="Pencop__000008"
                      /product="UbiA-like prenyltransferase Ppb7"
-                     /label=ppb7
+                     /label="ppb7"
                      /protein_id="Pencop_:cds.g8.t1"
                      /translation="MAGSQSTAQLARLLIDISRFDKYNCLFAIFPGVWSIFLAAASRHA
                      DGDPVPLDFVLGRAGLAFMYTYMLSGAGMVWNDWIDRDIDAQVARTKNRPLASGRLSTR
@@ -158,11 +165,12 @@ FEATURES             Location/Qualifiers
                      GASSALTILPAWASVYTGRISLKDLGMRCLPLCLFLFLWTIYFNTAYSYQDIKDDCKLN
                      VNSSYVLAGSHVRGMLLLQAIAVVLVIPWILYTSASTWLWVSWLGVWTASLGEQLYLFD
                      VKDPSSGGKVHRRNFALGIWNVLACFVELLYASGSL"
+                     /Pfam="UbiA_PT"
      CDS             complement(19864..21432)
                      /codon_start=1
                      /locus_tag="Pencop__000009"
                      /product="acetyltransferase Ppb8"
-                     /label=ppb8
+                     /label="ppb8"
                      /protein_id="Pencop_:cds.g9.t1"
                      /translation="MSTQEVCLPVSQRDQVKEGPVRLHGLCEDGMCDARRTGDRSAYPL
                      SSLDHNPLGMNVTFLLFFQTTQPEKSIGVLENGIELLLKVHPFLAGDVTRRTESSQTKY
@@ -174,11 +182,12 @@ FEATURES             Location/Qualifiers
                      IAARIRQSLLAVDAEYIQDALSHLHSQPDWADIGFRGVPIPLSSFRNFEIFGLDFGESL
                      GAQPRGFQLHLPVLGGMCFILPKGQDDVASTEPWDLHLTLNRDDQLLLAKDPLFCWAIG
                      AQAKE"
+                     /Pfam="CalD"
      CDS             join(22483..23276,23327..23837)
                      /codon_start=1
                      /locus_tag="Pencop__000010"
                      /product="acetyltransferase Ppb9"
-                     /label=ppb9
+                     /label="ppb9"
                      /protein_id="Pencop_:cds.g10.t1"
                      /translation="MDSLLTSPLWLKIAHELALYLSFIVPTAFLIITTQKSSIIRWAWT
                      PCLLYILYQFSLRVPSLSTSQFLKGVAAGQATVAALQCLNLLLITKLDQTDLLRANLYS
@@ -188,6 +197,7 @@ FEATURES             Location/Qualifiers
                      YIARDVLGLAHPSLLERYTNIFFTFFTSGVLHLVCDAILGVPPSASGAMQFFCSFPLAI
                      MIEDGVQEIWRRATGQTKDSDRAVPFWQRLVGYLWVAVWMCVTSPFYLYPAARQHAEKN
                      WIVPFSIVEEIGLGTAQKILLGYGLFVYWAVGGEI"
+                     /Pfam="MBOAT_2"
 ORIGIN
         1 tcacacagca acaggctcag caagaatgga ggcaatcgtc tccctttgat gatccagctg
        61 tgagagcttc gctcgatggt gcttgccaat acctatccga ggaatgtcat ccacaaatac

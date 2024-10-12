@@ -1,30 +1,30 @@
-LOCUS       FBGC00168       23862 bp DNA     linear   UNA 22-JAN-2023
+LOCUS       FBGC00168              23862 bp    DNA     linear   UNA 22-JAN-2023
 DEFINITION  xenoacremone A.
 ACCESSION   FBGC00168
-VERSION     .
+VERSION     FBGC00168
 KEYWORDS    .
 SOURCE      Xenoacremonium sp. BF-2018a
   ORGANISM  Xenoacremonium sp. BF-2018a
+            .
 REFERENCE   1  (bases 1 to 23862)
-  AUTHORS   Liu Z, Li W, Zhang P, Fan J, Zhang F, Wang C, Li S, Sun Y, Chen S, 
+  AUTHORS   Liu Z, Li W, Zhang P, Fan J, Zhang F, Wang C, Li S, Sun Y, Chen S,
             Yin W.
   TITLE     Tricarbocyclic core formation of tyrosine-decahydrofluorenes implies
-            a three-enzyme cascade with XenF-mediated sigmatropic rearrangement 
+            a three-enzyme cascade with XenF-mediated sigmatropic rearrangement
             as a prerequisite.
   JOURNAL   Acta Pharm Sin B 2021;11:3655-3664
-  PUBMED    34900544
+   PUBMED   34900544
 REFERENCE   2  (bases 1 to 23862)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Jan 22, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1016/j.apsb.2021.03.034"; journalName: "Acta Pharm Sin B"; date:
-            "2021"; volume: "11"; pages: "3655-3664"
+  JOURNAL   Exported Jan 22, 2023 from SnapGene 6.2.1 https://www.snapgene.com
 COMMENT     ##Assembly-Data-START##
             Assembly Method       :: SOAP denovo v. 1.0
             Sequencing Technology :: Illumina
             ##Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1016/j.apsb.2021.03.034"; journalName: "Acta Pharm Sin B"; date:
+            "2021"; volume: "11"; pages: "3655-3664"
 FEATURES             Location/Qualifiers
      source          1..23862
                      /strain="ML-31"
@@ -34,7 +34,7 @@ FEATURES             Location/Qualifiers
      CDS             complement(1..1278)
                      /codon_start=1
                      /product="alpha/beta hydrolase XenA"
-                     /label=xenA
+                     /label="xenA"
                      /note="zinc-regulated transporter"
                      /protein_id="QOJ72659.1"
                      /translation="MFTFSPSFMFDFELTRILGSASSGGCDVGEFKSALNTIKKNDPES
@@ -45,12 +45,12 @@ FEATURES             Location/Qualifiers
                      DSGWVPDGTFDAFTDRHARGNFQAGWEINLGKSSMGVEKATGMFRRFKQFTLEPEDGTK
                      ILDKVTCPVFITGPGSGQEMYASADDSTFKIQRLLTKVPDSKKEIWVPNDVADGGLTAK
                      IGAWALLAQKTFEFLDKHFEVKRKEL"
+                     /Pfam="FrsA-like"
      CDS             3700..5271
                      /codon_start=1
                      /product="transcription factor XenB"
-                     /label=xenB
-                     /note="cluster regulator
-                     revised sequence"
+                     /label="xenB"
+                     /note="cluster regulator revised sequence"
                      /protein_id="QOJ72660.1"
                      /translation="MGRSETSDRLSSFKSTSGISKTQQRHQQFACDRCRGQKLRCIRTP
                      NAHNACERCQKAGATCVVDPSVRMGRPQRGDKERRGTANSRKSQPAHSPESPTARRTSS
@@ -62,30 +62,33 @@ FEATURES             Location/Qualifiers
                      RDVFAAIRGALSVPGHQTTLLELSGFQISGVSIHEDSDLQIIVLTQVVVRLIDRIGLYL
                      GYSGTSTAEAGKRDESDFNCKTISPQLLDFVLGQKEMEGQPSCKERIEALREEIRKLSE
                      VVYKPI"
+                     /Pfam="EqxR"
      CDS             complement(5803..6174)
                      /codon_start=1
                      /product="cyclic ether formation enzyme XenC"
-                     /label=xenC
+                     /label="xenC"
                      /note="hypothetical protein"
                      /protein_id="QOJ72661.1"
                      /translation="MSSLLLSDVLSYGIFGFSALCVQAHLTSKFTPSFSRNLEEKLPLH
                      NKAVFWWLGISDSALRYVFVSINIAVCVLLWSPELRSFGLKFTLGLLGVGFYSDMKLGE
                      SPIPHLLLVSTVGAAILVR"
+                     /Pfam="XenC"
      CDS             6932..7420
                      /codon_start=1
                      /product="epoxidase XenD"
-                     /label=xenD
+                     /label="xenD"
                      /note="hypothetical protein"
                      /protein_id="QOJ72662.1"
                      /translation="MSLIPSSIRLLRLLPALSSTSVLMFALDEHLIFGTWMHPTLRERA
                      NTTLPPWWTKGGLRWRWVIIIGYPLTYLLGILNLLVARDELQATGSTLWYTTGLLFSIA
                      HMAYVGTALNWIANIENGMPKGNVTYSMGNWLKMNWTRALITDLPAWVCFITAALKVL"
+                     /Pfam="XenD"
      CDS             complement(join(7937..10863,10934..12742,12796..13496,
                      13550..15806,15853..16079,16132..19205,19261..20265))
                      /codon_start=1
-                     /product="polyketide synthase-nonribosomal peptide 
+                     /product="polyketide synthase-nonribosomal peptide
                      synthetase XenE"
-                     /label=xenE
+                     /label="xenE"
                      /note="hybrid PKS-NRPS"
                      /protein_id="QOJ72663.1"
                      /translation="MSGQDPVKESGQREPIAVVGSGFRFPGSSNNPSKLWDLLVKPRDL
@@ -157,10 +160,12 @@ FEATURES             Location/Qualifiers
                      LPDSSKWTGYIDLITVEKAAAGIADSVLQGRLVNVTATEAEYLHHAGEKVIPAQSIKTI
                      LTADDGPQWESVSMKNWVEKAIQNGMNPLVGEFLLSIDKGQGMQIGQKLLSKTDGSKNE
                      F"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_DH, PKS_NRPS_MT, fPKS_KR,
+                     ACP_PCP, Condensation, AA-adenyl-dom, fPKS_R"
      CDS             complement(21005..22312)
                      /codon_start=1
                      /product="hexane cyclase XenF"
-                     /label=xenF
+                     /label="xenF"
                      /note="Prins-like rase"
                      /protein_id="QOJ72664.1"
                      /translation="MSPAANMFRTLTLTALVSAVVSAYESQVPLNPQFPEYLNEEWDDS
@@ -171,10 +176,11 @@ FEATURES             Location/Qualifiers
                      VLSRIDRGVRYVSGHLFYHDELLVGSRVGQPSDKADYVLFNDQFDGEMSGKYKDKNTGH
                      HLEFASPARDKKWTFDVQHIVTQYEIGAGAGFGMSGFANRVVGGEVGGVQYEGKGQSEQ
                      TYWPEHIEEWKIWLVWGLGFLGRGKTYVMKLVGYVL"
+                     /Pfam="Fsa2"
      CDS             join(22694..23262,23319..23862)
                      /codon_start=1
                      /product="trans-acting enoylreductase XenG"
-                     /label=xenG
+                     /label="xenG"
                      /note="trans-enoyl reductase"
                      /protein_id="QOJ72665.1"
                      /translation="MASTGLPQLPPSQKAVIQSEKTPGAFEVSENRPVPVPKANELIVK
@@ -184,6 +190,7 @@ FEATURES             Location/Qualifiers
                      CGEDIRAYTNNTLEYALDIITEARTIRHCYAAIGRGGGRYCGFELLPEDLIATMRKSVK
                      AEWVMGLEMTGLEIDLPGGYYRKANPELHTWFCDWKERYVALFGSGKTKTHPITVRQGG
                      LEKVIDGIESMRRREVSGEKIVYPLYIKGC"
+                     /Pfam="fPKS_ER"
 ORIGIN
         1 ctacaactcc tttcgcttaa cctcgaaatg tttatccaag aactcaaacg tcttctgcgc
        61 caacaacgcc caggctccaa tcttggccgt taaaccaccg tcggcgacat cattcggcac

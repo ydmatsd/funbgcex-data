@@ -1,28 +1,28 @@
-LOCUS       FBGC00171       23974 bp DNA     linear   UNA 22-JAN-2023
+LOCUS       FBGC00171              23974 bp    DNA     linear   UNA 22-JAN-2023
 DEFINITION  rubiginosins.
 ACCESSION   FBGC00171
-VERSION     .
+VERSION     FBGC00171
 KEYWORDS    .
 SOURCE      Hypoxylon rubiginosum MUCL 52887
   ORGANISM  Hypoxylon rubiginosum MUCL 52887
+            .
 REFERENCE   1  (bases 1 to 23974)
   AUTHORS   Becker K, Kuhnert E, Cox RJ, Surup F.
-  TITLE     Azaphilone Pigments from Hypoxylon rubiginosum and H. texense : 
+  TITLE     Azaphilone Pigments from Hypoxylon rubiginosum and H. texense :
             Absolute Configuration, Bioactivity, and Biosynthesis
   JOURNAL   European J Org Chem 2021;2021(36):5094-5103
 REFERENCE   2  (bases 1 to 23974)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Jan 22, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1002/ejoc.202001661"; journalName: "European J Org Chem"; date: 
-            "2021"; volume: "2021"; issue: "36"; pages: "5094-5103"
+  JOURNAL   Exported Jan 22, 2023 from SnapGene 6.2.1 https://www.snapgene.com
 COMMENT     ##Assembly-Data-START##
             Assembly Method       :: SMRTLink v. 6.0.0.47841
             Coverage              :: 202x
             Sequencing Technology :: PacBio
             ##Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1002/ejoc.202001661"; journalName: "European J Org Chem"; date:
+            "2021"; volume: "2021"; issue: "36"; pages: "5094-5103"
 FEATURES             Location/Qualifiers
      source          1..23974
                      /mol_type="genomic DNA"
@@ -36,7 +36,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="hraza1G"
                      /product="transcription factor Hraza1G"
-                     /label=hraza1G
+                     /label="hraza1G"
                      /protein_id="UOS85798.1"
                      /translation="MAPFHLPDWDAPQQEQPPNTSIPLSWGVPETAPQSPLLFPDLPVL
                      PTTATSYPSPKQSPTSVSDVFIADLVKSDLTQLYFDRVHPVVPILNKPKTFKWIHDGSN
@@ -47,11 +47,12 @@ FEATURES             Location/Qualifiers
                      SLSVADNPMIIFSYMVAHSTVIYLCRIIETLSRNDQNQSLVWDFQERGLWAAQEIARLA
                      KEHEHLGYFKAHTFMPLTIYLGASRLARHLEVRKGELKTSEIEDVEMSLRASVEALQKL
                      QSVNNLASYYLHLLQ"
+                     /Pfam="Fungal_trans"
      CDS             join(6785..7438,7489..12828,12889..14673)
                      /codon_start=1
                      /gene="hraza1A"
                      /product="polyketide synthase Hraza1A"
-                     /label=hraza1A
+                     /label="hraza1A"
                      /protein_id="UOS85799.1"
                      /translation="MPQHTGFDKSSSNTLLLFGPQALSYDEAYFERVRLNVLGNEKNRW
                      IRDVIEDLPSYWEELSEAIPSLSSIPGQAWLQRLSHWLLNGISEEQRTSPTPNIILSPI
@@ -98,12 +99,14 @@ FEATURES             Location/Qualifiers
                      AATMADLLLGDAQPHPIYHIDNPVRQLWRDTLPVLADALAIPRDRIVPFKEWMRLVRNF
                      PGVAEWDNPAWLLADFLEQDFERMSCGGVLMRTEKTQEHSATLRSVGPIGADVLNKYIQ
                      AWKDSGFLRR"
+                     /Pfam="SAT2, PKS_KS, PKS_AT, fPKS_PT, ACP_PCP, HTH_51,
+                     PKS_NRPS_MT, fPKS_R"
      CDS             complement(join(15608..16123,16190..16477,16527..16635,
                      16711..16762,16830..16857))
                      /codon_start=1
                      /gene="hraza1F"
                      /product="short-chain dehydrogenase/reductase Hraza1F"
-                     /label=hraza1F
+                     /label="hraza1F"
                      /protein_id="UOS85800.1"
                      /translation="MDIHHVLLTGGSGFIASHILDTLLARQSEVKGLKIRAAYPENVRE
                      RLSLVAVEDIVREGAFDEAVRCHPFKYVIHTACPYHLNVTDPLNDFINPAIQGTTGILK
@@ -111,14 +114,15 @@ FEATURES             Location/Qualifiers
                      KAAFDFMSAEKTLFDLVVLNPPLVFGPAPRHLTTLESLNTSNHRIRNLIMGEYRDNLPP
                      AGLFIFCDVRDVAEAHARVLEVPEASGQRFFLVGGYFSNKRIADVIRASHPEMDGRLPS
                      ESTPDDMPADVYGWDNSKSCKMLGMEYRDLKTCVDDSVDSFMRIGKIGL"
+                     /Pfam="Epimerase"
      CDS             join(19982..20524,20625..20701,20753..20804,20858..21032,
                      21090..21113,21165..21236,21291..21472,21528..21849,
                      21912..22072,22147..22557)
                      /codon_start=1
                      /gene="hraza1C"
-                     /product="major facilitator superfamily transporter 
+                     /product="major facilitator superfamily transporter
                      Hraza1C"
-                     /label=hraza1C
+                     /label="hraza1C"
                      /protein_id="UOS85801.1"
                      /translation="MEYSTSDVDMEPEDHQRTSRVQPPVVATVGPSSSHHAVHQTLNET
                      EDHHDLIIGADEKRTDDRNPNDVDSLDMAFIEHRRSLGSQLLARASTNASPLYTELERT
@@ -132,11 +136,12 @@ FEATURES             Location/Qualifiers
                      PWVGYQIIMGTGRGLGTAVPVLAIQNSMNSVSKDLVPAAVSTLVFLQMFSAAVMIIVSQ
                      TILTNSLVDLVPQEAPGVDPQLVINAGTTATDIRQAVGLDRLPGVLWAYSKSLQRVWYF
                      AAGISALAFIVGWWLGWDNIRKKAKDIESRESAGTLE"
+                     /Pfam="MFS_1"
      CDS             complement(22838..23974)
                      /codon_start=1
                      /gene="hraza1B"
                      /product="dehydrogenase Hraza1B"
-                     /label=hraza1B
+                     /label="hraza1B"
                      /protein_id="UOS85802.1"
                      /translation="MPPLNRAAYLVTTRAVPLEVRPAPYTPPGPDEIVVKNGAIAVNPV
                      DSGKQRGGDHMLSWIKYPFVLGSDVAGEVVEVGTGGRASTLFKPGDRVVGHAVGLDRRS
@@ -145,6 +150,7 @@ FEATURES             Location/Qualifiers
                      PKTVGAMVAAFKDGDRTCAGAIAIGKGSLEACVDIVGAVPGRKFVAQTSVPISPSAMPS
                      SSLGVAAVMLGYMWWNFSTGLRTRLRGVTTKFIWASDVAATEIGEMIYNDFLTNALETG
                      RYQVKPEPQVVGKGLEHVQEALDTNMRGVSATKVVVTL"
+                     /Pfam="fPKS_ER, ADH_zinc_N"
 ORIGIN
         1 ttactgcagg agatgcaagt agtagctggc gaggttattc accgactgca acttctgcag
        61 agcctcgacg gaggctcgga gcgacatctc tacatcctcg atctcgcttg tttttagctc

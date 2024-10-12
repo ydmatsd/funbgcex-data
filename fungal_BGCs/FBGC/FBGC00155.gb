@@ -1,29 +1,29 @@
-LOCUS       FBGC00155       39540 bp DNA     linear   UNA 22-JAN-2023
+LOCUS       FBGC00155              39540 bp    DNA     linear   UNA 22-JAN-2023
 DEFINITION  19-dehydroxyl-3-epi-arthripenoid A.
 ACCESSION   FBGC00155
-VERSION     .
+VERSION     FBGC00155
 KEYWORDS    .
 SOURCE      Bipolaris sorokiniana 11134
   ORGANISM  Bipolaris sorokiniana 11134
+            .
 REFERENCE   1  (bases 1 to 39540)
-  AUTHORS   Han J, Zhang J, Song Z, Zhu G, Liu M, Dai H, Hsiang T, Liu X, Zhang 
+  AUTHORS   Han J, Zhang J, Song Z, Zhu G, Liu M, Dai H, Hsiang T, Liu X, Zhang
             L, Quinn RJ, Feng Y.
-  TITLE     Genome-based mining of new antimicrobial meroterpenoids from the 
+  TITLE     Genome-based mining of new antimicrobial meroterpenoids from the
             phytopathogenic fungus Bipolaris sorokiniana strain 11134.
   JOURNAL   Appl Microbiol Biotechnol 2020;104:3835-3846
-  PUBMED    32215711
+   PUBMED   32215711
 REFERENCE   2  (bases 1 to 39540)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Jan 22, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1007/s00253-020-10522-1"; journalName: "Appl Microbiol 
-            Biotechnol"; date: "2020"; volume: "104"; pages: "3835-3846"
+  JOURNAL   Exported Jan 22, 2023 from SnapGene 6.2.1 https://www.snapgene.com
 COMMENT     ##Assembly-Data-START##
             Assembly Method       :: velvet v. 1.2
             Sequencing Technology :: Illumina
             ##Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1007/s00253-020-10522-1"; journalName: "Appl Microbiol
+            Biotechnol"; date: "2020"; volume: "104"; pages: "3835-3846"
 FEATURES             Location/Qualifiers
      source          1..39540
                      /host="Poa pratensis"
@@ -35,7 +35,7 @@ FEATURES             Location/Qualifiers
                      1437..1553,1629..1868))
                      /codon_start=1
                      /product="cytochrome P450 monooxygenase CcqA"
-                     /label=ccqA
+                     /label="ccqA"
                      /note="P450 monooxygenase"
                      /protein_id="QIS92917.1"
                      /translation="MLDISLIKSLQHPGARLAINFILTIAAITLIRRIGSRCLAKYRLR
@@ -48,21 +48,23 @@ FEATURES             Location/Qualifiers
                      QIGFPLRSHFDPKAYPEPDVFDGYRFVKMAGDPEKEMLRHFVSTSPEHLAFGFGKHSCP
                      GRFFAAIEVKIALCHILLKYDFKLAEGTTPTVMKMGWALIADPMAQFIIKRRESIDESI
                      LIT"
+                     /Pfam="p450"
      CDS             2625..3221
                      /codon_start=1
                      /product="NADPH-dependent FMN reductase CcqB"
-                     /label=ccqB
+                     /label="ccqB"
                      /note="NADPH-dependent FMN reductase"
                      /protein_id="QIS92918.1"
                      /translation="MSKIALITGSTRTPRVGTDVAGWVHEVIKSRPEDKLEVEPLSIAD
                      FNLPIFDEPVMPAMVPAMKQFTKDHSKKWSEAIASFQGYIFVIPEYNGSMSGATKNAID
                      YLYNEWPGKPVAVISYGSHGGERANKHLSESLELVMKMKVAPTKVQLAFAPGTDVFAAI
                      NDGVLGEDTKKAWTEAGAKDQILKAFGEVKEILVQ"
+                     /Pfam="FMN_red"
      CDS             complement(join(4001..5303,5370..5754,5816..6087,
                      6148..6455))
                      /codon_start=1
                      /product="FAD-dependent monooxygenase CcqC"
-                     /label=ccqC
+                     /label="ccqC"
                      /note="FAD-dependent monooxygenase"
                      /protein_id="QIS92919.1"
                      /translation="MGDFEKSHDFKVVIVGGSVAGLVLAHSLHKAGIDYIVLEGRDHID
@@ -79,11 +81,12 @@ FEATURES             Location/Qualifiers
                      SYTMSGIFTAITHVYSWALSPWGLTNILSILTRLRQGTLLLEEIGPEKSIQRHHVLMLG
                      SGLFWTLLHLWDLKSTGRLKAGWLKVVGALVSMLVMFGPGTALVLGWAWREAVLARKTA
                      PH"
-     CDS             join(6934..6986,7057..7061,7126..7202,7267..7324,7391..8123,
-                     8190..8529)
+                     /Pfam="FAD_binding_3, CtvD"
+     CDS             join(6934..6986,7057..7061,7126..7202,7267..7324,
+                     7391..8123,8190..8529)
                      /codon_start=1
                      /product="FAD-dependent monooxygenase CcqD"
-                     /label=ccqD
+                     /label="ccqD"
                      /note="salicylate hydroxylase"
                      /protein_id="QIS92920.1"
                      /translation="MSTTKPICRVPLHVVIVGAGIGGLSAAVALGNRGHSVMVFESTPE
@@ -94,10 +97,11 @@ FEATURES             Location/Qualifiers
                      FRMFIYPPAPVWVKGSTILLGDACHAMLPYLGQGVAQAVEDATAIATVLSLIENRQQLP
                      LALRAYESSRKERVDQIQAATYRAREQLHLRDGDAQAARDLERKAASNTGQNSDVVKMQ
                      HSYWTWDAAGVAEKTLAALIVA"
+                     /Pfam="FAD_binding_3"
      CDS             complement(join(8861..10313,10432..10931,10992..11195))
                      /codon_start=1
                      /product="terpene cyclase CcqE"
-                     /label=ccqE
+                     /label="ccqE"
                      /note="revised sequence"
                      /protein_id="QIS92921.1"
                      /translation="MGQQKASWEASTNGKVSLDTTEDQKTDYSKWRLNDEQGRQSWRYL
@@ -113,15 +117,15 @@ FEATURES             Location/Qualifiers
                      DIEATTVQGLSFIKKSQRPDGGWHGAWGVSFTYAGMFALETLALAGETYTTSEASRRGC
                      DFLVNKQKADGGWGESYLSLQREEYVQHQESQVVQTAWVCMALMHAGYPEMEPVKRGLK
                      LIMTRQQSKGQWYQEALEGGVGDG"
+                     /Pfam="SQHop_cyclase_N, SQHop_cyclase_C"
      CDS             complement(join(11788..12693,12765..13248,13323..13663,
                      13723..14079,14150..15016,15077..15102,15158..15254,
                      15308..17438,17500..17965,18030..18587,18649..18772,
                      18839..19873))
                      /codon_start=1
                      /product="polyketide synthase CcqF"
-                     /label=ccqF
-                     /note="polyketide synthase
-                     revised sequence"
+                     /label="ccqF"
+                     /note="polyketide synthase revised sequence"
                      /protein_id="QIS92921.1"
                      /translation="MAIKRSGSSPSPIAIVGIGLRLPGGCHDTKSYWDLLVNQKDARRS
                      IPPERFNIDGFHGKAQGASNLSMRHGYFLDEPVDRFDAAFFSMSQAEVARVDPQQRLLL
@@ -165,11 +169,13 @@ FEATURES             Location/Qualifiers
                      SAPAPLLPTDLISGYVNRAQFVVGIGQHPPDARGLGLKRAKDSHQGLGKRATTQDSTGE
                      GSGDKLRQFLEGAKRDPSSLNDEMGATQFLAAQVAECLKGLLIFGDNSSLDLGLGLADL
                      GVDSLVAIELQSWWIQSFATHITILELTKSASIVALGQLARCRMLETFHGQSAELVAP"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_DH, PKS_NRPS_MT, fPKS_ER,
+                     fPKS_KR, ACP_PCP"
      CDS             join(20514..20809,20878..21163,21231..22799,22856..23059,
                      23144..26761)
                      /codon_start=1
                      /product="polyketide synthase CcqG"
-                     /label=ccqG
+                     /label="ccqG"
                      /note="polyketide synthase"
                      /protein_id="QIS92922.1"
                      /translation="MDIAAQHVFLFGDQADAPLPMIRRVAEKARHSKNLQSFLQSAIDN
@@ -206,10 +212,12 @@ FEATURES             Location/Qualifiers
                      EVARRLLNAGERVLGLVVIDIPAPSLQLPSSGVVAEPTMEIIDMIGMLSGIERNFANKA
                      ESPEAARLKHHMLGTVTCFSRLVPIPMQPHVRPEHTFVIWATKDVLPKAAFDELPPGLD
                      AWFYPKPRDMGPNGWDALIGDAVEYCQVQGDHFSIMTAPEVLELGQVIQASLEKCKV"
+                     /Pfam="SAT2, PKS_KS, PKS_AT, fPKS_PT, ACP_PCP,
+                     Thioesterase"
      CDS             join(27395..27497,27548..27665,27721..28102,28207..28524)
                      /codon_start=1
                      /product="UbiA-like prenyltransferase CcqH"
-                     /label=ccqH
+                     /label="ccqH"
                      /note="4-hydroxybenzoate polyprenyltransferase"
                      /protein_id="QIS92923.1"
                      /translation="MAPKVDTNNHDLVRGVWRLFRLHTIEGLSTVSIGWLALFFYAMQQ
@@ -218,12 +226,12 @@ FEATURES             Location/Qualifiers
                      PPWMAVRPHSGDAGLLPASLFGAIFCWLVYIDLIYASQDRPDDKKAGVKSLAIFLGDYL
                      KAGLTVLGVAQIVCFVVAAAEAQAGVFVWIFGIAVWSASVPWSIISLDLRDRKSGGRIF
                      LMNAILGIYMAAVSGINVASPAIWS"
+                     /Pfam="UbiA_PT"
      CDS             complement(join(28835..29779,29836..30265,30333..30415))
                      /codon_start=1
                      /product="transcription factor CcqI"
-                     /label=ccqI
-                     /note="transcription factor
-                     revised sequence"
+                     /label="ccqI"
+                     /note="transcription factor revised sequence"
                      /protein_id="QIS92924.1"
                      /translation="MGKEQFRARTGCLTCRDRHIKCDETLPKCRNCCKSNRVCERGIRL
                      NFIDIQTSTPHTGLIDLPPGTQLKFHDESRAIASGYAVGPQKDKNIETSHTEPTLQTGL
@@ -234,12 +242,12 @@ FEATURES             Location/Qualifiers
                      TEVAQGIYGDSMDRLRQDREQYKGWCDEWASNVPRSMMPLCYIPPPDEDSKSETTTHFP
                      QVLFVGSSATVARLLYHVSCLLLVRIGVAERSAEAQEAQCRQIRHAMDICGIASQGEDK
                      YGTLFLDEKAYELFFSLFFCFSWIETR"
+                     /Pfam="AtnE"
      CDS             complement(join(31093..31995,32057..33163))
                      /codon_start=1
                      /product="transcription factor CcqJ"
-                     /label=ccqJ
-                     /note="transcription factor
-                     revised sequence"
+                     /label="ccqJ"
+                     /note="transcription factor revised sequence"
                      /protein_id="QIS92924.1"
                      /translation="MATETRSQDGCWSCRLRKKKCDERRPICTECMCLGLDCHGFGTRP
                      AWMDRGARQKAQAAKMKEKLAQLTKSRRHKQVRTQNDWVAKQPPNSHTERSTIRIDAPD
@@ -253,10 +261,11 @@ FEATURES             Location/Qualifiers
                      KENVEQQQQQDKDRPLQSGAQGQYDICVVNHTFACAVSVLLEVIVSGAYPRLPEVKQKA
                      GRALDALADIKDDARLLEVLGWPLFVVGCVVEEERHGFFRQLLSCQLRNSVTLCGLLDV
                      LEECWKSRASGEVRDENFDYSHLRIHKSRNVLIV"
+                     /Pfam="Zn_clus, Fungal_trans_2"
      CDS             complement(join(33961..34474,34543..35351))
                      /codon_start=1
                      /product="acetyltransferase CcqK"
-                     /label=ccqK
+                     /label="ccqK"
                      /note="O-acetyltransferase"
                      /protein_id="QIS92925.1"
                      /translation="MALPRSSIQAFTNVALLFAVQILIPAGLIVATPKYSWLRYLGLVC
@@ -267,26 +276,26 @@ FEATURES             Location/Qualifiers
                      TSNTYLLTRQILKLPVPSLLERYTNNFLVFLLSGILHAVSASVMGLSAVDSGSIPYFSS
                      FALGIMLEDGVKAFYNKFHTSNSDKERKIANWEKVLGFSWVVLWMSLTSPWYMWPSRRV
                      VAGGAPWVLPFNLTRHIGMPMMWGLLGASGIFVKRVFATSL"
+                     /Pfam="MBOAT_2"
      CDS             join(35721..35762,35924..36162,36228..36270,36373..36637,
                      36711..36901)
                      /codon_start=1
                      /product="short-chain dehydrogenase/reductase CcqL"
-                     /label=ccqL
-                     /note="dehydrogenase/reductase
-                     revised sequence"
+                     /label="ccqL"
+                     /note="dehydrogenase/reductase revised sequence"
                      /protein_id="QIS92926.1"
                      /translation="MPSWAITGASRGIGSADVGNQVFALIRRQPSAELSKLDSERENLH
                      IIKADVTDAQSLSEAAAKVGELTENKLDVFISNACHPGLDLRFYPTSAFLGKEKELKNE
                      IDAPMSVNLIGAISSINCFLPLIRNGELKKIIYITSPTGDAEFTRKCGVTVTIGYTATK
                      AAMNLVMSKYAAELKGEGIKTLALSPGWVDTDGTRDMAPTPEVLEMALQMFQKVNPDLT
                      RLLSPEESVRMQLDVINNLTEEQSGLTLSHHGDHNWI"
+                     /Pfam="adh_short"
      CDS             complement(join(37085..37802,37856..38825,38884..39161,
                      39245..39540))
                      /codon_start=1
                      /product="FAD-dependent monooxygenase CcqM"
-                     /label=ccqM
-                     /note="FAD-dependent monooxygenase
-                     revised sequence"
+                     /label="ccqM"
+                     /note="FAD-dependent monooxygenase revised sequence"
                      /protein_id="QIS92927.1"
                      /translation="MAPTFKVLIVGGGVAGLTLAIMLELYGFEYDLLEKHPDVAPKLGA
                      GVGITPNGARILDQIGVWDSMCEYASPVNSGVALSPKGQTVIFNPHMGEWLEKLFGYKI
@@ -302,6 +311,7 @@ FEATURES             Location/Qualifiers
                      FTAIAVVSSVVHVILIWGHGAALFNEGIISLLSSPLARAIASLTSLTVAWCMYMTWELQ
                      RISATEVPLAMTWAVILMKTVLLGPAASLAGITCWSKIELEKATSVQPLVQEIKEKSYA
                      "
+                     /Pfam="FAD_binding_3"
 ORIGIN
         1 ttaggtaatc agaatacttt cgtcgatact ctcgcgtcgc ttaattataa actgtgccat
        61 cgggtctgca attaaggccc agcccatttt cataacagtg ggtgtagtcc cctctgccag

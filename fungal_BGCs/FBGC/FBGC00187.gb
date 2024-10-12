@@ -1,22 +1,23 @@
-LOCUS       FBGC00187       35596 bp DNA     linear   UNA 09-MAY-2023
+LOCUS       FBGC00187              35596 bp    DNA     linear   UNA 10-MAY-2023
 DEFINITION  arginine-containing cyclodipeptides.
 ACCESSION   FBGC00187
-VERSION     .
+VERSION     FBGC00187
 KEYWORDS    .
 SOURCE      Aspergillus versicolor dI-29
   ORGANISM  Aspergillus versicolor dI-29
+            .
 REFERENCE   1  (bases 1 to 35596)
-  AUTHORS   Yee D, Niwa K, Perlatti B, Chen M, Li Y, Tang Y.
-  TITLE     Genome Mining for Unknown-Unknown Natural Products
-  JOURNAL   ChemRxiv 2022
+  AUTHORS   Yee DA, Niwa K, Perlatti B, Chen M, Li Y, Tang Y.
+  TITLE     Genome mining for unknown-unknown natural products.
+  JOURNAL   Nat Chem Biol 2023;19:633-640
+   PUBMED   36702957
 REFERENCE   2  (bases 1 to 35596)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported May 9, 2023 from SnapGene 6.2.2
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.26434/chemrxiv-2022-7wq6p"; journalName: "ChemRxiv"; date: 
-            "2022"
+  JOURNAL   Exported May 10, 2023 from SnapGene 6.2.2 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1038/s41589-022-01246-6"; journalName: "Nat Chem Biol"; date:
+            "2023"; volume: "19"; pages: "633-640"
 FEATURES             Location/Qualifiers
      source          1..35596
                      /strain="dI-29"
@@ -27,7 +28,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="AvaE"
                      /product="metallo-beta-lactamase-like hydrolase AvaE"
-                     /label=avaE
+                     /label="avaE"
                      /protein_id="UZP48217.1"
                      /translation="MCINPADEQDYESYSLRMTAHLIESSSVTSFTATRLNQTTFRLVE
                      DDRHIERPMVYVKLYATCVVVIDTGCNSPRNTELPVTSLRRFIETVPLDQNESMPLNPD
@@ -35,12 +36,13 @@ FEATURES             Location/Qualifiers
                      ELDLEKMTGVPDGYSLVDANSVELNLQLLHAPGHSPDHMVVLDLDESTIFLGDSAYEQS
                      PLFYAYGGDLTLHIQTLARLETLLTTYETCEGAPIWTAACGHFSSGLNAVSLLQRTKTF
                      ILDVIEGKVPSRSQEANPYQSGGVLEFFTRDELAMACPDHLLKDARGSSISLCSS"
-     CDS             complement(join(1225..1230,1368..1469,1527..1792,1842..2455,
-                     2516..2937))
+                     /Pfam="Lactamase_B"
+     CDS             complement(join(1225..1230,1368..1469,1527..1792,
+                     1842..2455,2516..2937))
                      /codon_start=1
                      /gene="AvaF"
                      /product="cytochrome P450 monooxygenase AvaF"
-                     /label=avaF
+                     /label="avaF"
                      /protein_id="UZP48218.1"
                      /translation="MFEFWPADLSKATTWPPFAIHSIDLSHFQETSSPQAIAAFVLCSI
                      ILYFGFVVVRDPLSHVPTLHWSTPLSRLSQLYTTYYHDRHFTNYSAHSEIPGKRKFRPV
@@ -51,11 +53,12 @@ FEATURES             Location/Qualifiers
                      MLDHIGAGHDTMSASLEYLTRQISLSPDVQAKLREELCVEHGGSFKTYADLDKFPYLHA
                      VVMEGLRLVYTINFYQPRVVPKGGCTIENIYLPEGTVVGSQAYLVHRQPDIFPDPEAFK
                      PERWLVDEEQF"
+                     /Pfam="p450"
      CDS             join(3186..3246,3304..3427,3497..3629,3680..4384)
                      /codon_start=1
                      /gene="AvaG"
                      /product="hypothetical protein AvaG"
-                     /label=avaG
+                     /label="avaG"
                      /protein_id="UZP48219.1"
                      /translation="MAPANNPKGLGFQKWSAFWLWAIIGGYFAAFNIWNMRKLDFEGSF
                      QVNSLPGEYAWMKRTAGFVSRASRMRFAWVPVQLLFMISTDFITSACSVIALLQFVPQL
@@ -64,12 +67,13 @@ FEATURES             Location/Qualifiers
                      YLIIPEVMNWTLGYVAFSCGTLVEDLGLGASYLRSAYPACMVENGGHAGTIVAVKADLS
                      GSEEELTAWGRAGIGMAFWGALVLHMVLAEIYVSALTAVCLLLRYVGLILWLQIRVKSR
                      "
-     CDS             complement(join(5095..5257,5311..5549,5596..5937,5987..6071,
-                     6138..6210,6263..6653,6701..6747,6797..6827))
+                     /Pfam="DUF2306"
+     CDS             complement(join(5095..5257,5311..5549,5596..5937,
+                     5987..6071,6138..6210,6263..6653,6701..6747,6797..6827))
                      /codon_start=1
                      /gene="AvaH"
                      /product="cytochrome P450 monooxygenase AvaH"
-                     /label=avaH
+                     /label="avaH"
                      /protein_id="UZP48220.1"
                      /translation="MALSQAVTSRASVFKSKTWIDTGYRLHSRENKPFMVSSLLEEPSL
                      VVLPPSMTTELILAKETDLSFWHALDDIVFSEHAFYSTRILSLPLQTTIIRRHLASGAQ
@@ -79,11 +83,12 @@ FEATURES             Location/Qualifiers
                      KILDVDEHGWTKEKVDKLWKTESFVKETMRFVGDACFEMRRKVMAPTGINLSDGTHLPF
                      GTTVGLPSNAIHNDDRFYPQATSFDGLRFLKLRESDDGNTARGSLLTATSNTFLQFGHG
                      RHGCPGRFLAADILKLILAEMTLRYEIKWDEKPEESSWFGNSLLPGQNTVVSVCPRD"
+                     /Pfam="p450"
      CDS             join(7272..7456,7510..8012,8067..8593)
                      /codon_start=1
                      /gene="AvaI"
                      /product="cytochrome P450 monooxygenase AvaI"
-                     /label=avaI
+                     /label="avaI"
                      /protein_id="UZP48221.1"
                      /translation="MDTPPNVLSQQITDAVSKKGPVVRIGINEVAVTDTSLARTLYASF
                      LKWPEWYESPKEKLFYGEPSLFGMTQPKEHSARRRILSNVFSKSLRSSTHVQNVTREIL
@@ -93,11 +98,12 @@ FEATURES             Location/Qualifiers
                      AVISEVMRTHTEIKALTPRLVPAGGYWIPQRISGQSTFLPAGTVVSSAREALHLNEEIF
                      PQPLSFWPERWLESADPKLAGKAQPQEMQNHLWYFGSGTHGCVAREYALYGETKLQFYM
                      ESAEL"
+                     /Pfam="p450"
      CDS             join(8980..9096,9152..10588)
                      /codon_start=1
                      /gene="AvaJ"
                      /product="major facilitator superfamily transporter AvaJ"
-                     /label=avaJ
+                     /label="avaJ"
                      /protein_id="UZP48222.1"
                      /translation="MTSPEHSEDERQPLLTKPSGPDESQSGFGSSWIQFRKPSAMWLLP
                      MYTLYAITAGSLIIPEFNATLGLICHQRHSPDNSDFQLALERCDGNTQVQSDLSQFYIY
@@ -109,11 +115,12 @@ FEATURES             Location/Qualifiers
                      TIAVVHSPLGVIAGSLIAGSGAPLSPTLTSCLTKMVPEERQGVLLGAVSFLHAISRILL
                      PSGMNYVYGSTVGTQPYALFALLGFGSGIFLVASMFIGNKSTLPDIPRFPYLMNYSSRS
                      "
+                     /Pfam="MFS_1"
      CDS             join(10852..10982,11033..11750,11792..11797)
                      /codon_start=1
                      /gene="AvaC"
                      /product="kynurenine formamidase AvaC"
-                     /label=avaC
+                     /label="avaC"
                      /protein_id="UZP48215.1"
                      /translation="MSQQYPQTNDVPYLFSNTSTAYHTVDICKVNTSLKDSVPRFWLIY
                      IHGGGWSDPNIQANTFSQIRDELLKEKDILAHISGIAAVNYRLSGDPSEGRNARYPDHL
@@ -121,12 +128,13 @@ FEATURES             Location/Qualifiers
                      YDLRRLLNSIWHVVKYREEYVHMLEGAFGPGGFAYGEQSEGRCSSEWDLASPAKATSYG
                      SSWCNAQLAMLVHSPDDELVPLEQSTQFATVLESSLPPGVVQTRFDLAGSHDDIWRKPE
                      GIT"
+                     /Pfam="BD-FAE"
      CDS             complement(join(11827..11970,12018..12765,12812..13605,
                      13667..14167))
                      /codon_start=1
                      /gene="AvaB"
                      /product="FAD-dependent monooxygenase AvaB"
-                     /label=avaB
+                     /label="avaB"
                      /protein_id="UZP48214.1"
                      /translation="MPRVVIVGSGMQYSYRVIDLLLTFFFYSGLYGLIAAKTYLQVTDP
                      RYPSNQQCENTDDVPQSFQRPRDTRSTHDDTDLLLLESGSSLGGTWAEERLYPNLLSQN
@@ -145,7 +153,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="AvaA"
                      /product="arginine-containing cyclodipeptide synthase AvaA"
-                     /label=avaA
+                     /label="avaA"
                      /protein_id="UZP48213.1"
                      /translation="MTATVQHTVKTEVCLRGDVASQPISDSKPPTWVAVLQQHEYQSSV
                      TYHKLDDNRLIPDVFGYSYLRDIADQGKKQSTGKQHARVIQAYSKIHSLLSPPWKSSSI
@@ -157,11 +165,12 @@ FEATURES             Location/Qualifiers
                      ALQQATTKTKTPHGKGEESSGRPLLIQVDDIAEWRIFDRAEMLLKRFKHRQHGLDPLLV
                      GVFPSPRIFTSEDQGRSTLFLHDPGLKISQTRPPSSGGDSEDHSCVVGPLDIIGQIYGA
                      EVQDTLMRLIIERGLSPEDEFELD"
+                     /Pfam="AnkA"
      CDS             complement(17244..18116)
                      /codon_start=1
                      /gene="AvaD"
                      /product="acetyltransferase AvaD"
-                     /label=avaD
+                     /label="avaD"
                      /protein_id="UZP48216.1"
                      /translation="MAGIDLQSLGISLPPGYSLQTAAARPDMYETLFDPEHPMSSLWPQ
                      FITSTPVSEKYWSQLTDIPLFASYQLMILHRDVENKHESVVACGNSVPVYCPLNDLPDG
@@ -174,7 +183,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="AvaK"
                      /product="major facilitator superfamily transporter AvaK"
-                     /label=avaK
+                     /label="avaK"
                      /protein_id="UZP48223.1"
                      /translation="MTDRRPTIMDKAKKQWEVMALNSLLILFTNFAIFLSMPPQTEIFE
                      DIICSKMHSESALHPQGEDDGCRGALVQSELARINGWKTTFEALPRMLLSEAWTRVVCI
@@ -184,12 +193,13 @@ FEATURES             Location/Qualifiers
                      LVIREASSLLTYLVLMPAASKAIRRVSSKSVTAQDKRLCQGSGLLNVFGFFSIALAGTP
                      VVYVLALAFLSLGSGFDTAMSGFATSLVQPDQIASLHSTAATAKSLGGLVAGPLFARLM
                      QVGFELGSGWLGIPYIAAGLFFITVLVAVCSIRIQSRSLDEDGQPLLQTDV"
+                     /Pfam="MFS_1"
      CDS             complement(join(21011..21173,21226..21848,21896..22016,
                      22071..22167,22241..22922))
                      /codon_start=1
                      /gene="AvaL"
                      /product="cytochrome P450 monooxygenase AvaL"
-                     /label=avaL
+                     /label="avaL"
                      /protein_id="UZP48224.1"
                      /translation="MLASGVVYFLETHVSWSSIAASCALVCIVSACYVVWSLLHVPYDQ
                      GIPAVGIPKGILGRAKAVYDSIAHGDVPIAEGYRSVSSEPFKAATEALTVAQWQHNKSG
@@ -201,23 +211,25 @@ FEATURES             Location/Qualifiers
                      NKTHTAQMGLVESFLKESLRYNTDTNLECKRMIVDPEGYRFKNGMNLKRGTVSAVPIWQ
                      IHHDPDLYPEPEDFDARRFLQGDGGAQGRKVGMQTTSEYFLAFGVGKHACPGRFFASQH
                      LKLLLAFILLNYDIQPVSRPEDEWYGSSHMPNMAAGLTIRARQD"
+                     /Pfam="p450"
      CDS             complement(join(23277..23846,23897..24066,24120..24162))
                      /codon_start=1
                      /gene="AvaM"
                      /product="putative sulfotransferase AvaM"
-                     /label=avaM
+                     /label="avaM"
                      /protein_id="UZP48225.1"
                      /translation="MKVLVLGLCRTGTSSLYVAQKELGMKPYHFRDIAFNTEHMKLWLT
                      AMRAKFDGVGKPFQGKDFDQMLGEYDSVADTPACFFVEELLAAYPEAKVILTTRSPQSW
                      LHSMQNTLITVISWRSWTVLSLFDREHSAFYWPLFNRIMRVMAKGNDPWKASATPSYLE
                      YFDEHYTKVRRLVPKDRLLEWHPSQGWEPVCEFLDFPVPEKEFPHICTSDGNVRTHRST
                      YWKRWRNVVQKGAQTVGLVGLTVGGIWYFRSRLVGSSR"
+                     /Pfam="Sulfotransfer_4"
      CDS             complement(join(25540..25899,25951..26486,26549..26622,
                      26690..26808))
                      /codon_start=1
                      /gene="AvaN"
                      /product="cytochrome P450 monooxygenase AvaN"
-                     /label=avaN
+                     /label="avaN"
                      /protein_id="UZP48226.1"
                      /translation="MSVILAIFIAAAGCLFSSWRIYWSPWACFPGPKLAALSSWYEWYW
                      EVYRKGQLNAHLQDLHASYGPVVRYGPKHVHFNDPALYRDVYKWHPSFGKDPAFYGAPK
@@ -226,11 +238,12 @@ FEATURES             Location/Qualifiers
                      SLLKMFGYGPPPLDKMLDELTFSDGLVEDYLSAKDSKGKEDTVFAILTQPGAVKDFSPL
                      SKPELMAEGRSLLAAGVNTVGFTLSSTLFYIARDEDVQLRLQTELDTSTPQQTLASLPY
                      MVGNLSIFILSDRLTLYTRPPV"
+                     /Pfam="p450"
      CDS             complement(join(28007..28460,28508..28708,28762..29033))
                      /codon_start=1
                      /gene="AvaO"
                      /product="2OG-Fe(II)-dependent dioxygenase AvaO"
-                     /label=avaO
+                     /label="avaO"
                      /protein_id="UZP48227.1"
                      /translation="MSTTTTESANPSLAAQEKIEVDFTPKEHYGDWRDEFHREGCIIIR
                      NAVSPERAQYYVDKQIEWLKNFELGFDEKDESTWTAEHLPVSFRGGKYYYGVAHEKSVW
@@ -238,11 +251,12 @@ FEATURES             Location/Qualifiers
                      GMLNFAPNGPNDGGLIWMKGSAKVFNEFFAEQRKNEDAENFDHKHQEFFKFHEDHMKWF
                      EDRGYAFTKLELGPGDLVLWDSRTVHHSCFAAGDQIRHAQYICMMPKRFATEKALETKK
                      YCFEHYLPNTHLPHRWVTQIVHHCEES"
+                     /Pfam="PhyH"
      CDS             29405..30766
                      /codon_start=1
                      /gene="AvaP"
                      /product="glycosyltransferase AvaP"
-                     /label=avaP
+                     /label="avaP"
                      /protein_id="UZP48228.1"
                      /translation="MGSIQTSKDQIHVIIGSTHRFSHLEKAKVIGAHLIKRGYRVTILA
                      GPSVRDEVESIGALFAPMQGRAGGSPIKPAYNQPPPPWAEEMEVSALKNFFIGPIPDEY
@@ -252,11 +266,12 @@ FEATURES             Location/Qualifiers
                      QGPAKKPIVVVSQGAVNNDPTDLILPTIEALKDEDVAVIATLVRGPKIEVDLPSNVKLA
                      EFIPFDILLRHTDVLVSNGGFGTVQMALSLGVPMVLAGVYLDKYYTNSRAASMGAAINL
                      GCERVEPSVVKTAVCDILSDQKRKERCLQIKEKYAEYNALDKIVDYVDALASKP"
+                     /Pfam="UDPGT"
      CDS             complement(join(30850..32634,32690..35197,35261..35596))
                      /codon_start=1
                      /gene="AvaQ"
                      /product="ABC transporter AvaQ"
-                     /label=avaQ
+                     /label="avaQ"
                      /protein_id="UZP48229.1"
                      /translation="MHIQLGLASIVTRAVSVLVFAFSGWASTSIVARRLTGRSKSLYES
                      SNNALYEDQDGLATEASTKAFSDQWQRWVLALLSAIWFGCALSATIITLVPPQSQLLVP
@@ -285,6 +300,7 @@ FEATURES             Location/Qualifiers
                      LSEIDPKSNMFASLASPISEGGMNLSQGQRQLLCLARAIVSQPKIMILDEATSAVDMQT
                      DWLIQKSVRAEFGRNASSLLVIAHRLSTIADFDRILVMDAGRAVEFGSPRELLESESGF
                      FRTLVENSGEKAVLEKIIYDQD"
+                     /Pfam="ABC_membrane, ABC_tran"
 ORIGIN
         1 atgtgcataa acccggccga cgagcaggac tatgaatcct acagccttcg aatgactgcg
        61 catctgatag aaagctcatc ggttaccagt ttcaccgcga ctcgtctgaa ccaaaccacc

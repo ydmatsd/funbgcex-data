@@ -1,29 +1,29 @@
-LOCUS       FBGC00175       29935 bp DNA     linear   UNA 22-JAN-2023
+LOCUS       FBGC00175              29935 bp    DNA     linear   UNA 22-JAN-2023
 DEFINITION  pyrrocidines.
 ACCESSION   FBGC00175
-VERSION     .
+VERSION     FBGC00175
 KEYWORDS    .
 SOURCE      Acremonium zeae NRRL13540
   ORGANISM  Acremonium zeae NRRL13540
+            .
 REFERENCE   1  (bases 1 to 29935)
-  AUTHORS   Ohashi M, Kakule TB, Tang MC, Jamieson CS, Liu M, Zhao YL, Houk KN, 
+  AUTHORS   Ohashi M, Kakule TB, Tang MC, Jamieson CS, Liu M, Zhao YL, Houk KN,
             Tang Y.
-  TITLE     Biosynthesis of para-Cyclophane-Containing Hirsutellone Family of 
+  TITLE     Biosynthesis of para-Cyclophane-Containing Hirsutellone Family of
             Fungal Natural Products.
   JOURNAL   J Am Chem Soc 2021;143:5605-5609
-  PUBMED    33834778
+   PUBMED   33834778
 REFERENCE   2  (bases 1 to 29935)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Jan 22, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1021/jacs.1c00098"; journalName: "J Am Chem Soc"; date: "2021"; 
-            volume: "143"; pages: "5605-5609"
+  JOURNAL   Exported Jan 22, 2023 from SnapGene 6.2.1 https://www.snapgene.com
 COMMENT     ##Assembly-Data-START##
-            Assembly Method       :: SOAP de novo v1.04 v. v. 08/2014 Sequencing
-            Technology :: Illumina
+            Assembly Method :: SOAP de novo v1.04 v. v. 08/2014 Sequencing
+            Technology      :: Illumina
             ##Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1021/jacs.1c00098"; journalName: "J Am Chem Soc"; date: "2021";
+            volume: "143"; pages: "5605-5609"
 FEATURES             Location/Qualifiers
      source          1..29935
                      /mol_type="genomic DNA"
@@ -33,7 +33,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="pydG"
                      /product="alpha/beta hydrolase PydG"
-                     /label=pydG
+                     /label="pydG"
                      /note="alpha/beta hydrolase"
                      /protein_id="QXF14596.1"
                      /translation="MFTFSSSFMFDFELTRLLGSASSGGCDVGEFKSAVGKIKKDDPES
@@ -44,13 +44,13 @@ FEATURES             Location/Qualifiers
                      DSGWVPDSTFDTFTDVHGRGNFQSGWEINLGRSSMGAEKPTAMFRRFKDFTLEPAAGEV
                      PILDKIRCAVFLTGPGAGQDMYSSAEESTFKIHRLLSNVPDSNKEVWVPTDVAEGGLTA
                      KIGAWALLAQKTFEFLDKHFDIKRPEL"
+                     /Pfam="FrsA-like"
      CDS             3351..4841
                      /codon_start=1
                      /gene="pydF"
                      /product="transcriptional factor PydF"
-                     /label=pydF
-                     /note="transcriptional factor
-                     revised sequence"
+                     /label="pydF"
+                     /note="transcriptional factor revised sequence"
                      /protein_id="QXF14597.1"
                      /translation="MIKSPMPGVKTHQRHQQVACDRCRGQKLRCIRNSTRYDSCERCHK
                      AGATCVVDPSVRMGRPQRADKQRRETDGPQKSRPSLTQAQKNSTTIRIHSDDHDQGRPN
@@ -61,35 +61,37 @@ FEATURES             Location/Qualifiers
                      SDSRPFQEGSHHFGCLDMSTSLLLLSCYANLILLCREVFAAIRRALPISGHQSTLLELS
                      GFRIGSVAVQEDSDLQITILIQVVVRLIDGIGHCLGYPYSSTTERGEASPSDRGISLEL
                      LDLVLGPKGRQGQPSHIGQIEALREDIRNLSKIVYKSI"
+                     /Pfam="EqxR"
      CDS             complement(5343..5717)
                      /codon_start=1
                      /gene="pydZ"
                      /product="hypothetical protein PydZ"
-                     /label=pydZ
+                     /label="pydZ"
                      /note="hypothetical protein"
                      /protein_id="QXF14599.1"
                      /translation="MSSAHVLSDWLSYSIAGFSALCVQAHLTSRFTPAFSRNLSEKLPE
                      HNRAVFWWAGMSTRALRYVFVVINITITALLLSEELRSFGLKFSLVLLGVGFYSDMKLG
                      ESPVPHMILCSVVGAAILVR"
+                     /Pfam="XenC"
      CDS             6504..6992
                      /codon_start=1
                      /gene="pydX"
                      /product="hypothetical protein PydX"
-                     /label=pydX
+                     /label="pydX"
                      /note="hypothetical protein"
                      /protein_id="QXF14598.1"
                      /translation="MSLIALPLRLLRLLPAITSTWVLAFALDEHLIFGTWVQPSLRESA
                      NANLPAWWTTGGLRWRWILIVVYPINYALGVVNLFVGRDELRATGAMSWYTIGLLFSLA
                      HMGYMRTALDRIGMIERGVPRGNVTSSMESWLRMNRTRALVTDLPAWICFVTAALKAL"
+                     /Pfam="XenD"
      CDS             complement(join(7397..10353,10434..12245,12316..13022,
                      13089..15363,15463..15683,15775..18857,18949..19956))
                      /codon_start=1
                      /gene="pydA"
-                     /product="polyketide synthase-nonribosomal peptide 
+                     /product="polyketide synthase-nonribosomal peptide
                      synthetase PydA"
-                     /label=pydA
-                     /note="PKS-NRPS
-                     revised sequence"
+                     /label="pydA"
+                     /note="PKS-NRPS revised sequence"
                      /protein_id="QXF14600.1"
                      /translation="MKAERDTESIAGGREPIAVVGSGMRFPGSSSSPSKLWKLLLKPRD
                      LLSRIPENRFNADSFYHPNSSHHGTTDVQESYFLEEDHRHFDAAFFNIKPVEAHAIDPQ
@@ -160,11 +162,13 @@ FEATURES             Location/Qualifiers
                      QAAENDIVPNLLKYSSLIKALPDTAKWSGYVDLISVERAAAGIIGSVLQDRPDLGTTAP
                      ETQFLHQTGEKVIPAQSIKAVLSPKDEPEWDSLAMAEWVSRAVQKGMNPLIGEFLLSVD
                      RGQGLSVGQKLLLKTDQAKKGM"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_DH, PKS_NRPS_MT, fPKS_KR,
+                     ACP_PCP, Condensation, AA-adenyl-dom, fPKS_R"
      CDS             complement(20852..22150)
                      /codon_start=1
                      /gene="pydB"
                      /product="Diels-Alderase PydB"
-                     /label=pydB
+                     /label="pydB"
                      /note="lipocalin-like Diels-Alderase homolog"
                      /protein_id="QXF14601.1"
                      /translation="MMHQSLGLGLVVFVAAPVVAFQTQYPLSPPFPERLHEEWDESCSI
@@ -175,13 +179,13 @@ FEATURES             Location/Qualifiers
                      RMGRPGKYVSGHLFYNDELLVGSRVGNVSAEEDYVLFTDNYDGEMSGRYKDKNTGHTFE
                      FASPSKDKKWKFDMQHVVTQYEMGAGAGFGMSGFANRVVGGEVGGVQYEGKGHSEQTYW
                      PEYIEEWKIWLVWGFGFLGKGKTYVMKMVSYVL"
+                     /Pfam="Fsa2"
      CDS             join(22623..23170,23256..23811)
                      /codon_start=1
                      /gene="pydC"
                      /product="trans-acting enoylreductase PydC"
-                     /label=pydC
-                     /note="enoylreductase
-                     revised sequence"
+                     /label="pydC"
+                     /note="enoylreductase revised sequence"
                      /protein_id="QXF14602.1"
                      /translation="MSPPALPSHHRAIVQANTDPVTFEISENRPVPVPLDDEILIKVSA
                      VALNHCDYKMPGRVPCPGAVNGADYSGTVVRMGKKAELESGLRIGDHVAGAQVASSRRA
@@ -190,11 +194,12 @@ FEATURES             Location/Qualifiers
                      YTENRLQYVLDIITEARTIRQCYAAIGRGGGKYCGFELLPDDLLSTLRKSVKADWTMGL
                      ELTGNEVDLPGGYYRAANPEMHKWFVLWKQRYVALYDAGKLKPHPITVREGGLDKVIDG
                      IETMRRREVSGEKIVYPLYNNSSKGVV"
+                     /Pfam="fPKS_ER, ADH_zinc_N_2"
      CDS             complement(join(24361..25765,25871..26184))
                      /codon_start=1
                      /gene="pydD"
                      /product="major facilitator superfamily transporter PydD"
-                     /label=pydD
+                     /label="pydD"
                      /note="transporter"
                      /protein_id="QXF14603.1"
                      /translation="MLQEDKSSETMHDPSTRGVETRNVTAVDSPLETATTSESPETERT
@@ -207,11 +212,12 @@ FEATURES             Location/Qualifiers
                      GLFSLLDSGSSTGAWVGFQIVYSMGAGMLVPTLLPALLAPLSESDTALGAATWSFVRSF
                      GMVWGTAIPAAVFNTRSDQLAPELINSPALRADIMGGKAYEHATSAFLGTLSDAASEQM
                      KNVFSRSLRQTWLVSLAFAGMGLLAATLAREVPMRSELDTEYGMEERKPKKASEA"
+                     /Pfam="MFS_1"
      CDS             join(26721..27386,27500..27931)
                      /codon_start=1
                      /gene="pydE"
                      /product="medium-chain dehydrogenase/reductase PydE"
-                     /label=pydE
+                     /label="pydE"
                      /note="MDR"
                      /protein_id="QXF14604.1"
                      /translation="MSSTMRGWVRQHRGPYESSLKLIDSLPVPPDPGSDSSDIIVRVSY
@@ -221,19 +227,21 @@ FEATURES             Location/Qualifiers
                      FVDYTKHTDLPEYLASTYGSQPFDSILDCVGSQDLYANSPRYLLPGRPLVNIGAFSMTD
                      SLLSTLYQWSMNSWCPTWLGGVPRPYILFSNTPDMQGVLSLVEMVQQGKLKVHIDSEFE
                      MEDLIKAYERVTSKRARGKVLIRIH"
+                     /Pfam="ADH_zinc_N_2"
      gap             28203..28302
                      /estimated_length=100
      CDS             join(29310..29363,29432..29935)
                      /codon_start=1
                      /gene="pydY"
                      /product="hypothetical protein PydY"
-                     /label=pydY
+                     /label="pydY"
                      /note="hypothetical protein"
                      /protein_id="QXF14605.1"
                      /translation="MATPGNVTFKNTHDSWGMNWGLCDSSEQMLTMQGMPWIMRKLASW
                      ISVTVVIKTWTDPETGETRFLLQHNPPMGLPGMSEERALDYVPDELTVPNLGKLRVRTR
                      WGTAKELDQLDKYLARGLEKGPHSMIHMMTEHLDIDAVTHQIFGYEEIDGTRYHVRRIV
                      VRKGHEVARLRLVYNYLGPRAG"
+                     /Pfam="PydY"
 ORIGIN
         1 ctacagctca ggacgcttga tatcaaaatg cttgtccaga aactcaaacg tcttctgcgc
        61 cagcaacgcc cacgcaccaa tcttggccgt tagacccccc tcggccacat ccgtcggtac

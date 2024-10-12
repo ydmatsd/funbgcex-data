@@ -1,31 +1,31 @@
-LOCUS       FBGC00162       10513 bp DNA     linear   UNA 22-JAN-2023
+LOCUS       FBGC00162              10513 bp    DNA     linear   UNA 22-JAN-2023
 DEFINITION  terreazepine.
 ACCESSION   FBGC00162
-VERSION     .
+VERSION     FBGC00162
 KEYWORDS    .
 SOURCE      Aspergillus terreus var. terreus ATCC 20542
   ORGANISM  Aspergillus terreus var. terreus ATCC 20542
+            .
 REFERENCE   1  (bases 1 to 10513)
-  AUTHORS   Caesar LK, Robey MT, Swyers M, Islam MN, Ye R, Vagadia PP, Schiltz 
+  AUTHORS   Caesar LK, Robey MT, Swyers M, Islam MN, Ye R, Vagadia PP, Schiltz
             GE, Thomas PM, Wu CC, Kelleher NL, Keller NP, Bok JW.
-  TITLE     Heterologous Expression of the Unusual Terreazepine Biosynthetic 
-            Gene Cluster Reveals a Promising Approach for Identifying New 
+  TITLE     Heterologous Expression of the Unusual Terreazepine Biosynthetic
+            Gene Cluster Reveals a Promising Approach for Identifying New
             Chemical Scaffolds.
   JOURNAL   mBio 2020;11:e01691-20
-  PUBMED    32843555
+   PUBMED   32843555
 REFERENCE   2  (bases 1 to 10513)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Jan 22, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1128/mBio.01691-20"; journalName: "mBio"; date: "2020"; volume: 
-            "11"; pages: "e01691-20"
+  JOURNAL   Exported Jan 22, 2023 from SnapGene 6.2.1 https://www.snapgene.com
 COMMENT     ##Assembly-Data-START##
             Assembly Method       :: Unicycler v. October 21, 2019
             Assembly Name         :: AtFAC38
             Sequencing Technology :: Illumina
             ##Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1128/mBio.01691-20"; journalName: "mBio"; date: "2020"; volume:
+            "11"; pages: "e01691-20"
 FEATURES             Location/Qualifiers
      source          1..10513
                      /strain="ATCC 20542"
@@ -37,7 +37,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="FAC38_35"
                      /product="nonribosomal peptide synthetase TzpA"
-                     /label=tzpA
+                     /label="tzpA"
                      /note="ENOG410PKUW; non-ribosomal peptide synthase"
                      /protein_id="QMS79067.1"
                      /translation="MRLTIPPSSMEEPKGKPSAEENVCLFPKLTQVGLPAPASAAIETV
@@ -83,12 +83,13 @@ FEATURES             Location/Qualifiers
                      APKACLRAIQSWDPHECRINVYVIMEESRTRVEMRYWKSAMSPAQAALIEKCFSAAVSQ
                      ILAHGDQPLTELGILPPEEQKRVWEPSLSAAVVRLRELWAKVLDIPHHVIGGEDDFFRL
                      GGNSVRALQVTGLAREAGMDLRVADVFTASTLYAMARRSLVVSQSG"
+                     /Pfam="NRPS_C, AA-adenyl-dom, ACP_PCP"
      CDS             complement(join(9064..9109,9160..9473,9547..10155,
                      10220..10513))
                      /codon_start=1
                      /gene="FAC38_36"
                      /product="indoleamine 2,3-dioxygenase TzpB"
-                     /label=tzpB
+                     /label="tzpB"
                      /note="ENOG410PFRQ; indoleamine 2,3-dioxygenase"
                      /protein_id="QMS79068.1"
                      /translation="MSTISDIKLEDYWISPRLGFLSDQPVLTELPNPYYRCWEQMISSV
@@ -99,6 +100,7 @@ FEATURES             Location/Qualifiers
                      ILGVKQSGTGIRRACTSFHQEMRQYMPGPHRDFLAQMEKLSNVRSYVLSHPRHSDLHNS
                      YDQAIAALALLRQKHMIVASRYIIVPSMKQSRTYCREEMKGTGGTDFVSFLRLTRDNTY
                      SRLTEQGLPHPLAIMASTISG"
+                     /Pfam="IDO"
 ORIGIN
         1 ctatccagac tgtgacacca ctagcgatct ccgagccata gcatacagag tcgacgcggt
        61 aaagacatcc gccacccgga gatccattcc ggcttctcgc gccaacccag tcacctggag

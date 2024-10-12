@@ -1,29 +1,29 @@
-LOCUS       FBGC00153       39130 bp DNA     linear   UNA 21-JAN-2023
+LOCUS       FBGC00153              39130 bp    DNA     linear   UNA 21-JAN-2023
 DEFINITION  cytochalasin H.
 ACCESSION   FBGC00153
-VERSION     .
+VERSION     FBGC00153
 KEYWORDS    .
 SOURCE      Hypoxylon fragiforme MUCL 51264
   ORGANISM  Hypoxylon fragiforme MUCL 51264
+            .
 REFERENCE   1  (bases 1 to 39130)
   AUTHORS   Wang C, Becker K, Pfutze S, Kuhnert E, Stadler M, Cox RJ, Skellam E.
-  TITLE     Investigating the Function of Cryptic Cytochalasan Cytochrome P450 
+  TITLE     Investigating the Function of Cryptic Cytochalasan Cytochrome P450
             Monooxygenases Using Combinatorial Biosynthesis.
   JOURNAL   Org Lett 2019;21:8756-8760
-  PUBMED    31644300
+   PUBMED   31644300
 REFERENCE   2  (bases 1 to 39130)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Jan 21, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1021/acs.orglett.9b03372"; journalName: "Org Lett"; date: 
-            "2019"; volume: "21"; pages: "8756-8760"
+  JOURNAL   Exported Jan 21, 2023 from SnapGene 6.2.1 https://www.snapgene.com
 COMMENT     ##Assembly-Data-START##
             Assembly Method       :: SMRTLink v. 5.1.0.26412
             Coverage              :: 127x
             Sequencing Technology :: PacBio
             ##Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1021/acs.orglett.9b03372"; journalName: "Org Lett"; date:
+            "2019"; volume: "21"; pages: "8756-8760"
 FEATURES             Location/Qualifiers
      source          1..39130
                      /mol_type="genomic DNA"
@@ -37,9 +37,8 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="hffH"
                      /product="short-chain dehydrogenase/reductase HffH"
-                     /label=hffH
-                     /note="Oxidoreductase
-                     revised sequence"
+                     /label="hffH"
+                     /note="Oxidoreductase revised sequence"
                      /protein_id="QFX78098.1"
                      /translation="MALWNHKQHMPELQGKIAFVTGGNAGIGYHAVAFLAKAGAKVYFG
                      ARSTAKAEAACERIYRENPGLRPGQVNWIQADMASMASVLAACGKLRAAESKLHILIHN
@@ -47,11 +46,12 @@ FEATURES             Location/Qualifiers
                      SVTHSAEWRPDFSDPHGGDILYPAGREGGFMAAMRRYSVSKIAMNLLSSQLQARYDREG
                      VPILVTSICPGTVWTPGTRRAVPWYLLPVSYCFSYSEVDGPRPVLFAAVAPEVREQERY
                      YKGQFVNRTHLVVKGHPITYSAVAGKQLWSASEELVSEYKQKTKR"
+                     /Pfam="adh_short"
      CDS             complement(join(4306..5571,5693..5923))
                      /codon_start=1
                      /gene="hffB"
                      /product="acetyltransferase HffB"
-                     /label=hffB
+                     /label="hffB"
                      /note="O-acetyltransferase"
                      /protein_id="QFX78099.1"
                      /translation="MEFIRSLFTSRKSPIVETDEVYPLTLIDHLAPARGSVLSETLRFD
@@ -63,11 +63,12 @@ FEATURES             Location/Qualifiers
                      VCTWTSITPDILLRGPLGELAYVIRRSIQELATDEQIRAQLRIFRSLGHTKMLPLFGDP
                      NSHVMNFSNWSKFNLFDAADLSPAVVPNSPSLVGGHVGKPVYMHCQAVGENRMLRNCFN
                      ITGKDWDDNYWITAFLYPEDWEKLEEYMELTQLHISEKTT"
+                     /Pfam="CalD"
      CDS             complement(6972..8939)
                      /codon_start=1
                      /gene="hffR"
                      /product="transcription factor HffR"
-                     /label=hffR
+                     /label="hffR"
                      /note="Cytochalasin cluster regulator"
                      /protein_id="QFX78100.1"
                      /translation="MHRLNPRRSACDRCRGHKLRCVRLDPGPNKLGVLMPCKRCLKAGT
@@ -82,11 +83,12 @@ FEATURES             Location/Qualifiers
                      DLHSLPPILHGTRVGDFGLEDHPDMQIEIVIHVGSQFLQRIEGVLGVHVITERLGGLGG
                      MQEYASQPGGAAASDGREILDTKSAAALLENWFTSTHKGGSGGEGDFGDPCGGRRVQIR
                      RTIDNIRKLIRVYWRDYSGK"
+                     /Pfam="EqxR"
      CDS             join(12079..12900,13085..13627)
                      /codon_start=1
                      /gene="hffE"
                      /product="hydrolase HffE"
-                     /label=hffE
+                     /label="hffE"
                      /note="Hydrolase"
                      /protein_id="QFX78101.1"
                      /translation="MHKLFPRSGFFDFETVRILGTTCYGGADVAEVLEAVGEIRSDDAA
@@ -97,11 +99,12 @@ FEATURES             Location/Qualifiers
                      DFGTAHVSPLFISAWTSGLLSSGFVDKLMSIVSRLSFQMKWEISVTGTIFGLSSPSQIL
                      LNMKKYTLSSTSTGKDDSSTTATDSFLSRVRCPVLLSGAGKSLYLDAASHTRKCYDGLI
                      NVAAKDKEVWVPESEGQGSLQAKMGALALANQKTYRFLDKAFGIKREPLKVALHD"
+                     /Pfam="Abhydrolase_6"
      CDS             complement(join(14063..15345,15421..15596,15692..15957))
                      /codon_start=1
                      /gene="hffT"
                      /product="major facilitator superfamily transporter HffT"
-                     /label=hffT
+                     /label="hffT"
                      /note="MFS transporter"
                      /protein_id="QFX78102.1"
                      /translation="MEPRKDPVPAPGDSIPASIDTIPETSSPPPEEKAEKGWQFWLIFV
@@ -114,13 +117,14 @@ FEATURES             Location/Qualifiers
                      VLEVIFAFAIGIPTPNLLTAIQAALPDDLNALSTGTFAFVRSVGTIWGVSIPAAIFNNR
                      FDQLLGELSDPAAIAALAHGGAYESASSEFVNSFPPAVRDVIISIYERSLRQLWQIGIV
                      FAGVGFLTIFLEKDLELRSEKETQDIGLQDRPNAAGYSTSQEPIVELHESRREEQAV"
+                     /Pfam="MFS_1"
      CDS             complement(join(16851..19777,19839..21887,21948..22660,
                      22713..28296,28354..28708,28791..28844,28947..29570))
                      /codon_start=1
                      /gene="hffS"
-                     /product="polyketide synthase-nonribosomal peptide 
+                     /product="polyketide synthase-nonribosomal peptide
                      synthetase HffS"
-                     /label=hffS
+                     /label="hffS"
                      /note="Polyketide synthase-nonribosomal peptide synthetase"
                      /protein_id="QFX78103.1"
                      /translation="MSSPHDPIAIIGTGCRFPGQCNNPSKLWDLLRKPKDLLKVIPDNR
@@ -193,11 +197,13 @@ FEATURES             Location/Qualifiers
                      ATKWASERYLEKVNDQCELPIWIHRPSSITGPQAPANDLMANLLQFSRKIAAVPDTGAW
                      SGWLDFISVEKAAMQIADEVYEDYSWPGHVKYLYESGEQVVALEDMKGVLEREIGSAVE
                      VVEMEEWIARAAQQGLNPLLAEYLKHAAGATLVFPRLVRHESFF"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_DH, PKS_NRPS_MT, fPKS_KR,
+                     ACP_PCP, Condensation, AA-adenyl-dom, fPKS_R"
      CDS             complement(join(31516..31931,32045..32942,33026..33313))
                      /codon_start=1
                      /gene="hffD"
                      /product="cytochrome P450 monooxygenase HffD"
-                     /label=hffD
+                     /label="hffD"
                      /note="Cytochrome P450 monooxygenase"
                      /protein_id="QFX78104.1"
                      /translation="MFSSIQTNIIEPYLVMRQSLAPLKLTRWQLTKIMVRTALDGLPPI
@@ -210,11 +216,12 @@ FEATURES             Location/Qualifiers
                      RRIMQPVQLSLGPTLPPGTLIAVDGQAIDRSPELWPNPDTFDMYRFYELRRKPGNENRF
                      HFLTTGADSPGWGDGTQACPGRFFATNTLKIALAHFLRNYDVEIKQECLPLRNVPMASG
                      FWSPDDKAVARVRARY"
+                     /Pfam="p450"
      CDS             complement(join(34432..34909,34979..35775))
                      /codon_start=1
                      /gene="hffF"
                      /product="Diels-Alderase HffF"
-                     /label=hffF
+                     /label="hffF"
                      /note="Diels-Alderase"
                      /protein_id="QFX78105.1"
                      /translation="MLIRAISLSGLLATALAAGDGWPEPWPSHWREPSSELFPGQQVPL
@@ -225,11 +232,12 @@ FEATURES             Location/Qualifiers
                      GPYVLSYFSFTSNLVPDLTHQSVVLFQDGIPIFQSRLGTASDTEDYALVTKTYGGAVTG
                      TLKDKVTGFQLELVSPSKMRHYTFFAEHLNVGFEYILGEGVGGSGFSAQSRGGHVGLDQ
                      YDGVALTEALTFPKNSPLFRSNYVD"
+                     /Pfam="Fsa2"
      CDS             join(36078..36631,36694..37225)
                      /codon_start=1
                      /gene="hffC"
                      /product="trans-acting enoylreductase HffC"
-                     /label=hffC
+                     /label="hffC"
                      /note="Trans-enoyl reductase"
                      /protein_id="QFX78106.1"
                      /translation="MPTSNYVSLPTSRTAVVTGDDHRLRIERNAPIPSLRSNEVLVQVK
@@ -239,11 +247,12 @@ FEATURES             Location/Qualifiers
                      KAYTKNTLAYILDPFTDVKSVDLCYKAMGRAGGRYCCLEMYPEYILERKSIKVGFVMGP
                      LLLGHRLALSQGYERDEDPEMRAFGIQWYKDVQKILDQGLLKRHPMRVLGNSFEAMIEG
                      VDMLQRKEISGEKLVVAVDHK"
+                     /Pfam="fPKS_ER"
      CDS             join(37459..37882,37940..38635,38724..39130)
                      /codon_start=1
                      /gene="hffG"
                      /product="cytochrome P450 monooxygenase HffG"
-                     /label=hffG
+                     /label="hffG"
                      /note="Cytochrome P450 monooxygenase"
                      /protein_id="QFX78107.1"
                      /translation="MLNSSAIAIAITAVLCRVFYTIFYSNSLAAKKRALAHIPEVRFDT
@@ -255,6 +264,7 @@ FEATURES             Location/Qualifiers
                      KSSGGKWTQQRVAKMKKLDSFMKESTRVNPVGCMTVQRYAQKSHTFKDGFFLPAGTIFQ
                      FPADAVHHDPNLFPEPEKFDGYRFLRLREKDPNQFHYGYVSDTTLNWGAGTHACPGRFL
                      ATLVLKFAFILLITQYDVKFPDGTGQPGYVYFDNSVRVDPTARLDLKARA"
+                     /Pfam="p450"
 ORIGIN
         1 tcatcgcttt gttttctgct tgtactcact gacaagctct tcgctcgccg accatagttg
        61 cttgcctgct acagcactgt aagtgatagg gtggcccttg actaccaaat gggtcctatt

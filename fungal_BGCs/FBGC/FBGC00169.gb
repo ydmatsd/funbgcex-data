@@ -1,28 +1,28 @@
-LOCUS       FBGC00169       40329 bp DNA     linear   UNA 09-MAY-2023
+LOCUS       FBGC00169              40329 bp    DNA     linear   UNA 09-MAY-2023
 DEFINITION  sporothriolide.
 ACCESSION   FBGC00169
-VERSION     .
+VERSION     FBGC00169
 KEYWORDS    .
 SOURCE      Hypomontagnella monticulosa MUCL-54604
   ORGANISM  Hypomontagnella monticulosa MUCL-54604
+            .
 REFERENCE   1  (bases 1 to 40329)
   AUTHORS   Tian DS, Kuhnert E, Ouazzani J, Wibberg D, Kalinowski J, Cox RJ.
-  TITLE     The sporothriolides. A new biosynthetic family of fungal secondary 
+  TITLE     The sporothriolides. A new biosynthetic family of fungal secondary
             metabolites.
   JOURNAL   Chem Sci 2020;11:12477-12484
-  PUBMED    34123230
+   PUBMED   34123230
 REFERENCE   2  (bases 1 to 40329)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported May 9, 2023 from SnapGene 6.2.2
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1039/d0sc04886k"; journalName: "Chem Sci"; date: "2020"; volume:
-            "11"; pages: "12477-12484"
+  JOURNAL   Exported May 9, 2023 from SnapGene 6.2.2 https://www.snapgene.com
 COMMENT     ##Assembly-Data-START##
             Assembly Method       :: canu v. 1.7
             Sequencing Technology :: Illumina; PacBio
             ##Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1039/d0sc04886k"; journalName: "Chem Sci"; date: "2020"; volume:
+            "11"; pages: "12477-12484"
 FEATURES             Location/Qualifiers
      source          1..40329
                      /strain="MUCL-54604"
@@ -33,7 +33,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="spoC"
                      /product="major facilitator superfamily transporter SpoC"
-                     /label=spoC
+                     /label="spoC"
                      /note="transporter"
                      /protein_id="QOV03401.1"
                      /translation="MSNDSDRTSVASNKDVDVEAATPPPEVVQEEKSKVEEEKDPNLVV
@@ -45,11 +45,12 @@ FEATURES             Location/Qualifiers
                      GLMVGVVLGAGAVIWHTKTKFMATIKANGGKIIPEQRLPMMIIGGCLLPVGLFIFAWTS
                      HPETHWSGMVIGSIPTGMGMYMVFVQCFNYLVDVYAPIANSAIGGNTFIRSFFGAGFPL
                      FAPYMYHNLGVDWATSTLGFISIAMIPIPILFYKFGHRIRSWSKNSVNTN"
+                     /Pfam="MFS_1"
      CDS             complement(join(1986..3314,3373..4231,4287..4558))
                      /codon_start=1
                      /gene="spoD"
                      /product="transcription factor SpoD"
-                     /label=spoD
+                     /label="spoD"
                      /note="transcription factor"
                      /protein_id="QOV03402.1"
                      /translation="MYASAQTSPRRDAQPSQPDPDSDSASATRADGMRKRPRSGNDEPP
@@ -67,12 +68,13 @@ FEATURES             Location/Qualifiers
                      PQRDSRRSTESSRNPTNAPSPMAPDISTACGLHPSRGNQSLSSISSSRNGEEDFVQSGL
                      AELTNFGFFTPGTDRMDLASRPLSAACQFNTSSSNSQSQSDLNSGPLTGSSNWGDFNMD
                      FFQGVSA"
+                     /Pfam="Zn_clus, Fungal_trans"
      CDS             complement(join(9297..13570,13642..14108,14174..14200,
                      14275..14366))
                      /codon_start=1
                      /gene="spofasA"
                      /product="fatty acid synthase subunit alpha SpofasA"
-                     /label=spofasA
+                     /label="spofasA"
                      /note="fatty acid synthase subunit alpha"
                      /protein_id="QOV03403.1"
                      /translation="MTATNSNGRVSEDRRASEQQIAYNLLIELLTYQFAFPVQWIDTQR
@@ -103,12 +105,13 @@ FEATURES             Location/Qualifiers
                      TSGNPLLVICQKFLTGHPKGAAGAWMLNGCMQVLESGLVPGNRNADDVDGALRAFPHLL
                      YPSESLQVANIKAFMLTSFGFGQKGGIVIGVTPRALFAALAAPKFEAYREQVERRRRRA
                      DRAFQLAMMTNSVFKAKDQSAWIEAGRAAGAVFLDPTARI"
+                     /Pfam="Fas_alpha_ACP, FAS_I_H, adh_short"
      CDS             join(15115..15395,15457..15654,15718..16473,16537..16619,
                      16686..16750)
                      /codon_start=1
                      /gene="spoE"
                      /product="citrate synthase-like protein SpoE"
-                     /label=spoE
+                     /label="spoE"
                      /note="citrate synthase"
                      /protein_id="QOV03404.1"
                      /translation="MPSATVPKANGTNGTNGTNGVHKPVGDVLHVIDSRTGEYHAVKIH
@@ -120,11 +123,12 @@ FEATURES             Location/Qualifiers
                      LYGYGHRVYRVTDPRFTYISEILGELTEEVNKDPLLQVAFALDRAAAQDEYFISRKLRP
                      NADLFAAFAYKALGFPPNFILPISMISRTQGFMAHWKEAMEGGPRIWRPGQIYTGKLNR
                      KE"
+                     /Pfam="Citrate_synt"
      CDS             join(17658..17720,17797..18186,18256..18837,18909..19355)
                      /codon_start=1
                      /gene="spoF"
                      /product="major facilitator superfamily transporter SpoF"
-                     /label=spoF
+                     /label="spoF"
                      /note="transporter"
                      /protein_id="QOV03405.1"
                      /translation="MVSTTNNAEERSSLLPASNSSLNTFVLPENEKPRNWSRSYRWLCV
@@ -136,12 +140,13 @@ FEATURES             Location/Qualifiers
                      MLNDRIYKRLDKKNSRSNPELRTYMMLPASLLVPLGLLLYGWSAERHMHWLIPDVGVCI
                      YATGLIMSYQCTQAYIIDCYTSHAASSMSALMIVRSITGFTFPIFAPVLFSVWGYGLGS
                      TWLAGCATIMGLGIPIMLKVYGPALRARSTYAVGE"
+                     /Pfam="MFS_1"
      CDS             complement(join(20297..20553,20626..20809,20887..21080,
                      21140..21454,21511..21682))
                      /codon_start=1
                      /gene="spoG"
                      /product="2OG-Fe(II)-dependent dioxygenase SpoG"
-                     /label=spoG
+                     /label="spoG"
                      /note="alpha-ketoglutarate-dependent dioxygenase"
                      /protein_id="QOV03412.1"
                      /translation="MSATNGTVQPLELSGALSAYEAIDMTPCIGTEFPTLDLAEALRAP
@@ -151,11 +156,12 @@ FEATURES             Location/Qualifiers
                      FKQSHPMVRTHPVTGWKTMFAGGLHCRRVNGVTEWESQELLEKILRLVADNHDLQVRIR
                      WNTPCDMVIWDNRCVLHCPTQDHYGLGKRMGYRTMSVAEKPFLNLSSPSRLEANAVVGE
                      KAGKKVSEVPVAAPVKIPAVAAPAAAPAVSAQA"
+                     /Pfam="TauD"
      CDS             join(23767..24128,24199..24545,24634..25256)
                      /codon_start=1
                      /gene="spoH"
                      /product="lactonase SpoH"
-                     /label=spoH
+                     /label="spoH"
                      /note="lactonase"
                      /protein_id="QOV03406.1"
                      /translation="MRSLSPISDVTPSWGSSLVHLAGLLLLTQATTAAQVAKKCGNLDF
@@ -166,22 +172,24 @@ FEATURES             Location/Qualifiers
                      PDGKILYLTNTAAGVGNIDPGTPWQNAGPLKYVSTNKRTLYAFDVGTDGLLRNRRPLYT
                      AMDYVADCVKVASNGYLVTAAGHGVDILDPTGVHLMRIQLSFLAVSIEFAGPKRDSLWI
                      IGHGKAARATINLTGQGASTASSRLRRHARTHAKRHVAPQSITE"
+                     /Pfam="SGL"
      CDS             join(26454..26847,26901..27061)
                      /codon_start=1
                      /gene="spoI"
                      /product="cupin domain-containing protein SpoI"
-                     /label=spoI
+                     /label="spoI"
                      /note="putative hydrolase"
                      /protein_id="QOV03407.1"
                      /translation="MADQQKEVPEKTLPVVHRFITTHNAEGKPTFETGIKEEIDFERSP
                      LGGDMFLAYSGVEFPVALGHDSDLNQYKAHLEKKPESFMIPGGFLSRYIDYHPGCLPLW
                      HRTITLDFGIVVEGQIQLELESGEKRILKKGDVAIQRGTNHAWSNPSKTEFARVFYVAM
                      DAKPPVVNGQELGESLGVVSH"
+                     /Pfam="SrdD"
      CDS             complement(join(27687..28231,28285..29065))
                      /codon_start=1
                      /gene="spoJ"
                      /product="lactonase SpoJ"
-                     /label=spoJ
+                     /label="spoJ"
                      /note="lactonase"
                      /protein_id="QOV03408.1"
                      /translation="MCSRRPIRRFLPYLLISSQLSSALSFLGNDGLQIPLTVDADEVDE
@@ -192,11 +200,12 @@ FEATURES             Location/Qualifiers
                      YNISSGLVAIVEDTLKEPNGVAFSPDRNTLYLSDTGAGSSIIDGRVNPAPSIHVNSTGP
                      RLIYAYDVSKSRKGLSNKRPIYRAIDYAPDGVKISREGYIVTATGHGVDILSADGEPLV
                      RVQTNFTVINIGWAGKESDELWVVGKGGVARVRWALRGPIVE"
+                     /Pfam="SGL"
      CDS             join(29600..29860,29914..31179)
                      /codon_start=1
                      /gene="spoK"
                      /product="decarboxylase SpoK"
-                     /label=spoK
+                     /label="spoK"
                      /note="decarboxylase"
                      /protein_id="QOV03409.1"
                      /translation="MGKHGANVVFDETNDENSGVTAALCNWIAGLKKEDIPTPVLERAK
@@ -208,11 +217,12 @@ FEATURES             Location/Qualifiers
                      GHIKSIKVGLSGPIFAHDGWEPQERPLTETGAQMNAAYIGAIQLVDGQVLIAEFANHKM
                      DRDIVWDLVYKTKCHHDTQFDKPNHGCGAHIVVEFDDGFTVEETIQMPRGFDPPITDEE
                      IRTKYRKLALSAIDQQRMEKIEELILGIDKLDDISEIFEVLAQPTRNVLG"
+                     /Pfam="MmgE_PrpD, MmgE_PrpD_C"
      CDS             complement(join(31610..32730,32820..33174))
                      /codon_start=1
                      /gene="spoL"
                      /product="2-methylcitrate dehydratase SpoL"
-                     /label=spoL
+                     /label="spoL"
                      /note="2-methylcitrate dehydratase"
                      /protein_id="QOV03410.1"
                      /translation="MHVPQPDDNSQRPYDEVINLIVDYAFDYEVKSEAAWARSKMALID
@@ -224,11 +234,12 @@ FEATURES             Location/Qualifiers
                      KGPLHNPADRDHCLRYMMGVILLKNGVEVEAEDYQDDSPFATDPRVEALRSIISMEEDV
                      QFTQDYHNPTIRSCGSSIEIFLKDGTTINVRQDFPLGHVVRDAETIPLVRKKAIHNLGL
                      KFSQDEVTRIMETLEQPDFDTLPASKFIDLFQK"
+                     /Pfam="MmgE_PrpD, MmgE_PrpD_C"
      CDS             join(34028..39668,39735..39850,39904..40329)
                      /codon_start=1
                      /gene="spofasB"
                      /product="fatty acid synthase subunit beta SpofasB"
-                     /label=spofasB
+                     /label="spofasB"
                      /note="fatty acid synthase subunit beta"
                      /protein_id="QOV03397.1"
                      /translation="MESSGGSTSSFDEVNPTPGIADTPGIFTPGIPVTFTLNYEEVEVE
@@ -267,6 +278,8 @@ FEATURES             Location/Qualifiers
                      AARKVHPESITEFVTASEPKTTTLGAIIAHSIAQSKTLPLSMQLQRGKATIPLNGIDVP
                      FHSARLRSGVPTFRKFFHERVKAEDIRPERLVGSFIPNVVGKPFSIEKSFIQEVSKVTE
                      SPVLENLVC"
+                     /Pfam="SAT2, DUF1729, FAS_meander, MaoC_dehydratas,
+                     Acyl_transf_1"
 ORIGIN
         1 atgtcgaatg attccgaccg tacttctgtc gcatcgaaca aagatgtcga cgtagaagcc
        61 gcgacgccac cgccggaggt agtccaagag gagaagagca aggtcgagga agagaaggac

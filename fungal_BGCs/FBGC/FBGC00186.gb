@@ -1,29 +1,29 @@
-LOCUS       FBGC00186        5434 bp DNA     linear   UNA 23-JAN-2023
+LOCUS       FBGC00186               5434 bp    DNA     linear   UNA 23-JAN-2023
 DEFINITION  varienordienoid.
 ACCESSION   FBGC00186
-VERSION     .
+VERSION     FBGC00186
 KEYWORDS    .
 SOURCE      Didymosphaeria variabile 17020
   ORGANISM  Didymosphaeria variabile 17020
+            .
 REFERENCE   1  (bases 1 to 5434)
-  AUTHORS   Jiang L, Lv K, Zhu G, Lin Z, Zhang X, Xing C, Yang H, Zhang W, Wang 
+  AUTHORS   Jiang L, Lv K, Zhu G, Lin Z, Zhang X, Xing C, Yang H, Zhang W, Wang
             Z, Liu C, Qu X, Hsiang T, Zhang L, Liu X.
-  TITLE     Norditerpenoids biosynthesized by variediene synthase-associated 
+  TITLE     Norditerpenoids biosynthesized by variediene synthase-associated
             P450 machinery along with modifications by the host cell Aspergillus
             oryzae.
   JOURNAL   Synth Syst Biotechnol 2022;7:1142-1147
-  PUBMED    36101897
+   PUBMED   36101897
 REFERENCE   2  (bases 1 to 5434)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Jan 23, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1016/j.synbio.2022.08.002"; journalName: "Synth Syst 
-            Biotechnol"; date: "2022"; volume: "7"; pages: "1142-1147"
+  JOURNAL   Exported Jan 23, 2023 from SnapGene 6.2.1 https://www.snapgene.com
 COMMENT     ##Assembly-Data-START##
-            Sequencing Technology :: Sanger dideoxy sequencing 
+            Sequencing Technology :: Sanger dideoxy sequencing
             ##Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1016/j.synbio.2022.08.002"; journalName: "Synth Syst
+            Biotechnol"; date: "2022"; volume: "7"; pages: "1142-1147"
 FEATURES             Location/Qualifiers
      source          1..5434
                      /strain="17020"
@@ -35,7 +35,7 @@ FEATURES             Location/Qualifiers
                      1144..1825,1887..2137,2186..2494))
                      /codon_start=1
                      /product="terpene synthase VndD"
-                     /label=vndD
+                     /label="vndD"
                      /note="vndD"
                      /protein_id="UXN86878.1"
                      /translation="MKYQHSHLIDPSSYDNQCLCDGIPLRCHRNSDIEEFGLMRLRNDW
@@ -51,11 +51,13 @@ FEATURES             Location/Qualifiers
                      SDLTAIASLMGRYFQVRDDYMNLSSADYTKKKGFCEDLDEGKFSLLMIHTMQAAPEVDR
                      MLLQNLLAQRRAAGKMSMAQKHLILEIMKKTGSMEYVAKVLEALLAEVRKMVDDVDKEC
                      GIENEMMRSLLGSLGVEAPLL"
-     CDS             join(3357..3570,3626..3754,3819..4089,4181..4246,4302..4377,
-                     4431..4777,4839..4920,4983..5143,5207..5325,5400..5434)
+                     /Pfam="Terpene_syn_C_2, GGPS"
+     CDS             join(3357..3570,3626..3754,3819..4089,4181..4246,
+                     4302..4377,4431..4777,4839..4920,4983..5143,5207..5325,
+                     5400..5434)
                      /codon_start=1
                      /product="cytochrome P450 monooxygenase VndE"
-                     /label=vndE
+                     /label="vndE"
                      /protein_id="UXN86879.1"
                      /translation="MDATILWAAAGILCAIFLVYCTCLVLYRLYLSPLAQFPGPRLVAA
                      TAWYETFIDVTSNNFHEVLLDMHKKYGPIVRCSPWELSINDAEYFSKLYVPAGIRHTNS
@@ -66,6 +68,7 @@ FEATURES             Location/Qualifiers
                      AQYPKTIPAWTEFEQVPYLAACVKEGLRMSCQFRRSARMAPDTELHYKEWVIPKNTPVA
                      MSVYNMHYDPSVFPDPFTYKPERWLGDIDSRMNRYFVPWSKGSRDCPGKNLASAEMYVV
                      LGTLFRPGGPFSSQVVLKDCDETDFAFVRETQWVFTVGTVP"
+                     /Pfam="p450"
 ORIGIN
         1 ctaaagcagc ggcgcctcta cacccagact accaagtaaa gacctcatca tctcgttctc
        61 tataccacac tccttgtcaa catcatcaac catcttcctg acctcagcca acagcgcctc

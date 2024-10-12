@@ -1,29 +1,29 @@
-LOCUS       FBGC00177       70452 bp DNA     linear   UNA 23-JAN-2023
+LOCUS       FBGC00177              70452 bp    DNA     linear   UNA 23-JAN-2023
 DEFINITION  acremopeptaibols.
 ACCESSION   FBGC00177
-VERSION     .
+VERSION     FBGC00177
 KEYWORDS    .
 SOURCE      Acremonium sp. IMB18-086
   ORGANISM  Acremonium sp. IMB18-086
+            .
 REFERENCE   1  (bases 1 to 70452)
   AUTHORS   Hao X, Li S, Ni J, Wang G, Li F, Li Q, Chen S, Shu J, Gan M.
-  TITLE     Acremopeptaibols A-F, 16-Residue Peptaibols from the Sponge-Derived 
-            Acremonium sp. IMB18-086 Cultivated with Heat-Killed Pseudomonas 
+  TITLE     Acremopeptaibols A-F, 16-Residue Peptaibols from the Sponge-Derived
+            Acremonium sp. IMB18-086 Cultivated with Heat-Killed Pseudomonas
             aeruginosa.
   JOURNAL   J Nat Prod 2021;84:2990-3000
-  PUBMED    34781681
+   PUBMED   34781681
 REFERENCE   2  (bases 1 to 70452)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Jan 23, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1021/acs.jnatprod.1c00834"; journalName: "J Nat Prod"; date: 
-            "2021"; volume: "84"; pages: "2990-3000"
+  JOURNAL   Exported Jan 23, 2023 from SnapGene 6.2.1 https://www.snapgene.com
 COMMENT     ##Assembly-Data-START##
             Assembly Method       :: SOAPdenovo2 v. v. 2.04
             Sequencing Technology :: Illumina
             ##Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1021/acs.jnatprod.1c00834"; journalName: "J Nat Prod"; date:
+            "2021"; volume: "84"; pages: "2990-3000"
 FEATURES             Location/Qualifiers
      source          1..70452
                      /strain="IMB18-086"
@@ -31,13 +31,13 @@ FEATURES             Location/Qualifiers
                      /country="China: Guangxi, the sea near Weizhou Island"
                      /lat_lon="21.135000 N 109.638000 E"
                      /isolation_source="unidentified marine sponge"
-                     /collection_date=Dec-2017
+                     /collection_date="Dec-2017"
                      /db_xref="taxon:2046025"
                      /organism="Acremonium sp."
      CDS             complement(join(1..1667,1718..2287,2360..4334))
                      /codon_start=1
                      /product="ABC transporter Orf1"
-                     /label=orf1
+                     /label="orf1"
                      /note="ABC multidrug transporter; Orf1"
                      /protein_id="UFP63451.1"
                      /translation="MVPEGPSRSCSDHERRLSVQRDSSQQDSFRDSSNLEMDLLPDNRQ
@@ -65,12 +65,13 @@ FEATURES             Location/Qualifiers
                      VSLPEGFNTDIGSAGSLLSGGQKQRIAIARAMVRSPKILLLDEATSALDSESELLVQTA
                      LERAAKGRTTLTVAHRLTTIQNADVIYVIDQGRVIESGTHQDLMDRNGRYTELVKLQSF
                      E"
+                     /Pfam="ABC_membrane, ABC_tran"
      CDS             complement(join(5825..6472,6534..6698,6749..7030))
                      /codon_start=1
                      /gene="aptA"
                      /product="2OG-Fe(II)-dependent dioxygenase AptA"
-                     /label=aptA
-                     /note="2-oxoglutarate Fe(II)-dependent oxygenase; proline 
+                     /label="aptA"
+                     /note="2-oxoglutarate Fe(II)-dependent oxygenase; proline
                      hydroxylase"
                      /protein_id="UFP63452.1"
                      /translation="MPPRNTVAASSSSMGGIGRLPWGTMRAMATVRRPEYTDKTRTVSR
@@ -80,10 +81,11 @@ FEATURES             Location/Qualifiers
                      HYPACAASQIHAGAMRISEHTDFGTVTLLFQDSMGGLEIEDQKKRGSYFPVAPQDRYEM
                      IINIGDCLQRWTNNTLRSTSHRVALPPLAGDWIDSRYSVAYFGKPNREQHVGPLAEFVR
                      DGDTPAYDNLSAWEYNQQKLNLTY"
+                     /Pfam="DIOX_N, 2OG-FeII_Oxy"
      CDS             9004..9819
                      /codon_start=1
                      /product="hypothetical protein Orf2"
-                     /label=orf2
+                     /label="orf2"
                      /note="Orf2"
                      /protein_id="UFP63453.1"
                      /translation="MQNVSGQHDGHSTVPPGYPAPGSYGHGPPAPHGYAEWQNPHHAYP
@@ -97,7 +99,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="aptB"
                      /product="nonribosomal peptide synthetase AptB"
-                     /label=aptB
+                     /label="aptB"
                      /note="nonribosomal peptide synthetase"
                      /protein_id="UFP63454.1"
                      /translation="MSFSDNRSSVAGHECLQNDQSTNDNLFAICGLGVRAPGDLRGAEA
@@ -426,6 +428,8 @@ FEATURES             Location/Qualifiers
                      ESVQAFDDMNHGLPTKTFWQIISEENDAPMKPLSWGNWVAQASAQIEDVGEKHPLFPVQ
                      HFLGALGAPDEPQMSTGDIEYIPTLHQAVKSNIQYLKQSGLVEICSGEKEELLEAVITR
                      THKM"
+                     /Pfam="ACP_PCP, NRPS_C, PKS_AT, AA-adenyl-dom,
+                     NAD_binding_4"
 ORIGIN
         1 tcattcaaag gactggagct tcaccagctc ggtgtatcgg ccgttccgat ccatcaggtc
        61 ctggtgggtt cccgattcga tcacacgacc ctgatcaatc acgtaaatca cgtcggcatt

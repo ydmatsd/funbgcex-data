@@ -1,29 +1,29 @@
-LOCUS       FBGC00182       20361 bp DNA     linear   UNA 23-JAN-2023
+LOCUS       FBGC00182              20361 bp    DNA     linear   UNA 23-JAN-2023
 DEFINITION  atlantinone B.
 ACCESSION   FBGC00182
-VERSION     .
+VERSION     FBGC00182
 KEYWORDS    .
 SOURCE      Penicillium chrysogenum MT-40
   ORGANISM  Penicillium chrysogenum MT-40
+            .
 REFERENCE   1  (bases 1 to 20361)
-  AUTHORS   Qi BW, Li N, Zhang BB, Zhang ZK, Wang WJ, Liu X, Wang J, Awakawa T, 
+  AUTHORS   Qi BW, Li N, Zhang BB, Zhang ZK, Wang WJ, Liu X, Wang J, Awakawa T,
             Tu PF, Abe I, Shi SP, Li J.
   TITLE     A Multifunctional Cytochrome P450 and a Meroterpenoid Cyclase in the
             Biosynthesis of Fungal Meroterpenoid Atlantinone B.
   JOURNAL   Org Lett 2022;24:2526-2530
-  PUBMED    35343710
+   PUBMED   35343710
 REFERENCE   2  (bases 1 to 20361)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Jan 23, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1021/acs.orglett.2c00684"; journalName: "Org Lett"; date: 
-            "2022"; volume: "24"; pages: "2526-2530"
+  JOURNAL   Exported Jan 23, 2023 from SnapGene 6.2.1 https://www.snapgene.com
 COMMENT     ##Assembly-Data-START##
-            Assembly Method       :: llumina HiSeq 2500 v. SOAPdenovo Sequencing
-            Technology :: Illumina
+            Assembly Method :: llumina HiSeq 2500 v. SOAPdenovo Sequencing
+            Technology      :: Illumina
             ##Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1021/acs.orglett.2c00684"; journalName: "Org Lett"; date:
+            "2022"; volume: "24"; pages: "2526-2530"
 FEATURES             Location/Qualifiers
      source          1..20361
                      /mol_type="genomic DNA"
@@ -33,7 +33,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="atlA"
                      /product="UbiA-like prenyltransferase AtlA"
-                     /label=atlA
+                     /label="atlA"
                      /protein_id="UOK93801.1"
                      /translation="MPAKAAARKINTAANPQSRILNLFPPSLLPYAELSRIHRLLGFYL
                      NTSPYFVGIAFSASIASELPASILLNRLAIFSIWSFFLRCAGCVWNDLIDSDLDSQIAR
@@ -41,12 +41,13 @@ FEATURES             Location/Qualifiers
                      NYPQVTLANIGWAIPMTMHSLRVNPLDHLLPTVCMFLFIATVIITVDVVYACQDIEEDI
                      KVGVKSMAVRFRNCIPTLAYSLFYMSTALLAMAGGLIGLGIPFFVISVGGHFFGFKGLL
                      KATQIGRFSGVEKSAKAYCFLSSIFWVLGFAAEYYVRGH"
+                     /Pfam="UbiA_PT"
      CDS             complement(join(1714..2178,2240..2610,2693..2964,
                      3028..3323))
                      /codon_start=1
                      /gene="atlB"
                      /product="FAD-dependent monooxygenase AtlB"
-                     /label=atlB
+                     /label="atlB"
                      /protein_id="UOK93802.1"
                      /translation="MLEKSNFKVVIVGGSISGLTLGHCLAKANIDHIILEKRDEIAPQE
                      GAFIGIWPNGAQILQQLGVYSSLEKLTAPIHRMHVSYPDQFSFSSLLPKRVHETFGYPI
@@ -57,23 +58,25 @@ FEATURES             Location/Qualifiers
                      HPNGVPSPTEAHVESMLREYQSLRYERAKSTYERSRFGARFHTRDDWVKAFGGRYIFPF
                      IGGLVERATSKVLASGETVDYLPLPERSGPGWIQKSSEGKTTALLQWRVLWIIPLTLCW
                      AFLWTRPNW"
+                     /Pfam="FAD_binding_3"
      CDS             complement(join(4176..4386,4458..4978))
                      /codon_start=1
                      /gene="atlC"
                      /product="terpene cyclase AtlC"
-                     /label=atlC
+                     /label="atlC"
                      /protein_id="UOK93803.1"
                      /translation="MGDSTILSAVSEYRDELGAVAEFLRKLAGICWTLNYFSMMYVSGR
                      DKIPNTGIFPLCNDIAWEFVYAFVHPAASAHWEGGVKIWFLVHLAVVSYILKFAPNEWD
                      DVPIMKNHIYLIYLVVTLGFTAGQLSFAAEVGPDLGFFYGGVLCQTLASLGPICQLLGR
                      NSTRGASILTWLLRGIATFGGFIKLTIYFICDTPAGPWFESPMCKFYIGLTLTLDIIYP
                      CLYHVIRRQERRIAVEKKKVK"
+                     /Pfam="Pyr4"
      CDS             complement(join(6034..6461,6518..7174,7231..7444,
                      7508..7738))
                      /codon_start=1
                      /gene="atlD"
                      /product="cytochrome P450 monooxygenase AtlD"
-                     /label=atlD
+                     /label="atlD"
                      /protein_id="UOK93804.1"
                      /translation="MAHELTMSPEILSHIPPAAGPIFLILLLVIFILLTSSSRKSNLPF
                      INARGTWEFGKGRARARYMKDAAKLIKNGLDEAGVFRIITDAGTRTMLSPKYANEIRSL
@@ -84,12 +87,13 @@ FEATURES             Location/Qualifiers
                      WKKTTLYKLKLMDSVIKECQRLKPMAIAFMARVVREDVVLSDGIVIPKGDKMLVSCDRM
                      WDETIYPDPLKFDPYRFAKLRQTDNPKNEAAAQLVSPSPEHMGFGFGQHACPGRFFVAN
                      EIKISLCHILLKYDLKLADGCEPKVQAFGMRRAADPMAKISIRRRQEEILL"
+                     /Pfam="p450"
      CDS             complement(join(10414..11318,11378..15023,15080..17359,
                      17496..18026))
                      /codon_start=1
                      /gene="atlE"
                      /product="polyketide synthase AtlE"
-                     /label=atlE
+                     /label="atlE"
                      /protein_id="UOK93805.1"
                      /translation="MQPSTDSLQSPVSVLFGPQCSNFDDVAAEISKALAEDPSVQFIRD
                      IITELPSLWADITKAFPSLSQISGNEQIAELVQKLNGVPLPATTEPTNVILTPLTVISQ
@@ -133,12 +137,14 @@ FEATURES             Location/Qualifiers
                      ATPIGTYDQWEAVQPMPITAYNPPSSLGGWMNPSDARSRIALHMNWTGQTVPVLLNSLG
                      SNLGTSIPELKQPSIRDIQAISPLAQIRSHKYQSPTFIIHGTRDDLIPIAQAKRTYAAL
                      CDAGVTADIRVLDAVHLFDIYPEMKCNQEAKQAIQDGFAFLKSQVQTL"
+                     /Pfam="SAT2, PKS_KS, PKS_AT, fPKS_PT, ACP_PCP, HTH_51,
+                     PKS_NRPS_MT, BD-FAE, Peptidase_S9"
      CDS             join(19362..19523,19579..19599,19650..19796,19855..20031,
                      20074..20361)
                      /codon_start=1
                      /gene="atlF"
                      /product="methyltransferase AtlF"
-                     /label=atlF
+                     /label="atlF"
                      /note="revised sequence"
                      /protein_id="UOK93806.1"
                      /translation="MHPDYQLQDAVTKGFDPKLLYDPNLNHVDEPVRSIIEEYSNIPAD
@@ -146,6 +152,7 @@ FEATURES             Location/Qualifiers
                      QELRRLIYDGAPCSSLYGSDIRPEFLELGCDLFLDHDNMSDQLIGADITDDKSELVVRL
                      KGELDMQVEVAKRVLDLLAAKPGSLIVCRIMACRDQSAINATLGRMPYYYHDLSSWNRL
                      WEKVQHDTSLQLDVHSWEQPDKLAAKHPVEGVYVLGSSIRRK"
+                     /Pfam="Trt5"
 ORIGIN
         1 ttagtgccca cgtacatagt attcagccgc aaacccaagc acccagaata tactgctaag
        61 gaagcaatac gccttcgcac ttttctctac tcctgaaaac ctccctatct gagttgcctt

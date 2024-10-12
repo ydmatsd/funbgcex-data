@@ -1,24 +1,24 @@
-LOCUS       FBGC00157       27065 bp DNA     linear   UNA 22-JAN-2023
+LOCUS       FBGC00157              27065 bp    DNA     linear   UNA 22-JAN-2023
 DEFINITION  biscognienyne B.
 ACCESSION   FBGC00157
-VERSION     .
+VERSION     FBGC00157
 KEYWORDS    .
 SOURCE      Biscogniauxia sp. 71-10-1-1
   ORGANISM  Biscogniauxia sp. 71-10-1-1
+            .
 REFERENCE   1  (bases 1 to 27065)
-  AUTHORS   Lv JM, Gao YH, Zhao H, Awakawa T, Liu L, Chen GD, Yao XS, Hu D, Abe 
+  AUTHORS   Lv JM, Gao YH, Zhao H, Awakawa T, Liu L, Chen GD, Yao XS, Hu D, Abe
             I, Gao H.
-  TITLE     Biosynthesis of Biscognienyne B Involving a Cytochrome 
+  TITLE     Biosynthesis of Biscognienyne B Involving a Cytochrome
             P450-Dependent Alkynylation.
   JOURNAL   Angew Chem Int Ed Engl 2020;59:13531-13536
-  PUBMED    32364293
+   PUBMED   32364293
 REFERENCE   2  (bases 1 to 27065)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Jan 22, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1002/anie.202004364"; journalName: "Angew Chem Int Ed Engl"; 
+  JOURNAL   Exported Jan 22, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1002/anie.202004364"; journalName: "Angew Chem Int Ed Engl";
             date: "2020"; volume: "59"; pages: "13531-13536"
 FEATURES             Location/Qualifiers
      source          1..27065
@@ -30,7 +30,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="bisA"
                      /product="FAD-dependent monooxygenase BisA"
-                     /label=bisA
+                     /label="bisA"
                      /note="FAD-dependent monooxygenase"
                      /protein_id="QJQ82455.1"
                      /translation="MDRRQSDKYSSPPKNVIVIGGSLSGLMHGLMLHRLGSTVRILEQS
@@ -41,11 +41,12 @@ FEATURES             Location/Qualifiers
                      PPGKVRAAVWEKQKAYAKMLFARPYLEVIEKINLPFLHQITDYCSPRASFARGRVIIVG
                      DALTLLRPHIAFSTNQAAYHTLLTERLVTGELTAEEWEYQVTTAAYLHWRRSVWFGEYF
                      QRPLYVSIKSAVLFWAISTLVRVKIWVGWLQEQAT"
+                     /Pfam="FAD_binding_3"
      CDS             join(3046..4241,4331..4457)
                      /codon_start=1
                      /gene="bisB"
                      /product="DMATS-type prenyltransferase BisB"
-                     /label=bisB
+                     /label="bisB"
                      /note="ABBA-type prenyltransferase"
                      /protein_id="QJQ82456.1"
                      /translation="MASSTTSNGVSHIAKTLPILSQVNQELHPDSEDRAFWWGALSEPL
@@ -56,22 +57,24 @@ FEATURES             Location/Qualifiers
                      DTLARAKDMYHLGGRLKGDNMAAGLKGISDFWYHLFGLDSSDPTADDKVCVGWHKCIFV
                      YEMRSTQGSEPDIDVKFHIPMWQLGKTDGQISELLASWFEKHGHADLAARYKSDLDTAF
                      PKSGITGDGVGTHTYISITHTPKTGLYMTMYYSPKLPEFYF"
+                     /Pfam="Trp_DMAT"
      CDS             join(5780..5976,6054..6179,6283..6570,6678..6717)
                      /codon_start=1
                      /gene="bisC"
                      /product="cupin domain-containing protein BisC"
-                     /label=bisC
+                     /label="bisC"
                      /note="cupin domain-containing protein"
                      /protein_id="QJQ82457.1"
                      /translation="MVWAWQQWLSPRPRQRTVTTSQVSFLTSGNAALYEPLSKPGGLWY
                      VRETHYIENPLVKAGLSGPPLHIHLQQDEYFKVEQGVLGAVKDGVEYTITKDDGTLFIP
                      AGTRHRFWSHKSATESLVFSAWADPCKDRDHILDLNFLRNIVGYLADCDKAGLKPSPFQ
                      LILFFDDASSLLCPPFLNWMPVWLLTWVHHGFAWIAESGLGYQTSYPEYTKYK"
+                     /Pfam="PatJ"
      CDS             complement(join(7565..7877,7939..8744,8819..8959))
                      /codon_start=1
                      /gene="bisD"
                      /product="FAD-dependent monooxygenase BisD"
-                     /label=bisD
+                     /label="bisD"
                      /note="4-hydroxybenzoate decarboxylase"
                      /protein_id="QJQ82458.1"
                      /translation="MTYKSQSRPVFSVLVVGCGLSGLASALALAQAGHHVTVFERSDKL
@@ -82,11 +85,12 @@ FEATURES             Location/Qualifiers
                      TKWTLFQIHELAQWRHESGRFVLIGDAAHAILPCLAQGAAQAFEDAGVLGAIFSEPVGR
                      DQIPDALRVFEEVRRPRASDVRHRTLDQKAMFALADGPDQEGRDAKLRAGADRDLFRWL
                      WEYDAAESGREAWKAFTGTT"
+                     /Pfam="FAD_binding_3"
      CDS             complement(9702..10607)
                      /codon_start=1
                      /gene="bisE"
                      /product="short-chain dehydrogenase/reductase BisE"
-                     /label=bisE
+                     /label="bisE"
                      /note="short chain dehydrogenase/reductase"
                      /protein_id="QJQ82459.1"
                      /translation="MSSKLESEAHFEGTALGVLSRQFTRPKPLPQNVDLTDHVAIVTGS
@@ -95,11 +99,12 @@ FEATURES             Location/Qualifiers
                      KRKAGNKPPVLSLVGSDTAYTSQVDMKASSALKQIDDPEGFTQMAWYGKSKLLLTFFII
                      TLANHVDANDVLINMVNPGLTRGTDIKRELPSVYGAILTMLYLVVGRSVAVAATTYVDA
                      VVAHGLETHGCFLGDWGIKP"
+                     /Pfam="adh_short"
      CDS             join(11540..11581,11637..11905,11976..12292,12365..12555)
                      /codon_start=1
                      /gene="bisF"
                      /product="short-chain dehydrogenase/reductase BisF"
-                     /label=bisF
+                     /label="bisF"
                      /note="short chain dehydrogenase/reductase"
                      /protein_id="QJQ82460.1"
                      /translation="MSVYVITGVSKGIGFEFVKQISEDPKNLVVGLVRDKAATEKKVAT
@@ -107,12 +112,13 @@ FEATURES             Location/Qualifiers
                      GDKVEELEDVSAKLFQTNVVGNIHLFNLFLPLIMKGKVKKVITISSGQADLDLINDLEI
                      ETGALYSASKAAMNVIVAKYNAQYKKDGVLFVSISPGAVEVGHYVNATPEQIKGLMGFM
                      GKLSTYAPHFKGPTPVDEAIRNIRSTWEKASIEAGYGGAFVSHLGNKQWL"
+                     /Pfam="adh_short"
      CDS             complement(join(13328..13598,13682..14043,14101..14507,
                      14570..14783,14849..15139))
                      /codon_start=1
                      /gene="bisG"
                      /product="FAD-linked oxidoreductase BisG"
-                     /label=bisG
+                     /label="bisG"
                      /note="FAD binding domain-containing protein"
                      /protein_id="QJQ82461.1"
                      /translation="MVSLKSFIVANGLTLLPALVAGSPVMPRYFQGKLFSRDNLTASTV
@@ -124,11 +130,12 @@ FEATURES             Location/Qualifiers
                      SYPTISGVTSDDCGSANYVIASVMTLEYNVTAERALYDHYIAKVAQYPDLATTAYLWHE
                      GYATAGYQAIPSDSTAYPHREENHLMFFSTAVPEGSDLLDTAETWAKEAWDLWNGGQPD
                      RQPQTYVNYAAGHDYETLDSIYGYESWRLDRLRSLKAAYDPDNRFRFFVPIVSDSA"
+                     /Pfam="FAD_binding_4"
      CDS             join(16409..16463,16565..16897,17009..17514,17583..18170)
                      /codon_start=1
                      /gene="bisH"
                      /product="transcription factor BisH"
-                     /label=bisH
+                     /label="bisH"
                      /note="zinc-finger transcription factor"
                      /protein_id="QJQ82462.1"
                      /translation="MREEQTTTARTTSCAACKDRATTCDRAKPNCTNCSRSNQKCQSHG
@@ -140,11 +147,12 @@ FEATURES             Location/Qualifiers
                      GVMDWRIRSLPIPKVTDDSNGDGSDDVTLVVQLYQLALLLYLHRISDGLIDQPTRTQQH
                      IDRAFAIFPRVSSCKQQFPILVIGCEARTDEQRAVVLDVISRTEKMSSSRSFNYCKRTL
                      QAVWAQDDLAYGSNISYRDKLTSVLSHCVIVPTFV"
+                     /Pfam="AtnE, CpaE, Fungal_trans_2"
      CDS             complement(join(19318..19461,19560..20750,20810..21034))
                      /codon_start=1
                      /gene="bisI"
                      /product="cytochrome P450 monooxygenase BisI"
-                     /label=bisI
+                     /label="bisI"
                      /note="cytochrome P450"
                      /protein_id="QJQ82463.1"
                      /translation="MYPIECSYYPYWVLFLFLCSSCIMVLVQILKPTDLKWSAGVKRWS
@@ -157,11 +165,12 @@ FEATURES             Location/Qualifiers
                      GTNFLINSIALSSEFDHAHEFQPERWIEGSEAHTAANFWGFGGGRRICVGWKVAEQALF
                      IAFARLLYCFELSPNGPIDDKILNHQTVNEPFPVKATVRSAAHASLIEQEASNHEASFS
                      TF"
+                     /Pfam="p450"
      CDS             21735..22772
                      /codon_start=1
                      /gene="bisJ"
                      /product="UbiA-like prenyltransferase BisJ"
-                     /label=bisJ
+                     /label="bisJ"
                      /note="UbiA-type prenyltransferase"
                      /protein_id="QJQ82464.1"
                      /translation="MGVVQGYRKPSHGLFRFIPDAWVPYAELMRLDRQSGFWAFYWHYL
@@ -171,11 +180,12 @@ FEATURES             Location/Qualifiers
                      AGILWCVIFDTIYAHQDYLDDLKAGVKGLAVRLGRKGTKPACYAATAVQVGCLVLAGHL
                      AGFGTPYYAISCGGDALLLAWMIWVVDLEDGDSCAWAFGPGSAYVGASISAGLMAEFWS
                      RKYGF"
+                     /Pfam="UbiA_PT"
      CDS             join(24825..24958,25019..25125,25186..27065)
                      /codon_start=1
                      /gene="bisK"
                      /product="phenylalanine ammonia-lyase BisK"
-                     /label=bisK
+                     /label="bisK"
                      /note="phenylalanine ammonia-lyase"
                      /protein_id="QJQ82465.1"
                      /translation="MDSRPHPHFEQTREIWRTLQRHLQRGNISVDGQSLDIAGVVAVSR
@@ -191,6 +201,7 @@ FEATURES             Location/Qualifiers
                      ENSIVTRSNSPVSINDVQMLRESIEKIILQTYVKHRASFFAHQPTEKYLGKATKLCYDF
                      VRHTLGVPFHRGLVEQPQPGDTELDGRPKKTIGSWVSIIYEAVRDGRLIDRILGDQHGL
                      ANANKTTTNGYH"
+                     /Pfam="Lyase_aromatic"
 ORIGIN
         1 atggacaggc gccagtcaga caaatattcc tcgccgccca aaaatgtcat cgtcgtaagt
        61 catatcctac atctccgtgt ttgcgaattt gtatattcac acacaatgca gatcggcgga

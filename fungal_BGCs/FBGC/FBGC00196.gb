@@ -1,22 +1,22 @@
-LOCUS       FBGC00196       26041 bp DNA     linear   UNA 24-JAN-2023
+LOCUS       FBGC00196              26041 bp    DNA     linear   UNA 24-JAN-2023
 DEFINITION  acetoxydehydroaustin.
 ACCESSION   FBGC00196
-VERSION     .
+VERSION     FBGC00196
 KEYWORDS    .
 SOURCE      Penicillium brasilianum MG11
   ORGANISM  Penicillium brasilianum MG11
+            .
 REFERENCE   1  (bases 1 to 26041)
   AUTHORS   Mattern DJ, Valiante V, Horn F, Petzke L, Brakhage AA.
   TITLE     Rewiring of the Austinoid Biosynthetic Pathway in Filamentous Fungi.
   JOURNAL   ACS Chem Biol 2017;12:2927-2933
-  PUBMED    29076725
+   PUBMED   29076725
 REFERENCE   2  (bases 1 to 26041)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Jan 24, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1021/acschembio.7b00814"; journalName: "ACS Chem Biol"; date: 
+  JOURNAL   Exported Jan 24, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1021/acschembio.7b00814"; journalName: "ACS Chem Biol"; date:
             "2017"; volume: "12"; pages: "2927-2933"
 FEATURES             Location/Qualifiers
      source          1..26041
@@ -27,7 +27,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="PMG11_09849"
                      /product="UbiA-like prenyltransferase AusN"
-                     /label=ausN
+                     /label="ausN"
                      /protein_id="CEJ61313.1"
                      /translation="MPTKGDYQPPKNGILSKLPESTVPYGELLRIHRPLGYYLNISPYV
                      VGVAYTAAISPVTLPATFLLGRLVILSLWGFCIRSAGCAWNDLIDMDIDRQVSRTKLRP
@@ -35,11 +35,12 @@ FEATURES             Location/Qualifiers
                      ILTNIAWAIPMAMSSLDMNPLDFPIPTLAMSFSIASVIVMIDIVYACQDAEEDKKVGAR
                      SMAVRYMEITDQIAYSLFFSGTLSLLAGGILRGLGIPFLIFSVGGHFVGFLRFLRASLG
                      NGAKSALVESRAKSSCLLATVFLVFGLFFEYCVRL"
+                     /Pfam="UbiA_PT"
      CDS             join(1583..1893,1950..2221,2273..2643,2694..3170)
                      /codon_start=1
                      /locus_tag="PMG11_09850"
                      /product="FAD-dependent monooxygenase AusM"
-                     /label=ausM
+                     /label="ausM"
                      /protein_id="CEJ61314.1"
                      /translation="MSQATVEEKSKLRVIIVGGSVAGLTLAHCLAKANIDHIVLEKRAE
                      ISPQEGAFIGIWPNGARIFDQLGLYEDFESLTPPVHRMNVRFPDGFTFSSYLPRTIQER
@@ -50,11 +51,12 @@ FEATURES             Location/Qualifiers
                      LNNLSKLSTEDGTSAYAMTKLLNEYQSTRYERAKNTHDKSRFGARLHTRDDMIKTLIGR
                      YVFPYAGPRVLERSVKSLATAHSVEYLPFPKRLGPAWGEYSSPNKSTLGSTPIHMLTLL
                      LPCLFYFMYSKLNLFVSL"
+                     /Pfam="FAD_binding_3"
      CDS             join(3749..4045,4101..4916,4998..5651)
                      /codon_start=1
                      /locus_tag="PMG11_09851"
                      /product="major facilitator superfamily transporter AusY"
-                     /label=ausY
+                     /label="ausY"
                      /protein_id="CEJ61315.1"
                      /translation="MITESREHLASKPLNSESIIRLDTPDDKPSLECESIPSGGHISDV
                      SGGPVSTEVKDVNDVSEFEKCAMEEQTHDEVPISASKITVVVAGLVLAVFCMSLDSTIL
@@ -67,34 +69,37 @@ FEATURES             Location/Qualifiers
                      GLSLSIVAAQTALPPQDIPTGTAIVAFTQTLAAAVFNFVAQNVFQNQVLSGLAQAAPGV
                      SAAKLTKAGPTMLREIVPADTLPAVLEVYNTAITRAFYVAVGSAALAIFGAIPLQWLSV
                      KNKKIQAVTAHA"
+                     /Pfam="MFS_1"
      CDS             complement(join(6432..6648,6719..7239))
                      /codon_start=1
                      /locus_tag="PMG11_09852"
                      /product="terpene cyclase AusL"
-                     /label=ausL
+                     /label="ausL"
                      /protein_id="CEJ61316.1"
                      /translation="MEEPLTVAAIFRGPFNILAISEVLKVVAAVGWSVNYIGMVHRAWK
                      DQIPSIGILPLCCDIGWEFVYAWMFPDFSSHWQGVVRVWFFLHSAVLLVTLKVSPNDWA
                      NTPLAHRHIVFIYIFVTIVFGAGQYALAAEIGPALGFHWGGALCQFLSSSGGIAQLLSR
                      GHTRGASYLIWFARAISTFAGFIKLCIRFQHNVDGAPWLDSPMCWFYIVTVLSFDAAYP
                      FLYFSMRKFETPAPQREARIKKQ"
+                     /Pfam="Pyr4"
      CDS             complement(join(8499..8725,8816..8902,8965..9403,
                      9493..9519))
                      /codon_start=1
                      /locus_tag="PMG11_09853"
                      /product="short-chain dehydrogenase/reductase AusX"
-                     /label=ausX
+                     /label="ausX"
                      /protein_id="CEJ61317.1"
                      /translation="MTMYNIQDHVVIITGSSSGIGLAASTLALASGAKVLGIDISNSPA
                      SLTANPNYTFFAADLSHPESAKKAIAACIAAYGNRIDGLLNIAGVMDLNQSADTVTDDM
                      WDRCIAINLTAPVKLMREVIPIMRLRGKGSIVNVGSKASMSGAVSGVAYTASKHGLVGA
                      TKNVAWRFKHEGIRCNIVCPGGVAATGIRDGVDSTQFDSEAMEMMTVIHQAHASDHAKG
                      LGLQPEDLAHSLLYFLSDLSKGISGAVIPVDNAWSTI"
+                     /Pfam="adh_short"
      CDS             10296..12221
                      /codon_start=1
                      /locus_tag="PMG11_09854"
                      /product="FAD-dependent monooxygenase AusB"
-                     /label=ausB
+                     /label="ausB"
                      /protein_id="CEJ61318.1"
                      /translation="MAIGPKPESIIGSYDHPPQAEAQTEVKSAAINGDTSPVSRLKDFA
                      TDPWLTSTDQPQPDSTTNVPYSLPDSTQDARILIVGAGYGGLLFAVRLLQSGFTLEDIL
@@ -108,11 +113,12 @@ FEATURES             Location/Qualifiers
                      TSQAGVTANQSYMFDRAAEHIAYIIQNARPRTAASAVNLKVLVEPSLEAEELWAMETVS
                      RARAFAATKTCSAGSYTISARLGESVDESQMARHMPWGEGMASYVKILEEWRKKGDMDG
                      LEVVYD"
+                     /Pfam="Pyr_redox_2"
      CDS             13137..15077
                      /codon_start=1
                      /locus_tag="PMG11_09855"
                      /product="FAD-dependent monooxygenase AusC"
-                     /label=ausC
+                     /label="ausC"
                      /protein_id="CEJ61319.1"
                      /translation="MTISTTTLGSGATTATRKEVEAKYEEERQIQLQSRGMVQDIEITR
                      NASFEQFAKDPWAAPKQVDVETQREKLLQQAHHKIVIIGAGFGGLLFAVRLIQTGKFKA
@@ -126,12 +132,13 @@ FEATURES             Location/Qualifiers
                      FAGTSQAGACVNLTYALDQNAIHVAHILSEAVKRQPSDCTKLVIQPTHEGEEAWTMEIL
                      QRAAGFRGIAGCTPGYLNGYGMDASSLKPEEQMNMARLAAWGQGIASYVDALEGWRSEG
                      QLEGVEMTFLA"
+                     /Pfam="Pyr_redox_2"
      CDS             complement(join(15935..16872,16932..20610,20675..21426,
                      21488..21863,21931..23016,23085..23681))
                      /codon_start=1
                      /locus_tag="PMG11_09856"
                      /product="polyketide synthase AusA"
-                     /label=ausA
+                     /label="ausA"
                      /protein_id="CEJ61320.1"
                      /translation="MGSLGDLPLNRISVLFGSKYSEIDRSALHIRRYLSTHRAATWLED
                      AVEDLPSVWQDVTKVWPAGEGIHGEAGLQQLSAFLRGEELPLNMEDPMNYLLMPITVLR
@@ -176,17 +183,20 @@ FEATURES             Location/Qualifiers
                      MNWTGQTLTVLFNGHKYKSLVAIAGGDDNVILPKPTLSEIQKACPLSHVYAGQYKTPTF
                      IIHGTLDDLIPVEQSQRTHDQMLANGVESELRVVADAPHLFDMSPNLKNNKDACRAVAD
                      GYEFLRSHVGL"
+                     /Pfam="SAT2, PKS_KS, PKS_AT, fPKS_PT, ACP_PCP, HTH_51,
+                     PKS_NRPS_MT, Abhydrolase_3, Peptidase_S9"
      CDS             join(25007..25168,25228..25248,25313..25459,25532..26041)
                      /codon_start=1
                      /locus_tag="PMG11_09857"
                      /product="methyltransferase AusD"
-                     /label=ausD
+                     /label="ausD"
                      /protein_id="CEJ61322.1"
                      /translation="MHPDAQLKTALKNGFDPKLLYKEPLTTVKEPVCSILEKHSKVPVD
                      KVVSHVNEVRDRAFAVFPYACIGQFSFVELSIADSPCYREMLERTKQGHKLLDLGCAFG
                      QELRQLIYDGTPPTNLYGSDIQQDFLNLGYELFLDRAILPDSQLIAADVLDKQSALFER
                      LAGELNIVYISLFLHVFDFEKQITVAQNVLDLLKAEPGSMIVCRVTACRDQEVLAATQE
                      RMPYYYHDLASWNRLWEEVKKQTGVKLSVESWEQPDELVKKHPLPGIYILGSSIRRL"
+                     /Pfam="Trt5"
 ORIGIN
         1 tcaaagccgc acacagtact caaaaaacaa gccaaatact aagaacacgg ttgcaagcag
        61 acaggatgac ttcgcccgtg actccaccaa ggccgacttg gctccattac ccagggatgc

@@ -1,40 +1,41 @@
-LOCUS       FBGC00190       27895 bp DNA     linear   UNA 23-JAN-2023
+LOCUS       FBGC00190              27895 bp    DNA     linear   UNA 23-JAN-2023
 DEFINITION  imizoquins.
 ACCESSION   FBGC00190
-VERSION     .
+VERSION     FBGC00190
 KEYWORDS    .
 SOURCE      Aspergillus flavus NRRL 3357
   ORGANISM  Aspergillus flavus NRRL 3357
+            .
 REFERENCE   1  (bases 1 to 27895)
-  AUTHORS   Khalid S, Baccile JA, Spraker JE, Tannous J, Imran M, Schroeder FC, 
+  AUTHORS   Khalid S, Baccile JA, Spraker JE, Tannous J, Imran M, Schroeder FC,
             Keller NP.
-  TITLE     NRPS-Derived Isoquinolines and Lipopetides Mediate Antagonism 
+  TITLE     NRPS-Derived Isoquinolines and Lipopetides Mediate Antagonism
             between Plant Pathogenic Fungi and Bacteria.
   JOURNAL   ACS Chem Biol 2018;13:171-179
-  PUBMED    29182847
+   PUBMED   29182847
 REFERENCE   2  (bases 1 to 27895)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Jan 23, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1021/acschembio.7b00731"; journalName: "ACS Chem Biol"; date: 
-            "2018"; volume: "13"; pages: "171-179"
-COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final 
-            NCBI review. The reference sequence is identical to 
-            CP059871.##Genome-Assembly-Data-START##
+  JOURNAL   Exported Jan 23, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     ##Genome-Assembly-Data-START##
             Assembly Date          :: 05-SEP-2019
             Assembly Method        :: MECAT v. SEPT-2019
             Assembly Name          :: UGA_Afla_NRRL3357
             Genome Representation  :: Full
             Expected Final Version :: Yes
             Genome Coverage        :: 70.0x
-            Sequencing Technology  :: PacBio RSII; Bionano Saphyr 
-            ##Genome-Assembly-Data-END####Genome-Annotation-Data-START##
-            Annotation Provider :: INSDC submitter
-            Annotation Status   :: Full annotation
-            Annotation Pipeline :: Eukaryotic Annotation Propagation Pipeline 
+            Sequencing Technology  :: PacBio RSII; Bionano Saphyr
+            ##Genome-Assembly-Data-END##
+            ##Genome-Annotation-Data-START##
+            Annotation Provider    :: INSDC submitter
+            Annotation Status      :: Full annotation
+            Annotation Pipeline    :: Eukaryotic Annotation Propagation Pipeline
             ##Genome-Annotation-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1021/acschembio.7b00731"; journalName: "ACS Chem Biol"; date:
+            "2018"; volume: "13"; pages: "171-179"
+            PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to
 FEATURES             Location/Qualifiers
      source          1..27895
                      /chromosome="6"
@@ -44,14 +45,14 @@ FEATURES             Location/Qualifiers
                      /country="USA: Dawson, Georgia"
                      /lat_lon="31.76 N 84.43 W"
                      /isolation_source="Moldy Peanuts"
-                     /collection_date=8-Sep-1982
+                     /collection_date="8-Sep-1982"
                      /db_xref="taxon:332952"
                      /organism="Aspergillus flavus NRRL3357"
      CDS             1..1656
                      /codon_start=1
                      /locus_tag="G4B84_010229"
                      /product="transcription factor ImqK"
-                     /label=imqK
+                     /label="imqK"
                      /note="revised sequence"
                      /db_xref="GeneID:64852461"
                      /protein_id="XP_041149766.1"
@@ -65,11 +66,12 @@ FEATURES             Location/Qualifiers
                      IKADSSALDFSAFLSILSCYTHILRAYDALFTEILEMLMESSCIQLDLKIHNLVPEVSL
                      GGFRLSGHGDLQIKCLLHMSFIILEKIESMLGVNAPEKDPYGSNGGLLNNSQLRGLLEA
                      LYHQKEFDYIRADGTRAARVKKTMKSIQRILDSI"
+                     /Pfam="EqxR"
      CDS             complement(join(2083..2760,2846..3010,3081..3242))
                      /codon_start=1
                      /locus_tag="G4B84_010230"
                      /product="2OG-Fe(II)-dependent dioxygenase ImqJ"
-                     /label=imqJ
+                     /label="imqJ"
                      /note="revised sequence"
                      /db_xref="GeneID:64852462"
                      /protein_id="XP_041149767.1"
@@ -79,11 +81,12 @@ FEATURES             Location/Qualifiers
                      GRLTQCCQPAASEIRLLYYPPTTKNLFDEGLKKRAWPHTDLGIITLLFQDMVGGLEVED
                      RAAGKPRSFIPVKRVSPNEMIVNTSDSLQRWTNNVIRAGLHQVTAPDAAKLSNGVDMLP
                      ARCSSVFFFKAGRDTSVGPLPEFVTEDRPAAFEDMTALQYQQLKTRILHGVEG"
+                     /Pfam="DIOX_N, 2OG-FeII_Oxy"
      CDS             complement(join(3950..4916,4973..5339,5387..5666))
                      /codon_start=1
                      /locus_tag="G4B84_010230"
                      /product="major facilitator superfamily transporter ImqI"
-                     /label=imqI
+                     /label="imqI"
                      /note="revised sequence"
                      /db_xref="GeneID:64852462"
                      /protein_id="XP_041149767.1"
@@ -97,11 +100,12 @@ FEATURES             Location/Qualifiers
                      VDRITIGFLVCGISMLYAAFVQRTIYAAPPCYDHPRAPDCMGGQVPNRVSVFLQSPAYV
                      LVAISEILASVAGVEYAYTQAPKSMKSLIMAVYLSAVSAGALIAITVSPLTVDPKLPWM
                      YFTLGVENFLAGAFLWIFPA"
+                     /Pfam="PTR2"
      CDS             join(6110..6158,6234..7621)
                      /codon_start=1
                      /locus_tag="G4B84_010231"
                      /product="amino acid oxidase ImqH"
-                     /label=imqH
+                     /label="imqH"
                      /db_xref="GeneID:64852463"
                      /protein_id="XP_041149768.1"
                      /translation="MPAPKSIIIVGSGVFGLSTAHAMSQNNEFASSKITLIDSWNFEPS
@@ -113,11 +117,12 @@ FEATURES             Location/Qualifiers
                      EDGYGACGDLDQTKLSPDVESTLQDYRGFLRELFRSGDGGDLGGLRNIATRPFAQVRRC
                      WYADTVSTDFIVDYHPAYGKSLFIATGGSDHAFKFLPVLGERICELILQSDNGKAGPSE
                      SIQELQRLWKFPGGDSHAKL"
+                     /Pfam="DAO"
      CDS             7888..8631
                      /codon_start=1
                      /locus_tag="G4B84_010232"
                      /product="methyltransferase ImqG"
-                     /label=imqG
+                     /label="imqG"
                      /db_xref="GeneID:64852464"
                      /protein_id="XP_041149769.1"
                      /translation="MTATTTTTSQIFVSEDYNQDPNWYAVDNYTLSHLQPPTRPNHASL
@@ -125,11 +130,12 @@ FEATURES             Location/Qualifiers
                      IVSIEIDPKSAEVAKENIAAAGYQDRIEVLVGAAIDLLPILQAKVENGEQERFGFTFID
                      ANKDNGWDYFDYAVKMSRPRASIIVDNVVRAGKLVQEDYIKNDINVRGSRRTVENVGKD
                      DRVDAVVLQTLSEKSYDGFLMAVVK"
+                     /Pfam="Methyltransf_3"
      CDS             complement(join(9002..9045,9102..9805,9862..10223))
                      /codon_start=1
                      /locus_tag="G4B84_010233"
                      /product="methyltransferase ImqF"
-                     /label=imqF
+                     /label="imqF"
                      /db_xref="GeneID:64852465"
                      /protein_id="XP_041149770.1"
                      /translation="MMTEAQGPVVSIGSATVTYDHPPIISPVSYPKARPTQILDIRKRT
@@ -139,11 +145,12 @@ FEATURES             Location/Qualifiers
                      ASPSHSPQMIIAVDGCQDVEQILEAYDMPNKLSQKFVFNGLSHANQILGSEVFRPQHWT
                      FEGKWNPVKSMHESFYVAKKPMSLDIGNERFHVHAGEKIRAITSGKWPKDKVTSICQSA
                      GIKVLKGWTDEEGSYGLYLLCQDQLQVQL"
+                     /Pfam="Methyltransf_33"
      CDS             complement(join(10760..11671,11738..11920))
                      /codon_start=1
                      /locus_tag="G4B84_010234"
                      /product="2OG-Fe(II)-dependent dioxygenase ImqE"
-                     /label=imqE
+                     /label="imqE"
                      /db_xref="GeneID:64852466"
                      /protein_id="XP_041149771.1"
                      /translation="MTMLSDLPKIPTLDWADFAEGDTDQRLKLAQGLVQGFKRFGFVKL
@@ -153,12 +160,13 @@ FEATURES             Location/Qualifiers
                      RIWPHTDFGLITLLFQDGVGGLEVEDPLQQGHYIEVAREQPYEMIVNVSATFERWMNGV
                      IKAAVHRVNITPEGKHVEDAVVPERWSAAYFFKAHKMAHAGPLPAFVTPERPALYDNIT
                      ALEFQKRRTDLVYTGQQLKVEEAA"
+                     /Pfam="DIOX_N, 2OG-FeII_Oxy"
      CDS             join(12564..12759,12812..12992,13046..13194,13246..13330,
                      13403..13542,13596..13782,13844..14492)
                      /codon_start=1
                      /locus_tag="G4B84_010235"
                      /product="major facilitator superfamily transporter ImqD"
-                     /label=imqD
+                     /label="imqD"
                      /db_xref="GeneID:64852467"
                      /protein_id="XP_041149772.1"
                      /translation="MTAPADSTEKSETSETTTLQTTEVSTVDVDPDLPRVLAKVPGTVW
@@ -171,12 +179,13 @@ FEATURES             Location/Qualifiers
                      VQKIIYDTGPCYDRPLTCPGAENGRIPNQVNVFLQTPTYIILAVAEIFSFVTLSEYTYT
                      KAPTDMKAVVQALGQLGAAAGSAIGIAITPLAHDPSLIWMYTGLAVAMFLVAVVFWILF
                      KKYNAIDREDK"
+                     /Pfam="PTR2"
      CDS             complement(join(14985..15805,15901..15951,16007..16339,
                      16399..16528,16575..16780,16863..17143,17198..17253))
                      /codon_start=1
                      /locus_tag="G4B84_010236"
                      /product="FAD-dependent monooxygenase ImqC"
-                     /label=imqC
+                     /label="imqC"
                      /db_xref="GeneID:64852468"
                      /protein_id="XP_041149773.1"
                      /translation="MGSRSNYVDVLIIGAGPAGLTAANCFLGSRLNVRIIDKKNGIVEA
@@ -190,11 +199,12 @@ FEATURES             Location/Qualifiers
                      NQSDGVPIRIHQRLRADGKFRIVVFPGDVSQEHAMSRLNQFGAWLARSQLDVEVSHSDG
                      GSEEFFIETITVHAARRADVELEDFHEALHPWSSRWGWNYWNIYADDESYHDGHGEAYQ
                      RCGLGRNHDCVVVVRPDGYISVVCELENTGAITSFFDALQPIKSVRPRL"
+                     /Pfam="FAD_binding_3, Phe_hydrox_dim"
      CDS             join(17683..18117,18190..27166,27246..27766,27830..27895)
                      /codon_start=1
                      /locus_tag="G4B84_010237"
                      /product="nonribosomal peptide synthetase ImqB"
-                     /label=imqB
+                     /label="imqB"
                      /note="revised sequence"
                      /db_xref="GeneID:64852469"
                      /protein_id="XP_041149774.1"
@@ -255,6 +265,7 @@ FEATURES             Location/Qualifiers
                      PSLVDETFLAPSSSETNDTAMAADGTLAKMNMFQFNSMLKEYSPPRFEDLFQDLDASKA
                      GLCHEQRSNVNPITEDTHHAERFPVHLLRASSTKASIGELDENMKSFLDATLGWEHYRP
                      RLVSEVDLIDAEHYSLFSANTVAETTRHIRDFCDRITKSRKV"
+                     /Pfam="AA-adenyl-dom, ACP_PCP, NRPS_C, Thioesterase"
 ORIGIN
         1 atggaaccag atacaacgag gcgaagcgcc tgtgatcgat gcagaggtca gaagctgcga
        61 tgtgtccggc tcccaggacc agccagggag gattcacccc ggtcggccag gtccgtcaat

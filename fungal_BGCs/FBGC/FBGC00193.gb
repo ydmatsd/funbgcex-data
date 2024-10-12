@@ -1,37 +1,38 @@
-LOCUS       FBGC00193       31455 bp DNA     linear   UNA 11-MAY-2023
+LOCUS       FBGC00193              31455 bp    DNA     linear   UNA 11-MAY-2023
 DEFINITION  sordarial.
 ACCESSION   FBGC00193
-VERSION     .
+VERSION     FBGC00193
 KEYWORDS    .
 SOURCE      Neurospora crassa OR74A
   ORGANISM  Neurospora crassa OR74A
+            .
 REFERENCE   1  (bases 1 to 31455)
   AUTHORS   Zhao Z, Ying Y, Hung YS, Tang Y.
-  TITLE     Genome Mining Reveals Neurospora crassa Can Produce the 
+  TITLE     Genome Mining Reveals Neurospora crassa Can Produce the
             Salicylaldehyde Sordarial.
   JOURNAL   J Nat Prod 2019;82:1029-1033
-  PUBMED    30908040
+   PUBMED   30908040
 REFERENCE   2  (bases 1 to 31455)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported May 11, 2023 from SnapGene 6.2.2
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1021/acs.jnatprod.8b00983"; journalName: "J Nat Prod"; date: 
-            "2019"; volume: "82"; pages: "1029-1033"
-COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final 
-            NCBI review. The reference sequence is identical to CM002236. Please
-            be aware that the annotation is done automatically with little or no
-            manual curation.##Genome-Assembly-Data-START##
+  JOURNAL   Exported May 11, 2023 from SnapGene 6.2.2 https://www.snapgene.com
+COMMENT     ##Genome-Assembly-Data-START##
             Assembly Method       :: Arachne v. 1.0
             Assembly Name         :: NC12
             Genome Coverage       :: 20.0x
             Sequencing Technology :: Sanger; 454
-            ##Genome-Assembly-Data-END####Genome-Annotation-Data-START##
-            Annotation Provider :: INSDC submitter
-            Annotation Status   :: Full annotation
-            Annotation Pipeline :: Eukaryotic Annotation Propagation Pipeline 
+            ##Genome-Assembly-Data-END##
+            ##Genome-Annotation-Data-START##
+            Annotation Provider   :: INSDC submitter
+            Annotation Status     :: Full annotation
+            Annotation Pipeline   :: Eukaryotic Annotation Propagation Pipeline
             ##Genome-Annotation-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1021/acs.jnatprod.8b00983"; journalName: "J Nat Prod"; date:
+            "2019"; volume: "82"; pages: "1029-1033"
+            PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to CM002236. Please
+            be aware that the annotation is done automatically with little or no
 FEATURES             Location/Qualifiers
      source          1..31455
                      /strain="OR74A"
@@ -43,7 +44,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="NCU02927"
                      /product="FAD-linked oxidoreductase SrdK"
-                     /label=srdK
+                     /label="srdK"
                      /note="not originally included in the srd cluster"
                      /db_xref="GeneID:3881734"
                      /protein_id="XP_965609.1"
@@ -57,11 +58,12 @@ FEATURES             Location/Qualifiers
                      TVNMEDYSHEGVDAIDPDTSAYPWRDRGLLSFIAVTYDPNPALDEAAIAWAQETRDLWN
                      AGAPDLLPSTYVNYAHGDESAESMYGYEPWRLEKLRGLKAQYDPDNLFSYYNPIIPNMN
                      PRSTHESNFQGRQIGAKSKSRGQ"
+                     /Pfam="FAD_binding_4, BBE"
      CDS             join(3039..3219,3300..3442)
                      /codon_start=1
                      /locus_tag="NCU16468"
                      /product="hypothetical protein NCU16468"
-                     /label=NCU16468
+                     /label="NCU16468"
                      /db_xref="GeneID:23569487"
                      /protein_id="XP_011393431.1"
                      /translation="MSSPSTLMLLQLSTHWPSGTPDDTHVRHDSPSAHKQFTQKYGRGF
@@ -71,7 +73,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="NCU02926"
                      /product="FAD-linked oxidoreductase SrdI"
-                     /label=srdI
+                     /label="srdI"
                      /db_xref="GeneID:3881733"
                      /protein_id="XP_965608.1"
                      /translation="MHLSSSLLFTSALLAGGINASPATNAYRRQGADMRTIIGDTTPVL
@@ -83,12 +85,13 @@ FEATURES             Location/Qualifiers
                      VCANSQVFDIYGVNLRRHDANTWVKTFNKLAKFWNEQPAAQSSSVVLETWPNQAVVAVP
                      DSETAYPWRDATTYVMIQMRWDAPGNPVETVADAMGRELRNDFAKTSGYNGLTVYVNYA
                      HGDETPEQMYGRNKLHRLAKLKKQYDPSSVFGFHNPLPTSYP"
+                     /Pfam="FAD_binding_4, BBE"
      CDS             complement(join(7838..8894,8968..9257))
                      /codon_start=1
                      /gene="fbm-1"
                      /locus_tag="NCU02925"
                      /product="FAD-dependent monooxygenase SrdH"
-                     /label=srdH
+                     /label="srdH"
                      /db_xref="GeneID:3881732"
                      /protein_id="XP_965607.1"
                      /translation="MTFKVIIVGGGPVGLYMAHAFERANIDYVILEQQDTVLNISGQLL
@@ -99,11 +102,12 @@ FEATURES             Location/Qualifiers
                      WAKVQRKSTRMLNQEEGFLDNWFFDRIVLVGDAVHKSTSVNGLGMTCGLHSGAVLANEL
                      HSLLSRQREKEEEPSTEELEGAFGRYQEDRKTEVKPIWNGGHAMIREVVKKGWVSWFWD
                      RFVLPWCDMETFAKGLLVSVLLIRQGQILRFVPFEGRGGRVPWARKVVV"
+                     /Pfam="FAD_binding_3"
      CDS             complement(join(11105..11409,11486..12209))
                      /codon_start=1
                      /locus_tag="NCU02924"
                      /product="alpha/beta hydrolase SrdG"
-                     /label=srdG
+                     /label="srdG"
                      /db_xref="GeneID:3881731"
                      /protein_id="XP_965606.1"
                      /translation="MSPDALTPHDPRVTHHYITIPSTSLTYHYLLANPDSASFPHPTAT
@@ -113,11 +117,12 @@ FEATURES             Location/Qualifiers
                      KLEEVGGSPLVSEEVMDFYVEEYSRNGIRGPMNWYRTREINLEDELPLAEKCENWQFQV
                      PAMIVMVGHDPALPPELTDGMEKYFAKGLRKEVIPEASHWVLIHTPEEVNKLVGEFLQQ
                      FL"
+                     /Pfam="Abhydrolase_6"
      CDS             complement(join(12750..12821,12889..13532,13610..13658))
                      /codon_start=1
                      /locus_tag="NCU02923"
                      /product="short-chain dehydrogenase/reductase SrdF"
-                     /label=srdF
+                     /label="srdF"
                      /db_xref="GeneID:3881730"
                      /protein_id="XP_965605.1"
                      /translation="MAVTDSTVVFISGVGKGIGAGIAKLYLSRPHHIVIGSVRDVSTPS
@@ -125,12 +130,13 @@ FEATURES             Location/Qualifiers
                      IEEVDTKDMLENYHINAIGPLLLFQALLPLLKKGTEPKWASVSTTAGSIGLVDPLAAWI
                      LPAYGGAKAALNWLTAGIASSQKEWMTTIALHPGLVQTGPGNWVAQKVGMGDKAPVTVG
                      DSAASVVKLIDGLTKESNGKFYNAVDGTEVPW"
+                     /Pfam="adh_short"
      CDS             join(14900..15159,15218..15399,15455..15543,15609..15729,
                      15790..15929,15997..16077)
                      /codon_start=1
                      /locus_tag="NCU02922"
                      /product="short-chain dehydrogenase/reductase SrdE"
-                     /label=srdE
+                     /label="srdE"
                      /db_xref="GeneID:3881729"
                      /protein_id="XP_965604.1"
                      /translation="MAPQSTKFALITGCGAGGIGEALILEYLRRGIHPIATLLPFESSE
@@ -139,23 +145,25 @@ FEATURES             Location/Qualifiers
                      LRVELAPLGVRVLVIISGEVGTNILKNDHGRTLPEGSYYSPMAEEFKNHVHRTPDAATD
                      RFVYAKNVVGESLKKSPTTWFWTGSYSGVIRFLHTFFPKTVFDRWFSSLFNLAKLKEAH
                      DAAMKKKVA"
+                     /Pfam="adh_short"
      CDS             complement(join(17370..17708,17790..18041))
                      /codon_start=1
                      /locus_tag="NCU02921"
                      /product="cupin domain-containing protein SrdD"
-                     /label=srdD
+                     /label="srdD"
                      /db_xref="GeneID:3881728"
                      /protein_id="XP_965603.1"
                      /translation="MAPPNKNPNGYYVESFPAPGLRQIVRHITGLNKQGESVFLHSDHG
                      DHHRFMVQNQAISNLLYSTQETPVDLNNNIDIQKAKEKEPPFHYKSGSIVRMIDFGPGV
                      ESPLHRAMTIDYGIIVEGVFELILDSGEKRIMRQGDVSVQRATAHKWVNVTGNGTLPGR
                      VMWVLLDCKEVVDAKGEKVEGYLGSLQEHYEGR"
+                     /Pfam="SrdD"
      CDS             complement(join(18270..18526,18629..18908,18973..19220,
                      19290..19323))
                      /codon_start=1
                      /locus_tag="NCU02920"
                      /product="short-chain dehydrogenase/reductase SrdC"
-                     /label=srdC
+                     /label="srdC"
                      /db_xref="GeneID:3881727"
                      /protein_id="XP_965602.3"
                      /translation="MDLTGSAFVIGASGIGKACALAFARYGVRGIVIADLTLEAASAVA
@@ -163,23 +171,25 @@ FEATURES             Location/Qualifiers
                      EASVSEFEKMFKVNVTGTFIVTRALSALMKTQDPVPVDEAVPARGVSRGSIVNVGSASG
                      FVATPGMVQYTAAKHAVVGITKNAALDNAKHGIRVNSVCPSWVDTPMIRKAMDDIPELG
                      EMIQKAVPLGRIALAEEVADAVMFLSSPKASYATGCNMILDGGTTLAAHV"
+                     /Pfam="adh_short_C2"
      CDS             join(19930..20160,20232..20591)
                      /codon_start=1
                      /locus_tag="NCU02919"
                      /product="cupin domain-containing protein SrdB"
-                     /label=srdB
+                     /label="srdB"
                      /db_xref="GeneID:3881726"
                      /protein_id="XP_965601.1"
                      /translation="MSTSGPITEFPAPGLRDPFRYITGHDAEGNAVFVQTDNGDHRAVM
                      LGGAAAQNIIYSAGSNPIELTGNVDLEFAKNRPSLHIPNGVCVRMIDFAPGCKSNMHRA
                      LCMGIGTVCEGEVELTLGSGEKRILRPGDVSINRGAMHQWRNTSDEKPARMLYTLLDIK
                      PLIVNGKQLDFDMGYLMKEYAEYDEGEGDKKAE"
+                     /Pfam="SrdD"
      CDS             join(22851..23007,23083..29201,29271..30143)
                      /codon_start=1
                      /gene="pks-6"
                      /locus_tag="NCU02918"
                      /product="polyketide synthase SrdA"
-                     /label=srdA
+                     /label="srdA"
                      /db_xref="GeneID:3881725"
                      /protein_id="XP_965600.1"
                      /translation="MAPHSTLDSDYSSGSSTPTSASAAGDGFVDGLNGLNNGRAVDPQE
@@ -223,11 +233,12 @@ FEATURES             Location/Qualifiers
                      LARAHVLTGLEPLGLKELRAKGFEGTSPVLGDPRASLLSAALDESTDAASSNAASGMPA
                      EVAEAIATGASVEDAVLKMISKKFSNLVLIPEDKLNLTKPISEVGVDSMLAAEFRAWIF
                      QAFKVDVPYLTLLSAAATLTLLSELITKKMMEAQDA"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_DH, fPKS_ER, fPKS_KR, ACP_PCP"
      CDS             30754..31455
                      /codon_start=1
                      /locus_tag="NCU02917"
                      /product="methyltransferase SrdJ"
-                     /label=srdJ
+                     /label="srdJ"
                      /db_xref="GeneID:3881724"
                      /protein_id="XP_965599.2"
                      /translation="MFQVQTAGTRTGTSSPDTTTSEAGLGSTPPMPDFDKQSYWHQRFE

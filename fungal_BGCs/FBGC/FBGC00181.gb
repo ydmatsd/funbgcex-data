@@ -1,23 +1,23 @@
-LOCUS       FBGC00181       17643 bp DNA     linear   UNA 09-FEB-2023
+LOCUS       FBGC00181              17643 bp    DNA     linear   UNA 09-FEB-2023
 DEFINITION  pyranonigrin A.
 ACCESSION   FBGC00181
-VERSION     .
+VERSION     FBGC00181
 KEYWORDS    .
 SOURCE      Penicillium thymicola IBT 5891
   ORGANISM  Penicillium thymicola IBT 5891
+            .
 REFERENCE   1  (bases 1 to 17643)
   AUTHORS   Tang MC, Zou Y, Yee D, Tang Y.
-  TITLE     Identification of the Pyranonigrin A Biosynthetic Gene Cluster by 
+  TITLE     Identification of the Pyranonigrin A Biosynthetic Gene Cluster by
             Genome Mining in Penicillium thymicola IBT 5891.
   JOURNAL   AIChE J 2018;64:4182-4186
-  PUBMED    31588145
+   PUBMED   31588145
 REFERENCE   2  (bases 1 to 17643)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Feb 9, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
+  JOURNAL   Exported Feb 9, 2023 from SnapGene 6.2.1 https://www.snapgene.com
 COMMENT     SGRef: number: 1; type: "Journal Article"; doi: "10.1002/aic.16324";
-            journalName: "AIChE J"; date: "2018"; volume: "64"; pages: 
+            journalName: "AIChE J"; date: "2018"; volume: "64"; pages:
             "4182-4186"
 FEATURES             Location/Qualifiers
      source          1..17643
@@ -28,9 +28,9 @@ FEATURES             Location/Qualifiers
                      /organism="Penicillium thymicola"
      CDS             complement(join(1..2724,2795..11533,11614..11901))
                      /codon_start=1
-                     /product="polyketide synthase-nonribosomal peptide 
+                     /product="polyketide synthase-nonribosomal peptide
                      synthetase PyrA"
-                     /label=pyrA
+                     /label="pyrA"
                      /protein_id="UYW66727.1"
                      /translation="MVSIAPTVLRGSEDSGTTSKNISPPFSSRPSESSISSVDGPNHAA
                      IIGYACRVAGADRPSKLWDNIVEQRDLRQEMPSDRFNIENFYHPEGTNKGTINTKHGYF
@@ -99,10 +99,12 @@ FEATURES             Location/Qualifiers
                      HNVIPKAGTTDHPFVVDFVPVNYLVDVLTRLSVQRKNSQKAFSPTRGLQVFHITNPRPL
                      PLDQLPALVGLIRGDGDADQIGQHVSVDDWLAHSTQGNASEDEQLRREVLGDYFRQGHN
                      MFVLDRSCTDAALAGAEDLVICPAVDEAYLRALWKE"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_DH, fPKS_ER, fPKS_KR, ACP_PCP,
+                     Condensation, AA-adenyl-dom, fPKS_R"
      CDS             join(12829..13170,13226..13801,13867..14409)
                      /codon_start=1
                      /product="cytochrome P450 monooxygenase PyrB"
-                     /label=pyrB
+                     /label="pyrB"
                      /protein_id="UYW66728.1"
                      /translation="MIAHILSSSVLSVKQLSWALVLIGTFVLSLVFLSLNSEDGKKSPP
                      APNFGLPRIGDAAAFLKDPVRFIQKASKKCGSIFQVKLLFANLIYLRGTRYNRMYTDVR
@@ -113,11 +115,12 @@ FEATURES             Location/Qualifiers
                      SGRHYSGVHMFRTTHRPVDLDEGRYTVPPNWIVCISPYLTHHDPEIYHDPHKWLPGRWL
                      GHDSSTRNLNNPQEVAFMQFGAGCHRCPGEALAGIIAQGLVSHLLKNYDLAFETDDPSQ
                      DLSMLDFSKVGSPWLIGDAFIRLSRREE"
+                     /Pfam="p450"
      CDS             join(15007..15717,15772..15889,15947..16042,16098..16129,
                      16189..16509)
                      /codon_start=1
                      /product="FAD-dependent monooxygenase PyrC"
-                     /label=pyrC
+                     /label="pyrC"
                      /protein_id="UYW66729.1"
                      /translation="MTRVAPTTDAQVIIVGGGIGGLTLAGICKKLGISYKVLERSAEIT
                      PVGAGISLAPNCLRILDQLGHMDAIRRKGQPLRKIQIFRDNTLWNVVDWEWIEGKFGYS
@@ -127,16 +130,18 @@ FEATURES             Location/Qualifiers
                      ERVTASDVFEETAFPAMATGRVALVGDAAHSMTSFIGQGACQAIEDAGELANVLNSYFR
                      DRSGHPQALQMCLKEYRQRREERARYVFEFSSNFASLHTGKMSYGLGPLLRRVAFTWAP
                      LWCWDRALTPLYGYQPHIEALAEGSA"
+                     /Pfam="FAD_binding_3"
      CDS             join(16757..16844,16911..17351,17435..17643)
                      /codon_start=1
                      /product="alpha/beta hydrolase PyrD"
-                     /label=pyrD
+                     /label="pyrD"
                      /protein_id="UYW66730.1"
                      /translation="MTSLPPSQCCAGGSLHEGQSKGEITTVGNIQAYLSYPSDKKTGNA
                      ILFLSDIFGLDLVNSQLIADQYAANGYFVVMPDLFKGDPVPMDHPESFSVMDWLQGHLP
                      QHTDPIINEVLKEMRDSFGCEWVGGVGYCYGGKFVCRYLRAGQIDVGFIAHPTFIEPDE
                      LKAIQGPLSIAAAANDYLFPPGKRHESEEILATLDVPYQLSIFSEVEHGFAVRCDMNKS
                      RHKFAKEQAFSQAVAWLNHYLSK"
+                     /Pfam="DLH"
 ORIGIN
         1 tcactctttc cacaatgccc gcagatatgc ctcatctacg gccgggcaaa tcaccaaatc
        61 ttccgcaccg gctagtgcag catcagtgca acttcgatcc aacacaaaca tattatgacc

@@ -1,30 +1,30 @@
-LOCUS       FBGC00183      160211 bp DNA     linear   UNA 11-MAY-2023
+LOCUS       FBGC00183             160211 bp    DNA     linear   UNA 11-MAY-2023
 DEFINITION  epoxyjanthitrem.
 ACCESSION   FBGC00183
-VERSION     .
+VERSION     FBGC00183
 KEYWORDS    .
 SOURCE      Epichloe sp. LpTG-3 AR37
   ORGANISM  Epichloe sp. LpTG-3 AR37
+            .
 REFERENCE   1  (bases 1 to 160211)
-  AUTHORS   Miller TA, Hudson DA, Johnson RD, Singh JS, Mace WJ, Forester NT, 
+  AUTHORS   Miller TA, Hudson DA, Johnson RD, Singh JS, Mace WJ, Forester NT,
             Maclean PH, Voisey CR and Johnson LJ
-  TITLE     Dissection of the epoxyjanthitrem pathway in Epichloe sp. LpTG-3 
+  TITLE     Dissection of the epoxyjanthitrem pathway in Epichloe sp. LpTG-3
             strain AR37 by CRISPR gene editing.
   JOURNAL   Front. Fungal Biol. 2022;3:944234
 REFERENCE   2  (bases 1 to 160211)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported May 11, 2023 from SnapGene 6.2.2
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.3389/ffunb.2022.944234"; journalName: "Front. Fungal Biol."; 
-            date: "2022"; volume: "3"; pages: "944234"
+  JOURNAL   Exported May 11, 2023 from SnapGene 6.2.2 https://www.snapgene.com
 COMMENT     ##Assembly-Data-START##
             Assembly Method       :: Masurca v. 3.4.1
             Assembly Name         :: DeNovo
             Coverage              :: 100x
             Sequencing Technology :: Illumina
             ##Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.3389/ffunb.2022.944234"; journalName: "Front. Fungal Biol.";
+            date: "2022"; volume: "3"; pages: "944234"
 FEATURES             Location/Qualifiers
      source          1..160211
                      /strain="AR37"
@@ -36,7 +36,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="idtP"
                      /product="cytochrome P450 monooxygenase IdtP"
-                     /label=idtP
+                     /label="idtP"
                      /note="P450 monooxygenase"
                      /protein_id="UUW39075.1"
                      /translation="MLMLHAVPVGICLLLWYVVYGTKRKECIPTIRRWPRLLPQFLDRL
@@ -49,12 +49,13 @@ FEATURES             Location/Qualifiers
                      QQIAIPAKCINTDSTKLSDAHLFQPFRWLKQSGTATTSFSNSSALNLHFGFGRYACPGR
                      FIASYMIKAIMSRILLEYDFKLDSEFPSRRPPNIVHGDKILPNRNAVVLLRRLEKTVTV
                      C"
-     CDS             join(3484..3600,3660..3764,3824..3952,4012..4436,4497..4605,
-                     4658..4777,4831..5008,5065..5495)
+                     /Pfam="p450"
+     CDS             join(3484..3600,3660..3764,3824..3952,4012..4436,
+                     4497..4605,4658..4777,4831..5008,5065..5495)
                      /codon_start=1
                      /gene="idtQ"
                      /product="cytochrome P450 monooxygenase IdtQ"
-                     /label=idtQ
+                     /label="idtQ"
                      /note="P450 monooxygenase"
                      /protein_id="UUW39076.1"
                      /translation="MKMLTEHFDFPKLNFATIVISGATIIGIIFLRYLNYPTKVNVPVV
@@ -67,11 +68,12 @@ FEATURES             Location/Qualifiers
                      LALKDFTFSNGLNIPKGSVIFTPNSPIFEDERYYKDPKVFDGFRFARMRNDPKLGLFCD
                      LTATNEQSMHFGTGRHACPGRFMVSDEVKLAVIHILSNFDFCIENFGPRPANQPFGKFL
                      LPDMSAKIWLREKRAREKNL"
+                     /Pfam="p450"
      CDS             join(6545..7245,7320..7793,7896..8040)
                      /codon_start=1
                      /gene="idtF"
                      /product="DMATS-type prenyltransferase IdtF"
-                     /label=idtF
+                     /label="idtF"
                      /note="aromatic prenyl transferase"
                      /protein_id="UUW39077.1"
                      /translation="MIAKNIELNGLDPATRALDILYWKNHCIKQLESLLCATDSYCTAD
@@ -82,11 +84,12 @@ FEATURES             Location/Qualifiers
                      TLGGAIWDEQTQKGLGILQSIWHLLLQEPEGISDNGFDKPVNDSSMLCQKLYFSFELRP
                      GTDFPQVKTYVPTWNYLRTDGETIQNYEAIFRACDHPWGEDRTYGKIFQDAFGPATESR
                      KKPIHCDASFLFTEETGVYQTLYFSPPIEGETEVQSNLVA"
+                     /Pfam="Trp_DMAT"
      CDS             complement(join(8603..8924,9001..9716))
                      /codon_start=1
                      /gene="idtC"
                      /product="prenyltransferase IdtC"
-                     /label=idtC
+                     /label="idtC"
                      /note="Indole diterpene prenyltransferase"
                      /protein_id="UUW39078.1"
                      /translation="MTSGAWLVARPAAIEIAALLFAFTLGYLVKYTINYQSVVSQAIDH
@@ -96,22 +99,24 @@ FEATURES             Location/Qualifiers
                      LLNQGGHQSDDLLGRFGWYAQLQNDCKNIYSEEYAFNKGTVAEDLRNRELSFPVVVALN
                      DKHTEPQIRKAFQSQNQGDIKRALQALESPSVKNTCLKTLQEAGQGLENLVAVWGRKEQ
                      MHFTK"
+                     /Pfam="PaxC"
      CDS             join(10085..10605,10682..10844)
                      /codon_start=1
                      /gene="idtB"
                      /product="terpene cyclase IdtB"
-                     /label=idtB
+                     /label="idtB"
                      /protein_id="UUW39079.1"
                      /translation="MDGFSNMEQAPLAYQEVQWLAETFVTFMGLGWLINYVLMIWHSRR
                      GEPSSMALIPLCNNIAWELVYTIIYPSPNKVELAAFIAGVTLNFLIMTSAARSARSEWS
                      HSPTMAKHAGLIIVAGILMCFTGHVALAMEIGPALAYSWGAVICQLALSIGGVCQLLQQ
                      HSTGGTSWKLWSSRFLGSCCAVGFAFLRWRYWPEAYGWLASPLILWSLATFLVADLTYG
                      VCLLL"
+                     /Pfam="Pyr4"
      CDS             join(50894..50998,51050..51204,51253..51994)
                      /codon_start=1
                      /gene="idtG"
                      /product="geranylgeranyl pyrophosphate synthase IdtG"
-                     /label=idtG
+                     /label="idtG"
                      /note="geranylgeranyl diphosphate synthase"
                      /protein_id="UUW39080.1"
                      /translation="MAANDFPFQCQEKSYSQPSLVYCNGNIAETYLEEKVLTAPLDYLR
@@ -120,11 +125,12 @@ FEATURES             Location/Qualifiers
                      HCPTEDEYLRMIQKKTGGLFRLAIRLLQGESASDDDYVSLIDTLGTLFQIRDDYQNLQS
                      DIYSKNKGYCEDLTEGKFSYPVIHSIRSRPGDVRLINILKQRSEDVMVKQYAVQHIEST
                      GSFAFCQNKIQSLVEQAREQLAALENSSSCGGPVRDILDKLAIKPRANIEVE"
+                     /Pfam="GGPS"
      CDS             complement(join(53302..53833,53886..54205))
                      /codon_start=1
                      /gene="idtS"
                      /product="hypothetical protein IdtS"
-                     /label=idtS
+                     /label="idtS"
                      /protein_id="UUW39081.1"
                      /translation="MSRSDWIFISLQGFFCLAGVIWKSREGYPIIDFPCPLQFIDSSDA
                      TLSYGTTSPWFGFRAVASMQSIWDNGPWFWLHLMLYIAQLVGLILIILHETVPHGAFLR
@@ -132,11 +138,12 @@ FEATURES             Location/Qualifiers
                      SHIGIFMVAIVATLLHRDATAPFHIGNSLLGVPDCSQFPCSEIAARHARLRQINEMTGT
                      SSGFFLTVGLFSQALEAENKHLSLRVMVRMFFVSLIAGPAAGSADVLLLRDSITRSKKD
                      CG"
+                     /Pfam="LtmS"
      CDS             join(55353..55642,55709..55980,56037..56404,56511..56999)
                      /codon_start=1
                      /gene="idtM"
                      /product="FAD-dependent monooxygenase IdtM"
-                     /label=idtM
+                     /label="idtM"
                      /note="FAD dependent monooxygenase"
                      /protein_id="UUW39082.1"
                      /translation="MTSDFKVIIVGGSVAGLSLAHCLEKIGVSFVVLEKGNQIAPQLGA
@@ -148,12 +155,13 @@ FEATURES             Location/Qualifiers
                      SIRDQDINSMFQEFSMAQRARTESVCAQSEFLVRMHANQGIGRRLLGRYLIPFLYDAPA
                      GLSGFSISGATRIEFIDLPTRSLRGAWGKSWRGSWEFILQSLVYLRPKFRIVYALYLVA
                      AAAFVLYCLSSLFP"
+                     /Pfam="FAD_binding_3"
      CDS             join(58921..59184,59251..59376,59447..59515,59568..59658,
                      59726..59857,59909..60362,60444..60472,60550..60983)
                      /codon_start=1
                      /gene="idtK"
                      /product="cytochrome P450 monooxygenase IdtK"
-                     /label=idtK
+                     /label="idtK"
                      /note="P450 monooxgenase"
                      /protein_id="UUW39083.1"
                      /translation="MQYGNLTTVLLLRNTLLSLNSSSICHVHWLQVIVALLVLIVCIFL
@@ -166,11 +174,12 @@ FEATURES             Location/Qualifiers
                      ITLQDGTHVPYNTLLCVAPHAISNDPDVIEDPTSFNGLRYYEQRCRDASQEKKHQYATT
                      DKSHLHFGYGTWACPGRFLASDMLKVILTMLLLQYDIRSPERAKRPVAGHFHEFPLFNI
                      NTPLLMKRRNDSLVL"
+                     /Pfam="p450"
      CDS             join(61698..61859,61916..62563)
                      /codon_start=1
                      /gene="idt3"
                      /product="hypothetical protein Idt3"
-                     /label=idt3
+                     /label="idt3"
                      /protein_id="UUW39084.1"
                      /translation="MLDLGIIESTPQSQPPRQPPLVGFAVPLPPPQIPSGPFKLVHTPT
                      SQAMRTEPICFRFRTRRIHAIATQADREHPNVLLLQVNPSAIEKLIQIATSLLPSALRM
@@ -180,18 +189,19 @@ FEATURES             Location/Qualifiers
      CDS             complement(join(62740..62903,62975..63293))
                      /codon_start=1
                      /product="truncated polyketide synthase PKS"
-                     /label=PKS
+                     /label="PKS"
                      /note="polyketide synthase"
                      /protein_id="UUW39085.1"
                      /translation="MRGSATNAPGAPPPAQVVLGLGDCIEHNESNGGFSRDKKFALRVV
                      KVGNQAGHGEAKELVGALLANAASTAEAAAVVEENIKELVAVAMGVALDEIDAQRPLYD
                      YGVDSLQAVEIRNRALKNMRSEISVFDILSAMPLADVAAKIAAKSQLVNVNSCEDD"
+                     /Pfam="ACP_PCP"
      CDS             complement(join(109842..110204,110269..110767,
                      110834..111165))
                      /codon_start=1
                      /gene="idt1"
                      /product="cytochrome P450 monooxygenase Idt1"
-                     /label=idt1
+                     /label="idt1"
                      /note="similar to Jtm01; P450 monooxygenase"
                      /protein_id="UUW39086.1"
                      /translation="MPSIPSLASGLQAWLISGVVLLLAAAAVLVGQMAASRPRLDDRAP
@@ -201,11 +211,12 @@ FEATURES             Location/Qualifiers
                      PRVPWPSKVRKMLAGAKLHRVLSKITSDRRKTRRTKRDAMQTLMDQGHPDTIVSALIIG
                      ALSAGLANSAFSAAWILAYLSVNREWYARIRAEVDAAVAKHRRSRVESAPEVLLRLSMG
                      EWESEFPMICTALRETIRMILQLTSIRKNISGKDIQIAETGIIALCTSYKNKLNINM"
+                     /Pfam="p450"
      CDS             join(112184..112714,112771..113187)
                      /codon_start=1
                      /gene="idtA"
                      /product="acetyltransferase IdtA"
-                     /label=idtA
+                     /label="idtA"
                      /note="similar to Jtm02"
                      /protein_id="UUW39087.1"
                      /translation="MLVIERDIYADYYELDDKEKTPVRYRSLSSWGKWEWCLAHCFSAR
@@ -214,11 +225,12 @@ FEATURES             Location/Qualifiers
                      RRFWGRVWHQTFRKPWQSIGQWIAWEVMRALKGSLVSRYVQVYTSFLLSALMHVAAARM
                      ADPHRRSCAGTWIFFLMQANGIVAEDVVQWAGKKTGMRESSSLTRFLGRAWVLCWFAWT
                      APWFFGDIADVGLIRLETFPLSVTRGLWNRQWKM"
+                     /Pfam="MBOAT_2"
      CDS             join(144371..145575,145634..145751)
                      /codon_start=1
                      /gene="idtD"
                      /product="DMATS-type prenyltransferase IdtD"
-                     /label=idtD
+                     /label="idtD"
                      /note="similar to JtmD; Indole diterpene prenyltransferase"
                      /protein_id="UUW39088.1"
                      /translation="MGTCSTRVGETPSKPADVTPPEPWQALAQGLGFANENERYWWSKL
@@ -229,10 +241,11 @@ FEATURES             Location/Qualifiers
                      VTHRTAFNVMVDIYTLGGLLMGPCIEKGTQALRTLWKAVLNVPEGWPDDKDLPINPNGC
                      AAVIFNFEVRPGAEFPAPKIYLPAHYYGRPDLEIADGMDRFFLSQGWDGIYPGYKKNYL
                      KCFMNSDNQLTAVHHDISFSFKGTNPYVTVYYKPELHLEAE"
+                     /Pfam="Trp_DMAT"
      CDS             join(152899..153699,153855..155663)
                      /codon_start=1
                      /product="transposase Transposase"
-                     /label=transposase
+                     /label="transposase"
                      /protein_id="UUW39089.1"
                      /translation="MTIAAPSPHPLFDPELHYGDGDDNALYNLFTTWPESYFSSLPKPH
                      GNRGVDEPYWELRQSRIFLDDCFRGGRMRRLFTPVVPGPDRLERERLREQATSGDAEQR
@@ -249,11 +262,12 @@ FEATURES             Location/Qualifiers
                      CSVSWQLGIPCCHTIYNKLEAGIPLTKWDVHPRWHLREPTSHDPYRRIIDPKIAACLRG
                      RPKNATQPVPGSMKIRLSSRCRAAVGKAGPGRKPTGKSAILGPGKQTGVRQAGRRRQPS
                      VRRRRSEWETISDEERQEAQPKRRRQSSRTRPVIAAPPVLSNSGSKESRGDCIHVRM"
+                     /Pfam="MULE"
      CDS             156442..157551
                      /codon_start=1
-                     /product="DDE endonuclease domain-containing protein 
+                     /product="DDE endonuclease domain-containing protein
                      Unknown"
-                     /label=unknown
+                     /label="unknown"
                      /protein_id="UUW39090.1"
                      /translation="MAWSWAMQRGTLFKRKRPVLVYGRRSSSASPQRAPASLLSSFSKA
                      NRFSSSGFHKTSVFFFKDWQFTATKNGWTSDQTAVEWLEKLFIPRTRPSDPTERRLLVL
@@ -262,12 +276,13 @@ FEATURES             Location/Qualifiers
                      GANNAPSAFKSPFATHDWQSETSQIAWSTPRRPKDLKVQVVQFNQLDDDVPTKRLLFKK
                      ITKGFGEKYGLLAKAQLQIQALETQLEAVRPKKRKKVETSPNSRFANIEAIRRAQLEVH
                      ATENGESDGKESAVSEIDDGCIVVRTSGE"
+                     /Pfam="DDE_1"
      CDS             join(158691..159137,159210..159333,159391..159509,
                      159558..160211)
                      /codon_start=1
                      /gene="idtO"
                      /product="FAD-linked oxidoreductase IdtO"
-                     /label=idtO
+                     /label="idtO"
                      /note="similar to JtmO"
                      /protein_id="UUW39091.1"
                      /translation="MRDSSTEKLPILWRTDSPLNQYDEARCRVFNGRRPEHFPRAIVQA
@@ -278,6 +293,7 @@ FEATURES             Location/Qualifiers
                      PPGAIHAQDFVATDFASDYVLDKTVLPQGARYFTDSVFLKPGTDLVVACKDMFTGLKHP
                      RALAYWQPMKTATARTLPDMAMSIHSDHYVSLLGIYDDSAQDDEQTSWIVDYMRKLEPF
                      VLGTFVGDAHVLERPSNYWSEEAKERVLRVGKKWDPSGRIRGMLLSDS"
+                     /Pfam="FAD_binding_4"
 ORIGIN
         1 tcaacatacg gtaactgtct tctccaagcg gcgcaaaaga acaacggcat tccgattggg
        61 gaggatctta tccccatgaa caatgttagg agggcgccgc gacggaaact cactatctag

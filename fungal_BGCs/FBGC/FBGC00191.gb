@@ -1,26 +1,41 @@
-LOCUS       FBGC00191       20938 bp DNA     linear   UNA 23-JAN-2023
+LOCUS       FBGC00191              20938 bp    DNA     linear   UNA 23-JAN-2023
 DEFINITION  flavoglaucin.
 ACCESSION   FBGC00191
-VERSION     .
+VERSION     FBGC00191
 KEYWORDS    .
 SOURCE      Aspergillus ruber CBS 135680
   ORGANISM  Aspergillus ruber CBS 135680
+            .
 REFERENCE   1  (bases 1 to 20938)
   AUTHORS   Nies J, Ran H, Wohlgemuth V, Yin WB, Li SM.
   TITLE     Biosynthesis of the Prenylated Salicylaldehyde Flavoglaucin Requires
-            Temporary Reduction to Salicyl Alcohol for Decoration before 
+            Temporary Reduction to Salicyl Alcohol for Decoration before
             Reoxidation to the Final Product.
   JOURNAL   Org Lett 2020;22:2256-2260
-  PUBMED    32134669
+   PUBMED   32134669
 REFERENCE   2  (bases 1 to 20938)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Jan 23, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1021/acs.orglett.0c00440"; journalName: "Org Lett"; date: 
+  JOURNAL   Exported Jan 23, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     ##ata-START##
+            Assembly Method       :: Allpaths-LG v. R39750
+            Assembly Name         :: Eurhe1
+            Genome Coverage       :: 39.7x
+            Sequencing Technology :: Illumina
+            ##ata-END##
+            ##Metadata-START##
+            Organism Display Name :: Eurotium rubrum
+            GOLD Stamp ID         :: Gi08792
+            ##Metadata-END##
+            ##Genome-Annotation-Data-START##
+            Annotation Provider   :: INSDC submitter
+            Annotation Status     :: Full annotation
+            Annotation Pipeline   :: Eukaryotic Annotation Propagation Pipeline
+            ##Genome-Annotation-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1021/acs.orglett.0c00440"; journalName: "Org Lett"; date:
             "2020"; volume: "22"; pages: "2256-2260"
-COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final 
+            PROVISIONAL REFSEQ: This record has not yet been subject to final
             NCBI review. The reference sequence is identical to KK088422.
             URL -- http://genome.jgi.doe.gov/Eurhe1
             JGI Project ID: 404126
@@ -28,26 +43,13 @@ COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
             The strain is available from CBS
             Contacts: Tamar Kis-Papo (kispapo@research.haifa.ac.il)
             Assembly and annotation done by JGI.
-            The JGI and collaborators endorse the principles for the 
-            distribution and use of large scale sequencing data adopted by the 
-            larger genome sequencing community and urge users of this data to 
+            The JGI and collaborators endorse the principles for the
+            distribution and use of large scale sequencing data adopted by the
+            larger genome sequencing community and urge users of this data to
             follow them. It is our intention to publish the work of this project
-            in a timely fashion and we welcome collaborative interaction on the 
-            project and analysis. 
+            in a timely fashion and we welcome collaborative interaction on the
+            project and analysis.
             (http://www.genome.gov/page.cfm?pageID=10506376).##Genome-Assembly-D
-            ata-START##
-            Assembly Method       :: Allpaths-LG v. R39750
-            Assembly Name         :: Eurhe1
-            Genome Coverage       :: 39.7x
-            Sequencing Technology :: Illumina
-            ##Genome-Assembly-Data-END####Metadata-START##
-            Organism Display Name :: Eurotium rubrum
-            GOLD Stamp ID         :: Gi08792
-            ##Metadata-END####Genome-Annotation-Data-START##
-            Annotation Provider :: INSDC submitter
-            Annotation Status   :: Full annotation
-            Annotation Pipeline :: Eukaryotic Annotation Propagation Pipeline 
-            ##Genome-Annotation-Data-END##
 FEATURES             Location/Qualifiers
      source          1..20938
                      /chromosome="Unknown"
@@ -62,7 +64,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="EURHEDRAFT_499888"
                      /product="polyketide synthase FogA"
-                     /label=fogA
+                     /label="fogA"
                      /db_xref="GeneID:63700853"
                      /db_xref="InterPro:IPR013149"
                      /db_xref="InterPro:IPR013154"
@@ -113,11 +115,12 @@ FEATURES             Location/Qualifiers
                      PDQAHLLTGLEPAGVRQLKARGFDVSNHGVLTEARAALLAASLAAEQEVLDAQNSTSSS
                      GSNSNTPTTAAPWFKALPGTATSTFASEADAESLNAAILRLIKKRFSNLILMPLEQIDE
                      RKALPQFGVDSMIASEFRTWFYTVFKVDIPFLDLMSAQKSLEGLAVVVEGKLVEGWK"
+                     /Pfam="PKS_KS, PKS_AT, fPKS_DH, fPKS_ER, fPKS_KR, ACP_PCP"
      CDS             join(8318..8354,8403..8650,8702..9238)
                      /codon_start=1
                      /locus_tag="EURHEDRAFT_377419"
                      /product="short-chain dehydrogenase/reductase FogB"
-                     /label=fogB
+                     /label="fogB"
                      /db_xref="GeneID:63694089"
                      /db_xref="InterPro:IPR002198"
                      /db_xref="InterPro:IPR013096"
@@ -128,11 +131,12 @@ FEATURES             Location/Qualifiers
                      ATLPLAEFRRFLDVNTIGMFLVTREVSAAMRAQEPRLVSSESPRRGTTRGAIVNLASVL
                      SVVAAPGIIPYTASKHAVLGLTKNAALDNVSHGIRVNCVCPSWVDTPMVQQAEEGVQGL
                      TQFIKSVVPMGRIAVPEEIADAVIFLASPRSSYVTGSGFIVDGGTTLTAMR"
+                     /Pfam="adh_short_C2"
      CDS             join(9499..9768,9819..10160)
                      /codon_start=1
                      /locus_tag="EURHEDRAFT_377419"
                      /product="cupin domain-containing protein FogC"
-                     /label=fogC
+                     /label="fogC"
                      /db_xref="GeneID:63694089"
                      /db_xref="InterPro:IPR002198"
                      /db_xref="InterPro:IPR013096"
@@ -142,13 +146,14 @@ FEATURES             Location/Qualifiers
                      LSTDIGDHHRTLGEKQAISNIIYSTNQTPVELNGNHDIEFARNTEPGLHVKDGSVARLI
                      DFAPGVESPLHRAVSLDYGVVIEGVFKMVLDSGEERIMRPGDISVQRATAHKWINVTGN
                      GTLPGRMLFVLLDCNDVYVNGKKMEGYLGTLAKDYEGRSS"
+                     /Pfam="SrdD"
      CDS             complement(join(10558..10635,10693..10832,10887..10943,
                      11000..11063,11125..11140,11197..11269,11322..11503,
                      11556..11777,11843..11871))
                      /codon_start=1
                      /locus_tag="EURHEDRAFT_455854"
                      /product="short-chain dehydrogenase/reductase FogD"
-                     /label=fogD
+                     /label="fogD"
                      /db_xref="GeneID:63699431"
                      /db_xref="InterPro:IPR002198"
                      /db_xref="JGIDB:Eurhe1_455854"
@@ -159,12 +164,13 @@ FEATURES             Location/Qualifiers
                      EMAPFDVRVITVISGEVATNILKNDAHRRLPEGSYYSPLAENFRQHVTRTPPRTTDRFQ
                      YAANVVAESLRSSPSAWFWYGSQSTLIRFLDMFCWRTVWDSLFWRMFDLGKLKEAHSSK
                      AKKQV"
+                     /Pfam="adh_short"
      CDS             join(12160..12510,12571..12813,12864..12899,12950..13108,
                      13167..13540,13598..14051)
                      /codon_start=1
                      /locus_tag="EURHEDRAFT_455792"
                      /product="cytochrome P450 monooxygenase FogE"
-                     /label=fogE
+                     /label="fogE"
                      /db_xref="GeneID:63699423"
                      /db_xref="InterPro:IPR001128"
                      /db_xref="JGIDB:Eurhe1_455792"
@@ -179,12 +185,13 @@ FEATURES             Location/Qualifiers
                      PRTFDPRRYMDHEYYPQTAANTEVTRDHFAFGAGRRRCQGIHIAERSLFLSISRLLWAF
                      DFKRAVDPVTKLEIFPSMDDLSDGAFTQPNTFPARIVPRSEEKARRVGEEWGKVLELLD
                      GDMQWRTVPEGLIWRDYEAVA"
+                     /Pfam="p450"
      CDS             complement(join(14276..14549,14613..14989,15045..15439,
                      15488..15701,15764..15997))
                      /codon_start=1
                      /locus_tag="EURHEDRAFT_412154"
                      /product="FAD-linked oxidoreductase FogF"
-                     /label=fogF
+                     /label="fogF"
                      /db_xref="GeneID:63696953"
                      /db_xref="InterPro:IPR006094"
                      /db_xref="InterPro:IPR012951"
@@ -199,11 +206,12 @@ FEATURES             Location/Qualifiers
                      RSLFTGQMRKYTALTLQETFDKITTLWETHPGLAYTSLNFEAFPNHAAVAVPDDATAYP
                      WRDAIGWFQFEIISLEGVGSDSFNAGEHAGQVLRDSWVRTSGYDNHTIYVNYARGDETL
                      EQKYGASKLPRLAALKKKYDPDNVFGWNNALPTEYPGSG"
+                     /Pfam="FAD_binding_4, BBE"
      CDS             join(16475..17400,17456..17576)
                      /codon_start=1
                      /locus_tag="EURHEDRAFT_515220"
                      /product="short-chain dehydrogenase/reductase FogG"
-                     /label=fogG
+                     /label="fogG"
                      /db_xref="GeneID:63701473"
                      /db_xref="InterPro:IPR002198"
                      /db_xref="JGIDB:Eurhe1_515220"
@@ -215,11 +223,12 @@ FEATURES             Location/Qualifiers
                      QFFVTELAKRVSPDAVLVTTTNCGLCHGSELSREGQGHLIGYVFNVVSRLFGRSCSVGA
                      RVFVHAAANPVLGASVHGQYVEDAKLKPMSPLIYKPGDLQLGSKLWEETMDELSFAGAR
                      EIIDSLTK"
+                     /Pfam="adh_short"
      CDS             join(18178..18354,18441..19568)
                      /codon_start=1
                      /locus_tag="EURHEDRAFT_530727"
                      /product="DMATS-type prenyltransferase FogH"
-                     /label=fogH
+                     /label="fogH"
                      /db_xref="GeneID:63702285"
                      /db_xref="JGIDB:Eurhe1_530727"
                      /protein_id="XP_040639030.1"
@@ -231,11 +240,12 @@ FEATURES             Location/Qualifiers
                      LLSLRDLLNALTGQSPDFPEDGEPPIVEEDVTADLDTDGHPELMSGYLYYFDIAPGAAL
                      PEIRFYVPIRRYCKSDLDLAQSLTAWMAANGRGTYCQQYLDLVHSLAEHREISKDRGLQ
                      RYIACLLAKNGEIEVTTYLAPETYEQVRRSQKTAV"
+                     /Pfam="Trp_DMAT"
      CDS             complement(19691..20938)
                      /codon_start=1
                      /locus_tag="EURHEDRAFT_402538"
                      /product="transcription factor FogI"
-                     /label=fogI
+                     /label="fogI"
                      /db_xref="GeneID:63695269"
                      /db_xref="InterPro:IPR001138"
                      /db_xref="JGIDB:Eurhe1_402538"
@@ -248,6 +258,7 @@ FEATURES             Location/Qualifiers
                      VAMLIGRIIDEFELMLNERIGRGTTMPERERSLSLDEATISIREPRLCWGVLELEDDDE
                      VELRQRLYLLYFRKLERLLSQLNVFVRTLHDSRGGSCNPTFIMACEYIHLWLEKKAEGV
                      KRLFPAADEYTGRIPS"
+                     /Pfam="EqxR"
 ORIGIN
         1 ctacttccac ccctccacca acttcccctc cacaaccacc gccagcccct ccaacgactt
        61 ctgcgcactc atcaagtcca aaaacgggat atcgacctta aacactgtat agaaccacgt

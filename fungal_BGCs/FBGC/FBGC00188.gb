@@ -1,37 +1,38 @@
-LOCUS       FBGC00188       21627 bp DNA     linear   UNA 12-MAY-2023
+LOCUS       FBGC00188              21627 bp    DNA     linear   UNA 12-MAY-2023
 DEFINITION  NK13650 C.
 ACCESSION   FBGC00188
-VERSION     .
+VERSION     FBGC00188
 KEYWORDS    .
 SOURCE      Aspergillus thermomutatus HMR AF 39
   ORGANISM  Aspergillus thermomutatus HMR AF 39
+            .
 REFERENCE   1  (bases 1 to 21627)
   AUTHORS   Yee DA, Niwa K, Perlatti B, Chen M, Li Y, Tang Y.
   TITLE     Genome mining for unknown-unknown natural products.
   JOURNAL   Nat Chem Biol 2023;19:633-640
-  PUBMED    36702957
+   PUBMED   36702957
 REFERENCE   2  (bases 1 to 21627)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported May 12, 2023 from SnapGene 6.2.2
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1038/s41589-022-01246-6"; journalName: "Nat Chem Biol"; date: 
-            "2023"; volume: "19"; pages: "633-640"
-COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final 
-            NCBI review. The reference sequence is identical to NKHU02000029. 
-            Annotated using funannotate v. 
-            1.4.2-b1d62e5.##Genome-Assembly-Data-START##
+  JOURNAL   Exported May 12, 2023 from SnapGene 6.2.2 https://www.snapgene.com
+COMMENT     ##Genome-Assembly-Data-START##
             Assembly Date          :: 25-OCT-2017
             Assembly Method        :: SPAdes v. 3.11.1
             Expected Final Version :: yes
             Genome Coverage        :: 5x
-            Sequencing Technology  :: Illumina MiSeq 
-            ##Genome-Assembly-Data-END####Genome-Annotation-Data-START##
-            Annotation Provider :: INSDC submitter
-            Annotation Status   :: Full annotation
-            Annotation Pipeline :: Eukaryotic Annotation Propagation Pipeline 
+            Sequencing Technology  :: Illumina MiSeq
+            ##Genome-Assembly-Data-END##
+            ##Genome-Annotation-Data-START##
+            Annotation Provider    :: INSDC submitter
+            Annotation Status      :: Full annotation
+            Annotation Pipeline    :: Eukaryotic Annotation Propagation Pipeline
             ##Genome-Annotation-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1038/s41589-022-01246-6"; journalName: "Nat Chem Biol"; date:
+            "2023"; volume: "19"; pages: "633-640"
+            PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to NKHU02000029.
+            Annotated using funannotate v.
 FEATURES             Location/Qualifiers
      source          1..21627
                      /chromosome="Unknown"
@@ -49,7 +50,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="CDV56_108768"
                      /product="NRPS independent siderophore synthetase AnkE"
-                     /label=ankE
+                     /label="ankE"
                      /db_xref="GeneID:38130742"
                      /protein_id="XP_026617162.1"
                      /translation="MTVPPISERASFEVAKRLLCQILNEGLVSGTLETFESEEPYLCLF
@@ -63,12 +64,14 @@ FEATURES             Location/Qualifiers
                      KVHVPTLEKLGINLCMTSPGCTKNLEDIWSKIHHSIFQNHLGNLVYALGLDRHDGWTII
                      RDELFAALKPDTDPRAKELYDFILQDTMPFKCFLRMRMSEHFNDYDGDEQDQPRVKRDE
                      RPLPNALLMGSARWEKVLNECAPKKLES"
-     CDS             complement(join(2598..2763,2815..2975,3029..3139,3191..3511,
-                     3559..3650,3702..3825,3896..4157,4214..4277,4323..4596))
+                     /Pfam="IucA_IucC, FhuF"
+     CDS             complement(join(2598..2763,2815..2975,3029..3139,
+                     3191..3511,3559..3650,3702..3825,3896..4157,4214..4277,
+                     4323..4596))
                      /codon_start=1
                      /locus_tag="CDV56_108814"
                      /product="cytochrome P450 monooxygenase AnkB"
-                     /label=ankB
+                     /label="ankB"
                      /db_xref="GeneID:38130788"
                      /protein_id="XP_026617163.1"
                      /translation="MAQFNSTWAISGRRSAISVDTFHALSIQAPGLLLGTLLFYLFYKY
@@ -81,11 +84,12 @@ FEATURES             Location/Qualifiers
                      VVPKGGVDIGGYHIPGGTQISMIHPVVELNEEIFPNPHEFIPERWLGDNGQDLEKWAIA
                      FSKGRRQCIGKNLAYMMLYASIAVVFSRLEMELYETTAADMEIIDQFAPIIQGVVKVKI
                      TKDRWRE"
+                     /Pfam="p450"
      CDS             complement(join(5380..7077,7139..9505,9586..9987))
                      /codon_start=1
                      /locus_tag="CDV56_108862"
                      /product="ABC transporter AnkH"
-                     /label=ankH
+                     /label="ankH"
                      /db_xref="GeneID:38130836"
                      /protein_id="XP_026617164.1"
                      /translation="MELTLQIPPGRQESLPGQQHSTVLYPTRNGSLAWLSAAGLFTVIL
@@ -114,11 +118,12 @@ FEATURES             Location/Qualifiers
                      SPCATGDCSPLDRAVAAGGSNLSQGQRQLLCIAREIVRRPKILVLDEATSAVDKQSDRL
                      IQQCVRTVFGGGSTTLLVVAHRLGTVADFERVLVLDAGRAVEFGSPLELMQRENGIFRE
                      MVEQDQERAMLKEIIARGRLESDSCTE"
+                     /Pfam="ABC_membrane, ABC_tran"
      CDS             complement(11195..12751)
                      /codon_start=1
                      /locus_tag="CDV56_108942"
                      /product="arginine-containing cyclodipeptide synthase AnkA"
-                     /label=ankA
+                     /label="ankA"
                      /db_xref="GeneID:38130916"
                      /protein_id="XP_026617165.1"
                      /translation="MEDRIPVADLQHSAGSLAAIAFHNIEHCTQKTSSAILGYYHLPHI
@@ -131,12 +136,13 @@ FEATURES             Location/Qualifiers
                      ERRIYSRSQKLLKKLRASLPASAAVPHLLEVYLCRRIFINSNETGSNLYLDDPSPEPFV
                      LRLCQGLAPEGKQELVRAQDRHNTRPETIKLDAFDVVEGLYGSHIAEVLKDLFAEVGLG
                      A"
+                     /Pfam="AnkA"
      CDS             join(13437..13544,13595..13689,13755..14360,14417..14755,
                      14813..15356)
                      /codon_start=1
                      /locus_tag="CDV56_108975"
                      /product="PLP-containing enzyme AnkD"
-                     /label=ankD
+                     /label="ankD"
                      /db_xref="GeneID:38130949"
                      /protein_id="XP_026617166.1"
                      /translation="MGELGPASAQHGSDSISFSGSYTQPLGAPQPPNEPHAISVSLPTW
@@ -149,13 +155,14 @@ FEATURES             Location/Qualifiers
                      LTTTYEDLYFPLDAKTIARNSSDFAARVHKCNKSALQIANLLNSHASVESVNYPTMVPT
                      APLYERYRRPDGGYGFLLSVIFREPESAVLFYDKLDVWKGPTVGTNFSISIPYSALAHA
                      KEQDWAASHGVPKHIVRLSVGLEDYGDLSERVNRALREVELREKMG"
+                     /Pfam="Cys_Met_Meta_PP"
      CDS             join(15890..15934,15984..15994,16065..16157,16207..16368,
                      16419..16757,16819..17002,17054..17076,17134..17262,
                      17322..18099)
                      /codon_start=1
                      /locus_tag="CDV56_109012"
                      /product="FAD-dependent monooxygenase AnkC"
-                     /label=ankC
+                     /label="ankC"
                      /db_xref="GeneID:38130986"
                      /protein_id="XP_026617167.1"
                      /translation="MTKKESAVDVLIIGAGPAGLIAAMWMAKCGITTRVVEQRPYQLRV
@@ -169,11 +176,12 @@ FEATURES             Location/Qualifiers
                      VIVFAGDLSQPLELNRFNTCGTALQQIEEQILPASMGKFNVIAVHRARKTAIELASLAD
                      IFFPVDETTGRDYNRVYCDMETSYEEAGIGEQGAVVLVRPDQYVGWCGEVEDVQGLTGY
                      LQPIFEAKKHA"
+                     /Pfam="FAD_binding_3, Phe_hydrox_dim"
      CDS             join(18754..19142,19193..19326,19380..19501,19563..19637)
                      /codon_start=1
                      /locus_tag="CDV56_109050"
                      /product="methyltransferase AnkF"
-                     /label=ankF
+                     /label="ankF"
                      /db_xref="GeneID:38131024"
                      /protein_id="XP_026617168.1"
                      /translation="MYESIIPFPDETASTVDKYCCSHSTSLPPLFADHAAWTVDKFQTS
@@ -181,11 +189,12 @@ FEATURES             Location/Qualifiers
                      AASKEAFAKYDPEGKIHLVEGPALQTLREINAGPFDIIYVDARKAEYIEYVEIILERHL
                      LAENGIILADDTIHLGLVADRSSTNPHSAREDIEYSLQHADNVYKFNEWAVKHPQLDVL
                      LLPIFNGVTLIKIKSQT"
+                     /Pfam="Methyltransf_3"
      CDS             join(20094..20423,20515..21627)
                      /codon_start=1
                      /locus_tag="CDV56_109067"
                      /product="ATP-grasp protein AnkG"
-                     /label=ankG
+                     /label="ankG"
                      /db_xref="GeneID:38131041"
                      /protein_id="XP_026617169.1"
                      /translation="MYQISLKATKSAAEPTSSTDASHDDRQVERDSYDTAMLRFISDME

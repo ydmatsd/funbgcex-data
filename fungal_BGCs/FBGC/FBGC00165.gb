@@ -1,32 +1,32 @@
-LOCUS       FBGC00165       53110 bp DNA     linear   UNA 22-JAN-2023
+LOCUS       FBGC00165              53110 bp    DNA     linear   UNA 22-JAN-2023
 DEFINITION  penigainamide.
 ACCESSION   FBGC00165
-VERSION     .
+VERSION     FBGC00165
 KEYWORDS    .
 SOURCE      Penicillium steckii YE
   ORGANISM  Penicillium steckii YE
+            .
 REFERENCE   1  (bases 1 to 53110)
-  AUTHORS   Jiang G, Zhang P, Ratnayake R, Yang G, Zhang Y, Zuo R, Powell M, 
-            Huguet-Tapia JC, Abboud KA, Dang LH, Teplitski M, Paul V, Xiao R, 
+  AUTHORS   Jiang G, Zhang P, Ratnayake R, Yang G, Zhang Y, Zuo R, Powell M,
+            Huguet-Tapia JC, Abboud KA, Dang LH, Teplitski M, Paul V, Xiao R,
             Ahammad KH, Zaman U, Hu Z, Cao S, Luesch H, Ding Y.
-  TITLE     Fungal Epithiodiketopiperazines Carrying alpha,beta-Polysulfide 
-            Bridges from Penicillium steckii YE, and Their Chemical 
+  TITLE     Fungal Epithiodiketopiperazines Carrying alpha,beta-Polysulfide
+            Bridges from Penicillium steckii YE, and Their Chemical
             Interconversion.
   JOURNAL   ChemBioChem 2021;22:416-422
-  PUBMED    32816319
+   PUBMED   32816319
 REFERENCE   2  (bases 1 to 53110)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Jan 22, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1002/cbic.202000403"; journalName: "ChemBioChem"; date: "2021"; 
-            volume: "22"; pages: "416-422"
+  JOURNAL   Exported Jan 22, 2023 from SnapGene 6.2.1 https://www.snapgene.com
 COMMENT     ##Assembly-Data-START##
             Assembly Method       :: spades v. v3.11
             Coverage              :: 109
             Sequencing Technology :: Illumina
             ##Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1002/cbic.202000403"; journalName: "ChemBioChem"; date: "2021";
+            volume: "22"; pages: "416-422"
 FEATURES             Location/Qualifiers
      source          1..53110
                      /strain="YE"
@@ -38,7 +38,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="Pen4-1"
                      /product="methyltransferase Pen4-1"
-                     /label=pen4-1
+                     /label="pen4-1"
                      /note="O-methyltransferase"
                      /protein_id="QPP19361.1"
                      /translation="MGSASDQDRQVGDLLDRLSHLHGQLSLLNIAVEEESKDYGGRKEL
@@ -49,11 +49,12 @@ FEATURES             Location/Qualifiers
                      TLKNLLHSPPDGIELVIHDIFTELPVQGAAVYHLKRILHDWSDHSARIILKHVVSAMDP
                      ERSKVLIMDAVLPSADISLSQAMGDHSMLTFGGKERTEEDWRTLLESVGLVIEHIYQGS
                      EPEALIECRKA"
+                     /Pfam="Dimerisation2, Methyltransf_2"
      CDS             complement(join(4715..5083,5193..5699))
                      /codon_start=1
                      /gene="Pen4-2"
                      /product="gamma-glutamyl cyclotransferase Pen4-2"
-                     /label=pen4-2
+                     /label="pen4-2"
                      /note="O-methyltransferase"
                      /protein_id="QPP19363.1"
                      /translation="MYSQQHPTTPRRLAHVENDKLEANKPVWYFSYGSNLTSETFRAHR
@@ -62,12 +63,13 @@ FEATURES             Location/Qualifiers
                      PSRRYKDLICVGAKEAELPKTYQTYLDNLPCYDAPQSRWTWRWIGCMLFLAWWSPVMAA
                      AEKLTQATENSDGTGYCPKWVRFTVRFILYVMWLHHDYIHAPIWGRGDGLDKVTRAGRV
                      EWAISPRSPA"
-     CDS             join(6461..6608,6672..6766,6815..6880,6933..7280,7341..7575,
-                     7626..8237,8304..8386)
+                     /Pfam="GliK"
+     CDS             join(6461..6608,6672..6766,6815..6880,6933..7280,
+                     7341..7575,7626..8237,8304..8386)
                      /codon_start=1
                      /gene="Pen5"
                      /product="ATP synthase subunit beta Pen5"
-                     /label=pen5
+                     /label="pen5"
                      /note="ATP synthesis"
                      /protein_id="QPP19364.1"
                      /translation="MLRKACLPKPGGYFRLGSASLLPRSDRCRRYLSTVAPNPTGKIHT
@@ -80,12 +82,13 @@ FEATURES             Location/Qualifiers
                      SKSRLLDPRVVGEEHYNVALNVQMILQEYKSLQDIIAILGIDELSEEDKIKVERARKIQ
                      RFLSQPFAVAEVFTGIKGELVPLEETIRSFKAILEGQGDEMPENAFYMVGSFDTAKAKS
                      ERILAELDKRS"
+                     /Pfam="ATP-synt_ab_N, ATP-synt_ab"
      CDS             complement(join(9153..9309,9377..10020,10091..10433,
                      10526..11098,11167..11582,11636..11692))
                      /codon_start=1
                      /gene="Pen6"
                      /product="ABC transporter Pen6"
-                     /label=pen6
+                     /label="pen6"
                      /note="ABC transporter"
                      /protein_id="QPP19365.1"
                      /translation="MVYDAHQNNKCISQPPISTASLTGVFLFFAASLLPDSQGPYQPSP
@@ -101,11 +104,12 @@ FEATURES             Location/Qualifiers
                      MYNLRYVRPTATDEEIYDACRAASVHDKIMALPDGYQTRVGERGLRLSGGEKQRISIAR
                      VLLKSPRVLLLDEATASLDSETEKSIQASLAKISVGRTTITIAHRLSTITSCDEIVVLQ
                      EGRVIERGTHSSLVQQRGRYWHMWDKQRLQREKEN"
+                     /Pfam="ABC_membrane, ABC_tran"
      CDS             join(12214..12604,12655..13586)
                      /codon_start=1
                      /gene="Pen7"
                      /product="hypothetical protein Pen7"
-                     /label=pen7
+                     /label="pen7"
                      /note="hypothetical protein PENSTE"
                      /protein_id="QPP19366.1"
                      /translation="MSTHDDEGARDRGDEHTGLLDHGNGEARKLLSYPAMRAVPIAFLV
@@ -116,12 +120,13 @@ FEATURES             Location/Qualifiers
                      QLHYTPKDNGTLLSIIAITAAGYLMSVSFILPKIAREKQIPLWLDLGAATISILGQAGA
                      AMLLTQSHQVYLAASLTAIGLATPSFIRSLVVTKLESAKSQAVAGLAAMETAGGLLSPI
                      VLGQWQAADPGVSAFYGVAGILIGSLGCLMMGAWASTRTWT"
+                     /Pfam="Spd14"
      CDS             complement(13915..18666)
                      /codon_start=1
                      /gene="PenP"
-                     /product="nonribosomal peptide synthetase-polyketide 
+                     /product="nonribosomal peptide synthetase-polyketide
                      synthase PenP"
-                     /label=penP
+                     /label="penP"
                      /note="NPRS (T-C-A-T-C)"
                      /protein_id="QPP19367.1"
                      /translation="MSHQDYILTLVSSNMGDNGILSEAVELKPSESAPCRIMLLELISG
@@ -152,23 +157,24 @@ FEATURES             Location/Qualifiers
                      HAVPWDQLLRHLTVVPDYPNHPLFDIMVTFHDHRTRHPFALPGFERDHIGVWSQGSKFK
                      LLFEFAIGVGDRMQLRVEHDVDCYPDSVIQRMFRVLRQSLELLGTETSYTKLRAKLAKE
                      VENR"
+                     /Pfam="ACP_PCP, NRPS_C, AA-adenyl-dom"
      CDS             complement(join(18947..19174,19231..19476))
                      /codon_start=1
                      /gene="Pen8"
                      /product="hypothetical protein Pen8"
-                     /label=pen8
+                     /label="pen8"
                      /note="hypothetical protein PENSTE"
                      /protein_id="QPP19368.1"
                      /translation="MTDYNVSWVMPANAPGEQDVLTLDDLWQGCLLLARSPETFTSAIS
                      KCDIEDDDGNTLIRTLYFSERPQAMLKQTICLSPGVKFECQSDTGNKVTTMVLGGLSGS
                      SDDAYLSIEYAIPSANMKPDPESAKQSFAAKAKENLVDGLKTMRELKAQGKLG"
+                     /Pfam="AtaL"
      CDS             join(19784..19993,20053..20162,20235..21426)
                      /codon_start=1
                      /gene="PenF"
                      /product="cytochrome P450 monooxygenase PenF"
-                     /label=penF
-                     /note="P450
-                     revised sequence"
+                     /label="penF"
+                     /note="P450 revised sequence"
                      /protein_id="QPP19369.1"
                      /translation="MDLMQQVFIQLCQEYPLLIKTVPYITAALSSLVVLATCWQRFRND
                      GLDLPVMGHDKETDFRAALEEGAEKYPNTPFILATPMHPTVILPLSIMDEIKNLPEDIL
@@ -179,12 +185,13 @@ FEATURES             Location/Qualifiers
                      LHKQSMVKLAKMDSVVRESQRTNPPGLVSMLRRITARKGLTLSTGHHIPYGTVVGFSAH
                      EVTRKYPNFEKYDGFRFANLRKEPGQATRHQLVATGPDQISFGHGTHGCPGRFFAASEI
                      KVVMAHLLQHYDIKLLDGAKRPGNVHAGATVSPANDKILFRKRVD"
+                     /Pfam="p450"
      CDS             complement(join(21689..21769,21824..22228,22311..22426,
                      22494..22672,22743..23206))
                      /codon_start=1
                      /gene="Pen9"
                      /product="methyltransferase Pen9"
-                     /label=pen9
+                     /label="pen9"
                      /note="O-methyltransferase"
                      /protein_id="QPP19370.1"
                      /translation="MAAKSQVVELANQVVTLIADLLEEWDKRPLEQPPFDSTIWSDLAT
@@ -195,12 +202,13 @@ FEATURES             Location/Qualifiers
                      HDFFQQQPSIPNAKAFLLRHVLHNYDDKDCIRIISALVPALEAQGESASPLLLINEGVV
                      PELGETTAHDLHLTVRRGDLCMMVTLDAQERTRKQFQSLLSAADPRLQIRGVYGSGVTR
                      LIEVHLNNETSTASH"
+                     /Pfam="Methyltransf_2"
      CDS             join(23510..23680,23745..24329,24396..24689,24767..25044,
                      25108..25303)
                      /codon_start=1
                      /gene="Pen10"
                      /product="cytochrome P450 monooxygenase Pen10"
-                     /label=pen10
+                     /label="pen10"
                      /note="P450"
                      /protein_id="QPP19371.1"
                      /translation="MIDLTLFDVVKVTAGLCGVYIIVLFGWRLYFHPLARFPGPKLAAL
@@ -212,13 +220,13 @@ FEATURES             Location/Qualifiers
                      WNDLEQLRYLRHIVMESMRVTASVTGRLARVAPDETLTYGTWVIPPGTPVSMDHHFTHL
                      NPSIFEDPTRFDPLRWQKATDEGSSLDRYLIPFGRGSRMCIGINVAKAVIYRTIAEMVL
                      RYDMELYETTREDVDIVRDNLMGATKAGSQGVRMILSKREEKEIVNPVH"
+                     /Pfam="p450"
      CDS             complement(join(25408..25842,25902..26699))
                      /codon_start=1
                      /gene="Pen11"
                      /product="acetyltransferase Pen11"
-                     /label=pen11
-                     /note="aminotransferase
-                     revised sequence"
+                     /label="pen11"
+                     /note="aminotransferase revised sequence"
                      /protein_id="QPP19372.1"
                      /translation="MNADYSDYQLNLQSTPADGSILPHLLLFGVQMIALIAPPFHHRKT
                      LLASSIVILAIVSNINRFTDDPGLAQFFSLAWPHYLSILEKVLGAPYPGPETTLWRIDR
@@ -228,11 +236,12 @@ FEATURES             Location/Qualifiers
                      PTGVIRKYARLWLSFAISGVMHATSIYILPAPMNLSYRERSLGFVRFFLLQAAAITAED
                      FCGWIGRQILRDTFTSLSRYRVLGYLWVVCWFGYSLPFFLDILLKMKTFETPMLPFSLL
                      GSVVSYVSMCN"
+                     /Pfam="MBOAT_2"
      CDS             26954..27889
                      /codon_start=1
                      /gene="PenT"
                      /product="thioredoxin reductase PenT"
-                     /label=penT
+                     /label="penT"
                      /note="thioredoxin reductase"
                      /protein_id="QPP19373.1"
                      /translation="MLDVTDVLIVGGGYAGLAAANTLYRCCHTTMVFNSNCFRDAKASK
@@ -241,11 +250,12 @@ FEATURES             Location/Qualifiers
                      IKLAGDTGKFAHEITLYTNGAEVVTTQLKDLVRDTGFHVEPRGIRRLIKGPEGADVTIE
                      LEDETLCKESFLVHQPWTGLRGPLPSQLGVDITPMGDIKVEHPFPATTIPGVYAAGDCA
                      SPFKNASMAIVGGICAGNGVARELRTNLIK"
+                     /Pfam="Pyr_redox_2"
      CDS             complement(join(28109..28797,28870..29275))
                      /codon_start=1
                      /gene="Pen12"
                      /product="aldo-keto reductase Pen12"
-                     /label=pen12
+                     /label="pen12"
                      /note="aryl-alcohol dehydrogenase"
                      /protein_id="QPP19374.1"
                      /translation="MDLKALPRHYQENVNNTKCTYRQLGKSGLKVSVPILGCMGIGDQD
@@ -255,11 +265,12 @@ FEATURES             Location/Qualifiers
                      YNMIYREEEREMNRYCKLTGVGIIPWAPLCRGWLARRLQDSLHGTTQRSQDECFNGSRY
                      IAIREAPDQQIIRRIEEVADSKGWSMVDVALAWLNKRVTSPVVGMRTEMMLDEACAVQG
                      KELTVEEEKYLEELYEPRAISGHA"
+                     /Pfam="Aldo_ket_red"
      CDS             complement(join(30087..30967,31041..31230))
                      /codon_start=1
                      /gene="Pen13"
                      /product="transporter Pen13"
-                     /label=pen13
+                     /label="pen13"
                      /note="nicotinamide riboside transporter 1"
                      /protein_id="QPP19375.1"
                      /translation="MAMAVMNILTLVTILGILIWALTAAHGVGPMLSQSANSVTSSQLG
@@ -269,12 +280,13 @@ FEATURES             Location/Qualifiers
                      VLRRQRLRLSDLYHIRSEGIYYYFHGLNWRSLVAWVTGWAPLLPGFIQTVQPAIPLQTS
                      IAKLYNVAFVLGFTISFVVHLGLNLIFPPPGLGEIDDTDVFLTFTRGEAEALGGQAESS
                      AHTEIIEVGREELKMA"
+                     /Pfam="Transp_cyt_pur"
      CDS             join(32162..32233,32289..32517,32572..32654,32727..33186,
                      33258..33806,33861..34003)
                      /codon_start=1
                      /gene="Pen14"
                      /product="cytochrome P450 monooxygenase Pen14"
-                     /label=pen14
+                     /label="pen14"
                      /note="P450"
                      /protein_id="QPP19376.1"
                      /translation="MSKDPIPFSPMNLVLAASSGLILTVLFLAAKSIYNLFFHPLASYP
@@ -286,12 +298,13 @@ FEATURES             Location/Qualifiers
                      MEIRTEYSQEAGITFASLQKLPYLNAVIEETLRIYPVVPSTFPRRTASSGATIIDRFVP
                      ADYAIGVNGYAASRSETNFVLPDDFCPERWLGDPRFQRDQKKAHQPFSTGPRNCLGKNM
                      AWAFARLTIARFVWNFDANIVEESKDWASEQEIFVMFAKRPLLCQINERKITS"
+                     /Pfam="p450"
      CDS             complement(join(34455..34864,34938..35844,35896..36102,
                      36153..36203))
                      /codon_start=1
                      /gene="Pen15"
                      /product="cytochrome P450 monooxygenase Pen15"
-                     /label=pen15
+                     /label="pen15"
                      /note="P450"
                      /protein_id="QPP19377.1"
                      /translation="MGIIFEKDLGLGSVNSMFEDVRPWLLEQVHETYLFSFCTILSIFF
@@ -304,12 +317,13 @@ FEATURES             Location/Qualifiers
                      RPSCGPLIPKGTLIAFSNNRFDMAKGTKAAVDNFDGFRFDRERNNEGSKHHLLTPSPDS
                      LTWGYGMHACPGRSFAATEIKVIVIHLLTNFHLRLKGGKERPRNESFDFQIMPDMSAEI
                      EFSSRKE"
+                     /Pfam="p450"
      CDS             join(36425..36640,36691..36825,36914..37001,37059..37127,
                      37197..37802,37860..38091,38154..38355)
                      /codon_start=1
                      /gene="Pen16"
                      /product="cytochrome P450 monooxygenase Pen16"
-                     /label=pen16
+                     /label="pen16"
                      /note="P450"
                      /protein_id="QPP19378.1"
                      /translation="MPLSSFSIEQEAYVPGAFGLLALCYFLWTFVLSVESPYKFNRLGE
@@ -321,11 +335,12 @@ FEATURES             Location/Qualifiers
                      DAYGWTDKMLNNIPMVDSFLRETNRLHPNGVVTAARTVMGKPFEMHDGQILPRGTRIAF
                      PARAIMCDEDNFESPYEFDGFRFARLIANKTSTSEGQLYNSATVTKTNLAFGYGKHSCV
                      GRFYAVRKIKLVFCRLILDYHLEWEGTVTERPRSMCIEGQMVPDLDQRIRIRRREMA"
+                     /Pfam="p450"
      CDS             38676..39500
                      /codon_start=1
                      /gene="PenN"
                      /product="methyltransferase PenN"
-                     /label=penN
+                     /label="penN"
                      /note="N-methyltransferase"
                      /protein_id="QPP19379.1"
                      /translation="MISKSDNDYVLGENQDEIDRLQMQHGWLKATIPELILAPIDRTRK
@@ -333,11 +348,12 @@ FEATURES             Location/Qualifiers
                      PWPVEFEGRFDLVHQRLVLACCNPHEAEIAVANLASLGKPGGWIQLMECDHSGGFSPET
                      AAAHPALAQFGRLVISHLDTKGQCGQQGLYLERYLKQAGLVNVTEKVFDIPVGRGAYKC
                      ELGDVAAQNIIQVAKKMGGDDKYVEQLAHELETIGGTQRFHVVFGQRPIDPL"
+                     /Pfam="GliN"
      CDS             complement(join(40029..40262,40329..40635,40698..41095))
                      /codon_start=1
                      /gene="PenT*"
                      /product="thioredoxin reductase PenT*"
-                     /label=penT*
+                     /label="penT*"
                      /note="thioredoxin reductase"
                      /protein_id="QPP19380.1"
                      /translation="MMSKLYDVLIVGGGPAGLSVALGLARQLHSAVIFDSQSYRNDGAE
@@ -346,11 +362,12 @@ FEATURES             Location/Qualifiers
                      ALHLARMARRLARKVTVYTDGALELSQTLSGPLAAEGFDLVSPHIAKLSQQPEHHGITV
                      ELEDGTLHREGFIVHKPKSEVNGPFAEQLSLELTQGGDISVKAPFYETTNVPGVFAVGD
                      CGSVGKAVSQALASGLWCASGLVSQLQAPGL"
+                     /Pfam="Pyr_redox_2"
      CDS             join(41354..41500,41562..41749,41823..42863,42924..43137)
                      /codon_start=1
                      /gene="PenC"
                      /product="cytochrome P450 monooxygenase PenC"
-                     /label=penC
+                     /label="penC"
                      /note="P450"
                      /protein_id="QPP19381.1"
                      /translation="MLAQILMSPVAFMVLTLVPGLLLVIALIEGLFPGRLPPIFVDILS
@@ -363,11 +380,12 @@ FEATURES             Location/Qualifiers
                      VVSGYNIPANTNFVVDSYALNIRSDHWGPDNDTYRPERFLAQDNVKLRYLFWRFGFGPR
                      QCMGKYVTDIIIRAAVVNIVQNYNLRLLDQTTWSRDKSCWITHPDFEIGCERIESETPA
                      VSLDVADVEVMG"
+                     /Pfam="p450"
      CDS             join(43632..43841,43894..44098,44154..44569,44639..45100)
                      /codon_start=1
                      /gene="PenI"
                      /product="aminotransferase PenI"
-                     /label=penI
+                     /label="penI"
                      /note="C-S lyase"
                      /protein_id="QPP19382.1"
                      /translation="MTVNNDVAGLSVRSSEVVEAIMPRIREAVVERTRQDNPNIDLSTA
@@ -378,11 +396,12 @@ FEATURES             Location/Qualifiers
                      SQHNPEVIVGVSLASNTQVSSLAAIFTKSILGSSATTSLIALNRRRLSAAYSIITTWLR
                      LNEFRYIPVSAGVFVFAKLGREITTWDEEAQLVKLCKEAGVVVSAGRNYHGIDSEKGWI
                      RLTFAVEAEVLQEGLTRLSNALGVLPPTTES"
+                     /Pfam="Aminotran_1_2"
      CDS             45312..46598
                      /codon_start=1
                      /gene="PenM"
                      /product="methyltransferase PenM"
-                     /label=penM
+                     /label="penM"
                      /note="O-methyltransferase"
                      /protein_id="QPP19383.1"
                      /translation="MESTLETLNDHLASALTILRGGLNEELHTRLHNQEKGVLPDKELA
@@ -393,11 +412,12 @@ FEATURES             Location/Qualifiers
                      DLPHVIDHTVPFFHTNDGQFSDLSDRVPKENLIGGDFFDHIPPSRVYTMKWTLHDWRDA
                      DAIAILRNIRKAIISAPISRLIVLESVRAEGRSARLSRYADLNMMVAANGLERNADSWK
                      YLAEQSGWRIEAIHHLRNAWPCAIDMRPC"
+                     /Pfam="Dimerisation2, Methyltransf_2"
      CDS             47371..49035
                      /codon_start=1
                      /gene="PenA"
                      /product="major facilitator superfamily transporter PenA"
-                     /label=penA
+                     /label="penA"
                      /note="MFS general substrate transporter"
                      /protein_id="QPP19384.1"
                      /translation="MSSIHRQSNSDLRDPESPITENHDKPVTHSWRYWVLFATLCLSGF
@@ -410,11 +430,12 @@ FEATURES             Location/Qualifiers
                      IIVAGGNGLLLATLLPNVQAQCDAEDLAAVTALFNFLRSFALVWGMTIPSIIFDQTVNN
                      NLSLVPAEVRPLMSGSGAYVRASKSFIESFQGTTKQQVLKLYERALQANWYGAMSFGLL
                      GLALVAFQRPGKQMSKPESSENDEQGSDDIEKRASES"
+                     /Pfam="MFS_1"
      CDS             join(49387..49465,49524..49830,49892..49975,50038..50335)
                      /codon_start=1
                      /gene="PenG"
                      /product="glutathione-S-transferase PenG"
-                     /label=penG
+                     /label="penG"
                      /note="glutathione-S-transferase"
                      /protein_id="QPP19385.1"
                      /translation="MSSSNGQVIIGDVPKDNNSLVLYIIKADETSYINYIKPLILAQEL
@@ -422,12 +443,13 @@ FEATURES             Location/Qualifiers
                      DWAGRTAAERGAVFTWVAYQTAGIGATAKYWLYFLRGYPTRKNPTQLPRTIAKLHENTI
                      KQWDILEKQLAKEGQEYIALADRPTLADLSYFPFAMPWMFTFLGVDIKDWPHIEAWATR
                      MLARPAIQDVMNRAKTFGHDMTPEQEKELKEAV"
+                     /Pfam="GST_N_2, GST_C"
      CDS             join(50526..50936,50993..51006,51067..51153,51212..51453,
                      51513..51607)
                      /codon_start=1
                      /gene="PenJ"
                      /product="2OG-Fe(II)-dependent dioxygenase PenJ-1"
-                     /label=penJ-1
+                     /label="penJ-1"
                      /note="revised sequence"
                      /protein_id="QPP19386.1"
                      /translation="MATYTSVMRFIEPWSQTKELPFIRTNPEPGYNYMNFEWIDREVQI
@@ -436,13 +458,13 @@ FEATURES             Location/Qualifiers
                      QKRVLMINVWRPLRGPVQDWPLATMDYRTCNEDLIYPTDLLDKTDDYRGQTVTFSHAPE
                      QTWYYLDQQETHEVTFIKIWDNKQDVEAKLCPHAAFKHPNAPVDAPPRESIEVRCFAIF
                      D"
+                     /Pfam="NvfI"
      CDS             join(51777..51951,52001..52157,52216..53110)
                      /codon_start=1
                      /gene="PenJ"
                      /product="dipeptidase PenJ-2"
-                     /label=penJ-2
-                     /note="dipeptidase
-                     revised sequence"
+                     /label="penJ-2"
+                     /note="dipeptidase revised sequence"
                      /protein_id="QPP19386.1"
                      /translation="MWPQEKIARADKTPSQRWWKMIATGMTIILTLLLGFRRFYVCSAN
                      PSVEDVLSTAPLIDGHNDFPIWIRAFYQNHIYQENFTHDPLFGQVDFTRLKQGRLRGQF
@@ -452,6 +474,7 @@ FEATURES             Location/Qualifiers
                      DVLDLVRLNAGVVMVSFYPEYTRCADPGQADIADVADHIQYIGHRIGYQHVGLGSDFDG
                      MPTGVRGLEDVSHYADLIRILLERGVSVKELAGVIGGNVLRALGAAEDVAASMAKEEPL
                      EDSVKPFFS"
+                     /Pfam="Peptidase_M19"
 ORIGIN
         1 tcaagccttc cgacactcaa taagagcctc gggttcagaa ccctgataga tgtgctcaat
        61 caccagtccc acactctcca acaaggttct ccagtcctcc tcggtacgct cctttccacc

@@ -1,24 +1,24 @@
-LOCUS       FBGC00161       44638 bp DNA     linear   UNA 22-JAN-2023
+LOCUS       FBGC00161              44638 bp    DNA     linear   UNA 22-JAN-2023
 DEFINITION  sporidesmin.
 ACCESSION   FBGC00161
-VERSION     .
+VERSION     FBGC00161
 KEYWORDS    .
 SOURCE      Pithomyces chartarum 91/35/29
   ORGANISM  Pithomyces chartarum 91/35/29
+            .
 REFERENCE   1  (bases 1 to 44638)
-  AUTHORS   S. Sidhu, V. Suresh, A. Baten, A. M. McCartney, G. Lear, J. M. 
-            Sprosen, M. H. Oliver, N. T. Forester, P. H. Maclean, N. Palevich, 
+  AUTHORS   S. Sidhu, V. Suresh, A. Baten, A. M. McCartney, G. Lear, J. M.
+            Sprosen, M. H. Oliver, N. T. Forester, P. H. Maclean, N. Palevich,
             R. Jauregui, C. R. Voisey
-  TITLE     Genome sequence of Pseudopithomyces chartarum, causal agent of 
-            facial eczema (pithomycotoxicosis) in ruminants, and identification 
+  TITLE     Genome sequence of Pseudopithomyces chartarum, causal agent of
+            facial eczema (pithomycotoxicosis) in ruminants, and identification
             of the putative sporidesmin toxin gene cluster
   JOURNAL   bioRxiv 2021
 REFERENCE   2  (bases 1 to 44638)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Jan 22, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
+  JOURNAL   Exported Jan 22, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
             "10.1101/2021.04.29.441555"; journalName: "bioRxiv"; date: "2021"
 FEATURES             Location/Qualifiers
      source          1..44638
@@ -29,7 +29,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="Spd1"
                      /product="methyltransferase Spd1"
-                     /label=spd1
+                     /label="spd1"
                      /protein_id="QVK45104.1"
                      /translation="MSALKNDNRTAHALAKDDYFMASNDEAQRLSNQHWVIKDAMPGSN
                      LVCAPIDMSRGYLHILDSGTADGTWVLDLNKETGGQHQFVGTDVLATQLPKNYPPNTTF
@@ -37,11 +37,12 @@ FEATURES             Location/Qualifiers
                      PEPVERNPCMHNYLKIVRAIYISLGAPLTLSVDIPKWLEEGGFVNVETREVHVQMGASN
                      ENVDLGRKGAVTQRLAAMGMVEAARKLNTLPIKEESLNTFVEDFSQELSEKGACFPIMA
                      IWAQKKAA"
+                     /Pfam="GliN"
      CDS             complement(join(1622..2622,2707..2922,3010..3259))
                      /codon_start=1
                      /gene="Spd2"
                      /product="dipeptidase Spd2"
-                     /label=spd2
+                     /label="spd2"
                      /protein_id="QVK45105.1"
                      /translation="MGKSCPISPDNISPERTAFVVWLGKSRVLLSFCFLLAVLFGFFHF
                      HQQQQEFSTLSHPQYLGVGSKFLIQDGVDRILQGNPLIDGHNDLLIVIRLFYLNHIYGE
@@ -52,12 +53,13 @@ FEATURES             Location/Qualifiers
                      RNSLVMVNFNPKFISCEKNDKDPYSLPTLYAQNATLQQVVKHITYIGDLIGYDHVGFGS
                      DFDGIDSGPRGLEDVSKFPALVGELVKQGVSEEDCGKIVGGNLLRVWREVEAVARRLQD
                      TMVPLEDGLEKVWFQNSNQRMNVAATEGLR"
-     CDS             join(3591..3695,3742..3929,3978..4578,4633..4864,4934..4998,
-                     5073..5180,5233..5454)
+                     /Pfam="Peptidase_M19"
+     CDS             join(3591..3695,3742..3929,3978..4578,4633..4864,
+                     4934..4998,5073..5180,5233..5454)
                      /codon_start=1
                      /gene="Spd3"
                      /product="cytochrome P450 monooxygenase Spd3"
-                     /label=spd3
+                     /label="spd3"
                      /protein_id="QVK45106.1"
                      /translation="MESWAISVACTLVIAVGFSICIEKSPVLLLSTILNYYYHWRYPIR
                      DVSRKEKIPSLPYLWPNGTGDTEKFINGPRNSQIWQKKYGSIYRLWAGSTPEVVVSDPA
@@ -68,12 +70,13 @@ FEATURES             Location/Qualifiers
                      AIARGGPDALGPYIRNNDSYLAACIKETARHRPIMSFSIPQAPPTDRVVGDWVIPKNTM
                      VIVDTFAVNMRKEFWGMDAHIYRPSRFLEFNEKNERYQWWRYGLGPRQCMGKYLADYML
                      RALLFYVIKTISVETAEGGSLEKMLGDEMKTWVRTPQIKLRSKFRGSN"
-     CDS             join(5793..5917,5968..6064,6112..6151,6205..6612,6660..7199,
-                     7255..7688)
+                     /Pfam="p450"
+     CDS             join(5793..5917,5968..6064,6112..6151,6205..6612,
+                     6660..7199,7255..7688)
                      /codon_start=1
                      /gene="Spd4"
                      /product="FAD-dependent halogenase Spd4"
-                     /label=spd4
+                     /label="spd4"
                      /protein_id="QVK45107.1"
                      /translation="METPTSCSVLVIGAGPGGSFAAAAFAREGVDVVLLEAETFPRYHI
                      GESMLASMRFFLRFIDLDTEFDNHGFNQKRGAAFKINEKQEGYTDFIAANGEGNHSWNV
@@ -85,25 +88,27 @@ FEATURES             Location/Qualifiers
                      YYRPIIQGTAGTDFSGKLTQEELSNTVEFAMQSYNKVTPDEEAHAMKLMHEINNPVPGR
                      VQLQLSSEDERILRTIQARKMLQCQATINLNHFTEQAVNGMAPRLARGMVGLAPATQTE
                      RGAEDSAPPRVPVRMDDESNVATKHGVKTH"
+                     /Pfam="Trp_halogenase"
      CDS             complement(join(8159..8414,8465..8533,8589..8895,
                      8948..9047))
                      /codon_start=1
                      /gene="Spd5"
                      /product="glutathione S-transferase Spd5"
-                     /label=spd5
+                     /label="spd5"
                      /protein_id="QVK45108.1"
                      /translation="MDSKSCGFDPVSLPEVKHGNTPYDGKPIIYVVKASKTSYINYMKV
                      LMLAEELGIDYDLSIVSTKDDWYHAVHPERYVPAIKDRDALTFEDFFVFESTGCLQYLV
                      DAYDKTGAWSGRNQKERSSVTAWLAYQTAGIGATSKYWLYFSALHPEKLPKTIEKLYEN
                      CIKHWDILERRLSEPGQEFIALEDRPTVADIAYYPFAMPYMFEFLGVKIEHWPKIWLWA
                      EKMESLPGIQKVLLWAPTIGN"
+                     /Pfam="GST_N_3, GST_C_3"
      CDS             complement(join(9699..9864,9920..10062,10112..10612,
                      10665..11007,11057..11442,11500..11686,11736..12151,
                      12204..12281,12329..12484))
                      /codon_start=1
                      /gene="Spd6"
                      /product="ABC transporter Spd6"
-                     /label=spd6
+                     /label="spd6"
                      /protein_id="QVK45109.1"
                      /translation="MLHFATFYAFPIVLALNISFPQQPDSIDPWLKIRFVENRSLPWLH
                      VFVILLTAVQLSLGMATGIDGTEKNWYTSSQFLLSSCLEMLLLFTDLVSKCRSPLPTTF
@@ -119,12 +124,13 @@ FEATURES             Location/Qualifiers
                      MYNVRYANASASEEDVYRACRAARIHEKIVSLPNKYETMVGERGLKLSGGERQRIAIAR
                      VILRAPSIVMLDEATSSLDLETEKRIQSSLDAISHNRTCITIAHRLSTIAQSDVIVVLH
                      KGKVVEKGSHAELLARGGQYHRMWEKQSNVRETPTVVR"
+                     /Pfam="ABC_membrane, ABC_tran"
      CDS             complement(join(13038..13203,13267..13607,13659..14174,
                      14232..14483))
                      /codon_start=1
                      /gene="Spd7"
                      /product="methyltransferase Spd7"
-                     /label=spd7
+                     /label="spd7"
                      /protein_id="QVK45110.1"
                      /translation="MGSHESQTPLPSDIESLITQLTGRLATLLVTEHTDAIQKPKRNIN
                      LNPESSGDEAKIRLIGLLEHLQRQLYEPTDYLKELTQGRSLDVGTVRALVRLGIPDQVP
@@ -134,12 +140,13 @@ FEATURES             Location/Qualifiers
                      QEDVIGTAKCIDGTALEFMAHDFFQEQTLVADAYLLRYIFHNWNDVDCGRILKALRPAL
                      RQGTKLLVMELVQENHAVSPESWFEDRIVRRRDMQMMSFIGASERSIKDYEELVRNSIP
                      EFKFSGYHRPAGSFVAMLEWTFLGA"
+                     /Pfam="MdpA, Methyltransf_2"
      CDS             join(14786..15040,15102..15321,15392..15472,15529..16116,
                      16165..16375,16428..16623)
                      /codon_start=1
                      /gene="Spd8"
                      /product="cytochrome P450 monooxygenase Spd8"
-                     /label=spd8
+                     /label="spd8"
                      /protein_id="QVK45111.1"
                      /translation="MNKTSYEGGNAVAAQPTQSRNYRILTVCILAFCILYIFGRVSEFL
                      DRYGNKHHILGDCSWWGRKTWFWTVSAQDMPSLTIDGYRKYNQNRKVWGVWIFDRLFHV
@@ -150,23 +157,25 @@ FEATURES             Location/Qualifiers
                      LLREISNAVEQCAGWNKGTVSCMPKLDSFVREVLRMNPPICCTVQRKVFEDVELSNGQI
                      LKAGQNIFFPTRAVLSDATLYPEPDKFDPYRFLKTHDEDIVAHTVTQTKHYSVFGYGQQ
                      SCPGRFYGVLAAKLVLAKLLMSYEMKFFPSREGMPTGVCQGVQLAPNMDTFMAFRRRR"
+                     /Pfam="p450"
      CDS             complement(join(17579..17965,18019..18441))
                      /codon_start=1
                      /gene="Spd9"
                      /product="gamma-glutamyl cyclotransferase Spd9"
-                     /label=spd9
+                     /label="spd9"
                      /protein_id="QVK45112.1"
                      /translation="MDTLWYFAYGSNLSVEKFTNSRGIVPLASVVACIPGWKLSMSIPG
                      LPYREPAFASIEPINATTTTEKERFVEGVAYLVTRAQYAKIIASEGGDIAYAQAKLQAR
                      VFTKEDEEITGGKNFYVLTLTNAIFKSPPGKPSSRYMDMIVFGAKTVTITPQYLQYLQE
                      MPVYTGSTSQRTRIGAFLFLFVWSPVMQLIEKIVKNTANLEGGGVVPDWVKTLVRFLVS
                      FMWFSHEVHALFWGRGDGMGDTEEVRVVNQQNDIQSMSCETHMPWGG"
+                     /Pfam="GliK"
      CDS             complement(join(18819..19029,19084..19294,19345..19947,
                      19998..20075,20138..20357,20421..20702))
                      /codon_start=1
                      /gene="Spd10"
                      /product="cytochrome P450 monooxygenase Spd10"
-                     /label=spd10
+                     /label="spd10"
                      /protein_id="QVK45113.1"
                      /translation="MNALIAAQNLTSPVFRWNKWIEAEHHPSYAVLTTKCLLIFAFLAV
                      ATYFIGLGAHNPQKPYPVLGDCTYWGRRVWFFCKWFQDSMNILIEGDNKFTKTNSKWST
@@ -178,11 +187,12 @@ FEATURES             Location/Qualifiers
                      KVMQPTQLSDGTLLRPGEKLMIPTEAILHDPHVYPGPEKFDPERFYDGENNIVKSLTVT
                      QTPEFPVFGYGNQTCPGRYFASLATKIAFARLLISYETKFVPERPGKPVDWPISATLMP
                      NMDTFVAFRTREIPVSG"
+                     /Pfam="p450"
      CDS             join(20979..21330,21391..21514,21566..21675,21770..22437)
                      /codon_start=1
                      /gene="Spd11"
                      /product="methyltransferase Spd11"
-                     /label=spd11
+                     /label="spd11"
                      /protein_id="QVK45114.1"
                      /translation="MGDSSAAIPMTRSSAAQASDLNALLGILNKAIPNVIGADASSYEE
                      SRIEAVRACEKMTALLHDPFQWLFVESAAYVVPAAISVVLELRVPHHVSTDIEYPTSVE
@@ -192,12 +202,13 @@ FEATURES             Location/Qualifiers
                      NKEYAVLPITWQEHGLFEPQAVQGADAYIIRHVLHGFQDKIASQIIGHIAKAMNPATSR
                      ILIIDCVVPDAFGSDSIPFVNATDILALLGGNGKQRDAKAWDELVKMADKRLEVVKVWH
                      QGHLASADAVIEIRMAIM"
+                     /Pfam="Methyltransf_2"
      CDS             join(22930..23337,23390..23403,23454..23540,23592..23830,
                      23885..23988)
                      /codon_start=1
                      /gene="Spd12"
                      /product="2OG-Fe(II)-dependent dioxygenase Spd12"
-                     /label=spd12
+                     /label="spd12"
                      /protein_id="QVK45115.1"
                      /translation="MTEIQTSMLFIESWKDKIENPFLRSGAHDGYESQNFEYARSNVKV
                      TDARTTKDGFSLDKNGFVFAKESQAAAPEILSKLRLKDNETIEKFYYNCVERLIKDITG
@@ -205,11 +216,12 @@ FEATURES             Location/Qualifiers
                      KRCQILNVWRPLNGPVDDWPLALMDAASLSAANCHPTALWRQTFEYRGSTMFVSHDNAQ
                      KWYYLNKHNTDEVTIIKIWDNKNVTAKCCAHCAFEDPKTCDDAPLRESIEVRCLVFYDE
                      DL"
+                     /Pfam="NvfI"
      CDS             complement(join(24237..24771,24834..25240))
                      /codon_start=1
                      /gene="Spd13"
                      /product="thioredoxin reductase Spd13"
-                     /label=spd13
+                     /label="spd13"
                      /protein_id="QVK45116.1"
                      /translation="MVVIDVVDAMIIGAGPAGLSAALGLCRQRRTTVLFDSRVYRNAIT
                      PHMHNFPTWDHRAPSDFRSKALDELIHGRYQTTEYVQQRVESVEQNESGVFVATDSTGK
@@ -217,11 +229,12 @@ FEATURES             Location/Qualifiers
                      PMAAHFAKMCRPFAQNVVVYTNGSKETEDAMRPILKDYSDILIDSRTIKRLVPGSGGGS
                      PAIELDSGSTCELVEHGFFAHQPKATPNIDFASKLNLKLSATGREIEIAMPFHETNVRG
                      CFAAGDISTMFRAVAGAVSAGTACSGGIVSQL"
+                     /Pfam="Pyr_redox_2"
      CDS             join(25546..25825,25881..26884)
                      /codon_start=1
                      /gene="Spd14"
                      /product="major facilitator superfamily transporter Spd14"
-                     /label=spd14
+                     /label="spd14"
                      /protein_id="QVK45117.1"
                      /translation="MPLVAFLATFGMNAAAASSVFVFARILCKDSSSCNGDEQNAFARS
                      LAIATVIANVCAILVIQPLHAVSKKTPNTVLMLWLVCRSTSIALLWLAASFKSMSIVLL
@@ -231,11 +244,12 @@ FEATURES             Location/Qualifiers
                      VTAVSATSTFFVRLVQQRIKGDIAHLRLNMMVAVMQMSALAISLPLIMETNYSWQLYLV
                      TTAMSLGFSASGFIKTYALCQLQHPNDGTAALAIFETVGSLLSPLTLGAAQSHWHGGSW
                      TFLSTGMMIASIAVLLVTMTRRVFIPAS"
+                     /Pfam="Spd14"
      CDS             join(27657..27972,28026..28384)
                      /codon_start=1
                      /gene="Spd15"
                      /product="hypothetical protein Spd15"
-                     /label=spd15
+                     /label="spd15"
                      /protein_id="QVK45118.1"
                      /translation="MAVPNTSSDGLFTLRRAFPEDIPHLRNLLTDFFESGEFGRDLSFG
                      ELEMQDYLDWFLPKTIVDTVNILYVLQYLPKSSSRTYEAKIIGCCYIALSDSSSAPKLG
@@ -247,7 +261,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="Spd16"
                      /product="aminotransferase Spd16"
-                     /label=spd16
+                     /label="spd16"
                      /protein_id="QVK45119.1"
                      /translation="MALSERISGDLGELMPKIAVQVAQRSSKIPFIDMGTAENWLIRDE
                      VMEVCVRSVRDQISAEGLSYQRGFTGDPDLINAFCGLITSYFNPFEPVDPSCVCVAPGG
@@ -257,12 +271,13 @@ FEATURES             Location/Qualifiers
                      TSNTQVSYLSSLAVREMLSDETFLRNVITLNKTRLGKAYTITTRFLKRLNIEYYPASAG
                      VYIWAKLSPDVKTWEDEAELAKALSERRVAISSGRSYASVEPGWYRLTFALRPHDLQKG
                      LSIIEEVLVSKVALGQQRVSTNGSTK"
+                     /Pfam="Aminotran_1_2"
      CDS             join(30320..30935,30997..33978,34063..34337,34394..34486,
                      34549..36846)
                      /codon_start=1
                      /gene="Spd17"
                      /product="nonribosomal peptide synthetase Spd17"
-                     /label=spd17
+                     /label="spd17"
                      /protein_id="QVK45120.1"
                      /translation="MKSIPENVLTLFFDTYQKQPTTIAVSDGHVKFSYAELEAASYGIA
                      RRLASLGASPGDVIPIVTQSCLQMVIGVLGILRTGATYAPLDSTQWPTSKMQATVARLH
@@ -300,11 +315,12 @@ FEATURES             Location/Qualifiers
                      LAHAVPWPALLHSLDIPFPPLHQPVFDVVVTVHDNRSGGVDLAIPGAVTVGADAAALPV
                      CAQGAKFSLCVELLAYSERMVVRLEYDSDILNERHARVLGDVLEVAFEGLSEGSDGNVL
                      KREEVLERLESALRRACEGAGVSLDELPYIARTRLV"
+                     /Pfam="AA-adenyl-dom, NRPS_C, ACP_PCP"
      CDS             complement(37398..39026)
                      /codon_start=1
                      /gene="Spd18"
                      /product="major facilitator superfamily transporter Spd18"
-                     /label=spd18
+                     /label="spd18"
                      /protein_id="QVK45121.1"
                      /translation="MSSGNSVDQNNSRGWRFWTAILSLNFIGFVATLEGTVLGTALPRI
                      TQEIKTSGSTDYVWMASSFALAQTVVQPPLAQICNIVGRRNPMVLSIVLFALGSGISGG
@@ -316,11 +332,12 @@ FEATURES             Location/Qualifiers
                      IQASLAESEVASSVGLYSFLRSFGWFWGITIPSIIFNNRWDQLDARIADPDVRMSLAGG
                      QAYHSAGVHPSWSQATVAQVVGVYTDTMKTLWYAAIAVAGVGFFAVFFEKSLALRDTLD
                      TEFGLDQEKEEVSREERGVEDKSRP"
+                     /Pfam="MFS_1"
      CDS             39980..40546
                      /codon_start=1
                      /gene="Spd19"
                      /product="hypothetical protein Spd19"
-                     /label=spd19
+                     /label="spd19"
                      /protein_id="QVK45122.1"
                      /translation="MEHTGCDCSAPSRQHVADCLSQEKLPLDRILEAGSKLSSLLSATS
                      QCERCIRTKSISKWFIQTTIRLICFYEAATNQTLPGRDTAGFGSTSSPHGQQLAWPTSP
@@ -330,7 +347,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="Spd20"
                      /product="transcription factor Spd20"
-                     /label=spd20
+                     /label="spd20"
                      /protein_id="QVK45123.1"
                      /translation="MAARAAGTGTGRGPKYRTSCDNCQAMKIKCGQEKPSCQRCANQRL
                      ECVYSLSRRMGRPREKKTAPDENAHQSLPGTPPGADGSASGPPTPLASTSSSAPLGTTT
@@ -342,11 +359,12 @@ FEATURES             Location/Qualifiers
                      EFLPRRSSSNRNLATACSSSSSSSRTKSQNHEEQKQHSSDIYIGTFKVPSRVRSRFLYR
                      TLQARFQKFSVIISEWERLVKSDGAARAIAHDCFTQAAGLLLKDAEKGLRVIVGWVELG
                      NTAS"
+                     /Pfam="EqxR"
      CDS             complement(join(43294..44321,44413..44638))
                      /codon_start=1
                      /gene="Spd21"
                      /product="methyltransferase Spd21"
-                     /label=spd21
+                     /label="spd21"
                      /protein_id="QVK45124.1"
                      /translation="MEEVLSKVKAALSEAVDALEQGGPLEQERLTTLQPSYYGLPDPKA
                      SRLAGQTVDLADQLVRLLQPPATQLAESFLAYLDTKCLCAAVEHRIPDVLGDGGRLGLD
@@ -356,6 +374,7 @@ FEATURES             Location/Qualifiers
                      FASNGEFADVATRIDALHVGDFLEAVPPYEVYTMKWCLHNWVDRDVLRILRVVRDAIRP
                      TPRARMIVVESVLDDGRSARIWRYGNVTMMSAVNGQERTQHEWTTLARQAAWHVEAVID
                      LRNVWAKAIVLRPAPGHP"
+                     /Pfam="Methyltransf_2"
 ORIGIN
         1 atgtctgccc ttaagaacga caacagaacc gctcatgccc tagccaagga cgattatttc
        61 atggctagta acgatgaggc gcaacgattg tctaaccaac actgggtgat caaagatgca

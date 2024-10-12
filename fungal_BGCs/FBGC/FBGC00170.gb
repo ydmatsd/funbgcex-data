@@ -1,30 +1,30 @@
-LOCUS       FBGC00170       11257 bp DNA     linear   UNA 22-JAN-2023
+LOCUS       FBGC00170              11257 bp    DNA     linear   UNA 22-JAN-2023
 DEFINITION  talaronoid C.
 ACCESSION   FBGC00170
-VERSION     .
+VERSION     FBGC00170
 KEYWORDS    .
 SOURCE      Aspergillus flavipes CNL-338
   ORGANISM  Aspergillus flavipes CNL-338
+            .
 REFERENCE   1  (bases 1 to 11257)
   AUTHORS   Zhang P, Wu G, Heard SC, Niu C, Bell SA, Li F, Ye Y, Zhang Y, Winter
             JM.
   TITLE     Identification and Characterization of a Cryptic Bifunctional Type I
-            Diterpene Synthase Involved in Talaronoid Biosynthesis from a 
+            Diterpene Synthase Involved in Talaronoid Biosynthesis from a
             Marine-Derived Fungus.
   JOURNAL   Org Lett 2022;24:7037-7041
-  PUBMED    36126322
+   PUBMED   36126322
 REFERENCE   2  (bases 1 to 11257)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Jan 22, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1021/acs.orglett.2c02904"; journalName: "Org Lett"; date: 
-            "2022"; volume: "24"; pages: "7037-7041"
+  JOURNAL   Exported Jan 22, 2023 from SnapGene 6.2.1 https://www.snapgene.com
 COMMENT     ##Assembly-Data-START##
             Assembly Method       :: SOAPdenovo v. SOAPdenovo2
             Sequencing Technology :: Illumina
             ##Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1021/acs.orglett.2c02904"; journalName: "Org Lett"; date:
+            "2022"; volume: "24"; pages: "7037-7041"
 FEATURES             Location/Qualifiers
      source          1..11257
                      /host="Laurencia sp."
@@ -38,7 +38,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="tndB"
                      /product="cytochrome P450 monooxygenase TndB"
-                     /label=tndB
+                     /label="tndB"
                      /note="cytochrome P450"
                      /protein_id="QVR97761.1"
                      /translation="MEGLYKEAVTFADRYNLLNVYGISAVIAVGLAIYSASLAIYRLYF
@@ -50,12 +50,13 @@ FEATURES             Location/Qualifiers
                      AGTATTARTMGFMCYYILTNPHMRERLADELRDVMADYPHKLPSWQELERLPYLQAMIK
                      EGLRLSYGVMRRLPRISPDIPLVYKQWSIPAGTPVGMAAYSLHTDPEVYPEPFKFIPER
                      WLGKYDSRMDRNWVPFSRGSRNCLGMK"
-     CDS             join(3398..3674,3730..3752,3805..4064,4120..4966,5020..5174,
-                     5230..5393,5452..5553,5610..5755,5805..6125)
+                     /Pfam="p450"
+     CDS             join(3398..3674,3730..3752,3805..4064,4120..4966,
+                     5020..5174,5230..5393,5452..5553,5610..5755,5805..6125)
                      /codon_start=1
                      /gene="tndC"
                      /product="terpene synthase TndC"
-                     /label=tndC
+                     /label="tndC"
                      /note="talarodiene synthase"
                      /protein_id="QVR97762.1"
                      /translation="MEYRYSTVVDPSTYETHGLCDGIPLRCHESPELEEIETLRCQEDW
@@ -72,13 +73,13 @@ FEATURES             Location/Qualifiers
                      GFLNQFGRYFQTRDDYQNLTSPEYTKQKGFCEDLDEGKFSLPLIHLMHSAPSNLVVRNI
                      WTQRLVNNKASPAHKQTILELMKENGSLQFTMDALDVLHAKVEKSISDLEARFGVENFQ
                      LRLILEMLRKA"
+                     /Pfam="Terpene_syn_C_2, GGPS"
      CDS             6809..8473
                      /codon_start=1
                      /gene="tndD"
                      /product="major facilitator superfamily transporter TndD"
-                     /label=tndD
-                     /note="MFS multidrug transporter
-                     revised sequence"
+                     /label="tndD"
+                     /note="MFS multidrug transporter revised sequence"
                      /protein_id="QVR97763.1"
                      /translation="MLTPFRRRGRSNMSLSGSDSHLAVSPTLAEDMNSSDTSAGLAETP
                      PADEEKRSIVDTGESVVAMNEPHIVDWDGPDDPGNPVNFSRHIKITNVGIVSALTFITP
@@ -90,11 +91,12 @@ FEATURES             Location/Qualifiers
                      VSDRILKAKSKPTPEAPSGAMKPEYRLPPLVWGAFFIPAGLFMYGWSAYYRTHWIVPII
                      GTGLVGIGNIAVFMCITSYLVDAFTIFAASALAANTVVRSILGALLPMAGQSMYDSMGL
                      GWGNSLLGFIAVVCIPIPWAMMRYGERMREAFDVSRL"
+                     /Pfam="MFS_1"
      CDS             complement(10166..11257)
                      /codon_start=1
                      /gene="tndE"
                      /product="short-chain dehydrogenase/reductase TndE"
-                     /label=tndE
+                     /label="tndE"
                      /note="aldehyde reductase 2"
                      /protein_id="QVR97764.1"
                      /translation="MQSTVVPPGGLVLITGVNGFLASHLALQLIQRGYMVKGTVRTAES
@@ -104,6 +106,7 @@ FEATURES             Location/Qualifiers
                      ALVKAYFDDVTCNQAFAWISAPWVVDVVDNALLHLAGLIDEDVQNERLLALAEPFKLGN
                      FARVFEQIDPSRSWPAGDNKHGVKDEGGTKWVADTKRSVAILQRLGQDEGFTPFLESVR
                      RTCLDSDPAWTFGNFLPKSDSQE"
+                     /Pfam="GDP_Man_Dehyd, NAD_binding_10"
 ORIGIN
         1 ttacttcatg ccgagacaat tccgcgaccc tctactgaaa gggacccagt tccggtccat
        61 cctcgagtca tatttcccca gccatcgctc gggaatgaat ttgaatggct caggatagac

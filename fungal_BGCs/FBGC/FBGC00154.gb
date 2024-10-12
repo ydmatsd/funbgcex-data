@@ -1,30 +1,30 @@
-LOCUS       FBGC00154       62598 bp DNA     linear   UNA 21-JAN-2023
+LOCUS       FBGC00154              62598 bp    DNA     linear   UNA 21-JAN-2023
 DEFINITION  acrophiarin.
 ACCESSION   FBGC00154
-VERSION     .
+VERSION     FBGC00154
 KEYWORDS    .
 SOURCE      Phialomyces arenicola NRRL 8095
   ORGANISM  Phialomyces arenicola NRRL 8095
+            .
 REFERENCE   1  (bases 1 to 62598)
-  AUTHORS   Lan N, Perlatti B, Kvitek DJ, Wiemann P, Harvey CJB, Frisvad J, An 
+  AUTHORS   Lan N, Perlatti B, Kvitek DJ, Wiemann P, Harvey CJB, Frisvad J, An
             Z, Bills GF.
-  TITLE     Acrophiarin (antibiotic S31794/F-1) from Penicillium arenicola 
-            shares biosynthetic features with both Aspergillus- and 
+  TITLE     Acrophiarin (antibiotic S31794/F-1) from Penicillium arenicola
+            shares biosynthetic features with both Aspergillus- and
             Leotiomycete-type echinocandins.
   JOURNAL   Environ Microbiol 2020;22:2292-2311
-  PUBMED    32239586
+   PUBMED   32239586
 REFERENCE   2  (bases 1 to 62598)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Jan 21, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1111/1462-2920.15004"; journalName: "Environ Microbiol"; date: 
-            "2020"; volume: "22"; pages: "2292-2311"
+  JOURNAL   Exported Jan 21, 2023 from SnapGene 6.2.1 https://www.snapgene.com
 COMMENT     ##Assembly-Data-START##
             Assembly Method       :: SPAdes v. 3.13.0
             Sequencing Technology :: Illumina
             ##Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1111/1462-2920.15004"; journalName: "Environ Microbiol"; date:
+            "2020"; volume: "22"; pages: "2292-2311"
 FEATURES             Location/Qualifiers
      source          1..62598
                      /strain="NRRL 8095"
@@ -36,7 +36,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="htyD"
                      /product="aconitase HtyD"
-                     /label=htyD
+                     /label="htyD"
                      /protein_id="QIW91870.1"
                      /translation="MSKPSIAYCFDDNLPGEVVEFVRALFKILADTRGILLQDLSISDL
                      PLDSRSSPSILHLAQPKGPNDGTSTINNLQDFIGRLCNELEAVGRQAEASTLLYVWDLC
@@ -54,12 +54,13 @@ FEATURES             Location/Qualifiers
                      KCVIAKSFSFIYGRNQPTIGLLGINISDDSFYDAAQTGTGIEIDLPGRLVKVGGQSFAF
                      ILDDMELSLIKSRGLAAAYKKFGKDVFQSLCDDDHRTNMVYELADVKLRAHGPETRAEL
                      AW"
-     CDS             complement(join(3752..3996,4068..4707,4815..4910,5014..5085,
-                     5261..5314))
+                     /Pfam="Aconitase, Aconitase_C"
+     CDS             complement(join(3752..3996,4068..4707,4815..4910,
+                     5014..5085,5261..5314))
                      /codon_start=1
                      /gene="htyC"
                      /product="isopropyl malate dehydrogenase HtyC"
-                     /label=htyC
+                     /label="htyC"
                      /protein_id="QIW91871.1"
                      /translation="MAQVFDLVVFPGDYGGPEVLSEVERQYQPNFILNIKHHLIGGASF
                      DAHGTPITEAALADAKAAAAVLLGAVGGPAWENTPIPVESGLGKLRKTLDAFGNLRPVN
@@ -68,11 +69,12 @@ FEATURES             Location/Qualifiers
                      AAMTMACRPTQLNGVVLTSNMFGDIISDEASAIPGSLGLLPSASLCAIPDDVHGSRVRG
                      IYEPVHGSAPDIAGKSIINPTGMILSVAMMLRHSLELPEAADAVEAAVSQVIEGGWRTR
                      DIGGTASTTEFGDAVVAYLKDHSHGRQI"
+                     /Pfam="Iso_dh"
      CDS             join(5732..5774,5836..5868,5960..6729,6801..7073)
                      /codon_start=1
                      /gene="htyB"
                      /product="transaminase HtyB"
-                     /label=htyB
+                     /label="htyB"
                      /protein_id="QIW91872.1"
                      /translation="MTVTGYPLPPLDGVDWDHLGFEPVEVNGHVECHFSTATGSWTAPV
                      FVSDPYLRVHGLAPGLNYAQQIFEGMKAFRNPSGDIQLFRLDQNATRFARSASYVSIPL
@@ -81,11 +83,12 @@ FEATURES             Location/Qualifiers
                      DSRSHSLIDEFSTSGFIGVRNDQETPRLVVSNSQQIVPSVTVDSICEIARSFGWDVEKR
                      VIPFSDVAQFSEVYAAGTAAVLVPVRSLQRRSTGEQIKYEVDYSSPTSFFSQLYNTLYG
                      VQQGVINDQWGWTTLVLKPELTNGPRQEKATS"
+                     /Pfam="Aminotran_4"
      CDS             join(9175..9342,9447..10940,11012..11194)
                      /codon_start=1
                      /gene="htyA"
                      /product="isopropyl malate synthase HtyA"
-                     /label=htyA
+                     /label="htyA"
                      /protein_id="QIW91873.1"
                      /translation="MTTICAGGQSVLSKYGGRAPEIHLPDRQWPSKRVSRSPIWLSTDL
                      RDGNQALPNPMTTQQKWRMFRLLVAIGFKQIEVSFPCASETEYNFTRELIETSGAVPDD
@@ -98,11 +101,12 @@ FEATURES             Location/Qualifiers
                      LGQQTYGGFQQPGGQQDLEVATTTAEKVIRLMSTTLSFQVRCTMALSHPIPNPPHRNLA
                      VAFSKCEVGDPSKGVWGVGIGTSTEAAIHRALLSVVQKHLPIDSPWLDDRDGSELESMF
                      IREREQQLQRSQVGKANGSGCFPEPMLRRIQLPLQDGA"
+                     /Pfam="HMGL-like"
      CDS             complement(join(11867..12526,12590..12754,12808..12969))
                      /codon_start=1
                      /gene="oxy2"
                      /product="2OG-Fe(II)-dependent dioxygenase PAOXY2"
-                     /label=PAOXY2
+                     /label="PAOXY2"
                      /protein_id="QIW91874.1"
                      /translation="MGIATLDFQQFCSGSPDERQKFCIDLRENLSVYGFTKIRNTTLSN
                      ETIDKLFEYNKRFFALPEHIKAKAAHPDAPNPHRGWSAVGQEKLVKISGFEQEQERKNF
@@ -110,11 +114,12 @@ FEATURES             Location/Qualifiers
                      PAGLLLSKHQTNTSELRLVHYPPIPCKSLLTGMRIGEHSDFGTLTLLLQDSVGGLQVED
                      QRKLGTFIPVEPENLYEVIINVGDCLQRWTNKELRSANHRVTLPEGKDIHSDEMLADRY
                      SVAYFGKPDREVLVDTLPEFCHGREGKYQDHLTALQYNQIKLTRTYG"
+                     /Pfam="DIOX_N, 2OG-FeII_Oxy"
      CDS             join(13338..13588,13639..13705,13758..14432)
                      /codon_start=1
                      /gene="oxy3"
                      /product="2OG-Fe(II)-dependent dioxygenase PAOXY3"
-                     /label=PAOXY3
+                     /label="PAOXY3"
                      /protein_id="QIW91875.1"
                      /translation="MSGSQDVHSSQLFSLSLLQLEGRDVRETRRLFEACSNDGFFYLDL
                      RDHKRLLSDYEALLGIMKEYFAQSLDEKMKDDHTSDTIGYEPVATSAGVLTGLPDYYES
@@ -122,6 +127,7 @@ FEATURES             Location/Qualifiers
                      HRKGSTTRTNLTVLKYPKQESAELGIGHNRHTDIGTLTFLTSDQRGLQILTPDGWRYVE
                      PRPGFAVVNVGDSLRFLSKRLFRSVVHRVLPIGPHQTEDRYTVAFFLRPEDEALFEDAR
                      GQVVSAKTWHDRKFDHFREPHDSQNIDCILTGGMEEDGKLLQRHVQAEM"
+                     /Pfam="DIOX_N, 2OG-FeII_Oxy"
      CDS             complement(join(15269..15548,15640..16014,16089..16172,
                      16235..16717,16772..16966,17029..17100,17159..17282,
                      17343..17675,17725..17887,17960..18732,18797..19030,
@@ -129,7 +135,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="trt"
                      /product="ABC transporter PATRT"
-                     /label=PATRT
+                     /label="PATRT"
                      /protein_id="QIW91876.1"
                      /translation="METTLKQCEIQVEDVFGPQVSGCYENFDFTLLFEESVLYLAPLLV
                      TSFLVSLRLWQMRSKEKLVRWSVLWILKQLVHLVLSLVLKTSTTRLSNAVIIIGFLASP
@@ -156,11 +162,12 @@ FEATURES             Location/Qualifiers
                      DINGQSFDEDLFEVLKMVGLHEVILKKGGLDVLMSDDLLSHGQKQLLCLARAMLQPSKI
                      LILDEATSSVDQKTEAMMLEIIRERFHDHTVICIAHKLNTIMDYDEVIVLDEGRIVERG
                      KPNNLASEPSIFASLLRAAGDYSDVESEDEYIPFMATGRNGP"
+                     /Pfam="ABC_membrane, ABC_tran"
      CDS             join(23146..34920,34981..44985)
                      /codon_start=1
                      /gene="nrps"
                      /product="nonribosomal peptide synthetase PANRPS"
-                     /label=PANRPS
+                     /label="PANRPS"
                      /protein_id="QIW91877.1"
                      /translation="MTISNGPETAGQKMSGNGVPLDNHDAKQFELEFKAICAEVLKLEV
                      DELDDSCSFVLQGGDSISAISLIARCEERGIELKTADVIKAQSISELFLTTRRRLPWAQ
@@ -286,11 +293,12 @@ FEATURES             Location/Qualifiers
                      KPYQSSLEISEQDSGKAKMLYSHLKKTPQWESVLQSRRGADGRDKSGSFSQRGGDLLDA
                      LYLSSLLAGDDHCISVESILAGSRREETDSQGLRQRRRSSQVLGWTMIRKRFIKMLYFG
                      SRKRVKHDTYHVPHHA"
+                     /Pfam="ACP_PCP, NRPS_C, AA-adenyl-dom, NRPS_CT"
      CDS             join(45353..45588,45640..45706,45764..46306,46377..46394)
                      /codon_start=1
                      /gene="oxy1"
                      /product="2OG-Fe(II)-dependent dioxygenase PAOXY1"
-                     /label=PAOXY1
+                     /label="PAOXY1"
                      /protein_id="QIW91878.1"
                      /translation="MASISYAGLLHGTAEAVQSLTEAALTQGFFELDLDCSEGTSLQED
                      VRFLESFSEEIFDSPAPVKALYDFKKIGRFRTTGFKPLGSEEGAKPGKPDGFEMFMLPQ
@@ -298,11 +306,12 @@ FEATURES             Location/Qualifiers
                      DQPSVTNLGFLKYPPQPKDSRNFGHIAHTDVGSLTILSSTARGLQVIDNDTQDWVFVES
                      GPQHIFVQFGDCLKFLSQGRIIPSIHRVVPSDVDTSATKYTIAYFVRPNEKAQIATDDG
                      TTEKRI"
+                     /Pfam="2OG-FeII_Oxy"
      CDS             join(47506..47757,47815..48184,48253..49238)
                      /codon_start=1
                      /gene="p450-2"
                      /product="cytochrome P450 monooxygenase PAP450-2"
-                     /label=PAP450-2
+                     /label="PAP450-2"
                      /protein_id="QIW91879.1"
                      /translation="MFTLKKSAIAMYSQLDLTSLLYGVIVSVSFVLFLFLINRLTTWEY
                      SIPKEVPWIDRRNEPLSYLRAKARSFTGGKDNVTKAYFEFNKLGRAAACAIAFGRPQVI
@@ -314,12 +323,13 @@ FEATURES             Location/Qualifiers
                      RNGVTLEDGLHLPFGTRLSVAACGIHRDDAVWPDANTYNPARYEMGADAATSGSTQGIV
                      SAMSRGTESFLAFGLGKRACPGRFFVTEELKLLFAHMFAKYEIKVAKSAQKADPFAWLT
                      VGGPQEQLMVRRKPDVGL"
+                     /Pfam="p450"
      CDS             complement(join(49880..50197,50260..50585,50654..50816,
                      50912..51157,51217..51612,51701..51979))
                      /codon_start=1
                      /gene="ligase"
                      /product="CoA ligase PALigase"
-                     /label=PALigase
+                     /label="PALigase"
                      /protein_id="QIW91880.1"
                      /translation="MVFTSSPWWSEIAVPVPDTKLVGDFVIERNNPLYDWSEDKPVLVC
                      AQSGKSYKMKEIDHNVTLLAASLAKALGWSPNKGAPEDKVVGICSFNTIDLVPLSWAIH
@@ -331,22 +341,24 @@ FEATURES             Location/Qualifiers
                      SEINDFGVSGDLYLRSPSIMKGYLGESAVDSLAFDSDGWLITGDVACIKKNTDGVEHLF
                      IVDRKKDIMKVKGIQVPPVEIEGQLLNHPAVDEAAVIAINDNEAGERPFAFVVRSRQVM
                      TDVDEKSLKQAISQHIQTTMSEPFWLRKNIKFVENIPKSHSGKALKFKLKELITNSGQ"
+                     /Pfam="AA-adenyl-dom"
      CDS             complement(join(52710..52784,52841..53325,53381..53648))
                      /codon_start=1
                      /gene="hyd"
                      /product="thioesterase PAHYD"
-                     /label=PAHYD
+                     /label="PAHYD"
                      /protein_id="QIW91881.1"
                      /translation="MDQNPVLIQKLPGRTISQKTRKEPLFLIHDGGGTVFSYFLLGSLG
                      RAVYGISNPYFGTDSGWENGIKSMAECYAKLIKATVPSGKVLLGGWSLGGLIAIQIAHL
                      FANDPDVNVIGIVMIDSSYPVKGRRAKQRSIAFNAEAHTTPEMAEKTRKCMDDARMMTR
                      QWDPPAWRNWAALYTGPDDAQQTDAAPLSPSAALLRATESGSDSSSSQSEAPERAKVQA
                      LGFDRYENFDLHSVVDVPGDHFSIFSKENIHELTRRLKESCDTLSKSSARPRY"
+                     /Pfam="Thioesterase"
      CDS             join(56086..58058,58114..58396)
                      /codon_start=1
                      /gene="hyp"
                      /product="hypothetical protein PAHYP"
-                     /label=PAHYP
+                     /label="PAHYP"
                      /protein_id="QIW91882.1"
                      /translation="MEFLESTNQTTLTSNRNLDPEVFQMVGGEWKSQDLMLMNELCVDF
                      RHKLLDILSTSCQSSFIEARKLAEEGLLDILDRISSLSGSEDLPDAPSPSLFAFSPDEN
@@ -361,11 +373,12 @@ FEATURES             Location/Qualifiers
                      VRPKYRSKSQALTDLMQMLYPGLEPVPEGNRSSQDCVYSRKLTKLRNRLSCARNWYQFE
                      QTFRWGILALIPCAGRFSISIDQVEKLPSDTLKIFLTYLQEYRGPFLHRLSHALSKDLF
                      DVLAQTDMTHVFQFEEVEENSFSDVLYDTDQLLELCMPVSQRTGLVTPDPTAAEISP"
+                     /Pfam="EcdJ"
      CDS             complement(join(58886..59548,59615..59788,59850..60011))
                      /codon_start=1
                      /gene="oxy4"
                      /product="2OG-Fe(II)-dependent dioxygenase PAOXY4"
-                     /label=PAOXY4
+                     /label="PAOXY4"
                      /protein_id="QIW91883.1"
                      /translation="MEIKTLDFAKFHCGVESERREFSSALLEGFSRAGFVKIINHGFSQ
                      EEIAQLFEWNRRFFELPDRCKAVIANEEGPKPQRGWSSTGVEKTGLLNPGGRINLSKMA
@@ -373,11 +386,12 @@ FEATURES             Location/Qualifiers
                      MHLPKGAFVRKCLGHASELRLNHYPSITVQTLEEGKTRRIWPHTDFGIITLLAQDDMGG
                      LEIQDKDHPNQFLPVRREDPSEFVVNIGDTLERLTNGVLRAGLHQVTTPQHMQNRRDEM
                      LPSRRSIAFFLKAHRQMSVGPLSQFVTDDRPSQYEDMTALGYQQRRTGIVY"
+                     /Pfam="DIOX_N, 2OG-FeII_Oxy"
      CDS             join(60751..60906,61004..61696,61774..62598)
                      /codon_start=1
                      /gene="p450-1"
                      /product="cytochrome P450 monooxygenase PAP450-1"
-                     /label=PAP450-1
+                     /label="PAP450-1"
                      /protein_id="QIW91884.1"
                      /translation="MLPQLAAHMEQHLDGLQALLCTASVLLAIGVIFRLRVGHSSIHNK
                      FWKAQPWDGSNLSVELLMNSSLADETEPKFSKKGKAFALPTFGEAPWVVLPPSSIRELL
@@ -389,6 +403,7 @@ FEATURES             Location/Qualifiers
                      GIDLKADDTDGSSPLHIPVGIRVCVPAHAIHRDPSFHQSPYTFNAFRFSDGTEDNKPPQ
                      AFKKDDGQTRASLEEQKGPSLVTTTDTFLVFGHGRHACPGRFFAALEMKLMLAYLIQWY
                      DVEKLSKRPEKQVMVGTARPNANLNLSVRRRRGSVRTGYS"
+                     /Pfam="p450"
 ORIGIN
         1 tcaccaagcc agctctgctc gagtttcagg gccatgagcc ctcaatttca catctgccag
        61 ctcgtacacc atatttgtcc gatgatcatc atcacagagg gactgaaata catccttgcc

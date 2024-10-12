@@ -1,24 +1,24 @@
-LOCUS       FBGC00199       17073 bp DNA     linear   UNA 24-JAN-2023
+LOCUS       FBGC00199              17073 bp    DNA     linear   UNA 24-JAN-2023
 DEFINITION  atranorin.
 ACCESSION   FBGC00199
-VERSION     .
+VERSION     FBGC00199
 KEYWORDS    .
 SOURCE      Stereocaulon alpinum
   ORGANISM  Stereocaulon alpinum
+            .
 REFERENCE   1  (bases 1 to 17073)
-  AUTHORS   Kim W, Liu R, Woo S, Kang KB, Park H, Yu YH, Ha HH, Oh SY, Yang JH, 
+  AUTHORS   Kim W, Liu R, Woo S, Kang KB, Park H, Yu YH, Ha HH, Oh SY, Yang JH,
             Kim H, Yun SH, Hur JS.
-  TITLE     Linking a Gene Cluster to Atranorin, a Major Cortical Substance of 
+  TITLE     Linking a Gene Cluster to Atranorin, a Major Cortical Substance of
             Lichens, through Genetic Dereplication and Heterologous Expression.
   JOURNAL   mBio 2021;12:e0111121
-  PUBMED    34154413
+   PUBMED   34154413
 REFERENCE   2  (bases 1 to 17073)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Jan 24, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1128/mBio.01111-21"; journalName: "mBio"; date: "2021"; volume: 
+  JOURNAL   Exported Jan 24, 2023 from SnapGene 6.2.1 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1128/mBio.01111-21"; journalName: "mBio"; date: "2021"; volume:
             "12"; pages: "e0111121"
 FEATURES             Location/Qualifiers
      source          1..17073
@@ -28,7 +28,7 @@ FEATURES             Location/Qualifiers
      CDS             complement(join(1..819,897..1353,1423..1805))
                      /codon_start=1
                      /product="major facilitator superfamily transporter Atr4"
-                     /label=atr4
+                     /label="atr4"
                      /note="MFS multidrug transporter"
                      /protein_id="QXF68950.1"
                      /translation="MEDPKSLSAPLTAFNADTTTADETPAAQKKYEDDNGQKAGSESSE
@@ -41,10 +41,11 @@ FEATURES             Location/Qualifiers
                      VIFGVFSDKILLAKAASGELKPEYRLLPMVWTSFTVPIGLFIYGWSARYAVHWIVPIIG
                      TVFFGIGLLVTLVCTLTYIVDAFTEYAASATAANAVMRSVVGATLPLAGPSMYQALGIG
                      WGNSLLAFIALAGCPIPWVFYVYGERIRKSSKATY"
+                     /Pfam="MFS_1"
      CDS             join(2925..3178,3279..3381,3495..4178)
                      /codon_start=1
                      /product="methyltransferase Atr3"
-                     /label=atr3
+                     /label="atr3"
                      /note="O-methyltransferase"
                      /protein_id="QXF68951.1"
                      /translation="MTSVDTMPPPMVRLESQPDDLMGSSDVADVSDLLPGHTNGLEDEV
@@ -54,11 +55,12 @@ FEATURES             Location/Qualifiers
                      DLLLKGLDGEMDVVYLGLFLHHFDFETCVKVCTRVTRLLKPKPGSLVMGVQVGSLVGDT
                      KPIPIPSGGILWRHDIASLERVWEEVGALTGTKWKVEARLERGKGFGEKWQLEGTRRLG
                      FEVYRL"
-     CDS             complement(join(4917..5073,5131..5297,5346..5832,5894..6519,
-                     6594..6677))
+                     /Pfam="Trt5"
+     CDS             complement(join(4917..5073,5131..5297,5346..5832,
+                     5894..6519,6594..6677))
                      /codon_start=1
                      /product="cytochrome P450 monooxygenase Atr2"
-                     /label=atr2
+                     /label="atr2"
                      /note="cytochrome P450 monooxygenase"
                      /protein_id="QXF68952.1"
                      /translation="MALLDTIELFSNFSLSGVFAGLVLASLLTTTYCIWNIFYNIYLHP
@@ -70,11 +72,12 @@ FEATURES             Location/Qualifiers
                      IRSAFKTEDEIVPESVKRLPYLAAMVSEGLRMYPPFPEGLPRLTPRQGAQICGQWVPGG
                      TYVQFSTHAAHRASANFTDPNVFAPERWLGDTKFASDIKEASQPFSIGPRSCIGRNLAY
                      LEMRLILARMLWSFDMQLTPECEDWDDQNSWIQWDKKPLMVKLSLVKR"
+                     /Pfam="p450"
      CDS             join(9266..9883,9931..15910,15965..16330,16432..16514,
                      16618..17073)
                      /codon_start=1
                      /product="polyketide synthase Atr1"
-                     /label=atr1
+                     /label="atr1"
                      /note="non-reducing polyketide synthase"
                      /protein_id="QXF68953.1"
                      /translation="MASNHEELPSMVVFSPQSKAPKEGYLDELRSYLCGKAELRPLLDG
@@ -120,6 +123,8 @@ FEATURES             Location/Qualifiers
                      TKPITSYDCPTGTDSTGLGWVRPGDPRSELVLSLFKESHGLQVMLNGLSAADLAKPPPL
                      AKIQAISPMAQLKAGRYNVPTFVIHSDCDEIAPFRDSEAFVEELARRGVKTGLGRVRGK
                      KHIHDLALKPEKDGWVDGAGVGYEFIFDVVGRGVRG"
+                     /Pfam="SAT2, PKS_KS, PKS_AT, fPKS_PT, ACP_PCP, HTH_51,
+                     PKS_NRPS_MT, BD-FAE"
 ORIGIN
         1 ctagtaagtc gctttgctag attttctgat tctctcccca tacacataaa agacccatgg
        61 gatcgggcac ccagccaacg caatgaaagc cagcaggcta tttccccagc ctatacctag

@@ -1,30 +1,30 @@
-LOCUS       FBGC00180       54764 bp DNA     linear   UNA 23-JAN-2023
+LOCUS       FBGC00180              54764 bp    DNA     linear   UNA 23-JAN-2023
 DEFINITION  ergot alkaloid.
 ACCESSION   FBGC00180
-VERSION     .
+VERSION     FBGC00180
 KEYWORDS    .
 SOURCE      Claviceps purpurea LM60
   ORGANISM  Claviceps purpurea LM60
+            .
 REFERENCE   1  (bases 1 to 54764)
   AUTHORS   Hicks C, Witte TE, Sproule A, Lee T, Shoukouhi P, Popovic Z, Menzies
             JG, Boddy CN, Liu M, Overy DP.
   TITLE     Evolution of the Ergot Alkaloid Biosynthetic Gene Cluster Results in
             Divergent Mycotoxin Profiles in Claviceps purpurea Sclerotia.
   JOURNAL   Toxins 2021;13:861
-  PUBMED    34941699
+   PUBMED   34941699
 REFERENCE   2  (bases 1 to 54764)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Jan 23, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.3390/toxins13120861"; journalName: "Toxins"; date: "2021"; 
-            volume: "13"; pages: "861"
+  JOURNAL   Exported Jan 23, 2023 from SnapGene 6.2.1 https://www.snapgene.com
 COMMENT     ##Assembly-Data-START##
-            Assembly Method :: CANU v. version 1.8; Nanopolish v. version 
+            Assembly Method :: CANU v. version 1.8; Nanopolish v. version
             0.13.2; Pilon v. version 1.23
             Sequencing Technology :: Illumina; Nanopore
             ##Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.3390/toxins13120861"; journalName: "Toxins"; date: "2021";
+            volume: "13"; pages: "861"
 FEATURES             Location/Qualifiers
      source          1..54764
                      /isolate="LM60"
@@ -35,7 +35,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="lpsC"
                      /product="nonribosomal peptide synthetase LpsC"
-                     /label=lpsC
+                     /label="lpsC"
                      /protein_id="UIO60779.1"
                      /translation="MNSIKLKFNCKDSLWQEHIGAGDFSFAAIFLTTWGIVLRAYLDTD
                      DVFFEYGLSRCEPISQRDGIDELVPDRPFNLKFDGSMTVKDTIRRADSVVYGTPLVQDG
@@ -68,11 +68,12 @@ FEATURES             Location/Qualifiers
                      SSEWMPISDVTSTALTIVQTALNPAGVPATIKPITGGLVWSEIWDLVTDMGYDMEPRPE
                      SEWMATVRRDLEREQEKHPLWTLSHLVESRSQLNTDAGAGPAWADAWRGDEATTRNLKT
                      AFRRSLRFLGEVGFLPGQKGQNTDGEVNGRAFTRAW"
+                     /Pfam="NRPS_C, AA-adenyl-dom, ACP_PCP, NAD_binding_4"
      CDS             complement(6627..7769)
                      /codon_start=1
                      /gene="easA"
                      /product="oxidoreductase EasA"
-                     /label=easA
+                     /label="easA"
                      /protein_id="UIO60780.1"
                      /translation="MSTSNLFNTVPFGKNVLNHKIVLSPMTRFRADDNGVPLSYMKTFY
                      AQRASVRGTLLVTDAVAICPRTKGFPNVPGIWHKDQIAAWKEVVDEVHSKGSFIWLQLW
@@ -81,11 +82,12 @@ FEATURES             Location/Qualifiers
                      KLSPWSTFQGMGTMDDLVPQFEHFITCLREMDIAYLHLANSRWVEEEDSSIRTHPDFHN
                      QTFVQMWGKKRPILLAGGYDPDSARRLVDQTYSDRNNVLVVFGRHYISNPDLPFRLRMG
                      IALQKYNRDTFYIPCSGEGYVDYPFCKEYLDQADEAAVAV"
+                     /Pfam="Oxidored_FMN"
      CDS             join(8321..8830,8895..12296)
                      /codon_start=1
                      /gene="lpsB"
                      /product="nonribosomal peptide synthetase LpsB"
-                     /label=lpsB
+                     /label="lpsB"
                      /protein_id="UIO60781.1"
                      /translation="MATPEKWRKYLEDYIPCSFPTFLDNEGADSKSFASVLVRLEHPYG
                      RLMSFSNNCGVDVAVVLNVAWGIVLQAYTGQDATCFAVIAESNLNIRPCRIRFTSDKVV
@@ -110,13 +112,14 @@ FEATURES             Location/Qualifiers
                      SPVRKILHRIQDVATRGIPFEQIGLAEISHLGKDAAHACSFQTLLLMQPTAVEQNENDF
                      FNTSTSDANYRADATYAINLFCTLENQDLSVTALYDGNIVSTDTMQRLLQNLGKSMQEI
                      HAAPRTLIGDILKSLHSRL"
+                     /Pfam="NRPS_C, AA-adenyl-dom, ACP_PCP"
      CDS             complement(join(12638..12800,12879..13039,13136..13246,
                      13317..13640,13714..13805,13919..14030,14085..14337,
                      14411..14474,14539..14782))
                      /codon_start=1
                      /gene="cloA"
                      /product="cytochrome P450 monooxygenase CloA"
-                     /label=cloA
+                     /label="cloA"
                      /protein_id="UIO60782.1"
                      /translation="MSLQWLQQTRHELSWTWILLTTCIALTSPLVLKGIYNVYFHPLRN
                      IPGPKLAALTDFYAFYWNWIRDEGYSKQFSRLHEQYNSPIIRIGPNNVHTTQVEFYDVI
@@ -127,11 +130,12 @@ FEATURES             Location/Qualifiers
                      LDEHSSIIRNEFDYNKIQNLPYLNAVIKETLRISVPVPGSLPRIVPQGGITIGSFSLPA
                      GTGVSITQQAISFNEKIFPLPHSFLPKRWIGPKSVGLDKWNIAFSRGPRQCIGTTLAYL
                      ELRCVIAYFFSRFDMALTGNCGDQLRWVDRFVAVNLDDVEVQILADRWT"
+                     /Pfam="p450"
      CDS             complement(join(15449..16675,16762..16956))
                      /codon_start=1
                      /gene="easC"
                      /product="catalase EasC"
-                     /label=easC
+                     /label="easC"
                      /protein_id="UIO60783.1"
                      /translation="MASEVSVAPSGSEHSGAQKCPFQDPGLSSMDQDPRLRDILSRFNR
                      EKIPERAVHARGAGAYGEFEVTHDVSDICDIDMLLGVGKKTPCVVRFSTTTLERGSAES
@@ -142,22 +146,24 @@ FEATURES             Location/Qualifiers
                      LFAYPDAQKHRLGPNNLDLPANRTKKFADGSRPGKAEMAPQKVPSQEHADWVSQVKSSS
                      WSEPNETDYKFPREFWKALPRLRGEAFQNSLVVNMAKSVSQVPVDMREKVYSTLALIAD
                      DLADRVRTMTEEIVE"
+                     /Pfam="Catalase"
      CDS             complement(join(17710..17906,17970..18558))
                      /codon_start=1
                      /gene="easD"
                      /product="short-chain dehydrogenase/reductase EasD"
-                     /label=easD
+                     /label="easD"
                      /protein_id="UIO60784.1"
                      /translation="MPSMTSKVFAITGGASGIGAATCRLLAERGAAVICLADVSSTNFS
                      SLQESIAKSNPSTLVHCTELDVRSADKVDQWLQSIVSTHGDLHGAANVAGIAQGAGLRA
                      TPTILEENDVEWSRILDVNLNGVFYSTRAQVRVMKNLPPGHRSIVNVASIAAFSHVPDV
                      YAYGTSKSACAYLTTCIAADVFWSGIRVNCVSPGITNTPMLPQFEPKAKSLDEIKDMYR
                      GQGYPTGEADGVARTIVWLLSEDSIPVYGANINVGACPP"
+                     /Pfam="adh_short_C2"
      CDS             join(18961..19225,19291..19823,19875..20864)
                      /codon_start=1
                      /gene="easE"
                      /product="FAD-linked oxidoreductase EasE"
-                     /label=easE
+                     /label="easE"
                      /note="revised sequence"
                      /protein_id="UIO60785.1"
                      /translation="MYYLLGPVACFALITSVLWAPSGRCRCRPWEPCWPSAADWHALND
@@ -171,11 +177,12 @@ FEATURES             Location/Qualifiers
                      SNLGGRVAENTAIEIALHPAWREAAQLVTLVRVVEPSIEGKLSALNNLTARDVPILYSI
                      DPAAKISYRNLGDPQEKEFQARYWGADNYARLAATKAAWDPSHLFMTSLGVGSEVWDAE
                      GICRKRRGFRAKASSLIGM"
+                     /Pfam="FAD_binding_4, BBE"
      CDS             join(21217..21482,21598..22366)
                      /codon_start=1
                      /gene="easF"
                      /product="methyltransferase EasF"
-                     /label=easF
+                     /label="easF"
                      /protein_id="UIO60786.1"
                      /translation="MPALPVIDIRSNHVEDSLPEQIIKGLTSQPKTLPPLLFYSNEGLE
                      HWNHHSRQPDFYPRRQEIEILKQGGNDIARSIAPSSVILDLGSANLEKVGYLLEALEAQ
@@ -184,11 +191,12 @@ FEATURES             Location/Qualifiers
                      VVPFALQALTYAKALLCDRIDNGIDEKVLSCNLRPEHWHYLSEWNFALGRHEASLIPRF
                      GDVCLGSMLQDIIVKKEEKVRFACSYKYDEKERQKLFLDSGVDQGMVWTNEGCDVAIYE
                      LKLA"
+                     /Pfam="Methyltransf_33"
      CDS             complement(join(22650..22910,23026..23225,23308..23719))
                      /codon_start=1
                      /gene="easG"
                      /product="short-chain dehydrogenase/reductase EasG"
-                     /label=easG
+                     /label="easG"
                      /protein_id="UIO60787.1"
                      /translation="MTVLLTGGTGRTAKHIAGIFRQTNVPFLVASRSSSPGTAENHRKF
                      DWLDEETFPNALSVDQDMKPISVVWLCPPPLYDLATPVIKFIDFAVSQNVKKFVLLSAS
@@ -196,11 +204,12 @@ FEATURES             Location/Qualifiers
                      GKIPFISVVDIARVAACALTAETLKNSDHILQGPDLLTYDEVAQALTGVLGRKITHTKM
                      TEGELAEKLMEEGVTPEEAYMHAAMDSMIKSGSEERVVSDEVKAWTGVKPRGFINFALS
                      EKAAWRARK"
+                     /Pfam="NAD_binding_10, NmrA"
      CDS             join(24399..25564,25630..25751,25806..25864)
                      /codon_start=1
                      /gene="dmaW"
                      /product="DMATS-type prenyltransferase DmaW"
-                     /label=dmaW
+                     /label="dmaW"
                      /protein_id="UIO60788.1"
                      /translation="MSTAKDPGNGVYEILSLIFDFPSKEQRLWWHSSAPMFAAMLDNAG
                      YNIHDQYRHLGIFKKHIIPFLGVYPTKDKERWLSILTRCGLPLELSLNCTDSVVRYTYE
@@ -210,11 +219,12 @@ FEATURES             Location/Qualifiers
                      TLGGQRVDASTMDGLDMLRELWSLLKVPTGHLEYPKGYLELGEIPNEQLPSMANYTLHH
                      NDPMPEPQVYFTVFGMNDAEISNALTIFFQRHGFDDMAKKYRVFLQDSYPYHDFESLNY
                      LHAYISFSYRRNKPYLSVYLHTFETGRWPVFADSPISFDAYRRCELSTK"
+                     /Pfam="Trp_DMAT"
      CDS             complement(27307..28251)
                      /codon_start=1
                      /gene="easH1"
                      /product="2OG-Fe(II)-dependent dioxygenase EasH1"
-                     /label=easH1
+                     /label="easH1"
                      /protein_id="UIO60789.1"
                      /translation="MTSQHQEHTGTKRFSIQSDPVEIHRAIVEDGVAIIEGFLTPEQVQ
                      KLNKDVDAPLKADREQLKFKADKKDDPHFWLADFIPDHVARVHNLVDFSHCFRHEILNH
@@ -222,11 +232,12 @@ FEATURES             Location/Qualifiers
                      FTALTDFDAETGKTQYILGSNKRVELGEPDADHPIEYVGLKPGDTTIVSGKITHRGSDN
                      RSDKMRRAMPIMIIPSILTPFDATCHLSRELVETMTPLAQKMICRRSVMIPAPGTVEVK
                      TGIWCVNMREAGEQIGLKSNQRAKEDAEATDAV"
+                     /Pfam="PhyH"
      CDS             join(29064..29729,29809..36402,36502..39996)
                      /codon_start=1
                      /gene="lpsA1"
                      /product="nonribosomal peptide synthetase LpsA1"
-                     /label=lpsA1
+                     /label="lpsA1"
                      /protein_id="UIO60790.1"
                      /translation="MSIPIPEKLQDLTAVKSPSAFGNSIESINGDKNKSERHTSLSSAV
                      STSEIGHPCLLTNFKLAVACSGPAITKVATVNDKDSGSKLKNVINGKDISASEVFKGAW
@@ -289,11 +300,12 @@ FEATURES             Location/Qualifiers
                      LALDGIDKMVGCSLNYVPVRVPLRRDWKISDLLHWLHQQHIRTMTGDTADWPDVVAKST
                      KWSSDTEFGSVIHYLSAPAAPVYHFPGDTVAQFQLYDEKMTHTCPLVTCVEFPGPSEDS
                      ARQMKILVTSAVGGQDMVDRLLAVFRSLLCEANAQLDQPVSNILQGLRDGDDAMGKAR"
+                     /Pfam="NRPS_C, AA-adenyl-dom, ACP_PCP, NRPS_CT"
      CDS             join(43811..44476,44557..51159,51270..54764)
                      /codon_start=1
                      /gene="lpsA2"
                      /product="nonribosomal peptide synthetase LpsA2"
-                     /label=lpsA2
+                     /label="lpsA2"
                      /protein_id="UIO60791.1"
                      /translation="MSIPIPEKLQDLTAVKSPSAFGNSIESINRDKSNSEWHISSGSAV
                      STFEAHQPCLLTNFKSAATYSGPAITQVVKVNDKTSGSKLNNAVNDRDLSAAEVFKGAW
@@ -357,6 +369,7 @@ FEATURES             Location/Qualifiers
                      KSTTWSSDTEFGSVIHYLSAPAAPVYHFPGDTVAQFQLYDEKMTHTCPLVTCVEFPGPT
                      EDSGRQMKILVTSAVGEQDMVDRLLAVFRSLLCEANAQLDQPVSNILQGLRDGDDAMGK
                      AR"
+                     /Pfam="NRPS_C, AA-adenyl-dom, ACP_PCP, NRPS_CT"
 ORIGIN
         1 cgattctctc ccatcctcca caagtacgag tgatgaaact atcacgactt gatctaactg
        61 tacgaccctc tgcgccataa gaccgatccg cgtagatgac aggacctgtt cgcacgccga

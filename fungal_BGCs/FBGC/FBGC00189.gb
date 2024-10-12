@@ -1,32 +1,32 @@
-LOCUS       FBGC00189       21200 bp DNA     linear   UNA 12-MAY-2023
+LOCUS       FBGC00189              21200 bp    DNA     linear   UNA 12-MAY-2023
 DEFINITION  fumisoquin C.
 ACCESSION   FBGC00189
-VERSION     .
+VERSION     FBGC00189
 KEYWORDS    .
 SOURCE      Aspergillus fumigatus Af293
   ORGANISM  Aspergillus fumigatus Af293
+            .
 REFERENCE   1  (bases 1 to 21200)
-  AUTHORS   Baccile JA, Spraker JE, Le HH, Brandenburger E, Gomez C, Bok JW, 
+  AUTHORS   Baccile JA, Spraker JE, Le HH, Brandenburger E, Gomez C, Bok JW,
             Macheleidt J, Brakhage AA, Hoffmeister D, Keller NP, Schroeder FC.
-  TITLE     Plant-like biosynthesis of isoquinoline alkaloids in Aspergillus 
+  TITLE     Plant-like biosynthesis of isoquinoline alkaloids in Aspergillus
             fumigatus.
   JOURNAL   Nat Chem Biol 2016;12:419-24
-  PUBMED    27065235
+   PUBMED   27065235
 REFERENCE   2  (bases 1 to 21200)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported May 12, 2023 from SnapGene 6.2.2
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1038/nchembio.2061"; journalName: "Nat Chem Biol"; date: "2016";
-            volume: "12"; pages: "419-24"
-COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final 
-            NCBI review. The reference sequence is identical to 
-            CM000174.##Genome-Annotation-Data-START##
+  JOURNAL   Exported May 12, 2023 from SnapGene 6.2.2 https://www.snapgene.com
+COMMENT     ##Genome-Annotation-Data-START##
             Annotation Provider :: INSDC submitter
             Annotation Status   :: Full annotation
-            Annotation Pipeline :: Eukaryotic Annotation Propagation Pipeline 
+            Annotation Pipeline :: Eukaryotic Annotation Propagation Pipeline
             ##Genome-Annotation-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1038/nchembio.2061"; journalName: "Nat Chem Biol"; date: "2016";
+            volume: "12"; pages: "419-24"
+            PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to
 FEATURES             Location/Qualifiers
      source          1..21200
                      /chromosome="6"
@@ -39,7 +39,7 @@ FEATURES             Location/Qualifiers
                      /locus_tag="AFUA_6G03430"
                      /old_locus_tag="Afu6g03430"
                      /product="transcription factor FsqA"
-                     /label=fsqA
+                     /label="fsqA"
                      /note="encoded by transcript AFUA_6G03430A"
                      /db_xref="GeneID:3505181"
                      /protein_id="XP_747734.1"
@@ -53,12 +53,13 @@ FEATURES             Location/Qualifiers
                      AYEDILTSILHAVTRPTPTIPPTLSGLRIDGFQLDGHHTLQLECLLHVSYNLLEKIENI
                      LFGSAGPEELSNPVKYGILGDKLSAGLIDALFEHNETNGLLHCQGKREVAAKRLIREIQ
                      AALKQLDL"
+                     /Pfam="EqxR"
      CDS             complement(join(1795..3239,3308..3356))
                      /codon_start=1
                      /locus_tag="AFUA_6G03440"
                      /old_locus_tag="Afu6g03440"
                      /product="amino acid oxidase FsqB"
-                     /label=fsqB
+                     /label="fsqB"
                      /note="encoded by transcript AFUA_6G03440A"
                      /db_xref="GeneID:3505180"
                      /protein_id="XP_747733.1"
@@ -71,12 +72,13 @@ FEATURES             Location/Qualifiers
                      PRFAFGGEVKVSALGDVDDYENPAAQRALADYRLFLLELLGPTGLQGVDTLGLDQSDNL
                      LNNIANRPFTRVRKCWYNDTPALDFVVDYHPSYGKTLFVATGGCDHAFKFLPIIGEKTL
                      ALILRNRGDSAVSLPAGVEPSLEELSELWRFPVELLQDN"
+                     /Pfam="DAO"
      CDS             join(3933..4288,4363..5107)
                      /codon_start=1
                      /locus_tag="AFUA_6G03450"
                      /old_locus_tag="Afu6g03450"
                      /product="methyltransferase FsqC"
-                     /label=fsqC
+                     /label="fsqC"
                      /note="encoded by transcript AFUA_6G03450A"
                      /db_xref="GeneID:3505179"
                      /protein_id="XP_747732.1"
@@ -87,14 +89,15 @@ FEATURES             Location/Qualifiers
                      SLILALDGCQDHEQIARAYEGPSNQKFVLNGLRHANDVLGTDAFDVRNWSFLGRWNPEL
                      WMHESFYAAKRDLTLKIGRETFVFRKGETIRSIRSGKWPKPKVVDICREAGGDVVDWWM
                      NPDESYGKSTTLMGYLARVLIDSVSD"
+                     /Pfam="Methyltransf_33"
      CDS             join(5870..5915,5964..7909)
                      /codon_start=1
                      /locus_tag="AFUA_6G03460"
                      /old_locus_tag="Afu6g03460"
                      /product="ATP-grasp protein FsqD"
-                     /label=fsqD
-                     /note="encoded by transcript AFUA_6G03460A
-                     revised sequence"
+                     /label="fsqD"
+                     /note="encoded by transcript AFUA_6G03460A revised
+                     sequence"
                      /db_xref="GeneID:3505178"
                      /protein_id="XP_747731.1"
                      /translation="MATQERLQVRSKTNEGVFREYSVILSSPPTESSWQSLDFLFWEEP
@@ -109,16 +112,17 @@ FEATURES             Location/Qualifiers
                      LIEINPRPLGMTGSHIIESTYGIDYWGLAAVLGVGDKDRARALSQPYRDGPQYTCVMVF
                      IPADFPPSSQGIFDTDDICADLLARRPDLAQHISRCATLVRRGQKVAHPTTGRHTFLAY
                      FNVFSRAGREEALDLARQVREEVRYSFL"
+                     /Pfam="ATPgrasp_N, ATP-grasp_4"
      CDS             join(8581..8790,8857..9958,10009..10861,10923..12266,
                      12337..12685)
                      /codon_start=1
                      /locus_tag="AFUA_6G03470"
                      /old_locus_tag="Afu6g03470"
                      /product="ABC transporter FsqE"
-                     /label=fsqE
-                     /note="encoded by transcript AFUA_6G03470A;
-                     similar to multidrug resistance protein 1 (GI:2673953) 
-                     [Aspergillus fumigatus]"
+                     /label="fsqE"
+                     /note="encoded by transcript AFUA_6G03470A; similar to
+                     multidrug resistance protein 1 (GI:2673953) [Aspergillus
+                     fumigatus]"
                      /db_xref="GeneID:3505177"
                      /protein_id="XP_747730.1"
                      /translation="MTPPQMVSQLDDARLDERQRAILDRQLHGLGGETKQRKNVFAYAT
@@ -144,19 +148,19 @@ FEATURES             Location/Qualifiers
                      QSLPDGLSTLVGTGGSMLSGGQKQRIAIARAFLRKPKILLLDEATSALDSQSEAIVQEA
                      MDAIRKDRTTIMVAHRLSTVQNADVICVLQDGKLLEIGTHEQLLGKRGKYWEMVSMQSL
                      H"
+                     /Pfam="ABC_membrane, ABC_tran"
      CDS             join(13409..17465,17555..18525)
                      /codon_start=1
                      /locus_tag="AFUA_6G03480"
                      /old_locus_tag="Afu6g03480"
                      /product="NRPS-like enzyme FsqF"
                      /EC_number="1.14.17.-"
-                     /label=fsqF
-                     /note="encoded by transcript AFUA_6G03480A;
-                     similar to peptide synthetase Psy1 (GI:13242206) [Hypocrea 
-                     virens] contains GAF, pp-binding, AMP-binding, adh_short, 
-                     3Beta_HSD, Epimerase, aminotran_5, and Cys_Met_Meta_PP 
-                     domains
-                     revised sequence"
+                     /label="fsqF"
+                     /note="encoded by transcript AFUA_6G03480A; similar to
+                     peptide synthetase Psy1 (GI:13242206) [Hypocrea virens]
+                     contains GAF, pp-binding, AMP-binding, adh_short,
+                     3Beta_HSD, Epimerase, aminotran_5, and Cys_Met_Meta_PP
+                     domains revised sequence"
                      /db_xref="GeneID:3505176"
                      /protein_id="XP_747729.1"
                      /translation="MLLQDVHHREQLDDDVENAFSKINGTARQASPFADEPSIDVPSTH
@@ -188,12 +192,13 @@ FEATURES             Location/Qualifiers
                      SEMPGLDWRLRLGANSFELEEALVPITRYLKRVGWDNIIAQETVLQDVFLAYLRRRPRV
                      FRIFGEQSSDPAKRVPVITFEVIGHSSTVVANKVNQRGRFRVVSGNCWAPRPTHDVLGL
                      GADGLIRVSFVHYNTVAEVQEFCTELDSVLETLNAGI"
+                     /Pfam="AA-adenyl-dom, ACP_PCP, NAD_binding_4, Aminotran_5"
      CDS             join(19195..19250,19331..19581,19668..19937,20011..21200)
                      /codon_start=1
                      /locus_tag="AFUA_6G03490"
                      /old_locus_tag="Afu6g03490"
                      /product="FAD-dependent monooxygenase FsqG"
-                     /label=fsqG
+                     /label="fsqG"
                      /note="encoded by transcript AFUA_6G03490A"
                      /db_xref="GeneID:3505023"
                      /protein_id="XP_747728.1"
@@ -208,6 +213,7 @@ FEATURES             Location/Qualifiers
                      LAFGRFSRLGDWLTSHLPPSSGLEIITIHGARRADVELMDLHPAFRPWSDEEGWNYWTV
                      YADDDSYHKGHGHVYERCGISKEDGVLVLLRPDGYISLIASFDETHELIDFFDGLQSGP
                      RTVPQPERRANL"
+                     /Pfam="FAD_binding_3, Phe_hydrox_dim"
 ORIGIN
         1 atgatggacg acaagcatgg ccgatacggc gcttgtgacc gatgccgcgg ccaaaagctg
        61 cgatgcgtgg gtgcaggcaa gcccatccca aattccagta gtcgcctcct acgcaatgag

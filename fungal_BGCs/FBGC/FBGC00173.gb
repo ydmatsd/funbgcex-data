@@ -1,28 +1,28 @@
-LOCUS       FBGC00173       30117 bp DNA     linear   UNA 12-MAY-2023
+LOCUS       FBGC00173              30117 bp    DNA     linear   UNA 12-MAY-2023
 DEFINITION  FR901483.
 ACCESSION   FBGC00173
-VERSION     .
+VERSION     FBGC00173
 KEYWORDS    .
 SOURCE      Cladobotryum sp. 11231
   ORGANISM  Cladobotryum sp. 11231
+            .
 REFERENCE   1  (bases 1 to 30117)
-  AUTHORS   Zhang Z, Tamura Y, Tang M, Qiao T, Sato M, Otsu Y, Sasamura S, 
+  AUTHORS   Zhang Z, Tamura Y, Tang M, Qiao T, Sato M, Otsu Y, Sasamura S,
             Taniguchi M, Watanabe K, Tang Y.
   TITLE     Biosynthesis of the Immunosuppressant (-)-FR901483.
   JOURNAL   J Am Chem Soc 2021;143:132-136
-  PUBMED    33372776
+   PUBMED   33372776
 REFERENCE   2  (bases 1 to 30117)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported May 12, 2023 from SnapGene 6.2.2
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1021/jacs.0c12352"; journalName: "J Am Chem Soc"; date: "2021"; 
-            volume: "143"; pages: "132-136"
+  JOURNAL   Exported May 12, 2023 from SnapGene 6.2.2 https://www.snapgene.com
 COMMENT     ##Assembly-Data-START##
             Assembly Method       :: Abyss v. 1.5.2
             Sequencing Technology :: Illumina
             ##Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1021/jacs.0c12352"; journalName: "J Am Chem Soc"; date: "2021";
+            volume: "143"; pages: "132-136"
 FEATURES             Location/Qualifiers
      source          1..30117
                      /isolate="11231"
@@ -33,7 +33,7 @@ FEATURES             Location/Qualifiers
      CDS             complement(join(1..516,660..1190,1241..1477))
                      /codon_start=1
                      /product="methyltransferase FrzF"
-                     /label=frzF
+                     /label="frzF"
                      /note="O-methyltransferase"
                      /protein_id="QQO98476.1"
                      /translation="MSTIRGTLSELSRAADAFAHEVDEAGYGDYTFLPDNSPFDLSFLT
@@ -44,10 +44,11 @@ FEATURES             Location/Qualifiers
                      LPDVVERGRSSLPTVPHAERVSFQAHDLFQEQAIIADAYFLRQILHDWPDGDAERIVRC
                      LIPAMRPGAKLLIMDIVVPEPGAISPYMEKYLRTYDVSMFSMFSAKERTVQQLRDLVER
                      CSARLQFQGISCPPGSATSLLSWVYSAE"
+                     /Pfam="MdpA"
      CDS             2620..3489
                      /codon_start=1
                      /product="methyltransferase FrzE"
-                     /label=frzE
+                     /label="frzE"
                      /note="N-methyltransferase"
                      /protein_id="QQO98477.1"
                      /translation="MAVVERDSDYYDSSYLADYYESLWTDHAALEDIAVYWAFFKERVL
@@ -56,19 +57,21 @@ FEATURES             Location/Qualifiers
                      RVLLPGGLALVSVCAPLLDIEGGDSVPNPYGQVKEVKSKRLEGILYREWETGQKIEGHL
                      FTNSLKTDVVQVSQDGSERVIERNIHNIPLTLLTRDGLRRSAAAAKLEIIEERCIRDEV
                      IFALRAVG"
+                     /Pfam="Methyltransf_25"
      CDS             complement(3644..4021)
                      /codon_start=1
                      /product="aldolase FrzH"
-                     /label=frzH
+                     /label="frzH"
                      /note="aldolase"
                      /protein_id="QQO98478.1"
                      /translation="MAKHITSSEYDAVIATAYCYVEAMEKGSSKRAKEGFHPDGGIYGY
                      VDGEFKGGSISNLFDFLDQSPEGHKIKAHLDVIAMTPTTAIVKTEVEMNPPETDYTDFL
                      GMVKIDGKWQIVSKIFHSYPR"
+                     /Pfam="Lumazine_bd_2"
      CDS             5323..6243
                      /codon_start=1
                      /product="2OG-Fe(II)-dependent dioxygenase FrzG"
-                     /label=frzG
+                     /label="frzG"
                      /note="a-KG dependent oxygenase"
                      /protein_id="QQO98479.1"
                      /translation="MERIPASAGPEAIFEAFRRDGIIVIEGFLTPDQVQRFSSEVQPGL
@@ -77,10 +80,11 @@ FEATURES             Location/Qualifiers
                      ALNGATQVAPGTHRDFTSDHLLDRDFQGRSDLKTIPAVMNPGDCIFFSGKILHGGGANH
                      TADELRRGLAMSFIRRILTPEEAHPLSVSREIVDTMTYRGQAMLGFRSQWPVIEGVPNF
                      YWTHQGSEIGSHIGLKEKTSGSVVL"
+                     /Pfam="PhyH"
      CDS             complement(join(6486..6894,6946..7376,7435..7752))
                      /codon_start=1
                      /product="phosphotransferase FrzJ"
-                     /label=frzJ
+                     /label="frzJ"
                      /note="phosphotransferase"
                      /protein_id="QQO98480.1"
                      /translation="MGTTERESDPIAALILDRLSCTEYACSSLSRVNGGLMNFIYRGTL
@@ -90,10 +94,11 @@ FEATURES             Location/Qualifiers
                      IRDRAAREQKSRTGEKFGFVHGDILSRKSVLIPGDSVTRDQHLRFVIIDWELSQYECHF
                      RECGEVLGDLYLLKRFQDIDGAMSIIQGFLEGYPPLNEDAIFRTAIYLGLFLLANEVTL
                      STDYPKQQIEDFVILARDLVLAGWHKDRETLAKTVFGPVFFRAMN"
+                     /Pfam="FrzJ"
      CDS             9404..10942
                      /codon_start=1
                      /product="cytochrome P450 monooxygenase FrzL"
-                     /label=frzL
+                     /label="frzL"
                      /note="P450"
                      /protein_id="QQO98481.1"
                      /translation="MYYRETMLAFVPYLAVFVACYGLVYYRRKRQRLPLPPGPPQLPLV
@@ -105,11 +110,12 @@ FEATURES             Location/Qualifiers
                      LNAYLLEVMRWRPITPGGMPHASFQDDEYMGYHIPKGTTVVANHWSMDFDESVFTDPYE
                      FRPQRWIEDPNLPSIAFGFGTRICPGRHIAESSIFIVAARLLWSFNFDYAYEDGKRQEI
                      DSWNMTQGLDSGPMPFKASFKIRSPKHQEVMDRECGVSDLDIDAILDKIGADFL"
+                     /Pfam="p450"
      CDS             complement(join(11973..12138,12233..12399,12451..13566,
                      13643..13681))
                      /codon_start=1
                      /product="cytochrome P450 monooxygenase FrzC"
-                     /label=frzC
+                     /label="frzC"
                      /note="P450 for C-N bond coupling"
                      /protein_id="QQO98482.1"
                      /translation="MDLLQRAGLVVGLWVTYHILLGTYNVFFHPLRRFPGPRLAAATQL
@@ -121,10 +127,11 @@ FEATURES             Location/Qualifiers
                      SSASLPYLKAVIREAFRIRPTIPVGLHRLTPKGGREIDGKWVPAGTWISVANLAACRTS
                      SHWKEAGRFIPERWLGDPEFASDNRDTSVPYSIGVRNCIGMSHANTQLRLILSRLLWNF
                      DFEACPGNADPYDYLEYGTWQVEPLKLRVVDIRGQPK"
+                     /Pfam="p450"
      CDS             14072..15199
                      /codon_start=1
                      /product="NADH-dependent flavin oxidoreductase FrzD"
-                     /label=frzD
+                     /label="frzD"
                      /note="old yellow enzyme"
                      /protein_id="QQO98483.1"
                      /translation="MDNSSRLFSPLRLGKCQLRHRVAMSPLTRFRADDLSVQMPFAKEY
@@ -134,10 +141,11 @@ FEATURES             Location/Qualifiers
                      KLSPWGKIQGMGTMQDLVPQFQYLVSELRDMGLAYLRLSNSRWIDGVPQEEEDNSIYVH
                      TWGASRPVLLEGGYDPISAQKEADIRFNGYDAVIAFGRFFISNPDLPFRIKAGVDLQKY
                      NRDTFYTPISEKGYIDYPFSTAFLEEHSSKASLKL"
+                     /Pfam="Oxidored_FMN"
      CDS             15597..16373
                      /codon_start=1
                      /product="short-chain dehydrogenase/reductase FrzI"
-                     /label=frzI
+                     /label="frzI"
                      /note="SDR keto reduction"
                      /protein_id="QQO98484.1"
                      /translation="MNPPPSLLDKAAIVTGGSRGIGAAIAIELARRGAHVLITYNTASH
@@ -145,10 +153,11 @@ FEATURES             Location/Qualifiers
                      DLTHEFWDRIMDVNLRLPAFLVQAALQHLGPAPRIVNISSLAARAGYNATSVYAASKAA
                      LEGMTRAWATELGHRYNVTVNCVNPGPVDTDIMAVDENTDAEVVAYWNAKVKETPAAPR
                      VGTPGDIAQIVAFLCEEGSRWCTGSVVNANGGLVTV"
+                     /Pfam="adh_short_C2"
      CDS             22396..25470
                      /codon_start=1
                      /product="NRPS-like enzyme FrzA"
-                     /label=frzA
+                     /label="frzA"
                      /note="NRPS(A-T-R)"
                      /protein_id="QQO98485.1"
                      /translation="MPSHTFNPQAGYDLAVDRNLGLGEIFYNRAQKSHQAIAVCDGGAV
@@ -169,10 +178,11 @@ FEATURES             Location/Qualifiers
                      CREIGCYPQLPNQRKEFVPVDYVNAAILHIAASPASLGHAYHIVPPTRAVSIDMDNSMA
                      LVDRAGNSPMRPVSYKEWVERLAATSPKRLLPLQPMLAERVKDGLTRWELYENMPVYET
                      TNTARALQNYPGGLQFPVLDTSLMKRYLDFLEAKG"
+                     /Pfam="AA-adenyl-dom, ACP_PCP, NAD_binding_4"
      CDS             complement(join(25660..25928,26013..26354,26411..26810))
                      /codon_start=1
                      /product="short-chain dehydrogenase/reductase FrzB"
-                     /label=frzB
+                     /label="frzB"
                      /note="SDR"
                      /protein_id="QQO98486.1"
                      /translation="MTFIIAVVGATGNQGGSVARSLVQNPSFSVRAITRSPDSQASRSL
@@ -181,11 +191,12 @@ FEATURES             Location/Qualifiers
                      LAEEVAPIFGGFPYFPDEEGYLTFRVPHWAGPGGDNRVPFLGIRDDFGDIIHGIFLNPE
                      RYNGRVIHGVSQLRGFDELVADFEQVTGKKCRYEPVLPSWEAFDIHGIPELEDVKLMFA
                      FTQTTGGRYFAPEPSEADTAAELKRTTAVALGKPEPEQHTLRTKDFFRKHFATEK"
+                     /Pfam="NmrA"
      CDS             join(28437..28521,28602..29742,29811..30117)
                      /codon_start=1
-                     /product="phosphoribosylpyrophosphate amidotransferase 
+                     /product="phosphoribosylpyrophosphate amidotransferase
                      FrzK"
-                     /label=frzK
+                     /label="frzK"
                      /note="phosphoribosylpyrophosphate amidotransferase"
                      /protein_id="QQO98487.1"
                      /translation="MCGVLALILANQSSSAANDLHEALYVLQHRGQDAAGIATSTSSGH
@@ -197,6 +208,7 @@ FEATURES             Location/Qualifiers
                      RTFIMPGQATRQKGVRRKLSAVKEEFKNRTILLVDDSIARGTTSREAISMAREAGVKKI
                      IAACCSPEITYPHIYGIDLPSPHEMVAYERDNNDIAQNLGADRIVYQTLEDLQASCAEI
                      ARENDFQEPHTFENGVFSGQYVTPVPEGYFALLEKIRGTGRKEALDKSSKRL"
+                     /Pfam="GATase_6, Pribosyltran"
 ORIGIN
         1 ctattccgcc gaataaaccc aggataataa actagtggca ctccctggag gacaggatat
        61 tccttggaac tgcagccgcg cgctacaacg ctctaccaag tcacgtaact gttgcacggt

@@ -1,27 +1,27 @@
-LOCUS       FBGC00200       20378 bp DNA     linear   UNA 24-JAN-2023
+LOCUS       FBGC00200              20378 bp    DNA     linear   UNA 24-JAN-2023
 DEFINITION  citrinin.
 ACCESSION   FBGC00200
-VERSION     .
+VERSION     FBGC00200
 KEYWORDS    .
 SOURCE      Monascus ruber M7
   ORGANISM  Monascus ruber M7
+            .
 REFERENCE   1  (bases 1 to 20378)
   AUTHORS   He Y, Cox RJ.
   TITLE     The molecular steps of citrinin biosynthesis in fungi.
   JOURNAL   Chem Sci 2016;7:2119-2127
-  PUBMED    29899939
+   PUBMED   29899939
 REFERENCE   2  (bases 1 to 20378)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Jan 24, 2023 from SnapGene 6.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1039/c5sc04027b"; journalName: "Chem Sci"; date: "2016"; volume:
-            "7"; pages: "2119-2127"
+  JOURNAL   Exported Jan 24, 2023 from SnapGene 6.2.1 https://www.snapgene.com
 COMMENT     ##Assembly-Data-START##
             Assembly Method       :: SOAPdenovo v. Nov/1/2011
             Sequencing Technology :: De novo
             ##Assembly-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1039/c5sc04027b"; journalName: "Chem Sci"; date: "2016"; volume:
+            "7"; pages: "2119-2127"
 FEATURES             Location/Qualifiers
      source          1..20378
                      /isolate="M7"
@@ -31,9 +31,9 @@ FEATURES             Location/Qualifiers
      CDS             complement(join(1..1632,1681..1917))
                      /codon_start=1
                      /gene="citC"
-                     /product="glucose-methanol-choline family oxidoreductase 
+                     /product="glucose-methanol-choline family oxidoreductase
                      CitC"
-                     /label=citC
+                     /label="citC"
                      /note="MRL7"
                      /protein_id="ALI92648.1"
                      /translation="MATVKVIDFIQTPFDFLIVGGGTAGLVLAARLSEEPGIQVGVIEA
@@ -47,11 +47,12 @@ FEATURES             Location/Qualifiers
                      ACYSIVVSNMYPLSRGSVHVRTSNPMDAPAIDPGFLSHPVDVDVLAAGIVFADRVFRST
                      LLNGKVRRRVSPPAGLDLSNMDEARQFVRNHIVPYHHALGTCAMGQVVDEKLRVKGVRR
                      LRVVDASVMPMQVSAAIMATVYAIAERASDIIKKDCGFGRRLRAHI"
+                     /Pfam="GMC_oxred_N, GMC_oxred_C"
      CDS             complement(join(2127..2983,3048..3069))
                      /codon_start=1
                      /gene="citE"
                      /product="short-chain dehydrogenase/reductase CitE"
-                     /label=citE
+                     /label="citE"
                      /note="MRL6"
                      /protein_id="ALI92649.1"
                      /translation="MAFPPSAGFTWISKTHNDTYPTITAAKCKQHGRAVFVTGASKGIG
@@ -60,20 +61,22 @@ FEATURES             Location/Qualifiers
                      KGGEKTIVNMNSIGAHLTRPGASAYQTGKLAMLRLTQFTCVEYAAQGVLAFAIHPGAVD
                      TELASNLPEDTKAKLVDSPELCADTIVWLTQEKQSWLAGRYLSANWDVAELMARKEEIL
                      QGDKLKVKLVL"
+                     /Pfam="adh_short"
      CDS             join(3590..3656,3725..3927,3979..4098)
                      /codon_start=1
                      /gene="mrl5"
                      /product="glyoxalase-like protein Mrl5"
-                     /label=mrl5
+                     /label="mrl5"
                      /protein_id="ALI92650.1"
                      /translation="MSAIPPAGTPVGLEIPAKDVARGSAFYKEVFNWTFAPSTLGFPAH
                      KLQTFEVPGGVFPIGGAMRLAEEIPAGTGATKLYLYVNDIGAAMEAIEKHGGKKASDVI
                      PEGNKGLFQYFEDSEGNNYAIYTYK"
+                     /Pfam="Glyoxalase_6"
      CDS             4543..6048
                      /codon_start=1
                      /gene="citD"
                      /product="aldehyde dehydrogenase CitD"
-                     /label=citD
+                     /label="citD"
                      /note="MRL4"
                      /protein_id="ALI92651.1"
                      /translation="MAEAAARILEALPAVCEYRWSCKDASKRFTVVNPATGEPITVVQA
@@ -85,11 +88,12 @@ FEATURES             Location/Qualifiers
                      YIEQGKREGATLAAQGDPPTAGRLSGGFFVPPTLFTDVTADMTIAQREIFGPVVTVGSF
                      ETEEEAVKTVNSSQYGLFAGVYSSDFTRAMRVTRKLDVGVVLVNNYFRALLGTPFGGVK
                      DSGYGREHWIGTLREWSRVKNVRFPSGLSPIPAWGGAVDVCKL"
+                     /Pfam="Aldedh"
      CDS             join(6401..6623,6683..6956,7009..7516,7593..8117)
                      /codon_start=1
                      /gene="mrl3"
                      /product="transcriptional regulator Mrl3"
-                     /label=mrl3
+                     /label="mrl3"
                      /protein_id="ALI92652.1"
                      /translation="MASTAHRQPSRPTTRQRQRTGRACEECRRRKLRCDGQQPRCGVCV
                      DSGVTCEVNSQRRPRGPKKGYLTALRNRVAMLETRLPAQHLVGPLSEFNPLSTPLTNDH
@@ -100,11 +104,12 @@ FEATURES             Location/Qualifiers
                      PAPDMEFQSGQPVLGAFLSEAIMDVMPQTTSPFNECVILATICGRSLFHAQQYSVRFVY
                      GELAPNWTDQHQWLDNVLTNRLQILSQYYPSPTQICDPMLSFAHIMGQASVIHLYKGMA
                      SVVWAVDDGAWVVEYQRRALSAAQEIVKLAKGLTEFNFFKVCHTASLPCND"
+                     /Pfam="EqxR, Zn_clus, Fungal_trans"
      CDS             complement(8572..9561)
                      /codon_start=1
                      /gene="citB"
                      /product="2OG-Fe(II)-dependent dioxygenase CitB"
-                     /label=citB
+                     /label="citB"
                      /note="MRL2"
                      /protein_id="ALI92653.1"
                      /translation="MPISTKSSFYLPAVDISPYLQDPNSDAARKVIDDVRAACTSTGFF
@@ -113,11 +118,12 @@ FEATURES             Location/Qualifiers
                      VAATLPYGPHVFDEFKENDPACPLRLLHYPPAPAPDVAKGRQLGSSAHTDFGAITLLLQ
                      DDHSGLEVQDCETGEWIGVPPNKDAYVVNLGDMMSRITRGHYKSSIHRVINQNLTDRYS
                      VVFFFDGNLDYRLRPLDRVGQNWDEEDTLTVEEHMLERTTTTYNLKVK"
+                     /Pfam="DIOX_N, 2OG-FeII_Oxy"
      CDS             10061..10846
                      /codon_start=1
                      /gene="citA"
                      /product="hydrolase CitA"
-                     /label=citA
+                     /label="citA"
                      /note="MRL1"
                      /protein_id="ALI92654.1"
                      /translation="MVQTNLEVVDDTLHLPRILCLHGGGSNAAIFQAQCRRLIAQLRSE
@@ -125,11 +131,12 @@ FEATURES             Location/Qualifiers
                      QDDAKGATGAWVGLLGFSQGAKMCASLLYRQQIRQELRGRSFAGSDYRFGVLLAGRAPL
                      VSLDPDLDLNSSLPDVSQITDAKYHGPSQDVLRIPTVHVHGMRDPHVDLHRQLFEEFCA
                      PESRRLVEWDGDHRVPLKYNDVSLVAYQIRELATQTGAP"
+                     /Pfam="FSH1"
      CDS             join(12541..13179,13236..20378)
                      /codon_start=1
                      /gene="citS"
                      /product="polyketide synthase CitS"
-                     /label=citS
+                     /label="citS"
                      /note="pksCT"
                      /protein_id="ALI92655.1"
                      /translation="MIDSTSHSNLRSKAFIFGPQDLSFDVRSFNKLHSQLQNHQWVLDA
@@ -177,6 +184,8 @@ FEATURES             Location/Qualifiers
                      DDVSATLGELLISNTTPYSIYHIENPSRQQWRKMVKTLAQSLDIPRDGIIPFDQWIERV
                      RNSSASINDNPARQLLEFFDQHFIRMSCGNLILDTTKTREHSATLRERGPVGPGLVEKY
                      ISAWKTMGFLD"
+                     /Pfam="SAT2, PKS_KS, PKS_AT, fPKS_PT, ACP_PCP, HTH_51,
+                     PKS_NRPS_MT, fPKS_R"
 ORIGIN
         1 ttatatatga gcacggagtc gacggccaaa cccacagtcc ttcttgatga tatccgaagc
        61 ccgttcggcg atggcataca cagtagccat gatcgcggcg ctgacctgca tcggcatgac
