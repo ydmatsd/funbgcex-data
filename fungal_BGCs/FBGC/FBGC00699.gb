@@ -1,4 +1,4 @@
-LOCUS       FBGC00699               5382 bp    DNA     linear   UNA 27-FEB-2024
+LOCUS       FBGC00699               5382 bp    DNA     linear   UNA 09-FEB-2025
 DEFINITION  malonic semialdehyde.
 ACCESSION   FBGC00699
 VERSION     FBGC00699
@@ -7,14 +7,20 @@ SOURCE      Metarhizium robertsii ARSEF 2575
   ORGANISM  Metarhizium robertsii ARSEF 2575
             .
 REFERENCE   1  (bases 1 to 5382)
+  AUTHORS   Johnson CW, Ohashi M, Tang Y.
+  TITLE     How Fungi Biosynthesize 3-Nitropropanoic Acid: The Simplest yet
+            Lethal Mycotoxin.
+  JOURNAL   Org Lett 2024;26:3158-3163
+   PUBMED   38588324
+REFERENCE   2  (bases 1 to 5382)
   AUTHORS   Johnson CW, Ohashi M, Tang Y
   TITLE     How Fungi Biosynthesize 3-Nitropropanoic Acid: the Simplest yet
             Lethal Mycotoxin
   JOURNAL   bioRxiv 2024
-REFERENCE   2  (bases 1 to 5382)
+REFERENCE   3  (bases 1 to 5382)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Feb 27, 2024 from SnapGene 7.1.1 https://www.snapgene.com
+  JOURNAL   Exported Feb 9, 2025 from SnapGene 8.0.2 https://www.snapgene.com
 COMMENT     ##Genome-Assembly-Data-START##
             Assembly Method       :: Celera Assembler v. 6.1
             Assembly Name         :: MR2010_11_27
@@ -22,6 +28,9 @@ COMMENT     ##Genome-Assembly-Data-START##
             Sequencing Technology :: 454
             ##Genome-Assembly-Data-END##
             SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1021/acs.orglett.4c00758"; journalName: "Org Lett"; date:
+            "2024"; volume: "26"; pages: "3158-3163"
+            SGRef: number: 2; type: "Journal Article"; doi:
             "10.1101/2024.02.22.581660"; journalName: "bioRxiv"; date: "2024"
 FEATURES             Location/Qualifiers
      source          1..5382
@@ -60,6 +69,7 @@ FEATURES             Location/Qualifiers
                      /translation="MSSDATNDELHRRLFDEGIKVRKDVLGSEYVENALRNATPFTRPG
                      QELITEWAWGTVWQRPGLDRKQRSLLTLGLIIGQKAWLELGLHTRGAINNGVTELEIRE
                      AVLHAAVYCGTPSCIEAMIVTQKTINDMVDKGEYKRPEN"
+                     /Pfam="CMD"
      CDS             complement(4309..5382)
                      /codon_start=1
                      /locus_tag="X797_009116"

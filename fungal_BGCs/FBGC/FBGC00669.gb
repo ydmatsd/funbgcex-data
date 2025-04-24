@@ -1,4 +1,4 @@
-LOCUS       FBGC00669              14258 bp    DNA     linear   UNA 17-NOV-2023
+LOCUS       FBGC00669              14258 bp    DNA     linear   UNA 14-FEB-2025
 DEFINITION  cordycepin.
 ACCESSION   FBGC00669
 VERSION     FBGC00669
@@ -7,14 +7,20 @@ SOURCE      Cordyceps militaris CM01
   ORGANISM  Cordyceps militaris CM01
             .
 REFERENCE   1  (bases 1 to 14258)
+  AUTHORS   Zhang H, Yang J, Luo S, Liu L, Yang G, Gao B, Fan H, Deng L, Yang M.
+  TITLE     A novel complementary pathway of cordycepin biosynthesis in
+            Cordyceps militaris.
+  JOURNAL   Int Microbiol 2024;27:1009-1021
+   PUBMED   37987892
+REFERENCE   2  (bases 1 to 14258)
   AUTHORS   Zhang H, Yang J, Luo S, Liu L, Yang G, Gao B, Fan H, Deng L
   TITLE     A Novel Complementary Pathway of Cordycepin Biosynthesis in
             Cordyceps militaris
   JOURNAL   Research Square 2023
-REFERENCE   2  (bases 1 to 14258)
+REFERENCE   3  (bases 1 to 14258)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Nov 17, 2023 from SnapGene 7.0.3 https://www.snapgene.com
+  JOURNAL   Exported Feb 14, 2025 from SnapGene 8.0.2 https://www.snapgene.com
 COMMENT     ##Genome-Assembly-Data-START##
             Assembly Method       :: Newbler v. 2.3
             Assembly Name         :: CmilitarisCM01_v01
@@ -22,6 +28,9 @@ COMMENT     ##Genome-Assembly-Data-START##
             Sequencing Technology :: 454; Illumina
             ##Genome-Assembly-Data-END##
             SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1007/s10123-023-00448-9"; journalName: "Int Microbiol"; date:
+            "2024"; volume: "27"; pages: "1009-1021"
+            SGRef: number: 2; type: "Journal Article"; doi:
             "10.21203/rs.3.rs-3210277/v1"; journalName: "Research Square"; date:
             "2023"
 FEATURES             Location/Qualifiers
@@ -66,6 +75,7 @@ FEATURES             Location/Qualifiers
                      TTDKDVWSNPAHIDMYERTGRVIGELVEAGSVEDKVLWQVSDAEFWTMLRQAANPEQRR
                      AIERLETEGVPEDDGLELPHCAKIRTLDPDVWPRGEKQPAPLSIVLPTWGTERQQYILS
                      RTQHR"
+                     /Pfam="HD"
      CDS             join(6533..6892,6940..9195)
                      /codon_start=1
                      /locus_tag="CCM_04438"

@@ -1,37 +1,38 @@
-LOCUS       FBGC00764        8546 bp DNA     linear   UNA 15-OCT-2024
+LOCUS       FBGC00764               8546 bp    DNA     linear   UNA 15-OCT-2024
 DEFINITION  CPI-2.
 ACCESSION   NC_054692
-VERSION     .
+VERSION     NC_054692
 KEYWORDS    .
 SOURCE      Aspergillus flavus NRRL3357
   ORGANISM  Aspergillus flavus NRRL3357
+            .
 REFERENCE   1  (bases 1 to 8546)
   AUTHORS   Liu M, Zang X, Vlahakis NW, Rodriguez JA, Ohashi M, Tang Y
-  TITLE     Biosynthetic characterization and combinatorial biocatalysis of the 
+  TITLE     Biosynthetic characterization and combinatorial biocatalysis of the
             cysteine protease inhibitor E-64
   JOURNAL   bioRxiv 2024
 REFERENCE   2  (bases 1 to 8546)
   AUTHORS   .
   TITLE     Direct Submission
-  JOURNAL   Exported Oct 15, 2024 from SnapGene 7.2.1
-            https://www.snapgene.com
-COMMENT     SGRef: number: 1; type: "Journal Article"; doi: 
-            "10.1101/2024.10.09.617497"; journalName: "bioRxiv"; date: "2024"
-COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final 
-            NCBI review. The reference sequence is identical to 
-            CP059867.##Genome-Assembly-Data-START##
+  JOURNAL   Exported Oct 15, 2024 from SnapGene 7.2.1 https://www.snapgene.com
+COMMENT     ##Genome-Assembly-Data-START##
             Assembly Date          :: 05-SEP-2019
             Assembly Method        :: MECAT v. SEPT-2019
             Assembly Name          :: UGA_Afla_NRRL3357
             Genome Representation  :: Full
             Expected Final Version :: Yes
             Genome Coverage        :: 70.0x
-            Sequencing Technology  :: PacBio RSII; Bionano Saphyr 
-            ##Genome-Assembly-Data-END####Genome-Annotation-Data-START##
-            Annotation Provider :: INSDC submitter
-            Annotation Status   :: Full annotation
-            Annotation Pipeline :: Eukaryotic Annotation Propagation Pipeline 
+            Sequencing Technology  :: PacBio RSII; Bionano Saphyr
+            ##Genome-Assembly-Data-END##
+            ##Genome-Annotation-Data-START##
+            Annotation Provider    :: INSDC submitter
+            Annotation Status      :: Full annotation
+            Annotation Pipeline    :: Eukaryotic Annotation Propagation Pipeline
             ##Genome-Annotation-Data-END##
+            SGRef: number: 1; type: "Journal Article"; doi:
+            "10.1101/2024.10.09.617497"; journalName: "bioRxiv"; date: "2024"
+            PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to
 FEATURES             Location/Qualifiers
      source          1..8546
                      /chromosome="2"
@@ -40,7 +41,7 @@ FEATURES             Location/Qualifiers
                      /mol_type="genomic DNA"
                      /lat_lon="31.76 N 84.43 W"
                      /isolation_source="Moldy Peanuts"
-                     /collection_date=8-Sep-1982
+                     /collection_date="8-Sep-1982"
                      /note="/geo_loc_name=USA: Dawson, Georgia"
                      /db_xref="taxon:332952"
                      /organism="Aspergillus flavus NRRL3357"
@@ -48,7 +49,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /locus_tag="G4B84_002438"
                      /product="2OG-Fe(II)-dependent dioxygenase Cp1A"
-                     /label=cp1A
+                     /label="cp1A"
                      /db_xref="GeneID:64844670"
                      /protein_id="XP_041142152.1"
                      /translation="MQQFVRNVNPARIGDITTQVSRVVPHLIASDLSCATRSSHVTEVS
@@ -57,11 +58,12 @@ FEATURES             Location/Qualifiers
                      PSTCAALLRPQFRIDVPPEFVKNDASRHIIGSLMAADSSGAPNMLRFREDIMTPLNVEA
                      AAALVELKDRLLGLEVQAETLHLTPDCLPRGSVVLMDNRRWLHARNEVMDPERHLRRVR
                      WDARPFPAMTM"
+                     /Pfam="TauD"
      CDS             complement(join(1914..2813,2897..3151,3210..3563))
                      /codon_start=1
                      /locus_tag="G4B84_002439"
                      /product="ATP-grasp protein Cp1B"
-                     /label=cp1B
+                     /label="cp1B"
                      /db_xref="GeneID:64844671"
                      /protein_id="XP_041142153.1"
                      /translation="MKIPAPQQLQQLHVSLDGGHYEPVTTFDPAKATYLQDQEALQENL
@@ -73,12 +75,13 @@ FEATURES             Location/Qualifiers
                      QELENLVARNVLTLSQAKILDKGIPETILPGSLDLDQAIARCKEMPELKDEYILKPIRS
                      GKGDGIVFGEDLNSEEWISRLEGLRSAQLIPGGGTCIVQRKVKQLLYDVVLRPTGVKTR
                      YPLIGTYHSINGEFLGVGVWRSSPDRICAISHGGAWTVSVMRDE"
+                     /Pfam="AnkG"
      CDS             complement(join(4518..4660,4722..5261,5335..5730,
                      5793..5979))
                      /codon_start=1
                      /locus_tag="G4B84_002440"
                      /product="decarboxylase Cp1C"
-                     /label=cp1C
+                     /label="cp1C"
                      /db_xref="GeneID:64844672"
                      /protein_id="XP_041142154.1"
                      /translation="MMVTDMASDALVDSIITERIRKLDQNPVDIQHDLPFLVADTRRIF
@@ -89,11 +92,12 @@ FEATURES             Location/Qualifiers
                      RRKQIGQDKLSQSDMLYLNDGIYGCFMNAVAENEIYRPILFKQETTSSTEREAGEHRYS
                      VWGPTCDGLDCIAKEATMGCEVKVGDWVKFENMGAYTTATSTQFNGFPNRYDIVYVDDH
                      IPPRCDREVMASTKRIRSEAVL"
+                     /Pfam="Orn_Arg_deC_N"
      CDS             join(7035..7216,7272..7505,7574..8546)
                      /codon_start=1
                      /locus_tag="G4B84_002441"
                      /product="amide bond synthetase Cp1D"
-                     /label=cp1D
+                     /label="cp1D"
                      /db_xref="GeneID:64844673"
                      /protein_id="XP_041142155.1"
                      /translation="MAPTTFSLKEVLAVAEIHPFYNPAVEYPPTPETIKSAIELADKRS
@@ -105,6 +109,7 @@ FEATURES             Location/Qualifiers
                      HLRVLRLRGRDRRFSFKWFGIYFEFENIVSFMQGDKTGVLQWQVILATLESSPQTKLEI
                      RLLRQANNEHIMTKEELLNKLEKYFFILPENEHLFQVTFLDDLSGFEKSSTGNKVMKFV
                      DKVH"
+                     /Pfam="Cp1D"
 ORIGIN
         1 ctacatagtc atggcaggaa atggcctcgc atcccagcgc actctgcgca ggtggcgctc
        61 ggggtccata acttcgttcc gcgcatgaag ccaccggcgg ttatccatga gcacgacaga
